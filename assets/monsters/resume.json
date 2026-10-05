@@ -2,8 +2,8 @@
   "schema_version": 1,
   "branch": "codex/monster-art-continuation-003-20261005",
   "base_commit": "88aae2c209c3f2b6c3e7b1c21fa4c697059d4de9",
-  "saved_commit": "4d28e108f0d04631440f4e025e559b6a1ff1fe3a",
-  "stage": "C scaled004-013 ten normal imagegen requests running",
+  "saved_commit": "8d531cd18e8c3ba91234128d65ec47f8b2bba5ab",
+  "stage": "C scaled004-013: seven pairs passed,009 normal passed;005010 repair",
   "completed_local_ids": [
     "sm-gel-001",
     "sm-gel-002",
@@ -28,6 +28,13 @@
     "sm-scaled-001",
     "sm-scaled-002",
     "sm-scaled-003",
+    "sm-scaled-004",
+    "sm-scaled-006",
+    "sm-scaled-007",
+    "sm-scaled-008",
+    "sm-scaled-011",
+    "sm-scaled-012",
+    "sm-scaled-013",
     "sm-fanged-001",
     "sm-fanged-002",
     "sm-fanged-003",
@@ -103,16 +110,9 @@
     "sm-enigma-003"
   ],
   "remaining_ids": [
-    "sm-scaled-004",
     "sm-scaled-005",
-    "sm-scaled-006",
-    "sm-scaled-007",
-    "sm-scaled-008",
     "sm-scaled-009",
     "sm-scaled-010",
-    "sm-scaled-011",
-    "sm-scaled-012",
-    "sm-scaled-013",
     "sm-scaled-014",
     "sm-scaled-015",
     "sm-scaled-016",
@@ -274,47 +274,19 @@
   ],
   "pending_reasons": [
     {
-      "id": "sm-scaled-004",
-      "reason": "Actual normal output pending; cannot count generated or complete"
-    },
-    {
       "id": "sm-scaled-005",
-      "reason": "Actual normal output pending; cannot count generated or complete"
-    },
-    {
-      "id": "sm-scaled-006",
-      "reason": "Actual normal output pending; cannot count generated or complete"
-    },
-    {
-      "id": "sm-scaled-007",
-      "reason": "Actual normal output pending; cannot count generated or complete"
-    },
-    {
-      "id": "sm-scaled-008",
-      "reason": "Actual normal output pending; cannot count generated or complete"
+      "reason": "Front hex plate corrected, but side count/wings still require original inspection and repair; original attempts kept, not complete."
     },
     {
       "id": "sm-scaled-009",
-      "reason": "Actual normal output pending; cannot count generated or complete"
+      "reason": "Normal approved; separate pixel tool output error, rephrased retry required, not complete."
     },
     {
       "id": "sm-scaled-010",
-      "reason": "Actual normal output pending; cannot count generated or complete"
-    },
-    {
-      "id": "sm-scaled-011",
-      "reason": "Actual normal output pending; cannot count generated or complete"
-    },
-    {
-      "id": "sm-scaled-012",
-      "reason": "Actual normal output pending; cannot count generated or complete"
-    },
-    {
-      "id": "sm-scaled-013",
-      "reason": "Actual normal output pending; cannot count generated or complete"
+      "reason": "Second normal still5visiblefeet; fresh six-leg neutral front guide imagegen running, not complete."
     }
   ],
-  "next_action": "Inspect actual pending-source files scaled004-013 and compare SHA with raw PNG before reuse; for each normal correct anatomy/material/pose, only fullytransparent trim+proportionalresize1024, approve/reopen own canonical then independent pixel imagegen. Native/pair/samefamily QA; save/readback <=10pairs before nextbatch. Previous47pairs actualverified; full215 incomplete.",
+  "next_action": "After GitHub material readback verify actual 7 pairs only. Resume by actual pending source/failure SHA and request audit; repair005 front/side3 plates+parallelrectangularwings, inspect010 fresh sixfeet guide output, regenerate009 pixel from opened own normal. Complete all10native/pair/family QA then save/readback before nextscaled014-023 batch.",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
   "pixel_additional_finishing_authorized": true,
@@ -419,7 +391,7 @@
       "reason": "PR5 externally merged; latestmain88 has sameverifiedmaterialtree11e as293; newbranchfromexactlatestmain."
     }
   ],
-  "record_commit": "9468df603126fcfdc7bcea38c5739b2d879d8486",
+  "record_commit": "8d531cd18e8c3ba91234128d65ec47f8b2bba5ab",
   "secondary_visual_checks": [
     {
       "stage": "Cgel014-020",
@@ -427,6 +399,12 @@
       "pairs": 7,
       "reviewer": "Carson",
       "notes": "Actual native normals/pixels and pairviews; majorfailures0. Wholegel20 style/duplicates glance majorfailures0."
+    },
+    {
+      "stage": "Cscaled012 normal",
+      "status": "passed",
+      "reviewer": "Carson",
+      "notes": "Original native independently confirmed4legs with distinct farrearfoot,3tailseach2annularscales total6."
     }
   ],
   "source_preservation_audit": {
@@ -438,142 +416,44 @@
   },
   "active_generation_requests": [
     {
-      "id": "sm-scaled-004",
-      "variant": "default",
-      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0541283401940000-sm-scaled-004-default.json",
-      "request_sha256": "6e94dccbd77c2d3eb7c3fabc3ac94870f157a5751da3e74ec19608c1c0d565ed",
-      "request_started_at": "2026-10-05T05:41:28.340813+00:00",
-      "state": "awaiting_actual_tool_output",
-      "reference_images": [
-        {
-          "path": "/workspace/sodaterumon/assets/monsters/scaled/sm-scaled-001/default.png",
-          "sha256": "21aefc5bad5f84210e8491925153334faa54dfc01abbb83fb26f5bb4bd3694c5"
-        }
-      ]
-    },
-    {
       "id": "sm-scaled-005",
       "variant": "default",
-      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0541284997180000-sm-scaled-005-default.json",
-      "request_sha256": "fd87e961dac57e52e3ed831f856fefba1101ce5a480788b6c56394fbb07048ee",
-      "request_started_at": "2026-10-05T05:41:28.500369+00:00",
-      "state": "awaiting_actual_tool_output",
+      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0603573330810000-sm-scaled-005-default.json",
+      "request_sha256": "3b29e6204c11ca7c4f0427278d3a69346d93ce03cbc2ddca365ec66a74d82f6b",
+      "request_started_at": null,
+      "state": "inspect_actual_pending_source_or_failure_before_reuse",
       "reference_images": [
         {
-          "path": "/workspace/sodaterumon/assets/monsters/scaled/sm-scaled-001/default.png",
-          "sha256": "21aefc5bad5f84210e8491925153334faa54dfc01abbb83fb26f5bb4bd3694c5"
-        }
-      ]
-    },
-    {
-      "id": "sm-scaled-006",
-      "variant": "default",
-      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0541281796570000-sm-scaled-006-default.json",
-      "request_sha256": "008bd2f970617727f6b98f203e123f92f620f96344aa1db1705dfbfc9e7abd82",
-      "request_started_at": "2026-10-05T05:41:28.180245+00:00",
-      "state": "awaiting_actual_tool_output",
-      "reference_images": [
-        {
-          "path": "/workspace/sodaterumon/assets/monsters/scaled/sm-scaled-001/default.png",
-          "sha256": "21aefc5bad5f84210e8491925153334faa54dfc01abbb83fb26f5bb4bd3694c5"
-        }
-      ]
-    },
-    {
-      "id": "sm-scaled-007",
-      "variant": "default",
-      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0541281940260000-sm-scaled-007-default.json",
-      "request_sha256": "2640936554173e96321bd15de35ececec38ce62ea2f7be227e822dd5285f82d7",
-      "request_started_at": "2026-10-05T05:41:28.194153+00:00",
-      "state": "awaiting_actual_tool_output",
-      "reference_images": [
-        {
-          "path": "/workspace/scratch/monster-production/guides/scaled007-eight-feet-nine-roundplates-layout.png",
-          "sha256": "2438610cabe23b95783ea0286e688a0b6409309d9df41a97f1efca45efa425d5"
-        }
-      ]
-    },
-    {
-      "id": "sm-scaled-008",
-      "variant": "default",
-      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0541283548670000-sm-scaled-008-default.json",
-      "request_sha256": "dc0af44ebec9d0818b91116db599e5b1e6afad74ac0c9d1054ed07b844c74084",
-      "request_started_at": "2026-10-05T05:41:28.355676+00:00",
-      "state": "awaiting_actual_tool_output",
-      "reference_images": [
-        {
-          "path": "/workspace/sodaterumon/assets/monsters/scaled/sm-scaled-001/default.png",
-          "sha256": "21aefc5bad5f84210e8491925153334faa54dfc01abbb83fb26f5bb4bd3694c5"
-        }
-      ]
-    },
-    {
-      "id": "sm-scaled-009",
-      "variant": "default",
-      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0541283398210000-sm-scaled-009-default.json",
-      "request_sha256": "54c13310c4af434edf1d2d2df0cab05e79287ddcd985b9647ae7ad9379333933",
-      "request_started_at": "2026-10-05T05:41:28.340527+00:00",
-      "state": "awaiting_actual_tool_output",
-      "reference_images": [
-        {
-          "path": "/workspace/sodaterumon/assets/monsters/scaled/sm-scaled-001/default.png",
-          "sha256": "21aefc5bad5f84210e8491925153334faa54dfc01abbb83fb26f5bb4bd3694c5"
+          "path": "/workspace/generated_images/exec-cabd791a-c4e7-48c2-8bc6-d023e48b554b.png",
+          "sha256": "fc35791671019d0445d8a1e62949708098d6cba8d8f4f5df92486e379b338fcc"
         }
       ]
     },
     {
       "id": "sm-scaled-010",
       "variant": "default",
-      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0541283607160000-sm-scaled-010-default.json",
-      "request_sha256": "f0406ec8b2e8b9cf1dfedefc6db5be7ac45103e36d21a649696fed7797d271b5",
-      "request_started_at": "2026-10-05T05:41:28.360809+00:00",
-      "state": "awaiting_actual_tool_output",
+      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0603574743710000-sm-scaled-010-default.json",
+      "request_sha256": "5dfd506de2a46381e125dcd6867ff3e62ff74e11c73c83faf4a4772f03a50340",
+      "request_started_at": null,
+      "state": "inspect_actual_pending_source_or_failure_before_reuse",
       "reference_images": [
         {
-          "path": "/workspace/scratch/monster-production/guides/scaled010-two-fans-three-five-tiles-six-feet-layout.png",
-          "sha256": "e2400dfb696e3c6903742ac541ab83fada40be343bbcb1ae0bf60e27d8fc2bee"
+          "path": "/workspace/scratch/monster-production/guides/scaled010-frontview-six-feet-clearly-separated-layout-v2.png",
+          "sha256": "2ec2b7336bbead0ff7aa74cce3878dca652a3c8b95971f00f25a6be60a92451e"
         }
       ]
     },
     {
-      "id": "sm-scaled-011",
-      "variant": "default",
-      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0541284962330000-sm-scaled-011-default.json",
-      "request_sha256": "1a9edd3878bb8444037e973a657d724d0b6aa4c6b5fcde50eeef5b92b0a569e0",
-      "request_started_at": "2026-10-05T05:41:28.496848+00:00",
-      "state": "awaiting_actual_tool_output",
+      "id": "sm-scaled-009",
+      "variant": "pixel",
+      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0603573385720000-sm-scaled-009-pixel.json",
+      "request_sha256": "0c5dbac0262fafab7b76a0cccdee4550c2c3b26adfcec0826f3011cfc56b0f18",
+      "request_started_at": null,
+      "state": "inspect_actual_pending_source_or_failure_before_reuse",
       "reference_images": [
         {
-          "path": "/workspace/sodaterumon/assets/monsters/scaled/sm-scaled-001/default.png",
-          "sha256": "21aefc5bad5f84210e8491925153334faa54dfc01abbb83fb26f5bb4bd3694c5"
-        }
-      ]
-    },
-    {
-      "id": "sm-scaled-012",
-      "variant": "default",
-      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0541285099030000-sm-scaled-012-default.json",
-      "request_sha256": "98c5bcdab25c4b65b70a48d4e757905e77f10578d838379d6fa95d38fb7f9e13",
-      "request_started_at": "2026-10-05T05:41:28.510622+00:00",
-      "state": "awaiting_actual_tool_output",
-      "reference_images": [
-        {
-          "path": "/workspace/sodaterumon/assets/monsters/scaled/sm-scaled-001/default.png",
-          "sha256": "21aefc5bad5f84210e8491925153334faa54dfc01abbb83fb26f5bb4bd3694c5"
-        }
-      ]
-    },
-    {
-      "id": "sm-scaled-013",
-      "variant": "default",
-      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0541285080080000-sm-scaled-013-default.json",
-      "request_sha256": "c8b7e6cb195ad4da455534c67a86f1e958c826133d6a48ce76723e6a54f73132",
-      "request_started_at": "2026-10-05T05:41:28.508783+00:00",
-      "state": "awaiting_actual_tool_output",
-      "reference_images": [
-        {
-          "path": "/workspace/sodaterumon/assets/monsters/scaled/sm-scaled-001/default.png",
-          "sha256": "21aefc5bad5f84210e8491925153334faa54dfc01abbb83fb26f5bb4bd3694c5"
+          "path": "/workspace/sodaterumon/assets/monsters/scaled/sm-scaled-009/default.png",
+          "sha256": "3634fe6b0baa32d896cba14e152fcd3f7952540c86914d72e535a06edf075495"
         }
       ]
     }
