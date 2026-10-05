@@ -2,8 +2,8 @@
   "schema_version": 1,
   "branch": "codex/monster-art-continuation-20261005",
   "base_commit": "eba268980ee8eb50c09af51441b9b04d4c3fdbcd",
-  "saved_commit": "725df436ca5946cdf07e86f3be836029beadd5f0",
-  "stage": "B002 locally passed; saving batch",
+  "saved_commit": "b63fdc565acfb7b3c9df094c40527513ab5dc7c6",
+  "stage": "B003 generation in progress",
   "completed_local_ids": [
     "sm-gel-001",
     "sm-gel-002",
@@ -28,15 +28,25 @@
   ],
   "github_verified_ids": [
     "sm-gel-001",
+    "sm-gel-002",
     "sm-scaled-001",
+    "sm-scaled-002",
     "sm-fanged-001",
+    "sm-fanged-002",
     "sm-winged-001",
+    "sm-winged-002",
     "sm-micro-001",
+    "sm-micro-002",
     "sm-flora-001",
+    "sm-flora-002",
     "sm-arcane-001",
+    "sm-arcane-002",
     "sm-decay-001",
+    "sm-decay-002",
     "sm-mineral-001",
-    "sm-enigma-001"
+    "sm-mineral-002",
+    "sm-enigma-001",
+    "sm-enigma-002"
   ],
   "remaining_ids": [
     "sm-gel-003",
@@ -236,7 +246,7 @@
     "sm-enigma-015"
   ],
   "pending_reasons": [],
-  "next_action": "Publish B00210 pairs (20PNG/10meta) plus records; fetch exact commit and readback every saved byte/hash. Then B00310 defaults, independent pixel redraws and QA. Entire goal remains incomplete with195 pairs ungenerated.",
+  "next_action": "Finish current B00310 real default generation requests; inspect anatomy and finish1024; actually open approved normals then separately redraw pixels. Save/readback B00310 before entering remaining185. Entiregoal remains incomplete.",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
   "pixel_additional_finishing_authorized": true,
@@ -244,5 +254,16 @@
   "previous_branch": "codex/monster-art-completion-20261005",
   "previous_record_commit": "41b2c63493b10f69d839966cfcc4a047bde414b4",
   "previous_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/3",
-  "last_material_commit": "b5e565c47dac98ca2db776a763637427d5ea2d24"
+  "last_material_commit": "b63fdc565acfb7b3c9df094c40527513ab5dc7c6",
+  "batch_readbacks": [
+    {
+      "stage": "B002",
+      "commit_sha": "b63fdc565acfb7b3c9df094c40527513ab5dc7c6",
+      "png": 20,
+      "meta": 10,
+      "files": 33,
+      "verified": true,
+      "checked_at": "2026-10-05T03:48:53.953213+00:00"
+    }
+  ]
 }
