@@ -841,11 +841,28 @@
         ],
         "notes": "Parentfamilycomparison afteroriginalsize andsidebysideQA; independent silhouettes andcohesivegel/pixelstyle, no color-swap substitutes."
       }
-    ]
+    ],
+    "family_comparison": {
+      "status": "passed",
+      "checked_at": "2026-10-05T05:07:34.480166+00:00",
+      "scope": "gel001-013 actual normal/pixel comparison",
+      "checked_by": "Codex",
+      "checks": {
+        "style_cohesion": true,
+        "distinct_silhouettes": true,
+        "no_reassigned_image": true,
+        "no_visual_duplicates": true
+      },
+      "notes": [
+        "透明ゲル・マット泡・厚い輪郭など各材質を保ち、共通のかわいい輪郭・セル塗りが揃う。閉輪004と下開口013など別個体の差も保持。個別原寸/対比の後に系統内比較を実施。"
+      ]
+    }
   },
   "readback": {
     "local": "verified",
-    "repository": "not_run",
-    "commit_sha": null
+    "repository": "verified",
+    "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+    "checked_at": "2026-10-05T05:02:39.218452+00:00",
+    "material_meta_sha256": "f92c3780ed437ddb6259cd9ce6941c33bceb3af093686ab097dc68323441a546"
   }
 }
