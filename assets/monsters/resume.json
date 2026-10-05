@@ -2,8 +2,8 @@
   "schema_version": 1,
   "branch": "codex/monster-art-continuation-003-20261005",
   "base_commit": "88aae2c209c3f2b6c3e7b1c21fa4c697059d4de9",
-  "saved_commit": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
-  "stage": "C gel004-013 complete GitHubreadbackverified",
+  "saved_commit": "9468df603126fcfdc7bcea38c5739b2d879d8486",
+  "stage": "C gel014-020 partial: fourpairs locallypassed; three normal repairs",
   "completed_local_ids": [
     "sm-gel-001",
     "sm-gel-002",
@@ -18,6 +18,10 @@
     "sm-gel-011",
     "sm-gel-012",
     "sm-gel-013",
+    "sm-gel-015",
+    "sm-gel-017",
+    "sm-gel-019",
+    "sm-gel-020",
     "sm-scaled-001",
     "sm-scaled-002",
     "sm-scaled-003",
@@ -90,12 +94,8 @@
   ],
   "remaining_ids": [
     "sm-gel-014",
-    "sm-gel-015",
     "sm-gel-016",
-    "sm-gel-017",
     "sm-gel-018",
-    "sm-gel-019",
-    "sm-gel-020",
     "sm-scaled-004",
     "sm-scaled-005",
     "sm-scaled-006",
@@ -265,8 +265,21 @@
     "sm-enigma-014",
     "sm-enigma-015"
   ],
-  "pending_reasons": [],
-  "next_action": "Generate gel014-020 sevenpairs; approve each own normal, reopen it, independently imagegen pixel; inspect individual/pair/family, save/readback batch before scaled004-013.",
+  "pending_reasons": [
+    {
+      "id": "sm-gel-014",
+      "reason": "Ribbon-tail repair received; inspection pending"
+    },
+    {
+      "id": "sm-gel-016",
+      "reason": "Fourcorner-feet guide imagegen running, prior candidates only3feet"
+    },
+    {
+      "id": "sm-gel-018",
+      "reason": "Equal horizontal wings correction imagegen running"
+    }
+  ],
+  "next_action": "Save/readback C2 fourpairs015017019020, inspect14tail/16fourfeet/18equalwings repairs, then each own-approved-normal pixelredraw. Finish allC2sevenpairs/save/readback before scaled004-013.",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
   "pixel_additional_finishing_authorized": true,
@@ -352,5 +365,6 @@
       "pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/5",
       "reason": "PR5 externally merged; latestmain88 has sameverifiedmaterialtree11e as293; newbranchfromexactlatestmain."
     }
-  ]
+  ],
+  "record_commit": "9468df603126fcfdc7bcea38c5739b2d879d8486"
 }
