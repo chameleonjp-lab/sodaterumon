@@ -2,9 +2,68 @@
   "schema_version": 1,
   "branch": "codex/monster-art-continuation-003-20261005",
   "base_commit": "88aae2c209c3f2b6c3e7b1c21fa4c697059d4de9",
-  "saved_commit": "8d531cd18e8c3ba91234128d65ec47f8b2bba5ab",
-  "stage": "C scaled004-013: seven pairs passed,009 normal passed;005010 repair",
+  "saved_commit": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+  "stage": "C scaled004-013 alltenpairs passed; preparingfullmaterialsave",
   "completed_local_ids": [
+    "sm-gel-001",
+    "sm-gel-002",
+    "sm-gel-003",
+    "sm-gel-004",
+    "sm-gel-005",
+    "sm-gel-006",
+    "sm-gel-007",
+    "sm-gel-008",
+    "sm-gel-009",
+    "sm-gel-010",
+    "sm-gel-011",
+    "sm-gel-012",
+    "sm-gel-013",
+    "sm-gel-014",
+    "sm-gel-015",
+    "sm-gel-016",
+    "sm-gel-017",
+    "sm-gel-018",
+    "sm-gel-019",
+    "sm-gel-020",
+    "sm-scaled-001",
+    "sm-scaled-002",
+    "sm-scaled-003",
+    "sm-scaled-004",
+    "sm-scaled-005",
+    "sm-scaled-006",
+    "sm-scaled-007",
+    "sm-scaled-008",
+    "sm-scaled-009",
+    "sm-scaled-010",
+    "sm-scaled-011",
+    "sm-scaled-012",
+    "sm-scaled-013",
+    "sm-fanged-001",
+    "sm-fanged-002",
+    "sm-fanged-003",
+    "sm-winged-001",
+    "sm-winged-002",
+    "sm-winged-003",
+    "sm-micro-001",
+    "sm-micro-002",
+    "sm-micro-003",
+    "sm-flora-001",
+    "sm-flora-002",
+    "sm-flora-003",
+    "sm-arcane-001",
+    "sm-arcane-002",
+    "sm-arcane-003",
+    "sm-decay-001",
+    "sm-decay-002",
+    "sm-decay-003",
+    "sm-mineral-001",
+    "sm-mineral-002",
+    "sm-mineral-003",
+    "sm-enigma-001",
+    "sm-enigma-002",
+    "sm-enigma-003"
+  ],
+  "github_verified_ids": [
     "sm-gel-001",
     "sm-gel-002",
     "sm-gel-003",
@@ -60,59 +119,7 @@
     "sm-enigma-002",
     "sm-enigma-003"
   ],
-  "github_verified_ids": [
-    "sm-gel-001",
-    "sm-gel-002",
-    "sm-gel-003",
-    "sm-gel-004",
-    "sm-gel-005",
-    "sm-gel-006",
-    "sm-gel-007",
-    "sm-gel-008",
-    "sm-gel-009",
-    "sm-gel-010",
-    "sm-gel-011",
-    "sm-gel-012",
-    "sm-gel-013",
-    "sm-gel-014",
-    "sm-gel-015",
-    "sm-gel-016",
-    "sm-gel-017",
-    "sm-gel-018",
-    "sm-gel-019",
-    "sm-gel-020",
-    "sm-scaled-001",
-    "sm-scaled-002",
-    "sm-scaled-003",
-    "sm-fanged-001",
-    "sm-fanged-002",
-    "sm-fanged-003",
-    "sm-winged-001",
-    "sm-winged-002",
-    "sm-winged-003",
-    "sm-micro-001",
-    "sm-micro-002",
-    "sm-micro-003",
-    "sm-flora-001",
-    "sm-flora-002",
-    "sm-flora-003",
-    "sm-arcane-001",
-    "sm-arcane-002",
-    "sm-arcane-003",
-    "sm-decay-001",
-    "sm-decay-002",
-    "sm-decay-003",
-    "sm-mineral-001",
-    "sm-mineral-002",
-    "sm-mineral-003",
-    "sm-enigma-001",
-    "sm-enigma-002",
-    "sm-enigma-003"
-  ],
   "remaining_ids": [
-    "sm-scaled-005",
-    "sm-scaled-009",
-    "sm-scaled-010",
     "sm-scaled-014",
     "sm-scaled-015",
     "sm-scaled-016",
@@ -272,21 +279,8 @@
     "sm-enigma-014",
     "sm-enigma-015"
   ],
-  "pending_reasons": [
-    {
-      "id": "sm-scaled-005",
-      "reason": "Front hex plate corrected, but side count/wings still require original inspection and repair; original attempts kept, not complete."
-    },
-    {
-      "id": "sm-scaled-009",
-      "reason": "Normal approved; separate pixel tool output error, rephrased retry required, not complete."
-    },
-    {
-      "id": "sm-scaled-010",
-      "reason": "Second normal still5visiblefeet; fresh six-leg neutral front guide imagegen running, not complete."
-    }
-  ],
-  "next_action": "After GitHub material readback verify actual 7 pairs only. Resume by actual pending source/failure SHA and request audit; repair005 front/side3 plates+parallelrectangularwings, inspect010 fresh sixfeet guide output, regenerate009 pixel from opened own normal. Complete all10native/pair/family QA then save/readback before nextscaled014-023 batch.",
+  "pending_reasons": [],
+  "next_action": "Run staticcheck114PNG57meta, publishfrozenactual20PNG10meta and3records; fetch exactnewcommit andreadbackSHA all33files, recordtenpairproof; continue014-023 next10 withoutapprovalpause.",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
   "pixel_additional_finishing_authorized": true,
@@ -294,7 +288,7 @@
   "previous_branch": "codex/monster-art-continuation-002-20261005",
   "previous_record_commit": "41b2c63493b10f69d839966cfcc4a047bde414b4",
   "previous_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/5",
-  "last_material_commit": "4d28e108f0d04631440f4e025e559b6a1ff1fe3a",
+  "last_material_commit": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
   "batch_readbacks": [
     {
       "stage": "B002",
@@ -375,6 +369,15 @@
       "files": 24,
       "verified": true,
       "checked_at": "2026-10-05T05:40:49.018073+00:00"
+    },
+    {
+      "stage": "C scaled004-013 seven pairs",
+      "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+      "png": 15,
+      "meta": 8,
+      "files": 26,
+      "verified": true,
+      "checked_at": "2026-10-05T06:10:54.421413+00:00"
     }
   ],
   "branch_history": [
@@ -391,7 +394,7 @@
       "reason": "PR5 externally merged; latestmain88 has sameverifiedmaterialtree11e as293; newbranchfromexactlatestmain."
     }
   ],
-  "record_commit": "8d531cd18e8c3ba91234128d65ec47f8b2bba5ab",
+  "record_commit": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
   "secondary_visual_checks": [
     {
       "stage": "Cgel014-020",
@@ -405,57 +408,32 @@
       "status": "passed",
       "reviewer": "Carson",
       "notes": "Original native independently confirmed4legs with distinct farrearfoot,3tailseach2annularscales total6."
+    },
+    {
+      "stage": "Cscaled004006007008011012013",
+      "status": "passed",
+      "pairs": 7,
+      "reviewer": "Carson",
+      "notes": "Nativeoriginal/128/pair/allcounts/materialpalettepose; majorfailures0."
+    },
+    {
+      "stage": "Cscaled005 latestnormal242e6373",
+      "status": "passed",
+      "reviewer": "Carson",
+      "notes": "Side3each,wing143/fullbody290,parallelrectangles,frontpanelcontinuousreflectivepiece,tailcenterline~0.8body accepted."
     }
   ],
   "source_preservation_audit": {
-    "checked_at": "2026-10-05T05:39:08.136384+00:00",
-    "actual_originals": 142,
-    "missing": 0,
-    "hash_mismatches": 0,
-    "private_report": "/workspace/scratch/c2-originals-actual-audit.json"
+    "checked_at": "2026-10-05T06:23:49.870011+00:00",
+    "actual_originals": 177,
+    "actual_reference_versions": 104,
+    "missing_or_hash_mismatches": 0,
+    "private_report": "/workspace/scratch/c3-originals-and-reference-versions-audit.json"
   },
-  "active_generation_requests": [
-    {
-      "id": "sm-scaled-005",
-      "variant": "default",
-      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0603573330810000-sm-scaled-005-default.json",
-      "request_sha256": "3b29e6204c11ca7c4f0427278d3a69346d93ce03cbc2ddca365ec66a74d82f6b",
-      "request_started_at": null,
-      "state": "inspect_actual_pending_source_or_failure_before_reuse",
-      "reference_images": [
-        {
-          "path": "/workspace/generated_images/exec-cabd791a-c4e7-48c2-8bc6-d023e48b554b.png",
-          "sha256": "fc35791671019d0445d8a1e62949708098d6cba8d8f4f5df92486e379b338fcc"
-        }
-      ]
-    },
-    {
-      "id": "sm-scaled-010",
-      "variant": "default",
-      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0603574743710000-sm-scaled-010-default.json",
-      "request_sha256": "5dfd506de2a46381e125dcd6867ff3e62ff74e11c73c83faf4a4772f03a50340",
-      "request_started_at": null,
-      "state": "inspect_actual_pending_source_or_failure_before_reuse",
-      "reference_images": [
-        {
-          "path": "/workspace/scratch/monster-production/guides/scaled010-frontview-six-feet-clearly-separated-layout-v2.png",
-          "sha256": "2ec2b7336bbead0ff7aa74cce3878dca652a3c8b95971f00f25a6be60a92451e"
-        }
-      ]
-    },
-    {
-      "id": "sm-scaled-009",
-      "variant": "pixel",
-      "request_path": "/workspace/scratch/monster-production/requests/2026-10-05T0603573385720000-sm-scaled-009-pixel.json",
-      "request_sha256": "0c5dbac0262fafab7b76a0cccdee4550c2c3b26adfcec0826f3011cfc56b0f18",
-      "request_started_at": null,
-      "state": "inspect_actual_pending_source_or_failure_before_reuse",
-      "reference_images": [
-        {
-          "path": "/workspace/sodaterumon/assets/monsters/scaled/sm-scaled-009/default.png",
-          "sha256": "3634fe6b0baa32d896cba14e152fcd3f7952540c86914d72e535a06edf075495"
-        }
-      ]
-    }
+  "active_generation_requests": [],
+  "unverified_completed_ids": [
+    "sm-scaled-005",
+    "sm-scaled-009",
+    "sm-scaled-010"
   ]
 }
