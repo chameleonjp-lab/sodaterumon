@@ -59,13 +59,13 @@
   ],
   "summary": {
     "planned_assets": 400,
-    "generated_assets": 29,
-    "qa_passed_assets": 29,
-    "saved_assets": 29,
-    "readback_verified_assets": 29,
-    "rejected_assets": 1,
+    "generated_assets": 28,
+    "qa_passed_assets": 28,
+    "saved_assets": 28,
+    "readback_verified_assets": 28,
+    "rejected_assets": 2,
     "blocked_assets": 0,
-    "verified_pairs": 7
+    "verified_pairs": 10
   },
   "run_log": [
     {
@@ -504,9 +504,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "61d611ca550616761ca53a96487eb994ecf2ee285da72d77c411066984756d01",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.106296+00:00"
           },
           "blocker": null
         },
@@ -896,9 +896,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "93ff2b689d61265f01c1bd57ed96258261add082936bbf9253a7e84b0eeadca8",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.106314+00:00"
           },
           "blocker": null
         }
@@ -906,7 +906,7 @@
       "meta": {
         "planned_path": "assets/monsters/gel/sm-gel-001/meta.json",
         "actual_file": "assets/monsters/gel/sm-gel-001/meta.json",
-        "sha256": "43a51bab785d827e7e1fb3a54fca30c30a5c008a9fba588b7a445501e686494e",
+        "sha256": "0e609262f8df92a29fb993a7f82112ecdbf1804571cf91e6209b3eab6235e2ee",
         "readback": "verified",
         "bytes": 33873,
         "status": "readback_verified",
@@ -3912,9 +3912,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "21aefc5bad5f84210e8491925153334faa54dfc01abbb83fb26f5bb4bd3694c5",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.108004+00:00"
           },
           "blocker": null
         },
@@ -4303,9 +4303,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "8716e4cb7c87b6133c2082e60d4c778ae48358ec6563466492f3778c73733895",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.108010+00:00"
           },
           "blocker": null
         }
@@ -4313,7 +4313,7 @@
       "meta": {
         "planned_path": "assets/monsters/scaled/sm-scaled-001/meta.json",
         "actual_file": "assets/monsters/scaled/sm-scaled-001/meta.json",
-        "sha256": "95f2fc6dc724e3ecad6da844db83126844e9f3c79f6212e61fe95c2d093b1fd0",
+        "sha256": "7f2701d3a3cb50769cc9e643efcee8d10be46c76dcf591f55b4223195cc5c099",
         "readback": "verified",
         "bytes": 33557,
         "status": "readback_verified",
@@ -7155,7 +7155,7 @@
       "id": "sm-fanged-001",
       "family": "fanged",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/fanged/sm-fanged-001/default.png",
@@ -8415,10 +8415,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "repository": "verified",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "ce601ede9dddafae8805fef7819f2cdc637ae0e1c0830b7f084bd65d4fbd4b4b",
-            "checked_at": "2026-10-05T03:08:44.969456+00:00"
+            "checked_at": "2026-10-05T03:17:48.109357+00:00"
           },
           "blocker": null
         },
@@ -9130,10 +9130,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "repository": "verified",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "a72741b505e69c6578ae6f8017b0a7cdca12316fc4ee853bf1a430c72c245192",
-            "checked_at": "2026-10-05T03:12:33.636021+00:00"
+            "checked_at": "2026-10-05T03:17:48.109362+00:00"
           },
           "blocker": null
         }
@@ -9141,9 +9141,9 @@
       "meta": {
         "planned_path": "assets/monsters/fanged/sm-fanged-001/meta.json",
         "actual_file": "assets/monsters/fanged/sm-fanged-001/meta.json",
-        "sha256": "080678ea47ade9c22282ae95ab6210988b67cf17ec22f3011cfb9768faf2b94f",
+        "sha256": "6a3ba1cd131f9dc22648585f43a754212ccc0bb1051629050e1b5b7547de9e4f",
         "readback": "verified",
-        "bytes": 60530,
+        "bytes": 60623,
         "status": "readback_verified",
         "repository_readback": {
           "status": "verified",
@@ -13462,9 +13462,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "bbafc5c8b82cb3c352bd96ee9a2bcdb937c973212e8c115209cdb0c0e15dc633",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.110924+00:00"
           },
           "blocker": null
         },
@@ -13844,9 +13844,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "bdc1a32be6ba75beabbb57ee14faf5bf21fc1797b6b5ad66447e019eb74f0f56",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.110930+00:00"
           },
           "blocker": null
         }
@@ -13854,7 +13854,7 @@
       "meta": {
         "planned_path": "assets/monsters/winged/sm-winged-001/meta.json",
         "actual_file": "assets/monsters/winged/sm-winged-001/meta.json",
-        "sha256": "a4785e8829bc142e2f59aabd86fdb980843228cefd5dcd7e403d194dc2ee5f82",
+        "sha256": "6d4366c40d42030b25b1d24ffcd8432baf6eb926318c5bc3ba29466dbb177fc9",
         "readback": "verified",
         "bytes": 50810,
         "status": "readback_verified",
@@ -17144,9 +17144,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "84213d8389eab8ba9bf2ddedb5605c262c8ea75707a167e631eb12b7d94a43f1",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.112566+00:00"
           },
           "blocker": null
         },
@@ -17526,9 +17526,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "5ab35c8209bcafe84335896361d033534a04a174ac34e2a44e665426c620c800",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.112572+00:00"
           },
           "blocker": null
         }
@@ -17536,7 +17536,7 @@
       "meta": {
         "planned_path": "assets/monsters/micro/sm-micro-001/meta.json",
         "actual_file": "assets/monsters/micro/sm-micro-001/meta.json",
-        "sha256": "4d7bf1d2593bab074a004a5214062ebf25fb25ef7393cbaf24b1dfb4852a730d",
+        "sha256": "bb08957e48c99ac096168e66d6e1ecb30d08ac0c65d7a76363f799c0c91b2294",
         "readback": "verified",
         "bytes": 41725,
         "status": "readback_verified",
@@ -19918,7 +19918,7 @@
       "id": "sm-flora-001",
       "family": "flora",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/flora/sm-flora-001/default.png",
@@ -20611,10 +20611,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "repository": "verified",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "83f71d2e30ba34259747784503e53f7be9877ceab9f2de0855c62db514b605e1",
-            "checked_at": "2026-10-05T03:03:00.318313+00:00"
+            "checked_at": "2026-10-05T03:17:48.114404+00:00"
           },
           "blocker": null
         },
@@ -21383,10 +21383,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "3a48fadb38ed1a1fdad5347c0fdd961b35bd6b3004d57d265227ba239498e302",
-            "checked_at": "2026-10-05T03:15:20.055970+00:00"
+            "checked_at": "2026-10-05T03:17:48.114410+00:00"
           },
           "blocker": null
         }
@@ -21394,9 +21394,9 @@
       "meta": {
         "planned_path": "assets/monsters/flora/sm-flora-001/meta.json",
         "actual_file": "assets/monsters/flora/sm-flora-001/meta.json",
-        "sha256": "9ed80f3448176176204769d2e09a69e241f8555e9385e58eab37951f9db0908e",
+        "sha256": "b315a4dd40fec68e351342f591a324abd1b73eba4b5b554c0b96b3f208156d38",
         "readback": "verified",
-        "bytes": 53829,
+        "bytes": 53922,
         "status": "readback_verified",
         "repository_readback": {
           "status": "verified",
@@ -21445,12 +21445,12 @@
       "id": "sm-flora-002",
       "family": "flora",
       "design_version": 1,
-      "pair_status": "partial",
+      "pair_status": "qa_failed",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/flora/sm-flora-002/default.png",
           "actual_file": "assets/monsters/flora/sm-flora-002/default.png",
-          "status": "readback_verified",
+          "status": "rejected",
           "sha256": "62b547e89d50e7aab55955d96b7d9b788c764ce4fd2a806a78a3eade7181924d",
           "bytes": 454275,
           "width": 1024,
@@ -22346,8 +22346,8 @@
             }
           ],
           "qa": {
-            "status": "passed",
-            "checked_at": "2026-10-05T03:12:34.353812+00:00",
+            "status": "failed",
+            "checked_at": "2026-10-05T03:18:51.849264+00:00",
             "checked_by": "Codex visual review + Pillow measurements",
             "checks": {
               "png_decodes": true,
@@ -22360,8 +22360,27 @@
               "palette_roles": true
             },
             "notes": [
-              "原本を参照して全身構図を大きく再生成。四根脚、目2個、莢外側の丸い膨らみ3個、上向きの丸い前端、巻いた蔓尾1本、背葉0枚を確認。透明背景、全身、配色を確認し、主体768以上で配置。"
-            ]
+              "原本を参照して全身構図を大きく再生成。四根脚、目2個、莢外側の丸い膨らみ3個、上向きの丸い前端、巻いた蔓尾1本、背葉0枚を確認。透明背景、全身、配色を確認し、主体768以上で配置。",
+              "Final native-size feature review found an extra inner half-turn in vine coil; exact single-loop tail correction required before pixel reference."
+            ],
+            "previous_result": {
+              "status": "passed",
+              "checked_at": "2026-10-05T03:12:34.353812+00:00",
+              "checked_by": "Codex visual review + Pillow measurements",
+              "checks": {
+                "png_decodes": true,
+                "canvas": true,
+                "rgba": true,
+                "transparent_padding": true,
+                "body_extent": true,
+                "visual_anatomy": true,
+                "three_identifiers": true,
+                "palette_roles": true
+              },
+              "notes": [
+                "原本を参照して全身構図を大きく再生成。四根脚、目2個、莢外側の丸い膨らみ3個、上向きの丸い前端、巻いた蔓尾1本、背葉0枚を確認。透明背景、全身、配色を確認し、主体768以上で配置。"
+              ]
+            }
           },
           "readback": {
             "local": "verified",
@@ -22411,9 +22430,9 @@
       "meta": {
         "planned_path": "assets/monsters/flora/sm-flora-002/meta.json",
         "actual_file": "assets/monsters/flora/sm-flora-002/meta.json",
-        "sha256": "f0edaa27ef56c6b89cec6b72d19ef43bfa850411cd6ad200730bdb3a49889ddc",
+        "sha256": "64f337cc38360d5c85defa32ed6d2ad477de0e06c1ea996daf8cfcec650bfedf",
         "readback": "verified",
-        "bytes": 25395,
+        "bytes": 26323,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -24709,9 +24728,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "13c69f667f6dda8a05911bb236d564da865707a387a836d500095a92cc35ee38",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.115573+00:00"
           },
           "blocker": null
         },
@@ -25091,9 +25110,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "4f078bdea8407fe4f83986728b65dfe476872f48522fd7baf2b02f48366a0ba9",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.115578+00:00"
           },
           "blocker": null
         }
@@ -25101,7 +25120,7 @@
       "meta": {
         "planned_path": "assets/monsters/arcane/sm-arcane-001/meta.json",
         "actual_file": "assets/monsters/arcane/sm-arcane-001/meta.json",
-        "sha256": "577b6887473116da84fb9a82959c4b65a0e46c702c201d1df0f13c9f2642cb8a",
+        "sha256": "bbeb96a51f276ab49ef6575442f70c1070b5459d102822484fa9e9084aadf172",
         "readback": "verified",
         "bytes": 33503,
         "status": "readback_verified",
@@ -27943,7 +27962,7 @@
       "id": "sm-decay-001",
       "family": "decay",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/decay/sm-decay-001/default.png",
@@ -29211,10 +29230,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "repository": "verified",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "85d7a3ad638b6e71de120714de07915bdadf63797504094791367d0b55518eca",
-            "checked_at": "2026-10-05T03:03:01.593125+00:00"
+            "checked_at": "2026-10-05T03:17:48.116983+00:00"
           },
           "blocker": null
         },
@@ -29945,10 +29964,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "repository": "verified",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "fd59001dd8faabadc6b1a09b4e80380f84944741e2ba869d8f7582ac48203d56",
-            "checked_at": "2026-10-05T03:08:47.144903+00:00"
+            "checked_at": "2026-10-05T03:17:48.116989+00:00"
           },
           "blocker": null
         }
@@ -29956,9 +29975,9 @@
       "meta": {
         "planned_path": "assets/monsters/decay/sm-decay-001/meta.json",
         "actual_file": "assets/monsters/decay/sm-decay-001/meta.json",
-        "sha256": "bb186addac4924027ea84606d64e1cbd1b0d41536c1e090a9d0069b2650601f7",
+        "sha256": "1896933fe691b05db9089e7c31bc09a77e92b63e9580c2b5934740c5fc1b47f9",
         "readback": "verified",
-        "bytes": 61846,
+        "bytes": 61939,
         "status": "readback_verified",
         "repository_readback": {
           "status": "verified",
@@ -33264,9 +33283,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "ab8b9839f39b536f1f7680393dee1d70ea6cc0b5581076316eb4116532ab619b",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.118378+00:00"
           },
           "blocker": null
         },
@@ -33646,9 +33665,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "59e6d3493930c64d94b814010a1680708dc676401e67a3374b8a7b3ead234724",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.118383+00:00"
           },
           "blocker": null
         }
@@ -33656,7 +33675,7 @@
       "meta": {
         "planned_path": "assets/monsters/mineral/sm-mineral-001/meta.json",
         "actual_file": "assets/monsters/mineral/sm-mineral-001/meta.json",
-        "sha256": "ba72d42529b5e5f1b88e292bf47a26042a89330513357a9cf0e7c359782b5012",
+        "sha256": "c6f480cda32ec0bbb4484a27c24e5e147a7d18ce0b569d0d18d7a4ebc7471556",
         "readback": "verified",
         "bytes": 42103,
         "status": "readback_verified",
@@ -37414,9 +37433,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "3a6f6bcb329b26ae7d24deba9ee1aa01861175a5ae07653f7b80df21f1563a78",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.119868+00:00"
           },
           "blocker": null
         },
@@ -37796,9 +37815,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+            "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
             "sha256": "9e870d9e59e98cd46b0e0337839e62dd485fb97bea755791808b813d4a17c9bd",
-            "checked_at": "2026-10-05T02:51:28.033101+00:00"
+            "checked_at": "2026-10-05T03:17:48.119873+00:00"
           },
           "blocker": null
         }
@@ -37806,7 +37825,7 @@
       "meta": {
         "planned_path": "assets/monsters/enigma/sm-enigma-001/meta.json",
         "actual_file": "assets/monsters/enigma/sm-enigma-001/meta.json",
-        "sha256": "4fbb2a14279e1616c45bfe3b23dcf2bd4de10c0d1399a71e2e10b4641fb4f30f",
+        "sha256": "ef917ced02d8bb8d863de1eb38a4c5a42750abac39b1a045eb907dc1759d2f35",
         "readback": "verified",
         "bytes": 42727,
         "status": "readback_verified",

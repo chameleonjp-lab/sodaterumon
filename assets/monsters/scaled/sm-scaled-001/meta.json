@@ -1052,7 +1052,7 @@
   "readback": {
     "local": "verified",
     "repository": "verified",
-    "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
-    "checked_at": "2026-10-05T02:51:28.033101+00:00"
+    "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
+    "checked_at": "2026-10-05T03:17:48.108231+00:00"
   }
 }

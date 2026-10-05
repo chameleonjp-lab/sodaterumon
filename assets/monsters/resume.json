@@ -2,8 +2,8 @@
   "schema_version": 1,
   "branch": "codex/monster-art-continuation-20261005",
   "base_commit": "eba268980ee8eb50c09af51441b9b04d4c3fdbcd",
-  "saved_commit": "c76323acfaaabed6b0efe0c588778ac28505659a",
-  "stage": "A corrected, waiting new-commit readback; B002 default9 accepted locally",
+  "saved_commit": "b5e565c47dac98ca2db776a763637427d5ea2d24",
+  "stage": "B002 in progress",
   "completed_local_ids": [
     "sm-gel-001",
     "sm-scaled-001",
@@ -19,9 +19,12 @@
   "github_verified_ids": [
     "sm-gel-001",
     "sm-scaled-001",
+    "sm-fanged-001",
     "sm-winged-001",
     "sm-micro-001",
+    "sm-flora-001",
     "sm-arcane-001",
+    "sm-decay-001",
     "sm-mineral-001",
     "sm-enigma-001"
   ],
@@ -238,11 +241,11 @@
       "reason": "Three real default candidates retained:5,5,4 visible legs vs6 required. Next: add2 legs at explicit positions to4-leg candidate, re-QA; other B002 can proceed afterA readback."
     }
   ],
-  "next_action": "Publish corrected A10 pair files and records to continuation branch, read actual commit back, create/update one Draft PR; then generate nine own-default B002 pixels and repair fanged002.",
+  "next_action": "B002: generate nine separately redrawn pixels from actually opened own defaults; repair fanged002 six-leg anatomy, QA/save/readback then B003",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
   "pixel_additional_finishing_authorized": true,
-  "draft_pr": null,
+  "draft_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/4",
   "previous_branch": "codex/monster-art-completion-20261005",
   "previous_record_commit": "41b2c63493b10f69d839966cfcc4a047bde414b4",
   "previous_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/3"
