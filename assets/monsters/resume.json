@@ -2,8 +2,8 @@
   "schema_version": 1,
   "branch": "codex/monster-art-continuation-003-20261005",
   "base_commit": "88aae2c209c3f2b6c3e7b1c21fa4c697059d4de9",
-  "saved_commit": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
-  "stage": "C gel004-013 tenpairs locallypassed; GitHubsave/readback pending",
+  "saved_commit": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
+  "stage": "C gel004-013 complete GitHubreadbackverified",
   "completed_local_ids": [
     "sm-gel-001",
     "sm-gel-002",
@@ -50,11 +50,15 @@
     "sm-gel-001",
     "sm-gel-002",
     "sm-gel-003",
+    "sm-gel-004",
     "sm-gel-005",
     "sm-gel-006",
     "sm-gel-007",
     "sm-gel-008",
+    "sm-gel-009",
     "sm-gel-010",
+    "sm-gel-011",
+    "sm-gel-012",
     "sm-gel-013",
     "sm-scaled-001",
     "sm-scaled-002",
@@ -262,7 +266,7 @@
     "sm-enigma-015"
   ],
   "pending_reasons": [],
-  "next_action": "Publish Cgel004-013 actual20PNG10meta+records; exactGitHubreadback before gel014-020 sevenpairbatch.",
+  "next_action": "Generate gel014-020 sevenpairs; approve each own normal, reopen it, independently imagegen pixel; inspect individual/pair/family, save/readback batch before scaled004-013.",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
   "pixel_additional_finishing_authorized": true,
@@ -270,7 +274,7 @@
   "previous_branch": "codex/monster-art-continuation-002-20261005",
   "previous_record_commit": "41b2c63493b10f69d839966cfcc4a047bde414b4",
   "previous_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/5",
-  "last_material_commit": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+  "last_material_commit": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
   "batch_readbacks": [
     {
       "stage": "B002",
@@ -324,6 +328,15 @@
       "files": 28,
       "verified": true,
       "checked_at": "2026-10-05T05:02:39.218452+00:00"
+    },
+    {
+      "stage": "C gel004-013 complete",
+      "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
+      "png": 20,
+      "meta": 10,
+      "files": 33,
+      "verified": true,
+      "checked_at": "2026-10-05T05:09:57.968052+00:00"
     }
   ],
   "branch_history": [

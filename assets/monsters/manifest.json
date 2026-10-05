@@ -65,7 +65,7 @@
     "readback_verified_assets": 80,
     "rejected_assets": 0,
     "blocked_assets": 0,
-    "verified_pairs": 36
+    "verified_pairs": 40
   },
   "run_log": [
     {
@@ -182,6 +182,26 @@
       "repository_verified_pairs": 36,
       "secondary_visual_review": "Carson10/10 no major defects",
       "next_action": "Save actual C10 then exactGitHub commit readback; then gel014-020"
+    },
+    {
+      "at": "2026-10-05T05:09:58.051665+00:00",
+      "stage": "C gel004-013 complete",
+      "status": "verified",
+      "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
+      "files": 33,
+      "png": 20,
+      "meta": 10,
+      "new_verified_pairs": 4,
+      "cumulative_verified_pairs": 40,
+      "next_action": "Generate gel014-020 sevenpairs; approve each own normal, reopen it, independently imagegen pixel; inspect individual/pair/family, save/readback batch before scaled004-013."
+    },
+    {
+      "at": "2026-10-05T05:11:33.794322+00:00",
+      "stage": "C1 source-preservation audit",
+      "status": "passed",
+      "actual_originals": 118,
+      "missing": 0,
+      "hash_mismatches": 0
     }
   ],
   "entries": [
@@ -3167,7 +3187,7 @@
       "id": "sm-gel-004",
       "family": "gel",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/gel/sm-gel-004/default.png",
@@ -3819,9 +3839,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "c372d3b3fee03f3bfefa4c0d9297ffe9b266a190d277c376d5c9ae87e10a0d8f",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         },
@@ -4220,10 +4240,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "a6ce2f65b79136344ba8ac022b7a834b6fa48f7be1ca035066207036481f454e",
-            "checked_at": "2026-10-05T05:06:58.053276+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         }
@@ -4231,9 +4251,9 @@
       "meta": {
         "planned_path": "assets/monsters/gel/sm-gel-004/meta.json",
         "actual_file": "assets/monsters/gel/sm-gel-004/meta.json",
-        "sha256": "191d50f6badc8a97a859e43f4156d148b89ff874f495ba893f071b8ef6e75e28",
+        "sha256": "4c6e549fd12ef50e28e576ab88471bfa990b563118367f4f23c94b0eac59c829",
         "readback": "verified",
-        "bytes": 34255,
+        "bytes": 34444,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -4926,9 +4946,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "6d6ad7d43cac470a7d314873e5c8b2c2e2b55a7f0848ebc87f25cd194403dda0",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         },
@@ -5328,9 +5348,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "c7d46b1e32436a3e4cf31476fae340a1426b85992be673e27bf046f5b39604c2",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         }
@@ -5338,7 +5358,7 @@
       "meta": {
         "planned_path": "assets/monsters/gel/sm-gel-005/meta.json",
         "actual_file": "assets/monsters/gel/sm-gel-005/meta.json",
-        "sha256": "a2cecf35063020e772881ed5e7f85d063a11521393f04a55217444e643279419",
+        "sha256": "0efa537ea23867fa5bf50b60f988c6f49ad360de4bf411264cdf78a18dd49b2f",
         "readback": "verified",
         "bytes": 35291,
         "status": "readback_verified"
@@ -6052,9 +6072,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "6fe26be2dee039ec21fbb21d7e86b0b1e863d58518b3eba7e9f290cfbce24770",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         },
@@ -6454,9 +6474,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "bceafe5f651b3c58896c6d550f9a4f9413ece4f6def0b26c5bf9eae6f8874409",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         }
@@ -6464,7 +6484,7 @@
       "meta": {
         "planned_path": "assets/monsters/gel/sm-gel-006/meta.json",
         "actual_file": "assets/monsters/gel/sm-gel-006/meta.json",
-        "sha256": "e095f3c2e349b4ccc5f35561c1ff2d37e79d776ab04fae6dc7596c0d509bf216",
+        "sha256": "7be91b7c9f64872c0498346638fa09f3d86294856e0db8abfd7f45ac7032a0d1",
         "readback": "verified",
         "bytes": 35713,
         "status": "readback_verified"
@@ -7178,9 +7198,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "eb53cc9d6fe7765e0271119c4c662883b78bfe240a44a2be02b7900c6f30dc99",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         },
@@ -7580,9 +7600,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "e1088e84bf0e45e80827876aff339ce7acfafd99ba958d4771948f570436b49f",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         }
@@ -7590,7 +7610,7 @@
       "meta": {
         "planned_path": "assets/monsters/gel/sm-gel-007/meta.json",
         "actual_file": "assets/monsters/gel/sm-gel-007/meta.json",
-        "sha256": "42d0198da968a007a77b70c87ae90a4d5ce2232a9adef444582d4cb1c0e60cea",
+        "sha256": "8af2ded5f67f8b1d40a98e56a00f5f718bbcbe49e349f575151e5b72bb54e33e",
         "readback": "verified",
         "bytes": 35131,
         "status": "readback_verified"
@@ -8304,9 +8324,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "e8dad2b0d336ef41a84b678f26d3efc5cc6e50fcda52039a9e1acd336e94b22b",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         },
@@ -8706,9 +8726,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "6935a2f73fac0cadb25a3f0819006e9ef5ab8a2355faa3f1a45d1fb47deba99d",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         }
@@ -8716,7 +8736,7 @@
       "meta": {
         "planned_path": "assets/monsters/gel/sm-gel-008/meta.json",
         "actual_file": "assets/monsters/gel/sm-gel-008/meta.json",
-        "sha256": "493d46e5d897ff2756b25a44b6e6a9f2ea61e8ebc05e699a70730744aa2a4761",
+        "sha256": "8dbd8d7ff7510eccc3f3e43984189aae4fe311c479931db60eb811ef82c64b1c",
         "readback": "verified",
         "bytes": 34860,
         "status": "readback_verified"
@@ -8778,7 +8798,7 @@
       "id": "sm-gel-009",
       "family": "gel",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/gel/sm-gel-009/default.png",
@@ -9741,9 +9761,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "6bae1cc90e3a26b8729b9059f28d667ead3545bcadbeff6ec89b4ad12b1e8f99",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         },
@@ -10142,10 +10162,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "60780ca0dd6f5d1eb2c44109ae534fa2263831665a743d4d6640ed8c22a59a66",
-            "checked_at": "2026-10-05T05:06:58.458335+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         }
@@ -10153,9 +10173,9 @@
       "meta": {
         "planned_path": "assets/monsters/gel/sm-gel-009/meta.json",
         "actual_file": "assets/monsters/gel/sm-gel-009/meta.json",
-        "sha256": "2f6f24937552ebafe8737ed736ba0b93073ab8261d0f783d998dd8a920926213",
+        "sha256": "5b788fa8d362a6f6599d2e5561bec23de3580086ade9fd1d789d32cf6e1c8cd2",
         "readback": "verified",
-        "bytes": 48730,
+        "bytes": 48919,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -10848,9 +10868,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "2460635e2a5891670b3db48d02af691f037ca14f997582524e58a7a74966297d",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         },
@@ -11250,9 +11270,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "7e10152b08ea642b5d2ebbf3f4a20b02add9bae593c589b297aeea379cfea0e4",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         }
@@ -11260,7 +11280,7 @@
       "meta": {
         "planned_path": "assets/monsters/gel/sm-gel-010/meta.json",
         "actual_file": "assets/monsters/gel/sm-gel-010/meta.json",
-        "sha256": "ca1b5e5acc3f44a2521524bd3a5e66571317cc91a3b625b0a4155fd8056bdc2d",
+        "sha256": "d6f9f4123dc111ee663f4ae3e95788ac7d3fe2b519c084e7e6c787c0aa3901d8",
         "readback": "verified",
         "bytes": 34976,
         "status": "readback_verified"
@@ -11322,7 +11342,7 @@
       "id": "sm-gel-011",
       "family": "gel",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/gel/sm-gel-011/default.png",
@@ -12555,10 +12575,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "d4a910727c7e9f4ad4ca68d2924d1c01b49f75a52e744dd8b56eb4b0ba43d886",
-            "checked_at": "2026-10-05T05:00:19.958986+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         },
@@ -12957,10 +12977,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "42d6e20ffa394ce1420aecebe30a84b0c4aadb43ed7783931f357a72da30d1e4",
-            "checked_at": "2026-10-05T05:06:58.842645+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         }
@@ -12968,9 +12988,9 @@
       "meta": {
         "planned_path": "assets/monsters/gel/sm-gel-011/meta.json",
         "actual_file": "assets/monsters/gel/sm-gel-011/meta.json",
-        "sha256": "e3cf3e690dff04e8bae6668809d9badb08e4a741c33f034e7e4303dd938a31b5",
+        "sha256": "eec547283b66adb050d145c327fa04f49000e15eb189786472ba48c2db3dcd6c",
         "readback": "verified",
-        "bytes": 53313,
+        "bytes": 53502,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -13011,7 +13031,7 @@
       "id": "sm-gel-012",
       "family": "gel",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/gel/sm-gel-012/default.png",
@@ -13953,9 +13973,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "29cfdd8514494ccdd0655cd4c7fb42311e7f45b8bf32c400562f922dc3e34afe",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         },
@@ -14354,10 +14374,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "eed0688553ad65bd9a8506881f7c46e1b3989f30d0e6e0754a1f71e8e3255f48",
-            "checked_at": "2026-10-05T05:06:59.235899+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         }
@@ -14365,9 +14385,9 @@
       "meta": {
         "planned_path": "assets/monsters/gel/sm-gel-012/meta.json",
         "actual_file": "assets/monsters/gel/sm-gel-012/meta.json",
-        "sha256": "c7ec1a7d08080e49cb1c210f6923e36f841dd3897df64d912cf1cfc32f9bf3e1",
+        "sha256": "691b92ea4386087a1d282fecc264255abfd25aa1cb2fcd36edab1216a587307a",
         "readback": "verified",
-        "bytes": 42799,
+        "bytes": 42988,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -15060,9 +15080,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "1a5926df3935262cb75ea66f65b8ce7f486909e16a06338f15998cc876e63cf9",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         },
@@ -15462,9 +15482,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "2df0128a566ee22238ff0e0824d007d2c3be4a12",
+            "commit_sha": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
             "sha256": "de0be65d8246c6f28efe4dc7a1e05c5a68aedb80da664b81e7dc8966f7c5ca74",
-            "checked_at": "2026-10-05T05:02:39.218452+00:00"
+            "checked_at": "2026-10-05T05:09:57.968052+00:00"
           },
           "blocker": null
         }
@@ -15472,7 +15492,7 @@
       "meta": {
         "planned_path": "assets/monsters/gel/sm-gel-013/meta.json",
         "actual_file": "assets/monsters/gel/sm-gel-013/meta.json",
-        "sha256": "d99c41ac0256fc249262b85a3f826308284b6f40e5321c6f57a603dba220842c",
+        "sha256": "dd8395b91dd9dc554522cf17de3405d9f98dbe12390023887b0e740600dd6010",
         "readback": "verified",
         "bytes": 35207,
         "status": "readback_verified"
