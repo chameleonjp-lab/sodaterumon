@@ -1408,8 +1408,8 @@
   "readback": {
     "local": "verified",
     "repository": "verified",
-    "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
-    "checked_at": "2026-10-05T06:10:54.421413+00:00",
-    "material_meta_sha256": "d68d78c701afc68130dfde16e9e2ec6e947f24fab9ecef8939d0a0b967757e7b"
+    "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
+    "checked_at": "2026-10-05T06:30:17.734266+00:00",
+    "material_meta_sha256": "36812e9bc52dee9335667de420895df2e56d01dd2ab9b3bc60a48e68aad06a34"
   }
 }

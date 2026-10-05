@@ -826,8 +826,8 @@
   "readback": {
     "local": "verified",
     "repository": "verified",
-    "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
-    "checked_at": "2026-10-05T06:10:54.421413+00:00",
-    "material_meta_sha256": "3419db67c389f7826354fceaa91c3f98aee891a26cb15ff312496a5606aedf60"
+    "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
+    "checked_at": "2026-10-05T06:30:17.734266+00:00",
+    "material_meta_sha256": "0c99c506a7af40ea13c51219209b9eacebca46022fe062a701ede4085bd23c84"
   }
 }

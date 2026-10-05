@@ -65,7 +65,7 @@
     "readback_verified_assets": 114,
     "rejected_assets": 0,
     "blocked_assets": 0,
-    "verified_pairs": 54
+    "verified_pairs": 57
   },
   "run_log": [
     {
@@ -306,6 +306,18 @@
       "originals_verified": 177,
       "reference_versions_verified": 104,
       "next_action": "Run actual-file machine validator; freeze and save20PNG10meta and3records onexistingDraftbranch; read actual GitHubcommit bytes and hashes; then scaled014-023."
+    },
+    {
+      "at": "2026-10-05T06:30:29.177584+00:00",
+      "stage": "C scaled004-013 full10pairs",
+      "status": "verified",
+      "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
+      "files": 33,
+      "png": 20,
+      "meta": 10,
+      "new_verified_pairs": 3,
+      "cumulative_verified_pairs": 57,
+      "next_action": "鱗体系014〜023の10対を通常絵から制作。原本を保持し、個別原寸・通常対比・系統比較の合格後に保存とGitHub実体読み戻し。"
     }
   ],
   "entries": [
@@ -31074,9 +31086,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "0e80c4d72899a069c54b511bdc1699615da7ec735e031179b671244e5e964d46",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         },
@@ -31474,9 +31486,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "ec35f9121cb587628bf987f0ecf43b84c1396ef29ce1e18357a9ce2364f31373",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         }
@@ -31484,7 +31496,7 @@
       "meta": {
         "planned_path": "assets/monsters/scaled/sm-scaled-004/meta.json",
         "actual_file": "assets/monsters/scaled/sm-scaled-004/meta.json",
-        "sha256": "091dbba06c20682ccc60d99f244275309872300757e1c4e399a33b78e5dc3d5e",
+        "sha256": "d3c803e0cedc1967361dcf7e12da7925c326f296cdb162a78941c48a69aa941b",
         "readback": "verified",
         "bytes": 44573,
         "status": "readback_verified"
@@ -31515,7 +31527,7 @@
       "id": "sm-scaled-005",
       "family": "scaled",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/scaled/sm-scaled-005/default.png",
@@ -33659,10 +33671,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "8908fe2280e72714c009dde34633a722a4bb310c13e1c75a8ccd6cb89b1a57db",
-            "checked_at": "2026-10-05T06:18:53.858266+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         },
@@ -34059,10 +34071,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "28e91f1719ebf39b8d7abb46c1922bd30640703388fe7314f6d8857948ded2d8",
-            "checked_at": "2026-10-05T06:22:56.841938+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         }
@@ -34070,9 +34082,9 @@
       "meta": {
         "planned_path": "assets/monsters/scaled/sm-scaled-005/meta.json",
         "actual_file": "assets/monsters/scaled/sm-scaled-005/meta.json",
-        "sha256": "a62d2ba4c6e8d442806828d1cd386bf8693048cfa3725c91d767c0150d53cd3b",
+        "sha256": "132d224e3f541bf0fddc7752441229695b953c89ce671d09e0998189ef081eda",
         "readback": "verified",
-        "bytes": 89382,
+        "bytes": 89571,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -35041,9 +35053,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "12db060d93f67eade72b46ca3dbc26f72186662d10be898811b47a988f20fd94",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         },
@@ -35441,9 +35453,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "8c200a0c6a7d27e1b41dcb72e9b84249da11cd46b673b5b78d85ec2e5b9ef654",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         }
@@ -35451,7 +35463,7 @@
       "meta": {
         "planned_path": "assets/monsters/scaled/sm-scaled-006/meta.json",
         "actual_file": "assets/monsters/scaled/sm-scaled-006/meta.json",
-        "sha256": "f635aba430f16eca487c4949dc799485652a2500d133fbf474b28dbef2ff99b2",
+        "sha256": "cb971231754d2991ff49e6fc395aac8ca7351f7699c2b5372a801aefea797243",
         "readback": "verified",
         "bytes": 44094,
         "status": "readback_verified"
@@ -36714,9 +36726,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "9c3fe4f45c8f64b22a03623e908a1507a7db1a39161cc2b226264d335b6df0a7",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         },
@@ -37114,9 +37126,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "34e98fd30d15e02b21e4c8638403703cb058733c5053ad3ec1bb5202c01cad18",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         }
@@ -37124,7 +37136,7 @@
       "meta": {
         "planned_path": "assets/monsters/scaled/sm-scaled-007/meta.json",
         "actual_file": "assets/monsters/scaled/sm-scaled-007/meta.json",
-        "sha256": "36812e9bc52dee9335667de420895df2e56d01dd2ab9b3bc60a48e68aad06a34",
+        "sha256": "ef4e0feed88c7c59a01a03a936d1aa2a65129740de63dcfdfcbc8fa858352e42",
         "readback": "verified",
         "bytes": 54148,
         "status": "readback_verified"
@@ -38096,9 +38108,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "c499ed7d69f722b0771726443fab1ec4498a634ddaf213daf02633e86c1dea18",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         },
@@ -38496,9 +38508,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "6dedb076d78b4328891abae65ffb09e20528cb7e60977a0446f3279470f1dd9c",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         }
@@ -38506,7 +38518,7 @@
       "meta": {
         "planned_path": "assets/monsters/scaled/sm-scaled-008/meta.json",
         "actual_file": "assets/monsters/scaled/sm-scaled-008/meta.json",
-        "sha256": "79386672d3def32f31899e6c0feed261a9c8d38c7d8152666d824b5453fe8086",
+        "sha256": "dd807f8b9666ed6e2a5dcc9e1b1bf703e422cc4e391c6bb56b2f5cbc657ce2dd",
         "readback": "verified",
         "bytes": 45510,
         "status": "readback_verified"
@@ -38537,7 +38549,7 @@
       "id": "sm-scaled-009",
       "family": "scaled",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/scaled/sm-scaled-009/default.png",
@@ -39494,10 +39506,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "3634fe6b0baa32d896cba14e152fcd3f7952540c86914d72e535a06edf075495",
-            "checked_at": "2026-10-05T06:03:49.305978+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         },
@@ -39911,10 +39923,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "538c2f1fa7a5e241cf6d6bb2b76d5a89dfb9e2b03080a2cebb0ba7479146165b",
-            "checked_at": "2026-10-05T06:14:56.962052+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         }
@@ -39922,9 +39934,9 @@
       "meta": {
         "planned_path": "assets/monsters/scaled/sm-scaled-009/meta.json",
         "actual_file": "assets/monsters/scaled/sm-scaled-009/meta.json",
-        "sha256": "d434ae3a17d2f00a39f3d51a24c0c3ad5190c286ba8e870cbaead8217de2888f",
+        "sha256": "8b46fc0732eecca75b4c96aee3c69d7275859f6d5e9bda02a14f9bf8289e49b4",
         "readback": "verified",
-        "bytes": 44612,
+        "bytes": 44801,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -39952,7 +39964,7 @@
       "id": "sm-scaled-010",
       "family": "scaled",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/scaled/sm-scaled-010/default.png",
@@ -41181,10 +41193,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "7103147618829d459ab8bc323b673a2560ef148f8b52ce7a8c8307a2f24d0532",
-            "checked_at": "2026-10-05T06:08:20.683306+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         },
@@ -41581,10 +41593,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "11c737d7921ecacf946ab4a98c5ee1a31d0baf2bcfc524e1c2067a442d53d7ab",
-            "checked_at": "2026-10-05T06:14:57.368712+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         }
@@ -41592,9 +41604,9 @@
       "meta": {
         "planned_path": "assets/monsters/scaled/sm-scaled-010/meta.json",
         "actual_file": "assets/monsters/scaled/sm-scaled-010/meta.json",
-        "sha256": "5328e146a890c9d2deffe11efe59a68f2dd36b7e276ea3c002d7f03cac372b48",
+        "sha256": "346ab8b163747e66d9078096c8229bdbd0c7b848e19c47774a4f2ad13dca4854",
         "readback": "verified",
-        "bytes": 53079,
+        "bytes": 53268,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -42562,9 +42574,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "97ec24242408ba370ecc995562d15256d713b42467e65cec497c22e9db1cbbad",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         },
@@ -42962,9 +42974,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "1b69a478237819a3a90dd7cf300476d540bd6c5fba772101f1ded00ab07e7277",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         }
@@ -42972,7 +42984,7 @@
       "meta": {
         "planned_path": "assets/monsters/scaled/sm-scaled-011/meta.json",
         "actual_file": "assets/monsters/scaled/sm-scaled-011/meta.json",
-        "sha256": "19c11fb7f17985782a306b90d063f82e8fac1d08ab89183fdda8b4c4cfb0ed8b",
+        "sha256": "9b1bc393c99f31345e731b5f5548bd50f10f5b8d76c5455bf194a27a5533b59f",
         "readback": "verified",
         "bytes": 45260,
         "status": "readback_verified"
@@ -43653,9 +43665,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "fd7274a9a098b7ed74df20e00c9e5e2c0ee2f37cfb388795652120b591cc8e9e",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         },
@@ -44053,9 +44065,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "0498965283024e81822c3fb8299c6848059997cfcea4b3f1ee4a2f94670dbcfe",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         }
@@ -44063,7 +44075,7 @@
       "meta": {
         "planned_path": "assets/monsters/scaled/sm-scaled-012/meta.json",
         "actual_file": "assets/monsters/scaled/sm-scaled-012/meta.json",
-        "sha256": "0c99c506a7af40ea13c51219209b9eacebca46022fe062a701ede4085bd23c84",
+        "sha256": "38afa8d0dfaf17db9e765455a9a3dbe25032143f97f0f9d9a8c82fe6f6e15072",
         "readback": "verified",
         "bytes": 36456,
         "status": "readback_verified"
@@ -45034,9 +45046,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "ec654144d876ea8b5300ef234659297816783fe860e694de82fa155305a9a04c",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         },
@@ -45434,9 +45446,9 @@
           "readback": {
             "local": "verified",
             "repository": "verified",
-            "commit_sha": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+            "commit_sha": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
             "sha256": "4893fbeea2989cbbc4a44967f23224fcfb2310ba4a2a88227aad2f293016a9da",
-            "checked_at": "2026-10-05T06:10:54.421413+00:00"
+            "checked_at": "2026-10-05T06:30:17.734266+00:00"
           },
           "blocker": null
         }
@@ -45444,7 +45456,7 @@
       "meta": {
         "planned_path": "assets/monsters/scaled/sm-scaled-013/meta.json",
         "actual_file": "assets/monsters/scaled/sm-scaled-013/meta.json",
-        "sha256": "9c3672b910c9477b2b6c9c8be7d0abb66c73299b9ae9d017032f5dc23a0006cb",
+        "sha256": "dec6b64225e516edf9e3ec18198adb93a2f49c48db9198c836750b5f973f670c",
         "readback": "verified",
         "bytes": 45158,
         "status": "readback_verified"
