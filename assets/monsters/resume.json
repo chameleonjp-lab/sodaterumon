@@ -1,36 +1,57 @@
 {
   "schema_version": 1,
-  "branch": "codex/monster-art-continuation-20261005",
-  "base_commit": "eba268980ee8eb50c09af51441b9b04d4c3fdbcd",
-  "saved_commit": "b5e565c47dac98ca2db776a763637427d5ea2d24",
-  "stage": "B002 in progress",
+  "branch": "codex/monster-art-continuation-002-20261005",
+  "base_commit": "431b8f8ddd1ccb3247027dfdd35e3dbf6d1f031c",
+  "saved_commit": "bac39356cb977627d19edf06ae2ef20b098f7220",
+  "stage": "B003 in progress; carry verifiedB002 to fresh branch",
   "completed_local_ids": [
     "sm-gel-001",
+    "sm-gel-002",
+    "sm-gel-003",
     "sm-scaled-001",
+    "sm-scaled-002",
     "sm-fanged-001",
+    "sm-fanged-002",
     "sm-winged-001",
+    "sm-winged-002",
+    "sm-winged-003",
     "sm-micro-001",
+    "sm-micro-002",
     "sm-flora-001",
+    "sm-flora-002",
     "sm-arcane-001",
+    "sm-arcane-002",
+    "sm-arcane-003",
     "sm-decay-001",
+    "sm-decay-002",
     "sm-mineral-001",
-    "sm-enigma-001"
+    "sm-mineral-002",
+    "sm-enigma-001",
+    "sm-enigma-002"
   ],
   "github_verified_ids": [
     "sm-gel-001",
+    "sm-gel-002",
     "sm-scaled-001",
+    "sm-scaled-002",
     "sm-fanged-001",
+    "sm-fanged-002",
     "sm-winged-001",
+    "sm-winged-002",
     "sm-micro-001",
+    "sm-micro-002",
     "sm-flora-001",
+    "sm-flora-002",
     "sm-arcane-001",
+    "sm-arcane-002",
     "sm-decay-001",
+    "sm-decay-002",
     "sm-mineral-001",
-    "sm-enigma-001"
+    "sm-mineral-002",
+    "sm-enigma-001",
+    "sm-enigma-002"
   ],
   "remaining_ids": [
-    "sm-gel-002",
-    "sm-gel-003",
     "sm-gel-004",
     "sm-gel-005",
     "sm-gel-006",
@@ -48,7 +69,6 @@
     "sm-gel-018",
     "sm-gel-019",
     "sm-gel-020",
-    "sm-scaled-002",
     "sm-scaled-003",
     "sm-scaled-004",
     "sm-scaled-005",
@@ -72,7 +92,6 @@
     "sm-scaled-023",
     "sm-scaled-024",
     "sm-scaled-025",
-    "sm-fanged-002",
     "sm-fanged-003",
     "sm-fanged-004",
     "sm-fanged-005",
@@ -96,8 +115,6 @@
     "sm-fanged-023",
     "sm-fanged-024",
     "sm-fanged-025",
-    "sm-winged-002",
-    "sm-winged-003",
     "sm-winged-004",
     "sm-winged-005",
     "sm-winged-006",
@@ -115,7 +132,6 @@
     "sm-winged-018",
     "sm-winged-019",
     "sm-winged-020",
-    "sm-micro-002",
     "sm-micro-003",
     "sm-micro-004",
     "sm-micro-005",
@@ -134,7 +150,6 @@
     "sm-micro-018",
     "sm-micro-019",
     "sm-micro-020",
-    "sm-flora-002",
     "sm-flora-003",
     "sm-flora-004",
     "sm-flora-005",
@@ -153,8 +168,6 @@
     "sm-flora-018",
     "sm-flora-019",
     "sm-flora-020",
-    "sm-arcane-002",
-    "sm-arcane-003",
     "sm-arcane-004",
     "sm-arcane-005",
     "sm-arcane-006",
@@ -177,7 +190,6 @@
     "sm-arcane-023",
     "sm-arcane-024",
     "sm-arcane-025",
-    "sm-decay-002",
     "sm-decay-003",
     "sm-decay-004",
     "sm-decay-005",
@@ -196,7 +208,6 @@
     "sm-decay-018",
     "sm-decay-019",
     "sm-decay-020",
-    "sm-mineral-002",
     "sm-mineral-003",
     "sm-mineral-004",
     "sm-mineral-005",
@@ -220,7 +231,6 @@
     "sm-mineral-023",
     "sm-mineral-024",
     "sm-mineral-025",
-    "sm-enigma-002",
     "sm-enigma-003",
     "sm-enigma-004",
     "sm-enigma-005",
@@ -237,16 +247,40 @@
   ],
   "pending_reasons": [
     {
-      "id": "sm-fanged-002",
-      "reason": "Three real default candidates retained:5,5,4 visible legs vs6 required. Next: add2 legs at explicit positions to4-leg candidate, re-QA; other B002 can proceed afterA readback."
+      "id": "sm-mineral-003",
+      "reason": "5visiblehexfeet; sixlegrepairrequestprepared"
+    },
+    {
+      "id": "sm-fanged-003",
+      "reason": "3visiblefinlegs; fourfinrepairrequestprepared"
     }
   ],
-  "next_action": "B002: generate nine separately redrawn pixels from actually opened own defaults; repair fanged002 six-leg anatomy, QA/save/readback then B003",
+  "next_action": "Carry B00210 alreadyverifiedpairs tobranchfromlatestmain, readback andopenoneDraftPR. B003: gel/winged/arcane pairs locallypassed; repair mineral6feet/fanged4fins; scaled,micro,flora,decay,enigma defaultrequests pending. CompleteB00310 then save/readback beforeC185.",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
   "pixel_additional_finishing_authorized": true,
-  "draft_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/4",
+  "draft_pr": null,
   "previous_branch": "codex/monster-art-completion-20261005",
   "previous_record_commit": "41b2c63493b10f69d839966cfcc4a047bde414b4",
-  "previous_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/3"
+  "previous_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/3",
+  "last_material_commit": "b63fdc565acfb7b3c9df094c40527513ab5dc7c6",
+  "batch_readbacks": [
+    {
+      "stage": "B002",
+      "commit_sha": "b63fdc565acfb7b3c9df094c40527513ab5dc7c6",
+      "png": 20,
+      "meta": 10,
+      "files": 33,
+      "verified": true,
+      "checked_at": "2026-10-05T03:48:53.953213+00:00"
+    }
+  ],
+  "branch_history": [
+    {
+      "branch": "codex/monster-art-continuation-20261005",
+      "saved_commit": "bac39356cb977627d19edf06ae2ef20b098f7220",
+      "pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/4",
+      "reason": "PR4 externallymerged atoldhead725; B002actualmaterialb63 andwitnessbac retained onoldbranch"
+    }
+  ]
 }
