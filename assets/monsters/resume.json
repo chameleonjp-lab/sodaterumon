@@ -2,8 +2,8 @@
   "schema_version": 1,
   "branch": "codex/monster-art-continuation-003-20261005",
   "base_commit": "88aae2c209c3f2b6c3e7b1c21fa4c697059d4de9",
-  "saved_commit": "a95aa5cc9e6135534ea9032461107b3acb16ceed",
-  "stage": "C gel014-020: fourpairs GitHubverified, remainingthree normals regenerating",
+  "saved_commit": "39f32ac5e784ad1f239711bf236f65cfd77e4f10",
+  "stage": "C gel014-020 sevenpairs locallypassed; finalsave/readback pending",
   "completed_local_ids": [
     "sm-gel-001",
     "sm-gel-002",
@@ -18,8 +18,11 @@
     "sm-gel-011",
     "sm-gel-012",
     "sm-gel-013",
+    "sm-gel-014",
     "sm-gel-015",
+    "sm-gel-016",
     "sm-gel-017",
+    "sm-gel-018",
     "sm-gel-019",
     "sm-gel-020",
     "sm-scaled-001",
@@ -97,9 +100,6 @@
     "sm-enigma-003"
   ],
   "remaining_ids": [
-    "sm-gel-014",
-    "sm-gel-016",
-    "sm-gel-018",
     "sm-scaled-004",
     "sm-scaled-005",
     "sm-scaled-006",
@@ -269,21 +269,8 @@
     "sm-enigma-014",
     "sm-enigma-015"
   ],
-  "pending_reasons": [
-    {
-      "id": "sm-gel-014",
-      "reason": "Tail correct; regenerate alpha-noise-free centered normal"
-    },
-    {
-      "id": "sm-gel-016",
-      "reason": "Four-foot corner placement; failed normal reference removed; guide-only new imagegen running"
-    },
-    {
-      "id": "sm-gel-018",
-      "reason": "Wings repaired; two parallel short ribbons correction running"
-    }
-  ],
-  "next_action": "Inspect actual normal generation outputs014016018, approve and reopen each own normal; then separate imagegen pixels. Compare wholegel001-020, save/readback allC2 before scaled004-013.",
+  "pending_reasons": [],
+  "next_action": "Publish C2gel014-020 actual14PNG7meta+3records, exactGitHubreadback; then generate scaled004-013 tenpairs, no approval pause.",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
   "pixel_additional_finishing_authorized": true,

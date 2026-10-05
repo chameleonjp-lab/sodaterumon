@@ -820,16 +820,17 @@
     ],
     "family_comparison": {
       "status": "passed",
-      "checked_at": "2026-10-05T05:22:14.747009+00:00",
+      "checked_at": "2026-10-05T05:38:37.905385+00:00",
       "checked_by": "Codex",
-      "scope": "C2 partial fourpairs plus priorgel001-013",
+      "scope": "wholegel001-020 actual normals and independently redrawn pixels",
       "checks": {
         "style_cohesion": true,
         "distinct_silhouettes": true,
-        "no_visual_duplicates": true
+        "no_visual_duplicates": true,
+        "no_reassigned_image": true
       },
       "notes": [
-        "雲三脚/二段ひれ腕/五球十脚/釣鐘四腕の形態差を保持。実原寸と対比確認に続き既存系統の輪郭・セル塗りとの一致を確認。全七対が揃ったら系統全20対の追加比較を行う。"
+        "20対すべての実画像を並べて既存1-13と今回14-20の画風・個体差・配色を比較。三日月2/舟14、3段3/2段17、開口13/閉輪4など形態差を保持し、重複を確認せず。マット9/16、透明膜18など指定材質の違いを保つ。各個別原寸/通常pixel対比は別途済み。"
       ]
     }
   },
