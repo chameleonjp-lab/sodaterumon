@@ -2,9 +2,40 @@
   "schema_version": 1,
   "branch": "codex/monster-art-continuation-002-20261005",
   "base_commit": "431b8f8ddd1ccb3247027dfdd35e3dbf6d1f031c",
-  "saved_commit": "26ceeb155f34ab01541b3ba34e1a8007984279ee",
-  "stage": "B003 partial batch saving; sixpairs locallypassed",
+  "saved_commit": "7abc85a28c3cd6bfd66d4b0f46e0a9e057041346",
+  "stage": "B003: nine locallypassedpairs; enigma003 only unfinished",
   "completed_local_ids": [
+    "sm-gel-001",
+    "sm-gel-002",
+    "sm-gel-003",
+    "sm-scaled-001",
+    "sm-scaled-002",
+    "sm-scaled-003",
+    "sm-fanged-001",
+    "sm-fanged-002",
+    "sm-fanged-003",
+    "sm-winged-001",
+    "sm-winged-002",
+    "sm-winged-003",
+    "sm-micro-001",
+    "sm-micro-002",
+    "sm-micro-003",
+    "sm-flora-001",
+    "sm-flora-002",
+    "sm-flora-003",
+    "sm-arcane-001",
+    "sm-arcane-002",
+    "sm-arcane-003",
+    "sm-decay-001",
+    "sm-decay-002",
+    "sm-decay-003",
+    "sm-mineral-001",
+    "sm-mineral-002",
+    "sm-mineral-003",
+    "sm-enigma-001",
+    "sm-enigma-002"
+  ],
+  "github_verified_ids": [
     "sm-gel-001",
     "sm-gel-002",
     "sm-gel-003",
@@ -32,28 +63,6 @@
     "sm-enigma-001",
     "sm-enigma-002"
   ],
-  "github_verified_ids": [
-    "sm-gel-001",
-    "sm-gel-002",
-    "sm-scaled-001",
-    "sm-scaled-002",
-    "sm-fanged-001",
-    "sm-fanged-002",
-    "sm-winged-001",
-    "sm-winged-002",
-    "sm-micro-001",
-    "sm-micro-002",
-    "sm-flora-001",
-    "sm-flora-002",
-    "sm-arcane-001",
-    "sm-arcane-002",
-    "sm-decay-001",
-    "sm-decay-002",
-    "sm-mineral-001",
-    "sm-mineral-002",
-    "sm-enigma-001",
-    "sm-enigma-002"
-  ],
   "remaining_ids": [
     "sm-gel-004",
     "sm-gel-005",
@@ -72,7 +81,6 @@
     "sm-gel-018",
     "sm-gel-019",
     "sm-gel-020",
-    "sm-scaled-003",
     "sm-scaled-004",
     "sm-scaled-005",
     "sm-scaled-006",
@@ -151,7 +159,6 @@
     "sm-micro-018",
     "sm-micro-019",
     "sm-micro-020",
-    "sm-flora-003",
     "sm-flora-004",
     "sm-flora-005",
     "sm-flora-006",
@@ -208,7 +215,6 @@
     "sm-decay-018",
     "sm-decay-019",
     "sm-decay-020",
-    "sm-mineral-003",
     "sm-mineral-004",
     "sm-mineral-005",
     "sm-mineral-006",
@@ -248,14 +254,10 @@
   "pending_reasons": [
     {
       "id": "sm-enigma-003",
-      "reason": "Latestnormal5legs+tail; add6thleg explicitly separatefromtail; counts7appendages"
-    },
-    {
-      "id": "sm-flora-003",
-      "reason": "pixeloutput400noimage; ownnormalidentity plusownpixelstyle requestprepared"
+      "reason": "five legs +tail repeatedly; new private six-leg layout guide made. Diagram is promptreference only, never canonical art."
     }
   ],
-  "next_action": "Save9B003IDs:6passedpairs and3approvednormals. ActualGitHubreadback thencontinue sameB00310: inspectscaledpixel, generatemineralpixel, retryflorapixel, fixenigma6upwardlegs andredrawpixel. StageB20pairs(002+003) mustpass/save/readback beforeC185.",
+  "next_action": "Generate enigma003 fromprivate six-upward-leg layout plusownfamily style. Inspectall6legs andtailseparately; finishnormalandredrawpixel fromactuallyopenedapprovednormal. CompleteB20/save/readback beforeC185.",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
   "pixel_additional_finishing_authorized": true,
@@ -263,7 +265,7 @@
   "previous_branch": "codex/monster-art-completion-20261005",
   "previous_record_commit": "41b2c63493b10f69d839966cfcc4a047bde414b4",
   "previous_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/3",
-  "last_material_commit": "26ceeb155f34ab01541b3ba34e1a8007984279ee",
+  "last_material_commit": "7abc85a28c3cd6bfd66d4b0f46e0a9e057041346",
   "batch_readbacks": [
     {
       "stage": "B002",
@@ -281,6 +283,15 @@
       "meta": 10,
       "files": 33,
       "verified": true
+    },
+    {
+      "stage": "B003partial",
+      "commit_sha": "7abc85a28c3cd6bfd66d4b0f46e0a9e057041346",
+      "png": 15,
+      "meta": 9,
+      "files": 27,
+      "verified": true,
+      "checked_at": "2026-10-05T04:26:51.304113+00:00"
     }
   ],
   "branch_history": [
