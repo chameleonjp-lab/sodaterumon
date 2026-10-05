@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "sodaterumon",
-  "status": "planning_only",
+  "status": "production_blocked",
   "catalog": "assets/monsters/catalog.json",
   "expected_species": 215,
   "expected_assets": 430,
@@ -58,27 +58,45 @@
     }
   ],
   "summary": {
-    "planned_assets": 430,
+    "planned_assets": 429,
     "generated_assets": 0,
     "qa_passed_assets": 0,
     "saved_assets": 0,
     "readback_verified_assets": 0,
     "rejected_assets": 0,
-    "blocked_assets": 0,
+    "blocked_assets": 1,
     "verified_pairs": 0
   },
-  "run_log": [],
+  "run_log": [
+    {
+      "observed_at": "2026-10-05T01:52:11.538081+00:00",
+      "stage": "A",
+      "status": "blocked",
+      "completed_pairs": 0,
+      "accepted_assets": 0,
+      "image_generation_calls": 2,
+      "last_verified_pair": null,
+      "blocked_id": "sm-gel-001",
+      "blocked_variant": "default",
+      "reason": "Built-in imagegen repeatedly returned 1254×1254 with insufficient transparent padding despite exact canvas and margin correction. No approved default available for pixel identity reference.",
+      "originals_retained": true,
+      "resume_action": "Resolve exact 1024×1024 output and margin compliance for sm-gel-001/default, then visual QA, pixel reference generation and Stage A. Other 429 slots remain ungenerated.",
+      "expanded_prompts_prepared": 430,
+      "local_prompt_directory": "/workspace/scratch/monster-art-prompts",
+      "external_api_used": false
+    }
+  ],
   "entries": [
     {
       "id": "sm-gel-001",
       "family": "gel",
       "design_version": 1,
-      "pair_status": "planned",
+      "pair_status": "blocked",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/gel/sm-gel-001/default.png",
           "actual_file": null,
-          "status": "planned",
+          "status": "blocked",
           "sha256": null,
           "bytes": null,
           "width": null,
@@ -92,7 +110,60 @@
             "prompt_template": "default-v1",
             "expanded_prompt": null,
             "reference_default_sha256": null,
-            "attempts": []
+            "attempts": [
+              {
+                "attempt": 1,
+                "tool": "image_gen.imagegen",
+                "observed_at": "2026-10-05T01:52:11.538081+00:00",
+                "generated_at": null,
+                "source_path": "/workspace/generated_images/exec-2a8733f2-2efd-4bb3-87b5-35fbe9bb08c5.png",
+                "sha256": "e5cc98e771878786d38a1a50ac3b669a45cdd717852ac6b7fb85b5283061bbb6",
+                "bytes": 820680,
+                "width": 1254,
+                "height": 1254,
+                "mode": "RGBA",
+                "alpha_bbox": [
+                  31,
+                  57,
+                  1225,
+                  1206
+                ],
+                "status": "rejected",
+                "expanded_prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-gel-001 / ポユネラ / 粘体 (gel)\nBody and exact anatomy: 体節1の横に広い半球型。脚0、腕0、目2、翼0、尾0。上端は丸く、下辺は平ら。\nMaterials and biological motif: 均一な半透明ゼリー。内部に丸い気泡が1個だけ浮く。\nPrimary, secondary, accent colors respectively: #78CDBB; #CFF4E7; #344D61\nThree mandatory visual identifiers: 横幅が高さの約1.5倍の半球; 正面下寄りに並ぶ同じ大きさの丸目2個; 中央上寄りの大きな円形気泡1個\nPose: 平らな底を接地させ、体をほんの少し右へ傾ける。\nTemperament to convey through expression or posture: おだやか。葉のくぼみに落ちた朝露を集める。. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 脚や触手; 尖った頂点; 複数の内部気泡\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.",
+                "reference_candidate_sha256": null,
+                "failure_reasons": [
+                  "Output 1254×1254 does not meet required 1024×1024",
+                  "Transparent border below 64 px; creature extent exceeds specification"
+                ],
+                "processing_log": []
+              },
+              {
+                "attempt": 2,
+                "tool": "image_gen.imagegen",
+                "observed_at": "2026-10-05T01:52:11.538081+00:00",
+                "generated_at": null,
+                "source_path": "/workspace/generated_images/exec-0dcab862-7cee-40c7-b090-9800f95ce979.png",
+                "sha256": "492ccda75f8c0d2cded5a459ac576c9108c60a2a559a3048c78aa89c8e83d001",
+                "bytes": 821910,
+                "width": 1254,
+                "height": 1254,
+                "mode": "RGBA",
+                "alpha_bbox": [
+                  0,
+                  48,
+                  1235,
+                  1222
+                ],
+                "status": "rejected",
+                "expanded_prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-gel-001 / ポユネラ / 粘体 (gel)\nBody and exact anatomy: 体節1の横に広い半球型。脚0、腕0、目2、翼0、尾0。上端は丸く、下辺は平ら。\nMaterials and biological motif: 均一な半透明ゼリー。内部に丸い気泡が1個だけ浮く。\nPrimary, secondary, accent colors respectively: #78CDBB; #CFF4E7; #344D61\nThree mandatory visual identifiers: 横幅が高さの約1.5倍の半球; 正面下寄りに並ぶ同じ大きさの丸目2個; 中央上寄りの大きな円形気泡1個\nPose: 平らな底を接地させ、体をほんの少し右へ傾ける。\nTemperament to convey through expression or posture: おだやか。葉のくぼみに落ちた朝露を集める。. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 脚や触手; 尖った頂点; 複数の内部気泡\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRequired correction: Output an exact 1024 x 1024 PNG canvas. Creature silhouette must span only 800 pixels horizontally, centered, with at least 100 completely transparent pixels on each side. Remove all stray nonzero alpha outside creature. The single internal bubble must be above the eyes near the upper center. Simplify glossy painted gradients to restrained three-step cel shading with a distinct dark outline. Preserve exactly two same-size circular eyes, one bubble, zero limbs, zero tail, rounded dome and flat bottom. Do not add any small bubbles.",
+                "reference_candidate_sha256": "e5cc98e771878786d38a1a50ac3b669a45cdd717852ac6b7fb85b5283061bbb6",
+                "failure_reasons": [
+                  "Output 1254×1254 does not meet required 1024×1024",
+                  "Transparent border below 64 px; creature extent exceeds specification"
+                ],
+                "processing_log": []
+              }
+            ]
           },
           "processing_log": [],
           "qa": {
