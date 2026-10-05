@@ -1326,7 +1326,8 @@
   },
   "readback": {
     "local": "verified",
-    "repository": "not_run",
-    "commit_sha": null
+    "repository": "verified",
+    "commit_sha": "b5e565c47dac98ca2db776a763637427d5ea2d24",
+    "checked_at": "2026-10-05T03:17:48.118619+00:00"
   }
 }
