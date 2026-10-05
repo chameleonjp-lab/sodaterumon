@@ -1,13 +1,19 @@
 {
   "schema_version": 1,
-  "branch": "codex/monster-art-continuation-002-20261005",
-  "base_commit": "431b8f8ddd1ccb3247027dfdd35e3dbf6d1f031c",
-  "saved_commit": "b327175ab3a9c4ef5b4698d4c2847a6c9c59d485",
-  "stage": "B20 allpairs locallypassed; enigma003 not yet GitHubsaved/readback",
+  "branch": "codex/monster-art-continuation-003-20261005",
+  "base_commit": "88aae2c209c3f2b6c3e7b1c21fa4c697059d4de9",
+  "saved_commit": "293ec5aa2ab2146dbb76cccda73356ac3cfafe1b",
+  "stage": "C gel004-013 partial: six locallypassedpairs, threeapprovednormals,011 pending",
   "completed_local_ids": [
     "sm-gel-001",
     "sm-gel-002",
     "sm-gel-003",
+    "sm-gel-005",
+    "sm-gel-006",
+    "sm-gel-007",
+    "sm-gel-008",
+    "sm-gel-010",
+    "sm-gel-013",
     "sm-scaled-001",
     "sm-scaled-002",
     "sm-scaled-003",
@@ -65,19 +71,14 @@
     "sm-mineral-002",
     "sm-mineral-003",
     "sm-enigma-001",
-    "sm-enigma-002"
+    "sm-enigma-002",
+    "sm-enigma-003"
   ],
   "remaining_ids": [
     "sm-gel-004",
-    "sm-gel-005",
-    "sm-gel-006",
-    "sm-gel-007",
-    "sm-gel-008",
     "sm-gel-009",
-    "sm-gel-010",
     "sm-gel-011",
     "sm-gel-012",
-    "sm-gel-013",
     "sm-gel-014",
     "sm-gel-015",
     "sm-gel-016",
@@ -254,16 +255,33 @@
     "sm-enigma-014",
     "sm-enigma-015"
   ],
-  "pending_reasons": [],
-  "next_action": "Familycomparison/staticaudit forA10+B20; saveactual enigma003 2PNG1meta withmetadatawitness. Readback fromGitHub thenC185 batchgel004-013.",
+  "pending_reasons": [
+    {
+      "id": "sm-gel-011",
+      "reason": "Latest sixthlegrepair source received, not yet inspected/adopted"
+    },
+    {
+      "id": "sm-gel-004",
+      "reason": "Pixelgeneration pending/awaiting inspection"
+    },
+    {
+      "id": "sm-gel-009",
+      "reason": "Mattenormalapproved, actualownnormalopened, pixeljobprepared"
+    },
+    {
+      "id": "sm-gel-012",
+      "reason": "Fourfootnormalapproved, pixelrawreceivedawaitinginspection"
+    }
+  ],
+  "next_action": "Save/readback nineCIDs actual15PNG9meta plusBfinalwitness. Continue sameC10 IDs: inspect011sixlegnormal thenredrawpixel, inspect004/012pixel,generate009pixel. Alltenpairs mustpass/save/readback beforegel014-020.",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
   "pixel_additional_finishing_authorized": true,
-  "draft_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/5",
-  "previous_branch": "codex/monster-art-completion-20261005",
+  "draft_pr": null,
+  "previous_branch": "codex/monster-art-continuation-002-20261005",
   "previous_record_commit": "41b2c63493b10f69d839966cfcc4a047bde414b4",
-  "previous_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/3",
-  "last_material_commit": "b327175ab3a9c4ef5b4698d4c2847a6c9c59d485",
+  "previous_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/5",
+  "last_material_commit": "293ec5aa2ab2146dbb76cccda73356ac3cfafe1b",
   "batch_readbacks": [
     {
       "stage": "B002",
@@ -299,6 +317,15 @@
       "files": 15,
       "verified": true,
       "checked_at": "2026-10-05T04:34:51.919448+00:00"
+    },
+    {
+      "stage": "B003final",
+      "commit_sha": "293ec5aa2ab2146dbb76cccda73356ac3cfafe1b",
+      "png": 2,
+      "meta": 10,
+      "files": 15,
+      "verified": true,
+      "checked_at": "2026-10-05T04:39:24.971251+00:00"
     }
   ],
   "branch_history": [
@@ -307,6 +334,12 @@
       "saved_commit": "bac39356cb977627d19edf06ae2ef20b098f7220",
       "pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/4",
       "reason": "PR4 externallymerged atoldhead725; B002actualmaterialb63 andwitnessbac retained onoldbranch"
+    },
+    {
+      "branch": "codex/monster-art-continuation-002-20261005",
+      "saved_commit": "293ec5aa2ab2146dbb76cccda73356ac3cfafe1b",
+      "pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/5",
+      "reason": "PR5 externally merged; latestmain88 has sameverifiedmaterialtree11e as293; newbranchfromexactlatestmain."
     }
   ]
 }
