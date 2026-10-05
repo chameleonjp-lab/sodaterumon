@@ -1074,12 +1074,25 @@
       "three_identifiers": true,
       "palette_roles": true,
       "pose_facing": true,
-      "reference_hash": true
+      "reference_hash": true,
+      "family_style_and_distinct_silhouette": true
     },
     "notes": [
       "原本・128原寸・通常絵との並列を実際に開いた。薄い角丸三角胴、広い丸ひれ脚4、同寸楕円尾2、丸牙4（口の左右2ずつ）、目2を維持。耳・腕・翼・中央牙0。",
       "青灰皮膚/乳白の牙と下縁/暗青模様、広げた4ひれと右向きの姿勢、意図的な画素クラスタと輪郭を確認。別途描き直した候補を24色・二値alpha・128格子で仕上げ、余白と参照hashを検査。",
       "系統001/002/003の通常絵とpixelを実際に並べ、画風・各個体の対応・系統内の形態差と重複なしを確認。"
+    ],
+    "family_comparisons": [
+      {
+        "checked_at": "2026-10-05T04:36:56.198728+00:00",
+        "status": "passed",
+        "compared_ids": [
+          "sm-fanged-001",
+          "sm-fanged-002",
+          "sm-fanged-003"
+        ],
+        "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+      }
     ]
   },
   "readback": {

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "branch": "codex/monster-art-continuation-002-20261005",
   "base_commit": "431b8f8ddd1ccb3247027dfdd35e3dbf6d1f031c",
-  "saved_commit": "7abc85a28c3cd6bfd66d4b0f46e0a9e057041346",
-  "stage": "B003: nine locallypassedpairs; enigma003 only unfinished",
+  "saved_commit": "b327175ab3a9c4ef5b4698d4c2847a6c9c59d485",
+  "stage": "B20 allpairs locallypassed; enigma003 not yet GitHubsaved/readback",
   "completed_local_ids": [
     "sm-gel-001",
     "sm-gel-002",
@@ -33,7 +33,8 @@
     "sm-mineral-002",
     "sm-mineral-003",
     "sm-enigma-001",
-    "sm-enigma-002"
+    "sm-enigma-002",
+    "sm-enigma-003"
   ],
   "github_verified_ids": [
     "sm-gel-001",
@@ -41,6 +42,7 @@
     "sm-gel-003",
     "sm-scaled-001",
     "sm-scaled-002",
+    "sm-scaled-003",
     "sm-fanged-001",
     "sm-fanged-002",
     "sm-fanged-003",
@@ -52,6 +54,7 @@
     "sm-micro-003",
     "sm-flora-001",
     "sm-flora-002",
+    "sm-flora-003",
     "sm-arcane-001",
     "sm-arcane-002",
     "sm-arcane-003",
@@ -60,6 +63,7 @@
     "sm-decay-003",
     "sm-mineral-001",
     "sm-mineral-002",
+    "sm-mineral-003",
     "sm-enigma-001",
     "sm-enigma-002"
   ],
@@ -237,7 +241,6 @@
     "sm-mineral-023",
     "sm-mineral-024",
     "sm-mineral-025",
-    "sm-enigma-003",
     "sm-enigma-004",
     "sm-enigma-005",
     "sm-enigma-006",
@@ -251,13 +254,8 @@
     "sm-enigma-014",
     "sm-enigma-015"
   ],
-  "pending_reasons": [
-    {
-      "id": "sm-enigma-003",
-      "reason": "five legs +tail repeatedly; new private six-leg layout guide made. Diagram is promptreference only, never canonical art."
-    }
-  ],
-  "next_action": "Generate enigma003 fromprivate six-upward-leg layout plusownfamily style. Inspectall6legs andtailseparately; finishnormalandredrawpixel fromactuallyopenedapprovednormal. CompleteB20/save/readback beforeC185.",
+  "pending_reasons": [],
+  "next_action": "Familycomparison/staticaudit forA10+B20; saveactual enigma003 2PNG1meta withmetadatawitness. Readback fromGitHub thenC185 batchgel004-013.",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
   "pixel_additional_finishing_authorized": true,
@@ -265,7 +263,7 @@
   "previous_branch": "codex/monster-art-completion-20261005",
   "previous_record_commit": "41b2c63493b10f69d839966cfcc4a047bde414b4",
   "previous_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/3",
-  "last_material_commit": "7abc85a28c3cd6bfd66d4b0f46e0a9e057041346",
+  "last_material_commit": "b327175ab3a9c4ef5b4698d4c2847a6c9c59d485",
   "batch_readbacks": [
     {
       "stage": "B002",
@@ -292,6 +290,15 @@
       "files": 27,
       "verified": true,
       "checked_at": "2026-10-05T04:26:51.304113+00:00"
+    },
+    {
+      "stage": "B003 next3 andwitness",
+      "commit_sha": "b327175ab3a9c4ef5b4698d4c2847a6c9c59d485",
+      "png": 3,
+      "meta": 9,
+      "files": 15,
+      "verified": true,
+      "checked_at": "2026-10-05T04:34:51.919448+00:00"
     }
   ],
   "branch_history": [

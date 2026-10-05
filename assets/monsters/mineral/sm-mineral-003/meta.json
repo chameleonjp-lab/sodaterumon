@@ -1409,16 +1409,31 @@
       "three_identifiers": true,
       "palette_roles": true,
       "pose_facing": true,
-      "reference_hash": true
+      "reference_hash": true,
+      "family_style_and_distinct_silhouette": true
     },
     "notes": [
       "原本/128原寸/通常絵並列。足先は手前3/奥3の六つの六角形、傾いた六角柱1、乳白色の平らな上面、前面1眼/縦瞳、下半分の横溝2本、0尾/翼。奥側中足が可読になる位置で別途再描画した。",
       "32色/alpha二値/128論理格子/輪郭を検査し、紫側面・淡青前面・乳白上面、姿勢、特徴3点・同一個体を合格。"
+    ],
+    "family_comparisons": [
+      {
+        "checked_at": "2026-10-05T04:36:56.224154+00:00",
+        "status": "passed",
+        "compared_ids": [
+          "sm-mineral-001",
+          "sm-mineral-002",
+          "sm-mineral-003"
+        ],
+        "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+      }
     ]
   },
   "readback": {
     "local": "verified",
-    "repository": "not_run",
-    "commit_sha": null
+    "repository": "verified",
+    "commit_sha": "b327175ab3a9c4ef5b4698d4c2847a6c9c59d485",
+    "checked_at": "2026-10-05T04:34:51.919448+00:00",
+    "material_meta_sha256": "52161efbf7ecfeac3eeffe2ff6f58db701b132be246a0159d7aa2ce98d1a4dad"
   }
 }

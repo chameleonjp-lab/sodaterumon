@@ -784,12 +784,25 @@
       "three_identifiers": true,
       "palette_roles": true,
       "pose_facing": true,
-      "reference_hash": true
+      "reference_hash": true,
+      "family_style_and_distinct_silhouette": true
     },
     "notes": [
       "生成原本と完成128原寸・通常絵との並列を実際に開いて検査。大中小の縦3節、左へ曲がる中段、最上段の目2のみ、3節の下半分の乳白半円を保持。下段の平らな接地、脚・腕・翼・尾0。",
       "別途描き直した候補の意図的な画素クラスタと段階輪郭、桃橙/乳白/暗紫の配色と向きを確認。承認済み24色・二値alpha・128格子仕上げで主体104px、四辺余白8px以上。参照通常絵hashは実ファイルと一致。",
       "系統001/002/003の通常絵とpixelを実際に並べ、画風・各個体の対応・系統内の形態差と重複なしを確認。"
+    ],
+    "family_comparisons": [
+      {
+        "checked_at": "2026-10-05T04:36:56.189222+00:00",
+        "status": "passed",
+        "compared_ids": [
+          "sm-gel-001",
+          "sm-gel-002",
+          "sm-gel-003"
+        ],
+        "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+      }
     ]
   },
   "readback": {

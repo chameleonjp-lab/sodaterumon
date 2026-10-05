@@ -1088,16 +1088,31 @@
       "three_identifiers": true,
       "palette_roles": true,
       "pose_facing": true,
-      "reference_hash": true
+      "reference_hash": true,
+      "family_style_and_distinct_silhouette": true
     },
     "notes": [
       "原本/128原寸/通常絵並列/同系001-002比較。後中前各2足計6足、奥中足x58-62,y70-74、2眼、等長短円筒3節、各節の巻き葉鱗2枚、中央上げ姿勢と金/乳白/濃灰配色を保持。Carson独立検査も合格。",
       "32色可視パレット、二値alpha、論理128格子と1-2px輪郭、特徴3点・同一個体・0尾/翼を合格。"
+    ],
+    "family_comparisons": [
+      {
+        "checked_at": "2026-10-05T04:36:56.193457+00:00",
+        "status": "passed",
+        "compared_ids": [
+          "sm-scaled-001",
+          "sm-scaled-002",
+          "sm-scaled-003"
+        ],
+        "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+      }
     ]
   },
   "readback": {
     "local": "verified",
-    "repository": "not_run",
-    "commit_sha": null
+    "repository": "verified",
+    "commit_sha": "b327175ab3a9c4ef5b4698d4c2847a6c9c59d485",
+    "checked_at": "2026-10-05T04:34:51.919448+00:00",
+    "material_meta_sha256": "56a0a5cf702aefea62cf5ba4513b437c22f57e9474d9a975d467ba7e70ab9865"
   }
 }

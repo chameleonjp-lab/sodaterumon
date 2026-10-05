@@ -841,18 +841,31 @@
       "three_identifiers": true,
       "palette_roles": true,
       "pose_facing": true,
-      "reference_hash": true
+      "reference_hash": true,
+      "family_style_and_distinct_silhouette": true
     },
     "notes": [
       "原本と128原寸および通常絵並列で再判定。閉じた丸い蓋は上節の端部で独立節ではない。縦の筒3節、中央最短かつ2眼、下節の葉腕2枚、前1後2の根脚3本、0尾/翼を確認。前の四節判定は蓋の誤カウントで訂正し履歴を保持。",
       "32色MAXCOVERAGE/alpha二値化/整数格子配置後も特徴3点・輪郭・配色・向きは同一個体として合格。"
+    ],
+    "family_comparisons": [
+      {
+        "checked_at": "2026-10-05T04:36:56.211186+00:00",
+        "status": "passed",
+        "compared_ids": [
+          "sm-flora-001",
+          "sm-flora-002",
+          "sm-flora-003"
+        ],
+        "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+      }
     ]
   },
   "readback": {
     "local": "verified",
-    "repository": "partial",
-    "commit_sha": "7abc85a28c3cd6bfd66d4b0f46e0a9e057041346",
-    "checked_at": "2026-10-05T04:26:51.304113+00:00",
-    "material_meta_sha256": "ddeb8cc9855ef9aaea60b1b65e5e37f11bc4dfa215ccafd94112a85f58f82bf7"
+    "repository": "verified",
+    "commit_sha": "b327175ab3a9c4ef5b4698d4c2847a6c9c59d485",
+    "checked_at": "2026-10-05T04:34:51.919448+00:00",
+    "material_meta_sha256": "71f5476ec5cdd4eb37c7a378ba587d13bd7f26b4041e9c7b0702496166c84dce"
   }
 }

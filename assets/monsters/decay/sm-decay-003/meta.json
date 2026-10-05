@@ -784,12 +784,25 @@
       "three_identifiers": true,
       "palette_roles": true,
       "pose_facing": true,
-      "reference_hash": true
+      "reference_hash": true,
+      "family_style_and_distinct_silhouette": true
     },
     "notes": [
       "原本・128原寸・通常絵との並列を実際に開いた。主要放射ひだ8、縁の目3、丸い切り欠き1、同幅から先細りの帯尾4、逆釣鐘胴1、柄・脚・翼・吸盤0。",
       "淡茶の菌膜、灰紫の内側と模様、乳白の縁と虹彩、斜め下の開口と4尾の姿勢を保持。限定24色、段階輪郭と画素クラスタ、二値alpha、128寸法、四辺余白と実参照hashを確認。",
       "系統001/002/003の通常絵とpixelを実際に並べ、画風・各個体の対応・系統内の形態差と重複なしを確認。"
+    ],
+    "family_comparisons": [
+      {
+        "checked_at": "2026-10-05T04:36:56.219463+00:00",
+        "status": "passed",
+        "compared_ids": [
+          "sm-decay-001",
+          "sm-decay-002",
+          "sm-decay-003"
+        ],
+        "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+      }
     ]
   },
   "readback": {

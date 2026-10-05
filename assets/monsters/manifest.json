@@ -58,14 +58,14 @@
     }
   ],
   "summary": {
-    "planned_assets": 371,
-    "generated_assets": 58,
-    "qa_passed_assets": 58,
-    "saved_assets": 58,
-    "readback_verified_assets": 58,
-    "rejected_assets": 1,
+    "planned_assets": 370,
+    "generated_assets": 60,
+    "qa_passed_assets": 60,
+    "saved_assets": 60,
+    "readback_verified_assets": 60,
+    "rejected_assets": 0,
     "blocked_assets": 0,
-    "verified_pairs": 26
+    "verified_pairs": 29
   },
   "run_log": [
     {
@@ -96,6 +96,38 @@
       "source": "GitHub fetch and materialized exact commit bytes rehashed",
       "independent_review": "6.1Sol Extra High: 10/10 pairs passed; no major defects",
       "next_action": "Stage B: family002, then003, batches10 pairs"
+    },
+    {
+      "at": "2026-10-05T04:36:36.786824+00:00",
+      "stage": "B003partial",
+      "status": "verified",
+      "commit_sha": "b327175ab3a9c4ef5b4698d4c2847a6c9c59d485",
+      "new_verified_pairs": 3,
+      "cumulative_verified_pairs": 29,
+      "files": 15,
+      "png": 3,
+      "meta": 9,
+      "next_action": "finish enigma003 pair and readback; then C185"
+    },
+    {
+      "at": "2026-10-05T04:37:28.478643+00:00",
+      "stage": "A10+B20 familycomparison",
+      "status": "passed",
+      "pairs": 30,
+      "method": "Individualoriginalsize and pairchecks followed bysamefamily001002003comparison",
+      "next_action": "GitHubsave/readback B003finalthenC185"
+    },
+    {
+      "at": "2026-10-05T04:38:09.999689+00:00",
+      "stage": "A10+B20 settled static and provenance",
+      "status": "passed",
+      "png": 60,
+      "meta": 30,
+      "errors": 0,
+      "exact_duplicates": 0,
+      "actual_originals_checked": 94,
+      "original_hash_mismatches": 0,
+      "all215_complete": false
     }
   ],
   "entries": [
@@ -3039,9 +3071,9 @@
       "meta": {
         "planned_path": "assets/monsters/gel/sm-gel-003/meta.json",
         "actual_file": "assets/monsters/gel/sm-gel-003/meta.json",
-        "sha256": "8710c781d34e52b9b36ad79b1ab5913542caf4fb14734d19f385f8e73826e0f8",
+        "sha256": "7f8e3b4b44da0146a85eda30511421aa4e71ae4e1cb97a2331eb814356e5ad86",
         "readback": "verified",
-        "bytes": 32735,
+        "bytes": 33230,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -3055,12 +3087,25 @@
           "three_identifiers": true,
           "palette_roles": true,
           "pose_facing": true,
-          "reference_hash": true
+          "reference_hash": true,
+          "family_style_and_distinct_silhouette": true
         },
         "notes": [
           "生成原本と完成128原寸・通常絵との並列を実際に開いて検査。大中小の縦3節、左へ曲がる中段、最上段の目2のみ、3節の下半分の乳白半円を保持。下段の平らな接地、脚・腕・翼・尾0。",
           "別途描き直した候補の意図的な画素クラスタと段階輪郭、桃橙/乳白/暗紫の配色と向きを確認。承認済み24色・二値alpha・128格子仕上げで主体104px、四辺余白8px以上。参照通常絵hashは実ファイルと一致。",
           "系統001/002/003の通常絵とpixelを実際に並べ、画風・各個体の対応・系統内の形態差と重複なしを確認。"
+        ],
+        "family_comparisons": [
+          {
+            "checked_at": "2026-10-05T04:36:56.189222+00:00",
+            "status": "passed",
+            "compared_ids": [
+              "sm-gel-001",
+              "sm-gel-002",
+              "sm-gel-003"
+            ],
+            "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+          }
         ]
       }
     },
@@ -7107,7 +7152,7 @@
       "id": "sm-scaled-003",
       "family": "scaled",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/scaled/sm-scaled-003/default.png",
@@ -8431,10 +8476,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "b327175ab3a9c4ef5b4698d4c2847a6c9c59d485",
             "sha256": "0c2cf4917a8262e80c69e6a94bd02aa38b7966038ff12c099ad990f68dd87b47",
-            "checked_at": "2026-10-05T04:31:33.145991+00:00"
+            "checked_at": "2026-10-05T04:34:51.919448+00:00"
           },
           "blocker": null
         }
@@ -8442,9 +8487,9 @@
       "meta": {
         "planned_path": "assets/monsters/scaled/sm-scaled-003/meta.json",
         "actual_file": "assets/monsters/scaled/sm-scaled-003/meta.json",
-        "sha256": "56a0a5cf702aefea62cf5ba4513b437c22f57e9474d9a975d467ba7e70ab9865",
+        "sha256": "bad2d1d990421ea42cdc55dca546a286c94bdc49bf18376f9fec473d7c87cf6f",
         "readback": "verified",
-        "bytes": 42100,
+        "bytes": 42793,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -8458,11 +8503,24 @@
           "three_identifiers": true,
           "palette_roles": true,
           "pose_facing": true,
-          "reference_hash": true
+          "reference_hash": true,
+          "family_style_and_distinct_silhouette": true
         },
         "notes": [
           "原本/128原寸/通常絵並列/同系001-002比較。後中前各2足計6足、奥中足x58-62,y70-74、2眼、等長短円筒3節、各節の巻き葉鱗2枚、中央上げ姿勢と金/乳白/濃灰配色を保持。Carson独立検査も合格。",
           "32色可視パレット、二値alpha、論理128格子と1-2px輪郭、特徴3点・同一個体・0尾/翼を合格。"
+        ],
+        "family_comparisons": [
+          {
+            "checked_at": "2026-10-05T04:36:56.193457+00:00",
+            "status": "passed",
+            "compared_ids": [
+              "sm-scaled-001",
+              "sm-scaled-002",
+              "sm-scaled-003"
+            ],
+            "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+          }
         ]
       }
     },
@@ -16085,9 +16143,9 @@
       "meta": {
         "planned_path": "assets/monsters/fanged/sm-fanged-003/meta.json",
         "actual_file": "assets/monsters/fanged/sm-fanged-003/meta.json",
-        "sha256": "a9bf5ea4dba56a5c52701629a734c8bb6096f1e0e165601406b5b9221c043ae3",
+        "sha256": "fc8f22ddd1b492801d932d48932d8f9880ba52abc4208e03f769ffa540610770",
         "readback": "verified",
-        "bytes": 41998,
+        "bytes": 42502,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -16101,12 +16159,25 @@
           "three_identifiers": true,
           "palette_roles": true,
           "pose_facing": true,
-          "reference_hash": true
+          "reference_hash": true,
+          "family_style_and_distinct_silhouette": true
         },
         "notes": [
           "原本・128原寸・通常絵との並列を実際に開いた。薄い角丸三角胴、広い丸ひれ脚4、同寸楕円尾2、丸牙4（口の左右2ずつ）、目2を維持。耳・腕・翼・中央牙0。",
           "青灰皮膚/乳白の牙と下縁/暗青模様、広げた4ひれと右向きの姿勢、意図的な画素クラスタと輪郭を確認。別途描き直した候補を24色・二値alpha・128格子で仕上げ、余白と参照hashを検査。",
           "系統001/002/003の通常絵とpixelを実際に並べ、画風・各個体の対応・系統内の形態差と重複なしを確認。"
+        ],
+        "family_comparisons": [
+          {
+            "checked_at": "2026-10-05T04:36:56.198728+00:00",
+            "status": "passed",
+            "compared_ids": [
+              "sm-fanged-001",
+              "sm-fanged-002",
+              "sm-fanged-003"
+            ],
+            "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+          }
         ]
       }
     },
@@ -22225,9 +22296,9 @@
       "meta": {
         "planned_path": "assets/monsters/winged/sm-winged-003/meta.json",
         "actual_file": "assets/monsters/winged/sm-winged-003/meta.json",
-        "sha256": "aa188688cc686bd3959f26cbcccd9bc109064b90d9b582b3aeebad9aba7b7b98",
+        "sha256": "fe4cd46a56f8f4aef7b09f34588012c6dc5f5562339024f0110c5c2fb838665f",
         "readback": "verified",
-        "bytes": 47493,
+        "bytes": 47997,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -22241,7 +22312,8 @@
           "three_identifiers": true,
           "palette_roles": true,
           "pose_facing": true,
-          "reference_hash": true
+          "reference_hash": true,
+          "family_style_and_distinct_silhouette": true
         },
         "notes": [
           "前候補の遠側スリット分断を保持し、通常絵を参照して別途再描画した原本・128原寸・並列を開いた。左右それぞれに連続した縦長alpha0スリットを確認し、1画素橋の問題を修正。",
@@ -22265,7 +22337,19 @@
             "原本・128原寸・通常絵との並列を実際に開いた。前大/後小の2袋体節、腰の白帯、波板翼2枚、目2、揃えた脚2（遠側足先は近側の後ろに一部重なる）、尾0を確認。",
             "左右の翼の縦長スリットそれぞれにalpha0の穴が残る。桃色袋胴、青紫翼、白い帯と足先、前胴を上げた向き・姿勢が通常絵と一致。格子輪郭と限定色、24色減色・二値alpha・128配置を再検査。"
           ]
-        }
+        },
+        "family_comparisons": [
+          {
+            "checked_at": "2026-10-05T04:36:56.202991+00:00",
+            "status": "passed",
+            "compared_ids": [
+              "sm-winged-001",
+              "sm-winged-002",
+              "sm-winged-003"
+            ],
+            "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+          }
+        ]
       }
     },
     {
@@ -27279,9 +27363,9 @@
       "meta": {
         "planned_path": "assets/monsters/micro/sm-micro-003/meta.json",
         "actual_file": "assets/monsters/micro/sm-micro-003/meta.json",
-        "sha256": "d2fdf036f4c4cf377d68b3c8d1b2f0c7eedf5aefe764c3ee6a7c1e0c5a70c8ed",
+        "sha256": "3a476fe377d321f875f604d53b71ac84836aa93eedef07b2a45cc95d764f8654",
         "readback": "verified",
-        "bytes": 35125,
+        "bytes": 35626,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -27295,12 +27379,25 @@
           "three_identifiers": true,
           "palette_roles": true,
           "pose_facing": true,
-          "reference_hash": true
+          "reference_hash": true,
+          "family_style_and_distinct_silhouette": true
         },
         "notes": [
           "原本・128原寸・通常絵との並列を開いた。細胞3（中央直径約1.5倍）、各細胞の目1で計3、短い透明接続管2、ほぼ直線で同長の外向き尾2、脚・翼0。",
           "緑主体/淡茶模様/青い目と尾先を維持。24色案では青アクセントが減色で失われたため不採用にして保持。透明画素を除いて32色MAXCOVERAGEで減色し、原寸で青の3眼と2尾先を再確認。alpha二値・128格子・輪郭・余白・実参照hashを検査。",
           "系統001/002/003の通常絵とpixelを実際に並べ、画風・各個体の対応・系統内の形態差と重複なしを確認。"
+        ],
+        "family_comparisons": [
+          {
+            "checked_at": "2026-10-05T04:36:56.207280+00:00",
+            "status": "passed",
+            "compared_ids": [
+              "sm-micro-001",
+              "sm-micro-002",
+              "sm-micro-003"
+            ],
+            "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+          }
         ]
       }
     },
@@ -32096,7 +32193,7 @@
       "id": "sm-flora-003",
       "family": "flora",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/flora/sm-flora-003/default.png",
@@ -33173,10 +33270,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "b327175ab3a9c4ef5b4698d4c2847a6c9c59d485",
             "sha256": "89bb93d042986fa9102aebae936f0acf30df3bd8b3f97695414ec64c8adf57e4",
-            "checked_at": "2026-10-05T04:28:54.072067+00:00"
+            "checked_at": "2026-10-05T04:34:51.919448+00:00"
           },
           "blocker": null
         }
@@ -33184,9 +33281,9 @@
       "meta": {
         "planned_path": "assets/monsters/flora/sm-flora-003/meta.json",
         "actual_file": "assets/monsters/flora/sm-flora-003/meta.json",
-        "sha256": "71f5476ec5cdd4eb37c7a378ba587d13bd7f26b4041e9c7b0702496166c84dce",
+        "sha256": "18e11bdbc94eb8020f3ac0436e325d225c5c533e143d26a0353f912deabdfefd",
         "readback": "verified",
-        "bytes": 43254,
+        "bytes": 43756,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -33200,11 +33297,24 @@
           "three_identifiers": true,
           "palette_roles": true,
           "pose_facing": true,
-          "reference_hash": true
+          "reference_hash": true,
+          "family_style_and_distinct_silhouette": true
         },
         "notes": [
           "原本と128原寸および通常絵並列で再判定。閉じた丸い蓋は上節の端部で独立節ではない。縦の筒3節、中央最短かつ2眼、下節の葉腕2枚、前1後2の根脚3本、0尾/翼を確認。前の四節判定は蓋の誤カウントで訂正し履歴を保持。",
           "32色MAXCOVERAGE/alpha二値化/整数格子配置後も特徴3点・輪郭・配色・向きは同一個体として合格。"
+        ],
+        "family_comparisons": [
+          {
+            "checked_at": "2026-10-05T04:36:56.211186+00:00",
+            "status": "passed",
+            "compared_ids": [
+              "sm-flora-001",
+              "sm-flora-002",
+              "sm-flora-003"
+            ],
+            "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+          }
         ]
       }
     },
@@ -38215,9 +38325,9 @@
       "meta": {
         "planned_path": "assets/monsters/arcane/sm-arcane-003/meta.json",
         "actual_file": "assets/monsters/arcane/sm-arcane-003/meta.json",
-        "sha256": "622e9a54f1aa151584f8969484514b8b80ef5bf65dadebee071e03b82c36d432",
+        "sha256": "90194aeaddb6293bbe492553f612eabd1e48cae53d93d55cf636aae30a26e9a9",
         "readback": "verified",
-        "bytes": 42816,
+        "bytes": 43320,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -38231,12 +38341,25 @@
           "three_identifiers": true,
           "palette_roles": true,
           "pose_facing": true,
-          "reference_hash": true
+          "reference_hash": true,
+          "family_style_and_distinct_silhouette": true
         },
         "notes": [
           "生成原本と128原寸・通常絵との並列・足先と目の整数倍拡大を実際に開いた。六つの足先（前枝の後ろの小さな遠側足先も乳白の3画素以上で識別）、横並び目2、平行同長の前枝2、不等長の直線後尾2、連続した音叉胴1、翼0を確認。",
           "青緑の音膜・紫の輪郭/脚・乳白黄の線と先端を保持、通常絵と姿勢/向き一致。32色MAXCOVERAGEで透明画素RGBを除いて減色、alpha二値化・128配置。元24色比較プレビューも保持。参照hashは実際に開いた承認通常絵と一致。",
           "系統001/002/003の通常絵とpixelを実際に並べ、画風・各個体の対応・系統内の形態差と重複なしを確認。"
+        ],
+        "family_comparisons": [
+          {
+            "checked_at": "2026-10-05T04:36:56.214869+00:00",
+            "status": "passed",
+            "compared_ids": [
+              "sm-arcane-001",
+              "sm-arcane-002",
+              "sm-arcane-003"
+            ],
+            "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+          }
         ]
       }
     },
@@ -44417,9 +44540,9 @@
       "meta": {
         "planned_path": "assets/monsters/decay/sm-decay-003/meta.json",
         "actual_file": "assets/monsters/decay/sm-decay-003/meta.json",
-        "sha256": "364a38f757b4b49dd70bb477aa276ca32b6f89d2b2cb1dff9d8c74c5885d48ec",
+        "sha256": "20d1fc9104d5b4a605ff1154440f88f390b9ba314102ce89ce31dcfb757f5dbe",
         "readback": "verified",
-        "bytes": 33860,
+        "bytes": 34361,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -44433,12 +44556,25 @@
           "three_identifiers": true,
           "palette_roles": true,
           "pose_facing": true,
-          "reference_hash": true
+          "reference_hash": true,
+          "family_style_and_distinct_silhouette": true
         },
         "notes": [
           "原本・128原寸・通常絵との並列を実際に開いた。主要放射ひだ8、縁の目3、丸い切り欠き1、同幅から先細りの帯尾4、逆釣鐘胴1、柄・脚・翼・吸盤0。",
           "淡茶の菌膜、灰紫の内側と模様、乳白の縁と虹彩、斜め下の開口と4尾の姿勢を保持。限定24色、段階輪郭と画素クラスタ、二値alpha、128寸法、四辺余白と実参照hashを確認。",
           "系統001/002/003の通常絵とpixelを実際に並べ、画風・各個体の対応・系統内の形態差と重複なしを確認。"
+        ],
+        "family_comparisons": [
+          {
+            "checked_at": "2026-10-05T04:36:56.219463+00:00",
+            "status": "passed",
+            "compared_ids": [
+              "sm-decay-001",
+              "sm-decay-002",
+              "sm-decay-003"
+            ],
+            "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+          }
         ]
       }
     },
@@ -48773,7 +48909,7 @@
       "id": "sm-mineral-003",
       "family": "mineral",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/mineral/sm-mineral-003/default.png",
@@ -50418,10 +50554,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "b327175ab3a9c4ef5b4698d4c2847a6c9c59d485",
             "sha256": "77a75d66ac8d9f1c0d424710045c80e5b4d8891084db81d8c29c48c6df9276b0",
-            "checked_at": "2026-10-05T04:31:33.536457+00:00"
+            "checked_at": "2026-10-05T04:34:51.919448+00:00"
           },
           "blocker": null
         }
@@ -50429,9 +50565,9 @@
       "meta": {
         "planned_path": "assets/monsters/mineral/sm-mineral-003/meta.json",
         "actual_file": "assets/monsters/mineral/sm-mineral-003/meta.json",
-        "sha256": "52161efbf7ecfeac3eeffe2ff6f58db701b132be246a0159d7aa2ce98d1a4dad",
+        "sha256": "0c99241fcd809db7cd2cce9861aa57a909d854001ff5c5616fe3817e19fec213",
         "readback": "verified",
-        "bytes": 56565,
+        "bytes": 57261,
         "status": "readback_verified"
       },
       "pair_qa": {
@@ -50445,11 +50581,24 @@
           "three_identifiers": true,
           "palette_roles": true,
           "pose_facing": true,
-          "reference_hash": true
+          "reference_hash": true,
+          "family_style_and_distinct_silhouette": true
         },
         "notes": [
           "原本/128原寸/通常絵並列。足先は手前3/奥3の六つの六角形、傾いた六角柱1、乳白色の平らな上面、前面1眼/縦瞳、下半分の横溝2本、0尾/翼。奥側中足が可読になる位置で別途再描画した。",
           "32色/alpha二値/128論理格子/輪郭を検査し、紫側面・淡青前面・乳白上面、姿勢、特徴3点・同一個体を合格。"
+        ],
+        "family_comparisons": [
+          {
+            "checked_at": "2026-10-05T04:36:56.224154+00:00",
+            "status": "passed",
+            "compared_ids": [
+              "sm-mineral-001",
+              "sm-mineral-002",
+              "sm-mineral-003"
+            ],
+            "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+          }
         ]
       }
     },
@@ -55166,24 +55315,281 @@
       "id": "sm-enigma-003",
       "family": "enigma",
       "design_version": 1,
-      "pair_status": "qa_failed",
+      "pair_status": "ready_for_storage",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/enigma/sm-enigma-003/default.png",
-          "actual_file": null,
-          "status": "rejected",
-          "sha256": null,
-          "bytes": null,
-          "width": null,
-          "height": null,
-          "mode": null,
-          "visible_colors": null,
-          "alpha_values": null,
+          "actual_file": "assets/monsters/enigma/sm-enigma-003/default.png",
+          "status": "readback_verified",
+          "sha256": "6d4e6d15130097e930a268a2d6c6d7eaa20743b85deada4cda84dabbf4b19435",
+          "bytes": 590290,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "visible_colors": 67448,
+          "alpha_values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255
+          ],
           "generation": {
             "tool": "image_gen.imagegen",
             "generated_at": null,
             "prompt_template": "default-v1",
-            "expanded_prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-enigma-003 / ソコウエナ / 謎体 (enigma)\nBody and exact anatomy: 体幹1節の上下を逆にした平たい卵形。脚6本、目2個、翼0枚、尾1本。脚は胴の上側から上向きに生える\nMaterials and biological motif: 上下の感覚が穏やかに入れ替わる弾力膜。岩棚の裏側に沿って歩く\nPrimary, secondary, accent colors respectively: #9BBCA2; #A47EA6; #F1D8AE\nThree mandatory visual identifiers: 六本脚は上面の左右に三本ずつ; 目は下を向く広い面の前方に付く; 尾先は上向きに反る小さい半円板\nPose: 岩棚の裏に六脚でつかまり、下向きの顔面を見せる\nTemperament to convey through expression or posture: 落ち着いている。下にいる生き物を驚かせないようゆっくり進む. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 脚を通常の下面へ移さない; 重力の矢印や文字を描かない; 卵を殻から出た動物にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nCreate a NEW composition from scratch. View its broad DOWNWARD-facing underside/front as if seen from below. One flattened oval elastic membrane body, two friendly eyes on the lower front, no mouth. The body is upside down: ALL legs rise UPWARD from the top edges, none below. EXACTLY SIX upward legs in THREE BILATERAL PAIRS, with six distinct pale oval footpads. Show all six without occlusion. Arrange three pads on the LEFT upper edge at roughly (250,330),(390,240),(530,170), and three on the RIGHT upper edge at (750,170),(890,240),(1030,330), in a clean symmetric fan. Each pad has its own visible short green-purple stem rooted in the upper oval body. In addition, ONE thin TAIL curls upward from far left rear to a SMALL SEMICIRCULAR D-shaped plate at (120,560). Tail plate has one straight edge and one curved edge; distinguish it from the six oval leg pads. Seven appendage tips total: six oval FEET plus one semicircular TAIL TIP. Six leg stems are independent; no merging. Body sage green primary, dusty purple lower/far-side shading, cream underside and footpads. Full body with broad transparent padding. Use clear dark contour and restrained three-step cel shading like approved same-family reference, without copying its anatomy. No ground, rock, scaffolding, fur, wings, text, arrows. This new symmetrical view makes the six legs countable.",
+            "expanded_prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-enigma-003 / ソコウエナ / 謎体 (enigma)\nBody and exact anatomy: 体幹1節の上下を逆にした平たい卵形。脚6本、目2個、翼0枚、尾1本。脚は胴の上側から上向きに生える\nMaterials and biological motif: 上下の感覚が穏やかに入れ替わる弾力膜。岩棚の裏側に沿って歩く\nPrimary, secondary, accent colors respectively: #9BBCA2; #A47EA6; #F1D8AE\nThree mandatory visual identifiers: 六本脚は上面の左右に三本ずつ; 目は下を向く広い面の前方に付く; 尾先は上向きに反る小さい半円板\nPose: 岩棚の裏に六脚でつかまり、下向きの顔面を見せる\nTemperament to convey through expression or posture: 落ち着いている。下にいる生き物を驚かせないようゆっくり進む. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 脚を通常の下面へ移さない; 重力の矢印や文字を描かない; 卵を殻から出た動物にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nInput1 is a NEUTRAL ANATOMY LAYOUT DIAGRAM ONLY, not finished art. Follow its six numbered UPWARD LEG locations 1,2,3 on left and 4,5,6 on right, plus SEPARATE thin tail with D-shaped semicircle plate at far left. Input2 supplies the established original illustration style only. Create an entirely hand-drawn full-body original creature, converting the layout to soft elastic sage/purple/cream membrane, clean dark outlines, three-step cel shading. One flat oval upside-down body; two eyes on its broad downward face; SIX upward soft legs with six oval pads plus ONE curled rear tail with semicircular D-tip (7 appendage tips total). All SIX numbered legs in diagram must exist and be independently visible. Remove every number, label, diagram line, white background. No extra legs, lower legs, wings, rocks, mouth or fur. Genuine transparent alpha, complete body with padding. Never mistake the tail for leg1: tail is leftmost thin stalk, and leg1 is the next larger stem to its right. This is a fresh final illustration, not a diagram.",
             "reference_default_sha256": null,
             "attempts": [
               {
@@ -56920,76 +57326,833 @@
                     "sha256": "3a6f6bcb329b26ae7d24deba9ee1aa01861175a5ae07653f7b80df21f1563a78"
                   }
                 ]
+              },
+              {
+                "attempt": 7,
+                "tool": "image_gen.imagegen",
+                "generated_at": null,
+                "observed_at": "2026-10-05T04:33:37.714116+00:00",
+                "source_path": "/workspace/generated_images/exec-30e5577f-819c-40a6-8d95-ba1cf25606ef.png",
+                "sha256": "d54d87b0d69658b9fa0d6f2a599caa536f88a9fb3c3c2fe5dbb4ffab3d64a939",
+                "bytes": 966336,
+                "width": 1254,
+                "height": 1254,
+                "mode": "RGBA",
+                "visible_colors": 98285,
+                "alpha_values": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31,
+                  32,
+                  33,
+                  34,
+                  35,
+                  36,
+                  37,
+                  38,
+                  39,
+                  40,
+                  41,
+                  42,
+                  43,
+                  44,
+                  45,
+                  46,
+                  47,
+                  48,
+                  49,
+                  50,
+                  51,
+                  52,
+                  53,
+                  54,
+                  55,
+                  56,
+                  57,
+                  58,
+                  59,
+                  60,
+                  61,
+                  62,
+                  63,
+                  64,
+                  65,
+                  66,
+                  67,
+                  68,
+                  69,
+                  70,
+                  71,
+                  72,
+                  73,
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79,
+                  80,
+                  81,
+                  82,
+                  83,
+                  84,
+                  85,
+                  86,
+                  87,
+                  88,
+                  89,
+                  90,
+                  91,
+                  92,
+                  93,
+                  94,
+                  95,
+                  96,
+                  97,
+                  98,
+                  99,
+                  100,
+                  101,
+                  102,
+                  103,
+                  104,
+                  105,
+                  106,
+                  107,
+                  108,
+                  109,
+                  110,
+                  111,
+                  112,
+                  113,
+                  114,
+                  115,
+                  116,
+                  117,
+                  118,
+                  119,
+                  120,
+                  121,
+                  122,
+                  123,
+                  124,
+                  125,
+                  126,
+                  127,
+                  128,
+                  129,
+                  130,
+                  131,
+                  132,
+                  133,
+                  134,
+                  135,
+                  136,
+                  137,
+                  138,
+                  139,
+                  140,
+                  141,
+                  142,
+                  143,
+                  144,
+                  145,
+                  146,
+                  147,
+                  148,
+                  149,
+                  150,
+                  151,
+                  152,
+                  153,
+                  154,
+                  155,
+                  156,
+                  157,
+                  158,
+                  159,
+                  160,
+                  161,
+                  162,
+                  163,
+                  164,
+                  165,
+                  166,
+                  167,
+                  168,
+                  169,
+                  170,
+                  171,
+                  172,
+                  173,
+                  174,
+                  175,
+                  176,
+                  177,
+                  178,
+                  179,
+                  180,
+                  181,
+                  182,
+                  183,
+                  184,
+                  185,
+                  186,
+                  187,
+                  188,
+                  189,
+                  190,
+                  191,
+                  192,
+                  193,
+                  194,
+                  195,
+                  196,
+                  197,
+                  198,
+                  199,
+                  200,
+                  201,
+                  202,
+                  203,
+                  204,
+                  205,
+                  206,
+                  207,
+                  208,
+                  209,
+                  210,
+                  211,
+                  212,
+                  213,
+                  214,
+                  215,
+                  216,
+                  217,
+                  218,
+                  219,
+                  220,
+                  221,
+                  222,
+                  223,
+                  224,
+                  225,
+                  226,
+                  227,
+                  228,
+                  229,
+                  230,
+                  231,
+                  232,
+                  233,
+                  234,
+                  235,
+                  236,
+                  237,
+                  238,
+                  239,
+                  240,
+                  241,
+                  242,
+                  243,
+                  244,
+                  245,
+                  246,
+                  247,
+                  248,
+                  249,
+                  250,
+                  251,
+                  252,
+                  253,
+                  254,
+                  255
+                ],
+                "alpha_bbox": [
+                  33,
+                  161,
+                  1208,
+                  1254
+                ],
+                "status": "accepted_after_finishing",
+                "expanded_prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-enigma-003 / ソコウエナ / 謎体 (enigma)\nBody and exact anatomy: 体幹1節の上下を逆にした平たい卵形。脚6本、目2個、翼0枚、尾1本。脚は胴の上側から上向きに生える\nMaterials and biological motif: 上下の感覚が穏やかに入れ替わる弾力膜。岩棚の裏側に沿って歩く\nPrimary, secondary, accent colors respectively: #9BBCA2; #A47EA6; #F1D8AE\nThree mandatory visual identifiers: 六本脚は上面の左右に三本ずつ; 目は下を向く広い面の前方に付く; 尾先は上向きに反る小さい半円板\nPose: 岩棚の裏に六脚でつかまり、下向きの顔面を見せる\nTemperament to convey through expression or posture: 落ち着いている。下にいる生き物を驚かせないようゆっくり進む. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 脚を通常の下面へ移さない; 重力の矢印や文字を描かない; 卵を殻から出た動物にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nInput1 is a NEUTRAL ANATOMY LAYOUT DIAGRAM ONLY, not finished art. Follow its six numbered UPWARD LEG locations 1,2,3 on left and 4,5,6 on right, plus SEPARATE thin tail with D-shaped semicircle plate at far left. Input2 supplies the established original illustration style only. Create an entirely hand-drawn full-body original creature, converting the layout to soft elastic sage/purple/cream membrane, clean dark outlines, three-step cel shading. One flat oval upside-down body; two eyes on its broad downward face; SIX upward soft legs with six oval pads plus ONE curled rear tail with semicircular D-tip (7 appendage tips total). All SIX numbered legs in diagram must exist and be independently visible. Remove every number, label, diagram line, white background. No extra legs, lower legs, wings, rocks, mouth or fur. Genuine transparent alpha, complete body with padding. Never mistake the tail for leg1: tail is leftmost thin stalk, and leg1 is the next larger stem to its right. This is a fresh final illustration, not a diagram.",
+                "reference_default_sha256": null,
+                "qa_notes": [
+                  "配置ガイドは非公開の位置指定参照のみで、成果は内蔵画像生成の新規描画。原本/1024原寸/同系001-002比較。上面左3右3の上向き脚6本、別尾1本の先端は上へ反る小さい半円板、下向きの広い卵形面前方に2眼を明確に確認。翼/下面脚/追加口0。",
+                  "真正alpha、全身、配色と弾力膜の形が合格。原本端の不透明画素0で欠けなし。完全透明余白の切り詰め・比例縮小・1024中央配置のみ、主体長辺768-896/全四辺64以上。原本と仕上げ前後SHAを保持。"
+                ],
+                "processing_log": [
+                  {
+                    "at": "2026-10-05T04:33:37.714116+00:00",
+                    "tool": "Python/Pillow",
+                    "method": "crop only fully transparent margins using alpha bbox; proportional LANCZOS reduction; centered paste into transparent 1024 canvas",
+                    "source_bbox": [
+                      33,
+                      161,
+                      1208,
+                      1254
+                    ],
+                    "scaled_size": [
+                      896,
+                      833
+                    ],
+                    "offset": [
+                      64,
+                      95
+                    ],
+                    "input_sha256": "d54d87b0d69658b9fa0d6f2a599caa536f88a9fb3c3c2fe5dbb4ffab3d64a939",
+                    "output_sha256": "6d4e6d15130097e930a268a2d6c6d7eaa20743b85deada4cda84dabbf4b19435"
+                  }
+                ],
+                "reference_images": [
+                  {
+                    "path": "/workspace/scratch/monster-production/guides/enigma003-six-upward-legs-layout.png",
+                    "sha256": "34e85ca5ff88ab5538449de9774f5c0dddc49aa9c43ed20be6e74f814ff595a3"
+                  },
+                  {
+                    "path": "/workspace/sodaterumon/assets/monsters/enigma/sm-enigma-001/default.png",
+                    "sha256": "3a6f6bcb329b26ae7d24deba9ee1aa01861175a5ae07653f7b80df21f1563a78"
+                  }
+                ],
+                "final_sha256": "6d4e6d15130097e930a268a2d6c6d7eaa20743b85deada4cda84dabbf4b19435",
+                "finishing_candidates": [
+                  {
+                    "input_sha256": "d54d87b0d69658b9fa0d6f2a599caa536f88a9fb3c3c2fe5dbb4ffab3d64a939",
+                    "output_sha256": "6d4e6d15130097e930a268a2d6c6d7eaa20743b85deada4cda84dabbf4b19435",
+                    "preview_path": "/workspace/scratch/monster-production/previews/sm-enigma-003/d54d87b0d69658b9fa0d6f2a599caa536f88a9fb3c3c2fe5dbb4ffab3d64a939/default.png",
+                    "method": {
+                      "default_extent": 896,
+                      "pixel_colors": 24,
+                      "pixel_quant_method": "median_cut"
+                    },
+                    "selected": true,
+                    "decision": "accepted_after_visual_qa"
+                  }
+                ]
               }
             ]
           },
-          "processing_log": [],
+          "processing_log": [
+            {
+              "at": "2026-10-05T04:33:37.714116+00:00",
+              "tool": "Python/Pillow",
+              "method": "crop only fully transparent margins using alpha bbox; proportional LANCZOS reduction; centered paste into transparent 1024 canvas",
+              "source_bbox": [
+                33,
+                161,
+                1208,
+                1254
+              ],
+              "scaled_size": [
+                896,
+                833
+              ],
+              "offset": [
+                64,
+                95
+              ],
+              "input_sha256": "d54d87b0d69658b9fa0d6f2a599caa536f88a9fb3c3c2fe5dbb4ffab3d64a939",
+              "output_sha256": "6d4e6d15130097e930a268a2d6c6d7eaa20743b85deada4cda84dabbf4b19435"
+            }
+          ],
           "qa": {
-            "status": "failed",
-            "checked_at": "2026-10-05T04:31:33.920350+00:00",
-            "checked_by": null,
-            "checks": {},
+            "status": "passed",
+            "checked_at": "2026-10-05T04:33:37.714116+00:00",
+            "checked_by": "Codex visual review + Pillow measurements",
+            "checks": {
+              "png_decodes": true,
+              "canvas": true,
+              "rgba": true,
+              "transparent_padding": true,
+              "body_extent": true,
+              "visual_anatomy": true,
+              "three_identifiers": true,
+              "palette_roles": true
+            },
             "notes": [
-              "新しい構図も脚5本+尾1。六本の脚と別尾を指定した位置案を実画像の配置ガイドとして与え、新規描画で解消する。"
+              "配置ガイドは非公開の位置指定参照のみで、成果は内蔵画像生成の新規描画。原本/1024原寸/同系001-002比較。上面左3右3の上向き脚6本、別尾1本の先端は上へ反る小さい半円板、下向きの広い卵形面前方に2眼を明確に確認。翼/下面脚/追加口0。",
+              "真正alpha、全身、配色と弾力膜の形が合格。原本端の不透明画素0で欠けなし。完全透明余白の切り詰め・比例縮小・1024中央配置のみ、主体長辺768-896/全四辺64以上。原本と仕上げ前後SHAを保持。"
             ]
           },
           "readback": {
-            "local": "not_run",
+            "local": "verified",
             "repository": "not_run",
             "commit_sha": null,
-            "sha256": null
+            "sha256": "6d4e6d15130097e930a268a2d6c6d7eaa20743b85deada4cda84dabbf4b19435",
+            "checked_at": "2026-10-05T04:33:37.714116+00:00"
           },
           "blocker": null
         },
         "pixel": {
           "planned_path": "assets/monsters/enigma/sm-enigma-003/pixel.png",
-          "actual_file": null,
-          "status": "planned",
-          "sha256": null,
-          "bytes": null,
-          "width": null,
-          "height": null,
-          "mode": null,
-          "visible_colors": null,
-          "alpha_values": null,
+          "actual_file": "assets/monsters/enigma/sm-enigma-003/pixel.png",
+          "status": "readback_verified",
+          "sha256": "3172441d3f984726b3314c290d033ab5604d3f08722ac7e9665474c302eaedfc",
+          "bytes": 7051,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "visible_colors": 23,
+          "alpha_values": [
+            0,
+            255
+          ],
           "generation": {
-            "tool": null,
+            "tool": "image_gen.imagegen",
             "generated_at": null,
             "prompt_template": "pixel-v1",
-            "expanded_prompt": null,
-            "reference_default_sha256": null,
-            "attempts": []
+            "expanded_prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-enigma-003; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-enigma-003 / ソコウエナ / 謎体 (enigma)\nLocked body and anatomy: 体幹1節の上下を逆にした平たい卵形。脚6本、目2個、翼0枚、尾1本。脚は胴の上側から上向きに生える\nLocked material cues: 上下の感覚が穏やかに入れ替わる弾力膜。岩棚の裏側に沿って歩く\nLocked palette roles, primary/secondary/accent: #9BBCA2; #A47EA6; #F1D8AE\nAll three identifiers must remain recognizable: 六本脚は上面の左右に三本ずつ; 目は下を向く広い面の前方に付く; 尾先は上向きに反る小さい半円板\nLocked pose: 岩棚の裏に六脚でつかまり、下向きの顔面を見せる\nLocked temperament/expression: 落ち着いている。下にいる生き物を驚かせないようゆっくり進む. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 脚を通常の下面へ移さない; 重力の矢印や文字を描かない; 卵を殻から出た動物にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\nRedraw exactly the approved own creature in attached image. SIX distinct upward legs: three on left, three on right, all pale OVAL footpads. PLUS a separate leftmost thin curled TAIL with a SMALL SEMICIRCULAR D-shaped tip. Seven tips total, do not merge tail and leg1. Match the symmetric fan and flat upside-down sage oval body with dusty-purple/cream patches, TWO eyes on lower broad face. No legs below, no mouth, no wings. Six footpads and tail D-tip must be separable at 128 logical pixels (each legpad >=5pixels, tail thin2px stem). Same pose, proportions, palette positions. Newly draw authentic crisp pixel clusters, consistent1pix dark outline, simple3tone shading, <=24 colors, binary alpha, no antialias/glow/shadow, full body with padding.",
+            "reference_default_sha256": "6d4e6d15130097e930a268a2d6c6d7eaa20743b85deada4cda84dabbf4b19435",
+            "attempts": [
+              {
+                "attempt": 1,
+                "tool": "image_gen.imagegen",
+                "generated_at": null,
+                "observed_at": "2026-10-05T04:36:36.629469+00:00",
+                "source_path": "/workspace/generated_images/exec-fd626e9b-a8e1-46b5-8bb1-aa1e056e517d.png",
+                "sha256": "2b9adeebcb28c1a976a5a6ad14ec4b1ce359bbeef54e7d20c5cfe4081c26122a",
+                "bytes": 761110,
+                "width": 1254,
+                "height": 1254,
+                "mode": "RGBA",
+                "visible_colors": 91791,
+                "alpha_values": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31,
+                  32,
+                  33,
+                  34,
+                  35,
+                  36,
+                  37,
+                  38,
+                  39,
+                  40,
+                  41,
+                  42,
+                  43,
+                  44,
+                  45,
+                  46,
+                  47,
+                  48,
+                  49,
+                  50,
+                  51,
+                  52,
+                  53,
+                  54,
+                  55,
+                  56,
+                  57,
+                  58,
+                  59,
+                  60,
+                  61,
+                  62,
+                  63,
+                  64,
+                  65,
+                  66,
+                  67,
+                  68,
+                  69,
+                  70,
+                  71,
+                  72,
+                  73,
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79,
+                  80,
+                  81,
+                  82,
+                  83,
+                  84,
+                  85,
+                  86,
+                  87,
+                  88,
+                  89,
+                  90,
+                  91,
+                  92,
+                  93,
+                  94,
+                  95,
+                  96,
+                  97,
+                  98,
+                  99,
+                  100,
+                  101,
+                  102,
+                  103,
+                  104,
+                  105,
+                  106,
+                  107,
+                  108,
+                  109,
+                  110,
+                  111,
+                  112,
+                  113,
+                  114,
+                  115,
+                  116,
+                  117,
+                  118,
+                  119,
+                  120,
+                  121,
+                  122,
+                  123,
+                  124,
+                  125,
+                  126,
+                  127,
+                  128,
+                  129,
+                  130,
+                  131,
+                  132,
+                  133,
+                  134,
+                  135,
+                  136,
+                  137,
+                  138,
+                  139,
+                  140,
+                  141,
+                  142,
+                  143,
+                  144,
+                  145,
+                  146,
+                  147,
+                  148,
+                  149,
+                  150,
+                  151,
+                  152,
+                  153,
+                  154,
+                  155,
+                  156,
+                  157,
+                  158,
+                  159,
+                  160,
+                  161,
+                  162,
+                  163,
+                  164,
+                  165,
+                  166,
+                  167,
+                  168,
+                  169,
+                  170,
+                  171,
+                  172,
+                  173,
+                  174,
+                  175,
+                  176,
+                  177,
+                  178,
+                  179,
+                  180,
+                  181,
+                  182,
+                  183,
+                  184,
+                  185,
+                  186,
+                  187,
+                  188,
+                  189,
+                  190,
+                  191,
+                  192,
+                  193,
+                  194,
+                  195,
+                  196,
+                  197,
+                  198,
+                  199,
+                  200,
+                  201,
+                  202,
+                  203,
+                  204,
+                  205,
+                  206,
+                  207,
+                  208,
+                  209,
+                  210,
+                  211,
+                  212,
+                  213,
+                  214,
+                  215,
+                  216,
+                  217,
+                  218,
+                  219,
+                  220,
+                  221,
+                  222,
+                  223,
+                  224,
+                  225,
+                  226,
+                  227,
+                  228,
+                  229,
+                  230,
+                  231,
+                  232,
+                  233,
+                  234,
+                  235,
+                  236,
+                  237,
+                  238,
+                  239,
+                  240,
+                  241,
+                  242,
+                  243,
+                  244,
+                  245,
+                  246,
+                  247,
+                  248,
+                  249,
+                  250,
+                  251,
+                  252,
+                  253,
+                  254,
+                  255
+                ],
+                "alpha_bbox": [
+                  46,
+                  21,
+                  1218,
+                  1206
+                ],
+                "status": "accepted_after_finishing",
+                "expanded_prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-enigma-003; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-enigma-003 / ソコウエナ / 謎体 (enigma)\nLocked body and anatomy: 体幹1節の上下を逆にした平たい卵形。脚6本、目2個、翼0枚、尾1本。脚は胴の上側から上向きに生える\nLocked material cues: 上下の感覚が穏やかに入れ替わる弾力膜。岩棚の裏側に沿って歩く\nLocked palette roles, primary/secondary/accent: #9BBCA2; #A47EA6; #F1D8AE\nAll three identifiers must remain recognizable: 六本脚は上面の左右に三本ずつ; 目は下を向く広い面の前方に付く; 尾先は上向きに反る小さい半円板\nLocked pose: 岩棚の裏に六脚でつかまり、下向きの顔面を見せる\nLocked temperament/expression: 落ち着いている。下にいる生き物を驚かせないようゆっくり進む. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 脚を通常の下面へ移さない; 重力の矢印や文字を描かない; 卵を殻から出た動物にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\nRedraw exactly the approved own creature in attached image. SIX distinct upward legs: three on left, three on right, all pale OVAL footpads. PLUS a separate leftmost thin curled TAIL with a SMALL SEMICIRCULAR D-shaped tip. Seven tips total, do not merge tail and leg1. Match the symmetric fan and flat upside-down sage oval body with dusty-purple/cream patches, TWO eyes on lower broad face. No legs below, no mouth, no wings. Six footpads and tail D-tip must be separable at 128 logical pixels (each legpad >=5pixels, tail thin2px stem). Same pose, proportions, palette positions. Newly draw authentic crisp pixel clusters, consistent1pix dark outline, simple3tone shading, <=24 colors, binary alpha, no antialias/glow/shadow, full body with padding.",
+                "reference_default_sha256": "6d4e6d15130097e930a268a2d6c6d7eaa20743b85deada4cda84dabbf4b19435",
+                "qa_notes": [
+                  "原本/128原寸/通常絵並列。上面左3右3の上向き脚6本の六足先と、左端の別尾1本/小さい半円板先端を区別して計7端を確認。下側前方2眼、平たい卵形1体節、0翼/口/下面脚。",
+                  "24色/alpha0-255/128格子/1-2px輪郭、配色位置・姿勢・特徴3点・同一個体を合格。"
+                ],
+                "processing_log": [
+                  {
+                    "at": "2026-10-05T04:36:36.629469+00:00",
+                    "tool": "Python/Pillow",
+                    "method": "User-approved additional finishing of separately generated pixel art: alpha threshold128; crop alpha bbox; NEAREST grid adjustment to longest104; median_cut palette24 colors without dithering; centered on128 alpha canvas",
+                    "source_bbox": [
+                      49,
+                      199,
+                      1202,
+                      1089
+                    ],
+                    "scaled_size": [
+                      104,
+                      80
+                    ],
+                    "offset": [
+                      12,
+                      24
+                    ],
+                    "input_sha256": "2b9adeebcb28c1a976a5a6ad14ec4b1ce359bbeef54e7d20c5cfe4081c26122a",
+                    "output_sha256": "3172441d3f984726b3314c290d033ab5604d3f08722ac7e9665474c302eaedfc"
+                  }
+                ],
+                "reference_images": [
+                  {
+                    "path": "/workspace/sodaterumon/assets/monsters/enigma/sm-enigma-003/default.png",
+                    "sha256": "6d4e6d15130097e930a268a2d6c6d7eaa20743b85deada4cda84dabbf4b19435"
+                  }
+                ],
+                "final_sha256": "3172441d3f984726b3314c290d033ab5604d3f08722ac7e9665474c302eaedfc",
+                "finishing_candidates": [
+                  {
+                    "input_sha256": "2b9adeebcb28c1a976a5a6ad14ec4b1ce359bbeef54e7d20c5cfe4081c26122a",
+                    "output_sha256": "3172441d3f984726b3314c290d033ab5604d3f08722ac7e9665474c302eaedfc",
+                    "preview_path": "/workspace/scratch/monster-production/previews/sm-enigma-003/2b9adeebcb28c1a976a5a6ad14ec4b1ce359bbeef54e7d20c5cfe4081c26122a/pixel.png",
+                    "method": {
+                      "default_extent": 832,
+                      "pixel_colors": 24,
+                      "pixel_quant_method": "median_cut"
+                    },
+                    "selected": true,
+                    "decision": "accepted_after_visual_qa"
+                  }
+                ]
+              }
+            ]
           },
-          "processing_log": [],
+          "processing_log": [
+            {
+              "at": "2026-10-05T04:36:36.629469+00:00",
+              "tool": "Python/Pillow",
+              "method": "User-approved additional finishing of separately generated pixel art: alpha threshold128; crop alpha bbox; NEAREST grid adjustment to longest104; median_cut palette24 colors without dithering; centered on128 alpha canvas",
+              "source_bbox": [
+                49,
+                199,
+                1202,
+                1089
+              ],
+              "scaled_size": [
+                104,
+                80
+              ],
+              "offset": [
+                12,
+                24
+              ],
+              "input_sha256": "2b9adeebcb28c1a976a5a6ad14ec4b1ce359bbeef54e7d20c5cfe4081c26122a",
+              "output_sha256": "3172441d3f984726b3314c290d033ab5604d3f08722ac7e9665474c302eaedfc"
+            }
+          ],
           "qa": {
-            "status": "not_run",
-            "checked_at": null,
-            "checked_by": null,
-            "checks": {},
-            "notes": []
+            "status": "passed",
+            "checked_at": "2026-10-05T04:36:36.629469+00:00",
+            "checked_by": "Codex visual review + Pillow measurements",
+            "checks": {
+              "png_decodes": true,
+              "canvas": true,
+              "rgba": true,
+              "transparent_padding": true,
+              "body_extent": true,
+              "visual_anatomy": true,
+              "three_identifiers": true,
+              "palette_roles": true
+            },
+            "notes": [
+              "原本/128原寸/通常絵並列。上面左3右3の上向き脚6本の六足先と、左端の別尾1本/小さい半円板先端を区別して計7端を確認。下側前方2眼、平たい卵形1体節、0翼/口/下面脚。",
+              "24色/alpha0-255/128格子/1-2px輪郭、配色位置・姿勢・特徴3点・同一個体を合格。"
+            ]
           },
           "readback": {
-            "local": "not_run",
+            "local": "verified",
             "repository": "not_run",
             "commit_sha": null,
-            "sha256": null
+            "sha256": "3172441d3f984726b3314c290d033ab5604d3f08722ac7e9665474c302eaedfc",
+            "checked_at": "2026-10-05T04:36:36.629469+00:00"
           },
           "blocker": null
         }
       },
       "meta": {
         "planned_path": "assets/monsters/enigma/sm-enigma-003/meta.json",
-        "actual_file": null,
-        "sha256": null,
-        "readback": "not_run"
+        "actual_file": "assets/monsters/enigma/sm-enigma-003/meta.json",
+        "sha256": "4cbf2ae11eb9caf0d9b65b7ac34aeaf463856dcbcc3f8136577e9105f177eae6",
+        "readback": "verified",
+        "bytes": 90988,
+        "status": "readback_verified"
       },
       "pair_qa": {
-        "status": "not_run",
-        "reference_default_sha256": null,
-        "checked_at": null,
-        "checked_by": null,
-        "checks": {},
-        "notes": []
+        "status": "passed",
+        "reference_default_sha256": "6d4e6d15130097e930a268a2d6c6d7eaa20743b85deada4cda84dabbf4b19435",
+        "checked_at": "2026-10-05T04:36:36.629469+00:00",
+        "checked_by": "Codex original-size and side-by-side visual review",
+        "checks": {
+          "silhouette": true,
+          "anatomy_counts": true,
+          "three_identifiers": true,
+          "palette_roles": true,
+          "pose_facing": true,
+          "reference_hash": true,
+          "family_style_and_distinct_silhouette": true
+        },
+        "notes": [
+          "原本/128原寸/通常絵並列。上面左3右3の上向き脚6本の六足先と、左端の別尾1本/小さい半円板先端を区別して計7端を確認。下側前方2眼、平たい卵形1体節、0翼/口/下面脚。",
+          "24色/alpha0-255/128格子/1-2px輪郭、配色位置・姿勢・特徴3点・同一個体を合格。"
+        ],
+        "family_comparisons": [
+          {
+            "checked_at": "2026-10-05T04:36:56.228261+00:00",
+            "status": "passed",
+            "compared_ids": [
+              "sm-enigma-001",
+              "sm-enigma-002",
+              "sm-enigma-003"
+            ],
+            "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+          }
+        ]
       }
     },
     {

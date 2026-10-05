@@ -1161,7 +1161,8 @@
       "three_identifiers": true,
       "palette_roles": true,
       "pose_facing": true,
-      "reference_hash": true
+      "reference_hash": true,
+      "family_style_and_distinct_silhouette": true
     },
     "notes": [
       "前候補の遠側スリット分断を保持し、通常絵を参照して別途再描画した原本・128原寸・並列を開いた。左右それぞれに連続した縦長alpha0スリットを確認し、1画素橋の問題を修正。",
@@ -1185,7 +1186,19 @@
         "原本・128原寸・通常絵との並列を実際に開いた。前大/後小の2袋体節、腰の白帯、波板翼2枚、目2、揃えた脚2（遠側足先は近側の後ろに一部重なる）、尾0を確認。",
         "左右の翼の縦長スリットそれぞれにalpha0の穴が残る。桃色袋胴、青紫翼、白い帯と足先、前胴を上げた向き・姿勢が通常絵と一致。格子輪郭と限定色、24色減色・二値alpha・128配置を再検査。"
       ]
-    }
+    },
+    "family_comparisons": [
+      {
+        "checked_at": "2026-10-05T04:36:56.202991+00:00",
+        "status": "passed",
+        "compared_ids": [
+          "sm-winged-001",
+          "sm-winged-002",
+          "sm-winged-003"
+        ],
+        "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+      }
+    ]
   },
   "readback": {
     "local": "verified",

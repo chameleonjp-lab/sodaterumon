@@ -1074,12 +1074,25 @@
       "three_identifiers": true,
       "palette_roles": true,
       "pose_facing": true,
-      "reference_hash": true
+      "reference_hash": true,
+      "family_style_and_distinct_silhouette": true
     },
     "notes": [
       "生成原本と128原寸・通常絵との並列・足先と目の整数倍拡大を実際に開いた。六つの足先（前枝の後ろの小さな遠側足先も乳白の3画素以上で識別）、横並び目2、平行同長の前枝2、不等長の直線後尾2、連続した音叉胴1、翼0を確認。",
       "青緑の音膜・紫の輪郭/脚・乳白黄の線と先端を保持、通常絵と姿勢/向き一致。32色MAXCOVERAGEで透明画素RGBを除いて減色、alpha二値化・128配置。元24色比較プレビューも保持。参照hashは実際に開いた承認通常絵と一致。",
       "系統001/002/003の通常絵とpixelを実際に並べ、画風・各個体の対応・系統内の形態差と重複なしを確認。"
+    ],
+    "family_comparisons": [
+      {
+        "checked_at": "2026-10-05T04:36:56.214869+00:00",
+        "status": "passed",
+        "compared_ids": [
+          "sm-arcane-001",
+          "sm-arcane-002",
+          "sm-arcane-003"
+        ],
+        "notes": "Parent visualcomparison of all30pairs grouped byfamily; individualnative/pairchecks alreadyperformed. Cohesive outlines/celshading/pixelclusters, distinctanatomy beyondcolorswap."
+      }
     ]
   },
   "readback": {
