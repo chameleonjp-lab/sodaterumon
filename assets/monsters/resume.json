@@ -2,8 +2,8 @@
   "schema_version": 1,
   "branch": "codex/monster-art-continuation-003-20261005",
   "base_commit": "88aae2c209c3f2b6c3e7b1c21fa4c697059d4de9",
-  "saved_commit": "9468df603126fcfdc7bcea38c5739b2d879d8486",
-  "stage": "C gel014-020 partial: fourpairs locallypassed; three normal repairs",
+  "saved_commit": "a95aa5cc9e6135534ea9032461107b3acb16ceed",
+  "stage": "C gel014-020: fourpairs GitHubverified, remainingthree normals regenerating",
   "completed_local_ids": [
     "sm-gel-001",
     "sm-gel-002",
@@ -64,6 +64,10 @@
     "sm-gel-011",
     "sm-gel-012",
     "sm-gel-013",
+    "sm-gel-015",
+    "sm-gel-017",
+    "sm-gel-019",
+    "sm-gel-020",
     "sm-scaled-001",
     "sm-scaled-002",
     "sm-scaled-003",
@@ -268,18 +272,18 @@
   "pending_reasons": [
     {
       "id": "sm-gel-014",
-      "reason": "Ribbon-tail repair received; inspection pending"
+      "reason": "Tail correct; regenerate alpha-noise-free centered normal"
     },
     {
       "id": "sm-gel-016",
-      "reason": "Fourcorner-feet guide imagegen running, prior candidates only3feet"
+      "reason": "Four-foot corner placement; failed normal reference removed; guide-only new imagegen running"
     },
     {
       "id": "sm-gel-018",
-      "reason": "Equal horizontal wings correction imagegen running"
+      "reason": "Wings repaired; two parallel short ribbons correction running"
     }
   ],
-  "next_action": "Save/readback C2 fourpairs015017019020, inspect14tail/16fourfeet/18equalwings repairs, then each own-approved-normal pixelredraw. Finish allC2sevenpairs/save/readback before scaled004-013.",
+  "next_action": "Inspect actual normal generation outputs014016018, approve and reopen each own normal; then separate imagegen pixels. Compare wholegel001-020, save/readback allC2 before scaled004-013.",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
   "pixel_additional_finishing_authorized": true,
@@ -287,7 +291,7 @@
   "previous_branch": "codex/monster-art-continuation-002-20261005",
   "previous_record_commit": "41b2c63493b10f69d839966cfcc4a047bde414b4",
   "previous_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/5",
-  "last_material_commit": "9bfeb3b3a5bf846114fc217fa4dd96d284120cfe",
+  "last_material_commit": "a95aa5cc9e6135534ea9032461107b3acb16ceed",
   "batch_readbacks": [
     {
       "stage": "B002",
@@ -350,6 +354,15 @@
       "files": 33,
       "verified": true,
       "checked_at": "2026-10-05T05:09:57.968052+00:00"
+    },
+    {
+      "stage": "C gel014-020 fourpairspartial",
+      "commit_sha": "a95aa5cc9e6135534ea9032461107b3acb16ceed",
+      "png": 8,
+      "meta": 4,
+      "files": 15,
+      "verified": true,
+      "checked_at": "2026-10-05T05:25:07.628733+00:00"
     }
   ],
   "branch_history": [
