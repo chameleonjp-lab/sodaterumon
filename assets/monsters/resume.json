@@ -2,8 +2,8 @@
   "schema_version": 1,
   "branch": "codex/monster-art-completion-20261005",
   "base_commit": "71bdd77ae7b2fc542d6b6ffa64b7d158298ab24c",
-  "saved_commit": null,
-  "stage": "A",
+  "saved_commit": "c76323acfaaabed6b0efe0c588778ac28505659a",
+  "stage": "B",
   "completed_local_ids": [
     "sm-gel-001",
     "sm-scaled-001",
@@ -16,7 +16,18 @@
     "sm-mineral-001",
     "sm-enigma-001"
   ],
-  "github_verified_ids": [],
+  "github_verified_ids": [
+    "sm-gel-001",
+    "sm-scaled-001",
+    "sm-fanged-001",
+    "sm-winged-001",
+    "sm-micro-001",
+    "sm-flora-001",
+    "sm-arcane-001",
+    "sm-decay-001",
+    "sm-mineral-001",
+    "sm-enigma-001"
+  ],
   "remaining_ids": [
     "sm-gel-002",
     "sm-gel-003",
@@ -225,8 +236,9 @@
     "sm-enigma-015"
   ],
   "pending_reasons": [],
-  "next_action": "Upload Stage A20PNG/10meta/manifest/README, read bytes from exact commit and verify hashes; independent review; then Stage B each family002/003 in batches <=10 pairs",
+  "next_action": "Generate each family002 as first10-pair Stage B batch, default QA then own-reference pixel redraw, finishing/QA/meta, GitHub commit readback before003 batch",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
-  "pixel_additional_finishing_authorized": true
+  "pixel_additional_finishing_authorized": true,
+  "draft_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/3"
 }

@@ -65,7 +65,7 @@
     "readback_verified_assets": 20,
     "rejected_assets": 0,
     "blocked_assets": 0,
-    "verified_pairs": 0
+    "verified_pairs": 10
   },
   "run_log": [
     {
@@ -84,6 +84,18 @@
       "expanded_prompts_prepared": 430,
       "local_prompt_directory": "/workspace/scratch/monster-art-prompts",
       "external_api_used": false
+    },
+    {
+      "checked_at": "2026-10-05T02:51:28.033101+00:00",
+      "stage": "A",
+      "status": "verified",
+      "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+      "verified_pairs": 10,
+      "verified_png": 20,
+      "verified_meta": 10,
+      "source": "GitHub fetch and materialized exact commit bytes rehashed",
+      "independent_review": "6.1Sol Extra High: 10/10 pairs passed; no major defects",
+      "next_action": "Stage B: family002, then003, batches10 pairs"
     }
   ],
   "entries": [
@@ -91,7 +103,7 @@
       "id": "sm-gel-001",
       "family": "gel",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/gel/sm-gel-001/default.png",
@@ -491,10 +503,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "61d611ca550616761ca53a96487eb994ecf2ee285da72d77c411066984756d01",
-            "checked_at": "2026-10-05T02:16:17.924552+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         },
@@ -883,10 +895,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "93ff2b689d61265f01c1bd57ed96258261add082936bbf9253a7e84b0eeadca8",
-            "checked_at": "2026-10-05T02:33:22.854799+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         }
@@ -894,10 +906,15 @@
       "meta": {
         "planned_path": "assets/monsters/gel/sm-gel-001/meta.json",
         "actual_file": "assets/monsters/gel/sm-gel-001/meta.json",
-        "sha256": "a02dcb495796a5d26e6c0aa6f8fd7219513e0648dc88f13153f18e4d2335979c",
+        "sha256": "43a51bab785d827e7e1fb3a54fca30c30a5c008a9fba588b7a445501e686494e",
         "readback": "verified",
-        "bytes": 33780,
-        "status": "readback_verified"
+        "bytes": 33873,
+        "status": "readback_verified",
+        "repository_readback": {
+          "status": "verified",
+          "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+          "checked_at": "2026-10-05T02:51:28.033101+00:00"
+        }
       },
       "pair_qa": {
         "status": "passed",
@@ -2670,7 +2687,7 @@
       "id": "sm-scaled-001",
       "family": "scaled",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/scaled/sm-scaled-001/default.png",
@@ -3293,10 +3310,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "21aefc5bad5f84210e8491925153334faa54dfc01abbb83fb26f5bb4bd3694c5",
-            "checked_at": "2026-10-05T02:16:15.338074+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         },
@@ -3684,10 +3701,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "8716e4cb7c87b6133c2082e60d4c778ae48358ec6563466492f3778c73733895",
-            "checked_at": "2026-10-05T02:33:23.163176+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         }
@@ -3695,10 +3712,15 @@
       "meta": {
         "planned_path": "assets/monsters/scaled/sm-scaled-001/meta.json",
         "actual_file": "assets/monsters/scaled/sm-scaled-001/meta.json",
-        "sha256": "fe4332707e7c600aad8605f00a7b7c508a65160a243105869964a9f861ba34bc",
+        "sha256": "95f2fc6dc724e3ecad6da844db83126844e9f3c79f6212e61fe95c2d093b1fd0",
         "readback": "verified",
-        "bytes": 33464,
-        "status": "readback_verified"
+        "bytes": 33557,
+        "status": "readback_verified",
+        "repository_readback": {
+          "status": "verified",
+          "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+          "checked_at": "2026-10-05T02:51:28.033101+00:00"
+        }
       },
       "pair_qa": {
         "status": "passed",
@@ -5931,7 +5953,7 @@
       "id": "sm-fanged-001",
       "family": "fanged",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/fanged/sm-fanged-001/default.png",
@@ -6838,10 +6860,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "5f4f29b978a748f17db84c124c9af6c27b7d7f59d56b352d82abc2ade276ad1c",
-            "checked_at": "2026-10-05T02:25:51.946469+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         },
@@ -7220,10 +7242,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "14df9d1fafe161594c11c2c23920a7d1ce668c053445e09fd89994cea63ff567",
-            "checked_at": "2026-10-05T02:38:06.814747+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         }
@@ -7231,10 +7253,15 @@
       "meta": {
         "planned_path": "assets/monsters/fanged/sm-fanged-001/meta.json",
         "actual_file": "assets/monsters/fanged/sm-fanged-001/meta.json",
-        "sha256": "0e0ed2009c8cd2771d368e6dd4994ecc68fed8a546a2d75b58922aade4000103",
+        "sha256": "f1ed2484a7c5e2bdd6e504447ead970cb1aeb399a68ef5ff4030c571593a0af8",
         "readback": "verified",
-        "bytes": 41273,
-        "status": "readback_verified"
+        "bytes": 41366,
+        "status": "readback_verified",
+        "repository_readback": {
+          "status": "verified",
+          "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+          "checked_at": "2026-10-05T02:51:28.033101+00:00"
+        }
       },
       "pair_qa": {
         "status": "passed",
@@ -9467,7 +9494,7 @@
       "id": "sm-winged-001",
       "family": "winged",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/winged/sm-winged-001/default.png",
@@ -10666,10 +10693,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "bbafc5c8b82cb3c352bd96ee9a2bcdb937c973212e8c115209cdb0c0e15dc633",
-            "checked_at": "2026-10-05T02:33:08.044389+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         },
@@ -11048,10 +11075,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "bdc1a32be6ba75beabbb57ee14faf5bf21fc1797b6b5ad66447e019eb74f0f56",
-            "checked_at": "2026-10-05T02:38:07.715584+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         }
@@ -11059,10 +11086,15 @@
       "meta": {
         "planned_path": "assets/monsters/winged/sm-winged-001/meta.json",
         "actual_file": "assets/monsters/winged/sm-winged-001/meta.json",
-        "sha256": "e0720153eb99d65274930d780e30b118e902bc49e91a761871f75d505eb4aac5",
+        "sha256": "a4785e8829bc142e2f59aabd86fdb980843228cefd5dcd7e403d194dc2ee5f82",
         "readback": "verified",
-        "bytes": 50717,
-        "status": "readback_verified"
+        "bytes": 50810,
+        "status": "readback_verified",
+        "repository_readback": {
+          "status": "verified",
+          "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+          "checked_at": "2026-10-05T02:51:28.033101+00:00"
+        }
       },
       "pair_qa": {
         "status": "passed",
@@ -12835,7 +12867,7 @@
       "id": "sm-micro-001",
       "family": "micro",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/micro/sm-micro-001/default.png",
@@ -13742,10 +13774,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "84213d8389eab8ba9bf2ddedb5605c262c8ea75707a167e631eb12b7d94a43f1",
-            "checked_at": "2026-10-05T02:29:25.875521+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         },
@@ -14124,10 +14156,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "5ab35c8209bcafe84335896361d033534a04a174ac34e2a44e665426c620c800",
-            "checked_at": "2026-10-05T02:38:08.618293+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         }
@@ -14135,10 +14167,15 @@
       "meta": {
         "planned_path": "assets/monsters/micro/sm-micro-001/meta.json",
         "actual_file": "assets/monsters/micro/sm-micro-001/meta.json",
-        "sha256": "adc5291d7369432f6d4578af964e56d8684b53741dec1ce044d68e0203d54269",
+        "sha256": "4d7bf1d2593bab074a004a5214062ebf25fb25ef7393cbaf24b1dfb4852a730d",
         "readback": "verified",
-        "bytes": 41632,
-        "status": "readback_verified"
+        "bytes": 41725,
+        "status": "readback_verified",
+        "repository_readback": {
+          "status": "verified",
+          "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+          "checked_at": "2026-10-05T02:51:28.033101+00:00"
+        }
       },
       "pair_qa": {
         "status": "passed",
@@ -15911,7 +15948,7 @@
       "id": "sm-flora-001",
       "family": "flora",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/flora/sm-flora-001/default.png",
@@ -16534,10 +16571,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "daa884d7548c663dac391f49ef0d263d9aa79a08d7306d173c300e356312ca4f",
-            "checked_at": "2026-10-05T02:19:23.682736+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         },
@@ -16916,10 +16953,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "7827e0e9a2a0280499a717c6a77df6ac972417429a0af07222506b32472a2bfb",
-            "checked_at": "2026-10-05T02:38:09.512367+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         }
@@ -16927,10 +16964,15 @@
       "meta": {
         "planned_path": "assets/monsters/flora/sm-flora-001/meta.json",
         "actual_file": "assets/monsters/flora/sm-flora-001/meta.json",
-        "sha256": "899dad0447203425eebcfed55618bc850eabd76b0e941bff3cf5e95a2f8dcaff",
+        "sha256": "be82bba13358a79207979b46c90be595bc8d345d66fca5c04c542570b41f3560",
         "readback": "verified",
-        "bytes": 33625,
-        "status": "readback_verified"
+        "bytes": 33718,
+        "status": "readback_verified",
+        "repository_readback": {
+          "status": "verified",
+          "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+          "checked_at": "2026-10-05T02:51:28.033101+00:00"
+        }
       },
       "pair_qa": {
         "status": "passed",
@@ -18703,7 +18745,7 @@
       "id": "sm-arcane-001",
       "family": "arcane",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/arcane/sm-arcane-001/default.png",
@@ -19326,10 +19368,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "13c69f667f6dda8a05911bb236d564da865707a387a836d500095a92cc35ee38",
-            "checked_at": "2026-10-05T02:19:25.190556+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         },
@@ -19708,10 +19750,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "4f078bdea8407fe4f83986728b65dfe476872f48522fd7baf2b02f48366a0ba9",
-            "checked_at": "2026-10-05T02:43:18.221377+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         }
@@ -19719,10 +19761,15 @@
       "meta": {
         "planned_path": "assets/monsters/arcane/sm-arcane-001/meta.json",
         "actual_file": "assets/monsters/arcane/sm-arcane-001/meta.json",
-        "sha256": "54dc0165ae3cccd1974b313bc5b2601a15e45ead0e620d7d66963da79f8ccfb8",
+        "sha256": "577b6887473116da84fb9a82959c4b65a0e46c702c201d1df0f13c9f2642cb8a",
         "readback": "verified",
-        "bytes": 33410,
-        "status": "readback_verified"
+        "bytes": 33503,
+        "status": "readback_verified",
+        "repository_readback": {
+          "status": "verified",
+          "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+          "checked_at": "2026-10-05T02:51:28.033101+00:00"
+        }
       },
       "pair_qa": {
         "status": "passed",
@@ -21955,7 +22002,7 @@
       "id": "sm-decay-001",
       "family": "decay",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/decay/sm-decay-001/default.png",
@@ -23154,10 +23201,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "a34c5d40b91cca1ec31452dcec7c97834ac3c493144b9d91fed724bcb7db83e5",
-            "checked_at": "2026-10-05T02:33:09.282605+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         },
@@ -23536,10 +23583,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "a74ed08372a468af1bee793f38a5ac7d6c9b5b43dfac7f5a22d5d2fdf3027fd6",
-            "checked_at": "2026-10-05T02:43:19.167903+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         }
@@ -23547,10 +23594,15 @@
       "meta": {
         "planned_path": "assets/monsters/decay/sm-decay-001/meta.json",
         "actual_file": "assets/monsters/decay/sm-decay-001/meta.json",
-        "sha256": "0616db2245be051796d2738f444af422dad0be0bbd3243a570af775749c3f632",
+        "sha256": "51243d7fa71e4883b0e74d2530413b8c85543f33ef1b20f368d82628d029a3ca",
         "readback": "verified",
-        "bytes": 50197,
-        "status": "readback_verified"
+        "bytes": 50290,
+        "status": "readback_verified",
+        "repository_readback": {
+          "status": "verified",
+          "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+          "checked_at": "2026-10-05T02:51:28.033101+00:00"
+        }
       },
       "pair_qa": {
         "status": "passed",
@@ -25323,7 +25375,7 @@
       "id": "sm-mineral-001",
       "family": "mineral",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/mineral/sm-mineral-001/default.png",
@@ -26230,10 +26282,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "ab8b9839f39b536f1f7680393dee1d70ea6cc0b5581076316eb4116532ab619b",
-            "checked_at": "2026-10-05T02:29:27.303264+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         },
@@ -26612,10 +26664,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "59e6d3493930c64d94b814010a1680708dc676401e67a3374b8a7b3ead234724",
-            "checked_at": "2026-10-05T02:43:20.118631+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         }
@@ -26623,10 +26675,15 @@
       "meta": {
         "planned_path": "assets/monsters/mineral/sm-mineral-001/meta.json",
         "actual_file": "assets/monsters/mineral/sm-mineral-001/meta.json",
-        "sha256": "e11a92b6c77930f4b0b8cc8ab4a38ad35f56d0771a6746b46c7bbf892c77dc82",
+        "sha256": "ba72d42529b5e5f1b88e292bf47a26042a89330513357a9cf0e7c359782b5012",
         "readback": "verified",
-        "bytes": 42010,
-        "status": "readback_verified"
+        "bytes": 42103,
+        "status": "readback_verified",
+        "repository_readback": {
+          "status": "verified",
+          "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+          "checked_at": "2026-10-05T02:51:28.033101+00:00"
+        }
       },
       "pair_qa": {
         "status": "passed",
@@ -28859,7 +28916,7 @@
       "id": "sm-enigma-001",
       "family": "enigma",
       "design_version": 1,
-      "pair_status": "ready_for_storage",
+      "pair_status": "verified",
       "variants": {
         "default": {
           "planned_path": "assets/monsters/enigma/sm-enigma-001/default.png",
@@ -29774,10 +29831,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "3a6f6bcb329b26ae7d24deba9ee1aa01861175a5ae07653f7b80df21f1563a78",
-            "checked_at": "2026-10-05T02:33:10.481241+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         },
@@ -30156,10 +30213,10 @@
           },
           "readback": {
             "local": "verified",
-            "repository": "not_run",
-            "commit_sha": null,
+            "repository": "verified",
+            "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
             "sha256": "9e870d9e59e98cd46b0e0337839e62dd485fb97bea755791808b813d4a17c9bd",
-            "checked_at": "2026-10-05T02:43:21.054608+00:00"
+            "checked_at": "2026-10-05T02:51:28.033101+00:00"
           },
           "blocker": null
         }
@@ -30167,10 +30224,15 @@
       "meta": {
         "planned_path": "assets/monsters/enigma/sm-enigma-001/meta.json",
         "actual_file": "assets/monsters/enigma/sm-enigma-001/meta.json",
-        "sha256": "bdf28f1fcceb769071fede1ea375fae95f829b34db4c5d71109f1e88d09d10da",
+        "sha256": "4fbb2a14279e1616c45bfe3b23dcf2bd4de10c0d1399a71e2e10b4641fb4f30f",
         "readback": "verified",
-        "bytes": 42634,
-        "status": "readback_verified"
+        "bytes": 42727,
+        "status": "readback_verified",
+        "repository_readback": {
+          "status": "verified",
+          "commit_sha": "c76323acfaaabed6b0efe0c588778ac28505659a",
+          "checked_at": "2026-10-05T02:51:28.033101+00:00"
+        }
       },
       "pair_qa": {
         "status": "passed",
