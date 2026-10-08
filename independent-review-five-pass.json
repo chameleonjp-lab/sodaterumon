@@ -1,0 +1,75 @@
+{
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "xhigh",
+  "display_setting": "Extra High",
+  "reviewed_at": "2026-10-08T02:35:48Z",
+  "reviewer": "independent visual reviewer",
+  "source": "independent reviewer report; selected hashes and reference chains verified",
+  "batch_decision": "HOLD for the complete 10-pair set because 017,018,020,022,023 require corrections",
+  "published_subset_decision": "PASS individually for each listed pair; only these five pairs are included",
+  "findings": {
+    "sm-scaled-014": "PASS: four feet, three back steps, two stair tails; pair agrees.",
+    "sm-scaled-015": "PASS: anatomy, leaf wings, central wing scales, pair identity preserved.",
+    "sm-scaled-016": "PASS: three lobes, eyes, feet and required fan scales are clear.",
+    "sm-scaled-019": "PASS: five feet, six large plates and raised fan tail confirmed.",
+    "sm-scaled-021": "PASS: six feet, half-cylinder silhouette and central scale row confirmed."
+  },
+  "common_review_checks": [
+    "selected hashes matched",
+    "pixel reference hash equals default hash",
+    "no duplicate designs identified",
+    "individual original-size and pair comparison",
+    "family lineup comparison"
+  ],
+  "limitations": [
+    "Rights clearance was not performed.",
+    "Exact raw-source grid replication was not assumed; the final logical-grid images and permitted finishing were checked."
+  ],
+  "selected_pairs": [
+    {
+      "id": "sm-scaled-014",
+      "decision": "PASS",
+      "default_sha256": "6c99a6771e9de810c2b9bbf5273768e20feca36fa894b94de42b38135a4e18df",
+      "pixel_sha256": "0dbdf9d64c538dfe2ed4b7d23d359fbe399419bd84f37a5215b9fc2d84176e69",
+      "reference_default_sha256": "6c99a6771e9de810c2b9bbf5273768e20feca36fa894b94de42b38135a4e18df",
+      "selected_default_source_sha256": "d9cda3fad3ad8f964d50645afd4b83f36bd5692abc5d258558c0f410f63cf067",
+      "selected_pixel_source_sha256": "78c1f5dbb34d03b2b27461d700e90a7e3171354a61b1b6ec378bf8295ba1cefb"
+    },
+    {
+      "id": "sm-scaled-015",
+      "decision": "PASS",
+      "default_sha256": "00e5dee8d9cde29d24a01d6fb63f60f9c5a2dbfa1a9ea8534c1d0aa2fe8795ae",
+      "pixel_sha256": "07dbc90222a29f18b0a1101dc304f97a7ad018528b74d4cc16cc81b59b2bb190",
+      "reference_default_sha256": "00e5dee8d9cde29d24a01d6fb63f60f9c5a2dbfa1a9ea8534c1d0aa2fe8795ae",
+      "selected_default_source_sha256": "15eb2a3f648d797d1f873e8867f38cc11aabf98824104cb1961e6572a837e3a8",
+      "selected_pixel_source_sha256": "7ea5ff6b5ac81675ce612c705f946c4013fd7d135b15a524a06451e979e79d8e"
+    },
+    {
+      "id": "sm-scaled-016",
+      "decision": "PASS",
+      "default_sha256": "ddc883edd29980ddd2689905a934826cccd07f08f65918e0f5648d1a4c8b2779",
+      "pixel_sha256": "8456f5b12bd1f2457d325b93d0033450fbc4734712552ad84f8732d9c1d5191a",
+      "reference_default_sha256": "ddc883edd29980ddd2689905a934826cccd07f08f65918e0f5648d1a4c8b2779",
+      "selected_default_source_sha256": "8e1b128fb392873432a5ed4649c53d609b68c722ab94c564cbee74fe51072895",
+      "selected_pixel_source_sha256": "98f93fca9eaada043116cab215c410dc6075b130575f3454c08106537ff78b2a"
+    },
+    {
+      "id": "sm-scaled-019",
+      "decision": "PASS",
+      "default_sha256": "8e963d3a8c26d8b8bb3181d3f4b367a0423aece03b9a5aa48740e561f2e6564a",
+      "pixel_sha256": "bb2baa5ac3d6df2836e233170c4448da0449eb0bceee55e854e733a11f5842d4",
+      "reference_default_sha256": "8e963d3a8c26d8b8bb3181d3f4b367a0423aece03b9a5aa48740e561f2e6564a",
+      "selected_default_source_sha256": "8732369c9906dca341005a54a9d1731343baa7813ca27b0c833a48c32dd2acd3",
+      "selected_pixel_source_sha256": "84eaf9bab559c8200eb93933cef7674e9c0a8f91a56c944cd1848eca004abe0b"
+    },
+    {
+      "id": "sm-scaled-021",
+      "decision": "PASS",
+      "default_sha256": "ed24130ea7abb353d95055bc8f7b7e0cb420cf491b5727d0ec5d47961bd46778",
+      "pixel_sha256": "7599b7ded194fe5a1c1b435e89c8d6fb038fd32f38d836a7791d095f44c3c83e",
+      "reference_default_sha256": "ed24130ea7abb353d95055bc8f7b7e0cb420cf491b5727d0ec5d47961bd46778",
+      "selected_default_source_sha256": "cb6834e0a874205fb233edbe29bc2f4577480d287a2b5d7c1af6627207ea3407",
+      "selected_pixel_source_sha256": "183edd0d2f03d04071d0203c4d02666c7992d916feee5afef1e89ecd9eb0bd9d"
+    }
+  ]
+}
