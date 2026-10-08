@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "branch": "codex/monster-art-continuation-003-20261005",
-  "base_commit": "88aae2c209c3f2b6c3e7b1c21fa4c697059d4de9",
-  "saved_commit": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
-  "stage": "C scaled014-023 normal generation; C3 material readback completed",
+  "branch": "codex/sodaterumon-scaled-014-016-019-021-20261008",
+  "base_commit": "34ebab0638a5e51d202622bd60f26d3761e3b041",
+  "saved_commit": null,
+  "stage": "scaled014-023 partial: five reviewed pairs saved on branch; GitHub readback pending",
   "completed_local_ids": [
     "sm-gel-001",
     "sm-gel-002",
@@ -61,7 +61,12 @@
     "sm-mineral-003",
     "sm-enigma-001",
     "sm-enigma-002",
-    "sm-enigma-003"
+    "sm-enigma-003",
+    "sm-scaled-014",
+    "sm-scaled-015",
+    "sm-scaled-016",
+    "sm-scaled-019",
+    "sm-scaled-021"
   ],
   "github_verified_ids": [
     "sm-gel-001",
@@ -285,54 +290,70 @@
   "pending_reasons": [
     {
       "id": "sm-scaled-014",
-      "reason": "通常絵生成中。実原本の目視・完全透明確認・非破壊仕上げ・個別QA後に独立したドット絵生成。"
+      "reason": "Independent review PASS and branch save complete; read back all three files and verify SHA-256 before marking repository verified."
     },
     {
       "id": "sm-scaled-015",
-      "reason": "通常絵生成中。実原本の目視・完全透明確認・非破壊仕上げ・個別QA後に独立したドット絵生成。"
+      "reason": "Independent review PASS and branch save complete; read back all three files and verify SHA-256 before marking repository verified."
     },
     {
       "id": "sm-scaled-016",
-      "reason": "通常絵生成中。実原本の目視・完全透明確認・非破壊仕上げ・個別QA後に独立したドット絵生成。"
-    },
-    {
-      "id": "sm-scaled-017",
-      "reason": "通常絵生成中。実原本の目視・完全透明確認・非破壊仕上げ・個別QA後に独立したドット絵生成。"
-    },
-    {
-      "id": "sm-scaled-018",
-      "reason": "通常絵生成中。実原本の目視・完全透明確認・非破壊仕上げ・個別QA後に独立したドット絵生成。"
+      "reason": "Independent review PASS and branch save complete; read back all three files and verify SHA-256 before marking repository verified."
     },
     {
       "id": "sm-scaled-019",
-      "reason": "通常絵生成中。実原本の目視・完全透明確認・非破壊仕上げ・個別QA後に独立したドット絵生成。"
-    },
-    {
-      "id": "sm-scaled-020",
-      "reason": "通常絵生成中。実原本の目視・完全透明確認・非破壊仕上げ・個別QA後に独立したドット絵生成。"
+      "reason": "Independent review PASS and branch save complete; read back all three files and verify SHA-256 before marking repository verified."
     },
     {
       "id": "sm-scaled-021",
-      "reason": "通常絵生成中。実原本の目視・完全透明確認・非破壊仕上げ・個別QA後に独立したドット絵生成。"
+      "reason": "Independent review PASS and branch save complete; read back all three files and verify SHA-256 before marking repository verified."
+    },
+    {
+      "id": "sm-scaled-017",
+      "reason": "HOLD pixel: match muted dusty-rose/cream/purple palette; revised candidate awaits independent review."
+    },
+    {
+      "id": "sm-scaled-018",
+      "reason": "HOLD pixel: separate the far eye from the contour and keep genuine transparent background; preserve every raw attempt."
+    },
+    {
+      "id": "sm-scaled-020",
+      "reason": "HOLD pixel: consolidate color islands and clarify torso scale clusters and both eyes."
     },
     {
       "id": "sm-scaled-022",
-      "reason": "通常絵生成中。実原本の目視・完全透明確認・非破壊仕上げ・個別QA後に独立したドット絵生成。"
+      "reason": "HOLD pixel: reduce saturation to match the muted default palette."
     },
     {
       "id": "sm-scaled-023",
-      "reason": "通常絵生成中。実原本の目視・完全透明確認・非破壊仕上げ・個別QA後に独立したドット絵生成。"
+      "reason": "HOLD pair: align default and pixel to catalog left-lean pose; fix default first, then regenerate pixel from its final hash."
+    },
+    {
+      "id": "sm-scaled-009",
+      "reason": "Independent review found U-shaped bead-like segments instead of the catalog shallow S-curve/short cylinder; preserve original and make a separate revised candidate."
+    },
+    {
+      "id": "sm-flora-002",
+      "reason": "Independent review inconclusive due to occlusion/projection; do not treat as confirmed defect."
+    },
+    {
+      "id": "sm-gel-006",
+      "reason": "Independent review inconclusive due to occlusion/projection; do not treat as confirmed defect."
+    },
+    {
+      "id": "sm-mineral-003",
+      "reason": "Independent review inconclusive due to occlusion/projection; do not treat as confirmed defect."
     }
   ],
-  "next_action": "鱗体系014〜023の10対を通常絵から制作。原本を保持し、個別原寸・通常対比・系統比較の合格後に保存とGitHub実体読み戻し。",
+  "next_action": "Read back 014/015/016/019/021 default.png, pixel.png, meta.json from the new commit and compare SHA-256 and PNG properties. Only then update manifest and resume to verified and open/refresh the Draft PR.",
   "originals_directory": "/workspace/generated_images",
   "backup_directory": "/workspace/scratch/monster-production/backups",
   "pixel_additional_finishing_authorized": true,
-  "draft_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/6",
+  "draft_pr": null,
   "previous_branch": "codex/monster-art-continuation-002-20261005",
   "previous_record_commit": "41b2c63493b10f69d839966cfcc4a047bde414b4",
   "previous_pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/5",
-  "last_material_commit": "b000e9a23c838f6f4b9db556bcf81650f369c85e",
+  "last_material_commit": null,
   "batch_readbacks": [
     {
       "stage": "B002",
@@ -445,9 +466,22 @@
       "saved_commit": "293ec5aa2ab2146dbb76cccda73356ac3cfafe1b",
       "pr": "https://github.com/chameleonjp-lab/sodaterumon/pull/5",
       "reason": "PR5 externally merged; latestmain88 has sameverifiedmaterialtree11e as293; newbranchfromexactlatestmain."
+    },
+    {
+      "branch": "codex/sodaterumon-scaled-pass-014-016-019-021-20261008",
+      "base_commit": "34ebab0638a5e51d202622bd60f26d3761e3b041",
+      "draft_pr": null,
+      "scope": [
+        "sm-scaled-014",
+        "sm-scaled-015",
+        "sm-scaled-016",
+        "sm-scaled-019",
+        "sm-scaled-021"
+      ],
+      "dependency": "First PR from current main; later PRs base this branch if unmerged"
     }
   ],
-  "record_commit": "5f3c5ef590a5fb8971d477a9c173ffce34206ab0",
+  "record_commit": null,
   "secondary_visual_checks": [
     {
       "stage": "Cgel014-020",
@@ -582,5 +616,13 @@
       ]
     }
   ],
-  "unverified_completed_ids": []
+  "unverified_completed_ids": [
+    "sm-scaled-014",
+    "sm-scaled-015",
+    "sm-scaled-016",
+    "sm-scaled-019",
+    "sm-scaled-021"
+  ],
+  "independent_review_model": "gpt-6.1-sol",
+  "independent_review_effort": "xhigh"
 }

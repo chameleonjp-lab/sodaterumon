@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "id": "sm-scaled-021",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "invariants": {
+    "silhouette": "体節1の半円柱屋根型。脚6、腕0、目2、翼0、尾0。脚3対は左右のまっすぐな下辺に並ぶ。",
+    "material_motif": "雨滴をはじく瓦うろこ。背中央に幅広い縦長うろこ1列。",
+    "palette_hex": [
+      "#BDA792",
+      "#D4E1E7",
+      "#5D685E"
+    ],
+    "signature_features": [
+      "正面が半円で横に長い半円柱",
+      "左右の下辺に脚3本ずつ",
+      "背の中央を通る幅広いうろこ1列"
+    ],
+    "pose": "前方を少し下げ、屋根状の曲面を斜め上から見せる。",
+    "temperament": "落ち着いている。雨の当たりにくい石陰を好む。",
+    "do_not_add": [
+      "屋根の棟角",
+      "建築物の瓦目地",
+      "曲がりくねる胴"
+    ]
+  },
+  "provenance": {
+    "description": "独自デザイン計画に基づくAI生成",
+    "generated": true,
+    "tool": "image_gen.imagegen",
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "default": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-scaled-021 / ヤネプルコ / 鱗体 (scaled)\nBody and exact anatomy: 体節1の半円柱屋根型。脚6、腕0、目2、翼0、尾0。脚3対は左右のまっすぐな下辺に並ぶ。\nMaterials and biological motif: 雨滴をはじく瓦うろこ。背中央に幅広い縦長うろこ1列。\nPrimary, secondary, accent colors respectively: #BDA792; #D4E1E7; #5D685E\nThree mandatory visual identifiers: 正面が半円で横に長い半円柱; 左右の下辺に脚3本ずつ; 背の中央を通る幅広いうろこ1列\nPose: 前方を少し下げ、屋根状の曲面を斜め上から見せる。\nTemperament to convey through expression or posture: 落ち着いている。雨の当たりにくい石陰を好む。.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body with no cropping. Use an elevated three-quarter view from clearly above the creature so both long straight lower edges are visible. The semi-cylindrical roof body runs diagonally from upper-left rear to lower-right front. Show exactly SIX distinct short legs: three attached to the far/back lower edge and projecting visibly above and behind the roof silhouette, and three attached to the near/front lower edge and projecting below the body. Space each row evenly along the length, and keep all six feet tips visibly separate from each other and the body contour. Do not hide the far row behind the body. Keep the two eyes on the front semicircular end visible. Center the whole creature on a square transparent canvas with the full body, six complete legs and clear margin on every side.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Do not draw the guide image's gray shapes, labels, text, outline, or white background; it communicates only the six-foot placement. The first reference is a failed rendering whose visible leg count is wrong; preserve only its creature material and palette, and correct the leg layout using the second reference as an anatomy-position guide.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 屋根の棟角; 建築物の瓦目地; 曲がりくねる胴\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character, hidden or overlapping legs.\n",
+      "pixel": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite paired to the approved original illustration.\nInput image 1 is the accepted default illustration for sm-scaled-021; it is the sole identity reference and must remain this same individual.\nRedraw independently as true pixel art. Do not downsample, filter, trace, or reuse the normal illustration.\nManagement only, do not render text: sm-scaled-021 / ヤネプルコ / 鱗体 (scaled).\nLocked anatomy and silhouette: 体節1の半円柱屋根型。脚6、腕0、目2、翼0、尾0。脚3対は左右のまっすぐな下辺に並ぶ。\nLocked material motif: 雨滴をはじく瓦うろこ。背中央に幅広い縦長うろこ1列。\nPalette roles in order (primary, secondary, accent): #BDA792; #D4E1E7; #5D685E\nAll three mandatory identifiers, each visibly present: 正面が半円で横に長い半円柱; 左右の下辺に脚3本ずつ; 背の中央を通る幅広いうろこ1列\nLocked pose: 前方を少し下げ、屋根状の曲面を斜め上から見せる。\nKeep the reference facing, pose, proportions, physical left/right placement, and relative palette regions. Preserve every declared count.\nGRID DELIVERY CONTRACT: Design on a native 128x128 logical pixel canvas. Export a 1254x1254 RGBA preview by enlarging that 128x128 canvas with exact nearest-neighbor integer scaling 9x to 1152x1152, centered at x=51..1202 and y=51..1202 on the 1254 square. Every logical pixel must become one perfectly solid 9x9 block (no antialiasing, smoothing, interpolation, dithering, or subpixel edges). Keep the creature within 104 logical pixels on its longest dimension and at least 8 transparent logical pixels to every canvas edge. The unused 51px outer margin is fully transparent.\nUse at most 32 opaque RGB colors plus transparent alpha; alpha must be exactly 0 or 255. One consistent 1-2 logical-pixel dark outline. Pixel clusters and staircase contours must be deliberate, readable, and anatomically correct.\nForbidden additions: 屋根の棟角; 建築物の瓦目地; 曲がりくねる胴. No background, cast shadow, glow, ground, scenery, text, labels, logos, frame, extra creature, blur, or gradients.\nDo not obscure any of the three signature features. No change except rendering medium."
+    },
+    "reference_default_sha256": "ed24130ea7abb353d95055bc8f7b7e0cb420cf491b5727d0ec5d47961bd46778",
+    "attempts": {
+      "default": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "attempt_label": "default",
+          "requested_at": "2026-10-05T06:30:33.184568+00:00",
+          "request_path": "private request log retained locally; not published",
+          "expanded_prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-scaled-021 / ヤネプルコ / 鱗体 (scaled)\nBody and exact anatomy: 体節1の半円柱屋根型。脚6、腕0、目2、翼0、尾0。脚3対は左右のまっすぐな下辺に並ぶ。\nMaterials and biological motif: 雨滴をはじく瓦うろこ。背中央に幅広い縦長うろこ1列。\nPrimary, secondary, accent colors respectively: #BDA792; #D4E1E7; #5D685E\nThree mandatory visual identifiers: 正面が半円で横に長い半円柱; 左右の下辺に脚3本ずつ; 背の中央を通る幅広いうろこ1列\nPose: 前方を少し下げ、屋根状の曲面を斜め上から見せる。\nTemperament to convey through expression or posture: 落ち着いている。雨の当たりにくい石陰を好む。. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 屋根の棟角; 建築物の瓦目地; 曲がりくねる胴\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n新しい独自個体のゲーム用全身通常絵。既存の別個体の胴や丸魚鱗の構造をコピーせず、この仕様の形を優先する。濃く丸い輪郭線・穏やかな少数の影色・明瞭な色面、材質差は保つ。全身が透明背景の中央に余白付きで入る。寸法調整は原本を保持して完全透明余白切りと比例縮小で行うので、欠けや描かれた市松背景を使わない。一続きの横長半円柱胴1、前面断面は半円で腹がまっすぐ、背は丸い屋根曲面。左右のまっすぐな下辺に脚3本ずつ全6先端を可視、目2/腕翼尾0。雨滴をはじく丸瓦鱗と背中央の幅広い縦長鱗1列。前を少し下げ浅い俯角で6脚を隠さない。建物や棟の尖り/瓦目地/うねる胴ではない。 参照構造図がある場合その文字/番号/白黒配色/白背景を完成絵に描かず、本物の透明alphaにする。",
+          "prompt_sha256": "8356bf8be1e7cc19ff543b1cb54a1d9228df989e326df199fc314dc779db60ed",
+          "reference_images": [],
+          "status": "rejected",
+          "source_path": "private source retained by SHA-256 9d225bf6d67f6f22ecbbda50e5265beb0898ff831e6176422eb0b8596700a996; not published",
+          "sha256": "9d225bf6d67f6f22ecbbda50e5265beb0898ff831e6176422eb0b8596700a996",
+          "output_sha256": null,
+          "rejection_reason": "脚の数/配置が不足。原本保留。",
+          "bytes": 1297013,
+          "width": 1254,
+          "height": 1254,
+          "mode": "RGBA",
+          "observed_at": "2026-10-05T06:36:12.033+00:00"
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "attempt_label": "default",
+          "requested_at": "2026-10-05T06:39:24.475786+00:00",
+          "request_path": "private request log retained locally; not published",
+          "expanded_prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-scaled-021 / ヤネプルコ / 鱗体 (scaled)\nBody and exact anatomy: 体節1の半円柱屋根型。脚6、腕0、目2、翼0、尾0。脚3対は左右のまっすぐな下辺に並ぶ。\nMaterials and biological motif: 雨滴をはじく瓦うろこ。背中央に幅広い縦長うろこ1列。\nPrimary, secondary, accent colors respectively: #BDA792; #D4E1E7; #5D685E\nThree mandatory visual identifiers: 正面が半円で横に長い半円柱; 左右の下辺に脚3本ずつ; 背の中央を通る幅広いうろこ1列\nPose: 前方を少し下げ、屋根状の曲面を斜め上から見せる。\nTemperament to convey through expression or posture: 落ち着いている。雨の当たりにくい石陰を好む。. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 屋根の棟角; 建築物の瓦目地; 曲がりくねる胴\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nChange only leglayout and view in reference. Preserve oneLONGSEMICYLINDRICALrooflikebody withaROUNDsemicirclefrontcross-section, straightlowbelly, broadwaterproofshinglescales andonecentralBACKROWofwideverticalscales, twoeyes, noarmswingstail. There must be EXACTLY SIX SHORTLEGS: THREE attached downstraightphysicalLEFT lowerbodyedge andTHREE downstraightRIGHT lowerbodyedge. Changeviewto more overheadthreequarter soALL SIX separatefoot tipsarevisible. Nearsidecurrently4: reduceit to3evenlyspaced; farsidecurrently1: draw3evenlyspacedwithtipsprotrudingbeyondfarsidebodyupperoutline. Total6=3eachside, no seventh. All legs rootatloweredges, noverticalbuildingroofridge. Samepalette tan/palegrayblue/darkgreen.",
+          "prompt_sha256": "03052f9f3266e89016c1facf5433c92bebb4a594ef6d3c701b3977378bdf87db",
+          "reference_images": [
+            {
+              "path": "/workspace/generated_images/exec-f03bf11d-5a67-4054-9645-95102cfda89e.png",
+              "sha256": "9d225bf6d67f6f22ecbbda50e5265beb0898ff831e6176422eb0b8596700a996"
+            }
+          ],
+          "status": "rejected",
+          "source_path": "private source retained by SHA-256 88582b5eb92e5e067c79f8f1ced86c4721e37e6d27da4ddc718c581d5c004a3f; not published",
+          "sha256": "88582b5eb92e5e067c79f8f1ced86c4721e37e6d27da4ddc718c581d5c004a3f",
+          "output_sha256": null,
+          "rejection_reason": "再生成でも6脚の全てが見えず原本保留。",
+          "bytes": 1242807,
+          "width": 1254,
+          "height": 1254,
+          "mode": "RGBA",
+          "observed_at": "2026-10-05T06:43:55.659+00:00"
+        },
+        {
+          "attempt": 3,
+          "tool": "image_gen.imagegen",
+          "attempt_label": "default",
+          "requested_at": "2026-10-08T01:09:14.654308+00:00",
+          "request_path": "private request log retained locally; not published",
+          "expanded_prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-scaled-021 / ヤネプルコ / 鱗体 (scaled)\nBody and exact anatomy: 体節1の半円柱屋根型。脚6、腕0、目2、翼0、尾0。脚3対は左右のまっすぐな下辺に並ぶ。\nMaterials and biological motif: 雨滴をはじく瓦うろこ。背中央に幅広い縦長うろこ1列。\nPrimary, secondary, accent colors respectively: #BDA792; #D4E1E7; #5D685E\nThree mandatory visual identifiers: 正面が半円で横に長い半円柱; 左右の下辺に脚3本ずつ; 背の中央を通る幅広いうろこ1列\nPose: 前方を少し下げ、屋根状の曲面を斜め上から見せる。\nTemperament to convey through expression or posture: 落ち着いている。雨の当たりにくい石陰を好む。.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body with no cropping. Use an elevated three-quarter view from clearly above the creature so both long straight lower edges are visible. The semi-cylindrical roof body runs diagonally from upper-left rear to lower-right front. Show exactly SIX distinct short legs: three attached to the far/back lower edge and projecting visibly above and behind the roof silhouette, and three attached to the near/front lower edge and projecting below the body. Space each row evenly along the length, and keep all six feet tips visibly separate from each other and the body contour. Do not hide the far row behind the body. Keep the two eyes on the front semicircular end visible. Center the whole creature on a square transparent canvas with the full body, six complete legs and clear margin on every side.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Do not draw the guide image's gray shapes, labels, text, outline, or white background; it communicates only the six-foot placement. The first reference is a failed rendering whose visible leg count is wrong; preserve only its creature material and palette, and correct the leg layout using the second reference as an anatomy-position guide.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 屋根の棟角; 建築物の瓦目地; 曲がりくねる胴\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character, hidden or overlapping legs.\n",
+          "prompt_sha256": "a9df8c9c519e05fbc5f066de3bbd869e516a95e38f3f4d430a149390797f06c5",
+          "reference_images": [
+            {
+              "path": "/workspace/generated_images/exec-d7eaee18-efce-4d34-a32b-8d70b1cf4028.png",
+              "sha256": "4db25d53262c9b46e09139faa586473d617e712c472b0cf9a48990300171fdbe"
+            },
+            {
+              "path": "/workspace/scratch/monster-production/guides/scaled021-six-feet-three-each-semicylinder-layout-v1.png",
+              "sha256": "1c06a03fe2e4b570253f6262f5a7b9533ae3a5bc9c41df145fda7164d3528f0a"
+            }
+          ],
+          "status": "accepted",
+          "source_path": "private source retained by SHA-256 cb6834e0a874205fb233edbe29bc2f4577480d287a2b5d7c1af6627207ea3407; not published",
+          "sha256": "cb6834e0a874205fb233edbe29bc2f4577480d287a2b5d7c1af6627207ea3407",
+          "output_sha256": "ed24130ea7abb353d95055bc8f7b7e0cb420cf491b5727d0ec5d47961bd46778",
+          "rejection_reason": "6脚構図ガイドを使って再生成し合格。",
+          "bytes": 1195778,
+          "width": 1254,
+          "height": 1254,
+          "mode": "RGBA",
+          "observed_at": "2026-10-08T01:16:47.020+00:00"
+        }
+      ],
+      "pixel": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "attempt_label": "grid-v2",
+          "requested_at": "2026-10-08T01:24:05.851141+00:00",
+          "request_path": "private request log retained locally; not published",
+          "expanded_prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite paired to the approved original illustration.\nInput image 1 is the accepted default illustration for sm-scaled-021; it is the sole identity reference and must remain this same individual.\nRedraw independently as true pixel art. Do not downsample, filter, trace, or reuse the normal illustration.\nManagement only, do not render text: sm-scaled-021 / ヤネプルコ / 鱗体 (scaled).\nLocked anatomy and silhouette: 体節1の半円柱屋根型。脚6、腕0、目2、翼0、尾0。脚3対は左右のまっすぐな下辺に並ぶ。\nLocked material motif: 雨滴をはじく瓦うろこ。背中央に幅広い縦長うろこ1列。\nPalette roles in order (primary, secondary, accent): #BDA792; #D4E1E7; #5D685E\nAll three mandatory identifiers, each visibly present: 正面が半円で横に長い半円柱; 左右の下辺に脚3本ずつ; 背の中央を通る幅広いうろこ1列\nLocked pose: 前方を少し下げ、屋根状の曲面を斜め上から見せる。\nKeep the reference facing, pose, proportions, physical left/right placement, and relative palette regions. Preserve every declared count.\nGRID DELIVERY CONTRACT: Design on a native 128x128 logical pixel canvas. Export a 1254x1254 RGBA preview by enlarging that 128x128 canvas with exact nearest-neighbor integer scaling 9x to 1152x1152, centered at x=51..1202 and y=51..1202 on the 1254 square. Every logical pixel must become one perfectly solid 9x9 block (no antialiasing, smoothing, interpolation, dithering, or subpixel edges). Keep the creature within 104 logical pixels on its longest dimension and at least 8 transparent logical pixels to every canvas edge. The unused 51px outer margin is fully transparent.\nUse at most 32 opaque RGB colors plus transparent alpha; alpha must be exactly 0 or 255. One consistent 1-2 logical-pixel dark outline. Pixel clusters and staircase contours must be deliberate, readable, and anatomically correct.\nForbidden additions: 屋根の棟角; 建築物の瓦目地; 曲がりくねる胴. No background, cast shadow, glow, ground, scenery, text, labels, logos, frame, extra creature, blur, or gradients.\nDo not obscure any of the three signature features. No change except rendering medium.",
+          "prompt_sha256": "6ce5a09d14bfeb80070b3d03708536ba231f35bff8d124bc51a15ae4b58d2f26",
+          "reference_images": [
+            {
+              "path": "/workspace/scratch/monster-production/work-20261008-sm-scaled-014-023/candidates/assets/monsters/scaled/sm-scaled-021/default.png",
+              "sha256": "ed24130ea7abb353d95055bc8f7b7e0cb420cf491b5727d0ec5d47961bd46778"
+            }
+          ],
+          "status": "selected",
+          "source_path": "private source retained by SHA-256 183edd0d2f03d04071d0203c4d02666c7992d916feee5afef1e89ecd9eb0bd9d; not published",
+          "sha256": "183edd0d2f03d04071d0203c4d02666c7992d916feee5afef1e89ecd9eb0bd9d",
+          "output_sha256": "7599b7ded194fe5a1c1b435e89c8d6fb038fd32f38d836a7791d095f44c3c83e",
+          "rejection_reason": null,
+          "bytes": 848217,
+          "width": 1254,
+          "height": 1254,
+          "mode": "RGBA",
+          "observed_at": "2026-10-08T01:30:43.320+00:00",
+          "selected": true
+        }
+      ]
+    },
+    "processing_log": {
+      "default": [
+        {
+          "tool": "Python/Pillow",
+          "method": "完全透明余白を切り、縦横比を保ち長辺896へLANCZOS縮小、透明1024キャンバス中央配置",
+          "input_sha256": "cb6834e0a874205fb233edbe29bc2f4577480d287a2b5d7c1af6627207ea3407",
+          "output_sha256": "ed24130ea7abb353d95055bc8f7b7e0cb420cf491b5727d0ec5d47961bd46778"
+        }
+      ],
+      "pixel": [
+        {
+          "at": "2026-10-08T01:55:02+00:00",
+          "tool": "Python/Pillow",
+          "method": "別途imagegen生成されたドット候補から指定整数格子のセル中心を採取し、alpha>=128を二値化。見える範囲を切り、MAXCOVERAGEで32色以下へ無ディザ減色、NEARESTで長辺104以内に調整し、透明128キャンバス中央へ配置。通常絵の縮小は不使用。",
+          "raw_path": "private accepted source retained by SHA-256 183edd0d2f03d04071d0203c4d02666c7992d916feee5afef1e89ecd9eb0bd9d; not published",
+          "input_sha256": "183edd0d2f03d04071d0203c4d02666c7992d916feee5afef1e89ecd9eb0bd9d",
+          "grid": {
+            "cell_size_source_pixels": 9,
+            "origin_xy": [
+              51,
+              51
+            ],
+            "sampling": "unquantized source RGB and alpha threshold>=128 sampled at requested logical cell centers",
+            "source_alpha_bbox": [
+              69,
+              195,
+              1206,
+              1117
+            ],
+            "logical_bounds": [
+              2,
+              16,
+              129,
+              119
+            ],
+            "sampled_bbox_before_fit": [
+              0,
+              0,
+              126,
+              102
+            ],
+            "sampled_size_before_fit": [
+              126,
+              102
+            ],
+            "fit_size_nearest": [
+              104,
+              84
+            ],
+            "center_offset": [
+              12,
+              22
+            ]
+          },
+          "operations": {
+            "alpha": "binary threshold before logical-cell extraction",
+            "palette": "MAXCOVERAGE 32 on sampled logical cells, no dithering",
+            "resize": "NEAREST only on sampled pixel sprite to <=104 extent",
+            "placement": "centered on transparent 128 canvas",
+            "superseded_palette_after_fit_sha256": "2c57f13b850daa53ee67e84d2b0a36e8a7c53ca20e3c06899a2014a339f1fc7c",
+            "raw_preserved": true
+          },
+          "source_grid_exact_replication_verified": false,
+          "source_grid_note": "1254px生成原本における全セルの厳密な反復ブロックは確認できていない。ここに記す格子中心サンプリングと配置は利用者が許可したpixel仕上げ。完成128px画像の論理ピクセルを保持し、原本が数学的に完全な整数倍nearest enlargementだったとは主張しない。",
+          "output_sha256": "7599b7ded194fe5a1c1b435e89c8d6fb038fd32f38d836a7791d095f44c3c83e"
+        }
+      ]
+    },
+    "pixel_reference_images": [
+      {
+        "path": "assets/monsters/scaled/sm-scaled-021/default.png",
+        "sha256": "ed24130ea7abb353d95055bc8f7b7e0cb420cf491b5727d0ec5d47961bd46778",
+        "role": "authoritative approved identity reference"
+      }
+    ],
+    "rights_and_license_review": {
+      "scope": "独立briefと内蔵imagegenで制作した今回の選定素材",
+      "external_source_art_used_as_input": false,
+      "third_party_rights_or_license_clearance": "not_performed",
+      "assurance": "権利・ライセンスの包括的保証はしていない"
+    },
+    "rights_review": {
+      "third_party_rights_or_license_clearance": "not_performed",
+      "scope_note": "No external franchise imagery, proper names, source IDs, or crosswalks were used as generation inputs or included in this publication."
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/scaled/sm-scaled-021/default.png",
+      "sha256": "ed24130ea7abb353d95055bc8f7b7e0cb420cf491b5727d0ec5d47961bd46778",
+      "bytes": 706908,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    "pixel": {
+      "file": "assets/monsters/scaled/sm-scaled-021/pixel.png",
+      "sha256": "7599b7ded194fe5a1c1b435e89c8d6fb038fd32f38d836a7791d095f44c3c83e",
+      "bytes": 7107,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA"
+    }
+  },
+  "qa": {
+    "default": {
+      "status": "passed",
+      "checked_at": "2026-10-08T01:55:02+00:00",
+      "checked_by": "Codex visual review + Pillow measurements",
+      "checks": {
+        "png_decodes": true,
+        "canvas_1024": true,
+        "rgba": true,
+        "genuine_alpha_padding": true,
+        "body_extent_768_896": true,
+        "six_feet_visible": true,
+        "three_identifiers": true,
+        "palette_roles": true
+      },
+      "notes": [
+        "原寸と並列で半円柱屋根型・中央幅広うろこ列・左右3脚ずつ計6脚・前端2眼を確認。曲がらない胴と前低姿勢、色の役割を確認。修正版原本を保持し、完全透明余白切り・比例縮小・透明1024中央配置。"
+      ]
+    },
+    "pixel": {
+      "status": "passed",
+      "checked_at": "2026-10-08T01:55:02+00:00",
+      "checked_by": "Codex visual review + Pillow measurements",
+      "checks": {
+        "png_decodes": true,
+        "canvas_128": true,
+        "rgba": true,
+        "color_count_le_32": true,
+        "binary_alpha": true,
+        "transparent_padding_8": true,
+        "logical_pixel_contours": true,
+        "visual_anatomy": true,
+        "three_identifiers": true,
+        "palette_roles": true
+      },
+      "notes": [
+        "pixel原寸で論理ピクセルの階段輪郭・特徴と透明余白を確認。体節1の半円柱屋根型。脚6、腕0、目2、翼0、尾0。脚3対は左右のまっすぐな下辺に並ぶ。 主特徴: 正面が半円で横に長い半円柱 / 左右の下辺に脚3本ずつ / 背の中央を通る幅広いうろこ1列。色・向き・特徴位置を通常絵に対照。通常絵の単純縮小は不使用。"
+      ]
+    },
+    "independent_review": {
+      "status": "passed",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "display_setting": "Extra High",
+      "checked_at": "2026-10-08T02:35:48Z",
+      "finding": "PASS: six feet, half-cylinder silhouette and central scale row confirmed."
+    }
+  },
+  "pair_qa": {
+    "status": "passed",
+    "reference_default_sha256": "ed24130ea7abb353d95055bc8f7b7e0cb420cf491b5727d0ec5d47961bd46778",
+    "checked_at": "2026-10-08T01:55:02+00:00",
+    "checked_by": "Codex original-size and side-by-side visual review",
+    "checks": {
+      "silhouette": true,
+      "anatomy_counts": true,
+      "three_identifiers": true,
+      "palette_roles": true,
+      "pose_facing": true,
+      "reference_hash": true,
+      "family_style_consistency": true,
+      "distinct_from_other_species": true
+    },
+    "notes": [
+      "個別原寸・通常絵/pixel並列・同系統001〜023比較。特徴・部位数・向き・配色が同一個体として一致。正面が半円で横に長い半円柱 / 左右の下辺に脚3本ずつ / 背の中央を通る幅広いうろこ1列."
+    ],
+    "independent_review": "PASS"
+  },
+  "readback": {
+    "local": "verified",
+    "repository": "pending",
+    "commit_sha": null
+  },
+  "independent_review": {
+    "status": "passed_for_this_pair",
+    "reviewer_model": "gpt-6.1-sol",
+    "reasoning_effort": "xhigh",
+    "display_setting": "Extra High",
+    "reviewed_at": "2026-10-08T02:35:48Z",
+    "review_scope": [
+      "individual full-resolution images",
+      "default/pixel side-by-side anatomy, identity, palette and pose",
+      "scaled-family consistency and duplicate scan"
+    ],
+    "reviewed_hashes": {
+      "default": "ed24130ea7abb353d95055bc8f7b7e0cb420cf491b5727d0ec5d47961bd46778",
+      "pixel": "7599b7ded194fe5a1c1b435e89c8d6fb038fd32f38d836a7791d095f44c3c83e",
+      "reference_default_sha256": "ed24130ea7abb353d95055bc8f7b7e0cb420cf491b5727d0ec5d47961bd46778"
+    },
+    "result": "PASS",
+    "review_record": "../../independent-review-five-pass.json",
+    "note": "Individual PASS; the complete 10-pair batch remains HOLD because other IDs were held."
+  }
+}
