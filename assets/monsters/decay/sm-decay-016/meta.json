@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-016",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-decay-016-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-016 / ツミモコラ / 腐体 (decay)\nBody and exact anatomy: 体幹3節の大小三つの球が低い三角形に接続した形。脚6本、各球に目1個で計3個、翼0枚、尾0本\nMaterials and biological motif: 腐植粒を包む柔らかな菌膜。小さな土塊をころがして通気のよい団粒を作る\nPrimary, secondary, accent colors respectively: #B59C86; #A4AA72; #EEE2C7\nThree mandatory visual identifiers: 最大球が後ろ、同じ小球二つが前に並ぶ; 最大球の背だけに平たい枯葉が1枚; 各球の下面に二本脚が付く\nPose: 前の二球を近づけ、後ろの大球を少し持ち上げる\nTemperament to convey through expression or posture: 仲間思い。三節がそろう速さでしか進まない. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 三球を顔のある動物三匹にしない; 枯葉を大きな耳に変えない; 球を泥の飛沫で汚さない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-decay-016-default-attempt002-prompt": "Use case: precise-object-edit. Correct only the low triangular arrangement and missing rear leg of sm-decay-016. Lower the rear large sphere so it is only slightly lifted above the two matching front small spheres, making the combined one-creature silhouette a LOW triangle rather than a tall pyramid. Keep the rear sphere largest, the two front spheres same smaller size and close together. Reveal its missing right leg clearly beside or through the gap of the front spheres so exactly SIX legs are visible, two beneath EACH sphere. Preserve exactly THREE eyes one per sphere, one flat dead leaf on ONLY the rear large sphere, no wings/tail. Keep continuous soft mycelium connections, same palette/materials and tilt, not three separate animals. Full-body transparent background, no ground/shadow/halo/text.\n",
+      "sm-decay-016-default-attempt003-prompt": "Use case: precise-object-edit. Fix ONLY the rear sphere's excessive height/size. In this sm-decay-016, REDUCE the rear large sphere diameter by about 20 percent and MOVE its center downward by roughly 100 pixels in the 1024 reference, so the whole three-sphere body reads as a LOW triangle. The rear sphere must still be larger than each of the two equal smaller front spheres, but its center height should be only modestly above the front centers. Do not flatten the spheres themselves. Keep six legs total, two attached beneath each sphere; preserve their visibility while adapting the rear leg attachments to its lowered sphere. Keep three eyes one per sphere and the single flat leaf on the rear sphere only. Front spheres remain close and equal. Preserve palette, connected mycelium body, no wings/tail, full-body true transparency, no shadow/halo/text.\n",
+      "sm-decay-016-default-attempt004-prompt": "Use case: precise-object-edit. Correct ONLY the vertical placement of the rear big sphere of sm-decay-016. Keep the two front small spheres exactly where they are. MOVE the rear sphere DOWN substantially, roughly another 140 pixels in this 1024 reference, until its center is only a little higher than the front sphere centers. It should sit BEHIND them, partly overlapped, not perched ON TOP of them. The three centers must form a shallow low triangle. Do not merely resize the whole creature or rescale the canvas. Rear sphere stays the largest; front spheres remain matching size. Preserve all THREE eyes visibly, ONE flat dead leaf on the rear sphere only, SIX legs exactly two per sphere with separate visible tips; relocate rear leg attachments consistently and expose them at sides. No wings/tail, one connected mycelium creature. Preserve palette/material and all other features. Genuine transparent background, full-body margins, no halo/shadow/text.\n",
+      "sm-decay-016-default-attempt005-prompt": "Use case: style-transfer. Change ONLY the rendering style of sm-decay-016. Keep the approved LOW triangular arrangement of three connected spheres, rear largest but lowered behind the two equal front small spheres. Lock three eyes, SIX legs exactly two per sphere, and the single flat dead leaf on the rear sphere only. Preserve the visible root and path of the partly overlapped inner rear leg; do not hide any more of it. Simplify continuous glossy highlights and fine granular shading into clear dark outer contour and approximately three flat cel-shaded tones per material, restrained matte hand-drawn 2D game art. Keep soft humus-grain and pale mycelium membrane cues through broad readable texture groups, not densely shaded tiny particles. Preserve silhouette, pose, palette and all anatomy exactly, no wings/tail, genuinely transparent full-body background and ample margins, no shadow/halo/text.\n",
+      "sm-decay-016-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-decay-016; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-decay-016 / ツミモコラ / 腐体 (decay)\nLocked body and anatomy: 体幹3節の大小三つの球が低い三角形に接続した形。脚6本、各球に目1個で計3個、翼0枚、尾0本\nLocked material cues: 腐植粒を包む柔らかな菌膜。小さな土塊をころがして通気のよい団粒を作る\nLocked palette roles, primary/secondary/accent: #B59C86; #A4AA72; #EEE2C7\nAll three identifiers must remain recognizable: 最大球が後ろ、同じ小球二つが前に並ぶ; 最大球の背だけに平たい枯葉が1枚; 各球の下面に二本脚が付く\nLocked pose: 前の二球を近づけ、後ろの大球を少し持ち上げる\nLocked temperament/expression: 仲間思い。三節がそろう速さでしか進まない. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 三球を顔のある動物三匹にしない; 枯葉を大きな耳に変えない; 球を泥の飛沫で汚さない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-decay-016-default-attempt001-original.png",
+          "sha256": "6eccc1359d9ec2341aea16e4683d6273cdc1c59d9afec39ec75e9255feca0220",
+          "bytes": 1302756,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-016-default-attempt002-original.png",
+          "sha256": "871e40a0ad55a7f6af8f2458172091dfe88ec0be03e2f571363665f62454808e",
+          "bytes": 1397876,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-016-default-attempt003-original.png",
+          "sha256": "4e85035791edcd7e7c26d44543461f853d779220996bc718d3a4c72dbfcde6a1",
+          "bytes": 1116721,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-016-default-attempt004-original.png",
+          "sha256": "bb9c72931a9f4c75ebed8f5475eb3efe62c79ccdb1ff9debc025335bf8872ea1",
+          "bytes": 1203943,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-016-default-attempt005-original.png",
+          "sha256": "48468048d3aa3dd63543d89431332d963165cd77ec98fdc2c4d69cc43d708ddf",
+          "bytes": 983163,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-016-pixel-attempt001-original.png",
+          "sha256": "dbc683a560fbe2a48b10a53e80f7919931c28758066b19d8f8c5b0639272b098",
+          "bytes": 873342,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/decay/sm-decay-016/default.png",
+      "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+      "bytes": 661797,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        172,
+        944,
+        852
+      ],
+      "transparent_margins": [
+        80,
+        172,
+        80,
+        172
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/decay/sm-decay-016/pixel.png",
+      "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+      "bytes": 11102,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        20,
+        118,
+        108
+      ],
+      "transparent_margins": [
+        10,
+        20,
+        10,
+        20
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。低い三球接続、後大球・前同小球二個、三眼、六脚、後大球背だけ枯葉一枚。構造と塗りを生成編集で修正。後側内脚の先端は前小球に一部重なるが付根と独立経路で六脚判読可能。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

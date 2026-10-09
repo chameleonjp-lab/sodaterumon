@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-015",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-decay-015-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-015 / イトモガラ / 腐体 (decay)\nBody and exact anatomy: 体幹2節の太い上下二輪が短い筒でつながる糸巻き形。脚5本、下節に目2個、翼0枚、幅広い尾1本\nMaterials and biological motif: 乾いた茎の繊維と淡い菌糸。細い枯草を巻き寄せて落葉層の一部にする\nPrimary, secondary, accent colors respectively: #B59679; #778572; #E9D8A0\nThree mandatory visual identifiers: 上の輪は下の輪より小さい; 二輪の間に太い縦繊維が4本見える; 尾先は横長の丸い樹皮へら\nPose: 五脚で低く立ち、二輪のくびれを見せる\nTemperament to convey through expression or posture: こつこつ働く。長い繊維は無理に引かず端からたぐる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 糸巻きに人工の糸を巻かない; 上の輪を顔のある頭にしない; 胴を鋭い砂時計形にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-decay-015-default-attempt002-prompt": "Use case: precise-object-edit. Correct ONLY the missing fifth leg of this sm-decay-015. Keep the four visible legs and add exactly ONE more supporting leg in a separately visible position beside or behind the lower ring, with its tip and attachment distinguishable from the tail and existing legs. Exactly FIVE legs total. Preserve two thick stacked rings with the upper ring smaller, short waist tube and EXACTLY FOUR thick vertical fibers between rings, exactly two eyes on the lower ring only, one broad tail with a rounded horizontally wide bark-spatula tip, no wings. No extra upper face or artificial thread. Keep posture/palette/identity, transparent background, full body and no halo/shadow/text.\n",
+      "sm-decay-015-default-attempt003-prompt": "Use case: style-transfer. Correct ONLY the rendering style of this sm-decay-015. Replace continuous gradient lighting on ring volumes, four central fibers and five legs with approximately three discrete flat cel-shaded tones per material, modest matte upper-left light and a clear dark contour. Simplify tiny surface marks while retaining dry stem fiber and pale mycelium character. Lock EXACTLY five legs, two lower-ring eyes, two thick rings (upper smaller), short central tube with four visible thick vertical fibers, one broad tail ending in a horizontally wide rounded bark spatula. Preserve all silhouettes, positions, pose and palette roles. No anatomy changes or upper face, no artificial thread, true transparent background, no halo/shadow/text.\n",
+      "sm-decay-015-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-decay-015; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-decay-015 / イトモガラ / 腐体 (decay)\nLocked body and anatomy: 体幹2節の太い上下二輪が短い筒でつながる糸巻き形。脚5本、下節に目2個、翼0枚、幅広い尾1本\nLocked material cues: 乾いた茎の繊維と淡い菌糸。細い枯草を巻き寄せて落葉層の一部にする\nLocked palette roles, primary/secondary/accent: #B59679; #778572; #E9D8A0\nAll three identifiers must remain recognizable: 上の輪は下の輪より小さい; 二輪の間に太い縦繊維が4本見える; 尾先は横長の丸い樹皮へら\nLocked pose: 五脚で低く立ち、二輪のくびれを見せる\nLocked temperament/expression: こつこつ働く。長い繊維は無理に引かず端からたぐる. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 糸巻きに人工の糸を巻かない; 上の輪を顔のある頭にしない; 胴を鋭い砂時計形にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "595de3a2b7db481e87c12b54a1ebf92045c35f7d3a2cacfa211fdee78260853c",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-decay-015-default-attempt001-original.png",
+          "sha256": "2ffef827c7070ff3e3bf114ce036418ee57e32ba6401a31a7bf9bbf2a26a5a70",
+          "bytes": 1549988,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-015-default-attempt002-original.png",
+          "sha256": "ad5c0362674e37d6fb8a5e6695388f95d699dfa1ec8e597c6ff00a16bc3a9d1f",
+          "bytes": 1411394,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-015-default-attempt003-original.png",
+          "sha256": "ee23d451902a622f665e155341be174419c7b7f75ceb5a96e45fd75c7f5f999f",
+          "bytes": 1438720,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-015-pixel-attempt001-original.png",
+          "sha256": "f9e8ee8c7d24c6ad50a87b3f9e8895f96fdb104d368f7faf8b04315bf9d4b66c",
+          "bytes": 1171059,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/decay/sm-decay-015/default.png",
+      "sha256": "595de3a2b7db481e87c12b54a1ebf92045c35f7d3a2cacfa211fdee78260853c",
+      "bytes": 774500,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        137,
+        944,
+        887
+      ],
+      "transparent_margins": [
+        80,
+        137,
+        80,
+        137
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/decay/sm-decay-015/pixel.png",
+      "sha256": "30f82f88c408a7a6835cd8e04a803da434d2c747a24a1529d2ddfb558e27113c",
+      "bytes": 14162,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        18,
+        118,
+        110
+      ],
+      "transparent_margins": [
+        10,
+        18,
+        10,
+        18
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。上下二輪で上輪小、輪間太い縦繊維四本、下輪二眼、五脚、横長丸樹皮へら尾一本。脚追加と塗りを生成編集で修正。pixel青二画素はalpha0、暗赤可視二画素は輪郭内で背景ノイズではない。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
