@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-014",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-decay-014-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-014 / ゴヨウノム / 腐体 (decay)\nBody and exact anatomy: 体幹1節の五つ葉形の薄い平盤。脚6本、目0個、翼0枚、尾0本。五つの丸い葉先が中心から伸びる\nMaterials and biological motif: 湿った落葉と菌糸の一体膜。広がった体で落葉片を土へなじませる\nPrimary, secondary, accent colors respectively: #C29980; #84915A; #F0DEAF\nThree mandatory visual identifiers: 五つの葉先は中央の先端だけ大きい; 中心に円いくぼみが1個; 下面の六本脚は三対で前後に並ぶ\nPose: 五つ葉の輪郭が見えるよう上面を少し傾ける\nTemperament to convey through expression or posture: 穏やか。土の湿りに合わせて全身をゆっくり広げる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 目や口を描き足さない; 葉先を尖った手指にしない; 胴を五枚の独立した葉に分解しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-decay-014-default-attempt002-prompt": "Use case: precise-object-edit. Correct ONLY the missing legs: show exactly SIX separate legs from the underside of this sm-decay-014, arranged as THREE left-right pairs distributed front, middle and rear. Currently four are visible; add the missing two and adjust spacing so every leg is traceable to its tip, without overlap hiding any. Preserve the single connected five-rounded-lobe leaf membrane, larger central tip, one circular central depression, eyeless and mouthless body, no wings/tail. Do not split into separate leaves. Preserve palette, tilt and all other geometry. Transparent background and generous margins, no shadow/halo/text.\n",
+      "sm-decay-014-default-attempt003-prompt": "Use case: precise-object-edit. Correct ONLY the visibility of the TWO REAR LEG TIPS in this sm-decay-014 candidate. There are already six legs; do not add any. The rear left and rear right legs are partly visible inside the two upper side notches but their tips disappear behind the leaf lobes. Extend only these two existing rear legs slightly outward until each tip is clearly silhouetted against transparent background beyond the outer leaf edge. Preserve their underside attachments and three-pair arrangement. Keep all other four legs unchanged, the one connected five-rounded-lobe plate, largest central lobe, one center depression, zero eyes and mouth, no wings/tail. Palette, tilt, size, shape and other details unchanged. Full body on true transparency, no background, shadow or halo.\n",
+      "sm-decay-014-default-attempt004-prompt": "Use case: style-transfer. Change only the rendering style of sm-decay-014. Replace the smooth gradients and glossy volume rendering on the central depression and all legs with restrained approximately three flat cel-shaded tones per material and a clear dark contour. Reduce overly dense small mottling to readable broad leaf/mycelium texture cues; retain leaf vein identity. Lock the exact six visible legs in three pairs including both newly visible rear tips, the one connected five-rounded-lobe membrane plate with only the central tip larger, the one circular center depression, no eyes or mouth, no wings or tail. Keep silhouette, position, tilt and palette roles unchanged. Full body with genuine transparent margins, no shadow/halo/text.\n",
+      "sm-decay-014-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-decay-014; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-decay-014 / ゴヨウノム / 腐体 (decay)\nLocked body and anatomy: 体幹1節の五つ葉形の薄い平盤。脚6本、目0個、翼0枚、尾0本。五つの丸い葉先が中心から伸びる\nLocked material cues: 湿った落葉と菌糸の一体膜。広がった体で落葉片を土へなじませる\nLocked palette roles, primary/secondary/accent: #C29980; #84915A; #F0DEAF\nAll three identifiers must remain recognizable: 五つの葉先は中央の先端だけ大きい; 中心に円いくぼみが1個; 下面の六本脚は三対で前後に並ぶ\nLocked pose: 五つ葉の輪郭が見えるよう上面を少し傾ける\nLocked temperament/expression: 穏やか。土の湿りに合わせて全身をゆっくり広げる. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 目や口を描き足さない; 葉先を尖った手指にしない; 胴を五枚の独立した葉に分解しない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "355583abd52948fffddf9d0d4fdf0beda1f2ee33caf046d21657163e1d9ad56f",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-decay-014-default-attempt001-original.png",
+          "sha256": "a6318a47543ec1575bb2cb6460838dc3ea2b630cbbf698c92c0535f6b93ee2e9",
+          "bytes": 1546254,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-014-default-attempt002-original.png",
+          "sha256": "0fc54fee2a80001e3782f75df20a2f781e20c2eb82c9480b2b401bebb17bf024",
+          "bytes": 1340101,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-014-default-attempt003-original.png",
+          "sha256": "e09f141511234971376a8c449456694bda940c301e3bbcbb85365ace14a5615c",
+          "bytes": 1338499,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-014-default-attempt004-original.png",
+          "sha256": "09b4f0c494598e6b77e1eda6ae6fc26c291d2b62cea18b95723a372ce8087b5e",
+          "bytes": 1194370,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-014-pixel-attempt001-original.png",
+          "sha256": "56e9fab407b84f9b8369660e6d875fec38a788210f233d083e40de8f18a99641",
+          "bytes": 1095336,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/decay/sm-decay-014/default.png",
+      "sha256": "355583abd52948fffddf9d0d4fdf0beda1f2ee33caf046d21657163e1d9ad56f",
+      "bytes": 802512,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        101,
+        944,
+        922
+      ],
+      "transparent_margins": [
+        80,
+        101,
+        80,
+        102
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/decay/sm-decay-014/pixel.png",
+      "sha256": "b9290a898f403e9dd12bc4014f7309570b9dbbff4d16c040392269b6125a8c41",
+      "bytes": 13911,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        12,
+        118,
+        115
+      ],
+      "transparent_margins": [
+        10,
+        12,
+        10,
+        13
+      ],
+      "visible_colors": 32,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。一体の五丸葉平盤、中央先端のみ大、中心くぼみ一つ、無顔、六脚三対。脚追加・奥脚先端可視化・塗りを生成編集で修正。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
