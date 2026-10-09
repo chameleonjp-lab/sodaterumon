@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-017",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-decay-017-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-017 / フシホグラ / 腐体 (decay)\nBody and exact anatomy: 体幹5節の太い弓なりの筒形。脚0本、先頭節に目2個、翼0枚、平たく短い尾1本。各節は丸く膨らむ\nMaterials and biological motif: 湿った植物繊維の束。地表の枯れた細根だけをほぐし、柔らかい土へ混ぜる\nPrimary, secondary, accent colors respectively: #AF856F; #8B9D69; #E5D7BE\nThree mandatory visual identifiers: 中央の第三節だけ左右へ広がる; 節の境目は深い割れ目ではなく浅い輪溝; 尾は先端に丸い切り欠きが1個ある扇形\nPose: 五節を緩い弧に曲げ、前端をわずかに持ち上げる\nTemperament to convey through expression or posture: 根気強い。生きた根には触れず横を通る. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 多数の細脚を追加しない; 節の隙間を傷口として描かない; 尾を鋭い針にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-decay-017-default-attempt002-prompt": "Use case: precise-object-edit. Correct ONLY the overly deep segment separations of sm-decay-017. Thicken the connections between its FIVE rounded segments into one continuous thick curved tube. Replace the deep pinched joints and dark crevice shadows with SHALLOW narrow ring grooves on the surface, particularly joints beside the wider central THIRD segment. Preserve five readable swellings, only third spreading laterally, head with exactly two eyes, no legs/wings, one short flat fan tail with one rounded tip notch. Keep gentle arc and slightly raised front, damp plant-fiber material, palette and identity. No wounds or deep gaps. Genuine transparent background, full body, no halo/shadow/text.\n",
+      "sm-decay-017-default-attempt003-prompt": "Use case: style-transfer. Change ONLY the rendering style of sm-decay-017. Preserve the approved five-segment continuous curved thick tube, shallow ring grooves, third segment wider sideways, two head eyes, no legs/wings, and one short flat fan tail with one rounded notch. Replace continuous shading on fibers/head/body underside with clear dark outer contour and approximately three flat cel-shaded tones per material. Group tiny fibers into broader readable damp plant-fiber bands; retain material identity without busy thread-by-thread 3D gloss. Keep pose, proportions, palette and all geometry unchanged. No deep crevices reintroduced, no added parts, transparent background, no shadow/halo/text.\n",
+      "sm-decay-017-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-decay-017; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-decay-017 / フシホグラ / 腐体 (decay)\nLocked body and anatomy: 体幹5節の太い弓なりの筒形。脚0本、先頭節に目2個、翼0枚、平たく短い尾1本。各節は丸く膨らむ\nLocked material cues: 湿った植物繊維の束。地表の枯れた細根だけをほぐし、柔らかい土へ混ぜる\nLocked palette roles, primary/secondary/accent: #AF856F; #8B9D69; #E5D7BE\nAll three identifiers must remain recognizable: 中央の第三節だけ左右へ広がる; 節の境目は深い割れ目ではなく浅い輪溝; 尾は先端に丸い切り欠きが1個ある扇形\nLocked pose: 五節を緩い弧に曲げ、前端をわずかに持ち上げる\nLocked temperament/expression: 根気強い。生きた根には触れず横を通る. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 多数の細脚を追加しない; 節の隙間を傷口として描かない; 尾を鋭い針にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-decay-017-pixel-attempt002-prompt": "Use case: precise-object-edit. Correct ONLY the failed background of this sm-decay-017 pixel sprite. Remove all diffuse brown/gray halo, glow, shadow, and rectangular haze outside the creature silhouette. Every exterior pixel must be genuinely transparent. Keep the exact opaque interior pixel clusters and identity: five rounded segments in a gently curved continuous tube, central third segment wider, shallow ring grooves, two head eyes, no legs or wings, one short flat fan tail with one rounded notch. Do not remove body pixels or tail notch. Preserve palette, proportions and pose. Authentic 128x128 logical pixel art, hard opaque body pixels and transparent exterior, <=32 visible colors, >=8 logical pixels clear padding. No antialias blur, no ground or text.\n"
+    },
+    "reference_default_sha256": "45f53e868f09106eadf629434d209b80534e3efd20a7b768a18cc69136d305d7",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-decay-017-default-attempt001-original.png",
+          "sha256": "110602cf32d6812a33b4e00911e1a2414d62b316d527d9c40fd79934b68450d1",
+          "bytes": 1120866,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-017-default-attempt002-original.png",
+          "sha256": "2b0056dfd2ebaf0dc3a78947154de2b96c1b7fd3a48bf9b758d141d47b08587f",
+          "bytes": 1122313,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-017-default-attempt003-original.png",
+          "sha256": "ce7322c529730f7119bf2d353bf5ef3e394e18f2347cb9157ab67c2576c13a1c",
+          "bytes": 858753,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-017-pixel-attempt001-original.png",
+          "sha256": "f638eec59511ac694907bff87f0fbb3d723c7abc663b5f8ed83794c84ee133f9",
+          "bytes": 1363515,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-017-pixel-attempt002-original.png",
+          "sha256": "f56963f916a0cd4f82e305b800309124f0d0b157e75dd9e44c491893d25b0669",
+          "bytes": 487846,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/decay/sm-decay-017/default.png",
+      "sha256": "45f53e868f09106eadf629434d209b80534e3efd20a7b768a18cc69136d305d7",
+      "bytes": 500434,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        295,
+        944,
+        728
+      ],
+      "transparent_margins": [
+        80,
+        295,
+        80,
+        296
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/decay/sm-decay-017/pixel.png",
+      "sha256": "38f0d33489eb1b53bc153bbe8a7bd1e9a9a92798d75e7e34889498ef3a7e20d8",
+      "bytes": 8625,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        37,
+        118,
+        91
+      ],
+      "transparent_margins": [
+        10,
+        37,
+        10,
+        37
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。緩い弧の五節太筒、第三節のみ幅広、浅い輪溝、二眼、脚翼0、丸切欠き一個の平扇尾一本。通常の節溝と塗り、pixel外側ハローを生成編集で修正。pixel第二眼は約(114,45)の輪郭近くで小さいが別眼として確認。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
