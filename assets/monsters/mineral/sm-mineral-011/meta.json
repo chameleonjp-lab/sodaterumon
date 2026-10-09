@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-011",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-mineral-011-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-mineral-011 / ミツマタグ / 硬体 (mineral)\nBody and exact anatomy: 体幹1節の太く短いY字鉱塊。脚3本、目0個、翼0枚、尾0本。三つの枝先はすべて平ら\nMaterials and biological motif: 黒灰色の鉄鉱石と柔らかな砂の層。地面の傾きに合わせて小石の集まる向きを整える\nPrimary, secondary, accent colors respectively: #6B747B; #AA8153; #E1C9A0\nThree mandatory visual identifiers: Y字の三枝のうち下枝だけ幅広い; 枝先に円い淡色面が1枚ずつ; 三本脚はY字の裏側中央から出る\nPose: 三本脚で体を少し浮かせ、Y字全体を斜め上へ向ける\nTemperament to convey through expression or posture: 黙々としている。地面が平らになると動きを止める. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 目や鼻を描かない; 枝を動物の角や手にしない; 磁石のU字形へ変えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-mineral-011-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-mineral-011; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-mineral-011 / ミツマタグ / 硬体 (mineral)\nLocked body and anatomy: 体幹1節の太く短いY字鉱塊。脚3本、目0個、翼0枚、尾0本。三つの枝先はすべて平ら\nLocked material cues: 黒灰色の鉄鉱石と柔らかな砂の層。地面の傾きに合わせて小石の集まる向きを整える\nLocked palette roles, primary/secondary/accent: #6B747B; #AA8153; #E1C9A0\nAll three identifiers must remain recognizable: Y字の三枝のうち下枝だけ幅広い; 枝先に円い淡色面が1枚ずつ; 三本脚はY字の裏側中央から出る\nLocked pose: 三本脚で体を少し浮かせ、Y字全体を斜め上へ向ける\nLocked temperament/expression: 黙々としている。地面が平らになると動きを止める. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 目や鼻を描かない; 枝を動物の角や手にしない; 磁石のU字形へ変えない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-mineral-011-pixel-attempt002-prompt": "Use case: precise-object-edit\nRefine ONLY the dark outer contour of this exact pixel sprite. Add a consistent one-to-two logical pixel dark outline around all three pale flat circular branch-end surfaces, closing the small places where pale pixels directly touch transparent background (especially upper edges of the two upper branch ends). Preserve all shapes and size, thick short Y body with broader lower branch, three pale round flat end faces, three legs from underside center, no eyes/face/wings/tail, same pose, ore-and-sand layer colors. Do not fill transparency with a halo or create extra border outside the silhouette; use crisp pixel contour directly at the edge. Intentional128 logical grid, <=32 visible colors, opaque sprite/transparent outside, no added parts, text or shadow.\n"
+    },
+    "reference_default_sha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-mineral-011-default-attempt001-original.png",
+          "sha256": "fc6c78461d08cbcd08c99dbdf04b2a78a15b4f41c9a618f2536e372c0f108be8",
+          "bytes": 1150834,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-011-pixel-attempt001-original.png",
+          "sha256": "3188f6e5f897615363bcbd90751abaf4e3001a9319cecb7df8c2b657a1ba6231",
+          "bytes": 951097,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-011-pixel-attempt002-original.png",
+          "sha256": "06b31cd19d77a6acaebeb4e8c2dea2b4a270da9c09ba96b6e7af6a13e5c3ba9b",
+          "bytes": 814087,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/mineral/sm-mineral-011/default.png",
+      "sha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+      "bytes": 822140,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        87,
+        80,
+        936,
+        944
+      ],
+      "transparent_margins": [
+        87,
+        80,
+        88,
+        80
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/mineral/sm-mineral-011/pixel.png",
+      "sha256": "18f3ca363f301b6584e052fa8415406032109dee56e7cdcedaf942d2bfa2201c",
+      "bytes": 11469,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        10,
+        118,
+        118
+      ],
+      "transparent_margins": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。太短Y、下枝のみ幅広、三枝平淡円面、裏中央三脚、無顔翼尾0。pixel三端面の暗輪郭欠けを生成編集修正し通常対一致確認。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
