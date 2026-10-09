@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-012",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-decay-012-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-012 / ハココボリ / 腐体 (decay)\nBody and exact anatomy: 体幹4節の丸角直方体が低く横一列に並ぶ形。脚8本、先頭節に目2個、翼0枚、尾0本\nMaterials and biological motif: 腐植を含むふかふかの葉塊。落葉層に小さな空気の通り道を作りながら進む\nPrimary, secondary, accent colors respectively: #AC7F61; #6C8887; #E0D6AD\nThree mandatory visual identifiers: 四節のうち第二節だけ背が高い; 各節の上面に丸い小穴が1個ずつ; 各節に丸い足先の脚が一対ずつ\nPose: 四節をまっすぐ並べ、第二節の高さを横から見せる\nTemperament to convey through expression or posture: 几帳面。同じ場所を何度も踏まず少しずつ進路をずらす. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: ブロックの文字や数字を描かない; 節を硬い岩に変えない; 穴を口や傷として表現しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-decay-012-default-attempt002-prompt": "Use case: precise-object-edit. Correct the orientation and missing leg visibility on sm-decay-012, preserving the existing four leaf-humus cuboid segments. Face the head toward IMAGE-RIGHT instead of left. Keep second segment from the head tallest, all four top holes and two head eyes. Ensure exactly EIGHT rounded-tip legs are separately visible, exactly one pair per segment: add/show the obscured far-side leg of the second and third segments so the entire pair can be traced, without losing the pairs on the head and fourth segments. Stagger the far-side foot positions slightly to avoid occlusion. Keep four segments in a straight low horizontal row, no wings/tail, soft leaf-clump material (not rock), palette and character identity, full body and transparent margin, no ground/shadow/halo/text.\n",
+      "sm-decay-012-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-decay-012; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-decay-012 / ハココボリ / 腐体 (decay)\nLocked body and anatomy: 体幹4節の丸角直方体が低く横一列に並ぶ形。脚8本、先頭節に目2個、翼0枚、尾0本\nLocked material cues: 腐植を含むふかふかの葉塊。落葉層に小さな空気の通り道を作りながら進む\nLocked palette roles, primary/secondary/accent: #AC7F61; #6C8887; #E0D6AD\nAll three identifiers must remain recognizable: 四節のうち第二節だけ背が高い; 各節の上面に丸い小穴が1個ずつ; 各節に丸い足先の脚が一対ずつ\nLocked pose: 四節をまっすぐ並べ、第二節の高さを横から見せる\nLocked temperament/expression: 几帳面。同じ場所を何度も踏まず少しずつ進路をずらす. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: ブロックの文字や数字を描かない; 節を硬い岩に変えない; 穴を口や傷として表現しない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-decay-012-pixel-attempt002-prompt": "Use case: precise-object-edit. Edit only the failed background of this sm-decay-012 pixel sprite. Remove ALL diffuse brown or gray halo, shadow, glow and rectangular haze surrounding the body. Every pixel outside the tight hard-edged creature silhouette must be truly transparent, not an opaque dark color. Preserve all interior pixel clusters and exact approved anatomy, palette, facing and pose: four soft leaf-humus segments in straight row, second from head tallest, four top holes, exactly eight legs two per segment and two head eyes, no wings or tail. No body part deletion. Authentic 128 by 128 logical pixel art, readable clusters, opaque creature and fully transparent exterior, <=32 visible colors. No antialias blur, no scenery, ground or text. Full body centered with >=8 logical pixels padding.\n"
+    },
+    "reference_default_sha256": "66e3da342d78ceebb7f0225cbe7d348eb9bf7879ffd998fb547741ba76321c1c",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-decay-012-default-attempt001-original.png",
+          "sha256": "7ecb0d7af93b249fee73deb56fc40ab111abb61001ec929b9f88852ced9f10c6",
+          "bytes": 1035427,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-012-default-attempt002-original.png",
+          "sha256": "0fb2e10b4730c78289de6fad24cf81f7765f92a393c4512a86ccd8d19ec50925",
+          "bytes": 966130,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-012-pixel-attempt001-original.png",
+          "sha256": "32838cc7afa27273a6894ccee225d436001bd5df19b622c20fccddb1b88b361c",
+          "bytes": 1402653,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-012-pixel-attempt002-original.png",
+          "sha256": "7f88620b7484e44df0ac3f00b8b7f06e5cad2b2a796e91abcf6282b2aedc6a41",
+          "bytes": 501930,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/decay/sm-decay-012/default.png",
+      "sha256": "66e3da342d78ceebb7f0225cbe7d348eb9bf7879ffd998fb547741ba76321c1c",
+      "bytes": 512690,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        305,
+        944,
+        719
+      ],
+      "transparent_margins": [
+        80,
+        305,
+        80,
+        305
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/decay/sm-decay-012/pixel.png",
+      "sha256": "8d8f48e0fd4259948c016d49976fec02ab937d99102233f4f6d8ba11df1e201a",
+      "bytes": 8177,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        40,
+        118,
+        88
+      ],
+      "transparent_margins": [
+        10,
+        40,
+        10,
+        40
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。右向きの四節、先頭から第二節のみ高い、各節二脚で計八脚、先頭二眼、上穴四つ。通常の向きと不足脚、pixel体外haloを生成編集で修正。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

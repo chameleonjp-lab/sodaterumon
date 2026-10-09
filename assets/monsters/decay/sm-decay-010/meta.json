@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-010",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-decay-010-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-010 / マルヒダコ / 腐体 (decay)\nBody and exact anatomy: 体幹1節の平たい円形傘。脚7本、傘の縁に目7個、翼0枚、尾0本。中央の柄はない\nMaterials and biological motif: 落葉を覆う柔らかな菌の傘。枯れ葉を細かくほぐし、湿気を逃がしすぎないよう覆う\nPrimary, secondary, accent colors respectively: #CDAA95; #768E65; #F2DFC0\nThree mandatory visual identifiers: 傘の中央に小さい丸い盛り上がりが1個; 七本脚は周縁から等間隔に付く; 目はそれぞれの脚の真上に1個ずつ\nPose: 傘を水平に保ち、前の二本脚だけ少し曲げる\nTemperament to convey through expression or posture: 協調的。隣の落葉に届く範囲だけ広がる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 中心に長い柄を追加しない; 傘に斑点を多数散らさない; 脚を細く尖った針にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-decay-010-default-attempt002-prompt": "Use case: precise-object-edit. Correct only the failed leg visibility/anatomy in this sm-decay-010 candidate. The original specification is exactly SEVEN legs around the rim, each directly below one of the SEVEN eyes. Currently only five legs can be followed. Recompose the rim's seven eye-leg pairs so every leg is separately visible from its rim attachment to its rounded tip, including the two rear pairs. Maintain evenly spaced peripheral attachments and a horizontal flat circular mushroom canopy with one small central round mound, no central stem. Bend only the two front legs slightly; all other legs keep a simple unbent stance. Preserve exactly seven eyes, no wings/tail, original palette/material/identity. Do not add any eighth limb or extra eyes. Transparent background, full body, generous margins, no shadow/halo/text. Preserve all unaffected features.\n",
+      "sm-decay-010-default-attempt003-prompt": "Use case: precise-object-edit. Fix only the missing legs in sm-decay-010. The image currently has FOUR visible legs. Keep these four and ADD exactly THREE missing peripheral legs, each attached directly beneath one of the three rear eyes (upper-left eye, top-center eye, upper-right eye). Show the new rear legs extending outward beyond the canopy silhouette toward the upper-left, upper-center and upper-right so that all SEVEN legs are unmistakably visible and separate, not hidden behind the disk. Each eye remains directly above its corresponding rim attachment. Exactly seven eyes and seven rounded legs total, evenly distributed around the peripheral rim; no central stem. Keep the flat canopy horizontal, small central mound, original material and palette. Keep only the two front legs slightly bent. No eighth leg or extra eyes. Full body centered with transparent margins, genuine alpha, no shadow or halo or text. Preserve all unrelated anatomy.\n",
+      "sm-decay-010-default-attempt004-prompt": "Use case: precise-object-edit. Keep EXACTLY seven eyes and seven legs with all seven separately visible, preserve the front two gently bent legs and the flat horizontal mushroom canopy. Clarify ONLY the attachment and supporting posture of the rear three legs: make their roots visibly emerge from the UNDERSIDE of the peripheral canopy directly beneath the rear three eyes, with canopy edge clearly overlapping each root. The legs should spread backward and down to support the canopy, not grow upward like appendages from the top. Use a slightly higher viewing angle if needed to retain visibility of the rear feet beyond the disk while showing this under-rim connection. Do not hide or remove any leg or add any leg, do not place a central stalk. Preserve the central small mound, colors, material and all other features, no ground plane or shadow, full body with transparent background.\n",
+      "sm-decay-010-default-attempt005-prompt": "Use case: style-transfer. Correct ONLY rendering style of the reference sm-decay-010. Keep exactly seven legs, seven eyes in matched rim pairs, all rear-leg underside overlaps, the two gently bent front legs, the horizontal flat round canopy and its small central mound unchanged. Replace painterly streaks and continuous highlights/shadows with a clear dark contour and approximately three flat cel-shaded tones per material, restrained matte hand-drawn 2D game illustration. Keep original palette roles and a little soft fungal material character, no many spots. Do not change geometry, pose, anatomy or add a stem. Genuine transparent background, full body, no text, ground shadow or halo.\n",
+      "sm-decay-010-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-decay-010; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-decay-010 / マルヒダコ / 腐体 (decay)\nLocked body and anatomy: 体幹1節の平たい円形傘。脚7本、傘の縁に目7個、翼0枚、尾0本。中央の柄はない\nLocked material cues: 落葉を覆う柔らかな菌の傘。枯れ葉を細かくほぐし、湿気を逃がしすぎないよう覆う\nLocked palette roles, primary/secondary/accent: #CDAA95; #768E65; #F2DFC0\nAll three identifiers must remain recognizable: 傘の中央に小さい丸い盛り上がりが1個; 七本脚は周縁から等間隔に付く; 目はそれぞれの脚の真上に1個ずつ\nLocked pose: 傘を水平に保ち、前の二本脚だけ少し曲げる\nLocked temperament/expression: 協調的。隣の落葉に届く範囲だけ広がる. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 中心に長い柄を追加しない; 傘に斑点を多数散らさない; 脚を細く尖った針にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "2f09dbc0836396be3bd00234bcc1b9563552f3434ae7dc101efa6cfbad14d19a",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-decay-010-default-attempt001-original.png",
+          "sha256": "bfcf00b8b236220880cfddb6095c89345cc8c5f27d7549b9469063f5f8d4b5e1",
+          "bytes": 1227716,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-010-default-attempt002-original.png",
+          "sha256": "12e9e1a77fdd82c29ad6124b0b99dcd6c016d9496765b2146c6d1041861aab63",
+          "bytes": 1035139,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-010-default-attempt003-original.png",
+          "sha256": "a6f29c2564a61f9566e5a7c4ed09816beb239a96a2f84dd259f7eefa1a103fad",
+          "bytes": 1027817,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-010-default-attempt004-original.png",
+          "sha256": "72ddff0f6d65289575756167b2e2b6e26e4c3e451519e566c535002809b321bd",
+          "bytes": 1095030,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-010-default-attempt005-original.png",
+          "sha256": "b13fc031d90a1d02c45d91281b72813f3bc4859abf0e25313b074d58338a62da",
+          "bytes": 974235,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-010-pixel-attempt001-original.png",
+          "sha256": "5df3fcc4c4d8c49df429101c0bb5e65ac9b10baadada3254e1058ff6b332a155",
+          "bytes": 921535,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/decay/sm-decay-010/default.png",
+      "sha256": "2f09dbc0836396be3bd00234bcc1b9563552f3434ae7dc101efa6cfbad14d19a",
+      "bytes": 562329,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        174,
+        944,
+        850
+      ],
+      "transparent_margins": [
+        80,
+        174,
+        80,
+        174
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/decay/sm-decay-010/pixel.png",
+      "sha256": "9d92da22dec85769769458acef9c194ea0251236233076cb3034cc1380d6e9ef",
+      "bytes": 11138,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        21,
+        118,
+        106
+      ],
+      "transparent_margins": [
+        10,
+        21,
+        10,
+        22
+      ],
+      "visible_colors": 32,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。水平な平傘、周縁七眼七脚の対応と後方脚の傘裏付け根、前二脚のみ屈曲、中央小隆起一つ、柄なし。脚数・付け根と陰影を画像生成編集で修正。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

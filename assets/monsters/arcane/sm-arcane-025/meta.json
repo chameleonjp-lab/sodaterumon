@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-025",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-arcane-025-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-025 / オリホコル / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の低い布ドーム形。脚10本、目2個、翼0枚、尾0本。胴の上面は浅い五角形\nMaterials and biological motif: 折り重なったあたたかな光布。冷えた朝の草に短時間だけ光のぬくもりを渡す\nPrimary, secondary, accent colors respectively: #E6A69A; #727D55; #F8D788\nThree mandatory visual identifiers: 上面に放射状の折り山が5本; 十本脚は五角形の各辺に2本ずつ; 前の一辺だけ半円の透け窓がある\nPose: 十脚を低く開いて、上面の五本の折り山を見せる\nTemperament to convey through expression or posture: 寛容。小さな風が通ると端を少し持ち上げる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 布を服やテントにしない; 折り山を角にしない; 裾に文字や刺繍模様を加えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-arcane-025-default-attempt002-prompt": "Use case: precise-object-edit\nCorrect the mandatory body structure and leg visibility to the original brief. Make this a LOW, shallow dome of living folded light-cloth with a clearly readable shallow pentagonal top, not a tall draped tent or clothing. Preserve exactly FIVE radial fold ridges on the upper surface; do not turn them into horns. Show exactly TEN short legs, TWO emerging from EACH of the FIVE pentagon edges, all10 independently visible and spread LOW around the dome. The current image only exposes seven; bring the missing rear-side legs out into distinct silhouettes behind/around the low dome, without adding extra legs beyond10. Keep two eyes, no wings or tail, and onlyONE semicircular translucent window on the front edge. Preserve salmon primary/olive secondary/warm-yellow accent roles and the gentle identity. No costume, poles, pegs, embroidered text or pattern, no ground orshadow. Genuine transparent background. Complete brief:\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-025 / オリホコル / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の低い布ドーム形。脚10本、目2個、翼0枚、尾0本。胴の上面は浅い五角形\nMaterials and biological motif: 折り重なったあたたかな光布。冷えた朝の草に短時間だけ光のぬくもりを渡す\nPrimary, secondary, accent colors respectively: #E6A69A; #727D55; #F8D788\nThree mandatory visual identifiers: 上面に放射状の折り山が5本; 十本脚は五角形の各辺に2本ずつ; 前の一辺だけ半円の透け窓がある\nPose: 十脚を低く開いて、上面の五本の折り山を見せる\nTemperament to convey through expression or posture: 寛容。小さな風が通ると端を少し持ち上げる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 布を服やテントにしない; 折り山を角にしない; 裾に文字や刺繍模様を加えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-arcane-025-default-attempt003-prompt": "Use case: precise-object-edit\nCorrect ONLY the missing tenth leg. This reference currently has nine separately visible short legs: two behind, three along the left side, three along the right side, one at front center. Add ONE short leg emerging between the existing lower-left leg and the front-center leg, with attachment about(410,640) and foot tip about(425,745) on the1024 canvas. Its outline must be separate from those neighboring legs and it must match the same short salmon/olive/gold form. Exactly ten legs total, no eleventh. Preserve current body outline, folds, two eyes, one front semicircular translucent window, colors, pose and all unaffected details. Genuine transparent background; no shadow, scenery, or halo. Complete brief:\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-025 / オリホコル / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の低い布ドーム形。脚10本、目2個、翼0枚、尾0本。胴の上面は浅い五角形\nMaterials and biological motif: 折り重なったあたたかな光布。冷えた朝の草に短時間だけ光のぬくもりを渡す\nPrimary, secondary, accent colors respectively: #E6A69A; #727D55; #F8D788\nThree mandatory visual identifiers: 上面に放射状の折り山が5本; 十本脚は五角形の各辺に2本ずつ; 前の一辺だけ半円の透け窓がある\nPose: 十脚を低く開いて、上面の五本の折り山を見せる\nTemperament to convey through expression or posture: 寛容。小さな風が通ると端を少し持ち上げる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 布を服やテントにしない; 折り山を角にしない; 裾に文字や刺繍模様を加えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-arcane-025-default-attempt004-prompt": "Use case: precise-object-edit\nCorrect ONLY the body geometry and fold layout to the original brief. Keep exactlyTEN visible short legs in their current five pairs and keep both eyes and the one front semicircular translucent window. Reshape the current tall hanging-cloth form into a LOW shallow pentagonal dome, with little vertical hanging skirt. Make the top read clearly as FIVE broad sectors bounded by exactlyFIVE radial fold ridges from one low central point to the FIVE pentagon vertices. The current six-direction fold system must become five; remove the redundant radial ridge, do not merely hide it with color. Keep each of the five leg pairs beneath its corresponding pentagon edge: rear pair, right-back pair, right-front pair, left-front pair, left-back pair. All10 legs remain separately visible, spread low. No tent poles, clothing, horns or embroidery. Preserve original salmon/olive/yellow palette and every unaffected feature. Genuine transparent background. Complete brief:\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-025 / オリホコル / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の低い布ドーム形。脚10本、目2個、翼0枚、尾0本。胴の上面は浅い五角形\nMaterials and biological motif: 折り重なったあたたかな光布。冷えた朝の草に短時間だけ光のぬくもりを渡す\nPrimary, secondary, accent colors respectively: #E6A69A; #727D55; #F8D788\nThree mandatory visual identifiers: 上面に放射状の折り山が5本; 十本脚は五角形の各辺に2本ずつ; 前の一辺だけ半円の透け窓がある\nPose: 十脚を低く開いて、上面の五本の折り山を見せる\nTemperament to convey through expression or posture: 寛容。小さな風が通ると端を少し持ち上げる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 布を服やテントにしない; 折り山を角にしない; 裾に文字や刺繍模様を加えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-arcane-025-default-attempt005-prompt": "Use case: precise-object-edit\nCorrect ONLY the surplus folds and top contour points. Keep exactlyTEN visible legs in the current five paired groups, both eyes and the front semicircular window. Make the low shallow dome's upper outline a readable pentagon with FIVE vertices near: left-back(350,310), right-back(655,310), right(820,500), front(490,640), left(210,485), on this1024reference. From the low center connect exactlyFIVE broad fold ridges to those five vertices. Keep the left-middle intended vertex. Flatten and absorb the UNWANTED back-middle peak near(504,284), and the UNWANTED extra ridge toward the left-lower edge midpoint near(268,570), into their neighboring cloth panels. Do not create any sixth ridge or extra top-outline vertex. Keep all10 legs visible in their5pairs, eachpair underneath its corresponding pentagon edge. Do not change the window, eyes, palette, low dome height, or other identity features. No tent, horns, embroidered pattern, shadow orhalo. Genuine transparent alpha. Complete original brief:\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-025 / オリホコル / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の低い布ドーム形。脚10本、目2個、翼0枚、尾0本。胴の上面は浅い五角形\nMaterials and biological motif: 折り重なったあたたかな光布。冷えた朝の草に短時間だけ光のぬくもりを渡す\nPrimary, secondary, accent colors respectively: #E6A69A; #727D55; #F8D788\nThree mandatory visual identifiers: 上面に放射状の折り山が5本; 十本脚は五角形の各辺に2本ずつ; 前の一辺だけ半円の透け窓がある\nPose: 十脚を低く開いて、上面の五本の折り山を見せる\nTemperament to convey through expression or posture: 寛容。小さな風が通ると端を少し持ち上げる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 布を服やテントにしない; 折り山を角にしない; 裾に文字や刺繍模様を加えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-arcane-025-default-attempt006-prompt": "Use case: precise-object-edit\nRevise ONLY rendering to the established game-art style: strengthen the thin yellow-brown outlines into organized dark colored contours, simplify the brushed gradients and many little highlights across cloth, window and legs into restrained cel shading with aboutthree clear tone steps per material. Keep warm-light cloth softness with a few quiet flat highlights, not glossy paint or3D plastic. Preserve the current LOW PENTAGONAL dome and EXACTLY FIVE radial fold ridges, all TEN separately visible legs in their five paired groups, both eyes, single front semicircular translucent window, no wings/tail, exact salmon/olive/gold color-role placement and pose. Do not change any silhouette, count or geometry. Genuine transparent background, nohalo orshadow. Complete brief:\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-025 / オリホコル / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の低い布ドーム形。脚10本、目2個、翼0枚、尾0本。胴の上面は浅い五角形\nMaterials and biological motif: 折り重なったあたたかな光布。冷えた朝の草に短時間だけ光のぬくもりを渡す\nPrimary, secondary, accent colors respectively: #E6A69A; #727D55; #F8D788\nThree mandatory visual identifiers: 上面に放射状の折り山が5本; 十本脚は五角形の各辺に2本ずつ; 前の一辺だけ半円の透け窓がある\nPose: 十脚を低く開いて、上面の五本の折り山を見せる\nTemperament to convey through expression or posture: 寛容。小さな風が通ると端を少し持ち上げる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 布を服やテントにしない; 折り山を角にしない; 裾に文字や刺繍模様を加えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-arcane-025-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-025; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-025 / オリホコル / 魔体 (arcane)\nLocked body and anatomy: 体幹1節の低い布ドーム形。脚10本、目2個、翼0枚、尾0本。胴の上面は浅い五角形\nLocked material cues: 折り重なったあたたかな光布。冷えた朝の草に短時間だけ光のぬくもりを渡す\nLocked palette roles, primary/secondary/accent: #E6A69A; #727D55; #F8D788\nAll three identifiers must remain recognizable: 上面に放射状の折り山が5本; 十本脚は五角形の各辺に2本ずつ; 前の一辺だけ半円の透け窓がある\nLocked pose: 十脚を低く開いて、上面の五本の折り山を見せる\nLocked temperament/expression: 寛容。小さな風が通ると端を少し持ち上げる. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 布を服やテントにしない; 折り山を角にしない; 裾に文字や刺繍模様を加えない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "1cd75f30ec2a9c1e56f2096482c5da1dd2aa548e6dcc5e74343614f1a70e19c0",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-025-default-attempt001-original.png",
+          "sha256": "0422c802f8b80ccb3e0202d47df846b7612a6526abd2f64ef4a07c13da990aba",
+          "bytes": 1027949,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-025-default-attempt002-original.png",
+          "sha256": "5cc1207cbacfacd476fb5ef86f499751a7dc08f223a849356482c81e992060be",
+          "bytes": 915929,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-025-default-attempt003-original.png",
+          "sha256": "4026670cfb1c4b53fe53dfe259fb8f5515c2c352b982fe7ec10bfa34f8d4cc29",
+          "bytes": 843963,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-025-default-attempt004-original.png",
+          "sha256": "ecdd4515dd8b75c0a1bd69dee62e431121242bb3440a1bb847b88242a1f28476",
+          "bytes": 842654,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-025-default-attempt005-original.png",
+          "sha256": "b58f095f96ca0a689ce7bc053ef5522b2a230796956ad48ad5a0e64e915b06db",
+          "bytes": 901525,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-025-default-attempt006-original.png",
+          "sha256": "526f46f551b64d70f01965726a58b9a47eec526db95508e7153f13dff89be73f",
+          "bytes": 883723,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-025-pixel-attempt001-original.png",
+          "sha256": "5af20adb2073b48ce5f6b2998eb79c1781539a9aa1c732614f823af2703063ce",
+          "bytes": 965940,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-025/default.png",
+      "sha256": "1cd75f30ec2a9c1e56f2096482c5da1dd2aa548e6dcc5e74343614f1a70e19c0",
+      "bytes": 535707,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        234,
+        944,
+        789
+      ],
+      "transparent_margins": [
+        80,
+        234,
+        80,
+        235
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-025/pixel.png",
+      "sha256": "41a5c9162bee5344bc486df48d303a4fa522aa68263e147529981596d5ee8d38",
+      "bytes": 9751,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        29,
+        118,
+        99
+      ],
+      "transparent_margins": [
+        10,
+        29,
+        10,
+        29
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。五角形の低い布ドーム、五稜・十脚・二眼・前面半円窓一つ。通常案の脚数・稜数と塗りを生成編集で修正。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

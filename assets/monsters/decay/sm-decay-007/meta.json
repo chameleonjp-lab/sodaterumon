@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-007",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-decay-007-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-007 / アミネツム / 腐体 (decay)\nBody and exact anatomy: 体幹1節の丸い編みかご形。脚3本、目3個、翼0枚、尾0本。胴の上面は平たく閉じている\nMaterials and biological motif: 乾いた細枝と淡い菌糸の編み目。小さな落葉片が風に飛ばされないよう受け止める\nPrimary, secondary, accent colors respectively: #BCA878; #725B48; #D8D4B2\nThree mandatory visual identifiers: 胴に大きなひし形の抜けが6個; 三つの目は抜けの間の太い縦繊維に付く; 三本脚は短い二又形で先端が丸い\nPose: 三脚で安定して立ち、前面の網目をはっきり見せる\nTemperament to convey through expression or posture: 堅実。強風のときほど姿勢を低く保つ. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 持ち手を付けて道具にしない; 編み目にごみや人工物を詰めない; 細枝を爪や骨に変えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express materials with a few quiet flat shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-decay-007-default-attempt002-prompt": "Use case: precise-object-edit. Asset: Sodaterumon catalog character normal sprite. Input image is the edit target.\nCorrect the body openings: show exactly SIX large, clearly separated diamond-shaped openings on the body front, readable as two rows of three large diamonds. Keep three eyes on the thick vertical fibers between openings. Simplify over-dense tiny woven lines and continuous shading to clean hand-drawn 2D game art, dark outer contour and approximately three flat cel-shading tones per material; retain dry twig and pale mycelium weave. Preserve single round basket body, flat closed top, exactly three short forked legs with rounded tips, three eyes, no wings or tail. No handle, objects, debris, claws or bones. Keep pose and full-body framing.\nTransparent background, no ground or cast shadow, no halo or glow, no text. Keep original catalog palette and identity. Full body centered, generous transparent margins.\nCanonical catalog specification:\n{\"id\":\"sm-decay-007\",\"family\":\"decay\",\"name_ja\":\"アミネツム\",\"silhouette\":\"体幹1節の丸い編みかご形。脚3本、目3個、翼0枚、尾0本。胴の上面は平たく閉じている\",\"material_motif\":\"乾いた細枝と淡い菌糸の編み目。小さな落葉片が風に飛ばされないよう受け止める\",\"palette_hex\":[\"#BCA878\",\"#725B48\",\"#D8D4B2\"],\"signature_features\":[\"胴に大きなひし形の抜けが6個\",\"三つの目は抜けの間の太い縦繊維に付く\",\"三本脚は短い二又形で先端が丸い\"],\"pose\":\"三脚で安定して立ち、前面の網目をはっきり見せる\",\"temperament\":\"堅実。強風のときほど姿勢を低く保つ\",\"do_not_add\":[\"持ち手を付けて道具にしない\",\"編み目にごみや人工物を詰めない\",\"細枝を爪や骨に変えない\"],\"family_label_ja\":\"腐体\",\"design_version\":1,\"design_status\":\"candidate_plan\",\"paths\":{\"default\":\"assets/monsters/decay/sm-decay-007/default.png\",\"pixel\":\"assets/monsters/decay/sm-decay-007/pixel.png\",\"meta\":\"assets/monsters/decay/sm-decay-007/meta.json\"},\"prompt_templates\":{\"default\":\"default-v1\",\"pixel\":\"pixel-v1\"}}\n",
+      "sm-decay-007-default-attempt003-prompt": "Use case: precise-object-edit. The reference is the current sm-decay-007 normal candidate. Change only the number and readability of its large diamond openings. There are currently FOUR large diamond openings and two much smaller side holes. Enlarge the existing left side hole near (290,520) and right side hole near (745,530) in the 1024 image into two additional LARGE clearly diamond-shaped openings with four distinct corners. Slightly shift the neighboring lower large openings inward to make room. The final creature must have exactly SIX visibly large diamond openings, each readily countable. Preserve the three eyes on their thick vertical fibers, the round woven twig/mycelium body, flat CLOSED top, exactly three short forked legs with rounded tips, no wings or tail. Do not add eyes or limbs or handles. Keep approved palette, pose, three-step cel shaded hand-drawn 2D game art and dark outline. Genuine transparent background, no shadow/halo/text, full body with ample transparent margin. All original catalog conditions still apply:\n{\"id\":\"sm-decay-007\",\"family\":\"decay\",\"name_ja\":\"アミネツム\",\"silhouette\":\"体幹1節の丸い編みかご形。脚3本、目3個、翼0枚、尾0本。胴の上面は平たく閉じている\",\"material_motif\":\"乾いた細枝と淡い菌糸の編み目。小さな落葉片が風に飛ばされないよう受け止める\",\"palette_hex\":[\"#BCA878\",\"#725B48\",\"#D8D4B2\"],\"signature_features\":[\"胴に大きなひし形の抜けが6個\",\"三つの目は抜けの間の太い縦繊維に付く\",\"三本脚は短い二又形で先端が丸い\"],\"pose\":\"三脚で安定して立ち、前面の網目をはっきり見せる\",\"temperament\":\"堅実。強風のときほど姿勢を低く保つ\",\"do_not_add\":[\"持ち手を付けて道具にしない\",\"編み目にごみや人工物を詰めない\",\"細枝を爪や骨に変えない\"],\"family_label_ja\":\"腐体\",\"design_version\":1,\"design_status\":\"candidate_plan\",\"paths\":{\"default\":\"assets/monsters/decay/sm-decay-007/default.png\",\"pixel\":\"assets/monsters/decay/sm-decay-007/pixel.png\",\"meta\":\"assets/monsters/decay/sm-decay-007/meta.json\"},\"prompt_templates\":{\"default\":\"default-v1\",\"pixel\":\"pixel-v1\"}}\n",
+      "sm-decay-007-default-attempt004-prompt": "Use case: precise-object-edit. The edit target is the current sm-decay-007 normal candidate. Correct only the six-large-diamond-opening requirement. Rebuild the weave frames around the two small outer front diamond holes, not merely the openings: move their lower horizontal wrapping twigs downward and move the two central lower large diamonds slightly inward. Make the left and right outer holes each at least roughly 80% the width and height of the adjacent central lower opening, with four clear diamond corners. All SIX front diamond holes should read as primary large openings, not four main holes and two tiny accessory holes. Keep three eyes on the thick vertical fibers, exactly three short forked legs with rounded tips, the one round twig-and-mycelium woven body, flat closed top, no wings, no tail. Preserve original palette, pose, lighting, dark contour and restrained cel shading, transparent background, full body and padding. No handle, tools, objects, text, background or halo. Complete original specification still applies.\n",
+      "sm-decay-007-default-attempt005-prompt": "Use case: style-transfer. Edit only the shading and shine of this approved-geometry sm-decay-007 image. Replace smooth continuous gradients and bright glossy highlight bands on every twig and mycelium fiber with restrained hand-drawn 2D game illustration shading: about three discrete flat cel-shaded tones per material, matte surfaces, modest soft upper-left light and clear dark outline. Do NOT alter the geometry, topology or position of any weave strand or opening. Lock the SIX principal diamond openings, all small incidental weave gaps, all three eyes on vertical fibers, all three short rounded forked legs, flat closed top, pose, palette roles and silhouette exactly. No shape redesign or lost details. No wings, tail, handle, scenery, text, shadow or halo. Full body centered, generous margins, genuinely transparent background. This is a shading-only correction.\n",
+      "sm-decay-007-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-decay-007; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-decay-007 / アミネツム / 腐体 (decay)\nLocked body and anatomy: 体幹1節の丸い編みかご形。脚3本、目3個、翼0枚、尾0本。胴の上面は平たく閉じている\nLocked material cues: 乾いた細枝と淡い菌糸の編み目。小さな落葉片が風に飛ばされないよう受け止める\nLocked palette roles, primary/secondary/accent: #BCA878; #725B48; #D8D4B2\nAll three identifiers must remain recognizable: 胴に大きなひし形の抜けが6個; 三つの目は抜けの間の太い縦繊維に付く; 三本脚は短い二又形で先端が丸い\nLocked pose: 三脚で安定して立ち、前面の網目をはっきり見せる\nLocked temperament/expression: 堅実。強風のときほど姿勢を低く保つ. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 持ち手を付けて道具にしない; 編み目にごみや人工物を詰めない; 細枝を爪や骨に変えない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "b00bb6fb7908a2a77dd0a6a96a653fa9973b0e289b1c679fe3356d6c954aa32a",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-decay-007-default-attempt001-original.png",
+          "sha256": "7ac24978089fd3410ce6b1abef8df8ac030cdd26f08b0786d6a339e373e885de",
+          "bytes": 1908833,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-007-default-attempt002-original.png",
+          "sha256": "a7fcc0e067691d0be47fd08a6889520a7f02aa048534a101f86d21f5695585d7",
+          "bytes": 1807228,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-007-default-attempt003-original.png",
+          "sha256": "11382b11fed6154b19c5fded82e68abb8bb49bb1d556ef671f36f5421baaed91",
+          "bytes": 1625493,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-007-default-attempt004-original.png",
+          "sha256": "399634d11dc64e6062be9463c2973dbaee81bd0863f258426245279af69fe1bc",
+          "bytes": 1603107,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-007-default-attempt005-original.png",
+          "sha256": "798e6e02d23b2e4f0210077111382f3be663adfca8a2d0c4250ea8e4446b4efd",
+          "bytes": 1556468,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-007-pixel-attempt001-original.png",
+          "sha256": "470428dc9569e2a7dc080618c109578fdf8e7107d9b40ba40f1eae88288b8baa",
+          "bytes": 1391948,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/decay/sm-decay-007/default.png",
+      "sha256": "b00bb6fb7908a2a77dd0a6a96a653fa9973b0e289b1c679fe3356d6c954aa32a",
+      "bytes": 1054647,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        90,
+        944,
+        934
+      ],
+      "transparent_margins": [
+        80,
+        90,
+        80,
+        90
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/decay/sm-decay-007/pixel.png",
+      "sha256": "a354ec5f63ac0f094055a1fd8caaed801361b48e5f5f19530c7bb48be1e49569",
+      "bytes": 19109,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        10,
+        118,
+        117
+      ],
+      "transparent_margins": [
+        10,
+        10,
+        10,
+        11
+      ],
+      "visible_colors": 32,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。六つの主要なひし形開口、太い縦繊維の三眼、三本の二又丸先脚、閉じた上面。開口と陰影を生成編集で修正。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
