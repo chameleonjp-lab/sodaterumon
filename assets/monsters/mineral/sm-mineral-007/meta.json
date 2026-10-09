@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-007",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-mineral-007-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-mineral-007 / フタトメル / 硬体 (mineral)\nBody and exact anatomy: 体幹2節の横長い菱形柱を前後につないだ形。脚8本、各節に目2個で計4個、翼0枚、尾0本\nMaterials and biological motif: 緑色の片岩と細い雲母層。岩面を歩き、表面にたまる細砂を脚先で払いのける\nPrimary, secondary, accent colors respectively: #7D9B83; #AC927C; #DCE4B3\nThree mandatory visual identifiers: 前節は短く厚く後節は長く薄い; 各節の背に平行な細い石筋が3本; 脚は各節に左右二本ずつ付く\nPose: 二節のつなぎ目を軽く曲げ、八脚で岩面につかまる\nTemperament to convey through expression or posture: 用心深い。足場を確かめてから後節を進める. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 節を六角柱に変えない; 石筋を文字や紋章にしない; 脚先に鋭い爪を付けない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-mineral-007-default-attempt002-prompt": "Use case: precise-object-edit\nCorrect only the leg count and leg layout of this exact two-segment schist creature. There must be EXACTLY EIGHT legs: FOUR attached to the front short thick segment and FOUR to the rear long thin segment. Each segment has TWO legs on its left side and TWO on its right side. Arrange their joint roots and blunt feet so all eight can be individually counted, including the far-side legs; avoid hiding or merging legs behind the stone body. Preserve the two horizontally long RHOMBIC prisms (not hexagonal columns), short thick front and long thin rear, FOUR eyes total (two on each segment), THREE parallel thin stone streaks on each back, zero wings/tail, slight bend between segments and gripping posture without drawing a rock surface. Same green schist/mica material, #7D9B83/#AC927C/#DCE4B3 palette roles, dark outline and restrained cel shading. No sharp claws, symbols, text, additional parts, scenery, halo or cast shadow. Full body centered square on genuine transparency.\nClarify each body segment as a long prism with a RHOMBIC four-sided cross-section, not an irregular rounded multi-face pebble. The front segment is distinctly SHORTER and THICKER, the rear LONGER and THINNER. Ensure exactly THREE distinct parallel thin stone streaks on EACH segment's back, six total, especially the rear currently only shows two. Keep these as simple material streaks, not letters or emblems.\n",
+      "sm-mineral-007-default-attempt003-prompt": "Use case: precise-object-edit\nThe reference still has SIX legs (three per segment). Correct it to EXACTLY EIGHT: keep the four near-side legs, TWO on each segment, and show FOUR far-side legs, TWO on each segment, extending above/beyond the far body edge into clear transparent space with separate blunt feet. Do not put three legs on one side. All eight roots-to-feet must be individually traceable. Keep each segment a horizontally elongated RHOMBIC prism: four main long faces meeting along a ridge, with a diamond-shaped end cross-section, rather than a wide flat rectangular top with many bevel faces. Front segment clearly shorter and vertically thicker; rear longer and vertically thinner. Retain two segments lightly bent at join, four eyes (two per segment), three distinct parallel narrow stone streaks on each back, no wings or tail, green schist/mica and original palette, blunt feet with no claws, clear dark contour and restrained cel shading. No rock ground/scenery, text, symbols, halo or shadow. Full body on true transparent alpha.\n",
+      "sm-mineral-007-default-attempt004-prompt": "Use case: precise-object-edit\nThe current image has NINE legs. Remove exactly ONE: the MIDDLE leg among the THREE near-side legs on the REAR long segment, root near(330,490) and foot near(265,645) in this1024 reference. Remove that entire root-to-foot limb cleanly; preserve the remaining rear near-side first and last legs, rear two far-side legs, and front four legs unchanged. Result must be EIGHT legs, four on each segment, two on each side. Also make the rear long segment visibly thinner vertically and front short segment thicker vertically, retaining their lengths. Clarify each as a RHOMBIC prism with a diamond end cross-section and a gentle central longitudinal ridge joining two broad sloping upper faces, not a wide flat top with a ring of many bevel faces. Retain three parallel simple stone streaks on each back, four eyes (two per segment), two connected segments lightly bent, wing/tail0, same schist/mica palette, blunt feet/no claws and restrained cel shading. No text, ground, halo, extra parts. Full body transparent alpha.\n",
+      "sm-mineral-007-default-attempt005-prompt": "Use case: precise-object-edit\nChange ONLY the cross-sectional shape of the two stone body segments. Keep every leg, eye and stripe exactly where it is now: EIGHT legs four per segment/two on each side, FOUR eyes two per segment, THREE parallel streaks per back, short-thick front and long-thin rear, slight bent join. Make each body a recognizably RHOMBIC PRISM: its end face is a FOUR-SIDED DIAMOND (top corner, right corner, bottom corner, left corner), and its long upper surface consists of TWO broad sloping planes meeting on ONE central longitudinal ridge. Remove the current broad horizontal top face and the extra bevel-face band. Give the visible end face a clear diamond outline, not a six-sided or chamfered rectangular outline. Preserve green schist/mica texture and palette, dark contour and restrained cel planes, blunt clawless feet, no wings/tail. No additional parts, no text, no background, full body genuine transparent alpha.\n",
+      "sm-mineral-007-default-attempt006-prompt": "Use case: precise-object-edit\nChange ONLY the thin pale stone streaks on the back of this creature. Each of its TWO body segments currently shows TWO pale parallel longitudinal streaks. Add ONE matching thin pale streak to EACH segment, so there are exactly THREE separate parallel streaks on the rear back and exactly THREE on the front back, SIX total. All three on each must lie on the BACK surface, not the brown side mineral layer or silhouette highlight. Keep their parallel direction and material appearance, no lettering or symbols. Preserve every other pixel-level design feature: eight legs (four per segment, two each side), four eyes, two rhombic prisms with clear central ridge and diamond cross-section, short thick front/long thin rear, slight joined bend, no wings or tail, blunt feet, original colors/material/cel style/pose. Do not reshape body, move/delete legs, or add other markings. Genuine transparent alpha, full body, no text/props/halo/shadow.\n",
+      "sm-mineral-007-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-mineral-007; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-mineral-007 / フタトメル / 硬体 (mineral)\nLocked body and anatomy: 体幹2節の横長い菱形柱を前後につないだ形。脚8本、各節に目2個で計4個、翼0枚、尾0本\nLocked material cues: 緑色の片岩と細い雲母層。岩面を歩き、表面にたまる細砂を脚先で払いのける\nLocked palette roles, primary/secondary/accent: #7D9B83; #AC927C; #DCE4B3\nAll three identifiers must remain recognizable: 前節は短く厚く後節は長く薄い; 各節の背に平行な細い石筋が3本; 脚は各節に左右二本ずつ付く\nLocked pose: 二節のつなぎ目を軽く曲げ、八脚で岩面につかまる\nLocked temperament/expression: 用心深い。足場を確かめてから後節を進める. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 節を六角柱に変えない; 石筋を文字や紋章にしない; 脚先に鋭い爪を付けない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-mineral-007-pixel-attempt002-prompt": "Use case: precise-object-edit\nChange ONLY the readability of the FOUR eyes on this exact pixel creature. There are two eyes on each segment; make each a distinct compact pale-yellow eye cluster enclosed by dark outline pixels, clearly separated from the brown side stripe and surrounding highlights. Especially the front two eyes must read separately at128px. Preserve eight legs, four per segment/two per side, two rhombic prisms, short-thick front/long-thin rear, three parallel streaks per back, no wings or tail, exact facing/pose/palette. Do not enlarge eyes beyond normal reference proportion, move anatomy, delete stripes or add a face. Crisp128 logical grid, at most32 visible colors, alpha0 exterior/opaque body, no halo/blur/shadow/text.\n",
+      "sm-mineral-007-pixel-attempt003-prompt": "Use case: precise-object-edit\nInput image1 is the pixel sprite to fix; image2 is the approved normal identity reference. Correct the eyes to EXACTLY FOUR total, TWO on each body segment, matching their positions in image2. The current pixel sprite wrongly has THREE eyes spread along the rear long segment. Remove all three wrong rear eye marks and place exactly TWO adjacent small pale-yellow dark-outlined eyes together at the same side location as image2. Keep the correct TWO front eyes, matching image2. Both pairs must be clearly separately readable at128px without moving onto the back stripes. Preserve eight legs, three parallel back streaks per segment, rhombic prisms, front short/thick and rear long/thin, palette, pose and crisp pixel medium. No other face marks, no additional dots that resemble eyes. True128 logical grid, <=32 visible colors, opaque sprite/transparent background, no halo, text, props.\n"
+    },
+    "reference_default_sha256": "15f5fe5512912f2d3a5cdd93008f70710aecc92bc58d9e079103cabdce8623c9",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-mineral-007-default-attempt001-original.png",
+          "sha256": "51b564252171d40d37632e7f81d85ccb5fead3b21bd246690486b94d2b4d36ec",
+          "bytes": 1013352,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-007-default-attempt002-original.png",
+          "sha256": "2344fcdc21e16ce7131f9961c46f3e80452eeb57f888418c1d0918bc6fa6d597",
+          "bytes": 994672,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-007-default-attempt003-original.png",
+          "sha256": "7f295d2103a8d6048e8125dde6c7e58c90e90403bb4df614b65a836fd0d9d468",
+          "bytes": 1192586,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-007-default-attempt004-original.png",
+          "sha256": "1c423835ea9a271aae169bbc4a7f3cb8e5f21006c57fbcf09ca44c19cae5abbe",
+          "bytes": 1073899,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-007-default-attempt005-original.png",
+          "sha256": "4e791c148fa3802a237df960b93b15612f9754b4a7c882a9809dd3e98291a697",
+          "bytes": 948424,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-007-default-attempt006-original.png",
+          "sha256": "fd0a2b671e22120604977be91451be5f3d92cd87b186dcdc9b2b04f2aec46605",
+          "bytes": 860066,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-007-pixel-attempt001-original.png",
+          "sha256": "8aa8f66ce6d773c44ee617bb9a6ee37bbbe59616964550bb4bc5d14468fba188",
+          "bytes": 796409,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-007-pixel-attempt002-original.png",
+          "sha256": "9736b76f676a767d1a9daff0ec5d524da4a930097d6601144b15bf6cd72ec781",
+          "bytes": 667488,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-007-pixel-attempt003-original.png",
+          "sha256": "36bfaa51b5c09540fb24def98cedd46abe2e19e122acbbd5af9ea278bf73ebe7",
+          "bytes": 705354,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/mineral/sm-mineral-007/default.png",
+      "sha256": "15f5fe5512912f2d3a5cdd93008f70710aecc92bc58d9e079103cabdce8623c9",
+      "bytes": 562516,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        194,
+        944,
+        829
+      ],
+      "transparent_margins": [
+        80,
+        194,
+        80,
+        195
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/mineral/sm-mineral-007/pixel.png",
+      "sha256": "e54482120b2a60a5729fc38fe857d1eac3bbe58dde614493d807a43d4f602691",
+      "bytes": 9658,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        24,
+        118,
+        103
+      ],
+      "transparent_margins": [
+        10,
+        24,
+        10,
+        25
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。二菱形柱、前短厚後長薄、八脚各節左右二本ずつ、四眼各節二個、各背平行三筋。通常は脚数・厚薄・菱形断面・三筋を生成編集修正。pixel眼判読と余剰眼を通常参照で修正しexact四眼を確認。全原本と失敗候補保全。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
