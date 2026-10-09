@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "sm-winged-020",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版は別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "reference_default_sha256": "bda6b13eb5b4396a5cfa989c04a5731bdc3a06539657c4e9334a764063d6074d",
+    "original_recovery": "not_recovered",
+    "original_recovery_note": "完成PNGは永続保存から復旧・SHA-256検証済み。53対の生成原本106枚中104枚は未復旧。詳細試行記録の完全復旧も未確認。",
+    "processing_summary": {
+      "default": "許可済みの比例縮小・透明余白配置・微小alphaゴミ調整",
+      "pixel": "別途生成したpixel候補に許可済み128格子調整・32色以下減色・alpha二値化"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/winged/sm-winged-020/default.png",
+      "sha256": "bda6b13eb5b4396a5cfa989c04a5731bdc3a06539657c4e9334a764063d6074d",
+      "bytes": 729676,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        167,
+        944,
+        857
+      ],
+      "transparent_margins": [
+        80,
+        167,
+        80,
+        167
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/winged/sm-winged-020/pixel.png",
+      "sha256": "bbe643bf8d8701c2151fe3bd6a0aa60250a57a1889e27ef8a700ebe80a2269d7",
+      "bytes": 8134,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        20,
+        118,
+        108
+      ],
+      "transparent_margins": [
+        10,
+        20,
+        10,
+        20
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "制作時の原寸・拡大画像による独立確認と最終画像レビュー。復旧後のbytes/SHA・PNG規格再検査。",
+    "user_acceptance": "pending"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

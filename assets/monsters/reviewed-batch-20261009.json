@@ -1,0 +1,2505 @@
+{
+  "schema_version": 1,
+  "catalog": "assets/monsters/catalog.json",
+  "scope": "2026-10-09 recovered approved image batch",
+  "base_existing_pairs": 62,
+  "added_pairs": 53,
+  "total_pairs_after_this_batch": 115,
+  "assets_added": 106,
+  "remaining_not_added": 100,
+  "originals_unrecovered": 104,
+  "user_acceptance": "pending",
+  "entries": [
+    {
+      "id": "sm-flora-015",
+      "name_ja": "ネオオギュ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/flora/sm-flora-015/default.png",
+          "sha256": "5de5b36798b9089fc2fa5ad68a865c00c2edda8afd9076f9668cbab22e3a05c6",
+          "bytes": 576803,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            126,
+            944,
+            897
+          ],
+          "transparent_margins": [
+            80,
+            126,
+            80,
+            127
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/flora/sm-flora-015/pixel.png",
+          "sha256": "f754d23d69eb08ab6e17f0ab65028414eebf2f8e954d1ba1cdc26b79cb9ed2b7",
+          "bytes": 6835,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            14,
+            118,
+            114
+          ],
+          "transparent_margins": [
+            10,
+            14,
+            10,
+            14
+          ]
+        }
+      },
+      "meta": "assets/monsters/flora/sm-flora-015/meta.json"
+    },
+    {
+      "id": "sm-flora-016",
+      "name_ja": "ツリツボネ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/flora/sm-flora-016/default.png",
+          "sha256": "236302e06390fd852e6220938d704aceb02ec05e54cfcfe371cbd77dc17ca052",
+          "bytes": 552034,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            151,
+            80,
+            873,
+            944
+          ],
+          "transparent_margins": [
+            151,
+            80,
+            151,
+            80
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/flora/sm-flora-016/pixel.png",
+          "sha256": "d854077aca0b674fc3e97f80dd0fda28594f87c8519078756249cc866a2af13f",
+          "bytes": 6449,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            19,
+            10,
+            109,
+            118
+          ],
+          "transparent_margins": [
+            19,
+            10,
+            19,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/flora/sm-flora-016/meta.json"
+    },
+    {
+      "id": "sm-flora-017",
+      "name_ja": "シキネララ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/flora/sm-flora-017/default.png",
+          "sha256": "23393e48c03f95d73afb39563d2fc920d33e0f30f0808966a5655a40da9aa64c",
+          "bytes": 615566,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            172,
+            944,
+            852
+          ],
+          "transparent_margins": [
+            80,
+            172,
+            80,
+            172
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/flora/sm-flora-017/pixel.png",
+          "sha256": "45f3d416a2c210b01192d298498eedf1358bbbcb8d7b7ebebf52f62c3dd74498",
+          "bytes": 7978,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            23,
+            118,
+            105
+          ],
+          "transparent_margins": [
+            10,
+            23,
+            10,
+            23
+          ]
+        }
+      },
+      "meta": "assets/monsters/flora/sm-flora-017/meta.json"
+    },
+    {
+      "id": "sm-flora-012",
+      "name_ja": "ハコサヤム",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/flora/sm-flora-012/default.png",
+          "sha256": "3ecafd32d15ade614b643d9ddf09fd593e466c5486acb16fc7624d52886239aa",
+          "bytes": 594745,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            93,
+            80,
+            930,
+            944
+          ],
+          "transparent_margins": [
+            93,
+            80,
+            94,
+            80
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/flora/sm-flora-012/pixel.png",
+          "sha256": "75fab692c6757430a5b810bd4b7599b465753edef86db4aaf6b87416397d44f4",
+          "bytes": 6407,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            11,
+            10,
+            116,
+            118
+          ],
+          "transparent_margins": [
+            11,
+            10,
+            12,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/flora/sm-flora-012/meta.json"
+    },
+    {
+      "id": "sm-flora-014",
+      "name_ja": "フタハザラ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/flora/sm-flora-014/default.png",
+          "sha256": "da02792b5071568f65731449f412bb7d79aa27f92aa6c24dc3ec1697b42bde56",
+          "bytes": 517283,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            81,
+            194,
+            944,
+            828
+          ],
+          "transparent_margins": [
+            81,
+            194,
+            80,
+            196
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/flora/sm-flora-014/pixel.png",
+          "sha256": "bbb0e8c53bd7ebaffcca7d9abc3798e1bf034f762307b49a01ca3f9f10e3c0d7",
+          "bytes": 5816,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            22,
+            118,
+            105
+          ],
+          "transparent_margins": [
+            10,
+            22,
+            10,
+            23
+          ]
+        }
+      },
+      "meta": "assets/monsters/flora/sm-flora-014/meta.json"
+    },
+    {
+      "id": "sm-flora-008",
+      "name_ja": "ツルワモコ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/flora/sm-flora-008/default.png",
+          "sha256": "def60a5860331e24646b33898bc59b520a76ef4405bfd496facdf14c326488ef",
+          "bytes": 526461,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            173,
+            944,
+            850
+          ],
+          "transparent_margins": [
+            80,
+            173,
+            80,
+            174
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/flora/sm-flora-008/pixel.png",
+          "sha256": "2a9cde5a483bd820f87af64e60bbf488ec7af4891d96f23ef3dd27c1b7e013c9",
+          "bytes": 6898,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            22,
+            118,
+            105
+          ],
+          "transparent_margins": [
+            10,
+            22,
+            10,
+            23
+          ]
+        }
+      },
+      "meta": "assets/monsters/flora/sm-flora-008/meta.json"
+    },
+    {
+      "id": "sm-flora-009",
+      "name_ja": "トゲマルナ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/flora/sm-flora-009/default.png",
+          "sha256": "85fc7aefe17d7eb6e086fd86ec78cffd5ad6c1b1ecd704ef7ec04c8c078759d4",
+          "bytes": 803082,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            100,
+            80,
+            923,
+            944
+          ],
+          "transparent_margins": [
+            100,
+            80,
+            101,
+            80
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/flora/sm-flora-009/pixel.png",
+          "sha256": "9b759a2a79ef471414e8741186013aa337e92f536a86f68eb1189d5b1748e1c8",
+          "bytes": 9819,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            13,
+            10,
+            115,
+            118
+          ],
+          "transparent_margins": [
+            13,
+            10,
+            13,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/flora/sm-flora-009/meta.json"
+    },
+    {
+      "id": "sm-flora-010",
+      "name_ja": "ネリハバネ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/flora/sm-flora-010/default.png",
+          "sha256": "e469f06e79d3302fa21a0d486e8bda2b1d06dabd6ceba8aae2d24be3063c0d13",
+          "bytes": 252192,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            304,
+            944,
+            720
+          ],
+          "transparent_margins": [
+            80,
+            304,
+            80,
+            304
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/flora/sm-flora-010/pixel.png",
+          "sha256": "c009fed26b143076888e74ab13b9456eee24890adf9ec5f9b261d97e624d375f",
+          "bytes": 3235,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            38,
+            118,
+            90
+          ],
+          "transparent_margins": [
+            10,
+            38,
+            10,
+            38
+          ]
+        }
+      },
+      "meta": "assets/monsters/flora/sm-flora-010/meta.json"
+    },
+    {
+      "id": "sm-micro-020",
+      "name_ja": "アミユイネ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/micro/sm-micro-020/default.png",
+          "sha256": "540e9b0825c8ea83bbb48cdceacd7994d78f2ee48a07809517fd696dfdb0ed73",
+          "bytes": 569481,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            133,
+            80,
+            890,
+            944
+          ],
+          "transparent_margins": [
+            133,
+            80,
+            134,
+            80
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/micro/sm-micro-020/pixel.png",
+          "sha256": "f423fd1da00528574648691d0d0fafb9d8a926944dca12f12a4989d7725a0294",
+          "bytes": 7258,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            16,
+            10,
+            112,
+            118
+          ],
+          "transparent_margins": [
+            16,
+            10,
+            16,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/micro/sm-micro-020/meta.json"
+    },
+    {
+      "id": "sm-flora-004",
+      "name_ja": "ハスラプネ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/flora/sm-flora-004/default.png",
+          "sha256": "5f5862af94b465de36ccefda31b2bdd664fe372b753e6929a7c668e92b09f1da",
+          "bytes": 475336,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            148,
+            944,
+            876
+          ],
+          "transparent_margins": [
+            80,
+            148,
+            80,
+            148
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/flora/sm-flora-004/pixel.png",
+          "sha256": "f8e91d3f550dd5f7e787c307513ac36fddd20a47a4af6f9e6e12e3a98ce0b225",
+          "bytes": 4901,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            17,
+            118,
+            111
+          ],
+          "transparent_margins": [
+            10,
+            17,
+            10,
+            17
+          ]
+        }
+      },
+      "meta": "assets/monsters/flora/sm-flora-004/meta.json"
+    },
+    {
+      "id": "sm-flora-005",
+      "name_ja": "ネバコロミ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/flora/sm-flora-005/default.png",
+          "sha256": "581593ff751947fd487a31d76835eed6a944e496f8bdbdf64d76f49c2468c215",
+          "bytes": 477403,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            241,
+            944,
+            784
+          ],
+          "transparent_margins": [
+            80,
+            241,
+            80,
+            240
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/flora/sm-flora-005/pixel.png",
+          "sha256": "4a61022fc365a7e1cdb577fab80bee76e3899fc997bfa57de6a188a7143a1cf2",
+          "bytes": 5797,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            29,
+            118,
+            98
+          ],
+          "transparent_margins": [
+            10,
+            29,
+            10,
+            30
+          ]
+        }
+      },
+      "meta": "assets/monsters/flora/sm-flora-005/meta.json"
+    },
+    {
+      "id": "sm-flora-006",
+      "name_ja": "オウギノロ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/flora/sm-flora-006/default.png",
+          "sha256": "ec29519891ac7436d17bb0f7678f200d7514b942d57e3fd700a37acd05e0ffb4",
+          "bytes": 478786,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            181,
+            944,
+            842
+          ],
+          "transparent_margins": [
+            80,
+            181,
+            80,
+            182
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/flora/sm-flora-006/pixel.png",
+          "sha256": "84e4b3b446c0061e72dcbc95eda7afddf39eaaaa954da52f050969745a4c4407",
+          "bytes": 4864,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            20,
+            118,
+            107
+          ],
+          "transparent_margins": [
+            10,
+            20,
+            10,
+            21
+          ]
+        }
+      },
+      "meta": "assets/monsters/flora/sm-flora-006/meta.json"
+    },
+    {
+      "id": "sm-micro-016",
+      "name_ja": "フサエノム",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/micro/sm-micro-016/default.png",
+          "sha256": "010844596933827d0a94f7fa14dac76eec27d23d2c58c2a997bd37fe4d86d016",
+          "bytes": 486759,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            241,
+            80,
+            783,
+            943
+          ],
+          "transparent_margins": [
+            241,
+            80,
+            241,
+            81
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/micro/sm-micro-016/pixel.png",
+          "sha256": "06be6e64bbf4778937a6cc9977e4c20d8beb22881ff902e2915b70ec9d9bb330",
+          "bytes": 5634,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            29,
+            10,
+            99,
+            118
+          ],
+          "transparent_margins": [
+            29,
+            10,
+            29,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/micro/sm-micro-016/meta.json"
+    },
+    {
+      "id": "sm-micro-018",
+      "name_ja": "ツユキノラ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/micro/sm-micro-018/default.png",
+          "sha256": "3601c3130e62f744ad71090b7f38a8184e7c0f5997aeb302c0390290278d476b",
+          "bytes": 501206,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            140,
+            80,
+            883,
+            944
+          ],
+          "transparent_margins": [
+            140,
+            80,
+            141,
+            80
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/micro/sm-micro-018/pixel.png",
+          "sha256": "0997d613e8c205727a6442a3f71517aa513070c337d4d181e914927f2b785753",
+          "bytes": 5664,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            18,
+            10,
+            109,
+            118
+          ],
+          "transparent_margins": [
+            18,
+            10,
+            19,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/micro/sm-micro-018/meta.json"
+    },
+    {
+      "id": "sm-micro-019",
+      "name_ja": "ミゾマルユ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/micro/sm-micro-019/default.png",
+          "sha256": "aeb7c2eaef0890af7e51fef202f49de6ae9426ff5055a4055c008f8d51d8f53a",
+          "bytes": 694219,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            169,
+            944,
+            854
+          ],
+          "transparent_margins": [
+            80,
+            169,
+            80,
+            170
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/micro/sm-micro-019/pixel.png",
+          "sha256": "5a3f66675ea34ae63d9b1b96976d9f42ef07ece759cb15afcc9a47446ed5bd64",
+          "bytes": 6786,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            20,
+            118,
+            107
+          ],
+          "transparent_margins": [
+            10,
+            20,
+            10,
+            21
+          ]
+        }
+      },
+      "meta": "assets/monsters/micro/sm-micro-019/meta.json"
+    },
+    {
+      "id": "sm-micro-013",
+      "name_ja": "アワハコネ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/micro/sm-micro-013/default.png",
+          "sha256": "408c816bde06f1b4bb693ac7362cf51dad1910a063c6a9615d71bba9c14ab1db",
+          "bytes": 725219,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            119,
+            80,
+            905,
+            944
+          ],
+          "transparent_margins": [
+            119,
+            80,
+            119,
+            80
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/micro/sm-micro-013/pixel.png",
+          "sha256": "920a4feda9797b10fd2e02971202396a46af55f7f488e00f7b29ac12af4655fe",
+          "bytes": 6816,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            15,
+            10,
+            112,
+            118
+          ],
+          "transparent_margins": [
+            15,
+            10,
+            16,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/micro/sm-micro-013/meta.json"
+    },
+    {
+      "id": "sm-micro-014",
+      "name_ja": "ハシゴユラ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/micro/sm-micro-014/default.png",
+          "sha256": "98a599583ec0d4a816e2999f5be03432613f28c5083b655524c7e9ac4df380d4",
+          "bytes": 379822,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            304,
+            80,
+            719,
+            944
+          ],
+          "transparent_margins": [
+            304,
+            80,
+            305,
+            80
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/micro/sm-micro-014/pixel.png",
+          "sha256": "022ebf17600873ec0c72cf655095c170bf97248eb6f73ac98e9757bcd505b51b",
+          "bytes": 5046,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            37,
+            10,
+            90,
+            118
+          ],
+          "transparent_margins": [
+            37,
+            10,
+            38,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/micro/sm-micro-014/meta.json"
+    },
+    {
+      "id": "sm-micro-008",
+      "name_ja": "ワッカネル",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/micro/sm-micro-008/default.png",
+          "sha256": "c21a3192e180f89922595c1ae7a7878fa08037a0e82cf329fdac09c91e486c2b",
+          "bytes": 708209,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            88,
+            80,
+            935,
+            944
+          ],
+          "transparent_margins": [
+            88,
+            80,
+            89,
+            80
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/micro/sm-micro-008/pixel.png",
+          "sha256": "f02150cc91e5296d5ae64d60e5b4b6873b86f7fdd13a085a78270c69413fcd40",
+          "bytes": 7628,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            11,
+            10,
+            117,
+            118
+          ],
+          "transparent_margins": [
+            11,
+            10,
+            11,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/micro/sm-micro-008/meta.json"
+    },
+    {
+      "id": "sm-micro-009",
+      "name_ja": "ミツナナモ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/micro/sm-micro-009/default.png",
+          "sha256": "e9ffc1797670c42d7fe4ce227ddc1f0ee692be7a05ca7dacf8a5c5ea13e17ce7",
+          "bytes": 494517,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            123,
+            944,
+            900
+          ],
+          "transparent_margins": [
+            80,
+            123,
+            80,
+            124
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/micro/sm-micro-009/pixel.png",
+          "sha256": "2f0afc7396518e0a60f787385d99b6b743e82b9e48c43dd701bba80ede3570f9",
+          "bytes": 5031,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            15,
+            118,
+            113
+          ],
+          "transparent_margins": [
+            10,
+            15,
+            10,
+            15
+          ]
+        }
+      },
+      "meta": "assets/monsters/micro/sm-micro-009/meta.json"
+    },
+    {
+      "id": "sm-micro-010",
+      "name_ja": "クシモユイ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/micro/sm-micro-010/default.png",
+          "sha256": "66fb2821c9132f4dcb877aa485f10b7c77c13c315ccf26ed411312aa70f04db6",
+          "bytes": 230227,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            383,
+            944,
+            641
+          ],
+          "transparent_margins": [
+            80,
+            383,
+            80,
+            383
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/micro/sm-micro-010/pixel.png",
+          "sha256": "5bd10112a0f84b7e21fd52f26b42cb51b2d6064f6460a64432655c96a3561fa6",
+          "bytes": 2963,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            8,
+            46,
+            120,
+            81
+          ],
+          "transparent_margins": [
+            8,
+            46,
+            8,
+            47
+          ]
+        }
+      },
+      "meta": "assets/monsters/micro/sm-micro-010/meta.json"
+    },
+    {
+      "id": "sm-micro-004",
+      "name_ja": "ヒネイトム",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/micro/sm-micro-004/default.png",
+          "sha256": "b014d082a79517869f04e0899c38cfb72f1e7b29a54b98bbab5f7f691712f9a3",
+          "bytes": 460421,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            217,
+            944,
+            806
+          ],
+          "transparent_margins": [
+            80,
+            217,
+            80,
+            218
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/micro/sm-micro-004/pixel.png",
+          "sha256": "bc6b96dac0c86551aec85038054d54aba24b6a57f7bd979e2c7f69f1910cf2c4",
+          "bytes": 6936,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            8,
+            25,
+            120,
+            102
+          ],
+          "transparent_margins": [
+            8,
+            25,
+            8,
+            26
+          ]
+        }
+      },
+      "meta": "assets/monsters/micro/sm-micro-004/meta.json"
+    },
+    {
+      "id": "sm-micro-005",
+      "name_ja": "マスネリコ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/micro/sm-micro-005/default.png",
+          "sha256": "e4a43439d739096b6f51080d6e5a5c03683bd37b1fac661cd7c0ad849fbba0e0",
+          "bytes": 647218,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            186,
+            943,
+            838
+          ],
+          "transparent_margins": [
+            80,
+            186,
+            81,
+            186
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/micro/sm-micro-005/pixel.png",
+          "sha256": "2084c388a2df65cd18382ded1d215c505dee11215c1481be18019c6b026f85e9",
+          "bytes": 8103,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            19,
+            118,
+            108
+          ],
+          "transparent_margins": [
+            10,
+            19,
+            10,
+            20
+          ]
+        }
+      },
+      "meta": "assets/monsters/micro/sm-micro-005/meta.json"
+    },
+    {
+      "id": "sm-micro-006",
+      "name_ja": "ミカユラミ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/micro/sm-micro-006/default.png",
+          "sha256": "7434cfd4e830b94dd22995177fcf7f6e75c08ac37b136c3e1d4f976c2cd67849",
+          "bytes": 681842,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            95,
+            80,
+            929,
+            944
+          ],
+          "transparent_margins": [
+            95,
+            80,
+            95,
+            80
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/micro/sm-micro-006/pixel.png",
+          "sha256": "9acb29d2b92d0f3804ca3c6f09e3da4219bc919e7bdef35959c6740ce975eeab",
+          "bytes": 7702,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            14,
+            10,
+            114,
+            118
+          ],
+          "transparent_margins": [
+            14,
+            10,
+            14,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/micro/sm-micro-006/meta.json"
+    },
+    {
+      "id": "sm-winged-017",
+      "name_ja": "ヨツマメリ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/winged/sm-winged-017/default.png",
+          "sha256": "c7f1509f24ff69810f289675d7c4ccb585604904a5e7cc7d76448efa5c087481",
+          "bytes": 700119,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            99,
+            944,
+            926
+          ],
+          "transparent_margins": [
+            80,
+            99,
+            80,
+            98
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/winged/sm-winged-017/pixel.png",
+          "sha256": "47fc60de23cc3c6b998e6ba0de38539f89ca6ecab4284feead904f4668deb9f1",
+          "bytes": 7447,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            11,
+            118,
+            116
+          ],
+          "transparent_margins": [
+            10,
+            11,
+            10,
+            12
+          ]
+        }
+      },
+      "meta": "assets/monsters/winged/sm-winged-017/meta.json"
+    },
+    {
+      "id": "sm-winged-018",
+      "name_ja": "ザブリボム",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/winged/sm-winged-018/default.png",
+          "sha256": "56a14d39df164b746f5f8e9e542a98e75f037b2f8e665e3096716986167cf90a",
+          "bytes": 530605,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            216,
+            944,
+            808
+          ],
+          "transparent_margins": [
+            80,
+            216,
+            80,
+            216
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/winged/sm-winged-018/pixel.png",
+          "sha256": "2f05323888c05e069c41433f20a81f430c921a61765514e824d50485d02136b9",
+          "bytes": 4306,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            26,
+            118,
+            101
+          ],
+          "transparent_margins": [
+            10,
+            26,
+            10,
+            27
+          ]
+        }
+      },
+      "meta": "assets/monsters/winged/sm-winged-018/meta.json"
+    },
+    {
+      "id": "sm-winged-019",
+      "name_ja": "ゴサキウル",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/winged/sm-winged-019/default.png",
+          "sha256": "854c83bbfde00916e185f7be1a17de1ed52b046b6ca13a03f2d237a8224100a9",
+          "bytes": 443333,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            162,
+            80,
+            861,
+            944
+          ],
+          "transparent_margins": [
+            162,
+            80,
+            163,
+            80
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/winged/sm-winged-019/pixel.png",
+          "sha256": "5c3d94b5107de03ac71d9031e0801ea9ad99f3ade3ccf618babfe4c5b7746e27",
+          "bytes": 6349,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            20,
+            10,
+            108,
+            118
+          ],
+          "transparent_margins": [
+            20,
+            10,
+            20,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/winged/sm-winged-019/meta.json"
+    },
+    {
+      "id": "sm-winged-020",
+      "name_ja": "ウズコロネ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/winged/sm-winged-020/default.png",
+          "sha256": "bda6b13eb5b4396a5cfa989c04a5731bdc3a06539657c4e9334a764063d6074d",
+          "bytes": 729676,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            167,
+            944,
+            857
+          ],
+          "transparent_margins": [
+            80,
+            167,
+            80,
+            167
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/winged/sm-winged-020/pixel.png",
+          "sha256": "bbe643bf8d8701c2151fe3bd6a0aa60250a57a1889e27ef8a700ebe80a2269d7",
+          "bytes": 8134,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            20,
+            118,
+            108
+          ],
+          "transparent_margins": [
+            10,
+            20,
+            10,
+            20
+          ]
+        }
+      },
+      "meta": "assets/monsters/winged/sm-winged-020/meta.json"
+    },
+    {
+      "id": "sm-winged-014",
+      "name_ja": "ロクメサフ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/winged/sm-winged-014/default.png",
+          "sha256": "f23d17cb8c5b1d8e59b730cf504a306bc18c32c77c42905bc7f06cbf9d7f1b01",
+          "bytes": 552727,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            138,
+            944,
+            886
+          ],
+          "transparent_margins": [
+            80,
+            138,
+            80,
+            138
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/winged/sm-winged-014/pixel.png",
+          "sha256": "805aef0f85df11436143443f0b142b692e1a2879e1c8e1f9964c9498eea0fa06",
+          "bytes": 7685,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            16,
+            118,
+            111
+          ],
+          "transparent_margins": [
+            10,
+            16,
+            10,
+            17
+          ]
+        }
+      },
+      "meta": "assets/monsters/winged/sm-winged-014/meta.json"
+    },
+    {
+      "id": "sm-winged-015",
+      "name_ja": "ツミコノア",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/winged/sm-winged-015/default.png",
+          "sha256": "971190b1a6f483eec5caa2c213a8b3387e158ec91685f0c959a469bb1ebb3f3b",
+          "bytes": 434166,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            235,
+            80,
+            789,
+            944
+          ],
+          "transparent_margins": [
+            235,
+            80,
+            235,
+            80
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/winged/sm-winged-015/pixel.png",
+          "sha256": "07fdfe466db9a832b5c1fe9e3a24fd539e03070ad540da8e7356c90ca4070951",
+          "bytes": 4689,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            30,
+            10,
+            98,
+            118
+          ],
+          "transparent_margins": [
+            30,
+            10,
+            30,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/winged/sm-winged-015/meta.json"
+    },
+    {
+      "id": "sm-winged-010",
+      "name_ja": "ハチマワネ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/winged/sm-winged-010/default.png",
+          "sha256": "9ad8e57a16f527cde44c808d3dc755a9a5ea25bbe2db605867a2646ff1bc9e96",
+          "bytes": 562975,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            132,
+            944,
+            892
+          ],
+          "transparent_margins": [
+            80,
+            132,
+            80,
+            132
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/winged/sm-winged-010/pixel.png",
+          "sha256": "3705f626ea83a00fdea5be51e8a387fec0e215121458bf6a3610f3610e3c3770",
+          "bytes": 5521,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            14,
+            118,
+            113
+          ],
+          "transparent_margins": [
+            10,
+            14,
+            10,
+            15
+          ]
+        }
+      },
+      "meta": "assets/monsters/winged/sm-winged-010/meta.json"
+    },
+    {
+      "id": "sm-winged-012",
+      "name_ja": "フタワモユ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/winged/sm-winged-012/default.png",
+          "sha256": "05e0200ef660ec2bc17f8f4c7e52d9c1cd03d9e6c167fb86b54e59f951e5fa5d",
+          "bytes": 553052,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            113,
+            944,
+            910
+          ],
+          "transparent_margins": [
+            80,
+            113,
+            80,
+            114
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/winged/sm-winged-012/pixel.png",
+          "sha256": "f3d7afdf471136dd16727b212aa3bcbdf388532c67719d30b730797772e62573",
+          "bytes": 6784,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            15,
+            118,
+            112
+          ],
+          "transparent_margins": [
+            10,
+            15,
+            10,
+            16
+          ]
+        }
+      },
+      "meta": "assets/monsters/winged/sm-winged-012/meta.json"
+    },
+    {
+      "id": "sm-winged-004",
+      "name_ja": "カクホサラ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/winged/sm-winged-004/default.png",
+          "sha256": "95752c4bf26c1977fef1a907eac089e597dcd5352135ab2acf0388ba568e9b69",
+          "bytes": 695577,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            144,
+            944,
+            879
+          ],
+          "transparent_margins": [
+            80,
+            144,
+            80,
+            145
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/winged/sm-winged-004/pixel.png",
+          "sha256": "b5f8e55930c98880c0d0bdf3af986bd5ddcce5fc6a977f0977ad08bf61858ce5",
+          "bytes": 6976,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            19,
+            118,
+            109
+          ],
+          "transparent_margins": [
+            10,
+            19,
+            10,
+            19
+          ]
+        }
+      },
+      "meta": "assets/monsters/winged/sm-winged-004/meta.json"
+    },
+    {
+      "id": "sm-winged-005",
+      "name_ja": "ワノヒララ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/winged/sm-winged-005/default.png",
+          "sha256": "4712ab9ef8b3031345375ecc827785a1fda6863e83657716c4a11841f8075353",
+          "bytes": 459494,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            189,
+            944,
+            834
+          ],
+          "transparent_margins": [
+            80,
+            189,
+            80,
+            190
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/winged/sm-winged-005/pixel.png",
+          "sha256": "66c7c0bcfb1b0fe47c6ab013e36ea3f29f6dded19cf55dd759537a8a55ad4ccb",
+          "bytes": 6159,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            22,
+            118,
+            105
+          ],
+          "transparent_margins": [
+            10,
+            22,
+            10,
+            23
+          ]
+        }
+      },
+      "meta": "assets/monsters/winged/sm-winged-005/meta.json"
+    },
+    {
+      "id": "sm-winged-006",
+      "name_ja": "サヤトロネ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/winged/sm-winged-006/default.png",
+          "sha256": "05959e39c8d5894c1d1c7eada6c28404ab3f9f294904e76a1f32e5552efde70c",
+          "bytes": 619587,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            137,
+            944,
+            886
+          ],
+          "transparent_margins": [
+            80,
+            137,
+            80,
+            138
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/winged/sm-winged-006/pixel.png",
+          "sha256": "40ffec7a85d2bf21b877801cab9e906800bc137325a9cc2d9c76e2fd324c9017",
+          "bytes": 8103,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            16,
+            118,
+            112
+          ],
+          "transparent_margins": [
+            10,
+            16,
+            10,
+            16
+          ]
+        }
+      },
+      "meta": "assets/monsters/winged/sm-winged-006/meta.json"
+    },
+    {
+      "id": "sm-winged-007",
+      "name_ja": "カサコロム",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/winged/sm-winged-007/default.png",
+          "sha256": "dab68306a3141578d08de07b3e2ba35f033da19e104adc1f3f21ecfdafec2307",
+          "bytes": 675900,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            108,
+            944,
+            915
+          ],
+          "transparent_margins": [
+            80,
+            108,
+            80,
+            109
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/winged/sm-winged-007/pixel.png",
+          "sha256": "4878fbc8421f76bfe47fa733faccd5e62eceb6c5d20d55ad0c1fa40c50e6b1a1",
+          "bytes": 6219,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            13,
+            118,
+            115
+          ],
+          "transparent_margins": [
+            10,
+            13,
+            10,
+            13
+          ]
+        }
+      },
+      "meta": "assets/monsters/winged/sm-winged-007/meta.json"
+    },
+    {
+      "id": "sm-fanged-024",
+      "name_ja": "ユルカポネ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-024/default.png",
+          "sha256": "5dd0f0528f410e30b1ac8c0a17beaf45e99cfaf7b0ac396aba093be34b597804",
+          "bytes": 704521,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            90,
+            80,
+            933,
+            943
+          ],
+          "transparent_margins": [
+            90,
+            80,
+            91,
+            81
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-024/pixel.png",
+          "sha256": "419526c64474bbb93edc1b658a013fb5cb407bf13f6bf0fb43234d706832d50d",
+          "bytes": 7288,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            8,
+            8,
+            119,
+            120
+          ],
+          "transparent_margins": [
+            8,
+            8,
+            9,
+            8
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-024/meta.json"
+    },
+    {
+      "id": "sm-fanged-025",
+      "name_ja": "フタモリュ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-025/default.png",
+          "sha256": "57d7da1c6b508ea77bad3a1fa56fd0d4eaa1b36648a075fa474f9839a8935e14",
+          "bytes": 489788,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            287,
+            944,
+            736
+          ],
+          "transparent_margins": [
+            80,
+            287,
+            80,
+            288
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-025/pixel.png",
+          "sha256": "42acd0010daef28f610e8048a433695ca56f45a1fa138caa3a9df14c86e1d76c",
+          "bytes": 6189,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            8,
+            34,
+            120,
+            94
+          ],
+          "transparent_margins": [
+            8,
+            34,
+            8,
+            34
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-025/meta.json"
+    },
+    {
+      "id": "sm-fanged-021",
+      "name_ja": "ツナメピル",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-021/default.png",
+          "sha256": "1e5165be64b9f57f42f9adfa4fbfe34b16d494000e3c7ee14ae284713a3ce41d",
+          "bytes": 624115,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            146,
+            944,
+            877
+          ],
+          "transparent_margins": [
+            80,
+            146,
+            80,
+            147
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-021/pixel.png",
+          "sha256": "b31501249ee7871c9bdcfd9553c2f99819c143de40e4fc52f3a0bdc0add830c7",
+          "bytes": 5679,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            18,
+            118,
+            109
+          ],
+          "transparent_margins": [
+            10,
+            18,
+            10,
+            19
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-021/meta.json"
+    },
+    {
+      "id": "sm-fanged-023",
+      "name_ja": "ヒシモルネ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-023/default.png",
+          "sha256": "2c989a55109bd18262c2c28591dfbc4333eb4131ce67b8011831a7ed62276db4",
+          "bytes": 720243,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            118,
+            944,
+            906
+          ],
+          "transparent_margins": [
+            80,
+            118,
+            80,
+            118
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-023/pixel.png",
+          "sha256": "760fd8f1f0d7407b25819e9c6e925d6e66c81b769ed24b243d3578b63ee26f93",
+          "bytes": 8354,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            8,
+            14,
+            120,
+            114
+          ],
+          "transparent_margins": [
+            8,
+            14,
+            8,
+            14
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-023/meta.json"
+    },
+    {
+      "id": "sm-fanged-015",
+      "name_ja": "ミツヌホア",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-015/default.png",
+          "sha256": "67a8aa041d6525c8c8ec6dd41d186988c32e288c4e90683279046ae6ddd8e380",
+          "bytes": 519698,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            211,
+            944,
+            813
+          ],
+          "transparent_margins": [
+            80,
+            211,
+            80,
+            211
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-015/pixel.png",
+          "sha256": "c334a9d0c9d40f57b449265f4213f76078a052f33ec21ab7136c48618b6ae720",
+          "bytes": 6163,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            25,
+            118,
+            103
+          ],
+          "transparent_margins": [
+            10,
+            25,
+            10,
+            25
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-015/meta.json"
+    },
+    {
+      "id": "sm-fanged-016",
+      "name_ja": "スズフュネ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-016/default.png",
+          "sha256": "285d3e0d53c09ab32e6d3bfe3d076eb64515e35efab7fb2fb558d300a199f018",
+          "bytes": 781641,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            116,
+            944,
+            908
+          ],
+          "transparent_margins": [
+            80,
+            116,
+            80,
+            116
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-016/pixel.png",
+          "sha256": "e92cc51358786bb4826c46eb13f968403234b29c9d2186bca1bc744119741c97",
+          "bytes": 9056,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            13,
+            118,
+            114
+          ],
+          "transparent_margins": [
+            10,
+            13,
+            10,
+            14
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-016/meta.json"
+    },
+    {
+      "id": "sm-fanged-017",
+      "name_ja": "フシマルペ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-017/default.png",
+          "sha256": "cec29a19726d2440f5fd9c6dac34a991021185d1f6d620bf896933f5872a0734",
+          "bytes": 540723,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            230,
+            944,
+            793
+          ],
+          "transparent_margins": [
+            80,
+            230,
+            80,
+            231
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-017/pixel.png",
+          "sha256": "6edd66ccb457071b7c24d6dcd291ca6a73eac6b124dc21e4b5dce55734a29f0e",
+          "bytes": 5708,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            29,
+            118,
+            98
+          ],
+          "transparent_margins": [
+            10,
+            29,
+            10,
+            30
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-017/meta.json"
+    },
+    {
+      "id": "sm-fanged-019",
+      "name_ja": "ユラメルト",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-019/default.png",
+          "sha256": "d72b5951d68ad8e57980ef32779d85069bfe5e03f61562e14df1959100110bbf",
+          "bytes": 368178,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            291,
+            944,
+            732
+          ],
+          "transparent_margins": [
+            80,
+            291,
+            80,
+            292
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-019/pixel.png",
+          "sha256": "75e45f5f4adae0e1cd499c77d54f7afa06bc3ef80ac649d94d2c74dcccab02ca",
+          "bytes": 4243,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            35,
+            118,
+            92
+          ],
+          "transparent_margins": [
+            10,
+            35,
+            10,
+            36
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-019/meta.json"
+    },
+    {
+      "id": "sm-fanged-012",
+      "name_ja": "マロヌエタ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-012/default.png",
+          "sha256": "833b4a8a608003d5b371579deec813e53e5b0a2b3c83262746e4d1d00cc91819",
+          "bytes": 403554,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            269,
+            944,
+            755
+          ],
+          "transparent_margins": [
+            80,
+            269,
+            80,
+            269
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-012/pixel.png",
+          "sha256": "e1696bc2ec783931bfda36cb3e30a3ca1ce5e12faf6fa666b7c19a57acbae9ec",
+          "bytes": 3457,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            33,
+            118,
+            94
+          ],
+          "transparent_margins": [
+            10,
+            33,
+            10,
+            34
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-012/meta.json"
+    },
+    {
+      "id": "sm-fanged-013",
+      "name_ja": "ネモグルカ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-013/default.png",
+          "sha256": "c0ea1cfa489a8b648e830424e26d5ee2da573aa6efe9281e6083fa802e9331a3",
+          "bytes": 727263,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            184,
+            944,
+            840
+          ],
+          "transparent_margins": [
+            80,
+            184,
+            80,
+            184
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-013/pixel.png",
+          "sha256": "34683af74cf27371aa18d0af055ad9f6f1fa7d93b32eff8b330f996b51ccf236",
+          "bytes": 7761,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            22,
+            118,
+            106
+          ],
+          "transparent_margins": [
+            10,
+            22,
+            10,
+            22
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-013/meta.json"
+    },
+    {
+      "id": "sm-fanged-008",
+      "name_ja": "フカリョペ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-008/default.png",
+          "sha256": "6d117e286c681dd2796d5c514d68facfe2dd626257d753d7203a6b64d67b0526",
+          "bytes": 555249,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            234,
+            944,
+            789
+          ],
+          "transparent_margins": [
+            80,
+            234,
+            80,
+            235
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-008/pixel.png",
+          "sha256": "0c4ac813a9f17f0745f2994202d8561ed85f75ea01f2b3a6611f81c5f96ea304",
+          "bytes": 6275,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            28,
+            118,
+            100
+          ],
+          "transparent_margins": [
+            10,
+            28,
+            10,
+            28
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-008/meta.json"
+    },
+    {
+      "id": "sm-fanged-009",
+      "name_ja": "ワッコリュ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-009/default.png",
+          "sha256": "1232c0236d881e7b13453d33c1d304774116c1d04268be48096faa7c9e11c304",
+          "bytes": 814145,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            150,
+            80,
+            873,
+            944
+          ],
+          "transparent_margins": [
+            150,
+            80,
+            151,
+            80
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-009/pixel.png",
+          "sha256": "19eafe41a0aa2577b2d228083bc1f5b24367d2e0e929c0e9384132d70d623055",
+          "bytes": 9599,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            19,
+            10,
+            109,
+            118
+          ],
+          "transparent_margins": [
+            19,
+            10,
+            19,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-009/meta.json"
+    },
+    {
+      "id": "sm-fanged-010",
+      "name_ja": "ミメコルア",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-010/default.png",
+          "sha256": "c2d3fa499b75efe7388ef9ec79e7e7c7899a40627871eeebd8c59510ac67741e",
+          "bytes": 1013781,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            82,
+            944,
+            942
+          ],
+          "transparent_margins": [
+            80,
+            82,
+            80,
+            82
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-010/pixel.png",
+          "sha256": "11f7d561e3a1e35c49ec53c825bce18256d38b4ed7ce560ede18aecdcaac6c96",
+          "bytes": 10425,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            10,
+            117,
+            118
+          ],
+          "transparent_margins": [
+            10,
+            10,
+            11,
+            10
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-010/meta.json"
+    },
+    {
+      "id": "sm-fanged-011",
+      "name_ja": "フネリュポ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-011/default.png",
+          "sha256": "fce41ac70f6172c3f982b1ce0f23222d4d2d9d109e2d83101ee7e5744219af45",
+          "bytes": 366873,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            308,
+            944,
+            716
+          ],
+          "transparent_margins": [
+            80,
+            308,
+            80,
+            308
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-011/pixel.png",
+          "sha256": "f399378a5a600983b7f3f8b0f8bd65d24ce32e6c11cadc0e008079d9ef5306cd",
+          "bytes": 3826,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            38,
+            118,
+            90
+          ],
+          "transparent_margins": [
+            10,
+            38,
+            10,
+            38
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-011/meta.json"
+    },
+    {
+      "id": "sm-fanged-004",
+      "name_ja": "クレモピア",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-004/default.png",
+          "sha256": "fa79d9c4660158642769f094d9708d110760f364f48f492257e27d1654a5d678",
+          "bytes": 498245,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            204,
+            944,
+            820
+          ],
+          "transparent_margins": [
+            80,
+            204,
+            80,
+            204
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-004/pixel.png",
+          "sha256": "67cd2adf7d14a7935f55a5659f3a5e61a60ac5fc3f412f61d46060fcc19297eb",
+          "bytes": 8507,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            24,
+            118,
+            103
+          ],
+          "transparent_margins": [
+            10,
+            24,
+            10,
+            25
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-004/meta.json"
+    },
+    {
+      "id": "sm-fanged-005",
+      "name_ja": "ノビュコム",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-005/default.png",
+          "sha256": "59ffb726a356987ed7276d0be9fa1e14f972be4c9b6a3d9f9ac72719c4f9cbf0",
+          "bytes": 462298,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            288,
+            944,
+            735
+          ],
+          "transparent_margins": [
+            80,
+            288,
+            80,
+            289
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-005/pixel.png",
+          "sha256": "369e10d4ebb8f92f813607b2d903dc6ac059d26214997cc65a740aeac6c5895c",
+          "bytes": 7666,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            35,
+            118,
+            92
+          ],
+          "transparent_margins": [
+            10,
+            35,
+            10,
+            36
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-005/meta.json"
+    },
+    {
+      "id": "sm-fanged-006",
+      "name_ja": "トワリメル",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/fanged/sm-fanged-006/default.png",
+          "sha256": "be6b14bb16cf53fe9e07bc3db6a43a08c80f77b337261375ebd0289ab85d4114",
+          "bytes": 512745,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            251,
+            944,
+            772
+          ],
+          "transparent_margins": [
+            80,
+            251,
+            80,
+            252
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/fanged/sm-fanged-006/pixel.png",
+          "sha256": "41440e3665ad92666dc09a06ead84ea0d9a5b35c12850d0223c7b5cca7201c48",
+          "bytes": 4784,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            32,
+            118,
+            96
+          ],
+          "transparent_margins": [
+            10,
+            32,
+            10,
+            32
+          ]
+        }
+      },
+      "meta": "assets/monsters/fanged/sm-fanged-006/meta.json"
+    },
+    {
+      "id": "sm-scaled-025",
+      "name_ja": "メヨツパラ",
+      "assets": {
+        "default": {
+          "file": "assets/monsters/scaled/sm-scaled-025/default.png",
+          "sha256": "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a",
+          "bytes": 692384,
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            80,
+            199,
+            944,
+            824
+          ],
+          "transparent_margins": [
+            80,
+            199,
+            80,
+            200
+          ]
+        },
+        "pixel": {
+          "file": "assets/monsters/scaled/sm-scaled-025/pixel.png",
+          "sha256": "990e5c2c6c054ae2b4965a211543b43d91b321ec21e4f0efa9c021dcd0d4e96a",
+          "bytes": 12830,
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha_bbox": [
+            10,
+            22,
+            118,
+            106
+          ],
+          "transparent_margins": [
+            10,
+            22,
+            10,
+            22
+          ]
+        }
+      },
+      "meta": "assets/monsters/scaled/sm-scaled-025/meta.json"
+    }
+  ]
+}

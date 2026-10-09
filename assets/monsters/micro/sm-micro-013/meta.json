@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "sm-micro-013",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版は別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "reference_default_sha256": "408c816bde06f1b4bb693ac7362cf51dad1910a063c6a9615d71bba9c14ab1db",
+    "original_recovery": "not_recovered",
+    "original_recovery_note": "完成PNGは永続保存から復旧・SHA-256検証済み。53対の生成原本106枚中104枚は未復旧。詳細試行記録の完全復旧も未確認。",
+    "processing_summary": {
+      "default": "許可済みの比例縮小・透明余白配置・微小alphaゴミ調整",
+      "pixel": "別途生成したpixel候補に許可済み128格子調整・32色以下減色・alpha二値化"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/micro/sm-micro-013/default.png",
+      "sha256": "408c816bde06f1b4bb693ac7362cf51dad1910a063c6a9615d71bba9c14ab1db",
+      "bytes": 725219,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        119,
+        80,
+        905,
+        944
+      ],
+      "transparent_margins": [
+        119,
+        80,
+        119,
+        80
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/micro/sm-micro-013/pixel.png",
+      "sha256": "920a4feda9797b10fd2e02971202396a46af55f7f488e00f7b29ac12af4655fe",
+      "bytes": 6816,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        15,
+        10,
+        112,
+        118
+      ],
+      "transparent_margins": [
+        15,
+        10,
+        16,
+        10
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "制作時の原寸・拡大画像による独立確認と最終画像レビュー。復旧後のbytes/SHA・PNG規格再検査。",
+    "user_acceptance": "pending"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
