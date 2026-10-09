@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-018",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-arcane-018-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-018 / ユルホロム / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の太いU字管。脚0本、管の両端に目1個ずつで計2個、翼0枚、底の中央から帯の尾3本\nMaterials and biological motif: 空間に残る口笛の曲線。谷のゆるい上昇気流で往復し、反響の重なりをほどく\nPrimary, secondary, accent colors respectively: #8CB79D; #BE849D; #F4CF7E\nThree mandatory visual identifiers: U字の二本の端は同じ高さ; 管の外側に点状の光が計4個; 三本の尾は中央だけ他の二本の倍の長さ\nPose: U字を立てて浮き、三本尾をまっすぐ下へ垂らす\nTemperament to convey through expression or posture: のびやか。風向きが変わるとゆっくり裏返る. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 管を閉じた輪にしない; 尾の先を手にしない; 管の両端に動物の頭を載せない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-arcane-018-default-attempt002-prompt": "Use case: precise-object-edit\nEdit the attached original creature illustration. Revise only this failed condition: the four glowing dots have diffuse yellow halos spilling into transparent space. Keep exactly four small luminous dots on the tube exterior, but express light within crisp solid dot shapes only; completely remove the diffuse surrounding haze. No added light particles. Preserve all other features, the exact U-shaped single tube, two eyes at the ends, equal end heights, three hanging ribbon tails with the central one twice as long, palette placement, pose, proportions, and cel shading. Preserve genuine transparent alpha background. Still enforce the complete original default-v1 brief below:\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-018 / ユルホロム / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の太いU字管。脚0本、管の両端に目1個ずつで計2個、翼0枚、底の中央から帯の尾3本\nMaterials and biological motif: 空間に残る口笛の曲線。谷のゆるい上昇気流で往復し、反響の重なりをほどく\nPrimary, secondary, accent colors respectively: #8CB79D; #BE849D; #F4CF7E\nThree mandatory visual identifiers: U字の二本の端は同じ高さ; 管の外側に点状の光が計4個; 三本の尾は中央だけ他の二本の倍の長さ\nPose: U字を立てて浮き、三本尾をまっすぐ下へ垂らす\nTemperament to convey through expression or posture: のびやか。風向きが変わるとゆっくり裏返る. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 管を閉じた輪にしない; 尾の先を手にしない; 管の両端に動物の頭を載せない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-arcane-018-default-attempt003-prompt": "Use case: precise-object-edit\nRevise only this failed condition: the three ribbon tails curve in S-shapes instead of hanging straight down. Make each ribbon tail hang vertically straight down from its existing attachment at the bottom center of the U. Keep exactly three separate ribbon tails, two outer tails equal length, and the center tail exactly twice their length measured from attachment to tip. Keep their flat ribbon character and palette, not hands. Preserve all other features including the U tube, two eyes on equal-height ends, four crisp solid luminous dots without any diffuse halo, anatomy, color placement, pose, and cell shading. Genuine transparent background. Complete default-v1 brief:\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-018 / ユルホロム / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の太いU字管。脚0本、管の両端に目1個ずつで計2個、翼0枚、底の中央から帯の尾3本\nMaterials and biological motif: 空間に残る口笛の曲線。谷のゆるい上昇気流で往復し、反響の重なりをほどく\nPrimary, secondary, accent colors respectively: #8CB79D; #BE849D; #F4CF7E\nThree mandatory visual identifiers: U字の二本の端は同じ高さ; 管の外側に点状の光が計4個; 三本の尾は中央だけ他の二本の倍の長さ\nPose: U字を立てて浮き、三本尾をまっすぐ下へ垂らす\nTemperament to convey through expression or posture: のびやか。風向きが変わるとゆっくり裏返る. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 管を閉じた輪にしない; 尾の先を手にしない; 管の両端に動物の頭を載せない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-arcane-018-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-018; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-018 / ユルホロム / 魔体 (arcane)\nLocked body and anatomy: 体幹1節の太いU字管。脚0本、管の両端に目1個ずつで計2個、翼0枚、底の中央から帯の尾3本\nLocked material cues: 空間に残る口笛の曲線。谷のゆるい上昇気流で往復し、反響の重なりをほどく\nLocked palette roles, primary/secondary/accent: #8CB79D; #BE849D; #F4CF7E\nAll three identifiers must remain recognizable: U字の二本の端は同じ高さ; 管の外側に点状の光が計4個; 三本の尾は中央だけ他の二本の倍の長さ\nLocked pose: U字を立てて浮き、三本尾をまっすぐ下へ垂らす\nLocked temperament/expression: のびやか。風向きが変わるとゆっくり裏返る. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 管を閉じた輪にしない; 尾の先を手にしない; 管の両端に動物の頭を載せない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-arcane-018-pixel-attempt002-prompt": "Use case: precise-object-edit\nEdit only the three-tail length ratio in this pixel-art creature. All tails hang vertically from the bottom center of the U-shaped tube. Keep center tail length and attachment unchanged; shorten both outer tails equally until each is exactly half as long as the center tail, measured from the same attachment level to its tip. On the 128x128 logical grid the central tail is about48pixels long, so each outer tail must be about24pixels long rather than27-28. Preserve all other anatomy, U shape, two eyes, four crisp luminous dots, palette, pose, body proportions and pixel-art style. Genuine transparent alpha. No diffuse halo. Complete pixel-v1 identity/rendering contract follows:\nUse case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-018; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-018 / ユルホロム / 魔体 (arcane)\nLocked body and anatomy: 体幹1節の太いU字管。脚0本、管の両端に目1個ずつで計2個、翼0枚、底の中央から帯の尾3本\nLocked material cues: 空間に残る口笛の曲線。谷のゆるい上昇気流で往復し、反響の重なりをほどく\nLocked palette roles, primary/secondary/accent: #8CB79D; #BE849D; #F4CF7E\nAll three identifiers must remain recognizable: U字の二本の端は同じ高さ; 管の外側に点状の光が計4個; 三本の尾は中央だけ他の二本の倍の長さ\nLocked pose: U字を立てて浮き、三本尾をまっすぐ下へ垂らす\nLocked temperament/expression: のびやか。風向きが変わるとゆっくり裏返る. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 管を閉じた輪にしない; 尾の先を手にしない; 管の両端に動物の頭を載せない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-arcane-018-pixel-attempt003-prompt": "Use case: precise-object-edit\nInput image1: the first pixel-art rendition, edit target. Input image2: approved normal illustration, identity and body-proportion reference only.\nCorrect one failed ratio with a strictly local tail-tip adjustment: in image1 keep the entire U-shaped body, both eyes, all four dots, body width, U-bottom attachment height, center tail and all colors exactly unchanged. Keep the central tail at its existing 48-logical-pixel length from the attachment. Shorten ONLY the bottom tips of each of the two outer ribbon tails upward by 4 logical pixels, so the left and right tails each measure24 logical pixels from their common attachment level. The central tail must visibly measure twice each outer tail. Keep their vertical straight axes. Do not enlarge or widen the U, do not move the tail roots or alter the total height. Recreate the small rounded outer tips as pixel-art clusters at their shortened positions. All other pixels/design stay invariant. Genuine transparent alpha,128x128 logical grid, opaque pixels only,<=32 colors, no diffuse halo.\nComplete identity brief:\nUse case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-018; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-018 / ユルホロム / 魔体 (arcane)\nLocked body and anatomy: 体幹1節の太いU字管。脚0本、管の両端に目1個ずつで計2個、翼0枚、底の中央から帯の尾3本\nLocked material cues: 空間に残る口笛の曲線。谷のゆるい上昇気流で往復し、反響の重なりをほどく\nLocked palette roles, primary/secondary/accent: #8CB79D; #BE849D; #F4CF7E\nAll three identifiers must remain recognizable: U字の二本の端は同じ高さ; 管の外側に点状の光が計4個; 三本の尾は中央だけ他の二本の倍の長さ\nLocked pose: U字を立てて浮き、三本尾をまっすぐ下へ垂らす\nLocked temperament/expression: のびやか。風向きが変わるとゆっくり裏返る. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 管を閉じた輪にしない; 尾の先を手にしない; 管の両端に動物の頭を載せない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "a35ba5c0084dd3102488a14dff3fc24b2f77b1a141c8075efae8efd5e363cebf",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-018-default-attempt001-original.png",
+          "sha256": "863f41c34f7a293d03f3262b5c5f9759a56856a9079f03bf46f57f33489d1c58",
+          "bytes": 727743,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-018-default-attempt002-original.png",
+          "sha256": "689b84d1132ee9617364b281f288b8544acdae8808dc456072aac3821452f0ba",
+          "bytes": 607011,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-018-default-attempt003-original.png",
+          "sha256": "f546345aa9adbf818cc6402038236f102e9e950843f2cea484ca7e888c5728d1",
+          "bytes": 602237,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-018-pixel-attempt001-original.png",
+          "sha256": "bc400200973fa909703a37d1086b2839a79774419f1c66e7e6c0fada53731621",
+          "bytes": 625504,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-018-pixel-attempt002-original.png",
+          "sha256": "c76bda8854ae21cab87ca641a1e6a6c8435e0d7bc007811bbfd3010f2222a4f9",
+          "bytes": 517133,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-018-pixel-attempt003-original.png",
+          "sha256": "4c926e908ff255e27909e3f0789ce5794208d90c8607f64aa36f0cf3632476bf",
+          "bytes": 536109,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-018/default.png",
+      "sha256": "a35ba5c0084dd3102488a14dff3fc24b2f77b1a141c8075efae8efd5e363cebf",
+      "bytes": 399857,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        237,
+        80,
+        787,
+        944
+      ],
+      "transparent_margins": [
+        237,
+        80,
+        237,
+        80
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-018/pixel.png",
+      "sha256": "84be2bac310cdbc229a456d7fd0b61e26f5b16d7527bb0e21962644b25a6b2c5",
+      "bytes": 7624,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        28,
+        10,
+        99,
+        118
+      ],
+      "transparent_margins": [
+        28,
+        10,
+        29,
+        10
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。太いU字管1・両端の目計2・脚翼0・尾3・同じ高さの端・外側光点4・中央尾が左右の約二倍、直下へ垂らす姿勢と配色を確認。PNG規格・永続保存読戻しを検証。",
+    "review_notes": [
+      "初稿の光点ハローを画像生成編集で除去し、続いてS字の尾輪郭を垂直へ修正。全原本保持。",
+      "通常版の中央尾は左右の約1.9倍、pixel採用版は根元の採り方で約2.1–2.2倍。視覚的な約二倍として独立QAで確認。pixel初稿の短い中央尾と修正2案の体幹比率変化を不採用にし、3案で同一性と尾比率を確認。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

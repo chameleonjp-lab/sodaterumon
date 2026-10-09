@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-017",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-arcane-017-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-017 / カクモフリ / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の角が丸い正方形クッション形。脚4本、目1個、翼0枚、尾0本。胴幅は厚みの三倍\nMaterials and biological motif: 空気中に浮かぶ静かな和音の綿。風の少ない窪地で音を柔らかく包む\nPrimary, secondary, accent colors respectively: #E5B5DC; #4E778E; #F9E9BE\nThree mandatory visual identifiers: 四隅に半球状の柔らかい突起が各1個; 中央の目を囲むひし形のくぼみ; 脚の先は小さな円盤状\nPose: 前二脚を少し曲げ、正方形の面を正面に向ける\nTemperament to convey through expression or posture: 包容力がある。驚くと四隅を内側へ丸める. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 全身を丸い雲にしない; 目を二個に増やさない; クッションの縫い文字を追加しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-arcane-017-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-017; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-017 / カクモフリ / 魔体 (arcane)\nLocked body and anatomy: 体幹1節の角が丸い正方形クッション形。脚4本、目1個、翼0枚、尾0本。胴幅は厚みの三倍\nLocked material cues: 空気中に浮かぶ静かな和音の綿。風の少ない窪地で音を柔らかく包む\nLocked palette roles, primary/secondary/accent: #E5B5DC; #4E778E; #F9E9BE\nAll three identifiers must remain recognizable: 四隅に半球状の柔らかい突起が各1個; 中央の目を囲むひし形のくぼみ; 脚の先は小さな円盤状\nLocked pose: 前二脚を少し曲げ、正方形の面を正面に向ける\nLocked temperament/expression: 包容力がある。驚くと四隅を内側へ丸める. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 全身を丸い雲にしない; 目を二個に増やさない; クッションの縫い文字を追加しない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "80e30dfac0dbbed29c7be900b11b03749431edb201da6f16da9882eea407c7ac",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-017-default-attempt001-original.png",
+          "sha256": "4d588120b96ff8562c074edc10af80753de5a3ff18dedafd69b4b3c8b4a72abb",
+          "bytes": 1153915,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-017-pixel-attempt001-original.png",
+          "sha256": "ca210b5c3bb4faab6378aa460f0bcf14c70935dc22f8fa3a91904694a27fab10",
+          "bytes": 1093379,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-017/default.png",
+      "sha256": "80e30dfac0dbbed29c7be900b11b03749431edb201da6f16da9882eea407c7ac",
+      "bytes": 793652,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        90,
+        80,
+        933,
+        944
+      ],
+      "transparent_margins": [
+        90,
+        80,
+        91,
+        80
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-017/pixel.png",
+      "sha256": "a3cf7da014a7d63758305b59b2c16d7bc12752d4ecbcc18a54ea1625019629b6",
+      "bytes": 14267,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        10,
+        117,
+        118
+      ],
+      "transparent_margins": [
+        10,
+        10,
+        11,
+        10
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。正方形クッション体1・四脚・単眼・翼尾0・四隅の半球各1・目周囲ひし形くぼみ・円盤足先、正面姿勢と前脚屈曲・配色を確認。PNG規格・永続保存読戻しを検証。",
+    "review_notes": [
+      "通常とpixelの四脚、四隅突起、単眼、ひし形くぼみ、円盤足先の一致を確認。",
+      "完全透明領域のRGB値は不可視であり、可視ノイズではない。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
