@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-006",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-mineral-006-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-mineral-006 / ツナガルセキ / 硬体 (mineral)\nBody and exact anatomy: 体幹6節の角丸台形石がつながる六角輪形。脚0本、目0個、翼0枚、平たい尾1本。各節の間に細い隙間\nMaterials and biological motif: 雲母を含む柔らかな礫。川底で一度に一節ずつずれて、細砂の偏りをならす\nPrimary, secondary, accent colors respectively: #ABAEB7; #9D7658; #E8D8B4\nThree mandatory visual identifiers: 輪の中央の穴は六角形; 一番上の節だけ表面に縦の白筋が1本; 尾は一番下の節から短い三角板として伸びる\nPose: 六角輪を斜めに寝かせ、全六節の隙間を見せる\nTemperament to convey through expression or posture: ゆっくりしている。川の流れが速いと平たく伏せる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 目や顔を追加しない; 隙間を金属の鎖でつながない; 円形の滑らかな輪に変えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-mineral-006-default-attempt002-prompt": "Use case: precise-object-edit\nChange ONLY the attachment of the short flat triangular stone tail. Detach it from the lower-right stone and attach its broad base CLEARLY to the LOWEST central stone segment, extending outward from that lowest segment. Keep a visible gap between this tail and the neighboring lower-right segment so the origin is unambiguous. Preserve SIX rounded trapezoid stone segments forming a hexagonal ring with a hexagonal central hole and a narrow gap at each of the six segment boundaries, ONE vertical white stripe on the TOPMOST segment only, zero eyes/face/legs/wings, one short flat triangular tail. Preserve the tilted reclining pose showing all gaps, mica gravel material and #ABAEB7/#9D7658/#E8D8B4 palette. Keep the same dark contour and controlled main cel-shaded planes, material flecks are allowed. No metal chains, smooth circular ring, text, extra parts. True transparent background, full body square, no outer shadow.\n",
+      "sm-mineral-006-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-mineral-006; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-mineral-006 / ツナガルセキ / 硬体 (mineral)\nLocked body and anatomy: 体幹6節の角丸台形石がつながる六角輪形。脚0本、目0個、翼0枚、平たい尾1本。各節の間に細い隙間\nLocked material cues: 雲母を含む柔らかな礫。川底で一度に一節ずつずれて、細砂の偏りをならす\nLocked palette roles, primary/secondary/accent: #ABAEB7; #9D7658; #E8D8B4\nAll three identifiers must remain recognizable: 輪の中央の穴は六角形; 一番上の節だけ表面に縦の白筋が1本; 尾は一番下の節から短い三角板として伸びる\nLocked pose: 六角輪を斜めに寝かせ、全六節の隙間を見せる\nLocked temperament/expression: ゆっくりしている。川の流れが速いと平たく伏せる. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 目や顔を追加しない; 隙間を金属の鎖でつながない; 円形の滑らかな輪に変えない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-mineral-006-pixel-attempt002-prompt": "Use case: precise-object-edit\nRefine ONLY the pixel rendering of this exact six-stone creature. Strengthen a clear continuous1–2 logical pixel dark contour along the outer silhouette AND the inner hexagonal opening, and each of the six narrow segment boundaries. Simplify small noisy mica flecks into coherent larger pixel clusters while keeping the mica-gravel material, main shaded planes and palette roles. Keep SIX rounded trapezoid stone segments around a HEXAGONAL hole, all six narrow gaps, ONE vertical white stripe on the TOPMOST stone only, ONE short flat triangular tail clearly attached to the LOWEST stone, zero eyes/face/legs/wings. Preserve normal002 inclined reclining pose and exact geometry. Intentional128 logical pixel grid, at most32 visible colors, opaque sprite pixels/transparent outside and hole. No halo or shadows, text, extra parts, smooth circular ring or metal chain.\n"
+    },
+    "reference_default_sha256": "eceef517448ced1f37ff00dd88644a833aa6152c69578f83a3379286512db071",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-mineral-006-default-attempt001-original.png",
+          "sha256": "84f675d09cf0b0ba2f09914bd2f125a2e75e14d3be3e3ea1387ccfb17ef75792",
+          "bytes": 2001848,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-006-default-attempt002-original.png",
+          "sha256": "2854a023f11c3d42a546474a8e6c6c94996133966c9bc05166dd274f35ad00ca",
+          "bytes": 1493200,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-006-pixel-attempt001-original.png",
+          "sha256": "7f68c83c5f6c726666a91a9fec1815a2399cf6d80ae6bc1bfc72e1b53cbe73ce",
+          "bytes": 1037429,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-006-pixel-attempt002-original.png",
+          "sha256": "5366cc66a444ad1d3ffcc3f12a62be04d5a11e3247a9c91acb04c4537a46ce87",
+          "bytes": 919975,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/mineral/sm-mineral-006/default.png",
+      "sha256": "eceef517448ced1f37ff00dd88644a833aa6152c69578f83a3379286512db071",
+      "bytes": 1025088,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        86,
+        944,
+        937
+      ],
+      "transparent_margins": [
+        80,
+        86,
+        80,
+        87
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/mineral/sm-mineral-006/pixel.png",
+      "sha256": "09233bfa1e2325269fbf69542f0cacb7fdcb1ce90e1711cdcb1108534444c98d",
+      "bytes": 12660,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        13,
+        118,
+        114
+      ],
+      "transparent_margins": [
+        10,
+        13,
+        10,
+        14
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。六台形石の六角輪、六角穴、全六境界隙間、頂節のみ白縦筋、最下節から短三角平尾、無顔脚翼0。尾接続を最下節へ生成編集、pixel外周/穴輪郭と主要面・素材クラスターを修正。雲母斑は素材柄としてセル陰影と区別。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-009",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-mineral-009-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-mineral-009 / ウキホルマ / 硬体 (mineral)\nBody and exact anatomy: 体幹1節の後ろが垂れ下がる幅広い半球形。脚0本、目2個、雲母の翼4枚、尾0本。底面は平たい\nMaterials and biological motif: 小穴のある軽石と柔らかな雲母膜。風の弱い砂地で低く浮き、細粒を運ぶ\nPrimary, secondary, accent colors respectively: #A0AAA8; #CDB684; #EFF0D7\nThree mandatory visual identifiers: 背の大きな丸穴は5個だけ; 四枚翼は左右二枚ずつで後ろの組が短い; 下縁の後ろ半分だけ厚く垂れる\nPose: 四翼を横へ開き、底面を地面と平行にして浮く\nTemperament to convey through expression or posture: のんびり。強風が来る前に地面へ伏せる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 穴を大量の細かい斑点にしない; 雲母翼を羽毛に変えない; 浮島や植物を背に追加しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-mineral-009-default-attempt002-prompt": "Use case: precise-object-edit\nCorrect this exact floating pumice creature. Make exactly FOUR mica-membrane wings, TWO on each side, with the rear pair SHORTER than the front pair. The image currently has three wing blades on its right side; remove the extra middle upright blade, keep the long front and short rear wing on each side. Preserve exactly FIVE large round holes on the back and remove the numerous tiny pore dots/pits over the rest of the body so the holes do not become a mass of tiny spots. Use broad subtle pumice surface patches instead. Keep one broad hemisphere with FLAT bottom, only the REAR HALF of its lower edge thick and drooping, two eyes, zero legs and tail, wings spread sideways and body floating level without ground. Keep light pumice and soft mica material, #A0AAA8/#CDB684/#EFF0D7 palette roles, dark contour and restrained three-step cel shade per material. No feathers, floating island, plants, scenery, text, halo or castshadow. Genuine transparent background, full body square.\n",
+      "sm-mineral-009-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-mineral-009; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-mineral-009 / ウキホルマ / 硬体 (mineral)\nLocked body and anatomy: 体幹1節の後ろが垂れ下がる幅広い半球形。脚0本、目2個、雲母の翼4枚、尾0本。底面は平たい\nLocked material cues: 小穴のある軽石と柔らかな雲母膜。風の弱い砂地で低く浮き、細粒を運ぶ\nLocked palette roles, primary/secondary/accent: #A0AAA8; #CDB684; #EFF0D7\nAll three identifiers must remain recognizable: 背の大きな丸穴は5個だけ; 四枚翼は左右二枚ずつで後ろの組が短い; 下縁の後ろ半分だけ厚く垂れる\nLocked pose: 四翼を横へ開き、底面を地面と平行にして浮く\nLocked temperament/expression: のんびり。強風が来る前に地面へ伏せる. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 穴を大量の細かい斑点にしない; 雲母翼を羽毛に変えない; 浮島や植物を背に追加しない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-mineral-009-pixel-attempt002-prompt": "Use case: precise-object-edit\nRemove ONLY the diffuse brown halo and shadow outside this exact floating creature pixel sprite, including the spaces between its FOUR wings and between wings and body. All exterior pixels must be genuine transparent alpha; keep a crisp1–2 logical pixel dark outline directly at silhouette only. Preserve exactly FOUR mica-membrane wings, two each side with shorter rear pair, FIVE large round holes, TWO eyes, no legs or tail, broad flat-bottom hemisphere with rear lower half drooping, level floating pose and original palette/material. Keep all body and wing shapes, no deleted small wing or eye. Intentional128 logical pixel grid, at most32 visible colors, hard opaque sprite pixels, no blur/extra glow, no tiny pore dots added, no feathers/text/props. Full body centered with transparent padding.\n"
+    },
+    "reference_default_sha256": "2e34462ac67497c2fc45a2c64a6cd36d2fa3030ca1a0d18d1f1edbb4453dd88a",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-mineral-009-default-attempt001-original.png",
+          "sha256": "cf2dba07fcdb215142f12fc79b7dfe8d60429a66a1e4c1d3df5bdef1c66991d9",
+          "bytes": 1111239,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-009-default-attempt002-original.png",
+          "sha256": "43ead9a646820ba13605d23e58bbe07e4e5662fa7782d52b5cd2534a5d828edd",
+          "bytes": 971863,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-009-pixel-attempt001-original.png",
+          "sha256": "78520eaf6ddd4fddcda25e3f4b41963f29b324a24c7f7153bcc6da677e62979d",
+          "bytes": 1356389,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-009-pixel-attempt002-original.png",
+          "sha256": "51384e672a0e83789819ffd7144ccfb68069265de878984e05a08d5c17e25a51",
+          "bytes": 524408,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/mineral/sm-mineral-009/default.png",
+      "sha256": "2e34462ac67497c2fc45a2c64a6cd36d2fa3030ca1a0d18d1f1edbb4453dd88a",
+      "bytes": 522869,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        240,
+        944,
+        783
+      ],
+      "transparent_margins": [
+        80,
+        240,
+        80,
+        241
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/mineral/sm-mineral-009/pixel.png",
+      "sha256": "759e0c85a19f6bd4b93ca33340a8b51fe4deaa49399abdbe328fdead74f5acf5",
+      "bytes": 7226,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        34,
+        118,
+        94
+      ],
+      "transparent_margins": [
+        10,
+        34,
+        10,
+        34
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。四翼左右二枚ずつ後組短、背大穴五、二眼、後下縁のみ垂れ、脚尾0で浮遊。通常の余分翼と小穴斑点を修正、pixel外周/翼間ハローを生成編集除去。遠側眼は右端の細い側面に残る。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

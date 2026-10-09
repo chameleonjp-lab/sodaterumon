@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-020",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-decay-020-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-020 / ロクミソラ / 腐体 (decay)\nBody and exact anatomy: 体幹6節の小さな卵形袋が中心の薄膜を囲む花輪形。脚0本、各袋に目1個で計6個、翼0枚、尾1本\nMaterials and biological motif: 落ちた種子殻と菌糸膜。中身を失った殻を取り込み、腐植へ穏やかに戻す\nPrimary, secondary, accent colors respectively: #C0A488; #8A9867; #F0D19E\nThree mandatory visual identifiers: 六袋の細い側がすべて中心を向く; 輪の中央には小さな丸穴が残る; 一本尾は下側の二袋の間から平たい帯として伸びる\nPose: 輪を斜めに立て、尾を地面へ添えて休む\nTemperament to convey through expression or posture: おだやか。種の入った殻はそのまま残す. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 袋を歯や骨片にしない; 中央の穴を口にしない; 花びらや茎のある普通の花にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-decay-020-default-attempt002-prompt": "Use case: precise-object-edit\nCorrect this creature to the catalog anatomy. Make exactly SIX distinct small egg-shaped EMPTY seed-husk bags around the central thin mycelium membrane, with exactly ONE eye on EACH bag for SIX eyes total. Orient the narrower end of EVERY bag INWARD toward the center; the broad rounded ends point outward. The bags are empty shells, remove all seed-like contents. Keep a small round OPEN hole in the central membrane, not a mouth. Keep zero legs, zero wings and ONE flat ribbon tail emerging BETWEEN the two lowest bags, resting along an implied ground but without drawing ground or shadow. Preserve the inclined standing wreath pose, original husk/mycelium material and #C0A488/#8A9867/#F0D19E palette roles. Render a clear dark contour with restrained three-step cel shading per material; keep material motifs but no fine photorealistic gradients. Do not turn bags into teeth or bones, no ordinary flower petals or stem, no text, no extra parts. Full body with transparent padding on true alpha background.\n",
+      "sm-decay-020-default-attempt003-prompt": "Use case: precise-object-edit\nThe prior edit still has FIVE bags and FIVE eyes. Correct this exact creature to SIX bags and SIX eyes. Rebuild the radial wreath arrangement as six empty egg-shaped husk bags, evenly distributed around the central small round hole, with one eye on each bag. Each bag's narrow tapered end meets the central membrane; its broad rounded end points outward. This six-part arrangement is mandatory; do not keep the five-part layout. Preserve the successful EMPTY interiors with no seeds, mycelium membrane material, colors #C0A488/#8A9867/#F0D19E, inclined standing wreath pose and one flat ribbon tail emerging between the two bottom bags. Legs0, wings0. Keep the central hole open and not a mouth. Render clear dark contour and broad restrained three-step cel shade per material, not photoreal gradients. No flowers/stem/teeth/bones/text/extra props. Full body square, genuine transparent alpha, no external shadow or glow.\n",
+      "sm-decay-020-default-attempt004-prompt": "Use case: precise-object-edit\nANATOMY CORRECTION: the reference wrongly shows five units. Replace that five-unit layout with a SIX-UNIT RING. There must be a separate empty egg-shaped husk bag at each clock position 1,3,5,7,9,11, no top-center bag. Exactly SIX bags and exactly SIX eyes, one eye per bag. Arrange broad rounded bag ends outward and narrow tips inward, all connected to one central thin mycelium membrane with one small round transparent opening. Each bag is hollow and empty, no seed contents. The six bags must be individually separated around the circumference, never five lobes. One flat ribbon tail leaves the gap between the two bottom bags at5and7. No legs or wings. Preserve the original husk/mycelium material, inclined upright pose, #C0A488/#8A9867/#F0D19E palette roles, and clear dark 2D game contour, simplified three-step cel shading per material. No ordinary petals/flower stem, no teeth/bones/mouth/text/props. True transparent background, full body centered square.\n",
+      "sm-decay-020-default-attempt005-prompt": "Use case: precise-object-edit\nPreserve the corrected SIX empty husk bags, SIX eyes (one per bag), each narrow bag end toward the central thin membrane, small round central open hole, zero legs/wings and one flat ribbon tail between the lowest two bags. Change only rendering and pose: tilt the entire wreath obliquely in a slight three-quarter angle, visibly leaning rather than a fully frontal symmetrical wheel, while keeping all six bags and eyes readable and the tail resting along implied ground without drawing ground. Convert the smooth highlights and gradients on membrane rims, shell interiors and eyes to clear restrained THREE-step cel shading per material with strong dark contours. Retain seed-husk and mycelium surface cues and #C0A488/#8A9867/#F0D19E palette roles; material patches may remain but not photoreal gradients. Keep all husks empty. No mouth, flower stem, petals, teeth, bones, props, text, groundshadow or halo. Single full body centered in square, transparent alpha background.\n",
+      "sm-decay-020-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-decay-020; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-decay-020 / ロクミソラ / 腐体 (decay)\nLocked body and anatomy: 体幹6節の小さな卵形袋が中心の薄膜を囲む花輪形。脚0本、各袋に目1個で計6個、翼0枚、尾1本\nLocked material cues: 落ちた種子殻と菌糸膜。中身を失った殻を取り込み、腐植へ穏やかに戻す\nLocked palette roles, primary/secondary/accent: #C0A488; #8A9867; #F0D19E\nAll three identifiers must remain recognizable: 六袋の細い側がすべて中心を向く; 輪の中央には小さな丸穴が残る; 一本尾は下側の二袋の間から平たい帯として伸びる\nLocked pose: 輪を斜めに立て、尾を地面へ添えて休む\nLocked temperament/expression: おだやか。種の入った殻はそのまま残す. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 袋を歯や骨片にしない; 中央の穴を口にしない; 花びらや茎のある普通の花にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-decay-020-pixel-attempt002-prompt": "Use case: precise-object-edit\nRefine only the pixel rendering of this exact creature, keep all geometry and pose. Make the exterior contour clear and consistent at1–2 logical pixels in a dark outline color. Make ALL SIX eyes individually easy to read as compact dark pupil plus light iris/highlight clusters, particularly the two lower eyes currently lost among the membrane and green material. Simplify tiny similar-color flecks on the moss/mycelium membrane into coherent larger pixel clusters. Preserve SIX empty husk bags with narrow ends inward, central round transparent hole, zero legs and wings, one flat ribbon tail from between the two lowest bags, inclined wreath pose and palette roles. True128 logical grid, at most32 visible colors, hard opaque pixels, truly transparent outside and central hole, no added halo/groundshadow. No redesign, lost bag, extra eyes, text or props.\n"
+    },
+    "reference_default_sha256": "61a1064410f2503f3d822f299c521eea1504f2aaeddb5151da0dcaf12863e5d5",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-decay-020-default-attempt001-original.png",
+          "sha256": "477fcc413bcbb049af31352b34e23f9085a5aefd5942c6faf4d7625a520bad75",
+          "bytes": 1679238,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-020-default-attempt002-original.png",
+          "sha256": "ec8f81d72fc0fbf7bf41b80373e67785c8c515d929eabe306e1b85c685fd41d2",
+          "bytes": 1440863,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-020-default-attempt003-original.png",
+          "sha256": "c44a67f9dcb8b4cba3af8b0f4c1cc4af9b6ec4a28412640da2372260b6d34fee",
+          "bytes": 1547289,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-020-default-attempt004-original.png",
+          "sha256": "bf88303d791a49beca943e8079bb33e3fde58b3a6cc850f902cf73c37cbd6bb6",
+          "bytes": 1637425,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-020-default-attempt005-original.png",
+          "sha256": "1ea04ac1bcf361c38bed0c4c2c7b5a6951c828281078e6cda659690ead551212",
+          "bytes": 1647418,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-020-pixel-attempt001-original.png",
+          "sha256": "1944e68e555d401d6f66da1c566ff47d0272c37c79807c4a59c2ebb353433c3d",
+          "bytes": 1226364,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-020-pixel-attempt002-original.png",
+          "sha256": "332b391535e352178a62cee4b28dcc46b85252e6106ae5b65e6b3aac7a9991a3",
+          "bytes": 1110231,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/decay/sm-decay-020/default.png",
+      "sha256": "61a1064410f2503f3d822f299c521eea1504f2aaeddb5151da0dcaf12863e5d5",
+      "bytes": 895131,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        132,
+        80,
+        891,
+        944
+      ],
+      "transparent_margins": [
+        132,
+        80,
+        133,
+        80
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/decay/sm-decay-020/pixel.png",
+      "sha256": "161fcba474e1e9853ade39be7f16356ad8ad145d397cb27eb2f8f43d6bc69086",
+      "bytes": 14914,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        18,
+        10,
+        110,
+        118
+      ],
+      "transparent_margins": [
+        18,
+        10,
+        18,
+        10
+      ],
+      "visible_colors": 32,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。六袋六眼、全て空殻で細側が中心向き、中央丸穴、下側二袋間から平帯尾一本、脚翼0。袋数・空殻・向き・通常塗り・pixel六眼と輪郭を生成編集で修正。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

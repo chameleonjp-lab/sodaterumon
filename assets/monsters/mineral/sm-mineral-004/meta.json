@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-004",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-mineral-004-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-mineral-004 / アチイワラ / 硬体 (mineral)\nBody and exact anatomy: 体幹3節の角丸石柱2本と横石1枚からなる低いアーチ形。脚2本、目2個、翼0枚、尾1本\nMaterials and biological motif: 風に磨かれた砂岩。小さな砂の流れをまたぎ、足元に細い通り道を残す\nPrimary, secondary, accent colors respectively: #CEAA75; #86756A; #DDE8C2\nThree mandatory visual identifiers: 中央の開口は横長の逆U字; 目は左右の支柱の外面に1個ずつ; 尾は横石の後ろ中央から短い平板として出る\nPose: 二本の幅広い脚で立ち、アーチの抜けを正面に見せる\nTemperament to convey through expression or posture: どっしりしている。風が強い日は砂の上に深く腰を落とす. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: アーチを人型の股や胴として描かない; 石の間に建物の扉を追加しない; 尾を細長い石柱にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-mineral-004-default-attempt002-prompt": "Use case: precise-object-edit\nCorrect the geometry of this exact sandstone creature to a LOW WIDE ARCH. Make the central reverse-U opening clearly WIDER than it is high by shortening the two rounded stone pillars and spanning them with the horizontal stone slab. Each pillar must read as ONE continuous rounded stone, not stacked separate blocks: remove the deep horizontal joint through each pillar, retaining only natural sandstone strata as surface markings. Exactly THREE body sections total (two pillars plus one top slab), TWO broad supporting feet, TWO eyes. Place one eye on the OUTER side face of EACH pillar, not the front: use a front view with both outward faces slightly visible so both eyes can be seen. Keep ONE short flat stone-plate tail visibly attached at the REAR CENTER of the top slab. Preserve sandstone material, #CEAA75/#86756A/#DDE8C2 palette roles, clear dark contour and restrained three-step cel shading. No human torso/crotch, building door, long column tail, extra stones or text. True transparent background, no cast shadow, full body centered square.\n",
+      "sm-mineral-004-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-mineral-004; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-mineral-004 / アチイワラ / 硬体 (mineral)\nLocked body and anatomy: 体幹3節の角丸石柱2本と横石1枚からなる低いアーチ形。脚2本、目2個、翼0枚、尾1本\nLocked material cues: 風に磨かれた砂岩。小さな砂の流れをまたぎ、足元に細い通り道を残す\nLocked palette roles, primary/secondary/accent: #CEAA75; #86756A; #DDE8C2\nAll three identifiers must remain recognizable: 中央の開口は横長の逆U字; 目は左右の支柱の外面に1個ずつ; 尾は横石の後ろ中央から短い平板として出る\nLocked pose: 二本の幅広い脚で立ち、アーチの抜けを正面に見せる\nLocked temperament/expression: どっしりしている。風が強い日は砂の上に深く腰を落とす. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: アーチを人型の股や胴として描かない; 石の間に建物の扉を追加しない; 尾を細長い石柱にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-mineral-004-pixel-attempt002-prompt": "Use case: precise-object-edit\nRemove ALL diffuse brown halo and shadow outside this exact pixel-art stone creature, including inside the central arch opening. Outside the crisp silhouette and inside the open arch must be genuinely transparent alpha. Preserve only a crisp 1–2 logical pixel dark boundary directly around the creature, no extra outer glow/shadow. Keep exactly the same low wide arch made of two continuous rounded pillars and one top slab, two broad feet, two eyes on the outer pillar faces, one short flat tail from rear center, sandstone colors and pose. Keep true128 logical pixel grid, opaque body pixels and fully transparent background pixels, at most32 visible colors, hard pixel clusters. No anatomy redesign, no added parts, no text, no ground. Full body centered square with padding.\n"
+    },
+    "reference_default_sha256": "e01bf3aa9fa0a9f438007c2221b39a095f051f73ed89b3049003b2b2a62855be",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-mineral-004-default-attempt001-original.png",
+          "sha256": "c39f03193a4a25535c7f94a13d9ccd0a41e87a240c9a486d9f3cae6ba9a5e6d5",
+          "bytes": 1355804,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-004-default-attempt002-original.png",
+          "sha256": "0d52536de53c1e07b8a560f1343393f4f7fd8428ddba555124a53d37a2e77cc8",
+          "bytes": 917635,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-004-pixel-attempt001-original.png",
+          "sha256": "37e0cba36165626f56d78f41af4cf262ca73049cd710c6c7bb9db920c3440ea0",
+          "bytes": 1206962,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-004-pixel-attempt002-original.png",
+          "sha256": "cd933952d5d603fe9c11feea442b976395d95ac4fcc1379a5f4cba9704132ddc",
+          "bytes": 508298,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/mineral/sm-mineral-004/default.png",
+      "sha256": "e01bf3aa9fa0a9f438007c2221b39a095f051f73ed89b3049003b2b2a62855be",
+      "bytes": 441130,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        283,
+        944,
+        741
+      ],
+      "transparent_margins": [
+        80,
+        283,
+        80,
+        283
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/mineral/sm-mineral-004/pixel.png",
+      "sha256": "2637b810d4b35eada69bcab167f4fa7dd64fe46a95c0e066f052335ccda7bd87",
+      "bytes": 7257,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        35,
+        118,
+        92
+      ],
+      "transparent_margins": [
+        10,
+        35,
+        10,
+        36
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。横長逆Uの低いアーチ、連続二柱と横石の三節、外側二眼、幅広二脚、横石後ろ中央から短平板尾。開口比・柱連続・眼配置・pixel外側と開口内ハローを生成編集で修正。砂岩層理は素材柄として主要セル陰影と区別。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
