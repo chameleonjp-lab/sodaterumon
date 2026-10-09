@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-018",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-decay-018-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-018 / サラモクラ / 腐体 (decay)\nBody and exact anatomy: 体幹1節の浅い楕円鉢形。脚4本、目2個、翼0枚、尾2本。上面は大きくくぼみ、縁が厚い\nMaterials and biological motif: しっとりした葉腐植と短い菌糸。落ちた小さな葉片を受け止めてゆっくり土に戻す\nPrimary, secondary, accent colors respectively: #9A7F5C; #A8AB81; #E4CFAF\nThree mandatory visual identifiers: 鉢の縁に丸い盛り上がりが3個; 内側の底に平たい葉片が固定で1枚; 二本尾は短い葉柄で下向きに曲がる\nPose: 鉢の内側が見える角度で立ち、二本尾を後ろへ垂らす\nTemperament to convey through expression or posture: おおらか。落ち葉が乗るまでじっと待つ. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 鉢に持ち手や人工の縁飾りを付けない; 内側を液体の沼にしない; 盛り上がりを尖った角にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-decay-018-default-attempt002-prompt": "Use case: precise-object-edit\nEdit this exact original creature while retaining its identity and composition. Correct only these anatomy and rendering issues: show exactly FOUR short bent supporting legs with independently readable roots and ends; keep the two short downward-curved petiole tails but remove the broad leaf blades at their ends, leaving two plain short petiole stalks. Keep the shallow oval bowl body, thick rim, THREE round rim bumps, TWO eyes, zero wings, and exactly ONE fixed flat leaf at the inner bottom. Keep the interior visible, original pose, three palette roles #9A7F5C / #A8AB81 / #E4CFAF and moist humus/mycelium material. Render with clear dark contour and restrained three-step cel shading per material, simplify fine texture without removing the material cues. No handles, artificial rim decorations, liquid, pointed horns, scenery, text, extra parts, or shadow outside silhouette. Genuine transparent background and full-body square composition.\n",
+      "sm-decay-018-default-attempt003-prompt": "Use case: precise-object-edit\nCorrect this exact creature, keeping the successful tail correction and all body features. There are currently only three clear legs. Bring the fourth rear leg out from behind the bowl into the open gap beneath the bowl between the image-left rear leg and the large central front leg, so exactly FOUR distinct supporting legs can be counted with visible roots and tips. Do not count dangling body leaves as legs. Keep all four as the same soft leaf-humus limbs. Also simplify shading into clear flat base, shadow and highlight areas per material and a bold dark contour; keep leaf-humus and short mycelium motifs but remove tiny mottled highlights. Keep the single shallow oval bowl, thick rim THREE rounded bumps, TWO eyes, ONE flat bottom leaf, TWO plain short downward-curved petiole tails without leaf blades, wings0. Match existing palette, angle, pose and centered full body. Transparent alpha background, no ground shadow, no added props or text.\n",
+      "sm-decay-018-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-decay-018; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-decay-018 / サラモクラ / 腐体 (decay)\nLocked body and anatomy: 体幹1節の浅い楕円鉢形。脚4本、目2個、翼0枚、尾2本。上面は大きくくぼみ、縁が厚い\nLocked material cues: しっとりした葉腐植と短い菌糸。落ちた小さな葉片を受け止めてゆっくり土に戻す\nLocked palette roles, primary/secondary/accent: #9A7F5C; #A8AB81; #E4CFAF\nAll three identifiers must remain recognizable: 鉢の縁に丸い盛り上がりが3個; 内側の底に平たい葉片が固定で1枚; 二本尾は短い葉柄で下向きに曲がる\nLocked pose: 鉢の内側が見える角度で立ち、二本尾を後ろへ垂らす\nLocked temperament/expression: おおらか。落ち葉が乗るまでじっと待つ. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 鉢に持ち手や人工の縁飾りを付けない; 内側を液体の沼にしない; 盛り上がりを尖った角にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-decay-018-pixel-attempt002-prompt": "Use case: precise-object-edit\nRefine this exact pixel sprite while preserving all anatomy and design. Make a continuous clearly readable dark contour of about1–2 logical pixels around the body, FOUR legs, and TWO tails; repair weak outline gaps on the left leg, central leg and petiole tails. Simplify noisy interior tiny color dots into coherent larger pixel clusters, keeping leaf-humus material rather than deleting it. Preserve exactly TWO eyes, THREE rounded rim bumps, ONE main flat leaf inside the bowl, FOUR countable legs including the short fourth leg between left and central, and TWO plain downward-curved petiole tails without leaf blades. Same shallow bowl, palette and pose as reference. True transparent exterior with no halo/groundshadow, crisp intentional128 logical pixels, at most32 visible colors, opaque sprite pixels only. No new parts, no text.\n"
+    },
+    "reference_default_sha256": "b8b4866de03b6421a53ef4d3e5aae5319fe44795c2639946e041a89570281291",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-decay-018-default-attempt001-original.png",
+          "sha256": "e47645b1fd393c6b6e8b1ea1915f866cbceb55b0b9844a04de2029a4b4286a70",
+          "bytes": 1225953,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-018-default-attempt002-original.png",
+          "sha256": "3db765b25050fb9e6536155bcd2a25e0466e99f9e9c44ea4198f44a592e04174",
+          "bytes": 1185051,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-018-default-attempt003-original.png",
+          "sha256": "ec4fe418183682591fe1113271e50914e533f4bb6d7dfc8143b0a14db583c840",
+          "bytes": 1110428,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-018-pixel-attempt001-original.png",
+          "sha256": "0fb66594ae83e6bbfcc49d0b8356a82fce8210c736bef37982a1392a4a6efcf8",
+          "bytes": 1087001,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-018-pixel-attempt002-original.png",
+          "sha256": "5f834cb68f7c62dc23fadc7d352395ff298b2382d85abd5ab0a62f144c186c73",
+          "bytes": 823896,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/decay/sm-decay-018/default.png",
+      "sha256": "b8b4866de03b6421a53ef4d3e5aae5319fe44795c2639946e041a89570281291",
+      "bytes": 692398,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        176,
+        944,
+        848
+      ],
+      "transparent_margins": [
+        80,
+        176,
+        80,
+        176
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/decay/sm-decay-018/pixel.png",
+      "sha256": "38def6a035f0a675bbb217d200c2e04c9f13049d1eddd00e293a59012a1819db",
+      "bytes": 12157,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        22,
+        118,
+        106
+      ],
+      "transparent_margins": [
+        10,
+        22,
+        10,
+        22
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。浅い鉢形、四脚、二眼、三丸突起、内底主葉片一枚、下曲がり葉柄尾二本。尾の葉身削除・第四脚明瞭化・通常セル塗り・pixel輪郭とクラスターを生成編集で修正。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
