@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-022",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-arcane-022-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-022 / フワカサヨ / 魔体 (arcane)\nBody and exact anatomy: 体幹2節の薄い三日月板を背中合わせにつなぐ形。脚0本、目4個、翼2枚、細い尾1本\nMaterials and biological motif: 揺れる薄光の二枚膜。そよ風を受けて明暗のゆっくりした波を作る\nPrimary, secondary, accent colors respectively: #A5C788; #996A80; #FAE7C2\nThree mandatory visual identifiers: 二つの三日月の凹面が互いに外側を向く; 目は各節の中央に2個ずつ; 翼は二節の接合部の上下に付く\nPose: 体を水平に浮かせ、上下の翼を少し折り曲げる\nTemperament to convey through expression or posture: 控えめ。周りの明るさより強く輝かない. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 二つの三日月を同じ向きにしない; 目を一つの顔へ集めない; 尾先に球や飾りを加えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-arcane-022-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-022; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-022 / フワカサヨ / 魔体 (arcane)\nLocked body and anatomy: 体幹2節の薄い三日月板を背中合わせにつなぐ形。脚0本、目4個、翼2枚、細い尾1本\nLocked material cues: 揺れる薄光の二枚膜。そよ風を受けて明暗のゆっくりした波を作る\nLocked palette roles, primary/secondary/accent: #A5C788; #996A80; #FAE7C2\nAll three identifiers must remain recognizable: 二つの三日月の凹面が互いに外側を向く; 目は各節の中央に2個ずつ; 翼は二節の接合部の上下に付く\nLocked pose: 体を水平に浮かせ、上下の翼を少し折り曲げる\nLocked temperament/expression: 控えめ。周りの明るさより強く輝かない. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 二つの三日月を同じ向きにしない; 目を一つの顔へ集めない; 尾先に球や飾りを加えない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "3e17190d773e938a6b958d51d9a2c39a754fca2a164c0060956af7ca884b39e7",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-022-default-attempt001-original.png",
+          "sha256": "8019b47dbb114ad0314b263b7ea03153835967859a4caf59aad9d5377a175c40",
+          "bytes": 907747,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-022-pixel-attempt001-original.png",
+          "sha256": "db432fb04f5c50e1ad09b18a60884cf2c6fbf9227d263f41d272b662966628f7",
+          "bytes": 740009,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-022/default.png",
+      "sha256": "3e17190d773e938a6b958d51d9a2c39a754fca2a164c0060956af7ca884b39e7",
+      "bytes": 516877,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        90,
+        944,
+        933
+      ],
+      "transparent_margins": [
+        80,
+        90,
+        80,
+        91
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-022/pixel.png",
+      "sha256": "6881985588ba71159c33fbebf7e8d0ca48afa499897e28dd2020e1940fd58289",
+      "bytes": 10169,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        11,
+        118,
+        117
+      ],
+      "transparent_margins": [
+        10,
+        11,
+        10,
+        11
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。背中合わせの二三日月で凹面外向き・各節二眼で四眼・接合部上下翼2・脚0・無装飾の細尾1、水平浮遊と翼の折れ・配色を確認。PNG規格・永続保存読戻しを検証。",
+    "review_notes": [
+      "膜の筋と薄い明暗の重なりは控えめな素材表現として確認。",
+      "pixelの透明領域の赤RGB候補は全てalpha0で、可視ノイズではない。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
