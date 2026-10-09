@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-008",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "pair_status": "partial_hold",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版のみ制作・検査済み。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "expanded_prompts": {
+      "sm-mineral-008-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-mineral-008 / ハチメシオ / 硬体 (mineral)\nBody and exact anatomy: 体幹1節の角を丸めた八面体。脚3本、目3個、翼0枚、尾0本。上下の先端は短く平らに削れている\nMaterials and biological motif: 白く濁った塩の結晶と淡い鉱物膜。塩の多い乾いた地面で粒のまとまりを作る\nPrimary, secondary, accent colors respectively: #DDCEC8; #889EBC; #C6B775\nThree mandatory visual identifiers: 上端に小さな三角の平面が1枚; 三つの目は前寄りの別々の面に付く; 三本脚は太い円柱状で長さが等しい\nPose: 三脚で低く立ち、八面体の面の切り替わりを見せる\nTemperament to convey through expression or posture: 几帳面。湿った場所を見つけると少し遠回りする. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 先端を鋭い水晶針にしない; 胴を球形にしない; 脚を細い金属棒にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-mineral-008-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-mineral-008; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-mineral-008 / ハチメシオ / 硬体 (mineral)\nLocked body and anatomy: 体幹1節の角を丸めた八面体。脚3本、目3個、翼0枚、尾0本。上下の先端は短く平らに削れている\nLocked material cues: 白く濁った塩の結晶と淡い鉱物膜。塩の多い乾いた地面で粒のまとまりを作る\nLocked palette roles, primary/secondary/accent: #DDCEC8; #889EBC; #C6B775\nAll three identifiers must remain recognizable: 上端に小さな三角の平面が1枚; 三つの目は前寄りの別々の面に付く; 三本脚は太い円柱状で長さが等しい\nLocked pose: 三脚で低く立ち、八面体の面の切り替わりを見せる\nLocked temperament/expression: 几帳面。湿った場所を見つけると少し遠回りする. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 先端を鋭い水晶針にしない; 胴を球形にしない; 脚を細い金属棒にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "1288b97f5141d9c45d0909d7d939a60aaefc2df2d956745a50df5e5a8fdded15",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-mineral-008-default-attempt001-original.png",
+          "bytes": 1283681,
+          "sha256": "53f493eee6cacd27db0c933e0dd892cadc92335593740702477e7c7234882181"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/mineral/sm-mineral-008/default.png",
+      "status": "qa_passed",
+      "sha256": "1288b97f5141d9c45d0909d7d939a60aaefc2df2d956745a50df5e5a8fdded15",
+      "bytes": 854467,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        141,
+        80,
+        882,
+        944
+      ],
+      "transparent_margins": [
+        141,
+        80,
+        142,
+        80
+      ]
+    },
+    "pixel": {
+      "file": null,
+      "status": "blocked",
+      "sha256": null,
+      "bytes": null,
+      "reason": "画像生成の安全判定によりpixel出力は得られていません。再試行せず保留。"
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "not_generated",
+    "pair": "not_completed",
+    "basis": "通常原寸の独立実画像レビュー。三眼別面、八面体の面切替、上三角平面、太い三脚、上下の平らな短端、禁止事項を確認。奥脚の見かけの短さは遠近と胴の遮蔽による。",
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  },
+  "limitations": [
+    "完成対数には含めない。",
+    "pixelは未生成、通常/pixel対検査は未実施。"
+  ]
+}
