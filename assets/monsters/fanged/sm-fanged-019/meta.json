@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "sm-fanged-019",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版は別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "reference_default_sha256": "d72b5951d68ad8e57980ef32779d85069bfe5e03f61562e14df1959100110bbf",
+    "original_recovery": "not_recovered",
+    "original_recovery_note": "完成PNGは永続保存から復旧・SHA-256検証済み。53対の生成原本106枚中104枚は未復旧。詳細試行記録の完全復旧も未確認。",
+    "processing_summary": {
+      "default": "許可済みの比例縮小・透明余白配置・微小alphaゴミ調整",
+      "pixel": "別途生成したpixel候補に許可済み128格子調整・32色以下減色・alpha二値化"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/fanged/sm-fanged-019/default.png",
+      "sha256": "d72b5951d68ad8e57980ef32779d85069bfe5e03f61562e14df1959100110bbf",
+      "bytes": 368178,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        291,
+        944,
+        732
+      ],
+      "transparent_margins": [
+        80,
+        291,
+        80,
+        292
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/fanged/sm-fanged-019/pixel.png",
+      "sha256": "75e45f5f4adae0e1cd499c77d54f7afa06bc3ef80ac649d94d2c74dcccab02ca",
+      "bytes": 4243,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        35,
+        118,
+        92
+      ],
+      "transparent_margins": [
+        10,
+        35,
+        10,
+        36
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "制作時の原寸・拡大画像による独立確認と最終画像レビュー。復旧後のbytes/SHA・PNG規格再検査。",
+    "user_acceptance": "pending"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "sm-flora-010",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版は別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "reference_default_sha256": "e469f06e79d3302fa21a0d486e8bda2b1d06dabd6ceba8aae2d24be3063c0d13",
+    "original_recovery": "not_recovered",
+    "original_recovery_note": "完成PNGは永続保存から復旧・SHA-256検証済み。53対の生成原本106枚中104枚は未復旧。詳細試行記録の完全復旧も未確認。",
+    "processing_summary": {
+      "default": "許可済みの比例縮小・透明余白配置・微小alphaゴミ調整",
+      "pixel": "別途生成したpixel候補に許可済み128格子調整・32色以下減色・alpha二値化"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/flora/sm-flora-010/default.png",
+      "sha256": "e469f06e79d3302fa21a0d486e8bda2b1d06dabd6ceba8aae2d24be3063c0d13",
+      "bytes": 252192,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        304,
+        944,
+        720
+      ],
+      "transparent_margins": [
+        80,
+        304,
+        80,
+        304
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/flora/sm-flora-010/pixel.png",
+      "sha256": "c009fed26b143076888e74ab13b9456eee24890adf9ec5f9b261d97e624d375f",
+      "bytes": 3235,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        38,
+        118,
+        90
+      ],
+      "transparent_margins": [
+        10,
+        38,
+        10,
+        38
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "制作時の原寸・拡大画像による独立確認と最終画像レビュー。復旧後のbytes/SHA・PNG規格再検査。",
+    "user_acceptance": "pending"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
