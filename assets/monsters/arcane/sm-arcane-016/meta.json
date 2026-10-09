@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-016",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-arcane-016-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-016 / シズルピカ / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の横向き水滴形。脚0本、目2個、薄い翼6枚、尾0本。太い側が前で、後端が丸く細まる\nMaterials and biological motif: 虹色に分かれる透明な光滴。朝霧の光を薄い筋に分け、濡れた草先へ戻す\nPrimary, secondary, accent colors respectively: #97D5DB; #D99654; #635989\nThree mandatory visual identifiers: 六枚翼は左右三枚ずつで前から順に短くなる; 前面中央に縦長の透明な面が1枚; 後端に発光する白抜きの丸穴が1個\nPose: 前側の一対翼だけ上げ、残り二対を横に開いて浮く\nTemperament to convey through expression or posture: 機敏。晴れ間を見つけると小さく方向転換する. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 羽毛を描かない; 水滴の後端を長い尾にしない; 虹の帯を胴に巻き足さない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.",
+      "sm-arcane-016-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-016; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-016 / シズルピカ / 魔体 (arcane)\nLocked body and anatomy: 体幹1節の横向き水滴形。脚0本、目2個、薄い翼6枚、尾0本。太い側が前で、後端が丸く細まる\nLocked material cues: 虹色に分かれる透明な光滴。朝霧の光を薄い筋に分け、濡れた草先へ戻す\nLocked palette roles, primary/secondary/accent: #97D5DB; #D99654; #635989\nAll three identifiers must remain recognizable: 六枚翼は左右三枚ずつで前から順に短くなる; 前面中央に縦長の透明な面が1枚; 後端に発光する白抜きの丸穴が1個\nLocked pose: 前側の一対翼だけ上げ、残り二対を横に開いて浮く\nLocked temperament/expression: 機敏。晴れ間を見つけると小さく方向転換する. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 羽毛を描かない; 水滴の後端を長い尾にしない; 虹の帯を胴に巻き足さない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign."
+    },
+    "reference_default_sha256": "2c4e2cc7d37f45120c258b8823bc404767aa753a292ba4fa549cfc430bcd68ba",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-016-default-attempt001-original.png",
+          "sha256": "4ba515f31700cae2b9710433d44be5adf8752a1a2fced36c0640f446b3d4fffc",
+          "bytes": 882367,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-016-pixel-attempt001-original.png",
+          "sha256": "d2b19da79f31d83644bb228865baf240f31504f5c188240573ffb5961771d62c",
+          "bytes": 786926,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-016/default.png",
+      "sha256": "2c4e2cc7d37f45120c258b8823bc404767aa753a292ba4fa549cfc430bcd68ba",
+      "bytes": 509140,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        144,
+        944,
+        880
+      ],
+      "transparent_margins": [
+        80,
+        144,
+        80,
+        144
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-016/pixel.png",
+      "sha256": "b8b41926b0bec42267ad82831c229850ae5b7bcb08ac5de919cd4a55d33d4bcb",
+      "bytes": 9942,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        17,
+        118,
+        111
+      ],
+      "transparent_margins": [
+        10,
+        17,
+        10,
+        17
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。横向きしずく体1・脚0・二眼・薄い翼6・尾0、片側三翼ずつで前翼最長、前中央の透明な縦面1・後方の丸穴1、姿勢と配色を確認。PNG規格・永続保存読戻しを検証。",
+    "review_notes": [
+      "通常版とpixel版で六翼、二眼、透明な縦面、後方の丸穴と姿勢の一致を確認。",
+      "pixel画像の完全透明領域に残るRGB値は不可視であり、可視ノイズではない。可視部分は単一連結成分。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
