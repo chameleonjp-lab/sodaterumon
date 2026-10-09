@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "sm-flora-020",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版のみ完成候補。pixel版は生成要求が安全システムに拒否され、画像は未取得。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": "2026-10-09T07:10:52Z",
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "default_initial": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-flora-020 / ミノウキラ / 植体 (flora)\nBody and exact anatomy: 一体節の細長い逆円錐形の果実胴、目2個、根脚0本、腕0本、翼0枚。上部に厚い浮き葉3枚、下端に根尾2本。\nMaterials and biological motif: 軽い果実殻と水をはじく葉。浅い水路を流れに沿って漂い岸辺で休む。\nPrimary, secondary, accent colors respectively: #C9AD73; #81ABA7; #E5D1C0\nThree mandatory visual identifiers: 浮き葉3枚は上部で三角形の水平配置; 果実胴の側面に太い縦溝2本; 根尾2本は同じ長さで先端だけ外へ曲がる\nPose: 3枚の浮き葉を水面に広げ、逆円錐胴と2本根尾を下へ垂らす。\nTemperament to convey through expression or posture: 気楽な旅好き。岸辺の草に触れるとしばらく止まって休む。. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 浮き葉を羽ばたく翼にしない; 根脚を追加しない; 果実胴を球形に変えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "default_tail_revision": "Use case: precise-object-edit\nEdit the attached original creature sm-flora-020 only. Correct the two root tails: both must have the same physical length, descend nearly straight side by side from the pointed bottom of the fruit body, and bend outward only at their terminal tips. Show both fully so equal lengths are clearly readable. The current left tail is shorter and both shafts have wavy bends; remove those shaft waves. Do not turn them into legs. Preserve the three thick horizontal floating leaves in triangular arrangement, inverted-cone fruit body, exactly two eyes, two broad vertical grooves, all colors and overall pose. No extra anatomy. Preserve transparency and the original illustration rendering; do not add background or water.\nFull original contract remains:\n\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-flora-020 / ミノウキラ / 植体 (flora)\nBody and exact anatomy: 一体節の細長い逆円錐形の果実胴、目2個、根脚0本、腕0本、翼0枚。上部に厚い浮き葉3枚、下端に根尾2本。\nMaterials and biological motif: 軽い果実殻と水をはじく葉。浅い水路を流れに沿って漂い岸辺で休む。\nPrimary, secondary, accent colors respectively: #C9AD73; #81ABA7; #E5D1C0\nThree mandatory visual identifiers: 浮き葉3枚は上部で三角形の水平配置; 果実胴の側面に太い縦溝2本; 根尾2本は同じ長さで先端だけ外へ曲がる\nPose: 3枚の浮き葉を水面に広げ、逆円錐胴と2本根尾を下へ垂らす。\nTemperament to convey through expression or posture: 気楽な旅好き。岸辺の草に触れるとしばらく止まって休む。. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 浮き葉を羽ばたく翼にしない; 根脚を追加しない; 果実胴を球形に変えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n\n",
+      "pixel_attempted_no_output": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-flora-020; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-flora-020 / ミノウキラ / 植体 (flora)\nLocked body and anatomy: 一体節の細長い逆円錐形の果実胴、目2個、根脚0本、腕0本、翼0枚。上部に厚い浮き葉3枚、下端に根尾2本。\nLocked material cues: 軽い果実殻と水をはじく葉。浅い水路を流れに沿って漂い岸辺で休む。\nLocked palette roles, primary/secondary/accent: #C9AD73; #81ABA7; #E5D1C0\nAll three identifiers must remain recognizable: 浮き葉3枚は上部で三角形の水平配置; 果実胴の側面に太い縦溝2本; 根尾2本は同じ長さで先端だけ外へ曲がる\nLocked pose: 3枚の浮き葉を水面に広げ、逆円錐胴と2本根尾を下へ垂らす。\nLocked temperament/expression: 気楽な旅好き。岸辺の草に触れるとしばらく止まって休む。. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 浮き葉を羽ばたく翼にしない; 根脚を追加しない; 果実胴を球形に変えない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "b6aecdd7cb921e3096bd99ee5193edfcda19fb71712f8c572a64191f02b9d6fa",
+    "original_preservation": {
+      "status": "preserved_and_readback_verified",
+      "default_attempt001_sha256": "d9aae0a64fbf6ea45e8d4118e87437a88e981b296ba391fc61b31772e607814a",
+      "default_attempt002_sha256": "e9f0baf7af7852080d4cdf894fd74dd4f195235d2f8eca8448896358af7705d6"
+    },
+    "processing_summary": {
+      "default": "原本保持。alpha < 8 の微小透過ゴミのみ除去し、縦横比を維持して長辺864pxへ縮小、透明1024pxキャンバス中央へ配置。身体形状は描き直していない。",
+      "pixel": null
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/flora/sm-flora-020/default.png",
+      "sha256": "b6aecdd7cb921e3096bd99ee5193edfcda19fb71712f8c572a64191f02b9d6fa",
+      "bytes": 461103,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        113,
+        80,
+        911,
+        944
+      ],
+      "transparent_margins": [
+        113,
+        80,
+        113,
+        80
+      ]
+    },
+    "pixel": {
+      "file": null,
+      "sha256": null,
+      "bytes": null,
+      "width": null,
+      "height": null,
+      "mode": null
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "blocked",
+    "pair": "partial",
+    "basis": "通常版の原寸独立レビューと規格・SHA-256・永続保存読戻し検査を通過。等長の根尾2本、末端のみ外曲げ、目2個、葉3枚、2本の縦溝を確認。pixel版は出力なしのため未検品。",
+    "user_acceptance": "pending",
+    "limitations": [
+      "pixel生成は安全システムの拒否により停止。同一要求の再試行・言い換え・別経路は行っていない。",
+      "この対は未完成。215対全体の完成数には追加しない。",
+      "第三者の権利・商標確認は未実施。"
+    ]
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
