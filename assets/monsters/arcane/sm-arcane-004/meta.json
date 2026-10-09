@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-004",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": {
+      "default": "2026-10-09T07:25:14Z",
+      "pixel": "2026-10-09T07:27:54Z"
+    },
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-004 / ミワノロア / 魔体 (arcane)\nBody and exact anatomy: 体幹3節の同心円環。脚0本、内環に目3個、翼0枚、尾0本。三つの環は細い光軸1本でつながる\nMaterials and biological motif: 澄んだ残響でできた三重の輪。洞口にたまったやさしい反響を外へ運ぶ\nPrimary, secondary, accent colors respectively: #98ABD8; #DDB374; #30384E\nThree mandatory visual identifiers: 外環の上部に切れ目が1か所; 中環だけが斜めに傾く; 三つの目は内環の下半分に並ぶ\nPose: 地面からわずかに浮き、三環の穴を正面から見せる\nTemperament to convey through expression or posture: 落ち着いている。音が途切れると輪の回転も止まる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 四重以上の輪にしない; 中央の穴を顔で埋めない; 惑星や衛星を周囲に追加しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "default-attempt002-prompt": "Use case: precise-object-edit\nEdit this same creature, sm-arcane-004. Correct the ring alignment: the large outer ring, medium tilted ring, and small inner ring must share exactly the same central point, as three concentric rings. The current small inner ring hangs too low; raise it into the exact center of the outer ring. Keep the inner ring facing the viewer, with its three eyes on its lower half. Only the middle ring tilts diagonally through that same center. The thin single light-axis connects all three rings, without filling the central hole with a face. Preserve all other approved anatomy: exactly three rings, exactly three eyes, one upper gap in the outer ring, no limbs or wings or tails. Keep all holes visible and genuine transparent background.\nFull original catalog and rendering contract:\n\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-004 / ミワノロア / 魔体 (arcane)\nBody and exact anatomy: 体幹3節の同心円環。脚0本、内環に目3個、翼0枚、尾0本。三つの環は細い光軸1本でつながる\nMaterials and biological motif: 澄んだ残響でできた三重の輪。洞口にたまったやさしい反響を外へ運ぶ\nPrimary, secondary, accent colors respectively: #98ABD8; #DDB374; #30384E\nThree mandatory visual identifiers: 外環の上部に切れ目が1か所; 中環だけが斜めに傾く; 三つの目は内環の下半分に並ぶ\nPose: 地面からわずかに浮き、三環の穴を正面から見せる\nTemperament to convey through expression or posture: 落ち着いている。音が途切れると輪の回転も止まる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 四重以上の輪にしない; 中央の穴を顔で埋めない; 惑星や衛星を周囲に追加しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n\n",
+      "default-attempt003-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-004 / ミワノロア / 魔体 (arcane)\nBody and exact anatomy: 体幹3節の同心円環。脚0本、内環に目3個、翼0枚、尾0本。三つの環は細い光軸1本でつながる\nMaterials and biological motif: 澄んだ残響でできた三重の輪。洞口にたまったやさしい反響を外へ運ぶ\nPrimary, secondary, accent colors respectively: #98ABD8; #DDB374; #30384E\nThree mandatory visual identifiers: 外環の上部に切れ目が1か所; 中環だけが斜めに傾く; 三つの目は内環の下半分に並ぶ\nPose: 地面からわずかに浮き、三環の穴を正面から見せる\nTemperament to convey through expression or posture: 落ち着いている。音が途切れると輪の回転も止まる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 四重以上の輪にしない; 中央の穴を顔で埋めない; 惑星や衛星を周囲に追加しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n\nConstruction clarification for this unchanged catalog design: all THREE concentric ring centers coincide at the exact center of the canvas. Do not stack the rings vertically. Do not hang the inner ring below the middle ring. The outer ring and inner ring are front-facing circles with the SAME CENTER; the middle ring is a diagonal ellipse in perspective centered on that SAME POINT. The three eyes are part of the LOWER ARC of the inner circle, around the lower central region of the picture. The single connecting light axis is a THIN PLAIN line of light passing vertically through the common center, not a spear, staff, rod, gold fittings, or decorative pointed structure. The outer ring has exactly one gap at its top. Material is clear ethereal resonance rendered in restrained cel-shaded lavender-blue light with muted amber accents and dark blue outlines, not ornate metal jewelry. Keep the ring bodies simple and smooth, without extra diamond finials or cutout ornament. Preserve all three holes; transparent canvas and transparent empty space inside all rings. One body, three rings only.\n",
+      "default-attempt004-prompt": "Use case: precise-object-edit\nEdit the attached sm-arcane-004 illustration. Change ONLY the background-spilling glow: remove the blurry translucent lavender/white halo around the vertical light-axis and around all outside and inside ring edges. Keep the thin light-axis itself as one crisp, narrow bright line, with no surrounding luminous fog. Empty space inside the rings and outside the creature must be genuine clean alpha-zero transparency right up to the normal antialiased contour. Do not erase the light-axis itself. Keep all three concentric rings sharing their center; exactly the middle ring tilts diagonally; outer upper gap; three eyes on inner ring lower arc; palettes, geometry, relative placement, hole sizes, pose and expression unchanged. No added elements.\nFull original contract:\n\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-004 / ミワノロア / 魔体 (arcane)\nBody and exact anatomy: 体幹3節の同心円環。脚0本、内環に目3個、翼0枚、尾0本。三つの環は細い光軸1本でつながる\nMaterials and biological motif: 澄んだ残響でできた三重の輪。洞口にたまったやさしい反響を外へ運ぶ\nPrimary, secondary, accent colors respectively: #98ABD8; #DDB374; #30384E\nThree mandatory visual identifiers: 外環の上部に切れ目が1か所; 中環だけが斜めに傾く; 三つの目は内環の下半分に並ぶ\nPose: 地面からわずかに浮き、三環の穴を正面から見せる\nTemperament to convey through expression or posture: 落ち着いている。音が途切れると輪の回転も止まる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 四重以上の輪にしない; 中央の穴を顔で埋めない; 惑星や衛星を周囲に追加しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-004; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-004 / ミワノロア / 魔体 (arcane)\nLocked body and anatomy: 体幹3節の同心円環。脚0本、内環に目3個、翼0枚、尾0本。三つの環は細い光軸1本でつながる\nLocked material cues: 澄んだ残響でできた三重の輪。洞口にたまったやさしい反響を外へ運ぶ\nLocked palette roles, primary/secondary/accent: #98ABD8; #DDB374; #30384E\nAll three identifiers must remain recognizable: 外環の上部に切れ目が1か所; 中環だけが斜めに傾く; 三つの目は内環の下半分に並ぶ\nLocked pose: 地面からわずかに浮き、三環の穴を正面から見せる\nLocked temperament/expression: 落ち着いている。音が途切れると輪の回転も止まる. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 四重以上の輪にしない; 中央の穴を顔で埋めない; 惑星や衛星を周囲に追加しない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "d3df33074526a347d210e6582bf1bb9fa8e8fbf8e2ceb8b7b220efe99d9c18bb",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-004-default-attempt001-original.png",
+          "sha256": "14bd1a6d4aa57f71413d89abd8a11ab1726589a110ba8fb3ae976d7e3c1ed2b3",
+          "bytes": 1259176,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-004-default-attempt002-original.png",
+          "sha256": "bf84b12d91eea817e964c23093aae435d8146f1c6415e60280c8a94307a932de",
+          "bytes": 1442699,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-004-default-attempt003-original.png",
+          "sha256": "fe4145ab865e80bb3bd846680af77770e4fd6ef41bdc77c4b379ad0e1b9af056",
+          "bytes": 1335684,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-004-default-attempt004-original.png",
+          "sha256": "98f9e3fa8b88c8451f4fef5fd47308f33c1c3e8fcf6fca50abe54f8b4fb31fe0",
+          "bytes": 1263957,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-004-pixel-attempt001-original.png",
+          "sha256": "0a7ab01bb2763554e83dba1a6b5546475f359c3e87ca5d1a69e069f0130c703d",
+          "bytes": 1183291,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "原本保持。alpha < 8 の微小透過ゴミと孤立微小成分56pxのみ除去。比例縮小で長辺864px、透明1024pxキャンバス中央配置。形状の修正は画像生成のみ。",
+      "pixel": "採用通常版を参照して別生成したドット候補を使用。原本保持、alpha二値化、nearest-neighborの128格子調整、32色以下減色（実測29色）、透明余白配置。通常絵の単純縮小ではない。"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-004/default.png",
+      "sha256": "d3df33074526a347d210e6582bf1bb9fa8e8fbf8e2ceb8b7b220efe99d9c18bb",
+      "bytes": 865621,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        93,
+        944,
+        930
+      ],
+      "transparent_margins": [
+        80,
+        93,
+        80,
+        94
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-004/pixel.png",
+      "sha256": "21dc7d3f3473fa200fa5e34e323d9553a2c4d7aea330ea4cd4dd446221ab6c64",
+      "bytes": 14623,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        10,
+        117,
+        118
+      ],
+      "transparent_margins": [
+        10,
+        10,
+        11,
+        10
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。3環、内環下部3目、上部切れ目1、中環のみ傾斜、細い光軸、透明な穴と背景、同一配色と姿勢を確認。PNG規格と永続保存読戻しhashも検証。",
+    "review_notes": [
+      "通常版の初期候補は同心配置・光軸・haloの不適合を保持し、合格数へ含めていない。",
+      "pixel環表面には細かい1px色変化が残るが、原寸可読性と輪郭・主要clusterを保っている。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
