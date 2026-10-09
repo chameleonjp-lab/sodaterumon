@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-008",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": {
+      "default": "2026-10-09T10:01:45Z",
+      "pixel": "2026-10-09T10:05:02Z"
+    },
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-arcane-008-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-008 / マキユルネ / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の三巻きばね形。脚0本、最上段に目1個、翼0枚、最下段から細い尾2本。巻きの中央は空洞\nMaterials and biological motif: 弾む静電光の帯。地面の小さな振動で跳ね、乾いた葉の帯電をほどく\nPrimary, secondary, accent colors respectively: #B99EE3; #587D50; #FCE3A9\nThree mandatory visual identifiers: 胴は太い帯による三回の巻き; 上端は外向きの丸い小板; 二本尾は底から左右対称に伸びる\nPose: ばねを少し圧縮し、二本尾を地面へ広げる\nTemperament to convey through expression or posture: 陽気。跳ぶ前には必ず一度小さく縮む. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 脚や腕を追加しない; 胴の中央を中身で埋めない; 鋭い電撃を周囲に描かない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-arcane-008-default-attempt002-prompt": "Use case: precise-object-edit\nEdit the supplied sm-arcane-008 creature quality candidate. Correct only its specified anatomy: add exactly one clearly readable expressive eye on the outside front of the topmost coil; make the body visibly one continuous thick ribbon forming exactly three connected spring turns around an empty central passage, rather than three separate closed rings; reduce the upper outward-facing round terminal plate to a small plate. Keep the existing lavender primary #B99EE3, green secondary #587D50, cream accent #FCE3A9, clear dark contour, restrained cel shading, slightly compressed spring pose and exactly two thin symmetrical tails extending from the bottom. No legs, arms, wings, extra eyes, added objects, lightning around it, filled center, scenery, ground or cast shadow. Single full body on genuine transparent alpha, ample transparent padding in square canvas. Preserve the rest of the design. All three turns and their connecting ribbon must read clearly; the small round plate belongs to the free upper end.",
+      "sm-arcane-008-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-008; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-008 / マキユルネ / 魔体 (arcane)\nLocked body and anatomy: 体幹1節の三巻きばね形。脚0本、最上段に目1個、翼0枚、最下段から細い尾2本。巻きの中央は空洞\nLocked material cues: 弾む静電光の帯。地面の小さな振動で跳ね、乾いた葉の帯電をほどく\nLocked palette roles, primary/secondary/accent: #B99EE3; #587D50; #FCE3A9\nAll three identifiers must remain recognizable: 胴は太い帯による三回の巻き; 上端は外向きの丸い小板; 二本尾は底から左右対称に伸びる\nLocked pose: ばねを少し圧縮し、二本尾を地面へ広げる\nLocked temperament/expression: 陽気。跳ぶ前には必ず一度小さく縮む. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 脚や腕を追加しない; 胴の中央を中身で埋めない; 鋭い電撃を周囲に描かない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign."
+    },
+    "reference_default_sha256": "437ff205328f2fb1ba629f3bdcb73a6d96e2a76d579df4237beaec6839130eb5",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-008-default-attempt001-original.png",
+          "sha256": "58f908871ab0ad135b5d0d37b2ccdcd292e828a4bef0a81d2eaf04fabfbefa16",
+          "bytes": 861014,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-008-default-attempt002-original.png",
+          "sha256": "3292373e85c162c78072cd99c247ee2c618abb5178e5d0c50fd7a2e4d1bfc0af",
+          "bytes": 820182,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-008-pixel-attempt001-original.png",
+          "sha256": "acfae76c224c5cb567df6e2a0bcabf6f81767ccfd15818b51ea7ae68f9cbe95c",
+          "bytes": 740033,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-008/default.png",
+      "sha256": "437ff205328f2fb1ba629f3bdcb73a6d96e2a76d579df4237beaec6839130eb5",
+      "bytes": 511516,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        97,
+        80,
+        927,
+        944
+      ],
+      "transparent_margins": [
+        97,
+        80,
+        97,
+        80
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-008/pixel.png",
+      "sha256": "0af0448ff24830b531ee5f8f06b5c3f9e01873b3d9c231f49c47031e62d47184",
+      "bytes": 9634,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        12,
+        10,
+        116,
+        118
+      ],
+      "transparent_margins": [
+        12,
+        10,
+        12,
+        10
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。三巻き中空ばね、最上段の単眼、上端の小さな丸板、底部左右の細尾2、pose・配色を確認。PNG規格・永続保存読戻しを検証。",
+    "review_notes": [
+      "通常初稿の欠けた単眼・ばね連続性・過大な上端板を画像生成編集で修正。原本保持。",
+      "輪に見えるstylizationは残るが、右奥の重なりは連続ばねとして読める。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

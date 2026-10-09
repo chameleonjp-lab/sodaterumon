@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-007",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": {
+      "default": "2026-10-09T09:59:58Z",
+      "pixel": "2026-10-09T10:06:35Z"
+    },
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-arcane-007-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-007 / ヒダリオム / 魔体 (arcane)\nBody and exact anatomy: 体幹7節の扇状に開く蛇腹形。脚4本、目2個、翼0枚、尾0本。中央の節が最も高い\nMaterials and biological motif: 空気をためるやわらかな音のひだ。草むらを通る風の強さをならす\nPrimary, secondary, accent colors respectively: #CE8663; #486493; #F0DBB3\nThree mandatory visual identifiers: 蛇腹は必ず七つの山を持つ; 中央の山にだけ丸い透け窓が1個; 前脚は短く後脚は長い\nPose: 後脚を曲げ、扇を半開きにして横向きに立つ\nTemperament to convey through expression or posture: 用心深いが穏やか。突風が来るとひだを閉じる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 扇を手に持つ形にしない; 八節以上に増やさない; 蛇腹を羽毛の尾に変えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-arcane-007-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-007; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-007 / ヒダリオム / 魔体 (arcane)\nLocked body and anatomy: 体幹7節の扇状に開く蛇腹形。脚4本、目2個、翼0枚、尾0本。中央の節が最も高い\nLocked material cues: 空気をためるやわらかな音のひだ。草むらを通る風の強さをならす\nLocked palette roles, primary/secondary/accent: #CE8663; #486493; #F0DBB3\nAll three identifiers must remain recognizable: 蛇腹は必ず七つの山を持つ; 中央の山にだけ丸い透け窓が1個; 前脚は短く後脚は長い\nLocked pose: 後脚を曲げ、扇を半開きにして横向きに立つ\nLocked temperament/expression: 用心深いが穏やか。突風が来るとひだを閉じる. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 扇を手に持つ形にしない; 八節以上に増やさない; 蛇腹を羽毛の尾に変えない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.",
+      "sm-arcane-007-pixel-attempt002-prompt": "Use case: precise-object-edit\nCorrect only the failed background/rendering contract in this supplied pixel creature sprite: completely remove the diffuse brown halo, dark backdrop and every shadow outside the silhouette, replacing them with genuine transparent alpha. Keep the exact creature, seven accordion peaks, central translucent window interpreted as opaque pixel clusters, four legs with short front and longer bent rear, two eyes, orange/blue/cream color placement, proportions and pose unchanged. No added structures. Use an intentional 128 by128 logical pixel grid with consistent hard opaque pixel clusters and no more than32 visible colors, at least8 logical pixels transparent margins, longest creature extent96–112 logical pixels. If rendered enlarged, use one uniform integer magnification of this128grid. No blur, antialiasing, semitransparent surrounding pixels, gradients, texture noise, ground, backdrop or halo. One full body sprite in square transparent canvas."
+    },
+    "reference_default_sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-007-default-attempt001-original.png",
+          "sha256": "95469a13d5d9b9bbd0e57ed979281ab203e75ba2db2e92ccc99cca2d37338965",
+          "bytes": 1056853,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-007-pixel-attempt001-original.png",
+          "sha256": "9d94c9e6a2e7a78eb6fbc8ff9ed716c8c07fa195787e79cc9234f2dc587c7a20",
+          "bytes": 1465015,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-007-pixel-attempt002-original.png",
+          "sha256": "bf294dc860b48a3925ecf71fdf0ce9da357f00d3e22bf76fcf1043d68cdd2a3a",
+          "bytes": 920642,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-007/default.png",
+      "sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18",
+      "bytes": 574202,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        176,
+        944,
+        848
+      ],
+      "transparent_margins": [
+        80,
+        176,
+        80,
+        176
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-007/pixel.png",
+      "sha256": "129ce85f115b57cf9f77c793fd97f998d57068313d05ea7cc184254698da507a",
+      "bytes": 10406,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        24,
+        118,
+        103
+      ],
+      "transparent_margins": [
+        10,
+        24,
+        10,
+        25
+      ],
+      "visible_colors": 32,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。七つの蛇腹山、中央最高・透け窓1、2眼、短い前脚2と長く曲げた後脚2、pose・配色を確認。PNG規格・永続保存読戻しを検証。",
+    "review_notes": [
+      "pixel初稿の背景haloを画像生成編集で除去。原本保持。",
+      "中央窓の楕円見えは透視表現として確認。外端の巻返しは第八節でない。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
