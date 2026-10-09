@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-012",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": {
+      "default": "2026-10-09T10:35:17Z",
+      "pixel": "2026-10-09T10:38:26Z"
+    },
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-arcane-012-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-012 / ムニリツラ / 魔体 (arcane)\nBody and exact anatomy: 体幹3節の短い筒が放射状に接続した三つ又形。脚3本、各筒端に目1個で計3個、翼0枚、尾0本\nMaterials and biological motif: 子守歌の余韻をためる弾力膜。夜の林で異なる音の間隔をゆっくり揃える\nPrimary, secondary, accent colors respectively: #A9ACDF; #B68557; #EDF4D9\nThree mandatory visual identifiers: 三つの筒は中央から120度ずつ開く; 各筒に横向きのくぼみが1本ずつ; 三本脚は中央の下面だけから出る\nPose: 三脚で低く立ち、三方向の筒端を見せる\nTemperament to convey through expression or posture: 忍耐強い。周囲の音を急がせず待つ. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 四つ目の筒を足さない; 筒端を口や砲口にしない; 中央に人型の胴を置かない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.",
+      "sm-arcane-012-default-attempt002-prompt": "Use case: precise-object-edit\nCorrect the three required grooves in this supplied creature: each of its THREE short radial tubes must have exactly ONE transverse sideways indentation across the tube, perpendicular to that tube's long axis. Replace the existing long lengthwise recessed inserts with short transverse grooves; do not add mouths or extra eyes. Keep three tubes opening at120-degree intervals from the center, exactly one eye at each tube end (three eyes total), exactly THREE legs originating ONLY at the central underside, no wings or tail, and the three tube ends visible. Keep it standing low on its three legs. Correct only rendering as well: clear organized dark contour with simple restrained 2D cel shading in at most three tone steps, a few subtle membrane highlights, no dense glossy caustics, continuous gradients or metallic/plastic look. Preserve lavender primary #A9ACDF, warm brown secondary #B68557 and pale cream accent #EDF4D9. Keep the original proportions and identifiable three-pronged silhouette. No fourth tube, gun muzzle, mouth, human torso, scenery, ground, cast shadow, outside halo or text. Full single creature on genuine transparent alpha, centered square with generous padding.",
+      "sm-arcane-012-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-012; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-012 / ムニリツラ / 魔体 (arcane)\nLocked body and anatomy: 体幹3節の短い筒が放射状に接続した三つ又形。脚3本、各筒端に目1個で計3個、翼0枚、尾0本\nLocked material cues: 子守歌の余韻をためる弾力膜。夜の林で異なる音の間隔をゆっくり揃える\nLocked palette roles, primary/secondary/accent: #A9ACDF; #B68557; #EDF4D9\nAll three identifiers must remain recognizable: 三つの筒は中央から120度ずつ開く; 各筒に横向きのくぼみが1本ずつ; 三本脚は中央の下面だけから出る\nLocked pose: 三脚で低く立ち、三方向の筒端を見せる\nLocked temperament/expression: 忍耐強い。周囲の音を急がせず待つ. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 四つ目の筒を足さない; 筒端を口や砲口にしない; 中央に人型の胴を置かない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign."
+    },
+    "reference_default_sha256": "58d9daad2f404aeb35cd4f17f78b4251bbd4de19b29ca08ac547cff7ce86e15f",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-012-default-attempt001-original.png",
+          "sha256": "2021c6240737356642369111582f708752cc1dc1fa2c9059f0b3cf2d792d78eb",
+          "bytes": 1151816,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-012-default-attempt002-original.png",
+          "sha256": "5df127270b2db3e050b42bb1209595d6150dcd8b506cbbadb38782e1decf18b2",
+          "bytes": 853745,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-012-pixel-attempt001-original.png",
+          "sha256": "0614cab5b07eb8c41aea44af5a337787caeb04720ca39695b766970512f03c5b",
+          "bytes": 782234,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-012/default.png",
+      "sha256": "58d9daad2f404aeb35cd4f17f78b4251bbd4de19b29ca08ac547cff7ce86e15f",
+      "bytes": 501784,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        86,
+        944,
+        937
+      ],
+      "transparent_margins": [
+        80,
+        86,
+        80,
+        87
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-012/pixel.png",
+      "sha256": "f4c0b3ff6a58069807616a79c2a08ad4a9147b076602755c79ab7c8fde7bec83",
+      "bytes": 9580,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        11,
+        118,
+        116
+      ],
+      "transparent_margins": [
+        10,
+        11,
+        10,
+        12
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。三方向の筒3・筒端の目3・中央下面からの脚3・各筒の横向き溝1、pose・配色を確認。PNG規格・永続保存読戻しを検証。",
+    "review_notes": [
+      "通常初稿の縦方向の溝と過剰な光沢を画像生成編集で修正。原本保持。",
+      "三方向120度は透視投影として確認。pixelでも各横溝を識別可能。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
