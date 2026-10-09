@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-006",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-decay-006-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-006 / フタフワゲ / 腐体 (decay)\nBody and exact anatomy: 体幹2節の左右に並ぶ楕円袋形。脚8本、各袋に目1個で計2個、翼0枚、尾0本。袋間は短い菌膜でつながる\nMaterials and biological motif: 二つのやわらかな腐植袋。落葉を細かくし、空気を含ませてふかふかの土にする\nPrimary, secondary, accent colors respectively: #AC8E64; #8CA69C; #F0DDC0\nThree mandatory visual identifiers: 左の袋は縦長、右の袋は横長; それぞれの背に円い浅皿状のくぼみが1個; 八本脚は各袋に4本ずつ付く\nPose: 二袋を横並びに保ち、外側の脚を一歩ずつ前に出す\nTemperament to convey through expression or posture: 息が合う。片側が休むともう片側も歩みを止める. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 袋を頭と人型胴へ分けない; 両袋を同じ形にしない; 腐植を液状の汚泥にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express materials with a few quiet flat shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-decay-006-default-attempt002-prompt": "Use case: precise-object-edit. Asset: Sodaterumon catalog character normal sprite. Input image is the edit target.\nChange only the rendering style: simplify the busy tiny leaf veins, mottling and continuous shading to clean readable hand-drawn 2D game art, a dark outer contour and approximately three flat cel-shading tones per material. Retain the humus/leaf material character using a few broad leaf shapes. Preserve EXACT anatomy, silhouette, composition, two differently shaped bags, all eight legs four per bag, both eyes and both shallow back bowls, and the connecting mycelium membrane. No additions.\nTransparent background, no ground or cast shadow, no halo or glow, no text. Keep original catalog palette and identity. Full body centered, generous transparent margins.\nCanonical catalog specification:\n{\"id\":\"sm-decay-006\",\"family\":\"decay\",\"name_ja\":\"フタフワゲ\",\"silhouette\":\"体幹2節の左右に並ぶ楕円袋形。脚8本、各袋に目1個で計2個、翼0枚、尾0本。袋間は短い菌膜でつながる\",\"material_motif\":\"二つのやわらかな腐植袋。落葉を細かくし、空気を含ませてふかふかの土にする\",\"palette_hex\":[\"#AC8E64\",\"#8CA69C\",\"#F0DDC0\"],\"signature_features\":[\"左の袋は縦長、右の袋は横長\",\"それぞれの背に円い浅皿状のくぼみが1個\",\"八本脚は各袋に4本ずつ付く\"],\"pose\":\"二袋を横並びに保ち、外側の脚を一歩ずつ前に出す\",\"temperament\":\"息が合う。片側が休むともう片側も歩みを止める\",\"do_not_add\":[\"袋を頭と人型胴へ分けない\",\"両袋を同じ形にしない\",\"腐植を液状の汚泥にしない\"],\"family_label_ja\":\"腐体\",\"design_version\":1,\"design_status\":\"candidate_plan\",\"paths\":{\"default\":\"assets/monsters/decay/sm-decay-006/default.png\",\"pixel\":\"assets/monsters/decay/sm-decay-006/pixel.png\",\"meta\":\"assets/monsters/decay/sm-decay-006/meta.json\"},\"prompt_templates\":{\"default\":\"default-v1\",\"pixel\":\"pixel-v1\"}}\n",
+      "sm-decay-006-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-decay-006; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-decay-006 / フタフワゲ / 腐体 (decay)\nLocked body and anatomy: 体幹2節の左右に並ぶ楕円袋形。脚8本、各袋に目1個で計2個、翼0枚、尾0本。袋間は短い菌膜でつながる\nLocked material cues: 二つのやわらかな腐植袋。落葉を細かくし、空気を含ませてふかふかの土にする\nLocked palette roles, primary/secondary/accent: #AC8E64; #8CA69C; #F0DDC0\nAll three identifiers must remain recognizable: 左の袋は縦長、右の袋は横長; それぞれの背に円い浅皿状のくぼみが1個; 八本脚は各袋に4本ずつ付く\nLocked pose: 二袋を横並びに保ち、外側の脚を一歩ずつ前に出す\nLocked temperament/expression: 息が合う。片側が休むともう片側も歩みを止める. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 袋を頭と人型胴へ分けない; 両袋を同じ形にしない; 腐植を液状の汚泥にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-decay-006-pixel-attempt002-prompt": "Use case: precise-object-edit. Edit only the failed background condition in this pixel sprite. Remove ALL brown/black diffuse halo, glow, shadow and rectangular haze surrounding the creature; every pixel outside the tight hard-edged body silhouette must be genuinely transparent. Keep the complete approved body and interior pixel clusters unchanged: two differently shaped side-by-side humus bags, exactly eight short legs four per bag, two eyes, two shallow back bowls and the connecting short mycelium membrane. No anatomy deletions. Keep palette and pose. Authentic clean 128x128 logical pixel art with controlled stair-step silhouette, no antialiasing or blur, <=32 visible colors, opaque body and transparent exterior only, full body centered with >=8 logical pixels margin. No floor or shadow. Reference is the failed pixel image; preserve all its correct identity features.\n"
+    },
+    "reference_default_sha256": "adce3614f8b2381857e01e7daab3cec035f455173389f35e879389e131da8940",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-decay-006-default-attempt001-original.png",
+          "sha256": "71f54606e6a3ef92291284d701c6f69ba26266cb42da19c832b399d43fccb94a",
+          "bytes": 1347308,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-006-default-attempt002-original.png",
+          "sha256": "d205afbd167b4703a888b6d7fa3c799ce770e26791b326d5f662ffea3c496247",
+          "bytes": 1782312,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-006-pixel-attempt001-original.png",
+          "sha256": "3aee9b4b8b28b0759033eb70d7a59c7063f2e27c53acc94639628fa31dfb2414",
+          "bytes": 1487451,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-006-pixel-attempt002-original.png",
+          "sha256": "71f2559d3b762d7ae2070b5940f1d4b2f9209c09554a8328a4d21a541920b6d4",
+          "bytes": 660835,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/decay/sm-decay-006/default.png",
+      "sha256": "adce3614f8b2381857e01e7daab3cec035f455173389f35e879389e131da8940",
+      "bytes": 593844,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        195,
+        944,
+        829
+      ],
+      "transparent_margins": [
+        80,
+        195,
+        80,
+        195
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/decay/sm-decay-006/pixel.png",
+      "sha256": "aa2a4d14fe530e98f5c1761ec8e26c1fe8e488a9dfa8c2df717199f3fbc575ef",
+      "bytes": 10212,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        27,
+        118,
+        101
+      ],
+      "transparent_margins": [
+        10,
+        27,
+        10,
+        27
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。左右の縦長/横長袋二つ、各四脚、各一眼・背くぼみ一つ、短い菌膜。通常の塗り、pixelの体外haloを生成編集で修正。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
