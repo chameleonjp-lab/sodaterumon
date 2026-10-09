@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-016",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-mineral-016-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-mineral-016 / サゲカクナ / 硬体 (mineral)\nBody and exact anatomy: 体幹1節の横長の三角柱が低く垂れ下がる形。脚7本、目2個、翼0枚、短い尾1本。前側の面は幅広い\nMaterials and biological motif: 薄層の泥岩。乾いた小川の底で細かい泥粒を足元に少しずつ集める\nPrimary, secondary, accent colors respectively: #A6909C; #87977A; #E9CEA1\nThree mandatory visual identifiers: 前面下辺に薄い石の垂れ片が1枚; 七本脚は前に3本、後ろに4本; 尾は後面中央から短い円柱として出る\nPose: 七脚を開き、幅広い前面をやや下へ向ける\nTemperament to convey through expression or posture: 慎重。薄い垂れ片を地面にこすらないよう歩く. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 垂れ片を舌にしない; 三角柱を建物の屋根にしない; 脚を均等な四対に増やさない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-mineral-016-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-mineral-016; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-mineral-016 / サゲカクナ / 硬体 (mineral)\nLocked body and anatomy: 体幹1節の横長の三角柱が低く垂れ下がる形。脚7本、目2個、翼0枚、短い尾1本。前側の面は幅広い\nLocked material cues: 薄層の泥岩。乾いた小川の底で細かい泥粒を足元に少しずつ集める\nLocked palette roles, primary/secondary/accent: #A6909C; #87977A; #E9CEA1\nAll three identifiers must remain recognizable: 前面下辺に薄い石の垂れ片が1枚; 七本脚は前に3本、後ろに4本; 尾は後面中央から短い円柱として出る\nLocked pose: 七脚を開き、幅広い前面をやや下へ向ける\nLocked temperament/expression: 慎重。薄い垂れ片を地面にこすらないよう歩く. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 垂れ片を舌にしない; 三角柱を建物の屋根にしない; 脚を均等な四対に増やさない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "28b68a8ea5838b11f92d2b285acbc494e69f14fd3e47d680c6238b2ab1d9836a",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-mineral-016-default-attempt001-original.png",
+          "sha256": "509c45d89ea1e8249293d7c5a0ac7dd6174a29f31c316cd7953d35395cd67842",
+          "bytes": 1070611,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-016-pixel-attempt001-original.png",
+          "sha256": "4ad828286e16823c0f910f40d6e15846f91c0556d291c98ff3d07422a23ae2a0",
+          "bytes": 757241,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/mineral/sm-mineral-016/default.png",
+      "sha256": "28b68a8ea5838b11f92d2b285acbc494e69f14fd3e47d680c6238b2ab1d9836a",
+      "bytes": 649072,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        212,
+        944,
+        812
+      ],
+      "transparent_margins": [
+        80,
+        212,
+        80,
+        212
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/mineral/sm-mineral-016/pixel.png",
+      "sha256": "df8eae053eb03b21e7f75fa28d15c4ab7e800fafcfe4d5f18818f0abe8dc75a1",
+      "bytes": 9925,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        27,
+        118,
+        101
+      ],
+      "transparent_margins": [
+        10,
+        27,
+        10,
+        27
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。低横長三角柱、前3後4の七脚、二眼、後中央短円柱尾、前下石垂片、泥岩層。後左脚は前脚に一部遮蔽されるが独立肢、pixel右眼は簡略化されても暗縁明色で判読可能。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

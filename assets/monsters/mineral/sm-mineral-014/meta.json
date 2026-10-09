@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-014",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-mineral-014-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-mineral-014 / ヒシハネラ / 硬体 (mineral)\nBody and exact anatomy: 体幹1節の薄いひし形板。脚2本、目2個、翼2枚、尾1本。胴は横幅より縦幅が長い\nMaterials and biological motif: 薄くはがれる金色の雲母。暖かい岩肌の上で短く滑空し、薄片を別の場所へ運ぶ\nPrimary, secondary, accent colors respectively: #C3A85F; #73909B; #F0DFB5\nThree mandatory visual identifiers: 二枚翼は丸い台形で胴の横辺に付く; 胴の中央に細い縦の隆起が1本; 尾は短い二等辺三角形で先端が丸い\nPose: 二翼をわずかに下げ、二本の小脚を腹側に寄せて滑空する\nTemperament to convey through expression or posture: 身軽。岩から岩へ短い距離だけ移る. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 胴に人型の頭を追加しない; 翼を透明な虫の羽にしない; 尾を長いリボンに変えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-mineral-014-default-attempt002-prompt": "Use case: precise-object-edit. Correct this existing Sodaterumon sm-mineral-014 normal illustration to its fixed catalog geometry. Make the one vertically elongated diamond body a THIN mica plate with little side thickness, retaining its one narrow central vertical ridge and two eyes. Replace both leaf-shaped wings with clearly rounded TRAPEZOIDS attached to the two side edges: four broad gently rounded corners, two parallel unequal edges, no leaf tips. Keep two small legs tucked underneath and wings slightly lowered in gliding pose. Tail is one SHORT isosceles triangular plate with rounded tip, close to the body, no long stalk or ribbon. Preserve golden exfoliating mica motif and palette #C3A85F #73909B #F0DFB5, identity and general composition. Main light/mid/shadow areas use three distinct cel shading steps rather than continuous metallic gradients, mineral flakes remain texture. Exactly two eyes, two legs, two opaque wings, one tail, no human head or transparent insect wings. Dark colored outline, single full creature, genuine transparent background, normal illustration 1024 square with generous clear margins, no ground/shadow/text.\n",
+      "sm-mineral-014-default-attempt003-prompt": "Use case: precise-object-edit. Edit only the two wings of this sm-mineral-014 creature. Each wing must be a ROUND-CORNERED TRAPEZOID plate with FOUR clearly distinguishable sides: two parallel unequal straight edges joined by two nonparallel straight edges, corners softly rounded. The present wings look like pointed leaves; remove their leaf tips and oval curvature, use broad flat outer ends so the four-sided trapezoidal silhouettes are unmistakable. Both wings remain attached to the side edges of the thin vertically elongated diamond body, lowered slightly in gliding pose. Preserve every other feature unchanged: one thin diamond body, exactly two eyes, one thin central vertical ridge, two tucked small legs, one short rounded-tip isosceles triangular tail, golden flaking mica texture, palette #C3A85F #73909B #F0DFB5, three-step main cel shading and dark colored outline. No new parts, no human head, no transparent insect wings, no long ribbon tail. Single complete creature centered with generous transparent margins, genuine transparent background, no text or scenery. Maintain the same creature and composition.\n",
+      "sm-mineral-014-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-mineral-014; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-mineral-014 / ヒシハネラ / 硬体 (mineral)\nLocked body and anatomy: 体幹1節の薄いひし形板。脚2本、目2個、翼2枚、尾1本。胴は横幅より縦幅が長い\nLocked material cues: 薄くはがれる金色の雲母。暖かい岩肌の上で短く滑空し、薄片を別の場所へ運ぶ\nLocked palette roles, primary/secondary/accent: #C3A85F; #73909B; #F0DFB5\nAll three identifiers must remain recognizable: 二枚翼は丸い台形で胴の横辺に付く; 胴の中央に細い縦の隆起が1本; 尾は短い二等辺三角形で先端が丸い\nLocked pose: 二翼をわずかに下げ、二本の小脚を腹側に寄せて滑空する\nLocked temperament/expression: 身軽。岩から岩へ短い距離だけ移る. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 胴に人型の頭を追加しない; 翼を透明な虫の羽にしない; 尾を長いリボンに変えない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-mineral-014-pixel-attempt002-prompt": "Use case: precise-object-edit. Edit only the pixel rendering clarity of this sm-mineral-014 sprite. Keep the exact same creature design, pose and anatomy: vertically elongated thin diamond plate body, two eyes, two tucked legs, two rounded trapezoidal wings, one short rounded triangular tail, one narrow central ridge, golden flaking mica with blue-gray patches. Add a consistent clear DARK COLORED 1–2 logical pixel outer contour all around the silhouette, especially pale wing edges, upper body tip and tail. Eliminate fuzzy pale edge halos; use deliberate crisp pixel clusters rather than noisy tiny texture. Make both existing eye pupils and rims clearly readable, without adding any eyes. Preserve reference identity and silhouette, no new parts. Intentional 128×128 logical grid, maximum32 visible colors, hard opaque pixel or fully transparent only, no blur/antialias/gradient, transparent background, full creature centered with at least8 clear logical pixels margin. This is a pixel rendering correction only, not a new character.\n"
+    },
+    "reference_default_sha256": "5b22580319e7771211d5a9fbf9a0ec91fb6c2e4c0c59d2203a11888a36ec7f9a",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-mineral-014-default-attempt002-original.png",
+          "sha256": "c00bb5da23d03f06d4146f51e3d992bd1f125e13e3ff8d2bff352ed2c4b2107d",
+          "bytes": 986130,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-014-default-attempt003-original.png",
+          "sha256": "0ccdeb48feb972b85f17400ef89a317554f58a026d73b2ccccdec0fc99907a72",
+          "bytes": 858244,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-014-normal001-original.png",
+          "sha256": "7cdb9870ef41fe357d11bdcea4c25391a0e696ab08ef91de4880075b9254cf47",
+          "bytes": 1256776,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-014-pixel-attempt001-original.png",
+          "sha256": "751f5da9ac4a71d5d12a82d33408c63f259f66ddbcaf9b92da6d0628b88dad25",
+          "bytes": 654908,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-014-pixel-attempt002-original.png",
+          "sha256": "97f763fb3a3f8f192f438ac5dcf579064dded478f15b3e5a517ca48d1259f22f",
+          "bytes": 508443,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/mineral/sm-mineral-014/default.png",
+      "sha256": "5b22580319e7771211d5a9fbf9a0ec91fb6c2e4c0c59d2203a11888a36ec7f9a",
+      "bytes": 525677,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        236,
+        944,
+        788
+      ],
+      "transparent_margins": [
+        80,
+        236,
+        80,
+        236
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/mineral/sm-mineral-014/pixel.png",
+      "sha256": "aba665437c2fffa810e74675895e63eb3dee8d6e0226d228a8b5aadad2135f4f",
+      "bytes": 7855,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        27,
+        118,
+        101
+      ],
+      "transparent_margins": [
+        10,
+        27,
+        10,
+        27
+      ],
+      "visible_colors": 32,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。薄い縦長菱形板、二眼二脚二丸角台形翼、短丸三角尾、中央縦稜、滑空姿勢。通常翼形状を修正、pixel輪郭と目の可視性を生成編集修正。実輪郭暗色326画素を独立確認。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
