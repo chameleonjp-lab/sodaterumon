@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-011",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-decay-011-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-011 / フワネタネ / 腐体 (decay)\nBody and exact anatomy: 体幹1節の逆水滴形。脚0本、目2個、翼0枚、短い根状の尾3本。上が丸く下がすぼまる\nMaterials and biological motif: 綿毛状の植物繊維と腐植粒。枯草の細片をまとめ、雨で崩れにくい土の粒にする\nPrimary, secondary, accent colors respectively: #D3C19A; #8B705D; #9DAE83\nThree mandatory visual identifiers: 頭頂の綿毛は平たい小房が3個; 胴の中央を横切る浅い帯溝が1本; 三本尾の先に同じ大きさの丸い粒が1個ずつ\nPose: 三本尾を地面に添え、逆水滴の胴を少し傾ける\nTemperament to convey through expression or posture: おだやか。雨が近づくと綿毛を内側へ寄せる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 綿毛を髪型にしない; 下部に人の足を足さない; 空中に粉の雲を発生させない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-decay-011-default-attempt002-prompt": "Use case: precise-object-edit. Correct only the size and silhouette of the three crown tufts on this sm-decay-011 candidate. Replace the three oversized spiky fan/hairstyle-shaped tufts with exactly three small low flat plant-fiber tufts, nestled close against the rounded top, with soft compact edges rather than long radiating pointed spikes. Preserve the inverted teardrop single body, exactly two eyes, zero legs/wings, exactly three short rootlike tails ending in three equally sized round granules, tilt, palette and all other features. Keep true transparency, full body, generous margins; no cloud, hair styling, background, shadow or halo. This is a crown-only size/shape correction.\n",
+      "sm-decay-011-default-attempt003-prompt": "Use case: precise-object-edit. Edit only the shallow belt groove across the middle of sm-decay-011. The current light raised cord-like ridge must become a shallow recessed horizontal band groove in the body surface: remove the projecting rope/rim highlight, use a subtle narrow indentation line and small shadow below the upper edge, not a tied strap or object. Keep the approved THREE small flat crown tufts, inverted teardrop body, two eyes, no legs or wings, three root tails and equal-sized round granules unchanged. Preserve pose, palette and all material features except the raised band. True transparent background, full body, no halo/shadow/text.\n",
+      "sm-decay-011-default-attempt004-prompt": "Use case: style-transfer. Change ONLY rendering style on this sm-decay-011 creature. Simplify painterly continuous highlights/shadows and excessively fine texture into clean hand-drawn 2D game illustration, a clear dark outline, approximately three flat cel-shaded tones per material, restrained matte highlights. Keep sufficient plant-fiber/humus cues but group tiny strokes into a few readable broad shapes. Preserve the exact approved silhouette, THREE small flat crown tufts, ONE shallow central horizontal groove (not raised cord), two eyes, no legs/wings, THREE short root tails with THREE equal round granules, body tilt, and palette placement. No anatomy change, no new objects, no shadow/halo, true transparent background, generous margins.\n",
+      "sm-decay-011-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-decay-011; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-decay-011 / フワネタネ / 腐体 (decay)\nLocked body and anatomy: 体幹1節の逆水滴形。脚0本、目2個、翼0枚、短い根状の尾3本。上が丸く下がすぼまる\nLocked material cues: 綿毛状の植物繊維と腐植粒。枯草の細片をまとめ、雨で崩れにくい土の粒にする\nLocked palette roles, primary/secondary/accent: #D3C19A; #8B705D; #9DAE83\nAll three identifiers must remain recognizable: 頭頂の綿毛は平たい小房が3個; 胴の中央を横切る浅い帯溝が1本; 三本尾の先に同じ大きさの丸い粒が1個ずつ\nLocked pose: 三本尾を地面に添え、逆水滴の胴を少し傾ける\nLocked temperament/expression: おだやか。雨が近づくと綿毛を内側へ寄せる. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 綿毛を髪型にしない; 下部に人の足を足さない; 空中に粉の雲を発生させない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "09b15e66f1af4a839b5d34a86b8a5ba4cd2ddd599000c4dbb48c1066c1bedd75",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-decay-011-default-attempt001-original.png",
+          "sha256": "7ade297a4411764ea736adacee96305b4a45620025bad4e23ecceb8eb236cdd9",
+          "bytes": 1604639,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-011-default-attempt002-original.png",
+          "sha256": "9310c2c2becf8ed57be03b9ca54b97cb69243c93a4d55fb4fe4646d518db43f6",
+          "bytes": 1060760,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-011-default-attempt003-original.png",
+          "sha256": "56529f6a7cd2ab48e16b16d58fb3790b401450b8b9d355e16a8bd4c1efa5779b",
+          "bytes": 1205047,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-011-default-attempt004-original.png",
+          "sha256": "5db85b4463e9cfc6ce8494f25ca8d908cc9ceef3b1e68172988dab432bf44248",
+          "bytes": 1087180,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-011-pixel-attempt001-original.png",
+          "sha256": "84eafa7ad250257b097f11fae9a274a33f3156ccb7df89e5d399633b413af748",
+          "bytes": 936438,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/decay/sm-decay-011/default.png",
+      "sha256": "09b15e66f1af4a839b5d34a86b8a5ba4cd2ddd599000c4dbb48c1066c1bedd75",
+      "bytes": 724570,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        168,
+        80,
+        855,
+        944
+      ],
+      "transparent_margins": [
+        168,
+        80,
+        169,
+        80
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/decay/sm-decay-011/pixel.png",
+      "sha256": "840db8f3b6b7f309bf9b9f32c42328e8be7664375f55c4f58309f69bd6a9410c",
+      "bytes": 13374,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        22,
+        10,
+        105,
+        118
+      ],
+      "transparent_margins": [
+        22,
+        10,
+        23,
+        10
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。逆水滴胴二眼、頭頂の平たい小房三つ、浅い中央帯溝一つ、三根尾と各先端の同大丸粒。房の寸法、帯溝と陰影を画像生成編集で修正。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
