@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-005",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-decay-005-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-005 / ウズハペル / 腐体 (decay)\nBody and exact anatomy: 体幹1節の薄い渦巻き円盤形。脚6本、目2個、翼0枚、尾1本。円盤は一枚の幅広い葉が二巻きした形\nMaterials and biological motif: しなやかな湿り落葉。丸まった枯葉をほどき、腐植と水を混ぜる\nPrimary, secondary, accent colors respectively: #CFA261; #6E8772; #E8D1AA\nThree mandatory visual identifiers: 上面の渦は必ず二巻き; 葉の外端に丸い欠けが2個; 尾は一枚葉の細い葉柄として伸びる\nPose: 六脚を少しのぞかせ、円盤上面を正面寄りに傾ける\nTemperament to convey through expression or posture: ゆったり。乾燥すると渦をきゅっと小さくする. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 渦を硬い貝殻にしない; 二巻きを多数の渦へ増やさない; 葉柄の尾に羽毛を付けない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express materials with a few quiet flat shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-decay-005-default-attempt002-prompt": "Use case: precise-object-edit\nCorrect only the leg exposure and leaf-stalk tail to the existing brief. Keep EXACTLY SIX legs but shorten their visible extension so all six only peek a little out beneath the broad leaf-spiral disk, instead of the current four large long exposed legs. Keep each leg individually readable, no hidden/deleted/extra legs. Keep the single tail a THIN LEAF STALK along its whole length to the tip; remove only the little leaf-blade expansion at the upper-left tip, leaving a slim tapering petiole, not feather. Preserve the one broad leaf wound exactly TWO turns, exactly two round nicks in the outer edge, both eyes, all palette roles, pose and all other features. No shellhardening, no extra coils. Genuine transparent background. Complete brief:\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-005 / ウズハペル / 腐体 (decay)\nBody and exact anatomy: 体幹1節の薄い渦巻き円盤形。脚6本、目2個、翼0枚、尾1本。円盤は一枚の幅広い葉が二巻きした形\nMaterials and biological motif: しなやかな湿り落葉。丸まった枯葉をほどき、腐植と水を混ぜる\nPrimary, secondary, accent colors respectively: #CFA261; #6E8772; #E8D1AA\nThree mandatory visual identifiers: 上面の渦は必ず二巻き; 葉の外端に丸い欠けが2個; 尾は一枚葉の細い葉柄として伸びる\nPose: 六脚を少しのぞかせ、円盤上面を正面寄りに傾ける\nTemperament to convey through expression or posture: ゆったり。乾燥すると渦をきゅっと小さくする. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 渦を硬い貝殻にしない; 二巻きを多数の渦へ増やさない; 葉柄の尾に羽毛を付けない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express materials with a few quiet flat shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-decay-005-default-attempt003-prompt": "Use case: precise-object-edit\nCorrect ONLY the missing sixth short leg. Current reference shows five small leg tips: left outer, left-front, middle-front, right-inner, right-outer. Add ONE short leg peeking from under the disk between the left outer and left-front legs, with its outline clearly separate from both neighboring legs. Keep its exposure small like the other shortened legs. Exactly SIX legs total, no seventh. Preserve the flat disk of one broad leaf wound exactlyTWO turns, the two round outer-edge notches, two eyes, the one thin leaf-stalk tail without a broadened tip, posture, colors, material texture, and every other feature. Genuine transparent alpha, no shadow/halo. Complete brief:\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-decay-005 / ウズハペル / 腐体 (decay)\nBody and exact anatomy: 体幹1節の薄い渦巻き円盤形。脚6本、目2個、翼0枚、尾1本。円盤は一枚の幅広い葉が二巻きした形\nMaterials and biological motif: しなやかな湿り落葉。丸まった枯葉をほどき、腐植と水を混ぜる\nPrimary, secondary, accent colors respectively: #CFA261; #6E8772; #E8D1AA\nThree mandatory visual identifiers: 上面の渦は必ず二巻き; 葉の外端に丸い欠けが2個; 尾は一枚葉の細い葉柄として伸びる\nPose: 六脚を少しのぞかせ、円盤上面を正面寄りに傾ける\nTemperament to convey through expression or posture: ゆったり。乾燥すると渦をきゅっと小さくする. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 渦を硬い貝殻にしない; 二巻きを多数の渦へ増やさない; 葉柄の尾に羽毛を付けない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express materials with a few quiet flat shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.\n",
+      "sm-decay-005-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-decay-005; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-decay-005 / ウズハペル / 腐体 (decay)\nLocked body and anatomy: 体幹1節の薄い渦巻き円盤形。脚6本、目2個、翼0枚、尾1本。円盤は一枚の幅広い葉が二巻きした形\nLocked material cues: しなやかな湿り落葉。丸まった枯葉をほどき、腐植と水を混ぜる\nLocked palette roles, primary/secondary/accent: #CFA261; #6E8772; #E8D1AA\nAll three identifiers must remain recognizable: 上面の渦は必ず二巻き; 葉の外端に丸い欠けが2個; 尾は一枚葉の細い葉柄として伸びる\nLocked pose: 六脚を少しのぞかせ、円盤上面を正面寄りに傾ける\nLocked temperament/expression: ゆったり。乾燥すると渦をきゅっと小さくする. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 渦を硬い貝殻にしない; 二巻きを多数の渦へ増やさない; 葉柄の尾に羽毛を付けない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "e76b12b24e45aaa35955eb3ed2615433574339f333696c45901866932aa0135d",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-decay-005-default-attempt001-original.png",
+          "sha256": "03879ac945796452a0ae88a97f0926cf91570b246130ec1f75a1bceb59d89904",
+          "bytes": 1147938,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-005-default-attempt002-original.png",
+          "sha256": "fe867e2174ce376cbdd4d888ea0ac9616b54ec83eb919bbc35c36b6640988f05",
+          "bytes": 950329,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-005-default-attempt003-original.png",
+          "sha256": "3eba94fa7a9a493fc3905746555a8a1256fdc7bce1da3478a08553f30b8fd203",
+          "bytes": 969207,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-decay-005-pixel-attempt001-original.png",
+          "sha256": "591449c314d9cf61b441e1f024b25ca96e361f19eb50889373864ad01312e6f4",
+          "bytes": 960510,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/decay/sm-decay-005/default.png",
+      "sha256": "e76b12b24e45aaa35955eb3ed2615433574339f333696c45901866932aa0135d",
+      "bytes": 618717,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        154,
+        944,
+        870
+      ],
+      "transparent_margins": [
+        80,
+        154,
+        80,
+        154
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/decay/sm-decay-005/pixel.png",
+      "sha256": "44e43475faae89f8b0f6def5c3ecc91d4a1d9932d076502a8a2bd3a0cd5dd8fd",
+      "bytes": 12209,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        16,
+        118,
+        112
+      ],
+      "transparent_margins": [
+        10,
+        16,
+        10,
+        16
+      ],
+      "visible_colors": 32,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。二巻きの葉の円盤、短い六脚・二眼・細い葉柄尾一つ、丸い縁切欠二つ。脚長・尾先・不足脚を画像生成編集で修正。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
