@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-015",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-arcane-015-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-015 / ココネハク / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の横長の三日月袋。脚5本、目2個、翼0枚、尾1本。凹んだ辺が上向きで両端は丸い\nMaterials and biological motif: 拍動するやわらかな音布。寝静まった草地で昼の騒がしい余韻を吸いとる\nPrimary, secondary, accent colors respectively: #D5A1A0; #517F87; #F8E4BD\nThree mandatory visual identifiers: 五本脚は下辺に一列で並ぶ; 上の凹みに丸い発光粒が固定で1個; 尾は短い四角い房で終わる\nPose: 中央の脚を浮かせ、残り四脚で一歩進む\nTemperament to convey through expression or posture: おっとり。音を吸うたびに袋が小さく上下する. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 月の顔のような鼻を描かない; 浮く発光粒を複数にしない; 尾房を長い髪に変えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.",
+      "sm-arcane-015-default-attempt002-prompt": "Use case: precise-object-edit\nCorrect only two failed details of this exact creature. First replace the rounded fan-shaped tail end with a SHORT SQUARE TUFT: compact fabric tassel ending in a clearly straight flat edge with square corners and parallel sides, not a flared fan, rounded paddle or long hair. Keep one short tail. Second remove the diffuse halo outside the single round glowing bead, while keeping the bead itself bright and fixed in the upper concavity. All surrounding pixels outside the creature and bead must be genuinely transparent; do not delete the bead. Preserve the one horizontal crescent-shaped soft bag with upward concavity and rounded ends, exactly five legs arranged in a single row along the bottom edge with the center leg raised and other four stepping, exactly two eyes, no wings. Preserve the rose #D5A1A0 primary, teal #517F87 secondary, cream #F8E4BD accent, existing seams and calm expression, body proportions and pose. Keep the hand-drawn dark-outline restrained cel-shading. No nose, extra bead, long hair, ground, scenery, shadow, text or other new decoration. Single full creature, square transparent canvas with generous margins. Change only tail tuft outline and external bead halo.",
+      "sm-arcane-015-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-015; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-015 / ココネハク / 魔体 (arcane)\nLocked body and anatomy: 体幹1節の横長の三日月袋。脚5本、目2個、翼0枚、尾1本。凹んだ辺が上向きで両端は丸い\nLocked material cues: 拍動するやわらかな音布。寝静まった草地で昼の騒がしい余韻を吸いとる\nLocked palette roles, primary/secondary/accent: #D5A1A0; #517F87; #F8E4BD\nAll three identifiers must remain recognizable: 五本脚は下辺に一列で並ぶ; 上の凹みに丸い発光粒が固定で1個; 尾は短い四角い房で終わる\nLocked pose: 中央の脚を浮かせ、残り四脚で一歩進む\nLocked temperament/expression: おっとり。音を吸うたびに袋が小さく上下する. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 月の顔のような鼻を描かない; 浮く発光粒を複数にしない; 尾房を長い髪に変えない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.",
+      "sm-arcane-015-pixel-attempt002-prompt": "Use case: precise-object-edit\nRemove only the unwanted dark background and broad brown diffuse halo from this pixel-art creature. Replace every pixel outside the creature, its five legs, short square-tuft tail and single fixed bead with genuine transparent alpha, including gaps between legs. Keep the exact same creature and pose: one soft horizontal crescent with concavity up, two eyes, five lower-row legs with center raised and other four stepping, zero wings, one short tail ending in a straight-edged quadrilateral tuft, and one bright bead fixed in the upper notch. Preserve rose/teal/cream colors, body proportions, flat pixel clusters and identity. The bead may be bright INSIDE its outline but must not emit any exterior glow. Use an intentional128×128 logical pixel grid, no more than32 visible colors, hard opaque sprite pixels and fully transparent background pixels only, one consistent pixel size and1–2pixel contour. If enlarged, use uniform integer enlargement of that128grid. Fullbody with8pixel minimum margins, longest96–112 logicalpixels, squarecanvas. No ground, backdrop, outsideglow, blur, antialiasing, dithering noise, text, extra features or redesign."
+    },
+    "reference_default_sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-015-default-attempt001-original.png",
+          "sha256": "898eac0923c4aef68adb822f2119feca15c2886c37ad8922c8e8e94bd2bd4e91",
+          "bytes": 1115778,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-015-default-attempt002-original.png",
+          "sha256": "b0aca26f5f78beef9eb3f2c2fbb03118606016988a19064ae08b5b07fef8d129",
+          "bytes": 961635,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-015-pixel-attempt001-original.png",
+          "sha256": "7c59472fe109b6532c82ca2da482e5cf6d26dd458e0031c44d4154d236543932",
+          "bytes": 1327219,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-015-pixel-attempt002-original.png",
+          "sha256": "8914e4782cb3d5c83faec9a6bf5a62c7559a4e42c115bbca1a74366d5b96a549",
+          "bytes": 773893,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-015/default.png",
+      "sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb",
+      "bytes": 569826,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        202,
+        944,
+        821
+      ],
+      "transparent_margins": [
+        80,
+        202,
+        80,
+        203
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-015/pixel.png",
+      "sha256": "4f739054accdf369aa25e378396c5e73366346a9b001a96cc32c474ca91ec2a5",
+      "bytes": 9391,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        29,
+        118,
+        98
+      ],
+      "transparent_margins": [
+        10,
+        29,
+        10,
+        30
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。横向き三日月の布袋1・五脚・二眼・翼0・尾1・上凹みの固定玉1・短い四角尾房、中央脚を浮かせる姿勢と配色を確認。PNG規格・永続保存読戻しを検証。",
+    "review_notes": [
+      "通常初稿の尾房と玉周辺のハローを画像生成編集で修正。pixel初稿の体外ハローも画像生成編集で除去。全原本保持。",
+      "pixelでも五脚と浮いた中央脚、二眼、固定玉、短い四角尾房を判別可能。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
