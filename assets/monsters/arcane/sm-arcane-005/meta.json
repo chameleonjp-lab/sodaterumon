@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-005",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": {
+      "default": "2026-10-09T09:46:39Z",
+      "pixel": "2026-10-09T09:48:47Z"
+    },
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-005 / ホワツギラ / 魔体 (arcane)\nBody and exact anatomy: 体幹2節の上下に大小の袋が重なるひょうたん形。脚8本、目1個、翼0枚、細い尾1本\nMaterials and biological motif: 夜明けの光を蓄える乳白の膜袋。薄暗い葉陰へ余った明るさを分ける\nPrimary, secondary, accent colors respectively: #E6AA72; #44786B; #FAF4D6\nThree mandatory visual identifiers: 上の袋は下の袋の半分の幅; 二袋のくびれに水平の発光帯が1周; 尾先に平たい六角形の光片が1枚\nPose: 八本の小脚で踏ん張り、上の袋をやや左へ傾ける\nTemperament to convey through expression or posture: 気前がよい。暗い場所ほどゆっくり進む. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 袋を硬い壺にしない; 目を上下の袋に分散させない; 尾先を炎にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "default-attempt002-prompt": "Use case: precise-object-edit\nCorrect the exact anatomy of this sm-arcane-005 creature while keeping its identity and colors. Make the upper membrane pouch precisely HALF the widest width of the lower pouch; retain its slight left lean and soft translucent membrane. Add the required ONE clearly recognizable eye with pupil and iris on the upper pouch, not just a white reflection. There must be exactly ONE eye total and no eye on the lower pouch. Keep exactly EIGHT small support legs arranged so all eight distinct feet can be counted, four on each side, connected continuously to the lower body. Preserve one thin tail ending in exactly one flat hexagonal light shard; the two connected pouches, single waist light band, no wings, no backdrop/ground/shadow/halo. Do not add other anatomy.\nFull original specification:\n\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-005 / ホワツギラ / 魔体 (arcane)\nBody and exact anatomy: 体幹2節の上下に大小の袋が重なるひょうたん形。脚8本、目1個、翼0枚、細い尾1本\nMaterials and biological motif: 夜明けの光を蓄える乳白の膜袋。薄暗い葉陰へ余った明るさを分ける\nPrimary, secondary, accent colors respectively: #E6AA72; #44786B; #FAF4D6\nThree mandatory visual identifiers: 上の袋は下の袋の半分の幅; 二袋のくびれに水平の発光帯が1周; 尾先に平たい六角形の光片が1枚\nPose: 八本の小脚で踏ん張り、上の袋をやや左へ傾ける\nTemperament to convey through expression or posture: 気前がよい。暗い場所ほどゆっくり進む. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 袋を硬い壺にしない; 目を上下の袋に分散させない; 尾先を炎にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "default-attempt003-prompt": "Use case: precise-object-edit\nEdit ONLY the eight legs of this sm-arcane-005 creature. The current legs are large long scythe-like limbs, but the catalog requires eight SMALL short supporting legs. Shorten all legs to about half their present length and reduce their bulk, retaining their existing colors and soft organic material. Arrange eight distinct short legs with eight separately visible tips: four on the creature's left side and four on its right side, all attached continuously to the lower pouch. Maintain a low braced stance. Do not hide an entire leg behind another. Do not change the two pouches, the upper pouch's half-width size, the single eye on the upper pouch, waist band, single thin tail and flat hexagonal terminal shard, palette or orientation. No extra appendages, background, ground, shadow or halo.\nFull catalog/rendering contract:\n\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-005 / ホワツギラ / 魔体 (arcane)\nBody and exact anatomy: 体幹2節の上下に大小の袋が重なるひょうたん形。脚8本、目1個、翼0枚、細い尾1本\nMaterials and biological motif: 夜明けの光を蓄える乳白の膜袋。薄暗い葉陰へ余った明るさを分ける\nPrimary, secondary, accent colors respectively: #E6AA72; #44786B; #FAF4D6\nThree mandatory visual identifiers: 上の袋は下の袋の半分の幅; 二袋のくびれに水平の発光帯が1周; 尾先に平たい六角形の光片が1枚\nPose: 八本の小脚で踏ん張り、上の袋をやや左へ傾ける\nTemperament to convey through expression or posture: 気前がよい。暗い場所ほどゆっくり進む. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 袋を硬い壺にしない; 目を上下の袋に分散させない; 尾先を炎にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "default-attempt004-prompt": "Use case: precise-object-edit\nEdit only the positioning of the TWO REARMOST support legs in this creature. There must be exactly eight short support legs in total, four on each side. Currently the three front feet on each side are visible but the rearmost pair is hidden. Reposition that existing rear pair outward and slightly upward on the canvas so their separate full shafts and tips are visible behind and clearly apart from the other three legs per side. Preserve the six clearly visible front feet, keeping their count unchanged. Do not add ninth or tenth legs. Every leg must emerge continuously from the lower body; no detached tips. Keep all eight small/short, with transparent gaps between their ends. Preserve the body, upper pouch at half width, one eye, waist band, single thin tail with flat hexagon, colors and pose. No background, ground, shadow or halo.\nFull original contract:\n\nUse case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-005 / ホワツギラ / 魔体 (arcane)\nBody and exact anatomy: 体幹2節の上下に大小の袋が重なるひょうたん形。脚8本、目1個、翼0枚、細い尾1本\nMaterials and biological motif: 夜明けの光を蓄える乳白の膜袋。薄暗い葉陰へ余った明るさを分ける\nPrimary, secondary, accent colors respectively: #E6AA72; #44786B; #FAF4D6\nThree mandatory visual identifiers: 上の袋は下の袋の半分の幅; 二袋のくびれに水平の発光帯が1周; 尾先に平たい六角形の光片が1枚\nPose: 八本の小脚で踏ん張り、上の袋をやや左へ傾ける\nTemperament to convey through expression or posture: 気前がよい。暗い場所ほどゆっくり進む. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 袋を硬い壺にしない; 目を上下の袋に分散させない; 尾先を炎にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-005; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-005 / ホワツギラ / 魔体 (arcane)\nLocked body and anatomy: 体幹2節の上下に大小の袋が重なるひょうたん形。脚8本、目1個、翼0枚、細い尾1本\nLocked material cues: 夜明けの光を蓄える乳白の膜袋。薄暗い葉陰へ余った明るさを分ける\nLocked palette roles, primary/secondary/accent: #E6AA72; #44786B; #FAF4D6\nAll three identifiers must remain recognizable: 上の袋は下の袋の半分の幅; 二袋のくびれに水平の発光帯が1周; 尾先に平たい六角形の光片が1枚\nLocked pose: 八本の小脚で踏ん張り、上の袋をやや左へ傾ける\nLocked temperament/expression: 気前がよい。暗い場所ほどゆっくり進む. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 袋を硬い壺にしない; 目を上下の袋に分散させない; 尾先を炎にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "8a9a45950178ded9c3b6d0008a008477260971c0216a22bb939b5677f5567a3e",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-005-default-attempt001-original.png",
+          "sha256": "7264b9037776d092726a55f71cd83bedbf2267a00253e037629622f973cf38ba",
+          "bytes": 965511,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-005-default-attempt002-original.png",
+          "sha256": "22d560eb88349a4d4d6f98f7f7e1712abbb7b33b2adb92561435d56343ea039e",
+          "bytes": 925581,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-005-default-attempt003-original.png",
+          "sha256": "68d10bdbbd191410b6cd10f776b14c8e13f90e4abfc213b4622bc427e873093e",
+          "bytes": 763766,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-005-default-attempt004-original.png",
+          "sha256": "3b9feacac6cff40ca9624d0b9757b90e0f7c1c7f03103cce1dd52f93d1c594a1",
+          "bytes": 922735,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-005-pixel-attempt001-original.png",
+          "sha256": "b8c9d86807c99ca4b8547b9683c73b67cacf87597f142821e385d95090880b47",
+          "bytes": 843843,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "原本保持。alpha < 8 の微小透過ゴミと孤立微小成分123pxのみ除去。比例縮小で長辺864px、透明1024pxキャンバス中央配置。形状の修正は画像生成のみ。",
+      "pixel": "採用通常版を実画像参照し別生成したpixel候補を使用。原本保持、alpha二値化、nearest-neighborの128格子調整、32色以下減色（実測31色）、透明余白配置。通常絵の単純縮小ではない。"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-005/default.png",
+      "sha256": "8a9a45950178ded9c3b6d0008a008477260971c0216a22bb939b5677f5567a3e",
+      "bytes": 572295,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        88,
+        944,
+        936
+      ],
+      "transparent_margins": [
+        80,
+        88,
+        80,
+        88
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-005/pixel.png",
+      "sha256": "f8e6fbcc41801d7b44d05440de59111944142dd05f236eae3bd970e080018a8f",
+      "bytes": 10008,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        10,
+        118,
+        118
+      ],
+      "transparent_margins": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。左右4本ずつ8小脚、単眼、上下2袋・上袋約半幅・左傾、横一周光帯、細尾1と六角光片を確認。PNG規格と永続保存読戻しhashも検証。",
+    "review_notes": [
+      "通常初期候補の大きすぎる上袋、単眼の不明瞭さ、大きな脚、後脚の遮蔽は画像生成で修正。未合格候補は保持し完成数には含めない。",
+      "pixel膜と頭頂に細かな色の粒はあるが、原寸の部位可読性と輪郭・脚の隙間は維持。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
