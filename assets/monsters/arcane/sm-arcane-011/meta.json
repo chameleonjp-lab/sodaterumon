@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-011",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": {
+      "default": "2026-10-09T10:35:17Z",
+      "pixel": "2026-10-09T10:38:26Z"
+    },
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-arcane-011-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-011 / アヤヒルマ / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の幅広い六角薄板。脚4本、目0個、翼0枚、尾0本。四脚は板の下の四隅寄りに付く\nMaterials and biological motif: 光の干渉縞を保つ薄膜。浅瀬で反射光を広く散らし、水草の陰をやわらげる\nPrimary, secondary, accent colors respectively: #60B5AF; #C8753D; #F5E8CF\nThree mandatory visual identifiers: 六角板の中央に三角形の透明窓が1個; 背面に曲線の帯が平行に3本; 後縁だけ二つの丸い欠けがある\nPose: 四脚を広げ、六角面を斜め上へ向ける\nTemperament to convey through expression or posture: 静か。光の差す方向へ少しずつ体を傾ける. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 目や顔を追加しない; 窓に紋章や文字を入れない; 六角板を六本脚と取り違えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.",
+      "sm-arcane-011-default-attempt002-prompt": "Use case: precise-object-edit\nCorrect only these failed requirements in the supplied creature: show exactly FOUR complete distinct legs and four separate visible endpoints, attached underneath near the four corners of the plate and spread apart; currently only three full legs can be seen. Keep its single broad thin hexagonal plate, exactly one triangular transparent window in the center, exactly three parallel curved bands on the back, and exactly two round notches restricted to the rear edge. Keep no eyes, no face, no wings and no tail. Keep the upward-tilted hexagonal surface and overall composition. Correct the rendering to simple hand-drawn 2D game art: clear dark colored contour, restrained three-step flat cel shading and a few subtle light-interference patches, not dense shiny caustics or metallic glass. Preserve teal primary #60B5AF, orange secondary #C8753D, cream accent #F5E8CF. Keep the central triangular window visibly transparent/translucent and no symbol inside it. Do not add a sixth leg or extra notch. No glow outside the silhouette, scenery, ground, shadows or text. Single full body on genuinely transparent alpha, square canvas with generous clear margins.",
+      "sm-arcane-011-default-attempt003-prompt": "Use case: precise-object-edit\nThis creature still has only THREE clearly visible leg endpoints. Correct ONLY this failed leg visibility requirement. Reveal its FOURTH rear leg, attached below the far corner of the plate, extending beyond the upper-left far side so its full lower segment and separate foot tip can be clearly counted, with transparent space separating it from the existing left leg. The final count must be exactly four legs with four visible tips, not three or five. Keep the three currently visible legs in place and retain their design. Preserve every other feature: single thin broad hexagonal plate, central triangular translucent window, three parallel curved orange bands, exactly two rounded notches only on the rear edge, zero eyes/face/wings/tail, teal-orange-cream palette, upward tilt, and the existing simplified hand-drawn cel-shaded rendering. No new appendages or decorations except making the required fourth leg visible. No ground, scenery, text, outside glow or cast shadow. Full body on genuine transparent alpha, square canvas with generous margins.",
+      "sm-arcane-011-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-011; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-011 / アヤヒルマ / 魔体 (arcane)\nLocked body and anatomy: 体幹1節の幅広い六角薄板。脚4本、目0個、翼0枚、尾0本。四脚は板の下の四隅寄りに付く\nLocked material cues: 光の干渉縞を保つ薄膜。浅瀬で反射光を広く散らし、水草の陰をやわらげる\nLocked palette roles, primary/secondary/accent: #60B5AF; #C8753D; #F5E8CF\nAll three identifiers must remain recognizable: 六角板の中央に三角形の透明窓が1個; 背面に曲線の帯が平行に3本; 後縁だけ二つの丸い欠けがある\nLocked pose: 四脚を広げ、六角面を斜め上へ向ける\nLocked temperament/expression: 静か。光の差す方向へ少しずつ体を傾ける. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 目や顔を追加しない; 窓に紋章や文字を入れない; 六角板を六本脚と取り違えない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign."
+    },
+    "reference_default_sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-011-default-attempt001-original.png",
+          "sha256": "61e268f91ce16f8aa73dd59ed0a7a7cd959fa8ae0fd5604b05cf1b8e2e5da390",
+          "bytes": 1154711,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-011-default-attempt002-original.png",
+          "sha256": "1d66a4748cb732087439db84f122fe55da85d105d4b8a28676a73bb77e258828",
+          "bytes": 1028981,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-011-default-attempt003-original.png",
+          "sha256": "070b73fac982e4533513845e772a3f121b502965291a4f30dc33538fc21a8703",
+          "bytes": 1060570,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-011-pixel-attempt001-original.png",
+          "sha256": "ce3142b5dacb36d786f6a61560a698d97f48ead06d2546361bb6bf6182a486bd",
+          "bytes": 817137,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-011/default.png",
+      "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+      "bytes": 561016,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        181,
+        944,
+        842
+      ],
+      "transparent_margins": [
+        80,
+        181,
+        80,
+        182
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-011/pixel.png",
+      "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+      "bytes": 9686,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        22,
+        118,
+        106
+      ],
+      "transparent_margins": [
+        10,
+        22,
+        10,
+        22
+      ],
+      "visible_colors": 32,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。四脚の個別可視化、六角薄板・中央三角透け窓・平行曲線帯3・後縁丸欠け2、無眼無顔、pose・配色を確認。PNG規格・永続保存読戻しを検証。",
+    "review_notes": [
+      "通常初稿の三脚しか見えない状態と過剰な光沢を画像生成編集で修正。原本保持。",
+      "干渉膜の淡い反射表現を残し、pixelでも窓・帯・欠け・四脚の識別を確認。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
