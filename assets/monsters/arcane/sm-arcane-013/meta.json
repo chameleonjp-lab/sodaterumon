@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-013",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": {
+      "default": "2026-10-09T10:45:41Z",
+      "pixel": "2026-10-09T10:50:51Z"
+    },
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-arcane-013-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-013 / アメオリフ / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の下向き円錐形。脚0本、目2個、翼4枚、尾1本。四枚翼は円錐の広い上縁から生える\nMaterials and biological motif: 雨のリズムを折り込んだ透明な幕。降り始めの雨粒を受け、落ちる間隔を穏やかに整える\nPrimary, secondary, accent colors respectively: #81ADDD; #BE667B; #FFF1C4\nThree mandatory visual identifiers: 円錐上面に浅い丸いくぼみが1個; 四枚翼は長方形で角が丸い; 尾は円錐の尖端から続く一滴形\nPose: 四翼を斜め上へ開き、円錐の先を真下に向ける\nTemperament to convey through expression or posture: 世話好き。水たまりが揺れすぎない場所を選ぶ. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 傘の持ち手を付けない; 四翼を八本の骨組みにしない; 雨雲を別の胴として追加しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.",
+      "sm-arcane-013-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-013; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-013 / アメオリフ / 魔体 (arcane)\nLocked body and anatomy: 体幹1節の下向き円錐形。脚0本、目2個、翼4枚、尾1本。四枚翼は円錐の広い上縁から生える\nLocked material cues: 雨のリズムを折り込んだ透明な幕。降り始めの雨粒を受け、落ちる間隔を穏やかに整える\nLocked palette roles, primary/secondary/accent: #81ADDD; #BE667B; #FFF1C4\nAll three identifiers must remain recognizable: 円錐上面に浅い丸いくぼみが1個; 四枚翼は長方形で角が丸い; 尾は円錐の尖端から続く一滴形\nLocked pose: 四翼を斜め上へ開き、円錐の先を真下に向ける\nLocked temperament/expression: 世話好き。水たまりが揺れすぎない場所を選ぶ. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 傘の持ち手を付けない; 四翼を八本の骨組みにしない; 雨雲を別の胴として追加しない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign."
+    },
+    "reference_default_sha256": "afa37e316749a2d74f7641f564ff08397fdfc1b6ba5332fdac92f3c6c93ca723",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-013-default-attempt001-original.png",
+          "sha256": "f5807f512c2ccc0e5e695d64a7c27aa07f162e74b914fc0ecc77c91c38f53244",
+          "bytes": 1032382,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-013-pixel-attempt001-original.png",
+          "sha256": "5a103fb95a158184963efdd93aada578a641513a4edf227d8d925ed3435fcd7f",
+          "bytes": 820963,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-013/default.png",
+      "sha256": "afa37e316749a2d74f7641f564ff08397fdfc1b6ba5332fdac92f3c6c93ca723",
+      "bytes": 580213,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        83,
+        944,
+        940
+      ],
+      "transparent_margins": [
+        80,
+        83,
+        80,
+        84
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-013/pixel.png",
+      "sha256": "285171ed86d16f572d830bee8c59551fbaee00cfcd6cab5959173f8185a494dd",
+      "bytes": 10894,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        10,
+        118,
+        118
+      ],
+      "transparent_margins": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。下向き円錐1・目2・角丸長方形翼4・一滴尾1・浅い上面くぼみ、pose・配色を確認。PNG規格・永続保存読戻しを検証。",
+    "review_notes": [
+      "透明幕の反射模様と色面は多いが、主要な明暗は分離したセル面であることを確認。",
+      "手前翼の画面下方向は俯瞰の透視表現として確認。pixelでも四翼・目・くぼみ・尾を識別可能。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

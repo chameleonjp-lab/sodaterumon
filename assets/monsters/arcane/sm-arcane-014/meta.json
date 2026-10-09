@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-014",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": {
+      "default": "2026-10-09T10:52:28Z",
+      "pixel": "2026-10-09T10:54:47Z"
+    },
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-arcane-014-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-arcane-014 / ノビメグル / 魔体 (arcane)\nBody and exact anatomy: 体幹1節の細長い八の字輪。脚2本、目2個、翼0枚、尾0本。上下二つの穴は下の穴が大きい\nMaterials and biological motif: 伸縮する明るい結び紐。林の枝間で光の通り道をゆるやかに案内する\nPrimary, secondary, accent colors respectively: #E9CE75; #716092; #D9F0E6\nThree mandatory visual identifiers: 交差点は胴の上から三分の一; 二つの目は上の輪の外側に付く; 二本脚は下の輪から短い横板状に出る\nPose: 下の輪を地面近くに置き、上の輪を前へ伸ばす\nTemperament to convey through expression or posture: 好奇心旺盛。狭い隙間を見つけるとまず輪を縮める. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 結び紐をほどいて一本線にしない; 手や指を追加しない; 上の輪を独立した顔にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\nRendering-contract emphasis: use discrete restrained cel-shaded shapes, about three tone steps per material, with organized dark colored outlines. Express luminous or transparent material through a few subtle flat highlight shapes, not dense glossy caustic texture, continuous gradients, or a 3D glass/plastic rendering. Every specified appendage count must be visually verifiable, with separate readable outlines; do not hide a required part behind the body.",
+      "sm-arcane-014-default-attempt002-prompt": "Use case: precise-object-edit\nCorrect only the crossing position of this single figure-eight-loop creature. The crossover is currently near the middle (about45% from the top), but the required crossover must be one-third of the BODY height from the top, excluding the short feet. Make the upper loop smaller/shorter and the lower loop longer/larger so the crossing is visibly at about33% down the whole loop body. The lower opening must remain clearly bigger than the upper opening. Keep one continuous narrow figure-eight cord body with two holes and a single crossing, exactly two eyes on the OUTSIDE of the upper loop, exactly two short horizontal plank-like legs from the lower loop, zero arms/hands/wings/tail. Preserve the upper loop leaning forward, lower loop near ground level (no ground drawn), right-facing eyes, yellow #E9CE75 primary, purple #716092 secondary, mint #D9F0E6 accent, all existing surface pattern placement where proportionally possible, and restrained dark-outline cel-shaded 2D style. Do not detach the upper loop into a separate face or untie the figure eight. No new decoration, props, text, shadow or outsidehalo. Genuine transparent alpha square canvas with ample margins. Change only the loop proportions needed to place the crossing at one-third body height.",
+      "sm-arcane-014-default-attempt003-prompt": "Use case: precise-object-edit\nMake one precise proportional correction to this figure-eight creature. Use the supplied1024px normalized image as the edit target. Body top is near y82 and body bottom (excluding feet) near y890. The actual centerline crossover is now around y397, which is too low. Move the centerline crossover UP to approximately y351 while keeping the body top and bottom near their existing positions. This means compress the upper loop vertically and extend the lower loop upward; the crossing CENTER, not merely its upper edge, must sit one-third of the body height from the top. Preserve two open holes, with lower hole clearly larger, the continuous single cord and exactly one crossing. Preserve all other identity: exactly two outward-mounted eyes on upper loop, exactly two short horizontal-plank feet attached to lower loop, no arms/hands/wings/tail; upper loop leaning forward, eyes right-facing, existing yellow-purple-mint palette and surface patterns, dark outline and cel shading. No other redesign. Fullbody genuine transparent alpha square image, generous margins, no text or scenery. The coordinate targets describe body proportions; do not draw guides or numbers.",
+      "sm-arcane-014-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-arcane-014; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-arcane-014 / ノビメグル / 魔体 (arcane)\nLocked body and anatomy: 体幹1節の細長い八の字輪。脚2本、目2個、翼0枚、尾0本。上下二つの穴は下の穴が大きい\nLocked material cues: 伸縮する明るい結び紐。林の枝間で光の通り道をゆるやかに案内する\nLocked palette roles, primary/secondary/accent: #E9CE75; #716092; #D9F0E6\nAll three identifiers must remain recognizable: 交差点は胴の上から三分の一; 二つの目は上の輪の外側に付く; 二本脚は下の輪から短い横板状に出る\nLocked pose: 下の輪を地面近くに置き、上の輪を前へ伸ばす\nLocked temperament/expression: 好奇心旺盛。狭い隙間を見つけるとまず輪を縮める. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 結び紐をほどいて一本線にしない; 手や指を追加しない; 上の輪を独立した顔にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign."
+    },
+    "reference_default_sha256": "6a5435f0a283dd6f645c28926f718f5f2b1616787ebf12acd941f9cba10e6970",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-arcane-014-default-attempt001-original.png",
+          "sha256": "dd8cb13c23a7c507ad2307d3f9ec6f8c1a7cba5a2ea10f2d96341cf3824dff9c",
+          "bytes": 855107,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-014-default-attempt002-original.png",
+          "sha256": "98c7ab3ac25fa2bff8e74cf3ddd942a578cc25672543a7623496ed9619b9f93d",
+          "bytes": 862087,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-014-default-attempt003-original.png",
+          "sha256": "941540e4d5f69a1a8cc0f11b36fbb1f13400826e5dca280205592464b5c128a3",
+          "bytes": 816350,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-arcane-014-pixel-attempt001-original.png",
+          "sha256": "41016c81e19083252f3dd139c7a9401100dd6cbe1a57396e88c3352ed63fc9b1",
+          "bytes": 772052,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/arcane/sm-arcane-014/default.png",
+      "sha256": "6a5435f0a283dd6f645c28926f718f5f2b1616787ebf12acd941f9cba10e6970",
+      "bytes": 511737,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        209,
+        80,
+        814,
+        944
+      ],
+      "transparent_margins": [
+        209,
+        80,
+        210,
+        80
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/arcane/sm-arcane-014/pixel.png",
+      "sha256": "47606660ffcb6b2e9a236aa6e83e7510e24c3bae937996bb6d6a477730b52eef",
+      "bytes": 9388,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        26,
+        10,
+        102,
+        118
+      ],
+      "transparent_margins": [
+        26,
+        10,
+        26,
+        10
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。連続した八の字1・上下二穴で下が大・上輪外側目2・短横板脚2・交差が上方約三分の一、pose・配色を確認。PNG規格・永続保存読戻しを検証。",
+    "review_notes": [
+      "通常初稿の交差位置約44–47%を画像生成編集2回で約34–35%へ修正。全原本保持。",
+      "胴上から三分の一の位置が交差帯の中央領域に入り、帯の厚みと前傾姿勢を考慮して要件に整合。pixelでも上方の交差を保持。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
