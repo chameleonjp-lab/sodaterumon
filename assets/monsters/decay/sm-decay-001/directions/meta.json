@@ -1,0 +1,993 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-001",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/decay/sm-decay-001/default.png",
+      "sha256": "85d7a3ad638b6e71de120714de07915bdadf63797504094791367d0b55518eca",
+      "git_blob_sha": "f623ba7bda3a6cf62082ea5de60cfdd292723972",
+      "bytes": 685159
+    },
+    "pixel": {
+      "path": "assets/monsters/decay/sm-decay-001/pixel.png",
+      "sha256": "fd59001dd8faabadc6b1a09b4e80380f84944741e2ba869d8f7582ac48203d56",
+      "git_blob_sha": "619aaf8c1581a2fa3be957dbc809af9f44312798",
+      "bytes": 9127
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-001/directions/S/default.png",
+      "sha256": "368b84a832fc397edb2ce463a2fd12e8540a0b659918d7660976a43664c5db17",
+      "bytes": 818557,
+      "git_blob_sha": "b71f970330959eb4a0886a30809704bcd6880fe0",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          165,
+          928,
+          859
+        ],
+        "margins": [
+          96,
+          165,
+          96,
+          165
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 115490,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-001/directions/S/pixel.png",
+      "sha256": "840d285b94fd2181de634dff47953cba99399eb0272e45711371d441cf718198",
+      "bytes": 11292,
+      "git_blob_sha": "c60bb5a2a3bbb9d8b379af3123bd4d9d00825d55",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          21,
+          116,
+          107
+        ],
+        "margins": [
+          12,
+          21,
+          12,
+          21
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "368b84a832fc397edb2ce463a2fd12e8540a0b659918d7660976a43664c5db17"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-001/directions/SW/default.png",
+      "sha256": "d7d7f27cd242834241688f53e5b8463f2544956edb824f1bb1d9100c333cbce8",
+      "bytes": 709385,
+      "git_blob_sha": "ba7ea168b1fdd02a58de4414eb63c21fcbfc5d1d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          192,
+          928,
+          831
+        ],
+        "margins": [
+          96,
+          192,
+          96,
+          193
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 102913,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-001/directions/SW/pixel.png",
+      "sha256": "19890ee5cd28ec443e116d4bd42deaf036cbfdd675376873140277754d13c744",
+      "bytes": 11305,
+      "git_blob_sha": "534708a9d810230b3813eabd24132b230e28ef7f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          23,
+          116,
+          104
+        ],
+        "margins": [
+          12,
+          23,
+          12,
+          24
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "d7d7f27cd242834241688f53e5b8463f2544956edb824f1bb1d9100c333cbce8"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-001/directions/W/default.png",
+      "sha256": "b181cfb84be5b2255ca9bd857602447ed0773afd5fc352ab2fa55b1dd7e34eb6",
+      "bytes": 680557,
+      "git_blob_sha": "53adca29675b20676e9d3577f0c0f8f458af4a96",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          235,
+          928,
+          788
+        ],
+        "margins": [
+          96,
+          235,
+          96,
+          236
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 94648,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-001/directions/W/pixel.png",
+      "sha256": "f7bc6d2d3ac565e16992dfee68c4669e6672ed70541654bd16cef950018300fe",
+      "bytes": 10164,
+      "git_blob_sha": "61e78bc197dd47471f6c00e93ae870cfbf9ff835",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          28,
+          116,
+          100
+        ],
+        "margins": [
+          12,
+          28,
+          12,
+          28
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "b181cfb84be5b2255ca9bd857602447ed0773afd5fc352ab2fa55b1dd7e34eb6"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-001/directions/NW/default.png",
+      "sha256": "030eedcc4e0502e0b9d6a62508b48f0b0536b2b802375bcbb6ba7fef27033b75",
+      "bytes": 677657,
+      "git_blob_sha": "03b30a129571fb5a9de68856bb4207fcdcc8a2e2",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          189,
+          928,
+          834
+        ],
+        "margins": [
+          96,
+          189,
+          96,
+          190
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 92797,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-001/directions/NW/pixel.png",
+      "sha256": "5a704a472cd0642d97ff0a8a385db57dfd0e6cb5f4e40659e99da1d38331ae22",
+      "bytes": 10168,
+      "git_blob_sha": "3bef255a3cf1393beb80cf79e940aaeba9ec196a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          21,
+          116,
+          106
+        ],
+        "margins": [
+          12,
+          21,
+          12,
+          22
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "030eedcc4e0502e0b9d6a62508b48f0b0536b2b802375bcbb6ba7fef27033b75"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-001/directions/N/default.png",
+      "sha256": "13b4ddf04fc98ae5a763c4d7fe62fbe57514e12facc7c4e99bb263b49b6ef3ce",
+      "bytes": 784226,
+      "git_blob_sha": "cca2e30700716bba2046db316f14d7752582ba05",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          125,
+          928,
+          898
+        ],
+        "margins": [
+          96,
+          125,
+          96,
+          126
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 98719,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-001/directions/N/pixel.png",
+      "sha256": "1a2e42ee131e7464054fa18254687cf0db76a971344c828039e2e849a069da50",
+      "bytes": 12022,
+      "git_blob_sha": "c7e6b9b9dd0cc0ef72073e4d08fb1fcedee92091",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          15,
+          116,
+          113
+        ],
+        "margins": [
+          12,
+          15,
+          12,
+          15
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "13b4ddf04fc98ae5a763c4d7fe62fbe57514e12facc7c4e99bb263b49b6ef3ce"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-001/directions/NE/default.png",
+      "sha256": "6379d7a0ceae4f22ef29ff6be0846f4e830336e5f3429c1b53f90e6afa11636e",
+      "bytes": 678259,
+      "git_blob_sha": "833e18fc2488133e13e91e1ba40982433faaac7d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          197,
+          928,
+          827
+        ],
+        "margins": [
+          96,
+          197,
+          96,
+          197
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 88815,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-001/directions/NE/pixel.png",
+      "sha256": "961095e9cf6df2419fca5963f4b38206793dadb98dc534c7b8730293ba6b868e",
+      "bytes": 10556,
+      "git_blob_sha": "8a77c6b2a44c19f20651b976d6e0e92abfd5e66b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          23,
+          116,
+          105
+        ],
+        "margins": [
+          12,
+          23,
+          12,
+          23
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "6379d7a0ceae4f22ef29ff6be0846f4e830336e5f3429c1b53f90e6afa11636e"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-001/directions/E/default.png",
+      "sha256": "bd576f1eb23afe26fe1b7d98ecdad1b0cc13958922fb08e7db098682aa142ee7",
+      "bytes": 633489,
+      "git_blob_sha": "532e02221f6ba403a753a52bded089c85119224a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          240,
+          928,
+          784
+        ],
+        "margins": [
+          96,
+          240,
+          96,
+          240
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 91327,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-001/directions/E/pixel.png",
+      "sha256": "d756a705fb4a182624983b36e903142b8df78a8fb64f7387aa22678696049dff",
+      "bytes": 9416,
+      "git_blob_sha": "afa399b4d04917777ebb3422ffd49608efcb0116",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          30,
+          116,
+          98
+        ],
+        "margins": [
+          12,
+          30,
+          12,
+          30
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "bd576f1eb23afe26fe1b7d98ecdad1b0cc13958922fb08e7db098682aa142ee7"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-001/default.png",
+      "sha256": "85d7a3ad638b6e71de120714de07915bdadf63797504094791367d0b55518eca",
+      "bytes": 685159,
+      "git_blob_sha": "f623ba7bda3a6cf62082ea5de60cfdd292723972",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          75,
+          64,
+          949,
+          960
+        ],
+        "margins": [
+          75,
+          64,
+          75,
+          64
+        ],
+        "visible_longest_extent": 896,
+        "visible_rgb_colors": 92508,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-001/pixel.png",
+      "sha256": "fd59001dd8faabadc6b1a09b4e80380f84944741e2ba869d8f7582ac48203d56",
+      "bytes": 9127,
+      "git_blob_sha": "619aaf8c1581a2fa3be957dbc809af9f44312798",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          24,
+          116,
+          103
+        ],
+        "margins": [
+          12,
+          24,
+          12,
+          25
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "85d7a3ad638b6e71de120714de07915bdadf63797504094791367d0b55518eca"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "Rear leaf patterns, overlaps and volume inferred; natural far-leg occlusion.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Asset: one normal 2D game creature view, sm-decay-001 S. Render EXACT same individual from reference, changing only yaw to directly FRONT facing camera, symmetric face with two eyes. Camera elevation stays same gentle raised angle as original, never overhead. Low broad oval single-section soft brown humus body of similar front/rear width; FOUR short legs total with pale ochre flat bean-shaped feet; TWO dark golden eyes total, naturally occluded with viewpoint; NO tail, wings, horns or teeth. Exactly THREE broad rounded mottled olive/yellow/brown leaves overlap sequentially along back; one thin yellow-green sprout at center forehead. Preserve original leaf shapes, earthy patchy surface, leaf veins, small surface fragments, mellow expression, contour and hand-painted flat shading. Back leaves remain soft foliage not rigid armor. Naturally hide far limbs rather than adding limbs to make counts visible. Full single creature, centered1024square genuine transparency, plenty clear margin, no background, ground, shadow, glow, words or extra subjects.",
+      "raw_sha256": "060a77a62fe71e6bf01c115b2614cfc89942f0081b3873ef5bca64159911d3e5",
+      "raw_bytes": 1176621,
+      "generation_references_in_order": [
+        {
+          "sha256": "85d7a3ad638b6e71de120714de07915bdadf63797504094791367d0b55518eca"
+        }
+      ],
+      "finished": {
+        "sha256": "368b84a832fc397edb2ce463a2fd12e8540a0b659918d7660976a43664c5db17",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          165,
+          928,
+          859
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 115490,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. One pixel-art sprite sm-decay-001 S. Image1 is the exact normal view to convert: keep its direction, pose, proportions, silhouette and natural occlusion unchanged. Image2 supplies the original pixel palette and style ONLY, not direction. Same low brown humus creature, THREE large overlapping rounded mottled leaves on back, ONE thin forehead sprout, FOUR short legs total with pale flat bean feet, TWO eyes total naturally hidden by view, no tail. Carefully draw crisp intentional pixel clusters for128x128 with binary alpha and at most32 visible earthy brown/olive/ochre colors. Preserve original's leaf veins, patterns and face where visible, simplify fine texture for readability. Whole single centered creature, generous transparent margin, absolutely no glow, shadow, backdrop, text or extra subjects.",
+      "raw_sha256": "d09264dd6853467041cc9cf8055d0b5d06736a4622b722f2ce0953f84e5832ec",
+      "raw_bytes": 859497,
+      "generation_references_in_order": [
+        {
+          "sha256": "060a77a62fe71e6bf01c115b2614cfc89942f0081b3873ef5bca64159911d3e5"
+        },
+        {
+          "sha256": "fd59001dd8faabadc6b1a09b4e80380f84944741e2ba869d8f7582ac48203d56"
+        }
+      ],
+      "finished": {
+        "sha256": "840d285b94fd2181de634dff47953cba99399eb0272e45711371d441cf718198",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          21,
+          116,
+          107
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Asset: one normal 2D game creature view, sm-decay-001 SW. Render EXACT same individual from reference, changing only yaw to front-left three-quarter, head toward screen lower-left. Camera elevation stays same gentle raised angle as original, never overhead. Low broad oval single-section soft brown humus body of similar front/rear width; FOUR short legs total with pale ochre flat bean-shaped feet; TWO dark golden eyes total, naturally occluded with viewpoint; NO tail, wings, horns or teeth. Exactly THREE broad rounded mottled olive/yellow/brown leaves overlap sequentially along back; one thin yellow-green sprout at center forehead. Preserve original leaf shapes, earthy patchy surface, leaf veins, small surface fragments, mellow expression, contour and hand-painted flat shading. Back leaves remain soft foliage not rigid armor. Naturally hide far limbs rather than adding limbs to make counts visible. Full single creature, centered1024square genuine transparency, plenty clear margin, no background, ground, shadow, glow, words or extra subjects.",
+      "raw_sha256": "3b8fcf259382b63dcc68271d417695f98cae20ba6c2ce57333d8999874e8217c",
+      "raw_bytes": 1243050,
+      "generation_references_in_order": [
+        {
+          "sha256": "85d7a3ad638b6e71de120714de07915bdadf63797504094791367d0b55518eca"
+        }
+      ],
+      "finished": {
+        "sha256": "d7d7f27cd242834241688f53e5b8463f2544956edb824f1bb1d9100c333cbce8",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          192,
+          928,
+          831
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 102913,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. One pixel-art sprite sm-decay-001 SW. Image1 is the exact normal view to convert: keep its direction, pose, proportions, silhouette and natural occlusion unchanged. Image2 supplies the original pixel palette and style ONLY, not direction. Same low brown humus creature, THREE large overlapping rounded mottled leaves on back, ONE thin forehead sprout, FOUR short legs total with pale flat bean feet, TWO eyes total naturally hidden by view, no tail. Carefully draw crisp intentional pixel clusters for128x128 with binary alpha and at most32 visible earthy brown/olive/ochre colors. Preserve original's leaf veins, patterns and face where visible, simplify fine texture for readability. Whole single centered creature, generous transparent margin, absolutely no glow, shadow, backdrop, text or extra subjects.",
+      "raw_sha256": "31d9c7cf02cc65399f7132d2737da56f5c1da814a2a05dffde27afe950630933",
+      "raw_bytes": 975919,
+      "generation_references_in_order": [
+        {
+          "sha256": "3b8fcf259382b63dcc68271d417695f98cae20ba6c2ce57333d8999874e8217c"
+        },
+        {
+          "sha256": "fd59001dd8faabadc6b1a09b4e80380f84944741e2ba869d8f7582ac48203d56"
+        }
+      ],
+      "finished": {
+        "sha256": "19890ee5cd28ec443e116d4bd42deaf036cbfdd675376873140277754d13c744",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          23,
+          116,
+          104
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Asset: one normal 2D game creature view, sm-decay-001 W. Render EXACT same individual from reference, changing only yaw to true LEFT profile, head toward screen-left and only near eye visible. Camera elevation stays same gentle raised angle as original, never overhead. Low broad oval single-section soft brown humus body of similar front/rear width; FOUR short legs total with pale ochre flat bean-shaped feet; TWO dark golden eyes total, naturally occluded with viewpoint; NO tail, wings, horns or teeth. Exactly THREE broad rounded mottled olive/yellow/brown leaves overlap sequentially along back; one thin yellow-green sprout at center forehead. Preserve original leaf shapes, earthy patchy surface, leaf veins, small surface fragments, mellow expression, contour and hand-painted flat shading. Back leaves remain soft foliage not rigid armor. Naturally hide far limbs rather than adding limbs to make counts visible. Full single creature, centered1024square genuine transparency, plenty clear margin, no background, ground, shadow, glow, words or extra subjects.",
+      "raw_sha256": "b668140c1df6498ec7076cc2413aa15c2a8d6a18fab3afb25f4442c7fe7000b7",
+      "raw_bytes": 1040693,
+      "generation_references_in_order": [
+        {
+          "sha256": "85d7a3ad638b6e71de120714de07915bdadf63797504094791367d0b55518eca"
+        }
+      ],
+      "finished": {
+        "sha256": "b181cfb84be5b2255ca9bd857602447ed0773afd5fc352ab2fa55b1dd7e34eb6",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          235,
+          928,
+          788
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 94648,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. One pixel-art sprite sm-decay-001 W. Image1 is the exact normal view to convert: keep its direction, pose, proportions, silhouette and natural occlusion unchanged. Image2 supplies the original pixel palette and style ONLY, not direction. Same low brown humus creature, THREE large overlapping rounded mottled leaves on back, ONE thin forehead sprout, FOUR short legs total with pale flat bean feet, TWO eyes total naturally hidden by view, no tail. Carefully draw crisp intentional pixel clusters for128x128 with binary alpha and at most32 visible earthy brown/olive/ochre colors. Preserve original's leaf veins, patterns and face where visible, simplify fine texture for readability. Whole single centered creature, generous transparent margin, absolutely no glow, shadow, backdrop, text or extra subjects.",
+      "raw_sha256": "24f6985a0660603ff9add47ac1b830750bf3f1a18c4c21d2a8374d109c2027a2",
+      "raw_bytes": 821762,
+      "generation_references_in_order": [
+        {
+          "sha256": "b668140c1df6498ec7076cc2413aa15c2a8d6a18fab3afb25f4442c7fe7000b7"
+        },
+        {
+          "sha256": "fd59001dd8faabadc6b1a09b4e80380f84944741e2ba869d8f7582ac48203d56"
+        }
+      ],
+      "finished": {
+        "sha256": "f7bc6d2d3ac565e16992dfee68c4669e6672ed70541654bd16cef950018300fe",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          28,
+          116,
+          100
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. One normal 2D game creature illustration sm-decay-001, NW direction: rear-left three-quarter, head recedes toward upper-left, rear rump nearer lower-right; eyes hidden. Exact same individual as reference, only yaw changed, preserve gentle elevated camera angle and low body height; never overhead. Single low broad oval soft brown humus body, FOUR short legs total with flat pale ochre bean feet, TWO golden eyes total hidden naturally from back, NO tail/wings/horns/teeth. Exactly THREE broad rounded mottled olive-yellow-brown leaves overlapping sequentially along spine; one thin yellow-green forehead sprout at front, may occlude behind leaves from rear. Preserve texture, leaf shapes, veining, earth palette, small surface fragments, proportions and hand-painted shading/contours. Rear is rounded soft mottled humus with no face, no tail or added protrusions. Far limbs may naturally hide, never invent to match visible counts. Full single creature with generous clear margins on square transparent canvas, no text, ground, cast shadow, glow, scenery or extra subjects.",
+      "raw_sha256": "9989d80363c02b57495877b3ce597004653b5f0d5c6497620069a86e9d7b64c4",
+      "raw_bytes": 1042516,
+      "generation_references_in_order": [
+        {
+          "sha256": "85d7a3ad638b6e71de120714de07915bdadf63797504094791367d0b55518eca"
+        }
+      ],
+      "finished": {
+        "sha256": "030eedcc4e0502e0b9d6a62508b48f0b0536b2b802375bcbb6ba7fef27033b75",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          189,
+          928,
+          834
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 92797,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Precisely redraw this REAR VIEW of the same leaf-covered humus creature as crisp pixel art on128x128 logical grid. This is the BACK of the creature: the nearest rounded brown rump is FACELESS, with no eyes, nose, mouth, forehead sprout or facial markings on it. The only sprout is at the distant head hidden beyond the three back leaves. Preserve EXACT shown viewing direction NW, limb positions, all silhouettes and leaf overlap from this sole reference. Do not rotate body or replace rump with head. Three large rounded olive/yellow mottled leaves, four bean-footed limbs total with natural occlusion, zero tail. Earthy brown body, limited≤32color palette, hard pixel clusters, binary transparent background. Whole centered sprite generous margins. No glow/shadow/text.",
+      "raw_sha256": "bfdd798367a68018cefec61da2fc0a374c5078e41429ab0d782266d17b785a48",
+      "raw_bytes": 978070,
+      "generation_references_in_order": [
+        {
+          "sha256": "9989d80363c02b57495877b3ce597004653b5f0d5c6497620069a86e9d7b64c4"
+        }
+      ],
+      "finished": {
+        "sha256": "5a704a472cd0642d97ff0a8a385db57dfd0e6cb5f4e40659e99da1d38331ae22",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          21,
+          116,
+          106
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. One normal 2D game creature illustration sm-decay-001, N direction: direct REAR view, rump facing camera, head and eyes hidden, symmetrical rear hips. Exact same individual as reference, only yaw changed, preserve gentle elevated camera angle and low body height; never overhead. Single low broad oval soft brown humus body, FOUR short legs total with flat pale ochre bean feet, TWO golden eyes total hidden naturally from back, NO tail/wings/horns/teeth. Exactly THREE broad rounded mottled olive-yellow-brown leaves overlapping sequentially along spine; one thin yellow-green forehead sprout at front, may occlude behind leaves from rear. Preserve texture, leaf shapes, veining, earth palette, small surface fragments, proportions and hand-painted shading/contours. Rear is rounded soft mottled humus with no face, no tail or added protrusions. Far limbs may naturally hide, never invent to match visible counts. Full single creature with generous clear margins on square transparent canvas, no text, ground, cast shadow, glow, scenery or extra subjects.",
+      "raw_sha256": "877392ce3151a38e300cc70a285be04099b824bb93974e120d8d67a570ee9244",
+      "raw_bytes": 1001688,
+      "generation_references_in_order": [
+        {
+          "sha256": "85d7a3ad638b6e71de120714de07915bdadf63797504094791367d0b55518eca"
+        }
+      ],
+      "finished": {
+        "sha256": "13b4ddf04fc98ae5a763c4d7fe62fbe57514e12facc7c4e99bb263b49b6ef3ce",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          125,
+          928,
+          898
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 98719,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Precisely redraw this REAR VIEW of the same leaf-covered humus creature as crisp pixel art on128x128 logical grid. This is the BACK of the creature: the nearest rounded brown rump is FACELESS, with no eyes, nose, mouth, forehead sprout or facial markings on it. The only sprout is at the distant head hidden beyond the three back leaves. Preserve EXACT shown viewing direction N, limb positions, all silhouettes and leaf overlap from this sole reference. Do not rotate body or replace rump with head. Three large rounded olive/yellow mottled leaves, four bean-footed limbs total with natural occlusion, zero tail. Earthy brown body, limited≤32color palette, hard pixel clusters, binary transparent background. Whole centered sprite generous margins. No glow/shadow/text.",
+      "raw_sha256": "bd01dd885179eead1ed3d834b83837ac68fbcd1f7d82521163ec6b733e4f4a86",
+      "raw_bytes": 908081,
+      "generation_references_in_order": [
+        {
+          "sha256": "877392ce3151a38e300cc70a285be04099b824bb93974e120d8d67a570ee9244"
+        }
+      ],
+      "finished": {
+        "sha256": "1a2e42ee131e7464054fa18254687cf0db76a971344c828039e2e849a069da50",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          15,
+          116,
+          113
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. One normal 2D game creature illustration sm-decay-001, NE direction: rear-right three-quarter, head recedes toward upper-right, rear rump nearer lower-left; eyes hidden. Exact same individual as reference, only yaw changed, preserve gentle elevated camera angle and low body height; never overhead. Single low broad oval soft brown humus body, FOUR short legs total with flat pale ochre bean feet, TWO golden eyes total hidden naturally from back, NO tail/wings/horns/teeth. Exactly THREE broad rounded mottled olive-yellow-brown leaves overlapping sequentially along spine; one thin yellow-green forehead sprout at front, may occlude behind leaves from rear. Preserve texture, leaf shapes, veining, earth palette, small surface fragments, proportions and hand-painted shading/contours. Rear is rounded soft mottled humus with no face, no tail or added protrusions. Far limbs may naturally hide, never invent to match visible counts. Full single creature with generous clear margins on square transparent canvas, no text, ground, cast shadow, glow, scenery or extra subjects.",
+      "raw_sha256": "d9f95ea0fee3a74742a4c435a4b9d4dac3b75479aeff1d78db751a31b7c60d05",
+      "raw_bytes": 1072060,
+      "generation_references_in_order": [
+        {
+          "sha256": "85d7a3ad638b6e71de120714de07915bdadf63797504094791367d0b55518eca"
+        }
+      ],
+      "finished": {
+        "sha256": "6379d7a0ceae4f22ef29ff6be0846f4e830336e5f3429c1b53f90e6afa11636e",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          197,
+          928,
+          827
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 88815,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Precisely redraw this REAR VIEW of the same leaf-covered humus creature as crisp pixel art on128x128 logical grid. This is the BACK of the creature: the nearest rounded brown rump is FACELESS, with no eyes, nose, mouth, forehead sprout or facial markings on it. The only sprout is at the distant head hidden beyond the three back leaves. Preserve EXACT shown viewing direction NE, limb positions, all silhouettes and leaf overlap from this sole reference. Do not rotate body or replace rump with head. Three large rounded olive/yellow mottled leaves, four bean-footed limbs total with natural occlusion, zero tail. Earthy brown body, limited≤32color palette, hard pixel clusters, binary transparent background. Whole centered sprite generous margins. No glow/shadow/text.",
+      "raw_sha256": "9e5c2672257305fb7c04cf69115aa9e21a22533334e6f503642d1324d50f1753",
+      "raw_bytes": 1027742,
+      "generation_references_in_order": [
+        {
+          "sha256": "d9f95ea0fee3a74742a4c435a4b9d4dac3b75479aeff1d78db751a31b7c60d05"
+        }
+      ],
+      "finished": {
+        "sha256": "961095e9cf6df2419fca5963f4b38206793dadb98dc534c7b8730293ba6b868e",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          23,
+          116,
+          105
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. One normal 2D game creature illustration sm-decay-001, E direction: true RIGHT profile, head toward screen-right, one near eye visible. Exact same individual as reference, only yaw changed, preserve gentle elevated camera angle and low body height; never overhead. Single low broad oval soft brown humus body, FOUR short legs total with flat pale ochre bean feet, TWO golden eyes total hidden naturally from back, NO tail/wings/horns/teeth. Exactly THREE broad rounded mottled olive-yellow-brown leaves overlapping sequentially along spine; one thin yellow-green forehead sprout at front, may occlude behind leaves from rear. Preserve texture, leaf shapes, veining, earth palette, small surface fragments, proportions and hand-painted shading/contours. Rear is rounded soft mottled humus with no face, no tail or added protrusions. Far limbs may naturally hide, never invent to match visible counts. Full single creature with generous clear margins on square transparent canvas, no text, ground, cast shadow, glow, scenery or extra subjects.",
+      "raw_sha256": "7c1a9e3b200f6843d37a335d60cfeb709dfed2113bd6b34593fe74b30e2b0293",
+      "raw_bytes": 1088696,
+      "generation_references_in_order": [
+        {
+          "sha256": "85d7a3ad638b6e71de120714de07915bdadf63797504094791367d0b55518eca"
+        }
+      ],
+      "finished": {
+        "sha256": "bd576f1eb23afe26fe1b7d98ecdad1b0cc13958922fb08e7db098682aa142ee7",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          240,
+          928,
+          784
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 91327,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. One pixel-art sprite sm-decay-001 E. Image1 is exact chosen normal view: retain its direction, silhouette, pose, anatomy and natural occlusion. Image2 is original pixel palette/style guide only. Convert same low oval brown humus creature with THREE broad overlapping rounded mottled olive/yellow leaves, ONE thin forehead sprout, FOUR short legs total with pale flat bean feet; eyes visible only where normal reference shows them, no rear face, no tail. Intentional crisp pixel clusters suitable128x128, binary transparency, ≤32 earthy brown/olive/ochre visible colors. Simplify texture while preserving leaf veins, distinctive sprout and feet. Whole single centered creature generous transparent margins, no glow, shadow, background, text or extra subjects.",
+      "raw_sha256": "3da365a5d4b2086f2d42decb81a3b441f9fbc204c151b55d2c2ead081cecc241",
+      "raw_bytes": 762760,
+      "generation_references_in_order": [
+        {
+          "sha256": "7c1a9e3b200f6843d37a335d60cfeb709dfed2113bd6b34593fe74b30e2b0293"
+        },
+        {
+          "sha256": "fd59001dd8faabadc6b1a09b4e80380f84944741e2ba869d8f7582ac48203d56"
+        }
+      ],
+      "finished": {
+        "sha256": "d756a705fb4a182624983b36e903142b8df78a8fb64f7387aa22678696049dff",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          30,
+          116,
+          98
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    }
+  ]
+}
