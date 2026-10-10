@@ -1,0 +1,836 @@
+{
+  "schema_version": 1,
+  "id": "sm-flora-013",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "S",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/flora/sm-flora-013/default.png",
+      "sha256": "dfb58bb844e605bc4bcb4b5c569d4df32283615c80a19c36f271dea7fdd5b94d",
+      "git_blob_sha": "c8f39c9b44d64ea7c5c4e345b96c8ea71ffc0e58",
+      "bytes": 607129
+    },
+    "pixel": {
+      "path": "assets/monsters/flora/sm-flora-013/pixel.png",
+      "sha256": "c61fe0ac6f2c0216d9d5691d81612d868543d73a5bd005ba1621f6a5035f793b",
+      "git_blob_sha": "d336e9338c0c0645fbe4c68ef35017ed46d1cd83",
+      "bytes": 10395
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-013/default.png",
+      "sha256": "dfb58bb844e605bc4bcb4b5c569d4df32283615c80a19c36f271dea7fdd5b94d",
+      "bytes": 607129,
+      "git_blob_sha": "c8f39c9b44d64ea7c5c4e345b96c8ea71ffc0e58",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          173,
+          80,
+          850,
+          944
+        ],
+        "margins": [
+          173,
+          80,
+          174,
+          80
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 83962,
+        "alpha_value_count": 249,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-013/pixel.png",
+      "sha256": "c61fe0ac6f2c0216d9d5691d81612d868543d73a5bd005ba1621f6a5035f793b",
+      "bytes": 10395,
+      "git_blob_sha": "d336e9338c0c0645fbe4c68ef35017ed46d1cd83",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          22,
+          10,
+          106,
+          118
+        ],
+        "margins": [
+          22,
+          10,
+          22,
+          10
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "dfb58bb844e605bc4bcb4b5c569d4df32283615c80a19c36f271dea7fdd5b94d"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-013/directions/SW/default.png",
+      "sha256": "c5f7bcc0fa6fe3c8de8289e25e98434ba145081f6d7eef5c9e79c45c0118185b",
+      "bytes": 490912,
+      "git_blob_sha": "896c84954e1114f6731ef47e2769eb485d9667d6",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          259,
+          96,
+          765,
+          928
+        ],
+        "margins": [
+          259,
+          96,
+          259,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 74733,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-013/directions/SW/pixel.png",
+      "sha256": "c74eab060567c78b91d06acde8417e349c95e91fbfbfe0a451ad8171386eb866",
+      "bytes": 7789,
+      "git_blob_sha": "face06c7fba8168856baa36af106e4ddb60824f5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          32,
+          12,
+          95,
+          116
+        ],
+        "margins": [
+          32,
+          12,
+          33,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "c5f7bcc0fa6fe3c8de8289e25e98434ba145081f6d7eef5c9e79c45c0118185b"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-013/directions/W/default.png",
+      "sha256": "8a723e41c707a23b019b51f0f0ea946e15b84ac1740d9e659d37a4a7aa991059",
+      "bytes": 300387,
+      "git_blob_sha": "26204965a6eba79ea470db8a5b9adb7722efaed5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          346,
+          96,
+          677,
+          928
+        ],
+        "margins": [
+          346,
+          96,
+          347,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 50658,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-013/directions/W/pixel.png",
+      "sha256": "83e789cf0835f293d34ce78fc100380ce368798f5fc169306089e57715f63313",
+      "bytes": 5084,
+      "git_blob_sha": "4ded1ee83e06295938fb3f97db432055ff5dac01",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          43,
+          12,
+          85,
+          116
+        ],
+        "margins": [
+          43,
+          12,
+          43,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "8a723e41c707a23b019b51f0f0ea946e15b84ac1740d9e659d37a4a7aa991059"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-013/directions/NW/default.png",
+      "sha256": "0dea3ddf7898e6884a1ba4853bae1bd8db437032dcfe157b8b0b05d905e37752",
+      "bytes": 591659,
+      "git_blob_sha": "79afa835f98b9a873df113661f53b505d702f44d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          197,
+          96,
+          827,
+          928
+        ],
+        "margins": [
+          197,
+          96,
+          197,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 78134,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-013/directions/NW/pixel.png",
+      "sha256": "4027ba817f7c3ee3e3325f2b53317cdd17d01102b48f6d13bb58d45228ffbcd8",
+      "bytes": 8260,
+      "git_blob_sha": "07094a01fe0ca35ba95ff06331761a952189c3ba",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          24,
+          12,
+          103,
+          116
+        ],
+        "margins": [
+          24,
+          12,
+          25,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "0dea3ddf7898e6884a1ba4853bae1bd8db437032dcfe157b8b0b05d905e37752"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-013/directions/N/default.png",
+      "sha256": "14b7be5532450facacaec9a064cc5b2861df922eae61ecbd4be55a43ebc0a0d3",
+      "bytes": 542598,
+      "git_blob_sha": "7ca758ad1cd45498cb4664f57afb956aab6fe82b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          186,
+          96,
+          837,
+          928
+        ],
+        "margins": [
+          186,
+          96,
+          187,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 69792,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-013/directions/N/pixel.png",
+      "sha256": "69966d29dbee982485cbc8a26e628f5aa2da2bad416d4e7aab77f6f8651eb37e",
+      "bytes": 8085,
+      "git_blob_sha": "973bd826458cfc0ce7e274a6954bcd2d7607a499",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          23,
+          12,
+          105,
+          116
+        ],
+        "margins": [
+          23,
+          12,
+          23,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "14b7be5532450facacaec9a064cc5b2861df922eae61ecbd4be55a43ebc0a0d3"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-013/directions/NE/default.png",
+      "sha256": "a781b3f01fd8eb982f7d911f150a2df5b1f326cddac480df25b3b8640880444e",
+      "bytes": 547483,
+      "git_blob_sha": "0e5e6925948fab44d7a804f4152144613f7e696f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          203,
+          96,
+          821,
+          928
+        ],
+        "margins": [
+          203,
+          96,
+          203,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 68187,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-013/directions/NE/pixel.png",
+      "sha256": "c96987bc6dd85762b0ca880ab2427d0214164265ac777e7142c51c432709e5e2",
+      "bytes": 7749,
+      "git_blob_sha": "a5049269fa4377e3ab00fc13179e3c2926036751",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          25,
+          12,
+          102,
+          116
+        ],
+        "margins": [
+          25,
+          12,
+          26,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "a781b3f01fd8eb982f7d911f150a2df5b1f326cddac480df25b3b8640880444e"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-013/directions/E/default.png",
+      "sha256": "de6906506464819af9e25995d7214d40c85b09bcd59bdb406d2c0cc56f0057de",
+      "bytes": 300437,
+      "git_blob_sha": "63341249584df3d3676725535568a0dac95e1b88",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          340,
+          96,
+          684,
+          928
+        ],
+        "margins": [
+          340,
+          96,
+          340,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 55051,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-013/directions/E/pixel.png",
+      "sha256": "29d049f105f18459a40c87ab085045cd916cb50aca33c3032b081ed0448bd7ed",
+      "bytes": 5393,
+      "git_blob_sha": "604d12a70ee709af19dd739235d5f94cb891898a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          42,
+          12,
+          86,
+          116
+        ],
+        "margins": [
+          42,
+          12,
+          42,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "de6906506464819af9e25995d7214d40c85b09bcd59bdb406d2c0cc56f0057de"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-013/directions/SE/default.png",
+      "sha256": "3ce9213a51df26ffa04c42e386967af599fc8a8de7d0a0f30afde90f9ce9a04a",
+      "bytes": 525813,
+      "git_blob_sha": "4e198a891832aca15ee20a7a6c2d45492733d627",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          233,
+          96,
+          791,
+          928
+        ],
+        "margins": [
+          233,
+          96,
+          233,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 77284,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-013/directions/SE/pixel.png",
+      "sha256": "6017e4044c0d7f10072eb20760411892ed20260d6c8ff07e80a42b13e1e82784",
+      "bytes": 7920,
+      "git_blob_sha": "612a0a196a3ee9cbe7d9ba2ce591057631ee2ebf",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          28,
+          12,
+          99,
+          116
+        ],
+        "margins": [
+          28,
+          12,
+          29,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "3ce9213a51df26ffa04c42e386967af599fc8a8de7d0a0f30afde90f9ce9a04a"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "V4 improves previous quality HOLD while retaining all earlier versions. Exact view angles and 3D coil continuity remain inferred; in-game/final acceptance pending.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "dfb58bb844e605bc4bcb4b5c569d4df32283615c80a19c36f271dea7fdd5b94d"
+      },
+      "original_preserved": true,
+      "source": {
+        "sha256": "dfb58bb844e605bc4bcb4b5c569d4df32283615c80a19c36f271dea7fdd5b94d"
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "c61fe0ac6f2c0216d9d5691d81612d868543d73a5bd005ba1621f6a5035f793b"
+      },
+      "original_preserved": true,
+      "source": {
+        "sha256": "c61fe0ac6f2c0216d9d5691d81612d868543d73a5bd005ba1621f6a5035f793b"
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "c5f7bcc0fa6fe3c8de8289e25e98434ba145081f6d7eef5c9e79c45c0118185b"
+      },
+      "raw": {
+        "sha256": "d95d57df41ab18885ddf47b000db1d931adfdad0964285bcc9e9d5d8e057516b"
+      },
+      "prompt": "Use case: identity-preserve. Rotate exact original FRONT S single-coil leaf creature to clear front-LEFT SW45. Whole upright leaf ring turns toward screen-LEFT and viewer, so right outer edge is NEAR and thick, left edge recedes; the two golden eyes fixed on FRONT surface shift toward screen-LEFT, far eye foreshortened near left silhouette. Central empty hole becomes a distinctly narrow vertical ellipse, about half the frontal opening width; show leaf thickness and pink inner wall. Preserve fixed winding: lower outer free end remains on image-RIGHT, farther around edge, never flipped to left. Exactly one broad green ribbon curled once, pink inside, cream vein stripes; exactly two branching pink-beige root legs rotate/overlap with ring. No extra coils leaves arms wings tail. Same low camera height and upright pose, no pitching or merely moving eyes. Transparent background and hole, fullbody centered, no text ground shadow, square1024.",
+      "generation_references": [
+        {
+          "sha256": "dfb58bb844e605bc4bcb4b5c569d4df32283615c80a19c36f271dea7fdd5b94d"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "c74eab060567c78b91d06acde8417e349c95e91fbfbfe0a451ad8171386eb866"
+      },
+      "raw": {
+        "sha256": "29a6e66615fcba977523e62f62376c7ce647afe300ff8a7bf7efd02056be827b"
+      },
+      "prompt": "Use case: style-transfer. Convert attached single-coil leaf creature into crisp128x128 game pixel sprite, EXACT same yaw direction, winding, hole shape and free-end position. One broad green ribbon curled ONCE with open central hole, dusty pink inside, cream stripes. Exactly two branching pink-beige root legs, front eyes visible only exactly where reference shows them, no eyes on back. Preserve near/far rim thickness, eye occlusion, lower free end side and leg overlap; do not mirror or reverse curl. Hard pixel clusters, limited32colors green/pink/cream/dark brown, binary transparent alpha, no antialiasing. Entire centered sprite with transparent margin and open hole, no text ground shadow. Direction SW.",
+      "generation_references": [
+        {
+          "sha256": "d95d57df41ab18885ddf47b000db1d931adfdad0964285bcc9e9d5d8e057516b"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "8a723e41c707a23b019b51f0f0ea946e15b84ac1740d9e659d37a4a7aa991059"
+      },
+      "raw": {
+        "sha256": "d49f3c6d4ec784dc58610163da8b4e3df86f83d0ea5f0afa75a5ef80060bc364"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 sprite SAME single-coil leaf creature rotated to W: true LEFT edge-on90: wide spiral leaf plane foreshortens to narrow vertical ribbon thickness, large center opening becomes thin slit/occluded, front eyes on far-facing surface mostly hidden around left edge; root legs overlap naturally. Original is direct front S. Exactly ONE broad thick ribbon leaf curled ONCE into standing spiral with large empty circular central space, outer leaf end slightly opens outward at lower rim, not a separate tail. Two golden eyes fixed on front outer leaf face only. Exactly TWO branching pink-beige root legs attach lowest coil, no arms/wings/extra leaves/flowers. Sage green leaf outside, dusty pink inner/reverse surface, cream diagonal vein stripes. Preserve coil handedness and free-end attachment while rotating whole object, never add coils or fill center. Fixed original camera height and upright stance, no overhead view, fullbody centered true transparent margin no text ground shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "dfb58bb844e605bc4bcb4b5c569d4df32283615c80a19c36f271dea7fdd5b94d"
+        }
+      ],
+      "reference_evidence": "saved original prompt reference declaration; retained original production files"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "83e789cf0835f293d34ce78fc100380ce368798f5fc169306089e57715f63313"
+      },
+      "raw": {
+        "sha256": "028e58f2767769b9e4857aba7a0f0e2e7ff79fed047a106241e869dd93d75342"
+      },
+      "prompt": "Use case: style-transfer. Convert attached single-coil leaf creature into crisp128x128 game pixel sprite, EXACT same yaw direction, winding, hole shape and free-end position. One broad green ribbon curled ONCE with open central hole, dusty pink inside, cream stripes. Exactly two branching pink-beige root legs, front eyes visible only exactly where reference shows them, no eyes on back. Preserve near/far rim thickness, eye occlusion, lower free end side and leg overlap; do not mirror or reverse curl. Hard pixel clusters, limited32colors green/pink/cream/dark brown, binary transparent alpha, no antialiasing. Entire centered sprite with transparent margin and open hole, no text ground shadow. Direction W.",
+      "generation_references": [
+        {
+          "sha256": "d49f3c6d4ec784dc58610163da8b4e3df86f83d0ea5f0afa75a5ef80060bc364"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "0dea3ddf7898e6884a1ba4853bae1bd8db437032dcfe157b8b0b05d905e37752"
+      },
+      "raw": {
+        "sha256": "494485ae80bb3f1c0753c4eb6e01be138ff6447a98a9a1e364769013fc35bb27"
+      },
+      "prompt": "Use case: identity-preserve. Edit attached eyeless rear leaf-coil creature to the OPPOSITE oblique view, rear-LEFT NW135. Change only camera yaw around its fixed upright coil; no mirroring or reversing winding. Its image-LEFT outer rim must be NEARER and much thicker/wider, image-RIGHT rim farther and narrower. Pink inner hole wall visible chiefly on image-RIGHT, not the current left. Hole's visible empty opening shifts to image-RIGHT within silhouette. Lower free end remains attached to LOWER LEFT, now nearer and wider, with fixed same inward leaf tip. Exactly one curl, two root legs, no eyes on back, green outside pink inside cream veins, same camera height. Fullbody transparent background and hole, no text shadow.",
+      "generation_references": [
+        {
+          "sha256": "e2fd2355df753b952661596dd4ded3aa3eab0dcbeae765bc7eced8c627a2b341"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "4027ba817f7c3ee3e3325f2b53317cdd17d01102b48f6d13bb58d45228ffbcd8"
+      },
+      "raw": {
+        "sha256": "1771a9ea925f7c059b1f74fc433e556d8d5fe659a6edbd5dc7cde53e536286bb"
+      },
+      "prompt": "Use case: style-transfer. Convert attached single-coil leaf creature into crisp128x128 game pixel sprite, EXACT same yaw direction, winding, hole shape and free-end position. One broad green ribbon curled ONCE with open central hole, dusty pink inside, cream stripes. Exactly two branching pink-beige root legs, front eyes visible only exactly where reference shows them, no eyes on back. Preserve near/far rim thickness, eye occlusion, lower free end side and leg overlap; do not mirror or reverse curl. Hard pixel clusters, limited32colors green/pink/cream/dark brown, binary transparent alpha, no antialiasing. Entire centered sprite with transparent margin and open hole, no text ground shadow. Direction NW.",
+      "generation_references": [
+        {
+          "sha256": "494485ae80bb3f1c0753c4eb6e01be138ff6447a98a9a1e364769013fc35bb27"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "14b7be5532450facacaec9a064cc5b2861df922eae61ecbd4be55a43ebc0a0d3"
+      },
+      "raw": {
+        "sha256": "1e14a34dec6e0044407efdf317ba914d202aa1d03c3b0dcfac432c49bcbba845"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 sprite SAME single-coil leaf creature rotated to N: direct REAR180: broad reverse of single leaf coil, same large open center, NO eyes on back, lower free end now projects opposite screen side consistently with rear view. Original is direct front S. Exactly ONE broad thick ribbon leaf curled ONCE into standing spiral with large empty circular central space, outer leaf end slightly opens outward at lower rim, not a separate tail. Two golden eyes fixed on front outer leaf face only. Exactly TWO branching pink-beige root legs attach lowest coil, no arms/wings/extra leaves/flowers. Sage green leaf outside, dusty pink inner/reverse surface, cream diagonal vein stripes. Preserve coil handedness and free-end attachment while rotating whole object, never add coils or fill center. Fixed original camera height and upright stance, no overhead view, fullbody centered true transparent margin no text ground shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "dfb58bb844e605bc4bcb4b5c569d4df32283615c80a19c36f271dea7fdd5b94d"
+        }
+      ],
+      "reference_evidence": "saved original prompt reference declaration; retained original production files"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "69966d29dbee982485cbc8a26e628f5aa2da2bad416d4e7aab77f6f8651eb37e"
+      },
+      "raw": {
+        "sha256": "77bb420b0cb14eeda7aefd567567164a99f4fec51dcc9d255ed9cd74499573eb"
+      },
+      "prompt": "Use case: style-transfer. Convert attached single-coil leaf creature into crisp128x128 game pixel sprite, EXACT same yaw direction, winding, hole shape and free-end position. One broad green ribbon curled ONCE with open central hole, dusty pink inside, cream stripes. Exactly two branching pink-beige root legs, front eyes visible only exactly where reference shows them, no eyes on back. Preserve near/far rim thickness, eye occlusion, lower free end side and leg overlap; do not mirror or reverse curl. Hard pixel clusters, limited32colors green/pink/cream/dark brown, binary transparent alpha, no antialiasing. Entire centered sprite with transparent margin and open hole, no text ground shadow. Direction N.",
+      "generation_references": [
+        {
+          "sha256": "1e14a34dec6e0044407efdf317ba914d202aa1d03c3b0dcfac432c49bcbba845"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "a781b3f01fd8eb982f7d911f150a2df5b1f326cddac480df25b3b8640880444e"
+      },
+      "raw": {
+        "sha256": "eea5f8741546eaa2fe6d3b622807ad7b9a5e8b13147d8183113d2864934d7993"
+      },
+      "prompt": "Use case: identity-preserve. Reference1 exact REAR N of single-coil leaf creature, reference2 original FRONT S identity. Rotate reference1 only45degrees in opposite yaw to rear-RIGHT NE225. Fixed same physical winding, not mirror. Rear LOWER LEFT free end remains left but becomes foreshortened around FAR left contour; outer ring's RIGHT side is nearer and thicker in projection, left side recedes. Hole narrows into ellipse, different right-oblique projection from N and NW. Exactly one broad green ribbon leaf curled once, dusty pink inside and cream stripe veins, two branching pink-beige root legs. Eyes are on opposite FRONT face hidden. No extra coils leaves arms wings tail. Same upright posture/camera height. Do not move lower outer terminal to lower-right; do not reverse curl. Whole body transparent background including hole, no text ground shadow, square1024.",
+      "generation_references": [
+        {
+          "sha256": "1e14a34dec6e0044407efdf317ba914d202aa1d03c3b0dcfac432c49bcbba845"
+        },
+        {
+          "sha256": "dfb58bb844e605bc4bcb4b5c569d4df32283615c80a19c36f271dea7fdd5b94d"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "c96987bc6dd85762b0ca880ab2427d0214164265ac777e7142c51c432709e5e2"
+      },
+      "raw": {
+        "sha256": "1085be82277dfce9b972a619962a2a143a802c2599dde6d1d73cba561103ccbc"
+      },
+      "prompt": "Use case: style-transfer. Convert attached single-coil leaf creature into crisp128x128 game pixel sprite, EXACT same yaw direction, winding, hole shape and free-end position. One broad green ribbon curled ONCE with open central hole, dusty pink inside, cream stripes. Exactly two branching pink-beige root legs, front eyes visible only exactly where reference shows them, no eyes on back. Preserve near/far rim thickness, eye occlusion, lower free end side and leg overlap; do not mirror or reverse curl. Hard pixel clusters, limited32colors green/pink/cream/dark brown, binary transparent alpha, no antialiasing. Entire centered sprite with transparent margin and open hole, no text ground shadow. Direction NE.",
+      "generation_references": [
+        {
+          "sha256": "eea5f8741546eaa2fe6d3b622807ad7b9a5e8b13147d8183113d2864934d7993"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "de6906506464819af9e25995d7214d40c85b09bcd59bdb406d2c0cc56f0057de"
+      },
+      "raw": {
+        "sha256": "9932c5423ec464978213bb20d875fbc9b69bc7d5989f806591e607b16f2c74c9"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 sprite SAME single-coil leaf creature at E: true RIGHT edge-on270, narrow upright thickness and thin center slit, one eye edge at right-facing contour, free end on physical same coil side. Image1 original FRONT S, image2 W edge-on thickness, image3 N reverse coil handedness/free end. Exactly ONE broad leaf ribbon curled ONCE with large central empty hole and lower outer free end slightly lifted, not a separate tail. TWO eyes fixed front outer leaf only, TWO branching pink-beige root legs, no extra leaves/arms/wings/coils. Preserve physical coil handedness through rotation, original green outside dusty pink inside cream vein stripes, fixed camera elevation and upright pose. Natural foreshortening and eye occlusion, no eyes on back or face inside hole. Fullbody centered transparent margins no text ground shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "dfb58bb844e605bc4bcb4b5c569d4df32283615c80a19c36f271dea7fdd5b94d"
+        },
+        {
+          "sha256": "d49f3c6d4ec784dc58610163da8b4e3df86f83d0ea5f0afa75a5ef80060bc364"
+        },
+        {
+          "sha256": "1e14a34dec6e0044407efdf317ba914d202aa1d03c3b0dcfac432c49bcbba845"
+        }
+      ],
+      "reference_evidence": "saved original prompt reference declaration; retained original production files"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "29d049f105f18459a40c87ab085045cd916cb50aca33c3032b081ed0448bd7ed"
+      },
+      "raw": {
+        "sha256": "5db714cb6cc3a9997ae3de27b6fa747adaecfbc2a456aa7097c557600b7b80a8"
+      },
+      "prompt": "Use case: style-transfer. Convert attached single-coil leaf creature into crisp128x128 game pixel sprite, EXACT same yaw direction, winding, hole shape and free-end position. One broad green ribbon curled ONCE with open central hole, dusty pink inside, cream stripes. Exactly two branching pink-beige root legs, front eyes visible only exactly where reference shows them, no eyes on back. Preserve near/far rim thickness, eye occlusion, lower free end side and leg overlap; do not mirror or reverse curl. Hard pixel clusters, limited32colors green/pink/cream/dark brown, binary transparent alpha, no antialiasing. Entire centered sprite with transparent margin and open hole, no text ground shadow. Direction E.",
+      "generation_references": [
+        {
+          "sha256": "9932c5423ec464978213bb20d875fbc9b69bc7d5989f806591e607b16f2c74c9"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "3ce9213a51df26ffa04c42e386967af599fc8a8de7d0a0f30afde90f9ce9a04a"
+      },
+      "raw": {
+        "sha256": "df1eb58c54d6204e7fd928b142c630b11242cfc86efe5b4801ea0057f7198e9c"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 sprite SAME single-coil leaf creature at SE: front-right315, front leaf face and two eyes foreshortened, oval center opening opposite SW. Image1 original FRONT S, image2 W edge-on thickness, image3 N reverse coil handedness/free end. Exactly ONE broad leaf ribbon curled ONCE with large central empty hole and lower outer free end slightly lifted, not a separate tail. TWO eyes fixed front outer leaf only, TWO branching pink-beige root legs, no extra leaves/arms/wings/coils. Preserve physical coil handedness through rotation, original green outside dusty pink inside cream vein stripes, fixed camera elevation and upright pose. Natural foreshortening and eye occlusion, no eyes on back or face inside hole. Fullbody centered transparent margins no text ground shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "dfb58bb844e605bc4bcb4b5c569d4df32283615c80a19c36f271dea7fdd5b94d"
+        },
+        {
+          "sha256": "d49f3c6d4ec784dc58610163da8b4e3df86f83d0ea5f0afa75a5ef80060bc364"
+        },
+        {
+          "sha256": "1e14a34dec6e0044407efdf317ba914d202aa1d03c3b0dcfac432c49bcbba845"
+        }
+      ],
+      "reference_evidence": "saved original prompt reference declaration; retained original production files"
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "6017e4044c0d7f10072eb20760411892ed20260d6c8ff07e80a42b13e1e82784"
+      },
+      "raw": {
+        "sha256": "60a4659732a37f624696735c48ae4ea425ea96cef35bbb0014f0dec4e7e606f0"
+      },
+      "prompt": "Use case: style-transfer. Convert attached single-coil leaf creature into crisp128x128 game pixel sprite, EXACT same yaw direction, winding, hole shape and free-end position. One broad green ribbon curled ONCE with open central hole, dusty pink inside, cream stripes. Exactly two branching pink-beige root legs, front eyes visible only exactly where reference shows them, no eyes on back. Preserve near/far rim thickness, eye occlusion, lower free end side and leg overlap; do not mirror or reverse curl. Hard pixel clusters, limited32colors green/pink/cream/dark brown, binary transparent alpha, no antialiasing. Entire centered sprite with transparent margin and open hole, no text ground shadow. Direction SE.",
+      "generation_references": [
+        {
+          "sha256": "df1eb58c54d6204e7fd928b142c630b11242cfc86efe5b4801ea0057f7198e9c"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    }
+  ]
+}
