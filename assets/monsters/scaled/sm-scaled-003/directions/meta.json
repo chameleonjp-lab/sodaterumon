@@ -1,0 +1,1380 @@
+{
+  "schema_version": 1,
+  "id": "sm-scaled-003",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/scaled/sm-scaled-003/default.png",
+      "sha256": "1feac304e766765d9ba02e19ca5dcb40b58edb0c20d0a2e6b83437fa175bf0ae",
+      "git_blob_sha": "ee5af5e27fbc90ff61f56f9644c3a296773d5380",
+      "bytes": 576301
+    },
+    "pixel": {
+      "path": "assets/monsters/scaled/sm-scaled-003/pixel.png",
+      "sha256": "0c2cf4917a8262e80c69e6a94bd02aa38b7966038ff12c099ad990f68dd87b47",
+      "git_blob_sha": "ce7977aac057aa0e10d3415bf683ee5b2b7d2d6e",
+      "bytes": 6123
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/S/default.png",
+      "sha256": "704a0a6fa2665c4bfd174b14b4afef38b35f161a52e741441f12e9b9964abfb8",
+      "bytes": 778512,
+      "git_blob_sha": "1bc0f4d00bcefaec2691eed0d439235970082155",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          165,
+          96,
+          858,
+          928
+        ],
+        "margins": [
+          165,
+          96,
+          166,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 49416,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/S/pixel.png",
+      "sha256": "377c9f5dc4dedbbcc8d632e6d7bc71e0df7b13c95c42c3c65d18ee7468a15a1f",
+      "bytes": 9810,
+      "git_blob_sha": "51fcfecd1372a50ec361b65997c26e211fd5f896",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          21,
+          12,
+          107,
+          116
+        ],
+        "margins": [
+          21,
+          12,
+          21,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "704a0a6fa2665c4bfd174b14b4afef38b35f161a52e741441f12e9b9964abfb8"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/SW/default.png",
+      "sha256": "a9cdc9a844a09e4f0d6df54c5175f766a87daa42dcc5cae887803fc63329ba09",
+      "bytes": 538657,
+      "git_blob_sha": "c48d9aeb308f2b4a8f5b70963ba96bb859defff9",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          213,
+          928,
+          811
+        ],
+        "margins": [
+          96,
+          213,
+          96,
+          213
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 42665,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/SW/pixel.png",
+      "sha256": "8cfe2e8e7f7884c1d97d32fdb6d8c42927a9b936e71f1ed5daea12718cc0e4ad",
+      "bytes": 7846,
+      "git_blob_sha": "4da9399c5b5df903e6911e614eac2bf5a5cf7d8d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          27,
+          116,
+          100
+        ],
+        "margins": [
+          12,
+          27,
+          12,
+          28
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "a9cdc9a844a09e4f0d6df54c5175f766a87daa42dcc5cae887803fc63329ba09"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/W/default.png",
+      "sha256": "56df5b2bd6b19a52c75e6d01778ab24743759491a44d4b295a113cb6e3ca617b",
+      "bytes": 425298,
+      "git_blob_sha": "838c22c32a30157bc4e96008f8ceef7a2c821e00",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          326,
+          928,
+          697
+        ],
+        "margins": [
+          96,
+          326,
+          96,
+          327
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 37622,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/W/pixel.png",
+      "sha256": "d44a1d819c6bcf5858a31cee15e962ddef5fc2f5006f15bcaec84639ffae8d29",
+      "bytes": 5705,
+      "git_blob_sha": "085f9727167e5252e0be9c567040e9615f371b09",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          41,
+          116,
+          86
+        ],
+        "margins": [
+          12,
+          41,
+          12,
+          42
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "56df5b2bd6b19a52c75e6d01778ab24743759491a44d4b295a113cb6e3ca617b"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/NW/default.png",
+      "sha256": "d3394ee0bec24241cef7a4cbf556118db77a802cecb5b9360d632edc0237470b",
+      "bytes": 552862,
+      "git_blob_sha": "475f8dce80e88c9e9a5330bebd36b779684f33a7",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          201,
+          928,
+          823
+        ],
+        "margins": [
+          96,
+          201,
+          96,
+          201
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 41809,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/NW/pixel.png",
+      "sha256": "09cdf1d965490c31903b7d1f25a355089a946e089a44faf3b882697f17424cc7",
+      "bytes": 7832,
+      "git_blob_sha": "25fa661cb99395d029ec373a43880a4d6e0124af",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          27,
+          116,
+          101
+        ],
+        "margins": [
+          12,
+          27,
+          12,
+          27
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "d3394ee0bec24241cef7a4cbf556118db77a802cecb5b9360d632edc0237470b"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/N/default.png",
+      "sha256": "49bc2e2bfa603c9ca4e9d9facdb93dc532b21904dea56c802f30782118b520e4",
+      "bytes": 686108,
+      "git_blob_sha": "cfcbbc5c8ba22b9217a83d22e0ab0f5f346fd3b4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          198,
+          96,
+          825,
+          928
+        ],
+        "margins": [
+          198,
+          96,
+          199,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 48188,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/N/pixel.png",
+      "sha256": "e61eb9694f89bed0ed38a011d17c75de97a98bce6114139f1d7dabc161eba563",
+      "bytes": 9651,
+      "git_blob_sha": "7006f597cd219552d31dfd4e895a8bdeb8fa546f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          25,
+          12,
+          102,
+          116
+        ],
+        "margins": [
+          25,
+          12,
+          26,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "49bc2e2bfa603c9ca4e9d9facdb93dc532b21904dea56c802f30782118b520e4"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/NE/default.png",
+      "sha256": "aff2aca59fd2ef2fa7582308095f99f9d7ec78e7cde2ce7eafc3c51a502a9495",
+      "bytes": 553503,
+      "git_blob_sha": "342fa8753ca3de43d7042f9b081b7d80fc6830d8",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          213,
+          928,
+          810
+        ],
+        "margins": [
+          96,
+          213,
+          96,
+          214
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 38750,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/NE/pixel.png",
+      "sha256": "ec226ef81914e4b3bdacebf3e536b191a7a3bce2129871deec4f68e6cca55321",
+      "bytes": 8351,
+      "git_blob_sha": "2ba8c0f4a16ddf5cf5d7f7978d6bf506506ff89b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          26,
+          116,
+          101
+        ],
+        "margins": [
+          12,
+          26,
+          12,
+          27
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "aff2aca59fd2ef2fa7582308095f99f9d7ec78e7cde2ce7eafc3c51a502a9495"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/E/default.png",
+      "sha256": "35b3356e72e5718a026b809442a082eb3129e0db256e43fb6dd35ae07e92cd5b",
+      "bytes": 459903,
+      "git_blob_sha": "ff90a8305a838e140f91aceb21cc318fabf1d4db",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          309,
+          928,
+          715
+        ],
+        "margins": [
+          96,
+          309,
+          96,
+          309
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 38571,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-003/directions/E/pixel.png",
+      "sha256": "b6d9b19e7bd3d604d233f4e13d805aa576e63cc6b6e453e7364fd69017133920",
+      "bytes": 6265,
+      "git_blob_sha": "678360d258f352e59b9dd813ee8640e257019df2",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          37,
+          116,
+          90
+        ],
+        "margins": [
+          12,
+          37,
+          12,
+          38
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "35b3356e72e5718a026b809442a082eb3129e0db256e43fb6dd35ae07e92cd5b"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-003/default.png",
+      "sha256": "1feac304e766765d9ba02e19ca5dcb40b58edb0c20d0a2e6b83437fa175bf0ae",
+      "bytes": 576301,
+      "git_blob_sha": "ee5af5e27fbc90ff61f56f9644c3a296773d5380",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          64,
+          98,
+          960,
+          926
+        ],
+        "margins": [
+          64,
+          98,
+          64,
+          98
+        ],
+        "visible_longest_extent": 896,
+        "visible_rgb_colors": 45876,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-003/pixel.png",
+      "sha256": "0c2cf4917a8262e80c69e6a94bd02aa38b7966038ff12c099ad990f68dd87b47",
+      "bytes": 6123,
+      "git_blob_sha": "ce7977aac057aa0e10d3415bf683ee5b2b7d2d6e",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          34,
+          116,
+          93
+        ],
+        "margins": [
+          12,
+          34,
+          12,
+          35
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 32,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "1feac304e766765d9ba02e19ca5dcb40b58edb0c20d0a2e6b83437fa175bf0ae"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and E comparison confirmed three segments, six paired feet, front two eyes / side one / rear hidden and normal/pixel correspondence.",
+    "limitations": [
+      "S/N camera inclination, intersegment distance and exact rigid rotation remain inferred. Corrected N rear plate selected; older N retained.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "E",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new directional illustration of the original creature in the reference. Direction E: RIGHT side profile. Front face at image right, rear at image left. Three cylindrical segments run horizontally across image, central segment slightly lifted. Near eye can be visible, far eye naturally hidden.\nKeep identity exactly: three thick equal-diameter cylindrical segments joined in a row, not four segments; six short feet, exactly one pair on each segment; two slate-blue eyes on the flat round front face only; no arms, wings, horns or tail. Each segment is wrapped in two broad leaf-shaped scale plates with softly rounded edges. Ochre-gold (#BA985F) upper plates, ivory-cream (#E9DDBD) sides and front face, dark blue-gray (#576C72) joints and paired toe tips. Preserve leaf veins, broad smooth shell contours, gently determined expression and original proportions. Central segment is slightly raised; front and rear feet touch the same implied floor. Use natural view-dependent occlusion for the six legs; do not invent extra feet or a rear face.\nMatch reference clean outline and softly cel-shaded illustration style, with the same camera elevation. Horizontal yaw is the only pose change. Full-body single creature centered on genuinely transparent alpha. 1024x1024 square, longest visible dimension about 832px with 96px empty margins. No text, background, floor, cast shadow, checkerboard or watermark. Render an actual new viewpoint, never a flat rotation or mirror.",
+      "raw_sha256": "ff1f5f23d77781a0fdb547b28fb647b24066a2d3e9dd8803042fab66e73ed5f3",
+      "generation_references_in_order": [
+        {
+          "sha256": "1feac304e766765d9ba02e19ca5dcb40b58edb0c20d0a2e6b83437fa175bf0ae"
+        }
+      ],
+      "finished_sha256": "35b3356e72e5718a026b809442a082eb3129e0db256e43fb6dd35ae07e92cd5b",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          59,
+          359,
+          1215,
+          923
+        ],
+        "resize": [
+          832,
+          406
+        ],
+        "offset": [
+          96,
+          309
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          309,
+          928,
+          715
+        ],
+        "margins": [
+          96,
+          309,
+          96,
+          309
+        ],
+        "visible_rgb_colors": 38571,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Redraw the exact original creature in the reference as an authentic 128x128 logical pixel-art sprite. This is direction E; preserve that exact facing, pose, silhouette, body proportions, limb positions and occlusions. Change only the rendering style.\nCreature identity: three equal-thickness cylindrical leaf-scale body segments in a row, six short feet with one pair per segment, exactly two eyes on the actual front face only, no tail or wings or horns. Ochre-gold upper plates, ivory-cream sides and end plates, dark blue-gray joints and paired toe tips. Preserve three segment boundaries and the slightly raised middle segment. Do not place eyes on an eyeless rear view. Do not add visible legs where naturally occluded in reference.\nDeliberately designed coarse pixel clusters, limited palette at most 24 visible colors, uniform square pixels, crisp staircase contours and 1 logical pixel outline. No antialiasing, gradients, blur or semitransparency. This must look intentionally hand-pixeled, not a pixel filter on the illustration. Full creature 104 logical pixels at longest extent with minimum12 pixels empty margin on every edge, centered on a transparent128 square. If large output is needed, enlarge the logical sprite 8x with nearest-neighbor, keeping every grid cell flat. Genuine transparent background, no ground shadow, labels, scenery, checkerboard or watermark.",
+      "raw_sha256": "3ed98e51b6603abf94f30d155b5e7420336e80326783648e917a38b969f4ed2a",
+      "generation_references_in_order": [
+        {
+          "sha256": "35b3356e72e5718a026b809442a082eb3129e0db256e43fb6dd35ae07e92cd5b"
+        }
+      ],
+      "finished_sha256": "b6d9b19e7bd3d604d233f4e13d805aa576e63cc6b6e453e7364fd69017133920",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          118,
+          381,
+          1138,
+          901
+        ],
+        "resize": [
+          104,
+          53
+        ],
+        "offset": [
+          12,
+          37
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          37,
+          116,
+          90
+        ],
+        "margins": [
+          12,
+          37,
+          12,
+          38
+        ],
+        "visible_rgb_colors": 24,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new directional illustration of the original creature in the reference. Direction N: Direct REAR view, facing straight away from viewer. Rear segment closest centered, other two segments recede behind it, middle slightly lifted. No eyes on rear face. Same moderately elevated camera as reference, with depth foreshortening rather than top-down length. Do not yaw sideways.\nKeep identity exactly: three thick equal-diameter cylindrical segments joined in a row, not four segments; six short feet, exactly one pair on each segment; two slate-blue eyes on the flat round front face only; no arms, wings, horns or tail. Each segment is wrapped in two broad leaf-shaped scale plates with softly rounded edges. Ochre-gold (#BA985F) upper plates, ivory-cream (#E9DDBD) sides and front face, dark blue-gray (#576C72) joints and paired toe tips. Preserve leaf veins, broad smooth shell contours, gently determined expression and original proportions. Central segment is slightly raised; front and rear feet touch the same implied floor. Use natural view-dependent occlusion for the six legs; do not invent extra feet or a rear face.\nMatch reference clean outline and softly cel-shaded illustration style, with the same camera elevation. Horizontal yaw is the only pose change. Full-body single creature centered on genuinely transparent alpha. 1024x1024 square, longest visible dimension about 832px with 96px empty margins. No text, background, floor, cast shadow, checkerboard or watermark. Render an actual new viewpoint, never a flat rotation or mirror.",
+      "raw_sha256": "6dca353f71fb97f0eefcc16c58a2c8fac9fe4e86071af653b9b093e53b7c1791",
+      "generation_references_in_order": [
+        {
+          "sha256": "1feac304e766765d9ba02e19ca5dcb40b58edb0c20d0a2e6b83437fa175bf0ae"
+        }
+      ],
+      "finished_sha256": "1ed5efb771a2e839702e5ca6982fce52d1e42f3ddb8eff1fbae66374dfdd0928",
+      "selected": false,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          278,
+          137,
+          982,
+          1069
+        ],
+        "resize": [
+          628,
+          832
+        ],
+        "offset": [
+          198,
+          96
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          198,
+          96,
+          826,
+          928
+        ],
+        "margins": [
+          198,
+          96,
+          198,
+          96
+        ],
+        "visible_rgb_colors": 50720,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "attempt": 2,
+      "actual_prompt": "Edit image 1, the N rear-view candidate of the original three-segment leaf-scale creature. Image 2 is its NE rear-three-quarter view, used only to show the correct rear plate shape.\nKeep image 1 straight centered rear-facing N view, its camera, six feet, three body sections and everything else fixed. Change only the visible nearest rear-end plate: it must be a broad, rounded ivory-cream leaf-like oval plate spanning the center of the end, like the rear plate clearly visible at the bottom-left of image 2. Do not leave a gold triangular wedge occupying the center of the rear end. The oval cream end plate has a restrained central leaf vein and subtle curved veins. It has NO eyes and no mouth. Keep ochre-gold upper scales above it, cream side scales flanking it and dark blue-gray small joints. Do not add any new body segment or tail. Preserve outline and cel-shading style.\nOne whole creature, genuine transparent alpha, 1024x1024 square with generous empty margin all sides. No ground, shadow, text, checkerboard or labels.",
+      "raw_sha256": "e9c2dfb0acc5f20b25d67c353750b465df9bff2dacf5b0df111a700e5a767b41",
+      "generation_references_in_order": [
+        {
+          "sha256": "1ed5efb771a2e839702e5ca6982fce52d1e42f3ddb8eff1fbae66374dfdd0928"
+        },
+        {
+          "sha256": "aff2aca59fd2ef2fa7582308095f99f9d7ec78e7cde2ce7eafc3c51a502a9495"
+        }
+      ],
+      "finished_sha256": "49bc2e2bfa603c9ca4e9d9facdb93dc532b21904dea56c802f30782118b520e4",
+      "selected": true,
+      "processing": {
+        "method": "Remove alpha1 stray noise then crop transparent margins, LANCZOS longest832 centered1024; raw and prior candidates retained",
+        "bbox": [
+          242,
+          117,
+          1012,
+          1138
+        ],
+        "size": [
+          627,
+          832
+        ],
+        "offset": [
+          198,
+          96
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "RGBA": true,
+        "canvas": [
+          1024,
+          1024
+        ],
+        "margins": [
+          198,
+          96,
+          199,
+          96
+        ],
+        "extent": 832
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Redraw the exact original creature in the reference as an authentic 128x128 logical pixel-art sprite. This is direction N; preserve that exact facing, pose, silhouette, body proportions, limb positions and occlusions. Change only the rendering style.\nCreature identity: three equal-thickness cylindrical leaf-scale body segments in a row, six short feet with one pair per segment, exactly two eyes on the actual front face only, no tail or wings or horns. Ochre-gold upper plates, ivory-cream sides and end plates, dark blue-gray joints and paired toe tips. Preserve three segment boundaries and the slightly raised middle segment. Do not place eyes on an eyeless rear view. Do not add visible legs where naturally occluded in reference.\nDeliberately designed coarse pixel clusters, limited palette at most 24 visible colors, uniform square pixels, crisp staircase contours and 1 logical pixel outline. No antialiasing, gradients, blur or semitransparency. This must look intentionally hand-pixeled, not a pixel filter on the illustration. Full creature 104 logical pixels at longest extent with minimum12 pixels empty margin on every edge, centered on a transparent128 square. If large output is needed, enlarge the logical sprite 8x with nearest-neighbor, keeping every grid cell flat. Genuine transparent background, no ground shadow, labels, scenery, checkerboard or watermark.",
+      "raw_sha256": "685d80a186633fc0a083d1ca4cea67283ac7c5909372f07afcab121ca04e3c32",
+      "generation_references_in_order": [
+        {
+          "sha256": "49bc2e2bfa603c9ca4e9d9facdb93dc532b21904dea56c802f30782118b520e4"
+        }
+      ],
+      "finished_sha256": "e61eb9694f89bed0ed38a011d17c75de97a98bce6114139f1d7dabc161eba563",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          272,
+          143,
+          982,
+          1105
+        ],
+        "resize": [
+          77,
+          104
+        ],
+        "offset": [
+          25,
+          12
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          25,
+          12,
+          102,
+          116
+        ],
+        "margins": [
+          25,
+          12,
+          26,
+          12
+        ],
+        "visible_rgb_colors": 24,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new directional illustration of the original creature in the reference. Direction NE: REAR RIGHT three-quarter view. Front points away to image upper-right; rear segment closest at lower-left. Show the rear and near side. Do not put eyes on rear segment; real front face is farthest away.\nKeep identity exactly: three thick equal-diameter cylindrical segments joined in a row, not four segments; six short feet, exactly one pair on each segment; two slate-blue eyes on the flat round front face only; no arms, wings, horns or tail. Each segment is wrapped in two broad leaf-shaped scale plates with softly rounded edges. Ochre-gold (#BA985F) upper plates, ivory-cream (#E9DDBD) sides and front face, dark blue-gray (#576C72) joints and paired toe tips. Preserve leaf veins, broad smooth shell contours, gently determined expression and original proportions. Central segment is slightly raised; front and rear feet touch the same implied floor. Use natural view-dependent occlusion for the six legs; do not invent extra feet or a rear face.\nMatch reference clean outline and softly cel-shaded illustration style, with the same camera elevation. Horizontal yaw is the only pose change. Full-body single creature centered on genuinely transparent alpha. 1024x1024 square, longest visible dimension about 832px with 96px empty margins. No text, background, floor, cast shadow, checkerboard or watermark. Render an actual new viewpoint, never a flat rotation or mirror.",
+      "raw_sha256": "356ebe38ee3e1ed7a73c500ba45d9a9cef7c4cb4dee3945e989a4e4da68ff12b",
+      "generation_references_in_order": [
+        {
+          "sha256": "1feac304e766765d9ba02e19ca5dcb40b58edb0c20d0a2e6b83437fa175bf0ae"
+        }
+      ],
+      "finished_sha256": "aff2aca59fd2ef2fa7582308095f99f9d7ec78e7cde2ce7eafc3c51a502a9495",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          74,
+          215,
+          1191,
+          1016
+        ],
+        "resize": [
+          832,
+          597
+        ],
+        "offset": [
+          96,
+          213
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          213,
+          928,
+          810
+        ],
+        "margins": [
+          96,
+          213,
+          96,
+          214
+        ],
+        "visible_rgb_colors": 38750,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Redraw the exact original creature in the reference as an authentic 128x128 logical pixel-art sprite. This is direction NE; preserve that exact facing, pose, silhouette, body proportions, limb positions and occlusions. Change only the rendering style.\nCreature identity: three equal-thickness cylindrical leaf-scale body segments in a row, six short feet with one pair per segment, exactly two eyes on the actual front face only, no tail or wings or horns. Ochre-gold upper plates, ivory-cream sides and end plates, dark blue-gray joints and paired toe tips. Preserve three segment boundaries and the slightly raised middle segment. Do not place eyes on an eyeless rear view. Do not add visible legs where naturally occluded in reference.\nDeliberately designed coarse pixel clusters, limited palette at most 24 visible colors, uniform square pixels, crisp staircase contours and 1 logical pixel outline. No antialiasing, gradients, blur or semitransparency. This must look intentionally hand-pixeled, not a pixel filter on the illustration. Full creature 104 logical pixels at longest extent with minimum12 pixels empty margin on every edge, centered on a transparent128 square. If large output is needed, enlarge the logical sprite 8x with nearest-neighbor, keeping every grid cell flat. Genuine transparent background, no ground shadow, labels, scenery, checkerboard or watermark.",
+      "raw_sha256": "444f77d59e7cefc99145c5f7566adf960f0ef527ddb5a2ca0b00a480fe46d485",
+      "generation_references_in_order": [
+        {
+          "sha256": "aff2aca59fd2ef2fa7582308095f99f9d7ec78e7cde2ce7eafc3c51a502a9495"
+        }
+      ],
+      "finished_sha256": "ec226ef81914e4b3bdacebf3e536b191a7a3bce2129871deec4f68e6cca55321",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          97,
+          249,
+          1172,
+          1025
+        ],
+        "resize": [
+          104,
+          75
+        ],
+        "offset": [
+          12,
+          26
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          26,
+          116,
+          101
+        ],
+        "margins": [
+          12,
+          26,
+          12,
+          27
+        ],
+        "visible_rgb_colors": 24,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new directional illustration of the original creature in the reference. Direction NW: REAR LEFT three-quarter view. Front points away to image upper-left and rear segment closest to viewer at lower-right. Show the rear and near side. Do not put eyes on the rear segment; the actual front face is farthest away.\nKeep identity exactly: three thick equal-diameter cylindrical segments joined in a row, not four segments; six short feet, exactly one pair on each segment; two slate-blue eyes on the flat round front face only; no arms, wings, horns or tail. Each segment is wrapped in two broad leaf-shaped scale plates with softly rounded edges. Ochre-gold (#BA985F) upper plates, ivory-cream (#E9DDBD) sides and front face, dark blue-gray (#576C72) joints and paired toe tips. Preserve leaf veins, broad smooth shell contours, gently determined expression and original proportions. Central segment is slightly raised; front and rear feet touch the same implied floor. Use natural view-dependent occlusion for the six legs; do not invent extra feet or a rear face.\nMatch reference clean outline and softly cel-shaded illustration style, with the same camera elevation. Horizontal yaw is the only pose change. Full-body single creature centered on genuinely transparent alpha. 1024x1024 square, longest visible dimension about 832px with 96px empty margins. No text, background, floor, cast shadow, checkerboard or watermark. Render an actual new viewpoint, never a flat rotation or mirror.",
+      "raw_sha256": "31b96a675623ffb5899ad1d54114c3c0d58deae3dc9c9738af01b077779f1b1e",
+      "generation_references_in_order": [
+        {
+          "sha256": "1feac304e766765d9ba02e19ca5dcb40b58edb0c20d0a2e6b83437fa175bf0ae"
+        }
+      ],
+      "finished_sha256": "d3394ee0bec24241cef7a4cbf556118db77a802cecb5b9360d632edc0237470b",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          101,
+          212,
+          1179,
+          1018
+        ],
+        "resize": [
+          832,
+          622
+        ],
+        "offset": [
+          96,
+          201
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          201,
+          928,
+          823
+        ],
+        "margins": [
+          96,
+          201,
+          96,
+          201
+        ],
+        "visible_rgb_colors": 41809,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Redraw the exact original creature in the reference as an authentic 128x128 logical pixel-art sprite. This is direction NW; preserve that exact facing, pose, silhouette, body proportions, limb positions and occlusions. Change only the rendering style.\nCreature identity: three equal-thickness cylindrical leaf-scale body segments in a row, six short feet with one pair per segment, exactly two eyes on the actual front face only, no tail or wings or horns. Ochre-gold upper plates, ivory-cream sides and end plates, dark blue-gray joints and paired toe tips. Preserve three segment boundaries and the slightly raised middle segment. Do not place eyes on an eyeless rear view. Do not add visible legs where naturally occluded in reference.\nDeliberately designed coarse pixel clusters, limited palette at most 24 visible colors, uniform square pixels, crisp staircase contours and 1 logical pixel outline. No antialiasing, gradients, blur or semitransparency. This must look intentionally hand-pixeled, not a pixel filter on the illustration. Full creature 104 logical pixels at longest extent with minimum12 pixels empty margin on every edge, centered on a transparent128 square. If large output is needed, enlarge the logical sprite 8x with nearest-neighbor, keeping every grid cell flat. Genuine transparent background, no ground shadow, labels, scenery, checkerboard or watermark.",
+      "raw_sha256": "91d1d98935e0f510e7e3dd1fbb1aa19ff157573d33f4cb19734dbc9b579862cc",
+      "generation_references_in_order": [
+        {
+          "sha256": "d3394ee0bec24241cef7a4cbf556118db77a802cecb5b9360d632edc0237470b"
+        }
+      ],
+      "finished_sha256": "09cdf1d965490c31903b7d1f25a355089a946e089a44faf3b882697f17424cc7",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          99,
+          254,
+          1176,
+          1021
+        ],
+        "resize": [
+          104,
+          74
+        ],
+        "offset": [
+          12,
+          27
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          27,
+          116,
+          101
+        ],
+        "margins": [
+          12,
+          27,
+          12,
+          27
+        ],
+        "visible_rgb_colors": 24,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new directional illustration of the original creature in the reference. Direction S: Direct FRONT view, facing straight toward the viewer. Front round flat face centered with both eyes, two front feet symmetric. Other two cylindrical segments recede behind the front segment with honest depth overlap; middle segment slightly lifted. Same moderately elevated camera height as reference, not top-down. Do not yaw the body sideways.\nKeep identity exactly: three thick equal-diameter cylindrical segments joined in a row, not four segments; six short feet, exactly one pair on each segment; two slate-blue eyes on the flat round front face only; no arms, wings, horns or tail. Each segment is wrapped in two broad leaf-shaped scale plates with softly rounded edges. Ochre-gold (#BA985F) upper plates, ivory-cream (#E9DDBD) sides and front face, dark blue-gray (#576C72) joints and paired toe tips. Preserve leaf veins, broad smooth shell contours, gently determined expression and original proportions. Central segment is slightly raised; front and rear feet touch the same implied floor. Use natural view-dependent occlusion for the six legs; do not invent extra feet or a rear face.\nMatch reference clean outline and softly cel-shaded illustration style, with the same camera elevation. Horizontal yaw is the only pose change. Full-body single creature centered on genuinely transparent alpha. 1024x1024 square, longest visible dimension about 832px with 96px empty margins. No text, background, floor, cast shadow, checkerboard or watermark. Render an actual new viewpoint, never a flat rotation or mirror.",
+      "raw_sha256": "4b6fda714ef128d6e5d1e597e7b77c9ba6e6b6f36cf56aa09a67faf8167a5bf6",
+      "generation_references_in_order": [
+        {
+          "sha256": "1feac304e766765d9ba02e19ca5dcb40b58edb0c20d0a2e6b83437fa175bf0ae"
+        }
+      ],
+      "finished_sha256": "704a0a6fa2665c4bfd174b14b4afef38b35f161a52e741441f12e9b9964abfb8",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          264,
+          156,
+          990,
+          1028
+        ],
+        "resize": [
+          693,
+          832
+        ],
+        "offset": [
+          165,
+          96
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          165,
+          96,
+          858,
+          928
+        ],
+        "margins": [
+          165,
+          96,
+          166,
+          96
+        ],
+        "visible_rgb_colors": 49416,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Redraw the exact original creature in the reference as an authentic 128x128 logical pixel-art sprite. This is direction S; preserve that exact facing, pose, silhouette, body proportions, limb positions and occlusions. Change only the rendering style.\nCreature identity: three equal-thickness cylindrical leaf-scale body segments in a row, six short feet with one pair per segment, exactly two eyes on the actual front face only, no tail or wings or horns. Ochre-gold upper plates, ivory-cream sides and end plates, dark blue-gray joints and paired toe tips. Preserve three segment boundaries and the slightly raised middle segment. Do not place eyes on an eyeless rear view. Do not add visible legs where naturally occluded in reference.\nDeliberately designed coarse pixel clusters, limited palette at most 24 visible colors, uniform square pixels, crisp staircase contours and 1 logical pixel outline. No antialiasing, gradients, blur or semitransparency. This must look intentionally hand-pixeled, not a pixel filter on the illustration. Full creature 104 logical pixels at longest extent with minimum12 pixels empty margin on every edge, centered on a transparent128 square. If large output is needed, enlarge the logical sprite 8x with nearest-neighbor, keeping every grid cell flat. Genuine transparent background, no ground shadow, labels, scenery, checkerboard or watermark.",
+      "raw_sha256": "5ee98781b22938f98555fb0579a11389a585d8348d34d4ecdab401c4d53db2d0",
+      "generation_references_in_order": [
+        {
+          "sha256": "704a0a6fa2665c4bfd174b14b4afef38b35f161a52e741441f12e9b9964abfb8"
+        }
+      ],
+      "finished_sha256": "377c9f5dc4dedbbcc8d632e6d7bc71e0df7b13c95c42c3c65d18ee7468a15a1f",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          207,
+          118,
+          1047,
+          1136
+        ],
+        "resize": [
+          86,
+          104
+        ],
+        "offset": [
+          21,
+          12
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          21,
+          12,
+          107,
+          116
+        ],
+        "margins": [
+          21,
+          12,
+          21,
+          12
+        ],
+        "visible_rgb_colors": 23,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new directional illustration of the original creature in the reference. Direction SW: FRONT LEFT three-quarter view, facing image lower-left and viewer. Flat round face at lower-left and rear segment at upper-right. Both eyes may be visible. Keep all three segments in correct order, each with one pair of feet.\nKeep identity exactly: three thick equal-diameter cylindrical segments joined in a row, not four segments; six short feet, exactly one pair on each segment; two slate-blue eyes on the flat round front face only; no arms, wings, horns or tail. Each segment is wrapped in two broad leaf-shaped scale plates with softly rounded edges. Ochre-gold (#BA985F) upper plates, ivory-cream (#E9DDBD) sides and front face, dark blue-gray (#576C72) joints and paired toe tips. Preserve leaf veins, broad smooth shell contours, gently determined expression and original proportions. Central segment is slightly raised; front and rear feet touch the same implied floor. Use natural view-dependent occlusion for the six legs; do not invent extra feet or a rear face.\nMatch reference clean outline and softly cel-shaded illustration style, with the same camera elevation. Horizontal yaw is the only pose change. Full-body single creature centered on genuinely transparent alpha. 1024x1024 square, longest visible dimension about 832px with 96px empty margins. No text, background, floor, cast shadow, checkerboard or watermark. Render an actual new viewpoint, never a flat rotation or mirror.",
+      "raw_sha256": "3137f5f755975c784a1f2a9ff9d93da8621c8b11e6ed481eb158362d9c388b97",
+      "generation_references_in_order": [
+        {
+          "sha256": "1feac304e766765d9ba02e19ca5dcb40b58edb0c20d0a2e6b83437fa175bf0ae"
+        }
+      ],
+      "finished_sha256": "a9cdc9a844a09e4f0d6df54c5175f766a87daa42dcc5cae887803fc63329ba09",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          63,
+          208,
+          1235,
+          1050
+        ],
+        "resize": [
+          832,
+          598
+        ],
+        "offset": [
+          96,
+          213
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          213,
+          928,
+          811
+        ],
+        "margins": [
+          96,
+          213,
+          96,
+          213
+        ],
+        "visible_rgb_colors": 42665,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Redraw the exact original creature in the reference as an authentic 128x128 logical pixel-art sprite. This is direction SW; preserve that exact facing, pose, silhouette, body proportions, limb positions and occlusions. Change only the rendering style.\nCreature identity: three equal-thickness cylindrical leaf-scale body segments in a row, six short feet with one pair per segment, exactly two eyes on the actual front face only, no tail or wings or horns. Ochre-gold upper plates, ivory-cream sides and end plates, dark blue-gray joints and paired toe tips. Preserve three segment boundaries and the slightly raised middle segment. Do not place eyes on an eyeless rear view. Do not add visible legs where naturally occluded in reference.\nDeliberately designed coarse pixel clusters, limited palette at most 24 visible colors, uniform square pixels, crisp staircase contours and 1 logical pixel outline. No antialiasing, gradients, blur or semitransparency. This must look intentionally hand-pixeled, not a pixel filter on the illustration. Full creature 104 logical pixels at longest extent with minimum12 pixels empty margin on every edge, centered on a transparent128 square. If large output is needed, enlarge the logical sprite 8x with nearest-neighbor, keeping every grid cell flat. Genuine transparent background, no ground shadow, labels, scenery, checkerboard or watermark.",
+      "raw_sha256": "516b2b381ba7c224903e893dc9831b0ab3249f872f9e0e28a5c98791994b6e00",
+      "generation_references_in_order": [
+        {
+          "sha256": "a9cdc9a844a09e4f0d6df54c5175f766a87daa42dcc5cae887803fc63329ba09"
+        }
+      ],
+      "finished_sha256": "8cfe2e8e7f7884c1d97d32fdb6d8c42927a9b936e71f1ed5daea12718cc0e4ad",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          100,
+          267,
+          1189,
+          1029
+        ],
+        "resize": [
+          104,
+          73
+        ],
+        "offset": [
+          12,
+          27
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          27,
+          116,
+          100
+        ],
+        "margins": [
+          12,
+          27,
+          12,
+          28
+        ],
+        "visible_rgb_colors": 24,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new directional illustration of the original creature in the reference. Direction W: LEFT side profile. Front face at image left, rear at image right. Three cylindrical segments run horizontally across image, central segment slightly lifted. Near eye can be visible, far eye naturally hidden.\nKeep identity exactly: three thick equal-diameter cylindrical segments joined in a row, not four segments; six short feet, exactly one pair on each segment; two slate-blue eyes on the flat round front face only; no arms, wings, horns or tail. Each segment is wrapped in two broad leaf-shaped scale plates with softly rounded edges. Ochre-gold (#BA985F) upper plates, ivory-cream (#E9DDBD) sides and front face, dark blue-gray (#576C72) joints and paired toe tips. Preserve leaf veins, broad smooth shell contours, gently determined expression and original proportions. Central segment is slightly raised; front and rear feet touch the same implied floor. Use natural view-dependent occlusion for the six legs; do not invent extra feet or a rear face.\nMatch reference clean outline and softly cel-shaded illustration style, with the same camera elevation. Horizontal yaw is the only pose change. Full-body single creature centered on genuinely transparent alpha. 1024x1024 square, longest visible dimension about 832px with 96px empty margins. No text, background, floor, cast shadow, checkerboard or watermark. Render an actual new viewpoint, never a flat rotation or mirror.",
+      "raw_sha256": "2eabc116a8ce456767277006f5cf058b6e3d04d0290a43cc427c7d121c47ebd0",
+      "generation_references_in_order": [
+        {
+          "sha256": "1feac304e766765d9ba02e19ca5dcb40b58edb0c20d0a2e6b83437fa175bf0ae"
+        }
+      ],
+      "finished_sha256": "56df5b2bd6b19a52c75e6d01778ab24743759491a44d4b295a113cb6e3ca617b",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          50,
+          388,
+          1209,
+          905
+        ],
+        "resize": [
+          832,
+          371
+        ],
+        "offset": [
+          96,
+          326
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          326,
+          928,
+          697
+        ],
+        "margins": [
+          96,
+          326,
+          96,
+          327
+        ],
+        "visible_rgb_colors": 37622,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Redraw the exact original creature in the reference as an authentic 128x128 logical pixel-art sprite. This is direction W; preserve that exact facing, pose, silhouette, body proportions, limb positions and occlusions. Change only the rendering style.\nCreature identity: three equal-thickness cylindrical leaf-scale body segments in a row, six short feet with one pair per segment, exactly two eyes on the actual front face only, no tail or wings or horns. Ochre-gold upper plates, ivory-cream sides and end plates, dark blue-gray joints and paired toe tips. Preserve three segment boundaries and the slightly raised middle segment. Do not place eyes on an eyeless rear view. Do not add visible legs where naturally occluded in reference.\nDeliberately designed coarse pixel clusters, limited palette at most 24 visible colors, uniform square pixels, crisp staircase contours and 1 logical pixel outline. No antialiasing, gradients, blur or semitransparency. This must look intentionally hand-pixeled, not a pixel filter on the illustration. Full creature 104 logical pixels at longest extent with minimum12 pixels empty margin on every edge, centered on a transparent128 square. If large output is needed, enlarge the logical sprite 8x with nearest-neighbor, keeping every grid cell flat. Genuine transparent background, no ground shadow, labels, scenery, checkerboard or watermark.",
+      "raw_sha256": "60e96e9fa5a476e84da1c17c871333de3c76328d7af8fbc6f6567b7585d8e0a3",
+      "generation_references_in_order": [
+        {
+          "sha256": "56df5b2bd6b19a52c75e6d01778ab24743759491a44d4b295a113cb6e3ca617b"
+        }
+      ],
+      "finished_sha256": "d44a1d819c6bcf5858a31cee15e962ddef5fc2f5006f15bcaec84639ffae8d29",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          127,
+          345,
+          1278,
+          845
+        ],
+        "resize": [
+          104,
+          45
+        ],
+        "offset": [
+          12,
+          41
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          41,
+          116,
+          86
+        ],
+        "margins": [
+          12,
+          41,
+          12,
+          42
+        ],
+        "visible_rgb_colors": 23,
+        "alpha_unique_count": 2
+      }
+    }
+  ]
+}
