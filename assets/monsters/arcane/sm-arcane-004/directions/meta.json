@@ -1,0 +1,1089 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-004",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "S",
+  "existing_direction_basis": "Symmetric frontal inner ring with all three gold eyes visible on its lower arc.",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/arcane/sm-arcane-004/default.png",
+      "sha256": "d3df33074526a347d210e6582bf1bb9fa8e8fbf8e2ceb8b7b220efe99d9c18bb",
+      "git_blob_sha": "8a314fb2ab129901222bf3e0b900b67be0cc1792",
+      "bytes": 865621
+    },
+    "pixel": {
+      "path": "assets/monsters/arcane/sm-arcane-004/pixel.png",
+      "sha256": "21dc7d3f3473fa200fa5e34e323d9553a2c4d7aea330ea4cd4dd446221ab6c64",
+      "git_blob_sha": "3a75e43f7e35dd1fc104ee27968ecf561ab3693c",
+      "bytes": 14623
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front, N rear; eight nominal azimuth sectors in order S,SW,W,NW,N,NE,E,SE. Not an assertion of exact physical camera calibration.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-004/default.png",
+      "sha256": "d3df33074526a347d210e6582bf1bb9fa8e8fbf8e2ceb8b7b220efe99d9c18bb",
+      "bytes": 865621,
+      "git_blob_sha": "8a314fb2ab129901222bf3e0b900b67be0cc1792",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          93,
+          944,
+          930
+        ],
+        "margins": [
+          80,
+          93,
+          80,
+          94
+        ],
+        "visible_longest_extent": 864,
+        "alpha_value_count": 249,
+        "visible_rgb_colors": 144534,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-004/pixel.png",
+      "sha256": "21dc7d3f3473fa200fa5e34e323d9553a2c4d7aea330ea4cd4dd446221ab6c64",
+      "bytes": 14623,
+      "git_blob_sha": "3a75e43f7e35dd1fc104ee27968ecf561ab3693c",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          10,
+          117,
+          118
+        ],
+        "margins": [
+          10,
+          10,
+          11,
+          10
+        ],
+        "visible_longest_extent": 108,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 29,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "d3df33074526a347d210e6582bf1bb9fa8e8fbf8e2ceb8b7b220efe99d9c18bb"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/SW/default.png",
+      "sha256": "9b75d127e1a6c43ceab45fa4352f93539bc10378c2d9fb9f9f92f7cafe6acda1",
+      "bytes": 830042,
+      "git_blob_sha": "997bf315ae298fb96eff80622c6c6e7ac3c197ef",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          124,
+          80,
+          899,
+          944
+        ],
+        "margins": [
+          124,
+          80,
+          125,
+          80
+        ],
+        "visible_longest_extent": 864,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 150678,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/SW/pixel.png",
+      "sha256": "bcd81f4b8062704daa6c7646df317ea6470edb5e6aae0871b7684d0c660e31df",
+      "bytes": 11021,
+      "git_blob_sha": "a0aeba9de2cfc54532a357aa0fee89c4aadc1486",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          19,
+          10,
+          109,
+          118
+        ],
+        "margins": [
+          19,
+          10,
+          19,
+          10
+        ],
+        "visible_longest_extent": 108,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "9b75d127e1a6c43ceab45fa4352f93539bc10378c2d9fb9f9f92f7cafe6acda1"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/W/default.png",
+      "sha256": "b1f26c66ff9267e236bb48654f5538a2209226d2d398f9365beaf1e383378993",
+      "bytes": 354735,
+      "git_blob_sha": "acf2dfada4ee842b2db5535fbaac60df6780dbcb",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          272,
+          80,
+          751,
+          944
+        ],
+        "margins": [
+          272,
+          80,
+          273,
+          80
+        ],
+        "visible_longest_extent": 864,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 83702,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/W/pixel.png",
+      "sha256": "809a66701afdf1304984e67b1881e752ae61e0b09ae8c78dfabfd0665cd69849",
+      "bytes": 6101,
+      "git_blob_sha": "f9c0844a02870f47b51fbd1d3484d51eeb116ddb",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          32,
+          10,
+          95,
+          118
+        ],
+        "margins": [
+          32,
+          10,
+          33,
+          10
+        ],
+        "visible_longest_extent": 108,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 29,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "b1f26c66ff9267e236bb48654f5538a2209226d2d398f9365beaf1e383378993"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/NW/default.png",
+      "sha256": "37d48dda0469d71239bf84e4b89680518fc16726c451407a88a45f56a6eca694",
+      "bytes": 719526,
+      "git_blob_sha": "6adccafc959c1b42b81f66ec4c9097fada698a12",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          205,
+          80,
+          819,
+          944
+        ],
+        "margins": [
+          205,
+          80,
+          205,
+          80
+        ],
+        "visible_longest_extent": 864,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 128679,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/NW/pixel.png",
+      "sha256": "34a6dc070d24104b1975c44a8d87d4a867e845a2b335f100fb5fc7b71b2c09be",
+      "bytes": 10922,
+      "git_blob_sha": "21f2b122d9aa8f94bb701d0c51bf4c96fd2e2cd8",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          25,
+          10,
+          103,
+          118
+        ],
+        "margins": [
+          25,
+          10,
+          25,
+          10
+        ],
+        "visible_longest_extent": 108,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 31,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "37d48dda0469d71239bf84e4b89680518fc16726c451407a88a45f56a6eca694"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/N/default.png",
+      "sha256": "14a5d939143aa989552000b4b3b64b1bb901badd6b44f64d4d6d58085032b9d6",
+      "bytes": 832348,
+      "git_blob_sha": "58167dc2f6fda4ff7e9b32905b25f9c142f04702",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          89,
+          93,
+          935,
+          931
+        ],
+        "margins": [
+          89,
+          93,
+          89,
+          93
+        ],
+        "visible_longest_extent": 846,
+        "alpha_value_count": 249,
+        "visible_rgb_colors": 118264,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/N/pixel.png",
+      "sha256": "fafdcbaa64b604bd013a6a1c7a7da6412620ea2af0fe6b92dcd4f96f8bfbf17d",
+      "bytes": 10836,
+      "git_blob_sha": "619a80e71fe473cd07d9ece4b62cfc31beeca19e",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          14,
+          13,
+          114,
+          114
+        ],
+        "margins": [
+          14,
+          13,
+          14,
+          14
+        ],
+        "visible_longest_extent": 101,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 31,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "14a5d939143aa989552000b4b3b64b1bb901badd6b44f64d4d6d58085032b9d6"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/NE/default.png",
+      "sha256": "ce14967a930196b58d8eca4157632366c98aca539d0210a7b6352f4d79bd49a6",
+      "bytes": 712689,
+      "git_blob_sha": "cc7f7d2e89ff6f6075be4a4342f746b596f732c4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          186,
+          80,
+          838,
+          944
+        ],
+        "margins": [
+          186,
+          80,
+          186,
+          80
+        ],
+        "visible_longest_extent": 864,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 124594,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/NE/pixel.png",
+      "sha256": "c7a43c946f7ca79f465f8d34b846034fe55ca2d242bebb21ddde44ee996b6f9d",
+      "bytes": 11165,
+      "git_blob_sha": "13d45f2eb17fc32db0e71eb11e6a804c0db22720",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          23,
+          10,
+          105,
+          118
+        ],
+        "margins": [
+          23,
+          10,
+          23,
+          10
+        ],
+        "visible_longest_extent": 108,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "ce14967a930196b58d8eca4157632366c98aca539d0210a7b6352f4d79bd49a6"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/E/default.png",
+      "sha256": "ae136ebe241e292a8d40a97ba48b770ef6578ed358cb6514aba279a5eef09113",
+      "bytes": 372441,
+      "git_blob_sha": "839a4a93aae9db82c76d67f264f16a7c4f9bafef",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          267,
+          80,
+          757,
+          944
+        ],
+        "margins": [
+          267,
+          80,
+          267,
+          80
+        ],
+        "visible_longest_extent": 864,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 78681,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/E/pixel.png",
+      "sha256": "3018e1ac63f52922787534b12ddd97390794db1a7c2a0dcb4d63084683e2b803",
+      "bytes": 6142,
+      "git_blob_sha": "6f997e3c908c6413251bceb1d111c60527e9f4c6",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          33,
+          10,
+          95,
+          118
+        ],
+        "margins": [
+          33,
+          10,
+          33,
+          10
+        ],
+        "visible_longest_extent": 108,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 29,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "ae136ebe241e292a8d40a97ba48b770ef6578ed358cb6514aba279a5eef09113"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/SE/default.png",
+      "sha256": "bb3be5006d9fae0ea1ae3347a8615f494631ec9419031ae6f3b4e2783b3f246f",
+      "bytes": 803896,
+      "git_blob_sha": "cdd8f8b1e86ce18e84465145e91a24c05b6e0f12",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          161,
+          80,
+          862,
+          944
+        ],
+        "margins": [
+          161,
+          80,
+          162,
+          80
+        ],
+        "visible_longest_extent": 864,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 145844,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-004/directions/SE/pixel.png",
+      "sha256": "ce245c92c89c44436514b5d87f69eb5a10b6245512a72a93f55ac13d43cff756",
+      "bytes": 12512,
+      "git_blob_sha": "69250439a76bb7bbec77a135a829dc3df33a5fb3",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          21,
+          10,
+          107,
+          118
+        ],
+        "margins": [
+          21,
+          10,
+          21,
+          10
+        ],
+        "visible_longest_extent": 108,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "bb3be5006d9fae0ea1ae3347a8615f494631ec9419031ae6f3b4e2783b3f246f"
+    }
+  ],
+  "qa": {
+    "producer_and_parent_visual_review": "candidate correspondence reviewed; scope and caveats retained",
+    "E_independent_numeric_and_hash_review": "performed for all16 files",
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending",
+    "limitations": [
+      "Existing direction is visually inferred from a single two-dimensional reference; labels are nominal viewpoints, not certified 3D rotations.",
+      "Hidden surfaces, far-side occlusion and exact 45-degree continuity are inferred.",
+      "In-game display and final user acceptance have not been completed.",
+      "Two blue hoops approximately coplanar vertically, finite crystal thickness.",
+      "Gold orbit on separate inclined plane.",
+      "Eyes exist only on lower front arc, center lower than two lateral eyes; one lateral eye occluded in true profile.",
+      "W/E blue profile silhouettes have physical bilateral symmetry; directional cue is eyes projected left/right and reversed golden orbit tilt."
+    ]
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "generation_key": "SW2",
+      "prompt": "Use case: identity-preserve technical character turnaround. ONE transparent asset, same exact blue crystal ring monster. Reference1 is FRONT; reference2 is true LEFT SIDE for geometry only. Draw the camera view HALFWAY between front/back and profile: SW 45 degrees FRONT-LEFT. Face points toward viewer and LEFT. Three eyes remain visible on lower front arc. Near left-front eye a little larger, far right-front eye smaller by perspective. Gold band front crossing behind eye-ring, its near arc crosses in front of outer hoop. Critical: Both blue circular rings are obliquely viewed, projected horizontal diameter exactly about 0.60 to 0.70 of their vertical diameter (tall oval projection). NOT a wide nearly circular front view. DO NOT just squeeze the whole image: golden orbit is on DIFFERENT tilted plane and independently projects to a wider angled ellipse; crystal ring thickness and occlusion change naturally in 3D. Preserve one broken outer blue ring gap at top, one inner complete blue ring, one tilted gold orbit and gold vertical spindle, no extra parts. Crystal front/back surfaces properly foreshortened. Retain all identity features, original periwinkle/gold marbling, soft painterly lineart. Full body centered uncropped 1024 square with margins. True transparent alpha, no text/ground/shadow/contact sheet.",
+      "references_at_generation": [
+        {
+          "sha256": "d3df33074526a347d210e6582bf1bb9fa8e8fbf8e2ceb8b7b220efe99d9c18bb"
+        },
+        {
+          "sha256": "3be5e4b03d75c4d1dc5cb316ef44f526d0bc6784e3bc11c91295dff5c74ef8af"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "6128769ff05adb680091c0bfcbbf08cfb5b538f53d9ba1ae44d5fff5673c0f17"
+      },
+      "retained_raw_copy": {
+        "sha256": "6128769ff05adb680091c0bfcbbf08cfb5b538f53d9ba1ae44d5fff5673c0f17"
+      },
+      "pre_normalization": {
+        "sha256": "cf5695b177ed140ec3040665255d63449da99bd9ef5488f10efa544687758dc5"
+      },
+      "accepted_final": {
+        "sha256": "9b75d127e1a6c43ceab45fa4352f93539bc10378c2d9fb9f9f92f7cafe6acda1"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        1024,
+        1024
+      ],
+      "margin": [
+        124,
+        80,
+        125,
+        80
+      ],
+      "extent": 864
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "generation_key": "SWpixel3",
+      "prompt": "Use case: style-transfer. ONE pixel art sprite of exact SW diagonal creature in reference1. Reference2 provides original palette/style only, not shape/facing. Preserve reference1 tall elliptical foreshortened blue rings, original 0.6-0.7 width-to-height projected outer ring, exact orbital golden band angle and occlusion crossing order, upright gold spindle and number/visibility of eyes. Do not widen to front view or flatten perspective. Same crystal creature, 128x128 hard pixel style with31 opaque colors and transparent alpha. Full body margins, no text, ground, shadow, sheet or added parts.",
+      "references_at_generation": [
+        {
+          "sha256": "6128769ff05adb680091c0bfcbbf08cfb5b538f53d9ba1ae44d5fff5673c0f17"
+        },
+        {
+          "sha256": "21dc7d3f3473fa200fa5e34e323d9553a2c4d7aea330ea4cd4dd446221ab6c64"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "13f9a6ef274a0209d5468750ad372fd462f2abfdaafc627d002b19bc0fcc9e94"
+      },
+      "retained_raw_copy": {
+        "sha256": "13f9a6ef274a0209d5468750ad372fd462f2abfdaafc627d002b19bc0fcc9e94"
+      },
+      "pre_normalization": {
+        "sha256": "ce22bbefea4d88974a31c44a0bc5dbe67d8bf477b73dbfc16c1208733a5efe0b"
+      },
+      "accepted_final": {
+        "sha256": "bcd81f4b8062704daa6c7646df317ea6470edb5e6aae0871b7684d0c660e31df"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        128,
+        128
+      ],
+      "margin": [
+        19,
+        10,
+        19,
+        10
+      ],
+      "extent": 108
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "generation_key": "W4",
+      "prompt": "Use case: identity-preserve, technical orthographic character turnaround. Reference 1 is exact monster's front, reference 2 is prior wrong oblique view for identity only. Draw the true WEST orthographic 90 degree SIDE view looking along the blue hoops' plane. Critical geometry: Both blue hoops occupy one same vertical plane. From this camera they are EDGE-ON: each blue ring projects as a slender straight upright strip, NOT AN OVAL. The large blue ring is a tall slender blue crystal bar silhouette with top gap seen only as a notch. The smaller blue ring is a shorter slender crystal bar overlapping it, with its eyes projecting from its LOWER left-facing front edge. HOLES OF BLUE RINGS MUST NOT BE VISIBLE: line of sight is parallel to their plane. Gold spindle remains upright at center. The gold orbital ring occupies a DIFFERENT tilted plane and remains a wide tilted ellipse encircling the blue narrow strip. The gold orbit's tilt and crossings must follow rigid perspective rotation of original geometry. No stretching, no planar image flip. All original parts/material/colors retained. Three eyes remain attached around lower rim, naturally self-occluded from edge-on left side; don't force all eyes visible. Full body with generous margin on transparent alpha. Same painterly blue crystalline/gold art, no diagram/text, one view.",
+      "references_at_generation": [
+        {
+          "sha256": "d3df33074526a347d210e6582bf1bb9fa8e8fbf8e2ceb8b7b220efe99d9c18bb"
+        },
+        {
+          "sha256": "9cc2eef38b81d2b6c218598793157febc9487a1485eacd8730e2ab8c9feb74d7"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "3be5e4b03d75c4d1dc5cb316ef44f526d0bc6784e3bc11c91295dff5c74ef8af"
+      },
+      "retained_raw_copy": {
+        "sha256": "3be5e4b03d75c4d1dc5cb316ef44f526d0bc6784e3bc11c91295dff5c74ef8af"
+      },
+      "pre_normalization": {
+        "sha256": "bd339bb819141f719ce2dc85404d6269a0eec07f2a187fa4a396800ef05ab905"
+      },
+      "accepted_final": {
+        "sha256": "b1f26c66ff9267e236bb48654f5538a2209226d2d398f9365beaf1e383378993"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        1024,
+        1024
+      ],
+      "margin": [
+        272,
+        80,
+        273,
+        80
+      ],
+      "extent": 864
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "generation_key": "Wpixel2",
+      "prompt": "Use case: style-transfer. ONE crisp pixel-art sprite of exact W SIDE PROFILE creature shown reference 1. Reference 2 gives original STYLE/PALETTE ONLY, never copy original broad ring shape. Preserve reference 1 thin edge-on vertical blue ring profiles, hidden blue ring holes, wide diagonally tilted gold orbit, spindle, exactly TWO visible gold eyes on lower side due to third occluded. Keep exact facing, ellipse diagonal tilt, crossings, full silhouette and proportions. Classic 128x128 pixel-art resolution with hard pixels; no smoothing or antialiasing; at most31 opaque colors plus genuine transparent alpha. Full body centered uncropped. No extra parts, floor, shadows, sheet/text.",
+      "references_at_generation": [
+        {
+          "sha256": "3be5e4b03d75c4d1dc5cb316ef44f526d0bc6784e3bc11c91295dff5c74ef8af"
+        },
+        {
+          "sha256": "21dc7d3f3473fa200fa5e34e323d9553a2c4d7aea330ea4cd4dd446221ab6c64"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "19f667139bf375a65d1aaff43c50cb526f7f0fbb805f505e21ce89beb1ece9a8"
+      },
+      "retained_raw_copy": {
+        "sha256": "19f667139bf375a65d1aaff43c50cb526f7f0fbb805f505e21ce89beb1ece9a8"
+      },
+      "pre_normalization": {
+        "sha256": "fdf0c115c9ab5dd4d9acf964326194129c1a2a5d981919f90f8545cfc3650a19"
+      },
+      "accepted_final": {
+        "sha256": "809a66701afdf1304984e67b1881e752ae61e0b09ae8c78dfabfd0665cd69849"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        128,
+        128
+      ],
+      "margin": [
+        32,
+        10,
+        33,
+        10
+      ],
+      "extent": 108
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "generation_key": "NW2",
+      "prompt": "Use case: identity-preserve technical character turnaround. ONE transparent asset, same exact blue crystal ring monster. Reference1 is FRONT; reference2 is true LEFT SIDE for geometry only. Draw the camera view HALFWAY between front/back and profile: NW 135 degrees BACK-LEFT. Face points away from viewer and LEFT. NO EYES visible because all eyes are on opposite front surface. Gold orbit foreground arc passes IN FRONT OF small blue inner ring, and rear arc passes behind it. Critical: Both blue circular rings are obliquely viewed, projected horizontal diameter exactly about 0.60 to 0.70 of their vertical diameter (tall oval projection). NOT a wide nearly circular front view. DO NOT just squeeze the whole image: golden orbit is on DIFFERENT tilted plane and independently projects to a wider angled ellipse; crystal ring thickness and occlusion change naturally in 3D. Preserve one broken outer blue ring gap at top, one inner complete blue ring, one tilted gold orbit and gold vertical spindle, no extra parts. Crystal front/back surfaces properly foreshortened. Retain all identity features, original periwinkle/gold marbling, soft painterly lineart. Full body centered uncropped 1024 square with margins. True transparent alpha, no text/ground/shadow/contact sheet.",
+      "references_at_generation": [
+        {
+          "sha256": "d3df33074526a347d210e6582bf1bb9fa8e8fbf8e2ceb8b7b220efe99d9c18bb"
+        },
+        {
+          "sha256": "3be5e4b03d75c4d1dc5cb316ef44f526d0bc6784e3bc11c91295dff5c74ef8af"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "1975541563d367c380f2ebbfbe2eaed64796cc8ad609e20b8727e72fa75bd72b"
+      },
+      "retained_raw_copy": {
+        "sha256": "1975541563d367c380f2ebbfbe2eaed64796cc8ad609e20b8727e72fa75bd72b"
+      },
+      "pre_normalization": {
+        "sha256": "16c298827796db01b87e473f6f988a67533ee9a01a60cfe4ed62947818fc6114"
+      },
+      "accepted_final": {
+        "sha256": "37d48dda0469d71239bf84e4b89680518fc16726c451407a88a45f56a6eca694"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        1024,
+        1024
+      ],
+      "margin": [
+        205,
+        80,
+        205,
+        80
+      ],
+      "extent": 864
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "generation_key": "NWpixel4",
+      "prompt": "Use case: style-transfer. Convert EXACT provided BACK diagonal NW view into one crisp128x128 pixel art sprite. THERE ARE NO EYES IN THIS BACK VIEW. Do not add eyes, facial features or circular eye marks anywhere. Preserve its eyeless small blue crystalline ring, large tall oval blue ring with top gap, golden orbital band crossing in FRONT of small ring, single vertical gold spindle. Exact same silhouette, perspective, ring ellipse angles, crossing order and colors. Limited31 opaque colors plus transparent alpha, hard pixel edges and no antialiasing, clear small-resolution game sprite. Full body centered. No new parts or decorations, no text/ground/shadow/sheet.",
+      "references_at_generation": [
+        {
+          "sha256": "1975541563d367c380f2ebbfbe2eaed64796cc8ad609e20b8727e72fa75bd72b"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "5b4989e1b262eef4910375c96652d97e4a42653e98000fdf449a37add9d891c1"
+      },
+      "retained_raw_copy": {
+        "sha256": "5b4989e1b262eef4910375c96652d97e4a42653e98000fdf449a37add9d891c1"
+      },
+      "pre_normalization": {
+        "sha256": "eea9fe7a2fd650f3e3ef607b66116c82b221ec760a3d5991dab0f472fb65cc08"
+      },
+      "accepted_final": {
+        "sha256": "34a6dc070d24104b1975c44a8d87d4a867e845a2b335f100fb5fc7b71b2c09be"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        128,
+        128
+      ],
+      "margin": [
+        25,
+        10,
+        25,
+        10
+      ],
+      "extent": 108
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "generation_key": "N",
+      "prompt": "Use case: identity-preserve. ONE isolated game monster turnaround on real transparent background, 1024 square. Exact provided sm-arcane-004 now NORTH 180-degree DIRECT BACK VIEW, from directly opposite the original camera. Front eyes face away; NO EYES visible anywhere. Blue rings are circular and face camera from the reverse; outer ring remains broken at top by same small gap. Preserve exactly: large blue crystal broken outer ring, small complete blue crystal inner ring, tilted single golden orbital band, one straight gold vertical spindle. Maintain original relative sizes, periwinkle crystalline painterly style, gold marbling and clean dark outlines. Gold band's diagonal inclination reverses as seen from behind. No added or removed anatomical parts. Full body centered with margin and no cropping, no text, sheet, decorations, floor, shadows.",
+      "references_at_generation": [
+        {
+          "sha256": "d3df33074526a347d210e6582bf1bb9fa8e8fbf8e2ceb8b7b220efe99d9c18bb"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "a5e3dcce98f0f7eb48581335a28fe9cbd5b0475c2d8bfa2c69e956c79797e488"
+      },
+      "retained_raw_copy": {
+        "sha256": "a5e3dcce98f0f7eb48581335a28fe9cbd5b0475c2d8bfa2c69e956c79797e488"
+      },
+      "pre_normalization": {
+        "sha256": "746078c6c71f12dbe62b5c63bba7126be0b636218457fb3204be519d93a742f6"
+      },
+      "accepted_final": {
+        "sha256": "14a5d939143aa989552000b4b3b64b1bb901badd6b44f64d4d6d58085032b9d6"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        1024,
+        1024
+      ],
+      "margin": [
+        89,
+        93,
+        89,
+        93
+      ],
+      "extent": 846
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "generation_key": "Npixel",
+      "prompt": "Use case: style-transfer. ONE crisp pixel-art game sprite of exact creature and exact N camera view in reference 1. Reference 2 provides original STYLE/PALETTE ONLY; never copy its front facing. Preserve reference 1 ring orientation, silhouette, number of parts and eyes visibility exactly. Same blue crystal broken outer ring, small blue inner ring, tilted gold band, upright spindle. Keep original relative sizes. Classic 128x128 pixel-art resolution, limited maximum 31 opaque colors plus transparent alpha, hard pixel edges, no antialiasing. Full body centered with margin, genuine transparent background, no floor/shadow/text/sheet/extra parts.",
+      "references_at_generation": [
+        {
+          "sha256": "04acdba2a48ea69d45e6093d44f11b936172cf70b531fc4e3692b42399ff778c"
+        },
+        {
+          "sha256": "21dc7d3f3473fa200fa5e34e323d9553a2c4d7aea330ea4cd4dd446221ab6c64"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "caf6ef03c9a33214ba4d4cb88855d4be540c63ba2a699aa6bf10366ecc73d1b3"
+      },
+      "retained_raw_copy": {
+        "sha256": "caf6ef03c9a33214ba4d4cb88855d4be540c63ba2a699aa6bf10366ecc73d1b3"
+      },
+      "pre_normalization": {
+        "sha256": "28af0a3c933b477455b0ebbb75d768d4d39a1787a7e5282551748949ef598963"
+      },
+      "accepted_final": {
+        "sha256": "fafdcbaa64b604bd013a6a1c7a7da6412620ea2af0fe6b92dcd4f96f8bfbf17d"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        128,
+        128
+      ],
+      "margin": [
+        14,
+        13,
+        14,
+        14
+      ],
+      "extent": 101
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "generation_key": "NE2",
+      "prompt": "Use case: identity-preserve technical character turnaround. ONE transparent asset, same exact blue crystal ring monster. Reference1 is FRONT; reference2 is true LEFT SIDE for geometry only. Draw the camera view HALFWAY between front/back and profile: NE 225 degrees BACK-RIGHT. Face points away from viewer and RIGHT. NO EYES visible because all eyes are on opposite front surface. Gold orbit foreground arc passes IN FRONT OF small blue inner ring, and rear arc passes behind it. Critical: Both blue circular rings are obliquely viewed, projected horizontal diameter exactly about 0.60 to 0.70 of their vertical diameter (tall oval projection). NOT a wide nearly circular front view. DO NOT just squeeze the whole image: golden orbit is on DIFFERENT tilted plane and independently projects to a wider angled ellipse; crystal ring thickness and occlusion change naturally in 3D. Preserve one broken outer blue ring gap at top, one inner complete blue ring, one tilted gold orbit and gold vertical spindle, no extra parts. Crystal front/back surfaces properly foreshortened. Retain all identity features, original periwinkle/gold marbling, soft painterly lineart. Full body centered uncropped 1024 square with margins. True transparent alpha, no text/ground/shadow/contact sheet.",
+      "references_at_generation": [
+        {
+          "sha256": "d3df33074526a347d210e6582bf1bb9fa8e8fbf8e2ceb8b7b220efe99d9c18bb"
+        },
+        {
+          "sha256": "3be5e4b03d75c4d1dc5cb316ef44f526d0bc6784e3bc11c91295dff5c74ef8af"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "f9ca934e15cfdf0bc1342fbf3c5a6613590ba4c4f493802df34b60b0142ffb72"
+      },
+      "retained_raw_copy": {
+        "sha256": "f9ca934e15cfdf0bc1342fbf3c5a6613590ba4c4f493802df34b60b0142ffb72"
+      },
+      "pre_normalization": {
+        "sha256": "b881801316aab1528d95f82db1988477de081fbaf5bc7380da8e798eac5d36db"
+      },
+      "accepted_final": {
+        "sha256": "ce14967a930196b58d8eca4157632366c98aca539d0210a7b6352f4d79bd49a6"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        1024,
+        1024
+      ],
+      "margin": [
+        186,
+        80,
+        186,
+        80
+      ],
+      "extent": 864
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "generation_key": "NEpixel4",
+      "prompt": "Use case: style-transfer. Convert EXACT provided BACK diagonal NE view into one crisp128x128 pixel art sprite. THERE ARE NO EYES IN THIS BACK VIEW. Do not add eyes, facial features or circular eye marks anywhere. Preserve its eyeless small blue crystalline ring, large tall oval blue ring with top gap, golden orbital band crossing in FRONT of small ring, single vertical gold spindle. Exact same silhouette, perspective, ring ellipse angles, crossing order and colors. Limited31 opaque colors plus transparent alpha, hard pixel edges and no antialiasing, clear small-resolution game sprite. Full body centered. No new parts or decorations, no text/ground/shadow/sheet.",
+      "references_at_generation": [
+        {
+          "sha256": "f9ca934e15cfdf0bc1342fbf3c5a6613590ba4c4f493802df34b60b0142ffb72"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "e8a3ea2746b6b8196c153511e52e6d48d23571fa87356297d0073ccbe381f294"
+      },
+      "retained_raw_copy": {
+        "sha256": "e8a3ea2746b6b8196c153511e52e6d48d23571fa87356297d0073ccbe381f294"
+      },
+      "pre_normalization": {
+        "sha256": "22127dad157cfd186e06f69fc66ff4f6462b9dc9f1bb56a11a578c79ddf37fc0"
+      },
+      "accepted_final": {
+        "sha256": "c7a43c946f7ca79f465f8d34b846034fe55ca2d242bebb21ddde44ee996b6f9d"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        128,
+        128
+      ],
+      "margin": [
+        23,
+        10,
+        23,
+        10
+      ],
+      "extent": 108
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "generation_key": "E2",
+      "prompt": "Use case: identity-preserve technical orthographic turnaround. ONE transparent 1024-square image. Reference 1 original FRONT ring creature; reference 2 improved LEFT-SIDE projection. Draw complementary EAST RIGHT-SIDE exact 270deg profile of the SAME rigid object, same body size/material. Camera is exactly opposite reference 2. Its eyes now project from lower RIGHT-facing side of small ring. Both blue rings share a vertical plane: viewed edge-on they look thin vertical crystal bars, holes hidden, NOT broad ovals. Gold orbital band is a single circle on different tilted plane, so appears a broad tilted ellipse; from the opposite side its projected tilt and near/far crossings reverse compared with reference 2. Preserve three eyes attached to original bottom-front small ring, with natural occlusion; center eye lowest, two lateral eyes slightly higher and overlapping in profile. Keep large ring's gap at top, one small ring, one gold band, one upright gold spindle terminating inside lower outer hoop. No added tips or parts. Original periwinkle crystal and gold marbling painterly lineart. Full body margins, true transparent alpha, no sheet, floor, shadow, text.",
+      "references_at_generation": [
+        {
+          "sha256": "d3df33074526a347d210e6582bf1bb9fa8e8fbf8e2ceb8b7b220efe99d9c18bb"
+        },
+        {
+          "sha256": "3be5e4b03d75c4d1dc5cb316ef44f526d0bc6784e3bc11c91295dff5c74ef8af"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "f4ec4999b220393729a891821300d8cbd5a783ff2f1a504f849fd9f5aebf57ad"
+      },
+      "retained_raw_copy": {
+        "sha256": "f4ec4999b220393729a891821300d8cbd5a783ff2f1a504f849fd9f5aebf57ad"
+      },
+      "pre_normalization": {
+        "sha256": "b4d63a77c394c66ae8a4b773dbeacec936996d6d022eee034bc1f52d00aa8714"
+      },
+      "accepted_final": {
+        "sha256": "ae136ebe241e292a8d40a97ba48b770ef6578ed358cb6514aba279a5eef09113"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        1024,
+        1024
+      ],
+      "margin": [
+        267,
+        80,
+        267,
+        80
+      ],
+      "extent": 864
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "generation_key": "Epixel2",
+      "prompt": "Use case: style-transfer. ONE crisp pixel-art sprite of exact E SIDE PROFILE creature shown reference 1. Reference 2 gives original STYLE/PALETTE ONLY, never copy original broad ring shape. Preserve reference 1 thin edge-on vertical blue ring profiles, hidden blue ring holes, wide diagonally tilted gold orbit, spindle, exactly TWO visible gold eyes on lower side due to third occluded. Keep exact facing, ellipse diagonal tilt, crossings, full silhouette and proportions. Classic 128x128 pixel-art resolution with hard pixels; no smoothing or antialiasing; at most31 opaque colors plus genuine transparent alpha. Full body centered uncropped. No extra parts, floor, shadows, sheet/text.",
+      "references_at_generation": [
+        {
+          "sha256": "f4ec4999b220393729a891821300d8cbd5a783ff2f1a504f849fd9f5aebf57ad"
+        },
+        {
+          "sha256": "21dc7d3f3473fa200fa5e34e323d9553a2c4d7aea330ea4cd4dd446221ab6c64"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "8e0ee9588904c3cde6a5e79ff46694c6feca9c9da51783b7a1e7d2edf21a554c"
+      },
+      "retained_raw_copy": {
+        "sha256": "8e0ee9588904c3cde6a5e79ff46694c6feca9c9da51783b7a1e7d2edf21a554c"
+      },
+      "pre_normalization": {
+        "sha256": "7160e2750166279ae3e7254aaa2281df7643327052a220ca11348d10138503eb"
+      },
+      "accepted_final": {
+        "sha256": "3018e1ac63f52922787534b12ddd97390794db1a7c2a0dcb4d63084683e2b803"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        128,
+        128
+      ],
+      "margin": [
+        33,
+        10,
+        33,
+        10
+      ],
+      "extent": 108
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "generation_key": "SE2",
+      "prompt": "Use case: identity-preserve technical character turnaround. ONE transparent asset, same exact blue crystal ring monster. Reference1 is FRONT; reference2 is true LEFT SIDE for geometry only. Draw the camera view HALFWAY between front/back and profile: SE 315 degrees FRONT-RIGHT. Face points toward viewer and RIGHT. Three eyes remain visible on lower front arc. Near right-front eye a little larger, far left-front eye smaller by perspective. Gold band front crossing behind eye-ring, its near arc crosses in front of outer hoop. Critical: Both blue circular rings are obliquely viewed, projected horizontal diameter exactly about 0.60 to 0.70 of their vertical diameter (tall oval projection). NOT a wide nearly circular front view. DO NOT just squeeze the whole image: golden orbit is on DIFFERENT tilted plane and independently projects to a wider angled ellipse; crystal ring thickness and occlusion change naturally in 3D. Preserve one broken outer blue ring gap at top, one inner complete blue ring, one tilted gold orbit and gold vertical spindle, no extra parts. Crystal front/back surfaces properly foreshortened. Retain all identity features, original periwinkle/gold marbling, soft painterly lineart. Full body centered uncropped 1024 square with margins. True transparent alpha, no text/ground/shadow/contact sheet.",
+      "references_at_generation": [
+        {
+          "sha256": "d3df33074526a347d210e6582bf1bb9fa8e8fbf8e2ceb8b7b220efe99d9c18bb"
+        },
+        {
+          "sha256": "3be5e4b03d75c4d1dc5cb316ef44f526d0bc6784e3bc11c91295dff5c74ef8af"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "9511921dc2545732c384a45d8d587ad00a3423e537c90a383c06c3048f144c20"
+      },
+      "retained_raw_copy": {
+        "sha256": "9511921dc2545732c384a45d8d587ad00a3423e537c90a383c06c3048f144c20"
+      },
+      "pre_normalization": {
+        "sha256": "15d81a337b5c8c35b925d453ae40cc00f6cd390808df5023a589775c969fa5e0"
+      },
+      "accepted_final": {
+        "sha256": "bb3be5006d9fae0ea1ae3347a8615f494631ec9419031ae6f3b4e2783b3f246f"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        1024,
+        1024
+      ],
+      "margin": [
+        161,
+        80,
+        162,
+        80
+      ],
+      "extent": 864
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "generation_key": "SEpixel3",
+      "prompt": "Use case: style-transfer. ONE pixel art sprite of exact SE diagonal creature in reference1. Reference2 provides original palette/style only, not shape/facing. Preserve reference1 tall elliptical foreshortened blue rings, original 0.6-0.7 width-to-height projected outer ring, exact orbital golden band angle and occlusion crossing order, upright gold spindle and number/visibility of eyes. Do not widen to front view or flatten perspective. Same crystal creature, 128x128 hard pixel style with31 opaque colors and transparent alpha. Full body margins, no text, ground, shadow, sheet or added parts.",
+      "references_at_generation": [
+        {
+          "sha256": "9511921dc2545732c384a45d8d587ad00a3423e537c90a383c06c3048f144c20"
+        },
+        {
+          "sha256": "21dc7d3f3473fa200fa5e34e323d9553a2c4d7aea330ea4cd4dd446221ab6c64"
+        }
+      ],
+      "raw_generated": {
+        "sha256": "d837da692c9f8281a44cd5381bc0bff3a4afcb3ef5b29492308ebf7e97f88adb"
+      },
+      "retained_raw_copy": {
+        "sha256": "d837da692c9f8281a44cd5381bc0bff3a4afcb3ef5b29492308ebf7e97f88adb"
+      },
+      "pre_normalization": {
+        "sha256": "9abf9a587160b407a12081bee59f406c0a97a986863c32c676056da47689d11a"
+      },
+      "accepted_final": {
+        "sha256": "ce245c92c89c44436514b5d87f69eb5a10b6245512a72a93f55ac13d43cff756"
+      },
+      "normalization": "v6 alpha>0 bbox crop excludes only fully transparent padding, proportional downscale and center-pad; raw/previous versions retained",
+      "size": [
+        128,
+        128
+      ],
+      "margin": [
+        21,
+        10,
+        21,
+        10
+      ],
+      "extent": 108
+    }
+  ]
+}
