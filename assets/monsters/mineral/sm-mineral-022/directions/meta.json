@@ -553,8 +553,8 @@
     "pixel": "Independent pixel generation from matching normal, nearest128, alpha threshold128,31-color quantization without dithering, transparent RGB cleared, proportional nearest visible108 centered128; no shape redraw."
   },
   "qa": {
-    "numeric_hash": "producer_additional14_passed; independent_review_pending",
-    "visual": "Eight-pair correspondence and black/white edges inspected; revised NE indentation hidden. Independent review pending.",
+    "numeric_hash": "E all16slots verified size/margin/extent/pixel binary alpha/visible RGB<=32 and file hashes",
+    "visual": "E revised NE normal/pixel full-resolution review confirms hidden indented front tip, rear-end foreground and four fins. Eight-pair comparison confirms corresponding silhouettes/palette. Listed exact-angle, fin-depth and band-projection limitations remain.",
     "limitations": [
       "Exact45-degree yaw and fixed camera elevation are not calibrated",
       "Diagonal mineral band projection and fixed fin roots/depth remain inferred",
@@ -563,6 +563,10 @@
     "in_game": "not_run",
     "user_acceptance": "pending",
     "independent_numeric_hash": "E all16slots verified size/margin/extent/pixel binary alpha/visible RGB<=32 and file hashes",
-    "independent_visual": "E revised NE normal/pixel full-resolution review confirms hidden indented front tip, rear-end foreground and four fins. Eight-pair comparison confirms corresponding silhouettes/palette. Listed exact-angle, fin-depth and band-projection limitations remain."
+    "independent_visual": "E revised NE normal/pixel full-resolution review confirms hidden indented front tip, rear-end foreground and four fins. Eight-pair comparison confirms corresponding silhouettes/palette. Listed exact-angle, fin-depth and band-projection limitations remain.",
+    "producer_stage_snapshot": {
+      "numeric_hash": "producer_additional14_passed; independent_review_pending",
+      "visual": "Eight-pair correspondence and black/white edges inspected; revised NE indentation hidden. Independent review pending."
+    }
   }
 }
