@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "id": "sm-micro-011",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-micro-011-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-micro-011 / ラセノピル / 微体 (micro)\nBody and exact anatomy: 太い一本の螺旋状細胞が一周半巻いた胴。上側の端に目2個、下側に脚2本、翼0枚、独立した尾0本。\nMaterials and biological motif: 半透明の弾力ゼリー風の体。浅い水の中で縮んだり伸びたりして位置を変える。\nPrimary, secondary, accent colors respectively: #B1C7CB; #DEA2A7; #D9DF9E\nThree mandatory visual identifiers: 螺旋は必ず一周半で中央に隙間がある; 脚2本は底の端にだけ付く; 目のある端は平たい楕円形\nPose: 螺旋の中央が見える斜め向きで、2本脚をそろえて浮く。\nTemperament to convey through expression or posture: 穏やかな弾み好き。水の揺れが収まるとゆっくり丸まる。. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 螺旋を密な多重巻きにしない; 胴の途中に目を足さない; 別の尾を追加しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-micro-011-default-attempt002-prompt": "Use case: precise-object-edit\nInput image1 is sm-micro-011 normal001. Correct the topology of its SINGLE thick continuous spiral cell. From the upper flat oval endpoint bearing exactly TWO eyes, its body coils exactly ONE AND A HALF TURNS around a visible central gap, ending at the LOWER terminal where exactly TWO short legs attach. Legs must grow from the lower END, never from the middle of an outer bend. Remove the apparent extra blunt inner free tip by making that portion continue to the lower leg-bearing endpoint. One unbranched spiral body with exactly two endpoints total, no independenttail/wings. Preserve semitranslucent elastic jelly material and muted blue #B1C7CB/pink #DEA2A7/yellowgreen #D9DF9E. Simplify glossy multitonepatches into clean restrained broad three-stepcel shading, no addedspots or objects. Show spiralcenter in slight obliqueview, legs pairedtogether. Fullbody genuine transparent background, generouspadding, no scenery/text/castshadow.",
+      "sm-micro-011-default-attempt003-prompt": "Use case: precise-object-edit\nInput image1 is sm-micro-011 normal002. Fix ONLY the incorrect leg attachment and terminal orientation. The current two feet branch from the bottom of the OUTER LOOP, while the inner free terminal has no feet. Remove those two feet from the outer loop completely so that loop is smooth and unbranched. Instead place exactly TWO small adjacent feet on the INNER FREE TERMINAL, angling that terminal downward so it is the lower leg-bearing END of the single spiral. The eyed upper endpoint is the other and only other endpoint. Keep one continuous thick cell body coiled exactly one-and-a-half turns, with a clear central gap. No third branch or separate tail. Keep two eyes on the flat oval upper endpoint, no wings. Preserve muted blue/pink/yellowgreen palette, semitranslucent jelly, clean broad cel shading, fullbody genuine transparency and clearpadding. No scenery or text.",
+      "sm-micro-011-default-attempt004-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-micro-011 / ラセノピル / 微体 (micro)\nBody and exact anatomy: 太い一本の螺旋状細胞が一周半巻いた胴。上側の端に目2個、下側に脚2本、翼0枚、独立した尾0本。\nMaterials and biological motif: 半透明の弾力ゼリー風の体。浅い水の中で縮んだり伸びたりして位置を変える。\nPrimary, secondary, accent colors respectively: #B1C7CB; #DEA2A7; #D9DF9E\nThree mandatory visual identifiers: 螺旋は必ず一周半で中央に隙間がある; 脚2本は底の端にだけ付く; 目のある端は平たい楕円形\nPose: 螺旋の中央が見える斜め向きで、2本脚をそろえて浮く。\nTemperament to convey through expression or posture: 穏やかな弾み好き。水の揺れが収まるとゆっくり丸まる。. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 螺旋を密な多重巻きにしない; 胴の途中に目を足さない; 別の尾を追加しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n\nTopology is crucial: one unbranched coiled tube with exactly TWO endpoints. The upper endpoint is flattened oval and bears two eyes; the lower endpoint has exactly two little feet attached directly at its terminal tip. Between these two endpoints the tube makes exactly 1.5 turns with a central open gap. No feet may branch from the side of the tube, no additional free inner tip. Use a clearly readable slight-oblique view, broad restrained three-step cel shading and no extraneous spots.",
+      "sm-micro-011-default-attempt005-prompt": "Use case: precise-object-edit\nInput image1 is sm-micro-011 normal004. Its anatomy and continuous1.5-turn spatial helix are approved. Change ONLY the shading style. Replace numerous blended translucent gradients and scattered glossy highlights with restrained clean cel shading: three broad tone levels per existing blue/pink/yellowgreen color role, one base area, one shadow area, one small highlight area. Keep the semitranslucent jelly impression using simple color regions, not dense gradients or many glints. Preserve exactly the current unbranched1.5-turn helix, centralspacing, upperflatovalendwith2eyes, lowerterminalwith2feet, noextraend/tail/wings, currentpose/proportions and mutedpalette. Do not redraw or relocate bodyparts. Fullbody genuine transparent background, clearpadding, no text/scenery/castshadow.",
+      "sm-micro-011-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-micro-011; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-micro-011 / ラセノピル / 微体 (micro)\nLocked body and anatomy: 太い一本の螺旋状細胞が一周半巻いた胴。上側の端に目2個、下側に脚2本、翼0枚、独立した尾0本。\nLocked material cues: 半透明の弾力ゼリー風の体。浅い水の中で縮んだり伸びたりして位置を変える。\nLocked palette roles, primary/secondary/accent: #B1C7CB; #DEA2A7; #D9DF9E\nAll three identifiers must remain recognizable: 螺旋は必ず一周半で中央に隙間がある; 脚2本は底の端にだけ付く; 目のある端は平たい楕円形\nLocked pose: 螺旋の中央が見える斜め向きで、2本脚をそろえて浮く。\nLocked temperament/expression: 穏やかな弾み好き。水の揺れが収まるとゆっくり丸まる。. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 螺旋を密な多重巻きにしない; 胴の途中に目を足さない; 別の尾を追加しない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "de20d4e800bfdb9ecf2628294e8142fd9c9a61ff9aee5f7c260b9b288500dd34",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-micro-011-default-attempt001-original.png",
+          "bytes": 1063339,
+          "sha256": "f7c99bc2cfef9c97a6bec398953b094dc291efc9d3742e29d2af98498af4444a",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-micro-011-default-attempt002-original.png",
+          "bytes": 861482,
+          "sha256": "3973034118b662afb00ac4037b54b9b39f34dbc54f10d2bae01baab96db3e9e4",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-micro-011-default-attempt003-original.png",
+          "bytes": 861442,
+          "sha256": "ed3ad83dacd53304524d1f2b62fc4d5d99dfa47aa35a93b5e2921c4f6af1627d",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-micro-011-default-attempt004-original.png",
+          "bytes": 892044,
+          "sha256": "588892eac07501604d6a16fb15ae25c9ec59fd069bbc532f26a93adc92cddc40",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-micro-011-default-attempt005-original.png",
+          "bytes": 801499,
+          "sha256": "9a3db095a38e822e12e7869d5cf387410371bb331ac403f81dbe9760dd5b0ba5",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-micro-011-pixel-attempt001-original.png",
+          "bytes": 754109,
+          "sha256": "4e28633a789e9beacc7e019c7f34cd763eb87cd003c05f9150c517ccb216bec2",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/micro/sm-micro-011/default.png",
+      "sha256": "de20d4e800bfdb9ecf2628294e8142fd9c9a61ff9aee5f7c260b9b288500dd34",
+      "bytes": 525666,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        155,
+        80,
+        869,
+        944
+      ],
+      "transparent_margins": [
+        155,
+        80,
+        155,
+        80
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/micro/sm-micro-011/pixel.png",
+      "sha256": "a25ce287853ecb81541f8aadc43519ac106249470687e9b375a98937fb68cfec",
+      "bytes": 8469,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        21,
+        10,
+        106,
+        118
+      ],
+      "transparent_margins": [
+        21,
+        10,
+        22,
+        10
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "半透明ゼリーの印象は主に描画表現。通常の内部alphaは主に253〜254、pixelは二値alphaの不透明色。立体的な一周半螺旋として仕様を満たす候補。",
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

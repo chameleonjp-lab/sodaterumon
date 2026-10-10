@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "sm-scaled-020",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-scaled-020-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-scaled-020 / ヨツバロエ / 鱗体 (scaled)\nBody and exact anatomy: 体節1の短い縦長円筒胴。脚0、腕0、目2、翼4、尾1。丸い翼は左右2枚ずつ、尾は下端の短いしずく形。\nMaterials and biological motif: 薄い円盤うろこが重なる胴。翼4枚はそれぞれ大きな一枚うろこ。\nPrimary, secondary, accent colors respectively: #AEC4E2; #E5C2A6; #555E81\nThree mandatory visual identifiers: 短い円筒胴を縦向きに保つ; 左右2枚ずつの丸い一枚うろこ翼; 下端のしずく形尾1個\nPose: 翼4枚をX字気味に広げ、胴を垂直に浮かせる。\nTemperament to convey through expression or posture: 軽快。低い枝の間をゆっくり浮き渡る。. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 脚; 細かく分かれた翼; 長い尾ひも\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-scaled-020-default-attempt002-prompt": "Use case: precise-object-edit\nInput image 1 is the exact target sm-scaled-020 normal001. Correct the four wings and lighting only. Each wing must be one broad ROUND indivisible scale plate, not an elongated oval and not a stack of smaller scales: four single continuous surfaces with no internal overlapping lobes or scale seams, two wings on each side in the same loose X arrangement. Keep the compact single vertical cylindrical torso with overlapping thin disc scales, two eyes, no legs/arms, and one short bottom droplet tail. Preserve primary muted blue #AEC4E2, secondary peach #E5C2A6 and dark slate #555E81 roles. Simplify shading to restrained clearly separated three-step cel shading with no blended multilayer gloss. Preserve floating vertical pose and anatomy count, no new crest or feature. Full body centered on genuine transparent background with clear padding, no scenery, ground, cast shadow or text.",
+      "sm-scaled-020-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-scaled-020; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-scaled-020 / ヨツバロエ / 鱗体 (scaled)\nLocked body and anatomy: 体節1の短い縦長円筒胴。脚0、腕0、目2、翼4、尾1。丸い翼は左右2枚ずつ、尾は下端の短いしずく形。\nLocked material cues: 薄い円盤うろこが重なる胴。翼4枚はそれぞれ大きな一枚うろこ。\nLocked palette roles, primary/secondary/accent: #AEC4E2; #E5C2A6; #555E81\nAll three identifiers must remain recognizable: 短い円筒胴を縦向きに保つ; 左右2枚ずつの丸い一枚うろこ翼; 下端のしずく形尾1個\nLocked pose: 翼4枚をX字気味に広げ、胴を垂直に浮かせる。\nLocked temperament/expression: 軽快。低い枝の間をゆっくり浮き渡る。. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 脚; 細かく分かれた翼; 長い尾ひも\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "9e327748365165b8ba9d786d60b5bb96ab4d7b9b08b54aee022467c3990a0c56",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-scaled-020-default-attempt001-original.png",
+          "bytes": 977155,
+          "sha256": "c9ad62cd2d11ae9e8dda3ab54846bf860a1c99976f9eaaa8fd4fcfa0e4ffc9c5",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-scaled-020-default-attempt002-original.png",
+          "bytes": 975931,
+          "sha256": "9245a27ccba88f94a4bd95da40104f2f9f5d96fb78b1b56b3a6c3281bbaeda05",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-scaled-020-pixel-attempt001-original.png",
+          "bytes": 869364,
+          "sha256": "b5e45ff9a7f9f75cdf4548affa967b0a48e54099c983a77cf4f3aa8464c48a9e",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/scaled/sm-scaled-020/default.png",
+      "sha256": "9e327748365165b8ba9d786d60b5bb96ab4d7b9b08b54aee022467c3990a0c56",
+      "bytes": 590353,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        95,
+        944,
+        929
+      ],
+      "transparent_margins": [
+        80,
+        95,
+        80,
+        95
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/scaled/sm-scaled-020/pixel.png",
+      "sha256": "3eaaf479eb432ade25bc9cc7ffe9c949d4939d23f4c7636e09d29834df356b5a",
+      "bytes": 10221,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        11,
+        118,
+        117
+      ],
+      "transparent_margins": [
+        10,
+        11,
+        10,
+        11
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
