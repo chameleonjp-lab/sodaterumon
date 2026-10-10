@@ -1,0 +1,1010 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-016",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "existing_direction_basis": "Original crystal face toward screen-right with near/far eyes, front-right three-quarter inferred visually; immutable original.",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/arcane/sm-arcane-016/default.png",
+      "sha256": "2c4e2cc7d37f45120c258b8823bc404767aa753a292ba4fa549cfc430bcd68ba",
+      "git_blob_sha": "b385a9a47487c622dbe94b56610bfc81c831228e",
+      "bytes": 509140
+    },
+    "pixel": {
+      "path": "assets/monsters/arcane/sm-arcane-016/pixel.png",
+      "sha256": "b8b41926b0bec42267ad82831c229850ae5b7bcb08ac5de919cd4a55d33d4bcb",
+      "git_blob_sha": "fec33d2daac088b20874a1858de9c9e4c52da30b",
+      "bytes": 9942
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front, N rear; eight nominal azimuth sectors in order S,SW,W,NW,N,NE,E,SE. Not an assertion of exact physical camera calibration.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/S/default.png",
+      "sha256": "ddd0bea1a3dce37dd315d003ab40e172d36141d0dd073ace24a56193bb437541",
+      "bytes": 456171,
+      "git_blob_sha": "ed4ca75fc2e956c39f89f6ada21dfd48fc9f2a0a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          176,
+          928,
+          848
+        ],
+        "margins": [
+          96,
+          176,
+          96,
+          176
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 101381,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/S/pixel.png",
+      "sha256": "03bcde85d69cd968f6f15e14de91b92af8134f267ce0f48bdedf8f35437a7c45",
+      "bytes": 8993,
+      "git_blob_sha": "3436cf893aea2bea3e73658fbe004806afee7a67",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          17,
+          116,
+          110
+        ],
+        "margins": [
+          12,
+          17,
+          12,
+          18
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "ddd0bea1a3dce37dd315d003ab40e172d36141d0dd073ace24a56193bb437541"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/SW/default.png",
+      "sha256": "61c4d8e0ea67cc0abfb72e9fd3cd25c10fdae2aeb2780178d6f634d10d2b4f88",
+      "bytes": 500978,
+      "git_blob_sha": "3891c62b5268887bd816e5c8788a52393eb0e93c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          149,
+          928,
+          874
+        ],
+        "margins": [
+          96,
+          149,
+          96,
+          150
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 111923,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/SW/pixel.png",
+      "sha256": "9bb97d700146436d79cd16003a7183d5a877f26cef7075b6fc91a8c48430806c",
+      "bytes": 8546,
+      "git_blob_sha": "8671c611d960e0b72ca8b6bacf01e42122d37f1c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          15,
+          116,
+          112
+        ],
+        "margins": [
+          12,
+          15,
+          12,
+          16
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "61c4d8e0ea67cc0abfb72e9fd3cd25c10fdae2aeb2780178d6f634d10d2b4f88"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/W/default.png",
+      "sha256": "0c947271925489e1a5355badc6a54c9973ed25b0110d2ae785e8cee1a350d954",
+      "bytes": 587881,
+      "git_blob_sha": "7745885240db4b5bbd16f24820c0ce5163a41465",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          105,
+          96,
+          918,
+          928
+        ],
+        "margins": [
+          105,
+          96,
+          106,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 117895,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/W/pixel.png",
+      "sha256": "1529761d1a42ca83b617ae3e9ddfde5f2dbda222101770da2d284a44832c61bc",
+      "bytes": 8043,
+      "git_blob_sha": "7f98b9fcdebc76ce31812c6c2a5d16482a567543",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          13,
+          12,
+          115,
+          116
+        ],
+        "margins": [
+          13,
+          12,
+          13,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 31,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "0c947271925489e1a5355badc6a54c9973ed25b0110d2ae785e8cee1a350d954"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/NW/default.png",
+      "sha256": "e3fc471b91567b6a0ccd66838ee32b04514ea13c5dbfe013d0499763400b8c07",
+      "bytes": 553718,
+      "git_blob_sha": "24c95a76789101560b8fac81a56b54dd880964d6",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          99,
+          928,
+          924
+        ],
+        "margins": [
+          96,
+          99,
+          96,
+          100
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 115700,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/NW/pixel.png",
+      "sha256": "98955a717f615d16eb69cb397af49fdf1b13bf86002f1edc931b480f7f7b261c",
+      "bytes": 8181,
+      "git_blob_sha": "18485eb9d8fb083c4681575159d2725af2fa7b9b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          14,
+          116,
+          113
+        ],
+        "margins": [
+          12,
+          14,
+          12,
+          15
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "e3fc471b91567b6a0ccd66838ee32b04514ea13c5dbfe013d0499763400b8c07"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/N/default.png",
+      "sha256": "10d929140365e4388b47757c6f530ef6468e79ab9b805f0ddee54a36853977a5",
+      "bytes": 464566,
+      "git_blob_sha": "319e3b415af52e96249f769c4ca063db2632d703",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          160,
+          928,
+          864
+        ],
+        "margins": [
+          96,
+          160,
+          96,
+          160
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 97922,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/N/pixel.png",
+      "sha256": "f82e8b4ac99af8073b603540aae08409c97c51bed26e57bf574aa8c38c298128",
+      "bytes": 7651,
+      "git_blob_sha": "6a8512a40843e65596a4f3fbd1338cb6ebdfcb77",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          18,
+          116,
+          109
+        ],
+        "margins": [
+          12,
+          18,
+          12,
+          19
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "10d929140365e4388b47757c6f530ef6468e79ab9b805f0ddee54a36853977a5"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/NE/default.png",
+      "sha256": "ba04c9f54fdaf2bf5a87d40e2cf1e4825793b787f11e48754ee936fb217549f5",
+      "bytes": 547587,
+      "git_blob_sha": "4e0bb5baff025f1fbeb2910ce74da36cfd9a971a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          97,
+          928,
+          926
+        ],
+        "margins": [
+          96,
+          97,
+          96,
+          98
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 112696,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/NE/pixel.png",
+      "sha256": "0f20c6b46482ce4839e6ad07ce889f2fd43ebc92fa773e250a4cb0a2c7cace05",
+      "bytes": 8006,
+      "git_blob_sha": "250d2f1a38ca69dbbf45b084f11f9e1e23dad916",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          13,
+          12,
+          115,
+          116
+        ],
+        "margins": [
+          13,
+          12,
+          13,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "ba04c9f54fdaf2bf5a87d40e2cf1e4825793b787f11e48754ee936fb217549f5"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/E/default.png",
+      "sha256": "738388a53505115150a018aeb6ec2c45acd22ad94bd2b0a0e61db00dcc0fd1fd",
+      "bytes": 520036,
+      "git_blob_sha": "8f5a6a3f0136a029b828a7504594b458ef89aa8f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          119,
+          96,
+          904,
+          928
+        ],
+        "margins": [
+          119,
+          96,
+          120,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 111667,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-016/directions/E/pixel.png",
+      "sha256": "b6ff74cbe599ec0fb137dd450845540b37b1940243ef26baae3463faf37903d0",
+      "bytes": 8528,
+      "git_blob_sha": "a910a1a27a11a98b4aad41a7251f8ce476f27479",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          13,
+          12,
+          114,
+          116
+        ],
+        "margins": [
+          13,
+          12,
+          14,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 31,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "738388a53505115150a018aeb6ec2c45acd22ad94bd2b0a0e61db00dcc0fd1fd"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-016/default.png",
+      "sha256": "2c4e2cc7d37f45120c258b8823bc404767aa753a292ba4fa549cfc430bcd68ba",
+      "bytes": 509140,
+      "git_blob_sha": "b385a9a47487c622dbe94b56610bfc81c831228e",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          144,
+          944,
+          880
+        ],
+        "margins": [
+          80,
+          144,
+          80,
+          144
+        ],
+        "visible_longest_extent": 864,
+        "alpha_value_count": 249,
+        "visible_rgb_colors": 112181,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-016/pixel.png",
+      "sha256": "b8b41926b0bec42267ad82831c229850ae5b7bcb08ac5de919cd4a55d33d4bcb",
+      "bytes": 9942,
+      "git_blob_sha": "fec33d2daac088b20874a1858de9c9e4c52da30b",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          17,
+          118,
+          111
+        ],
+        "margins": [
+          10,
+          17,
+          10,
+          17
+        ],
+        "visible_longest_extent": 108,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 29,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "2c4e2cc7d37f45120c258b8823bc404767aa753a292ba4fa549cfc430bcd68ba"
+    }
+  ],
+  "qa": {
+    "producer_and_parent_visual_review": "candidate correspondence reviewed; scope and caveats retained",
+    "E_independent_numeric_and_hash_review": "performed for all16 files",
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending",
+    "limitations": [
+      "Existing direction is visually inferred from a single two-dimensional reference; labels are nominal viewpoints, not certified 3D rotations.",
+      "Hidden surfaces, far-side occlusion and exact 45-degree continuity are inferred.",
+      "In-game display and final user acceptance have not been completed.",
+      "Hidden rear facets and volume inferred from original; not exact 3D reconstruction. W fin roots corrected to original rear side, NW pixel circular inset restored."
+    ]
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "actual_prompt": "Identity-preserve turntable of exact reference individual, S0 straight FRONT view. Change only yaw from original front-right, same modest elevated camera. Creature is a floating rounded teardrop crystal-fish head/body with translucent-looking pastel cyan/lavender/cream/peach geometric patches, exactly TWO violet/gold eyes flanking one tall vertical faceted pale crystal panel centered on face; exactly SIX leaf-shaped crystal fin appendages: two long upright antenna-like top fins and two paired side fins on each side (larger upper side fin, smaller lower). Small pale circular side inset near rear, no mouth/feet/tail added. Keep faceted leaf patterns and thin violet outlines, polished original illustration style, same anatomy/palette/proportions. Front face centered, natural occlusion of far parts; body foreshortened, not overhead. Whole creature with all six fins inside generous transparent margin, transparent1024RGBA,no text/ground/shadow.",
+      "raw_sha256": "3141326697d85a119b885c3c15cddecfd54629e96181d59b3bb841156a83bf0a",
+      "raw_bytes": 777989,
+      "generation_references_in_order": [
+        {
+          "sha256": "2c4e2cc7d37f45120c258b8823bc404767aa753a292ba4fa549cfc430bcd68ba"
+        }
+      ],
+      "finished": {
+        "sha256": "ddd0bea1a3dce37dd315d003ab40e172d36141d0dd073ace24a56193bb437541",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          176,
+          928,
+          848
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 101381,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "actual_prompt": "Style-transfer ONLY: first image exact S direction crystal creature into crisp true128x128 pixel sprite. Preserve same individual,camera,pose,silhouette,all SIX leaf fins and attachment roots(two long top,two paired side fins per side),two purple/gold eyes,central tall faceted face gem,round rear-side inset,cyan/lavender/cream/peach facets. Second image ONLY pixel style and palette, not direction. No anatomy redesign,new eyes/fins/tail/legs/mouth. Natural occlusion unchanged. Hard pixel clusters,<=32visible colors,no antialias/blur,binary transparent alpha. Whole single sprite with margins,no text/ground/shadow.",
+      "raw_sha256": "c4cea824342315a99e133b6297f954faf2d7484ea29ffcf88f35037e80eb1dc3",
+      "raw_bytes": 774078,
+      "generation_references_in_order": [
+        {
+          "sha256": "3141326697d85a119b885c3c15cddecfd54629e96181d59b3bb841156a83bf0a"
+        },
+        {
+          "sha256": "b8b41926b0bec42267ad82831c229850ae5b7bcb08ac5de919cd4a55d33d4bcb"
+        }
+      ],
+      "finished": {
+        "sha256": "03bcde85d69cd968f6f15e14de91b92af8134f267ce0f48bdedf8f35437a7c45",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          17,
+          116,
+          110
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "actual_prompt": "Identity-preserve exact reference crystal creature at SW45 FRONT-LEFT three-quarter, face toward viewer and screen-left, yaw-only rotation with same camera elevation. Same teardrop rounded body, pastel cyan/lavender/cream/peach faceted patterns, TWO violet/gold eyes around ONE tall central faceted face panel, SIX leaf crystal fins total: two long upright top appendages and two side fins each side (large upper,small lower), pale circular side inset near rear. Natural far-side occlusion. Preserve attachments/materials/proportions and thin purple outlines, polished original illustration. No mouth/tail/feet or extra fins/eyes, no shape redesign. Single full creature centered with generous margins on transparent1024RGBA,no text/ground/shadow.",
+      "raw_sha256": "0d690a0511f5c676cbcd16b61ef9aa00930cbff7530cda198bd95a726b365421",
+      "raw_bytes": 842503,
+      "generation_references_in_order": [
+        {
+          "sha256": "2c4e2cc7d37f45120c258b8823bc404767aa753a292ba4fa549cfc430bcd68ba"
+        }
+      ],
+      "finished": {
+        "sha256": "61c4d8e0ea67cc0abfb72e9fd3cd25c10fdae2aeb2780178d6f634d10d2b4f88",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          149,
+          928,
+          874
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 111923,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "actual_prompt": "Style-transfer ONLY: first image exact SW direction crystal creature into crisp true128x128 pixel sprite. Preserve same individual,camera,pose,silhouette,all SIX leaf fins and attachment roots(two long top,two paired side fins per side),two purple/gold eyes,central tall faceted face gem,round rear-side inset,cyan/lavender/cream/peach facets. Second image ONLY pixel style and palette, not direction. No anatomy redesign,new eyes/fins/tail/legs/mouth. Natural occlusion unchanged. Hard pixel clusters,<=32visible colors,no antialias/blur,binary transparent alpha. Whole single sprite with margins,no text/ground/shadow.",
+      "raw_sha256": "a96013c770f24c6428613a528cbc44a6e5c5f9a004f5a1059e6f2ac5fa91768a",
+      "raw_bytes": 784645,
+      "generation_references_in_order": [
+        {
+          "sha256": "0d690a0511f5c676cbcd16b61ef9aa00930cbff7530cda198bd95a726b365421"
+        },
+        {
+          "sha256": "b8b41926b0bec42267ad82831c229850ae5b7bcb08ac5de919cd4a55d33d4bcb"
+        }
+      ],
+      "finished": {
+        "sha256": "9bb97d700146436d79cd16003a7183d5a877f26cef7075b6fc91a8c48430806c",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          15,
+          116,
+          112
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "actual_prompt": "Precise identity anatomy correction first image W left profile. Second original is authority, third E opposite profile is supporting attachment reference. Keep first image left-facing profile/camera/head/eye/front gem/body/colors/top two fins unchanged. Correct ONLY two near-side lateral fins: they attach near REAR rounded side inset at screen-RIGHT end of body, like original and third image, NOT in middle of flank. Move their root bases to rear right near circular inset, larger side fin above smaller side fin, and extend outward/backward screen-right. Preserve their shapes/proportions and total six fins (far pair naturally hidden). No extra fin/eye/tail or redesign. Whole creature transparent1024RGBA with margin,no text/ground/shadow.",
+      "raw_sha256": "6f535e562043bc86450a1b6aff4012c6972b251147adee4602820f8b69f8fda0",
+      "raw_bytes": 825893,
+      "generation_references_in_order": [
+        {
+          "sha256": "d6457053df0c3ef4475840778fde418151c0482586776f41460fb888a14af52b"
+        },
+        {
+          "sha256": "2c4e2cc7d37f45120c258b8823bc404767aa753a292ba4fa549cfc430bcd68ba"
+        },
+        {
+          "sha256": "ca4744c1502e770648b8275e6b52ab68e53bf6a581eed62fbf7c3e3fb296ecd0"
+        }
+      ],
+      "finished": {
+        "sha256": "0c947271925489e1a5355badc6a54c9973ed25b0110d2ae785e8cee1a350d954",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          105,
+          96,
+          918,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 117895,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "actual_prompt": "Style-transfer ONLY: first image exact LEFT PROFILE, one visible near eye, front gem edge-on left, two side fins rooted at REAR right beside circular inset into true crisp128x128 pixel art. Preserve same identity,camera,pose,silhouette and fin roots. Original six fins total(two tall top,large upper/small lower side pair each flank), naturally hidden far fins unchanged. Same pastel cyan/lavender/cream/peach facets, original front gem/eyes only where visible in first image. Second reference ONLY pixel style/palette, not its direction. No new anatomy or rear eyes/face, no tail/legs/mouth. Hard pixel clusters,<=32visible colors,no blur/antialias,binary transparency. Full sprite generous margins,no text/ground/shadow.",
+      "raw_sha256": "076beff8c24d2526ca2f61acad8c4157fc5a6727f118579a1b69ffd67d719e6b",
+      "raw_bytes": 744669,
+      "generation_references_in_order": [
+        {
+          "sha256": "6f535e562043bc86450a1b6aff4012c6972b251147adee4602820f8b69f8fda0"
+        },
+        {
+          "sha256": "b8b41926b0bec42267ad82831c229850ae5b7bcb08ac5de919cd4a55d33d4bcb"
+        }
+      ],
+      "finished": {
+        "sha256": "1529761d1a42ca83b617ae3e9ddfde5f2dbda222101770da2d284a44832c61bc",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          13,
+          12,
+          115,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "actual_prompt": "Identity-preserve true turntable NW135 LEFT-REAR three-quarter of exact reference crystal creature. Front faceted face points AWAY toward upper-left; see rounded rear and left flank, eyes mostly hidden around far front. No eye or face panel on back. Yaw only, same elevated camera. Preserve rounded teardrop head-body proportions, pastel cyan/lavender/cream/peach faceted patches, SIX leaf crystal fins total: two long upright top fins plus larger upper/smaller lower side-fin pair on each flank; natural far-side occlusion. Small pale circular rear-side inset retained. No extra tail/legs/mouth/eyes/fins or changed attach points. Polished original drawn illustration with thin violet outlines, one whole creature generous margins transparent1024RGBA,no text/ground/shadow.",
+      "raw_sha256": "d15501de08aaf09fc24226b293e474b7157a4e676de9684071c2b6401ec04f4a",
+      "raw_bytes": 671485,
+      "generation_references_in_order": [
+        {
+          "sha256": "2c4e2cc7d37f45120c258b8823bc404767aa753a292ba4fa549cfc430bcd68ba"
+        }
+      ],
+      "finished": {
+        "sha256": "e3fc471b91567b6a0ccd66838ee32b04514ea13c5dbfe013d0499763400b8c07",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          99,
+          928,
+          924
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 115700,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "actual_prompt": "Precise pixel-art identity correction first image. Second corresponding normal NW view is authority. First pixel image omitted the small PALE CIRCULAR SIDE INSET visible in normal near the rear-right edge of the body, beside right-side fin roots. Restore ONLY that pale white/cream circular inset with thin light-lavender rim in its exact corresponding location on screen-right rear flank. Do not alter eye sliver, six fins, their roots, camera, body silhouette, patterns or palette. Keep crisp low-resolution128 pixel art with hard clusters<=32colors,binary transparent alpha. No additional eye: this inset is plain pale circle without pupil. No other changes,transparent background.",
+      "raw_sha256": "51616eea7e2df02f63fbe2e188e9fbf9884f45e61a21451573fa1e308610ccba",
+      "raw_bytes": 743798,
+      "generation_references_in_order": [
+        {
+          "sha256": "68403775b859cd684cb2d24dcfe7b48080c4eaff377a401f2778040f1d7119ae"
+        },
+        {
+          "sha256": "d15501de08aaf09fc24226b293e474b7157a4e676de9684071c2b6401ec04f4a"
+        }
+      ],
+      "finished": {
+        "sha256": "98955a717f615d16eb69cb397af49fdf1b13bf86002f1edc931b480f7f7b261c",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          14,
+          116,
+          113
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "actual_prompt": "Identity-preserve same crystal creature from N180 STRAIGHT REAR. Face/eyes and vertical front gem panel face away and are fully hidden. Show rounded rear of same teardrop body, not a new rear face. SIX leaf-shaped crystal appendages total: two long top fins, two larger-upper/smaller-lower side fins on each side, same original attachment roots. Preserve pastel cyan/lavender/cream/peach faceted patchwork and thin violet outlines, circular side inset only where appropriate, no new central tail/eye/panel. Camera same original modest elevation, yaw only. Same polished illustration, whole creature centered with all fins contained generous margins, transparent1024RGBA,no text/ground/shadow.",
+      "raw_sha256": "e4078a31c162bfffdbf5c9542241a2ea26031c250e7c3dc0b6eabe90b3ad5335",
+      "raw_bytes": 804299,
+      "generation_references_in_order": [
+        {
+          "sha256": "2c4e2cc7d37f45120c258b8823bc404767aa753a292ba4fa549cfc430bcd68ba"
+        }
+      ],
+      "finished": {
+        "sha256": "10d929140365e4388b47757c6f530ef6468e79ab9b805f0ddee54a36853977a5",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          160,
+          928,
+          864
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 97922,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "actual_prompt": "Style-transfer ONLY: first reference exact STRAIGHT REAR, NO visible eyes and NO front faceted gem on back to true crisp128x128 pixel art. Same identity,camera,pose,fin roots,body proportions. Six fins total(two tall top,side pair large upper/small lower each flank), natural far fin occlusion unchanged. Retain PALE CIRCULAR SIDE INSET where visible in first image. Preserve pastel cyan/lavender/cream/peach facets,thin violet outlines; second image ONLY pixel style/palette,not front direction. No new eyes or rear face,tail,mouth,legs,fins. Hard pixel clusters,<=32visible colors,no antialias/blur,binary transparency. One full sprite with margin,no text/ground/shadow.",
+      "raw_sha256": "4e72929abacb8d06075d3888a21b50cb28dc8969c3da4eb1a87c234f260b0530",
+      "raw_bytes": 809323,
+      "generation_references_in_order": [
+        {
+          "sha256": "e4078a31c162bfffdbf5c9542241a2ea26031c250e7c3dc0b6eabe90b3ad5335"
+        },
+        {
+          "sha256": "b8b41926b0bec42267ad82831c229850ae5b7bcb08ac5de919cd4a55d33d4bcb"
+        }
+      ],
+      "finished": {
+        "sha256": "f82e8b4ac99af8073b603540aae08409c97c51bed26e57bf574aa8c38c298128",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          18,
+          116,
+          109
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "actual_prompt": "Identity-preserve exact original crystal-fish creature NE225 RIGHT-REAR three-quarter. Face and gem panel point away toward upper-right, see rear and right flank; eyes mostly hidden around far front edge, no rear eyes/face. Same camera elevation/proportions, rotate yaw only. SIX leaf crystal fins total, two tall top fins plus large upper/small lower side fin on each flank, naturally occlude far parts; pale circular inset near rear side. Pastel cyan/lavender/cream/peach faceted patchwork, thin violet outlines and original polished drawn style. No extra tail/legs/mouth/eyes/fins, preserve attach points. Whole one creature with margins transparent1024RGBA,no text/ground/shadow.",
+      "raw_sha256": "25a2183bf14ab2c413fa1d9575ad2f8780c044ea75d6380b292686e0bd957deb",
+      "raw_bytes": 742088,
+      "generation_references_in_order": [
+        {
+          "sha256": "2c4e2cc7d37f45120c258b8823bc404767aa753a292ba4fa549cfc430bcd68ba"
+        }
+      ],
+      "finished": {
+        "sha256": "ba04c9f54fdaf2bf5a87d40e2cf1e4825793b787f11e48754ee936fb217549f5",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          97,
+          928,
+          926
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 112696,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "actual_prompt": "Style-transfer ONLY: first reference exact RIGHT REAR, face hidden around right edge and circular rear-side inset visible on left flank to true crisp128x128 pixel art. Same identity,camera,pose,fin roots,body proportions. Six fins total(two tall top,side pair large upper/small lower each flank), natural far fin occlusion unchanged. Retain PALE CIRCULAR SIDE INSET where visible in first image. Preserve pastel cyan/lavender/cream/peach facets,thin violet outlines; second image ONLY pixel style/palette,not front direction. No new eyes or rear face,tail,mouth,legs,fins. Hard pixel clusters,<=32visible colors,no antialias/blur,binary transparency. One full sprite with margin,no text/ground/shadow.",
+      "raw_sha256": "ec600018f45a079156eb628c79aab085ccfbbc1850899749fb5f63d6efe08821",
+      "raw_bytes": 822391,
+      "generation_references_in_order": [
+        {
+          "sha256": "25a2183bf14ab2c413fa1d9575ad2f8780c044ea75d6380b292686e0bd957deb"
+        },
+        {
+          "sha256": "b8b41926b0bec42267ad82831c229850ae5b7bcb08ac5de919cd4a55d33d4bcb"
+        }
+      ],
+      "finished": {
+        "sha256": "0f20c6b46482ce4839e6ad07ce889f2fd43ebc92fa773e250a4cb0a2c7cace05",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          13,
+          12,
+          115,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "actual_prompt": "Identity-preserve exact original crystal creature at E270 TRUE RIGHT SIDE PROFILE. Face/front crystal panel points horizontally screen-right, panel narrowly edge-on and only near violet/gold eye visible; far eye hidden by body. Rounded teardrop body extends rear screen-left. Same camera elevation/proportions/materials, yaw only. SIX leaf crystal fins total: two tall upright top appendages, upper larger/lower smaller side pair each flank, far-side fins naturally occluded. Pale circular rear-side inset. Original pastel cyan/lavender/cream/peach facets and thin violet outline, polished illustration style. No new tail/legs/mouth/eyes/fins, don't change attachment roots. One whole creature generous margin on transparent1024RGBA,no text/ground/shadow.",
+      "raw_sha256": "ca4744c1502e770648b8275e6b52ab68e53bf6a581eed62fbf7c3e3fb296ecd0",
+      "raw_bytes": 751733,
+      "generation_references_in_order": [
+        {
+          "sha256": "2c4e2cc7d37f45120c258b8823bc404767aa753a292ba4fa549cfc430bcd68ba"
+        }
+      ],
+      "finished": {
+        "sha256": "738388a53505115150a018aeb6ec2c45acd22ad94bd2b0a0e61db00dcc0fd1fd",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          119,
+          96,
+          904,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 111667,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "actual_prompt": "Style-transfer ONLY first reference E270 RIGHT SIDE PROFILE to true crisp128x128 pixel sprite. Exact same pose/camera/silhouette/fin roots, only near violet-gold eye, front gem narrowly edge-on right, pale circular inset rear-left with upper/lower lateral fins rooted there, two tall top fins. Same original six total fins with far pair naturally hidden. Preserve pastel cyan/lavender/cream/peach palette and facets. Second image ONLY pixel style guide,not view. No new parts,eyes,tail,legs,mouth. Hard pixel clusters,<=32visible colors,no blur/antialias,binary transparent alpha,full sprite margin,no text/ground/shadow.",
+      "raw_sha256": "a4788e2e5a7653423e5197b37b26c01e4386c2e84944ec17ab57766d58cfe155",
+      "raw_bytes": 731624,
+      "generation_references_in_order": [
+        {
+          "sha256": "ca4744c1502e770648b8275e6b52ab68e53bf6a581eed62fbf7c3e3fb296ecd0"
+        },
+        {
+          "sha256": "b8b41926b0bec42267ad82831c229850ae5b7bcb08ac5de919cd4a55d33d4bcb"
+        }
+      ],
+      "finished": {
+        "sha256": "b6ff74cbe599ec0fb137dd450845540b37b1940243ef26baae3463faf37903d0",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          13,
+          12,
+          114,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    }
+  ]
+}
