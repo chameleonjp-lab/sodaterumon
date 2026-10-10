@@ -1,0 +1,499 @@
+{
+  "schema_version": 1,
+  "id": "sm-gel-013",
+  "asset_type": "recovery_reselected_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "original_direction_basis": "Original source preserved as SE reference; its projection remains relatively frontal, so the nominal direction is an inference rather than calibrated yaw.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-013/directions/S/default.png",
+      "sha256": "4463a5692d0f09fe15c96875a4ec22396307c3def82b7451d7157c59d8b4bfa0",
+      "bytes": 562920,
+      "git_blob_sha": "668cf0c1acf0ffaef79b0603c9dd04cfd0fb55b9",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        199,
+        944,
+        824
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 48316,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-013/directions/S/pixel.png",
+      "sha256": "a69a163d37c14e08955062beadf0657ab9c96303d6af14a7fbe0949e1e3ba094",
+      "bytes": 9098,
+      "git_blob_sha": "7cfc2223a34a9e37257cc43164178bcc67953c32",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        22,
+        118,
+        105
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-013/directions/SW/default.png",
+      "sha256": "8d3765ea251e831410782a03b5053c94ef7b2c6db0d3601c746a6e5d3610adc9",
+      "bytes": 641108,
+      "git_blob_sha": "556eaaab2ccd395fc2371dbe19eff5085994a87c",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        158,
+        142,
+        945,
+        915
+      ],
+      "min_margin": 79,
+      "visible_extent": 787,
+      "visible_colors": 46904,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-013/directions/SW/pixel.png",
+      "sha256": "b5970888c621c223aec13ab9a76656636f7274f9c8fef013cabc0aca8c56baad",
+      "bytes": 11337,
+      "git_blob_sha": "6f834e085c828574254b8fcbfdeed263fb03da3d",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        11,
+        10,
+        117,
+        118
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-013/directions/W/default.png",
+      "sha256": "138ff57e494a203bf1b43cd8e0dc4f2242a0e7c61abb095e2311197934cb5123",
+      "bytes": 503667,
+      "git_blob_sha": "659f8ab0ec9891a89c254ae1c09193025aef823c",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        257,
+        80,
+        766,
+        944
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 29741,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-013/directions/W/pixel.png",
+      "sha256": "1d49736b242732a0f285cfbfa9869d5f4e5a39430d89d2c63c4079cd96b364d4",
+      "bytes": 8868,
+      "git_blob_sha": "ab3976c71bf78590417971e4bdecd5da4474c337",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        31,
+        10,
+        97,
+        118
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-013/directions/NW/default.png",
+      "sha256": "d8a6183f68d0fc2bed08e72b04b21d74614a7430878eab126849a056da7c9bd8",
+      "bytes": 727447,
+      "git_blob_sha": "d03b8bc9b26f0ae2456000bb9e5cd466e4f46777",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        107,
+        944,
+        916
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 47258,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-013/directions/NW/pixel.png",
+      "sha256": "1765a024733abc460628da90bad5be32deba21652bd9cbd96c72d2a459a4b99f",
+      "bytes": 11035,
+      "git_blob_sha": "f05eb2f4018d63d4e67fe5f46608a3d37e6044b1",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        13,
+        118,
+        115
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-013/directions/N/default.png",
+      "sha256": "00c1ebc491c84bb3da312030ae827cf31a8bb27a16aa5d137e0cf1322052d60e",
+      "bytes": 568274,
+      "git_blob_sha": "603dd9505405d35d4f7c2bb9c3e6595a9f94ec76",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        189,
+        944,
+        835
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 42789,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-013/directions/N/pixel.png",
+      "sha256": "8480d4540d82cf16c1b30d26395385d6742088ff3b5f5c3749ba6b6dde3de8fc",
+      "bytes": 9580,
+      "git_blob_sha": "73e98c1fbeaca1d64cfe50665a701d135eb53cb6",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        21,
+        118,
+        107
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-013/directions/NE/default.png",
+      "sha256": "3609aaead91cca5517e9ae1758b737dad5a1b37cdca52b4d1a5944584ed44111",
+      "bytes": 736771,
+      "git_blob_sha": "07091e6a008aa1d13f2fd4000154952e761c812e",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        88,
+        944,
+        936
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 47962,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-013/directions/NE/pixel.png",
+      "sha256": "ffd232c59616060fbb3baa220770e6864cf64d4bafc29b58a8f292784ccbe3c7",
+      "bytes": 11461,
+      "git_blob_sha": "12b4752eec4cdb05817f7de434cdd0fde7d83681",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        10,
+        118,
+        118
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-013/directions/E/default.png",
+      "sha256": "79ca6d6b621d6b5a7ae512e8a8c8b98607a5c4a5b390ee57020b3e2296ae29fd",
+      "bytes": 536318,
+      "git_blob_sha": "166a0e075698a47f387c757fb17d7576dff787f3",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        250,
+        80,
+        774,
+        944
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 36072,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-013/directions/E/pixel.png",
+      "sha256": "55efe625431378915cbe86717d66452d9e5bab07f8a487373ec9b30c014d6237",
+      "bytes": 8331,
+      "git_blob_sha": "cc22a4bae196594a5ee0fb00ca71f92b00532278",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        31,
+        10,
+        97,
+        118
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-013/default.png",
+      "sha256": "1a5926df3935262cb75ea66f65b8ce7f486909e16a06338f15998cc876e63cf9",
+      "bytes": 512168,
+      "git_blob_sha": "177843e6fd0c884ad682fc815a68a219b6a0051f",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        64,
+        103,
+        960,
+        920
+      ],
+      "min_margin": 64,
+      "visible_extent": 896,
+      "visible_colors": 39353,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-013/pixel.png",
+      "sha256": "de0be65d8246c6f28efe4dc7a1e05c5a68aedb80da664b81e7dc8966f7c5ca74",
+      "bytes": 6973,
+      "git_blob_sha": "49a4ee190694d59a7b6fa36a3516b793944c38c8",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        24,
+        116,
+        104
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    }
+  ],
+  "selection_provenance": [
+    {
+      "direction": "S",
+      "selection_basis": "Recovered symmetric frontal pair with two visible eyes.",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hash identity unproven and old prompt/reference lineage unrecovered."
+    },
+    {
+      "direction": "SW",
+      "selection_basis": "Recovered normal has right pillar nearer/larger, left pillar farther and both frontal eyes. Newly generated matching pixel preserves this opposite projection to source SE.",
+      "provenance_status": "Normal visually reselected after recovery; old adopted hash and generation lineage unproven. Matching pixel newly generated with recorded provenance."
+    },
+    {
+      "direction": "W",
+      "selection_basis": "New near-left profile, near pillar overlaps far pillar, narrowed arch opening, one near eye on left and overlapping upper bubbles.",
+      "provenance_status": "New normal and corresponding pixel with recorded prompt/raw/reference hashes."
+    },
+    {
+      "direction": "NW",
+      "selection_basis": "Recovered eyeless rear-left candidate, left pillar nearer and right farther.",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hash identity unproven and old prompt/reference lineage unrecovered."
+    },
+    {
+      "direction": "N",
+      "selection_basis": "Recovered symmetric broad rear arch with no visible eyes.",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hash identity unproven and old prompt/reference lineage unrecovered."
+    },
+    {
+      "direction": "NE",
+      "selection_basis": "Recovered eyeless rear-right candidate, right pillar nearer and left farther.",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hash identity unproven and old prompt/reference lineage unrecovered."
+    },
+    {
+      "direction": "E",
+      "selection_basis": "New near-right profile, near pillar overlaps far pillar, far eye hidden, near eye on right and overlapping upper bubbles.",
+      "provenance_status": "New normal and corresponding pixel with recorded prompt/raw/reference hashes."
+    }
+  ],
+  "new_generation_provenance": [
+    {
+      "direction": "W",
+      "type": "normal",
+      "prompt": "Use case: identity-preserve. Correct the second image to a STRICT LEFT SIDE PROFILE of the SAME transparent gel arch organism in image1. Whole-body yaw, not moving eyes. Front surface faces SCREEN-LEFT; visible near eye is only a narrow oval on that LEFT silhouette edge, far eye completely occluded behind the near pillar. The two thick pillar legs MUST overlap almost completely in depth: only one broad near pillar silhouette and a small far-foot rim visible, arch opening almost entirely hidden rather than a broad front-facing doorway. The TWO oval bubbles fixed side-by-side on the upper arch also overlap in depth, far bubble partly hidden behind near bubble; do not add/delete them. Preserve one rounded U-arch body with two pillar legs, two eyes, two top bubbles, no arms/wings/tail, same height and inferred depth. Same shallow elevated camera, fixed upright pose, mint turquoise transparent gel, pale pink internal ribbons, dark teal eyes and glossy highlights. Keep identity from original, retain translucency but no duplicate eyes ghosting through back. One centered 1024 square transparent sprite with full extremities and generous margin, no floor/shadow/text/sheet.",
+      "sha256": "138ff57e494a203bf1b43cd8e0dc4f2242a0e7c61abb095e2311197934cb5123",
+      "raw_sha256": "a230e55801672eb4deac2a71615ede103ad8ab1545fd5f666f60e518c79429bb",
+      "reference_hashes": [
+        "1a5926df3935262cb75ea66f65b8ce7f486909e16a06338f15998cc876e63cf9",
+        "f3cf125564a9b66190c9c8f2231bd751305b8839239abd11c3677494ae2ac4b5"
+      ]
+    },
+    {
+      "direction": "W",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this ONE transparent gel arch creature into ONE crisp128x128 pixel-art sprite, exact same W LEFT-facing near-profile. Preserve single visible eye on LEFT outer edge, near pillar almost fully occluding far pillar, narrow sliver of far foot/arch opening, two top oval bubbles overlapping in depth. Maintain same shape, fixed pose, proportions and mint/pink/darkteal palette, no extra eyes/legs/bubbles. Hard pixel clusters,31 opaque colors maximum, binary transparency, no blur or antialiasing. One complete centered character with generous transparent padding, no grid, sheet, floor, shadow or text.",
+      "sha256": "1d49736b242732a0f285cfbfa9869d5f4e5a39430d89d2c63c4079cd96b364d4",
+      "raw_sha256": "8aeaac25966c0dd9d3e66ae16a973b00ce4c3e3a32ac4b1081b7c5637ee22384",
+      "reference_hashes": [
+        "138ff57e494a203bf1b43cd8e0dc4f2242a0e7c61abb095e2311197934cb5123"
+      ]
+    },
+    {
+      "direction": "E",
+      "type": "normal",
+      "prompt": "Use case: identity-preserve. Correct the second image to a STRICT RIGHT SIDE PROFILE of the SAME transparent gel arch organism in image1. Whole-body yaw, not moving eyes. Front surface faces SCREEN-RIGHT; visible near eye is only a narrow oval on that RIGHT silhouette edge, far eye completely occluded behind the near pillar. The two thick pillar legs MUST overlap almost completely in depth: only one broad near pillar silhouette and a small far-foot rim visible, arch opening almost entirely hidden rather than a broad front-facing doorway. The TWO oval bubbles fixed side-by-side on the upper arch also overlap in depth, far bubble partly hidden behind near bubble; do not add/delete them. Preserve one rounded U-arch body with two pillar legs, two eyes, two top bubbles, no arms/wings/tail, same height and inferred depth. Same shallow elevated camera, fixed upright pose, mint turquoise transparent gel, pale pink internal ribbons, dark teal eyes and glossy highlights. Keep identity from original, retain translucency but no duplicate eyes ghosting through back. One centered 1024 square transparent sprite with full extremities and generous margin, no floor/shadow/text/sheet.",
+      "sha256": "79ca6d6b621d6b5a7ae512e8a8c8b98607a5c4a5b390ee57020b3e2296ae29fd",
+      "raw_sha256": "2524b30124bc1eb1ebb964fe7dd63541a5ab232346f812e2a668abf83b1417f1",
+      "reference_hashes": [
+        "1a5926df3935262cb75ea66f65b8ce7f486909e16a06338f15998cc876e63cf9",
+        "ba36e0e88225dd22d3992063b2183656cd0959fe7155912df8ea05d0cd9fd312"
+      ]
+    },
+    {
+      "direction": "E",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this ONE transparent gel arch creature into ONE crisp128x128 pixel-art sprite, exact same E RIGHT-facing near-profile. Preserve single visible eye on RIGHT outer edge, near pillar almost fully occluding far pillar, narrow sliver of far foot/arch opening, two top oval bubbles overlapping in depth. Maintain same shape, fixed pose, proportions and mint/pink/darkteal palette, no extra eyes/legs/bubbles. Hard pixel clusters,31 opaque colors maximum, binary transparency, no blur or antialiasing. One complete centered character with generous transparent padding, no grid, sheet, floor, shadow or text.",
+      "sha256": "55efe625431378915cbe86717d66452d9e5bab07f8a487373ec9b30c014d6237",
+      "raw_sha256": "2445938ff3743853d381a98c604cb2248e198f95cc5c1a1296b260ff70d69750",
+      "reference_hashes": [
+        "79ca6d6b621d6b5a7ae512e8a8c8b98607a5c4a5b390ee57020b3e2296ae29fd"
+      ]
+    },
+    {
+      "direction": "SW",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this ONE exact transparent gel arch creature to ONE crisp128x128 pixel sprite. This is SW front-left three-quarter: SCREEN-RIGHT pillar nearer and larger, SCREEN-LEFT pillar farther, both front eyes visible, right top oval bubble nearer and larger. Preserve that exact opposite diagonal from original SE, same two pillars, two eyes, two oval bubbles, central arch opening, internal pink ribbons, mint gel and dark teal palette. Do not mirror or turn it, no added anatomy. Match silhouette, pose and proportions;31 opaque colors maximum, binary transparent background, hard pixel clusters, no blur/antialiasing. One whole centered character with generous margin, no sheet/grid/text/floor/shadow.",
+      "sha256": "b5970888c621c223aec13ab9a76656636f7274f9c8fef013cabc0aca8c56baad",
+      "raw_sha256": "dc12b98920aa9cb38f3377f12ac5da91fe0cc5bfe391c243c0dbe9436d298268",
+      "reference_hashes": [
+        "8d3765ea251e831410782a03b5053c94ef7b2c6db0d3601c746a6e5d3610adc9"
+      ]
+    }
+  ],
+  "generation_scope": "Five new images: W/E normal and pixel pairs plus SW pixel. Existing recovered SW normal and four other recovered pairs selected unchanged. Original SE pair unchanged.",
+  "historical_provenance_gap": "Old adopted mapping and prompt/reference lineage for reused candidates were not recovered. Current visual selection is not claimed identical to historical adoption.",
+  "previous_quality_hold": "Old side projections exposed too much arch opening and E retained both eyes. New W/E improve overlap and edge-facing eye placement. Recovered former front-left candidate matched source-facing projection; another preserved normal was visually selected for SW, then a corresponding pixel was generated.",
+  "processing": {
+    "reused_candidates": "No image changes during recovery-time reselection.",
+    "new_normals": "Low-alpha speckle cleanup below8, proportional LANCZOS fit to visible864, centered transparent1024; no shape redraw.",
+    "new_pixels": "Nearest128, alpha threshold128,31-color quantization without dithering, transparent RGB cleared, proportional nearest fit to visible108, centered128; no shape redraw."
+  },
+  "qa": {
+    "numeric_hash": "E all16slots pass; original SE visibleRGB32 excludes transparent pixels. Original source unchanged.",
+    "visual": "E W/E normal+pixel and SWpixel full-resolution plus all8pair comparison confirmed pillar overlap, side eye and palette correspondence. Uncalibrated source SE and depth limitations retained.",
+    "limitations": [
+      "Historical accepted hashes and old generation lineage for reused candidates are unproven",
+      "Exact45-degree yaw, top-bubble depth and fixed pillar roots remain inferred",
+      "Original SE reference is relatively frontal rather than a calibrated45-degree view"
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending",
+    "independent_review": "E numeric/hash checks passed all16slots; parent eight-pair comparison and E full-resolution key-pair review confirmed direction/identity correspondence with listed limitations. In-game acceptance remains pending."
+  }
+}

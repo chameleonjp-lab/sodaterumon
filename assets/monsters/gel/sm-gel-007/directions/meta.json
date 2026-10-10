@@ -1,0 +1,569 @@
+{
+  "schema_version": 1,
+  "id": "sm-gel-007",
+  "asset_type": "eight_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-007/default.png",
+      "bytes": 401152,
+      "sha256": "eb53cc9d6fe7765e0271119c4c662883b78bfe240a44a2be02b7900c6f30dc99",
+      "git_blob_sha": "da69f3722a0f97c443eb9f113d5bc1e99a167e95",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        79,
+        64,
+        945,
+        960
+      ],
+      "min_margin": 64,
+      "visible_extent": 896,
+      "visible_colors": 42534,
+      "binary_alpha": false,
+      "original_preserved": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-007/pixel.png",
+      "bytes": 4069,
+      "sha256": "e1088e84bf0e45e80827876aff339ce7acfafd99ba958d4771948f570436b49f",
+      "git_blob_sha": "4206aaa123126fcb7e56227bc91b8292105f428b",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        34,
+        116,
+        93
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": true
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/SW/default.png",
+      "bytes": 533683,
+      "sha256": "2da1c0fefca8046261f6970b03f3036afb161080b309e9a0f1627b6fdeb2eb25",
+      "git_blob_sha": "f2728cb07b64aa6cfa6e381b464e28b7868620a8",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        155,
+        928,
+        868
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 46147,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/SW/pixel.png",
+      "bytes": 5769,
+      "sha256": "72f64139ea7dbecdeabc57800061b50ddba71162782354b07aefcad57ee85c0b",
+      "git_blob_sha": "67dcc36c7dfd6f566760516adc1f79a475040f8b",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        19,
+        116,
+        109
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/W/default.png",
+      "bytes": 731137,
+      "sha256": "68ae2410739554234b149714f703d662effe378c75a3826f93ea241e164f4cf4",
+      "git_blob_sha": "fd8d3e946eff845360e147bc39fd38577dc17e91",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        106,
+        96,
+        918,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 54393,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/W/pixel.png",
+      "bytes": 6614,
+      "sha256": "ac701d859fe3555d71b81af015bc98c114aed620a37bcdc691ba951eb0a97cc5",
+      "git_blob_sha": "f917f13888b0181e81e8c11ff3f5c4ce1a07b9de",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        16,
+        12,
+        112,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/NW/default.png",
+      "bytes": 632356,
+      "sha256": "a18deaab639366af10732f372eee43acebd932820521c78b4645eae30929f325",
+      "git_blob_sha": "c4dbcf3b63d9af6eeece4ec5264eed908f7871fb",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        120,
+        928,
+        903
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 42724,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/NW/pixel.png",
+      "bytes": 6341,
+      "sha256": "4e5bb6c8dc0bc3192d56a3900f9b9aab1989df7019748168cdcb9ac20e8d0fed",
+      "git_blob_sha": "880586b8f0b69b6095db488c803fe0fca4add05c",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        12,
+        115,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/N/default.png",
+      "bytes": 357406,
+      "sha256": "28c590dc2c036f712e5063385a4b0120ada11658f62104c0a71d8b8c0091ab0b",
+      "git_blob_sha": "a83b4279a3373e83a3f6aac639b65609c3fd16cd",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        287,
+        928,
+        737
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 36768,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/N/pixel.png",
+      "bytes": 4416,
+      "sha256": "d0d6b6fa278bc67be1bb475ff0cda12c64511f458bf1e3a3be2308630b21ae60",
+      "git_blob_sha": "d2f7d869c0ae1382919572c692e28c47eb156ee0",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        34,
+        116,
+        94
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/NE/default.png",
+      "bytes": 423273,
+      "sha256": "af0ea2b2437fd731614c125dca65c463924a224db957a64c497a8b3456058669",
+      "git_blob_sha": "1c98ab2371ebc37cbe5e0a4d5ba2082f31db9385",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        206,
+        928,
+        817
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 40381,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/NE/pixel.png",
+      "bytes": 5446,
+      "sha256": "6ffad7924fd4b2744d39106e3e409c263ac76b51870e54d81fe52c0e79f011f0",
+      "git_blob_sha": "476a889d3f50f1c7d51215d1943502053361fba1",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        22,
+        116,
+        105
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/E/default.png",
+      "bytes": 515551,
+      "sha256": "1286c5cdb16e71c56f648e8004728d55957c330095962806607c43ce6cb93e76",
+      "git_blob_sha": "23434363accf1c3268586ff9b845d588815fbe7a",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        216,
+        928,
+        807
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 37718,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/E/pixel.png",
+      "bytes": 5417,
+      "sha256": "4e659f75fc1684f5b808910c547069f55ac4424d5bcc302e003b926df61a40f9",
+      "git_blob_sha": "5ead3755f0ef845269ed89e30b427443eeb9f577",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        27,
+        116,
+        101
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/SE/default.png",
+      "bytes": 519826,
+      "sha256": "b919fa7aca21d08575816b70fe690d7958eb917f5984032c9a0944aa91355406",
+      "git_blob_sha": "3c52150a762260b89d2641832a61a14063d82b95",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        184,
+        928,
+        839
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 45832,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-007/directions/SE/pixel.png",
+      "bytes": 6140,
+      "sha256": "9102b8ebada56210933dcc75d376ddefd9481d164c6663e044ad89f21652e45c",
+      "git_blob_sha": "1458c8aeb5026fc34bcb633f12cb788f21a10612",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        19,
+        116,
+        108
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false
+    }
+  ],
+  "technical_processing": "Normal alpha<8 cleanup after pure green contamination measured alpha1-2 and translucent-body/edge visual confirmation; uniform832 extent; pixel binaryalpha128 threshold,nearest104 extent, nearest original palette,no shape redraw.",
+  "provenance": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final_sha256": "eb53cc9d6fe7765e0271119c4c662883b78bfe240a44a2be02b7900c6f30dc99",
+      "source_sha256": "eb53cc9d6fe7765e0271119c4c662883b78bfe240a44a2be02b7900c6f30dc99",
+      "origin": "unchanged original fixed-main"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final_sha256": "e1088e84bf0e45e80827876aff339ce7acfafd99ba958d4771948f570436b49f",
+      "source_sha256": "e1088e84bf0e45e80827876aff339ce7acfafd99ba958d4771948f570436b49f",
+      "origin": "unchanged original fixed-main"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final_sha256": "2da1c0fefca8046261f6970b03f3036afb161080b309e9a0f1627b6fdeb2eb25",
+      "raw_sha256": "f22c8d8d70a6a660b3bcc72bf6c2a8851fe9222c10a9f6108e9098992ef13fb9",
+      "prompt": "Use case: identity-preserve. Same exact two-lobed green translucent jelly individual. Image1 original S front defines shape, palette and anatomy. Image2 accepted W side view defines depth overlap. Generate SW front-left halfway between these views. Exactly TWO bulbous lobes connected by narrow waist; each has one peach droplet core and one dark teal eye mounted on its inward FRONT face. Creature's own right lobe (image-left in original) is permanently slightly higher, other lobe lower; keep that modest height offset, no vertical stacking. Lower lobe is nearest to camera in SW, higher lobe farther behind. Near lower lobe must visibly overlap about a quarter of the far higher lobe's inner edge; narrow waist partly occluded by the near lobe. Horizontal center spacing smaller than original S but larger than side W. Show real depth overlap and narrowed silhouette, not the same broad side-by-side frontal shape. Both faces turn screen-left/front, near eye clear and far eye foreshortened/partly hidden, not relocated. Preserve source body/core sizes, glossy mint/sage green membrane and peach cores, thin dark green outline. No legs, arms, tails, mouth, extra lobes or detached spheres. Fixed camera elevation and floating posture. Entire single creature on transparent background, no text or shadow.",
+      "generation_reference_sha256": [
+        "eb53cc9d6fe7765e0271119c4c662883b78bfe240a44a2be02b7900c6f30dc99",
+        "be59c96415cdea6f7e658c9acad008115465737f819ccc43af80e3878d598d12"
+      ],
+      "raw_file_name": "SW-v2-normal.png"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final_sha256": "72f64139ea7dbecdeabc57800061b50ddba71162782354b07aefcad57ee85c0b",
+      "raw_sha256": "2e49c925682989c11b01a3c74802d952800a5aa20d4c372a10f054978c98f7cc",
+      "prompt": "Use case: style-transfer. Convert this EXACT single directional two-lobed jelly reference into crisp 128px game pixel art on transparent background. Preserve pose, fixed high/low lobe identity, near/far overlap, two peach cores and thin connecting waist. Do not rotate or redesign. Exactly two green gel lobes, no arms legs mouth horns or tail. Keep only the eyes visible in reference, each attached to same front surface; do not reveal occluded far eye. Mint/sage/cream/peach and dark green limited palette at most32 colors, hard pixel clusters, binary transparent background, no antialiasing/glow/shadow/text. Entire creature with generous transparent margin. Target SW exactly as reference.",
+      "generation_reference_sha256": [
+        "f22c8d8d70a6a660b3bcc72bf6c2a8851fe9222c10a9f6108e9098992ef13fb9"
+      ],
+      "raw_file_name": "SW-pixel.png"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final_sha256": "68ae2410739554234b149714f703d662effe378c75a3826f93ea241e164f4cf4",
+      "raw_sha256": "be59c96415cdea6f7e658c9acad008115465737f819ccc43af80e3878d598d12",
+      "prompt": null,
+      "raw_file_name": "W-v2-normal.png",
+      "provenance_gap": "Exact original generation prompt and reference arguments unavailable; preserved raw bytes were recovered and visually reviewed."
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final_sha256": "ac701d859fe3555d71b81af015bc98c114aed620a37bcdc691ba951eb0a97cc5",
+      "raw_sha256": "757ad89b927ec7fbf75dc7d93960ea10387ed2c90e47701a66e1560bc5c9fe47",
+      "prompt": "Use case: style-transfer. Convert this EXACT single directional two-lobed jelly reference into crisp 128px game pixel art on transparent background. Preserve pose, fixed high/low lobe identity, near/far overlap, two peach cores and thin connecting waist. Do not rotate or redesign. Exactly two green gel lobes, no arms legs mouth horns or tail. Keep only the eyes visible in reference, each attached to same front surface; do not reveal occluded far eye. Mint/sage/cream/peach and dark green limited palette at most32 colors, hard pixel clusters, binary transparent background, no antialiasing/glow/shadow/text. Entire creature with generous transparent margin. Target W exactly as reference.",
+      "generation_reference_sha256": [
+        "be59c96415cdea6f7e658c9acad008115465737f819ccc43af80e3878d598d12"
+      ],
+      "raw_file_name": "W-pixel.png"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final_sha256": "a18deaab639366af10732f372eee43acebd932820521c78b4645eae30929f325",
+      "raw_sha256": "1de5d2b7405737744dc6e2620bf407fbd1c562aed821da7edb3e503ddace1e0a",
+      "prompt": "Use case: identity-preserve. Rigid yaw turntable of this exact two-lobed jelly creature. Reference1 original S fixes anatomy and permanently higher own-right lobe / lower own-left lobe. Reference2 is the accepted side view used only for depth overlap. Preserve two peach droplet cores, glossy mint/sage translucent gel, thin dark green contour, equal bulb size, narrow connecting waist, modest fixed height difference. NO legs arms mouth tail or extra parts, fixed original camera height. Two lobe centers must come closer horizontally than broad front/back: the nearest lobe silhouette crosses over and hides a substantial piece of far lobe, with waist largely occluded. Do not merely resize two separated side-by-side lobes. Entire single creature, generous transparent background, no text/floor shadow. Target NW rear-left45 from rear: LOWER lobe nearest at lower-left, HIGHER lobe farther at upper-right. Near lower bulb covers at least the lower-left THIRD of far higher bulb and overlaps the narrow waist. Far higher bulb is only a partial upper-right rounded cap beyond near bulb. Strong but not complete overlap, less overlap than true W. Both front-mounted eyes on away-facing surfaces are HIDDEN. Peach cores remain inside same bulbs, far core partly hidden by near bulb. Do not stack higher lobe directly above lower; keep diagonal overlap.",
+      "generation_reference_sha256": [
+        "eb53cc9d6fe7765e0271119c4c662883b78bfe240a44a2be02b7900c6f30dc99",
+        "be59c96415cdea6f7e658c9acad008115465737f819ccc43af80e3878d598d12"
+      ],
+      "raw_file_name": "NW-v3-normal.png"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final_sha256": "4e5bb6c8dc0bc3192d56a3900f9b9aab1989df7019748168cdcb9ac20e8d0fed",
+      "raw_sha256": "a640d63b2841a623f1c02ed3d5eb111f48fdd14e82660e66486177a3dec36f0a",
+      "prompt": "Use case: style-transfer. Convert this EXACT single directional two-lobed jelly reference into crisp 128px game pixel art on transparent background. Preserve pose, fixed high/low lobe identity, near/far overlap, two peach cores and thin connecting waist. Do not rotate or redesign. Exactly two green gel lobes, no arms legs mouth horns or tail. This is a REAR view: no visible eyes, eye dots, pupils, sockets or face details anywhere. Copy smooth green rear surfaces exactly. Mint/sage/cream/peach and dark green limited palette at most32 colors, hard pixel clusters, binary transparent background, no antialiasing/glow/shadow/text. Entire creature with generous transparent margin. Target NW exactly as reference.",
+      "generation_reference_sha256": [
+        "1de5d2b7405737744dc6e2620bf407fbd1c562aed821da7edb3e503ddace1e0a"
+      ],
+      "raw_file_name": "NW-pixel.png"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final_sha256": "28c590dc2c036f712e5063385a4b0120ada11658f62104c0a71d8b8c0091ab0b",
+      "raw_sha256": "1bcbfe2dfcb45f5abd097167591105cb517c86eec0627066c3aeb57f916dac48",
+      "prompt": null,
+      "raw_file_name": "N-recovered-normal.png",
+      "provenance_gap": "Raw rear view visually reselected from preserved originals after recovery. Earlier adopted hash, exact prompt and reference arguments are unavailable; prior adoption identity is not hash-verified."
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final_sha256": "d0d6b6fa278bc67be1bb475ff0cda12c64511f458bf1e3a3be2308630b21ae60",
+      "raw_sha256": "cd6c0644b92db16635754b1457f361a3d645566c4b1d4cdf2387839895be6948",
+      "prompt": "Use case: style-transfer. Convert this EXACT single directional two-lobed jelly reference into crisp 128px game pixel art on transparent background. Preserve pose, fixed high/low lobe identity, near/far overlap, two peach cores and thin connecting waist. Do not rotate or redesign. Exactly two green gel lobes, no arms legs mouth horns or tail. This is a REAR view: no visible eyes, eye dots, pupils, sockets or face details anywhere. Copy smooth green rear surfaces exactly. Mint/sage/cream/peach and dark green limited palette at most32 colors, hard pixel clusters, binary transparent background, no antialiasing/glow/shadow/text. Entire creature with generous transparent margin. Target N exactly as reference.",
+      "generation_reference_sha256": [
+        "1bcbfe2dfcb45f5abd097167591105cb517c86eec0627066c3aeb57f916dac48"
+      ],
+      "raw_file_name": "N-pixel.png"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final_sha256": "af0ea2b2437fd731614c125dca65c463924a224db957a64c497a8b3456058669",
+      "raw_sha256": "8c11718299c5fd7067a7c6629d8056866accfc1e5421b02c967cddaee582099a",
+      "prompt": "Use case: identity-preserve. Exact same two-lobed green jelly individual from reference1 original S and reference2 SW depth guide. TWO connected bulbous lobes, thin waist, each peach droplet core, glossy mint/sage gel with dark green outline. Creature's own RIGHT lobe is permanently higher (screen-left in original S), own LEFT lobe lower. Keep original modest vertical offset and equal lobe size. Fixed low camera elevation, no vertical stacking, no extra parts/limbs/mouth. Back-three-quarter view so both eyes remain on far FRONT surface and are naturally HIDDEN, do not move eyes to rear. Peach cores may show softly through gel but no rear-facing eye dots. Clearly overlap lobes in camera depth, waist partly occluded, silhouette narrower than frontal broad shape. Entire creature transparent background, no shadow/text. NE225 rear-right: HIGHER own-right lobe near at upper-right, LOWER own-left lobe far at lower-left. Near higher lobe overlaps about a quarter of far lower lobe's inner/upper-right edge. Keep near higher lobe visibly higher, never drop it lower to show both. Back surfaces toward viewer, fronts point away upper-right.",
+      "generation_reference_sha256": [
+        "eb53cc9d6fe7765e0271119c4c662883b78bfe240a44a2be02b7900c6f30dc99",
+        "f22c8d8d70a6a660b3bcc72bf6c2a8851fe9222c10a9f6108e9098992ef13fb9"
+      ],
+      "raw_file_name": "NE-v2-normal.png"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final_sha256": "6ffad7924fd4b2744d39106e3e409c263ac76b51870e54d81fe52c0e79f011f0",
+      "raw_sha256": "86abb7e18f183763d1d3f384b99d164df2a45d1236707451438ce9c7432367a6",
+      "prompt": "Use case: style-transfer. Convert this EXACT single directional two-lobed jelly reference into crisp 128px game pixel art on transparent background. Preserve pose, fixed high/low lobe identity, near/far overlap, two peach cores and thin connecting waist. Do not rotate or redesign. Exactly two green gel lobes, no arms legs mouth horns or tail. This is a REAR view: no visible eyes, eye dots, pupils, sockets or face details anywhere. Copy smooth green rear surfaces exactly. Mint/sage/cream/peach and dark green limited palette at most32 colors, hard pixel clusters, binary transparent background, no antialiasing/glow/shadow/text. Entire creature with generous transparent margin. Target NE exactly as reference.",
+      "generation_reference_sha256": [
+        "8c11718299c5fd7067a7c6629d8056866accfc1e5421b02c967cddaee582099a"
+      ],
+      "raw_file_name": "NE-pixel.png"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final_sha256": "1286c5cdb16e71c56f648e8004728d55957c330095962806607c43ce6cb93e76",
+      "raw_sha256": "424c6b0b10697b5c21c9d4ca9143a2157dbb23299778e546f93cd7bd5b0cdd9a",
+      "prompt": null,
+      "raw_file_name": "E-normal.png",
+      "provenance_gap": "Exact original generation prompt and reference arguments unavailable; preserved raw bytes were recovered and visually reviewed."
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final_sha256": "4e659f75fc1684f5b808910c547069f55ac4424d5bcc302e003b926df61a40f9",
+      "raw_sha256": "eae4dde458e458d15455ff88dbed6e48c1e354c28c7ef630eb45b55ce9efe396",
+      "prompt": "Use case: style-transfer. Convert this EXACT single directional two-lobed jelly reference into crisp 128px game pixel art on transparent background. Preserve pose, fixed high/low lobe identity, near/far overlap, two peach cores and thin connecting waist. Do not rotate or redesign. Exactly two green gel lobes, no arms legs mouth horns or tail. Keep only the eyes visible in reference, each attached to same front surface; do not reveal occluded far eye. Mint/sage/cream/peach and dark green limited palette at most32 colors, hard pixel clusters, binary transparent background, no antialiasing/glow/shadow/text. Entire creature with generous transparent margin. Target E exactly as reference.",
+      "generation_reference_sha256": [
+        "424c6b0b10697b5c21c9d4ca9143a2157dbb23299778e546f93cd7bd5b0cdd9a"
+      ],
+      "raw_file_name": "E-pixel.png"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final_sha256": "b919fa7aca21d08575816b70fe690d7958eb917f5984032c9a0944aa91355406",
+      "raw_sha256": "e5f2ff0edffdda859411bbcdd783c68c5cc381e4399e1e3917a4a073b765f9b5",
+      "prompt": "Use case: identity-preserve. Rigid yaw turntable of this exact two-lobed jelly creature. Reference1 original S fixes anatomy and permanently higher own-right lobe / lower own-left lobe. Reference2 is the accepted side view used only for depth overlap. Preserve two peach droplet cores, glossy mint/sage translucent gel, thin dark green contour, equal bulb size, narrow connecting waist, modest fixed height difference. NO legs arms mouth tail or extra parts, fixed original camera height. Two lobe centers must come closer horizontally than broad front/back: the nearest lobe silhouette crosses over and hides a substantial piece of far lobe, with waist largely occluded. Do not merely resize two separated side-by-side lobes. Entire single creature, generous transparent background, no text/floor shadow. Target SE front-right45 from front: HIGHER own-right lobe nearest at upper-left, LOWER own-left lobe farther at lower-right. Near higher bulb covers the upper-left THIRD of farther lower bulb, partly conceals narrow waist. Far lower bulb is a partial lower-right rounded bulge behind it, not separate complete sphere. Fronts point lower-right: near eye clear on near bulb inward/front edge, far eye foreshortened partly occluded on far bulb fixed front surface. Preserve high-near/low-far relation, do not put the near lobe lower. Less overlap than reference2 true E.",
+      "generation_reference_sha256": [
+        "eb53cc9d6fe7765e0271119c4c662883b78bfe240a44a2be02b7900c6f30dc99",
+        "424c6b0b10697b5c21c9d4ca9143a2157dbb23299778e546f93cd7bd5b0cdd9a"
+      ],
+      "raw_file_name": "SE-v2-normal.png"
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final_sha256": "9102b8ebada56210933dcc75d376ddefd9481d164c6663e044ad89f21652e45c",
+      "raw_sha256": "d4d02020eaf870c785ff8bb1057f7c07d96cc33788c2c969c2ebf12bcc0fe591",
+      "prompt": "Use case: style-transfer. Convert this EXACT single directional two-lobed jelly reference into crisp 128px game pixel art on transparent background. Preserve pose, fixed high/low lobe identity, near/far overlap, two peach cores and thin connecting waist. Do not rotate or redesign. Exactly two green gel lobes, no arms legs mouth horns or tail. Keep only the eyes visible in reference, each attached to same front surface; do not reveal occluded far eye. Mint/sage/cream/peach and dark green limited palette at most32 colors, hard pixel clusters, binary transparent background, no antialiasing/glow/shadow/text. Entire creature with generous transparent margin. Target SE exactly as reference.",
+      "generation_reference_sha256": [
+        "e5f2ff0edffdda859411bbcdd783c68c5cc381e4399e1e3917a4a073b765f9b5"
+      ],
+      "raw_file_name": "SE-pixel.png"
+    }
+  ],
+  "qa": {
+    "producer_numeric": "16 frames passed size, extent, margin, binary pixel alpha and <=32 pixel colors; original pair byte-preserved",
+    "producer_visual": "Seven new raw pixel images individually inspected; all eight normal/pixel pairs inspected on light and dark backgrounds",
+    "independent_review": "E numeric/hash checks passed all16slots; parent eight-pair comparison and E full-resolution key-pair review confirmed direction/identity correspondence with listed limitations. In-game acceptance remains pending.",
+    "user_acceptance": "pending",
+    "limitations": [
+      "Left/right angular overlap amounts differ",
+      "Core depth and strict rigid yaw remain inferred from a single source view",
+      "Review candidate, not precise3D rotation or final in-game acceptance",
+      "Preserved older rejected views are not selected for publication"
+    ],
+    "independent_visual_scope": "E individually inspected W and N normal/pixel at full resolution plus all8pair comparison; lobe overlap, nucleus and eye occlusion retained."
+  }
+}
