@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "id": "sm-flora-018",
+  "design_version": 2,
+  "name_ja": "ナナハモム",
+  "family": "flora",
+  "catalog_path": "assets/monsters/catalog.json",
+  "design_status": "default_only_pixel_individual_hold",
+  "design_revision": {
+    "from_version": 1,
+    "to_version": 2,
+    "v1_catalog_snapshot": {
+      "design_version": 1,
+      "silhouette": "一体節の短い円柱形根株、目1個、根脚2本、腕0本、翼0枚、尾0本。根株上部に細長い葉7枚が放射状に付く。",
+      "material_motif": "しなやかな繊維葉と短い根株。明るい草原で葉を広げて露を受ける。",
+      "palette_hex": [
+        "#A1B77C",
+        "#CBB088",
+        "#B2CDD0"
+      ],
+      "signature_features": [
+        "7枚葉のうち真上の1枚だけが長い",
+        "1個の目は横長の楕円",
+        "根脚2本の先は左右へ曲がるL字"
+      ],
+      "pose": "7枚葉を大きく放射状に広げ、2本脚をそろえて立つ。",
+      "temperament": "のんびりしていて、朝の風で7枚葉をゆっくり揺らす。",
+      "do_not_add": [
+        "葉を偶数枚へ変えない",
+        "葉先を鋭く尖らせない",
+        "根株を長い胴や首へ伸ばさない"
+      ]
+    },
+    "substantive_changes": [
+      "短い円柱根株を低い円盤根株へ変更。",
+      "細長い7葉・中央だけ長い葉の構成を、長さが近い丸端の5葉による低い放射配置へ変更。",
+      "1個の横長目と短い根脚2本・元の3色を保持。旧L字脚先はv2識別条件に含めない。"
+    ],
+    "fixed_final_specification": {
+      "body": "低い円盤形の根株。",
+      "anatomy": {
+        "body_segments": 1,
+        "eyes": 1,
+        "root_legs": 2,
+        "arms": 0,
+        "wings": 0,
+        "tails": 0,
+        "leaves": 5,
+        "flowers": 0,
+        "petals": 0,
+        "branches": 0
+      },
+      "identifiers": [
+        "長さが近い丸端の幅広い葉5枚。",
+        "正面の横長楕円の目1個。",
+        "根株の下の短い根脚2本。"
+      ],
+      "pose": "上面が見える軽い俯瞰。5葉を低い放射状として読む構図。",
+      "materials": "淡い草緑の葉、薄茶の根株、青灰色の小アクセント。",
+      "palette_hex": [
+        "#A1B77C",
+        "#CBB088",
+        "#B2CDD0"
+      ],
+      "palette_roles": [
+        "primary",
+        "secondary",
+        "accent"
+      ],
+      "normal_pixel_identity": "pixel_not_available",
+      "generation_brief": "One low disc-shaped rootstock. Exactly one horizontal oval eye on the front. Exactly two short root legs beneath it. Exactly five broad round-ended leaves spread in a low nearly horizontal radial fan from the top; all five leaves must be separated enough to count and have similar length. Calm resting posture, slight top-down view so all leaves and both feet are visible. Main pale sage green leaves, tan rootstock, muted blue small accents. No upright tall central leaf, arms, wings, tails, petals, flowers, branches or additional leaves."
+    },
+    "v1_compliance_claim": false
+  },
+  "provenance": {
+    "description": "独立したdesign_version2の仕様に基づくAI生成。通常画像を必要に応じ品質編集し、当該通常画像のhashを参照してpixel画像を別途生成。原本を保持して許可された規格仕上げのみを新派生画像へ適用。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_date": "2026-10-10",
+    "reference_default_sha256": null,
+    "reference_default_sha256_meaning": "pixel生成へ実際に入力した未加工通常原本のhash。派生default.pngのhashとは別。",
+    "original_recovery": "all_successful_v2_outputs_for_this_id_retained",
+    "originals": [
+      {
+        "file": "sm-flora-018-normal-v2-original.png",
+        "sha256": "352edf83239a428a390109ff42bfbe434c6e49103b40154f2fd19adcd53576ea",
+        "bytes": 697121,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "selected_source",
+        "unchanged_after_derivation": true
+      }
+    ],
+    "generation_history": [
+      {
+        "kind": "normal_generation",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Use case: stylized-concept. Create exactly one original friendly full-body fantasy creature sprite for a 2D creature-raising game. Hand-drawn 2D illustration with clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, readable natural creature proportions. Isolated on genuine transparent alpha. No background, ground, cast shadow, glow, scenery, text, labels, watermark, frame, clothing or held objects. Centered composition, entire body visible in a 1024 by 1024 RGBA PNG canvas. Longest visible creature extent about 820 pixels; at least 100 pixels of transparent padding on all sides. Slightly top-down three-quarter view facing image-right unless a different view is specified. Depict only the creature.  Management ID (do not draw): sm-flora-018. One low disc-shaped rootstock. Exactly one horizontal oval eye on the front. Exactly two short root legs beneath it. Exactly five broad round-ended leaves spread in a low nearly horizontal radial fan from the top; all five leaves must be separated enough to count and have similar length. Calm resting posture, slight top-down view so all leaves and both feet are visible. Main pale sage green leaves, tan rootstock, muted blue small accents. No upright tall central leaf, arms, wings, tails, petals, flowers, branches or additional leaves. Palette base colors in order: #A1B77C, #CBB088, #B2CDD0.",
+        "prompt_sha256_utf8": "fe14f668099b1f9562932028096042c91410d27d60dcbf73954ec491d3c7c5a0",
+        "status": "output_obtained",
+        "output_file": "sm-flora-018-normal-v2-original.png",
+        "output_sha256": "352edf83239a428a390109ff42bfbe434c6e49103b40154f2fd19adcd53576ea",
+        "reference_file": null,
+        "reference_sha256": null
+      },
+      {
+        "kind": "pixel_style_transfer",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Use case: style-transfer. Input image is the exact identity reference for sm-flora-018 design version 2. Redraw this SAME creature in authentic carefully constructed 128 by 128 pixel art, changing only rendering medium. Match source silhouette, proportions, pose, camera, colors and the five-leaf positions exactly. One low disc-shaped rootstock. Exactly one horizontal oval eye on the front. Exactly two short root legs beneath it. Exactly five broad round-ended leaves spread in a low nearly horizontal radial fan from the top; all five leaves must be separated enough to count and have similar length. Calm resting posture, slight top-down view so all leaves and both feet are visible. Main pale sage green leaves, tan rootstock, muted blue small accents. No upright tall central leaf, arms, wings, tails, petals, flowers, branches or additional leaves. Lock exactly 5 rounded leaves, one horizontally oval eye and 2 separate short root feet. The rear leaf projects upward in the picture because it extends away from the viewer; keep the reference shape and do not add an upright stalk or an extra-tall central leaf. Use deliberate readable pixel clusters, a consistent 1–2 logical pixel dark outline, up to 32 visible colors, crisp staircase contours, all visible pixels fully opaque and all background pixels fully transparent. No antialiasing, blur, partial alpha, gradients, pixel overlay filter, downsampled illustration, scenery, shadow, text or extra anatomy. Final canvas 128x128 RGBA, creature longest extent 96–112 pixels, padding at least 8 logical pixels on every side. Palette anchors #A1B77C,#CBB088,#B2CDD0.",
+        "prompt_sha256_utf8": "7c35f2efe8df58409db1c410c1e9dcee4f0edc29733dca086db41a8cb0ebe94f",
+        "status": "not_generated_individual_hold",
+        "output_file": null,
+        "output_sha256": null,
+        "reference_file": "sm-flora-018-normal-v2-original.png",
+        "reference_sha256": "352edf83239a428a390109ff42bfbe434c6e49103b40154f2fd19adcd53576ea"
+      }
+    ],
+    "processing_summary": {
+      "default": "微小alpha1〜7の透明ノイズ除去、縦横比を保つ比例縮小、1024透明余白配置。形状の描き直しなし。",
+      "pixel": "未生成のため処理なし。"
+    },
+    "processing_settings": {
+      "default": {
+        "aspect_ratio_preserved": true,
+        "redrawing": false,
+        "source_unchanged": true,
+        "alpha_noise_rule": "set only source alpha 1..7 to zero; retain source alpha >=8",
+        "alpha_noise_pixels_removed": 14467,
+        "crop_bbox": [
+          88,
+          282,
+          1166,
+          967
+        ],
+        "long_edge_target": 840,
+        "resampler": "Pillow LANCZOS",
+        "resized_size": [
+          840,
+          534
+        ],
+        "palette_quantization": null
+      }
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "default.png",
+      "sha256": "0383a5975ea358b24e7fda159c88bfd98d366be5cb75cdc731b34f8504964c01",
+      "bytes": 412277,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        92,
+        245,
+        932,
+        779
+      ],
+      "transparent_margins": [
+        92,
+        245,
+        92,
+        245
+      ],
+      "visible_longest_side": 840,
+      "visible_rgb_colors": 24198,
+      "binary_alpha": false,
+      "source_file": "sm-flora-018-normal-v2-original.png",
+      "source_sha256": "352edf83239a428a390109ff42bfbe434c6e49103b40154f2fd19adcd53576ea"
+    }
+  },
+  "qa": {
+    "default": "passed_recorded_numeric_and_source_retention_checks",
+    "pixel": "not_generated_individual_hold",
+    "pair": "not_evaluated_pixel_unavailable",
+    "basis": "原寸と拡大による生成通常/pixelの同一性確認、派生画像の実見、PNG寸法/余白/alpha/色数/SHAの読み戻し検査。",
+    "numeric": {
+      "default": {
+        "mode": "RGBA",
+        "size": [
+          1024,
+          1024
+        ],
+        "visible_bbox": [
+          92,
+          245,
+          932,
+          779
+        ],
+        "visible_extent": [
+          840,
+          534
+        ],
+        "visible_longest_side": 840,
+        "margins": [
+          92,
+          245,
+          92,
+          245
+        ],
+        "minimum_margin": 92,
+        "visible_rgb_colors": 24198,
+        "alpha_values_count": 256,
+        "alpha_values": null,
+        "binary_alpha": false,
+        "canvas_pass": true,
+        "margin_pass": true,
+        "extent_pass": true,
+        "palette_pass": true,
+        "alpha_pass": true,
+        "all_numeric_contracts_pass": true
+      }
+    },
+    "source_artifact_hashes_verified_unchanged": true,
+    "limitations": [
+      "中央奥葉の画面上方向への投影は、俯瞰で奥へ伸びる葉として解釈している。完全側面からの水平性は未確認。",
+      "pixel版は出力を取得しておらず個別保留。代替pixelの流用や再試行はしていない。",
+      "実機での表示と動作は未確認。",
+      "最終ユーザー受入はpending。",
+      "この記録はdesign_version1への適合を主張しない。"
+    ],
+    "in_engine_validation": "not_run",
+    "user_acceptance": "pending",
+    "final_release_acceptance": "pending"
+  },
+  "readback": {
+    "source_hashes": "verified",
+    "derived_hashes": "verified",
+    "repository": "not_asserted_by_this_metadata"
+  },
+  "asset_holds": {
+    "pixel": {
+      "status": "not_generated_individual_hold",
+      "generated_output_available": false,
+      "final_file_available": false,
+      "retry_performed": false,
+      "substitution_performed": false
+    }
+  }
+}

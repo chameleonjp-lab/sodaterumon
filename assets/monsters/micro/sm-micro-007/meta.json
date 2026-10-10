@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "id": "sm-micro-007",
+  "design_version": 2,
+  "name_ja": "ツツポケラ",
+  "family": "micro",
+  "catalog_path": "assets/monsters/catalog.json",
+  "design_status": "paired_candidate",
+  "design_revision": {
+    "from_version": 1,
+    "to_version": 2,
+    "v1_catalog_snapshot": {
+      "design_version": 1,
+      "silhouette": "両端が丸い一本の筒形細胞胴。目2個、側面に短い脚8本、翼0枚、尾0本。",
+      "material_motif": "薄い透明管と粒状の内膜。湿った落葉の隙間をゆっくり這う。",
+      "palette_hex": [
+        "#AEBC6E",
+        "#D7D5B9",
+        "#789DAD"
+      ],
+      "signature_features": [
+        "胴の内部に大きな粒が直列に3個",
+        "8本脚は左右4本ずつ",
+        "前端に平たい丸角の膜ふた1枚"
+      ],
+      "pose": "筒形の胴を緩く曲げ、前の脚2本だけを上げる。",
+      "temperament": "粘り強い探検好き。広い隙間を見つけるまでゆっくり進む。",
+      "do_not_add": [
+        "筒を多節の硬い甲殻にしない",
+        "内部の粒を増やさない",
+        "前端に牙やくちばしを付けない"
+      ]
+    },
+    "substantive_changes": [
+      "一本の長い筒状胴を丸角カプセル形へ変更。",
+      "脚を8本から6本へ、内部の直列粒3個を内部光点1個へ変更。",
+      "2目・前端膜1枚・元の3色を保持。品質編集で全6脚を見せる軽い俯瞰へ調整。"
+    ],
+    "fixed_final_specification": {
+      "body": "滑らかな丸角カプセル状の単細胞胴。",
+      "anatomy": {
+        "body_segments": 1,
+        "eyes": 2,
+        "legs": 6,
+        "arms": 0,
+        "wings": 0,
+        "tails": 0,
+        "front_membranes": 1,
+        "internal_light_points": 1,
+        "antennae": 0,
+        "ears": 0,
+        "horns": 0
+      },
+      "identifiers": [
+        "左右各3本の短脚を、手前3本・奥3本として全て視認できる。",
+        "前面に平たい丸角の膜ふた1枚と目2個。",
+        "内部中央の光点は1個だけ。"
+      ],
+      "pose": "全6脚を見せる軽い俯瞰、画面右向き。",
+      "materials": "水滴状の柔らかい膜。pixelでは透過質感を不透明な色クラスタで表す。",
+      "palette_hex": [
+        "#AEBC6E",
+        "#D7D5B9",
+        "#789DAD"
+      ],
+      "palette_roles": [
+        "primary",
+        "secondary",
+        "accent"
+      ],
+      "normal_pixel_identity": "same_individual",
+      "generation_brief": "One compact translucent rounded capsule-shaped single-cell body with soft water-droplet membrane texture. Exactly two small eyes at the front. Exactly six stubby legs, three on each side, all countable. Exactly one small softly luminous internal point inside the capsule. One flat transparent rounded membrane cap on the front end. Front two legs gently lifted in an exploratory crawling posture, facing image-right. Main muted olive green, pale cream membrane, muted blue accent. No wings, tail, arms, antennae, ears, horns or extra internal dots. Contain the internal luminosity entirely inside the body; no glow in the background."
+    },
+    "v1_compliance_claim": false
+  },
+  "provenance": {
+    "description": "独立したdesign_version2の仕様に基づくAI生成。通常画像を必要に応じ品質編集し、当該通常画像のhashを参照してpixel画像を別途生成。原本を保持して許可された規格仕上げのみを新派生画像へ適用。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_date": "2026-10-10",
+    "reference_default_sha256": "7c11a631d3060bcf539220424c92a12786a9439fe23942e0e63ab109e65b11cc",
+    "reference_default_sha256_meaning": "pixel生成へ実際に入力した未加工通常原本のhash。派生default.pngのhashとは別。",
+    "original_recovery": "all_successful_v2_outputs_for_this_id_retained",
+    "originals": [
+      {
+        "file": "sm-micro-007-normal-v2-edit1-original.png",
+        "sha256": "657573372337622f6ea393c8aed66210278cbe206322f4c3a39a97720ad16e15",
+        "bytes": 710371,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "retained_earlier_candidate",
+        "unchanged_after_derivation": true
+      },
+      {
+        "file": "sm-micro-007-normal-v2-edit2-original.png",
+        "sha256": "7c11a631d3060bcf539220424c92a12786a9439fe23942e0e63ab109e65b11cc",
+        "bytes": 776384,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "selected_source",
+        "unchanged_after_derivation": true
+      },
+      {
+        "file": "sm-micro-007-normal-v2-original.png",
+        "sha256": "fa34f0309b35a99b0359a9a75c5aa8f37c4424171a71b6749cc70193a8453c0f",
+        "bytes": 766400,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "retained_earlier_candidate",
+        "unchanged_after_derivation": true
+      },
+      {
+        "file": "sm-micro-007-pixel-v2-original.png",
+        "sha256": "47759992429df5f701d3b589a9326448a5b6fc4bc3c151e139a79685b42e5961",
+        "bytes": 647367,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "selected_source",
+        "unchanged_after_derivation": true
+      }
+    ],
+    "generation_history": [
+      {
+        "kind": "normal_generation",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Use case: stylized-concept. Create exactly one original friendly full-body fantasy creature sprite for a 2D creature-raising game. Hand-drawn 2D illustration with clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, readable natural creature proportions. Isolated on genuine transparent alpha. No background, ground, cast shadow, glow, scenery, text, labels, watermark, frame, clothing or held objects. Centered composition, entire body visible in a 1024 by 1024 RGBA PNG canvas. Longest visible creature extent about 820 pixels; at least 100 pixels of transparent padding on all sides. Slightly top-down three-quarter view facing image-right unless a different view is specified. Depict only the creature.  Management ID (do not draw): sm-micro-007. One compact translucent rounded capsule-shaped single-cell body with soft water-droplet membrane texture. Exactly two small eyes at the front. Exactly six stubby legs, three on each side, all countable. Exactly one small softly luminous internal point inside the capsule. One flat transparent rounded membrane cap on the front end. Front two legs gently lifted in an exploratory crawling posture, facing image-right. Main muted olive green, pale cream membrane, muted blue accent. No wings, tail, arms, antennae, ears, horns or extra internal dots. Contain the internal luminosity entirely inside the body; no glow in the background. Palette base colors in order: #AEBC6E, #D7D5B9, #789DAD.",
+        "prompt_sha256_utf8": "faf6ffb7205fccc7685d4377456c1c89bb630e875cc47684691d82afff2aba7b",
+        "status": "output_obtained",
+        "output_file": "sm-micro-007-normal-v2-original.png",
+        "output_sha256": "fa34f0309b35a99b0359a9a75c5aa8f37c4424171a71b6749cc70193a8453c0f",
+        "reference_file": null,
+        "reference_sha256": null
+      },
+      {
+        "kind": "normal_quality_edit",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Edit this exact original rounded capsule gel creature only to correct its visible leg count and simplify distracting interior texture. Keep the same one-piece capsule body, two front eyes, single front membrane cap and one central internal light point. Show exactly SIX stubby legs: THREE on each side, all SIX separately visible with clear gaps between their ends. Make the currently hidden sixth leg visible without deleting the five other legs. The surface and interior should be simple clean cel-shaded color areas; retain just the one central light point and remove all additional small dot-like inclusions. Preserve olive body, cream membrane and muted blue accents, same facing right pose, same silhouette. No arms, wings, tail, ears, horns, antennae or other appendages. Single whole dark-outlined friendly game creature on genuine transparent alpha. 1024x1024 RGBA with visible longest extent about 820px and at least 100px clear margin on all sides. No background, ground, shadow, text or external glow.",
+        "prompt_sha256_utf8": "1168657328c58b6fdbb78ccc3658743809be5cd922563a5988469270e2623e50",
+        "status": "output_obtained",
+        "output_file": "sm-micro-007-normal-v2-edit1-original.png",
+        "output_sha256": "657573372337622f6ea393c8aed66210278cbe206322f4c3a39a97720ad16e15",
+        "reference_file": "sm-micro-007-normal-v2-original.png",
+        "reference_sha256": "fa34f0309b35a99b0359a9a75c5aa8f37c4424171a71b6749cc70193a8453c0f"
+      },
+      {
+        "kind": "normal_quality_edit",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Correct ONLY the leg layout of this exact capsule creature. Replace the current five-visible-leg layout with SIX separately visible stubby rounded legs in THREE matched pairs along the capsule: one rear pair, one middle pair, one front pair. Three legs attach along the near lower flank, and the other three attach along the opposite far flank. Show the entire tips of the three far-side legs protruding above and to the sides of the body outline in this slightly top-down view so none is concealed. There must be exactly SIX individually countable leg silhouettes with gaps. A slightly more top-down camera is acceptable to make all six visible, but keep the rounded capsule body, same relative proportions, two front eyes, one flat front membrane cap, one internal central light point, olive/cream/blue palette and facing right. No other appendages, no extra interior points. Clean 2D cel-shaded dark outlined game creature, isolated genuine transparent alpha, 1024x1024 RGBA, full body centered about 820px longest extent, at least 100px clear padding. No background, ground, shadow or text.",
+        "prompt_sha256_utf8": "024f78c0d14dcae86eb88cf58973649fffc7ff2984dc08b619a8d1a7b0437b65",
+        "status": "output_obtained",
+        "output_file": "sm-micro-007-normal-v2-edit2-original.png",
+        "output_sha256": "7c11a631d3060bcf539220424c92a12786a9439fe23942e0e63ab109e65b11cc",
+        "reference_file": "sm-micro-007-normal-v2-edit1-original.png",
+        "reference_sha256": "657573372337622f6ea393c8aed66210278cbe206322f4c3a39a97720ad16e15"
+      },
+      {
+        "kind": "pixel_style_transfer",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Use case: style-transfer. Redraw the exact identity reference creature as authentic 128x128 pixel art. Change ONLY rendering medium. Lock this version-2 sm-micro-007: one smooth rounded olive capsule-shaped cell body, exactly TWO front eyes in ONE cream front membrane cap, exactly ONE small internal light point, and exactly SIX separate stubby rounded legs in three matched pairs. Three far-flank legs protrude above the body outline and three near-flank legs below it, as the reference clearly shows. Keep the same slightly top-down view, right-facing pose, proportions, leg placement and olive/cream/muted-blue palette (#AEBC6E / #D7D5B9 / #789DAD). ZERO arms, wings, tails, antennae, ears, horns and additional inner points. Use intentional readable pixel clusters, staircase contours, consistent 1–2 logical pixel dark outline, maximum 32 visible colors. All visible pixels fully opaque, background fully transparent. Translate gel transparency into solid opaque colored clusters without hiding any legs. Do not downsample or apply a pixelation filter. No antialiasing, blur, partial alpha, smooth gradients, scenery, ground, shadow, glow outside silhouette, letters or text. 128x128 RGBA canvas with visible longest extent 96–112 logical pixels and at least 8 logical pixels of transparent margin on all sides.",
+        "prompt_sha256_utf8": "81001abfbc20fc69b0629a66e3ed3263122f9f08febf564c37d7be3e5c558dd4",
+        "status": "output_obtained",
+        "output_file": "sm-micro-007-pixel-v2-original.png",
+        "output_sha256": "47759992429df5f701d3b589a9326448a5b6fc4bc3c151e139a79685b42e5961",
+        "reference_file": "sm-micro-007-normal-v2-edit2-original.png",
+        "reference_sha256": "7c11a631d3060bcf539220424c92a12786a9439fe23942e0e63ab109e65b11cc"
+      }
+    ],
+    "processing_summary": {
+      "default": "微小alpha1〜7の透明ノイズ除去、縦横比を保つ比例縮小、1024透明余白配置。形状の描き直しなし。",
+      "pixel": "別途生成したpixel候補を最近傍で比例縮小し、alpha二値化・32色減色・128透明余白配置。"
+    },
+    "processing_settings": {
+      "default": {
+        "aspect_ratio_preserved": true,
+        "redrawing": false,
+        "source_unchanged": true,
+        "alpha_noise_rule": "set only source alpha 1..7 to zero; retain source alpha >=8",
+        "alpha_noise_pixels_removed": 10461,
+        "crop_bbox": [
+          152,
+          219,
+          1127,
+          984
+        ],
+        "long_edge_target": 840,
+        "resampler": "Pillow LANCZOS",
+        "resized_size": [
+          840,
+          659
+        ],
+        "palette_quantization": null
+      },
+      "pixel": {
+        "aspect_ratio_preserved": true,
+        "redrawing": false,
+        "source_unchanged": true,
+        "alpha_binary_threshold": 128,
+        "crop_bbox": [
+          150,
+          243,
+          1139,
+          1023
+        ],
+        "long_edge_target": 108,
+        "resampler": "Pillow NEAREST",
+        "resized_size": [
+          108,
+          85
+        ],
+        "palette_quantization": {
+          "method": "MEDIANCUT learned on visible pixels only; fixed palette mapping",
+          "colors_max": 32,
+          "dither": "NONE"
+        },
+        "logical_grid_note": "Native 128x128 pixels; nearest-neighbor resampling of imagegen pixel rendition, no new painted pixels or pixelation of normal."
+      }
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "default.png",
+      "sha256": "41608e66cc0d0e40b3c08cb3158807d0f6773da9ab429616c99ff214bce9f17d",
+      "bytes": 555330,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        92,
+        182,
+        932,
+        841
+      ],
+      "transparent_margins": [
+        92,
+        182,
+        92,
+        183
+      ],
+      "visible_longest_side": 840,
+      "visible_rgb_colors": 62123,
+      "binary_alpha": false,
+      "source_file": "sm-micro-007-normal-v2-edit2-original.png",
+      "source_sha256": "7c11a631d3060bcf539220424c92a12786a9439fe23942e0e63ab109e65b11cc"
+    },
+    "pixel": {
+      "file": "pixel.png",
+      "sha256": "ea28234ab12086789a42c1e4705a6c564a492defcb4f4c646bc3f897cdf55454",
+      "bytes": 6330,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        21,
+        118,
+        106
+      ],
+      "transparent_margins": [
+        10,
+        21,
+        10,
+        22
+      ],
+      "visible_longest_side": 108,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "source_file": "sm-micro-007-pixel-v2-original.png",
+      "source_sha256": "47759992429df5f701d3b589a9326448a5b6fc4bc3c151e139a79685b42e5961",
+      "reference_generated_default_file": "sm-micro-007-normal-v2-edit2-original.png",
+      "reference_generated_default_sha256": "7c11a631d3060bcf539220424c92a12786a9439fe23942e0e63ab109e65b11cc",
+      "paired_final_default_file": "default.png",
+      "paired_final_default_sha256": "41608e66cc0d0e40b3c08cb3158807d0f6773da9ab429616c99ff214bce9f17d"
+    }
+  },
+  "qa": {
+    "default": "passed_recorded_numeric_and_source_retention_checks",
+    "pixel": "passed_recorded_numeric_and_source_retention_checks",
+    "pair": "source_identity_verified_and_preserved_in_derivation",
+    "basis": "原寸と拡大による生成通常/pixelの同一性確認、派生画像の実見、PNG寸法/余白/alpha/色数/SHAの読み戻し検査。",
+    "numeric": {
+      "default": {
+        "mode": "RGBA",
+        "size": [
+          1024,
+          1024
+        ],
+        "visible_bbox": [
+          92,
+          182,
+          932,
+          841
+        ],
+        "visible_extent": [
+          840,
+          659
+        ],
+        "visible_longest_side": 840,
+        "margins": [
+          92,
+          182,
+          92,
+          183
+        ],
+        "minimum_margin": 92,
+        "visible_rgb_colors": 62123,
+        "alpha_values_count": 256,
+        "alpha_values": null,
+        "binary_alpha": false,
+        "canvas_pass": true,
+        "margin_pass": true,
+        "extent_pass": true,
+        "palette_pass": true,
+        "alpha_pass": true,
+        "all_numeric_contracts_pass": true
+      },
+      "pixel": {
+        "mode": "RGBA",
+        "size": [
+          128,
+          128
+        ],
+        "visible_bbox": [
+          10,
+          21,
+          118,
+          106
+        ],
+        "visible_extent": [
+          108,
+          85
+        ],
+        "visible_longest_side": 108,
+        "margins": [
+          10,
+          21,
+          10,
+          22
+        ],
+        "minimum_margin": 10,
+        "visible_rgb_colors": 32,
+        "alpha_values_count": 2,
+        "alpha_values": [
+          0,
+          255
+        ],
+        "binary_alpha": true,
+        "canvas_pass": true,
+        "margin_pass": true,
+        "extent_pass": true,
+        "palette_pass": true,
+        "alpha_pass": true,
+        "all_numeric_contracts_pass": true
+      }
+    },
+    "source_artifact_hashes_verified_unchanged": true,
+    "limitations": [
+      "元画像には柔らかな多段階の艶表現があり、3段階セル塗りへの完全一致は主張しない。",
+      "実機での表示と動作は未確認。",
+      "最終ユーザー受入はpending。",
+      "この記録はdesign_version1への適合を主張しない。"
+    ],
+    "in_engine_validation": "not_run",
+    "user_acceptance": "pending",
+    "final_release_acceptance": "pending"
+  },
+  "readback": {
+    "source_hashes": "verified",
+    "derived_hashes": "verified",
+    "repository": "not_asserted_by_this_metadata"
+  }
+}

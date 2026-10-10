@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "id": "sm-micro-015",
+  "design_version": 2,
+  "name_ja": "サラコルミ",
+  "family": "micro",
+  "catalog_path": "assets/monsters/catalog.json",
+  "design_status": "paired_candidate",
+  "design_revision": {
+    "from_version": 1,
+    "to_version": 2,
+    "v1_catalog_snapshot": {
+      "design_version": 1,
+      "silhouette": "一細胞の浅い皿形胴、縁の内側に目3個。脚3本、翼0枚、尾0本。中央に低い半球状の核1個。",
+      "material_motif": "薄い半透明膜と柔らかな核。小石に付く露の底をすべるように移動する。",
+      "palette_hex": [
+        "#D4A6A0",
+        "#88B5BE",
+        "#E2DBB6"
+      ],
+      "signature_features": [
+        "3個の目は皿の前半分だけに並ぶ",
+        "3本脚は底の中心近くに集まる",
+        "皿の縁に大きな波型の起伏4個"
+      ],
+      "pose": "皿の内側が見える斜め上向きで、3本脚をそろえる。",
+      "temperament": "静かな収集好き。細かな砂が来ると皿を傾けて流す。",
+      "do_not_add": [
+        "皿を深い椀にしない",
+        "核を別の目にしない",
+        "脚を皿の縁へ移さない"
+      ]
+    },
+    "substantive_changes": [
+      "浅い皿形胴と波形の縁4個を廃し、低く滑らかな水滴形の胴へ変更。",
+      "3個の目を縁の内側から前面へ移し、核1個を上面後方の外付け低半球として固定。",
+      "底中央寄りの短脚3本と元の3色は保持。"
+    ],
+    "fixed_final_specification": {
+      "body": "低く滑らかな水滴形の一細胞胴。",
+      "anatomy": {
+        "body_segments": 1,
+        "eyes": 3,
+        "legs": 3,
+        "arms": 0,
+        "wings": 0,
+        "tails": 0,
+        "external_nuclei": 1,
+        "internal_nuclei": 0,
+        "antennae": 0,
+        "ears": 0,
+        "horns": 0
+      },
+      "identifiers": [
+        "前面の小さな目3個。",
+        "底の中央付近に集まる独立した短脚3本。",
+        "上面後方に外付けの低い半球核1個。核を眼として扱わない。"
+      ],
+      "pose": "画面右向きに少し傾く、滑走する姿。",
+      "materials": "柔らかな膜と低い半球核。滑らかな縁に皿の波形を設けない。",
+      "palette_hex": [
+        "#D4A6A0",
+        "#88B5BE",
+        "#E2DBB6"
+      ],
+      "palette_roles": [
+        "primary",
+        "secondary",
+        "accent"
+      ],
+      "normal_pixel_identity": "same_individual",
+      "generation_brief": "One low rounded water-droplet-shaped body with a smooth perimeter and soft translucent membrane. Exactly three small eyes arranged across the front face. Exactly three short legs close together beneath the lower center, all visible separately. Exactly one low hemispherical nucleus visible on the upper rear of the body; this nucleus has no face or eye. Calm slightly tilted sliding posture facing image-right. Main dusty pink body, muted teal secondary, pale yellow nucleus accent. No dish rim, scallops, arms, wings, tails, antennae, ears, horns, extra eyes or extra legs."
+    },
+    "v1_compliance_claim": false
+  },
+  "provenance": {
+    "description": "独立したdesign_version2の仕様に基づくAI生成。通常画像を必要に応じ品質編集し、当該通常画像のhashを参照してpixel画像を別途生成。原本を保持して許可された規格仕上げのみを新派生画像へ適用。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_date": "2026-10-10",
+    "reference_default_sha256": "fc39c8b07d453fa075553b640115179ca70a13fc2c3ee5a3e569ec66f833e9fd",
+    "reference_default_sha256_meaning": "pixel生成へ実際に入力した未加工通常原本のhash。派生default.pngのhashとは別。",
+    "original_recovery": "all_successful_v2_outputs_for_this_id_retained",
+    "originals": [
+      {
+        "file": "sm-micro-015-normal-v2-original.png",
+        "sha256": "fc39c8b07d453fa075553b640115179ca70a13fc2c3ee5a3e569ec66f833e9fd",
+        "bytes": 616472,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "selected_source",
+        "unchanged_after_derivation": true
+      },
+      {
+        "file": "sm-micro-015-pixel-v2-original.png",
+        "sha256": "bc442f6213193d68159291f154a7b24c96cc2e566181882e7958e7e72022d779",
+        "bytes": 669343,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "selected_source",
+        "unchanged_after_derivation": true
+      }
+    ],
+    "generation_history": [
+      {
+        "kind": "normal_generation",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Use case: stylized-concept. Create exactly one original friendly full-body fantasy creature sprite for a 2D creature-raising game. Hand-drawn 2D illustration with clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, readable natural creature proportions. Isolated on genuine transparent alpha. No background, ground, cast shadow, glow, scenery, text, labels, watermark, frame, clothing or held objects. Centered composition, entire body visible in a 1024 by 1024 RGBA PNG canvas. Longest visible creature extent about 820 pixels; at least 100 pixels of transparent padding on all sides. Slightly top-down three-quarter view facing image-right unless a different view is specified. Depict only the creature.  Management ID (do not draw): sm-micro-015. One low rounded water-droplet-shaped body with a smooth perimeter and soft translucent membrane. Exactly three small eyes arranged across the front face. Exactly three short legs close together beneath the lower center, all visible separately. Exactly one low hemispherical nucleus visible on the upper rear of the body; this nucleus has no face or eye. Calm slightly tilted sliding posture facing image-right. Main dusty pink body, muted teal secondary, pale yellow nucleus accent. No dish rim, scallops, arms, wings, tails, antennae, ears, horns, extra eyes or extra legs. Palette base colors in order: #D4A6A0, #88B5BE, #E2DBB6. Exactly one externally attached low hemispherical nucleus on the upper rear surface; no internal second nucleus.",
+        "prompt_sha256_utf8": "224026dd70e4d620f7b5f544769cdd69d7ce6d05541b1e89877654a7307a43b7",
+        "status": "output_obtained",
+        "output_file": "sm-micro-015-normal-v2-original.png",
+        "output_sha256": "fc39c8b07d453fa075553b640115179ca70a13fc2c3ee5a3e569ec66f833e9fd",
+        "reference_file": null,
+        "reference_sha256": null
+      },
+      {
+        "kind": "pixel_style_transfer",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Use case: style-transfer. Input image is the exact identity reference for sm-micro-015 design version 2. Redraw this SAME creature in authentic carefully constructed 128 by 128 pixel art, changing only rendering medium. Match the source pose, proportions, silhouette, placement and colors. One low rounded water-droplet-shaped body with a smooth perimeter and soft translucent membrane. Exactly three small eyes arranged across the front face. Exactly three short legs close together beneath the lower center, all visible separately. Exactly one low hemispherical nucleus visible on the upper rear of the body; this nucleus has no face or eye. Calm slightly tilted sliding posture facing image-right. Main dusty pink body, muted teal secondary, pale yellow nucleus accent. No dish rim, scallops, arms, wings, tails, antennae, ears, horns, extra eyes or extra legs. Exactly one external low hemispherical nucleus is on the upper rear surface. Lock exactly 3 front eyes and exactly 3 separate short feet under the lower center; no fourth eye or foot. Use deliberate large readable pixel clusters, a consistent 1–2 logical pixel dark outline, up to 32 visible colors, crisp staircase contours, all visible pixels fully opaque and all background pixels fully transparent. No antialiasing, blur, partial alpha, gradients, pixel overlay filter, downsampled illustration, scenery, shadow, text or extra anatomy. The final canvas should be 128x128 RGBA, creature longest extent 96–112 pixels, padding at least 8 logical pixels on each side. Palette anchors #D4A6A0,#88B5BE,#E2DBB6. Preserve dusty pink body, teal lower body and feet, and pale cream-yellow external nucleus. ",
+        "prompt_sha256_utf8": "389289e2cb047a1e468c9d12d360d06385996595d6e69cfb214a1640823d0836",
+        "status": "output_obtained",
+        "output_file": "sm-micro-015-pixel-v2-original.png",
+        "output_sha256": "bc442f6213193d68159291f154a7b24c96cc2e566181882e7958e7e72022d779",
+        "reference_file": "sm-micro-015-normal-v2-original.png",
+        "reference_sha256": "fc39c8b07d453fa075553b640115179ca70a13fc2c3ee5a3e569ec66f833e9fd"
+      }
+    ],
+    "processing_summary": {
+      "default": "微小alpha1〜7の透明ノイズ除去、縦横比を保つ比例縮小、1024透明余白配置。形状の描き直しなし。",
+      "pixel": "別途生成したpixel候補を最近傍で比例縮小し、alpha二値化・32色減色・128透明余白配置。"
+    },
+    "processing_settings": {
+      "default": {
+        "aspect_ratio_preserved": true,
+        "redrawing": false,
+        "source_unchanged": true,
+        "alpha_noise_rule": "set only source alpha 1..7 to zero; retain source alpha >=8",
+        "alpha_noise_pixels_removed": 6655,
+        "crop_bbox": [
+          172,
+          288,
+          1082,
+          982
+        ],
+        "long_edge_target": 840,
+        "resampler": "Pillow LANCZOS",
+        "resized_size": [
+          840,
+          641
+        ],
+        "palette_quantization": null
+      },
+      "pixel": {
+        "aspect_ratio_preserved": true,
+        "redrawing": false,
+        "source_unchanged": true,
+        "alpha_binary_threshold": 128,
+        "crop_bbox": [
+          125,
+          264,
+          1148,
+          1068
+        ],
+        "long_edge_target": 108,
+        "resampler": "Pillow NEAREST",
+        "resized_size": [
+          108,
+          85
+        ],
+        "palette_quantization": {
+          "method": "MEDIANCUT learned on visible pixels only; fixed palette mapping",
+          "colors_max": 32,
+          "dither": "NONE"
+        },
+        "logical_grid_note": "Native 128x128 pixels; nearest-neighbor resampling of imagegen pixel rendition, no new painted pixels or pixelation of normal."
+      }
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "default.png",
+      "sha256": "57f4ba3864d45dcaeb19bbff4c293cf5ccfc731ccd7a68f4493b46ed19d3f2f1",
+      "bytes": 476871,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        92,
+        191,
+        932,
+        832
+      ],
+      "transparent_margins": [
+        92,
+        191,
+        92,
+        192
+      ],
+      "visible_longest_side": 840,
+      "visible_rgb_colors": 45335,
+      "binary_alpha": false,
+      "source_file": "sm-micro-015-normal-v2-original.png",
+      "source_sha256": "fc39c8b07d453fa075553b640115179ca70a13fc2c3ee5a3e569ec66f833e9fd"
+    },
+    "pixel": {
+      "file": "pixel.png",
+      "sha256": "0bc7dcd1c97222deabbe2311157b4edfe817a3eb62e86a097b2a7ca1327c23a6",
+      "bytes": 6902,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        21,
+        118,
+        106
+      ],
+      "transparent_margins": [
+        10,
+        21,
+        10,
+        22
+      ],
+      "visible_longest_side": 108,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "source_file": "sm-micro-015-pixel-v2-original.png",
+      "source_sha256": "bc442f6213193d68159291f154a7b24c96cc2e566181882e7958e7e72022d779",
+      "reference_generated_default_file": "sm-micro-015-normal-v2-original.png",
+      "reference_generated_default_sha256": "fc39c8b07d453fa075553b640115179ca70a13fc2c3ee5a3e569ec66f833e9fd",
+      "paired_final_default_file": "default.png",
+      "paired_final_default_sha256": "57f4ba3864d45dcaeb19bbff4c293cf5ccfc731ccd7a68f4493b46ed19d3f2f1"
+    }
+  },
+  "qa": {
+    "default": "passed_recorded_numeric_and_source_retention_checks",
+    "pixel": "passed_recorded_numeric_and_source_retention_checks",
+    "pair": "source_identity_verified_and_preserved_in_derivation",
+    "basis": "原寸と拡大による生成通常/pixelの同一性確認、派生画像の実見、PNG寸法/余白/alpha/色数/SHAの読み戻し検査。",
+    "numeric": {
+      "default": {
+        "mode": "RGBA",
+        "size": [
+          1024,
+          1024
+        ],
+        "visible_bbox": [
+          92,
+          191,
+          932,
+          832
+        ],
+        "visible_extent": [
+          840,
+          641
+        ],
+        "visible_longest_side": 840,
+        "margins": [
+          92,
+          191,
+          92,
+          192
+        ],
+        "minimum_margin": 92,
+        "visible_rgb_colors": 45335,
+        "alpha_values_count": 256,
+        "alpha_values": null,
+        "binary_alpha": false,
+        "canvas_pass": true,
+        "margin_pass": true,
+        "extent_pass": true,
+        "palette_pass": true,
+        "alpha_pass": true,
+        "all_numeric_contracts_pass": true
+      },
+      "pixel": {
+        "mode": "RGBA",
+        "size": [
+          128,
+          128
+        ],
+        "visible_bbox": [
+          10,
+          21,
+          118,
+          106
+        ],
+        "visible_extent": [
+          108,
+          85
+        ],
+        "visible_longest_side": 108,
+        "margins": [
+          10,
+          21,
+          10,
+          22
+        ],
+        "minimum_margin": 10,
+        "visible_rgb_colors": 32,
+        "alpha_values_count": 2,
+        "alpha_values": [
+          0,
+          255
+        ],
+        "binary_alpha": true,
+        "canvas_pass": true,
+        "margin_pass": true,
+        "extent_pass": true,
+        "palette_pass": true,
+        "alpha_pass": true,
+        "all_numeric_contracts_pass": true
+      }
+    },
+    "source_artifact_hashes_verified_unchanged": true,
+    "limitations": [
+      "元画像には柔らかな多段階の艶表現があり、3段階セル塗りへの完全一致は主張しない。",
+      "実機での表示と動作は未確認。",
+      "最終ユーザー受入はpending。",
+      "この記録はdesign_version1への適合を主張しない。"
+    ],
+    "in_engine_validation": "not_run",
+    "user_acceptance": "pending",
+    "final_release_acceptance": "pending"
+  },
+  "readback": {
+    "source_hashes": "verified",
+    "derived_hashes": "verified",
+    "repository": "not_asserted_by_this_metadata"
+  }
+}
