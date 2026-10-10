@@ -1,0 +1,540 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-010",
+  "asset_type": "eight_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/S/default.png",
+      "bytes": 555471,
+      "sha256": "72f080e65a195dae3fe76c01ec4db397fafc359c002fb1ded9ba5a983ed23ac1",
+      "git_blob_sha": "ce5eb14989ccd8f41bf7f1e6f4701ad9674ebb70",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        303,
+        928,
+        721
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 112339,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/S/pixel.png",
+      "bytes": 7605,
+      "sha256": "0cbf7c2fd05a655a94f3f240870656560f29570ace70bb58d292c7a168a2a238",
+      "git_blob_sha": "5aaa5533342b5c75b4ee1234b2da175a1d374ed3",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        37,
+        116,
+        90
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/SW/default.png",
+      "bytes": 577557,
+      "sha256": "b5f50a7d04875147564c93b166f5cd3ec286643b6280f4da151a97784263f22e",
+      "git_blob_sha": "12a38caaf04d1cf0de406202049a3e8b361a2b51",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        269,
+        928,
+        755
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 109649,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/SW/pixel.png",
+      "bytes": 7932,
+      "sha256": "acc07a35b87221209c4b8241b63e598bc5830d46f49819adbd4ce987dc1a5082",
+      "git_blob_sha": "3454b2246d82c5be53133de1c8f108473af28f1d",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        33,
+        116,
+        94
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/W/default.png",
+      "bytes": 735997,
+      "sha256": "ee69477d25a1ab6ee6fa248ce25725bbf9a3967b47e92835fe879aafa263b88f",
+      "git_blob_sha": "b72c0cdc816e8bc32d0c905d9105582073d53751",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        229,
+        928,
+        795
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 127405,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/W/pixel.png",
+      "bytes": 9215,
+      "sha256": "4830808d836d56f8bd1cda95b411760c4dd97ae93030d82405efb0c65c16fd61",
+      "git_blob_sha": "e9f434b153a760d2a1bbd5a6bc4edc974237bcd9",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        26,
+        116,
+        101
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/NW/default.png",
+      "bytes": 616020,
+      "sha256": "e62fabc3ac9acf5132f74dc025c01734995439389035775bb4b52100d8f45d4f",
+      "git_blob_sha": "2f48217fd0a1d9509fba4432bc726498b4030bea",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        247,
+        928,
+        776
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 111212,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/NW/pixel.png",
+      "bytes": 8126,
+      "sha256": "2a08b973968187325e9167b5bc12b68ccd2fac69efaa3601645660e4015aa463",
+      "git_blob_sha": "c191e315d6f7f64989291fa90cb94492c909833d",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        30,
+        116,
+        97
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/N/default.png",
+      "bytes": 547937,
+      "sha256": "ee60b1ee3877de810ddb51ecf9da7fa0d832a15a9716aa03ee0a9512ae504b8d",
+      "git_blob_sha": "9ab2209dfa63fd7ff5f80d8632f158055d48a260",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        334,
+        928,
+        690
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 112292,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/N/pixel.png",
+      "bytes": 7388,
+      "sha256": "5172938bf81d9e1c16f38ddac5147e3e64ae9dbce4c686bb3df3fbccc1c946fe",
+      "git_blob_sha": "516388f4718b6f5f604da42c2e88f46125685c65",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        42,
+        116,
+        85
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/NE/default.png",
+      "bytes": 622399,
+      "sha256": "bef5dbb8575a32a112f10c8311525beaff55577b7417ddf3f0c3dfef30b1d7dc",
+      "git_blob_sha": "0214c4d3482c5d422c9a669f6654d826ea2de637",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        251,
+        928,
+        772
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 110972,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/NE/pixel.png",
+      "bytes": 8797,
+      "sha256": "987ca50a3d4691ad3f71b68cf5ade016c447772b9702009e6ab2aab7a1773bd9",
+      "git_blob_sha": "2348d93c8634be462773eb528b758ba25fd9cbab",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        30,
+        116,
+        98
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/E/default.png",
+      "bytes": 659766,
+      "sha256": "2b0050ee44b4ff1cacf73deb5dad072bdc6ad078735a2d89922960fc8f1e96c3",
+      "git_blob_sha": "6da5710a1bfe336ca90a29c58ef3ac63d49e256a",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        249,
+        928,
+        774
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 122508,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/directions/E/pixel.png",
+      "bytes": 8036,
+      "sha256": "3a30998b910c0cd46865fc7bb7ea31e66212d8b6a4877131dc36b470f3bb29d8",
+      "git_blob_sha": "ba2feaa48450f84029ae0e0ae420a537fc348e2a",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        30,
+        116,
+        97
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/default.png",
+      "bytes": 642460,
+      "sha256": "01508e4aae3829919208ae114c4ee5093ecb643f8a6cbb893b287a039b27c233",
+      "git_blob_sha": "91668bd2e1f62cd1cf529e1cb5b4934925edb5c0",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        80,
+        249,
+        944,
+        774
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 108030,
+      "binary_alpha": false,
+      "original_preserved": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/mineral/sm-mineral-010/pixel.png",
+      "bytes": 9642,
+      "sha256": "d0c6ed685a5ec57656caa35af0e1b5a5c82847c9ed320ca478d874d022f8be98",
+      "git_blob_sha": "da2c7a2d87d837225f5ab2026881c3d6f24a339f",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        10,
+        33,
+        118,
+        95
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": true
+    }
+  ],
+  "technical_processing": "Normal alpha<8 cleanup after pure red contamination measured alpha1-2 and opaque stone body visual confirmation; uniform832 extent; pixel binaryalpha128 threshold,nearest104 extent, nearest original palette,no shape redraw.",
+  "provenance": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final_sha256": "72f080e65a195dae3fe76c01ec4db397fafc359c002fb1ded9ba5a983ed23ac1",
+      "raw_sha256": "0c43f7d720dcdb1a930dd2d5e1ae615b94bc98ab8750c928136c527e563f0d9c",
+      "prompt": "Use case: identity-preserve. Exact two-disk stone creature. Reference1 original SE defines identity, reference2 accepted W defines near/far disk overlap, reference3 N defines rear tail attachment. Two horizontal oval mica disks joined SIDE-BY-SIDE by narrow waist, same height, one creature; not tandem. Exactly SIX angular legs, three beneath EACH disk; TWO short flat rectangular tails, one extending backward from EACH disk rear rim; TWO cream slit-pupil eyes, one on FRONT rim of EACH disk. The creature's own RIGHT disk (left in original) has THREE stepped outer layers; own LEFT disk is plain. Keep this asymmetry rigidly attached through rotation. Lavender/olive/cream mica texture, same proportions and moderately low camera elevation, horizontal disks, no overhead camera, natural overlaps. No added limbs eyes tails wings or holes. Single entire creature transparent background, no text/shadow, square. Direct FRONT S: both disks side-by-side, stepped disk screen-left and plain disk screen-right; both eyes visible facing viewer, two tails extend away behind respective disks, mostly hidden. Balanced equal heights, don't bring tails out from waist.",
+      "reference_evidence": "Prompt and reference list recovered from executed tool configuration",
+      "raw_file_name": "S-normal.png"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final_sha256": "0cbf7c2fd05a655a94f3f240870656560f29570ace70bb58d292c7a168a2a238",
+      "raw_sha256": "6f96492e1d0692bbbd3ba3bd318072253ccbad1d370dc678e7754a42847de4cd",
+      "prompt": "Use case: style-transfer. Convert this exact single directional creature reference to crisp 128x128 game pixel art on transparent background. Preserve its exact pose, facing direction, silhouette and near/far overlaps. Same individual: two joined horizontal mica disks, one stepped outer disk and one plain disk, six actual angular legs with natural occlusion, two short flat tails on their respective rear rims, one eye per disk only on front rim when visible. Do not reveal occluded eyes or legs and do not turn the creature. Lavender, muted olive, cream stone palette; maximum32 colors, clean hard pixel clusters, binary transparency, no smooth antialiasing, no glow, no text or ground shadow. Whole creature within generous transparent margin. Target direction S exactly as reference.",
+      "generation_reference_sha256": [
+        "0c43f7d720dcdb1a930dd2d5e1ae615b94bc98ab8750c928136c527e563f0d9c"
+      ],
+      "reference_evidence": "Exact normal-only reference call; S/SW path relocated after reset, bytes recovered unchanged",
+      "raw_file_name": "S-pixel.png"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final_sha256": "b5f50a7d04875147564c93b166f5cd3ec286643b6280f4da151a97784263f22e",
+      "raw_sha256": "57dfaaabd8098c9c06d843a90e07ea78fdc5caa5a8d69f217a3c00b482ca1542",
+      "prompt": "Use case: identity-preserve. Exact two-disk stone creature. Reference1 original SE defines identity, reference2 accepted W defines near/far disk overlap, reference3 N defines rear tail attachment. Two horizontal oval mica disks joined SIDE-BY-SIDE by narrow waist, same height, one creature; not tandem. Exactly SIX angular legs, three beneath EACH disk; TWO short flat rectangular tails, one extending backward from EACH disk rear rim; TWO cream slit-pupil eyes, one on FRONT rim of EACH disk. The creature's own RIGHT disk (left in original) has THREE stepped outer layers; own LEFT disk is plain. Keep this asymmetry rigidly attached through rotation. Lavender/olive/cream mica texture, same proportions and moderately low camera elevation, horizontal disks, no overhead camera, natural overlaps. No added limbs eyes tails wings or holes. Single entire creature transparent background, no text/shadow, square. FRONT-LEFT SW 45: fronts aim lower-left; plain disk near and partially overlaps stepped disk far, both rims/eyes may be visible with foreshortening. Two tails point upper-right behind their respective disks. Halfway between front S and reference2 W, not broad unchanged front.",
+      "reference_evidence": "Prompt and reference list recovered from executed tool configuration",
+      "raw_file_name": "SW-normal.png"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final_sha256": "acc07a35b87221209c4b8241b63e598bc5830d46f49819adbd4ce987dc1a5082",
+      "raw_sha256": "0e9ab310bad0720d4971a899ca72a7a7012e673f033ce8c40a3efa429c5071eb",
+      "prompt": "Use case: style-transfer. Convert this exact single directional creature reference to crisp 128x128 game pixel art on transparent background. Preserve its exact pose, facing direction, silhouette and near/far overlaps. Same individual: two joined horizontal mica disks, one stepped outer disk and one plain disk, six actual angular legs with natural occlusion, two short flat tails on their respective rear rims, one eye per disk only on front rim when visible. Do not reveal occluded eyes or legs and do not turn the creature. Lavender, muted olive, cream stone palette; maximum32 colors, clean hard pixel clusters, binary transparency, no smooth antialiasing, no glow, no text or ground shadow. Whole creature within generous transparent margin. Target direction SW exactly as reference.",
+      "generation_reference_sha256": [
+        "57dfaaabd8098c9c06d843a90e07ea78fdc5caa5a8d69f217a3c00b482ca1542"
+      ],
+      "reference_evidence": "Exact normal-only reference call; S/SW path relocated after reset, bytes recovered unchanged",
+      "raw_file_name": "SW-pixel.png"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final_sha256": "ee69477d25a1ab6ee6fa248ce25725bbf9a3967b47e92835fe879aafa263b88f",
+      "raw_sha256": "28ef8fcbf5556c3995788f65499ebfb59c47e07b4a474260edf606ff959c1ff4",
+      "prompt": "Use case: identity-preserve. Make a W left-facing side view of the exact reference individual. It consists of TWO horizontal oval stone disks joined side-by-side across its body width by a narrow waist, not front-to-back. One cream slit eye at front rim of EACH disk; one short flat rectangular tail at rear rim of EACH disk; six angular short legs total, three under each disk. Original left disk has three stepped layers on its outer edge; opposite disk plain. Rotate the WHOLE rigid paired creature so both fronts point exactly screen-left and both tails exactly screen-right. The near PLAIN disk overlaps almost the entire far STEPPED disk in camera depth: their front rims align at the same screen x and their rear rims align at the same screen x. Far disk is only a narrow upper sliver behind near disk, not a separate oval shifted left or right. Both tails grow from their respective aligned REAR rightmost rims, never from central connecting waist. Only near eye clear on left rim, far eye naturally hidden. Feet overlap naturally; don't move parts to expose count. Keep original low/moderate camera elevation and ground stance, horizontal disk planes, mica lavender/olive/cream layered texture, same painterly outlines. No added parts, no scene, no text. Entire one creature centered on transparent background.",
+      "reference_evidence": "Prompt and reference list recovered from executed tool configuration",
+      "raw_file_name": "W-v2-normal.png"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final_sha256": "4830808d836d56f8bd1cda95b411760c4dd97ae93030d82405efb0c65c16fd61",
+      "raw_sha256": "b43552cc4582e615285f7bb5355eb37184b18b1b359708f4d65c71af39942532",
+      "prompt": "Use case: style-transfer. Convert this exact single directional creature reference to crisp 128x128 game pixel art on transparent background. Preserve its exact pose, facing direction, silhouette and near/far overlaps. Same individual: two joined horizontal mica disks, one stepped outer disk and one plain disk, six actual angular legs with natural occlusion, two short flat tails on their respective rear rims, one eye per disk only on front rim when visible. Do not reveal occluded eyes or legs and do not turn the creature. Lavender, muted olive, cream stone palette; maximum32 colors, clean hard pixel clusters, binary transparency, no smooth antialiasing, no glow, no text or ground shadow. Whole creature within generous transparent margin. Target direction W exactly as reference.",
+      "generation_reference_sha256": [
+        "28ef8fcbf5556c3995788f65499ebfb59c47e07b4a474260edf606ff959c1ff4"
+      ],
+      "reference_evidence": "Exact normal-only reference call; S/SW path relocated after reset, bytes recovered unchanged",
+      "raw_file_name": "W-pixel.png"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final_sha256": "e62fabc3ac9acf5132f74dc025c01734995439389035775bb4b52100d8f45d4f",
+      "raw_sha256": "2e8af677cfff8bb8d641b19b6cc980040ce771fd43241d3d531b464f2305cf66",
+      "prompt": "Use case: identity-preserve. Exact two-disk stone creature. Reference1 original SE defines identity, reference2 accepted W defines near/far disk overlap, reference3 N defines rear tail attachment. Two horizontal oval mica disks joined SIDE-BY-SIDE by narrow waist, same height, one creature; not tandem. Exactly SIX angular legs, three beneath EACH disk; TWO short flat rectangular tails, one extending backward from EACH disk rear rim; TWO cream slit-pupil eyes, one on FRONT rim of EACH disk. The creature's own RIGHT disk (left in original) has THREE stepped outer layers; own LEFT disk is plain. Keep this asymmetry rigidly attached through rotation. Lavender/olive/cream mica texture, same proportions and moderately low camera elevation, horizontal disks, no overhead camera, natural overlaps. No added limbs eyes tails wings or holes. Single entire creature transparent background, no text/shadow, square. REAR-LEFT NW 135: fronts aim upper-left away, both tails aim lower-right toward viewer, each rooted at its own rear rim. Plain disk nearest overlaps far stepped disk. Eyes hidden behind fixed forward-facing rims; don't move eyes to rear.",
+      "reference_evidence": "Prompt and reference list recovered from executed tool configuration",
+      "raw_file_name": "NW-normal.png"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final_sha256": "2a08b973968187325e9167b5bc12b68ccd2fac69efaa3601645660e4015aa463",
+      "raw_sha256": "57459c2b8419443df8af683e64d83228249b47cc62e8d3317633505cee285ea3",
+      "prompt": "Use case: style-transfer. Literal pixel-art conversion of this exact BACK-THREE-QUARTER view reference, direction NW. Copy its silhouette and visible details exactly, do not invent face details. Both eyes are completely hidden on the FAR forward rims: NO visible eyes, dark sockets, cream eye dots, colored jewels or circular dots anywhere on either disk rim, including side edges and connecting waist. Rear-facing stone surfaces are uninterrupted mica texture. Two connected horizontal stone disks, one plain and one with stepped outer layers exactly as reference, two flat rectangular tails attached to respective rear rims and six angular legs with natural overlap. Preserve every attachment, overlap and camera angle. No horns or new protrusions. Crisp 128px game pixel art, lavender/olive/cream32-color maximum palette, binary transparency, hard clusters, no antialiasing, no background glow, no text/floor shadow. Entire single creature on fully transparent background.",
+      "generation_reference_sha256": [
+        "2e8af677cfff8bb8d641b19b6cc980040ce771fd43241d3d531b464f2305cf66"
+      ],
+      "reference_evidence": "Exact normal-only reference call; S/SW path relocated after reset, bytes recovered unchanged",
+      "raw_file_name": "NW-v2-pixel.png"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final_sha256": "ee60b1ee3877de810ddb51ecf9da7fa0d832a15a9716aa03ee0a9512ae504b8d",
+      "raw_sha256": "b3370051deab99f17e63773eb6db1192ca272294653f11cfcbd479a005b23f21",
+      "prompt": null,
+      "reference_evidence": "N exact prompt/reference call not yet recovered",
+      "raw_file_name": "N-normal.png"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final_sha256": "5172938bf81d9e1c16f38ddac5147e3e64ae9dbce4c686bb3df3fbccc1c946fe",
+      "raw_sha256": "e82dedaf49559ceaa0cc6dd4189c41d3a7bac6cee6ebca9e057da2d79735ef18",
+      "prompt": "Use case: style-transfer. Convert ONLY this exact rear-view stone creature reference to crisp small game pixel art. Copy the geometry and visible details literally. Two connected flat mica disks; one plain disk at screen-left, three stepped layers on screen-right disk. Exactly two flat rectangular tails project toward viewer from the lower rear rims, six short angular legs below with natural overlap. Both upper silhouettes are smooth oval disk rims: NO horns, spikes, knobs or tail tips on their top or far edge. The visible rear disk rims contain NO EYES, NO dark eye sockets, NO cream eye dots. Front eyes are completely occluded on the far side. Do not add face details above tail roots. Preserve reference pose, camera, tail attachment and asymmetry. Lavender/olive/cream stone palette, at most32 colors, hard pixel clusters, no antialiasing. Transparent background, whole creature centered with margin, no text/shadow.",
+      "generation_reference_sha256": [
+        "b3370051deab99f17e63773eb6db1192ca272294653f11cfcbd479a005b23f21"
+      ],
+      "reference_evidence": "Exact normal-only reference call; S/SW path relocated after reset, bytes recovered unchanged",
+      "raw_file_name": "N-v2-pixel.png"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final_sha256": "bef5dbb8575a32a112f10c8311525beaff55577b7417ddf3f0c3dfef30b1d7dc",
+      "raw_sha256": "27054879c033de80bd9e7903f7a856ca0be895e33b841cb493c5acaf7d5d3c78",
+      "prompt": "Use case: identity-preserve. Exact two-disk stone creature. Reference1 original SE defines identity, reference2 accepted W defines near/far disk overlap, reference3 N defines rear tail attachment. Two horizontal oval mica disks joined SIDE-BY-SIDE by narrow waist, same height, one creature; not tandem. Exactly SIX angular legs, three beneath EACH disk; TWO short flat rectangular tails, one extending backward from EACH disk rear rim; TWO cream slit-pupil eyes, one on FRONT rim of EACH disk. The creature's own RIGHT disk (left in original) has THREE stepped outer layers; own LEFT disk is plain. Keep this asymmetry rigidly attached through rotation. Lavender/olive/cream mica texture, same proportions and moderately low camera elevation, horizontal disks, no overhead camera, natural overlaps. No added limbs eyes tails wings or holes. Single entire creature transparent background, no text/shadow, square. REAR-RIGHT NE225: fronts aim upper-right away, tails lower-left toward viewer, each on own rear rim. Stepped disk nearest overlaps plain disk farther. Eyes naturally hidden behind forward-facing rims. No reversal of disk identity.",
+      "reference_evidence": "Prompt and reference list recovered from executed tool configuration",
+      "raw_file_name": "NE-normal.png"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final_sha256": "987ca50a3d4691ad3f71b68cf5ade016c447772b9702009e6ab2aab7a1773bd9",
+      "raw_sha256": "af8d97938681f11b5b1cbc03499ebe3304f8f768c2342f60c3a29e84f7f62123",
+      "prompt": "Use case: style-transfer. Literal pixel-art conversion of this exact BACK-THREE-QUARTER view reference, direction NE. Copy its silhouette and visible details exactly, do not invent face details. Both eyes are completely hidden on the FAR forward rims: NO visible eyes, dark sockets, cream eye dots, colored jewels or circular dots anywhere on either disk rim, including side edges and connecting waist. Rear-facing stone surfaces are uninterrupted mica texture. Two connected horizontal stone disks, one plain and one with stepped outer layers exactly as reference, two flat rectangular tails attached to respective rear rims and six angular legs with natural overlap. Preserve every attachment, overlap and camera angle. No horns or new protrusions. Crisp 128px game pixel art, lavender/olive/cream32-color maximum palette, binary transparency, hard clusters, no antialiasing, no background glow, no text/floor shadow. Entire single creature on fully transparent background.",
+      "generation_reference_sha256": [
+        "27054879c033de80bd9e7903f7a856ca0be895e33b841cb493c5acaf7d5d3c78"
+      ],
+      "reference_evidence": "Exact normal-only reference call; S/SW path relocated after reset, bytes recovered unchanged",
+      "raw_file_name": "NE-v2-pixel.png"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final_sha256": "2b0050ee44b4ff1cacf73deb5dad072bdc6ad078735a2d89922960fc8f1e96c3",
+      "raw_sha256": "4f66b070c4098e6a4a249fce064622571b6e59fb02cbc0497473890e907b3b51",
+      "prompt": "Use case: identity-preserve. Make a E right-facing side view of the exact reference individual. It consists of TWO horizontal oval stone disks joined side-by-side across its body width by a narrow waist, not front-to-back. One cream slit eye at front rim of EACH disk; one short flat rectangular tail at rear rim of EACH disk; six angular short legs total, three under each disk. Original left disk has three stepped layers on its outer edge; opposite disk plain. Rotate the WHOLE rigid paired creature so both fronts point exactly screen-right and both tails exactly screen-left. The near STEPPED disk overlaps almost the entire far PLAIN disk in camera depth: their front rims align at the same screen x and their rear rims align at the same screen x. Far disk is only a narrow upper sliver behind near disk, not a separate oval shifted left or right. Both tails grow from their respective aligned REAR leftmost rims, never from central connecting waist. Only near eye clear on right rim, far eye naturally hidden. Feet overlap naturally; don't move parts to expose count. Keep original low/moderate camera elevation and ground stance, horizontal disk planes, mica lavender/olive/cream layered texture, same painterly outlines. No added parts, no scene, no text. Entire one creature centered on transparent background. Exactly ONE eye on near stepped disk, never two eyes on one disk; far eye fully hidden. The far plain disk is directly behind near stepped disk in camera depth, NOT behind it in walking direction.",
+      "reference_evidence": "Prompt and reference list recovered from executed tool configuration",
+      "raw_file_name": "E-v2-normal.png"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final_sha256": "3a30998b910c0cd46865fc7bb7ea31e66212d8b6a4877131dc36b470f3bb29d8",
+      "raw_sha256": "47409e20efa8c8bc04462865185ac0189cd0f6dc7884a77e4d6f5b27718763a6",
+      "prompt": "Use case: style-transfer. Convert this exact single directional creature reference to crisp 128x128 game pixel art on transparent background. Preserve its exact pose, facing direction, silhouette and near/far overlaps. Same individual: two joined horizontal mica disks, one stepped outer disk and one plain disk, six actual angular legs with natural occlusion, two short flat tails on their respective rear rims, one eye per disk only on front rim when visible. Do not reveal occluded eyes or legs and do not turn the creature. Lavender, muted olive, cream stone palette; maximum32 colors, clean hard pixel clusters, binary transparency, no smooth antialiasing, no glow, no text or ground shadow. Whole creature within generous transparent margin. Target direction E exactly as reference.",
+      "generation_reference_sha256": [
+        "4f66b070c4098e6a4a249fce064622571b6e59fb02cbc0497473890e907b3b51"
+      ],
+      "reference_evidence": "Exact normal-only reference call; S/SW path relocated after reset, bytes recovered unchanged",
+      "raw_file_name": "E-pixel.png"
+    }
+  ],
+  "provenance_gap": "Old N normal exact prompt and reference tool args not recovered; do not infer them. Raw PNG recovered from original tool result.",
+  "qa": {
+    "numeric_and_hash": "passed_16_slots",
+    "visual": "v5 NW/NE/N full-resolution normal and pixel inspected; spurious rear eye-like dots resolved; parent eight-pair review with limitations",
+    "limitations": [
+      "Exact yaw and fixed camera elevation not guaranteed",
+      "Rear tail and leg-root depth inferred",
+      "N normal exact generation prompt and reference tool arguments were not recovered; raw image recovered from original tool response",
+      "Pre-reset recovered reference paths are not represented as contemporaneously verified reference hashes"
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending"
+  }
+}
