@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-022",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-mineral-022-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-mineral-022 / ナガナメル / 硬体 (mineral)\nBody and exact anatomy: 体幹1節の両端が丸く細まる紡錘形。ひれ状の脚4本、目0個、翼0枚、尾0本。背腹の厚みは薄い\nMaterials and biological motif: 水で磨かれた玉髄。浅い砂の上を四枚の石ひれで押し進む\nPrimary, secondary, accent colors respectively: #9CACBF; #B58470; #EBE0BF\nThree mandatory visual identifiers: 胴に斜めの明るい帯が1本だけ横切る; 四本のひれ脚は前の一対だけ幅広い; 片側の先端に丸いくぼみが1個\nPose: 四つのひれ脚を広げ、長い胴を砂地と平行にする\nTemperament to convey through expression or posture: 静か。砂の抵抗が少ない方向をゆっくり探る. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 目や口を描かない; 魚の尾びれを追加しない; 表面に多数のしま模様を足さない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-mineral-022-default-attempt002-prompt": "Use case: precise-object-edit. Correct this sm-mineral-022 normal illustration. Remove the many fine brown and pale longitudinal stripe lines from the body surface. Keep exactly ONE bright diagonal band crossing the body; retain the brown secondary material color only as broad unstriped areas rather than repeated narrow bands. Make BOTH front fin-shaped legs visibly broader than BOTH rear fin-shaped legs, preserving exactly FOUR fin legs and the same spread pose. Preserve one thin flattened spindle-shaped body with softly tapering rounded ends, zero eyes, zero wings, zero tail, one small round depression at one tip with no added mouth, polished chalcedony material, palette #9CACBF #B58470 #EBE0BF, dark colored outline and three-step cel main shading. Maintain original identity and right-facing horizontal pose, no fish tail, eyes, mouth, extra fins or repeated stripes. Full single creature centered on genuine transparent background, 1024 square with ample clear margins, no text or scenery.\n",
+      "sm-mineral-022-default-attempt003-prompt": "Use case: precise-object-edit. Change only the FAR FRONT fin-leg of this sm-mineral-022 normal creature: the thin fin visible on the upper-right side near the rounded front tip. Widen that one fin into a broad rounded stone paddle, clearly broader than the two REAR fins, matching the broad front-pair identity of the large near-side front fin. Keep four fin-legs total, not five, and preserve the already broad near front fin. Keep the two rear fins narrow. Preserve the same thin flattened spindle body with rounded tapered tips, exactly one bright diagonal cream band, broad unstriped brown material color area, one round tip depression, no eyes, no mouth, no wings or tail. Preserve polished chalcedony, palette #9CACBF #B58470 #EBE0BF, rightward horizontal pose, dark colored outline, three-step cel main shading, and all other features. Genuine transparent background, single full creature centered in1024square with generous margins; no scenery/text.\n",
+      "sm-mineral-022-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-mineral-022; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-mineral-022 / ナガナメル / 硬体 (mineral)\nLocked body and anatomy: 体幹1節の両端が丸く細まる紡錘形。ひれ状の脚4本、目0個、翼0枚、尾0本。背腹の厚みは薄い\nLocked material cues: 水で磨かれた玉髄。浅い砂の上を四枚の石ひれで押し進む\nLocked palette roles, primary/secondary/accent: #9CACBF; #B58470; #EBE0BF\nAll three identifiers must remain recognizable: 胴に斜めの明るい帯が1本だけ横切る; 四本のひれ脚は前の一対だけ幅広い; 片側の先端に丸いくぼみが1個\nLocked pose: 四つのひれ脚を広げ、長い胴を砂地と平行にする\nLocked temperament/expression: 静か。砂の抵抗が少ない方向をゆっくり探る. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 目や口を描かない; 魚の尾びれを追加しない; 表面に多数のしま模様を足さない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "35cd17d49c03a1ba869f855f8d36f9298dd4d58eaea66d63925075af1211e8b6",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-mineral-022-default-attempt001-original.png",
+          "bytes": 664833,
+          "sha256": "07c0761aa0c8a3c6ddb616c7ebd911a82c148df2a00d0b3943862109ad3246c5",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-022-default-attempt002-original.png",
+          "bytes": 656983,
+          "sha256": "600d8246d7f5b17de50dfafadf500c052dccced395ea58a90bf240a025445e6a",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-022-default-attempt003-original.png",
+          "bytes": 639423,
+          "sha256": "8f0cb0c5ad630ae99885fd960f672097b38bd6305ff1a36d0aeadd8b4c09a76c",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-022-pixel-attempt001-original.png",
+          "bytes": 534662,
+          "sha256": "bb4129c5a7c53d4728848d31fce72b1c3b4954501a725d9253be3bb416d04b8d",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/mineral/sm-mineral-022/default.png",
+      "sha256": "35cd17d49c03a1ba869f855f8d36f9298dd4d58eaea66d63925075af1211e8b6",
+      "bytes": 391597,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        272,
+        944,
+        752
+      ],
+      "transparent_margins": [
+        80,
+        272,
+        80,
+        272
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/mineral/sm-mineral-022/pixel.png",
+      "sha256": "53a7431ead62c6cee30c88c7131cb7f5afe6351f50f2580fb5668a8192fdd6f1",
+      "bytes": 6041,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        33,
+        118,
+        95
+      ],
+      "transparent_margins": [
+        10,
+        33,
+        10,
+        33
+      ],
+      "visible_colors": 32,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
