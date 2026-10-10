@@ -1,0 +1,830 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-015",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "S",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/arcane/sm-arcane-015/default.png",
+      "sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb",
+      "git_blob_sha": "555a0d901e6a4cd9e9538ad458675459549f62ba",
+      "bytes": 569826
+    },
+    "pixel": {
+      "path": "assets/monsters/arcane/sm-arcane-015/pixel.png",
+      "sha256": "4f739054accdf369aa25e378396c5e73366346a9b001a96cc32c474ca91ec2a5",
+      "git_blob_sha": "85c2a9b4c7338a8e667364eac073341058b07edf",
+      "bytes": 9391
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-015/default.png",
+      "sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb",
+      "bytes": 569826,
+      "git_blob_sha": "555a0d901e6a4cd9e9538ad458675459549f62ba",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          202,
+          944,
+          821
+        ],
+        "margins": [
+          80,
+          202,
+          80,
+          203
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 60316,
+        "alpha_value_count": 249,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-015/pixel.png",
+      "sha256": "4f739054accdf369aa25e378396c5e73366346a9b001a96cc32c474ca91ec2a5",
+      "bytes": 9391,
+      "git_blob_sha": "85c2a9b4c7338a8e667364eac073341058b07edf",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          29,
+          118,
+          98
+        ],
+        "margins": [
+          10,
+          29,
+          10,
+          30
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/SW/default.png",
+      "sha256": "c88ad86f373b4a9a2fa725361a06287e87bf4c6322656f5701a21eb68cc6500f",
+      "bytes": 632240,
+      "git_blob_sha": "7f4ac93d33e6051d859a12a9d79ccca56e585943",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          127,
+          928,
+          897
+        ],
+        "margins": [
+          96,
+          127,
+          96,
+          127
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 64831,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/SW/pixel.png",
+      "sha256": "7ff8cb367a632b2b1fb8809a3b28331c6da60e2a917e417b70635103caca721e",
+      "bytes": 9264,
+      "git_blob_sha": "5fa9e8f38a63a9c00e9d8d97c648c4bbff9e0405",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          17,
+          116,
+          111
+        ],
+        "margins": [
+          12,
+          17,
+          12,
+          17
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 29,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "c88ad86f373b4a9a2fa725361a06287e87bf4c6322656f5701a21eb68cc6500f"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/W/default.png",
+      "sha256": "c8ecc46cfe9d81b44568b012bd307039ce8f89d2728ba406c088fb9e6de5aa27",
+      "bytes": 451373,
+      "git_blob_sha": "79508b6682f1cf77caf1d43ed7d299cdc6705c05",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          267,
+          96,
+          756,
+          928
+        ],
+        "margins": [
+          267,
+          96,
+          268,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 52864,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/W/pixel.png",
+      "sha256": "bcebcde3c40569b600d9dd9829b9a6222337b6baca7a8adb3316aedd10532abb",
+      "bytes": 6209,
+      "git_blob_sha": "959ff8a412aef83b256935139bc6f6547c56060c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          30,
+          12,
+          97,
+          116
+        ],
+        "margins": [
+          30,
+          12,
+          31,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "c8ecc46cfe9d81b44568b012bd307039ce8f89d2728ba406c088fb9e6de5aa27"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/NW/default.png",
+      "sha256": "4b8260ef605b962bf1c12603c15d8280968b9b3489f3afdd08ea3eeeeefec376",
+      "bytes": 582581,
+      "git_blob_sha": "aed04b374f793219ceb70cfba721c5b7fcdecc8e",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          160,
+          928,
+          863
+        ],
+        "margins": [
+          96,
+          160,
+          96,
+          161
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 58689,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/NW/pixel.png",
+      "sha256": "53d81dbae23522f81ee630cc5bc4bfd714bfa87d6db6988863365048be2c02ad",
+      "bytes": 6675,
+      "git_blob_sha": "357b5b7524e676695af4b7edf698f7b029897c15",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          23,
+          116,
+          105
+        ],
+        "margins": [
+          12,
+          23,
+          12,
+          23
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "4b8260ef605b962bf1c12603c15d8280968b9b3489f3afdd08ea3eeeeefec376"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/N/default.png",
+      "sha256": "818dfca314e66248375e95b8ddc41a962fc54ae97148d14ba15a02cfe150a142",
+      "bytes": 485718,
+      "git_blob_sha": "8f6ad445189f587e81cb1d744b2383cb6986099a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          251,
+          928,
+          773
+        ],
+        "margins": [
+          96,
+          251,
+          96,
+          251
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 49377,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/N/pixel.png",
+      "sha256": "9b91a7bf3c3c77bed7f4e21020720f5d19c527cfb6404ee5b1fc22c90bbd6cbd",
+      "bytes": 6031,
+      "git_blob_sha": "b4211feb7ea6ce6236cf66a901e3e6bbdf0c4d6b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          32,
+          116,
+          95
+        ],
+        "margins": [
+          12,
+          32,
+          12,
+          33
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 28,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "818dfca314e66248375e95b8ddc41a962fc54ae97148d14ba15a02cfe150a142"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/NE/default.png",
+      "sha256": "0e9e9f1af49d4ffc9611d77146b2d8ec1732c9003b53801d3f44900f73253f10",
+      "bytes": 552403,
+      "git_blob_sha": "0fd224c4c7ab057bca18c64c56cb5842b38fb82e",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          194,
+          928,
+          829
+        ],
+        "margins": [
+          96,
+          194,
+          96,
+          195
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 56218,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/NE/pixel.png",
+      "sha256": "3554c24cedfc590e959cee48db5742968d32cd5978b827557781b5e26424b68e",
+      "bytes": 6931,
+      "git_blob_sha": "ea699819f8670666d4f51e3448d0bccb8a1d70e3",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          25,
+          116,
+          103
+        ],
+        "margins": [
+          12,
+          25,
+          12,
+          25
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 27,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "0e9e9f1af49d4ffc9611d77146b2d8ec1732c9003b53801d3f44900f73253f10"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/E/default.png",
+      "sha256": "eaf0cf2ec5f96be8eefffae82e4f2610267efbb89ad2ce0c9289ef311f7cbe2c",
+      "bytes": 391751,
+      "git_blob_sha": "8e710e86a5a7e383bf41ea7d0103e5964926bc0a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          290,
+          96,
+          733,
+          928
+        ],
+        "margins": [
+          290,
+          96,
+          291,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 48044,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/E/pixel.png",
+      "sha256": "d3504c3c8ffeb246e0a12dc9276d27eae14c8e550e5d4f4eb62b8679105c1526",
+      "bytes": 5916,
+      "git_blob_sha": "7905e7b3b0d718145f51ad7f62ec9ebe08dc3800",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          34,
+          12,
+          94,
+          116
+        ],
+        "margins": [
+          34,
+          12,
+          34,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 29,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "eaf0cf2ec5f96be8eefffae82e4f2610267efbb89ad2ce0c9289ef311f7cbe2c"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/SE/default.png",
+      "sha256": "cada34f3eba8e448caebe9a7ee089ae23f88720e409549d24e503f24412b31ba",
+      "bytes": 607128,
+      "git_blob_sha": "dbbd8c8ea4bf997970251bdc709bbb6ddb6742e4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          163,
+          928,
+          860
+        ],
+        "margins": [
+          96,
+          163,
+          96,
+          164
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 55812,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-015/directions/SE/pixel.png",
+      "sha256": "b12030bfe4e3c8479d7d613970ebe9659da271f62b5c804dc890aebeeed4a62b",
+      "bytes": 7681,
+      "git_blob_sha": "b9c7fc867228e10be26b848612235cb7ae78d7d6",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          21,
+          116,
+          106
+        ],
+        "margins": [
+          12,
+          21,
+          12,
+          22
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 29,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "cada34f3eba8e448caebe9a7ee089ae23f88720e409549d24e503f24412b31ba"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "V4 improves previous quality HOLD; prior versions preserved. W/E tail-root depth, exact yaw and rigid 3D correspondence are inferred. In-game/final acceptance pending.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb"
+      },
+      "original_preserved": true,
+      "source": {
+        "sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb"
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "4f739054accdf369aa25e378396c5e73366346a9b001a96cc32c474ca91ec2a5"
+      },
+      "original_preserved": true,
+      "source": {
+        "sha256": "4f739054accdf369aa25e378396c5e73366346a9b001a96cc32c474ca91ec2a5"
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "c88ad86f373b4a9a2fa725361a06287e87bf4c6322656f5701a21eb68cc6500f"
+      },
+      "raw": {
+        "sha256": "d3d384a0cb3d2e0c00cc007acbca4caeddeca10b0f254a51f7416b3cec51b372"
+      },
+      "prompt": "Use case: identity-preserve. Original exact crescent-sack creature, change only yaw to FRONT-LEFT SW45. SHORT TAIL-BEARING end (source image-right) must now be NEAREST and large on screen-RIGHT. Tall non-tailed end recedes into depth toward screen-LEFT and appears smaller/narrower. Broad front eye-bearing face points screen-LEFT; near eye on right foreground, far eye around left far contour. Compress body's horizontal span strongly into depth so not a broad frontal crescent. Five legs in one row: near-right leg largest, far-left legs overlap; central third lifted. One cream bead fixed upper concavity, one teal short square-ended tassel attached same short end, never swap ends. Same dusty rose/teal/cream, seams/markings, fixed low camera, no new anatomy. Entire centered creature transparent background no text shadow.",
+      "generation_references": [
+        {
+          "sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "7ff8cb367a632b2b1fb8809a3b28331c6da60e2a917e417b70635103caca721e"
+      },
+      "raw": {
+        "sha256": "336ebd99ee5b8eff5d5e6ff6fad2eb2c1a6c3fab89f831b844e8f7d047527a2b"
+      },
+      "prompt": "Use case: style-transfer. Convert attached crescent-sack creature into crisp128x128 pixel sprite, exact same direction, pose and depth. One dusty-rose crescent with upper hollow, one cream bead fixed inside, exactly FIVE teardrop legs in one row (central lifted; natural overlap in profile), one teal short square-ended tassel on fixed shorter end, two teal front eyes only where shown. Preserve near/far end proportions, leg overlap, eye visibility, tail mounting and stitched/teal-band cream-dot design. Do not revert to broad frontal view or add hidden legs visibly. Hard pixel clusters, limited32 colors rose/teal/cream/dark outlines, binary transparent alpha, no antialiasing. Entire centered character transparent margin, no text ground shadow. Direction SW.",
+      "generation_references": [
+        {
+          "sha256": "d3d384a0cb3d2e0c00cc007acbca4caeddeca10b0f254a51f7416b3cec51b372"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "c8ecc46cfe9d81b44568b012bd307039ce8f89d2728ba406c088fb9e6de5aa27"
+      },
+      "raw": {
+        "sha256": "737a6607fb96fbc0e37d00064a67aa617450d8de6ab3d6b95535d0ecca38f1fd"
+      },
+      "prompt": "Use case: identity-preserve. Need TRUE90degree LEFT-facing SIDE PROFILE of exact reference creature. The reference shows the BROAD FRONT of a thin horizontal crescent-shaped soft cushion. Turn the whole cushion90degrees around vertical axis so we now look ALONG its long horizontal length: its two tall crescent ends OVERLAP in depth, silhouette becomes NARROW and mostly UPRIGHT with roughly1/3 of front-view width. Do NOT draw broad U-shaped crescent again. Near rounded end hides far end and much of hollow; one teal eye at LEFT/front edge, other hidden. Five legs attached in one transverse row are now overlapping in depth below narrowbody;5physically exist but only2-3tips can be visible naturally. Cream bead remains in top hollow partly obscured. Single short teal tail with square tassel remains on same body end, not replicated. Preserve dustyrose teal cream stitched fabric with same pattern, no head/nose/wings/extra parts, same illustration/camera elevation. One1024transparent sprite centered, no text/shadow/ground. Strict edge-on profile.\n",
+      "generation_references": [
+        {
+          "sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb"
+        }
+      ],
+      "reference_evidence": "saved prompt reference declaration; original production files retained"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "bcebcde3c40569b600d9dd9829b9a6222337b6baca7a8adb3316aedd10532abb"
+      },
+      "raw": {
+        "sha256": "cd6e07dc8307664c4ba41c2acb59592722bcc7615961db3930aea2bfbaf42154"
+      },
+      "prompt": "Use case: style-transfer. Convert attached crescent-sack creature into crisp128x128 pixel sprite, exact same direction, pose and depth. One dusty-rose crescent with upper hollow, one cream bead fixed inside, exactly FIVE teardrop legs in one row (central lifted; natural overlap in profile), one teal short square-ended tassel on fixed shorter end, two teal front eyes only where shown. Preserve near/far end proportions, leg overlap, eye visibility, tail mounting and stitched/teal-band cream-dot design. Do not revert to broad frontal view or add hidden legs visibly. Hard pixel clusters, limited32 colors rose/teal/cream/dark outlines, binary transparent alpha, no antialiasing. Entire centered character transparent margin, no text ground shadow. Direction W.",
+      "generation_references": [
+        {
+          "sha256": "737a6607fb96fbc0e37d00064a67aa617450d8de6ab3d6b95535d0ecca38f1fd"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "4b8260ef605b962bf1c12603c15d8280968b9b3489f3afdd08ea3eeeeefec376"
+      },
+      "raw": {
+        "sha256": "a782c38199a5db91ca43f730e99df9c5082370d86e22754a1caaa6cdc77f4fd3"
+      },
+      "prompt": "Use case: identity-preserve. Create ONE transparent1024 sprite of SAME crescent-cushion creature. 135degree REAR LEFT-facing3/4. Width foreshortened to60percent front width. No eyes on backside. Tail on screen-left anatomicalend as back view. Show narrower curved back of cushion, fixedbead in hollow,5leg row depthoverlap,centerraised. Image1 broadFRONT identity;image2 correct narrowSIDE reference. Turn WHOLEbody in3D, fixedcamera, not planarrotation. Preserve1soft crescentbody,5physicalteardroplegs (naturalocclusionallowed),2tealeyesONLYfront,1creamfixedbead inupperhollow,1shorttealtail withSQUAREflat-endedtassel, stitches,rose/teal/creamwave&dotpatterns, exact original proportions and cleanillustration. No extraeye/leg/tail/head/nose/wings;no glowoutsidebead. Fullbodycentered10%transparentpadding,no ground/shadow/text.\n",
+      "generation_references": [
+        {
+          "sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb"
+        },
+        {
+          "sha256": "737a6607fb96fbc0e37d00064a67aa617450d8de6ab3d6b95535d0ecca38f1fd"
+        }
+      ],
+      "reference_evidence": "saved prompt reference declaration; original production files retained"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "53d81dbae23522f81ee630cc5bc4bfd714bfa87d6db6988863365048be2c02ad"
+      },
+      "raw": {
+        "sha256": "fad610ad76a9e847474ac38605c857ec052e5a3ed9e6088bbb4fa036b49aca81"
+      },
+      "prompt": "Use case: style-transfer. Convert attached crescent-sack creature into crisp128x128 pixel sprite, exact same direction, pose and depth. One dusty-rose crescent with upper hollow, one cream bead fixed inside, exactly FIVE teardrop legs in one row (central lifted; natural overlap in profile), one teal short square-ended tassel on fixed shorter end, two teal front eyes only where shown. Preserve near/far end proportions, leg overlap, eye visibility, tail mounting and stitched/teal-band cream-dot design. Do not revert to broad frontal view or add hidden legs visibly. Hard pixel clusters, limited32 colors rose/teal/cream/dark outlines, binary transparent alpha, no antialiasing. Entire centered character transparent margin, no text ground shadow. Direction NW.",
+      "generation_references": [
+        {
+          "sha256": "a782c38199a5db91ca43f730e99df9c5082370d86e22754a1caaa6cdc77f4fd3"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "818dfca314e66248375e95b8ddc41a962fc54ae97148d14ba15a02cfe150a142"
+      },
+      "raw": {
+        "sha256": "8c49e18e7b0221b7a2e36b24a203b8d65d0119ebcf8c06764ba94da38f92dc0b"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 fullbody sprite of EXACT reference soft crescent-sack creature, rotated in3D to N 180degree direct BACK, NO eyes on rear surface. Tail that was on screen-right in front now on screen-left. Same concave crescent backside with bead still in upper hollow. Original is front eye-bearing surface with five legs in one horizontal row below, center leg raised. Keep1horizontal crescent-sack body, upper concavity and rounded ends, exactly5physical teardrop legs in one row underneath (center lifted,others planted),2teal eyes only on front (occlude on back),1fixed bright cream round bead in upper hollow,1short teal tail with compact SQUARE flat-ended tassel attached at anatomical right body end. No nose/head/wings/extraeyes or extra beads. Same dusty rose#D5A1A0 teal#517F87 cream#F8E4BD, stitched seams, flowing teal band/cream dots and same clean cel-shaded illustration. Keep body parts/palette/pose consistent, turn entirebody not imageplane tilt or just face. Camera fixed modest top-down like source. Full silhouette centered10%transparent margin, no shadow/halo/ground/text/props.\n",
+      "generation_references": [
+        {
+          "sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb"
+        }
+      ],
+      "reference_evidence": "saved prompt reference declaration; original production files retained"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "9b91a7bf3c3c77bed7f4e21020720f5d19c527cfb6404ee5b1fc22c90bbd6cbd"
+      },
+      "raw": {
+        "sha256": "908506b62599f221e9f99d1cb6e13b32b2423efad9810aede5b6d8255a0ab405"
+      },
+      "prompt": "Use case: style-transfer. Convert attached crescent-sack creature into crisp128x128 pixel sprite, exact same direction, pose and depth. One dusty-rose crescent with upper hollow, one cream bead fixed inside, exactly FIVE teardrop legs in one row (central lifted; natural overlap in profile), one teal short square-ended tassel on fixed shorter end, two teal front eyes only where shown. Preserve near/far end proportions, leg overlap, eye visibility, tail mounting and stitched/teal-band cream-dot design. Do not revert to broad frontal view or add hidden legs visibly. Hard pixel clusters, limited32 colors rose/teal/cream/dark outlines, binary transparent alpha, no antialiasing. Entire centered character transparent margin, no text ground shadow. Direction N.",
+      "generation_references": [
+        {
+          "sha256": "8c49e18e7b0221b7a2e36b24a203b8d65d0119ebcf8c06764ba94da38f92dc0b"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "0e9e9f1af49d4ffc9611d77146b2d8ec1732c9003b53801d3f44900f73253f10"
+      },
+      "raw": {
+        "sha256": "1bae9ba3c2f827645b306051e4fb74f407eeb01c9205e0659b1124fb36dbf46d"
+      },
+      "prompt": "Use case: identity-preserve. Edit exact REAR crescent-sack creature reference1 into rear-RIGHT NE225 yaw. Short TAIL-BEARING end at image-left must be NEARER and larger, tall non-tailed end on right FARTHER and smaller; compress horizontal body width strongly into three-quarter depth, show thick rounded tailed end foreground. Five teardrop legs fixed in one lateral row recede from near-left to far-right with overlap, central third remains lifted. Exactly one fixed cream bead in upper hollow and one teal short square-tassel tail on same shorter end. No eyes on rear. Same rose/teal/cream, seams/band/dots, camera elevation and body pose. Reference2 original FRONT identity, no mirror, don't swap high and low physical ends. Fullbody transparent, no text ground shadow.",
+      "generation_references": [
+        {
+          "sha256": "8c49e18e7b0221b7a2e36b24a203b8d65d0119ebcf8c06764ba94da38f92dc0b"
+        },
+        {
+          "sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "3554c24cedfc590e959cee48db5742968d32cd5978b827557781b5e26424b68e"
+      },
+      "raw": {
+        "sha256": "0e4d7b033c8b8bc0817a79d6d5292d9119b76598f54bc6927a50e9863dcad998"
+      },
+      "prompt": "Use case: style-transfer. Convert attached EYELESS REAR-RIGHT crescent-sack illustration into crisp128x128 pixel sprite. This is a BACK view: ZERO VISIBLE EYES anywhere, the tall right end is blank rose with stitched seam, no teal oval eye. Do not invent an eye. Preserve exactly same near/far end proportions, one cream bead upper hollow, five droplet legs central third lifted, one short teal square-ended tassel on left short end, rose/teal/cream bands and dots. Hard pixel clusters, max32colors, binary transparent alpha, no antialiasing, no text ground shadow. Whole centered silhouette with transparent margin.",
+      "generation_references": [
+        {
+          "sha256": "1bae9ba3c2f827645b306051e4fb74f407eeb01c9205e0659b1124fb36dbf46d"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "eaf0cf2ec5f96be8eefffae82e4f2610267efbb89ad2ce0c9289ef311f7cbe2c"
+      },
+      "raw": {
+        "sha256": "1ab15814aea0ec03d793e819f40189054d688cef912bbeb31986a29b783a2aa3"
+      },
+      "prompt": "Use case: identity-preserve. Create ONE transparent1024 sprite of SAME crescent-cushion creature. TRUE90degree RIGHT-facing edge-on SIDE, viewed along horizontal length. Narrow upright cushion silhouette1/3of reference-front width, two ends overlap in depth; one eye front RIGHT edge, secondhidden; legs overlap behind nearleg. Tail on same physical end (can be naturally hidden); do not broadU again. Image1 broadFRONT identity;image2 correct narrowSIDE reference. Turn WHOLEbody in3D, fixedcamera, not planarrotation. Preserve1soft crescentbody,5physicalteardroplegs (naturalocclusionallowed),2tealeyesONLYfront,1creamfixedbead inupperhollow,1shorttealtail withSQUAREflat-endedtassel, stitches,rose/teal/creamwave&dotpatterns, exact original proportions and cleanillustration. No extraeye/leg/tail/head/nose/wings;no glowoutsidebead. Fullbodycentered10%transparentpadding,no ground/shadow/text.\n",
+      "generation_references": [
+        {
+          "sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb"
+        },
+        {
+          "sha256": "737a6607fb96fbc0e37d00064a67aa617450d8de6ab3d6b95535d0ecca38f1fd"
+        }
+      ],
+      "reference_evidence": "saved prompt reference declaration; original production files retained"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "d3504c3c8ffeb246e0a12dc9276d27eae14c8e550e5d4f4eb62b8679105c1526"
+      },
+      "raw": {
+        "sha256": "f0a15a0cc54f2ce408b085176ab31edb6bff448b7de36af0cb5e660535db9db3"
+      },
+      "prompt": "Use case: style-transfer. Convert attached crescent-sack creature into crisp128x128 pixel sprite, exact same direction, pose and depth. One dusty-rose crescent with upper hollow, one cream bead fixed inside, exactly FIVE teardrop legs in one row (central lifted; natural overlap in profile), one teal short square-ended tassel on fixed shorter end, two teal front eyes only where shown. Preserve near/far end proportions, leg overlap, eye visibility, tail mounting and stitched/teal-band cream-dot design. Do not revert to broad frontal view or add hidden legs visibly. Hard pixel clusters, limited32 colors rose/teal/cream/dark outlines, binary transparent alpha, no antialiasing. Entire centered character transparent margin, no text ground shadow. Direction E.",
+      "generation_references": [
+        {
+          "sha256": "1ab15814aea0ec03d793e819f40189054d688cef912bbeb31986a29b783a2aa3"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "cada34f3eba8e448caebe9a7ee089ae23f88720e409549d24e503f24412b31ba"
+      },
+      "raw": {
+        "sha256": "0f0d7830bbf205b912efafe93811a3e846d74902bf7cd82f47bf39e9e9a83193"
+      },
+      "prompt": "Use case: identity-preserve. Rotate exact original crescent-sack creature from frontalS to FRONT-RIGHT SE315. Clear3D yaw: the TALL non-tailed end (image-left in original) is NEARER and larger on screen-left; short tailed end recedes toward screen-right, two eyes on front now face screen-RIGHT with far eye more occluded. Body width compressed about30% versus frontal; five legs in one lateral row overlap in depth. Exactly five physical teardrop legs, central third lifted, other four planted. One cream bead fixed in upper concavity, one short teal tail with square-ended tassel fixed to shorter body end (source image-right), never moves to other end. Preserve same rose/teal/cream, stitched seams, curved teal band/dots, crescent shape and low camera. Full centered creature transparent background, no extra anatomy text shadow. Do not repeat broad front pose.",
+      "generation_references": [
+        {
+          "sha256": "ae4d7b55823cc158dcba6baa7860eac8d86c3aa75a1aadfabf106cbb425fcedb"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "b12030bfe4e3c8479d7d613970ebe9659da271f62b5c804dc890aebeeed4a62b"
+      },
+      "raw": {
+        "sha256": "e4f610910482dfe7f5cea7873d694beaba25d545c6a285d06a93eea744926631"
+      },
+      "prompt": "Use case: style-transfer. Convert attached crescent-sack creature into crisp128x128 pixel sprite, exact same direction, pose and depth. One dusty-rose crescent with upper hollow, one cream bead fixed inside, exactly FIVE teardrop legs in one row (central lifted; natural overlap in profile), one teal short square-ended tassel on fixed shorter end, two teal front eyes only where shown. Preserve near/far end proportions, leg overlap, eye visibility, tail mounting and stitched/teal-band cream-dot design. Do not revert to broad frontal view or add hidden legs visibly. Hard pixel clusters, limited32 colors rose/teal/cream/dark outlines, binary transparent alpha, no antialiasing. Entire centered character transparent margin, no text ground shadow. Direction SE.",
+      "generation_references": [
+        {
+          "sha256": "0f0d7830bbf205b912efafe93811a3e846d74902bf7cd82f47bf39e9e9a83193"
+        }
+      ],
+      "reference_evidence": "current repair tool call"
+    }
+  ]
+}
