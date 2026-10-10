@@ -1,0 +1,590 @@
+{
+  "schema_version": 1,
+  "species": "sm-winged-001",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "original_direction_basis": "Individual source default image-right three-quarter, approximate inferred yaw",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        287,
+        928,
+        737
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 43073,
+      "sha256": "64db122a69cdb00639bc6351884abad420489b87755dad9b3989b25c08be9faa",
+      "path": "assets/monsters/winged/sm-winged-001/directions/S/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        36,
+        116,
+        92
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 22,
+      "sha256": "b843b4eb9cb9667c7da3ca3d40551a5cea4cbef44d6fde012535bfd7b9d5f4f2",
+      "path": "assets/monsters/winged/sm-winged-001/directions/S/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        247,
+        928,
+        776
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 52385,
+      "sha256": "9f4059660357519fc5444c08edc4102eba03a1d5b6c776db0f6d69fe420fc928",
+      "path": "assets/monsters/winged/sm-winged-001/directions/SW/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        30,
+        116,
+        98
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 22,
+      "sha256": "a8350613883df6f5e65eb0e125da06c78c8c19da885059e9d63c5a633e7415cd",
+      "path": "assets/monsters/winged/sm-winged-001/directions/SW/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        98,
+        96,
+        926,
+        928
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 58917,
+      "sha256": "699893bca25475c1f748afadb58e2770526ccde88b7ed7952d3b67206fe7e7a4",
+      "path": "assets/monsters/winged/sm-winged-001/directions/W/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        12,
+        116,
+        116
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 22,
+      "sha256": "093a0708706834fb98589ff5a21051a5387435da656cb0d8ff6251d7fcdfe8d2",
+      "path": "assets/monsters/winged/sm-winged-001/directions/W/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        195,
+        928,
+        828
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 45548,
+      "sha256": "f3c1cf8f1c3873d6b0cda986c78576658fa573d8eaba76f2961b486b296668fb",
+      "path": "assets/monsters/winged/sm-winged-001/directions/NW/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        22,
+        116,
+        105
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 22,
+      "sha256": "1a78f28eea3529dca9cfd3d6d5bc5a68b9420d7f1fe12e58fc04c7f4af5699eb",
+      "path": "assets/monsters/winged/sm-winged-001/directions/NW/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        296,
+        928,
+        728
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 32333,
+      "sha256": "c40ad1b2c216fd24134945b56402fd73c8a8cc83dfe4dc819d6c4c480bef3ec9",
+      "path": "assets/monsters/winged/sm-winged-001/directions/N/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        35,
+        116,
+        92
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 21,
+      "sha256": "db3a9aa88a28e49399cf104c363e6d9b993e7d3b9c44993d7f28440ee2832e37",
+      "path": "assets/monsters/winged/sm-winged-001/directions/N/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        202,
+        928,
+        821
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 42208,
+      "sha256": "5205e50cb3004c2fc22817ccfe58e43572f1bc05b2c442da57e9633ba40083ff",
+      "path": "assets/monsters/winged/sm-winged-001/directions/NE/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        24,
+        116,
+        103
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 21,
+      "sha256": "c236163f4208cb7c0a289b6139c9ea07f1338ebc384afe45a756020dfd9931da",
+      "path": "assets/monsters/winged/sm-winged-001/directions/NE/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        112,
+        96,
+        912,
+        928
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 62254,
+      "sha256": "54f82c3b003eae111e336227bb9b4f3f0b6c405c8262e60fa48f6f5e33bddadc",
+      "path": "assets/monsters/winged/sm-winged-001/directions/E/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        12,
+        116,
+        116
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 23,
+      "sha256": "47d6a9d1ff00f8ff8726801fb5e91b51dee2578f3b04d54bea2b9fabf2439c95",
+      "path": "assets/monsters/winged/sm-winged-001/directions/E/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        113,
+        927,
+        911
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 41748,
+      "sha256": "bbafc5c8b82cb3c352bd96ee9a2bcdb937c973212e8c115209cdb0c0e15dc633",
+      "path": "assets/monsters/winged/sm-winged-001/default.png",
+      "original_preserved": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        32,
+        116,
+        96
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 23,
+      "sha256": "bdc1a32be6ba75beabbb57ee14faf5bf21fc1797b6b5ad66447e019eb74f0f56",
+      "path": "assets/monsters/winged/sm-winged-001/pixel.png",
+      "original_preserved": true
+    }
+  ],
+  "provenance": {
+    "tool": "image_gen.imagegen",
+    "calls": [
+      {
+        "direction": "S",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve\nAsset type: one transparent full-body creature direction sprite.\nInput image 1 is the immutable identity reference, a front-right three-quarter SE view. Rotate this SAME individual in yaw only; fixed modest elevated camera, unchanged floating pose and wing posture, same illustration style, scale and proportions. One fluffy pale golden egg body, no separate head, exactly four short cream legs ending in blue flattened bean feet. Exactly two blue eyes fixed on the front face; one long blue teardrop patch fixed on the front belly. Exactly two thin frosted-glass fan wings attached to the left and right body sides, each with exactly THREE broad rounded outer lobes and fine cream vein lines, six lobes total. Preserve physical wing plane and attachment through rotation; foreshorten/occlude naturally rather than fanning wings toward camera. No tail, beak, antenna, extra parts. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Keep the same gentle shaded illustrated texture.\n\nRequested direction: S, straight FRONT, yaw 0. The face and belly patch are centered and symmetrical; both eyes visible, both wing fans extend left/right with equal projection. Four feet may overlap naturally.\nComposition: ONE creature centered 1024x1024 with transparent background and ample clear padding, no ground or cast shadow, no text or angle labels. Preserve genuine alpha and frosted-glass wing translucency.",
+        "raw_sha256": "bb16f31b42fc95cddfbcf13a1644f54292515e9761037608ace2db7a39e9369e",
+        "final_sha256": "64db122a69cdb00639bc6351884abad420489b87755dad9b3989b25c08be9faa",
+        "raw_basename": "S-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "bbafc5c8b82cb3c352bd96ee9a2bcdb937c973212e8c115209cdb0c0e15dc633"
+          }
+        ]
+      },
+      {
+        "direction": "S",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. Create ONE authentic pixel-art sprite of the EXACT creature and EXACT direction in the sole reference. Change only rendering medium, no rotation or redesign. Keep silhouette, posture, proportions, two frosted fan wings with exactly THREE rounded outer lobes each (far wing may be occluded), four short cream legs with blue bean feet, golden fluffy egg body. Preserve precisely which fixed front eyes and blue belly teardrop are visible or hidden in this reference; do not add eyes/markings to the back. Keep reference wing foreshortening and near/far overlaps. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Intentional logical 128x128 pixel grid, clear chunky pixel clusters, 1–2 logical pixel outline, no smooth antialiased strokes, no downsample filter. At most32 opaque colors; transparent background with binary alpha. Full creature centered with clear padding, longest extent96–112 logical pixels. No text/ground/shadow/extra anatomy. Match reference direction S exactly.",
+        "raw_sha256": "f04c722bdb1b34a3a5aec8822a7e47fdee5bfb479f5d15f5b22bbfd6f3e91b6e",
+        "final_sha256": "b843b4eb9cb9667c7da3ca3d40551a5cea4cbef44d6fde012535bfd7b9d5f4f2",
+        "raw_basename": "S-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "64db122a69cdb00639bc6351884abad420489b87755dad9b3989b25c08be9faa"
+          }
+        ]
+      },
+      {
+        "direction": "SW",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve\nAsset type: one transparent full-body creature direction sprite.\nInput image 1 is the immutable identity reference, a front-right three-quarter SE view. Rotate this SAME individual in yaw only; fixed modest elevated camera, unchanged floating pose and wing posture, same illustration style, scale and proportions. One fluffy pale golden egg body, no separate head, exactly four short cream legs ending in blue flattened bean feet. Exactly two blue eyes fixed on the front face; one long blue teardrop patch fixed on the front belly. Exactly two thin frosted-glass fan wings attached to the left and right body sides, each with exactly THREE broad rounded outer lobes and fine cream vein lines, six lobes total. Preserve physical wing plane and attachment through rotation; foreshorten/occlude naturally rather than fanning wings toward camera. No tail, beak, antenna, extra parts. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Keep the same gentle shaded illustrated texture.\n\nRequested direction: SW, FRONT-LEFT three-quarter, yaw45, face points toward screen LEFT. Compared with original SE, reverse near/far anatomical sides by actual yaw rotation. Near eye slightly larger, far eye foreshortened, belly patch displaced screen left; near wing broad, far wing shorter.\nComposition: ONE creature centered 1024x1024 with transparent background and ample clear padding, no ground or cast shadow, no text or angle labels. Preserve genuine alpha and frosted-glass wing translucency.",
+        "raw_sha256": "1a296671016387cd0dbb874dc76e2373839fff74e1291c32a7dba0d4531c8603",
+        "final_sha256": "9f4059660357519fc5444c08edc4102eba03a1d5b6c776db0f6d69fe420fc928",
+        "raw_basename": "SW-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "bbafc5c8b82cb3c352bd96ee9a2bcdb937c973212e8c115209cdb0c0e15dc633"
+          }
+        ]
+      },
+      {
+        "direction": "SW",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. Create ONE authentic pixel-art sprite of the EXACT creature and EXACT direction in the sole reference. Change only rendering medium, no rotation or redesign. Keep silhouette, posture, proportions, two frosted fan wings with exactly THREE rounded outer lobes each (far wing may be occluded), four short cream legs with blue bean feet, golden fluffy egg body. Preserve precisely which fixed front eyes and blue belly teardrop are visible or hidden in this reference; do not add eyes/markings to the back. Keep reference wing foreshortening and near/far overlaps. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Intentional logical 128x128 pixel grid, clear chunky pixel clusters, 1–2 logical pixel outline, no smooth antialiased strokes, no downsample filter. At most32 opaque colors; transparent background with binary alpha. Full creature centered with clear padding, longest extent96–112 logical pixels. No text/ground/shadow/extra anatomy. Match reference direction SW exactly.",
+        "raw_sha256": "3afb7fc394b8266f6ac4f9fc2330e842b7ffb737ceb618bd912216b27de68d80",
+        "final_sha256": "a8350613883df6f5e65eb0e125da06c78c8c19da885059e9d63c5a633e7415cd",
+        "raw_basename": "SW-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "9f4059660357519fc5444c08edc4102eba03a1d5b6c776db0f6d69fe420fc928"
+          }
+        ]
+      },
+      {
+        "direction": "W",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve\nAsset type: one transparent full-body creature direction sprite.\nInput image 1 is the immutable identity reference, a front-right three-quarter SE view. Rotate this SAME individual in yaw only; fixed modest elevated camera, unchanged floating pose and wing posture, same illustration style, scale and proportions. One fluffy pale golden egg body, no separate head, exactly four short cream legs ending in blue flattened bean feet. Exactly two blue eyes fixed on the front face; one long blue teardrop patch fixed on the front belly. Exactly two thin frosted-glass fan wings attached to the left and right body sides, each with exactly THREE broad rounded outer lobes and fine cream vein lines, six lobes total. Preserve physical wing plane and attachment through rotation; foreshorten/occlude naturally rather than fanning wings toward camera. No tail, beak, antenna, extra parts. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Keep the same gentle shaded illustrated texture.\n\nRequested direction: W, exact LEFT side profile yaw90, front points screen LEFT. One near eye visible at front silhouette and belly patch only a narrow sliver on front edge. Wings extend anatomically sideways toward/away camera, so strongly foreshortened and overlap the body rather than remaining spread horizontally across screen. Far feet partially hidden.\nComposition: ONE creature centered 1024x1024 with transparent background and ample clear padding, no ground or cast shadow, no text or angle labels. Preserve genuine alpha and frosted-glass wing translucency.",
+        "raw_sha256": "8e48e3cd2ad765b2ea2fabb96dac2e2580939337eeb15bf6883ea4b58b7a9958",
+        "final_sha256": "699893bca25475c1f748afadb58e2770526ccde88b7ed7952d3b67206fe7e7a4",
+        "raw_basename": "W-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "bbafc5c8b82cb3c352bd96ee9a2bcdb937c973212e8c115209cdb0c0e15dc633"
+          }
+        ]
+      },
+      {
+        "direction": "W",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. Create ONE authentic pixel-art sprite of the EXACT creature and EXACT direction in the sole reference. Change only rendering medium, no rotation or redesign. Keep silhouette, posture, proportions, two frosted fan wings with exactly THREE rounded outer lobes each (far wing may be occluded), four short cream legs with blue bean feet, golden fluffy egg body. Preserve precisely which fixed front eyes and blue belly teardrop are visible or hidden in this reference; do not add eyes/markings to the back. Keep reference wing foreshortening and near/far overlaps. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Intentional logical 128x128 pixel grid, clear chunky pixel clusters, 1–2 logical pixel outline, no smooth antialiased strokes, no downsample filter. At most32 opaque colors; transparent background with binary alpha. Full creature centered with clear padding, longest extent96–112 logical pixels. No text/ground/shadow/extra anatomy. Match reference direction W exactly.",
+        "raw_sha256": "3cd990f7090ccf2ea5c14c0c55d599c0749edfbff79c15045f453e98a058ec50",
+        "final_sha256": "093a0708706834fb98589ff5a21051a5387435da656cb0d8ff6251d7fcdfe8d2",
+        "raw_basename": "W-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "699893bca25475c1f748afadb58e2770526ccde88b7ed7952d3b67206fe7e7a4"
+          }
+        ]
+      },
+      {
+        "direction": "NW",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve\nAsset type: one transparent full-body creature direction sprite.\nInput image 1 is the immutable identity reference, a front-right three-quarter SE view. Rotate this SAME individual in yaw only; fixed modest elevated camera, unchanged floating pose and wing posture, same illustration style, scale and proportions. One fluffy pale golden egg body, no separate head, exactly four short cream legs ending in blue flattened bean feet. Exactly two blue eyes fixed on the front face; one long blue teardrop patch fixed on the front belly. Exactly two thin frosted-glass fan wings attached to the left and right body sides, each with exactly THREE broad rounded outer lobes and fine cream vein lines, six lobes total. Preserve physical wing plane and attachment through rotation; foreshorten/occlude naturally rather than fanning wings toward camera. No tail, beak, antenna, extra parts. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Keep the same gentle shaded illustrated texture.\n\nRequested direction: NW, REAR-LEFT three-quarter yaw135. Back faces viewer, front points away toward screen LEFT. Eyes and front belly patch hidden by body's fixed front surface. One near wing broadens and far wing is foreshortened/partly body-occluded. Maintain same camera elevation and egg height.\nComposition: ONE creature centered 1024x1024 with transparent background and ample clear padding, no ground or cast shadow, no text or angle labels. Preserve genuine alpha and frosted-glass wing translucency.",
+        "raw_sha256": "ef8c153d4ad8bf03c6bc48f4814629222bd5b27860891466209095736a8f046d",
+        "final_sha256": "f3c1cf8f1c3873d6b0cda986c78576658fa573d8eaba76f2961b486b296668fb",
+        "raw_basename": "NW-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "bbafc5c8b82cb3c352bd96ee9a2bcdb937c973212e8c115209cdb0c0e15dc633"
+          }
+        ]
+      },
+      {
+        "direction": "NW",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. Create ONE authentic pixel-art sprite of the EXACT creature and EXACT direction in the sole reference. Change only rendering medium, no rotation or redesign. Keep silhouette, posture, proportions, two frosted fan wings with exactly THREE rounded outer lobes each (far wing may be occluded), four short cream legs with blue bean feet, golden fluffy egg body. Preserve precisely which fixed front eyes and blue belly teardrop are visible or hidden in this reference; do not add eyes/markings to the back. Keep reference wing foreshortening and near/far overlaps. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Intentional logical 128x128 pixel grid, clear chunky pixel clusters, 1–2 logical pixel outline, no smooth antialiased strokes, no downsample filter. At most32 opaque colors; transparent background with binary alpha. Full creature centered with clear padding, longest extent96–112 logical pixels. No text/ground/shadow/extra anatomy. Match reference direction NW exactly.",
+        "raw_sha256": "8fbbefc00d79bdcde2bc611b89287d716ae38e29a180157a72a457c045f01b89",
+        "final_sha256": "1a78f28eea3529dca9cfd3d6d5bc5a68b9420d7f1fe12e58fc04c7f4af5699eb",
+        "raw_basename": "NW-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "f3c1cf8f1c3873d6b0cda986c78576658fa573d8eaba76f2961b486b296668fb"
+          }
+        ]
+      },
+      {
+        "direction": "N",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve\nAsset type: one transparent full-body creature direction sprite.\nInput image 1 is the immutable identity reference, a front-right three-quarter SE view. Rotate this SAME individual in yaw only; fixed modest elevated camera, unchanged floating pose and wing posture, same illustration style, scale and proportions. One fluffy pale golden egg body, no separate head, exactly four short cream legs ending in blue flattened bean feet. Exactly two blue eyes fixed on the front face; one long blue teardrop patch fixed on the front belly. Exactly two thin frosted-glass fan wings attached to the left and right body sides, each with exactly THREE broad rounded outer lobes and fine cream vein lines, six lobes total. Preserve physical wing plane and attachment through rotation; foreshorten/occlude naturally rather than fanning wings toward camera. No tail, beak, antenna, extra parts. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Keep the same gentle shaded illustrated texture.\n\nRequested direction: N, straight BACK yaw180. Rear fluffy golden body, no visible eyes or blue belly patch. Two wings extend equally to left/right, each three rounded lobes. Four feet with rear pair nearest and front pair partly occluded; not a top view.\nComposition: ONE creature centered 1024x1024 with transparent background and ample clear padding, no ground or cast shadow, no text or angle labels. Preserve genuine alpha and frosted-glass wing translucency.",
+        "raw_sha256": "c3b78b88daa4deec793a38b240495f57addc64b0f0deada7bd2a75ca5093d650",
+        "final_sha256": "c40ad1b2c216fd24134945b56402fd73c8a8cc83dfe4dc819d6c4c480bef3ec9",
+        "raw_basename": "N-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "bbafc5c8b82cb3c352bd96ee9a2bcdb937c973212e8c115209cdb0c0e15dc633"
+          }
+        ]
+      },
+      {
+        "direction": "N",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. Create ONE authentic pixel-art sprite of the EXACT creature and EXACT direction in the sole reference. Change only rendering medium, no rotation or redesign. Keep silhouette, posture, proportions, two frosted fan wings with exactly THREE rounded outer lobes each (far wing may be occluded), four short cream legs with blue bean feet, golden fluffy egg body. Preserve precisely which fixed front eyes and blue belly teardrop are visible or hidden in this reference; do not add eyes/markings to the back. Keep reference wing foreshortening and near/far overlaps. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Intentional logical 128x128 pixel grid, clear chunky pixel clusters, 1–2 logical pixel outline, no smooth antialiased strokes, no downsample filter. At most32 opaque colors; transparent background with binary alpha. Full creature centered with clear padding, longest extent96–112 logical pixels. No text/ground/shadow/extra anatomy. Match reference direction N exactly.",
+        "raw_sha256": "067c6b6a208b31617510ac2263355733726529213c047e174204328040247963",
+        "final_sha256": "db3a9aa88a28e49399cf104c363e6d9b993e7d3b9c44993d7f28440ee2832e37",
+        "raw_basename": "N-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "c40ad1b2c216fd24134945b56402fd73c8a8cc83dfe4dc819d6c4c480bef3ec9"
+          }
+        ]
+      },
+      {
+        "direction": "NE",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve\nAsset type: one transparent full-body creature direction sprite.\nInput image 1 is the immutable identity reference, a front-right three-quarter SE view. Rotate this SAME individual in yaw only; fixed modest elevated camera, unchanged floating pose and wing posture, same illustration style, scale and proportions. One fluffy pale golden egg body, no separate head, exactly four short cream legs ending in blue flattened bean feet. Exactly two blue eyes fixed on the front face; one long blue teardrop patch fixed on the front belly. Exactly two thin frosted-glass fan wings attached to the left and right body sides, each with exactly THREE broad rounded outer lobes and fine cream vein lines, six lobes total. Preserve physical wing plane and attachment through rotation; foreshorten/occlude naturally rather than fanning wings toward camera. No tail, beak, antenna, extra parts. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Keep the same gentle shaded illustrated texture.\n\nRequested direction: NE, REAR-RIGHT three-quarter yaw225. Back faces viewer, front points away toward screen RIGHT. Eyes and front belly patch hidden behind fixed front surface. Near/far wing projection reverses NW, unchanged elevation/egg height.\nComposition: ONE creature centered 1024x1024 with transparent background and ample clear padding, no ground or cast shadow, no text or angle labels. Preserve genuine alpha and frosted-glass wing translucency.\nCritical direction correction: Image2 is the opposite rear-left NW direction, NOT the desired pose. Render its complementary REAR-RIGHT view. The LARGE NEAR wing must now project on SCREEN LEFT, with all three rounded lobes; the far wing on SCREEN RIGHT must be smaller/narrower and partly hidden behind the golden body. Near-side feet at screen LEFT also become nearer/larger. Reverse depth/overlap across the back, not the light source. Keep soft light from upper left and fixed body/wing topology. Rear-facing body hides both front eyes and belly marking. Do not repeat image2's large screen-right wing layout.",
+        "raw_sha256": "63ddd489631d423dc2ee092ea2f3d035977411d27a8c6205c3fa18e6124dae1d",
+        "final_sha256": "5205e50cb3004c2fc22817ccfe58e43572f1bc05b2c442da57e9633ba40083ff",
+        "raw_basename": "NE-v2-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "bbafc5c8b82cb3c352bd96ee9a2bcdb937c973212e8c115209cdb0c0e15dc633"
+          },
+          {
+            "basename": "NW-normal.png",
+            "sha256": "ef8c153d4ad8bf03c6bc48f4814629222bd5b27860891466209095736a8f046d"
+          }
+        ]
+      },
+      {
+        "direction": "NE",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. Create ONE authentic pixel-art sprite of the EXACT creature and EXACT direction in the sole reference. Change only rendering medium, no rotation or redesign. Keep silhouette, posture, proportions, two frosted fan wings with exactly THREE rounded outer lobes each (far wing may be occluded), four short cream legs with blue bean feet, golden fluffy egg body. Preserve precisely which fixed front eyes and blue belly teardrop are visible or hidden in this reference; do not add eyes/markings to the back. Keep reference wing foreshortening and near/far overlaps. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Intentional logical 128x128 pixel grid, clear chunky pixel clusters, 1–2 logical pixel outline, no smooth antialiased strokes, no downsample filter. At most32 opaque colors; transparent background with binary alpha. Full creature centered with clear padding, longest extent96–112 logical pixels. No text/ground/shadow/extra anatomy. Match reference direction NE exactly.",
+        "raw_sha256": "805e562aed8e0a9c5207b391c0db21b8cca373d7d729e2b42cccd6400522db6e",
+        "final_sha256": "c236163f4208cb7c0a289b6139c9ea07f1338ebc384afe45a756020dfd9931da",
+        "raw_basename": "NE-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "5205e50cb3004c2fc22817ccfe58e43572f1bc05b2c442da57e9633ba40083ff"
+          }
+        ]
+      },
+      {
+        "direction": "E",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve\nAsset type: one transparent full-body creature direction sprite.\nInput image 1 is the immutable identity reference, a front-right three-quarter SE view. Rotate this SAME individual in yaw only; fixed modest elevated camera, unchanged floating pose and wing posture, same illustration style, scale and proportions. One fluffy pale golden egg body, no separate head, exactly four short cream legs ending in blue flattened bean feet. Exactly two blue eyes fixed on the front face; one long blue teardrop patch fixed on the front belly. Exactly two thin frosted-glass fan wings attached to the left and right body sides, each with exactly THREE broad rounded outer lobes and fine cream vein lines, six lobes total. Preserve physical wing plane and attachment through rotation; foreshorten/occlude naturally rather than fanning wings toward camera. No tail, beak, antenna, extra parts. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Keep the same gentle shaded illustrated texture.\n\nRequested direction: E, exact RIGHT side profile yaw270, front points screen RIGHT. One near eye at front silhouette, belly patch a narrow front-edge sliver. Sideways wings project toward/away camera and strongly foreshorten/overlap the body instead of broad bilateral screen spread. Far feet partly hidden.\nComposition: ONE creature centered 1024x1024 with transparent background and ample clear padding, no ground or cast shadow, no text or angle labels. Preserve genuine alpha and frosted-glass wing translucency.",
+        "raw_sha256": "4f071f8d55c6da5a1321dddc9ac8d9bdc1c1f9e3759f6754e46fdfd2361ccb21",
+        "final_sha256": "54f82c3b003eae111e336227bb9b4f3f0b6c405c8262e60fa48f6f5e33bddadc",
+        "raw_basename": "E-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "bbafc5c8b82cb3c352bd96ee9a2bcdb937c973212e8c115209cdb0c0e15dc633"
+          }
+        ]
+      },
+      {
+        "direction": "E",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. Create ONE authentic pixel-art sprite of the EXACT creature and EXACT direction in the sole reference. Change only rendering medium, no rotation or redesign. Keep silhouette, posture, proportions, two frosted fan wings with exactly THREE rounded outer lobes each (far wing may be occluded), four short cream legs with blue bean feet, golden fluffy egg body. Preserve precisely which fixed front eyes and blue belly teardrop are visible or hidden in this reference; do not add eyes/markings to the back. Keep reference wing foreshortening and near/far overlaps. Palette gold #F5D88B, blue #4F8EAA, cream #FFF4DD. Intentional logical 128x128 pixel grid, clear chunky pixel clusters, 1–2 logical pixel outline, no smooth antialiased strokes, no downsample filter. At most32 opaque colors; transparent background with binary alpha. Full creature centered with clear padding, longest extent96–112 logical pixels. No text/ground/shadow/extra anatomy. Match reference direction E exactly.",
+        "raw_sha256": "f80e58088f6b5720488b009bd17c3579e300299e07e2628a412d87749157d4a5",
+        "final_sha256": "47d6a9d1ff00f8ff8726801fb5e91b51dee2578f3b04d54bea2b9fabf2439c95",
+        "raw_basename": "E-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "54f82c3b003eae111e336227bb9b4f3f0b6c405c8262e60fa48f6f5e33bddadc"
+          }
+        ]
+      }
+    ],
+    "superseded_candidates": [
+      {
+        "basename": "NE-normal.png",
+        "sha256": "4e05a57fc9e2cd4a2a78f472ff7c621182655bbab0b9cba405f0827052d39092",
+        "reason": "Rear-diagonal near/far wing projection duplicated NW, corrected NE-v2."
+      }
+    ]
+  },
+  "technical_processing": "Normal alpha<8 cleanup after colored fringe contamination measured alpha1-7 and wing-interior alpha253 and black-background before/after visual confirmation; uniform832 extent; pixel binaryalpha128 threshold,nearest104 extent, nearest original palette,no shape redraw.",
+  "review": {
+    "producer": "16slots technical and visual paired QA passed as review candidate",
+    "independent": "E numeric/hash16slots and full-resolution key-pair review passed with listed limitations",
+    "game_acceptance": "pending",
+    "caveats": [
+      "W/E wing faces remain broad and front-facing; exact fixed-wing projection unproven.",
+      "Four leg-root depth, modest camera pitch, exact45deg yaw and original SE yaw are inferred.",
+      "Extent normalization enlarges side views relative to wide front/back; game directional scale acceptance pending."
+    ]
+  },
+  "independent_qa": {
+    "numeric_hash": "passed_all16slots",
+    "visual": "Parent8pair comparison and E full-resolution NE normal/pixel plus W/E pixel inspection confirm eyes and blue breast hidden at rear, opposing near-wing orientation and paired identity. Wing-face projection, leg-root depth, camera elevation and apparent per-direction scale remain inferred; in-game acceptance pending."
+  }
+}

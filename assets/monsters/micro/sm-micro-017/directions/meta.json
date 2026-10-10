@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "id": "sm-micro-017",
+  "asset_type": "eight_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "direction_definition": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-017/default.png",
+      "bytes": 656809,
+      "sha256": "117aab8d7d1d4b9c764c64fccd4e7ee06dfff04db427a844b640e698c298bb66",
+      "git_blob_sha": "1c410b995808029463198247a800309c18592437",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        81,
+        130,
+        943,
+        893
+      ],
+      "visible_colors": 62658,
+      "binary_alpha": false,
+      "original_preserved": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-017/pixel.png",
+      "bytes": 10821,
+      "sha256": "41203bc4caa1f687ed4fe61171483e565d41a8f9ed537441ceaf3d1278ed5b0a",
+      "git_blob_sha": "9a0eb9b6c5af6714b42156b2a09e9934924d390d",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        10,
+        16,
+        118,
+        112
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": true
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/SW/default.png",
+      "bytes": 427945,
+      "sha256": "2ddde9a8d6bb22be03673e92bf71b200eb9c0f1f225b39051dbc6eb31d5a2d79",
+      "git_blob_sha": "d65248ee46118cd939dc2cd609729a5657c02714",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        146,
+        928,
+        878
+      ],
+      "visible_colors": 53610,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/SW/pixel.png",
+      "bytes": 5496,
+      "sha256": "410e63db2302a22ee6b902b08feab26784a88a0c90709333fc549aee3b576efc",
+      "git_blob_sha": "23a3cc4cf5c808d13982894c75a6d19bbdc4b723",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        16,
+        116,
+        111
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/W/default.png",
+      "bytes": 558034,
+      "sha256": "d796e84137a2f5ee5aa1e0595f52f7f57c7ab10c952d52412b4adfb1cc8ab0ee",
+      "git_blob_sha": "8fc27ceece4675261c66dfd8d31bdb62f2d88091",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        191,
+        927,
+        833
+      ],
+      "visible_colors": 59031,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/W/pixel.png",
+      "bytes": 6554,
+      "sha256": "064be0b71558bb868808a3646081c7f657afc3970fa79cc18baaca400c9a6aa1",
+      "git_blob_sha": "bbeb9f967073dc9ace9290a9c73a79806292b864",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        19,
+        116,
+        108
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/NW/default.png",
+      "bytes": 478100,
+      "sha256": "11a3b56e7f3eb92caa3799889c393696fc3bc09b54d4cc0411bb4422d3565b18",
+      "git_blob_sha": "79330d33f55bb605d49eae5b7bb97e3092a638a7",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        127,
+        928,
+        896
+      ],
+      "visible_colors": 55747,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/NW/pixel.png",
+      "bytes": 5531,
+      "sha256": "07419cc23e871f982670d9c4d1ab55a6995cb4e705bbf54e10e062ec4256fa34",
+      "git_blob_sha": "51f220ae05dc4f039955fbe5aa627afec4d9f1ee",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        15,
+        116,
+        113
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/N/default.png",
+      "bytes": 621888,
+      "sha256": "cac0d939b6d0f9ccb0962295abc23bfa4626aab8d60f4cf6df11658a26adb74d",
+      "git_blob_sha": "2e6a3be3dcb738075c5c7e63202f12fa6916e81a",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        137,
+        927,
+        886
+      ],
+      "visible_colors": 67678,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/N/pixel.png",
+      "bytes": 6295,
+      "sha256": "bf29d1e3f9c7dad65921af3c49cfeda1b20f6a62c89d79963b9c7a014ab3a493",
+      "git_blob_sha": "35a2b6ff123c05cfb42c19d65e738ae317e010c3",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        15,
+        116,
+        113
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/NE/default.png",
+      "bytes": 467984,
+      "sha256": "6f3585f83a0fc0028435ebe6d6c8f930db5f63880a0b2a57158933925b374b62",
+      "git_blob_sha": "cd864b41eba268c1d081ffef1a9bf9c51bab9f45",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        132,
+        928,
+        891
+      ],
+      "visible_colors": 55210,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/NE/pixel.png",
+      "bytes": 6084,
+      "sha256": "66d790bfe0921195320fe14504a07063d42aa7a6f098f22d81a52b2db043bdd4",
+      "git_blob_sha": "0ab86b6a72c068be697b73fbb8876f02e85e90f9",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        12,
+        116,
+        115
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/E/default.png",
+      "bytes": 570272,
+      "sha256": "0d47dccab6a9c0bce4805445fd5f09140af91684f900752b9d1165d2fc918475",
+      "git_blob_sha": "d15cd2b28bdfc2e9b9424a516414095a31f290ea",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        96,
+        191,
+        928,
+        832
+      ],
+      "visible_colors": 57733,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/E/pixel.png",
+      "bytes": 6230,
+      "sha256": "423bc75c3120de321d06c721429895f4ef2aa2ba5ec69ebb255c502e26217fc9",
+      "git_blob_sha": "ea52473aa76c4333224f13eb3648defd373ea21e",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        22,
+        116,
+        106
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/SE/default.png",
+      "bytes": 413149,
+      "sha256": "7b01fb67988c1c066d75d31fa500a880fc0325ca8acf9fa5a0d2e6374962d23f",
+      "git_blob_sha": "6bab01af7d1bd3584812555b576936b115e3270e",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        98,
+        155,
+        927,
+        867
+      ],
+      "visible_colors": 47881,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-017/directions/SE/pixel.png",
+      "bytes": 5911,
+      "sha256": "85c132be65c51579b4a55452054bea4978b053575d4ddd48255a50c7f72a612f",
+      "git_blob_sha": "69adfc54a32e5ce660dae72220770903fa0dde6c",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        19,
+        116,
+        109
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false
+    }
+  ],
+  "provenance": [
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final_sha256": "2ddde9a8d6bb22be03673e92bf71b200eb9c0f1f225b39051dbc6eb31d5a2d79",
+      "raw_sha256": "16c8e4e79f134e616f192ed2ee0ba89a29cbf77013292d9edd053724bfe65a87",
+      "prompt": "Use case: identity-preserve. Rotate this exact flat diamond micro creature about its vertical yaw axis while keeping the original HIGH nearly-top-down camera (about70degrees elevation), fixed low four-legged stance. One blue-gray diamond body, one tiny round notch and TWO gold-rim eyes only at FRONT vertex. Exactly FOUR short blue legs with pale cream rounded pads, one attached at midpoint of EACH diamond side. TWO translucent pale-gold round back plates side-by-side across body width, slightly overlapping at center, fixed same3D attachment and overlap order. No extra plates/tail/wings. Preserve exact original body/leg/plate proportions, thin soft cellular material, blue/gold/sage palette, upper-left illumination; transparent background no ground/text. Requested SW45degree yaw: front notch/2eyes at LOWER-LEFT corner, rear opposite UPPER-RIGHT. Entire diamond rotates45degrees in its horizontal plane, so body now reads as an oblique square with its four vertices diagonally placed, not a diamond still facing down. Two plates across width along UPPER-LEFT to LOWER-RIGHT diagonal. Four legs at side midpoints now approximately LEFT, TOP, RIGHT, BOTTOM. No extra limbs. Same high camera and thickness, not a low side view.",
+      "generation_reference_sha256": [
+        "117aab8d7d1d4b9c764c64fccd4e7ee06dfff04db427a844b640e698c298bb66",
+        "d796e84137a2f5ee5aa1e0595f52f7f57c7ab10c952d52412b4adfb1cc8ab0ee"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final_sha256": "410e63db2302a22ee6b902b08feab26784a88a0c90709333fc549aee3b576efc",
+      "raw_sha256": "69b1b113dc4312dea3f350e4d87cada1a624c2974a4e115817401b50c5465b45",
+      "prompt": "Use case: style-transfer. Make one crisp pixel-art sprite of EXACT normal image1, using original pixel image2 only for pixel style/palette. Preserve same high camera yaw and pose: flat blue diamond, two slightly overlapping gold round plates across width, EXACTLY FOUR short legs at four side midpoints, two gold eyes and single round notch at front vertex. Keep vertex/plate orientation, limb counts/roots and near/far sizes. Blue-gray/gold/sage palette max24colors, intentional128x128 pixel clusters, no smooth antialias, transparent background. Do not turn or mirror. Direction SW front lower-left notch/eyes. Plates upper-left/lower-right diagonal. Four legs top,left,right,bottom.",
+      "generation_reference_sha256": [
+        "2ddde9a8d6bb22be03673e92bf71b200eb9c0f1f225b39051dbc6eb31d5a2d79",
+        "41203bc4caa1f687ed4fe61171483e565d41a8f9ed537441ceaf3d1278ed5b0a"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final_sha256": "d796e84137a2f5ee5aa1e0595f52f7f57c7ab10c952d52412b4adfb1cc8ab0ee",
+      "raw_sha256": "2f88054082f0ece343aec2022d52cbf94d25e71a624afe9e892e743d38b188d5",
+      "prompt": "Use case: precise-object-edit. Correct anatomy only in image1 left-facing diamond sprite. It currently has FIVE legs. Keep the diamond body, left front notch/2eyes, two translucent round plates vertically aligned and camera unchanged. Keep existing upper-left, lower-left and lower-right side legs. REMOVE the leg growing directly from BOTTOM diamond vertex completely. MOVE the leg currently at TOP diamond vertex to the UPPER-RIGHT sloping side midpoint, pointing diagonally upper-right. Final count exactly FOUR legs, one on midpoint of each sloping side. Top and bottom sharp diamond vertices have no legs. Preserve short blue/cream legs and original material. Transparent background.",
+      "generation_reference_sha256": [
+        "7ce6683b87002bd715bcd24aa5d3fac7c0a9ad62a00ffa31e8b0891d4b68bf0d"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final_sha256": "064be0b71558bb868808a3646081c7f657afc3970fa79cc18baaca400c9a6aa1",
+      "raw_sha256": "0c4d3950dc71bc885db34494559bd498cd9aebf4bb40d0d81530da271e186ea3",
+      "prompt": "Use case: style-transfer. Make one crisp pixel-art sprite of EXACT normal image1, using original pixel image2 only for pixel style/palette. Preserve same high camera yaw and pose: flat blue diamond, two slightly overlapping gold round plates across width, EXACTLY FOUR short legs at four side midpoints, two gold eyes and single round notch at front vertex. Keep vertex/plate orientation, limb counts/roots and near/far sizes. Blue-gray/gold/sage palette max24colors, intentional128x128 pixel clusters, no smooth antialias, transparent background. Do not turn or mirror. Direction W front notch/eyes LEFT. Two plates TOP/BOTTOM. Exactly4legs on four sloping side midpoints diagonally out, no legs on top/bottom vertex.",
+      "generation_reference_sha256": [
+        "d796e84137a2f5ee5aa1e0595f52f7f57c7ab10c952d52412b4adfb1cc8ab0ee",
+        "41203bc4caa1f687ed4fe61171483e565d41a8f9ed537441ceaf3d1278ed5b0a"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final_sha256": "11a3b56e7f3eb92caa3799889c393696fc3bc09b54d4cc0411bb4422d3565b18",
+      "raw_sha256": "fcb6524154ebd7c97f88a7c03bff143df6f999ec6c55e2113308beda5f78b146",
+      "prompt": "Use case: identity-preserve. Rotate this exact flat diamond micro creature about its vertical yaw axis while keeping the original HIGH nearly-top-down camera (about70degrees elevation), fixed low four-legged stance. One blue-gray diamond body, one tiny round notch and TWO gold-rim eyes only at FRONT vertex. Exactly FOUR short blue legs with pale cream rounded pads, one attached at midpoint of EACH diamond side. TWO translucent pale-gold round back plates side-by-side across body width, slightly overlapping at center, fixed same3D attachment and overlap order. No extra plates/tail/wings. Preserve exact original body/leg/plate proportions, thin soft cellular material, blue/gold/sage palette, upper-left illumination; transparent background no ground/text. Requested NW135degree yaw: front notch/2eyes at UPPER-LEFT corner, rear at LOWER-RIGHT. High camera retains visible dorsal eyes at far upper-left. Body oblique square with diagonal vertices. Two overlapping plates across width along LOWER-LEFT to UPPER-RIGHT diagonal. Exactly4short legs at side midpoints approximately LEFT/TOP/RIGHT/BOTTOM, none at vertices. Preserve plate roots and body proportions.",
+      "generation_reference_sha256": [
+        "117aab8d7d1d4b9c764c64fccd4e7ee06dfff04db427a844b640e698c298bb66",
+        "2ddde9a8d6bb22be03673e92bf71b200eb9c0f1f225b39051dbc6eb31d5a2d79",
+        "cac0d939b6d0f9ccb0962295abc23bfa4626aab8d60f4cf6df11658a26adb74d"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final_sha256": "07419cc23e871f982670d9c4d1ab55a6995cb4e705bbf54e10e062ec4256fa34",
+      "raw_sha256": "51f5bf9bc2c0e52d82ccdf3ebb054bef0ca161304fe81f29b3efbaece08d28cb",
+      "prompt": "Use case: style-transfer. Make one crisp pixel-art sprite of EXACT normal image1, using original pixel image2 only for pixel style/palette. Preserve same high camera yaw and pose: flat blue diamond, two slightly overlapping gold round plates across width, EXACTLY FOUR short legs at four side midpoints, two gold eyes and single round notch at front vertex. Keep vertex/plate orientation, limb counts/roots and near/far sizes. Blue-gray/gold/sage palette max24colors, intentional128x128 pixel clusters, no smooth antialias, transparent background. Do not turn or mirror. Direction NW front notch and2eyes UPPER-LEFT. Plates lower-left/upper-right diagonal. Four legs top/right/bottom/left. Preserve two readable dark eyes and notch on upper-left vertex even at pixel scale.",
+      "generation_reference_sha256": [
+        "11a3b56e7f3eb92caa3799889c393696fc3bc09b54d4cc0411bb4422d3565b18",
+        "41203bc4caa1f687ed4fe61171483e565d41a8f9ed537441ceaf3d1278ed5b0a"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final_sha256": "cac0d939b6d0f9ccb0962295abc23bfa4626aab8d60f4cf6df11658a26adb74d",
+      "raw_sha256": "eb67aa04af7accfcd7d6080467f7c6ad41a00b5b709e548fdac48197bfd1fa5d",
+      "prompt": "Use case: identity-preserve. Rotate this exact flat diamond micro creature about its vertical yaw axis while keeping the original HIGH nearly-top-down camera (about70degrees elevation), fixed low four-legged stance. One blue-gray diamond body, one tiny round notch and TWO gold-rim eyes only at FRONT vertex. Exactly FOUR short blue legs with pale cream rounded pads, one attached at midpoint of EACH diamond side. TWO translucent pale-gold round back plates side-by-side across body width, slightly overlapping at center, fixed same3D attachment and overlap order. No extra plates/tail/wings. Preserve exact original body/leg/plate proportions, thin soft cellular material, blue/gold/sage palette, upper-left illumination; transparent background no ground/text. Requested N180degree yaw: front notch and both eyes now at SCREEN TOP vertex, rear vertex BOTTOM. Camera stays HIGH so top-facing eyes may remain visible at far upper front edge, not relocated to bottom. Two round back plates still side-by-side LEFT/RIGHT, physical overlap order rotates with body. Exactly4legs at side midpoints diagonally outward, no legs at vertices. Preserve diamond shape and eye/notch vertex.",
+      "generation_reference_sha256": [
+        "117aab8d7d1d4b9c764c64fccd4e7ee06dfff04db427a844b640e698c298bb66",
+        "d796e84137a2f5ee5aa1e0595f52f7f57c7ab10c952d52412b4adfb1cc8ab0ee"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final_sha256": "bf29d1e3f9c7dad65921af3c49cfeda1b20f6a62c89d79963b9c7a014ab3a493",
+      "raw_sha256": "0cf899602763f80da342f229deeb9a2029526fae3de224113a75dda0d7bb35bd",
+      "prompt": "Use case: style-transfer. Make one crisp pixel-art sprite of EXACT normal image1, using original pixel image2 only for pixel style/palette. Preserve same high camera yaw and pose: flat blue diamond, two slightly overlapping gold round plates across width, EXACTLY FOUR short legs at four side midpoints, two gold eyes and single round notch at front vertex. Keep vertex/plate orientation, limb counts/roots and near/far sizes. Blue-gray/gold/sage palette max24colors, intentional128x128 pixel clusters, no smooth antialias, transparent background. Do not turn or mirror. Direction N notch/2eyes TOP vertex. Two plates LEFT/RIGHT. Four diagonal side legs. Keep eyes readable dark pupils with small highlights and gold rims; high camera sees them on top far front.",
+      "generation_reference_sha256": [
+        "cac0d939b6d0f9ccb0962295abc23bfa4626aab8d60f4cf6df11658a26adb74d",
+        "41203bc4caa1f687ed4fe61171483e565d41a8f9ed537441ceaf3d1278ed5b0a"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final_sha256": "6f3585f83a0fc0028435ebe6d6c8f930db5f63880a0b2a57158933925b374b62",
+      "raw_sha256": "f5014fd05756cc339b01a869474bdef3b81e9ef096aad9e8d52fe1041279a6d8",
+      "prompt": "Use case: identity-preserve. Rotate this exact flat diamond micro creature about its vertical yaw axis while keeping the original HIGH nearly-top-down camera (about70degrees elevation), fixed low four-legged stance. One blue-gray diamond body, one tiny round notch and TWO gold-rim eyes only at FRONT vertex. Exactly FOUR short blue legs with pale cream rounded pads, one attached at midpoint of EACH diamond side. TWO translucent pale-gold round back plates side-by-side across body width, slightly overlapping at center, fixed same3D attachment and overlap order. No extra plates/tail/wings. Preserve exact original body/leg/plate proportions, thin soft cellular material, blue/gold/sage palette, upper-left illumination; transparent background no ground/text. Requested NE225degree yaw: front notch and TWO eyes at UPPER-RIGHT corner, rear at LOWER-LEFT. Same high camera, dorsal eyes visible at far upper-right rim. Body is oblique square, with plates aligned UPPER-LEFT to LOWER-RIGHT across body width, not same diagonal as NW. Four legs at side midpoints near TOP/RIGHT/BOTTOM/LEFT, exactly4. Preserve new surface shading rather than simply mirroring.",
+      "generation_reference_sha256": [
+        "117aab8d7d1d4b9c764c64fccd4e7ee06dfff04db427a844b640e698c298bb66",
+        "cac0d939b6d0f9ccb0962295abc23bfa4626aab8d60f4cf6df11658a26adb74d",
+        "11a3b56e7f3eb92caa3799889c393696fc3bc09b54d4cc0411bb4422d3565b18"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final_sha256": "66d790bfe0921195320fe14504a07063d42aa7a6f098f22d81a52b2db043bdd4",
+      "raw_sha256": "11abc2bc23c7df7a46dd3949f282b8f299396efeb7960d87592a888b7486c1da",
+      "prompt": "Use case: style-transfer. Make one crisp pixel-art sprite of EXACT normal image1, using original pixel image2 only for pixel style/palette. Preserve same high camera yaw and pose: flat blue diamond, two slightly overlapping gold round plates across width, EXACTLY FOUR short legs at four side midpoints, two gold eyes and single round notch at front vertex. Keep vertex/plate orientation, limb counts/roots and near/far sizes. Blue-gray/gold/sage palette max24colors, intentional128x128 pixel clusters, no smooth antialias, transparent background. Do not turn or mirror. Direction NE front notch and2eyes UPPER-RIGHT. Plates upper-left/lower-right diagonal, exactly4side legs top/right/bottom/left. Dark pupils/gold rims readable, no missing feet.",
+      "generation_reference_sha256": [
+        "6f3585f83a0fc0028435ebe6d6c8f930db5f63880a0b2a57158933925b374b62",
+        "41203bc4caa1f687ed4fe61171483e565d41a8f9ed537441ceaf3d1278ed5b0a"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final_sha256": "0d47dccab6a9c0bce4805445fd5f09140af91684f900752b9d1165d2fc918475",
+      "raw_sha256": "d63aea07277a0c4cc34df3b201eebbc7faf7df461bed47385705c61024af0382",
+      "prompt": "Use case: identity-preserve. Rotate this exact flat diamond micro creature about its vertical yaw axis while keeping the original HIGH nearly-top-down camera (about70degrees elevation), fixed low four-legged stance. One blue-gray diamond body, one tiny round notch and TWO gold-rim eyes only at FRONT vertex. Exactly FOUR short blue legs with pale cream rounded pads, one attached at midpoint of EACH diamond side. TWO translucent pale-gold round back plates side-by-side across body width, slightly overlapping at center, fixed same3D attachment and overlap order. No extra plates/tail/wings. Preserve exact original body/leg/plate proportions, thin soft cellular material, blue/gold/sage palette, upper-left illumination; transparent background no ground/text. Requested E270degree yaw: front notch and TWO eyes at SCREEN RIGHT vertex, rear at LEFT. Camera high as original; eyes remain on top front edge. Two plates now TOP/BOTTOM aligned across creature width, same opposite side view to W reference2 without mirroring highlights. EXACTLY4legs at upper-left, upper-right, lower-left, lower-right sloping side MIDPOINTS. No leg from any vertex. Broad flat diamond preserved.",
+      "generation_reference_sha256": [
+        "117aab8d7d1d4b9c764c64fccd4e7ee06dfff04db427a844b640e698c298bb66",
+        "d796e84137a2f5ee5aa1e0595f52f7f57c7ab10c952d52412b4adfb1cc8ab0ee"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final_sha256": "423bc75c3120de321d06c721429895f4ef2aa2ba5ec69ebb255c502e26217fc9",
+      "raw_sha256": "e77fa879cc0cd222d7dffe4a5792a3b8ee9fa3550bc3c8136301267b8f33f1de",
+      "prompt": "Use case: style-transfer. Make one crisp pixel-art sprite of EXACT normal image1, using original pixel image2 only for pixel style/palette. Preserve same high camera yaw and pose: flat blue diamond, two slightly overlapping gold round plates across width, EXACTLY FOUR short legs at four side midpoints, two gold eyes and single round notch at front vertex. Keep vertex/plate orientation, limb counts/roots and near/far sizes. Blue-gray/gold/sage palette max24colors, intentional128x128 pixel clusters, no smooth antialias, transparent background. Do not turn or mirror. Direction E front notch/2eyes RIGHT vertex. Two plates TOP/BOTTOM, four legs diagonal side midpoints. Preserve high camera and four-leg silhouette, readable dark pupils.",
+      "generation_reference_sha256": [
+        "0d47dccab6a9c0bce4805445fd5f09140af91684f900752b9d1165d2fc918475",
+        "41203bc4caa1f687ed4fe61171483e565d41a8f9ed537441ceaf3d1278ed5b0a"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final_sha256": "7b01fb67988c1c066d75d31fa500a880fc0325ca8acf9fa5a0d2e6374962d23f",
+      "raw_sha256": "d083c35c06c047bec2a11d0adb7e36c5f515cd751918dccf5b2bf1ab8a435922",
+      "prompt": "Use case: identity-preserve. Rotate this exact flat diamond micro creature about its vertical yaw axis while keeping the original HIGH nearly-top-down camera (about70degrees elevation), fixed low four-legged stance. One blue-gray diamond body, one tiny round notch and TWO gold-rim eyes only at FRONT vertex. Exactly FOUR short blue legs with pale cream rounded pads, one attached at midpoint of EACH diamond side. TWO translucent pale-gold round back plates side-by-side across body width, slightly overlapping at center, fixed same3D attachment and overlap order. No extra plates/tail/wings. Preserve exact original body/leg/plate proportions, thin soft cellular material, blue/gold/sage palette, upper-left illumination; transparent background no ground/text. Requested SE315degree yaw: front notch and TWO eyes at LOWER-RIGHT corner, rear at UPPER-LEFT. Same high camera. Two plates aligned LOWER-LEFT to UPPER-RIGHT across body width. Diamond becomes oblique square, not same downward-facing diamond. Exactly4legs at side midpoints TOP/RIGHT/BOTTOM/LEFT, none at vertices. Keep original body width, plate overlap and pale feet.",
+      "generation_reference_sha256": [
+        "117aab8d7d1d4b9c764c64fccd4e7ee06dfff04db427a844b640e698c298bb66",
+        "0d47dccab6a9c0bce4805445fd5f09140af91684f900752b9d1165d2fc918475",
+        "2ddde9a8d6bb22be03673e92bf71b200eb9c0f1f225b39051dbc6eb31d5a2d79"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final_sha256": "85c132be65c51579b4a55452054bea4978b053575d4ddd48255a50c7f72a612f",
+      "raw_sha256": "257c093aae07f231988bda36258c2e76946bc5501036297f4313d74b4f64c728",
+      "prompt": "Use case: style-transfer. Make one crisp pixel-art sprite of EXACT normal image1, using original pixel image2 only for pixel style/palette. Preserve same high camera yaw and pose: flat blue diamond, two slightly overlapping gold round plates across width, EXACTLY FOUR short legs at four side midpoints, two gold eyes and single round notch at front vertex. Keep vertex/plate orientation, limb counts/roots and near/far sizes. Blue-gray/gold/sage palette max24colors, intentional128x128 pixel clusters, no smooth antialias, transparent background. Do not turn or mirror. Direction SE front notch/2eyes LOWER-RIGHT. Plates lower-left/upper-right diagonal. Four short legs same roots and pose as normal. Clearly readable two dark eye pupils and round notch.",
+      "generation_reference_sha256": [
+        "7b01fb67988c1c066d75d31fa500a880fc0325ca8acf9fa5a0d2e6374962d23f",
+        "41203bc4caa1f687ed4fe61171483e565d41a8f9ed537441ceaf3d1278ed5b0a"
+      ],
+      "evidence": "Executed prompt and exact reference files recorded locally; raw/final SHA256 measured from retained bytes."
+    }
+  ],
+  "qa": {
+    "status": "review_candidate_not_final_game_acceptance",
+    "identity": "Four side-midpoint legs, two plates, front notch and2eyes rotate together; pair correspondence inspected",
+    "limitations": [
+      "High original camera retained; eyes remain dorsally visible even in N/NW/NE, not an upright-body back-face standard",
+      "Exact45degree yaw, fixed pitch, two-plate overlap depth and membrane contour are inferred from one view",
+      "No in-game acceptance claimed"
+    ],
+    "discarded": [
+      "W normal5legs",
+      "W-v2 normal3visible legs and changed yaw/pitch"
+    ],
+    "technical": "Normal alpha<8 cleanup, proportional832 LANCZOS1024; pixel binary128, NEAREST104 on128, visible-only MAXCOVERAGE32 palette v2. Old24color MEDIANCUT intermediate preserved. No shape editing by code.",
+    "independent_review": "E all16slots numeric/hash checks passed; parent8pair review plus E full-resolution key normal/pixel review confirmed identity/direction correspondence within documented limitations. In-game acceptance pending.",
+    "source_history_audit": "Available fixed-source metadata checked before integration: no explicit safety-stop marker found. This does not prove completeness of all historical attempts."
+  }
+}

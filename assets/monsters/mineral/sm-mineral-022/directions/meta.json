@@ -1,0 +1,572 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-022",
+  "asset_type": "direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "original_direction_basis": "Indented front tip and broad front fins face screen-right and toward viewer; smooth rear end extends upper-left.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/S/default.png",
+      "sha256": "4248b6f445582a2ab888b0b440e57012a21a4f8ec4531241e457cb2c33d28a09",
+      "bytes": 371847,
+      "git_blob_sha": "4454a70604df1ee481521b8487aba3562ad248d4",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        281,
+        944,
+        742
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 49379,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/S/pixel.png",
+      "sha256": "09bce21da3659e8eae1b792792e4556544094db79437c3bd0293c94184fbaf21",
+      "bytes": 6202,
+      "git_blob_sha": "af239f2c4bd75843f45977713b3f3414973804a9",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        34,
+        118,
+        93
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/SW/default.png",
+      "sha256": "da64c85a8f5a5f25a24376db44c87c3d4998e8f15773170ba1b39af9445e747e",
+      "bytes": 403829,
+      "git_blob_sha": "a5d113dcd9bd5d6139ecb10b785130afe4f8c529",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        263,
+        944,
+        760
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 55847,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/SW/pixel.png",
+      "sha256": "66b3c22f9636b2dd0569ed59217d238bcd16a1a262f084dc6eabb2b14233339a",
+      "bytes": 5769,
+      "git_blob_sha": "4168460ad187346a2f026b3d8a90d6522f97bd4a",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        32,
+        118,
+        96
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/W/default.png",
+      "sha256": "f039e72846f8bc3f0d0520c613682a1b98c3948f0a2ad66d551c9f023ddd809e",
+      "bytes": 336793,
+      "git_blob_sha": "6e0aede97fe45357c223093676abcf4448693e54",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        320,
+        944,
+        703
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 51160,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/W/pixel.png",
+      "sha256": "bd5604034492379ad35084e62b43784483e4030e96722d7d9446dc5935dd995f",
+      "bytes": 4717,
+      "git_blob_sha": "d97e02bf6e649535e654610c4be54743dcd06a6a",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        39,
+        118,
+        89
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/NW/default.png",
+      "sha256": "3d807a1d0748086d7b2611d6b595fbae6f91bb444e73c5c3ffea7a1e2ce8a632",
+      "bytes": 364060,
+      "git_blob_sha": "f7c45a0a7c16d5daa4b9a71191749b950e8c08bd",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        288,
+        944,
+        736
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 49511,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/NW/pixel.png",
+      "sha256": "fb8a2b2f782b38ce34ba01715f391cbc3e47905e5283734253ccb5939bdc2bf4",
+      "bytes": 5611,
+      "git_blob_sha": "c8002518b1d11de96e80bb320937bd11dd6a09d5",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        34,
+        118,
+        93
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/N/default.png",
+      "sha256": "818128055f9f0bbfc405f33a8f7d9bdd20007859650bde0eda354c02d0ec0cd3",
+      "bytes": 430355,
+      "git_blob_sha": "594d1f85456da4c9e1ded32ee4a3d7a0a12936c8",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        247,
+        944,
+        776
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 56584,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/N/pixel.png",
+      "sha256": "3aa15930bdd7af800e84f8a87cfd7e12d33102a8b1351e405b52a921ac64820b",
+      "bytes": 6518,
+      "git_blob_sha": "038e28ba0f74d907e2bdf5244ca5801d3ac62e56",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        29,
+        118,
+        99
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/NE/default.png",
+      "sha256": "618099d8de389b6daa7e80c765337f1ae217ebe5bcc103016ca55af06e7ef4f3",
+      "bytes": 398558,
+      "git_blob_sha": "13b92669badb1b58f5fa128a8236cd4600e5d475",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        252,
+        944,
+        772
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 53041,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/NE/pixel.png",
+      "sha256": "4815e84f203f7c84e2ac231e31353a340f18a6786831331f60849161e43b6b45",
+      "bytes": 5945,
+      "git_blob_sha": "59d0165243aba5cb4b690dbcfd7b4475a7a406a3",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        30,
+        118,
+        98
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/E/default.png",
+      "sha256": "f450b85ab2aec0b7a83ef029a5564e5261206f3fc22999fcac0a2c876f2ae7e0",
+      "bytes": 372361,
+      "git_blob_sha": "336e46deffaf0ca7e8610030797247fab9c2d4fa",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        300,
+        944,
+        723
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 54783,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-022/directions/E/pixel.png",
+      "sha256": "81e19917c1decaba0f793b0c3714e13140069a9a21c372dcd73170427290dd11",
+      "bytes": 5543,
+      "git_blob_sha": "108ebd6f9b3c5235ba941e2742bcb592912ba951",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        36,
+        118,
+        91
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-022/default.png",
+      "sha256": "35cd17d49c03a1ba869f855f8d36f9298dd4d58eaea66d63925075af1211e8b6",
+      "bytes": 391597,
+      "git_blob_sha": "496012ba46872060c23994cfe1fc9ee592e6165f",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        272,
+        944,
+        752
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 51710,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-022/pixel.png",
+      "sha256": "53a7431ead62c6cee30c88c7131cb7f5afe6351f50f2580fb5668a8192fdd6f1",
+      "bytes": 6041,
+      "git_blob_sha": "f9a7ea1ecfadae37519039ed1497966f7f71db0b",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        33,
+        118,
+        95
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    }
+  ],
+  "generation_provenance": [
+    {
+      "direction": "S",
+      "type": "normal",
+      "prompt": "Use case: precise-object-edit. Image1 is target, image2 is original identity and camera reference. Correct this front view to the same low shallow elevated camera as the original. It currently has SIX fins: REMOVE the extra small middle pair completely, keeping exactly FOUR fins, the two broad front fins nearest and the two smaller rear fins farthest. Bring the front indented tip to bottom-center and foreshorten the long body behind it; no high topdown view. Front indentation centered, no eyes. Preserve one thin flattened polished chalcedony spindle, blue-grey upper surface, copper-brown edges, ONE diagonal pale band, front-only rounded indentation, no eyes/wings/tail. Fixed four fin roots and body shape, only correct direction and stated fin count. Same painted mineral texture and outline, full single creature centered on transparent1024 with generous padding, no ground/shadow/text/sheet.",
+      "sha256": "4248b6f445582a2ab888b0b440e57012a21a4f8ec4531241e457cb2c33d28a09",
+      "raw_sha256": "1df1573a30e2d3038e2ae0930fdefac7982e0d6b8fb97aa6f63b9b0382be7d46",
+      "reference_hashes": [
+        "9b3d916246032a8143fb03a97e701ed59bf3deaf0dcd69e29d4e1051ee924b41",
+        "35cd17d49c03a1ba869f855f8d36f9298dd4d58eaea66d63925075af1211e8b6"
+      ]
+    },
+    {
+      "direction": "S",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this ONE polished stone spindle creature to ONE crisp128x128 pixel-art sprite of exactly this S view. Preserve exactly FOUR flipper legs, broad front pair and small rear pair, their overlap and attachment positions. Preserve thin spindle body, no eyes, no wings, no tail, one front-tip round indentation with visibility exactly as reference, ONE diagonal cream band and blue-grey/copper-brown mineral palette. Do not rotate, mirror, add fins or redesign. Same silhouette, posture and camera.31 opaque colors maximum, hard pixel clusters, binary transparency without blur or antialiasing. Full single creature centered with generous margin, no grid/sheet/text/floor/shadow.",
+      "sha256": "09bce21da3659e8eae1b792792e4556544094db79437c3bd0293c94184fbaf21",
+      "raw_sha256": "4439faad54194dadadca98c862b5c1a1749275fa48c3ae34e6d35aa0ba0f5503",
+      "reference_hashes": [
+        "71d422fc361c3698f0802da53fe98b336648037a63edb736130886c9c9db850d"
+      ]
+    },
+    {
+      "direction": "SW",
+      "type": "normal",
+      "prompt": "Use case: identity-preserve. ONE transparent 1024 square character view sm-mineral-022 SW: front-left 45 degrees: indented front tip points screen-left and toward viewer, body extends rear-right. Reference front-right SE; define front by rounded indentation on right tip and wider front flippers. Same flattened smooth spindle of polished chalcedony, exactly FOUR stone flipper legs: broad front pair, smaller rear pair. ZERO eyes, ZERO wings, ZERO tail. ONE rounded indentation on front tip only. ONE diagonal cream band crosses long body at fixed angle and position, blue-grey upperstone and copper-brown lower edge. Preserve exact fixed fin roots, silhouette, body length/thin depth and original glossy painted mineral facets. Rotate yaw only with SAME shallow elevated camera, no topdown pitch, no pose change. Natural foreshortening, occlusion and mineral band continuity, no extra fins, eyes or mouth. Full single creature centered with transparent margin, no floor/shadow/text/sheet.",
+      "sha256": "da64c85a8f5a5f25a24376db44c87c3d4998e8f15773170ba1b39af9445e747e",
+      "raw_sha256": "7e7ac5cfd6475d70e65d9eeab11ac7c9080ee90767f3f07f565c5d7c226e00ff",
+      "reference_hashes": [
+        "35cd17d49c03a1ba869f855f8d36f9298dd4d58eaea66d63925075af1211e8b6"
+      ]
+    },
+    {
+      "direction": "SW",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this ONE polished stone spindle creature to ONE crisp128x128 pixel-art sprite of exactly this SW view. Preserve exactly FOUR flipper legs, broad front pair and small rear pair, their overlap and attachment positions. Preserve thin spindle body, no eyes, no wings, no tail, one front-tip round indentation with visibility exactly as reference, ONE diagonal cream band and blue-grey/copper-brown mineral palette. Do not rotate, mirror, add fins or redesign. Same silhouette, posture and camera.31 opaque colors maximum, hard pixel clusters, binary transparency without blur or antialiasing. Full single creature centered with generous margin, no grid/sheet/text/floor/shadow.",
+      "sha256": "66b3c22f9636b2dd0569ed59217d238bcd16a1a262f084dc6eabb2b14233339a",
+      "raw_sha256": "cffbeafb2aaff36693f9ec24c457c8fe828ec67b17f2ffa257ce8bf8bdd5b4b5",
+      "reference_hashes": [
+        "64da5c604893a93da56081e4faa629142f6d18fb3fb7749455ca26f3b58fb6bc"
+      ]
+    },
+    {
+      "direction": "W",
+      "type": "normal",
+      "prompt": "Use case: identity-preserve. ONE transparent 1024 square character view sm-mineral-022 W: strict LEFT side: indented front tip at left, rear taper right, long body horizontal; near front broad fin and rear narrow fin, far pair partly occluded. Reference front-right SE; define front by rounded indentation on right tip and wider front flippers. Same flattened smooth spindle of polished chalcedony, exactly FOUR stone flipper legs: broad front pair, smaller rear pair. ZERO eyes, ZERO wings, ZERO tail. ONE rounded indentation on front tip only. ONE diagonal cream band crosses long body at fixed angle and position, blue-grey upperstone and copper-brown lower edge. Preserve exact fixed fin roots, silhouette, body length/thin depth and original glossy painted mineral facets. Rotate yaw only with SAME shallow elevated camera, no topdown pitch, no pose change. Natural foreshortening, occlusion and mineral band continuity, no extra fins, eyes or mouth. Full single creature centered with transparent margin, no floor/shadow/text/sheet.",
+      "sha256": "f039e72846f8bc3f0d0520c613682a1b98c3948f0a2ad66d551c9f023ddd809e",
+      "raw_sha256": "a6360e93ae918259c9e7b77ac0ab3cc823f698ae458cafccc0fe7ccc79926a1a",
+      "reference_hashes": [
+        "35cd17d49c03a1ba869f855f8d36f9298dd4d58eaea66d63925075af1211e8b6"
+      ]
+    },
+    {
+      "direction": "W",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this ONE polished stone spindle creature to ONE crisp128x128 pixel-art sprite of exactly this W view. Preserve exactly FOUR flipper legs, broad front pair and small rear pair, their overlap and attachment positions. Preserve thin spindle body, no eyes, no wings, no tail, one front-tip round indentation with visibility exactly as reference, ONE diagonal cream band and blue-grey/copper-brown mineral palette. Do not rotate, mirror, add fins or redesign. Same silhouette, posture and camera.31 opaque colors maximum, hard pixel clusters, binary transparency without blur or antialiasing. Full single creature centered with generous margin, no grid/sheet/text/floor/shadow.",
+      "sha256": "bd5604034492379ad35084e62b43784483e4030e96722d7d9446dc5935dd995f",
+      "raw_sha256": "50f0ccb7818b688903747bd570bce92ef663620c681eea9edf189a7ac18f402b",
+      "reference_hashes": [
+        "cdf34ec83805038b3432730a1fe011accb80faef5443f10dd14e788643c65844"
+      ]
+    },
+    {
+      "direction": "NW",
+      "type": "normal",
+      "prompt": "Use case: identity-preserve. ONE transparent 1024 square character view sm-mineral-022 NW: back-left 135 degrees: smooth rear taper nearest at screen-right, indented front tip farther screen-left and hidden, narrow rear fins nearest. Reference front-right SE; define front by rounded indentation on right tip and wider front flippers. Same flattened smooth spindle of polished chalcedony, exactly FOUR stone flipper legs: broad front pair, smaller rear pair. ZERO eyes, ZERO wings, ZERO tail. ONE rounded indentation on front tip only. ONE diagonal cream band crosses long body at fixed angle and position, blue-grey upperstone and copper-brown lower edge. Preserve exact fixed fin roots, silhouette, body length/thin depth and original glossy painted mineral facets. Rotate yaw only with SAME shallow elevated camera, no topdown pitch, no pose change. Natural foreshortening, occlusion and mineral band continuity, no extra fins, eyes or mouth. Full single creature centered with transparent margin, no floor/shadow/text/sheet.",
+      "sha256": "3d807a1d0748086d7b2611d6b595fbae6f91bb444e73c5c3ffea7a1e2ce8a632",
+      "raw_sha256": "ceddb99f155d1bd9c17b46e4b29d83aba50a2ecfaf0f7884b0239a5d2d18d6a9",
+      "reference_hashes": [
+        "35cd17d49c03a1ba869f855f8d36f9298dd4d58eaea66d63925075af1211e8b6"
+      ]
+    },
+    {
+      "direction": "NW",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this ONE polished stone spindle creature to ONE crisp128x128 pixel-art sprite of exactly this NW view. Preserve exactly FOUR flipper legs, broad front pair and small rear pair, their overlap and attachment positions. Preserve thin spindle body, no eyes, no wings, no tail, one front-tip round indentation with visibility exactly as reference, ONE diagonal cream band and blue-grey/copper-brown mineral palette. Do not rotate, mirror, add fins or redesign. Same silhouette, posture and camera.31 opaque colors maximum, hard pixel clusters, binary transparency without blur or antialiasing. Full single creature centered with generous margin, no grid/sheet/text/floor/shadow.",
+      "sha256": "fb8a2b2f782b38ce34ba01715f391cbc3e47905e5283734253ccb5939bdc2bf4",
+      "raw_sha256": "8be00508d7251b888d97bb158e23ef34ca2b67629d20e43d94f9d814a0494396",
+      "reference_hashes": [
+        "aefb26f6d64a161b2b8b0c52788f2963a0aab00de2d46cc35bd8ac38496c7917"
+      ]
+    },
+    {
+      "direction": "N",
+      "type": "normal",
+      "prompt": "Use case: precise-object-edit. Image1 is target, image2 is original identity and camera reference. Rotate this diagonal rear view to STRAIGHT REAR, smooth unindented rear tip nearest at bottom-center, front indented tip directly behind body at top-center and hidden by the body. Use original shallow elevated camera, not topdown: long body foreshortened in depth. Exactly FOUR fins, smaller rear pair nearest and broad front pair farther behind, no extra fins. Do not rotate picture in plane. Preserve one thin flattened polished chalcedony spindle, blue-grey upper surface, copper-brown edges, ONE diagonal pale band, front-only rounded indentation, no eyes/wings/tail. Fixed four fin roots and body shape, only correct direction and stated fin count. Same painted mineral texture and outline, full single creature centered on transparent1024 with generous padding, no ground/shadow/text/sheet.",
+      "sha256": "818128055f9f0bbfc405f33a8f7d9bdd20007859650bde0eda354c02d0ec0cd3",
+      "raw_sha256": "318cbecac2e25bddacc2b04ba29842ceae2bc85a62a6b0c9e7f114ca2580fdc8",
+      "reference_hashes": [
+        "408eaffca1c089ec971ac07cbb215275a648bd11bfd9cd2d53141d8becfe3f2a",
+        "35cd17d49c03a1ba869f855f8d36f9298dd4d58eaea66d63925075af1211e8b6"
+      ]
+    },
+    {
+      "direction": "N",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this ONE polished stone spindle creature to ONE crisp128x128 pixel-art sprite of exactly this N view. Preserve exactly FOUR flipper legs, broad front pair and small rear pair, their overlap and attachment positions. Preserve thin spindle body, no eyes, no wings, no tail, one front-tip round indentation with visibility exactly as reference, ONE diagonal cream band and blue-grey/copper-brown mineral palette. Do not rotate, mirror, add fins or redesign. Same silhouette, posture and camera.31 opaque colors maximum, hard pixel clusters, binary transparency without blur or antialiasing. Full single creature centered with generous margin, no grid/sheet/text/floor/shadow.",
+      "sha256": "3aa15930bdd7af800e84f8a87cfd7e12d33102a8b1351e405b52a921ac64820b",
+      "raw_sha256": "3e16fd69383b2620c210334117364dcadef234c59b2a40d9db9aa443a88fa6e4",
+      "reference_hashes": [
+        "dc4ea6c9dad7d88f489177137c9c54c2b260a4fa3d3750094f11a3ba2fde9a2a"
+      ]
+    },
+    {
+      "direction": "NE",
+      "type": "normal",
+      "prompt": "Use case: precise-object-edit. Correct this mineral creature to a TRUE BACK-RIGHT three-quarter view. Its smooth rounded REAR tip is nearest at lower-left, the FRONT tip is farthest at upper-right and points AWAY from viewer. Rotate whole body a little farther toward rear view so that the C-shaped indentation on the far front tip is completely hidden by the convex body, leaving a continuous smooth far-end outer silhouette. Do not merely fill the indentation while keeping front-facing geometry. Rear small fin pair nearer viewer, broad front fin pair farther and naturally foreshortened, exactly FOUR fins total. Preserve single thin blue-grey/copper chalcedony spindle, one diagonal pale band, original proportions, shallow elevated camera and polished illustration style. Zero eyes/wings/tail. Same individual and pose, full transparent1024 sprite centered with margin, no ground/text/shadow.",
+      "sha256": "618099d8de389b6daa7e80c765337f1ae217ebe5bcc103016ca55af06e7ef4f3",
+      "raw_sha256": "5a445b372f9943f5d887529e3f0a862f1a9a1491d5493fa6d549a92bfef83f64",
+      "reference_hashes": [
+        "2b89130b5bb9b2deb63cbb3e838903e3cc8ec9ef30d4bcd51b391e2e56225444"
+      ]
+    },
+    {
+      "direction": "NE",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this exact ONE mineral spindle creature to ONE crisp128x128 pixel sprite. Preserve corrected NE rear-right view: smooth rear at lower-left nearest, front at upper-right farther with indentation completely hidden, FOUR flipper legs with exact occlusion/placement as shown, one pale band, bluegrey/copper polished stone. Do not add a notch, mouth, eyes, tail, wings or extra fins. Match same silhouette, proportions, camera and pose.31 opaque colors maximum, binary transparency, hard pixel clusters without blur or antialiasing. Complete centered character with margin, no sheet/grid/text/floor/shadow.",
+      "sha256": "4815e84f203f7c84e2ac231e31353a340f18a6786831331f60849161e43b6b45",
+      "raw_sha256": "4fa97a6d8f6a8aaeefbb26bed88cba92bb2494f9614f5c9e5b80b6730b8456d6",
+      "reference_hashes": [
+        "5b52366be220e53c627297235cddda8e7d3be99f3acaeb7a914aae7f1322b870"
+      ]
+    },
+    {
+      "direction": "E",
+      "type": "normal",
+      "prompt": "Use case: identity-preserve. ONE transparent 1024 square character view sm-mineral-022 E: strict RIGHT side: indented front tip at right, rear taper left, long body horizontal; near front broad fin and rear narrow fin, far pair partly occluded. Reference front-right SE; define front by rounded indentation on right tip and wider front flippers. Same flattened smooth spindle of polished chalcedony, exactly FOUR stone flipper legs: broad front pair, smaller rear pair. ZERO eyes, ZERO wings, ZERO tail. ONE rounded indentation on front tip only. ONE diagonal cream band crosses long body at fixed angle and position, blue-grey upperstone and copper-brown lower edge. Preserve exact fixed fin roots, silhouette, body length/thin depth and original glossy painted mineral facets. Rotate yaw only with SAME shallow elevated camera, no topdown pitch, no pose change. Natural foreshortening, occlusion and mineral band continuity, no extra fins, eyes or mouth. Full single creature centered with transparent margin, no floor/shadow/text/sheet.",
+      "sha256": "f450b85ab2aec0b7a83ef029a5564e5261206f3fc22999fcac0a2c876f2ae7e0",
+      "raw_sha256": "93753b15f8f7a41f60a94b32894fcbe78e1735d4f357db4738164facc280209e",
+      "reference_hashes": [
+        "35cd17d49c03a1ba869f855f8d36f9298dd4d58eaea66d63925075af1211e8b6"
+      ]
+    },
+    {
+      "direction": "E",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this ONE polished stone spindle creature to ONE crisp128x128 pixel-art sprite of exactly this E view. Preserve exactly FOUR flipper legs, broad front pair and small rear pair, their overlap and attachment positions. Preserve thin spindle body, no eyes, no wings, no tail, one front-tip round indentation with visibility exactly as reference, ONE diagonal cream band and blue-grey/copper-brown mineral palette. Do not rotate, mirror, add fins or redesign. Same silhouette, posture and camera.31 opaque colors maximum, hard pixel clusters, binary transparency without blur or antialiasing. Full single creature centered with generous margin, no grid/sheet/text/floor/shadow.",
+      "sha256": "81e19917c1decaba0f793b0c3714e13140069a9a21c372dcd73170427290dd11",
+      "raw_sha256": "1b8b4cfadc2839e4115edf86d73fa2373c153ad88a7ae96f1d35742a522f495b",
+      "reference_hashes": [
+        "a230298056ef068ca981d3100c5a172daaea20778bd205ddcd83cded04b5450a"
+      ]
+    }
+  ],
+  "original_preservation": "Existing SE normal/pixel referenced at root paths and byte unchanged; old candidates and revisions retained separately.",
+  "quality_history": [
+    {
+      "version": "initial",
+      "status": "partial_geometry_hold",
+      "reason": "S had six fins rather than four; N remained diagonal; NE exposed front indentation."
+    },
+    {
+      "version": "v2",
+      "status": "NE_direction_hold",
+      "improvements": "S corrected to four fins and N corrected to rear-facing projection; seven corresponding pixels generated.",
+      "remaining_issue": "NE far tip retained a C-shaped front indentation, confirmed as a visible geometric feature rather than a surface pattern."
+    },
+    {
+      "version": "v3",
+      "status": "review_candidate",
+      "improvements": "Only NE normal and corresponding pixel replaced. Whole-body rear-oblique projection changed and far front indentation hidden. Other directions and source pair preserved."
+    }
+  ],
+  "processing": {
+    "normal": "RGBA1024 conversion with proportional LANCZOS, alpha below8 cleared before fitting, visible extent864 centered on transparent1024; no shape redraw.",
+    "pixel": "Independent pixel generation from matching normal, nearest128, alpha threshold128,31-color quantization without dithering, transparent RGB cleared, proportional nearest visible108 centered128; no shape redraw."
+  },
+  "qa": {
+    "numeric_hash": "E all16slots verified size/margin/extent/pixel binary alpha/visible RGB<=32 and file hashes",
+    "visual": "E revised NE normal/pixel full-resolution review confirms hidden indented front tip, rear-end foreground and four fins. Eight-pair comparison confirms corresponding silhouettes/palette. Listed exact-angle, fin-depth and band-projection limitations remain.",
+    "limitations": [
+      "Exact45-degree yaw and fixed camera elevation are not calibrated",
+      "Diagonal mineral band projection and fixed fin roots/depth remain inferred",
+      "Near/far apparent fin sizes in NE are not a verified rigid3D reconstruction"
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending",
+    "independent_numeric_hash": "E all16slots verified size/margin/extent/pixel binary alpha/visible RGB<=32 and file hashes",
+    "independent_visual": "E revised NE normal/pixel full-resolution review confirms hidden indented front tip, rear-end foreground and four fins. Eight-pair comparison confirms corresponding silhouettes/palette. Listed exact-angle, fin-depth and band-projection limitations remain.",
+    "producer_stage_snapshot": {
+      "numeric_hash": "producer_additional14_passed; independent_review_pending",
+      "visual": "Eight-pair correspondence and black/white edges inspected; revised NE indentation hidden. Independent review pending."
+    }
+  }
+}
