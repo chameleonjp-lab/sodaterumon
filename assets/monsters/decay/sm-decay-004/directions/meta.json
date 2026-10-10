@@ -1,0 +1,879 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-004",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/decay/sm-decay-004/default.png",
+      "sha256": "9dda5eac42bcdb62aff5bac36d14b8aa1629cff1c1b2ed9855e1ad1ccc1b42d5",
+      "git_blob_sha": "d78730620d384fa84ce26fd43e4c608db5fc1313",
+      "bytes": 737831
+    },
+    "pixel": {
+      "path": "assets/monsters/decay/sm-decay-004/pixel.png",
+      "sha256": "c827bfbeed015e19233dd082cb88f3ce1a87f1029a89f39bb5bc1a91258ecd3f",
+      "git_blob_sha": "5a2a77168bc2a9a898ad5bc1b2c9fce68cee20ce",
+      "bytes": 12628
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-004/directions/S/default.png",
+      "sha256": "22a355b22a047ed2175aff885141216d8f326f44be2e31108fd5c0966dfe8499",
+      "bytes": 781285,
+      "git_blob_sha": "f57428250ec1d83296df45794ddfb0aa710d24c4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          129,
+          928,
+          894
+        ],
+        "margins": [
+          96,
+          129,
+          96,
+          130
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 84203,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-004/directions/S/pixel.png",
+      "sha256": "44224f0c3c9b46bd1b5d23db71dc65526c3b9c9e8232976bec9bc9b48dbcb09f",
+      "bytes": 11340,
+      "git_blob_sha": "0a1c87854f2c553ed005307761120f79b905499c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          16,
+          116,
+          112
+        ],
+        "margins": [
+          12,
+          16,
+          12,
+          16
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "22a355b22a047ed2175aff885141216d8f326f44be2e31108fd5c0966dfe8499"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-004/directions/SW/default.png",
+      "sha256": "3fb9b7d4c314995ecacc3c0f941e7c72df1e98d5c2a0b5259bcfba029feb21d3",
+      "bytes": 689455,
+      "git_blob_sha": "1311491728641a400b36c3f9c07a8a92649d47a9",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          175,
+          928,
+          848
+        ],
+        "margins": [
+          96,
+          175,
+          96,
+          176
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 75845,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-004/directions/SW/pixel.png",
+      "sha256": "2d5fa69be06bd196c2ecc2489a8ede0531de40f1dfef091fd14a695e782bb929",
+      "bytes": 9637,
+      "git_blob_sha": "f83eb4a1680abfac7e07beca9c29fb0a317d4bbb",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          21,
+          116,
+          107
+        ],
+        "margins": [
+          12,
+          21,
+          12,
+          21
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 32,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "3fb9b7d4c314995ecacc3c0f941e7c72df1e98d5c2a0b5259bcfba029feb21d3"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-004/directions/W/default.png",
+      "sha256": "2a091ce6ddfff26574ae7185c724ae2d0dd9a071f03fb82e1672ee9f7260e39a",
+      "bytes": 757369,
+      "git_blob_sha": "15b0a8bcede595e334e9c9f23eafd5c68547cce4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          204,
+          928,
+          819
+        ],
+        "margins": [
+          96,
+          204,
+          96,
+          205
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 84209,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-004/directions/W/pixel.png",
+      "sha256": "c84b5440236a8a73bc29fb2a698a98f82662be23ce5ce933c781bf049f6f3d62",
+      "bytes": 11000,
+      "git_blob_sha": "7e01f232f05b3e5a8ce31747449aab58fb2aa3bd",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          25,
+          116,
+          102
+        ],
+        "margins": [
+          12,
+          25,
+          12,
+          26
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 32,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "2a091ce6ddfff26574ae7185c724ae2d0dd9a071f03fb82e1672ee9f7260e39a"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-004/directions/NW/default.png",
+      "sha256": "9969f9e9bb655ae6b5fbabe966a9ed53f35c80c6aa803941ad4c17059e3cfda5",
+      "bytes": 633571,
+      "git_blob_sha": "0b1b387e92b0f971cc3f7a882fd10e23d0f72b24",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          238,
+          928,
+          786
+        ],
+        "margins": [
+          96,
+          238,
+          96,
+          238
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 72223,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-004/directions/NW/pixel.png",
+      "sha256": "2ad11c1e2abbd1bb02966796e081361e843c6752fba5d58d2d5fb99537b456fc",
+      "bytes": 10130,
+      "git_blob_sha": "76493df9f60459deb31d2e3baf0297b9009e174d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          28,
+          116,
+          100
+        ],
+        "margins": [
+          12,
+          28,
+          12,
+          28
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "9969f9e9bb655ae6b5fbabe966a9ed53f35c80c6aa803941ad4c17059e3cfda5"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-004/directions/N/default.png",
+      "sha256": "282c7de3a0f37ee4473065e15b1d1f93cec91af95761b26026f5d95d5f1893e3",
+      "bytes": 631002,
+      "git_blob_sha": "5878d6602ce05fff2df436e2996b14d441ea11de",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          159,
+          928,
+          864
+        ],
+        "margins": [
+          96,
+          159,
+          96,
+          160
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 71051,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-004/directions/N/pixel.png",
+      "sha256": "2087982eecc2d0658a3e1fe441d186c56addf0ad34719972f1daac096f1bd72b",
+      "bytes": 10913,
+      "git_blob_sha": "a6638aab979a8c718d4d0260ca205d80552e93d6",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          20,
+          116,
+          108
+        ],
+        "margins": [
+          12,
+          20,
+          12,
+          20
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 32,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "282c7de3a0f37ee4473065e15b1d1f93cec91af95761b26026f5d95d5f1893e3"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-004/directions/NE/default.png",
+      "sha256": "ae0964cc35f4bebbc2ebbf8cd4c2dbd2d5c0dbf121d186ac316c58ac65570f38",
+      "bytes": 701249,
+      "git_blob_sha": "714fe451ea331b0a4c04fd74fc9fc86bed64eb35",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          192,
+          928,
+          831
+        ],
+        "margins": [
+          96,
+          192,
+          96,
+          193
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 74222,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-004/directions/NE/pixel.png",
+      "sha256": "2a1da05e290aff98c6570246054da1a492001f124cad165b99a67ec617109b1d",
+      "bytes": 10240,
+      "git_blob_sha": "cdd4e9071b592ab35244a519392937679bdaa12b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          24,
+          116,
+          104
+        ],
+        "margins": [
+          12,
+          24,
+          12,
+          24
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 32,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "ae0964cc35f4bebbc2ebbf8cd4c2dbd2d5c0dbf121d186ac316c58ac65570f38"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-004/directions/E/default.png",
+      "sha256": "e210110cc2b4600f6b6a8c4a60f46d3ba18ea7eb61b6cdd3c1a875d0bd9e357d",
+      "bytes": 740369,
+      "git_blob_sha": "934d7e2c545c1d341ac2486073aae4f982a2b8f4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          212,
+          928,
+          811
+        ],
+        "margins": [
+          96,
+          212,
+          96,
+          213
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 74254,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-004/directions/E/pixel.png",
+      "sha256": "612e011b654609ceef4b400b81aa83bd3cc6c7b4ede9249f4f2201648177adbe",
+      "bytes": 10794,
+      "git_blob_sha": "a24ab8c1e4524457351e3f3177cb7e0b535b214d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          22,
+          116,
+          105
+        ],
+        "margins": [
+          12,
+          22,
+          12,
+          23
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 32,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "e210110cc2b4600f6b6a8c4a60f46d3ba18ea7eb61b6cdd3c1a875d0bd9e357d"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-004/default.png",
+      "sha256": "9dda5eac42bcdb62aff5bac36d14b8aa1629cff1c1b2ed9855e1ad1ccc1b42d5",
+      "bytes": 737831,
+      "git_blob_sha": "d78730620d384fa84ce26fd43e4c608db5fc1313",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          177,
+          944,
+          846
+        ],
+        "margins": [
+          80,
+          177,
+          80,
+          178
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 80528,
+        "alpha_value_count": 249,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-004/pixel.png",
+      "sha256": "c827bfbeed015e19233dd082cb88f3ce1a87f1029a89f39bb5bc1a91258ecd3f",
+      "bytes": 12628,
+      "git_blob_sha": "5a2a77168bc2a9a898ad5bc1b2c9fce68cee20ce",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          23,
+          118,
+          105
+        ],
+        "margins": [
+          10,
+          23,
+          10,
+          23
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 32,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "9dda5eac42bcdb62aff5bac36d14b8aa1629cff1c1b2ed9855e1ad1ccc1b42d5"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "N three-peak depth projection remains uncertain; back surfaces inferred.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "22a355b22a047ed2175aff885141216d8f326f44be2e31108fd5c0966dfe8499",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "d10359f7cf5b3646add5aa10e9ca6c6bfdcb48b52c9be4c0e77f743d02d1a7e2",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. ONEtransparent1024sprite of SAME reference creature rotated to S directFRONT,smallest foremost cone closest bottomcenter,2eyes balanced left/right on thisfrontcone;middle and tallestrear cone behind progressively higher. Preserve exact3overlapping pinecone-like softconical bodysegments in a FRONT-TO-BACK row, rear progressively taller, each tip small roundedcurl (exact3tips). Exactly2broad flat paddlefeet splayed sideways,2goldeneyes ONLY onleft/right sides of smallestforemostsegment;noneonmiddle/rear. No tail,wings,head,extra feet or cones. Brown#99684E ochre#CBAA5B palegreen#C4CFA5 softpine scales with pale fungalwebbing,original clean2Dillustration and restrainedshading. Same low posture fixedcamera slighttopdown, preserve cone order and material. Turnwholebody,not justeyes. Fullbody10%transparentmargin,no text,ground,shadow,props.",
+      "generation_references": [
+        {
+          "sha256": "9dda5eac42bcdb62aff5bac36d14b8aa1629cff1c1b2ed9855e1ad1ccc1b42d5",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "44224f0c3c9b46bd1b5d23db71dc65526c3b9c9e8232976bec9bc9b48dbcb09f",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "ceeec569a9c926ad1310af51f72d0fd13aca581ac52a946c9385d9f21781a2fb",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparentpixel sprite matching image1 EXACT S view, silhouette, cone order, visibleeyes,feet and sameindividual. Image2 is originalpixel style andpalette ONLY,not facing. Keep3overlapping pinecone bodysegments with3small curledtips,progressively taller towardrear,EXACT2broadflatpaddlefeet,2eyesonly foremostsmallsegment (preserve occlusion asimage1). No tail,wings,extra cones/feet/eyes. Brown/ochre/palegreenfungalwebbing likeoriginal.128x128logicalpixelart,hard squareclusters,max32colors,binaryalpha,nogradients/antialias. Fullbody104pxextentwithpadding. No text/shadow/ground.",
+      "generation_references": [
+        {
+          "sha256": "d10359f7cf5b3646add5aa10e9ca6c6bfdcb48b52c9be4c0e77f743d02d1a7e2",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "c827bfbeed015e19233dd082cb88f3ce1a87f1029a89f39bb5bc1a91258ecd3f",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "3fb9b7d4c314995ecacc3c0f941e7c72df1e98d5c2a0b5259bcfba029feb21d3",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "80f7a3acf9019b963e7727e429e98d5e1b9cc24e103d46b699e3b669b7e5f909",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. ONEtransparent1024sprite of SAME reference creature rotated to SW front-left3/4,smallestfrontcone lowerleft,medium/tallrear recede upperright,2eyes onfrontcone sides. Preserve exact3overlapping pinecone-like softconical bodysegments in a FRONT-TO-BACK row, rear progressively taller, each tip small roundedcurl (exact3tips). Exactly2broad flat paddlefeet splayed sideways,2goldeneyes ONLY onleft/right sides of smallestforemostsegment;noneonmiddle/rear. No tail,wings,head,extra feet or cones. Brown#99684E ochre#CBAA5B palegreen#C4CFA5 softpine scales with pale fungalwebbing,original clean2Dillustration and restrainedshading. Same low posture fixedcamera slighttopdown, preserve cone order and material. Turnwholebody,not justeyes. Fullbody10%transparentmargin,no text,ground,shadow,props.",
+      "generation_references": [
+        {
+          "sha256": "9dda5eac42bcdb62aff5bac36d14b8aa1629cff1c1b2ed9855e1ad1ccc1b42d5",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "2d5fa69be06bd196c2ecc2489a8ede0531de40f1dfef091fd14a695e782bb929",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "0f39aae96a0593916247a066a0753315052be31f6717f1d71d9637d2b5e4dce6",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparentpixel sprite matching image1 EXACT SW view, silhouette, cone order, visibleeyes,feet and sameindividual. Image2 is originalpixel style andpalette ONLY,not facing. Keep3overlapping pinecone bodysegments with3small curledtips,progressively taller towardrear,EXACT2broadflatpaddlefeet,2eyesonly foremostsmallsegment (preserve occlusion asimage1). No tail,wings,extra cones/feet/eyes. Brown/ochre/palegreenfungalwebbing likeoriginal.128x128logicalpixelart,hard squareclusters,max32colors,binaryalpha,nogradients/antialias. Fullbody104pxextentwithpadding. No text/shadow/ground.",
+      "generation_references": [
+        {
+          "sha256": "80f7a3acf9019b963e7727e429e98d5e1b9cc24e103d46b699e3b669b7e5f909",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "c827bfbeed015e19233dd082cb88f3ce1a87f1029a89f39bb5bc1a91258ecd3f",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "2a091ce6ddfff26574ae7185c724ae2d0dd9a071f03fb82e1672ee9f7260e39a",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "48ff32674002bd79d54bc49219a019ca2ed326734a5ad6b992928fa86d558b97",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. ONEtransparent1024sprite of SAME reference creature rotated to W trueLEFTside,smallestfrontcone left,mediumcenter,tallestrearcone right,onlynearfrontcone eyevisible. Preserve exact3overlapping pinecone-like softconical bodysegments in a FRONT-TO-BACK row, rear progressively taller, each tip small roundedcurl (exact3tips). Exactly2broad flat paddlefeet splayed sideways,2goldeneyes ONLY onleft/right sides of smallestforemostsegment;noneonmiddle/rear. No tail,wings,head,extra feet or cones. Brown#99684E ochre#CBAA5B palegreen#C4CFA5 softpine scales with pale fungalwebbing,original clean2Dillustration and restrainedshading. Same low posture fixedcamera slighttopdown, preserve cone order and material. Turnwholebody,not justeyes. Fullbody10%transparentmargin,no text,ground,shadow,props.",
+      "generation_references": [
+        {
+          "sha256": "9dda5eac42bcdb62aff5bac36d14b8aa1629cff1c1b2ed9855e1ad1ccc1b42d5",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "c84b5440236a8a73bc29fb2a698a98f82662be23ce5ce933c781bf049f6f3d62",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "44c902d7206e0148402937dd52779fa70223c312dfcd46d24bdaabf0df8737ad",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparentpixel sprite matching image1 EXACT W view, silhouette, cone order, visibleeyes,feet and sameindividual. Image2 is originalpixel style andpalette ONLY,not facing. Keep3overlapping pinecone bodysegments with3small curledtips,progressively taller towardrear,EXACT2broadflatpaddlefeet,2eyesonly foremostsmallsegment (preserve occlusion asimage1). No tail,wings,extra cones/feet/eyes. Brown/ochre/palegreenfungalwebbing likeoriginal.128x128logicalpixelart,hard squareclusters,max32colors,binaryalpha,nogradients/antialias. Fullbody104pxextentwithpadding. No text/shadow/ground.",
+      "generation_references": [
+        {
+          "sha256": "48ff32674002bd79d54bc49219a019ca2ed326734a5ad6b992928fa86d558b97",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "c827bfbeed015e19233dd082cb88f3ce1a87f1029a89f39bb5bc1a91258ecd3f",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "9969f9e9bb655ae6b5fbabe966a9ed53f35c80c6aa803941ad4c17059e3cfda5",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "3a99aed2db3ff17684b611307ce6d8aad552f2bcadaffaa729ccc919d529e4a9",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. ONEtransparent1024sprite of SAME reference creature rotated to NW rear-left3/4,tallestrearcone nearest lowerright,smallestfrontcone away upperleft,front eyes hidden. Preserve exact3overlapping pinecone-like softconical bodysegments in a FRONT-TO-BACK row, rear progressively taller, each tip small roundedcurl (exact3tips). Exactly2broad flat paddlefeet splayed sideways,2goldeneyes ONLY onleft/right sides of smallestforemostsegment;noneonmiddle/rear. No tail,wings,head,extra feet or cones. Brown#99684E ochre#CBAA5B palegreen#C4CFA5 softpine scales with pale fungalwebbing,original clean2Dillustration and restrainedshading. Same low posture fixedcamera slighttopdown, preserve cone order and material. Turnwholebody,not justeyes. Fullbody10%transparentmargin,no text,ground,shadow,props.",
+      "generation_references": [
+        {
+          "sha256": "9dda5eac42bcdb62aff5bac36d14b8aa1629cff1c1b2ed9855e1ad1ccc1b42d5",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "2ad11c1e2abbd1bb02966796e081361e843c6752fba5d58d2d5fb99537b456fc",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "52c3e4285d3c0db16fed193b7147c27713c11ffb34361815822af1a687219fb1",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparentpixel sprite matching image1 EXACT NW view, silhouette, cone order, visibleeyes,feet and sameindividual. Image2 is originalpixel style andpalette ONLY,not facing. Keep3overlapping pinecone bodysegments with3small curledtips,progressively taller towardrear,EXACT2broadflatpaddlefeet,2eyesonly foremostsmallsegment (preserve occlusion asimage1). No tail,wings,extra cones/feet/eyes. Brown/ochre/palegreenfungalwebbing likeoriginal.128x128logicalpixelart,hard squareclusters,max32colors,binaryalpha,nogradients/antialias. Fullbody104pxextentwithpadding. No text/shadow/ground.",
+      "generation_references": [
+        {
+          "sha256": "3a99aed2db3ff17684b611307ce6d8aad552f2bcadaffaa729ccc919d529e4a9",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "c827bfbeed015e19233dd082cb88f3ce1a87f1029a89f39bb5bc1a91258ecd3f",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "282c7de3a0f37ee4473065e15b1d1f93cec91af95761b26026f5d95d5f1893e3",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "344885ababdc3c83ac74b322b33625148fe1d6912ad9611abc135b86989c6fce",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. ONEtransparent1024sprite of SAME reference creature rotated to N directBACK,tallestrearcone nearestcenter,medium/smallfrontcone recedeaway,NOeyeonrear. Preserve exact3overlapping pinecone-like softconical bodysegments in a FRONT-TO-BACK row, rear progressively taller, each tip small roundedcurl (exact3tips). Exactly2broad flat paddlefeet splayed sideways,2goldeneyes ONLY onleft/right sides of smallestforemostsegment;noneonmiddle/rear. No tail,wings,head,extra feet or cones. Brown#99684E ochre#CBAA5B palegreen#C4CFA5 softpine scales with pale fungalwebbing,original clean2Dillustration and restrainedshading. Same low posture fixedcamera slighttopdown, preserve cone order and material. Turnwholebody,not justeyes. Fullbody10%transparentmargin,no text,ground,shadow,props.",
+      "generation_references": [
+        {
+          "sha256": "9dda5eac42bcdb62aff5bac36d14b8aa1629cff1c1b2ed9855e1ad1ccc1b42d5",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "2087982eecc2d0658a3e1fe441d186c56addf0ad34719972f1daac096f1bd72b",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "467abf950ce7af0dad4819f5b222f74ef942d6d9ddf2f1771c20b9ded273e7ca",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparentpixel sprite matching image1 EXACT N view, silhouette, cone order, visibleeyes,feet and sameindividual. Image2 is originalpixel style andpalette ONLY,not facing. Keep3overlapping pinecone bodysegments with3small curledtips,progressively taller towardrear,EXACT2broadflatpaddlefeet,2eyesonly foremostsmallsegment (preserve occlusion asimage1). No tail,wings,extra cones/feet/eyes. Brown/ochre/palegreenfungalwebbing likeoriginal.128x128logicalpixelart,hard squareclusters,max32colors,binaryalpha,nogradients/antialias. Fullbody104pxextentwithpadding. No text/shadow/ground.",
+      "generation_references": [
+        {
+          "sha256": "344885ababdc3c83ac74b322b33625148fe1d6912ad9611abc135b86989c6fce",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "c827bfbeed015e19233dd082cb88f3ce1a87f1029a89f39bb5bc1a91258ecd3f",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "ae0964cc35f4bebbc2ebbf8cd4c2dbd2d5c0dbf121d186ac316c58ac65570f38",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "3cf7f766e6a6a477d032464ef03445f600144605d13988a9461eb38ee21c2731",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. ONEtransparent1024sprite of SAME reference creature rotated to NE rear-right3/4,tallestrearcone nearestlowerleft,smallestfrontcone awayupperright,front eyeshidden. Preserve exact3overlapping pinecone-like softconical bodysegments in a FRONT-TO-BACK row, rear progressively taller, each tip small roundedcurl (exact3tips). Exactly2broad flat paddlefeet splayed sideways,2goldeneyes ONLY onleft/right sides of smallestforemostsegment;noneonmiddle/rear. No tail,wings,head,extra feet or cones. Brown#99684E ochre#CBAA5B palegreen#C4CFA5 softpine scales with pale fungalwebbing,original clean2Dillustration and restrainedshading. Same low posture fixedcamera slighttopdown, preserve cone order and material. Turnwholebody,not justeyes. Fullbody10%transparentmargin,no text,ground,shadow,props.",
+      "generation_references": [
+        {
+          "sha256": "9dda5eac42bcdb62aff5bac36d14b8aa1629cff1c1b2ed9855e1ad1ccc1b42d5",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "2a1da05e290aff98c6570246054da1a492001f124cad165b99a67ec617109b1d",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "b11894b3c3a889c4c2f27ba1f3539659043ff26ebb5918a7a14f886f15afe0ea",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparentpixel sprite matching image1 EXACT NE view, silhouette, cone order, visibleeyes,feet and sameindividual. Image2 is originalpixel style andpalette ONLY,not facing. Keep3overlapping pinecone bodysegments with3small curledtips,progressively taller towardrear,EXACT2broadflatpaddlefeet,2eyesonly foremostsmallsegment (preserve occlusion asimage1). No tail,wings,extra cones/feet/eyes. Brown/ochre/palegreenfungalwebbing likeoriginal.128x128logicalpixelart,hard squareclusters,max32colors,binaryalpha,nogradients/antialias. Fullbody104pxextentwithpadding. No text/shadow/ground.",
+      "generation_references": [
+        {
+          "sha256": "3cf7f766e6a6a477d032464ef03445f600144605d13988a9461eb38ee21c2731",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "c827bfbeed015e19233dd082cb88f3ce1a87f1029a89f39bb5bc1a91258ecd3f",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "e210110cc2b4600f6b6a8c4a60f46d3ba18ea7eb61b6cdd3c1a875d0bd9e357d",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "e6b81abb22343a7608d5d4c96475d63c8a4a40dcfe747b0dcd0786b5d1a0efc2",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. ONEtransparent1024sprite of SAME reference creature rotated to E trueRIGHTside,smallestfrontcone right,mediumcenter,tallestrearcone left,onlynearfrontcone eyevisible. Preserve exact3overlapping pinecone-like softconical bodysegments in a FRONT-TO-BACK row, rear progressively taller, each tip small roundedcurl (exact3tips). Exactly2broad flat paddlefeet splayed sideways,2goldeneyes ONLY onleft/right sides of smallestforemostsegment;noneonmiddle/rear. No tail,wings,head,extra feet or cones. Brown#99684E ochre#CBAA5B palegreen#C4CFA5 softpine scales with pale fungalwebbing,original clean2Dillustration and restrainedshading. Same low posture fixedcamera slighttopdown, preserve cone order and material. Turnwholebody,not justeyes. Fullbody10%transparentmargin,no text,ground,shadow,props.",
+      "generation_references": [
+        {
+          "sha256": "9dda5eac42bcdb62aff5bac36d14b8aa1629cff1c1b2ed9855e1ad1ccc1b42d5",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "612e011b654609ceef4b400b81aa83bd3cc6c7b4ede9249f4f2201648177adbe",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "2b8120e9512876c703d120ccc1e5adb76c50e0427b5867528c0c5701a62fe238",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparentpixel sprite matching image1 EXACT E view, silhouette, cone order, visibleeyes,feet and sameindividual. Image2 is originalpixel style andpalette ONLY,not facing. Keep3overlapping pinecone bodysegments with3small curledtips,progressively taller towardrear,EXACT2broadflatpaddlefeet,2eyesonly foremostsmallsegment (preserve occlusion asimage1). No tail,wings,extra cones/feet/eyes. Brown/ochre/palegreenfungalwebbing likeoriginal.128x128logicalpixelart,hard squareclusters,max32colors,binaryalpha,nogradients/antialias. Fullbody104pxextentwithpadding. No text/shadow/ground.",
+      "generation_references": [
+        {
+          "sha256": "e6b81abb22343a7608d5d4c96475d63c8a4a40dcfe747b0dcd0786b5d1a0efc2",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "c827bfbeed015e19233dd082cb88f3ce1a87f1029a89f39bb5bc1a91258ecd3f",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "9dda5eac42bcdb62aff5bac36d14b8aa1629cff1c1b2ed9855e1ad1ccc1b42d5",
+        "role": "finaltechnicalderivative"
+      },
+      "source": {
+        "sha256": "9dda5eac42bcdb62aff5bac36d14b8aa1629cff1c1b2ed9855e1ad1ccc1b42d5",
+        "role": "byteidenticalmergedoriginal"
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "c827bfbeed015e19233dd082cb88f3ce1a87f1029a89f39bb5bc1a91258ecd3f",
+        "role": "finaltechnicalderivative"
+      },
+      "source": {
+        "sha256": "c827bfbeed015e19233dd082cb88f3ce1a87f1029a89f39bb5bc1a91258ecd3f",
+        "role": "byteidenticalmergedoriginal"
+      }
+    }
+  ]
+}

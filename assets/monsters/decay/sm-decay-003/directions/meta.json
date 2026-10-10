@@ -1,0 +1,687 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-003",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/decay/sm-decay-003/default.png",
+      "sha256": "1424b00e4bfe704606a31963a918b64022007d117a9bfda9e3e66ed52b570607",
+      "git_blob_sha": "626a77eb4794341a1085026b5e218e0eac50e2f4",
+      "bytes": 690868
+    },
+    "pixel": {
+      "path": "assets/monsters/decay/sm-decay-003/pixel.png",
+      "sha256": "52dd3046ae8d4e8939951a36afcdfa661468fe9cfa77fa29fce93ff27b00a7bc",
+      "git_blob_sha": "5c6ad44de0a483eb5a1a3bd5e1f339770c235e2a",
+      "bytes": 9968
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-003/directions/S/default.png",
+      "sha256": "ba8b4b770d78dc5ceb4141a763d8cbc2b640cc53d9b8d1beddd132f97f30dc88",
+      "bytes": 608539,
+      "git_blob_sha": "a7aca00c80de45202cdbb20bf1197cead9610c84",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          103,
+          928,
+          920
+        ],
+        "margins": [
+          96,
+          103,
+          96,
+          104
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 78017,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-003/directions/S/pixel.png",
+      "sha256": "7cdbb4b5a59a7d2860a0d6e077339d4b9b523859973249c534ec7ca48e134444",
+      "bytes": 9564,
+      "git_blob_sha": "064d25b552bf58fda383938724e3554636c2e771",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          15,
+          12,
+          112,
+          115
+        ],
+        "margins": [
+          15,
+          12,
+          16,
+          13
+        ],
+        "visible_longest_extent": 103,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "ba8b4b770d78dc5ceb4141a763d8cbc2b640cc53d9b8d1beddd132f97f30dc88"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-003/directions/SW/default.png",
+      "sha256": "aae035cb307f0823fdec915bd94d431609f866c40d6a3a9c2375c5e4f2c671a3",
+      "bytes": 639811,
+      "git_blob_sha": "5bd59924bfa20abc703ddc46af00fe4681a9fd05",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          97,
+          96,
+          927,
+          928
+        ],
+        "margins": [
+          97,
+          96,
+          97,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 83282,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-003/directions/SW/pixel.png",
+      "sha256": "94c489048d242fafcb3c014b8b2b086f81ee8564cb4c7f394c4b9afa11384486",
+      "bytes": 9672,
+      "git_blob_sha": "437bd8523314164910890453efaf8f8467e5edc7",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          14,
+          12,
+          114,
+          116
+        ],
+        "margins": [
+          14,
+          12,
+          14,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "aae035cb307f0823fdec915bd94d431609f866c40d6a3a9c2375c5e4f2c671a3"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-003/directions/W/default.png",
+      "sha256": "ca3deadb19242ac80c4ae6ce22fc4997bf1133cdf474178b48017f9b71ae6240",
+      "bytes": 589086,
+      "git_blob_sha": "701df5ea1ae4df1926d7500d7689cb9882db9fd5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          133,
+          96,
+          891,
+          928
+        ],
+        "margins": [
+          133,
+          96,
+          133,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 70422,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-003/directions/W/pixel.png",
+      "sha256": "53801ec3062e0a740bdbaee9c8721f54bd94a2fd69b0c49749563f45bc962c45",
+      "bytes": 9593,
+      "git_blob_sha": "10bc49e5d53f31d8c7006281a84c858d2441d847",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          16,
+          12,
+          111,
+          116
+        ],
+        "margins": [
+          16,
+          12,
+          17,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "ca3deadb19242ac80c4ae6ce22fc4997bf1133cdf474178b48017f9b71ae6240"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-003/directions/NW/default.png",
+      "sha256": "ae8fe66574828f3856acb53b1f87aa5046f527ac42f4c95d0a4b1637dbda5f2b",
+      "bytes": 566604,
+      "git_blob_sha": "ce90324be4dd3baef45b0ee170a91ce41db98ade",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          141,
+          96,
+          882,
+          928
+        ],
+        "margins": [
+          141,
+          96,
+          142,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 71224,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-003/directions/NW/pixel.png",
+      "sha256": "7889603368f245e19a13fde3c3aa22275e040decf9040f66d0a6f5f5051b8b8e",
+      "bytes": 8097,
+      "git_blob_sha": "5c851d9cf1374e387ed98e2a6bc4f99cf60da5b1",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          21,
+          12,
+          107,
+          116
+        ],
+        "margins": [
+          21,
+          12,
+          21,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "ae8fe66574828f3856acb53b1f87aa5046f527ac42f4c95d0a4b1637dbda5f2b"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-003/directions/N/default.png",
+      "sha256": "5ad5bac52dbeb4b17da90c3a1a9ed591673a35b9ba46d889566806b14f77d002",
+      "bytes": 624156,
+      "git_blob_sha": "56d8c3001f75f96e981ab3a32ad25dea36b9abf8",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          101,
+          928,
+          923
+        ],
+        "margins": [
+          96,
+          101,
+          96,
+          101
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 74919,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-003/directions/N/pixel.png",
+      "sha256": "b123c857e9ce436d035287adb2f46bd8b7e05bd1985c538981635ab48a065dcd",
+      "bytes": 9091,
+      "git_blob_sha": "c4e01e1fe024972a5c25089e4b4f09fed839e4d8",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          12,
+          116,
+          115
+        ],
+        "margins": [
+          12,
+          12,
+          12,
+          13
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "5ad5bac52dbeb4b17da90c3a1a9ed591673a35b9ba46d889566806b14f77d002"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-003/directions/NE/default.png",
+      "sha256": "f2f77b10205f489027fc36f46724ee009fbceadaeed7c5fd987bbbb178b659bd",
+      "bytes": 581487,
+      "git_blob_sha": "1217b13b86c464a4db882bfeb140f638b5931a98",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          133,
+          928,
+          891
+        ],
+        "margins": [
+          96,
+          133,
+          96,
+          133
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 64050,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-003/directions/NE/pixel.png",
+      "sha256": "c5cc77dd4291b0d296e0a757826b5fbb2a7a89e502377ac1a62124a37abdc468",
+      "bytes": 8890,
+      "git_blob_sha": "063ea777a991419fb3951056808b541f52a92726",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          16,
+          116,
+          111
+        ],
+        "margins": [
+          12,
+          16,
+          12,
+          17
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "f2f77b10205f489027fc36f46724ee009fbceadaeed7c5fd987bbbb178b659bd"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-003/directions/E/default.png",
+      "sha256": "edd1389140b665f645828bf27005b71cf905cb4f4626bbb5f435bba995af27de",
+      "bytes": 598302,
+      "git_blob_sha": "536ecc15e13e6740968c782c6cb199f3f654de03",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          112,
+          96,
+          911,
+          928
+        ],
+        "margins": [
+          112,
+          96,
+          113,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 74706,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-003/directions/E/pixel.png",
+      "sha256": "a9914fb4d8b102e0598815ab2ebaea3846c835c9cd0f4374b7f59c93847b9245",
+      "bytes": 9823,
+      "git_blob_sha": "8eb5b7db23cc6be8690a2245aaab52a919c8be80",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          13,
+          12,
+          115,
+          116
+        ],
+        "margins": [
+          13,
+          12,
+          13,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "edd1389140b665f645828bf27005b71cf905cb4f4626bbb5f435bba995af27de"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-003/default.png",
+      "sha256": "1424b00e4bfe704606a31963a918b64022007d117a9bfda9e3e66ed52b570607",
+      "bytes": 690868,
+      "git_blob_sha": "626a77eb4794341a1085026b5e218e0eac50e2f4",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          77,
+          64,
+          946,
+          960
+        ],
+        "margins": [
+          77,
+          64,
+          78,
+          64
+        ],
+        "visible_longest_extent": 896,
+        "visible_rgb_colors": 70946,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-003/pixel.png",
+      "sha256": "52dd3046ae8d4e8939951a36afcdfa661468fe9cfa77fa29fce93ff27b00a7bc",
+      "bytes": 9968,
+      "git_blob_sha": "5c6ad44de0a483eb5a1a3bd5e1f339770c235e2a",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          12,
+          115,
+          116
+        ],
+        "margins": [
+          12,
+          12,
+          13,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "1424b00e4bfe704606a31963a918b64022007d117a9bfda9e3e66ed52b570607"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "E underside is broader than W: pitch continuity remains explicitly unresolved. Review candidate, not strict rigid-turn validation.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. Keep this exact frontal cap creature unchanged except restore the MISSING characteristic large rounded notch in the upper front rim. Cut a deep clearly semicircular U-shaped indentation into the rim immediately to the RIGHT of the central eye,matching reference species characteristic. It must read as an actual open rim notch,not a shallow wave or eyelid. Do not move/remove/add any of3eyes; preserve4ribbon tails,8radial inner folds,tan/lavendergray/cream mottling,frontal pose and fullbody transparent background. Only restore this structural rim notch.\n",
+      "raw_sha256": "0ad7c5575d26cad5414bb9f04dee54b1fb5b66d135a42e4e873f9a76d0742a86",
+      "raw_bytes": 922490,
+      "generation_reference_sha256": "3db19e95194f154c314b93b7d2356308f4fb7f3d4fb00d97f7c9ca1008f6a6b2",
+      "finished_sha256": "ba8b4b770d78dc5ceb4141a763d8cbc2b640cc53d9b8d1beddd132f97f30dc88"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact FRONT S0 sm-decay-003 as128x128 logical pixel art. Shallow inverted bell fungal cap,3rim eyes,large round notch immediately right of middle eye,8radial inner folds,4equalwidth tapered ribbon tails,no legs/wings/stalk/suckers. Same tan/lavendergray/cream mottling,silhouette,pose,proportions. Broad clusters,1px outline,hard edges,≤24colors,binaryalpha,padded transparent square104px extent.Not shrink filter,no text/shadow.\n",
+      "raw_sha256": "5fd000a4dfc38bc7be7f99e83083d6bd06fed1c299cec84da0bb98ffe76a0254",
+      "raw_bytes": 890654,
+      "generation_reference_sha256": "ba8b4b770d78dc5ceb4141a763d8cbc2b640cc53d9b8d1beddd132f97f30dc88",
+      "finished_sha256": "7cdbb4b5a59a7d2860a0d6e077339d4b9b523859973249c534ec7ca48e134444"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Rotate exact supplied frontal sm-decay-003 to LEFT FRONT THREE-QUARTER SW45. Whole shallow fungal bell faces viewer-left,near right rim foreground,far left rim recedes.3rim eyes rotate with cap,notch stays same physical location beside middle eye,opening angled downward now elliptical,8radial folds foreshortened,4ribbon tails attached beneath rotate with natural overlap. No legs/wings/stalk/suckers. Preserve tan/lavendergray/cream mottling,cap thickness,tail width/proportions,style and upper-left light. Fullbody transparent square padding,no text/shadow. Do not merely move pupils or mirror.\n",
+      "raw_sha256": "72d1b0c7b3d0376b64ea7ee4812dda7ada874fb5e9b157afdf03800d2ff28d01",
+      "raw_bytes": 1050087,
+      "generation_reference_sha256": "ba8b4b770d78dc5ceb4141a763d8cbc2b640cc53d9b8d1beddd132f97f30dc88",
+      "finished_sha256": "aae035cb307f0823fdec915bd94d431609f866c40d6a3a9c2375c5e4f2c671a3"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact LEFT FRONT SW45 sm-decay-003 as128x128 logical pixel art. Oblique shallow bellcap,3rim eyes,one large rounded notch,8radial inner folds,4equalwidth tapered ribbon tails,no stalk/legs/wings/suckers. Same tan/lavendergray/cream mottling,pose,silhouette,proportions. Broad clusters,1px outline,hard edges,≤24colors,binaryalpha,104px extent transparent padded square.Not shrink filter,no text/shadow.\n",
+      "raw_sha256": "5b386efe6588f68ed164f12535c8bd11bfa10be953f85eedcd6419882b74cd35",
+      "raw_bytes": 769005,
+      "generation_reference_sha256": "aae035cb307f0823fdec915bd94d431609f866c40d6a3a9c2375c5e4f2c671a3",
+      "finished_sha256": "94c489048d242fafcb3c014b8b2b086f81ee8564cb4c7f394c4b9afa11384486"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-decay-003 TRUE LEFT SIDE W90. Bellcap's opening points down and LEFT,side profile shows much narrower elliptical underside,far inner folds occluded by rim. Three rim eyes anatomically total,only near-side1or2 visible as side ovals,far eye hidden;one rounded notch rotates to far/front left rim not copied center.4ribbon tails remain with natural depth overlap. Same shallow tan/lavendergray/cream mottled cap,8radial folds anatomically,tailwidth,no legs/wings/stalk/suckers. Rotate entire body not just eyes,no mirror,upperleft light. Fullbody transparent square padding,no scene/text/shadow.\n",
+      "raw_sha256": "d82810cadf74a22cc8942b9649873956a85264bcb173eade3aa9cb1c516f26b7",
+      "raw_bytes": 966827,
+      "generation_reference_sha256": "ba8b4b770d78dc5ceb4141a763d8cbc2b640cc53d9b8d1beddd132f97f30dc88",
+      "finished_sha256": "ca3deadb19242ac80c4ae6ce22fc4997bf1133cdf474178b48017f9b71ae6240"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact LEFT SIDE W90 sm-decay-003 as128x128 logical pixel art. Cap side profile,opening down-left,narrow partly hidden8fold underside,2near rim eyes far third occluded,one rounded notch atleftfront,4tapered ribbon tails. Same tan/lavendergray/cream mottling,pose silhouette proportions,no stalk/legs/wings. Broad clusters,1px contour,hard edges,≤24colors,binaryalpha,padded transparent square104px extent.Not shrink filter,no text/shadow.\n",
+      "raw_sha256": "f8b4880f82a938b80e9ca1571f6b5d257fd69e2dabed9a08137b28929305cd29",
+      "raw_bytes": 783755,
+      "generation_reference_sha256": "ca3deadb19242ac80c4ae6ce22fc4997bf1133cdf474178b48017f9b71ae6240",
+      "finished_sha256": "53801ec3062e0a740bdbaee9c8721f54bd94a2fd69b0c49749563f45bc962c45"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-decay-003 LEFT REAR THREE-QUARTER NW135. Back of shallow bellcap,front opening points away upper-left/down. Broad exterior mottled rear dome dominates;front eyes and rounded front notch hidden behind rim,only a narrow underside sliver with radial folds visible under edge. Exactly4samewidth tapered ribbon tails attached underside with perspective overlap. No stalk/legs/wings/suckers. Same tan/lavendergray/cream texture,cap dimensions and style,upper-left light. Real rear-oblique geometry,not front with eyes deleted. Fullbody transparent square padded,no text/shadow.\n",
+      "raw_sha256": "82f6921cc0d0f6e33c971de548912b68c0f8e8f2dd1c4672030bfc82c64e5112",
+      "raw_bytes": 991487,
+      "generation_reference_sha256": "ba8b4b770d78dc5ceb4141a763d8cbc2b640cc53d9b8d1beddd132f97f30dc88",
+      "finished_sha256": "ae8fe66574828f3856acb53b1f87aa5046f527ac42f4c95d0a4b1637dbda5f2b"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact LEFT REAR NW135 sm-decay-003 as128x128 logical pixel art. Exterior mottled bellcap back,front3eyes/notch hidden,underside narrow sliver,4tapered ribbon tails same depth overlap,no legs/stalk/wings/suckers. Tan/lavendergray/cream palette and texture,exact silhouette proportions pose. Broad clusters,1px contour,hard edges,≤24colors,binaryalpha,padded transparent square104px extent.Not shrink filter,no text/shadow.\n",
+      "raw_sha256": "3f88248f56d278efb485a9a667d705c05dc365e6097aaa96c4f267bf4e110b3c",
+      "raw_bytes": 751287,
+      "generation_reference_sha256": "ae8fe66574828f3856acb53b1f87aa5046f527ac42f4c95d0a4b1637dbda5f2b",
+      "finished_sha256": "7889603368f245e19a13fde3c3aa22275e040decf9040f66d0a6f5f5051b8b8e"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-decay-003 STRAIGHT BACK N180. Centered symmetric rear of shallow bellcap dominates,opening tilted away/down so only narrow underside edge visible,all3front rim eyes and round front notch hidden behind cap.4ribbon tails underneath with consistent width tapered tips,all countable,no stalk/legs/wings/suckers. Same tan/lavendergray/cream mottling and cap proportions,handdrawn illustration,fixed upperleft light. Rear dome silhouette distinct from frontal exposed folds. Fullbody transparent square padding,no text/shadow.\n",
+      "raw_sha256": "e9071b9ec9f91e9fa91901b135d4ce9de5287fb48ee24e541eaa16741a97abdf",
+      "raw_bytes": 976961,
+      "generation_reference_sha256": "ba8b4b770d78dc5ceb4141a763d8cbc2b640cc53d9b8d1beddd132f97f30dc88",
+      "finished_sha256": "5ad5bac52dbeb4b17da90c3a1a9ed591673a35b9ba46d889566806b14f77d002"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact STRAIGHT BACK N180 sm-decay-003 as128x128 logical pixel art. Centered mottled rear cap,front3eyes/notch hidden,only narrow underside rim,4ribbon tails,no stalk/legs/wings. Same tan/lavendergray/cream texture,pose,silhouette,proportions. Broad clusters,1px outline,hard edges,≤24colors,binaryalpha,padded transparent square104px extent.Not shrink filter,no text/shadow.\n",
+      "raw_sha256": "eaa4fadd95026410077303525ecf786ac9eee5013362714327f1b4aaa2ca5fad",
+      "raw_bytes": 771242,
+      "generation_reference_sha256": "5ad5bac52dbeb4b17da90c3a1a9ed591673a35b9ba46d889566806b14f77d002",
+      "finished_sha256": "b123c857e9ce436d035287adb2f46bd8b7e05bd1985c538981635ab48a065dcd"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Take this STRAIGHT REAR creature and rotate camera45degrees around to its RIGHT REAR NE225 without changing camera elevation or tilting cap. Back dome remains dominant and ONLY a THIN underside sliver visible,do not expose radial center. Dome crown offset toward image-right,near left flank broad far right recedes.4ribbon tails same anatomy,3front eyes and notch hidden. Preserve exact cap proportions,tan/lavendergray/cream mottling,style,no added features. Fullbody transparent square padding,no text/shadow.\n",
+      "raw_sha256": "f29e927a060b634cebec7dbde06186c158ab6a0e5c816a1e59cfe6d8686513fd",
+      "raw_bytes": 1016237,
+      "generation_reference_sha256": "5ad5bac52dbeb4b17da90c3a1a9ed591673a35b9ba46d889566806b14f77d002",
+      "finished_sha256": "f2f77b10205f489027fc36f46724ee009fbceadaeed7c5fd987bbbb178b659bd"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact RIGHT REAR NE225 sm-decay-003 as128x128 logical pixel art. Dominant rear mottled cap crown right,thin underside sliver,no front eyes/notch visible,4equalwidth tapering ribbon tails,zero legs/stalk/wings. Same tan/lavendergray/cream texture,pose,silhouette,proportions. Broad clusters,1px outline,hard edges,≤24colors,binaryalpha,padded transparent square104px extent.Not shrink filter,no text/shadow.\n",
+      "raw_sha256": "d62ba672ee3a22cd4d8c9e1f645cfde4dd197e0ce1417ac9590ba1bcce365373",
+      "raw_bytes": 843007,
+      "generation_reference_sha256": "f2f77b10205f489027fc36f46724ee009fbceadaeed7c5fd987bbbb178b659bd",
+      "finished_sha256": "c5cc77dd4291b0d296e0a757826b5fbb2a7a89e502377ac1a62124a37abdc468"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Create ONE new E270 RIGHT SIDE view of this same sm-decay-003 fantasy creature, rotate yaw only ninety degrees from front so front eyes and cap opening face SCREEN RIGHT. Same shallow inverted bell cap, down-angled opening, mottled tan #D0A678 lavender-gray #79799A cream #EAE3CA, eight radial inner folds, THREE rim eyes total with far eye naturally hidden, ONE large rounded rim notch whose position stays attached to cap, FOUR equal-width ribbon tails tapering only at tips. No stalk, legs or wings. Strong side silhouette, cap crown towards left, opening compressed on right, near side eye and front edge eye visible. Preserve style and body proportions; no mirror operation, redraw this genuine new viewpoint. Transparent square, full body centered with generous padding, no floor, text or extra objects.\n",
+      "raw_sha256": "295c152c47508ce53d13a436a8eda4179958415d05dce00d4e4580bf52c695aa",
+      "raw_bytes": 946201,
+      "generation_reference_sha256": "ba8b4b770d78dc5ceb4141a763d8cbc2b640cc53d9b8d1beddd132f97f30dc88",
+      "finished_sha256": "edd1389140b665f645828bf27005b71cf905cb4f4626bbb5f435bba995af27de"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Make a single 128x128 logical pixel-art version of this exact E270 right-facing side sm-decay-003 creature. Preserve cap crown left, opening on right, two visible eyes with third hidden, large rim notch, eight foreshortened inner folds, FOUR ribbon tails, tan lavender-gray cream mottling, outline and proportions. Zero stalk legs wings. Broad pixel clusters, crisp 1px dark outlines, hard edges, ≤24 colors, binary alpha. Entire creature centered padded transparent square, logical body extent104px. No text, background, extra objects or pose change.\n",
+      "raw_sha256": "6f2e07328b7ee00be5f941bf76ae305c847d03c732465aad010d81c5959acfe6",
+      "raw_bytes": 927403,
+      "generation_reference_sha256": "edd1389140b665f645828bf27005b71cf905cb4f4626bbb5f435bba995af27de",
+      "finished_sha256": "a9914fb4d8b102e0598815ab2ebaea3846c835c9cd0f4374b7f59c93847b9245"
+    }
+  ]
+}
