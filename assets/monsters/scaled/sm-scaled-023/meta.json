@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "id": "sm-scaled-023",
+  "design_version": 2,
+  "catalog_path": "assets/monsters/catalog.json",
+  "design_status": "redesigned_candidate_for_review",
+  "original_catalog_v1_pass_claimed": false,
+  "design_delta_ja": "菱形3体節段積み→継ぎ目のない縦長楕円1体節、各段鱗→背の大中小盾鱗3枚。目2・脚4・尾0・忍耐強さを保持。",
+  "fixed_design": {
+    "id": "sm-scaled-023",
+    "name": "カサネリポ",
+    "body": "One continuous upright elongated oval body, wider at the base, with exactly three large rounded shield scales of distinct sizes staggered on the upper back. The scales are surface plates, never separate body segments or bands. Exactly two round eyes on the front, exactly four short rounded feet evenly under its base, no arms, ears, wings or tail. Thick matte scale skin.",
+    "pose": "Stand on four visibly separate feet, lean the body slightly toward image-left, face image-right in three-quarter view. Calm and patient.",
+    "palette": [
+      "#BCB3D8",
+      "#E4D7B8",
+      "#566A7D"
+    ],
+    "diff": "菱形3体節段積み→継ぎ目のない縦長楕円1体節、各段鱗→背の大中小盾鱗3枚。目2・脚4・尾0・忍耐強さを保持。",
+    "signatures": [
+      "single elongated oval body without seams",
+      "three staggered differently-sized shield scales on the back",
+      "four rounded short feet"
+    ],
+    "design_version": 2,
+    "original_catalog_v1_pass_claimed": false,
+    "status": "fixed_new_design",
+    "new_generation_reference": "none; original v1 images not reused",
+    "quantities_fixed_before_generation": true
+  },
+  "provenance": {
+    "tool": "built-in imagegen",
+    "expanded_prompts": {
+      "sm-scaled-023-normal-attempt001.txt": "Use case: stylized-concept. Asset: one original, gentle fantasy creature for a hand-drawn 2D creature-raising game.\nCreate exactly ONE new full-body creature, not based on any existing character.\nLocked v2 anatomy and materials: One continuous upright elongated oval body, wider at the base, with exactly three large rounded shield scales of distinct sizes staggered on the upper back. The scales are surface plates, never separate body segments or bands. Exactly two round eyes on the front, exactly four short rounded feet evenly under its base, no arms, ears, wings or tail. Thick matte scale skin.\nLocked pose and personality: Stand on four visibly separate feet, lean the body slightly toward image-left, face image-right in three-quarter view. Calm and patient.\nPalette roles primary / secondary / dark accent, respectively: #BCB3D8 / #E4D7B8 / #566A7D. Preserve the primary color on the main body, secondary on scales or tufts or soft wings, dark accent for contours and eyes.\nMandatory identifiers: single elongated oval body without seams; three staggered differently-sized shield scales on the back; four rounded short feet.\nStyle: clear variable-width dark colored outline, restrained three-step cel shading, soft upper-left lighting, modest tactile material cues, appealing proportions. No photorealism or glossy 3D rendering.\nComposition: full body, light top-down three-quarter view. Output MUST be exactly 1024 by 1024 pixels RGBA PNG. Center the creature inside the central 80 percent of the square; its longest extent 800–850 pixels and at least 80 completely transparent pixels on each edge. Show all specified appendages distinctly, no cropping.\nBackground: genuine transparent alpha, no drawn checkerboard, no ground, no shadow, no glow. Depict only the creature; no habitat, rocks, leaves, props, clothing, scenery, text, letters, logos, watermarks, frames or extra anatomy.\n",
+      "sm-scaled-023-pixel-attempt001.txt": "Use case: style-transfer. Redraw the exact creature in the input as authentic deliberately designed pixel art. Input is structural identity reference for sm-scaled-023 v2, SHA256 622030cf120434aff2a9ca1994f2a654b21211901541d116df745e020c295e97.\nChange only the medium. Preserve one upright elongated oval body, three differently sized rounded shield scales staggered on the back, two eyes, and exactly four rounded feet. No arms, tail, ears, wings, seams or body segments. Preserve the exact pose and color placement of the reference, facing image-right. Palette primary #BCB3D8, secondary #E4D7B8, accent #566A7D.\nOutput exact 128 by 128 RGBA PNG master, not an upscaled preview. Regular 1 pixel grid, stepped contours, deliberate color clusters, 1–2 pixel outlines, no more than 32 opaque RGB colors, binary alpha 0/255 only. No blur, gradients, antialiasing or semitransparency. Simplify scale texture while retaining the three major scales and full anatomy.\nFull single creature centered, longest extent 100–108 pixels, at least 10 transparent pixels on all sides. Genuine transparency; no ground, shadow, glow, scenery, text, logos, watermark or additional objects.\n"
+    },
+    "pixel_reference_normal_sha256": "622030cf120434aff2a9ca1994f2a654b21211901541d116df745e020c295e97",
+    "original_preservation": [
+      {
+        "file_name": "sm-scaled-023-normal-attempt001.png",
+        "bytes": 1023150,
+        "sha256": "622030cf120434aff2a9ca1994f2a654b21211901541d116df745e020c295e97"
+      },
+      {
+        "file_name": "sm-scaled-023-pixel-attempt001.png",
+        "bytes": 789151,
+        "sha256": "54d697790f98c67b61afe803d063b551be9678f1c2907e4a3ae09c5323aef0a2"
+      }
+    ],
+    "local_postprocessing": "Non-destructive authorized technical sizing, transparent padding, alpha cleanup and pixel palette quantization. No procedural redrawing."
+  },
+  "assets": {
+    "default": {
+      "path": "assets/monsters/scaled/sm-scaled-023/default.png",
+      "bytes": 626487,
+      "sha256": "790de95e67ef90e9452365f98b2443fa2fe2e299c6a4ec0eb0824a40077d3240",
+      "source_sha256": "622030cf120434aff2a9ca1994f2a654b21211901541d116df745e020c295e97",
+      "technical_qa": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          195,
+          80,
+          829,
+          944
+        ],
+        "margins": [
+          195,
+          80,
+          195,
+          80
+        ],
+        "visible_extent": 864,
+        "alpha_values": 256,
+        "visible_rgb_colors": 31708
+      },
+      "normalization": {
+        "alpha_threshold": 8,
+        "resize": "LANCZOS",
+        "crop": [
+          236,
+          83,
+          1042,
+          1182
+        ],
+        "target_extent": 864,
+        "quantization": null
+      }
+    },
+    "pixel": {
+      "path": "assets/monsters/scaled/sm-scaled-023/pixel.png",
+      "bytes": 9037,
+      "sha256": "dc94126fd49cf9ca66ea5d1b150a38cbb0750d9753650cb207a79399b0bebc45",
+      "source_sha256": "54d697790f98c67b61afe803d063b551be9678f1c2907e4a3ae09c5323aef0a2",
+      "technical_qa": {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          23,
+          10,
+          104,
+          118
+        ],
+        "margins": [
+          23,
+          10,
+          24,
+          10
+        ],
+        "visible_extent": 108,
+        "alpha_values": 2,
+        "visible_rgb_colors": 27
+      },
+      "normalization": {
+        "alpha_threshold": 128,
+        "resize": "NEAREST",
+        "crop": [
+          236,
+          95,
+          1058,
+          1191
+        ],
+        "target_extent": 108,
+        "quantization": "MEDIANCUT32 no dither"
+      }
+    }
+  },
+  "review": {
+    "technical_checks": "PASS",
+    "paired_identity": "PASS after finishing, independently reviewed",
+    "catalog_v1_conformance": "not claimed; substantively revised design v2",
+    "final_user_acceptance": "pending",
+    "runtime_visual_check": "not performed",
+    "limitations": [
+      "Fine texture and smooth lighting remain in the generated normal artwork; final art-direction acceptance is pending.",
+      "Pixel palette reduced to at most 32 visible colors; final in-game appearance not tested."
+    ]
+  }
+}
