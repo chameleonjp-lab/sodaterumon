@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "id": "sm-micro-005",
+  "asset_type": "recovery_reselected_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "original_direction_basis": "Existing front image has both upper-corner eyes facing viewer. Existing root normal/pixel bytes remain unchanged.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-005/default.png",
+      "sha256": "e4a43439d739096b6f51080d6e5a5c03683bd37b1fac661cd7c0ad849fbba0e0",
+      "bytes": 647218,
+      "git_blob_sha": "e1fd22867b3bff7e706fffc210752fc219d41cbb",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        186,
+        943,
+        838
+      ],
+      "min_margin": 80,
+      "visible_extent": 863,
+      "visible_colors": 105549,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-005/pixel.png",
+      "sha256": "2084c388a2df65cd18382ded1d215c505dee11215c1481be18019c6b026f85e9",
+      "bytes": 8103,
+      "git_blob_sha": "87e852862472809d2f64b9bfd0ee2402793afcc7",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        19,
+        118,
+        108
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-005/directions/SW/default.png",
+      "sha256": "a76996cb2186ab3a3472966effb06ccd3ed7f259db282bd51ee3996d71cee8eb",
+      "bytes": 730532,
+      "git_blob_sha": "4447604db416b933804b582275e424361c06049c",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        89,
+        80,
+        935,
+        944
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 145425,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-005/directions/SW/pixel.png",
+      "sha256": "90e577814211dfed06d3a12564701f7d6288abb477b3474a7166d9fe73b08268",
+      "bytes": 9205,
+      "git_blob_sha": "5d448b9c7297fe5fe0d990f234839d3892aca976",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        10,
+        116,
+        118
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-005/directions/W/default.png",
+      "sha256": "41c6270474944d05f3e2cf8bd76d0c4b30edf91a216e911ea6e84d2ea267da26",
+      "bytes": 279478,
+      "git_blob_sha": "24ca4311ab1244fab764a6b4fa1c2168e39fe84e",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        371,
+        80,
+        653,
+        944
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 70039,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-005/directions/W/pixel.png",
+      "sha256": "130092f9c5a8a6cbdac9c4e5916af2a94d3d01d99bbdfb4a7786908e2d3e3006",
+      "bytes": 4288,
+      "git_blob_sha": "cfa23e06890cb49c705b2d15aecbe301af35521b",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        45,
+        10,
+        83,
+        118
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-005/directions/NW/default.png",
+      "sha256": "9c3f96c61a3f700d895cea7783b2c7d2805494dacd9f632cc430f0fae0a856ba",
+      "bytes": 670427,
+      "git_blob_sha": "3b16647def5b6fc3958c12d4d52ac338ec618c5b",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        124,
+        944,
+        899
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 118708,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-005/directions/NW/pixel.png",
+      "sha256": "a62efde5b9707022301f8bc228d0e54b281b722cbd637827e0a8f98fa931fd64",
+      "bytes": 8674,
+      "git_blob_sha": "ef7badd227ab01a90452d414337eef56e860bea4",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        14,
+        118,
+        114
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-005/directions/N/default.png",
+      "sha256": "7c59995d1852faa3e09442a8b0dca2340b2b2a1c806f7b4c0e140f3e343ee2f3",
+      "bytes": 601381,
+      "git_blob_sha": "62d509a64d7ed8c1a14737ffa9c58e39fd631f5a",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        199,
+        944,
+        824
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 116010,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-005/directions/N/pixel.png",
+      "sha256": "4a8271cea0f637fe4ff3e8447bf038c147e08e6728fcbba4c06c569e60a58580",
+      "bytes": 8284,
+      "git_blob_sha": "eabc24402960cc0d803a0fc70f1183ad5f2c7e67",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        19,
+        118,
+        108
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-005/directions/NE/default.png",
+      "sha256": "c975286e4df78c1756c3c491a06d10082423122cdcd72c34480d7150f3a43fb7",
+      "bytes": 712834,
+      "git_blob_sha": "f583e99699d5ef3105038d8527338a02f7993115",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        90,
+        944,
+        933
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 141522,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-005/directions/NE/pixel.png",
+      "sha256": "76a065f93dbdad51b1496da83de59a6cf283c599ab13bcf886487f208dc261e6",
+      "bytes": 8575,
+      "git_blob_sha": "b1140d76d07d662fc538edf22c6a96f08724fea8",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        11,
+        118,
+        117
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-005/directions/E/default.png",
+      "sha256": "fd9938a72234161d80af233b4a95cdb7611e0157a350806f68b427c9b835e092",
+      "bytes": 293150,
+      "git_blob_sha": "031d992a05e542345c54f5c687df882e190a6a44",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        368,
+        80,
+        655,
+        944
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 77619,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-005/directions/E/pixel.png",
+      "sha256": "216c8a7468a8e66eed03adc5849534d2597ca1ee67580ef5ad6c540b7af80bd0",
+      "bytes": 4434,
+      "git_blob_sha": "4e321b1f12d7c16365e1ba26b1c8da16e10060cb",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        44,
+        10,
+        84,
+        118
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-005/directions/SE/default.png",
+      "sha256": "4cc5055042c81050f423c1ba395e8784a202f1e5033b0c78629f7277525ba099",
+      "bytes": 701198,
+      "git_blob_sha": "713457d13c1286ff6c8d5ff8444df4a0f29246f0",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        104,
+        80,
+        919,
+        944
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 132387,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-005/directions/SE/pixel.png",
+      "sha256": "cbc2e008cfc645223a48d4bd41a54059ff4e37e820a66804769749bd541ba769",
+      "bytes": 9710,
+      "git_blob_sha": "3dcb6dcfad1dcc3b33bd4925b0277669833e7be5",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        11,
+        10,
+        116,
+        118
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    }
+  ],
+  "selection_provenance": [
+    {
+      "direction": "SW",
+      "selection_basis": "Frontal eyes visible; right edge larger and nearer, left edge recedes; matching normal and pixel.",
+      "provenance_status": "Recovery-time visual reselection. Previous adopted hash identity not proven; old generation prompt/reference lineage unrecovered."
+    },
+    {
+      "direction": "W",
+      "selection_basis": "Narrow left profile; eye and visible corner appendages at left, matching normal and pixel.",
+      "provenance_status": "Recovery-time visual reselection. Previous adopted hash identity not proven; old generation prompt/reference lineage unrecovered."
+    },
+    {
+      "direction": "NW",
+      "selection_basis": "Rear-left projection, no eyes; left edge nearer and right edge recedes, matching normal and pixel.",
+      "provenance_status": "Recovery-time visual reselection. Previous adopted hash identity not proven; old generation prompt/reference lineage unrecovered."
+    },
+    {
+      "direction": "N",
+      "selection_basis": "Broad symmetric rear grid without eyes, matching normal and pixel.",
+      "provenance_status": "Recovery-time visual reselection. Previous adopted hash identity not proven; old generation prompt/reference lineage unrecovered."
+    },
+    {
+      "direction": "NE",
+      "selection_basis": "Rear-right projection, no eyes; right edge nearer and left edge recedes, matching normal and pixel.",
+      "provenance_status": "Recovery-time visual reselection. Previous adopted hash identity not proven; old generation prompt/reference lineage unrecovered."
+    },
+    {
+      "direction": "E",
+      "selection_basis": "New whole-body right profile, eye and visible appendages at right; corresponding pixel separately generated from corrected normal.",
+      "provenance_status": "New normal and corresponding pixel, full prompt/raw/reference hashes below."
+    },
+    {
+      "direction": "SE",
+      "selection_basis": "Frontal eyes visible; left edge larger and nearer, right edge recedes; matching normal and pixel.",
+      "provenance_status": "Recovery-time visual reselection. Previous adopted hash identity not proven; old generation prompt/reference lineage unrecovered."
+    }
+  ],
+  "new_generation_provenance": [
+    {
+      "direction": "E",
+      "type": "normal",
+      "prompt": "Use case: identity-preserve. Create ONE corrected EAST/right-side profile view of the exact organism in image1. Image1 is original FRONT: one upright flat sheet of NINE rounded aqua cells in a 3-by-3 grid, pink membranes, TWO eyes on FRONT of upper-left and upper-right cells, FOUR corner appendages with yellow tips. Image2 is a recovered LEFT-facing profile for shape/style reference only and is the WRONG facing for E. Rotate the whole organism to the opposite RIGHT-facing profile: the front surface and visible eye must be on the SCREEN-RIGHT edge, the back membrane on the SCREEN-LEFT edge. The corner appendages must naturally rotate with the full body, not remain left-facing. Show a narrow side silhouette three cells high, other columns and far appendages naturally occluded behind; do not erase anatomy or create a new 3-cell species. Preserve thickness, cell proportions, aqua/pink/yellow palette, glossy illustration style, upright pose and camera elevation. This is whole-body yaw, not moving one eye onto the back. One centered transparent 1024 square sprite, full extremities and generous margin, no sheet/text/ground/shadow.",
+      "sha256": "fd9938a72234161d80af233b4a95cdb7611e0157a350806f68b427c9b835e092",
+      "raw_sha256": "e80242a276b1c8c2eec4e16eabf0f3f1df066513c87e57f16e7d21055c2a4659",
+      "reference_hashes": [
+        "e4a43439d739096b6f51080d6e5a5c03683bd37b1fac661cd7c0ad849fbba0e0",
+        "41c6270474944d05f3e2cf8bd76d0c4b30edf91a216e911ea6e84d2ea267da26"
+      ]
+    },
+    {
+      "direction": "E",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this ONE character into ONE crisp 128x128 pixel sprite, exact same RIGHT-facing E profile. Preserve the visible eye at RIGHT edge of top cell, pink back at LEFT edge, three stacked visible cell edges, two visible yellow-tipped corner appendages curving RIGHT, other cells/appendages occluded. Same aqua/pink/cream/yellow palette and proportions. No redesign, no reversal, no additional eye, no grid or sprite sheet. Maximum31 opaque colors, binary transparency, hard pixel clusters without blur or antialiasing. Full character centered with generous transparent margin, no floor/shadow/text.",
+      "sha256": "216c8a7468a8e66eed03adc5849534d2597ca1ee67580ef5ad6c540b7af80bd0",
+      "raw_sha256": "7b17bc8c105a1ba8d1abedcb94fd3f80943906ff2695288b6b0e2b10f6b15835",
+      "reference_hashes": [
+        "fd9938a72234161d80af233b4a95cdb7611e0157a350806f68b427c9b835e092"
+      ]
+    }
+  ],
+  "generation_scope": "Two new E images were generated for the direction correction. The subsequent full-set reselection used those images and preserved recovered candidates without further generation.",
+  "historical_provenance_gap": "Old accepted manifest and old prompt/reference lineage for six reused direction pairs were not recovered. Current selection is not claimed identical to the historical selection.",
+  "previous_quality_hold": "Both previous side candidates showed the eye at the left edge. New E corrects whole-body facing, placing its eye and visible appendages at the right edge.",
+  "processing": {
+    "reused_six_pairs": "No image change during recovery-time reselection; byte-identical to recovered candidate files.",
+    "new_E_normal": "Low-alpha speckle cleanup below8, proportional LANCZOS fit to visible864, centered transparent1024; no shape redraw.",
+    "new_E_pixel": "Nearest128, alpha threshold128,31-color quantization without dithering, transparent RGB cleared, proportional nearest fit to visible108, centered128; no shape redraw."
+  },
+  "qa": {
+    "numeric_hash": "independent_passed_16_slots",
+    "visual": "Parent eight-pair review plus E full-resolution corrected E normal/pixel and recovered W pixel inspection confirms opposite eye-bearing profile edges and normal/pixel correspondence. Other selected views reviewed as an eight-pair sheet.",
+    "limitations": [
+      "Historical adopted hashes remain unconfirmed for reused candidates",
+      "Exact45-degree yaw and inferred thickness of the cell sheet unverified",
+      "Far-side cell and appendage occlusion is inferred from the single original view"
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending"
+  }
+}

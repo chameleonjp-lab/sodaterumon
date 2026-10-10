@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "id": "sm-fanged-025",
+  "asset_type": "recovery_reselected_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/S/default.png",
+      "sha256": "1a456b881f74086309a276423d767a7649711a9f1205ec4820c2e3b5323951da",
+      "bytes": 678936,
+      "git_blob_sha": "78a57774820b88c4e1ca41e01be28670625f209b",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        181,
+        928,
+        843
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 50990,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/S/pixel.png",
+      "sha256": "e9d28a02ccb99a2d7080eeca715498c07385c4a3d01c286db9ecc9f1accf28d1",
+      "bytes": 11758,
+      "git_blob_sha": "2199e629ac15cc7565b6c124e5964e56f7e76c09",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        21,
+        116,
+        106
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/SW/default.png",
+      "sha256": "10808b6b24097f3d2a464a176c570248feee45abe4e26c8bfe4884c4b6058cdb",
+      "bytes": 481168,
+      "git_blob_sha": "2ac91b7fb7cc4fafc1e0e90b487b0333ce384af3",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        277,
+        928,
+        747
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 33742,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/SW/pixel.png",
+      "sha256": "306c5d8c1e2dc6bd743229b00513e5b5c08864e4965ce9eb34f375913e1ffe82",
+      "bytes": 8503,
+      "git_blob_sha": "6ce72206f7c9795039addc758efe7e233bb68663",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        34,
+        116,
+        94
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/W/default.png",
+      "sha256": "a53c3b1e27db60ad5dd9b6fd433ebba21d1eb1542757b6f797ce05b03cc1c67d",
+      "bytes": 419919,
+      "git_blob_sha": "67e0310650f865c357fb030fe2b7552eb0c84eb0",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        299,
+        928,
+        724
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 33586,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/W/pixel.png",
+      "sha256": "f2c0b2915cd14627db74c78ab105b78c8161a5a894a91f2da9c1574789f493fe",
+      "bytes": 7364,
+      "git_blob_sha": "615cda64d1a2eccfa3168cf98a76b622e84f703a",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        38,
+        116,
+        90
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/NW/default.png",
+      "sha256": "cf87a0cbf3d0cfbb6b37aa7cb2a5aed4dda39a624ce99eba7249ff1c6832254d",
+      "bytes": 447075,
+      "git_blob_sha": "9bc8e17152a94c9f1edc2d53de367ad18effdb05",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        247,
+        928,
+        777
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 29882,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/NW/pixel.png",
+      "sha256": "4bfa92cc94ac32e9540ecf56ed25e9fe54dcac921b6c018ea5dbb021bebd77dc",
+      "bytes": 9144,
+      "git_blob_sha": "c582e63b90b90e4380b988453f1f36f7f1433036",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        27,
+        116,
+        100
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/N/default.png",
+      "sha256": "b9861ccd202dedb3f96f2c1ce27baec1c523f5d3a6a39a6d5f06ff5cc4e728db",
+      "bytes": 789572,
+      "git_blob_sha": "60dcc09de594e1e0119bc8af2ed27d20b893ed50",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        115,
+        928,
+        909
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 52449,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/N/pixel.png",
+      "sha256": "f94bc9737ec87e8890a260d94bfbb694102d52a8a6ede4ccb2e216a1ba4fac2c",
+      "bytes": 12879,
+      "git_blob_sha": "6d7d67b9c2d6ce77bfca708ed1e72adbbbf0c37b",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        13,
+        116,
+        114
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/NE/default.png",
+      "sha256": "3affeb0cfa29ab0f66f75b191d4e9e2583c59e85a7f22a5ea725a332bd292f15",
+      "bytes": 417468,
+      "git_blob_sha": "aa9b43cd5842edf52f92aaf9d6fdcb15b65d0756",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        257,
+        928,
+        766
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 29724,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/NE/pixel.png",
+      "sha256": "c5397a27f9dad3f0d75ae0bf223572accd7c09f37b78e50dba44c4036be62a83",
+      "bytes": 7821,
+      "git_blob_sha": "9e105f6acfe651d2f5ea1101eedb5d6851ac6645",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        30,
+        116,
+        98
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/E/default.png",
+      "sha256": "0dce77e2e1ebbd959e5ba75605e6904d03dce4ac835973201a5e509bbffce90b",
+      "bytes": 389546,
+      "git_blob_sha": "eef852f0fb0cc1863d918a02d844a8e811e6ea86",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        315,
+        928,
+        708
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 29007,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-025/directions/E/pixel.png",
+      "sha256": "2207eb05cef9f5de3021fca900c6589cc3d75990f362673a5e082c0a8dbbd447",
+      "bytes": 7637,
+      "git_blob_sha": "1aa61821ac4cff66e83ad84971dcff397153a98b",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        38,
+        116,
+        90
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-025/default.png",
+      "sha256": "57d7da1c6b508ea77bad3a1fa56fd0d4eaa1b36648a075fa474f9839a8935e14",
+      "bytes": 489788,
+      "git_blob_sha": "bf845c134ce2f2e50505a9ed8263b8459e079ac0",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        287,
+        944,
+        736
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 33729,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-025/pixel.png",
+      "sha256": "42acd0010daef28f610e8048a433695ca56f45a1fa138caa3a9df14c86e1d76c",
+      "bytes": 6189,
+      "git_blob_sha": "3069a9a717179f8c56d6cb20840453078d3c150d",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        8,
+        34,
+        120,
+        94
+      ],
+      "min_margin": 8,
+      "visible_extent": 112,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    }
+  ],
+  "selection_provenance": [
+    {
+      "direction": "S",
+      "selection_basis": "Front view: two eyes and paired fan tusks symmetric, front paws nearest and hind body behind; normal/pixel match.",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hash not proven; original prompt/reference lineage unrecovered."
+    },
+    {
+      "direction": "SW",
+      "selection_basis": "Front-left oblique, two eyes/tusks visible with far face narrowed; head at left and rear to right, same four-paw projection in pair.",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hash not proven; original prompt/reference lineage unrecovered."
+    },
+    {
+      "direction": "W",
+      "selection_basis": "New targeted N camera/occlusion or W strict profile correction; paired new pixel references corrected normal.",
+      "provenance_status": "New generation prompt/raw/reference hashes listed below."
+    },
+    {
+      "direction": "NW",
+      "selection_basis": "Rear-left oblique, face hidden and short tail on right, head recedes upper-left; pair agrees.",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hash not proven; original prompt/reference lineage unrecovered."
+    },
+    {
+      "direction": "N",
+      "selection_basis": "New targeted N camera/occlusion or W strict profile correction; paired new pixel references corrected normal.",
+      "provenance_status": "New generation prompt/raw/reference hashes listed below."
+    },
+    {
+      "direction": "NE",
+      "selection_basis": "Rear-right oblique, face hidden, tail on left and head recedes upper-right; pair agrees.",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hash not proven; original prompt/reference lineage unrecovered."
+    },
+    {
+      "direction": "E",
+      "selection_basis": "Right side candidate, one eye and near fan tusk visible, body stretched horizontally; pair agrees, exact angle remains inferred.",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hash not proven; original prompt/reference lineage unrecovered."
+    }
+  ],
+  "new_generation_provenance": [
+    {
+      "direction": "N",
+      "prompt": "Use case: identity-preserve. Show exactly this same creature from directly BEHIND at the SAME modest camera elevation as reference, roughly 15 degrees above horizontal. Rotate only yaw180 from front, no overhead camera. Rear silhouette should be broad and low, not tall: hind haunch fills foreground, front head immediately behind it is largely hidden, only the crown and ears visible ABOVE the rear haunch. The longitudinal body axis points straight away, strongly foreshortened, not laid out vertically as two top-view circles. Keep feet on a horizontal ground level with two near hind paws and two far front paws naturally occluded. One short tail attached centrally behind, slightly curled to one side. Zero visible eyes/nose/tusks from behind. Same two body masses, four paws, two ears, slate-blue layered fur with cream patches, same body proportions and gentle crouch as source. No extra anatomy, wings or text. One full-body sprite centered on genuine transparency with ample margin, same illustrated style.",
+      "type": "normal",
+      "sha256": "b9861ccd202dedb3f96f2c1ce27baec1c523f5d3a6a39a6d5f06ff5cc4e728db",
+      "raw_sha256": "f2069d55e58731848ebcf71a98acc268934aa45b1455c71905822835b64f3e4f",
+      "reference_hashes": [
+        "57d7da1c6b508ea77bad3a1fa56fd0d4eaa1b36648a075fa474f9839a8935e14"
+      ]
+    },
+    {
+      "direction": "N",
+      "prompt": "Use case: style-transfer. One crisp pixel-art sprite of exactly image1's creature and N pose. Image1 is the identity/pose target; image2 is only the original pixel palette/style. Preserve exact silhouette, proportions and occlusion. Slate-blue layered fur, cream patches, two body masses, four broad paws, two ears and one short tail. Straight rear, low camera angle with near haunch occluding most of front head, no visible eyes/nose/tusks. Preserve rear paws and tail curl. Do not show extra body top surfaces or turn to an oblique view. Crisp low-resolution clusters, at most32 visible colors, no antialiasing/gradients. Transparent background, whole figure centered with generous margin, no text or extra parts.",
+      "type": "pixel",
+      "sha256": "f94bc9737ec87e8890a260d94bfbb694102d52a8a6ede4ccb2e216a1ba4fac2c",
+      "raw_sha256": "87b92954249c475ce1badc57c27a6c7a26094715cd55fd764072c2ea827ce917",
+      "reference_hashes": [
+        "f2069d55e58731848ebcf71a98acc268934aa45b1455c71905822835b64f3e4f",
+        "42acd0010daef28f610e8048a433695ca56f45a1fa138caa3a9df14c86e1d76c"
+      ]
+    },
+    {
+      "direction": "W",
+      "prompt": "Use case: precise-object-edit. Image1 is the existing candidate to correct; image2 is the original identity and camera reference, not replacement pose. Correct only yaw to strict LEFT PROFILE, not front-left three-quarter: muzzle points exactly screen left; just ONE near eye and ONE near fan-shaped tusk visible, far eye and far tusk naturally hidden behind muzzle. Front paws overlap in depth more strongly. Keep same modest source camera elevation and full body length. Preserve the exact same individual: two connected furry body masses, larger front head/chest and round rear haunch, exactly four short broad paws with slate toe tips, two small round ears, two dark eyes and two pale fan-shaped tusks on FRONT only, one short rear tail. Keep slate-blue layered fur with cream patches/underside and original proportions, no extra segmentation or parts. Preserve body attachment roots, gentle crouch, dark outline and soft cel shaded game illustration. Center whole figure with generous transparent margin. No text or scenery.",
+      "type": "normal",
+      "sha256": "a53c3b1e27db60ad5dd9b6fd433ebba21d1eb1542757b6f797ce05b03cc1c67d",
+      "raw_sha256": "b686057dcb4bba2fae7e035f844f637d762c7c1950c1996fd7112b662a0a56a9",
+      "reference_hashes": [
+        "2b72e16117676ba8db7a6ed418cf176e56af47408b76df08cfc7b03d40124c6c",
+        "57d7da1c6b508ea77bad3a1fa56fd0d4eaa1b36648a075fa474f9839a8935e14"
+      ]
+    },
+    {
+      "direction": "W",
+      "prompt": "Use case: style-transfer. One crisp pixel-art sprite of exactly image1's creature and W pose. Image1 is the identity/pose target; image2 is only the original pixel palette/style. Preserve exact silhouette, proportions and occlusion. Slate-blue layered fur, cream patches, two body masses, four broad paws, two ears and one short tail. Strict left profile, exactly one near eye and one near fan-shaped tusk visible, far facial features hidden, paws overlap as target. Do not show extra body top surfaces or turn to an oblique view. Crisp low-resolution clusters, at most32 visible colors, no antialiasing/gradients. Transparent background, whole figure centered with generous margin, no text or extra parts.",
+      "type": "pixel",
+      "sha256": "f2c0b2915cd14627db74c78ab105b78c8161a5a894a91f2da9c1574789f493fe",
+      "raw_sha256": "821da238c703e51657656ba388724ba1d71fb65d64072ddacc15a793550cf70f",
+      "reference_hashes": [
+        "b686057dcb4bba2fae7e035f844f637d762c7c1950c1996fd7112b662a0a56a9",
+        "42acd0010daef28f610e8048a433695ca56f45a1fa138caa3a9df14c86e1d76c"
+      ]
+    }
+  ],
+  "historical_provenance_gap": "The previous adopted 14-file manifest and original generation prompts/reference hashes were not recovered for reused S/SW/NW/NE/E pairs. This is a current visual reselection, not proof of historical adoption.",
+  "technical_finish": "alpha<8 clear, uniform crop/resize/pad; pixel threshold128 and31color no dither; no shape redraw",
+  "qa": {
+    "numeric_hash": "independent_passed_16_slots",
+    "visual": "Parent eight-pair comparison and E full-resolution N/W normal and pixel inspection confirms rear body occlusion, rear eye absence, tail and ear correspondence, and shortened far tusk in W. N rear volume and elevation remain inferred; precise fixed-camera continuity is unverified.",
+    "limitations": [
+      "Historical adoption equivalence is unproven",
+      "Five reused pairs lack original prompt/reference lineage",
+      "Rear volume, exact angles and fixed leg-root projection remain inferred"
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending"
+  }
+}
