@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "id": "sm-enigma-012",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-enigma-012-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-enigma-012 / ナナカサル / 謎体 (enigma)\nBody and exact anatomy: 体幹7節の平たい円片が階段状のジグザグで重なる形。脚2本、各片に目1個で計7個、翼0枚、尾0本\nMaterials and biological motif: 厚みを小分けにする柔らかな円膜。段差の少ない石畳で一片ずつ位置をずらして進む\nPrimary, secondary, accent colors respectively: #C6A8B1; #739EA2; #E4D998\nThree mandatory visual identifiers: 奇数番の円片は左、偶数番は右へずれる; 中央の第四片だけほかより大きい; 脚は第一片と第七片の下面に1本ずつ付く\nPose: 七片のジグザグを横から見せ、前後の二脚で支える\nTemperament to convey through expression or posture: 根気強い。一枚も置き去りにせず順に進める. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 七片を縦一列にそろえない; 目を一つの顔にまとめない; 円片を硬貨や食器にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-enigma-012-default-attempt002-prompt": "Use case: precise-object-edit\nInput image 1 is the exact edit target, sm-enigma-012. Correct the positions of the seven soft flat circular body segments to the catalog's alternating stair-step zigzag: segments 1,3,5,7 are shifted left and segments 2,4,6 are shifted right, so the seven centers visibly alternate left-right-left-right-left-right-left rather than travelling monotonically along a diagonal. Preserve the order and connected overlapping continuity, exactly seven segments and one eye on each (seven eyes), only the fourth segment larger, only two legs attached beneath the first and seventh segments, no wings and no tails. Preserve palette roles #C6A8B1, #739EA2, #E4D998, organic soft membrane material, and side-visible staggered pose. Also simplify lighting into clearly separated three-step cel shading per material, removing blended multi-layer highlights. Keep all body parts visible and centered, genuine transparent background, no scenery or cast shadow, text or new structures. The discs are not coins or dishes.",
+      "sm-enigma-012-default-attempt003-prompt": "Use case: precise-object-edit\nInput image 1 is the current sm-enigma-012 edit target. Change only the arrangement of the seven body discs to make the required alternating zigzag clearly visible. Do not leave the discs descending along one continuous left-to-right diagonal. Use a common near-vertical body axis in the image: disc centers alternate LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT from first/top to seventh/bottom, with three clear leftward returns after discs 2,4,6. The first, third, fifth and seventh disc centers should align in a left column, and second, fourth and sixth centers in a right column, with each adjacent pair still visibly overlapping/connected. This is seven staggered circular membranes, not a vertical single-file column. Preserve seven discs, seven eyes one per disc, fourth disc only larger, two legs under the first and seventh discs, no wings or tails, palette roles and current simplified three-step cel shading. Full body on genuine transparent background with clear padding; no props, text, added anatomy or scene.",
+      "sm-enigma-012-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-enigma-012; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-enigma-012 / ナナカサル / 謎体 (enigma)\nLocked body and anatomy: 体幹7節の平たい円片が階段状のジグザグで重なる形。脚2本、各片に目1個で計7個、翼0枚、尾0本\nLocked material cues: 厚みを小分けにする柔らかな円膜。段差の少ない石畳で一片ずつ位置をずらして進む\nLocked palette roles, primary/secondary/accent: #C6A8B1; #739EA2; #E4D998\nAll three identifiers must remain recognizable: 奇数番の円片は左、偶数番は右へずれる; 中央の第四片だけほかより大きい; 脚は第一片と第七片の下面に1本ずつ付く\nLocked pose: 七片のジグザグを横から見せ、前後の二脚で支える\nLocked temperament/expression: 根気強い。一枚も置き去りにせず順に進める. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 七片を縦一列にそろえない; 目を一つの顔にまとめない; 円片を硬貨や食器にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "903c1a4ecca79ae448d7d126908c1bda21540d00f8696862589c7d85b662160c",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-enigma-012-default-attempt001-original.png",
+          "bytes": 811714,
+          "sha256": "6009abd1fd77f7f353375198305661b8bcd6be026bdbeea95915e56cbab69caf",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-012-default-attempt002-original.png",
+          "bytes": 744238,
+          "sha256": "27f3804c385ba2ff13343c40fe1b5361b9d0ab1b295347e7ab6c773c6860b27c",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-012-default-attempt003-original.png",
+          "bytes": 860138,
+          "sha256": "dc2333e66c5156bf5c437c629e9d293a4d651e0bb203927bde3a322053e1e34a",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-012-pixel-attempt001-original.png",
+          "bytes": 673835,
+          "sha256": "d5dacb283d22365677c5cadea3f5bea9777fefb35bc2170f51cde15a7b4ae4f3",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/enigma/sm-enigma-012/default.png",
+      "sha256": "903c1a4ecca79ae448d7d126908c1bda21540d00f8696862589c7d85b662160c",
+      "bytes": 463475,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        203,
+        80,
+        820,
+        944
+      ],
+      "transparent_margins": [
+        203,
+        80,
+        204,
+        80
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/enigma/sm-enigma-012/pixel.png",
+      "sha256": "439f7f8584d674102c95499ba77e3eaed8db57e627e136974d03024723256a21",
+      "bytes": 7490,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        27,
+        10,
+        101,
+        118
+      ],
+      "transparent_margins": [
+        27,
+        10,
+        27,
+        10
+      ],
+      "visible_colors": 32,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
