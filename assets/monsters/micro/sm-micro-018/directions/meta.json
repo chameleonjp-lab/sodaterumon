@@ -1,0 +1,834 @@
+{
+  "schema_version": 1,
+  "id": "sm-micro-018",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/micro/sm-micro-018/default.png",
+      "sha256": "3601c3130e62f744ad71090b7f38a8184e7c0f5997aeb302c0390290278d476b",
+      "git_blob_sha": "5ca6d3e43d0ebac32fd3690acd96776e261f78b1",
+      "bytes": 501206
+    },
+    "pixel": {
+      "path": "assets/monsters/micro/sm-micro-018/pixel.png",
+      "sha256": "0997d613e8c205727a6442a3f71517aa513070c337d4d181e914927f2b785753",
+      "git_blob_sha": "2526014db958145ffe8ef550a5a2929ac3354fc2",
+      "bytes": 5664
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-018/directions/S/default.png",
+      "sha256": "d1a79118af2f122a56cb435710b15d1b4b57400544147570329dc792a14d1baa",
+      "bytes": 484257,
+      "git_blob_sha": "3219b315ef6cbc92c92a8063f44841069732d6ff",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          166,
+          96,
+          858,
+          928
+        ],
+        "margins": [
+          166,
+          96,
+          166,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 62030,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-018/directions/S/pixel.png",
+      "sha256": "6eb339b2d452233c1aab81cc5c7847af5425555b4db768c2b0953af08bac5d41",
+      "bytes": 4451,
+      "git_blob_sha": "49641b1ac5e95ee838cb8f068470437639a7f2c1",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          21,
+          12,
+          107,
+          116
+        ],
+        "margins": [
+          21,
+          12,
+          21,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "d1a79118af2f122a56cb435710b15d1b4b57400544147570329dc792a14d1baa"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-018/directions/SW/default.png",
+      "sha256": "799af5718b1785b36d65eb320c281cbd1f008472b57ca1d81a031e3025de9e50",
+      "bytes": 458112,
+      "git_blob_sha": "54e403734e8caea1b9b9ff34b86c591c1c715986",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          209,
+          96,
+          815,
+          928
+        ],
+        "margins": [
+          209,
+          96,
+          209,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 60881,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-018/directions/SW/pixel.png",
+      "sha256": "6a692c14f4248cae983db3577a85639994b9eef78c881b38087082cf8ce7a356",
+      "bytes": 4762,
+      "git_blob_sha": "217352906dba673074ad2b85ecb30533202132d3",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          27,
+          12,
+          101,
+          116
+        ],
+        "margins": [
+          27,
+          12,
+          27,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "799af5718b1785b36d65eb320c281cbd1f008472b57ca1d81a031e3025de9e50"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-018/directions/W/default.png",
+      "sha256": "dba640067cb9cd5ab3cb9bc4a315c32a78f168e18d6067572718d6808a18469d",
+      "bytes": 377230,
+      "git_blob_sha": "4de3c2ca592187e2d26446ffe03b9f732e60d673",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          281,
+          96,
+          742,
+          928
+        ],
+        "margins": [
+          281,
+          96,
+          282,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 50971,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-018/directions/W/pixel.png",
+      "sha256": "9726ca9d97461a040a37eba164dae4049dee4926297f137448abebc181ed56bc",
+      "bytes": 4017,
+      "git_blob_sha": "83d9c6ab5e6942742ab5c42485b2b13e862a2b42",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          35,
+          12,
+          92,
+          116
+        ],
+        "margins": [
+          35,
+          12,
+          36,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 28,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "dba640067cb9cd5ab3cb9bc4a315c32a78f168e18d6067572718d6808a18469d"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-018/directions/NW/default.png",
+      "sha256": "fd11ea89c54dabf0fcffaeba09decfd8bc9ecd1315a81c868b9ac5482e42bae7",
+      "bytes": 441047,
+      "git_blob_sha": "aca5f9af8149f5238e2e4ea1c4d6254494554d46",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          227,
+          96,
+          796,
+          928
+        ],
+        "margins": [
+          227,
+          96,
+          228,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 53137,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-018/directions/NW/pixel.png",
+      "sha256": "3a15a631374bf5d3b34d540b57afa92a896eaf401ac1d3765726389a7dd5884d",
+      "bytes": 4448,
+      "git_blob_sha": "5e5cffea76e207304a500bbb5582b8ae7503771c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          30,
+          12,
+          98,
+          116
+        ],
+        "margins": [
+          30,
+          12,
+          30,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 27,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "fd11ea89c54dabf0fcffaeba09decfd8bc9ecd1315a81c868b9ac5482e42bae7"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-018/directions/N/default.png",
+      "sha256": "c35e58afe6739fe7c12d3ade42c248e4237c67aa46a8fd491d932bc60f4c329a",
+      "bytes": 468718,
+      "git_blob_sha": "9926a440bcef5b4d8e2875a208771e44afad5925",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          142,
+          96,
+          882,
+          928
+        ],
+        "margins": [
+          142,
+          96,
+          142,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 58236,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-018/directions/N/pixel.png",
+      "sha256": "623a88c612b621d50d47ccff5352c07c2d44092ad15141718e30c7e969974db1",
+      "bytes": 4367,
+      "git_blob_sha": "b3f38edd1fae4cdb55d321fe34065e6f0bc26575",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          20,
+          12,
+          107,
+          116
+        ],
+        "margins": [
+          20,
+          12,
+          21,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "c35e58afe6739fe7c12d3ade42c248e4237c67aa46a8fd491d932bc60f4c329a"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-018/directions/NE/default.png",
+      "sha256": "49719a2668a298c779a8db5aa41cff1cb7d59fb0a7b3e906b5c7405409ba5639",
+      "bytes": 435558,
+      "git_blob_sha": "15066bb1c5c1ecbc79ef5845f14ef13ea7fb0f5a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          232,
+          96,
+          792,
+          928
+        ],
+        "margins": [
+          232,
+          96,
+          232,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 56158,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-018/directions/NE/pixel.png",
+      "sha256": "a43c35ebdfd27b3bb14bd62e124e86444673e27273d369a2cab872972deb827d",
+      "bytes": 4468,
+      "git_blob_sha": "ec2a02dd88f3acbb53e0ccaa60e3e77c1c539a2a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          29,
+          12,
+          99,
+          116
+        ],
+        "margins": [
+          29,
+          12,
+          29,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 27,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "49719a2668a298c779a8db5aa41cff1cb7d59fb0a7b3e906b5c7405409ba5639"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-018/directions/E/default.png",
+      "sha256": "f379cc0144f913202449aadcdbfbbed330714d2667dfd957f547a98972322086",
+      "bytes": 398301,
+      "git_blob_sha": "9a36a394f6b34096852818afc5b8d6c380e1cd11",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          282,
+          96,
+          741,
+          928
+        ],
+        "margins": [
+          282,
+          96,
+          283,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 51700,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-018/directions/E/pixel.png",
+      "sha256": "80229d344d97aad76ede8f9f03d34a874e09ab1c2238fea8133d8a91e70aaa6c",
+      "bytes": 3891,
+      "git_blob_sha": "03f67fdd8079a721ce9f64cd851e1dde42c86ef4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          35,
+          12,
+          92,
+          116
+        ],
+        "margins": [
+          35,
+          12,
+          36,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "f379cc0144f913202449aadcdbfbbed330714d2667dfd957f547a98972322086"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-018/default.png",
+      "sha256": "3601c3130e62f744ad71090b7f38a8184e7c0f5997aeb302c0390290278d476b",
+      "bytes": 501206,
+      "git_blob_sha": "5ca6d3e43d0ebac32fd3690acd96776e261f78b1",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          140,
+          80,
+          883,
+          944
+        ],
+        "margins": [
+          140,
+          80,
+          141,
+          80
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 62543,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-018/pixel.png",
+      "sha256": "0997d613e8c205727a6442a3f71517aa513070c337d4d181e914927f2b785753",
+      "bytes": 5664,
+      "git_blob_sha": "2526014db958145ffe8ef550a5a2929ac3354fc2",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          18,
+          10,
+          109,
+          118
+        ],
+        "margins": [
+          18,
+          10,
+          19,
+          10
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "3601c3130e62f744ad71090b7f38a8184e7c0f5997aeb302c0390290278d476b"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "Precise 45-degree angles and stalk-root depths are inferred; in-game/final acceptance pending.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "d1a79118af2f122a56cb435710b15d1b4b57400544147570329dc792a14d1baa"
+      },
+      "raw": {
+        "sha256": "dc305dd791925717794bd007a18eebaa849789c2a0add4ba8ad8b3b7748488d8"
+      },
+      "prompt": "Use case: identity-preserve. Rotate exact reference monster around vertical yaw, fixed low camera elevation and proportions. One round lavender jelly cell with two golden dark eyes fixed on front, single pale peach horizontal band around lower half. Exactly TWO short stout feet with flat peach soles. Exactly THREE thin sage-green stalks sprout upward from crown in a left-center-right arrangement: central tallest, side two shorter curving outward. Each ends in ONE flat green disk with small peach central dome, not mushroom umbrellas. Stalks/disks rotate with body, fixed attachment and length; no extra stalks limbs tail mouth eyes. Same glossy painted gel style with tiny translucent droplets, lavender/sage/peach palette. Whole centered creature, transparent background, no text ground shadow, square1024. Target S: straight frontal yaw0. Two symmetric eyes. Three disks spread left/center/right, central tallest. Feet symmetric. Reference1 original SE, reference2 W and reference3 N fix identity and rotation geometry.",
+      "generation_references": [
+        {
+          "sha256": "3601c3130e62f744ad71090b7f38a8184e7c0f5997aeb302c0390290278d476b"
+        },
+        {
+          "sha256": "1ddfd2a900f40add5021fad5409c6f2132a0d5c667cfe43553321f4ef4ba6280"
+        },
+        {
+          "sha256": "2bc0dace5155bbc64b8c050cfb6278cd751b0e3305ef0a44669535e2eb5888e6"
+        }
+      ]
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "6eb339b2d452233c1aab81cc5c7847af5425555b4db768c2b0953af08bac5d41"
+      },
+      "raw": {
+        "sha256": "72d130b21820b93b66fc25084a6d50cfa1ba9cc98a4c552faedb696d6efcd988"
+      },
+      "prompt": "Use case: style-transfer. Convert attached monster into crisp128x128 pixel sprite, exact same individual, yaw direction, pose and overlap. Round lavender jelly body, one pale peach lower band, two short flat-soled feet. Exactly three green stalks ending in three flat green disks with peach center, central tallest. Preserve eye visibility and attachment: front two, side one, back none as reference. Preserve stalk length, near/far overlap and camera exactly. Limited lavender/sage/peach/dark plum palette, hard square pixel clusters, binary transparent alpha, no antialiasing, no added parts, text, ground or shadow. Center full-body sprite with transparent margins. Direction S.",
+      "generation_references": [
+        {
+          "sha256": "dc305dd791925717794bd007a18eebaa849789c2a0add4ba8ad8b3b7748488d8"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "799af5718b1785b36d65eb320c281cbd1f008472b57ca1d81a031e3025de9e50"
+      },
+      "raw": {
+        "sha256": "40ac22d55124100c797a3404c00d26a82ec49f07ed6a2a2acb7f982c495636d6"
+      },
+      "prompt": "Use case: identity-preserve. Rotate exact reference monster around vertical yaw, fixed low camera elevation and proportions. One round lavender jelly cell with two golden dark eyes fixed on front, single pale peach horizontal band around lower half. Exactly TWO short stout feet with flat peach soles. Exactly THREE thin sage-green stalks sprout upward from crown in a left-center-right arrangement: central tallest, side two shorter curving outward. Each ends in ONE flat green disk with small peach central dome, not mushroom umbrellas. Stalks/disks rotate with body, fixed attachment and length; no extra stalks limbs tail mouth eyes. Same glossy painted gel style with tiny translucent droplets, lavender/sage/peach palette. Whole centered creature, transparent background, no text ground shadow, square1024. Correct SW front-LEFT yaw45. Reference2 currently faces screen-right like SE, wrong. Turn body front toward screen-LEFT and viewer, eye pair shifts to left side of sphere: near eye on left-center, far eye near left silhouette. Feet and three stalks rotate with body. Near side stalk emerges on rightward foreground of crown and far side stalk recedes leftward; keep central stalk tallest, three disks exact. Reference1 original identity, reference2 wrong-facing edit target. Low camera unchanged.",
+      "generation_references": [
+        {
+          "sha256": "3601c3130e62f744ad71090b7f38a8184e7c0f5997aeb302c0390290278d476b"
+        },
+        {
+          "sha256": "037624228fe4709a71226f7a4fdea460a7f8c55e3f0bcd7b87528cbbeb45d6ac"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "6a692c14f4248cae983db3577a85639994b9eef78c881b38087082cf8ce7a356"
+      },
+      "raw": {
+        "sha256": "5fee9760ef0fe48ce3e1c7c7a4bb9c68d0362c7a2b6cac4a22261cf628403308"
+      },
+      "prompt": "Use case: style-transfer. Convert attached monster into crisp128x128 pixel sprite, exact same individual, yaw direction, pose and overlap. Round lavender jelly body, one pale peach lower band, two short flat-soled feet. Exactly three green stalks ending in three flat green disks with peach center, central tallest. Preserve eye visibility and attachment: front two, side one, back none as reference. Preserve stalk length, near/far overlap and camera exactly. Limited lavender/sage/peach/dark plum palette, hard square pixel clusters, binary transparent alpha, no antialiasing, no added parts, text, ground or shadow. Center full-body sprite with transparent margins. Direction SW.",
+      "generation_references": [
+        {
+          "sha256": "40ac22d55124100c797a3404c00d26a82ec49f07ed6a2a2acb7f982c495636d6"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "dba640067cb9cd5ab3cb9bc4a315c32a78f168e18d6067572718d6808a18469d"
+      },
+      "raw": {
+        "sha256": "1ddfd2a900f40add5021fad5409c6f2132a0d5c667cfe43553321f4ef4ba6280"
+      },
+      "prompt": "Use case: identity-preserve. Rotate exact reference monster around vertical yaw, fixed low camera elevation and proportions. One round lavender jelly cell with two golden dark eyes fixed on front, single pale peach horizontal band around lower half. Exactly TWO short stout feet with flat peach soles. Exactly THREE thin sage-green stalks sprout upward from crown in a left-center-right arrangement: central tallest, side two shorter curving outward. Each ends in ONE flat green disk with small peach central dome, not mushroom umbrellas. Stalks/disks rotate with body, fixed attachment and length; no extra stalks limbs tail mouth eyes. Same glossy painted gel style with tiny translucent droplets, lavender/sage/peach palette. Whole centered creature, transparent background, no text ground shadow, square1024. Target W left-facing exact profile yaw90. One near eye at screen-left edge, far eye hidden. Three stalks foreshortened in camera depth: central tall disk still highest, two lower side disks overlap partly, not all three widely spread left-right. Two feet overlap naturally. Preserve physical lengths and fixed camera, do not rearrange stalk attachment to show all disks.",
+      "generation_references": [
+        {
+          "sha256": "3601c3130e62f744ad71090b7f38a8184e7c0f5997aeb302c0390290278d476b"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "9726ca9d97461a040a37eba164dae4049dee4926297f137448abebc181ed56bc"
+      },
+      "raw": {
+        "sha256": "1ea1adbd186e6a25ce7ee6170348463a63c897c9c772c6a5ac91e5b309ba3ff3"
+      },
+      "prompt": "Use case: style-transfer. Convert attached monster into crisp128x128 pixel sprite, exact same individual, yaw direction, pose and overlap. Round lavender jelly body, one pale peach lower band, two short flat-soled feet. Exactly three green stalks ending in three flat green disks with peach center, central tallest. Preserve eye visibility and attachment: front two, side one, back none as reference. Preserve stalk length, near/far overlap and camera exactly. Limited lavender/sage/peach/dark plum palette, hard square pixel clusters, binary transparent alpha, no antialiasing, no added parts, text, ground or shadow. Center full-body sprite with transparent margins. Direction W.",
+      "generation_references": [
+        {
+          "sha256": "1ddfd2a900f40add5021fad5409c6f2132a0d5c667cfe43553321f4ef4ba6280"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "fd11ea89c54dabf0fcffaeba09decfd8bc9ecd1315a81c868b9ac5482e42bae7"
+      },
+      "raw": {
+        "sha256": "dceeed6940a053d5d0c8786a3d88e02038404589072f6c68e179773079bfd64b"
+      },
+      "prompt": "Use case: identity-preserve. Rotate exact reference monster around vertical yaw, fixed low camera elevation and proportions. One round lavender jelly cell with two golden dark eyes fixed on front, single pale peach horizontal band around lower half. Exactly TWO short stout feet with flat peach soles. Exactly THREE thin sage-green stalks sprout upward from crown in a left-center-right arrangement: central tallest, side two shorter curving outward. Each ends in ONE flat green disk with small peach central dome, not mushroom umbrellas. Stalks/disks rotate with body, fixed attachment and length; no extra stalks limbs tail mouth eyes. Same glossy painted gel style with tiny translucent droplets, lavender/sage/peach palette. Whole centered creature, transparent background, no text ground shadow, square1024. Target NW: rear-left three-quarter yaw135, face points screen-left away, eyes hidden around far body surface. Stalks/disks partly compress in depth, no rearrangement. Reference1 original SE, reference2 W and reference3 N fix identity and rotation geometry.",
+      "generation_references": [
+        {
+          "sha256": "3601c3130e62f744ad71090b7f38a8184e7c0f5997aeb302c0390290278d476b"
+        },
+        {
+          "sha256": "1ddfd2a900f40add5021fad5409c6f2132a0d5c667cfe43553321f4ef4ba6280"
+        },
+        {
+          "sha256": "2bc0dace5155bbc64b8c050cfb6278cd751b0e3305ef0a44669535e2eb5888e6"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "3a15a631374bf5d3b34d540b57afa92a896eaf401ac1d3765726389a7dd5884d"
+      },
+      "raw": {
+        "sha256": "a712fde3b485bc383ed179fe4d3833019b656a61c2776131dac03507dfed3be1"
+      },
+      "prompt": "Use case: style-transfer. Convert attached monster into crisp128x128 pixel sprite, exact same individual, yaw direction, pose and overlap. Round lavender jelly body, one pale peach lower band, two short flat-soled feet. Exactly three green stalks ending in three flat green disks with peach center, central tallest. Preserve eye visibility and attachment: front two, side one, back none as reference. Preserve stalk length, near/far overlap and camera exactly. Limited lavender/sage/peach/dark plum palette, hard square pixel clusters, binary transparent alpha, no antialiasing, no added parts, text, ground or shadow. Center full-body sprite with transparent margins. Direction NW.",
+      "generation_references": [
+        {
+          "sha256": "dceeed6940a053d5d0c8786a3d88e02038404589072f6c68e179773079bfd64b"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "c35e58afe6739fe7c12d3ade42c248e4237c67aa46a8fd491d932bc60f4c329a"
+      },
+      "raw": {
+        "sha256": "2bc0dace5155bbc64b8c050cfb6278cd751b0e3305ef0a44669535e2eb5888e6"
+      },
+      "prompt": "Use case: identity-preserve. Rotate exact reference monster around vertical yaw, fixed low camera elevation and proportions. One round lavender jelly cell with two golden dark eyes fixed on front, single pale peach horizontal band around lower half. Exactly TWO short stout feet with flat peach soles. Exactly THREE thin sage-green stalks sprout upward from crown in a left-center-right arrangement: central tallest, side two shorter curving outward. Each ends in ONE flat green disk with small peach central dome, not mushroom umbrellas. Stalks/disks rotate with body, fixed attachment and length; no extra stalks limbs tail mouth eyes. Same glossy painted gel style with tiny translucent droplets, lavender/sage/peach palette. Whole centered creature, transparent background, no text ground shadow, square1024. Target N straight rear yaw180. Both eyes hidden behind spherical body. Two feet seen from rear. Three stalks retain central tallest and outer shorter arrangement; pale lower band wraps across back. Camera same height as original SE, no new top-down view.",
+      "generation_references": [
+        {
+          "sha256": "3601c3130e62f744ad71090b7f38a8184e7c0f5997aeb302c0390290278d476b"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "623a88c612b621d50d47ccff5352c07c2d44092ad15141718e30c7e969974db1"
+      },
+      "raw": {
+        "sha256": "88a4d48857a7d650bb5fc6ec48bc54efc61ba01cc9ef73431e696b7d60cfcd23"
+      },
+      "prompt": "Use case: style-transfer. Convert attached monster into crisp128x128 pixel sprite, exact same individual, yaw direction, pose and overlap. Round lavender jelly body, one pale peach lower band, two short flat-soled feet. Exactly three green stalks ending in three flat green disks with peach center, central tallest. Preserve eye visibility and attachment: front two, side one, back none as reference. Preserve stalk length, near/far overlap and camera exactly. Limited lavender/sage/peach/dark plum palette, hard square pixel clusters, binary transparent alpha, no antialiasing, no added parts, text, ground or shadow. Center full-body sprite with transparent margins. Direction N.",
+      "generation_references": [
+        {
+          "sha256": "2bc0dace5155bbc64b8c050cfb6278cd751b0e3305ef0a44669535e2eb5888e6"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "49719a2668a298c779a8db5aa41cff1cb7d59fb0a7b3e906b5c7405409ba5639"
+      },
+      "raw": {
+        "sha256": "578629e05a3f869fe222675a311fb7ff227868dcb91ac9c994bc2149e0cd42b5"
+      },
+      "prompt": "Use case: identity-preserve. Rotate exact reference monster around vertical yaw, fixed low camera elevation and proportions. One round lavender jelly cell with two golden dark eyes fixed on front, single pale peach horizontal band around lower half. Exactly TWO short stout feet with flat peach soles. Exactly THREE thin sage-green stalks sprout upward from crown in a left-center-right arrangement: central tallest, side two shorter curving outward. Each ends in ONE flat green disk with small peach central dome, not mushroom umbrellas. Stalks/disks rotate with body, fixed attachment and length; no extra stalks limbs tail mouth eyes. Same glossy painted gel style with tiny translucent droplets, lavender/sage/peach palette. Whole centered creature, transparent background, no text ground shadow, square1024. Target NE: rear-right three-quarter yaw225, face points screen-right away, eyes hidden. Reverse depth relation of two side disks compared to NW. Reference1 original SE, reference2 W and reference3 N fix identity and rotation geometry.",
+      "generation_references": [
+        {
+          "sha256": "3601c3130e62f744ad71090b7f38a8184e7c0f5997aeb302c0390290278d476b"
+        },
+        {
+          "sha256": "1ddfd2a900f40add5021fad5409c6f2132a0d5c667cfe43553321f4ef4ba6280"
+        },
+        {
+          "sha256": "2bc0dace5155bbc64b8c050cfb6278cd751b0e3305ef0a44669535e2eb5888e6"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "a43c35ebdfd27b3bb14bd62e124e86444673e27273d369a2cab872972deb827d"
+      },
+      "raw": {
+        "sha256": "7e10c6a16ffc080bb05da914bd074f0fb275bcd602a44a286c83e2b8689385bb"
+      },
+      "prompt": "Use case: style-transfer. Convert attached monster into crisp128x128 pixel sprite, exact same individual, yaw direction, pose and overlap. Round lavender jelly body, one pale peach lower band, two short flat-soled feet. Exactly three green stalks ending in three flat green disks with peach center, central tallest. Preserve eye visibility and attachment: front two, side one, back none as reference. Preserve stalk length, near/far overlap and camera exactly. Limited lavender/sage/peach/dark plum palette, hard square pixel clusters, binary transparent alpha, no antialiasing, no added parts, text, ground or shadow. Center full-body sprite with transparent margins. Direction NE.",
+      "generation_references": [
+        {
+          "sha256": "578629e05a3f869fe222675a311fb7ff227868dcb91ac9c994bc2149e0cd42b5"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "f379cc0144f913202449aadcdbfbbed330714d2667dfd957f547a98972322086"
+      },
+      "raw": {
+        "sha256": "4721c12ebd991142875760e5ffa745ccb2816b1b1f58d3ab9b1216ddd951fe5a"
+      },
+      "prompt": "Use case: identity-preserve. Rotate exact reference monster around vertical yaw, fixed low camera elevation and proportions. One round lavender jelly cell with two golden dark eyes fixed on front, single pale peach horizontal band around lower half. Exactly TWO short stout feet with flat peach soles. Exactly THREE thin sage-green stalks sprout upward from crown in a left-center-right arrangement: central tallest, side two shorter curving outward. Each ends in ONE flat green disk with small peach central dome, not mushroom umbrellas. Stalks/disks rotate with body, fixed attachment and length; no extra stalks limbs tail mouth eyes. Same glossy painted gel style with tiny translucent droplets, lavender/sage/peach palette. Whole centered creature, transparent background, no text ground shadow, square1024. Target E: right-facing exact side yaw270, one eye at screen-right edge. Lower side disks overlap in depth and central tallest disk above, reverse near/far stalk relation to left profile. Feet overlap. Reference1 original SE, reference2 W and reference3 N fix identity and rotation geometry.",
+      "generation_references": [
+        {
+          "sha256": "3601c3130e62f744ad71090b7f38a8184e7c0f5997aeb302c0390290278d476b"
+        },
+        {
+          "sha256": "1ddfd2a900f40add5021fad5409c6f2132a0d5c667cfe43553321f4ef4ba6280"
+        },
+        {
+          "sha256": "2bc0dace5155bbc64b8c050cfb6278cd751b0e3305ef0a44669535e2eb5888e6"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "80229d344d97aad76ede8f9f03d34a874e09ab1c2238fea8133d8a91e70aaa6c"
+      },
+      "raw": {
+        "sha256": "2e3c1461f158b05ec238d2d78c2a8a0eae1223360ddc26ae8054079477230ba9"
+      },
+      "prompt": "Use case: style-transfer. Convert attached monster into crisp128x128 pixel sprite, exact same individual, yaw direction, pose and overlap. Round lavender jelly body, one pale peach lower band, two short flat-soled feet. Exactly three green stalks ending in three flat green disks with peach center, central tallest. Preserve eye visibility and attachment: front two, side one, back none as reference. Preserve stalk length, near/far overlap and camera exactly. Limited lavender/sage/peach/dark plum palette, hard square pixel clusters, binary transparent alpha, no antialiasing, no added parts, text, ground or shadow. Center full-body sprite with transparent margins. Direction E.",
+      "generation_references": [
+        {
+          "sha256": "4721c12ebd991142875760e5ffa745ccb2816b1b1f58d3ab9b1216ddd951fe5a"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "3601c3130e62f744ad71090b7f38a8184e7c0f5997aeb302c0390290278d476b"
+      },
+      "original_preserved": true,
+      "source": {
+        "sha256": "3601c3130e62f744ad71090b7f38a8184e7c0f5997aeb302c0390290278d476b"
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "0997d613e8c205727a6442a3f71517aa513070c337d4d181e914927f2b785753"
+      },
+      "original_preserved": true,
+      "source": {
+        "sha256": "0997d613e8c205727a6442a3f71517aa513070c337d4d181e914927f2b785753"
+      }
+    }
+  ]
+}

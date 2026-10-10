@@ -1,0 +1,767 @@
+{
+  "schema_version": 1,
+  "id": "sm-fanged-023",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "S",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/fanged/sm-fanged-023/default.png",
+      "sha256": "2c989a55109bd18262c2c28591dfbc4333eb4131ce67b8011831a7ed62276db4",
+      "git_blob_sha": "28b3522e8c79e2fcbd6232c0f3b5f44dbedc4891",
+      "bytes": 720243
+    },
+    "pixel": {
+      "path": "assets/monsters/fanged/sm-fanged-023/pixel.png",
+      "sha256": "760fd8f1f0d7407b25819e9c6e925d6e66c81b769ed24b243d3578b63ee26f93",
+      "git_blob_sha": "1e0bbd222bc93381b5a303536a221324e85cbfef",
+      "bytes": 8354
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-023/default.png",
+      "sha256": "2c989a55109bd18262c2c28591dfbc4333eb4131ce67b8011831a7ed62276db4",
+      "bytes": 720243,
+      "git_blob_sha": "28b3522e8c79e2fcbd6232c0f3b5f44dbedc4891",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          118,
+          944,
+          906
+        ],
+        "margins": [
+          80,
+          118,
+          80,
+          118
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 65528,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-023/pixel.png",
+      "sha256": "760fd8f1f0d7407b25819e9c6e925d6e66c81b769ed24b243d3578b63ee26f93",
+      "bytes": 8354,
+      "git_blob_sha": "1e0bbd222bc93381b5a303536a221324e85cbfef",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          8,
+          14,
+          120,
+          114
+        ],
+        "margins": [
+          8,
+          14,
+          8,
+          14
+        ],
+        "visible_longest_extent": 112,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "2c989a55109bd18262c2c28591dfbc4333eb4131ce67b8011831a7ed62276db4"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/SW/default.png",
+      "sha256": "2b6a4dcdbced2f0ceab2aec9815a9cdd094937eb18d8c5c0b77c8b5c4024384e",
+      "bytes": 708876,
+      "git_blob_sha": "276779a28a0fbde2b1218c65c90410f4fe547fdf",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          111,
+          928,
+          913
+        ],
+        "margins": [
+          96,
+          111,
+          96,
+          111
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 64100,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/SW/pixel.png",
+      "sha256": "e23ded556213fe36926a37d63b4c6ee8bbd3b45239dd9fb35bc10fbe8dacaee2",
+      "bytes": 8218,
+      "git_blob_sha": "c32c7cc42a79adbcb3fa635d687e11c742591a32",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          14,
+          116,
+          113
+        ],
+        "margins": [
+          12,
+          14,
+          12,
+          15
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 21,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "2b6a4dcdbced2f0ceab2aec9815a9cdd094937eb18d8c5c0b77c8b5c4024384e"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/W/default.png",
+      "sha256": "025d040c143899a3b7b8b934f5e6ffd84e7a174af160af2919851fe77d4aadce",
+      "bytes": 583139,
+      "git_blob_sha": "9ec25fadd91730876e242795ab03486430a3d11f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          133,
+          928,
+          890
+        ],
+        "margins": [
+          96,
+          133,
+          96,
+          134
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 58937,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/W/pixel.png",
+      "sha256": "5399fbef5c6abccb18207fbf09a04ba0888f58aa34736f06c3e60d018d955933",
+      "bytes": 8310,
+      "git_blob_sha": "2204501e59276cb92ceae2bae8759c82fba35058",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          14,
+          116,
+          113
+        ],
+        "margins": [
+          12,
+          14,
+          12,
+          15
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "025d040c143899a3b7b8b934f5e6ffd84e7a174af160af2919851fe77d4aadce"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/NW/default.png",
+      "sha256": "34227d8a34c857e01e7b73ca3698b4ae2e65d25d14d54300de065799c57c8cd0",
+      "bytes": 574828,
+      "git_blob_sha": "e19a16c436caab620c7657f82306d3d471918dfa",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          136,
+          928,
+          887
+        ],
+        "margins": [
+          96,
+          136,
+          96,
+          137
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 58569,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/NW/pixel.png",
+      "sha256": "1284605c5d88eeb21a735173d162e198ab4500a100ec4ef8179efabf5301e5b9",
+      "bytes": 8116,
+      "git_blob_sha": "c623d2f410d6bb1e2b0f62ff79511f697432df73",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          12,
+          116,
+          115
+        ],
+        "margins": [
+          12,
+          12,
+          12,
+          13
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "34227d8a34c857e01e7b73ca3698b4ae2e65d25d14d54300de065799c57c8cd0"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/N/default.png",
+      "sha256": "1866a9ad9aaad3914f505396da2e7bb95d9694210eb3754a732f4449aac4d79e",
+      "bytes": 616667,
+      "git_blob_sha": "fe68ce375fd89cbf308cd18cf976fc3c8c0c7763",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          126,
+          928,
+          897
+        ],
+        "margins": [
+          96,
+          126,
+          96,
+          127
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 56129,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/N/pixel.png",
+      "sha256": "e2f347385cbedd0b2407e854c1a894f430c60791eda47c885c4ce6255a2a1fc3",
+      "bytes": 7802,
+      "git_blob_sha": "90417bb3eb8a76eecdb21096f8d47caa4663f52c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          13,
+          116,
+          115
+        ],
+        "margins": [
+          12,
+          13,
+          12,
+          13
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 21,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "1866a9ad9aaad3914f505396da2e7bb95d9694210eb3754a732f4449aac4d79e"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/NE/default.png",
+      "sha256": "e053aaba262778f67be94c7b23ca91b236017e9ecb1d023fb0f8b95450c54cc7",
+      "bytes": 662765,
+      "git_blob_sha": "143ca216f6e950d76586a519aba6c055acf0b43a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          121,
+          928,
+          902
+        ],
+        "margins": [
+          96,
+          121,
+          96,
+          122
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 68939,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/NE/pixel.png",
+      "sha256": "8a6d19928c623e02f3ef0af292769431039cc79f5920bf0f39171164d318e526",
+      "bytes": 8926,
+      "git_blob_sha": "a0e23efb71e927241f2321789a36212e662033ce",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          13,
+          116,
+          114
+        ],
+        "margins": [
+          12,
+          13,
+          12,
+          14
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 21,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "e053aaba262778f67be94c7b23ca91b236017e9ecb1d023fb0f8b95450c54cc7"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/E/default.png",
+      "sha256": "fc2866bb1062ea9192830f60f75540b587d822ec7edf76a03e152869945fc68e",
+      "bytes": 581873,
+      "git_blob_sha": "3b9e0762f4916f6ea54cf16dbcea3d2e3ca2e240",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          120,
+          928,
+          903
+        ],
+        "margins": [
+          96,
+          120,
+          96,
+          121
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 54098,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/E/pixel.png",
+      "sha256": "ea04a596a5909de4a7f1ff69979919bba4c89203d905e11260088063c002d8bf",
+      "bytes": 7378,
+      "git_blob_sha": "cbdb6f1ee688fc26da1eba81ae103545fe0e3612",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          15,
+          116,
+          112
+        ],
+        "margins": [
+          12,
+          15,
+          12,
+          16
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "fc2866bb1062ea9192830f60f75540b587d822ec7edf76a03e152869945fc68e"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/SE/default.png",
+      "sha256": "fb06ca7c7b90998d8b42a4d2ca9dd09517fb36e98c187a847fd76699119a0978",
+      "bytes": 675424,
+      "git_blob_sha": "15b71d46e09f12a0fa5bb7bd0d5d40f110f8f8ea",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          128,
+          928,
+          895
+        ],
+        "margins": [
+          96,
+          128,
+          96,
+          129
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 77007,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-023/directions/SE/pixel.png",
+      "sha256": "be8e18e44c220e93aa2f6afe7f45dca5e33fa9e6287c5881f50f8a12a28d1985",
+      "bytes": 8738,
+      "git_blob_sha": "fc2d1b037648e50ec85a4b745848e1fd8e5ed8a7",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          13,
+          116,
+          114
+        ],
+        "margins": [
+          12,
+          13,
+          12,
+          14
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 21,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "fb06ca7c7b90998d8b42a4d2ca9dd09517fb36e98c187a847fd76699119a0978"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "Exact 45-degree spacing and rigid leg-root consistency remain inferred; in-game/final acceptance pending.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE SW45 front-left yaw view of exact diamond cushion creature. CRITICAL camera stays high elevated about50deg as original, same visible top-to-thickness ratio, rotate only yaw on horizontalground. Original face-bearing diamondcorner now points LOWERLEFT, oppositecorner UPPERRIGHT; square/diamond body rotates rigidly, no tilt. Thick rounded diamond with granular beige fur, cream edge band and purple diamond markings fixed on top. Exactly8shortballtiplegs equally spaced around perimeter fixedroots (4corners+4sides); no extra/missing roots, depth occlusion natural. Two eyes on frontcorner sides, mouth4smallroundedfangs one at eachcorner, face wraps frontcorner not relocates to a broadside. Noears/tail/wings/arms. Same#D2BA8E/#F3E7D7/#69637F. Fullbody transparent padded square no text, genuine45deg newview not mirror.\n",
+      "raw_sha256": "7960cc1020b03a52e4ca3af36c2c21faa649c4d1d8b0d6c570de35cff71f894a",
+      "raw_bytes": 1175120,
+      "generation_references_in_order": [
+        {
+          "sha256": "2c989a55109bd18262c2c28591dfbc4333eb4131ce67b8011831a7ed62276db4"
+        }
+      ],
+      "finished_sha256": "2b6a4dcdbced2f0ceab2aec9815a9cdd094937eb18d8c5c0b77c8b5c4024384e"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. ONE pixel sprite exact counterpart of image1 SW frontleft diamondcushion, samehighview/bodyshape/topmarkings/8balltiplegs. Preserve2eyes and4roundedfangs at nearleftcorner. Three singlepurplediamondaxis and two3spotgroups fixed exactly. Image2 pixelstyle/paletteonly. Crisp128px logicalgrid max24beigecream purplecolors, hardopaqueclusters transparent padded square,noantialias/text.\n",
+      "raw_sha256": "65060007258803cb73b2b57c1af3bef8710c90d8b3ba740e06462ec54723ccd6",
+      "raw_bytes": 682214,
+      "generation_references_in_order": [
+        {
+          "sha256": "2b6a4dcdbced2f0ceab2aec9815a9cdd094937eb18d8c5c0b77c8b5c4024384e"
+        },
+        {
+          "sha256": "760fd8f1f0d7407b25819e9c6e925d6e66c81b769ed24b243d3578b63ee26f93"
+        }
+      ],
+      "finished_sha256": "e23ded556213fe36926a37d63b4c6ee8bbd3b45239dd9fb35bc10fbe8dacaee2"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. Correct fixed top markings and face projection in this W90candidate, keeping SAME geometry/pitch/8legs. Top pattern MUST be exactly centralcreamoutlined purplediamond plus ONE purplediamond near FACELEFT and ONE purplediamond at REARRIGHT on single horizontalaxis. Exactly two groups of3purple spots at SIDEcorners TOP and BOTTOM, NO group at rightcorner. Face at extremeleft corner should turn furtheraway so only nearer eye/sliver and edgeon mouthfangs visible, not broad two-eye face. Original image2 defines physical pattern attachment. No other changes, transparent.\n",
+      "raw_sha256": "b1f3a47bf5229b6791bc42ec0cd4974a61533369d540b6e61683cd2691d8bb52",
+      "raw_bytes": 992408,
+      "generation_references_in_order": [
+        {
+          "sha256": "876a0beacc51e254fc744095ec12b6355e270f5c53c45e132ec26e4dedeb1142"
+        },
+        {
+          "sha256": "2c989a55109bd18262c2c28591dfbc4333eb4131ce67b8011831a7ed62276db4"
+        }
+      ],
+      "finished_sha256": "025d040c143899a3b7b8b934f5e6ffd84e7a174af160af2919851fe77d4aadce"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. ONE pixel counterpart of image1 W leftview, exacttopgeometry and8balltiplegs. Face atleft edgeoneeye2visiblefangs; top3singlepurplediamonds horizontal,2tripletgroups top/bottom, creamcentraldiamond. Image2 onlypixelpalette. Preservepose proportions; crisp128px max24beigecream purple colors hardclusters noantialias, transparent paddedsquare no text.\n",
+      "raw_sha256": "25b2071ae35b33cc00ad4de1dd4fb55c819c522b6275f47d4aa2d9c851f6aebb",
+      "raw_bytes": 681038,
+      "generation_references_in_order": [
+        {
+          "sha256": "025d040c143899a3b7b8b934f5e6ffd84e7a174af160af2919851fe77d4aadce"
+        },
+        {
+          "sha256": "760fd8f1f0d7407b25819e9c6e925d6e66c81b769ed24b243d3578b63ee26f93"
+        }
+      ],
+      "finished_sha256": "5399fbef5c6abccb18207fbf09a04ba0888f58aa34736f06c3e60d018d955933"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Rotate this BACK-view diamondcushion exactly45degrees clockwise about VERTICAL axis while fixed high50deg camera, yielding NW rearleft. New projection is more SQUARE with top/bottom edges more horizontal, not unchanged diamond. Facecorner far UPPERLEFT, rearcorner nearLOWERRIGHT. Three singlepurplediamonds fixed front-center-rear line now diagonal upperleft-lowerright; exactly2tripletgroups on remainingcorners upperright/lowerleft. Exactly8balltiplegs rooted4corners+4sidemidpoints rotatewithbody. No face onnearplane. Same thickness/topratio, fur/colors. Not imageplane rotation, not warp; true3Dyaw. Transparent padded fullbody.\n",
+      "raw_sha256": "a0d3a83d986159c9bf403ea234d5bf703fb5d409f5f1b80867398edb2c89bbf3",
+      "raw_bytes": 978208,
+      "generation_references_in_order": [
+        {
+          "sha256": "1866a9ad9aaad3914f505396da2e7bb95d9694210eb3754a732f4449aac4d79e"
+        }
+      ],
+      "finished_sha256": "34227d8a34c857e01e7b73ca3698b4ae2e65d25d14d54300de065799c57c8cd0"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. ONE pixel counterpart of image1 NWrearleft, EXACTtopprojection/thickness/8balltiplegs and patternpositions. Noeyes/mouth. Three singlepurplediamonds upperleft-center-lowerright,2tripletgroups remainingcorners. Image2 pixelstylepalette only. Crisp128px max24beigecream purple colors hardclusters, noantialias, transparentpadding square no text/newparts.\n",
+      "raw_sha256": "f69ffc4d0d50db7c02c5c3c4087f9cfa615f8e3344aa50cf0bee1040c7a76f5c",
+      "raw_bytes": 594601,
+      "generation_references_in_order": [
+        {
+          "sha256": "34227d8a34c857e01e7b73ca3698b4ae2e65d25d14d54300de065799c57c8cd0"
+        },
+        {
+          "sha256": "760fd8f1f0d7407b25819e9c6e925d6e66c81b769ed24b243d3578b63ee26f93"
+        }
+      ],
+      "finished_sha256": "1284605c5d88eeb21a735173d162e198ab4500a100ec4ef8179efabf5301e5b9"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE BACK N180 of exact diamondcushion. Original highcamera50deg fixed; frontcorner awayUP, rearcorner towardDOWN, broad diamondtop visible sameproportions. No face/eyes/teeth on visible nearside. Rigid pattern rotates180: centralcreamoutlined purplediamond, one singlepurplediamond ABOVEcenter and one BELOWcenter, two groups3purple spots LEFT and RIGHT only. Do not invent4groups. Exactly8shortpurpleballtiplegs at original4corners+4sidemidpoints. Same beigegranularfur creamedge purplepalette; no tail/ears/wings. Backpattern already determined by toporiginal, retain exactpositions. Transparent padding fullbody,no text.\n",
+      "raw_sha256": "9cf5531b5cf995dd1abae57249356739b32931c291fd1dd8138819022c6e305e",
+      "raw_bytes": 1016252,
+      "generation_references_in_order": [
+        {
+          "sha256": "2c989a55109bd18262c2c28591dfbc4333eb4131ce67b8011831a7ed62276db4"
+        }
+      ],
+      "finished_sha256": "1866a9ad9aaad3914f505396da2e7bb95d9694210eb3754a732f4449aac4d79e"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. ONE pixelcounterpart of image1 straightback N diamondcushion. Exact highview/silhouette/8balltiplegs. Noeyes/mouth;top3singlepurplediamonds vertical,2tripletgroups left/right, creamrim andcentralcreamdiamond. Image2 palettepixelstyleonly. Crisp128px max24beigecream purplecolors noantialias, transparent padded square,no text.\n",
+      "raw_sha256": "65401e60a1e39ed10c790188db3c3e2ac9951af981f3b279dc978b1b41ba40ed",
+      "raw_bytes": 615182,
+      "generation_references_in_order": [
+        {
+          "sha256": "1866a9ad9aaad3914f505396da2e7bb95d9694210eb3754a732f4449aac4d79e"
+        },
+        {
+          "sha256": "760fd8f1f0d7407b25819e9c6e925d6e66c81b769ed24b243d3578b63ee26f93"
+        }
+      ],
+      "finished_sha256": "e2f347385cbedd0b2407e854c1a894f430c60791eda47c885c4ce6255a2a1fc3"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE NE225 rear-right view, rotate backreference45deg COUNTERCLOCKWISE aroundvertical with same high50deg camera. Facecorner farUPPERRIGHT, rearcorner nearLOWERLEFT. Fixed top3singlepurplediamonds line diagonally upperright-to-lowerleft; exactly2tripletspots groups on othercorners upperleft/lowerright. Body square projection yawed opposite NW, thicknessunchanged. 8shortballtiplegs at4corners+4midpoints, 8tips total. Noeyes/mouth near; samebeigefurcreamrim/purplepalette, noextra motifs. Transparent squarepadding fullbody, true3Dyaw no mirror.\n",
+      "raw_sha256": "54db53d0fae342f95a95782b3fa7c711367c2a9648a9a84deb17b012b9c56bf0",
+      "raw_bytes": 1091272,
+      "generation_references_in_order": [
+        {
+          "sha256": "1866a9ad9aaad3914f505396da2e7bb95d9694210eb3754a732f4449aac4d79e"
+        }
+      ],
+      "finished_sha256": "e053aaba262778f67be94c7b23ca91b236017e9ecb1d023fb0f8b95450c54cc7"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Pixel redraw ONLY image1 EXACT projection. Do not straighten/rotate its square into centered diamond. Toprearcorner must remain at x65%y17%, nearcorner at x40%y80%, upperleftcornerx24%y38%, lowerrightcornerx80%y60% approximately. Three purplediamond axis slants upperRIGHT-to-lowerLEFT, notvertical. All8footpositions and fixedbodythickness match image1 exactly. No face. Sharp128px limited24beigecream purplecolors, transparent padded square. Preserve asymmetrical NE yaw and silhouette.\n",
+      "raw_sha256": "247e8c1496929d27ee74f757f06763dfa181f3619943746304aeb81632cd2e58",
+      "raw_bytes": 783114,
+      "generation_references_in_order": [
+        {
+          "sha256": "e053aaba262778f67be94c7b23ca91b236017e9ecb1d023fb0f8b95450c54cc7"
+        }
+      ],
+      "finished_sha256": "8a6d19928c623e02f3ef0af292769431039cc79f5920bf0f39171164d318e526"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE E270 rightside yaw of exactdiamondcushion. Camera fixedHIGH50deg. Facecorner at extremeRIGHT, rearcornerLEFT, sidecorners TOP/BOTTOM. Top pattern: three SINGLEpurplediamonds in horizontal left-center-rightline with creamoutline atcenter; exactly2groups3purple spots at TOP and BOTTOMcorners, none atleft/right. Face mostly edgeon atRIGHT with one eye and2nearfangs visible, far eye/teeth hidden, no face onbottomedge. Eightshortballtiplegs fixed4corners+4midpoints. Same thick roundeddiamond and granularbeigefur creamrim purplepalette. Trueopposite sideview, no mirroredtexture. Transparent fullbody paddedsquare no text.\n",
+      "raw_sha256": "1f580c9a310887c0a83d803e3f5d59ec68d3c6cbc6a88944489991413b6c29da",
+      "raw_bytes": 1052791,
+      "generation_references_in_order": [
+        {
+          "sha256": "2c989a55109bd18262c2c28591dfbc4333eb4131ce67b8011831a7ed62276db4"
+        },
+        {
+          "sha256": "025d040c143899a3b7b8b934f5e6ffd84e7a174af160af2919851fe77d4aadce"
+        }
+      ],
+      "finished_sha256": "fc2866bb1062ea9192830f60f75540b587d822ec7edf76a03e152869945fc68e"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. ONE pixelcounterpart image1 E rightside view, exactdiamondbody and8balltiplegs. Faceoneeye2fangs atRIGHTedge;top3singlepurplediamonds horizontal,2tripletgroups topbottom,creamrim/center. Image2 pixelstylepaletteonly. Sharp128px max24beigecream purplecolors,noantialias, transparent padded square,no text.\n",
+      "raw_sha256": "8b7d68ebc49c0d4e4dc4fe30f0230fd929c203b79aaf10eb584e2ad91bb3e449",
+      "raw_bytes": 754116,
+      "generation_references_in_order": [
+        {
+          "sha256": "fc2866bb1062ea9192830f60f75540b587d822ec7edf76a03e152869945fc68e"
+        },
+        {
+          "sha256": "760fd8f1f0d7407b25819e9c6e925d6e66c81b769ed24b243d3578b63ee26f93"
+        }
+      ],
+      "finished_sha256": "ea04a596a5909de4a7f1ff69979919bba4c89203d905e11260088063c002d8bf"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE SE315 front-right view of exact diamondcushion. FixedHIGH50deg camera same top/thickness, yaw only. Facebearingcorner nearLOWERRIGHT,rearcorner farUPPERLEFT. Three SINGLEpurplediamonds run upperleft-center-lowerright with creamoutlinecenter; exactly2tripletgroups on upperright/lowerleft sidecorners. Twoeyes and mouth4roundedfangs on frontcorner lowerRIGHT, no relocation toside. Exactly8shortballtiplegs fixed4corners+4midpoints, same lengths. Bodyprojection more squarelike than originalS diamond, oppositeSW. Samebeigefurcreamrim/purpledetails. Fullbody transparentpadding no text, true3D rotation no mirror.\n",
+      "raw_sha256": "a3ddcd377f7253adfa1d5d1b3a972cb9cf4366ac700cad30186c3de5133aac47",
+      "raw_bytes": 1257534,
+      "generation_references_in_order": [
+        {
+          "sha256": "2c989a55109bd18262c2c28591dfbc4333eb4131ce67b8011831a7ed62276db4"
+        }
+      ],
+      "finished_sha256": "fb06ca7c7b90998d8b42a4d2ca9dd09517fb36e98c187a847fd76699119a0978"
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. ONE pixelcounterpart of image1 SE frontright diamondcushion. Exactyaw/topprojection/thickness/8balltiplegs, face2eyes4smallroundedfangs at nearLOWERRIGHT. Top3singlepurplediamondaxis upperleft-lowerright and2tripletgroups fixed. Image2 pixelstylepaletteonly. Sharp128px max24beigecream purplecolors, noantialias, transparent paddedsquare,no text.\n",
+      "raw_sha256": "bf56929109ea82ce3e76098eebbbde7606591d35f47258645d853f3f67984945",
+      "raw_bytes": 658908,
+      "generation_references_in_order": [
+        {
+          "sha256": "fb06ca7c7b90998d8b42a4d2ca9dd09517fb36e98c187a847fd76699119a0978"
+        },
+        {
+          "sha256": "760fd8f1f0d7407b25819e9c6e925d6e66c81b769ed24b243d3578b63ee26f93"
+        }
+      ],
+      "finished_sha256": "be8e18e44c220e93aa2f6afe7f45dca5e33fa9e6287c5881f50f8a12a28d1985"
+    }
+  ]
+}
