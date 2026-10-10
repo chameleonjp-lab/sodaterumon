@@ -1,0 +1,1388 @@
+{
+  "schema_version": 1,
+  "id": "sm-scaled-005",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "S",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/scaled/sm-scaled-005/default.png",
+      "sha256": "8908fe2280e72714c009dde34633a722a4bb310c13e1c75a8ccd6cb89b1a57db",
+      "git_blob_sha": "9bdaf44117536788203dd41a56dbd55980bfbbf6",
+      "bytes": 389780
+    },
+    "pixel": {
+      "path": "assets/monsters/scaled/sm-scaled-005/pixel.png",
+      "sha256": "28e91f1719ebf39b8d7abb46c1922bd30640703388fe7314f6d8857948ded2d8",
+      "git_blob_sha": "ab342d52a60c60683d9d29939e8d49695f952de1",
+      "bytes": 3741
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-005/default.png",
+      "sha256": "8908fe2280e72714c009dde34633a722a4bb310c13e1c75a8ccd6cb89b1a57db",
+      "bytes": 389780,
+      "git_blob_sha": "9bdaf44117536788203dd41a56dbd55980bfbbf6",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          124,
+          64,
+          899,
+          960
+        ],
+        "margins": [
+          124,
+          64,
+          125,
+          64
+        ],
+        "visible_longest_extent": 896,
+        "visible_rgb_colors": 71644,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-005/pixel.png",
+      "sha256": "28e91f1719ebf39b8d7abb46c1922bd30640703388fe7314f6d8857948ded2d8",
+      "bytes": 3741,
+      "git_blob_sha": "ab342d52a60c60683d9d29939e8d49695f952de1",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          37,
+          12,
+          90,
+          116
+        ],
+        "margins": [
+          37,
+          12,
+          38,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 32,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "8908fe2280e72714c009dde34633a722a4bb310c13e1c75a8ccd6cb89b1a57db"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/SW/default.png",
+      "sha256": "e224f77b69943f555ff2a2fdf1b84a388f056d13d151f80c542bdfa412bfdd9b",
+      "bytes": 326192,
+      "git_blob_sha": "c27ca140d9d11dcfc9ab558beb848b0024566165",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          298,
+          96,
+          726,
+          928
+        ],
+        "margins": [
+          298,
+          96,
+          298,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 57294,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/SW/pixel.png",
+      "sha256": "cede542ab399abc945e6e62dc4a29e1b37906f4497fb592b9db5b9231de59330",
+      "bytes": 5292,
+      "git_blob_sha": "79ba083058b4de32a0289c5ced3d8b9d12420681",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          36,
+          12,
+          91,
+          116
+        ],
+        "margins": [
+          36,
+          12,
+          37,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "e224f77b69943f555ff2a2fdf1b84a388f056d13d151f80c542bdfa412bfdd9b"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/W/default.png",
+      "sha256": "b0fd37cb28645d0c7e6886f7d37725ac2d65a3d3afb728d60fbe9db2b9684098",
+      "bytes": 249916,
+      "git_blob_sha": "ccaddabe0c0046fed584702341ed353c1b373bd5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          378,
+          96,
+          645,
+          928
+        ],
+        "margins": [
+          378,
+          96,
+          379,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 51524,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/W/pixel.png",
+      "sha256": "be4235c0713bb04318cff1335e56cbc042441fa72df144e6fa8f6c2b271048bb",
+      "bytes": 3907,
+      "git_blob_sha": "b978672dc6965889fb159b4427bed3d65018e40e",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          47,
+          12,
+          81,
+          116
+        ],
+        "margins": [
+          47,
+          12,
+          47,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 21,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "b0fd37cb28645d0c7e6886f7d37725ac2d65a3d3afb728d60fbe9db2b9684098"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/NW/default.png",
+      "sha256": "0bce86e7afde2f39e1abb1889828ca642bf6f204b2c1f86603e64a99b91330d7",
+      "bytes": 313250,
+      "git_blob_sha": "e57c5866b0911bcb5eb08c9404e7311e8d204ae5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          314,
+          96,
+          710,
+          928
+        ],
+        "margins": [
+          314,
+          96,
+          314,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 53584,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/NW/pixel.png",
+      "sha256": "86666884c83f97a2f4dd20d188ad25a1cebbfcddd647c8574b5af99485baceea",
+      "bytes": 4809,
+      "git_blob_sha": "3041e29f8d0946d9337cd6e7ad7f333017076df8",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          38,
+          12,
+          90,
+          116
+        ],
+        "margins": [
+          38,
+          12,
+          38,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "0bce86e7afde2f39e1abb1889828ca642bf6f204b2c1f86603e64a99b91330d7"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/N/default.png",
+      "sha256": "63aebfe617b04728478c8a5a505a840bcee5e7623d32dda10b9814c5bc32144e",
+      "bytes": 338291,
+      "git_blob_sha": "4c1f56cf79c993872405d30c26b744341b77eddb",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          293,
+          96,
+          731,
+          928
+        ],
+        "margins": [
+          293,
+          96,
+          293,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 54659,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/N/pixel.png",
+      "sha256": "7d81905c770e8c274acfce8549843e5cbf786c0f79cd48b17c07e14c59958300",
+      "bytes": 4911,
+      "git_blob_sha": "9875f1b70595fcdfc703ef0b73de4f26c9807d9c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          36,
+          12,
+          91,
+          116
+        ],
+        "margins": [
+          36,
+          12,
+          37,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "63aebfe617b04728478c8a5a505a840bcee5e7623d32dda10b9814c5bc32144e"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/NE/default.png",
+      "sha256": "76de480a448f87d36c548d90cd44bba1911dc1cc8c56317f7e2ad9e91386e673",
+      "bytes": 322943,
+      "git_blob_sha": "fe54e3de8dc65e95e134c12f34eb0fb42388f591",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          299,
+          96,
+          725,
+          928
+        ],
+        "margins": [
+          299,
+          96,
+          299,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 56034,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/NE/pixel.png",
+      "sha256": "b1a384b7d92f61f65210fa69fb167df51b8aa82fd5af0157401802fe383c44f6",
+      "bytes": 5049,
+      "git_blob_sha": "c21a5418ea7ae3e24702c8da7caffff146dbfad0",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          36,
+          12,
+          92,
+          116
+        ],
+        "margins": [
+          36,
+          12,
+          36,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "76de480a448f87d36c548d90cd44bba1911dc1cc8c56317f7e2ad9e91386e673"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/E/default.png",
+      "sha256": "ebda0791be1b879bbea9cc2d76ad0276df0a9614aac26c95aeebbb3966b5ff35",
+      "bytes": 238184,
+      "git_blob_sha": "f2944df47022e1e25cc8df7a45c392294ea3e2f7",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          343,
+          96,
+          681,
+          928
+        ],
+        "margins": [
+          343,
+          96,
+          343,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 47725,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/E/pixel.png",
+      "sha256": "5f5fa0f33457f748e7a217523aff4ce6121a4f5452a418b2114adbd421d0f784",
+      "bytes": 3762,
+      "git_blob_sha": "9e26045c03a7b60e3619ad41f926393cbcb0c3af",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          42,
+          12,
+          85,
+          116
+        ],
+        "margins": [
+          42,
+          12,
+          43,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "ebda0791be1b879bbea9cc2d76ad0276df0a9614aac26c95aeebbb3966b5ff35"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/SE/default.png",
+      "sha256": "5749cecf4d6c43013797591436c81f3af45380af3fba00affe77beaad67401c0",
+      "bytes": 314773,
+      "git_blob_sha": "9262dcbf7e1d5b52fe18c47f9aaab746c5f28718",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          325,
+          96,
+          698,
+          928
+        ],
+        "margins": [
+          325,
+          96,
+          326,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 51493,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-005/directions/SE/pixel.png",
+      "sha256": "7bfe9a75669f46f965bd0763ba6aec6b283b0b2bedfb2b4e1c352a699b580b89",
+      "bytes": 4909,
+      "git_blob_sha": "7930daeae427f4fcc0f29b2e399915bafbf51c97",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          38,
+          12,
+          89,
+          116
+        ],
+        "margins": [
+          38,
+          12,
+          39,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "5749cecf4d6c43013797591436c81f3af45380af3fba00affe77beaad67401c0"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and E confirmed front two eyes and rear occlusion, narrow side face and visible decorative side panels, two wings and one tail, normal/pixel correspondence.",
+    "limitations": [
+      "Wing-root small protrusions and attachment depths inferred. Tail curve rigidity around complete revolution unverified. Corrected SE normal selected; prior duplicate direction retained.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "E",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new turntable illustration of this exact original creature from reference1. DirectionE: Turn the entire upright creature exactly90 degrees to face image right: true side elevation. The broad front eye-bearing panel is edge-on and frontal eyes hidden; do not invent a lateral eye. The opposite prism side with three vertically stacked plates is the visible central surface. The rigid flat rectangular wings rotate too: edge-on or overlapping in depth rather than two full frontal rectangles. Show body thickness and same single hanging tail in correct projection.\nIdentity locked: one upright elongated rounded-hexagonal prism body, body length about twice its width; zero legs and arms, two small eyes only on the broad front panel, exactly two narrow rigid rounded-rectangular wings attached to the sides and swept backward in parallel, exactly one long flexible spatula tail emerging below/rear body with a single rounded widened tip. No split tail, feathers, wing fingers, diamond-shaped body or wings. The body front is one broad hexagonal plate; each side has exactly three thick vertically stacked scale plates, peach then ice-blue then peach. Thin overlapping mica-like crystalline scales and soft translucent faceted gleam. Pale ice-cyan#B7D7DF, peach#E8BC99, deep blue-gray#4F6484 edges. Body stays vertically oriented, wings same absolute size and attachments, tail hangs down and bends gently. Preserve the friendly expression whenever face can be seen.\nKeep source outline and cel-shaded crystalline illustration style and camera elevation. Rotate complete geometry around vertical axis without tilting image or copying frontal anatomy onto other facets. Full single creature,1024x1024 square real transparent alpha, longest extent832px and96px minimum clear margin. No shadow, ground, environment, text, labels or checkerboard.",
+      "raw_sha256": "36493836136d0270bc2bb64a4220fd101fb7b8295f39c9cc90d4d2a252821df9",
+      "generation_references_in_order": [
+        {
+          "sha256": "8908fe2280e72714c009dde34633a722a4bb310c13e1c75a8ccd6cb89b1a57db"
+        }
+      ],
+      "finished_sha256": "ebda0791be1b879bbea9cc2d76ad0276df0a9614aac26c95aeebbb3966b5ff35",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          457,
+          78,
+          900,
+          1168
+        ],
+        "resize": [
+          338,
+          832
+        ],
+        "offset": [
+          343,
+          96
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          343,
+          96,
+          681,
+          928
+        ],
+        "margins": [
+          343,
+          96,
+          343,
+          96
+        ],
+        "visible_rgb_colors": 47725,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make one faithful pixel-art sprite of this exact creature and exact E direction from the supplied normal illustration. Do not rotate or redesign it. Preserve the silhouette, front/side/back panel visibility, visible eyes or absence of eyes, three vertically stacked side scales, top plane, wing overlaps and tail curve exactly as the reference. One upright hexagonal prism body, zero legs or arms, exactly two rigid rounded rectangular wings, one long spatula tail. Preserve icy cyan, peach and blue-gray palette.\nDraw genuine crisp low-resolution pixel art with deliberate stepped outlines and coherent pixel clusters, suitable for128x128 pixels, maximum32 visible colors, fully binary transparent alpha, no antialiasing, gradients, noise or blur. Full single creature centered on transparent background with generous padding. No ground, shadow, background, text, grid or checkerboard. Normal reference is the identity and direction authority; do not add frontal eyes to side or rear views.\n",
+      "raw_sha256": "d40f2fd3ff92f1308d6a11e9ad91e25ab07f8b3eebf6f2d72946caa44a1485b8",
+      "generation_references_in_order": [
+        {
+          "sha256": "ebda0791be1b879bbea9cc2d76ad0276df0a9614aac26c95aeebbb3966b5ff35"
+        }
+      ],
+      "finished_sha256": "5f5fa0f33457f748e7a217523aff4ce6121a4f5452a418b2114adbd421d0f784",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          423,
+          109,
+          853,
+          1146
+        ],
+        "resize": [
+          43,
+          104
+        ],
+        "offset": [
+          42,
+          12
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          42,
+          12,
+          85,
+          116
+        ],
+        "margins": [
+          42,
+          12,
+          43,
+          12
+        ],
+        "visible_rgb_colors": 24,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new turntable illustration of this exact original creature from reference1. DirectionN: Rotate180 degrees: direct straight back of the upright creature, centered and symmetrical. Rear hexagonal plate has the same translucent crystal material but NO eyes, eyebrows or face. Bilateral rigid rectangular wings seen from their backs, same attachments. Side stacks at the two edges, long single tail drops below body. Front-facing eye panel is fully hidden.\nIdentity locked: one upright elongated rounded-hexagonal prism body, body length about twice its width; zero legs and arms, two small eyes only on the broad front panel, exactly two narrow rigid rounded-rectangular wings attached to the sides and swept backward in parallel, exactly one long flexible spatula tail emerging below/rear body with a single rounded widened tip. No split tail, feathers, wing fingers, diamond-shaped body or wings. The body front is one broad hexagonal plate; each side has exactly three thick vertically stacked scale plates, peach then ice-blue then peach. Thin overlapping mica-like crystalline scales and soft translucent faceted gleam. Pale ice-cyan#B7D7DF, peach#E8BC99, deep blue-gray#4F6484 edges. Body stays vertically oriented, wings same absolute size and attachments, tail hangs down and bends gently. Preserve the friendly expression whenever face can be seen.\nKeep source outline and cel-shaded crystalline illustration style and camera elevation. Rotate complete geometry around vertical axis without tilting image or copying frontal anatomy onto other facets. Full single creature,1024x1024 square real transparent alpha, longest extent832px and96px minimum clear margin. No shadow, ground, environment, text, labels or checkerboard.",
+      "raw_sha256": "42b6ba6cbfc6f3d035c5fdbd8538ba1c235da37f5d720fa47b38109dadaee53e",
+      "generation_references_in_order": [
+        {
+          "sha256": "8908fe2280e72714c009dde34633a722a4bb310c13e1c75a8ccd6cb89b1a57db"
+        }
+      ],
+      "finished_sha256": "63aebfe617b04728478c8a5a505a840bcee5e7623d32dda10b9814c5bc32144e",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          340,
+          84,
+          914,
+          1175
+        ],
+        "resize": [
+          438,
+          832
+        ],
+        "offset": [
+          293,
+          96
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          293,
+          96,
+          731,
+          928
+        ],
+        "margins": [
+          293,
+          96,
+          293,
+          96
+        ],
+        "visible_rgb_colors": 54659,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make one faithful pixel-art sprite of this exact creature and exact N direction from the supplied normal illustration. Do not rotate or redesign it. Preserve the silhouette, front/side/back panel visibility, visible eyes or absence of eyes, three vertically stacked side scales, top plane, wing overlaps and tail curve exactly as the reference. One upright hexagonal prism body, zero legs or arms, exactly two rigid rounded rectangular wings, one long spatula tail. Preserve icy cyan, peach and blue-gray palette.\nDraw genuine crisp low-resolution pixel art with deliberate stepped outlines and coherent pixel clusters, suitable for128x128 pixels, maximum32 visible colors, fully binary transparent alpha, no antialiasing, gradients, noise or blur. Full single creature centered on transparent background with generous padding. No ground, shadow, background, text, grid or checkerboard. Normal reference is the identity and direction authority; do not add frontal eyes to side or rear views.\n",
+      "raw_sha256": "4f9b198f7597b81f1848622d9189f1a30fcae39e992a16b5031c8ae888f55d0c",
+      "generation_references_in_order": [
+        {
+          "sha256": "63aebfe617b04728478c8a5a505a840bcee5e7623d32dda10b9814c5bc32144e"
+        }
+      ],
+      "finished_sha256": "7d81905c770e8c274acfce8549843e5cbf786c0f79cd48b17c07e14c59958300",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          354,
+          111,
+          900,
+          1143
+        ],
+        "resize": [
+          55,
+          104
+        ],
+        "offset": [
+          36,
+          12
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          36,
+          12,
+          91,
+          116
+        ],
+        "margins": [
+          36,
+          12,
+          37,
+          12
+        ],
+        "visible_rgb_colors": 22,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new turntable illustration of this exact original creature from reference1. DirectionNE: Rotate225 degrees from front: rear-right three-quarter. Rear facet dominates and the opposite side with three stacked plates is visible. Front eye panel is hidden on far side, no eyes visible. Wings and body rotate together in3D with consistent near/far foreshortening and visible thin edge thickness.\nIdentity locked: one upright elongated rounded-hexagonal prism body, body length about twice its width; zero legs and arms, two small eyes only on the broad front panel, exactly two narrow rigid rounded-rectangular wings attached to the sides and swept backward in parallel, exactly one long flexible spatula tail emerging below/rear body with a single rounded widened tip. No split tail, feathers, wing fingers, diamond-shaped body or wings. The body front is one broad hexagonal plate; each side has exactly three thick vertically stacked scale plates, peach then ice-blue then peach. Thin overlapping mica-like crystalline scales and soft translucent faceted gleam. Pale ice-cyan#B7D7DF, peach#E8BC99, deep blue-gray#4F6484 edges. Body stays vertically oriented, wings same absolute size and attachments, tail hangs down and bends gently. Preserve the friendly expression whenever face can be seen.\nKeep source outline and cel-shaded crystalline illustration style and camera elevation. Rotate complete geometry around vertical axis without tilting image or copying frontal anatomy onto other facets. Full single creature,1024x1024 square real transparent alpha, longest extent832px and96px minimum clear margin. No shadow, ground, environment, text, labels or checkerboard.",
+      "raw_sha256": "edea9858c0c00572f41c36457b79c01f4957dd6f185344572ef96feb3239ac6e",
+      "generation_references_in_order": [
+        {
+          "sha256": "8908fe2280e72714c009dde34633a722a4bb310c13e1c75a8ccd6cb89b1a57db"
+        }
+      ],
+      "finished_sha256": "76de480a448f87d36c548d90cd44bba1911dc1cc8c56317f7e2ad9e91386e673",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          409,
+          81,
+          968,
+          1172
+        ],
+        "resize": [
+          426,
+          832
+        ],
+        "offset": [
+          299,
+          96
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          299,
+          96,
+          725,
+          928
+        ],
+        "margins": [
+          299,
+          96,
+          299,
+          96
+        ],
+        "visible_rgb_colors": 56034,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make one faithful pixel-art sprite of this exact creature and exact NE direction from the supplied normal illustration. Do not rotate or redesign it. Preserve the silhouette, front/side/back panel visibility, visible eyes or absence of eyes, three vertically stacked side scales, top plane, wing overlaps and tail curve exactly as the reference. One upright hexagonal prism body, zero legs or arms, exactly two rigid rounded rectangular wings, one long spatula tail. Preserve icy cyan, peach and blue-gray palette.\nDraw genuine crisp low-resolution pixel art with deliberate stepped outlines and coherent pixel clusters, suitable for128x128 pixels, maximum32 visible colors, fully binary transparent alpha, no antialiasing, gradients, noise or blur. Full single creature centered on transparent background with generous padding. No ground, shadow, background, text, grid or checkerboard. Normal reference is the identity and direction authority; do not add frontal eyes to side or rear views.\n",
+      "raw_sha256": "c138edac674b0a00f0bcd279957b034984d2c3fbd4e904cf81792d93230459ec",
+      "generation_references_in_order": [
+        {
+          "sha256": "76de480a448f87d36c548d90cd44bba1911dc1cc8c56317f7e2ad9e91386e673"
+        }
+      ],
+      "finished_sha256": "b1a384b7d92f61f65210fa69fb167df51b8aa82fd5af0157401802fe383c44f6",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          350,
+          80,
+          954,
+          1193
+        ],
+        "resize": [
+          56,
+          104
+        ],
+        "offset": [
+          36,
+          12
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          36,
+          12,
+          92,
+          116
+        ],
+        "margins": [
+          36,
+          12,
+          36,
+          12
+        ],
+        "visible_rgb_colors": 24,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new turntable illustration of this exact original creature from reference1. DirectionNW: Rotate the upright creature135 degrees from front toward image left: rear-left three-quarter. Rear facet dominates and one side with three stacked plates is visible. Front panel and both eyes are hidden on the far side. Two attached rigid rectangular wings rotate consistently, with near/far depth and foreshortening; no frontal layout pasted onto back. Body and wings turn as one3D assembly.\nIdentity locked: one upright elongated rounded-hexagonal prism body, body length about twice its width; zero legs and arms, two small eyes only on the broad front panel, exactly two narrow rigid rounded-rectangular wings attached to the sides and swept backward in parallel, exactly one long flexible spatula tail emerging below/rear body with a single rounded widened tip. No split tail, feathers, wing fingers, diamond-shaped body or wings. The body front is one broad hexagonal plate; each side has exactly three thick vertically stacked scale plates, peach then ice-blue then peach. Thin overlapping mica-like crystalline scales and soft translucent faceted gleam. Pale ice-cyan#B7D7DF, peach#E8BC99, deep blue-gray#4F6484 edges. Body stays vertically oriented, wings same absolute size and attachments, tail hangs down and bends gently. Preserve the friendly expression whenever face can be seen.\nKeep source outline and cel-shaded crystalline illustration style and camera elevation. Rotate complete geometry around vertical axis without tilting image or copying frontal anatomy onto other facets. Full single creature,1024x1024 square real transparent alpha, longest extent832px and96px minimum clear margin. No shadow, ground, environment, text, labels or checkerboard.",
+      "raw_sha256": "d0fd8be5e83ba3c512728863970a80b9c1b64f2e4d73ab861a679b0dcb1cc1a4",
+      "generation_references_in_order": [
+        {
+          "sha256": "8908fe2280e72714c009dde34633a722a4bb310c13e1c75a8ccd6cb89b1a57db"
+        }
+      ],
+      "finished_sha256": "0bce86e7afde2f39e1abb1889828ca642bf6f204b2c1f86603e64a99b91330d7",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          337,
+          63,
+          865,
+          1173
+        ],
+        "resize": [
+          396,
+          832
+        ],
+        "offset": [
+          314,
+          96
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          314,
+          96,
+          710,
+          928
+        ],
+        "margins": [
+          314,
+          96,
+          314,
+          96
+        ],
+        "visible_rgb_colors": 53584,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make one faithful pixel-art sprite of this exact creature and exact NW direction from the supplied normal illustration. Do not rotate or redesign it. Preserve the silhouette, front/side/back panel visibility, visible eyes or absence of eyes, three vertically stacked side scales, top plane, wing overlaps and tail curve exactly as the reference. One upright hexagonal prism body, zero legs or arms, exactly two rigid rounded rectangular wings, one long spatula tail. Preserve icy cyan, peach and blue-gray palette.\nDraw genuine crisp low-resolution pixel art with deliberate stepped outlines and coherent pixel clusters, suitable for128x128 pixels, maximum32 visible colors, fully binary transparent alpha, no antialiasing, gradients, noise or blur. Full single creature centered on transparent background with generous padding. No ground, shadow, background, text, grid or checkerboard. Normal reference is the identity and direction authority; do not add frontal eyes to side or rear views.\n",
+      "raw_sha256": "5dfb78d0aa4322ae7e70357fe8e76a04256b639196f3fe52b7c9cd82ed193210",
+      "generation_references_in_order": [
+        {
+          "sha256": "0bce86e7afde2f39e1abb1889828ca642bf6f204b2c1f86603e64a99b91330d7"
+        }
+      ],
+      "finished_sha256": "86666884c83f97a2f4dd20d188ad25a1cebbfcddd647c8574b5af99485baceea",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          364,
+          81,
+          913,
+          1181
+        ],
+        "resize": [
+          52,
+          104
+        ],
+        "offset": [
+          38,
+          12
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          38,
+          12,
+          90,
+          116
+        ],
+        "margins": [
+          38,
+          12,
+          38,
+          12
+        ],
+        "visible_rgb_colors": 22,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new turntable illustration of this exact original creature from reference1. DirectionSE: Rotate45 degrees toward image right and viewer: front-right three-quarter. The broad eye-bearing front panel is foreshortened, and the opposite side facet with three stacked plates becomes substantially visible. Both frontal eyes may be visible only on the foreshortened front panel. Wings rotate with the body with clearly unequal apparent widths and depth. A real solid-object turn, not moving eyes on an otherwise frontal sprite.\nIdentity locked: one upright elongated rounded-hexagonal prism body, body length about twice its width; zero legs and arms, two small eyes only on the broad front panel, exactly two narrow rigid rounded-rectangular wings attached to the sides and swept backward in parallel, exactly one long flexible spatula tail emerging below/rear body with a single rounded widened tip. No split tail, feathers, wing fingers, diamond-shaped body or wings. The body front is one broad hexagonal plate; each side has exactly three thick vertically stacked scale plates, peach then ice-blue then peach. Thin overlapping mica-like crystalline scales and soft translucent faceted gleam. Pale ice-cyan#B7D7DF, peach#E8BC99, deep blue-gray#4F6484 edges. Body stays vertically oriented, wings same absolute size and attachments, tail hangs down and bends gently. Preserve the friendly expression whenever face can be seen.\nKeep source outline and cel-shaded crystalline illustration style and camera elevation. Rotate complete geometry around vertical axis without tilting image or copying frontal anatomy onto other facets. Full single creature,1024x1024 square real transparent alpha, longest extent832px and96px minimum clear margin. No shadow, ground, environment, text, labels or checkerboard.",
+      "raw_sha256": "f7b4d2d7e87fd73105dd098cdeee988ce891bff0a6a98b5daa6891ecc8218721",
+      "generation_references_in_order": [
+        {
+          "sha256": "8908fe2280e72714c009dde34633a722a4bb310c13e1c75a8ccd6cb89b1a57db"
+        }
+      ],
+      "finished_sha256": "5cad28215df8414fb8a8c46db8f2320fb60fa39c8422b07e45628cff12060f51",
+      "selected": false,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          393,
+          71,
+          915,
+          1179
+        ],
+        "resize": [
+          392,
+          832
+        ],
+        "offset": [
+          316,
+          96
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          316,
+          96,
+          708,
+          928
+        ],
+        "margins": [
+          316,
+          96,
+          316,
+          96
+        ],
+        "visible_rgb_colors": 56288,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "attempt": 2,
+      "actual_prompt": "Create a corrected SE front-right three-quarter turntable view of this crystalline creature. Image1 is the current wrong-facing candidate to edit; image2 is the true E right-side view to guide the solid geometry. Turn the complete prism body from image2 45 degrees toward the viewer. In the resulting image, the broad hexagonal front panel with both eyes occupies the RIGHT part of the body, and the near side facet with its three vertically stacked peach/ice-blue/peach scales occupies the LEFT part of the body. The front panel faces toward image-right and the viewer. The near wing is on image-LEFT, visibly wide; the far wing is on image-RIGHT, narrow and partly behind the body. Do not keep the front panel on the left as in image1. The top plane must also reflect this new solid-object orientation. Redraw the real turn, never a mirrored or flipped image.\nKeep identity unchanged: one upright elongated rounded hexagonal prism body, no limbs, exactly two small eyes only on the broad front face, two rigid rounded rectangular wings of the same physical size swept backward in parallel, exactly one long gently curved spatula tail attached below/rear with a single widened rounded end. No extra wings, no feathers, no split tail, no diamond body. Preserve icy cyan, peach and deep blue-gray outline and crystalline cel-shading, same proportions, camera elevation and lighting. Full single creature,1024 square transparent alpha, centered with ample clear margin; no environment, text, shadow, background or checkerboard.\n",
+      "raw_sha256": "404d6d868483312fa4c0c7419f89f843e8749cc62cf8d0daab30d5ebcc8a0635",
+      "generation_references_in_order": [
+        {
+          "sha256": "5cad28215df8414fb8a8c46db8f2320fb60fa39c8422b07e45628cff12060f51"
+        },
+        {
+          "sha256": "ebda0791be1b879bbea9cc2d76ad0276df0a9614aac26c95aeebbb3966b5ff35"
+        }
+      ],
+      "finished_sha256": "5749cecf4d6c43013797591436c81f3af45380af3fba00affe77beaad67401c0",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          399,
+          121,
+          855,
+          1137
+        ],
+        "resize": [
+          373,
+          832
+        ],
+        "offset": [
+          325,
+          96
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          325,
+          96,
+          698,
+          928
+        ],
+        "margins": [
+          325,
+          96,
+          326,
+          96
+        ],
+        "visible_rgb_colors": 51493,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make one faithful pixel-art sprite of this exact creature and exact SE direction from the supplied normal illustration. Do not rotate or redesign it. Preserve the silhouette, front/side/back panel visibility, visible eyes or absence of eyes, three vertically stacked side scales, top plane, wing overlaps and tail curve exactly as the reference. One upright hexagonal prism body, zero legs or arms, exactly two rigid rounded rectangular wings, one long spatula tail. Preserve icy cyan, peach and blue-gray palette.\nDraw genuine crisp low-resolution pixel art with deliberate stepped outlines and coherent pixel clusters, suitable for128x128 pixels, maximum32 visible colors, fully binary transparent alpha, no antialiasing, gradients, noise or blur. Full single creature centered on transparent background with generous padding. No ground, shadow, background, text, grid or checkerboard. Normal reference is the identity and direction authority; do not add frontal eyes to side or rear views.\n",
+      "raw_sha256": "0efce6ab63ab50bf3c2165aba242e78ab3245a32a50f1f58cb9e1558d156f1c5",
+      "generation_references_in_order": [
+        {
+          "sha256": "5749cecf4d6c43013797591436c81f3af45380af3fba00affe77beaad67401c0"
+        }
+      ],
+      "finished_sha256": "7bfe9a75669f46f965bd0763ba6aec6b283b0b2bedfb2b4e1c352a699b580b89",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          368,
+          86,
+          916,
+          1197
+        ],
+        "resize": [
+          51,
+          104
+        ],
+        "offset": [
+          38,
+          12
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          38,
+          12,
+          89,
+          116
+        ],
+        "margins": [
+          38,
+          12,
+          39,
+          12
+        ],
+        "visible_rgb_colors": 24,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new turntable illustration of this exact original creature from reference1. DirectionSW: Rotate the whole upright creature45 degrees to face diagonally toward the viewer and image left. The broad front eye-bearing hexagonal panel is now foreshortened, its right side recedes, and one side facet with three stacked scale plates becomes substantially visible. Both frontal eyes may remain visible on that same foreshortened front panel. Both rigid rectangular wings rotate with the body with clearly unequal foreshortening. It must be a clear three-quarter solid-object turn, not an eye-position edit.\nIdentity locked: one upright elongated rounded-hexagonal prism body, body length about twice its width; zero legs and arms, two small eyes only on the broad front panel, exactly two narrow rigid rounded-rectangular wings attached to the sides and swept backward in parallel, exactly one long flexible spatula tail emerging below/rear body with a single rounded widened tip. No split tail, feathers, wing fingers, diamond-shaped body or wings. The body front is one broad hexagonal plate; each side has exactly three thick vertically stacked scale plates, peach then ice-blue then peach. Thin overlapping mica-like crystalline scales and soft translucent faceted gleam. Pale ice-cyan#B7D7DF, peach#E8BC99, deep blue-gray#4F6484 edges. Body stays vertically oriented, wings same absolute size and attachments, tail hangs down and bends gently. Preserve the friendly expression whenever face can be seen.\nKeep source outline and cel-shaded crystalline illustration style and camera elevation. Rotate complete geometry around vertical axis without tilting image or copying frontal anatomy onto other facets. Full single creature,1024x1024 square real transparent alpha, longest extent832px and96px minimum clear margin. No shadow, ground, environment, text, labels or checkerboard.",
+      "raw_sha256": "eb6b795d85bec5c27c7025fea65f0eb59e0f2d8efb95c16d0ac0aeba9eb1217f",
+      "generation_references_in_order": [
+        {
+          "sha256": "8908fe2280e72714c009dde34633a722a4bb310c13e1c75a8ccd6cb89b1a57db"
+        }
+      ],
+      "finished_sha256": "e224f77b69943f555ff2a2fdf1b84a388f056d13d151f80c542bdfa412bfdd9b",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          361,
+          70,
+          933,
+          1181
+        ],
+        "resize": [
+          428,
+          832
+        ],
+        "offset": [
+          298,
+          96
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          298,
+          96,
+          726,
+          928
+        ],
+        "margins": [
+          298,
+          96,
+          298,
+          96
+        ],
+        "visible_rgb_colors": 57294,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make one faithful pixel-art sprite of this exact creature and exact SW direction from the supplied normal illustration. Do not rotate or redesign it. Preserve the silhouette, front/side/back panel visibility, visible eyes or absence of eyes, three vertically stacked side scales, top plane, wing overlaps and tail curve exactly as the reference. One upright hexagonal prism body, zero legs or arms, exactly two rigid rounded rectangular wings, one long spatula tail. Preserve icy cyan, peach and blue-gray palette.\nDraw genuine crisp low-resolution pixel art with deliberate stepped outlines and coherent pixel clusters, suitable for128x128 pixels, maximum32 visible colors, fully binary transparent alpha, no antialiasing, gradients, noise or blur. Full single creature centered on transparent background with generous padding. No ground, shadow, background, text, grid or checkerboard. Normal reference is the identity and direction authority; do not add frontal eyes to side or rear views.\n",
+      "raw_sha256": "1b007af887a2c2ed48ef097cb603762af2b9f5a5640d841eee39c311f9856844",
+      "generation_references_in_order": [
+        {
+          "sha256": "e224f77b69943f555ff2a2fdf1b84a388f056d13d151f80c542bdfa412bfdd9b"
+        }
+      ],
+      "finished_sha256": "cede542ab399abc945e6e62dc4a29e1b37906f4497fb592b9db5b9231de59330",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          358,
+          104,
+          914,
+          1157
+        ],
+        "resize": [
+          55,
+          104
+        ],
+        "offset": [
+          36,
+          12
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          36,
+          12,
+          91,
+          116
+        ],
+        "margins": [
+          36,
+          12,
+          37,
+          12
+        ],
+        "visible_rgb_colors": 23,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Create one new turntable illustration of this exact original creature from reference1. DirectionW: Turn the entire upright creature exactly90 degrees to face image left: true side elevation. The broad front eye-bearing panel is edge-on, so the two frontal eyes are hidden; do NOT move an eye onto the side. One narrow hexagonal-prism side with three vertically stacked plates is the visible central surface. Rigid flat rectangular wings rotate with the body and appear edge-on or overlap in depth, never remain as two full broad rectangles straddling a frontal body. Show actual3D cross-section and thickness. Keep long tail down with natural projection of its original bend.\nIdentity locked: one upright elongated rounded-hexagonal prism body, body length about twice its width; zero legs and arms, two small eyes only on the broad front panel, exactly two narrow rigid rounded-rectangular wings attached to the sides and swept backward in parallel, exactly one long flexible spatula tail emerging below/rear body with a single rounded widened tip. No split tail, feathers, wing fingers, diamond-shaped body or wings. The body front is one broad hexagonal plate; each side has exactly three thick vertically stacked scale plates, peach then ice-blue then peach. Thin overlapping mica-like crystalline scales and soft translucent faceted gleam. Pale ice-cyan#B7D7DF, peach#E8BC99, deep blue-gray#4F6484 edges. Body stays vertically oriented, wings same absolute size and attachments, tail hangs down and bends gently. Preserve the friendly expression whenever face can be seen.\nKeep source outline and cel-shaded crystalline illustration style and camera elevation. Rotate complete geometry around vertical axis without tilting image or copying frontal anatomy onto other facets. Full single creature,1024x1024 square real transparent alpha, longest extent832px and96px minimum clear margin. No shadow, ground, environment, text, labels or checkerboard.",
+      "raw_sha256": "a21b545c9c72fe3c9745ebdc5be3cdf40e3982edb0d316045af1ba276bb3d2b4",
+      "generation_references_in_order": [
+        {
+          "sha256": "8908fe2280e72714c009dde34633a722a4bb310c13e1c75a8ccd6cb89b1a57db"
+        }
+      ],
+      "finished_sha256": "b0fd37cb28645d0c7e6886f7d37725ac2d65a3d3afb728d60fbe9db2b9684098",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          484,
+          70,
+          838,
+          1173
+        ],
+        "resize": [
+          267,
+          832
+        ],
+        "offset": [
+          378,
+          96
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          378,
+          96,
+          645,
+          928
+        ],
+        "margins": [
+          378,
+          96,
+          379,
+          96
+        ],
+        "visible_rgb_colors": 51524,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make one faithful pixel-art sprite of this exact creature and exact W direction from the supplied normal illustration. Do not rotate or redesign it. Preserve the silhouette, front/side/back panel visibility, visible eyes or absence of eyes, three vertically stacked side scales, top plane, wing overlaps and tail curve exactly as the reference. One upright hexagonal prism body, zero legs or arms, exactly two rigid rounded rectangular wings, one long spatula tail. Preserve icy cyan, peach and blue-gray palette.\nDraw genuine crisp low-resolution pixel art with deliberate stepped outlines and coherent pixel clusters, suitable for128x128 pixels, maximum32 visible colors, fully binary transparent alpha, no antialiasing, gradients, noise or blur. Full single creature centered on transparent background with generous padding. No ground, shadow, background, text, grid or checkerboard. Normal reference is the identity and direction authority; do not add frontal eyes to side or rear views.\n",
+      "raw_sha256": "d99d6e0d90847b913cab1ce9ff224cb0708d154f7e8244e0edba49d1616f80ae",
+      "generation_references_in_order": [
+        {
+          "sha256": "b0fd37cb28645d0c7e6886f7d37725ac2d65a3d3afb728d60fbe9db2b9684098"
+        }
+      ],
+      "finished_sha256": "be4235c0713bb04318cff1335e56cbc042441fa72df144e6fa8f6c2b271048bb",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          460,
+          108,
+          804,
+          1147
+        ],
+        "resize": [
+          34,
+          104
+        ],
+        "offset": [
+          47,
+          12
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          47,
+          12,
+          81,
+          116
+        ],
+        "margins": [
+          47,
+          12,
+          47,
+          12
+        ],
+        "visible_rgb_colors": 21,
+        "alpha_unique_count": 2
+      }
+    }
+  ]
+}
