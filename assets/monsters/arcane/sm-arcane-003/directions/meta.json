@@ -1,0 +1,799 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-003",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "existing_direction_basis": "Elevated front-right three-quarter inferred visually; A coordinator concurred",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/arcane/sm-arcane-003/default.png",
+      "sha256": "833a24fb6596d65a7d9d603bbb4d40ab78fedcf76483c6d78234562de53ab40f",
+      "git_blob_sha": "5ee5451bf8c25b6775df3d9bd7d18af8ca3b2491",
+      "bytes": 546365
+    },
+    "pixel": {
+      "path": "assets/monsters/arcane/sm-arcane-003/pixel.png",
+      "sha256": "4cee9bfb1d4d6710cd67833704b729a2216445111e8ba636df4eba2d56ce3b63",
+      "git_blob_sha": "cba367be064b5d2a9936c638f52230c3a6b557e8",
+      "bytes": 6342
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front, N rear; eight nominal azimuth sectors in order S,SW,W,NW,N,NE,E,SE. Not an assertion of exact physical camera calibration.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/S/default.png",
+      "sha256": "d8b961b7fef4c1fc33ad944333a444c8fe334b3603fa98769779d12c324c3c9c",
+      "bytes": 555906,
+      "git_blob_sha": "c8820d25b5e8dd428c48b2a01b5288d97f20fdde",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          123,
+          68,
+          907,
+          901
+        ],
+        "margins": [
+          123,
+          68,
+          117,
+          123
+        ],
+        "visible_longest_extent": 833,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 117890,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/S/pixel.png",
+      "sha256": "5601a50cb0cf672312294361516f7b5cfc52a0b252cf9b3ac10a6fc56fbe2f09",
+      "bytes": 9411,
+      "git_blob_sha": "0f38670cfd3edfddd230956fc1ba3c105844334c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          15,
+          11,
+          113,
+          115
+        ],
+        "margins": [
+          15,
+          11,
+          15,
+          13
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "d8b961b7fef4c1fc33ad944333a444c8fe334b3603fa98769779d12c324c3c9c"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/SW/default.png",
+      "sha256": "d0fa0837d5640ac99eefd5c9901bcc236224f1fda65ffce813cfc0e4af4cd205",
+      "bytes": 509139,
+      "git_blob_sha": "f86cb6b2b30d554092144f19025b32e1f6ed7dd4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          108,
+          928,
+          916
+        ],
+        "margins": [
+          96,
+          108,
+          96,
+          108
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 95836,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/SW/pixel.png",
+      "sha256": "13431a5efe8c9038832528067b531b2a3ed76b24b4554d8d7eb55a4857ce42ac",
+      "bytes": 8605,
+      "git_blob_sha": "c123b7b6fb96a6eca015e87e18ddde915c46c9e8",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          11,
+          14,
+          116,
+          116
+        ],
+        "margins": [
+          11,
+          14,
+          12,
+          12
+        ],
+        "visible_longest_extent": 105,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 29,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "d0fa0837d5640ac99eefd5c9901bcc236224f1fda65ffce813cfc0e4af4cd205"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/W/default.png",
+      "sha256": "64807d24fac9d1abd6200e916d34e1cf6dda45457a7f048bdbf5abcef1d5687e",
+      "bytes": 300845,
+      "git_blob_sha": "c441c720c429538223a3b1dae66dbe7c4d07813f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          87,
+          269,
+          921,
+          760
+        ],
+        "margins": [
+          87,
+          269,
+          103,
+          264
+        ],
+        "visible_longest_extent": 834,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 68369,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/W/pixel.png",
+      "sha256": "8e346a30a00caf35e415a96c2b66c2debfcf4515e4fc042644b1c474cf3dcdef",
+      "bytes": 6269,
+      "git_blob_sha": "2a51fd348019709a1faa1754eb1b7214d801c7c7",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          34,
+          115,
+          111
+        ],
+        "margins": [
+          12,
+          34,
+          13,
+          17
+        ],
+        "visible_longest_extent": 103,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 31,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "64807d24fac9d1abd6200e916d34e1cf6dda45457a7f048bdbf5abcef1d5687e"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/NW/default.png",
+      "sha256": "2529bd930cb414f49b2ac0aeeeb12ed1b7ef29254ab041218d9e9473e3e8707a",
+      "bytes": 422491,
+      "git_blob_sha": "5d811ffb13235435ac1a12fba52db3a5799432ca",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          104,
+          158,
+          937,
+          859
+        ],
+        "margins": [
+          104,
+          158,
+          87,
+          165
+        ],
+        "visible_longest_extent": 833,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 86930,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/NW/pixel.png",
+      "sha256": "0211a5947440555dabfaa6fdfa1c2d6c2340ebe213dcd942018da2f1b91196f5",
+      "bytes": 7768,
+      "git_blob_sha": "13de6508b0cd32f230ba60bffb13ef6b7a0022c4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          18,
+          117,
+          110
+        ],
+        "margins": [
+          12,
+          18,
+          11,
+          18
+        ],
+        "visible_longest_extent": 105,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "2529bd930cb414f49b2ac0aeeeb12ed1b7ef29254ab041218d9e9473e3e8707a"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/N/default.png",
+      "sha256": "32bd192943d96ceced0765d443572c6688ee83cbd5ee93d45ddbccc07a327094",
+      "bytes": 593534,
+      "git_blob_sha": "b29114860cd5df65985592d9f796bb23f4c743d9",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          104,
+          94,
+          919,
+          926
+        ],
+        "margins": [
+          104,
+          94,
+          105,
+          98
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 118309,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/N/pixel.png",
+      "sha256": "e3cc549f30f001dab642e288f3a8aa0a8b3bbcbff382ecfb887c2df94119b988",
+      "bytes": 9897,
+      "git_blob_sha": "4299111a4039787ff964b0e6b6301e6035328c56",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          13,
+          12,
+          114,
+          116
+        ],
+        "margins": [
+          13,
+          12,
+          14,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 29,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "32bd192943d96ceced0765d443572c6688ee83cbd5ee93d45ddbccc07a327094"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/NE/default.png",
+      "sha256": "2caf2ae311f6de8256bb89fb3ffb88cf427c6e67cbb474a4a1c371702a48b51f",
+      "bytes": 371042,
+      "git_blob_sha": "d4dafcb7fd7eec67360e8f22f45285f6d3848eee",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          100,
+          172,
+          933,
+          798
+        ],
+        "margins": [
+          100,
+          172,
+          91,
+          226
+        ],
+        "visible_longest_extent": 833,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 71977,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/NE/pixel.png",
+      "sha256": "a727a9e88703f317eb2e1d179d1c5ac910128520653caa65f6c738f9ac05ccc3",
+      "bytes": 6801,
+      "git_blob_sha": "cec7301de8141dc8399fd38305d74771d668ebe4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          21,
+          115,
+          101
+        ],
+        "margins": [
+          12,
+          21,
+          13,
+          27
+        ],
+        "visible_longest_extent": 103,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "2caf2ae311f6de8256bb89fb3ffb88cf427c6e67cbb474a4a1c371702a48b51f"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/E/default.png",
+      "sha256": "84b066b98a324ec057fc289f74c02144c25d31e61da41da6832123a9d5ebf9b9",
+      "bytes": 297059,
+      "git_blob_sha": "6693b1af2c9ca2d6a2e421ac6307d13307e59c76",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          100,
+          261,
+          934,
+          761
+        ],
+        "margins": [
+          100,
+          261,
+          90,
+          263
+        ],
+        "visible_longest_extent": 834,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 63248,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-003/directions/E/pixel.png",
+      "sha256": "65d3a2c7fd134d2721f5816fb1bceaf0c333718b701a50b9a36ef8a8ced915a6",
+      "bytes": 5641,
+      "git_blob_sha": "c51c512cc05e7429109d2f88427e2089ac020477",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          13,
+          33,
+          116,
+          97
+        ],
+        "margins": [
+          13,
+          33,
+          12,
+          31
+        ],
+        "visible_longest_extent": 103,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "84b066b98a324ec057fc289f74c02144c25d31e61da41da6832123a9d5ebf9b9"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-003/default.png",
+      "sha256": "833a24fb6596d65a7d9d603bbb4d40ab78fedcf76483c6d78234562de53ab40f",
+      "bytes": 546365,
+      "git_blob_sha": "5ee5451bf8c25b6775df3d9bd7d18af8ca3b2491",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          64,
+          66,
+          960,
+          958
+        ],
+        "margins": [
+          64,
+          66,
+          64,
+          66
+        ],
+        "visible_longest_extent": 896,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 93749,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-003/pixel.png",
+      "sha256": "4cee9bfb1d4d6710cd67833704b729a2216445111e8ba636df4eba2d56ce3b63",
+      "bytes": 6342,
+      "git_blob_sha": "cba367be064b5d2a9936c638f52230c3a6b557e8",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          15,
+          116,
+          113
+        ],
+        "margins": [
+          12,
+          15,
+          12,
+          15
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 32,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "833a24fb6596d65a7d9d603bbb4d40ab78fedcf76483c6d78234562de53ab40f"
+    }
+  ],
+  "qa": {
+    "producer_and_parent_visual_review": "candidate correspondence reviewed; scope and caveats retained",
+    "E_independent_numeric_and_hash_review": "performed for all16 files",
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending",
+    "limitations": [
+      "Existing direction is visually inferred from a single two-dimensional reference; labels are nominal viewpoints, not certified 3D rotations.",
+      "Hidden surfaces, far-side occlusion and exact 45-degree continuity are inferred.",
+      "In-game display and final user acceptance have not been completed.",
+      "3D proportional continuity is inferred, especially rear tail posture and rump depth. Original visible palette is32 and complies."
+    ]
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "actual_prompt": "Create a FRONT ELEVATION drawing of this exact six-legged creature: camera in front of its face, horizontal eye-level looking into its two purple eyes, NOT above the creature. It is a low crawling six-legged salamander. Body recedes behind the face and is foreshortened; long rear tail rises behind. Show the VERTICAL FRONT THICKNESS of the cyan head, the two broad flat glowing head blades pointing TOWARD camera, not lying along the page. Three leg pairs spread sideways at ground height; front legs partly occlude other legs. Never delete or add anatomy. Preserve exact original six legs, paired broad head blades, two thin bulb-ended tail stems, cyan-purple-yellow palette, one ribbed pale dorsal patch and small triangular flank markings, original polished drawn shading. This is S0 front yaw. No flat overhead view, no top-down map sprite, no new features or markings. One whole creature on genuine transparent background, square1024 RGBA, no text, shadows, ground.",
+      "raw_sha256": "b397ed40b3018fbda1aa813a77545a5bd02f531e4a7efa8c89889750a5e2270c",
+      "raw_bytes": 969327,
+      "generation_references_in_order": [
+        {
+          "sha256": "833a24fb6596d65a7d9d603bbb4d40ab78fedcf76483c6d78234562de53ab40f",
+          "bytes": 546365
+        }
+      ],
+      "finished_sha256": "d8b961b7fef4c1fc33ad944333a444c8fe334b3603fa98769779d12c324c3c9c"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "actual_prompt": "Style-transfer only. Convert first reference into exact matching crisp true128x128 pixel sprite. Same S0 FRONT view at low camera with foreshortened body, same head blades/eyes/front body depth/pose/anatomy, same natural far-leg occlusion, same shared tail root that forks into two thin bulb-tipped branches. Second reference is only palette/pixel-style guide, never copy its direction. Preserve individual cyan-purple-yellow salamander, original six leg total roots (hidden parts remain naturally hidden), single central segmented dorsal marking and flank triangles. No flat overhead reinterpretation, no design changes, extra limbs or new markings. Hard pixel clusters, no antialias or blur,<=32colors,binary transparent alpha. Whole single sprite with margin, no text/ground/shadow.",
+      "raw_sha256": "181f57b9f1ca5d9baf06745bc0fc1b92822e960cbbba0e34cd072b839a2eb209",
+      "raw_bytes": 774607,
+      "generation_references_in_order": [
+        {
+          "sha256": "b397ed40b3018fbda1aa813a77545a5bd02f531e4a7efa8c89889750a5e2270c",
+          "bytes": 969327
+        },
+        {
+          "sha256": "4cee9bfb1d4d6710cd67833704b729a2216445111e8ba636df4eba2d56ce3b63",
+          "bytes": 6342
+        }
+      ],
+      "finished_sha256": "5601a50cb0cf672312294361516f7b5cfc52a0b252cf9b3ac10a6fc56fbe2f09"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Create ONE 1024x1024 normal game illustration of the EXACT individual in the reference at SW45: FRONT THREE-QUARTER VIEW FACING SCREEN LEFT. Keep same elevated camera and style as reference, change azimuth only; head at lower-left and paired tail toward upper-right. Preserve exactly SIX legs in three bilateral pairs and THREE rounded pale-yellow toe pads each; exactly TWO forward-extending long flattened cyan luminous head projections; TWO purple eyes at roots; TWO flexible long rear tail prongs with pale rounded tips. Preserve cyan/turquoise skin, violet joints/outlines/flanks, pale luminous yellow segmented dorsal panel, triangular flank spots, original proportions and polished illustrated shading. Do not redesign markings or appendages. Natural occlusion is fine. Whole body centered, all tips and feet inside frame with transparent margins, no cropping, no text, no ground/shadow, one creature only. Genuine transparent RGBA.",
+      "raw_sha256": "af3938d0e0de7578852f42d2f9ce9f429338a2e30c7e9d952a3327e5fc1ecb12",
+      "raw_bytes": 910004,
+      "generation_references_in_order": [
+        {
+          "sha256": "833a24fb6596d65a7d9d603bbb4d40ab78fedcf76483c6d78234562de53ab40f",
+          "bytes": 546365
+        }
+      ],
+      "finished_sha256": "d0fa0837d5640ac99eefd5c9901bcc236224f1fda65ffce813cfc0e4af4cd205"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "actual_prompt": "Style-transfer only. Convert image 1 into crisp 128x128 pixel art, same exact monster individual, SW45 front-left direction, pose, proportions, all six legs and their roots, two broad head blades, two thin bulb-tipped rear tails, eyes, dorsal marking and palette. Image 2 is ONLY pixel style reference, do not copy its direction. Faithful pixel simplification, not redesign. Hard pixel clusters, no antialias/blur, at most 32 colors cyan/pale yellow/violet, fully transparent background binary alpha. Single whole sprite with margins, no text, ground or shadow. Preserve all parts with natural occlusion.",
+      "raw_sha256": "1483df2e9af569415cc6172e9113a99f1cc8603740ac9f5524200693c0e9b015",
+      "raw_bytes": 826215,
+      "generation_references_in_order": [
+        {
+          "sha256": "af3938d0e0de7578852f42d2f9ce9f429338a2e30c7e9d952a3327e5fc1ecb12",
+          "bytes": 910004
+        },
+        {
+          "sha256": "4cee9bfb1d4d6710cd67833704b729a2216445111e8ba636df4eba2d56ce3b63",
+          "bytes": 6342
+        }
+      ],
+      "finished_sha256": "13431a5efe8c9038832528067b531b2a3ed76b24b4554d8d7eb55a4857ce42ac"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "actual_prompt": "Identity-preserve turntable edit. Image1 shows right side profile candidate E270; image2 original immutable anatomy. Create corresponding W90 TRUE LEFT SIDE PROFILE of SAME individual, head pointing screen-left, tail to screen-right. Match image1 camera elevation, same side-on depth and natural far-side occlusion: one near eye visible, near three legs, far-side parts naturally hidden, not displayed as frontal three-quarter. Preserve exact same six total leg roots, two broad luminous cyan head blades, two thin bulb-tip purple tail stems, original long low body proportions, single yellow ribbed dorsal panel, purple flank triangles, colors and polished shading. Do not change design or invent symmetry that alters markings. One whole creature, margins, 1024RGBA genuinely transparent, no ground/text/shadow.",
+      "raw_sha256": "cb5f37ad3fe40f7bfd20b01516b718ecd94f63bf36bbfd65952952e2712ca9f8",
+      "raw_bytes": 610203,
+      "generation_references_in_order": [
+        {
+          "sha256": "db34a22340fa89c65cce1f0b7505da791e3763babb19de3618c8041c4273dbf6",
+          "bytes": 612423
+        },
+        {
+          "sha256": "833a24fb6596d65a7d9d603bbb4d40ab78fedcf76483c6d78234562de53ab40f",
+          "bytes": 546365
+        }
+      ],
+      "finished_sha256": "64807d24fac9d1abd6200e916d34e1cf6dda45457a7f048bdbf5abcef1d5687e"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "actual_prompt": "Style transfer ONLY. Convert first image into crisp true128x128 pixel art with EXACT same W90 left-side profile, pose, camera, silhouette, anatomy and natural far-side occlusion. Second image gives pixel style and palette only. Preserve near-side three legs, one visible eye, original six total legs with far-side hidden, two broad luminous head blades, two thin bulb-tipped tail stalks, original pale ribbed dorsal panel and violet flank triangles. No redesign, extra limbs or new markings. Cyan/violet/pale-yellow <=32 color palette, hard pixel clusters no blur/antialias, binary transparent alpha. Whole single sprite with margins, no text/ground/shadow.",
+      "raw_sha256": "e35c36a50858df7ed3ccc536efbad842b7765d23091db2e82cb47e5be9f04af1",
+      "raw_bytes": 615595,
+      "generation_references_in_order": [
+        {
+          "sha256": "cb5f37ad3fe40f7bfd20b01516b718ecd94f63bf36bbfd65952952e2712ca9f8",
+          "bytes": 610203
+        },
+        {
+          "sha256": "4cee9bfb1d4d6710cd67833704b729a2216445111e8ba636df4eba2d56ce3b63",
+          "bytes": 6342
+        }
+      ],
+      "finished_sha256": "8e346a30a00caf35e415a96c2b66c2debfcf4515e4fc042644b1c474cf3dcdef"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "actual_prompt": "Identity-preserve correction of first image, using second image as exact anatomy reference. Keep first image's NW135 rear-left view, framing, six legs, cyan-purple-yellow palette and original rendering. Correct ONLY the distant HEAD appendages at UPPER LEFT: these must be the TWO BROAD FLAT long luminous cyan/yellow parallel blades in the second image's head, not thin bulb-ended tail stalks. Head blades project forward away from viewer, broad continuously along length, rounded ends; no eye added on back of head. Preserve nearer REAR TAIL at lower right as two thin stems ending teardrop bulbs. Do not change any other part, no extra appendages or new patterns. Single full-body creature, genuinely transparent RGBA, 1024 square, no text.",
+      "raw_sha256": "b9bf9595a4fa2cba3f4adb8cabba00f5503659b9440bbc14b5ae4766113b73f9",
+      "raw_bytes": 775791,
+      "generation_references_in_order": [
+        {
+          "sha256": "aa015fcb7fa0e79e4733a6ea645f7ac9ab9d4d4e732255a132458d751a93b772",
+          "bytes": 753526
+        },
+        {
+          "sha256": "833a24fb6596d65a7d9d603bbb4d40ab78fedcf76483c6d78234562de53ab40f",
+          "bytes": 546365
+        }
+      ],
+      "finished_sha256": "2529bd930cb414f49b2ac0aeeeb12ed1b7ef29254ab041218d9e9473e3e8707a"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "actual_prompt": "Style-transfer only. First image is exact normal monster to convert into crisp true 128x128 pixel art, preserving its NW135 REAR-LEFT view, pose, camera, limb placements, exact individual identity and proportions. Second image is only pixel style/palette guide. Keep six total legs with original visible/occluded parts unchanged, broad two cyan luminous head blades receding upper-left, thin paired bulb-tipped tail stalks coming lower-right, ribbed pale dorsal panel and violet triangle-marked flank. Do not invent a face toward viewer. Same cyan/pale-yellow/violet palette, hard pixel clusters no blur/antialias, at most 32 colors and binary transparent alpha. Single sprite, clear margin, no ground/shadow/text.",
+      "raw_sha256": "14c024a926c924de2aea007efd2dd9e429bc600a63133fc30016a7be92013162",
+      "raw_bytes": 760308,
+      "generation_references_in_order": [
+        {
+          "sha256": "b9bf9595a4fa2cba3f4adb8cabba00f5503659b9440bbc14b5ae4766113b73f9",
+          "bytes": 775791
+        },
+        {
+          "sha256": "4cee9bfb1d4d6710cd67833704b729a2216445111e8ba636df4eba2d56ce3b63",
+          "bytes": 6342
+        }
+      ],
+      "finished_sha256": "0211a5947440555dabfaa6fdfa1c2d6c2340ebe213dcd942018da2f1b91196f5"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "actual_prompt": "Precise identity correction on image1, original anatomy image2. Keep image1 N180 straight rear camera, foreshortened body, all six legs, colors, shading and head EXACTLY as is. Correct ONLY tail attachment. Original image2 has ONE CENTRAL TAIL ROOT extending from midline rear spine, then that common stem FORKS into two thin long bulb-tipped branches. Image1 incorrectly has two tail branches arising separately from left and right hips. Join the bases into ONE obvious short central violet tail stem emerging from centerline above rear rump, which then forks into the same existing two long bulb-tipped branches. The shared root must be clear and central, no independent lateral hip tail roots. Do not add an extra third tail. Keep left/right long branch silhouettes/tips as close as possible. No other changes, all parts present, transparent RGBA1024 square, no text/ground/shadow.",
+      "raw_sha256": "6473305206cc74946e432ae61638a0f92402e17f73bafca252360f196d443298",
+      "raw_bytes": 998676,
+      "generation_references_in_order": [
+        {
+          "sha256": "7c34c2b4da99a1c1a81f5fe9f78a48241077e0c195f6a6a5dd5c719df604a124",
+          "bytes": 1020990
+        },
+        {
+          "sha256": "833a24fb6596d65a7d9d603bbb4d40ab78fedcf76483c6d78234562de53ab40f",
+          "bytes": 546365
+        }
+      ],
+      "finished_sha256": "32bd192943d96ceced0765d443572c6688ee83cbd5ee93d45ddbccc07a327094"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "actual_prompt": "Style-transfer ONLY. First image is exact monster and N180 STRAIGHT REAR foreshortened camera to copy into crisp true128x128 pixel art. Keep exact pose/camera/silhouette, all three leg pairs with current natural occlusion, no eyes visible on rear, far broad head blades, near tail: ONE shared CENTRAL violet stem which FORKS into TWO bulb-ended branches. Do not revert to independent hip tail roots or flat overhead view. Second image only gives pixel style/palette. Preserve same cyan-purple-pale-yellow individual, single ribbed dorsal marking, flank triangles, original polished pixel treatment. Hard pixel clusters, <=32colors, no antialias/blur, binary transparent alpha. Full single creature with margins, no text/ground/shadow.",
+      "raw_sha256": "e6a535257707d6a41349d29dd575652777c76ad000ae137eea5784ed5f300dbc",
+      "raw_bytes": 951361,
+      "generation_references_in_order": [
+        {
+          "sha256": "6473305206cc74946e432ae61638a0f92402e17f73bafca252360f196d443298",
+          "bytes": 998676
+        },
+        {
+          "sha256": "4cee9bfb1d4d6710cd67833704b729a2216445111e8ba636df4eba2d56ce3b63",
+          "bytes": 6342
+        }
+      ],
+      "finished_sha256": "e3cc549f30f001dab642e288f3a8aa0a8b3bbcbff382ecfb887c2df94119b988"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. One 1024x1024 normal illustrated game monster on actual transparent RGBA. Show exact reference creature in NE225 right rear three-quarter view, facing AWAY toward upper-right; head far upper-right, rear and flexible tail nearer lower-left. Keep camera same modest elevation as reference. Precisely preserve anatomy: SIX legs (three separate bilateral leg pairs), each three rounded yellow toe pads; two LONG BROAD FLAT CYAN LUMINOUS BLADES on front of head, their tips evenly broad rounded, not stalks; two thin long purple rear tail stalks with teardrop pale glowing tips. Head eyes may be mostly occluded from this rear angle, never relocate them. Same long low salamander body, violet joints/flanks/outlines, cyan skin, pale segmented dorsal marking and pale triangular flank spots. Original polished 2D cel-soft shading style and palette. No redesign, no additions, no deletion of any leg pair. All parts fully within frame with margin. Single creature, single view, no text, ground or shadows.",
+      "raw_sha256": "0d6c0f7d28df995936c2024bd8c5e9c9ab1ddfca2b5f5a4010b7b7823cb3bd0b",
+      "raw_bytes": 742087,
+      "generation_references_in_order": [
+        {
+          "sha256": "833a24fb6596d65a7d9d603bbb4d40ab78fedcf76483c6d78234562de53ab40f",
+          "bytes": 546365
+        }
+      ],
+      "finished_sha256": "2caf2ae311f6de8256bb89fb3ffb88cf427c6e67cbb474a4a1c371702a48b51f"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "actual_prompt": "Style-transfer only. Convert first reference faithfully into one crisp true 128x128 pixel-art sprite, retain NE225 right-rear view facing upper-right and away, exact same camera/pose/silhouette/proportions/anatomy. Second reference ONLY shows pixel treatment and palette. Keep six total legs at three original pairs with natural occlusion, broad two head blades extending away upper-right, paired thin bulb-tail stalks nearer lower-left, same pale ribbed dorsal marking and violet triangle spotted flanks. Do not add a forward-facing face or change any parts. Pixel clusters, hard edges, no antialias/blur, <=32 cyan/violet/pale yellow colors, binary alpha transparent background, whole sprite with margins. No text, ground, shadow, sheet.",
+      "raw_sha256": "f516fec917b4281e763f60e32366b09916ffb2fc89a78eb8a1976242ae3efd0c",
+      "raw_bytes": 661400,
+      "generation_references_in_order": [
+        {
+          "sha256": "0d6c0f7d28df995936c2024bd8c5e9c9ab1ddfca2b5f5a4010b7b7823cb3bd0b",
+          "bytes": 742087
+        },
+        {
+          "sha256": "4cee9bfb1d4d6710cd67833704b729a2216445111e8ba636df4eba2d56ce3b63",
+          "bytes": 6342
+        }
+      ],
+      "finished_sha256": "a727a9e88703f317eb2e1d179d1c5ac910128520653caa65f6c738f9ac05ccc3"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Make ONE 1024x1024 RGBA normal game illustration of the exact reference individual at E270 RIGHT SIDE PROFILE, animal face pointing horizontally screen-right, tail extending screen-left. Camera modest elevation matching original, but strict side azimuth, not frontal three-quarter. Preserve exactly same anatomy and colors: long low salamander body, three bilateral leg pairs (six total, naturally hide far-side parts), three rounded yellow toe pads per foot, two long BROAD flat cyan/pale luminous yellow forward head blades, two violet eyes at roots with far eye occluded as appropriate, two long THIN violet/cyan tail stalks ending in pale glowing bulbs. Pale segmented dorsal panel, violet flank with pale triangular spots. Original polished shaded illustration style. Do not add/subtract or redesign any anatomy or markings to force visible counts. All extremities fully within frame, transparent margin. Single view only, no text, no ground or shadow, transparent background.",
+      "raw_sha256": "db34a22340fa89c65cce1f0b7505da791e3763babb19de3618c8041c4273dbf6",
+      "raw_bytes": 612423,
+      "generation_references_in_order": [
+        {
+          "sha256": "833a24fb6596d65a7d9d603bbb4d40ab78fedcf76483c6d78234562de53ab40f",
+          "bytes": 546365
+        }
+      ],
+      "finished_sha256": "84b066b98a324ec057fc289f74c02144c25d31e61da41da6832123a9d5ebf9b9"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "actual_prompt": "Style-transfer only. Convert first reference to crisp true 128x128 pixel sprite, retaining its exact E270 RIGHT SIDE PROFILE facing screen-right, same individual, silhouette, pose, proportions, camera angle and natural occlusion. Second reference only guides pixel style/palette. Keep three visible near-side legs and hidden far side as in image 1, two broad head blades, one visible purple eye with far eye naturally hidden, two thin bulb-tipped tail stalks, pale ribbed dorsal marking and violet triangle-marked flank. No extra visible legs to force counts, no anatomy redesign. Cyan/purple/pale yellow <=32 colors, hard pixel clusters, no blur/antialias, binary transparent alpha. Whole sprite centered with margin, no text/ground/shadow/sheet.",
+      "raw_sha256": "cacbb859b42c374aac3dee93689413aca4683ede2b5a9d8ed6849eb00e4e61bd",
+      "raw_bytes": 557248,
+      "generation_references_in_order": [
+        {
+          "sha256": "db34a22340fa89c65cce1f0b7505da791e3763babb19de3618c8041c4273dbf6",
+          "bytes": 612423
+        },
+        {
+          "sha256": "4cee9bfb1d4d6710cd67833704b729a2216445111e8ba636df4eba2d56ce3b63",
+          "bytes": 6342
+        }
+      ],
+      "finished_sha256": "65d3a2c7fd134d2721f5816fb1bceaf0c333718b701a50b9a36ef8a8ced915a6"
+    }
+  ]
+}
