@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "id": "sm-scaled-022",
+  "design_version": 2,
+  "catalog_path": "assets/monsters/catalog.json",
+  "design_status": "redesigned_candidate_for_review",
+  "original_catalog_v1_pass_claimed": false,
+  "design_delta_ja": "三日月胴→丸台形石殻胴、弧形鱗→盾鱗3枚、団扇尾→短い丸葉尾。目2・脚2・尾1・夕方の習性を保持。",
+  "fixed_design": {
+    "id": "sm-scaled-022",
+    "name": "ツキポラム",
+    "body": "One low broad rounded trapezoid stone-shell body with a shallow closed depression on the front; exactly three large rounded overlapping shield scales on its upper back. Two round eyes, exactly two short rounded feet and one short rounded leaf tail. No arms, ears, wings or additional body segments. Matte stone body and smooth shield scales.",
+    "pose": "Stand quietly with a slight tilt, facing image-right.",
+    "palette": [
+      "#DFCA8D",
+      "#C4C1DD",
+      "#70667A"
+    ],
+    "diff": "三日月胴→丸台形石殻胴、弧形鱗→盾鱗3枚、団扇尾→短い丸葉尾。目2・脚2・尾1・夕方の習性を保持。",
+    "signatures": [
+      "broad rounded trapezoid body with shallow closed frontal depression",
+      "three large overlapping rounded shield scales",
+      "two short feet and one rounded leaf tail"
+    ],
+    "design_version": 2,
+    "original_catalog_v1_pass_claimed": false,
+    "status": "fixed_new_design",
+    "new_generation_reference": "none; original v1 images not reused",
+    "quantities_fixed_before_generation": true
+  },
+  "provenance": {
+    "tool": "built-in imagegen",
+    "expanded_prompts": {
+      "sm-scaled-022-normal-attempt001.txt": "Use case: stylized-concept. Asset type: a single original creature sprite for a gentle 2D creature-raising game.\nCreate ONE full-body independent fantasy creature. This is a new character design, not a reference to any existing character.\nDesign sm-scaled-022 v2, management label only, never render words:\nOne broad, low, rounded trapezoid-shaped stone-shell body with a shallow closed depression on its front, not a hole. Exactly two expressive round eyes on the front. Exactly three large rounded shield-shaped scales overlap along the upper back. Exactly two low rounded feet, no arms, no ears, no wings. Exactly one short rounded leaf-shaped tail extends from the rear and is clearly visible. The body has a matte stone texture; the three large shield scales are smooth. The creature stands quietly on its two feet with a slight body tilt, as if sensing warmth. Friendly and calm.\nPalette roles: primary warm pale gold #DFCA8D for stone body; secondary muted lavender #C4C1DD for shield scales and tail; accent dark muted plum #70667A for contours and eyes.\nStyle: cohesive hand-drawn 2D fantasy game illustration, organized dark colored outline with gentle width variation, restrained maximum three-step cel shading, soft upper-left lighting, modest material cues.\nComposition: slight top-down three-quarter view facing image-right, keep both feet and all three scales visible, single full body centered in a 1024x1024 square canvas. Creature bounding box longest extent 800–850 pixels. At least 80 pixels completely transparent padding on each side, no cropping.\nBackground: genuine transparent alpha. No ground, no shadow, no glow, no scenery or other objects. No text, logos, watermark, frame, clothing or tools. No crescent body, no sharp ends, no crescent-pattern scales, no circular fan tail, no additional anatomy.\n",
+      "sm-scaled-022-normal-attempt002.txt": "Use case: precise-object-edit. Input image: the new original design-v2 candidate for sm-scaled-022, SHA256 8a2cc025f689d175a475d751d185b657dcfe0dbaf7cfddef6af2e21cb7c083de. This request edits only this newly generated friendly creature.\nRequired targeted quality correction: Make the shallow front depression clearly visible as a smooth bowl-like shallow closed recess on the upper front of the body, above the two eyes. It is only a gentle surface hollow in the stone shell, never a hole through the body. Retain the broad low rounded trapezoid outline, exactly three overlapping back shields, two feet, two eyes and one rounded leaf tail. Change only the readability of this required front depression.\nKeep all other anatomy, proportions, palette placement, viewing angle, pose and expression the same.\nComplete design constraints: One low broad rounded trapezoid stone-shell body with a shallow closed depression on the front; exactly three large rounded overlapping shield scales on its upper back. Two round eyes, exactly two short rounded feet and one short rounded leaf tail. No arms, ears, wings or additional body segments. Matte stone body and smooth shield scales.\nPalette: #DFCA8D / #C4C1DD / #70667A.\nMaintain a clean hand-drawn 2D fantasy game illustration with a dark outline and restrained three-step cel shading. Full body, one character, transparent background. Do not add any scene, objects, text or extra body features.\nOutput must be a 1024 by 1024 RGBA PNG. Center the subject with at least 80 pixels entirely transparent on every edge, its longest extent 800–850 pixels. No cropped parts, ground, shadow, glow, watermark or frames.\n",
+      "sm-scaled-022-pixel-attempt001.txt": "Use case: style-transfer. Asset: one authentic 128x128 pixel-art creature sprite.\nInput image is the sole identity reference, sm-scaled-022 design v2, SHA256 a94e3c00b9d38d618d084d8d9c2e3d6cb15a50bb2581c14484c0865cdc252664. Redraw this exact creature as deliberately constructed pixel art. Change only the medium. Do not redesign and do not simply pixelate or downsample the painting.\nLocked anatomy and materials: One low broad rounded trapezoid stone-shell body with a shallow closed depression on the front; exactly three large rounded overlapping shield scales on its upper back. Two round eyes, exactly two short rounded feet and one short rounded leaf tail. No arms, ears, wings or additional body segments. Matte stone body and smooth shield scales.\nLocked pose: Stand quietly with a slight tilt, facing image-right. Match the reference's exact proportions, limb placements, silhouette, face, viewing angle and direction.\nLocked palette primary/secondary/accent: #DFCA8D / #C4C1DD / #70667A. Keep relative color placement.\nIdentifiers: broad rounded trapezoid body with shallow closed frontal depression; three large overlapping rounded shield scales; two short feet and one rounded leaf tail.\nOutput an exact 128 by 128 RGBA PNG master, not an upscaled preview. Use a true regular 1-pixel grid, thoughtful color clusters, consistent 1–2 pixel outlines and stepped contours. At most 32 opaque RGB colors, alpha exactly 0 or 255, no antialiasing, blur, gradients or semi-transparent pixels. Translate soft textures and translucent membranes into clearly readable opaque color clusters without losing their shape.\nFull body centered with longest extent 100–108 pixels and minimum 10 completely transparent pixels on every side. Genuine transparent background. No ground, shadow, glow, background, text, letters, watermark, frame, props, extra anatomy or extra objects. Never add decorative leaves at wing roots or body markings that are not in this reference.\n"
+    },
+    "pixel_reference_normal_sha256": "a94e3c00b9d38d618d084d8d9c2e3d6cb15a50bb2581c14484c0865cdc252664",
+    "original_preservation": [
+      {
+        "file_name": "sm-scaled-022-normal-attempt001.png",
+        "bytes": 953593,
+        "sha256": "8a2cc025f689d175a475d751d185b657dcfe0dbaf7cfddef6af2e21cb7c083de"
+      },
+      {
+        "file_name": "sm-scaled-022-normal-attempt002.png",
+        "bytes": 882807,
+        "sha256": "a94e3c00b9d38d618d084d8d9c2e3d6cb15a50bb2581c14484c0865cdc252664"
+      },
+      {
+        "file_name": "sm-scaled-022-pixel-attempt001.png",
+        "bytes": 663690,
+        "sha256": "097a77869763c0b392290049aa97bf4e6fbeaeab5e2f03dc7007ad114088126c"
+      }
+    ],
+    "local_postprocessing": "Non-destructive authorized technical sizing, transparent padding, alpha cleanup and pixel palette quantization. No procedural redrawing."
+  },
+  "assets": {
+    "default": {
+      "path": "assets/monsters/scaled/sm-scaled-022/default.png",
+      "bytes": 566404,
+      "sha256": "46b112f1d28ea3e1e575dd9f21e8357f0ce3fa824ec06340731bd076b53eb196",
+      "source_sha256": "a94e3c00b9d38d618d084d8d9c2e3d6cb15a50bb2581c14484c0865cdc252664",
+      "technical_qa": {
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          80,
+          216,
+          944,
+          808
+        ],
+        "margins": [
+          80,
+          216,
+          80,
+          216
+        ],
+        "visible_extent": 864,
+        "alpha_values": 256,
+        "visible_rgb_colors": 36864
+      },
+      "normalization": {
+        "alpha_threshold": 8,
+        "resize": "LANCZOS",
+        "crop": [
+          99,
+          263,
+          1171,
+          997
+        ],
+        "target_extent": 864,
+        "quantization": null
+      }
+    },
+    "pixel": {
+      "path": "assets/monsters/scaled/sm-scaled-022/pixel.png",
+      "bytes": 7862,
+      "sha256": "47d99bf2a9ba8c1ab1bbe77c3658ee6a0f8271565f15dce721ca305acdaa9a5c",
+      "source_sha256": "097a77869763c0b392290049aa97bf4e6fbeaeab5e2f03dc7007ad114088126c",
+      "technical_qa": {
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          10,
+          27,
+          118,
+          101
+        ],
+        "margins": [
+          10,
+          27,
+          10,
+          27
+        ],
+        "visible_extent": 108,
+        "alpha_values": 2,
+        "visible_rgb_colors": 28
+      },
+      "normalization": {
+        "alpha_threshold": 128,
+        "resize": "NEAREST",
+        "crop": [
+          110,
+          317,
+          1176,
+          1052
+        ],
+        "target_extent": 108,
+        "quantization": "MEDIANCUT32 no dither"
+      }
+    }
+  },
+  "review": {
+    "technical_checks": "PASS",
+    "paired_identity": "PASS after finishing, independently reviewed",
+    "catalog_v1_conformance": "not claimed; substantively revised design v2",
+    "final_user_acceptance": "pending",
+    "runtime_visual_check": "not performed",
+    "limitations": [
+      "Fine texture and smooth lighting remain in the generated normal artwork; final art-direction acceptance is pending.",
+      "Pixel palette reduced to at most 32 visible colors; final in-game appearance not tested."
+    ]
+  }
+}
