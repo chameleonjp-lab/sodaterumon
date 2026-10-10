@@ -1,0 +1,537 @@
+{
+  "schema_version": 1,
+  "id": "sm-flora-005",
+  "asset_type": "recovery_reselected_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "original_direction_basis": "Original near-front reference with all three central eyes; not calibrated exact zero yaw.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-005/default.png",
+      "sha256": "581593ff751947fd487a31d76835eed6a944e496f8bdbdf64d76f49c2468c215",
+      "bytes": 477403,
+      "git_blob_sha": "70d4ab321fac170b04bba2cbb1bea82c9d4a7f04",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        241,
+        944,
+        784
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 29237,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-005/pixel.png",
+      "sha256": "4a61022fc365a7e1cdb577fab80bee76e3899fc997bfa57de6a188a7143a1cf2",
+      "bytes": 5797,
+      "git_blob_sha": "3d14f5af7f00214c3fa859fbbd5eaac1adc4a7fa",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        29,
+        118,
+        98
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-005/directions/SW/default.png",
+      "sha256": "1f8e84d536feb6c3bdc0dc48efa4edb6283b4f000866bc780252defcae17777c",
+      "bytes": 519437,
+      "git_blob_sha": "1c8787f4823ee9bc870753b2b31e9fc65886c7a6",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        217,
+        944,
+        806
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 36173,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-005/directions/SW/pixel.png",
+      "sha256": "6079f8854175fa229f9cd0e2b8748f9f762de7d16ff8b84c8faa1d997478d731",
+      "bytes": 9748,
+      "git_blob_sha": "e4c025493aaf6ad0090436193a0ed5d330974182",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        25,
+        118,
+        102
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-005/directions/W/default.png",
+      "sha256": "78063a2c615e270701f98ec376d7c16d34594ad3d89b5cd47a7c5a3d0632cb5e",
+      "bytes": 675238,
+      "git_blob_sha": "ea2c44c67247023cdcf441201e64ebd7020aa8b6",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        128,
+        944,
+        896
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 40790,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-005/directions/W/pixel.png",
+      "sha256": "24a00039a40cc6d5fe23ce882ba40d16b56f6743e02aad3ef47598ab990c8af2",
+      "bytes": 10825,
+      "git_blob_sha": "973e24bbe2e6b8e02273f6d6f059bdec45606b5a",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        15,
+        118,
+        112
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-005/directions/NW/default.png",
+      "sha256": "17b54dc42d8437afa4347a94f05591e14d05788cdaafb96876702a100ffc0206",
+      "bytes": 521567,
+      "git_blob_sha": "5df8a473a7648b6e47121503ed764633e86d579e",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        231,
+        944,
+        793
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 33494,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-005/directions/NW/pixel.png",
+      "sha256": "135356e877460956f60779874fa8a4c975fb4ccdc8fc5302aef0a44a1894ba69",
+      "bytes": 9267,
+      "git_blob_sha": "45b05877046bb16e9d2957ec4be2fb82fe9f74b1",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        26,
+        118,
+        102
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-005/directions/N/default.png",
+      "sha256": "1d08e76699bd6b6fdebac95005f2d93514b07a77dd566571db523fac1c809a07",
+      "bytes": 488594,
+      "git_blob_sha": "7bb9d03fb909bbdf626d610f12efa11bf13d9522",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        258,
+        944,
+        766
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 34689,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-005/directions/N/pixel.png",
+      "sha256": "cb2619b363dad5db03de748b1ccef1ed89828d04f82030ae522b054e121406e4",
+      "bytes": 8308,
+      "git_blob_sha": "ce250537484e0b62bd47eb400ade1ca600fbd8c4",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        30,
+        118,
+        97
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-005/directions/NE/default.png",
+      "sha256": "00df058fd5676e2870aba648d284822e5902735344e0a20f36608aa31bf0b637",
+      "bytes": 506376,
+      "git_blob_sha": "b13a4ea2e597cd916dbeabe9c76d4937e4aeb409",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        231,
+        944,
+        792
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 33327,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-005/directions/NE/pixel.png",
+      "sha256": "e18f272305a076689cd0ae850c49c8315861dda16297e33eb217ab7ab0abbdfa",
+      "bytes": 9268,
+      "git_blob_sha": "af3013eb7291e3cf5afffb20a4054678808681b2",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        27,
+        118,
+        101
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-005/directions/E/default.png",
+      "sha256": "a243464bc54564f10749a0319cff5ed94eac18712a378e09a4db60694fb9bc91",
+      "bytes": 595187,
+      "git_blob_sha": "5a424f6917fa7763a0aad99e7c89f3b689c1028c",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        180,
+        944,
+        844
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 43818,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-005/directions/E/pixel.png",
+      "sha256": "75c62088ab08ac3d44b96c6b7c8e2aa9dcc01c12fa5787f2771177f845263bbf",
+      "bytes": 9797,
+      "git_blob_sha": "829202a27ef5332c9879be6960bcd036d4d29cf5",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        20,
+        118,
+        107
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-005/directions/SE/default.png",
+      "sha256": "4d75292bc83bf212682ce7d3c7904a65d9c9a364282cc9fccb4baa7fb52c6b1e",
+      "bytes": 576055,
+      "git_blob_sha": "f01e24d6dafa7505a47497168ac9664f32f51d4a",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        181,
+        944,
+        843
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 37938,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-005/directions/SE/pixel.png",
+      "sha256": "51dde27df8554d07db5f049274d11e4c327beafa753675299da4c8fb25eaf8a8",
+      "bytes": 10456,
+      "git_blob_sha": "9046c479bf01cbed8299b40c33f5d02b486adb90",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        21,
+        118,
+        107
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    }
+  ],
+  "selection_provenance": [
+    {
+      "direction": "SW",
+      "selection_basis": "New front-left oblique pair with right lateral tuber nearer and three frontal eyes shifted left.",
+      "provenance_status": "New normal/pixel with prompt/raw/reference hashes."
+    },
+    {
+      "direction": "W",
+      "selection_basis": "New near-left profile pair: eye row foreshortened at left contour; far small tuber mostly occluded behind central tuber.",
+      "provenance_status": "New normal/pixel with prompt/raw/reference hashes."
+    },
+    {
+      "direction": "NW",
+      "selection_basis": "Recovered eyeless rear-left normal with left lateral tuber nearer; new pixel corrects former tall/symmetric mismatch.",
+      "provenance_status": "Recovered normal visually reselected, historical adoption and old lineage unproven; new corresponding pixel has full provenance."
+    },
+    {
+      "direction": "N",
+      "selection_basis": "Recovered symmetric rear pair without visible eyes.",
+      "provenance_status": "Recovery-time visual reselection; historical accepted hashes and generation prompt/reference lineage unproven."
+    },
+    {
+      "direction": "NE",
+      "selection_basis": "Recovered rear-right pair with right lateral tuber nearer and no eyes.",
+      "provenance_status": "Recovery-time visual reselection; historical accepted hashes and generation prompt/reference lineage unproven."
+    },
+    {
+      "direction": "E",
+      "selection_basis": "Recovered near-right profile pair, eyes at right edge and near left lateral tuber.",
+      "provenance_status": "Recovery-time visual reselection; historical accepted hashes and generation prompt/reference lineage unproven."
+    },
+    {
+      "direction": "SE",
+      "selection_basis": "New front-right oblique pair with left lateral tuber nearer and eyes shifted right.",
+      "provenance_status": "New normal/pixel with prompt/raw/reference hashes."
+    }
+  ],
+  "new_generation_provenance": [
+    {
+      "direction": "SW",
+      "type": "normal",
+      "prompt": "Use case: identity-preserve. Correct image2 into a DISTINCT front-left three-quarter view SW, yaw45 toward SCREEN-LEFT, of SAME three-tuber creature in image1. Original front shows three eyes across central large tuber. Whole-body rotation only: three-eye face must shift toward the LEFT edge of central tuber, with farthest eye foreshortened/partly occluded naturally. SCREEN-RIGHT small side tuber is NEARER and overlaps central tuber more; SCREEN-LEFT small side tuber is FARTHER and is partly hidden behind central tuber. Preserve exactly THREE connected potato-like tubers: one large central oval plus two smaller lateral ones at fixed positions, exactly SIX short tapered root legs, THREE eyes on front central tuber only, no arms/wings/tail. Keep fixed six roots rather than adding legs to fill gaps; allow natural occlusion of far roots. Same tan potato skin, olive patches, small cream bumps, scratches, brown outline and soft cel shading. No unchanged symmetric front arrangement, no in-plane rotation or high camera change. Same shallow elevated camera as original. Full single character centered transparent1024 with padding, no floor/shadow/text/sheet.",
+      "sha256": "1f8e84d536feb6c3bdc0dc48efa4edb6283b4f000866bc780252defcae17777c",
+      "raw_sha256": "7884142e81d518a5d4f1549d049ce20967b87e228b3f1fa7d6a5f871a2d4d998",
+      "reference_hashes": [
+        "581593ff751947fd487a31d76835eed6a944e496f8bdbdf64d76f49c2468c215",
+        "a1ae2bf9e7de4aaabf962e6b5ab877d64f99c65089d600a2e1d5ba3f4c1bf771"
+      ]
+    },
+    {
+      "direction": "SW",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this ONE three-tuber creature into ONE crisp128x128 pixel sprite with EXACT same SW front-left pose. Three eyes shift toward LEFT, RIGHT lateral tuber nearer and overlapping central tuber, other side farther. Preserve exactly3 tubers,6 root legs with natural far-root occlusion as shown,3 eyes, tan/olive/cream palette, bumps/skin patches and proportions. Do not turn, mirror, rearrange tubers or add roots/eyes. Hard pixel clusters,31 opaque colors maximum, binary transparency without blur/antialiasing. One complete centered character with generous margin, no sheet/grid/text/floor/shadow.",
+      "sha256": "6079f8854175fa229f9cd0e2b8748f9f762de7d16ff8b84c8faa1d997478d731",
+      "raw_sha256": "bfaa0e8c10becf4cb2dad80942ab4499b15e8fa9f7b59658b06ab5799f050cad",
+      "reference_hashes": [
+        "1f8e84d536feb6c3bdc0dc48efa4edb6283b4f000866bc780252defcae17777c"
+      ]
+    },
+    {
+      "direction": "SE",
+      "type": "normal",
+      "prompt": "Use case: identity-preserve. Correct image2 into a DISTINCT front-right three-quarter view SE, yaw45 toward SCREEN-RIGHT, of SAME three-tuber creature in image1. Original front shows three eyes across central large tuber. Whole-body rotation only: three-eye face must shift toward the RIGHT edge of central tuber, with farthest eye foreshortened/partly occluded naturally. SCREEN-LEFT small side tuber is NEARER and overlaps central tuber more; SCREEN-RIGHT small side tuber is FARTHER and is partly hidden behind central tuber. Preserve exactly THREE connected potato-like tubers: one large central oval plus two smaller lateral ones at fixed positions, exactly SIX short tapered root legs, THREE eyes on front central tuber only, no arms/wings/tail. Keep fixed six roots rather than adding legs to fill gaps; allow natural occlusion of far roots. Same tan potato skin, olive patches, small cream bumps, scratches, brown outline and soft cel shading. No unchanged symmetric front arrangement, no in-plane rotation or high camera change. Same shallow elevated camera as original. Full single character centered transparent1024 with padding, no floor/shadow/text/sheet.",
+      "sha256": "4d75292bc83bf212682ce7d3c7904a65d9c9a364282cc9fccb4baa7fb52c6b1e",
+      "raw_sha256": "02be2925a6bdb07254c0727d9322fc8a5ce95857b81432831c71d9ecf26f0d1c",
+      "reference_hashes": [
+        "581593ff751947fd487a31d76835eed6a944e496f8bdbdf64d76f49c2468c215",
+        "dbd50a488e52ddc45164a0669e0deac2e5eb815ce8fd4e1ce4a2994ac694ff23"
+      ]
+    },
+    {
+      "direction": "SE",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this ONE three-tuber creature into ONE crisp128x128 pixel sprite with EXACT same SE front-right pose. Three eyes shift toward RIGHT, LEFT lateral tuber nearer and overlapping central tuber, other side farther. Preserve exactly3 tubers,6 root legs with natural far-root occlusion as shown,3 eyes, tan/olive/cream palette, bumps/skin patches and proportions. Do not turn, mirror, rearrange tubers or add roots/eyes. Hard pixel clusters,31 opaque colors maximum, binary transparency without blur/antialiasing. One complete centered character with generous margin, no sheet/grid/text/floor/shadow.",
+      "sha256": "51dde27df8554d07db5f049274d11e4c327beafa753675299da4c8fb25eaf8a8",
+      "raw_sha256": "74d28e496e711a189827e97060bec401bc4f496a6738553bb57224dd6c4e72a2",
+      "reference_hashes": [
+        "4d75292bc83bf212682ce7d3c7904a65d9c9a364282cc9fccb4baa7fb52c6b1e"
+      ]
+    },
+    {
+      "direction": "NW",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this exact ONE three-potato creature into ONE crisp128x128 pixel sprite of same NW back-left view. SCREEN-LEFT lateral tuber must be large and nearer, overlapping central tuber; SCREEN-RIGHT lateral tuber smaller and farther. Keep central oval at same width/height, three connected tubers, six tapered root legs with exact shown overlap, no eyes visible on rear. Preserve tan/olive/cream patches, bumps and silhouette. Do not make a symmetric rear arrangement or narrower/taller central tuber; do not add eyes or roots.31 opaque colors maximum, binary transparent background, hard pixel clusters no blur/antialiasing. Whole character centered with generous margin, no sheet/grid/text/floor/shadow.",
+      "sha256": "135356e877460956f60779874fa8a4c975fb4ccdc8fc5302aef0a44a1894ba69",
+      "raw_sha256": "45d5b6a9b0e21f47e7c10de14b73f1e179464fd30ae196efe692bd890a3766ff",
+      "reference_hashes": [
+        "17b54dc42d8437afa4347a94f05591e14d05788cdaafb96876702a100ffc0206"
+      ]
+    },
+    {
+      "direction": "W",
+      "type": "normal",
+      "prompt": "Use case: identity-preserve. Correct image1 to a STRICT LEFT SIDE PROFILE of same three-tuber organism in image2. Whole body faces exactly SCREEN-LEFT. Three eyes are attached to FRONT of central tuber: foreshorten this frontal eye row strongly at the extreme LEFT contour, only near eye and at most narrow slivers of others visible, not three broad ovals across the side. The far lateral small tuber currently exposed at screen-left must be almost completely hidden BEHIND central tuber. Near lateral small tuber overlaps the central tuber in foreground, fixed relative attachment. Exactly THREE tubers total (far one naturally hidden), SIX root legs total with far-root overlap, no new roots. Keep same central tuber size, side tuber size, tan/olive patches, cream bumps, skin scratches, contour, shallow elevated camera and upright standing posture. Do not merely remove eyes without whole-body yaw. No changes to identity, no extra eyes/arms/tail/wings. ONE centered transparent1024 sprite, full extremities with margin, no floor/shadow/text/sheet.",
+      "sha256": "78063a2c615e270701f98ec376d7c16d34594ad3d89b5cd47a7c5a3d0632cb5e",
+      "raw_sha256": "3766f93cdc418fb7e1ef6bf3842463013394f26ef71771261490528f781ea4ff",
+      "reference_hashes": [
+        "f85c46bc196edc5b0db1352f31698aa20081637ef2cdb9d9a88e267596d20d41",
+        "581593ff751947fd487a31d76835eed6a944e496f8bdbdf64d76f49c2468c215"
+      ]
+    },
+    {
+      "direction": "W",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this exact ONE potato creature into ONE crisp128x128 pixel sprite of same LEFT side profile. Preserve the eye(s) narrowly overlapping at extreme LEFT edge, far small tuber almost hidden at left behind central tuber, near small tuber foreground at right, and exactly shown three near roots with far roots occluded. Same individual has3 tubers/6 total roots/3 total frontal eyes; do not expose additional far features or redesign. Match current silhouette, proportions and tan/olive/cream palette.31 opaque colors maximum, binary transparency, hard pixel clusters, no blur/antialiasing. Whole character centered with margin, no grid/sheet/text/floor/shadow.",
+      "sha256": "24a00039a40cc6d5fe23ce882ba40d16b56f6743e02aad3ef47598ab990c8af2",
+      "raw_sha256": "190ee2645f67e98e49c6ffde3fdc24613bd86dc11aef75477e95395621fb5f8e",
+      "reference_hashes": [
+        "78063a2c615e270701f98ec376d7c16d34594ad3d89b5cd47a7c5a3d0632cb5e"
+      ]
+    }
+  ],
+  "generation_scope": "Seven new images: SW/SE/W normal and pixel pairs, and NW pixel only. Other recovered selections unchanged; existing S pair unchanged.",
+  "historical_provenance_gap": "Previous adopted mapping and original prompt/reference lineage for reused candidates were not recovered. Current visual reselection is not claimed identical to historical adoption.",
+  "quality_history": [
+    {
+      "version": "initial",
+      "status": "direction_hold",
+      "reason": "S/SW/SE had nearly same three-tuber and eye arrangement; six-root fixed geometry unproven."
+    },
+    {
+      "version": "v2",
+      "status": "W_direction_hold",
+      "improvements": "SW/SE oblique projection and NW pixel correspondence improved.",
+      "remaining_issue": "W retained broad three-eye exposure and far lateral tuber similar to SW."
+    },
+    {
+      "version": "v3",
+      "status": "review_candidate",
+      "improvements": "Only W normal and matching pixel replaced; whole-body yaw narrows visible eye row and occludes far tuber. Previous W and hold history retained separately."
+    }
+  ],
+  "processing": {
+    "reused_candidates": "Byte-identical recovery-time selections; no image changes.",
+    "new_normals": "Low-alpha cleanup below8, proportional LANCZOS fit visible864, centered transparent1024; no shape redraw.",
+    "new_pixels": "Nearest128, alpha threshold128,31-color quantization without dithering, transparent RGB cleared, proportional nearest visible108, centered128; no shape redraw."
+  },
+  "qa": {
+    "numeric_hash": "E independent all16slots passed dimensions/margins/extents/pixel binary alpha/visible RGB32 or fewer, plus file hashes",
+    "visual": "Parent eight-pair review and E full-resolution key pairs passed correspondence with listed limitations. E revised W eye-edge/root overlap and NW pixel correspondence confirmed; earlier W HOLD retained in history.",
+    "limitations": [
+      "Historical adopted hashes and old lineage for reused candidates unproven",
+      "Exact angles and original S orientation inferred",
+      "Six-root attachment depth and far-root occlusion not rigid3D verified",
+      "Fixed tuber surface patch rotation not fully proven"
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending"
+  }
+}
