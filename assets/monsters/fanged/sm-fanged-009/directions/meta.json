@@ -1,0 +1,981 @@
+{
+  "schema_version": 1,
+  "id": "sm-fanged-009",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/fanged/sm-fanged-009/default.png",
+      "sha256": "1232c0236d881e7b13453d33c1d304774116c1d04268be48096faa7c9e11c304",
+      "git_blob_sha": "903824158c7ca977dfa2a144a9bc488dc0cba254",
+      "bytes": 814145
+    },
+    "pixel": {
+      "path": "assets/monsters/fanged/sm-fanged-009/pixel.png",
+      "sha256": "19eafe41a0aa2577b2d228083bc1f5b24367d2e0e929c0e9384132d70d623055",
+      "git_blob_sha": "903146fd3c5deb13766837c557f072201c82d86a",
+      "bytes": 9599
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/S/default.png",
+      "sha256": "12409de4cf622068178c44da5ff14d5ff92e50d2a1aa24c04a27550cd17d8875",
+      "bytes": 793250,
+      "git_blob_sha": "fd4e2b7843f9d8ca76b52d63d90be92ad484f60b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          146,
+          96,
+          877,
+          928
+        ],
+        "margins": [
+          146,
+          96,
+          147,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 50482,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/S/pixel.png",
+      "sha256": "55f95a4d77b9c01e14a9f801bc200d41ab51f4c88aaba623ad6ec98f2eff01f1",
+      "bytes": 13818,
+      "git_blob_sha": "c97d24e090856ad5ab535ca181a74ac96749a2e4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          18,
+          12,
+          109,
+          116
+        ],
+        "margins": [
+          18,
+          12,
+          19,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "12409de4cf622068178c44da5ff14d5ff92e50d2a1aa24c04a27550cd17d8875"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/SW/default.png",
+      "sha256": "6620e6de177daea3896e966e69973bd96460afbba5b6ee59cf58ea8e752a967a",
+      "bytes": 746930,
+      "git_blob_sha": "641463a4ff0f93561ba661a1bb6bc7c66885f419",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          186,
+          96,
+          837,
+          928
+        ],
+        "margins": [
+          186,
+          96,
+          187,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 53241,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/SW/pixel.png",
+      "sha256": "513bb534edb4be6206ba7f39b5a8b2127fed07cb0e232f60ec035d46a1bdc15e",
+      "bytes": 13367,
+      "git_blob_sha": "bb7af66effbd7059f34e5f20fbb8ec7ded22080e",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          22,
+          12,
+          105,
+          116
+        ],
+        "margins": [
+          22,
+          12,
+          23,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "6620e6de177daea3896e966e69973bd96460afbba5b6ee59cf58ea8e752a967a"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/W/default.png",
+      "sha256": "9e4bb9a7391559760d829a001a8286485fc3ac363dd700ca5ba29ef90169ace0",
+      "bytes": 428136,
+      "git_blob_sha": "025de2e1f75bceba6a5aa13f46bb421af9942cca",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          326,
+          96,
+          698,
+          928
+        ],
+        "margins": [
+          326,
+          96,
+          326,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 35053,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/W/pixel.png",
+      "sha256": "82e0676914d9eb159bc2d93726feb8b458737b2928ddde791f3b1d93f33f766a",
+      "bytes": 8589,
+      "git_blob_sha": "07759406cc69816b11bd1825448041a36d846a86",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          39,
+          12,
+          88,
+          116
+        ],
+        "margins": [
+          39,
+          12,
+          40,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "9e4bb9a7391559760d829a001a8286485fc3ac363dd700ca5ba29ef90169ace0"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/NW/default.png",
+      "sha256": "c6cf4a1074280fe29fc1dda166c99de60a8c4b995d14e463f014aa2a675f9c73",
+      "bytes": 625052,
+      "git_blob_sha": "da54aeb8ba739e5b4d0f8ab64541312f8eec5551",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          197,
+          96,
+          827,
+          928
+        ],
+        "margins": [
+          197,
+          96,
+          197,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 40739,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/NW/pixel.png",
+      "sha256": "d5530605a0638f1a628287d2991d367903ca05ab08b3c0c5c88f0e8f8f78746b",
+      "bytes": 11524,
+      "git_blob_sha": "420ed1b3d1f6eee3cfc90c1e3761da535f8c5158",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          23,
+          12,
+          104,
+          116
+        ],
+        "margins": [
+          23,
+          12,
+          24,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "c6cf4a1074280fe29fc1dda166c99de60a8c4b995d14e463f014aa2a675f9c73"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/N/default.png",
+      "sha256": "b614cd785b36d482304521975a544f1c06b6a8e6012d75ac149950b95966560d",
+      "bytes": 722313,
+      "git_blob_sha": "8503e5c59e8d558eefb4559ba9fd7d56f09d7063",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          169,
+          96,
+          854,
+          928
+        ],
+        "margins": [
+          169,
+          96,
+          170,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 40774,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/N/pixel.png",
+      "sha256": "45f8915b602e66668bda11541a3ac2da7ab2e8a7bf51d58811279d093443ef47",
+      "bytes": 12283,
+      "git_blob_sha": "fbf8968e9dc6bf55d908142e42f65b521fca1031",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          20,
+          12,
+          107,
+          116
+        ],
+        "margins": [
+          20,
+          12,
+          21,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "b614cd785b36d482304521975a544f1c06b6a8e6012d75ac149950b95966560d"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/NE/default.png",
+      "sha256": "831fc057fa830f8148d8d3938fccb1c4598878ac0351a8f8d07afd98daa446ec",
+      "bytes": 673108,
+      "git_blob_sha": "b6a2e5ece9ba227bb8de7a572b977c8a54754e91",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          179,
+          96,
+          845,
+          928
+        ],
+        "margins": [
+          179,
+          96,
+          179,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 39919,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/NE/pixel.png",
+      "sha256": "d09fda122dfc8e3662e550f457033d4ca05f41aea1cf333f20ff3cdb098d32f6",
+      "bytes": 12477,
+      "git_blob_sha": "62c5e4f77a6c27b477a5ab99230cad2822fe9d75",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          22,
+          12,
+          105,
+          116
+        ],
+        "margins": [
+          22,
+          12,
+          23,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "831fc057fa830f8148d8d3938fccb1c4598878ac0351a8f8d07afd98daa446ec"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/E/default.png",
+      "sha256": "53f8118fc08ce2b9742a007cda6e6c3408f138f1a1c680cabd61a4fe82fc6145",
+      "bytes": 520361,
+      "git_blob_sha": "0d59b237fce453532de2636a74d1429fad5a00ad",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          281,
+          96,
+          743,
+          928
+        ],
+        "margins": [
+          281,
+          96,
+          281,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 40811,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-009/directions/E/pixel.png",
+      "sha256": "8c27ea399fd39084f3ce840690857e3d51e06d2a530e4167b0e88d07198c9c7b",
+      "bytes": 10257,
+      "git_blob_sha": "ec63dc5b3a3da7f8645f0327db69b73ffa5f039d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          34,
+          12,
+          93,
+          116
+        ],
+        "margins": [
+          34,
+          12,
+          35,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "53f8118fc08ce2b9742a007cda6e6c3408f138f1a1c680cabd61a4fe82fc6145"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-009/default.png",
+      "sha256": "1232c0236d881e7b13453d33c1d304774116c1d04268be48096faa7c9e11c304",
+      "bytes": 814145,
+      "git_blob_sha": "903824158c7ca977dfa2a144a9bc488dc0cba254",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          150,
+          80,
+          873,
+          944
+        ],
+        "margins": [
+          150,
+          80,
+          151,
+          80
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 52086,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-009/pixel.png",
+      "sha256": "19eafe41a0aa2577b2d228083bc1f5b24367d2e0e929c0e9384132d70d623055",
+      "bytes": 9599,
+      "git_blob_sha": "903146fd3c5deb13766837c557f072201c82d86a",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          19,
+          10,
+          109,
+          118
+        ],
+        "margins": [
+          19,
+          10,
+          19,
+          10
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "1232c0236d881e7b13453d33c1d304774116c1d04268be48096faa7c9e11c304"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "Four leg and central fang root positions at rear/side, ring thickness and fur flow inferred.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Rotate exact reference sm-fanged-009 yaw-only to S: direct FRONT symmetric ring opening, two eyes level, single broad tooth centered at upper inner edge. Same original gentle elevated camera and ring leaning posture. ONE thick upright oval ring of fine curly blue wool #ADCDD2 with cream #F1DFC1 inner rim/eye surrounds/paws, dark teal #4F6971 claws. TWO eyes on FRONT upper ring only, ONE broad half-moon ivory tooth hangs from upper inner mouth into vertical through-hole. FOUR short legs under bottom outer ring, far ones naturally overlap/hide. No arms/ears/wings/tail/second tooth. Keep body thickness/curly wool pattern/style/proportions, no gearlike rim. Hole genuinely transparent only where line of sight through it; do not invent lateral hole at profile. Whole single transparent square sprite with margin, no scenery/ground/shadow/glow/text.",
+      "raw_sha256": "c9de36a1ef0fc0843176ff1e2f95c6352d6c3160d509cb6f5bbc06d41da7a374",
+      "raw_bytes": 1313908,
+      "generation_references_in_order": [
+        {
+          "sha256": "1232c0236d881e7b13453d33c1d304774116c1d04268be48096faa7c9e11c304"
+        }
+      ],
+      "finished": {
+        "sha256": "12409de4cf622068178c44da5ff14d5ff92e50d2a1aa24c04a27550cd17d8875",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          146,
+          96,
+          877,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 50482,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact sm-fanged-009 S reference redrawn as authentic128x128 logical pixel art. Preserve pose/view/body proportion, same ring opening visibility and tooth/eye/foot positions. One thick upright curly-wool oval ring with genuine vertical hole, TWO front eyes total naturally hidden by view, ONE broad half-moon tooth at top inside hole, FOUR short paws total with natural overlap. Profile edge-on opening hidden exactly as reference; don't invent side hole. Blue wool/cream inner rim and paws/dark teal claws, no ears/wings/tail/additional tooth. Crisp broad pixel clusters dark1pixel outline <=32 visible colors, binary alpha, no blur/gradient/glow/shadow/text. Full isolated centered transparent sprite margin.",
+      "raw_sha256": "de4f4dc12a3e037d0e2b7862443f39dcdff6d938b95557a6c623c5b9b882a965",
+      "raw_bytes": 1116069,
+      "generation_references_in_order": [
+        {
+          "sha256": "c9de36a1ef0fc0843176ff1e2f95c6352d6c3160d509cb6f5bbc06d41da7a374"
+        }
+      ],
+      "finished": {
+        "sha256": "55f95a4d77b9c01e14a9f801bc200d41ab51f4c88aaba623ad6ec98f2eff01f1",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          18,
+          12,
+          109,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Rotate exact reference sm-fanged-009 yaw-only to SW: front-left45 yaw, front plane faces LEFT and viewer; opening narrows in perspective, thick right side recedes. Same original gentle elevated camera and ring leaning posture. ONE thick upright oval ring of fine curly blue wool #ADCDD2 with cream #F1DFC1 inner rim/eye surrounds/paws, dark teal #4F6971 claws. TWO eyes on FRONT upper ring only, ONE broad half-moon ivory tooth hangs from upper inner mouth into vertical through-hole. FOUR short legs under bottom outer ring, far ones naturally overlap/hide. No arms/ears/wings/tail/second tooth. Keep body thickness/curly wool pattern/style/proportions, no gearlike rim. Hole genuinely transparent only where line of sight through it; do not invent lateral hole at profile. Whole single transparent square sprite with margin, no scenery/ground/shadow/glow/text.",
+      "raw_sha256": "8e89ee5ddfefcb8bec240f7945d2096db04f0ad66698fd62d623ba8a88f8fc5b",
+      "raw_bytes": 1277379,
+      "generation_references_in_order": [
+        {
+          "sha256": "1232c0236d881e7b13453d33c1d304774116c1d04268be48096faa7c9e11c304"
+        }
+      ],
+      "finished": {
+        "sha256": "6620e6de177daea3896e966e69973bd96460afbba5b6ee59cf58ea8e752a967a",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          186,
+          96,
+          837,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 53241,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact sm-fanged-009 SW reference redrawn as authentic128x128 logical pixel art. Preserve pose/view/body proportion, same ring opening visibility and tooth/eye/foot positions. One thick upright curly-wool oval ring with genuine vertical hole, TWO front eyes total naturally hidden by view, ONE broad half-moon tooth at top inside hole, FOUR short paws total with natural overlap. Profile edge-on opening hidden exactly as reference; don't invent side hole. Blue wool/cream inner rim and paws/dark teal claws, no ears/wings/tail/additional tooth. Crisp broad pixel clusters dark1pixel outline <=32 visible colors, binary alpha, no blur/gradient/glow/shadow/text. Full isolated centered transparent sprite margin.",
+      "raw_sha256": "4e709f0c3af76b4f932b8beb53face0ed1587387411fb005fe709b1e789f8154",
+      "raw_bytes": 1120392,
+      "generation_references_in_order": [
+        {
+          "sha256": "8e89ee5ddfefcb8bec240f7945d2096db04f0ad66698fd62d623ba8a88f8fc5b"
+        }
+      ],
+      "finished": {
+        "sha256": "513bb534edb4be6206ba7f39b5a8b2127fed07cb0e232f60ec035d46a1bdc15e",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          22,
+          12,
+          105,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Rotate exact reference sm-fanged-009 yaw-only to W: strict LEFT90 profile, ring plane edge-on: show narrow vertical thick furry oval side column, NOT a broad front-facing donut. Through-hole hidden behind near rim because viewing axis perpendicular to hole. One near eye at leading LEFT upper edge, single tooth only tiny edge if visible. Same original gentle elevated camera and ring leaning posture. ONE thick upright oval ring of fine curly blue wool #ADCDD2 with cream #F1DFC1 inner rim/eye surrounds/paws, dark teal #4F6971 claws. TWO eyes on FRONT upper ring only, ONE broad half-moon ivory tooth hangs from upper inner mouth into vertical through-hole. FOUR short legs under bottom outer ring, far ones naturally overlap/hide. No arms/ears/wings/tail/second tooth. Keep body thickness/curly wool pattern/style/proportions, no gearlike rim. Hole genuinely transparent only where line of sight through it; do not invent lateral hole at profile. Whole single transparent square sprite with margin, no scenery/ground/shadow/glow/text.",
+      "raw_sha256": "64bc5e6309b9f5ad26821a908a26634c56d7dccc5691cb949710dcb0a4173272",
+      "raw_bytes": 757793,
+      "generation_references_in_order": [
+        {
+          "sha256": "1232c0236d881e7b13453d33c1d304774116c1d04268be48096faa7c9e11c304"
+        }
+      ],
+      "finished": {
+        "sha256": "9e4bb9a7391559760d829a001a8286485fc3ac363dd700ca5ba29ef90169ace0",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          326,
+          96,
+          698,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 35053,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact sm-fanged-009 W reference redrawn as authentic128x128 logical pixel art. Preserve pose/view/body proportion, same ring opening visibility and tooth/eye/foot positions. One thick upright curly-wool oval ring with genuine vertical hole, TWO front eyes total naturally hidden by view, ONE broad half-moon tooth at top inside hole, FOUR short paws total with natural overlap. Profile edge-on opening hidden exactly as reference; don't invent side hole. Blue wool/cream inner rim and paws/dark teal claws, no ears/wings/tail/additional tooth. Crisp broad pixel clusters dark1pixel outline <=32 visible colors, binary alpha, no blur/gradient/glow/shadow/text. Full isolated centered transparent sprite margin.",
+      "raw_sha256": "f2eaf1e2ff985d78535b8bb26613465643e70b9459ba96bd24f55def2f93469e",
+      "raw_bytes": 695533,
+      "generation_references_in_order": [
+        {
+          "sha256": "64bc5e6309b9f5ad26821a908a26634c56d7dccc5691cb949710dcb0a4173272"
+        }
+      ],
+      "finished": {
+        "sha256": "82e0676914d9eb159bc2d93726feb8b458737b2928ddde791f3b1d93f33f766a",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          39,
+          12,
+          88,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-fanged-009 reference yaw-only view NW: rear-left135, back surface nearest right, front faces away upper-left; NO eyes, see rear of same ONE tooth through top of hole. Same gentle elevated camera/leaning posture and thick upright oval ring dimensions. TWO eyes only on FRONT upper ring, ONE broad half-moon ivory tooth hangs from FRONT upper inner mouth into vertical hole, backside may be visible from rear but never duplicate. FOUR short paw legs under bottom outer ring, natural far paw occlusion. Fine curly pale blue wool #ADCDD2, cream inner rim/paws, dark teal claws, no ears/arms/wings/tail/additional tooth. At profile conceal aperture by perspective, don't fill original front hole with new belly. Same illustration and palette, full single transparent square with margin, no ground/shadow/glow/text.",
+      "raw_sha256": "f371bf3f661220ed89f35cd220c29fcc22738baa3142a73d1c9c7d4beecdc755",
+      "raw_bytes": 1122349,
+      "generation_references_in_order": [
+        {
+          "sha256": "1232c0236d881e7b13453d33c1d304774116c1d04268be48096faa7c9e11c304"
+        }
+      ],
+      "finished": {
+        "sha256": "c6cf4a1074280fe29fc1dda166c99de60a8c4b995d14e463f014aa2a675f9c73",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          197,
+          96,
+          827,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 40739,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact sm-fanged-009 NW reference redrawn as authentic128x128 logical pixel art. Preserve pose/view/body proportion, same ring opening visibility and tooth/eye/foot positions. One thick upright curly-wool oval ring, TWO front eyes total both hidden, NO visible eyes on rear, ONE broad half-moon tooth at top inside hole (backside visible rear), FOUR short paws total with natural overlap. Profile opening hidden exactly as reference; rear hole transparent. Blue wool/cream inner rim and paws/dark teal claws, no ears/wings/tail/additional tooth. Crisp broad pixel clusters dark1pixel outline <=32 visible colors, binary alpha, no blur/gradient/glow/shadow/text. Full isolated centered transparent sprite margin.",
+      "raw_sha256": "52953ec876e77f0e7ed3d05038c61f9ce8e370427ca592298aa48b7009153886",
+      "raw_bytes": 1037108,
+      "generation_references_in_order": [
+        {
+          "sha256": "f371bf3f661220ed89f35cd220c29fcc22738baa3142a73d1c9c7d4beecdc755"
+        }
+      ],
+      "finished": {
+        "sha256": "d5530605a0638f1a628287d2991d367903ca05ab08b3c0c5c88f0e8f8f78746b",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          23,
+          12,
+          104,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-fanged-009 reference yaw-only view N: direct REAR180, symmetric rear oval opening, NO eyes, backside of same single tooth hangs at top inside hole. Same gentle elevated camera/leaning posture and thick upright oval ring dimensions. TWO eyes only on FRONT upper ring, ONE broad half-moon ivory tooth hangs from FRONT upper inner mouth into vertical hole, backside may be visible from rear but never duplicate. FOUR short paw legs under bottom outer ring, natural far paw occlusion. Fine curly pale blue wool #ADCDD2, cream inner rim/paws, dark teal claws, no ears/arms/wings/tail/additional tooth. At profile conceal aperture by perspective, don't fill original front hole with new belly. Same illustration and palette, full single transparent square with margin, no ground/shadow/glow/text.",
+      "raw_sha256": "6df2885ebd1954aedc3e0ecfd3697fcee486869f2839f9b13b89d89af1324216",
+      "raw_bytes": 1153214,
+      "generation_references_in_order": [
+        {
+          "sha256": "1232c0236d881e7b13453d33c1d304774116c1d04268be48096faa7c9e11c304"
+        }
+      ],
+      "finished": {
+        "sha256": "b614cd785b36d482304521975a544f1c06b6a8e6012d75ac149950b95966560d",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          169,
+          96,
+          854,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 40774,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact sm-fanged-009 N reference redrawn as authentic128x128 logical pixel art. Preserve pose/view/body proportion, same ring opening visibility and tooth/eye/foot positions. One thick upright curly-wool oval ring, TWO front eyes total both hidden, NO visible eyes on rear, ONE broad half-moon tooth at top inside hole (backside visible rear), FOUR short paws total with natural overlap. Profile opening hidden exactly as reference; rear hole transparent. Blue wool/cream inner rim and paws/dark teal claws, no ears/wings/tail/additional tooth. Crisp broad pixel clusters dark1pixel outline <=32 visible colors, binary alpha, no blur/gradient/glow/shadow/text. Full isolated centered transparent sprite margin.",
+      "raw_sha256": "1cc4fdd42da1af3761be00c695825419179108dd9342af197ff206280c7993bf",
+      "raw_bytes": 1060309,
+      "generation_references_in_order": [
+        {
+          "sha256": "6df2885ebd1954aedc3e0ecfd3697fcee486869f2839f9b13b89d89af1324216"
+        }
+      ],
+      "finished": {
+        "sha256": "45f8915b602e66668bda11541a3ac2da7ab2e8a7bf51d58811279d093443ef47",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          20,
+          12,
+          107,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. This is REAR-RIGHT view. Remove both mistakenly visible eyes from upper ring and replace their cream sockets with continuous blue curly wool matching surrounding back. There are no eyes on back. Keep entire ring shape, hole, single tooth viewed from back, four feet, thickness, curls, palette, camera/yaw unchanged. Do not add another tooth or fill hole. Transparent background.",
+      "raw_sha256": "a221fec7cebe08c6952d60c8c3552ace1c65c162cbdbad15afb5804ca6f7f254",
+      "raw_bytes": 1207430,
+      "generation_references_in_order": [
+        {
+          "sha256": "ce3f8a1c5bf178a3f569363e8d40f68a045bf7489e5f62669c373ce356be05b4"
+        }
+      ],
+      "finished": {
+        "sha256": "831fc057fa830f8148d8d3938fccb1c4598878ac0351a8f8d07afd98daa446ec",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          179,
+          96,
+          845,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 39919,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact sm-fanged-009 NE reference redrawn as authentic128x128 logical pixel art. Preserve pose/view/body proportion, same ring opening visibility and tooth/eye/foot positions. One thick upright curly-wool oval ring, TWO front eyes total both hidden, NO visible eyes on rear, ONE broad half-moon tooth at top inside hole (backside visible rear), FOUR short paws total with natural overlap. Profile opening hidden exactly as reference; rear hole transparent. Blue wool/cream inner rim and paws/dark teal claws, no ears/wings/tail/additional tooth. Crisp broad pixel clusters dark1pixel outline <=32 visible colors, binary alpha, no blur/gradient/glow/shadow/text. Full isolated centered transparent sprite margin.",
+      "raw_sha256": "56b7d1edfb6c0cafb395a8cb9f87b7ec2ea74fbb938444e59c4dbeb6da5c91f3",
+      "raw_bytes": 1084947,
+      "generation_references_in_order": [
+        {
+          "sha256": "a221fec7cebe08c6952d60c8c3552ace1c65c162cbdbad15afb5804ca6f7f254"
+        }
+      ],
+      "finished": {
+        "sha256": "d09fda122dfc8e3662e550f457033d4ca05f41aea1cf333f20ff3cdb098d32f6",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          22,
+          12,
+          105,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. True right profile correction: hide only the FAR eye at extreme upper-right edge behind ring curvature, retain one nearest eye. Keep narrow edge-on ring and concealed aperture, single tooth edge, four paws with occlusion, all curls/palette/proportions unchanged. Transparent no other changes.",
+      "raw_sha256": "a34492659e027b4e1ade11d50bd605161d168172bf835f0703b85d569f3037c4",
+      "raw_bytes": 842649,
+      "generation_references_in_order": [
+        {
+          "sha256": "8fb796b515f45887d2d709bb27ea2e3be691695066b8375c1dfb59508af5bad6"
+        }
+      ],
+      "finished": {
+        "sha256": "53f8118fc08ce2b9742a007cda6e6c3408f138f1a1c680cabd61a4fe82fc6145",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          281,
+          96,
+          743,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 40811,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact sm-fanged-009 E reference redrawn as authentic128x128 logical pixel art. Preserve pose/view/body proportion, same ring opening visibility and tooth/eye/foot positions. One thick upright curly-wool oval ring, TWO front eyes total one near eye visible, ONE broad half-moon tooth at top inside hole (backside visible rear), FOUR short paws total with natural overlap. Profile opening hidden exactly as reference; rear hole transparent. Blue wool/cream inner rim and paws/dark teal claws, no ears/wings/tail/additional tooth. Crisp broad pixel clusters dark1pixel outline <=32 visible colors, binary alpha, no blur/gradient/glow/shadow/text. Full isolated centered transparent sprite margin.",
+      "raw_sha256": "2b4cc66e03d3a9b4479dfa7c609fe904f5c91221832ad519526b27aad610649f",
+      "raw_bytes": 695408,
+      "generation_references_in_order": [
+        {
+          "sha256": "a34492659e027b4e1ade11d50bd605161d168172bf835f0703b85d569f3037c4"
+        }
+      ],
+      "finished": {
+        "sha256": "8c27ea399fd39084f3ce840690857e3d51e06d2a530e4167b0e88d07198c9c7b",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          34,
+          12,
+          93,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    }
+  ]
+}
