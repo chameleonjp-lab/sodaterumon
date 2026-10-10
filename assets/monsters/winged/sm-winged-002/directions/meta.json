@@ -1,0 +1,587 @@
+{
+  "schema_version": 1,
+  "species": "sm-winged-002",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SW",
+  "original_direction_basis": "Original direction not explicitly specified in source metadata. Initial generic SE estimate revised to SW from actual left-facing front-eye rim and right-rear tail, parent confirmed visual rationale. Exact yaw inferred.",
+  "previous_original_direction_estimate": "SE",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        224,
+        928,
+        799
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 51073,
+      "sha256": "13f93e2359e701b645bcc5087c4ef56ec147a9eea5962be5a2b60c8d56c79e4f",
+      "path": "assets/monsters/winged/sm-winged-002/directions/S/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        26,
+        116,
+        102
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 23,
+      "sha256": "6976f056ac4fc12ec76d9e30333afef1ba7fc4a2ad854718a189fc7f4ed7bd7d",
+      "path": "assets/monsters/winged/sm-winged-002/directions/S/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        99,
+        928,
+        925
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 54021,
+      "sha256": "8a96ca16f97f404873a059ad7759b2f1e87e103e954927fcb88364d4e0a08c3a",
+      "path": "assets/monsters/winged/sm-winged-002/default.png",
+      "original_preserved": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        18,
+        116,
+        110
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 23,
+      "sha256": "64961474db8dc0da68ef6df98eb7bcb4d34e51313b89bdb2bfd317c0426528c7",
+      "path": "assets/monsters/winged/sm-winged-002/pixel.png",
+      "original_preserved": true
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        202,
+        928,
+        821
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 49015,
+      "sha256": "07fb822c600da3af52a9e07056b9c41cdcc4437a4449b8de5d0a4ea2c21522b2",
+      "path": "assets/monsters/winged/sm-winged-002/directions/W/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        26,
+        116,
+        102
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 23,
+      "sha256": "91d200ba86bbe8ac35dc7e9a01ff2699730b4c34acbe4f100b667ab30fe3306c",
+      "path": "assets/monsters/winged/sm-winged-002/directions/W/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        198,
+        928,
+        825
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 45426,
+      "sha256": "b6f9fbc271b780492aaef23721d1b615ec4ce018a1f04db248c48e7cc8da4c48",
+      "path": "assets/monsters/winged/sm-winged-002/directions/NW/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        25,
+        116,
+        103
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 22,
+      "sha256": "9c7f3dc67950ebd495dc07732930f04279d87aa5869d44af1196caa3aa973162",
+      "path": "assets/monsters/winged/sm-winged-002/directions/NW/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        214,
+        928,
+        810
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 45978,
+      "sha256": "8194ef775356cb78d270b921785bc8699e90a42c74b12d32f82a13152d06c637",
+      "path": "assets/monsters/winged/sm-winged-002/directions/N/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        26,
+        116,
+        101
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 23,
+      "sha256": "18d8604a9b9b50e51da8bf88f2a9fa647527a552363ad739b87852037cbc5cf3",
+      "path": "assets/monsters/winged/sm-winged-002/directions/N/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        191,
+        928,
+        833
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 47514,
+      "sha256": "ca8003211e8aef751eafdc9c0ea732df985161f20aa16573e8c2078596fa40a7",
+      "path": "assets/monsters/winged/sm-winged-002/directions/NE/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        23,
+        116,
+        105
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 22,
+      "sha256": "130c45b950601e4e29a9ea5922176f6b702112125ee5063a314a23bf7b1d2ee9",
+      "path": "assets/monsters/winged/sm-winged-002/directions/NE/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        208,
+        928,
+        815
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 48079,
+      "sha256": "811d09ecf8b4625a8656a6acb661d35cde2e41eaa0173e67cbf5ffa496e70c20",
+      "path": "assets/monsters/winged/sm-winged-002/directions/E/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        27,
+        116,
+        101
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 23,
+      "sha256": "4de6d639868b7dedefd382d097fe2a2ca118f533000a2960b690c2f789023078",
+      "path": "assets/monsters/winged/sm-winged-002/directions/E/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        186,
+        928,
+        838
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 55741,
+      "sha256": "0ae5e2e39288e10728895ef3ece7f9eb276eafe685526dbb5f7d4945c5a246bd",
+      "path": "assets/monsters/winged/sm-winged-002/directions/SE/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        22,
+        116,
+        105
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 23,
+      "sha256": "0a395caeacbdf3a6a8502ece7a285ad1d3889568179951d2b582ae95ec8f208e",
+      "path": "assets/monsters/winged/sm-winged-002/directions/SE/pixel.png",
+      "original_preserved": false
+    }
+  ],
+  "provenance": {
+    "tool": "image_gen.imagegen",
+    "calls": [
+      {
+        "direction": "S",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One transparent direction sprite of EXACT same creature as reference image1. Preserve anatomical structure, colors, painted cloth/terracotta texture, fixed hovering posture, body pitch/roll and camera elevation; rotate yaw only. Body is a single shallow terracotta inverted bowl, not a disc or deep cup, with a dark oval underside visible and a shallow upper rim as in reference. No legs, neck or head. Exactly THREE blue-gray eyes fixed along FRONT rim in a shallow upward arc. FOUR separate diagonal cloth paddle/rhomboid wings attached to the bowl rim (front-left,front-right,rear-left,rear-right), with broad flat-cut ends, dark slate diamond/chevron motif on each; preserve each motif fixed on same surface. One thin terracotta tail fixed at REAR center curves upward, ending in ONE closed dark blue-gray ring with genuine transparent hole. Tail and ring shape stay attached and rotate with body, not with camera. Palette #B96A49,#E8C3A0,#526B78. Do not invent underside eyes, legs, extra wings or a second tail. Natural occlusion allowed, never relocate parts to show all. Source approximate SE front-right view. Keep slightly underside-visible low view at same pitch, not overhead. Full body centered square1024 with clear padding, transparent alpha, no ground/shadow/text.\nRequested view: Straight FRONT S0. Three eyes in front row centered and symmetric, front edge broad horizontal, underside oval below. Four diagonal wings form symmetrical X projection. Tail emerges from rear midpoint BEHIND bowl, visible above/behind center; ring partly occludes naturally.",
+        "raw_sha256": "54a89caca9f2d901ca2a6c1bab42f802df319bb1456ea44b6141423ed55e9dc8",
+        "final_sha256": "13f93e2359e701b645bcc5087c4ef56ec147a9eea5962be5a2b60c8d56c79e4f",
+        "raw_basename": "S-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "8a96ca16f97f404873a059ad7759b2f1e87e103e954927fcb88364d4e0a08c3a"
+          }
+        ]
+      },
+      {
+        "direction": "S",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite matching the sole reference EXACTLY. Change rendering medium only; same direction S, body pitch, silhouette, overlaps, wing-root and tail-root positions. Single shallow terracotta bowl body with dark oval underside, ZERO legs/head/neck. Exactly FOUR cloth rhomboid/paddle wings with flat-cut ends and slate diamond/chevron markings. One slender rear tail ending in one dark closed ring with a transparent hole. Preserve precisely the visible/hidden front eyes in this reference (three fixed front eyes in anatomy, rear views have no eyes; side may show only one near front-edge eye). Do not add hidden eyes on back or change tail to another side. Palette terracotta #B96A49, tan #E8C3A0, slate #526B78. Intentional logical128x128 pixel grid, sharp chunky clusters and staircase contours, 1–2pixel outline, no blurry strokes, no mere downsample filter. At most32 opaque colors, binary-alpha transparent background. Full creature centered with ample clear padding, extent96–112 logical pixels. No labels/text/ground/cast shadow or extra anatomy.",
+        "raw_sha256": "544789013163e2ae3633c87538af3aad02100f4a69115540cfc25517b403adeb",
+        "final_sha256": "6976f056ac4fc12ec76d9e30333afef1ba7fc4a2ad854718a189fc7f4ed7bd7d",
+        "raw_basename": "S-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "13f93e2359e701b645bcc5087c4ef56ec147a9eea5962be5a2b60c8d56c79e4f"
+          }
+        ]
+      },
+      {
+        "direction": "W",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One transparent direction sprite of EXACT same creature as reference image1. Preserve anatomical structure, colors, painted cloth/terracotta texture, fixed hovering posture, body pitch/roll and camera elevation; rotate yaw only. Body is a single shallow terracotta inverted bowl, not a disc or deep cup, with a dark oval underside visible and a shallow upper rim as in reference. No legs, neck or head. Exactly THREE blue-gray eyes fixed along FRONT rim in a shallow upward arc. FOUR separate diagonal cloth paddle/rhomboid wings attached to the bowl rim (front-left,front-right,rear-left,rear-right), with broad flat-cut ends, dark slate diamond/chevron motif on each; preserve each motif fixed on same surface. One thin terracotta tail fixed at REAR center curves upward, ending in ONE closed dark blue-gray ring with genuine transparent hole. Tail and ring shape stay attached and rotate with body, not with camera. Palette #B96A49,#E8C3A0,#526B78. Do not invent underside eyes, legs, extra wings or a second tail. Natural occlusion allowed, never relocate parts to show all. Source approximate SE front-right view. Keep slightly underside-visible low view at same pitch, not overhead. Full body centered square1024 with clear padding, transparent alpha, no ground/shadow/text.\nRequested view: LEFT side W90, front faces screenLEFT and rear/tail screenRIGHT. Front eyes mostly hidden around left rim, only nearest outer eye may peek at left front edge; no row of3 on side. Two near wings spread front/back diagonally, two far wings partly overlap/occlude. Bowl remains shallow with narrow dark underside. Tail rooted at right rear, rises behind toward right.",
+        "raw_sha256": "622f75b60ea9ead7773702ec802adf0d34c2b200216a260c4d0eca70397ca71d",
+        "final_sha256": "07fb822c600da3af52a9e07056b9c41cdcc4437a4449b8de5d0a4ea2c21522b2",
+        "raw_basename": "W-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "8a96ca16f97f404873a059ad7759b2f1e87e103e954927fcb88364d4e0a08c3a"
+          }
+        ]
+      },
+      {
+        "direction": "W",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite matching the sole reference EXACTLY. Change rendering medium only; same direction W, body pitch, silhouette, overlaps, wing-root and tail-root positions. Single shallow terracotta bowl body with dark oval underside, ZERO legs/head/neck. Exactly FOUR cloth rhomboid/paddle wings with flat-cut ends and slate diamond/chevron markings. One slender rear tail ending in one dark closed ring with a transparent hole. Preserve precisely the visible/hidden front eyes in this reference (three fixed front eyes in anatomy, rear views have no eyes; side may show only one near front-edge eye). Do not add hidden eyes on back or change tail to another side. Palette terracotta #B96A49, tan #E8C3A0, slate #526B78. Intentional logical128x128 pixel grid, sharp chunky clusters and staircase contours, 1–2pixel outline, no blurry strokes, no mere downsample filter. At most32 opaque colors, binary-alpha transparent background. Full creature centered with ample clear padding, extent96–112 logical pixels. No labels/text/ground/cast shadow or extra anatomy.",
+        "raw_sha256": "6491178b175ffa6cec8ceed57b57df507e256b17bf0ba9c51556fd9f8914765e",
+        "final_sha256": "91d200ba86bbe8ac35dc7e9a01ff2699730b4c34acbe4f100b667ab30fe3306c",
+        "raw_basename": "W-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "07fb822c600da3af52a9e07056b9c41cdcc4437a4449b8de5d0a4ea2c21522b2"
+          }
+        ]
+      },
+      {
+        "direction": "NW",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One transparent direction sprite of EXACT same creature as reference image1. Preserve anatomical structure, colors, painted cloth/terracotta texture, fixed hovering posture, body pitch/roll and camera elevation; rotate yaw only. Body is a single shallow terracotta inverted bowl, not a disc or deep cup, with a dark oval underside visible and a shallow upper rim as in reference. No legs, neck or head. Exactly THREE blue-gray eyes fixed along FRONT rim in a shallow upward arc. FOUR separate diagonal cloth paddle/rhomboid wings attached to the bowl rim (front-left,front-right,rear-left,rear-right), with broad flat-cut ends, dark slate diamond/chevron motif on each; preserve each motif fixed on same surface. One thin terracotta tail fixed at REAR center curves upward, ending in ONE closed dark blue-gray ring with genuine transparent hole. Tail and ring shape stay attached and rotate with body, not with camera. Palette #B96A49,#E8C3A0,#526B78. Do not invent underside eyes, legs, extra wings or a second tail. Natural occlusion allowed, never relocate parts to show all. Source approximate SE front-right view. Keep slightly underside-visible low view at same pitch, not overhead. Full body centered square1024 with clear padding, transparent alpha, no ground/shadow/text.\nRequested view: REAR-LEFT diagonal NW135: rear/tail nearer on screenRIGHT, front points away screenLEFT. Three eyes hidden behind front rim; no eyes on back. Near rear wing and tailroot visible in front of rear rim, opposite wings foreshortened. Preserve underside view and low shallow body.",
+        "raw_sha256": "863b7838f9d365974fb7fcad29252a1fd9b3354f9da5558cd123c1d951238459",
+        "final_sha256": "b6f9fbc271b780492aaef23721d1b615ec4ce018a1f04db248c48e7cc8da4c48",
+        "raw_basename": "NW-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "8a96ca16f97f404873a059ad7759b2f1e87e103e954927fcb88364d4e0a08c3a"
+          }
+        ]
+      },
+      {
+        "direction": "NW",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite matching the sole reference EXACTLY. Change rendering medium only; same direction NW, body pitch, silhouette, overlaps, wing-root and tail-root positions. Single shallow terracotta bowl body with dark oval underside, ZERO legs/head/neck. Exactly FOUR cloth rhomboid/paddle wings with flat-cut ends and slate diamond/chevron markings. One slender rear tail ending in one dark closed ring with a transparent hole. Preserve precisely the visible/hidden front eyes in this reference (three fixed front eyes in anatomy, rear views have no eyes; side may show only one near front-edge eye). Do not add hidden eyes on back or change tail to another side. Palette terracotta #B96A49, tan #E8C3A0, slate #526B78. Intentional logical128x128 pixel grid, sharp chunky clusters and staircase contours, 1–2pixel outline, no blurry strokes, no mere downsample filter. At most32 opaque colors, binary-alpha transparent background. Full creature centered with ample clear padding, extent96–112 logical pixels. No labels/text/ground/cast shadow or extra anatomy.",
+        "raw_sha256": "348470fef361a7fb0d42f9aca5cfaf58f8d9e45a9d32458647fc5645068143d6",
+        "final_sha256": "9c7f3dc67950ebd495dc07732930f04279d87aa5869d44af1196caa3aa973162",
+        "raw_basename": "NW-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "b6f9fbc271b780492aaef23721d1b615ec4ce018a1f04db248c48e7cc8da4c48"
+          }
+        ]
+      },
+      {
+        "direction": "N",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One transparent direction sprite of EXACT same creature as reference image1. Preserve anatomical structure, colors, painted cloth/terracotta texture, fixed hovering posture, body pitch/roll and camera elevation; rotate yaw only. Body is a single shallow terracotta inverted bowl, not a disc or deep cup, with a dark oval underside visible and a shallow upper rim as in reference. No legs, neck or head. Exactly THREE blue-gray eyes fixed along FRONT rim in a shallow upward arc. FOUR separate diagonal cloth paddle/rhomboid wings attached to the bowl rim (front-left,front-right,rear-left,rear-right), with broad flat-cut ends, dark slate diamond/chevron motif on each; preserve each motif fixed on same surface. One thin terracotta tail fixed at REAR center curves upward, ending in ONE closed dark blue-gray ring with genuine transparent hole. Tail and ring shape stay attached and rotate with body, not with camera. Palette #B96A49,#E8C3A0,#526B78. Do not invent underside eyes, legs, extra wings or a second tail. Natural occlusion allowed, never relocate parts to show all. Source approximate SE front-right view. Keep slightly underside-visible low view at same pitch, not overhead. Full body centered square1024 with clear padding, transparent alpha, no ground/shadow/text.\nRequested view: Straight BACK N180. Rear rim and tail attachment centered nearest viewer; front eyes fully occluded. Tail rises from near center rim with same curve/ring rotated as a solid object; may overlap body. Four wings in symmetrical diagonal layout. No camera height increase; shallow bowl, dark underside oval still visible below.",
+        "raw_sha256": "096f3a066f9b7ae45101706d4765277b36156eda2d63d6448873dd1c420ef6a5",
+        "final_sha256": "8194ef775356cb78d270b921785bc8699e90a42c74b12d32f82a13152d06c637",
+        "raw_basename": "N-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "8a96ca16f97f404873a059ad7759b2f1e87e103e954927fcb88364d4e0a08c3a"
+          }
+        ]
+      },
+      {
+        "direction": "N",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite matching the sole reference EXACTLY. Change rendering medium only; same direction N, body pitch, silhouette, overlaps, wing-root and tail-root positions. Single shallow terracotta bowl body with dark oval underside, ZERO legs/head/neck. Exactly FOUR cloth rhomboid/paddle wings with flat-cut ends and slate diamond/chevron markings. One slender rear tail ending in one dark closed ring with a transparent hole. Preserve precisely the visible/hidden front eyes in this reference (three fixed front eyes in anatomy, rear views have no eyes; side may show only one near front-edge eye). Do not add hidden eyes on back or change tail to another side. Palette terracotta #B96A49, tan #E8C3A0, slate #526B78. Intentional logical128x128 pixel grid, sharp chunky clusters and staircase contours, 1–2pixel outline, no blurry strokes, no mere downsample filter. At most32 opaque colors, binary-alpha transparent background. Full creature centered with ample clear padding, extent96–112 logical pixels. No labels/text/ground/cast shadow or extra anatomy.",
+        "raw_sha256": "858c0121343b244fdc2267376e2f1a8353cbe32a7ee9d413c80aaa747304c1c6",
+        "final_sha256": "18d8604a9b9b50e51da8bf88f2a9fa647527a552363ad739b87852037cbc5cf3",
+        "raw_basename": "N-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "8194ef775356cb78d270b921785bc8699e90a42c74b12d32f82a13152d06c637"
+          }
+        ]
+      },
+      {
+        "direction": "NE",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One transparent direction sprite of EXACT same creature as reference image1. Preserve anatomical structure, colors, painted cloth/terracotta texture, fixed hovering posture, body pitch/roll and camera elevation; rotate yaw only. Body is a single shallow terracotta inverted bowl, not a disc or deep cup, with a dark oval underside visible and a shallow upper rim as in reference. No legs, neck or head. Exactly THREE blue-gray eyes fixed along FRONT rim in a shallow upward arc. FOUR separate diagonal cloth paddle/rhomboid wings attached to the bowl rim (front-left,front-right,rear-left,rear-right), with broad flat-cut ends, dark slate diamond/chevron motif on each; preserve each motif fixed on same surface. One thin terracotta tail fixed at REAR center curves upward, ending in ONE closed dark blue-gray ring with genuine transparent hole. Tail and ring shape stay attached and rotate with body, not with camera. Palette #B96A49,#E8C3A0,#526B78. Do not invent underside eyes, legs, extra wings or a second tail. Natural occlusion allowed, never relocate parts to show all. Source approximate SE front-right view. Keep slightly underside-visible low view at same pitch, not overhead. Full body centered square1024 with clear padding, transparent alpha, no ground/shadow/text.\nRequested view: REAR-RIGHT diagonal NE225: rear/tail nearer screenLEFT, front points away screenRIGHT. All front eyes hidden. Near rear wing and tailroot screenLEFT visible before rear rim, opposite wings foreshortened; complement NW with true reversed near/far, same low camera.",
+        "raw_sha256": "3cab84a00c43d12c288f59dd72809be1af902a7da54646334db1faecdf504485",
+        "final_sha256": "ca8003211e8aef751eafdc9c0ea732df985161f20aa16573e8c2078596fa40a7",
+        "raw_basename": "NE-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "8a96ca16f97f404873a059ad7759b2f1e87e103e954927fcb88364d4e0a08c3a"
+          }
+        ]
+      },
+      {
+        "direction": "NE",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite matching the sole reference EXACTLY. Change rendering medium only; same direction NE, body pitch, silhouette, overlaps, wing-root and tail-root positions. Single shallow terracotta bowl body with dark oval underside, ZERO legs/head/neck. Exactly FOUR cloth rhomboid/paddle wings with flat-cut ends and slate diamond/chevron markings. One slender rear tail ending in one dark closed ring with a transparent hole. Preserve precisely the visible/hidden front eyes in this reference (three fixed front eyes in anatomy, rear views have no eyes; side may show only one near front-edge eye). Do not add hidden eyes on back or change tail to another side. Palette terracotta #B96A49, tan #E8C3A0, slate #526B78. Intentional logical128x128 pixel grid, sharp chunky clusters and staircase contours, 1–2pixel outline, no blurry strokes, no mere downsample filter. At most32 opaque colors, binary-alpha transparent background. Full creature centered with ample clear padding, extent96–112 logical pixels. No labels/text/ground/cast shadow or extra anatomy.",
+        "raw_sha256": "f7272cd7d54366ba16e29e1368d7274d8480161491a4b1cc9dbcc81bb0634c50",
+        "final_sha256": "130c45b950601e4e29a9ea5922176f6b702112125ee5063a314a23bf7b1d2ee9",
+        "raw_basename": "NE-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "ca8003211e8aef751eafdc9c0ea732df985161f20aa16573e8c2078596fa40a7"
+          }
+        ]
+      },
+      {
+        "direction": "E",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One transparent direction sprite of EXACT same creature as reference image1. Preserve anatomical structure, colors, painted cloth/terracotta texture, fixed hovering posture, body pitch/roll and camera elevation; rotate yaw only. Body is a single shallow terracotta inverted bowl, not a disc or deep cup, with a dark oval underside visible and a shallow upper rim as in reference. No legs, neck or head. Exactly THREE blue-gray eyes fixed along FRONT rim in a shallow upward arc. FOUR separate diagonal cloth paddle/rhomboid wings attached to the bowl rim (front-left,front-right,rear-left,rear-right), with broad flat-cut ends, dark slate diamond/chevron motif on each; preserve each motif fixed on same surface. One thin terracotta tail fixed at REAR center curves upward, ending in ONE closed dark blue-gray ring with genuine transparent hole. Tail and ring shape stay attached and rotate with body, not with camera. Palette #B96A49,#E8C3A0,#526B78. Do not invent underside eyes, legs, extra wings or a second tail. Natural occlusion allowed, never relocate parts to show all. Source approximate SE front-right view. Keep slightly underside-visible low view at same pitch, not overhead. Full body centered square1024 with clear padding, transparent alpha, no ground/shadow/text.\nRequested view: RIGHT side E270, front faces screenRIGHT and rear/tail screenLEFT. Three front eyes mostly occluded, only nearest outer eye may peek on right front edge. Near two diagonal wings spread fore/aft; far wings partly overlap. Tail rooted at left rear and rises behind left. No 3eye row on side.",
+        "raw_sha256": "2a87858d50644e8ef96cbd39a136af4dc886e247213b1c9237dd2433d5ebcb47",
+        "final_sha256": "811d09ecf8b4625a8656a6acb661d35cde2e41eaa0173e67cbf5ffa496e70c20",
+        "raw_basename": "E-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "8a96ca16f97f404873a059ad7759b2f1e87e103e954927fcb88364d4e0a08c3a"
+          }
+        ]
+      },
+      {
+        "direction": "E",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite matching the sole reference EXACTLY. Change rendering medium only; same direction E, body pitch, silhouette, overlaps, wing-root and tail-root positions. Single shallow terracotta bowl body with dark oval underside, ZERO legs/head/neck. Exactly FOUR cloth rhomboid/paddle wings with flat-cut ends and slate diamond/chevron markings. One slender rear tail ending in one dark closed ring with a transparent hole. Preserve precisely the visible/hidden front eyes in this reference (three fixed front eyes in anatomy, rear views have no eyes; side may show only one near front-edge eye). Do not add hidden eyes on back or change tail to another side. Palette terracotta #B96A49, tan #E8C3A0, slate #526B78. Intentional logical128x128 pixel grid, sharp chunky clusters and staircase contours, 1–2pixel outline, no blurry strokes, no mere downsample filter. At most32 opaque colors, binary-alpha transparent background. Full creature centered with ample clear padding, extent96–112 logical pixels. No labels/text/ground/cast shadow or extra anatomy.",
+        "raw_sha256": "11994c757cbe906c43a7834d23c91e3b3ae7d682a15ad778fba741df10717a31",
+        "final_sha256": "4de6d639868b7dedefd382d097fe2a2ca118f533000a2960b690c2f789023078",
+        "raw_basename": "E-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "811d09ecf8b4625a8656a6acb661d35cde2e41eaa0173e67cbf5ffa496e70c20"
+          }
+        ]
+      },
+      {
+        "direction": "SE",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One transparent direction sprite of EXACT same creature as reference image1. Preserve anatomical structure, colors, painted cloth/terracotta texture, fixed hovering posture, body pitch/roll and camera elevation; rotate yaw only. Body is a single shallow terracotta inverted bowl, not a disc or deep cup, with a dark oval underside visible and a shallow upper rim as in reference. No legs, neck or head. Exactly THREE blue-gray eyes fixed along FRONT rim in a shallow upward arc. FOUR separate diagonal cloth paddle/rhomboid wings attached to the bowl rim (front-left,front-right,rear-left,rear-right), with broad flat-cut ends, dark slate diamond/chevron motif on each; preserve each motif fixed on same surface. One thin terracotta tail fixed at REAR center curves upward, ending in ONE closed dark blue-gray ring with genuine transparent hole. Tail and ring shape stay attached and rotate with body, not with camera. Palette #B96A49,#E8C3A0,#526B78. Do not invent underside eyes, legs, extra wings or a second tail. Natural occlusion allowed, never relocate parts to show all. Source is reinterpreted as approximate SW front-left view from actual rear tail and front-eye placement. Keep slightly underside-visible low view at same pitch, not overhead. Full body centered square1024 with clear padding, transparent alpha, no ground/shadow/text.\nRequested view: FRONT-RIGHT three-quarter SE315, complementary angle to the reference. Front rim and THREE front eyes face toward SCREEN RIGHT, with near outer eye at right and far eye foreshortened toward left. The REAR tail must emerge BEHIND the bowl toward SCREEN LEFT, rise at screenleft, not on right as in input. Near wing pair on screenright broaden, far pair on screenleft foreshorten/occlude naturally. Keep exactly4 cloth wings, 0legs, shallow terracotta bowl and visible dark underside. Ring remains one closed hole at end of one tail. Rotate the fixed object, do not repeat original layout; preserve upper-left lighting rather than mirror lighting.",
+        "raw_sha256": "101063287534a299f60b1a1276120caa66b8fed24122a6cdddbae8e439c69a80",
+        "final_sha256": "0ae5e2e39288e10728895ef3ece7f9eb276eafe685526dbb5f7d4945c5a246bd",
+        "raw_basename": "SE-v2-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "8a96ca16f97f404873a059ad7759b2f1e87e103e954927fcb88364d4e0a08c3a"
+          }
+        ]
+      },
+      {
+        "direction": "SE",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite matching the sole reference EXACTLY. Change rendering medium only; same direction SE, body pitch, silhouette, overlaps, wing-root and tail-root positions. Single shallow terracotta bowl body with dark oval underside, ZERO legs/head/neck. Exactly FOUR cloth rhomboid/paddle wings with flat-cut ends and slate diamond/chevron markings. One slender rear tail ending in one dark closed ring with a transparent hole. Preserve precisely the visible/hidden front eyes in this reference (three fixed front eyes in anatomy, rear views have no eyes; side may show only one near front-edge eye). Do not add hidden eyes on back or change tail to another side. Palette terracotta #B96A49, tan #E8C3A0, slate #526B78. Intentional logical128x128 pixel grid, sharp chunky clusters and staircase contours, 1–2pixel outline, no blurry strokes, no mere downsample filter. At most32 opaque colors, binary-alpha transparent background. Full creature centered with ample clear padding, extent96–112 logical pixels. No labels/text/ground/cast shadow or extra anatomy.",
+        "raw_sha256": "7f9fa1cb7c9ba401a19819ed1ec23a545f8f6135417d40dc435106a9b431bdb2",
+        "final_sha256": "0a395caeacbdf3a6a8502ece7a285ad1d3889568179951d2b582ae95ec8f208e",
+        "raw_basename": "SE-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "0ae5e2e39288e10728895ef3ece7f9eb276eafe685526dbb5f7d4945c5a246bd"
+          }
+        ]
+      }
+    ],
+    "superseded_candidates": [
+      {
+        "basename": "SW-normal.png",
+        "sha256": "6ece86c713c125878b9dcffa0f42522badf09503f06f363e7102cc5199d18f3c",
+        "reason": "Duplicates originalSW inferred direction; original bytes preserved inSW, newSE complementary."
+      }
+    ]
+  },
+  "technical_processing": "Normal alpha<8 cleanup after colored fringe contamination measured alpha1-7 and opaque cloth/terracotta edges visually checked, black/white backgrounds visual confirmation; uniform832 extent; pixel binaryalpha128 threshold,nearest104 extent, nearest original palette,no shape redraw.",
+  "review": {
+    "producer": "16slots technical and visual paired QA passed as review candidate",
+    "independent": "passed as review candidate with documented inferred-angle/depth limitations",
+    "game_acceptance": "pending",
+    "caveats": [
+      "Original direction not explicitly specified in source metadata. Initial generic SE estimate revised to SW from actual left-facing front-eye rim and right-rear tail, parent confirmed visual rationale. Exact yaw inferred.",
+      "Ring plane, rear-diagonal wing/tail root depth and exact45degree rotation unproven.",
+      "Fixed camera pitch and wing-plane perspective are stylized; game acceptance pending."
+    ]
+  },
+  "qa": {
+    "independent_review": "E all16slots numeric/hash checks passed; parent8pair review plus E full-resolution key normal/pixel review confirmed identity/direction correspondence within documented limitations. In-game acceptance pending.",
+    "source_history_audit": "Available fixed-source metadata checked before integration: no explicit safety-stop marker found. This does not prove completeness of all historical attempts."
+  }
+}
