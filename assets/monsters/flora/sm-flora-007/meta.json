@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "id": "sm-flora-007",
+  "design_version": 2,
+  "name_ja": "ツボミサク",
+  "family": "flora",
+  "catalog_path": "assets/monsters/catalog.json",
+  "design_status": "paired_candidate",
+  "design_revision": {
+    "from_version": 1,
+    "to_version": 2,
+    "v1_catalog_snapshot": {
+      "design_version": 1,
+      "silhouette": "一体節のふくらんだ逆卵形の閉じた蕾胴、目2個、根脚4本、葉腕0本、翼0枚。背面に短い茎尾1本。",
+      "material_motif": "重なった肉厚の苞と細い茎。明るい林の縁で雨上がりの湿り気を好む。",
+      "palette_hex": [
+        "#D6A2B7",
+        "#749B91",
+        "#EADCB8"
+      ],
+      "signature_features": [
+        "蕾を包む苞は大きな3枚だけ",
+        "蕾頂部は三つの丸い先端が合わさる",
+        "茎尾の先に一枚だけ小さな丸葉"
+      ],
+      "pose": "閉じた蕾をまっすぐに立て、背の小葉尾を横から見せる。",
+      "temperament": "控えめで、風が強いと4本脚を縮めて丸くなる。",
+      "do_not_add": [
+        "蕾を開花させない",
+        "苞を多数の花弁に増やさない",
+        "小葉尾を2枚葉にしない"
+      ]
+    },
+    "substantive_changes": [
+      "閉じた逆卵形の蕾胴を丸い苔岩形の胴へ変更。",
+      "重なる苞3枚と三つの蕾先端を、胴を囲む大きな葉状覆い3枚へ変更。",
+      "2目・根脚4本・小丸葉1枚を持つ茎尾1本・元の3色は保持。"
+    ],
+    "fixed_final_specification": {
+      "body": "丸い苔岩状の一体節胴。花や蕾ではない。",
+      "anatomy": {
+        "body_segments": 1,
+        "eyes": 2,
+        "root_legs": 4,
+        "arms": 0,
+        "wings": 0,
+        "stalk_tails": 1,
+        "body_cover_leaves": 3,
+        "tail_leaves": 1,
+        "petals": 0,
+        "flowers": 0
+      },
+      "identifiers": [
+        "上左・前下・奥右の大きな葉状覆い3枚。奥右の覆いは胴に沿って回り込む1枚。",
+        "独立した小丸葉1枚を先端に持つ茎尾1本。",
+        "根脚4本。奥の1本は一部が隠れるが先端が見える。"
+      ],
+      "pose": "画面右向きの落ち着いた低い姿勢。",
+      "materials": "桃色の苔岩肌、セージ色の厚い覆い葉、淡い根の色。",
+      "palette_hex": [
+        "#D6A2B7",
+        "#749B91",
+        "#EADCB8"
+      ],
+      "palette_roles": [
+        "primary",
+        "secondary",
+        "accent"
+      ],
+      "normal_pixel_identity": "same_individual",
+      "generation_brief": "One round mossy-rock-shaped plant creature, not a flower bud. Exactly two eyes in the front. Exactly three large broad leaf-like coverings wrap the outside of the rounded body and each is clearly distinct; the top remains round and rock-like. Exactly four short root legs, each visible. One short stalk tail on the back ending in exactly one small round leaf, visible at the side. Quiet upright crouched posture facing image-right. Main dusty pink moss-rock, muted sage green leaf covers and tail leaf, pale cream root accents. No arms, wings, petals, flowers, extra stalks or leaves."
+    },
+    "v1_compliance_claim": false
+  },
+  "provenance": {
+    "description": "独立したdesign_version2の仕様に基づくAI生成。通常画像を必要に応じ品質編集し、当該通常画像のhashを参照してpixel画像を別途生成。原本を保持して許可された規格仕上げのみを新派生画像へ適用。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_date": "2026-10-10",
+    "reference_default_sha256": "7e023943679f60f163e66abd4a42209b6f16bd65d409f36bfa574b0fa2626f0c",
+    "reference_default_sha256_meaning": "pixel生成へ実際に入力した未加工通常原本のhash。派生default.pngのhashとは別。",
+    "original_recovery": "all_successful_v2_outputs_for_this_id_retained",
+    "originals": [
+      {
+        "file": "sm-flora-007-normal-v2-edit1-original.png",
+        "sha256": "7e023943679f60f163e66abd4a42209b6f16bd65d409f36bfa574b0fa2626f0c",
+        "bytes": 1017292,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "selected_source",
+        "unchanged_after_derivation": true
+      },
+      {
+        "file": "sm-flora-007-normal-v2-original.png",
+        "sha256": "c643ce180bb229928d13ef6d59b79478de8ddecfc11f6ec4749c756abc2c2f62",
+        "bytes": 960707,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "retained_earlier_candidate",
+        "unchanged_after_derivation": true
+      },
+      {
+        "file": "sm-flora-007-pixel-v2-original.png",
+        "sha256": "a6b7529df9a68aa6a7d21cb1eaa6bd81249a0fc0fb62d9595dbc79083bba8295",
+        "bytes": 932323,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "selected_source",
+        "unchanged_after_derivation": true
+      }
+    ],
+    "generation_history": [
+      {
+        "kind": "normal_generation",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Use case: stylized-concept. Create exactly one original friendly full-body fantasy creature sprite for a 2D creature-raising game. Hand-drawn 2D illustration with clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, readable natural creature proportions. Isolated on genuine transparent alpha. No background, ground, cast shadow, glow, scenery, text, labels, watermark, frame, clothing or held objects. Centered composition, entire body visible in a 1024 by 1024 RGBA PNG canvas. Longest visible creature extent about 820 pixels; at least 100 pixels of transparent padding on all sides. Slightly top-down three-quarter view facing image-right unless a different view is specified. Depict only the creature.  Management ID (do not draw): sm-flora-007. One round mossy-rock-shaped plant creature, not a flower bud. Exactly two eyes in the front. Exactly three large broad leaf-like coverings wrap the outside of the rounded body and each is clearly distinct; the top remains round and rock-like. Exactly four short root legs, each visible. One short stalk tail on the back ending in exactly one small round leaf, visible at the side. Quiet upright crouched posture facing image-right. Main dusty pink moss-rock, muted sage green leaf covers and tail leaf, pale cream root accents. No arms, wings, petals, flowers, extra stalks or leaves. Palette base colors in order: #D6A2B7, #749B91, #EADCB8.",
+        "prompt_sha256_utf8": "d76cdc38d77babd66f7335feb9dbbcb35b8dcc011e040b6c3b9e9b2961ada673",
+        "status": "output_obtained",
+        "output_file": "sm-flora-007-normal-v2-original.png",
+        "output_sha256": "c643ce180bb229928d13ef6d59b79478de8ddecfc11f6ec4749c756abc2c2f62",
+        "reference_file": null,
+        "reference_sha256": null
+      },
+      {
+        "kind": "normal_quality_edit",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Edit only the large green body-covering leaves of this exact moss-rock creature so there are exactly THREE large leaf covers total, plus the existing separate small round tail leaf. The current image has four body-cover leaves. Remove the lower front-left overlapping leaf that runs from image x approximately 330,y550 to x660,y900, exposing pink moss-rock in that area. Preserve the upper front-left broad leaf, the low front-right broad leaf, and the narrow far-side leaf wrapping the right edge. These remaining three must be clearly separable. Retain the entire rounded pink moss-rock body, exactly two eyes, all four root legs, and the single stalk tail ending in one small round leaf. Do not change their shapes, placements, colors, facing or pose. No new petals, leaves, appendages, objects or text. Clean dark outlined 2D game art on genuine transparent alpha, no ground or shadow. Center on a 1024x1024 RGBA canvas, visible longest extent about 820px, minimum 100px clear margin on each edge.",
+        "prompt_sha256_utf8": "e77052b1efadd14612df99c2dddfa84b323e64d516eca6faab8e0b89357b52ca",
+        "status": "output_obtained",
+        "output_file": "sm-flora-007-normal-v2-edit1-original.png",
+        "output_sha256": "7e023943679f60f163e66abd4a42209b6f16bd65d409f36bfa574b0fa2626f0c",
+        "reference_file": "sm-flora-007-normal-v2-original.png",
+        "reference_sha256": "c643ce180bb229928d13ef6d59b79478de8ddecfc11f6ec4749c756abc2c2f62"
+      },
+      {
+        "kind": "pixel_style_transfer",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Use case: style-transfer. Redraw the exact creature in the input identity reference as authentic 128x128 pixel art. Change only rendering medium, preserve exact silhouette, relative proportions, color placement, pose and facing. This is sm-flora-007 design v2. Rounded pink moss-rock body, exactly TWO eyes, FOUR root legs including the small partly occluded back foot, exactly THREE broad sage-green leaf coverings (upper-left, lower-front, and far-right wrapping around the body), and ONE short rear stalk tail ending in ONE small round leaf. The tail leaf is separate from the three body-cover leaves. No arms, wings, additional leaves, buds or petals. Keep all four root feet countable. Use intentional readable pixel clusters and staircase contours, a consistent 1–2 logical pixel dark outline, maximum 32 visible colors, binary alpha. Simplify tiny moss speckles into larger solid clusters, do not downsample or pixelate the original painting. Fully opaque sprite pixels on fully transparent background. No antialiasing, soft gradients, semitransparency, blur, scenery, ground, shadow, text, frames or extra anatomy. 128x128 RGBA canvas, visible longest side 96–112 logical pixels and at least 8 pixels transparent margin each side. Main colors #D6A2B7 / #749B91 / #EADCB8.",
+        "prompt_sha256_utf8": "4d2fc212854d2958edb2cf3fd0e1ef0a1212834dfe4b252d42791e020829da23",
+        "status": "output_obtained",
+        "output_file": "sm-flora-007-pixel-v2-original.png",
+        "output_sha256": "a6b7529df9a68aa6a7d21cb1eaa6bd81249a0fc0fb62d9595dbc79083bba8295",
+        "reference_file": "sm-flora-007-normal-v2-edit1-original.png",
+        "reference_sha256": "7e023943679f60f163e66abd4a42209b6f16bd65d409f36bfa574b0fa2626f0c"
+      }
+    ],
+    "processing_summary": {
+      "default": "微小alpha1〜7の透明ノイズ除去、縦横比を保つ比例縮小、1024透明余白配置。形状の描き直しなし。",
+      "pixel": "別途生成したpixel候補を最近傍で比例縮小し、alpha二値化・32色減色・128透明余白配置。"
+    },
+    "processing_settings": {
+      "default": {
+        "aspect_ratio_preserved": true,
+        "redrawing": false,
+        "source_unchanged": true,
+        "alpha_noise_rule": "set only source alpha 1..7 to zero; retain source alpha >=8",
+        "alpha_noise_pixels_removed": 9927,
+        "crop_bbox": [
+          106,
+          237,
+          1123,
+          1070
+        ],
+        "long_edge_target": 840,
+        "resampler": "Pillow LANCZOS",
+        "resized_size": [
+          840,
+          688
+        ],
+        "palette_quantization": null
+      },
+      "pixel": {
+        "aspect_ratio_preserved": true,
+        "redrawing": false,
+        "source_unchanged": true,
+        "alpha_binary_threshold": 128,
+        "crop_bbox": [
+          84,
+          235,
+          1165,
+          1113
+        ],
+        "long_edge_target": 108,
+        "resampler": "Pillow NEAREST",
+        "resized_size": [
+          108,
+          88
+        ],
+        "palette_quantization": {
+          "method": "MEDIANCUT learned on visible pixels only; fixed palette mapping",
+          "colors_max": 32,
+          "dither": "NONE"
+        },
+        "logical_grid_note": "Native 128x128 pixels; nearest-neighbor resampling of imagegen pixel rendition, no new painted pixels or pixelation of normal."
+      }
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "default.png",
+      "sha256": "c9d2dbb7ff4780faf461488325adecb2975131d756b1f96afb1a06aad610a3e1",
+      "bytes": 709326,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        92,
+        168,
+        932,
+        856
+      ],
+      "transparent_margins": [
+        92,
+        168,
+        92,
+        168
+      ],
+      "visible_longest_side": 840,
+      "visible_rgb_colors": 82774,
+      "binary_alpha": false,
+      "source_file": "sm-flora-007-normal-v2-edit1-original.png",
+      "source_sha256": "7e023943679f60f163e66abd4a42209b6f16bd65d409f36bfa574b0fa2626f0c"
+    },
+    "pixel": {
+      "file": "pixel.png",
+      "sha256": "8ed38211e3c934ba1f7ea02ba2d0c28db397de008e50ee31b09245424c2ce216",
+      "bytes": 9379,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        20,
+        118,
+        108
+      ],
+      "transparent_margins": [
+        10,
+        20,
+        10,
+        20
+      ],
+      "visible_longest_side": 108,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "source_file": "sm-flora-007-pixel-v2-original.png",
+      "source_sha256": "a6b7529df9a68aa6a7d21cb1eaa6bd81249a0fc0fb62d9595dbc79083bba8295",
+      "reference_generated_default_file": "sm-flora-007-normal-v2-edit1-original.png",
+      "reference_generated_default_sha256": "7e023943679f60f163e66abd4a42209b6f16bd65d409f36bfa574b0fa2626f0c",
+      "paired_final_default_file": "default.png",
+      "paired_final_default_sha256": "c9d2dbb7ff4780faf461488325adecb2975131d756b1f96afb1a06aad610a3e1"
+    }
+  },
+  "qa": {
+    "default": "passed_recorded_numeric_and_source_retention_checks",
+    "pixel": "passed_recorded_numeric_and_source_retention_checks",
+    "pair": "source_identity_verified_and_preserved_in_derivation",
+    "basis": "原寸と拡大による生成通常/pixelの同一性確認、派生画像の実見、PNG寸法/余白/alpha/色数/SHAの読み戻し検査。",
+    "numeric": {
+      "default": {
+        "mode": "RGBA",
+        "size": [
+          1024,
+          1024
+        ],
+        "visible_bbox": [
+          92,
+          168,
+          932,
+          856
+        ],
+        "visible_extent": [
+          840,
+          688
+        ],
+        "visible_longest_side": 840,
+        "margins": [
+          92,
+          168,
+          92,
+          168
+        ],
+        "minimum_margin": 92,
+        "visible_rgb_colors": 82774,
+        "alpha_values_count": 256,
+        "alpha_values": null,
+        "binary_alpha": false,
+        "canvas_pass": true,
+        "margin_pass": true,
+        "extent_pass": true,
+        "palette_pass": true,
+        "alpha_pass": true,
+        "all_numeric_contracts_pass": true
+      },
+      "pixel": {
+        "mode": "RGBA",
+        "size": [
+          128,
+          128
+        ],
+        "visible_bbox": [
+          10,
+          20,
+          118,
+          108
+        ],
+        "visible_extent": [
+          108,
+          88
+        ],
+        "visible_longest_side": 108,
+        "margins": [
+          10,
+          20,
+          10,
+          20
+        ],
+        "minimum_margin": 10,
+        "visible_rgb_colors": 32,
+        "alpha_values_count": 2,
+        "alpha_values": [
+          0,
+          255
+        ],
+        "binary_alpha": true,
+        "canvas_pass": true,
+        "margin_pass": true,
+        "extent_pass": true,
+        "palette_pass": true,
+        "alpha_pass": true,
+        "all_numeric_contracts_pass": true
+      }
+    },
+    "source_artifact_hashes_verified_unchanged": true,
+    "limitations": [
+      "奥の根脚1本は部分可視。",
+      "苔の素材表現は比較的細かく、pixelでは減色で簡略化される。",
+      "実機での表示と動作は未確認。",
+      "最終ユーザー受入はpending。",
+      "この記録はdesign_version1への適合を主張しない。"
+    ],
+    "in_engine_validation": "not_run",
+    "user_acceptance": "pending",
+    "final_release_acceptance": "pending"
+  },
+  "readback": {
+    "source_hashes": "verified",
+    "derived_hashes": "verified",
+    "repository": "not_asserted_by_this_metadata"
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "id": "sm-winged-011",
+  "design_version": 2,
+  "name_ja": "ミツヒモア",
+  "family": "winged",
+  "catalog_path": "assets/monsters/catalog.json",
+  "design_status": "paired_candidate",
+  "design_revision": {
+    "from_version": 1,
+    "to_version": 2,
+    "v1_catalog_snapshot": {
+      "design_version": 1,
+      "silhouette": "一体節の細長い鞘形胴、脚2本、目2個。両側に波形の翼2枚、後端から平たい尾3本が出る。",
+      "material_motif": "しなやかな竹繊維風の胴と薄い織物風の翼。長い峡谷の横風で空中の露を拾う。",
+      "palette_hex": [
+        "#7393A2",
+        "#C39A6B",
+        "#E0D8C5"
+      ],
+      "signature_features": [
+        "各翼の外縁は緩い波2山",
+        "3本尾は中央が長く両側はその半分",
+        "目の下に短い横棒斑が左右1本ずつ"
+      ],
+      "pose": "3本の尾を広げ、長い胴を水平にして滑空する。",
+      "temperament": "気長で、一度選んだ風の道をゆっくり往復する。",
+      "do_not_add": [
+        "尾を毛の房にしない",
+        "脚を4本へ増やさない",
+        "翼の波を細かい鋸歯にしない"
+      ]
+    },
+    "substantive_changes": [
+      "細長い鞘形胴を、薄く丸い種子形の一体節胴へ変更。",
+      "竹繊維を籐編みの質感へ変更し、広い布膜翼を保持。",
+      "3本尾の旧中央長・両側半長の規定を、長・中・短の3段階へ変更。生成目標比は約100:80:60だが、完成像では斜視があるため厳密比率は未検証。",
+      "旧案の目下横棒斑はv2識別条件に含めない。2目・2脚・2翼・3尾と元の3色は保持。"
+    ],
+    "fixed_final_specification": {
+      "body": "丸みのある薄い種子形の一体節胴。籐編み質感。",
+      "anatomy": {
+        "body_segments": 1,
+        "eyes": 2,
+        "legs": 2,
+        "arms": 0,
+        "wings": 2,
+        "tails": 3,
+        "antennae": 0,
+        "ears": 0,
+        "horns": 0
+      },
+      "identifiers": [
+        "左右一対の広い布膜翼。各外縁に浅い2波。",
+        "後方に分離した平たい尾膜3本。長・中・短を識別。",
+        "籐の編み目を持つ青灰色の胴。"
+      ],
+      "pose": "画面右向きに水平滑空する軽い俯瞰の斜め姿。",
+      "materials": "籐編みの胴、薄い風よけ布状の膜翼と尾膜。",
+      "palette_hex": [
+        "#7393A2",
+        "#C39A6B",
+        "#E0D8C5"
+      ],
+      "palette_roles": [
+        "primary",
+        "secondary",
+        "accent"
+      ],
+      "normal_pixel_identity": "same_individual",
+      "generation_brief": "A single rounded flat seed-shaped wicker-textured body. Exactly two large broad fabric membrane wings, one on each side, each with a gentle two-wave outer edge. Exactly three separate flat tail membranes fan from the rear, visibly different lengths approximately 100:80:60. Exactly two small legs underneath and two eyes near the front. Calm horizontal gliding pose facing image-right. Body primary slate-blue, secondary tan wicker detail, cream wing accent. No antennae, ears, horns or additional appendages."
+    },
+    "v1_compliance_claim": false
+  },
+  "provenance": {
+    "description": "独立したdesign_version2の仕様に基づくAI生成。通常画像を必要に応じ品質編集し、当該通常画像のhashを参照してpixel画像を別途生成。原本を保持して許可された規格仕上げのみを新派生画像へ適用。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_date": "2026-10-10",
+    "reference_default_sha256": "aac4dea46d6a935c1a2c4916b71c58ddd75b5fbc7696230defe8b45f89e8b691",
+    "reference_default_sha256_meaning": "pixel生成へ実際に入力した未加工通常原本のhash。派生default.pngのhashとは別。",
+    "original_recovery": "all_successful_v2_outputs_for_this_id_retained",
+    "originals": [
+      {
+        "file": "sm-winged-011-normal-v2-edit1-original.png",
+        "sha256": "e0dcd26cc029a129627f7e58a4728ed90ba346d2a5085a46b5e7f122b221f1fe",
+        "bytes": 741138,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "retained_earlier_candidate",
+        "unchanged_after_derivation": true
+      },
+      {
+        "file": "sm-winged-011-normal-v2-edit2-original.png",
+        "sha256": "aac4dea46d6a935c1a2c4916b71c58ddd75b5fbc7696230defe8b45f89e8b691",
+        "bytes": 730236,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "selected_source",
+        "unchanged_after_derivation": true
+      },
+      {
+        "file": "sm-winged-011-normal-v2-original.png",
+        "sha256": "9b1d18934fe4646cc069ac132e51f29add42f1254bc6c42e4eef656126a6731a",
+        "bytes": 800675,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "retained_earlier_candidate",
+        "unchanged_after_derivation": true
+      },
+      {
+        "file": "sm-winged-011-pixel-v2-original.png",
+        "sha256": "176ad273cfd593f0ada77857c5c02b81a17c4b3397fb6e0a4eeb5c945df92c6f",
+        "bytes": 658785,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "role": "selected_source",
+        "unchanged_after_derivation": true
+      }
+    ],
+    "generation_history": [
+      {
+        "kind": "normal_generation",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Use case: stylized-concept. Create exactly one original friendly full-body fantasy creature sprite for a 2D creature-raising game. Hand-drawn 2D illustration with clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, readable natural creature proportions. Isolated on genuine transparent alpha. No background, ground, cast shadow, glow, scenery, text, labels, watermark, frame, clothing or held objects. Centered composition, entire body visible in a 1024 by 1024 RGBA PNG canvas. Longest visible creature extent about 820 pixels; at least 100 pixels of transparent padding on all sides. Slightly top-down three-quarter view facing image-right unless a different view is specified. Depict only the creature.  Management ID (do not draw): sm-winged-011. A single rounded flat seed-shaped wicker-textured body. Exactly two large broad fabric membrane wings, one on each side, each with a gentle two-wave outer edge. Exactly three separate flat tail membranes fan from the rear, visibly different lengths approximately 100:80:60. Exactly two small legs underneath and two eyes near the front. Calm horizontal gliding pose facing image-right. Body primary slate-blue, secondary tan wicker detail, cream wing accent. No antennae, ears, horns or additional appendages. Palette base colors in order: #7393A2, #C39A6B, #E0D8C5.",
+        "prompt_sha256_utf8": "e264998d60d401ef44fc088d592979e28373e1ca47218b571efc9d9bdcc2dc5c",
+        "status": "output_obtained",
+        "output_file": "sm-winged-011-normal-v2-original.png",
+        "output_sha256": "9b1d18934fe4646cc069ac132e51f29add42f1254bc6c42e4eef656126a6731a",
+        "reference_file": null,
+        "reference_sha256": null
+      },
+      {
+        "kind": "normal_quality_edit",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Edit this exact original fantasy creature to correct only the proportions of its three rear tail membranes and the two wing edges. Preserve its rounded seed body, two eyes, two short legs, wicker texture, slate-blue/tan/cream palette, facing right, and whole-body gliding pose. Keep exactly three distinct flat tail membranes. Make their lengths visibly closer together: longest 100%, middle 80%, shortest 60%. Keep exactly two broad cloth membrane wings, one on each side. Each wing outer edge must show exactly two smooth broad rounded waves, rather than sharp notches or many small ripples. Keep the creature within a 1024x1024 RGBA transparent canvas, visible longest extent about 820 pixels, at least 100 clear pixels of margin, centered. Flat clean hand-drawn dark outlined 2D cel-shaded game illustration. No other body changes, no extra appendages, no text, ground, shadow, background or glow.",
+        "prompt_sha256_utf8": "9cfbd6fcf8aeadcc8b25d6c91760e767021c736838c6ebf821b69b0ad9607084",
+        "status": "output_obtained",
+        "output_file": "sm-winged-011-normal-v2-edit1-original.png",
+        "output_sha256": "e0dcd26cc029a129627f7e58a4728ed90ba346d2a5085a46b5e7f122b221f1fe",
+        "reference_file": "sm-winged-011-normal-v2-original.png",
+        "reference_sha256": "9b1d18934fe4646cc069ac132e51f29add42f1254bc6c42e4eef656126a6731a"
+      },
+      {
+        "kind": "normal_quality_edit",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Revise ONLY the outer contour of the near wing, the broad wing extending toward the lower-left of this image. The near wing currently has a nearly smooth leaf-shaped outer edge. Give this specific near wing exactly TWO gently rounded shallow waves in its outer margin, visible as two broad rounded lobes with one shallow smooth valley between them. These must be visible in silhouette, not drawn as lines or color marks inside the wing. Keep the same near-wing size, root attachment, colors and cloth texture. Preserve absolutely everything else: far wing, rounded wicker seed body, two eyes, two small legs, three flat tail membranes with their current lengths, facing and pose. Do not add appendages or change any other contour. Isolated whole 2D game creature on genuine transparent background, no text, shadow or ground. 1024x1024 RGBA, centered visible extent about 820px and at least 100px transparent margins.",
+        "prompt_sha256_utf8": "3d564492d77ea154c914d3958eb435a4fdd13764875b31f3169f3db41099eca9",
+        "status": "output_obtained",
+        "output_file": "sm-winged-011-normal-v2-edit2-original.png",
+        "output_sha256": "aac4dea46d6a935c1a2c4916b71c58ddd75b5fbc7696230defe8b45f89e8b691",
+        "reference_file": "sm-winged-011-normal-v2-edit1-original.png",
+        "reference_sha256": "e0dcd26cc029a129627f7e58a4728ed90ba346d2a5085a46b5e7f122b221f1fe"
+      },
+      {
+        "kind": "pixel_style_transfer",
+        "tool": "built-in imagegen",
+        "model": null,
+        "timestamp": null,
+        "prompt": "Use case: style-transfer. Redraw this EXACT identity reference creature as authentic pixel art. Change only the rendering medium and preserve the exact body, pose, anatomy, colors and arrangement. This is sm-winged-011 version 2: one flat rounded seed-shaped slate-blue wicker body facing right, TWO eyes, TWO short lower legs, TWO broad cloth membrane wings, and THREE separate flat rear tail membranes of distinguishable long, medium and short lengths. Preserve two shallow broad waves in each wing outer contour, including the near wing pointing toward image-left; keep the shallow two-wave silhouette readable rather than smoothing it into a leaf. Preserve the tan wicker accents and pale cream membrane areas (#7393A2 / #C39A6B / #E0D8C5). ZERO arms, antennae, ears, horns or extra appendages. Use an intentional 128x128 logical pixel grid, clean readable clusters, consistent 1–2 logical pixel dark outline, and at most 32 visible colors. All visible pixels fully opaque and background fully transparent. Simplify wicker texture into a few crisp clusters; never remove a wing, leg or tail. Do not downsample or apply a pixelation filter. No antialiasing, blur, partial alpha, smooth gradients, scenery, ground, shadow, glow, text or frame. Canvas 128x128 RGBA, creature longest extent96–112 logical pixels, at least 8 clear pixels of margin all sides.",
+        "prompt_sha256_utf8": "03f982025e31a5bf6633c5b7a74318ed9ae59fe9541db7d2ebd22a2f319d2d81",
+        "status": "output_obtained",
+        "output_file": "sm-winged-011-pixel-v2-original.png",
+        "output_sha256": "176ad273cfd593f0ada77857c5c02b81a17c4b3397fb6e0a4eeb5c945df92c6f",
+        "reference_file": "sm-winged-011-normal-v2-edit2-original.png",
+        "reference_sha256": "aac4dea46d6a935c1a2c4916b71c58ddd75b5fbc7696230defe8b45f89e8b691"
+      }
+    ],
+    "processing_summary": {
+      "default": "微小alpha1〜7の透明ノイズ除去、縦横比を保つ比例縮小、1024透明余白配置。形状の描き直しなし。",
+      "pixel": "別途生成したpixel候補を最近傍で比例縮小し、alpha二値化・32色減色・128透明余白配置。"
+    },
+    "processing_settings": {
+      "default": {
+        "aspect_ratio_preserved": true,
+        "redrawing": false,
+        "source_unchanged": true,
+        "alpha_noise_rule": "set only source alpha 1..7 to zero; retain source alpha >=8",
+        "alpha_noise_pixels_removed": 11372,
+        "crop_bbox": [
+          47,
+          307,
+          1220,
+          926
+        ],
+        "long_edge_target": 840,
+        "resampler": "Pillow LANCZOS",
+        "resized_size": [
+          840,
+          443
+        ],
+        "palette_quantization": null
+      },
+      "pixel": {
+        "aspect_ratio_preserved": true,
+        "redrawing": false,
+        "source_unchanged": true,
+        "alpha_binary_threshold": 128,
+        "crop_bbox": [
+          47,
+          307,
+          1229,
+          991
+        ],
+        "long_edge_target": 108,
+        "resampler": "Pillow NEAREST",
+        "resized_size": [
+          108,
+          62
+        ],
+        "palette_quantization": {
+          "method": "MEDIANCUT learned on visible pixels only; fixed palette mapping",
+          "colors_max": 32,
+          "dither": "NONE"
+        },
+        "logical_grid_note": "Native 128x128 pixels; nearest-neighbor resampling of imagegen pixel rendition, no new painted pixels or pixelation of normal."
+      }
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "default.png",
+      "sha256": "6eb463b8e5f6f7ba80668f4541cb2b36ff00fee0bf190574c655a8e5e613fdee",
+      "bytes": 378552,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        92,
+        290,
+        932,
+        733
+      ],
+      "transparent_margins": [
+        92,
+        290,
+        92,
+        291
+      ],
+      "visible_longest_side": 840,
+      "visible_rgb_colors": 50722,
+      "binary_alpha": false,
+      "source_file": "sm-winged-011-normal-v2-edit2-original.png",
+      "source_sha256": "aac4dea46d6a935c1a2c4916b71c58ddd75b5fbc7696230defe8b45f89e8b691"
+    },
+    "pixel": {
+      "file": "pixel.png",
+      "sha256": "742c31dc4169d153477914f3df854aedddc2562c0e721e72d6204f65a356e864",
+      "bytes": 7129,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        33,
+        118,
+        95
+      ],
+      "transparent_margins": [
+        10,
+        33,
+        10,
+        33
+      ],
+      "visible_longest_side": 108,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "source_file": "sm-winged-011-pixel-v2-original.png",
+      "source_sha256": "176ad273cfd593f0ada77857c5c02b81a17c4b3397fb6e0a4eeb5c945df92c6f",
+      "reference_generated_default_file": "sm-winged-011-normal-v2-edit2-original.png",
+      "reference_generated_default_sha256": "aac4dea46d6a935c1a2c4916b71c58ddd75b5fbc7696230defe8b45f89e8b691",
+      "paired_final_default_file": "default.png",
+      "paired_final_default_sha256": "6eb463b8e5f6f7ba80668f4541cb2b36ff00fee0bf190574c655a8e5e613fdee"
+    }
+  },
+  "qa": {
+    "default": "passed_recorded_numeric_and_source_retention_checks",
+    "pixel": "passed_recorded_numeric_and_source_retention_checks",
+    "pair": "source_identity_verified_and_preserved_in_derivation",
+    "basis": "原寸と拡大による生成通常/pixelの同一性確認、派生画像の実見、PNG寸法/余白/alpha/色数/SHAの読み戻し検査。",
+    "numeric": {
+      "default": {
+        "mode": "RGBA",
+        "size": [
+          1024,
+          1024
+        ],
+        "visible_bbox": [
+          92,
+          290,
+          932,
+          733
+        ],
+        "visible_extent": [
+          840,
+          443
+        ],
+        "visible_longest_side": 840,
+        "margins": [
+          92,
+          290,
+          92,
+          291
+        ],
+        "minimum_margin": 92,
+        "visible_rgb_colors": 50722,
+        "alpha_values_count": 256,
+        "alpha_values": null,
+        "binary_alpha": false,
+        "canvas_pass": true,
+        "margin_pass": true,
+        "extent_pass": true,
+        "palette_pass": true,
+        "alpha_pass": true,
+        "all_numeric_contracts_pass": true
+      },
+      "pixel": {
+        "mode": "RGBA",
+        "size": [
+          128,
+          128
+        ],
+        "visible_bbox": [
+          10,
+          33,
+          118,
+          95
+        ],
+        "visible_extent": [
+          108,
+          62
+        ],
+        "visible_longest_side": 108,
+        "margins": [
+          10,
+          33,
+          10,
+          33
+        ],
+        "minimum_margin": 10,
+        "visible_rgb_colors": 32,
+        "alpha_values_count": 2,
+        "alpha_values": [
+          0,
+          255
+        ],
+        "binary_alpha": true,
+        "canvas_pass": true,
+        "margin_pass": true,
+        "extent_pass": true,
+        "palette_pass": true,
+        "alpha_pass": true,
+        "all_numeric_contracts_pass": true
+      }
+    },
+    "source_artifact_hashes_verified_unchanged": true,
+    "limitations": [
+      "手前翼の2波は浅く、斜視により読み取りに制限がある。",
+      "尾3本の長中短は確認済みだが、100:80:60の厳密比率を測定した結果ではない。",
+      "実機での表示と動作は未確認。",
+      "最終ユーザー受入はpending。",
+      "この記録はdesign_version1への適合を主張しない。"
+    ],
+    "in_engine_validation": "not_run",
+    "user_acceptance": "pending",
+    "final_release_acceptance": "pending"
+  },
+  "readback": {
+    "source_hashes": "verified",
+    "derived_hashes": "verified",
+    "repository": "not_asserted_by_this_metadata"
+  }
+}
