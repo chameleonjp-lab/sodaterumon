@@ -1,0 +1,1168 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-011",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SW",
+  "existing_direction_basis": "visual inference; no original explicit direction metadata",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/arcane/sm-arcane-011/default.png",
+      "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+      "git_blob_sha": "a4d4fd9874b9dd9ae27f25d91fecce0ed8379df8",
+      "bytes": 561016
+    },
+    "pixel": {
+      "path": "assets/monsters/arcane/sm-arcane-011/pixel.png",
+      "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+      "git_blob_sha": "7ce8d4f275af05024c0dbb396277a340ab71edc1",
+      "bytes": 9686
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front, N rear; eight nominal azimuth sectors in order S,SW,W,NW,N,NE,E,SE. Not an assertion of exact physical camera calibration.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/S/default.png",
+      "sha256": "44eea43f861b7b1932c4c09e13199e0c9f1482ac1c3706f58bf196bcf6ad94c5",
+      "bytes": 466951,
+      "git_blob_sha": "c7e349f38bf8f51c6965171baa3734fe222314ce",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          230,
+          928,
+          794
+        ],
+        "margins": [
+          96,
+          230,
+          96,
+          230
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 109359,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/S/pixel.png",
+      "sha256": "14e6ca73d116b52901d37e3b158d91511cb81dd804c635848563da2869a0bac9",
+      "bytes": 6784,
+      "git_blob_sha": "ec9ee6010fc9f430c39175886467007f5c81b485",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          28,
+          116,
+          99
+        ],
+        "margins": [
+          12,
+          28,
+          12,
+          29
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "44eea43f861b7b1932c4c09e13199e0c9f1482ac1c3706f58bf196bcf6ad94c5"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-011/default.png",
+      "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+      "bytes": 561016,
+      "git_blob_sha": "a4d4fd9874b9dd9ae27f25d91fecce0ed8379df8",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          181,
+          944,
+          842
+        ],
+        "margins": [
+          80,
+          181,
+          80,
+          182
+        ],
+        "visible_longest_extent": 864,
+        "alpha_value_count": 249,
+        "visible_rgb_colors": 118727,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-011/pixel.png",
+      "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+      "bytes": 9686,
+      "git_blob_sha": "7ce8d4f275af05024c0dbb396277a340ab71edc1",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          22,
+          118,
+          106
+        ],
+        "margins": [
+          10,
+          22,
+          10,
+          22
+        ],
+        "visible_longest_extent": 108,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 32,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/W/default.png",
+      "sha256": "f3a192fbb4763f3ab40d2f73b82489be35bd992d39744ae8fdf1810a430818ff",
+      "bytes": 440293,
+      "git_blob_sha": "2575c7387c46c39b54e20ad2f0bb796e7ba86f91",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          250,
+          928,
+          774
+        ],
+        "margins": [
+          96,
+          250,
+          96,
+          250
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 98032,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/W/pixel.png",
+      "sha256": "6a3d24fbce2ae3aba7ad636125910309ece7cc1e9010f5c78d7d3e15e94711d6",
+      "bytes": 5635,
+      "git_blob_sha": "b21ed73f46d651727572bd8a57ce3aff536c6224",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          28,
+          116,
+          99
+        ],
+        "margins": [
+          12,
+          28,
+          12,
+          29
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "f3a192fbb4763f3ab40d2f73b82489be35bd992d39744ae8fdf1810a430818ff"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/NW/default.png",
+      "sha256": "be635d449a9e0a22cb2207e627c6e28c5413f282af22ef4662bb583023d350ab",
+      "bytes": 486468,
+      "git_blob_sha": "ce480d3ec0a636db04ac0539c3ad69115c28e8bc",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          209,
+          928,
+          815
+        ],
+        "margins": [
+          96,
+          209,
+          96,
+          209
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 98008,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/NW/pixel.png",
+      "sha256": "b0e59c72a7fb05092a7b1c3b3d0b4153605c04f47653d1fc39bc8db97e81927c",
+      "bytes": 7218,
+      "git_blob_sha": "0c55b04987b471a62e2d0f0e39f278583e68a1fc",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          24,
+          116,
+          103
+        ],
+        "margins": [
+          12,
+          24,
+          12,
+          25
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 32,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "be635d449a9e0a22cb2207e627c6e28c5413f282af22ef4662bb583023d350ab"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/N/default.png",
+      "sha256": "ae83160e6c63db0924be8931e72b06b1e20cd1740cc7522917a78cbd259cdaca",
+      "bytes": 565378,
+      "git_blob_sha": "e81b4ff2b780c916461f84a3c197a75bcf361113",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          222,
+          928,
+          802
+        ],
+        "margins": [
+          96,
+          222,
+          96,
+          222
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 118293,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/N/pixel.png",
+      "sha256": "478f8ac22818023ece3da7ca049bb532b7adff137ec434a223efaf193245c2d6",
+      "bytes": 7057,
+      "git_blob_sha": "df19e95d86b95edd525c8edadbc29995cd64ac3b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          25,
+          116,
+          102
+        ],
+        "margins": [
+          12,
+          25,
+          12,
+          26
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "ae83160e6c63db0924be8931e72b06b1e20cd1740cc7522917a78cbd259cdaca"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/NE/default.png",
+      "sha256": "5ef7f5a8c5a23b69ce2586fdf666b27f478ea3aeb2af827f719abc49cf339528",
+      "bytes": 438165,
+      "git_blob_sha": "5851cad2aa23668603dfc13e15c295d7c4234ddb",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          246,
+          928,
+          777
+        ],
+        "margins": [
+          96,
+          246,
+          96,
+          247
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 95476,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/NE/pixel.png",
+      "sha256": "b3de3de2fac4b20ca812bc397746a2d6b08c3b8281614ed42f44a5fc4b66ce78",
+      "bytes": 6410,
+      "git_blob_sha": "ab2db6b2a0ccc5f96b7b633b5f87ffc730b1c00f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          30,
+          116,
+          98
+        ],
+        "margins": [
+          12,
+          30,
+          12,
+          30
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 29,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "5ef7f5a8c5a23b69ce2586fdf666b27f478ea3aeb2af827f719abc49cf339528"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/E/default.png",
+      "sha256": "acc15634c37e91ab50fe9d5d8347a184dbf38c8bb664c4d156b6e17a9fa51330",
+      "bytes": 464453,
+      "git_blob_sha": "bc3dd55907fac3ea90804530adf46728eb752f6b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          253,
+          928,
+          771
+        ],
+        "margins": [
+          96,
+          253,
+          96,
+          253
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 105321,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/E/pixel.png",
+      "sha256": "e0706d9ae6dd1e9696bc727df6b6d47e5fef7fe13b2da41736886d7456318ac1",
+      "bytes": 6357,
+      "git_blob_sha": "ac8ff13f3acccc8cb9a1cb4402ab0b7192e4e7ee",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          29,
+          116,
+          99
+        ],
+        "margins": [
+          12,
+          29,
+          12,
+          29
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 28,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "acc15634c37e91ab50fe9d5d8347a184dbf38c8bb664c4d156b6e17a9fa51330"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/SE/default.png",
+      "sha256": "fedd992728c6ca33c5c5aa7b22c6afd15de5ee50ef9d90331474b4ad86cb2988",
+      "bytes": 513528,
+      "git_blob_sha": "0472ebf157cc91e89c0701f90e737a72256df0c5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          188,
+          928,
+          836
+        ],
+        "margins": [
+          96,
+          188,
+          96,
+          188
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 114152,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-011/directions/SE/pixel.png",
+      "sha256": "fa1954765b4050797c6cb001ced3fdb4aeb1f7ffb5453d131adf896bbb82a4f1",
+      "bytes": 6633,
+      "git_blob_sha": "06c3b28f4fa3faa994f732686f95358542f2fd9f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          23,
+          116,
+          104
+        ],
+        "margins": [
+          12,
+          23,
+          12,
+          24
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 31,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "fedd992728c6ca33c5c5aa7b22c6afd15de5ee50ef9d90331474b4ad86cb2988"
+    }
+  ],
+  "qa": {
+    "producer_and_parent_visual_review": "candidate correspondence reviewed; scope and caveats retained",
+    "E_independent_numeric_and_hash_review": "performed for all16 files",
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending",
+    "limitations": [
+      "Existing direction is visually inferred from a single two-dimensional reference; labels are nominal viewpoints, not certified 3D rotations.",
+      "Hidden surfaces, far-side occlusion and exact 45-degree continuity are inferred.",
+      "In-game display and final user acceptance have not been completed.",
+      {
+        "source_generic_composition": "by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority.",
+        "source_individual_pose": "四脚を広げ、六角面を斜め上へ向ける",
+        "source_individual_rear_marker": "後縁だけ二つの丸い欠けがある",
+        "observation": "Original has two rounded notches on upper-right far edge; interpreted as anatomical rear, implies front lower-left SW.",
+        "status": "provisional_SW_label; generic right-facing template conflicts with marker interpretation, no individual explicit facing override; source original preserved unchanged",
+        "limits": "No precise3Dcamera or orthographic-angle claim; plate tilt and hidden-side structure estimated from source."
+      },
+      "Original SW orientation is provisional; NW high-camera old candidate was revised. Strict 3D continuity remains unconfirmed."
+    ]
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "44eea43f861b7b1932c4c09e13199e0c9f1482ac1c3706f58bf196bcf6ad94c5",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "f80b38c7a2d125e94027559f908a9fa56aaa149c3aa06ae445fdf38b762ada66",
+        "role": "adoptedraw"
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "14e6ca73d116b52901d37e3b158d91511cb81dd804c635848563da2869a0bac9",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "63303051bf735c1b3a550b0863cf0f248315d54903184ce60ceba07e2b654be2",
+        "role": "adoptedraw"
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+        "role": "finaltechnicalderivative"
+      },
+      "original": {
+        "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+        "role": "byteidentical_original"
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+        "role": "finaltechnicalderivative"
+      },
+      "original": {
+        "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+        "role": "byteidentical_original"
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "f3a192fbb4763f3ab40d2f73b82489be35bd992d39744ae8fdf1810a430818ff",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "8cb6abb68c447bb26e31facf104fe20254ba111e7175d011d42d6eb579107cfd",
+        "role": "adoptedraw"
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "6a3d24fbce2ae3aba7ad636125910309ece7cc1e9010f5c78d7d3e15e94711d6",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "6da4c7f7f9aae40f84e38fee3d2171951941bbd1a58844ea1ec48802ca3b708c",
+        "role": "adoptedraw"
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "be635d449a9e0a22cb2207e627c6e28c5413f282af22ef4662bb583023d350ab",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "a47055abedabbe3feb1bc8cf5888dbc65177726f99971e4f6976879439b748a0",
+        "role": "adoptedraw"
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "b0e59c72a7fb05092a7b1c3b3d0b4153605c04f47653d1fc39bc8db97e81927c",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "fe457ff51c3db64e707cc1c77c6027b83d08a0e5afae4be514c3e1118890797f",
+        "role": "adoptedraw"
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "ae83160e6c63db0924be8931e72b06b1e20cd1740cc7522917a78cbd259cdaca",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "ba6db749d273292fdbb58698b8be5d6a32a7a44c710ebe52f89a3d7412ee6367",
+        "role": "adoptedraw"
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "478f8ac22818023ece3da7ca049bb532b7adff137ec434a223efaf193245c2d6",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "481828ea3ac1037b1b358e01e75efe5c68ba6f59878641d4e5a769d0080ae10d",
+        "role": "adoptedraw"
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "5ef7f5a8c5a23b69ce2586fdf666b27f478ea3aeb2af827f719abc49cf339528",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "17c9891ff022526d63c71694e08dfaa45b88c2268f92a6f9b5fbd44871c2b3c1",
+        "role": "adoptedraw"
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "b3de3de2fac4b20ca812bc397746a2d6b08c3b8281614ed42f44a5fc4b66ce78",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "5fb9605b3b5b4b6790b9c0d3a67a24dde65d6d16784a906c8ebecdcb8311ccf5",
+        "role": "adoptedraw"
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "acc15634c37e91ab50fe9d5d8347a184dbf38c8bb664c4d156b6e17a9fa51330",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "d806685acb0f4872fb46a3170811e1afac9d6f3eed9c32ce0bde0d584a6a4e13",
+        "role": "adoptedraw"
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "e0706d9ae6dd1e9696bc727df6b6d47e5fef7fe13b2da41736886d7456318ac1",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "e8e6f918fed5481266d1594d3c85f33dd9f7bf4401f379eb9f889b5acd8a6f02",
+        "role": "adoptedraw"
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "fedd992728c6ca33c5c5aa7b22c6afd15de5ee50ef9d90331474b4ad86cb2988",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "179773540cbd9683a09173a4a4cfd3a1c0f37d755e126fc253d75351c1ae996f",
+        "role": "adoptedraw"
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "fa1954765b4050797c6cb001ced3fdb4aeb1f7ffb5453d131adf896bbb82a4f1",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "74ae54069d7fcdd9caca365a3fb52c5c02a4920d9e9ab893a3a172c567732e93",
+        "role": "adoptedraw"
+      }
+    }
+  ],
+  "generation_operation_history": [
+    {
+      "generated_raw": {
+        "sha256": "fc577c3d63bafa6c5824e0e8383d14df57072a50093e2d291b44f9f64b51266a",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 square sprite of exact reference eyeless creature rotated in3D into S0 front toward bottom center/viewer. Smooth front edge at bottom, rear edge with2notches at top. Balanced front-on body. Reference original points SW, identified by its two rear edge notches toward upper-right. Keep SAME thin broad hexagonal teal plate,4legs attached underneath four corners, one central triangular transparent window, exactly3 parallel curved orange bands on top/back surface and exactly2 rounded notches ONLY on anatomical REAR edge. Preserve triangle relative to body when rotating, rear notches never migrate to front. ZERO eyes, face, head, wings, tail. Four distinct orange-jointed teal/cream pointed legs, no more/no fewer, natural occlusion allowed but keep tips separable. Same teal#60B5AF orange#C8753D cream#F5E8CF and subtle pearly interference reflections. Original clean2D illustrated style, unchanged upward plate tilt. Rotate WHOLE body around vertical axis, not merely rotate image in plane. Full silhouette centered with10%transparent margin, no text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "8cb6abb68c447bb26e31facf104fe20254ba111e7175d011d42d6eb579107cfd",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 square sprite of exact reference eyeless creature rotated in3D into W90 front points directly SCREEN LEFT.2rear notches stay on SCREEN RIGHT edge. True side view with plate foreshortened in depth. Reference original points SW, identified by its two rear edge notches toward upper-right. Keep SAME thin broad hexagonal teal plate,4legs attached underneath four corners, one central triangular transparent window, exactly3 parallel curved orange bands on top/back surface and exactly2 rounded notches ONLY on anatomical REAR edge. Preserve triangle relative to body when rotating, rear notches never migrate to front. ZERO eyes, face, head, wings, tail. Four distinct orange-jointed teal/cream pointed legs, no more/no fewer, natural occlusion allowed but keep tips separable. Same teal#60B5AF orange#C8753D cream#F5E8CF and subtle pearly interference reflections. Original clean2D illustrated style, unchanged upward plate tilt. Rotate WHOLE body around vertical axis, not merely rotate image in plane. Full silhouette centered with10%transparent margin, no text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "5fb51c99e05ff9f0b2ee7669994ac0b9b4dce9701e1961c8b2d50b810db2752b",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 square sprite of exact reference eyeless creature rotated in3D into NW135 rear-left view, front points upper-left away.2rear notches on lower-right nearest edge; rear plate/legs prominent. Reference original points SW, identified by its two rear edge notches toward upper-right. Keep SAME thin broad hexagonal teal plate,4legs attached underneath four corners, one central triangular transparent window, exactly3 parallel curved orange bands on top/back surface and exactly2 rounded notches ONLY on anatomical REAR edge. Preserve triangle relative to body when rotating, rear notches never migrate to front. ZERO eyes, face, head, wings, tail. Four distinct orange-jointed teal/cream pointed legs, no more/no fewer, natural occlusion allowed but keep tips separable. Same teal#60B5AF orange#C8753D cream#F5E8CF and subtle pearly interference reflections. Original clean2D illustrated style, unchanged upward plate tilt. Rotate WHOLE body around vertical axis, not merely rotate image in plane. Full silhouette centered with10%transparent margin, no text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "ba6db749d273292fdbb58698b8be5d6a32a7a44c710ebe52f89a3d7412ee6367",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 square sprite of exact reference eyeless creature rotated in3D into N180 direct BACK: front away top center,2rear notches on BOTTOM NEAR edge. Rear of plate faces viewer. Reference original points SW, identified by its two rear edge notches toward upper-right. Keep SAME thin broad hexagonal teal plate,4legs attached underneath four corners, one central triangular transparent window, exactly3 parallel curved orange bands on top/back surface and exactly2 rounded notches ONLY on anatomical REAR edge. Preserve triangle relative to body when rotating, rear notches never migrate to front. ZERO eyes, face, head, wings, tail. Four distinct orange-jointed teal/cream pointed legs, no more/no fewer, natural occlusion allowed but keep tips separable. Same teal#60B5AF orange#C8753D cream#F5E8CF and subtle pearly interference reflections. Original clean2D illustrated style, unchanged upward plate tilt. Rotate WHOLE body around vertical axis, not merely rotate image in plane. Full silhouette centered with10%transparent margin, no text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "97f233dfbda9962b2737ed4c521e75ad4be3520cebf97619df40b352ab329279",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 square sprite of exact reference eyeless creature rotated in3D into NE225 rear-right view, front points upper-right away.2rear notches at lower-left nearest edge. Reference original points SW, identified by its two rear edge notches toward upper-right. Keep SAME thin broad hexagonal teal plate,4legs attached underneath four corners, one central triangular transparent window, exactly3 parallel curved orange bands on top/back surface and exactly2 rounded notches ONLY on anatomical REAR edge. Preserve triangle relative to body when rotating, rear notches never migrate to front. ZERO eyes, face, head, wings, tail. Four distinct orange-jointed teal/cream pointed legs, no more/no fewer, natural occlusion allowed but keep tips separable. Same teal#60B5AF orange#C8753D cream#F5E8CF and subtle pearly interference reflections. Original clean2D illustrated style, unchanged upward plate tilt. Rotate WHOLE body around vertical axis, not merely rotate image in plane. Full silhouette centered with10%transparent margin, no text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "d806685acb0f4872fb46a3170811e1afac9d6f3eed9c32ce0bde0d584a6a4e13",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 square sprite of exact reference eyeless creature rotated in3D into E270 front points SCREEN RIGHT.2rear notches on SCREEN LEFT edge. True side view with plate foreshortened in depth. Reference original points SW, identified by its two rear edge notches toward upper-right. Keep SAME thin broad hexagonal teal plate,4legs attached underneath four corners, one central triangular transparent window, exactly3 parallel curved orange bands on top/back surface and exactly2 rounded notches ONLY on anatomical REAR edge. Preserve triangle relative to body when rotating, rear notches never migrate to front. ZERO eyes, face, head, wings, tail. Four distinct orange-jointed teal/cream pointed legs, no more/no fewer, natural occlusion allowed but keep tips separable. Same teal#60B5AF orange#C8753D cream#F5E8CF and subtle pearly interference reflections. Original clean2D illustrated style, unchanged upward plate tilt. Rotate WHOLE body around vertical axis, not merely rotate image in plane. Full silhouette centered with10%transparent margin, no text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "179773540cbd9683a09173a4a4cfd3a1c0f37d755e126fc253d75351c1ae996f",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 square sprite of exact reference eyeless creature rotated in3D into SE315 front-right view: front points lower-right toward viewer.2rear notches at upper-left far edge. Reference original points SW, identified by its two rear edge notches toward upper-right. Keep SAME thin broad hexagonal teal plate,4legs attached underneath four corners, one central triangular transparent window, exactly3 parallel curved orange bands on top/back surface and exactly2 rounded notches ONLY on anatomical REAR edge. Preserve triangle relative to body when rotating, rear notches never migrate to front. ZERO eyes, face, head, wings, tail. Four distinct orange-jointed teal/cream pointed legs, no more/no fewer, natural occlusion allowed but keep tips separable. Same teal#60B5AF orange#C8753D cream#F5E8CF and subtle pearly interference reflections. Original clean2D illustrated style, unchanged upward plate tilt. Rotate WHOLE body around vertical axis, not merely rotate image in plane. Full silhouette centered with10%transparent margin, no text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "f80b38c7a2d125e94027559f908a9fa56aaa149c3aa06ae445fdf38b762ada66",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: precise-object-edit. Correct ONLY two defects in image1 front-facing S view of this eyeless hexagonal plate creature. At TOP far/rear edge replace the single broad central U-shaped notch with exactly TWO separate small rounded semicircular notches side by side, with a short intact straight bridge between them. The central triangular window must point DOWN toward front (apex bottom, horizontal base top), retaining same central size and translucent material. Preserve exactly4 existing legs, three orange curved bands, colors, silhouette elsewhere, front view, rendering and transparent background. Image2 is original identity reference demonstrating the two separate rear notches and triangular window; do not copy its viewpoint. No added leg/eye/face/tail/text/background. One image.",
+      "references": [
+        {
+          "sha256": "fc577c3d63bafa6c5824e0e8383d14df57072a50093e2d291b44f9f64b51266a",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "93ca00b0e8be150308d31b9234870d2147912fc433e1ba7fb56c0bb99bde4664",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: precise-object-edit. Correct ONLY the leg-count defect in supplied NW rear-left image. There are five legs now. Remove the extraneous middle-left leg located halfway up the left edge (its orange joint near x250y450 and tip x90y600 approximately on1254square). Preserve the top-left far leg, top-right far leg, bottom-left near leg and bottom-right near leg: final EXACTLY4legs. Keep body same NW orientation, triangle apex toward upper-left front, exactly3orange bands and2round notches on right/lower-right rear edge, teal/cream/orange palette, thin plate and translucent center, shading and everything else unchanged. No eyes/face/head/wings/tail. Transparent background, one fullbody sprite.",
+      "references": [
+        {
+          "sha256": "5fb51c99e05ff9f0b2ee7669994ac0b9b4dce9701e1961c8b2d50b810db2752b",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "cd607f27ef0fd0f5479ce496a2528a9a322b856c05e81b0c62b8d0aa777f2e6e",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: precise-object-edit. Correct ONLY excess leg in supplied NE rear-right creature. There are5 legs. Remove middle-right leg whose orange joint is near x1030y490 and foot tip x1180y650, halfway up right edge (1254square image). Keep top-left and top-right far legs, bottom-left and bottom-right near legs, final exactly4. Preserve thin hexagonal plate in this NE view, one triangular translucent window pointing upper-right, exactly3orange bands and2round notches at lower-left rear edge. Preserve all other body/style/colors/transparency. No eye/face/tail/head/wings/text. One sprite.",
+      "references": [
+        {
+          "sha256": "97f233dfbda9962b2737ed4c521e75ad4be3520cebf97619df40b352ab329279",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "c69c99d080bfb613735cbe430f06872fb42797cf831b3014d429d6b76d40c30a",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: precise-object-edit. Change ONLY central triangular window orientation in this NW rear-left plate creature. Turn the triangle opening so its sharp single apex points UPPER LEFT (approximately10o'clock), matching the smooth front upper-left edge of plate, opposite notches at lower-right. Base edge at lower-right, perpendicular to that diagonal. Keep center/size/translucent material and orange rim same. Preserve EXACT4legs,3parallel orange bands,2rear notches, body orientation, all else. No added marks/eyes/parts. Transparent one sprite.",
+      "references": [
+        {
+          "sha256": "93ca00b0e8be150308d31b9234870d2147912fc433e1ba7fb56c0bb99bde4664",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "c6454aba8e77b11c99bdb0b56531813f3e4123875a579cf43576551cb45db46d",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: precise-object-edit. Change ONLY central triangular window orientation in this NE rear-right plate creature. Turn triangle opening so sharp single apex points UPPER RIGHT (approximately2o'clock), matching smooth front upper-right edge and opposite notches at lower-left. Base edge lower-left, perpendicular to that diagonal. Keep window center/size/translucent material and orange rim. Preserve EXACT4legs,3orange bands,2rear notches, body orientation, palette/style and everything else. No new marks/eyes/parts. Transparent one sprite.",
+      "references": [
+        {
+          "sha256": "cd607f27ef0fd0f5479ce496a2528a9a322b856c05e81b0c62b8d0aa777f2e6e",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "38179ab1a3cb792f26fa20ecef08a0483a19caae095a9fef96f0e1b1bfd28f47",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: precise-object-edit. Image1 is target NW rear-left view of eyeless plate creature, but camera is too high. Correct camera elevation ONLY: lower to same modest top-down camera as image2 original and image3 W. Keep horizontal NW yaw: anatomical front upper-left away, two rear notches lower-right nearer viewer. Plate should be a SHALLOW foreshortened quadrilateral/hexagon with compressed vertical top-surface depth comparable to image2/3, NOT broad upright diamond or birdseye view. Top surface long axis mostly horizontal, do not roll camera. Exactly FOUR legs underneath corners, one central triangular window, three curved orange bands, two rounded notches ONLY rear lower-right. Same teal/orange/cream individual and smooth illustration. Rear view expressed by notches near viewer, NOT raising camera. Preserve all anatomy and transparent background. One full body1024square,10%margin.",
+      "references": [
+        {
+          "sha256": "c69c99d080bfb613735cbe430f06872fb42797cf831b3014d429d6b76d40c30a",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "8cb6abb68c447bb26e31facf104fe20254ba111e7175d011d42d6eb579107cfd",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "119eac21f6ec1252a31f0c0123b25425e46260ea99e4ae198fba9d7089c737e4",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: precise-object-edit. Image1 NE rear-right view has camera too high. LOWER CAMERA to SAME elevation as image2 N and image3 E. Keep NE yaw with anatomical front upper-right away and2rear notches lower-left nearer. Compress visible TOP PLATE DEPTH substantially about30percent through3D foreshortening, top surface becomes SHALLOW and broad horizontally, no upright diamond or birdseye view. Legs should extend downward from corners, more below plate rather than spread flat on same plane; EXACT4legs. Preserve one triangular window,3orange bands,2rear notches, no face, same teal/orange/cream creature, clean illustration. Express rear with notches nearest, never higher camera. One transparent fullbody square image no ground/shadow/text.",
+      "references": [
+        {
+          "sha256": "c6454aba8e77b11c99bdb0b56531813f3e4123875a579cf43576551cb45db46d",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "ba6db749d273292fdbb58698b8be5d6a32a7a44c710ebe52f89a3d7412ee6367",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "d806685acb0f4872fb46a3170811e1afac9d6f3eed9c32ce0bde0d584a6a4e13",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "830308b9976970ace0a4bed8862103933e048710c44165f37554c7c119088e75",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: identity-preserve. Keep EXACT camera elevation and apparent shallow plate depth as image1 back view. Turn this creature45degrees so anatomical front points diagonally upper-left away and rear with2notches lies lower-right nearest viewer: NW rear-left. Do NOT raise camera or reveal a broader top surface. Low3/4 perspective, top surface moderately compressed vertically, supporting4legs point down. Exactly FOUR legs only, with4separate tips and4orange joints, no fifth limb. Same teal thin hexagonal plate, central triangle window,3curved orange bands,2rounded rear notches only, cream accents, no eyes/face/head/wings/tail. Image2 W is same-camera supporting reference, image3 original identity. One fullbody transparent1024sprite with10%margin, clean same illustration, no ground/shadow/text.",
+      "references": [
+        {
+          "sha256": "ba6db749d273292fdbb58698b8be5d6a32a7a44c710ebe52f89a3d7412ee6367",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "8cb6abb68c447bb26e31facf104fe20254ba111e7175d011d42d6eb579107cfd",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "a47055abedabbe3feb1bc8cf5888dbc65177726f99971e4f6976879439b748a0",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: precise-object-edit. Change ONLY orange band count: this image has2curved orange bands on plate. Add the missing THIRD parallel curved orange band immediately to LEFT of existing two, within same rear half, following same curves. Exactly3total separate orange ribbons with teal gaps. Preserve lowered camera, NWrear-left orientation, exact4legs,1triangle,2rear notches and ALL else. Same transparent background, no eyes/face/head/wings/tail/text, one sprite.",
+      "references": [
+        {
+          "sha256": "830308b9976970ace0a4bed8862103933e048710c44165f37554c7c119088e75",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "17c9891ff022526d63c71694e08dfaa45b88c2268f92a6f9b5fbd44871c2b3c1",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: precise-object-edit. Change ONLY extra leg count: remove extra middle-right leg (orange joint near1030,580 and orange foot near1190,810) so final exactly4legs. Keep far top-right leg, far upper-left partly hidden leg, leftmost near leg and two central? There must be exactly4 distinct leg tips, not5. Specifically keep leftmost near tip, bottom-left central tip, bottom-right central tip, top-right far tip, removing middle-right side tip. Preserve lowered camera, NErear-right orientation,1triangle,3bands,2rear notches and all else. Same transparent background, no eyes/face/head/wings/tail/text, one sprite.",
+      "references": [
+        {
+          "sha256": "119eac21f6ec1252a31f0c0123b25425e46260ea99e4ae198fba9d7089c737e4",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "63303051bf735c1b3a550b0863cf0f248315d54903184ce60ceba07e2b654be2",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of EXACT image1 eyeless plate creature, S front,2rear notches at top,triangle downward view and same silhouette. Image2 supplies original pixel style/palette only. Preserve exactly4distinct legs attached underneath corners, ONE thin broad hexagonal plate, ONE central triangular window, exactly3parallel curved orange bands and exactly2rounded notches ONLY on rear edge as image1. NO eyes/face/head/wings/tail, no extra legs. Match plate perspective and window orientation.128x128 pixelart, max32colors teal/orange/cream, hard square pixel clusters, binarytransparent edges, no gradients/antialias. Transparent/translucent window represented with opaque limited palette clusters. Full figure104px within128square, clear margins. No text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "f80b38c7a2d125e94027559f908a9fa56aaa149c3aa06ae445fdf38b762ada66",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "6da4c7f7f9aae40f84e38fee3d2171951941bbd1a58844ea1ec48802ca3b708c",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of EXACT image1 eyeless plate creature, W left-facing,2rear notches right edge view and same silhouette. Image2 supplies original pixel style/palette only. Preserve exactly4distinct legs attached underneath corners, ONE thin broad hexagonal plate, ONE central triangular window, exactly3parallel curved orange bands and exactly2rounded notches ONLY on rear edge as image1. NO eyes/face/head/wings/tail, no extra legs. Match plate perspective and window orientation.128x128 pixelart, max32colors teal/orange/cream, hard square pixel clusters, binarytransparent edges, no gradients/antialias. Transparent/translucent window represented with opaque limited palette clusters. Full figure104px within128square, clear margins. No text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "8cb6abb68c447bb26e31facf104fe20254ba111e7175d011d42d6eb579107cfd",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "f14fa069ed792c0170a83e4ad189fc4b82236b19e7e419e3ed64bcbfd3691e58",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of EXACT image1 eyeless plate creature, NW rear-left,2rear notches lower-right edge view and same silhouette. Image2 supplies original pixel style/palette only. Preserve exactly4distinct legs attached underneath corners, ONE thin broad hexagonal plate, ONE central triangular window, exactly3parallel curved orange bands and exactly2rounded notches ONLY on rear edge as image1. NO eyes/face/head/wings/tail, no extra legs. Match plate perspective and window orientation.128x128 pixelart, max32colors teal/orange/cream, hard square pixel clusters, binarytransparent edges, no gradients/antialias. Transparent/translucent window represented with opaque limited palette clusters. Full figure104px within128square, clear margins. No text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "c69c99d080bfb613735cbe430f06872fb42797cf831b3014d429d6b76d40c30a",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "481828ea3ac1037b1b358e01e75efe5c68ba6f59878641d4e5a769d0080ae10d",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of EXACT image1 eyeless plate creature, N direct back,2rear notches bottom edge view and same silhouette. Image2 supplies original pixel style/palette only. Preserve exactly4distinct legs attached underneath corners, ONE thin broad hexagonal plate, ONE central triangular window, exactly3parallel curved orange bands and exactly2rounded notches ONLY on rear edge as image1. NO eyes/face/head/wings/tail, no extra legs. Match plate perspective and window orientation.128x128 pixelart, max32colors teal/orange/cream, hard square pixel clusters, binarytransparent edges, no gradients/antialias. Transparent/translucent window represented with opaque limited palette clusters. Full figure104px within128square, clear margins. No text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "ba6db749d273292fdbb58698b8be5d6a32a7a44c710ebe52f89a3d7412ee6367",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "7ce0ad97adc427e45821b01a2f567e06b0c27cdf455686b7145ce1f9f8bef2f0",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of EXACT image1 eyeless plate creature, NE rear-right,2rear notches lower-left edge view and same silhouette. Image2 supplies original pixel style/palette only. Preserve exactly4distinct legs attached underneath corners, ONE thin broad hexagonal plate, ONE central triangular window, exactly3parallel curved orange bands and exactly2rounded notches ONLY on rear edge as image1. NO eyes/face/head/wings/tail, no extra legs. Match plate perspective and window orientation.128x128 pixelart, max32colors teal/orange/cream, hard square pixel clusters, binarytransparent edges, no gradients/antialias. Transparent/translucent window represented with opaque limited palette clusters. Full figure104px within128square, clear margins. No text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "c6454aba8e77b11c99bdb0b56531813f3e4123875a579cf43576551cb45db46d",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "e8e6f918fed5481266d1594d3c85f33dd9f7bf4401f379eb9f889b5acd8a6f02",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of EXACT image1 eyeless plate creature, E right-facing,2rear notches left edge view and same silhouette. Image2 supplies original pixel style/palette only. Preserve exactly4distinct legs attached underneath corners, ONE thin broad hexagonal plate, ONE central triangular window, exactly3parallel curved orange bands and exactly2rounded notches ONLY on rear edge as image1. NO eyes/face/head/wings/tail, no extra legs. Match plate perspective and window orientation.128x128 pixelart, max32colors teal/orange/cream, hard square pixel clusters, binarytransparent edges, no gradients/antialias. Transparent/translucent window represented with opaque limited palette clusters. Full figure104px within128square, clear margins. No text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "d806685acb0f4872fb46a3170811e1afac9d6f3eed9c32ce0bde0d584a6a4e13",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "74ae54069d7fcdd9caca365a3fb52c5c02a4920d9e9ab893a3a172c567732e93",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of EXACT image1 eyeless plate creature, SE front-right,2rear notches upper-left edge view and same silhouette. Image2 supplies original pixel style/palette only. Preserve exactly4distinct legs attached underneath corners, ONE thin broad hexagonal plate, ONE central triangular window, exactly3parallel curved orange bands and exactly2rounded notches ONLY on rear edge as image1. NO eyes/face/head/wings/tail, no extra legs. Match plate perspective and window orientation.128x128 pixelart, max32colors teal/orange/cream, hard square pixel clusters, binarytransparent edges, no gradients/antialias. Transparent/translucent window represented with opaque limited palette clusters. Full figure104px within128square, clear margins. No text/shadow/ground.",
+      "references": [
+        {
+          "sha256": "179773540cbd9683a09173a4a4cfd3a1c0f37d755e126fc253d75351c1ae996f",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "fe457ff51c3db64e707cc1c77c6027b83d08a0e5afae4be514c3e1118890797f",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: style-transfer. Make ONE pixel sprite of image1 EXACT NW rear-threequarter creature. Preserve its LOW camera elevation and shallow foreshortened plate, EXACT4legs with4separate endpoints,1central triangular window,3parallel orange bands,2rear edge rounded notches. Never add fifth leg or raise camera. Image2 is original pixel style/palette only. Same teal/orange/cream eyeless thin hexagonal plate creature.128x128 intentional square pixel clusters,32colorsmax,binaryalpha,no smooth gradients/antialias. Whole body104px extent,margin,no text/ground/shadow. Match image1 geometry closely.",
+      "references": [
+        {
+          "sha256": "a47055abedabbe3feb1bc8cf5888dbc65177726f99971e4f6976879439b748a0",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    },
+    {
+      "generated_raw": {
+        "sha256": "5fb9605b3b5b4b6790b9c0d3a67a24dde65d6d16784a906c8ebecdcb8311ccf5",
+        "role": "rawoutput"
+      },
+      "prompt": "Use case: style-transfer. Make ONE pixel sprite of image1 EXACT NE rear-threequarter creature. Preserve its LOW camera elevation and shallow foreshortened plate, EXACT4legs with4separate endpoints,1central triangular window,3parallel orange bands,2rear edge rounded notches. Never add fifth leg or raise camera. Image2 is original pixel style/palette only. Same teal/orange/cream eyeless thin hexagonal plate creature.128x128 intentional square pixel clusters,32colorsmax,binaryalpha,no smooth gradients/antialias. Whole body104px extent,margin,no text/ground/shadow. Match image1 geometry closely.",
+      "references": [
+        {
+          "sha256": "17c9891ff022526d63c71694e08dfaa45b88c2268f92a6f9b5fbd44871c2b3c1",
+          "role": "actual_generation_time_reference"
+        },
+        {
+          "sha256": "eac04df97158731bc22357bed5464cf614937dabe3d12b93cd833f39932f826a",
+          "role": "actual_generation_time_reference"
+        }
+      ]
+    }
+  ],
+  "generation_lineage_note": "Raw output hashes link the selected images to exact generation operations. Earlier quality-HOLD candidates are retained, not selected."
+}

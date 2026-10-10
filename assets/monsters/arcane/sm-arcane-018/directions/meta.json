@@ -1,0 +1,692 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-018",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "S",
+  "existing_direction_basis": "visual inference; no original explicit direction metadata",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/arcane/sm-arcane-018/default.png",
+      "sha256": "a35ba5c0084dd3102488a14dff3fc24b2f77b1a141c8075efae8efd5e363cebf",
+      "git_blob_sha": "9a89013f57028746962aca8fd220a629b8534d94",
+      "bytes": 399857
+    },
+    "pixel": {
+      "path": "assets/monsters/arcane/sm-arcane-018/pixel.png",
+      "sha256": "84be2bac310cdbc229a456d7fd0b61e26f5b16d7527bb0e21962644b25a6b2c5",
+      "git_blob_sha": "57976f16d4ba162850883d99d230861e8ecdf643",
+      "bytes": 7624
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front, N rear; eight nominal azimuth sectors in order S,SW,W,NW,N,NE,E,SE. Not an assertion of exact physical camera calibration.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-018/default.png",
+      "sha256": "a35ba5c0084dd3102488a14dff3fc24b2f77b1a141c8075efae8efd5e363cebf",
+      "bytes": 399857,
+      "git_blob_sha": "9a89013f57028746962aca8fd220a629b8534d94",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          237,
+          80,
+          787,
+          944
+        ],
+        "margins": [
+          237,
+          80,
+          237,
+          80
+        ],
+        "visible_longest_extent": 864,
+        "alpha_value_count": 249,
+        "visible_rgb_colors": 74668,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-018/pixel.png",
+      "sha256": "84be2bac310cdbc229a456d7fd0b61e26f5b16d7527bb0e21962644b25a6b2c5",
+      "bytes": 7624,
+      "git_blob_sha": "57976f16d4ba162850883d99d230861e8ecdf643",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          28,
+          10,
+          99,
+          118
+        ],
+        "margins": [
+          28,
+          10,
+          29,
+          10
+        ],
+        "visible_longest_extent": 108,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "a35ba5c0084dd3102488a14dff3fc24b2f77b1a141c8075efae8efd5e363cebf"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/SW/default.png",
+      "sha256": "cd0b56d934ec02f7242ec16c448998140fc52ed4b14d7edd471096f9e1f9eab2",
+      "bytes": 383070,
+      "git_blob_sha": "98d513e2170cea072a30b8c4b69b7ddb835418a4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          293,
+          96,
+          731,
+          928
+        ],
+        "margins": [
+          293,
+          96,
+          293,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 76585,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/SW/pixel.png",
+      "sha256": "cedd415f529aadc1108079fbf19872a6db56d9964797cdf1855d439601b6508a",
+      "bytes": 5880,
+      "git_blob_sha": "7f8823934eeb89f8ba5a9efda003789406c58e3a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          35,
+          12,
+          93,
+          116
+        ],
+        "margins": [
+          35,
+          12,
+          35,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 23,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "cd0b56d934ec02f7242ec16c448998140fc52ed4b14d7edd471096f9e1f9eab2"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/W/default.png",
+      "sha256": "088ca464a8e1ac69504e2384c406f65c1d961f160ba36b09dca6745659a93c5f",
+      "bytes": 284576,
+      "git_blob_sha": "61dec87ac4f8dd7c5a7b57da2f86df8d2a851bc1",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          364,
+          96,
+          659,
+          928
+        ],
+        "margins": [
+          364,
+          96,
+          365,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 60006,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/W/pixel.png",
+      "sha256": "49d33256ba7ad3ee46007f6230c8cf34359d08275b1330b6c05422c87d79aa26",
+      "bytes": 4580,
+      "git_blob_sha": "57a311be461ac6bf9c3b703b053b40580c6f61f1",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          44,
+          12,
+          83,
+          116
+        ],
+        "margins": [
+          44,
+          12,
+          45,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 23,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "088ca464a8e1ac69504e2384c406f65c1d961f160ba36b09dca6745659a93c5f"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/NW/default.png",
+      "sha256": "1c38e75a137c0704a4d2564bb10f42aee27d8425aaa11d56a4b682aafd420c83",
+      "bytes": 392216,
+      "git_blob_sha": "79e03b394f8278de796c1a3b3b2a64026a14fe3b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          282,
+          96,
+          742,
+          928
+        ],
+        "margins": [
+          282,
+          96,
+          282,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 78843,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/NW/pixel.png",
+      "sha256": "a65ecc51c550d3dbddf15972473e30962953354814a5a809860a14468a2af568",
+      "bytes": 6133,
+      "git_blob_sha": "e1e05d3857f49666f6e8123a7747cdab1327b713",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          34,
+          12,
+          94,
+          116
+        ],
+        "margins": [
+          34,
+          12,
+          34,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 23,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "1c38e75a137c0704a4d2564bb10f42aee27d8425aaa11d56a4b682aafd420c83"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/N/default.png",
+      "sha256": "417525a119b1471bd7007608434a0ca25d7694c0ccde66bb2a3f6c060a00ca32",
+      "bytes": 383611,
+      "git_blob_sha": "4e8de87f6ff03efa37f304ed7fe57312a2bba42b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          246,
+          96,
+          778,
+          928
+        ],
+        "margins": [
+          246,
+          96,
+          246,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 70088,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/N/pixel.png",
+      "sha256": "58ab66cd569ddfb45ce2956830e5b4831d77e617f43eb9d0a62877197a51f03e",
+      "bytes": 5932,
+      "git_blob_sha": "c279239024d825e9dfac15d6da911b24835e90b1",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          30,
+          12,
+          97,
+          116
+        ],
+        "margins": [
+          30,
+          12,
+          31,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 24,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "417525a119b1471bd7007608434a0ca25d7694c0ccde66bb2a3f6c060a00ca32"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/NE/default.png",
+      "sha256": "e3a9b15c606175b021ac587ff361e9b913cfe721c3d886195b1103d96bf6241f",
+      "bytes": 390647,
+      "git_blob_sha": "a1357ab2e70eeb7f9224898d6a3464687e16f1ba",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          247,
+          96,
+          776,
+          928
+        ],
+        "margins": [
+          247,
+          96,
+          248,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 68981,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/NE/pixel.png",
+      "sha256": "506cb4f3cc968aa1b66c58bebc3926e54a818801dd52c90317f61149610f5f60",
+      "bytes": 5798,
+      "git_blob_sha": "638b6c8ccf64da0134dff3aa8de487e6c8f92189",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          27,
+          12,
+          100,
+          116
+        ],
+        "margins": [
+          27,
+          12,
+          28,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 23,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "e3a9b15c606175b021ac587ff361e9b913cfe721c3d886195b1103d96bf6241f"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/E/default.png",
+      "sha256": "bf3dc77b8bc1c1f3a7355f81440e0a24c57059d3352a966191c184194d09faff",
+      "bytes": 299056,
+      "git_blob_sha": "591a38b0a15b72d6399c13e11f9137ca768c8fbb",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          350,
+          96,
+          673,
+          928
+        ],
+        "margins": [
+          350,
+          96,
+          351,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 60767,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/E/pixel.png",
+      "sha256": "8fbedd9e5590cfc7c4bc032653386411c2b6acdb924b3041fb60961d207adb24",
+      "bytes": 4474,
+      "git_blob_sha": "2b6b47d1e2f7c0b21a122f56187da30a35d75c32",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          46,
+          12,
+          82,
+          116
+        ],
+        "margins": [
+          46,
+          12,
+          46,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 23,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "bf3dc77b8bc1c1f3a7355f81440e0a24c57059d3352a966191c184194d09faff"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/SE/default.png",
+      "sha256": "8362220a7da331d1fb623e3f4d89bb325c3148c2b5daa8b3f85109cc0e23b54d",
+      "bytes": 395159,
+      "git_blob_sha": "08ab289567b5948babcfcd9e3c746dd67a0b2556",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          281,
+          96,
+          742,
+          928
+        ],
+        "margins": [
+          281,
+          96,
+          282,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 79329,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-018/directions/SE/pixel.png",
+      "sha256": "621aba6882acfeebd768b07fea943606c821e6ccc7c2ccc95223f452d6d0429c",
+      "bytes": 6484,
+      "git_blob_sha": "8851080d85d31bfc943b8bc2c06ebc0b33382f9f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          32,
+          12,
+          95,
+          116
+        ],
+        "margins": [
+          32,
+          12,
+          33,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 24,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "8362220a7da331d1fb623e3f4d89bb325c3148c2b5daa8b3f85109cc0e23b54d"
+    }
+  ],
+  "qa": {
+    "producer_and_parent_visual_review": "candidate correspondence reviewed; scope and caveats retained",
+    "E_independent_numeric_and_hash_review": "performed for all16 files",
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending",
+    "limitations": [
+      "Existing direction is visually inferred from a single two-dimensional reference; labels are nominal viewpoints, not certified 3D rotations.",
+      "Hidden surfaces, far-side occlusion and exact 45-degree continuity are inferred.",
+      "In-game display and final user acceptance have not been completed.",
+      "Existing S orientation based on symmetry of actual source rather than generic prompt.",
+      "Unseen rear surface pattern inferred; exact azimuth not metrically established.",
+      "Two tips same anatomical height but perspective differences visually shift their canvas heights.",
+      "No mirror operation,each direction imagegen separately."
+    ]
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact original sm-arcane-018 creature rotated LEFT FRONT THREE-QUARTER SW45. Thick single U-shaped tube body upright,open top,two equal-height tips each with one eye. Whole U plane turns45degrees left and narrows in projection,near tip on image-right in foreground,far tip image-left slightly occluded. Both eyes look viewer-left. Exactly4small yellow light dots on outer tube sides,2each side,rotate with surface. Exactly3 ribbon tails hang from bottom center,center tail twice other two lengths. Zero legs/wings. Preserve mint-green/mauve/gold marbled stripes,rounded tube proportions and illustration style,upper-left light. Fullbody transparent square padded,no scene/shadow/text. Rotate anatomy,not just pupils,no mirror.\n",
+      "raw_sha256": "a2b5afc14efb71b559a13778819e05cb30990f1d5c06c7b95ea99151bba43003",
+      "raw_bytes": 643532,
+      "producer_recorded_generation_reference_sha256": "a35ba5c0084dd3102488a14dff3fc24b2f77b1a141c8075efae8efd5e363cebf",
+      "finished_sha256": "cd0b56d934ec02f7242ec16c448998140fc52ed4b14d7edd471096f9e1f9eab2"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact supplied sm-arcane-018 LEFT FRONT SW45 as128x128 logical pixel art. Preserve oblique mint/mauve/gold thick U tube,two equal-height terminal eyes looking left,near tip image-right foreground,4yellow outer light dots,3 ribbon tails center twice as long,zero legs/wings. Match pose silhouette proportions marbled color roles. Deliberate broad clusters,1px contour,hard edges,≤24colors,binaryalpha,padded transparent square104px extent. Not shrink filter,no text/backdrop/shadow.\n",
+      "raw_sha256": "4ab8c693db52a2d4fd505c60583da352ce5cadb53eafd4d46609648e33debdfb",
+      "raw_bytes": 534618,
+      "producer_recorded_generation_reference_sha256": "cd0b56d934ec02f7242ec16c448998140fc52ed4b14d7edd471096f9e1f9eab2",
+      "finished_sha256": "cedd415f529aadc1108079fbf19872a6db56d9964797cdf1855d439601b6508a"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-arcane-018 rotated TRUE LEFT SIDE W90. Upright U tube plane nearly edge-on,narrow thick curved profile,the two equal-height tips overlap in depth: near terminal eye at top looks LEFT,far terminal eye mostly hidden behind near tip. Four outer yellow lights anatomically total,only near2 clear far2 occluded. Three ribbon tails hang below,center longest twice others and some natural overlap. Zero legs/wings. Preserve mint/mauve/gold marbling,thick U tube identity and soft handdrawn style,upper-left light. Not frontal U with shifted pupils; side silhouette is strongly foreshortened. Fullbody transparent square padded,no text/floor/shadow.\n",
+      "raw_sha256": "7342a6ce431a8d80e1ff5de889bec57ba5dbb1da8c4ba9792b999dfbc9585ffd",
+      "raw_bytes": 476346,
+      "producer_recorded_generation_reference_sha256": "a35ba5c0084dd3102488a14dff3fc24b2f77b1a141c8075efae8efd5e363cebf",
+      "finished_sha256": "088ca464a8e1ac69504e2384c406f65c1d961f160ba36b09dca6745659a93c5f"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact LEFT SIDE W90 sm-arcane-018 as128x128 logical pixel art. Narrow edge-on U tube,two tips overlap,near eye looks left far eye partial behind,2near light dots other2 occluded,3hanging tails center twice length. Same mint/mauve/gold marbled body,zero legs/wings,same silhouette proportions. Broad deliberate clusters,1px outline,hard pixels,≤24colors,binaryalpha,transparent padded square104px extent.Not shrink filter,no labels/shadow.\n",
+      "raw_sha256": "ac7a98f3f9734010153927334f684b00b697e7a73a617f7f0a7c3d435dabb218",
+      "raw_bytes": 442795,
+      "producer_recorded_generation_reference_sha256": "088ca464a8e1ac69504e2384c406f65c1d961f160ba36b09dca6745659a93c5f",
+      "finished_sha256": "49d33256ba7ad3ee46007f6230c8cf34359d08275b1330b6c05422c87d79aa26"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-arcane-018 LEFT REAR THREE-QUARTER NW135,whole U plane faces away upper-left. Back surfaces of equal-height two tips visible,eyes anatomically on far faces entirely hidden NO visible pupils. Narrowed oblique U opening,near tube on image-right foreground,far left tip partly overlapped.4yellow outer dots rotate with surface and may occlude.3ribbon tails below center,center twice others,zero legs/wings. Same mint/mauve/gold marbling,body proportions,handdrawn style,upper-left light. New rear body geometry not frontal eye deletion. Transparent square padded,no text/scene/shadow.\n",
+      "raw_sha256": "e44ec8427285c4cbae62fcd8f21b00fd60880ff2854074d4fea24dac151b5186",
+      "raw_bytes": 645181,
+      "producer_recorded_generation_reference_sha256": "a35ba5c0084dd3102488a14dff3fc24b2f77b1a141c8075efae8efd5e363cebf",
+      "finished_sha256": "1c38e75a137c0704a4d2564bb10f42aee27d8425aaa11d56a4b682aafd420c83"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact supplied LEFT REAR NW135 sm-arcane-018 as128x128 logical pixel art. Oblique U-shaped mint/mauve/gold tube,back of2terminal tips NO visible eyes,4outer yellow dots,3hanging ribbon tails center twice length,zero legs/wings. Preserve same pose,shape,proportions,marbling and occlusions. Broad clusters,1px outline,hard staircase edges,≤24colors,binaryalpha,104px extent transparent padded square.Not shrink filter,no text/shadow.\n",
+      "raw_sha256": "7180b19bd0b38ba6247ac01aca986599c9d0dbc225a4a31d90fa87741bc92489",
+      "raw_bytes": 575211,
+      "producer_recorded_generation_reference_sha256": "1c38e75a137c0704a4d2564bb10f42aee27d8425aaa11d56a4b682aafd420c83",
+      "finished_sha256": "a65ecc51c550d3dbddf15972473e30962953354814a5a809860a14468a2af568"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-arcane-018 straight BACK N180. Symmetric full-width upright U tube seen from behind,both equal-height tip backs have NO visible eyes/pupils because eyes on far front surfaces.4yellow outer dots remain on tube edges,2each side.3ribbon tails below center,center twice others;zero legs/wings. Preserve mint/mauve/gold marbled stripes,rounded thickness and source proportions,hand drawn illustration. Rear surface pattern coherently continues around tube. Fullbody centered transparent square padded,no text/floor/shadow.\n",
+      "raw_sha256": "33e2d4e3ed54dbab596c36bb396ff70cd984aef4d0978b6354059d8067c89a2e",
+      "raw_bytes": 659888,
+      "producer_recorded_generation_reference_sha256": "a35ba5c0084dd3102488a14dff3fc24b2f77b1a141c8075efae8efd5e363cebf",
+      "finished_sha256": "417525a119b1471bd7007608434a0ca25d7694c0ccde66bb2a3f6c060a00ca32"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact STRAIGHT BACK N180 sm-arcane-018 as128x128 logical pixel art. Symmetric U tube,back of2equal-height tips with NO visible eyes,4yellow outside dots,3ribbon tails center twice length,zero legs/wings. Same mint/mauve/gold marbling,pose,silhouette,proportions. Broad clusters,dark1px outline,hard edges,≤24colors,binaryalpha,padded transparent square104px extent. Not shrink filter,no text/shadow.\n",
+      "raw_sha256": "efac699c290d1b51d8dbb713e9f12564ed34087061a336556ef9e0df0bff99f7",
+      "raw_bytes": 586477,
+      "producer_recorded_generation_reference_sha256": "417525a119b1471bd7007608434a0ca25d7694c0ccde66bb2a3f6c060a00ca32",
+      "finished_sha256": "58ab66cd569ddfb45ce2956830e5b4831d77e617f43eb9d0a62877197a51f03e"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-arcane-018 RIGHT REAR THREE-QUARTER NE225,face away upper-right. U tube plane narrows in perspective,near tip image-left foreground and far tip image-right partly overlapped,back surfaces of2tips NO visible eyes.4yellow outer dots rotate/occlude naturally,3ribbon tails below center central twice length,no legs/wings. Same mint/mauve/gold marbled pattern,thick U proportions and handdrawn style. New camera rotation not mirror;fixed upper-left light. Fullbody transparent square padding,no text/floor/shadow.\n",
+      "raw_sha256": "6f15de444ed7f6ccaed445374277ae4115aa820940f855f443bbd9ff5f277df6",
+      "raw_bytes": 731493,
+      "producer_recorded_generation_reference_sha256": "a35ba5c0084dd3102488a14dff3fc24b2f77b1a141c8075efae8efd5e363cebf",
+      "finished_sha256": "e3a9b15c606175b021ac587ff361e9b913cfe721c3d886195b1103d96bf6241f"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact RIGHT REAR NE225 sm-arcane-018 as128x128 logical pixel art. U tube back,near tip foreground left far tip right,no eyes visible,4outer lights with far pair partly occluded,3ribbon tails center twice others. Same mint/mauve/gold marbling,pose,shape,proportions. Broad clusters,1px outline,hard edges,≤24colors,binaryalpha,padded transparent square104px extent.Not shrink filter,no text/shadow.\n",
+      "raw_sha256": "e04813c25084852e9035691a9218edb3f5f5a2da005ee62c35e937e13f49fb22",
+      "raw_bytes": 625000,
+      "producer_recorded_generation_reference_sha256": "e3a9b15c606175b021ac587ff361e9b913cfe721c3d886195b1103d96bf6241f",
+      "finished_sha256": "506cb4f3cc968aa1b66c58bebc3926e54a818801dd52c90317f61149610f5f60"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-arcane-018 TRUE RIGHT SIDE E270. U tube plane nearly edge-on narrow curved silhouette,2equal-height tips overlap in depth,near terminal eye looks RIGHT far eye mostly hidden.4outer yellow dots total near2clear far2occluded.3hanging ribbon tails center twice others with natural overlap,no legs/wings. Same mint/mauve/gold marbling,thick rounded U identity and handdrawn art. Genuine opposite-side rotation not mirror;upper-left light fixed. Fullbody transparent square padding,no scene/text/shadow.\n",
+      "raw_sha256": "a0ddcf54ab1156792167ed143d7e5917024a9af8ceedb7e93b2fe3e8171f12ba",
+      "raw_bytes": 482714,
+      "producer_recorded_generation_reference_sha256": "a35ba5c0084dd3102488a14dff3fc24b2f77b1a141c8075efae8efd5e363cebf",
+      "finished_sha256": "bf3dc77b8bc1c1f3a7355f81440e0a24c57059d3352a966191c184194d09faff"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact RIGHT SIDE E270 sm-arcane-018 as128x128 logical pixel art. Narrow edge-on U,tips overlap,near eye looks right far partial,2near yellow outer lights far2occluded,3hanging tails central twice length,no legs/wings. Same mint/mauve/gold marbling,pose silhouette proportions. Broad clusters,1px outline,hard edges,≤24colors,binaryalpha,padded transparent square104px extent.Not shrink filter,no labels/scene/shadow.\n",
+      "raw_sha256": "1ecdc4fc3ceecafff4ed189217dc7cf294a0867e5218e1bca29c0783f00c8449",
+      "raw_bytes": 430466,
+      "producer_recorded_generation_reference_sha256": "bf3dc77b8bc1c1f3a7355f81440e0a24c57059d3352a966191c184194d09faff",
+      "finished_sha256": "8fbedd9e5590cfc7c4bc032653386411c2b6acdb924b3041fb60961d207adb24"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-arcane-018 RIGHT FRONT THREE-QUARTER SE315. Whole thick U tube turned45degrees right,narrowed opening,near tip image-left foreground far image-right partly overlapped,two terminal eyes look viewer-right. Both tips equal anatomical height,4outer yellow light dots rotate with surface,3ribbon tails below center central twice others,no legs/wings. Same mint/mauve/gold marbling,proportions and handdrawn illustration. New opposite oblique view not mirror;fixed upper-left light. Fullbody transparent square padded,no text/scene/shadow.\n",
+      "raw_sha256": "8bcdc0a366e9d1e7a90d7c6ce961370d95a8d7b59964b6fdefca298eb0e2aed0",
+      "raw_bytes": 714687,
+      "producer_recorded_generation_reference_sha256": "a35ba5c0084dd3102488a14dff3fc24b2f77b1a141c8075efae8efd5e363cebf",
+      "finished_sha256": "8362220a7da331d1fb623e3f4d89bb325c3148c2b5daa8b3f85109cc0e23b54d"
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact RIGHT FRONT SE315 sm-arcane-018 as128x128 logical pixel art. Oblique U tube,near tip foreground left far right,2eyes look right,4outer yellow dots,3ribbon tails center twice others,no legs/wings. Same mint/mauve/gold marbling,silhouette,pose,proportions. Broad clusters,dark1px outline,hard edges,≤24colors,binaryalpha,padded transparent square104px extent.Not shrink filter,no labels/scene/shadow.\n",
+      "raw_sha256": "e9299b066f0a865d122227310f882fae987b2dcc5453b9f271ba23fbd158c05c",
+      "raw_bytes": 668770,
+      "producer_recorded_generation_reference_sha256": "8362220a7da331d1fb623e3f4d89bb325c3148c2b5daa8b3f85109cc0e23b54d",
+      "finished_sha256": "621aba6882acfeebd768b07fea943606c821e6ccc7c2ccc95223f452d6d0429c"
+    }
+  ]
+}
