@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-006",
+  "design_version": 2,
+  "catalog_path": "assets/monsters/catalog.json",
+  "design_status": "recovered_original_conditional_candidate",
+  "original_catalog_v1_pass_claimed": false,
+  "design_delta": "From layered triangular plates, wings and spatula tail to a central translucent umbrella membrane surrounded by three separated light bands.",
+  "observed_design": {
+    "umbrella_membrane": 1,
+    "separated_light_bands": 3,
+    "eyes": 2,
+    "palette_observed": "pale green, yellow and purple",
+    "interpretation_status": "observed from recovered images and proposal text; not a recovered generation-time fixed specification"
+  },
+  "provenance": {
+    "tool": "built-in imagegen as reported in original production record",
+    "exact_generation_prompts": null,
+    "generation_time_fixed_specification": null,
+    "missing_provenance": "Exact generation prompts and generation-time fixed definition files were not retrieved. No prompts have been inferred or reconstructed.",
+    "source_origin": "Two recovered original production images; display ordering and matching design proposal identify the normal/pixel pair. A third recovered image is excluded.",
+    "originals": [
+      {
+        "file_name": "d-image-candidate-1-20261010T0235Z.png",
+        "sha256": "a759fb3ae23f7fe38037dae2bb800f0ffbe0f0b1c6da1ac0179e724b834633f7"
+      },
+      {
+        "file_name": "d-image-candidate-2-20261010T0235Z.png",
+        "sha256": "ebd19a615cf4c4984ae38f8823904c05ad1dfa29ac331e067d2770c1b0efbcb7"
+      }
+    ],
+    "regeneration_performed": false,
+    "technical_postprocessing_only": true
+  },
+  "assets": {
+    "default": {
+      "path": "assets/monsters/arcane/sm-arcane-006/default.png",
+      "bytes": 390116,
+      "sha256": "2162cf55ad5414b4d36694d20dadcef2c061b1298a0b7a034c88702fe9294997",
+      "source_sha256": "a759fb3ae23f7fe38037dae2bb800f0ffbe0f0b1c6da1ac0179e724b834633f7",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        80,
+        313,
+        944,
+        711
+      ],
+      "visible_rgb_colors": 68647,
+      "alpha_value_count": 256,
+      "normalization": {
+        "alpha_threshold": 8,
+        "crop": [
+          28,
+          334,
+          1225,
+          886
+        ],
+        "resize": [
+          864,
+          398
+        ],
+        "longest_extent": 864,
+        "canvas": 1024,
+        "quantizer": null
+      }
+    },
+    "pixel": {
+      "path": "assets/monsters/arcane/sm-arcane-006/pixel.png",
+      "bytes": 7460,
+      "sha256": "85033933144cccd29b6898a8ac064795ea1c6f4e453da2029915a376047930d1",
+      "source_sha256": "ebd19a615cf4c4984ae38f8823904c05ad1dfa29ac331e067d2770c1b0efbcb7",
+      "dimensions": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        10,
+        38,
+        118,
+        89
+      ],
+      "visible_rgb_colors": 30,
+      "alpha_value_count": 2,
+      "normalization": {
+        "alpha_threshold": 128,
+        "crop": [
+          23,
+          372,
+          1232,
+          943
+        ],
+        "resize": [
+          108,
+          51
+        ],
+        "longest_extent": 108,
+        "canvas": 128,
+        "quantizer": "MEDIANCUT32/no dither"
+      }
+    }
+  },
+  "qa": {
+    "numeric": "PASS",
+    "normal_pixel_identity": "PASS by two independent visual reviews after normalization",
+    "observed_part_readability": "umbrella membrane, three light bands and two eyes remain identifiable, including at 128 pixels",
+    "original_specification_conformance": "NOT_CLAIMED",
+    "final_user_acceptance": "pending",
+    "in_game_validation": "not_run",
+    "limitations": [
+      "Exact prompts and generation-time specification unavailable.",
+      "Normal has more gradients and glossy lighting than restrained three-step shading.",
+      "Submitted only as a conditional recovered candidate, not an unconditional original-specification approval."
+    ]
+  }
+}
