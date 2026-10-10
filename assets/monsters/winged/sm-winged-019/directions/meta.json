@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "species": "sm-winged-019",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "original_direction_basis": "Individual catalog explicitly frontal triangle pose; original visually consistent",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        162,
+        80,
+        861,
+        944
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 98590,
+      "sha256": "854c83bbfde00916e185f7be1a17de1ed52b046b6ca13a03f2d237a8224100a9",
+      "path": "assets/monsters/winged/sm-winged-019/default.png",
+      "original_preserved": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        20,
+        10,
+        108,
+        118
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 31,
+      "sha256": "5c3d94b5107de03ac71d9031e0801ea9ad99f3ade3ccf618babfe4c5b7746e27",
+      "path": "assets/monsters/winged/sm-winged-019/pixel.png",
+      "original_preserved": true
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        278,
+        96,
+        745,
+        928
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 86752,
+      "sha256": "9f31a48870b306a0f061e920549c21318137e2f87a1c039cbde1faa7aff07b2c",
+      "path": "assets/monsters/winged/sm-winged-019/directions/SW/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        34,
+        12,
+        93,
+        116
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 31,
+      "sha256": "8eea1af4b7c3a6b6a8ce3186ee0b1e358e01dd2ec555f0fce631f7a2740a76c0",
+      "path": "assets/monsters/winged/sm-winged-019/directions/SW/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        421,
+        96,
+        603,
+        928
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 37325,
+      "sha256": "730dd2a3063d7bce8ab38aa52d2ccf68c72e8dbbfba80f5ec482fd78cd0e516a",
+      "path": "assets/monsters/winged/sm-winged-019/directions/W/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        51,
+        12,
+        77,
+        116
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 28,
+      "sha256": "fcfa2206231ae3c11694c9f6b48c9710f67a68f798df5ae471dca7890611d387",
+      "path": "assets/monsters/winged/sm-winged-019/directions/W/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        282,
+        96,
+        741,
+        928
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 75035,
+      "sha256": "07706ee3401689ec0d015756d84df5bfaae5e65ac6f02b9e0372619ad3c0507b",
+      "path": "assets/monsters/winged/sm-winged-019/directions/NW/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        36,
+        12,
+        92,
+        116
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 29,
+      "sha256": "2bf35ef103a98414201fd731aca84347d1d0315e21c24be6709270935f93e60e",
+      "path": "assets/monsters/winged/sm-winged-019/directions/NW/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        172,
+        96,
+        851,
+        928
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 97201,
+      "sha256": "1c7572cd945ad024c4627f452f5fe3450366c229c36f0f34c88cb7bfe0614a0a",
+      "path": "assets/monsters/winged/sm-winged-019/directions/N/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        22,
+        12,
+        105,
+        116
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 31,
+      "sha256": "4d90572308fe6a10355bfae478481ed6c171facaa5588ebd4c090b8ddf161848",
+      "path": "assets/monsters/winged/sm-winged-019/directions/N/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        265,
+        96,
+        759,
+        928
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 81593,
+      "sha256": "731b56fc68a101743f4a5bb1cc84fc680643ff3082afe3cf537add8a0397e063",
+      "path": "assets/monsters/winged/sm-winged-019/directions/NE/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        34,
+        12,
+        94,
+        116
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 29,
+      "sha256": "c1559473205d463ebbb8314a287ff387417f7d3a09a8a8546e1c58c0e9b14321",
+      "path": "assets/monsters/winged/sm-winged-019/directions/NE/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        439,
+        96,
+        585,
+        928
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 37503,
+      "sha256": "27632b85c5dcad2b42d19793ee70268fc81ab1c140eef8a55ab62f6c106c15c5",
+      "path": "assets/monsters/winged/sm-winged-019/directions/E/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        54,
+        12,
+        73,
+        116
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 29,
+      "sha256": "39c8c8d95638ad95724a3b72aa9e4de501155276b95823f8d606dcd9c1dff29f",
+      "path": "assets/monsters/winged/sm-winged-019/directions/E/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        286,
+        96,
+        738,
+        928
+      ],
+      "alpha_values": "continuous",
+      "opaque_colors": 83052,
+      "sha256": "cafc674894b9ab184a7f4d23b6b573f74a1c09cd2ed5a434e409a27f8cbd9684",
+      "path": "assets/monsters/winged/sm-winged-019/directions/SE/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        34,
+        12,
+        93,
+        116
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque_colors": 30,
+      "sha256": "8348ef1c98d5e1c871f41c928e6b6b628ac51dbf8e5abef5468b2e09ed9a820b",
+      "path": "assets/monsters/winged/sm-winged-019/directions/SE/pixel.png",
+      "original_preserved": false
+    }
+  ],
+  "provenance": {
+    "tool": "image_gen.imagegen",
+    "calls": [
+      {
+        "direction": "SW",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One direction sprite rotating the EXACT reference creature in yaw only, same straight-on level camera, unchanged posture. It has a single THIN flat downward-pointing triangular frosted-blue glass body, straight upper edge; zero legs. Exactly FIVE separate thin mineral-leaf wings stand in a fan from upper edge, central wing longest, inner left/right medium, outer left/right shortest. All5roots fixed in one row, wings remain in same physical fan plane as body, not fanned toward camera on every view. One violet almond eye with narrow vertical pupil fixed on FRONT body face, one small round lavender dot directly above eye on same front face. Exactly TWO slender tails at bottom triangle point curve outward without crossing, each ends in small faceted leaf tip. No eye/dot on back. Material faceted pale blue glass #99B7D3, warm mineral gold#DDBD8E wings, lavender#B3A3C4 accents. Preserve translucent facets, outline, delicate thickness, original proportions. Source S FRONT. Real yaw rotation: projected width shortens toward edge-on sides, natural wing/tail overlaps, do not make body thicker/wider to show features or rotate the fan separately. No new appendages or decorations. Single creature centered1024 square, transparent background and ample padding, no ground/shadow/text.\nRequested direction: SW45 FRONT-LEFT: front face points screenLEFT at45deg; triangular face width foreshortens, near right edge thickness subtly visible, one eye/dot remain on foreshortened front plane. Five fan blades project narrower with near/far overlap, sameheight hierarchy. Two tail curves shorten similarly.",
+        "raw_sha256": "967b053b58755295a30fc718215321a8c4fa5db6d6de4ae5bbc8e860c652afb3",
+        "final_sha256": "9f31a48870b306a0f061e920549c21318137e2f87a1c039cbde1faa7aff07b2c",
+        "raw_basename": "SW-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "854c83bbfde00916e185f7be1a17de1ed52b046b6ca13a03f2d237a8224100a9"
+          }
+        ]
+      },
+      {
+        "direction": "SW",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite of EXACT sole reference, same SW direction/pose/proportion and occlusions; only change medium. Thin inverted-triangle blueglass body, exactly5mineral-leaf fan wings (central tallest,innerpairmedium,outerpairshort), exactly2outward-curving noncrossing tails,zero legs. Preserve precisely reference wing overlap/edge-on width and tails near/far overlap. One violet front eye and round dot above it only if visible in reference; rearblank stays blank. Side-edge protruding eye/dot remain narrow as reference; no frontal eye invented. Palette paleblue #99B7D3,gold#DDBD8E,lavender#B3A3C4. Render faceted-glass material using crisp clusters on intentional128x128 logical grid, no blur/no mere pixelation filter. At most32opaque colors, binary-alpha transparentbackground. Centerfullcreature extent96–112logicalpixels and at least8pixelpadding. No text/ground/shadow/newparts.",
+        "raw_sha256": "dd39d5b948498de1ff4fe6b49240e484e6a26540708587e70d3f6c9116a8c3a3",
+        "final_sha256": "8eea1af4b7c3a6b6a8ce3186ee0b1e358e01dd2ec555f0fce631f7a2740a76c0",
+        "raw_basename": "SW-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "9f31a48870b306a0f061e920549c21318137e2f87a1c039cbde1faa7aff07b2c"
+          }
+        ]
+      },
+      {
+        "direction": "W",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One direction sprite rotating the EXACT reference creature in yaw only, same straight-on level camera, unchanged posture. It has a single THIN flat downward-pointing triangular frosted-blue glass body, straight upper edge; zero legs. Exactly FIVE separate thin mineral-leaf wings stand in a fan from upper edge, central wing longest, inner left/right medium, outer left/right shortest. All5roots fixed in one row, wings remain in same physical fan plane as body, not fanned toward camera on every view. One violet almond eye with narrow vertical pupil fixed on FRONT body face, one small round lavender dot directly above eye on same front face. Exactly TWO slender tails at bottom triangle point curve outward without crossing, each ends in small faceted leaf tip. No eye/dot on back. Material faceted pale blue glass #99B7D3, warm mineral gold#DDBD8E wings, lavender#B3A3C4 accents. Preserve translucent facets, outline, delicate thickness, original proportions. Source S FRONT. Real yaw rotation: projected width shortens toward edge-on sides, natural wing/tail overlaps, do not make body thicker/wider to show features or rotate the fan separately. No new appendages or decorations. Single creature centered1024 square, transparent background and ample padding, no ground/shadow/text.\nRequested direction: W90 exact LEFT PROFILE, front points screenLEFT: very thin vertical glass edge with only subtle beveled thickness, triangle/fan broad faces nearly edge-on. Five blades overlap in depth, tallest central silhouette obvious, shorter blade edges may partly visible. Eye/dot on front plane mostly hidden, no large frontal eye looking at viewer. Two tails overlap into thin separated curves, never add. Preserve width collapse; don't bend face or wings towardcamera.",
+        "raw_sha256": "c7ab02979754a2ded73db1c4c2db350c8630826547e4bc916031585c6550677c",
+        "final_sha256": "730dd2a3063d7bce8ab38aa52d2ccf68c72e8dbbfba80f5ec482fd78cd0e516a",
+        "raw_basename": "W-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "854c83bbfde00916e185f7be1a17de1ed52b046b6ca13a03f2d237a8224100a9"
+          }
+        ]
+      },
+      {
+        "direction": "W",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite of EXACT sole reference, same W direction/pose/proportion and occlusions; only change medium. Thin inverted-triangle blueglass body, exactly5mineral-leaf fan wings (central tallest,innerpairmedium,outerpairshort), exactly2outward-curving noncrossing tails,zero legs. Preserve precisely reference wing overlap/edge-on width and tails near/far overlap. One violet front eye and round dot above it only if visible in reference; rearblank stays blank. Side-edge protruding eye/dot remain narrow as reference; no frontal eye invented. Palette paleblue #99B7D3,gold#DDBD8E,lavender#B3A3C4. Render faceted-glass material using crisp clusters on intentional128x128 logical grid, no blur/no mere pixelation filter. At most32opaque colors, binary-alpha transparentbackground. Centerfullcreature extent96–112logicalpixels and at least8pixelpadding. No text/ground/shadow/newparts.",
+        "raw_sha256": "553837a0912a743bdd7911483b9772e7b6530525df703036703ad019d8c5d232",
+        "final_sha256": "fcfa2206231ae3c11694c9f6b48c9710f67a68f798df5ae471dca7890611d387",
+        "raw_basename": "W-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "730dd2a3063d7bce8ab38aa52d2ccf68c72e8dbbfba80f5ec482fd78cd0e516a"
+          }
+        ]
+      },
+      {
+        "direction": "NW",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One direction sprite rotating the EXACT reference creature in yaw only, same straight-on level camera, unchanged posture. It has a single THIN flat downward-pointing triangular frosted-blue glass body, straight upper edge; zero legs. Exactly FIVE separate thin mineral-leaf wings stand in a fan from upper edge, central wing longest, inner left/right medium, outer left/right shortest. All5roots fixed in one row, wings remain in same physical fan plane as body, not fanned toward camera on every view. One violet almond eye with narrow vertical pupil fixed on FRONT body face, one small round lavender dot directly above eye on same front face. Exactly TWO slender tails at bottom triangle point curve outward without crossing, each ends in small faceted leaf tip. No eye/dot on back. Material faceted pale blue glass #99B7D3, warm mineral gold#DDBD8E wings, lavender#B3A3C4 accents. Preserve translucent facets, outline, delicate thickness, original proportions. Source S FRONT. Real yaw rotation: projected width shortens toward edge-on sides, natural wing/tail overlaps, do not make body thicker/wider to show features or rotate the fan separately. No new appendages or decorations. Single creature centered1024 square, transparent background and ample padding, no ground/shadow/text.\nRequested direction: NW135 REAR-LEFT: back plane faces viewer at45deg, front points away screenLEFT. No eye/dot visible through back. Thin triangle backside blank facetedblue, width foreshortened; reverse plane depth relative frontleft. Five fixed blades overlap and stay tallestmiddle/shortestouter. Two outward tails unchanged.",
+        "raw_sha256": "eecb46effbb03c6b84e9cc901cdb16dc5136e264293bbc7134073a409150ce53",
+        "final_sha256": "07706ee3401689ec0d015756d84df5bfaae5e65ac6f02b9e0372619ad3c0507b",
+        "raw_basename": "NW-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "854c83bbfde00916e185f7be1a17de1ed52b046b6ca13a03f2d237a8224100a9"
+          }
+        ]
+      },
+      {
+        "direction": "NW",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite of EXACT sole reference, same NW direction/pose/proportion and occlusions; only change medium. Thin inverted-triangle blueglass body, exactly5mineral-leaf fan wings (central tallest,innerpairmedium,outerpairshort), exactly2outward-curving noncrossing tails,zero legs. Preserve precisely reference wing overlap/edge-on width and tails near/far overlap. One violet front eye and round dot above it only if visible in reference; rearblank stays blank. Side-edge protruding eye/dot remain narrow as reference; no frontal eye invented. Palette paleblue #99B7D3,gold#DDBD8E,lavender#B3A3C4. Render faceted-glass material using crisp clusters on intentional128x128 logical grid, no blur/no mere pixelation filter. At most32opaque colors, binary-alpha transparentbackground. Centerfullcreature extent96–112logicalpixels and at least8pixelpadding. No text/ground/shadow/newparts.",
+        "raw_sha256": "edd7e6f8952b8fc8ce1e1118205d1506c90502db22b5010b6fb7a3c6ac8d0969",
+        "final_sha256": "2bf35ef103a98414201fd731aca84347d1d0315e21c24be6709270935f93e60e",
+        "raw_basename": "NW-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "07706ee3401689ec0d015756d84df5bfaae5e65ac6f02b9e0372619ad3c0507b"
+          }
+        ]
+      },
+      {
+        "direction": "N",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One direction sprite rotating the EXACT reference creature in yaw only, same straight-on level camera, unchanged posture. It has a single THIN flat downward-pointing triangular frosted-blue glass body, straight upper edge; zero legs. Exactly FIVE separate thin mineral-leaf wings stand in a fan from upper edge, central wing longest, inner left/right medium, outer left/right shortest. All5roots fixed in one row, wings remain in same physical fan plane as body, not fanned toward camera on every view. One violet almond eye with narrow vertical pupil fixed on FRONT body face, one small round lavender dot directly above eye on same front face. Exactly TWO slender tails at bottom triangle point curve outward without crossing, each ends in small faceted leaf tip. No eye/dot on back. Material faceted pale blue glass #99B7D3, warm mineral gold#DDBD8E wings, lavender#B3A3C4 accents. Preserve translucent facets, outline, delicate thickness, original proportions. Source S FRONT. Real yaw rotation: projected width shortens toward edge-on sides, natural wing/tail overlaps, do not make body thicker/wider to show features or rotate the fan separately. No new appendages or decorations. Single creature centered1024 square, transparent background and ample padding, no ground/shadow/text.\nRequested direction: N180 straight BACK: full broad inverse triangle backside, no eye/dot, samebody silhouette and five-wing height hierarchy as front. Tailpairoutward notcrossed. Back facets/material same, no invented seams or eyes. Five blades separate full fan seen fromback.",
+        "raw_sha256": "42eac01e24e3ece258a2be8fcf1b26968952232c438225dcb16d551582fd62a3",
+        "final_sha256": "1c7572cd945ad024c4627f452f5fe3450366c229c36f0f34c88cb7bfe0614a0a",
+        "raw_basename": "N-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "854c83bbfde00916e185f7be1a17de1ed52b046b6ca13a03f2d237a8224100a9"
+          }
+        ]
+      },
+      {
+        "direction": "N",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite of EXACT sole reference, same N direction/pose/proportion and occlusions; only change medium. Thin inverted-triangle blueglass body, exactly5mineral-leaf fan wings (central tallest,innerpairmedium,outerpairshort), exactly2outward-curving noncrossing tails,zero legs. Preserve precisely reference wing overlap/edge-on width and tails near/far overlap. One violet front eye and round dot above it only if visible in reference; rearblank stays blank. Side-edge protruding eye/dot remain narrow as reference; no frontal eye invented. Palette paleblue #99B7D3,gold#DDBD8E,lavender#B3A3C4. Render faceted-glass material using crisp clusters on intentional128x128 logical grid, no blur/no mere pixelation filter. At most32opaque colors, binary-alpha transparentbackground. Centerfullcreature extent96–112logicalpixels and at least8pixelpadding. No text/ground/shadow/newparts.",
+        "raw_sha256": "98b63769b5c1b3cc11e9d3f541dcd33095673bc26479b42cb8fc00990829ffb2",
+        "final_sha256": "4d90572308fe6a10355bfae478481ed6c171facaa5588ebd4c090b8ddf161848",
+        "raw_basename": "N-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "1c7572cd945ad024c4627f452f5fe3450366c229c36f0f34c88cb7bfe0614a0a"
+          }
+        ]
+      },
+      {
+        "direction": "NE",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One direction sprite rotating the EXACT reference creature in yaw only, same straight-on level camera, unchanged posture. It has a single THIN flat downward-pointing triangular frosted-blue glass body, straight upper edge; zero legs. Exactly FIVE separate thin mineral-leaf wings stand in a fan from upper edge, central wing longest, inner left/right medium, outer left/right shortest. All5roots fixed in one row, wings remain in same physical fan plane as body, not fanned toward camera on every view. One violet almond eye with narrow vertical pupil fixed on FRONT body face, one small round lavender dot directly above eye on same front face. Exactly TWO slender tails at bottom triangle point curve outward without crossing, each ends in small faceted leaf tip. No eye/dot on back. Material faceted pale blue glass #99B7D3, warm mineral gold#DDBD8E wings, lavender#B3A3C4 accents. Preserve translucent facets, outline, delicate thickness, original proportions. Source S FRONT. Real yaw rotation: projected width shortens toward edge-on sides, natural wing/tail overlaps, do not make body thicker/wider to show features or rotate the fan separately. No new appendages or decorations. Single creature centered1024 square, transparent background and ample padding, no ground/shadow/text.\nRequested direction: NE225 REAR-RIGHT: rear plane angled45deg with front pointing away screenRIGHT, no eye/dot. Foreshortened triangle and fan, near/far edges complementary to NW, keep lighting fixed upperleft. Same2tails.",
+        "raw_sha256": "45446d23247cc05ac8d4aa530db299d75c48b480855acf7199b85ffd6f23a414",
+        "final_sha256": "731b56fc68a101743f4a5bb1cc84fc680643ff3082afe3cf537add8a0397e063",
+        "raw_basename": "NE-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "854c83bbfde00916e185f7be1a17de1ed52b046b6ca13a03f2d237a8224100a9"
+          }
+        ]
+      },
+      {
+        "direction": "NE",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite of EXACT sole reference, same NE direction/pose/proportion and occlusions; only change medium. Thin inverted-triangle blueglass body, exactly5mineral-leaf fan wings (central tallest,innerpairmedium,outerpairshort), exactly2outward-curving noncrossing tails,zero legs. Preserve precisely reference wing overlap/edge-on width and tails near/far overlap. One violet front eye and round dot above it only if visible in reference; rearblank stays blank. Side-edge protruding eye/dot remain narrow as reference; no frontal eye invented. Palette paleblue #99B7D3,gold#DDBD8E,lavender#B3A3C4. Render faceted-glass material using crisp clusters on intentional128x128 logical grid, no blur/no mere pixelation filter. At most32opaque colors, binary-alpha transparentbackground. Centerfullcreature extent96–112logicalpixels and at least8pixelpadding. No text/ground/shadow/newparts.",
+        "raw_sha256": "2dbdc7faa52b9fe67cb983b7a536433752c226e81f04e2b812c17b94e37dbd1d",
+        "final_sha256": "c1559473205d463ebbb8314a287ff387417f7d3a09a8a8546e1c58c0e9b14321",
+        "raw_basename": "NE-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "731b56fc68a101743f4a5bb1cc84fc680643ff3082afe3cf537add8a0397e063"
+          }
+        ]
+      },
+      {
+        "direction": "E",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One direction sprite rotating the EXACT reference creature in yaw only, same straight-on level camera, unchanged posture. It has a single THIN flat downward-pointing triangular frosted-blue glass body, straight upper edge; zero legs. Exactly FIVE separate thin mineral-leaf wings stand in a fan from upper edge, central wing longest, inner left/right medium, outer left/right shortest. All5roots fixed in one row, wings remain in same physical fan plane as body, not fanned toward camera on every view. One violet almond eye with narrow vertical pupil fixed on FRONT body face, one small round lavender dot directly above eye on same front face. Exactly TWO slender tails at bottom triangle point curve outward without crossing, each ends in small faceted leaf tip. No eye/dot on back. Material faceted pale blue glass #99B7D3, warm mineral gold#DDBD8E wings, lavender#B3A3C4 accents. Preserve translucent facets, outline, delicate thickness, original proportions. Source S FRONT. Real yaw rotation: projected width shortens toward edge-on sides, natural wing/tail overlaps, do not make body thicker/wider to show features or rotate the fan separately. No new appendages or decorations. Single creature centered1024 square, transparent background and ample padding, no ground/shadow/text.\nRequested direction: E270 exact RIGHT PROFILE, front points screenRIGHT: thin vertical beveled glass edge, five fixed fan blades largely overlap in depth, tallestcentral and shorter bladeedges. Broad triangle face nearly invisible, eye/dot mostly hidden around rightfrontedge, no big frontal eye. Two tails naturally overlap but unchanged. Do not turn fan or face towardcamera.",
+        "raw_sha256": "e76c85ffc91a36b124bcbf5dab4128c0c31188b6be7a10fc1e07e41b2b83f5f9",
+        "final_sha256": "27632b85c5dcad2b42d19793ee70268fc81ab1c140eef8a55ab62f6c106c15c5",
+        "raw_basename": "E-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "854c83bbfde00916e185f7be1a17de1ed52b046b6ca13a03f2d237a8224100a9"
+          }
+        ]
+      },
+      {
+        "direction": "E",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite of EXACT sole reference, same E direction/pose/proportion and occlusions; only change medium. Thin inverted-triangle blueglass body, exactly5mineral-leaf fan wings (central tallest,innerpairmedium,outerpairshort), exactly2outward-curving noncrossing tails,zero legs. Preserve precisely reference wing overlap/edge-on width and tails near/far overlap. One violet front eye and round dot above it only if visible in reference; rearblank stays blank. Side-edge protruding eye/dot remain narrow as reference; no frontal eye invented. Palette paleblue #99B7D3,gold#DDBD8E,lavender#B3A3C4. Render faceted-glass material using crisp clusters on intentional128x128 logical grid, no blur/no mere pixelation filter. At most32opaque colors, binary-alpha transparentbackground. Centerfullcreature extent96–112logicalpixels and at least8pixelpadding. No text/ground/shadow/newparts.",
+        "raw_sha256": "b6c8e554630ca140488619909b2c8e3c5de8cf64de09e7b56f253f10b5ce0f7f",
+        "final_sha256": "39c8c8d95638ad95724a3b72aa9e4de501155276b95823f8d606dcd9c1dff29f",
+        "raw_basename": "E-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "27632b85c5dcad2b42d19793ee70268fc81ab1c140eef8a55ab62f6c106c15c5"
+          }
+        ]
+      },
+      {
+        "direction": "SE",
+        "kind": "default.png",
+        "prompt": "Use case: identity-preserve. One direction sprite rotating the EXACT reference creature in yaw only, same straight-on level camera, unchanged posture. It has a single THIN flat downward-pointing triangular frosted-blue glass body, straight upper edge; zero legs. Exactly FIVE separate thin mineral-leaf wings stand in a fan from upper edge, central wing longest, inner left/right medium, outer left/right shortest. All5roots fixed in one row, wings remain in same physical fan plane as body, not fanned toward camera on every view. One violet almond eye with narrow vertical pupil fixed on FRONT body face, one small round lavender dot directly above eye on same front face. Exactly TWO slender tails at bottom triangle point curve outward without crossing, each ends in small faceted leaf tip. No eye/dot on back. Material faceted pale blue glass #99B7D3, warm mineral gold#DDBD8E wings, lavender#B3A3C4 accents. Preserve translucent facets, outline, delicate thickness, original proportions. Source S FRONT. Real yaw rotation: projected width shortens toward edge-on sides, natural wing/tail overlaps, do not make body thicker/wider to show features or rotate the fan separately. No new appendages or decorations. Single creature centered1024 square, transparent background and ample padding, no ground/shadow/text.\nRequested direction: SE315 FRONT-RIGHT: front facepoints screenRIGHT45deg, oneeye/dot on foreshortenedfront, broad triangle/fan width reduced compared source, counterpartSW with near/far reversed.5fixedheightblades and2tails exact, constant camera and upperleftlight.",
+        "raw_sha256": "5b31eac5aad3137eab20d9b11f39058fecd3bea96ef0be7da4482312d2c7f824",
+        "final_sha256": "cafc674894b9ab184a7f4d23b6b573f74a1c09cd2ed5a434e409a27f8cbd9684",
+        "raw_basename": "SE-normal.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "854c83bbfde00916e185f7be1a17de1ed52b046b6ca13a03f2d237a8224100a9"
+          }
+        ]
+      },
+      {
+        "direction": "SE",
+        "kind": "pixel.png",
+        "prompt": "Use case: style-transfer. ONE authentic pixel-art sprite of EXACT sole reference, same SE direction/pose/proportion and occlusions; only change medium. Thin inverted-triangle blueglass body, exactly5mineral-leaf fan wings (central tallest,innerpairmedium,outerpairshort), exactly2outward-curving noncrossing tails,zero legs. Preserve precisely reference wing overlap/edge-on width and tails near/far overlap. One violet front eye and round dot above it only if visible in reference; rearblank stays blank. Side-edge protruding eye/dot remain narrow as reference; no frontal eye invented. Palette paleblue #99B7D3,gold#DDBD8E,lavender#B3A3C4. Render faceted-glass material using crisp clusters on intentional128x128 logical grid, no blur/no mere pixelation filter. At most32opaque colors, binary-alpha transparentbackground. Centerfullcreature extent96–112logicalpixels and at least8pixelpadding. No text/ground/shadow/newparts.",
+        "raw_sha256": "41c373e3d04bd469039e0b873fbd5c071916464fbf365a4b8f902451788f3538",
+        "final_sha256": "8348ef1c98d5e1c871f41c928e6b6b628ac51dbf8e5abef5468b2e09ed9a820b",
+        "raw_basename": "SE-pixel.png",
+        "reference_inputs": [
+          {
+            "basename": "default.png",
+            "sha256": "cafc674894b9ab184a7f4d23b6b573f74a1c09cd2ed5a434e409a27f8cbd9684"
+          }
+        ]
+      }
+    ]
+  },
+  "technical_processing": "Normal alpha<8 cleanup after colored fringe measured alpha1-7 and all7 facetedglass normal/edge visual confirmation; uniform832 extent; pixel binaryalpha128 threshold,nearest104 extent, nearest original palette,no shape redraw.",
+  "review": {
+    "producer": "16slots technical and visual paired QA passed as review candidate",
+    "independent": "E independently measured all16slots/hash/original-byte identity; all8pair white comparison and full-resolution W/E normal+128pixel inspected. Side width/eye edge and wing-tail overlaps correspond; narrow side sprite game legibility remains pending.",
+    "game_acceptance": "pending",
+    "caveats": [
+      "Side-edge eye/dot protrusion is inferred from source, not a verified3Dfeature.",
+      "Thin plate thickness, fixed5wing roots and two tail depths/overlap are inferred; precise yaw unproven.",
+      "Sidepixel sprites are very narrow and wing edges naturally overlap; final game legibility acceptance pending.",
+      "Original source generation raw/attempt details unrecovered; fixed finalpair verified, knownSTOP absent in transfer evidence but history incomplete."
+    ],
+    "parent": "Parent final8pair review accepted with listed limitations on 2026-10-10T15:31Z."
+  }
+}

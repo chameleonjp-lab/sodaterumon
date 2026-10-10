@@ -1,0 +1,767 @@
+{
+  "schema_version": 1,
+  "id": "sm-winged-005",
+  "asset_type": "direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default",
+      "sha256": "4712ab9ef8b3031345375ecc827785a1fda6863e83657716c4a11841f8075353",
+      "bytes": 459494,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        80,
+        189,
+        944,
+        834
+      ],
+      "margins": [
+        80,
+        189,
+        80,
+        190
+      ],
+      "visible_longest": 864,
+      "visible_colors": 74011,
+      "alpha_values": "continuous permitted",
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/default.png",
+      "git_blob_sha": "77cbf4f227682beac85462ff6e1f367746d5b920",
+      "source_byte_identical": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "sha256": "66c7c0bcfb1b0fe47c6ab013e36ea3f29f6dded19cf55dd759537a8a55ad4ccb",
+      "bytes": 6159,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        10,
+        22,
+        118,
+        105
+      ],
+      "margins": [
+        10,
+        22,
+        10,
+        23
+      ],
+      "visible_longest": 108,
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/pixel.png",
+      "git_blob_sha": "003284033fc65396cb62feb572ccc6b6fb90dbc3",
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "default",
+      "sha256": "062d25bff96c1a84bebcd5e411eae1f3d33ea337699af5340b215681da06eb94",
+      "bytes": 560078,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        124,
+        928,
+        899
+      ],
+      "margins": [
+        96,
+        124,
+        96,
+        125
+      ],
+      "visible_longest": 832,
+      "visible_colors": 101858,
+      "alpha_values": "continuous permitted",
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/SW/default.png",
+      "git_blob_sha": "23507855446c8c9ed6f5b434c659b9a1671517d1",
+      "source_byte_identical": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "sha256": "d0753818cc062cb955b32c8675139b9f6cccc4aef823760812ccb0bb0edaf724",
+      "bytes": 9246,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        16,
+        116,
+        112
+      ],
+      "margins": [
+        12,
+        16,
+        12,
+        16
+      ],
+      "visible_longest": 104,
+      "visible_colors": 28,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/SW/pixel.png",
+      "git_blob_sha": "7a802879625bbe226cd1fb6a93853066bdb5d0d5",
+      "source_byte_identical": false
+    },
+    {
+      "direction": "W",
+      "kind": "default",
+      "sha256": "941e75871afc443136a6086b4e23ba7642cde5712e045efab65a161e4ac16920",
+      "bytes": 321137,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        368,
+        96,
+        655,
+        928
+      ],
+      "margins": [
+        368,
+        96,
+        369,
+        96
+      ],
+      "visible_longest": 832,
+      "visible_colors": 62409,
+      "alpha_values": "continuous permitted",
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/W/default.png",
+      "git_blob_sha": "1fba46c8d63366f583a92d8e52563778854c8122",
+      "source_byte_identical": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "sha256": "bbc01c143fc928d9949dc9f0ab3ba12f4e3d2f464f5639320c31c6bf6712c2bc",
+      "bytes": 5642,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        45,
+        12,
+        82,
+        116
+      ],
+      "margins": [
+        45,
+        12,
+        46,
+        12
+      ],
+      "visible_longest": 104,
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/W/pixel.png",
+      "git_blob_sha": "336d5ba1dd439deb630006df3522a93c6b7d7503",
+      "source_byte_identical": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default",
+      "sha256": "6302e9458be20d23d39cb483f72f47c40584bc102ef27f7272f1c510125f3a2c",
+      "bytes": 517928,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        141,
+        928,
+        882
+      ],
+      "margins": [
+        96,
+        141,
+        96,
+        142
+      ],
+      "visible_longest": 832,
+      "visible_colors": 78207,
+      "alpha_values": "continuous permitted",
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/NW/default.png",
+      "git_blob_sha": "a9efad2931b4c8c2118af84a557644dd8aa8eb60",
+      "source_byte_identical": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "sha256": "803013bde61f60d8d8d9fb7130d1812be25ae02b77d278e0e472b94d7124bc90",
+      "bytes": 8281,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        16,
+        116,
+        111
+      ],
+      "margins": [
+        12,
+        16,
+        12,
+        17
+      ],
+      "visible_longest": 104,
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/NW/pixel.png",
+      "git_blob_sha": "7d48e0e924429feefa3c213f8edf26844cd63ac6",
+      "source_byte_identical": false
+    },
+    {
+      "direction": "N",
+      "kind": "default",
+      "sha256": "8c5a8ebc0e7a0bfcd1ef7bb73af52df434f42d79e9cc143d896a7a036a6e62b9",
+      "bytes": 401253,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        214,
+        928,
+        810
+      ],
+      "margins": [
+        96,
+        214,
+        96,
+        214
+      ],
+      "visible_longest": 832,
+      "visible_colors": 67711,
+      "alpha_values": "continuous permitted",
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/N/default.png",
+      "git_blob_sha": "53448de4b79049cfea78e192c9319db4643a2f12",
+      "source_byte_identical": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "sha256": "c7508c7e08b4a4129c354954c1c5cbe185e5e7170e3a0c9221fb95824cd44e17",
+      "bytes": 6457,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        25,
+        116,
+        103
+      ],
+      "margins": [
+        12,
+        25,
+        12,
+        25
+      ],
+      "visible_longest": 104,
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/N/pixel.png",
+      "git_blob_sha": "13bad64a3f2d457e5e5ae6411f423f4fd9ff2543",
+      "source_byte_identical": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default",
+      "sha256": "c2c057de3841a61d7d5ad638feffbb00bcf095f69ffb7d4cf5865f333257b0a4",
+      "bytes": 518559,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        151,
+        928,
+        872
+      ],
+      "margins": [
+        96,
+        151,
+        96,
+        152
+      ],
+      "visible_longest": 832,
+      "visible_colors": 88273,
+      "alpha_values": "continuous permitted",
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/NE/default.png",
+      "git_blob_sha": "1cf821fd25e76997caa88e7be2248f4bbcd9612d",
+      "source_byte_identical": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "sha256": "78ebe55061b8f892708d99d09d893af879ec7d3a120b66b9af41cc1a2c74ef2b",
+      "bytes": 8024,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        19,
+        116,
+        108
+      ],
+      "margins": [
+        12,
+        19,
+        12,
+        20
+      ],
+      "visible_longest": 104,
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/NE/pixel.png",
+      "git_blob_sha": "bec87ff4f3eb2b6ccdcff239898abbcfe1eae3eb",
+      "source_byte_identical": false
+    },
+    {
+      "direction": "E",
+      "kind": "default",
+      "sha256": "6e60ae8e475ce6b90859256431caa1df40eb928775aec5933c639c02318f0072",
+      "bytes": 322900,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        356,
+        96,
+        667,
+        928
+      ],
+      "margins": [
+        356,
+        96,
+        357,
+        96
+      ],
+      "visible_longest": 832,
+      "visible_colors": 66848,
+      "alpha_values": "continuous permitted",
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/E/default.png",
+      "git_blob_sha": "7a408d1487d47bd663eb1b64aa4018f28578eb55",
+      "source_byte_identical": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "sha256": "bf5711b05e6b27d9ce764008172dcd7edddc854cb69a1e419f82d0a1e096e114",
+      "bytes": 5631,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        44,
+        12,
+        84,
+        116
+      ],
+      "margins": [
+        44,
+        12,
+        44,
+        12
+      ],
+      "visible_longest": 104,
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/E/pixel.png",
+      "git_blob_sha": "4753996c1878ce9e064ef56341499f92317f4801",
+      "source_byte_identical": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default",
+      "sha256": "a5acccc25d36d54e8cc193939b08a2fbb6fddd63700157fbcc9bf6814b0ae4dd",
+      "bytes": 603184,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        96,
+        928,
+        928
+      ],
+      "margins": [
+        96,
+        96,
+        96,
+        96
+      ],
+      "visible_longest": 832,
+      "visible_colors": 114373,
+      "alpha_values": "continuous permitted",
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/SE/default.png",
+      "git_blob_sha": "e35bb1ad563248b18b2f7e31e07fa3fb345095a9",
+      "source_byte_identical": false
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "sha256": "d1583f0191e92eec5bb04ac753ad2445f40013a59a10063c6857695793567317",
+      "bytes": 9168,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        14,
+        116,
+        114
+      ],
+      "margins": [
+        12,
+        14,
+        12,
+        14
+      ],
+      "visible_longest": 104,
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "numeric_pass": true,
+      "file": "assets/monsters/winged/sm-winged-005/directions/SE/pixel.png",
+      "git_blob_sha": "c06c82f4a1ccf417db1845cec99235df301e1e2f",
+      "source_byte_identical": false
+    }
+  ],
+  "generation_provenance": [
+    {
+      "adopted_direction": "SW",
+      "requested_direction": "SE",
+      "kind": "default",
+      "prompt": "Use case: identity-preserve. One normal game sprite of exactly the same individual as the original front reference. It is an upright teal-and-gold braided ring with one open center, four eyes mounted ONLY on its upper FRONT arc (two larger central and two smaller outer), exactly two pale leaf-membrane wings with gold veins extending from opposite left/right middle attachment points, no legs, and one centrally descending braided tail ending in one pale leaf-shaped bulb. Rotate the whole individual only around the vertical axis; keep the same camera height, scale, upright pose, body thickness, fixed wing roots and tail attachment. Do not flatten this into a symbol, move eyes onto its back, duplicate the tail, or rotate individual parts independently. Preserve detailed painterly leaf fibers, original teal/gold/cream palette and shading. Wing panels stay in their original outspread pose. Transparent background, full character centered with generous margins, no text or floor. Target SE315: front-right three-quarter. Front-facing eye surface turns toward screen RIGHT, with near right arc in front and far left arc receding; central hole is foreshortened to a vertical oval. Screen-left wing is farther and narrower, screen-right wing is nearer and broader. Keep four eyes at their fixed upper front arc locations with natural far-side partial occlusion; do not move eyes onto the side wall.",
+      "raw_sha256": "b077450a57d2885aea1b15b81d99a938d582a985f0de2b2a3c8ab6c33dc8460b",
+      "output_sha256": "062d25bff96c1a84bebcd5e411eae1f3d33ea337699af5340b215681da06eb94",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "4712ab9ef8b3031345375ecc827785a1fda6863e83657716c4a11841f8075353"
+        }
+      ]
+    },
+    {
+      "adopted_direction": "SW",
+      "requested_direction": "SW",
+      "kind": "pixel",
+      "prompt": "Use case: style-transfer. Create ONE crisp pixel-art sprite of exactly the same character and exactly the same view/pose as image1 (the approved normal-direction image). Image2 is only the original pixel style/palette reference; DO NOT copy its frontal view. Preserve image1 silhouette, eye visibility and placement, braided ring hole opening or side closure, two leaf wings including foreshortening/overlap, single descending braided tail and single pale leaf bulb. No extra eyes on the back or side, no new body parts, no pose change. Deliberate chunky pixel clusters, dark teal outline, teal/gold/cream palette with at most32 visible colors, no smooth antialiasing or gradients. 128x128-style game sprite, centered with transparent background and ample margin. No text, labels, floor or shadow. Adopted direction: SW. Match image1 exactly; four eyes total with natural view occlusion.",
+      "raw_sha256": "e9c09523a565a3aea700e8341f25dd0e8cd1c4afe69ca692a62cf1c07470832b",
+      "output_sha256": "d0753818cc062cb955b32c8675139b9f6cccc4aef823760812ccb0bb0edaf724",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "062d25bff96c1a84bebcd5e411eae1f3d33ea337699af5340b215681da06eb94"
+        },
+        {
+          "input_index": 2,
+          "sha256": "66c7c0bcfb1b0fe47c6ab013e36ea3f29f6dded19cf55dd759537a8a55ad4ccb"
+        }
+      ]
+    },
+    {
+      "adopted_direction": "W",
+      "requested_direction": "W",
+      "kind": "default",
+      "prompt": "Use case: precise-object-edit. Correct image1, the LEFT side profile, to match the geometric foreshortening of image2 (opposite RIGHT side profile), while preserving the same individual shown in image3 original. Keep the front facing screen LEFT. Image1 currently wrongly spreads three full eyes over the side and shows broad wings. Change ONLY these projection errors: eyes belong on the hidden front surface and should be almost fully occluded, leaving at most two very thin partial eye slivers on the extreme LEFT contour. No full round eye on the broad braided side. Make the two wing panels naturally overlap and foreshorten in depth, as in image2, rather than large broad leaves stretching backward. Keep the upright narrow braided-ring edge, central hole hidden, fixed two opposite wing roots, single braided hanging tail with one pale bulb, same original thickness, teal/gold/cream fibers and illustration style. Transparent background, full body, ample padding. Do not mirror the reference image; draw the correct left profile of the same individual.",
+      "raw_sha256": "acc34fc0065b8192da319c6668db1698409fd720a0ec7d603f0208877de22fe3",
+      "output_sha256": "941e75871afc443136a6086b4e23ba7642cde5712e045efab65a161e4ac16920",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "90589a29bd9e716c275c0fd2286855b123fb34011136ac987e3509897d28f1f4"
+        },
+        {
+          "input_index": 2,
+          "sha256": "cb808b815ba533bc1a1a5232f7a413fe725c24ddabe0adb8bdcb45428fdbbeb3"
+        },
+        {
+          "input_index": 3,
+          "sha256": "4712ab9ef8b3031345375ecc827785a1fda6863e83657716c4a11841f8075353"
+        }
+      ]
+    },
+    {
+      "adopted_direction": "W",
+      "requested_direction": "W",
+      "kind": "pixel",
+      "prompt": "Use case: style-transfer. Create ONE crisp pixel-art sprite of exactly the same character and exactly the same view/pose as image1 (the approved normal-direction image). Image2 is only the original pixel style/palette reference; DO NOT copy its frontal view. Preserve image1 silhouette, eye visibility and placement, braided ring hole opening or side closure, two leaf wings including foreshortening/overlap, single descending braided tail and single pale leaf bulb. No extra eyes on the back or side, no new body parts, no pose change. Deliberate chunky pixel clusters, dark teal outline, teal/gold/cream palette with at most32 visible colors, no smooth antialiasing or gradients. 128x128-style game sprite, centered with transparent background and ample margin. No text, labels, floor or shadow. Adopted direction: W. Match image1 exactly; four eyes total with natural view occlusion.",
+      "raw_sha256": "27a39e0c3860ffbf0392d76fd5d0c4d49e19619a147cd08430b267ee10a32dcf",
+      "output_sha256": "bbc01c143fc928d9949dc9f0ab3ba12f4e3d2f464f5639320c31c6bf6712c2bc",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "941e75871afc443136a6086b4e23ba7642cde5712e045efab65a161e4ac16920"
+        },
+        {
+          "input_index": 2,
+          "sha256": "66c7c0bcfb1b0fe47c6ab013e36ea3f29f6dded19cf55dd759537a8a55ad4ccb"
+        }
+      ]
+    },
+    {
+      "adopted_direction": "NW",
+      "requested_direction": "NE",
+      "kind": "default",
+      "prompt": "Use case: identity-preserve. One normal game sprite of exactly the same individual as the original front reference. It is an upright teal-and-gold braided ring with one open center, four eyes mounted ONLY on its upper FRONT arc (two larger central and two smaller outer), exactly two pale leaf-membrane wings with gold veins extending from opposite left/right middle attachment points, no legs, and one centrally descending braided tail ending in one pale leaf-shaped bulb. Rotate the whole individual only around the vertical axis; keep the same camera height, scale, upright pose, body thickness, fixed wing roots and tail attachment. Do not flatten this into a symbol, move eyes onto its back, duplicate the tail, or rotate individual parts independently. Preserve detailed painterly leaf fibers, original teal/gold/cream palette and shading. Wing panels stay in their original outspread pose. Transparent background, full character centered with generous margins, no text or floor. Target NE225: back-right three-quarter, the FRONT points away toward upper-right. Show only plain braided back, NO eyes anywhere. Central hole becomes a vertical oval. Screen-left wing is nearer and broader; screen-right wing is farther and foreshortened. Preserve the original upright ring and descending tail, do not lean or roll.",
+      "raw_sha256": "1f783e629489baaeac681ef6b165a8ecd1de7078fc0dd42f9f6cc09a2a6effff",
+      "output_sha256": "6302e9458be20d23d39cb483f72f47c40584bc102ef27f7272f1c510125f3a2c",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "4712ab9ef8b3031345375ecc827785a1fda6863e83657716c4a11841f8075353"
+        }
+      ]
+    },
+    {
+      "adopted_direction": "NW",
+      "requested_direction": "NW",
+      "kind": "pixel",
+      "prompt": "Use case: precise-object-edit. Image1 is a pixel sprite with an error: it has added eye-like black/white dots inside gold rings on the visible rear braid. Remove ALL those eye motifs and restore continuous teal-and-gold braided strands exactly matching image2, the correct normal BACK view. This is the BACK of a winged ring, so ZERO eyes are visible anywhere. Keep image1 pixel style, silhouette, hole, two pale veined wings, original wing overlap, one braided descending tail and pale bulb unchanged. Only repair the mistaken eye patches into ordinary uninterrupted braid, no new ornament or spots. Crisp 128x128-style pixel art, limited32-color palette, transparent background, full subject, no text.",
+      "raw_sha256": "8d341b40ab3626633770cd9c8386504a33e6f9b104a40268cad88339fa29258b",
+      "output_sha256": "803013bde61f60d8d8d9fb7130d1812be25ae02b77d278e0e472b94d7124bc90",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "35f8b591e76f53ac6655d6110dc5efad573bf551b2537579f7bcb3b31ce7f309"
+        },
+        {
+          "input_index": 2,
+          "sha256": "6302e9458be20d23d39cb483f72f47c40584bc102ef27f7272f1c510125f3a2c"
+        }
+      ]
+    },
+    {
+      "adopted_direction": "N",
+      "requested_direction": "N",
+      "kind": "default",
+      "prompt": "Use case: identity-preserve. One normal game sprite of exactly the same individual as the original front reference. It is an upright teal-and-gold braided ring with one open center, four eyes mounted ONLY on its upper FRONT arc (two larger central and two smaller outer), exactly two pale leaf-membrane wings with gold veins extending from opposite left/right middle attachment points, no legs, and one centrally descending braided tail ending in one pale leaf-shaped bulb. Rotate the whole individual only around the vertical axis; keep the same camera height, scale, upright pose, body thickness, fixed wing roots and tail attachment. Do not flatten this into a symbol, move eyes onto its back, duplicate the tail, or rotate individual parts independently. Preserve detailed painterly leaf fibers, original teal/gold/cream palette and shading. Wing panels stay in their original outspread pose. Transparent background, full character centered with generous margins, no text or floor. Target N180: straight BACK view, perfectly centered and symmetric. All four eyes are on the hidden front surface, so show NO eyes anywhere. Full round central hole and broad unmarked back of braided ring, one leaf wing extending equally left and right, one tail hanging straight below the center. Preserve original proportions.",
+      "raw_sha256": "941b264793a47e8c82e6d48507918a491e5298d997edf574b491da99c57110b1",
+      "output_sha256": "8c5a8ebc0e7a0bfcd1ef7bb73af52df434f42d79e9cc143d896a7a036a6e62b9",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "4712ab9ef8b3031345375ecc827785a1fda6863e83657716c4a11841f8075353"
+        }
+      ]
+    },
+    {
+      "adopted_direction": "N",
+      "requested_direction": "N",
+      "kind": "pixel",
+      "prompt": "Use case: precise-object-edit. Image1 is a pixel sprite with an error: it has added eye-like black/white dots inside gold rings on the visible rear braid. Remove ALL those eye motifs and restore continuous teal-and-gold braided strands exactly matching image2, the correct normal BACK view. This is the BACK of a winged ring, so ZERO eyes are visible anywhere. Keep image1 pixel style, silhouette, hole, two pale veined wings, original wing overlap, one braided descending tail and pale bulb unchanged. Only repair the mistaken eye patches into ordinary uninterrupted braid, no new ornament or spots. Crisp 128x128-style pixel art, limited32-color palette, transparent background, full subject, no text.",
+      "raw_sha256": "3c7dd1f846380a5e0959c7af6ad124e68b5f4e03d79112939b6a44eb9ce917c6",
+      "output_sha256": "c7508c7e08b4a4129c354954c1c5cbe185e5e7170e3a0c9221fb95824cd44e17",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "b5bcb41976d70ae0df38148f0d7d661e526f968df03f927c18ecae30935dfcb3"
+        },
+        {
+          "input_index": 2,
+          "sha256": "8c5a8ebc0e7a0bfcd1ef7bb73af52df434f42d79e9cc143d896a7a036a6e62b9"
+        }
+      ]
+    },
+    {
+      "adopted_direction": "NE",
+      "requested_direction": "NW",
+      "kind": "default",
+      "prompt": "Use case: identity-preserve. One normal game sprite of exactly the same individual as the original front reference. It is an upright teal-and-gold braided ring with one open center, four eyes mounted ONLY on its upper FRONT arc (two larger central and two smaller outer), exactly two pale leaf-membrane wings with gold veins extending from opposite left/right middle attachment points, no legs, and one centrally descending braided tail ending in one pale leaf-shaped bulb. Rotate the whole individual only around the vertical axis; keep the same camera height, scale, upright pose, body thickness, fixed wing roots and tail attachment. Do not flatten this into a symbol, move eyes onto its back, duplicate the tail, or rotate individual parts independently. Preserve detailed painterly leaf fibers, original teal/gold/cream palette and shading. Wing panels stay in their original outspread pose. Transparent background, full character centered with generous margins, no text or floor. Target NW135: back-left three-quarter, front points away toward upper-left, rear surface faces viewer and screen RIGHT. Show the plain braided BACK of the upper arc with NO eyes anywhere, an obliquely narrowed central ring hole and rim thickness, unequal foreshortened wing panels at unchanged lateral roots. Tail hangs from the same bottom attachment.",
+      "raw_sha256": "e3d3d5ad3f79d753171eb3a4a0755ae4ba38357157c98910f42c36dfdfe583f5",
+      "output_sha256": "c2c057de3841a61d7d5ad638feffbb00bcf095f69ffb7d4cf5865f333257b0a4",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "4712ab9ef8b3031345375ecc827785a1fda6863e83657716c4a11841f8075353"
+        }
+      ]
+    },
+    {
+      "adopted_direction": "NE",
+      "requested_direction": "NE",
+      "kind": "pixel",
+      "prompt": "Use case: style-transfer. Create ONE crisp pixel-art sprite of exactly the same character and exactly the same view/pose as image1 (the approved normal-direction image). Image2 is only the original pixel style/palette reference; DO NOT copy its frontal view. Preserve image1 silhouette, eye visibility and placement, braided ring hole opening or side closure, two leaf wings including foreshortening/overlap, single descending braided tail and single pale leaf bulb. No extra eyes on the back or side, no new body parts, no pose change. Deliberate chunky pixel clusters, dark teal outline, teal/gold/cream palette with at most32 visible colors, no smooth antialiasing or gradients. 128x128-style game sprite, centered with transparent background and ample margin. No text, labels, floor or shadow. Adopted direction: NE. Match image1 exactly; four eyes total with natural view occlusion.",
+      "raw_sha256": "bd80707dffa7141e965b668b4a3b2efa8e70c69ec6df80fee85e3575b0d39b43",
+      "output_sha256": "78ebe55061b8f892708d99d09d893af879ec7d3a120b66b9af41cc1a2c74ef2b",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "c2c057de3841a61d7d5ad638feffbb00bcf095f69ffb7d4cf5865f333257b0a4"
+        },
+        {
+          "input_index": 2,
+          "sha256": "66c7c0bcfb1b0fe47c6ab013e36ea3f29f6dded19cf55dd759537a8a55ad4ccb"
+        }
+      ]
+    },
+    {
+      "adopted_direction": "E",
+      "requested_direction": "E",
+      "kind": "default",
+      "prompt": "Use case: identity-preserve. One normal game sprite of exactly the same individual as the original front reference. It is an upright teal-and-gold braided ring with one open center, four eyes mounted ONLY on its upper FRONT arc (two larger central and two smaller outer), exactly two pale leaf-membrane wings with gold veins extending from opposite left/right middle attachment points, no legs, and one centrally descending braided tail ending in one pale leaf-shaped bulb. Rotate the whole individual only around the vertical axis; keep the same camera height, scale, upright pose, body thickness, fixed wing roots and tail attachment. Do not flatten this into a symbol, move eyes onto its back, duplicate the tail, or rotate individual parts independently. Preserve detailed painterly leaf fibers, original teal/gold/cream palette and shading. Wing panels stay in their original outspread pose. Transparent background, full character centered with generous margins, no text or floor. Target E270: strict RIGHT side profile, FRONT points screen RIGHT. Show the thickness/edge of the upright ring so the hole is fully or nearly occluded. Eyes on the front face must be almost entirely hidden, at most very narrow partial slivers on the right contour, not large eyes spread across the side. The two originally outspread wings project nearly along the viewing direction and overlap behind the rim; both are foreshortened, not broad leaves extending to the back. Tail descends beneath ring.",
+      "raw_sha256": "cb808b815ba533bc1a1a5232f7a413fe725c24ddabe0adb8bdcb45428fdbbeb3",
+      "output_sha256": "6e60ae8e475ce6b90859256431caa1df40eb928775aec5933c639c02318f0072",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "4712ab9ef8b3031345375ecc827785a1fda6863e83657716c4a11841f8075353"
+        }
+      ]
+    },
+    {
+      "adopted_direction": "E",
+      "requested_direction": "E",
+      "kind": "pixel",
+      "prompt": "Use case: style-transfer. Create ONE crisp pixel-art sprite of exactly the same character and exactly the same view/pose as image1 (the approved normal-direction image). Image2 is only the original pixel style/palette reference; DO NOT copy its frontal view. Preserve image1 silhouette, eye visibility and placement, braided ring hole opening or side closure, two leaf wings including foreshortening/overlap, single descending braided tail and single pale leaf bulb. No extra eyes on the back or side, no new body parts, no pose change. Deliberate chunky pixel clusters, dark teal outline, teal/gold/cream palette with at most32 visible colors, no smooth antialiasing or gradients. 128x128-style game sprite, centered with transparent background and ample margin. No text, labels, floor or shadow. Adopted direction: E. Match image1 exactly; four eyes total with natural view occlusion.",
+      "raw_sha256": "a1bc552307785345d5d53d2ca699de48e69558059efd6a7e7e7800ca3f541a03",
+      "output_sha256": "bf5711b05e6b27d9ce764008172dcd7edddc854cb69a1e419f82d0a1e096e114",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "6e60ae8e475ce6b90859256431caa1df40eb928775aec5933c639c02318f0072"
+        },
+        {
+          "input_index": 2,
+          "sha256": "66c7c0bcfb1b0fe47c6ab013e36ea3f29f6dded19cf55dd759537a8a55ad4ccb"
+        }
+      ]
+    },
+    {
+      "adopted_direction": "SE",
+      "requested_direction": "SW",
+      "kind": "default",
+      "prompt": "Use case: identity-preserve. One normal game sprite of exactly the same individual as the original front reference. It is an upright teal-and-gold braided ring with one open center, four eyes mounted ONLY on its upper FRONT arc (two larger central and two smaller outer), exactly two pale leaf-membrane wings with gold veins extending from opposite left/right middle attachment points, no legs, and one centrally descending braided tail ending in one pale leaf-shaped bulb. Rotate the whole individual only around the vertical axis; keep the same camera height, scale, upright pose, body thickness, fixed wing roots and tail attachment. Do not flatten this into a symbol, move eyes onto its back, duplicate the tail, or rotate individual parts independently. Preserve detailed painterly leaf fibers, original teal/gold/cream palette and shading. Wing panels stay in their original outspread pose. Transparent background, full character centered with generous margins, no text or floor. Target SW45: front-left three-quarter view, the FRONT surface faces toward screen LEFT. The ring hole becomes a moderately foreshortened vertical oval, with real braided rim thickness. Front eyes turn with their fixed surface and the far outer eye can naturally become partly occluded. Near and far wings show unequal projected width, not two equally broad frontal rectangles.",
+      "raw_sha256": "a8ab1abc3da2505fc6f093c81769dafb72d3aea523ed8959ea2c42ed8945df3a",
+      "output_sha256": "a5acccc25d36d54e8cc193939b08a2fbb6fddd63700157fbcc9bf6814b0ae4dd",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "4712ab9ef8b3031345375ecc827785a1fda6863e83657716c4a11841f8075353"
+        }
+      ]
+    },
+    {
+      "adopted_direction": "SE",
+      "requested_direction": "SE",
+      "kind": "pixel",
+      "prompt": "Use case: style-transfer. Create ONE crisp pixel-art sprite of exactly the same character and exactly the same view/pose as image1 (the approved normal-direction image). Image2 is only the original pixel style/palette reference; DO NOT copy its frontal view. Preserve image1 silhouette, eye visibility and placement, braided ring hole opening or side closure, two leaf wings including foreshortening/overlap, single descending braided tail and single pale leaf bulb. No extra eyes on the back or side, no new body parts, no pose change. Deliberate chunky pixel clusters, dark teal outline, teal/gold/cream palette with at most32 visible colors, no smooth antialiasing or gradients. 128x128-style game sprite, centered with transparent background and ample margin. No text, labels, floor or shadow. Adopted direction: SE. Match image1 exactly; four eyes total with natural view occlusion.",
+      "raw_sha256": "27b981c882cc6f97f323dd6f503455cbb4ca4d99192e7f4be8e6a3f57113a6fb",
+      "output_sha256": "d1583f0191e92eec5bb04ac753ad2445f40013a59a10063c6857695793567317",
+      "reference_hashes": [
+        {
+          "input_index": 1,
+          "sha256": "a5acccc25d36d54e8cc193939b08a2fbb6fddd63700157fbcc9bf6814b0ae4dd"
+        },
+        {
+          "input_index": 2,
+          "sha256": "66c7c0bcfb1b0fe47c6ab013e36ea3f29f6dded19cf55dd759537a8a55ad4ccb"
+        }
+      ]
+    }
+  ],
+  "direction_selection_note": "Diagonal raw requested labels SW/SE and NW/NE were reassigned after actual image inspection of wing near/far width and front/back rim face. Both requested and adopted labels are preserved. No image mirroring was used.",
+  "historical_provenance_note": "Fixed original pair is byte-identical. Original source meta states old detailed generation attempts are not completely recovered. Added direction calls have recorded prompts/raw/reference hashes.",
+  "technical_finish": {
+    "normal": "Alpha below8 cleared; uniform LANCZOS fit visible longest832; transparent centered1024 canvas.",
+    "pixel": "Alpha threshold128; at most31 RGB colors without dithering; single uniform nearest-neighbor fit longest104; transparent centered128 canvas.",
+    "original": "Original S pair copied byte-for-byte without finishing."
+  },
+  "qa": {
+    "numeric_hash": "All16 slots passed dimensions, margins, visible extents; pixels binary alpha and at most32 visible colors.",
+    "visual": "Front4 eyes, side partial2, rear0; frontal ring hole and side closure checked against normal/pixel pairs. N/NW erroneous pixel eyes corrected. White/black sheets inspected. Independent integration review pending.",
+    "limitations": [
+      "Direction-dependent apparent size differences remain",
+      "Exact45-degree angles and rigid ring braid/wing-root depth consistency unproven",
+      "Back braid and depth inferred from a single original view"
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending",
+    "independent": "E all16 numeric/hash passed; all8pair comparison and original-size N/NWpixel and E normal reviewed. Rear extra-eye correction and ring/profile correspondence confirmed within listed limitations.",
+    "source_history": "Available original meta has no explicit safety-stop marker. Detailed original attempt history is missing, so historical completeness is unproven."
+  }
+}
