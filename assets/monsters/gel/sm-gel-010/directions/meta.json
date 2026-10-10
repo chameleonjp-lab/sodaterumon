@@ -1,0 +1,568 @@
+{
+  "schema_version": 1,
+  "id": "sm-gel-010",
+  "asset_type": "eight_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "direction_definition": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-010/default.png",
+      "bytes": 505731,
+      "sha256": "2460635e2a5891670b3db48d02af691f037ca14f997582524e58a7a74966297d",
+      "git_blob_sha": "58db981b4e71bf1755d1d7831c1d420bd6e35609",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        149,
+        85,
+        956,
+        904
+      ],
+      "visible_extent": 819,
+      "visible_colors": 44403,
+      "binary_alpha": false,
+      "original_preserved": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-010/pixel.png",
+      "bytes": 6023,
+      "sha256": "7e10152b08ea642b5d2ebbf3f4a20b02add9bae593c589b297aeea379cfea0e4",
+      "git_blob_sha": "642da7daef43ea4018f64d120505ba9cc91f0e48",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        13,
+        12,
+        115,
+        116
+      ],
+      "visible_extent": 104,
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": true
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/SW/default.png",
+      "bytes": 383476,
+      "sha256": "ec5e228524823336fe8d0f9902883d20ab9099bf6d876027e28fbc7777e28f45",
+      "git_blob_sha": "90f77d34102bdbf4b6f63f5f8c28cfbaf23d4187",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        244,
+        96,
+        780,
+        927
+      ],
+      "visible_extent": 831,
+      "visible_colors": 38534,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/SW/pixel.png",
+      "bytes": 6828,
+      "sha256": "dbc4faa781eba6f6dd3133f98e4a76bc9a5887b8bf3230e4cbabd9b7f995b2b0",
+      "git_blob_sha": "1c49ca8eaacbb384c4786fd68b951bb5dd5a3a1f",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        25,
+        12,
+        102,
+        116
+      ],
+      "visible_extent": 104,
+      "visible_colors": 21,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/W/default.png",
+      "bytes": 293591,
+      "sha256": "73644ffe7a10ae839685a6140dd6bf640919af20bb18293fd2ed82a4c355a455",
+      "git_blob_sha": "535cd0385c40e98a7d3b0d1e7b4143432cc6bffa",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        347,
+        97,
+        676,
+        927
+      ],
+      "visible_extent": 830,
+      "visible_colors": 32584,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/W/pixel.png",
+      "bytes": 5422,
+      "sha256": "eb52ce89ce46533aacfba4cf07a5e07d723e8372099d059c3899a35e14b7d579",
+      "git_blob_sha": "935de559a31173d72f74a840631189bd2a24b651",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        42,
+        12,
+        85,
+        116
+      ],
+      "visible_extent": 104,
+      "visible_colors": 22,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/NW/default.png",
+      "bytes": 380449,
+      "sha256": "1fc18370351cb4fd40f8d3a735ab220cb02b6c42ddada588a81f05310ffadb8b",
+      "git_blob_sha": "963767af1e7bf5721597c9f8f2c625f3b5650e9f",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        194,
+        97,
+        830,
+        928
+      ],
+      "visible_extent": 831,
+      "visible_colors": 26037,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/NW/pixel.png",
+      "bytes": 5930,
+      "sha256": "ce0c45eab00a8c578a6ff1910e9273e86301ad060544c0411d238dd71bf28cd4",
+      "git_blob_sha": "457e564131e2c3d11cbc5e30cb033c93516871b1",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        26,
+        12,
+        102,
+        116
+      ],
+      "visible_extent": 104,
+      "visible_colors": 21,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/N/default.png",
+      "bytes": 444909,
+      "sha256": "19c90247ab02bc9c24693bfcc234797277b846bfebebd2f9892ba1302fabca41",
+      "git_blob_sha": "1d878c017851cd7f01634854e4bfa2b6f24f05e0",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        138,
+        97,
+        885,
+        927
+      ],
+      "visible_extent": 830,
+      "visible_colors": 26352,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/N/pixel.png",
+      "bytes": 7104,
+      "sha256": "756ec09f5490158c85d4c2de88ba0acbc0719a21adcc144a1a592866868cf53b",
+      "git_blob_sha": "5ecbf9e6264657539c296cd09ac65899420cc0d9",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        17,
+        12,
+        111,
+        116
+      ],
+      "visible_extent": 104,
+      "visible_colors": 22,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/NE/default.png",
+      "bytes": 392205,
+      "sha256": "ad3f82230621df2e303eb61c2371a7a65919d8aafee8e498f21792f6829ecd38",
+      "git_blob_sha": "b8ee21a0893540213f0a3b4521e422277ca61529",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        194,
+        96,
+        828,
+        927
+      ],
+      "visible_extent": 831,
+      "visible_colors": 24847,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/NE/pixel.png",
+      "bytes": 6183,
+      "sha256": "67221679e49de4565fe72edc57f14a79c9244856708ba72f1ec5f6af491b9472",
+      "git_blob_sha": "234de849b968fbb40cadc575845461ad068dc5cf",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        23,
+        12,
+        104,
+        116
+      ],
+      "visible_extent": 104,
+      "visible_colors": 21,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/E/default.png",
+      "bytes": 279167,
+      "sha256": "ce586f37b587c4e4cdb4730a86c2f4998f449e0330afe0136e7e26e5b2a588c7",
+      "git_blob_sha": "4e6b003b8866d3e9b3fe8b1bd699b339c6ce8537",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        351,
+        96,
+        672,
+        927
+      ],
+      "visible_extent": 831,
+      "visible_colors": 32652,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/E/pixel.png",
+      "bytes": 5137,
+      "sha256": "4c3388314fc2442eed4a5f691485db83c5d43ee80384c165bef6c440bb1396fa",
+      "git_blob_sha": "dcbf0b5237dbeff9c52a97e584b07acb7ee91e03",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        43,
+        12,
+        84,
+        116
+      ],
+      "visible_extent": 104,
+      "visible_colors": 21,
+      "binary_alpha": true,
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/SE/default.png",
+      "bytes": 441573,
+      "sha256": "75876983170ae25c5768d9771b3a8464284274b6cd7c58bf9622e76782ac8259",
+      "git_blob_sha": "074b6cad6fd5f3f7aa0f58e3d1571c7983c783a5",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        180,
+        96,
+        844,
+        928
+      ],
+      "visible_extent": 832,
+      "visible_colors": 42106,
+      "binary_alpha": false,
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-010/directions/SE/pixel.png",
+      "bytes": 7110,
+      "sha256": "480f6a61bb8d7f111eb227bc062c7d067c35df07829f4cfaa7bee09ddae57144",
+      "git_blob_sha": "3dbcf240a1e2d4bacf1311e2c2fdf145706bebde",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        20,
+        12,
+        108,
+        116
+      ],
+      "visible_extent": 104,
+      "visible_colors": 21,
+      "binary_alpha": true,
+      "original_preserved": false
+    }
+  ],
+  "provenance": [
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final_sha256": "ec5e228524823336fe8d0f9902883d20ab9099bf6d876027e28fbc7777e28f45",
+      "raw_sha256": "d452b74ae76e803b8d8c708ac023cb8571a513ee677d6feb6e1617b1afea7f92",
+      "prompt": "Use case: identity-preserve. Single normal game sprite, this exact mint translucent Y-shaped gel creature. Keep two bulbous upper branches with one blue eye on each FRONT face, one cream pearl embedded on FRONT at fork, two short rounded feet, same uneven branch heights (original screen-right anatomical-left branch taller), same curved slim trunk and creamy mint jelly texture. No new arms, tails or parts. Rigid yaw rotation only, no stretching/reposing, camera elevation around 15 degrees constant, full body transparent background, original outlined glossy illustration. Requested SW front-left three-quarter at 45 degrees. Front points lower-left. Both front eyes and front pearl visible but foreshortened; broad Y becomes intermediate width between original front and W reference2. Shorter near anatomical right branch projects screen-left; taller far anatomical left branch behind to screen-right. Preserve original branch lengths, central fork height, two feet and fixed stance. True intermediate yaw, not flat image rotation.",
+      "generation_reference_sha256": [
+        "2460635e2a5891670b3db48d02af691f037ca14f997582524e58a7a74966297d",
+        "73644ffe7a10ae839685a6140dd6bf640919af20bb18293fd2ed82a4c355a455"
+      ],
+      "evidence": "Pre-reset prompt recovered from executed tool text. Raw/final assets recovered and their pixel-processing relationship independently recomputed exactly; current hashes recomputed after recovery. Pre-reset checkpoint hash file unavailable, so no direct pre-reset hash comparison claimed.",
+      "raw_retained_separately": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final_sha256": "dbc4faa781eba6f6dd3133f98e4a76bc9a5887b8bf3230e4cbabd9b7f995b2b0",
+      "raw_sha256": "b5c06e7a50c758acbd7bfd772aed761880392f50adb4b285d25d6ffaff5855b7",
+      "prompt": "Use case: style-transfer. Create ONE pixel-art game sprite from image1 normal, using image2 original pixel solely for palette and pixel cluster style. Preserve image1 EXACT yaw, silhouette, relative sizes, curved trunk, two unequal upper lobes, visible eye count and location, pearl visibility and two feet. Mint translucent jelly with pale cream and dark blue outline/eyes, limited palette about24 colors. Coarse crisp pixel clusters as a128x128 sprite, no smooth antialiasing, no text, transparent background. Do not turn, mirror or re-pose. Direction SW front-left, short near lobe on left, taller far lobe right, both eyes and front pearl visible, preserve narrow oblique body.",
+      "generation_reference_sha256": [
+        "ec5e228524823336fe8d0f9902883d20ab9099bf6d876027e28fbc7777e28f45",
+        "7e10152b08ea642b5d2ebbf3f4a20b02add9bae593c589b297aeea379cfea0e4"
+      ],
+      "evidence": "Prompt and references recorded at execution; raw/final hashes computed from saved bytes.",
+      "raw_retained_separately": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final_sha256": "73644ffe7a10ae839685a6140dd6bf640919af20bb18293fd2ed82a4c355a455",
+      "raw_sha256": "6e345ec46b661d2cd6e6783713dfe0c9c8cd3fee880fcc1656ae0702c63c7436",
+      "prompt": "Use case: identity-preserve. Single normal game sprite, this exact mint translucent Y-shaped gel creature. Keep two bulbous upper branches with one blue eye on each FRONT face, one cream pearl embedded on FRONT at fork, two short rounded feet, same uneven branch heights (original screen-right anatomical-left branch taller), same curved slim trunk and creamy mint jelly texture. No new arms, tails or parts. Rigid yaw rotation only, no stretching/reposing, camera elevation around 15 degrees constant, full body transparent background, original outlined glossy illustration. Requested W exact left profile, front points screen left. Y branches align in depth and overlap, becoming a narrow vertical profile, NOT the same broad Y turned as a flat image. Near anatomical right branch is the shorter one; tall far branch peeks above behind it. Eyes lie at left edge of each lobe, far eye occluded if hidden by near branch. Central front pearl is strongly foreshortened on left edge of trunk. Feet overlap in depth. Preserve branch lengths and fixed curved stance.",
+      "generation_reference_sha256": [
+        "2460635e2a5891670b3db48d02af691f037ca14f997582524e58a7a74966297d"
+      ],
+      "evidence": "Pre-reset prompt recovered from executed tool text. Raw/final assets recovered and their pixel-processing relationship independently recomputed exactly; current hashes recomputed after recovery. Pre-reset checkpoint hash file unavailable, so no direct pre-reset hash comparison claimed.",
+      "raw_retained_separately": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final_sha256": "eb52ce89ce46533aacfba4cf07a5e07d723e8372099d059c3899a35e14b7d579",
+      "raw_sha256": "ffb21d29b5d4cb124e4330ea560dcbe7bcc6931c9491986259a046704412c779",
+      "prompt": "Use case: style-transfer. Create ONE pixel-art game sprite from image1 normal, using image2 original pixel solely for palette and pixel cluster style. Preserve image1 EXACT yaw, silhouette, relative sizes, curved trunk, two unequal upper lobes, visible eye count and location, pearl visibility and two feet. Mint translucent jelly with pale cream and dark blue outline/eyes, limited palette about24 colors. Coarse crisp pixel clusters as a128x128 sprite, no smooth antialiasing, no text, transparent background. Do not turn, mirror or re-pose. Direction W left profile, narrow overlapping lobes, near shorter lobe in front and far tall lobe peeking above. Both eyes at LEFT edges as reference1. Pearl foreshortened on left edge, overlapping two feet. Do not widen Y.",
+      "generation_reference_sha256": [
+        "73644ffe7a10ae839685a6140dd6bf640919af20bb18293fd2ed82a4c355a455",
+        "7e10152b08ea642b5d2ebbf3f4a20b02add9bae593c589b297aeea379cfea0e4"
+      ],
+      "evidence": "Prompt and references recorded at execution; raw/final hashes computed from saved bytes.",
+      "raw_retained_separately": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final_sha256": "1fc18370351cb4fd40f8d3a735ab220cb02b6c42ddada588a81f05310ffadb8b",
+      "raw_sha256": "497b7d840225e1748fa855881494518700e55ee41af82a9966204cdc29d81a25",
+      "prompt": "Use case: identity-preserve. Single normal game sprite, this exact mint translucent Y-shaped gel creature. Keep two bulbous upper branches with one blue eye on each FRONT face, one cream pearl embedded on FRONT at fork, two short rounded feet, same uneven branch heights (original screen-right anatomical-left branch taller), same curved slim trunk and creamy mint jelly texture. No new arms, tails or parts. Rigid yaw rotation only, no stretching/reposing, camera elevation around 15 degrees constant, full body transparent background, original outlined glossy illustration. Requested NW rear-left three-quarter, front facing away toward upper-left. Use rear image2 to preserve left/right branch identity: tall branch on screen LEFT and farther from camera; shorter branch on screen RIGHT and nearer camera. Both eyes and front pearl entirely hidden. Compress broad rear Y width by yaw45 degrees, keep tall lobe upper-left and low lobe lower-right, near shorter right lobe slightly larger. Original fork, trunk height, two feet and lobe lengths fixed. Not front view with erased eyes.",
+      "generation_reference_sha256": [
+        "2460635e2a5891670b3db48d02af691f037ca14f997582524e58a7a74966297d",
+        "19c90247ab02bc9c24693bfcc234797277b846bfebebd2f9892ba1302fabca41"
+      ],
+      "evidence": "Prompt and references recorded at execution; raw/final hashes computed from saved bytes.",
+      "raw_retained_separately": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final_sha256": "ce0c45eab00a8c578a6ff1910e9273e86301ad060544c0411d238dd71bf28cd4",
+      "raw_sha256": "b04d891ebb70af03798067466deeb27dba4c6e2556c56ba7398ac54567c30496",
+      "prompt": "Use case: style-transfer. Create ONE pixel-art game sprite from image1 normal, using image2 original pixel solely for palette and pixel cluster style. Preserve image1 EXACT yaw, silhouette, relative sizes, curved trunk, two unequal upper lobes, visible eye count and location, pearl visibility and two feet. Mint translucent jelly with pale cream and dark blue outline/eyes, limited palette about24 colors. Coarse crisp pixel clusters as a128x128 sprite, no smooth antialiasing, no text, transparent background. Do not turn, mirror or re-pose. Direction NW rear-left. Tall far lobe LEFT, short near lobe RIGHT, near right foot large. NO eyes, NO front pearl visible. Preserve exact rear oblique width and large short near lobe of image1.",
+      "generation_reference_sha256": [
+        "1fc18370351cb4fd40f8d3a735ab220cb02b6c42ddada588a81f05310ffadb8b",
+        "7e10152b08ea642b5d2ebbf3f4a20b02add9bae593c589b297aeea379cfea0e4"
+      ],
+      "evidence": "Prompt and references recorded at execution; raw/final hashes computed from saved bytes.",
+      "raw_retained_separately": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final_sha256": "19c90247ab02bc9c24693bfcc234797277b846bfebebd2f9892ba1302fabca41",
+      "raw_sha256": "38d8ff7efb89b8a206ea7644886af83c2d8f099a311a5670ad17049f51111b30",
+      "prompt": "Use case: identity-preserve. Single normal game sprite, this exact mint translucent Y-shaped gel creature. Keep two bulbous upper branches with one blue eye on each FRONT face, one cream pearl embedded on FRONT at fork, two short rounded feet, same uneven branch heights (original screen-right anatomical-left branch taller), same curved slim trunk and creamy mint jelly texture. No new arms, tails or parts. Rigid yaw rotation only, no stretching/reposing, camera elevation around 15 degrees constant, full body transparent background, original outlined glossy illustration. Requested N exact back view. Both eyes and front cream pearl completely hidden behind opaque enough gel surface, no ghost facial marks. Back shows matching mint translucent smooth surfaces and small bubbles only. Preserve broad Y silhouette and asymmetric branch heights under true 180 degree yaw: taller anatomical left branch is now on screen LEFT; shorter branch screen RIGHT. Preserve two short feet and original overall width/height ratio. No bowing/stretching or top-down view.",
+      "generation_reference_sha256": [
+        "2460635e2a5891670b3db48d02af691f037ca14f997582524e58a7a74966297d",
+        "73644ffe7a10ae839685a6140dd6bf640919af20bb18293fd2ed82a4c355a455"
+      ],
+      "evidence": "Pre-reset prompt recovered from executed tool text. Raw/final assets recovered and their pixel-processing relationship independently recomputed exactly; current hashes recomputed after recovery. Pre-reset checkpoint hash file unavailable, so no direct pre-reset hash comparison claimed.",
+      "raw_retained_separately": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final_sha256": "756ec09f5490158c85d4c2de88ba0acbc0719a21adcc144a1a592866868cf53b",
+      "raw_sha256": "2ab8c1183969b8f6a550f9f44984bee7d950bc232b6e292c6173f10959e188c8",
+      "prompt": "Use case: style-transfer. Create ONE pixel-art game sprite from image1 normal, using image2 original pixel solely for palette and pixel cluster style. Preserve image1 EXACT yaw, silhouette, relative sizes, curved trunk, two unequal upper lobes, visible eye count and location, pearl visibility and two feet. Mint translucent jelly with pale cream and dark blue outline/eyes, limited palette about24 colors. Coarse crisp pixel clusters as a128x128 sprite, no smooth antialiasing, no text, transparent background. Do not turn, mirror or re-pose. Direction N straight back. Tall lobe LEFT, short lobe RIGHT, broad Y body, two feet side by side. NO eyes, NO central pearl, just mint jelly and small bubbles. Preserve normal exact width and posture.",
+      "generation_reference_sha256": [
+        "19c90247ab02bc9c24693bfcc234797277b846bfebebd2f9892ba1302fabca41",
+        "7e10152b08ea642b5d2ebbf3f4a20b02add9bae593c589b297aeea379cfea0e4"
+      ],
+      "evidence": "Prompt and references recorded at execution; raw/final hashes computed from saved bytes.",
+      "raw_retained_separately": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final_sha256": "ad3f82230621df2e303eb61c2371a7a65919d8aafee8e498f21792f6829ecd38",
+      "raw_sha256": "135f5844ca6d5cfa3487e9517210deef9a618d4978bab0d564efc85abecd9f6a",
+      "prompt": "Use case: identity-preserve. Single normal game sprite, this exact mint translucent Y-shaped gel creature. Keep two bulbous upper branches with one blue eye on each FRONT face, one cream pearl embedded on FRONT at fork, two short rounded feet, same uneven branch heights (original screen-right anatomical-left branch taller), same curved slim trunk and creamy mint jelly texture. No new arms, tails or parts. Rigid yaw rotation only, no stretching/reposing, camera elevation around 15 degrees constant, full body transparent background, original outlined glossy illustration. Requested NE rear-right three-quarter, front pointing away upper-right. Tall anatomical left branch is nearer viewer on screen LEFT, larger; shorter anatomical right branch is farther behind on screen RIGHT, smaller. Eyes and front pearl hidden. Intermediate Y width between full back and narrow profile. Preserve tall branch left as rear image2, but reverse near/far depth relative to NW image3: large near left foot, smaller far right foot. Don't mirror the creature's unequal branch heights. Same pose and camera.",
+      "generation_reference_sha256": [
+        "2460635e2a5891670b3db48d02af691f037ca14f997582524e58a7a74966297d",
+        "19c90247ab02bc9c24693bfcc234797277b846bfebebd2f9892ba1302fabca41",
+        "1fc18370351cb4fd40f8d3a735ab220cb02b6c42ddada588a81f05310ffadb8b"
+      ],
+      "evidence": "Prompt and references recorded at execution; raw/final hashes computed from saved bytes.",
+      "raw_retained_separately": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final_sha256": "67221679e49de4565fe72edc57f14a79c9244856708ba72f1ec5f6af491b9472",
+      "raw_sha256": "772292f918e41b926d0ac219693699c69b543d7a2554ba0121e4b2f0b6f4dc81",
+      "prompt": "Use case: style-transfer. Create ONE pixel-art game sprite from image1 normal, using image2 original pixel solely for palette and pixel cluster style. Preserve image1 EXACT yaw, silhouette, relative sizes, curved trunk, two unequal upper lobes, visible eye count and location, pearl visibility and two feet. Mint translucent jelly with pale cream and dark blue outline/eyes, limited palette about24 colors. Coarse crisp pixel clusters as a128x128 sprite, no smooth antialiasing, no text, transparent background. Do not turn, mirror or re-pose. Direction NE rear-right. Tall LEFT near lobe larger, short RIGHT far lobe smaller. Large near left foot, small far right foot. NO eyes, NO pearl. Keep rear oblique width and exact pose from image1.",
+      "generation_reference_sha256": [
+        "ad3f82230621df2e303eb61c2371a7a65919d8aafee8e498f21792f6829ecd38",
+        "7e10152b08ea642b5d2ebbf3f4a20b02add9bae593c589b297aeea379cfea0e4"
+      ],
+      "evidence": "Prompt and references recorded at execution; raw/final hashes computed from saved bytes.",
+      "raw_retained_separately": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final_sha256": "ce586f37b587c4e4cdb4730a86c2f4998f449e0330afe0136e7e26e5b2a588c7",
+      "raw_sha256": "8e34a54ba3da41968e314cc8a781f5691776c4717189d14829dc242008bb2754",
+      "prompt": "Use case: precise-object-edit. Correct single normal transparent game sprite reference1. Preserve every contour, height, mint color, pearl, tall foreground lobe eye and feet. Only remove the erroneously visible dark eye at the far LEFT edge of the SHORT BACKGROUND lobe. That far lobe eye faces RIGHT and is occluded behind the foreground taller lobe from this exact E right-profile view. Replace its erroneous left-facing eye with seamless mint jelly texture. Exactly one visible eye remains, at right edge of tall near lobe. No other change. Transparent background.",
+      "generation_reference_sha256": [
+        "bb63230bbcb5217d61ab427ab0ea80ed59a254e86553b6ded1bbd2081414a344"
+      ],
+      "evidence": "Prompt and references recorded at execution; raw/final hashes computed from saved bytes.",
+      "raw_retained_separately": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final_sha256": "4c3388314fc2442eed4a5f691485db83c5d43ee80384c165bef6c440bb1396fa",
+      "raw_sha256": "948de6a5015bca1439c17260c83b6299c039e739cee992f4005c75f891001aa2",
+      "prompt": "Use case: style-transfer. Create ONE pixel-art game sprite from image1 normal, using image2 original pixel solely for palette and pixel cluster style. Preserve image1 EXACT yaw, silhouette, relative sizes, curved trunk, two unequal upper lobes, visible eye count and location, pearl visibility and two feet. Mint translucent jelly with pale cream and dark blue outline/eyes, limited palette about24 colors. Coarse crisp pixel clusters as a128x128 sprite, no smooth antialiasing, no text, transparent background. Do not turn, mirror or re-pose. Direction E exact right profile. Tall foreground lobe and shorter far lobe overlapping narrowly. Exactly ONE visible eye on right edge of tall lobe. No eye on left edge of far short lobe. Pearl foreshortened on right edge; feet overlap. No widening.",
+      "generation_reference_sha256": [
+        "ce586f37b587c4e4cdb4730a86c2f4998f449e0330afe0136e7e26e5b2a588c7",
+        "7e10152b08ea642b5d2ebbf3f4a20b02add9bae593c589b297aeea379cfea0e4"
+      ],
+      "evidence": "Prompt and references recorded at execution; raw/final hashes computed from saved bytes.",
+      "raw_retained_separately": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final_sha256": "75876983170ae25c5768d9771b3a8464284274b6cd7c58bf9622e76782ac8259",
+      "raw_sha256": "3891a42a3a2f05936843e90c99e9e941bb3c0a463acf48fe6a11231b850cfb43",
+      "prompt": "Use case: identity-preserve. Single normal game sprite, this exact mint translucent Y-shaped gel creature. Keep two bulbous upper branches with one blue eye on each FRONT face, one cream pearl embedded on FRONT at fork, two short rounded feet, same uneven branch heights (original screen-right anatomical-left branch taller), same curved slim trunk and creamy mint jelly texture. No new arms, tails or parts. Rigid yaw rotation only, no stretching/reposing, camera elevation around 15 degrees constant, full body transparent background, original outlined glossy illustration. Requested SE front-right three-quarter at315 degrees. Front points lower-right. Tall anatomical left branch nearer viewer on screen RIGHT; shorter far right branch on screen LEFT. Both front eyes visible toward RIGHT sides of respective lobes, pearl at front-right surface. Intermediate body width between broad original S and narrow E image2; same fixed Y branch angles/lengths, curved trunk and short feet. Tall right near lobe larger, short left far lobe smaller. No new parts.",
+      "generation_reference_sha256": [
+        "2460635e2a5891670b3db48d02af691f037ca14f997582524e58a7a74966297d",
+        "ce586f37b587c4e4cdb4730a86c2f4998f449e0330afe0136e7e26e5b2a588c7"
+      ],
+      "evidence": "Prompt and references recorded at execution; raw/final hashes computed from saved bytes.",
+      "raw_retained_separately": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final_sha256": "480f6a61bb8d7f111eb227bc062c7d067c35df07829f4cfaa7bee09ddae57144",
+      "raw_sha256": "1836a0e193016946ccdbaf736f500364f1915c2211927b365ae7e951a05ced28",
+      "prompt": "Use case: style-transfer. Create ONE pixel-art game sprite from image1 normal, using image2 original pixel solely for palette and pixel cluster style. Preserve image1 EXACT yaw, silhouette, relative sizes, curved trunk, two unequal upper lobes, visible eye count and location, pearl visibility and two feet. Mint translucent jelly with pale cream and dark blue outline/eyes, limited palette about24 colors. Coarse crisp pixel clusters as a128x128 sprite, no smooth antialiasing, no text, transparent background. Do not turn, mirror or re-pose. Direction SE front-right. Tall near RIGHT lobe large, shorter far LEFT lobe smaller. Both front eyes and one central pearl visible, two feet. Preserve intermediate oblique width, not frontal S.",
+      "generation_reference_sha256": [
+        "75876983170ae25c5768d9771b3a8464284274b6cd7c58bf9622e76782ac8259",
+        "7e10152b08ea642b5d2ebbf3f4a20b02add9bae593c589b297aeea379cfea0e4"
+      ],
+      "evidence": "Prompt and references recorded at execution; raw/final hashes computed from saved bytes.",
+      "raw_retained_separately": true
+    }
+  ],
+  "technical_processing": "Normal: alpha values below8 zeroed, alpha crop, proportional LANCZOS extent832 centered1024. Pixel: binary alpha threshold128, alpha crop, NEAREST extent104, MEDIANCUT24 no dithering, centered128. No programmatic shape redraw.",
+  "qa": {
+    "technical": "16 of16 slots pass size/margin/pixel palette checks; originals retained unchanged",
+    "visual": "Unequal Y branches, front eyes/pearl, rear feature occlusion and normal/pixel correspondence reviewed",
+    "limitations": [
+      "Original S assignment is inferred and slight source yaw remains; angular separation to SE is not calibrated",
+      "Exact branch-root rigidity and hidden depth reconstructed from one view",
+      "Rear bubbles inferred, not tracked as rigid unique surface marks",
+      "No in-game acceptance or exact45degree geometric guarantee"
+    ],
+    "discarded_variants": "First NW normal had incorrect branch side; first E normal had far eye on wrong surface. Both retained separately, not included in assets.",
+    "independent_numeric_hash": "passed_16_slots",
+    "independent_visual": "Parent eight-pair comparison and E N/E full-resolution normal/pixel review confirm face occlusion, side overlap, main anatomy and matching silhouette/palette. Existing exact-angle and depth limitations retained."
+  }
+}

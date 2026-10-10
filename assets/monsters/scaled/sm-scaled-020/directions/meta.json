@@ -1,0 +1,1031 @@
+{
+  "schema_version": 1,
+  "id": "sm-scaled-020",
+  "asset_type": "eight_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "direction_order": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "nominal_yaw_degrees": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/S/default.png",
+      "bytes": 547332,
+      "sha256": "e18e924df8b2d63350cf7b59ad7716d91f79d5364a85f859121cfd6c47edd24d",
+      "git_blob_sha": "6cbf232407ee25e6ba9484d8f4dfe3a32335f5d8",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        144,
+        928,
+        880
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 48980,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/S/pixel.png",
+      "bytes": 8910,
+      "sha256": "6ee5ea64ee22190d7ae04ec6b35dc6c4c77da5864fd36af5d8b1cdd5e3b21598",
+      "git_blob_sha": "d292a0094c7cc2c0b89fc2d7e77817c39704abd9",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        17,
+        116,
+        111
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 24,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/SW/default.png",
+      "bytes": 613895,
+      "sha256": "967d69765b69c0069a15c9e64171675c14b8d010eab94f8400a3ff92fbbc2024",
+      "git_blob_sha": "2a664d24be4f24f54127467807ff17b11c4e0d8e",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        121,
+        96,
+        903,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 55095,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/SW/pixel.png",
+      "bytes": 9606,
+      "sha256": "a008a4f37eb2525e526ea52fe9399be31695eb4815220de3475ed0f5a698af91",
+      "git_blob_sha": "181fbbad3e90847412d98f473e132de715b5a998",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        16,
+        12,
+        111,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 24,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/W/default.png",
+      "bytes": 385046,
+      "sha256": "c76002818bf01362d93c77e686083420831acbae4efd1a5a45cefeeaa85ae728",
+      "git_blob_sha": "0d9f19ffdbad64f3fa227c4c887b9249c755963b",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        283,
+        96,
+        740,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 44475,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/W/pixel.png",
+      "bytes": 7057,
+      "sha256": "a41a9f9109438ef7d6e4b2ea224a177ea7ba3213e64e6fa8b9f31b5cd3321541",
+      "git_blob_sha": "ae853370cf78b4bd9767d316c105d7758a446fed",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        34,
+        12,
+        94,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 23,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/NW/default.png",
+      "bytes": 511819,
+      "sha256": "ee00c1d76e6fa5de6a770ebd9830a3cf4678eba0efe76f643ab967c6171f4abb",
+      "git_blob_sha": "e4a19b6f07a9dbbfe8dfff21c46e4e1f21459333",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        148,
+        96,
+        875,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 44868,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/NW/pixel.png",
+      "bytes": 8163,
+      "sha256": "9537849597dd7d083e09e04a66c9a40544bb76a0e202c1ae25f753435ffbef0a",
+      "git_blob_sha": "19ddb1eabcf06a7f9a4ed66cbf35a1daf1c91475",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        19,
+        12,
+        109,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 21,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/N/default.png",
+      "bytes": 533775,
+      "sha256": "c1d0dde42b71238acafeee5baf1d97721ec56de2df140ce70d71d86ba2a284aa",
+      "git_blob_sha": "71b3d66e8e75e77411dd20e0af145135bbc701d9",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        138,
+        928,
+        886
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 44346,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/N/pixel.png",
+      "bytes": 8260,
+      "sha256": "2c80f175ac4109469118a2ee6702370301400c4fecfb3559c1f8283e0f3817b8",
+      "git_blob_sha": "7193571b91e2174c250180d05ae22c2c3689ccde",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        16,
+        116,
+        111
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 22,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/NE/default.png",
+      "bytes": 545475,
+      "sha256": "39490eda8f091509ea0bbf5c43a78677ab9375d97ac9a2a1e908a0758fef3a5f",
+      "git_blob_sha": "24c183b699d8edbd297af830617f4136f8fe38a3",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        122,
+        96,
+        901,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 47479,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/NE/pixel.png",
+      "bytes": 9322,
+      "sha256": "f60c7373f9a927a3f810672311995367866159b86520e985112d21ed70b04d6a",
+      "git_blob_sha": "7196ee26fea18de6314e74992009d083122a892f",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        14,
+        12,
+        113,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 23,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/E/default.png",
+      "bytes": 351407,
+      "sha256": "ac77a715fb21ebffe84fd8b6cb5fa26198fe30077bac1830c874652a6b95f797",
+      "git_blob_sha": "6ff2fbbed4db742f487b82320d85bd09e0a1ec6a",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        289,
+        96,
+        734,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 40699,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/directions/E/pixel.png",
+      "bytes": 6313,
+      "sha256": "5500124a1e785feb096b0db6853a3ae007e67af8ebf4635639590beda3bc6e66",
+      "git_blob_sha": "31faf708ffec3af543a29fa516b004f1356274f7",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        35,
+        12,
+        92,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 24,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/default.png",
+      "bytes": 590353,
+      "sha256": "9e327748365165b8ba9d786d60b5bb96ab4d7b9b08b54aee022467c3990a0c56",
+      "git_blob_sha": "58d97347f6495a6635088804bf45a19f04350d11",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        80,
+        95,
+        944,
+        929
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 49480,
+      "binary_alpha": false,
+      "original_preserved": true,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-020/pixel.png",
+      "bytes": 10221,
+      "sha256": "3eaaf479eb432ade25bc9cc7ffe9c949d4939d23f4c7636e09d29834df356b5a",
+      "git_blob_sha": "043bd8272071b61eba96b949404c348b35f80283",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        10,
+        11,
+        118,
+        117
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": true,
+      "numeric_checks": {
+        "RGBA": true,
+        "canvas": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    }
+  ],
+  "provenance": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "final_sha256": "e18e924df8b2d63350cf7b59ad7716d91f79d5364a85f859121cfd6c47edd24d",
+      "raw_sha256": "2483928879a00c34f174126d1f0ba6fe2563782b225e5882214a617e951b97c3",
+      "raw_file_name": "S-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: stylized-concept. Image1 is exact identity, proportions, pose and camera reference. Render the SAME one creature at a new horizontal yaw. Rotate the whole upright torso, all four rigid wings, eye surfaces and droplet tail together in three dimensions; never just move eyes or re-open wings toward the camera. Maintain source camera elevation and original floating pose.\nExact anatomy: ONE short vertical cylindrical body covered in overlapping thin rounded blue/peach/slate disc scales. TWO glossy dark eyes on front upper body, no mouth. FOUR broad round single-scale wing plates, two anchored on each side in a fixed loose X spread: upper pair rise outward, lower pair angle downward-outward. Each wing is one solid unsegmented round plate with original blue/peach/slate large color patches, not feathers, petals or multiple plates. Foreshortening may make round plates oval. The four wing plates form a largely frontal wing plane, so side azimuths must show strong foreshortening/edge-on overlap, not four broad front-facing wings again. ONE short droplet-shaped tail hangs from bottom center, never a long string. ZERO legs, ZERO arms, no extra crest. Keep muted #AEC4E2/#E5C2A6/#555E81 roles, original scale density, cylinder length/width, wing sizes/attachments and tail length. Clear contour and restrained cel shading with upper-left light. Full creature1024square, actual transparent alpha, centeredlongest832 with96clear margins. No text, scenery, ground, glow, cast shadow or mirrored copy.\nRequired yaw: FRONT S0. Upright torso centered looking at viewer with two eyes. Two upper wings and two lower wings form a coherent symmetric loose X on physical left/right, visible as full broad plates in frontal plane, short droplet tail beneath. Keep source elevation without looking down more steeply.\n",
+      "generation_reference_sha256": [
+        "9e327748365165b8ba9d786d60b5bb96ab4d7b9b08b54aee022467c3990a0c56"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          67,
+          137,
+          1187,
+          1128
+        ],
+        "resize": [
+          832,
+          736
+        ],
+        "offset": [
+          96,
+          144
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:16:13.578813+00:00"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "final_sha256": "6ee5ea64ee22190d7ae04ec6b35dc6c4c77da5864fd36af5d8b1cdd5e3b21598",
+      "raw_sha256": "3c0abb9b0fe82bfe45cd1b41384e6a8dcb5a477bb3c7124a1dcd870f9dceb0b9",
+      "raw_file_name": "S-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: style-transfer. Image1 is the selected NORMAL illustration of sm-scaled-020 in S view. Redraw this exact creature, camera, facing and all wing overlaps as genuine pixel art on a128x128 logical grid. Change only medium; no downsampling filter, no redesign or pose reset. One upright cylindrical body with thin overlapping disc scales; exactly TWO eyes physically on front, preserve visibility in reference (none on rear, one at sides). FOUR single solid round scale-plate wings in the same fixed X arrangement and foreshortening/near-far occlusion as reference; preserve edge-on paired overlap at side views. Do not fan the wings outward again. Zero legs/arms, one short droplet tail below. Muted blue #AEC4E2,peach #E5C2A6,slate #555E81. Preserve each wing color block and source proportions. Crisp pixel clusters,1-2logicalpixel outline,24-32visiblecolors, binary alpha only, no antialias/blur/dither/glow/shadow/halo. One full centered sprite128square longest104logicalpixels,8pixel minimum transparent margin, genuine alpha0 exterior. No text, grid, scene or extra parts.\n",
+      "generation_reference_sha256": [
+        "e18e924df8b2d63350cf7b59ad7716d91f79d5364a85f859121cfd6c47edd24d"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          111,
+          175,
+          1144,
+          1105
+        ],
+        "resize": [
+          104,
+          94
+        ],
+        "offset": [
+          12,
+          17
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:28:54.267610+00:00"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "final_sha256": "967d69765b69c0069a15c9e64171675c14b8d010eab94f8400a3ff92fbbc2024",
+      "raw_sha256": "efba6405dfcd52709280e68bee7e8bc4a1efd0cc2f7f22ebe0a0956976175a83",
+      "raw_file_name": "SW-normal-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is the correctly frontal S normal, which is the edit target. Image2 is the original character for identity and style. Make a new FRONT-LEFT SW view by rotating the whole upright creature about45 degrees horizontally so its FACE points toward IMAGE LEFT, not right. The muzzle contour must protrude to the LEFT of the eye/body center. The nearer large eye is on the LEFT-facing surface; second farther eye smaller if visible. Upper-left lighting stays upper-left, do not mirror the bitmap. Redraw the new view.\nRotate the fixed four-wing X plane with the torso: two near wings on image-right side broad, two far wings to image-left narrower/partly occluded. Keep exactly four single unsegmented round scale plates, original sizes and blue/peach/slate pattern, not extra wing lobes. One upright short cylindrical scaly body, zero legs/arms, exactly two eyes, one short droplet tail below body. Original modest camera elevation, floating pose, material, body volumes and scale density unchanged. This is a direction correction only, not a redesign. Full single creature centered1024square with generous actual transparent margin, no text, scene, shadow or glow.\n",
+      "generation_reference_sha256": [
+        "e18e924df8b2d63350cf7b59ad7716d91f79d5364a85f859121cfd6c47edd24d",
+        "9e327748365165b8ba9d786d60b5bb96ab4d7b9b08b54aee022467c3990a0c56"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          221,
+          134,
+          1159,
+          1132
+        ],
+        "resize": [
+          782,
+          832
+        ],
+        "offset": [
+          121,
+          96
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:25:22.173991+00:00"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "final_sha256": "a008a4f37eb2525e526ea52fe9399be31695eb4815220de3475ed0f5a698af91",
+      "raw_sha256": "6afb2c5a9634ebaec3225628bc66506c255be8fb5790d1cf42629e84dcd20406",
+      "raw_file_name": "SW-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: style-transfer. Image1 is the selected NORMAL illustration of sm-scaled-020 in SW view. Redraw this exact creature, camera, facing and all wing overlaps as genuine pixel art on a128x128 logical grid. Change only medium; no downsampling filter, no redesign or pose reset. One upright cylindrical body with thin overlapping disc scales; exactly TWO eyes physically on front, preserve visibility in reference (none on rear, one at sides). FOUR single solid round scale-plate wings in the same fixed X arrangement and foreshortening/near-far occlusion as reference; preserve edge-on paired overlap at side views. Do not fan the wings outward again. Zero legs/arms, one short droplet tail below. Muted blue #AEC4E2,peach #E5C2A6,slate #555E81. Preserve each wing color block and source proportions. Crisp pixel clusters,1-2logicalpixel outline,24-32visiblecolors, binary alpha only, no antialias/blur/dither/glow/shadow/halo. One full centered sprite128square longest104logicalpixels,8pixel minimum transparent margin, genuine alpha0 exterior. No text, grid, scene or extra parts.\n",
+      "generation_reference_sha256": [
+        "967d69765b69c0069a15c9e64171675c14b8d010eab94f8400a3ff92fbbc2024"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          145,
+          94,
+          1128,
+          1168
+        ],
+        "resize": [
+          95,
+          104
+        ],
+        "offset": [
+          16,
+          12
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:29:57.139877+00:00"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "final_sha256": "c76002818bf01362d93c77e686083420831acbae4efd1a5a45cefeeaa85ae728",
+      "raw_sha256": "1c8840cff80851597649d7c0091ad5ef313916785b2377bb26be6baef03def0b",
+      "raw_file_name": "W-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: stylized-concept. Image1 is exact identity, proportions, pose and camera reference. Render the SAME one creature at a new horizontal yaw. Rotate the whole upright torso, all four rigid wings, eye surfaces and droplet tail together in three dimensions; never just move eyes or re-open wings toward the camera. Maintain source camera elevation and original floating pose.\nExact anatomy: ONE short vertical cylindrical body covered in overlapping thin rounded blue/peach/slate disc scales. TWO glossy dark eyes on front upper body, no mouth. FOUR broad round single-scale wing plates, two anchored on each side in a fixed loose X spread: upper pair rise outward, lower pair angle downward-outward. Each wing is one solid unsegmented round plate with original blue/peach/slate large color patches, not feathers, petals or multiple plates. Foreshortening may make round plates oval. The four wing plates form a largely frontal wing plane, so side azimuths must show strong foreshortening/edge-on overlap, not four broad front-facing wings again. ONE short droplet-shaped tail hangs from bottom center, never a long string. ZERO legs, ZERO arms, no extra crest. Keep muted #AEC4E2/#E5C2A6/#555E81 roles, original scale density, cylinder length/width, wing sizes/attachments and tail length. Clear contour and restrained cel shading with upper-left light. Full creature1024square, actual transparent alpha, centeredlongest832 with96clear margins. No text, scenery, ground, glow, cast shadow or mirrored copy.\nRequired yaw: LEFT AZIMUTH W90. Front of torso faces LEFT with only near eye visible. X wing plane now viewed nearly edge-on: upper/lower wing plates overlap in two narrow oblique profiles behind torso, showing actual thickness and narrow slivers of far pair. Do not fan four full plates outward toward camera. Upright cylinder and bottom droplet tail keep original lengths/camera elevation.\n",
+      "generation_reference_sha256": [
+        "9e327748365165b8ba9d786d60b5bb96ab4d7b9b08b54aee022467c3990a0c56"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          384,
+          101,
+          951,
+          1134
+        ],
+        "resize": [
+          457,
+          832
+        ],
+        "offset": [
+          283,
+          96
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:19:09.051592+00:00"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "final_sha256": "a41a9f9109438ef7d6e4b2ea224a177ea7ba3213e64e6fa8b9f31b5cd3321541",
+      "raw_sha256": "d054933ebecafb753a7a04a17e99380a35f8fba7e5381fa1b051ec67516856db",
+      "raw_file_name": "W-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: style-transfer. Image1 is the selected NORMAL illustration of sm-scaled-020 in W view. Redraw this exact creature, camera, facing and all wing overlaps as genuine pixel art on a128x128 logical grid. Change only medium; no downsampling filter, no redesign or pose reset. One upright cylindrical body with thin overlapping disc scales; exactly TWO eyes physically on front, preserve visibility in reference (none on rear, one at sides). FOUR single solid round scale-plate wings in the same fixed X arrangement and foreshortening/near-far occlusion as reference; preserve edge-on paired overlap at side views. Do not fan the wings outward again. Zero legs/arms, one short droplet tail below. Muted blue #AEC4E2,peach #E5C2A6,slate #555E81. Preserve each wing color block and source proportions. Crisp pixel clusters,1-2logicalpixel outline,24-32visiblecolors, binary alpha only, no antialias/blur/dither/glow/shadow/halo. One full centered sprite128square longest104logicalpixels,8pixel minimum transparent margin, genuine alpha0 exterior. No text, grid, scene or extra parts.\n",
+      "generation_reference_sha256": [
+        "c76002818bf01362d93c77e686083420831acbae4efd1a5a45cefeeaa85ae728"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          327,
+          87,
+          961,
+          1186
+        ],
+        "resize": [
+          60,
+          104
+        ],
+        "offset": [
+          34,
+          12
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:31:15.090255+00:00"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "final_sha256": "ee00c1d76e6fa5de6a770ebd9830a3cf4678eba0efe76f643ab967c6171f4abb",
+      "raw_sha256": "f451aa6485d6bbb478082cd8fcc62948c53627b389799c6d678307f7ce5deca0",
+      "raw_file_name": "NW-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: stylized-concept. Image1 is exact identity, proportions, pose and camera reference. Render the SAME one creature at a new horizontal yaw. Rotate the whole upright torso, all four rigid wings, eye surfaces and droplet tail together in three dimensions; never just move eyes or re-open wings toward the camera. Maintain source camera elevation and original floating pose.\nExact anatomy: ONE short vertical cylindrical body covered in overlapping thin rounded blue/peach/slate disc scales. TWO glossy dark eyes on front upper body, no mouth. FOUR broad round single-scale wing plates, two anchored on each side in a fixed loose X spread: upper pair rise outward, lower pair angle downward-outward. Each wing is one solid unsegmented round plate with original blue/peach/slate large color patches, not feathers, petals or multiple plates. Foreshortening may make round plates oval. The four wing plates form a largely frontal wing plane, so side azimuths must show strong foreshortening/edge-on overlap, not four broad front-facing wings again. ONE short droplet-shaped tail hangs from bottom center, never a long string. ZERO legs, ZERO arms, no extra crest. Keep muted #AEC4E2/#E5C2A6/#555E81 roles, original scale density, cylinder length/width, wing sizes/attachments and tail length. Clear contour and restrained cel shading with upper-left light. Full creature1024square, actual transparent alpha, centeredlongest832 with96clear margins. No text, scenery, ground, glow, cast shadow or mirrored copy.\nRequired yaw: REAR-LEFT NW135. See back of upright scaled torso, eyes hidden on far side. Rear-facing wing surfaces in oblique fixed X plane, with far pair partly overlapped. Four actual solid round plates, no extra limb. Tail remains below body, not behind head.\n",
+      "generation_reference_sha256": [
+        "9e327748365165b8ba9d786d60b5bb96ab4d7b9b08b54aee022467c3990a0c56"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          174,
+          104,
+          1075,
+          1135
+        ],
+        "resize": [
+          727,
+          832
+        ],
+        "offset": [
+          148,
+          96
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:20:00.105906+00:00"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "final_sha256": "9537849597dd7d083e09e04a66c9a40544bb76a0e202c1ae25f753435ffbef0a",
+      "raw_sha256": "a62a61a4af1a5dab1f1b325601498709cfc2af84ddbb624e30c382c9277e75b7",
+      "raw_file_name": "NW-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: style-transfer. Image1 is the selected NORMAL illustration of sm-scaled-020 in NW view. Redraw this exact creature, camera, facing and all wing overlaps as genuine pixel art on a128x128 logical grid. Change only medium; no downsampling filter, no redesign or pose reset. One upright cylindrical body with thin overlapping disc scales; exactly TWO eyes physically on front, preserve visibility in reference (none on rear, one at sides). FOUR single solid round scale-plate wings in the same fixed X arrangement and foreshortening/near-far occlusion as reference; preserve edge-on paired overlap at side views. Do not fan the wings outward again. Zero legs/arms, one short droplet tail below. Muted blue #AEC4E2,peach #E5C2A6,slate #555E81. Preserve each wing color block and source proportions. Crisp pixel clusters,1-2logicalpixel outline,24-32visiblecolors, binary alpha only, no antialias/blur/dither/glow/shadow/halo. One full centered sprite128square longest104logicalpixels,8pixel minimum transparent margin, genuine alpha0 exterior. No text, grid, scene or extra parts.\n",
+      "generation_reference_sha256": [
+        "ee00c1d76e6fa5de6a770ebd9830a3cf4678eba0efe76f643ab967c6171f4abb"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          175,
+          109,
+          1079,
+          1150
+        ],
+        "resize": [
+          90,
+          104
+        ],
+        "offset": [
+          19,
+          12
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:32:17.991065+00:00"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "final_sha256": "c1d0dde42b71238acafeee5baf1d97721ec56de2df140ce70d71d86ba2a284aa",
+      "raw_sha256": "b64a8fbdefc2886d189870278be298714972cb3ce3907344d2f1ffb23e84cf89",
+      "raw_file_name": "N-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: stylized-concept. Image1 is exact identity, proportions, pose and camera reference. Render the SAME one creature at a new horizontal yaw. Rotate the whole upright torso, all four rigid wings, eye surfaces and droplet tail together in three dimensions; never just move eyes or re-open wings toward the camera. Maintain source camera elevation and original floating pose.\nExact anatomy: ONE short vertical cylindrical body covered in overlapping thin rounded blue/peach/slate disc scales. TWO glossy dark eyes on front upper body, no mouth. FOUR broad round single-scale wing plates, two anchored on each side in a fixed loose X spread: upper pair rise outward, lower pair angle downward-outward. Each wing is one solid unsegmented round plate with original blue/peach/slate large color patches, not feathers, petals or multiple plates. Foreshortening may make round plates oval. The four wing plates form a largely frontal wing plane, so side azimuths must show strong foreshortening/edge-on overlap, not four broad front-facing wings again. ONE short droplet-shaped tail hangs from bottom center, never a long string. ZERO legs, ZERO arms, no extra crest. Keep muted #AEC4E2/#E5C2A6/#555E81 roles, original scale density, cylinder length/width, wing sizes/attachments and tail length. Clear contour and restrained cel shading with upper-left light. Full creature1024square, actual transparent alpha, centeredlongest832 with96clear margins. No text, scenery, ground, glow, cast shadow or mirrored copy.\nRequired yaw: BACK N180. Rear surface of upright cylinder centered, completely no eyes. Four wing plates in symmetric loose X seen from their back faces, same physical plane and attachment heights as front; two upper and two lower. Short single droplet tail below.\n",
+      "generation_reference_sha256": [
+        "9e327748365165b8ba9d786d60b5bb96ab4d7b9b08b54aee022467c3990a0c56"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          72,
+          135,
+          1186,
+          1137
+        ],
+        "resize": [
+          832,
+          748
+        ],
+        "offset": [
+          96,
+          138
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:21:09.547536+00:00"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "final_sha256": "2c80f175ac4109469118a2ee6702370301400c4fecfb3559c1f8283e0f3817b8",
+      "raw_sha256": "43a729f97d752caec7aca04230487b5030bffbe1f315b7d2e96399d4d5e96bb4",
+      "raw_file_name": "N-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: style-transfer. Image1 is the selected NORMAL illustration of sm-scaled-020 in N view. Redraw this exact creature, camera, facing and all wing overlaps as genuine pixel art on a128x128 logical grid. Change only medium; no downsampling filter, no redesign or pose reset. One upright cylindrical body with thin overlapping disc scales; exactly TWO eyes physically on front, preserve visibility in reference (none on rear, one at sides). FOUR single solid round scale-plate wings in the same fixed X arrangement and foreshortening/near-far occlusion as reference; preserve edge-on paired overlap at side views. Do not fan the wings outward again. Zero legs/arms, one short droplet tail below. Muted blue #AEC4E2,peach #E5C2A6,slate #555E81. Preserve each wing color block and source proportions. Crisp pixel clusters,1-2logicalpixel outline,24-32visiblecolors, binary alpha only, no antialias/blur/dither/glow/shadow/halo. One full centered sprite128square longest104logicalpixels,8pixel minimum transparent margin, genuine alpha0 exterior. No text, grid, scene or extra parts.\n",
+      "generation_reference_sha256": [
+        "c1d0dde42b71238acafeee5baf1d97721ec56de2df140ce70d71d86ba2a284aa"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          88,
+          147,
+          1166,
+          1136
+        ],
+        "resize": [
+          104,
+          95
+        ],
+        "offset": [
+          12,
+          16
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:33:29.386446+00:00"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "final_sha256": "39490eda8f091509ea0bbf5c43a78677ab9375d97ac9a2a1e908a0758fef3a5f",
+      "raw_sha256": "208c6ea92e3d0491499da5b6c61d6778cf810055e4cfe7c6bb6c557c73ff0d03",
+      "raw_file_name": "NE-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: stylized-concept. Image1 is exact identity, proportions, pose and camera reference. Render the SAME one creature at a new horizontal yaw. Rotate the whole upright torso, all four rigid wings, eye surfaces and droplet tail together in three dimensions; never just move eyes or re-open wings toward the camera. Maintain source camera elevation and original floating pose.\nExact anatomy: ONE short vertical cylindrical body covered in overlapping thin rounded blue/peach/slate disc scales. TWO glossy dark eyes on front upper body, no mouth. FOUR broad round single-scale wing plates, two anchored on each side in a fixed loose X spread: upper pair rise outward, lower pair angle downward-outward. Each wing is one solid unsegmented round plate with original blue/peach/slate large color patches, not feathers, petals or multiple plates. Foreshortening may make round plates oval. The four wing plates form a largely frontal wing plane, so side azimuths must show strong foreshortening/edge-on overlap, not four broad front-facing wings again. ONE short droplet-shaped tail hangs from bottom center, never a long string. ZERO legs, ZERO arms, no extra crest. Keep muted #AEC4E2/#E5C2A6/#555E81 roles, original scale density, cylinder length/width, wing sizes/attachments and tail length. Clear contour and restrained cel shading with upper-left light. Full creature1024square, actual transparent alpha, centeredlongest832 with96clear margins. No text, scenery, ground, glow, cast shadow or mirrored copy.\nRequired yaw: REAR-RIGHT NE225. Back of torso at oblique azimuth, eyes hidden, X wing plane foreshortens opposite rear-left; two nearer wings and partial far pair, source floating pose.\n",
+      "generation_reference_sha256": [
+        "9e327748365165b8ba9d786d60b5bb96ab4d7b9b08b54aee022467c3990a0c56"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          259,
+          136,
+          1192,
+          1133
+        ],
+        "resize": [
+          779,
+          832
+        ],
+        "offset": [
+          122,
+          96
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:22:12.278306+00:00"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "final_sha256": "f60c7373f9a927a3f810672311995367866159b86520e985112d21ed70b04d6a",
+      "raw_sha256": "e27d7a5bdc475134166ead57fbb6b386bf75c6158fd68095b8c0ac52271e18b7",
+      "raw_file_name": "NE-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: style-transfer. Image1 is the selected NORMAL illustration of sm-scaled-020 in NE view. Redraw this exact creature, camera, facing and all wing overlaps as genuine pixel art on a128x128 logical grid. Change only medium; no downsampling filter, no redesign or pose reset. One upright cylindrical body with thin overlapping disc scales; exactly TWO eyes physically on front, preserve visibility in reference (none on rear, one at sides). FOUR single solid round scale-plate wings in the same fixed X arrangement and foreshortening/near-far occlusion as reference; preserve edge-on paired overlap at side views. Do not fan the wings outward again. Zero legs/arms, one short droplet tail below. Muted blue #AEC4E2,peach #E5C2A6,slate #555E81. Preserve each wing color block and source proportions. Crisp pixel clusters,1-2logicalpixel outline,24-32visiblecolors, binary alpha only, no antialias/blur/dither/glow/shadow/halo. One full centered sprite128square longest104logicalpixels,8pixel minimum transparent margin, genuine alpha0 exterior. No text, grid, scene or extra parts.\n",
+      "generation_reference_sha256": [
+        "39490eda8f091509ea0bbf5c43a78677ab9375d97ac9a2a1e908a0758fef3a5f"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          152,
+          115,
+          1128,
+          1144
+        ],
+        "resize": [
+          99,
+          104
+        ],
+        "offset": [
+          14,
+          12
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:34:47.627356+00:00"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "final_sha256": "ac77a715fb21ebffe84fd8b6cb5fa26198fe30077bac1830c874652a6b95f797",
+      "raw_sha256": "15e461a2f682ec326290b4f2f5d87b038bc10603a10ee43137409a7b65aebe11",
+      "raw_file_name": "E-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: stylized-concept. Image1 is exact identity, proportions, pose and camera reference. Render the SAME one creature at a new horizontal yaw. Rotate the whole upright torso, all four rigid wings, eye surfaces and droplet tail together in three dimensions; never just move eyes or re-open wings toward the camera. Maintain source camera elevation and original floating pose.\nExact anatomy: ONE short vertical cylindrical body covered in overlapping thin rounded blue/peach/slate disc scales. TWO glossy dark eyes on front upper body, no mouth. FOUR broad round single-scale wing plates, two anchored on each side in a fixed loose X spread: upper pair rise outward, lower pair angle downward-outward. Each wing is one solid unsegmented round plate with original blue/peach/slate large color patches, not feathers, petals or multiple plates. Foreshortening may make round plates oval. The four wing plates form a largely frontal wing plane, so side azimuths must show strong foreshortening/edge-on overlap, not four broad front-facing wings again. ONE short droplet-shaped tail hangs from bottom center, never a long string. ZERO legs, ZERO arms, no extra crest. Keep muted #AEC4E2/#E5C2A6/#555E81 roles, original scale density, cylinder length/width, wing sizes/attachments and tail length. Clear contour and restrained cel shading with upper-left light. Full creature1024square, actual transparent alpha, centeredlongest832 with96clear margins. No text, scenery, ground, glow, cast shadow or mirrored copy.\nRequired yaw: RIGHT AZIMUTH E270. Front torso faces RIGHT, one near eye visible. Four rigid round wing plates nearly edge-on in two narrow overlapping upper/lower profiles behind body, not four broad face-on wings. Upright torso and bottom droplet maintain source camera/proportions.\n",
+      "generation_reference_sha256": [
+        "9e327748365165b8ba9d786d60b5bb96ab4d7b9b08b54aee022467c3990a0c56"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          350,
+          70,
+          926,
+          1146
+        ],
+        "resize": [
+          445,
+          832
+        ],
+        "offset": [
+          289,
+          96
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:23:38.483235+00:00"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "final_sha256": "5500124a1e785feb096b0db6853a3ae007e67af8ebf4635639590beda3bc6e66",
+      "raw_sha256": "1024d163f9a910e19085dd970ec1aeb02d67a7f7ec48ea65b157a421cf814910",
+      "raw_file_name": "E-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: style-transfer. Image1 is the selected NORMAL illustration of sm-scaled-020 in E view. Redraw this exact creature, camera, facing and all wing overlaps as genuine pixel art on a128x128 logical grid. Change only medium; no downsampling filter, no redesign or pose reset. One upright cylindrical body with thin overlapping disc scales; exactly TWO eyes physically on front, preserve visibility in reference (none on rear, one at sides). FOUR single solid round scale-plate wings in the same fixed X arrangement and foreshortening/near-far occlusion as reference; preserve edge-on paired overlap at side views. Do not fan the wings outward again. Zero legs/arms, one short droplet tail below. Muted blue #AEC4E2,peach #E5C2A6,slate #555E81. Preserve each wing color block and source proportions. Crisp pixel clusters,1-2logicalpixel outline,24-32visiblecolors, binary alpha only, no antialias/blur/dither/glow/shadow/halo. One full centered sprite128square longest104logicalpixels,8pixel minimum transparent margin, genuine alpha0 exterior. No text, grid, scene or extra parts.\n",
+      "generation_reference_sha256": [
+        "ac77a715fb21ebffe84fd8b6cb5fa26198fe30077bac1830c874652a6b95f797"
+      ],
+      "reference_evidence": "Hashes of the exact image files passed to the executed native generation call.",
+      "technical_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          333,
+          88,
+          941,
+          1195
+        ],
+        "resize": [
+          57,
+          104
+        ],
+        "offset": [
+          35,
+          12
+        ]
+      },
+      "generated_recorded_at": "2026-10-10T13:36:22.282366+00:00"
+    }
+  ],
+  "technical_processing": "Normal: alpha<=1 set to0, transparent-margin crop, proportionalLANCZOS fit832 and centered1024. Pixel: separately imagegen-generated from the selected same-direction normal, alpha>=128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, centered128. No mirroring or anatomy redrawing. Raw images preserved.",
+  "qa": {
+    "numeric_and_hash": "passed_16_slots",
+    "visual": "All8 normal/pixel pairs inspected at original sizes and side-by-side; frontal, rear and profile face visibility checked. Four-wing silhouette, cylindrical torso and single lower droplet retained.",
+    "limitations": [
+      "Exact wing-root depths and physical wing-plane angles are inferred from a single original view.",
+      "The scale-pattern identity and precise placement of individual scales across yaw are not guaranteed.",
+      "Exact45degree yaw and fixed camera elevation are nominal illustration goals rather than measured3D reconstruction.",
+      "Runtime animation and integration have not been tested."
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending",
+    "independent_numeric_hash": "passed_16_slots",
+    "independent_visual": "Parent eight-pair comparison and E N/E full-resolution normal/pixel review confirm face occlusion, side overlap, main anatomy and matching silhouette/palette. Existing exact-angle and depth limitations retained."
+  }
+}
