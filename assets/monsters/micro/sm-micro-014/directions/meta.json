@@ -1,0 +1,1002 @@
+{
+  "schema_version": 1,
+  "id": "sm-micro-014",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/micro/sm-micro-014/default.png",
+      "sha256": "98a599583ec0d4a816e2999f5be03432613f28c5083b655524c7e9ac4df380d4",
+      "git_blob_sha": "1c7b82cf592756a9fedca60b0d0793f839401e21",
+      "bytes": 379822
+    },
+    "pixel": {
+      "path": "assets/monsters/micro/sm-micro-014/pixel.png",
+      "sha256": "022ebf17600873ec0c72cf655095c170bf97248eb6f73ac98e9757bcd505b51b",
+      "git_blob_sha": "0149df76c780a9fff1fb154725416cb9848452a0",
+      "bytes": 5046
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-014/directions/S/default.png",
+      "sha256": "18536ce16f6e250b08a336d99797d942f863f57cc978ad536a73b721c9b76738",
+      "bytes": 331625,
+      "git_blob_sha": "79cba87445087889662e6463e5a95195710118f9",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          342,
+          96,
+          682,
+          928
+        ],
+        "margins": [
+          342,
+          96,
+          342,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 52258,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-014/directions/S/pixel.png",
+      "sha256": "ffb84474181c21e84adb586d2c37972bebed412f462115358169ced27385074c",
+      "bytes": 6145,
+      "git_blob_sha": "7de0c92ad54654bb9b6700817c4973b61c75e848",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          42,
+          12,
+          85,
+          116
+        ],
+        "margins": [
+          42,
+          12,
+          43,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "18536ce16f6e250b08a336d99797d942f863f57cc978ad536a73b721c9b76738"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-014/directions/SW/default.png",
+      "sha256": "fcf05f2797a0e2ea9ddc0ab820b1eb01783331c00a185fc207a4504e5aedba7f",
+      "bytes": 294391,
+      "git_blob_sha": "4a188c0508432f454d10ce4dd0311222709077a1",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          367,
+          96,
+          657,
+          928
+        ],
+        "margins": [
+          367,
+          96,
+          367,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 55078,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-014/directions/SW/pixel.png",
+      "sha256": "657d3c47ec7d9ef9931af71290e3985632a26c9ddbc337d36299cce4eb877149",
+      "bytes": 5814,
+      "git_blob_sha": "1444df25c0409f456022e952581b6d8998bd2894",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          43,
+          12,
+          85,
+          116
+        ],
+        "margins": [
+          43,
+          12,
+          43,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "fcf05f2797a0e2ea9ddc0ab820b1eb01783331c00a185fc207a4504e5aedba7f"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-014/directions/W/default.png",
+      "sha256": "e0b9a1408d0d6241e4c24bee6a9f6543ea3cc27622ea5ef565d30beca35bab60",
+      "bytes": 246170,
+      "git_blob_sha": "4d838417f50a68459b63d97a8baf5a6a70668f28",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          403,
+          96,
+          621,
+          928
+        ],
+        "margins": [
+          403,
+          96,
+          403,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 46781,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-014/directions/W/pixel.png",
+      "sha256": "3af0c4c727b9bf671d35c0eabe4f436f6c4d5a412423dbf91a9fa70de44c2a22",
+      "bytes": 5222,
+      "git_blob_sha": "ad6c19726b41079e1e54a99b75f5e8375b0fbba5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          48,
+          12,
+          80,
+          116
+        ],
+        "margins": [
+          48,
+          12,
+          48,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "e0b9a1408d0d6241e4c24bee6a9f6543ea3cc27622ea5ef565d30beca35bab60"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-014/directions/NW/default.png",
+      "sha256": "327527621fdfb3d2bba2863695f6776d28ab3002084fb21e8fb475559b625bcb",
+      "bytes": 277528,
+      "git_blob_sha": "e6be5bf5403f0d843afefc490a5902536b3035e1",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          354,
+          96,
+          669,
+          928
+        ],
+        "margins": [
+          354,
+          96,
+          355,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 39727,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-014/directions/NW/pixel.png",
+      "sha256": "7a92a72a5f6d0e08a7aa9a087ade36b1e00f3473d634815d5804756eaa556b7e",
+      "bytes": 5572,
+      "git_blob_sha": "5de110163d4be9beb4b2fecb8866ec61ae2bbc24",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          44,
+          12,
+          83,
+          116
+        ],
+        "margins": [
+          44,
+          12,
+          45,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "327527621fdfb3d2bba2863695f6776d28ab3002084fb21e8fb475559b625bcb"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-014/directions/N/default.png",
+      "sha256": "8a96ef606daf2b68846f2bc886337ea5c4cd9422c7222455da30e1febe69808b",
+      "bytes": 321310,
+      "git_blob_sha": "330c3c2708c3762380e3584a65abb0226d696a3f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          330,
+          96,
+          694,
+          928
+        ],
+        "margins": [
+          330,
+          96,
+          330,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 42439,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-014/directions/N/pixel.png",
+      "sha256": "741e578c0c1219b091f4f533e0e9050754077496ca19a0348c739d5fbce7c335",
+      "bytes": 6185,
+      "git_blob_sha": "7c479fea6b769b301142cefbfeb2179644409ecf",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          42,
+          12,
+          86,
+          116
+        ],
+        "margins": [
+          42,
+          12,
+          42,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "8a96ef606daf2b68846f2bc886337ea5c4cd9422c7222455da30e1febe69808b"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-014/directions/NE/default.png",
+      "sha256": "224f27160241ac36d6446963937908e351880f23e933e365d41f5551070db2dc",
+      "bytes": 272155,
+      "git_blob_sha": "4f254b2e60c1450735371ff3c6d2830e2d22a12c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          384,
+          96,
+          640,
+          928
+        ],
+        "margins": [
+          384,
+          96,
+          384,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 38308,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-014/directions/NE/pixel.png",
+      "sha256": "aada9afa5eddfa74d668e3ebf0f53bc0e70ece123c856c6da6113397c60b94db",
+      "bytes": 5647,
+      "git_blob_sha": "43c97dccf702d25cf740b68640e58e8fedca02ab",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          45,
+          12,
+          83,
+          116
+        ],
+        "margins": [
+          45,
+          12,
+          45,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "224f27160241ac36d6446963937908e351880f23e933e365d41f5551070db2dc"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-014/directions/E/default.png",
+      "sha256": "429ad3277a894386038c24b2e3600dd75d7648d18edbe01b68ea683dc6c9139a",
+      "bytes": 250709,
+      "git_blob_sha": "b494ac097e7c571c170276905d3af51a081a8df8",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          384,
+          96,
+          640,
+          928
+        ],
+        "margins": [
+          384,
+          96,
+          384,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 47413,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-014/directions/E/pixel.png",
+      "sha256": "2077a3225d0c74949e12998ee70122cf182ce17d19420ed2bc64c5e6430068f7",
+      "bytes": 4832,
+      "git_blob_sha": "966aef5e391dc574155e574ed8df24c3357cf534",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          47,
+          12,
+          80,
+          116
+        ],
+        "margins": [
+          47,
+          12,
+          48,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "429ad3277a894386038c24b2e3600dd75d7648d18edbe01b68ea683dc6c9139a"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/micro/sm-micro-014/default.png",
+      "sha256": "98a599583ec0d4a816e2999f5be03432613f28c5083b655524c7e9ac4df380d4",
+      "bytes": 379822,
+      "git_blob_sha": "1c7b82cf592756a9fedca60b0d0793f839401e21",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          304,
+          80,
+          719,
+          944
+        ],
+        "margins": [
+          304,
+          80,
+          305,
+          80
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 52373,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/micro/sm-micro-014/pixel.png",
+      "sha256": "022ebf17600873ec0c72cf655095c170bf97248eb6f73ac98e9757bcd505b51b",
+      "bytes": 5046,
+      "git_blob_sha": "0149df76c780a9fff1fb154725416cb9848452a0",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          37,
+          10,
+          90,
+          118
+        ],
+        "margins": [
+          37,
+          10,
+          38,
+          10
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "98a599583ec0d4a816e2999f5be03432613f28c5083b655524c7e9ac4df380d4"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "Side-window width, bending and tail depth are inferred. Exact yaw, rigid 3D correspondence and in-game/final acceptance pending.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE normal sprite of exact reference organism at S0 straight FRONT. Two uprights equally visible, two clear holes vertically aligned, top eyes both face viewer. Original is slightly front-right SE. Rotate about vertical yaw only, fixed original camera elevation, preserve original gentle bend. Anatomy: TWO long flexible vertical rod cells joined by exactly THREE short horizontal rungs, creating exactly TWO open clear through-windows stacked vertically. TWO eyes only at front of top rod tips, one per rod. TWO short tails from lower rod ends curve inward as hooks. No legs/arms/wings/extra rods or rungs, no membrane filling windows. Keep slender proportions, tan#BDA578 mutedteal#8AA8A5 palelavender#E1D9EB organic membrane marbling and glossy outlined illustration. Sideview is genuinely narrow depth projection; unseen parts naturally overlap rather than multiplying. Full creature centered tall within square1024RGBA transparent with generous padding; no text/grid/shadow/floor.",
+      "raw_sha256": "f401d63ff433c4a4968003d3e850dc734f3b0bf0262e89713e3f5a22c55dd12c",
+      "raw_bytes": 525897,
+      "generation_references_in_order": [
+        {
+          "sha256": "98a599583ec0d4a816e2999f5be03432613f28c5083b655524c7e9ac4df380d4"
+        }
+      ],
+      "finished": {
+        "sha256": "18536ce16f6e250b08a336d99797d942f863f57cc978ad536a73b721c9b76738",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          342,
+          96,
+          682,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 52258,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Create exactly one pixel-art game sprite of the same individual in image 1, preserving its exact S frontal pose, silhouette and parts. Image 1 is the normal-view identity and pose target. Image 2 is only the original pixel style/palette reference, do not adopt its direction. Two upright tan organic rods joined by exactly three rungs enclosing exactly two windows, two forward eyes at the tips, two short inward curled tails. Keep muted teal and pale lavender markings. True crisp low-resolution pixel art, limited palette at most32 visible colors, no antialiasing, no gradients; transparent background; whole figure centered with generous margin. No text, extra parts or pose changes.",
+      "raw_sha256": "584dfeac71dd7d9935f6a3cb9469eddd0c65bab950d054dc11500d1aa2231ca1",
+      "raw_bytes": 431063,
+      "generation_references_in_order": [
+        {
+          "sha256": "f401d63ff433c4a4968003d3e850dc734f3b0bf0262e89713e3f5a22c55dd12c"
+        },
+        {
+          "sha256": "022ebf17600873ec0c72cf655095c170bf97248eb6f73ac98e9757bcd505b51b"
+        }
+      ],
+      "finished": {
+        "sha256": "ffb84474181c21e84adb586d2c37972bebed412f462115358169ced27385074c",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          42,
+          12,
+          85,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE normal sprite of exact reference organism at SW45 FRONT-LEFT. Ladder plane faces screen left, width foreshortened, far upright partly overlaps; eyes face near-left, holes narrow in perspective. Original is slightly front-right SE. Rotate about vertical yaw only, fixed original camera elevation, preserve original gentle bend. Anatomy: TWO long flexible vertical rod cells joined by exactly THREE short horizontal rungs, creating exactly TWO open clear through-windows stacked vertically. TWO eyes only at front of top rod tips, one per rod. TWO short tails from lower rod ends curve inward as hooks. No legs/arms/wings/extra rods or rungs, no membrane filling windows. Keep slender proportions, tan#BDA578 mutedteal#8AA8A5 palelavender#E1D9EB organic membrane marbling and glossy outlined illustration. Sideview is genuinely narrow depth projection; unseen parts naturally overlap rather than multiplying. Full creature centered tall within square1024RGBA transparent with generous padding; no text/grid/shadow/floor.",
+      "raw_sha256": "58aa7962a74046a0dc70a6594acfdfbd0ecbe9abb1ea9b4e9159fa50c578386c",
+      "raw_bytes": 506845,
+      "generation_references_in_order": [
+        {
+          "sha256": "98a599583ec0d4a816e2999f5be03432613f28c5083b655524c7e9ac4df380d4"
+        }
+      ],
+      "finished": {
+        "sha256": "fcf05f2797a0e2ea9ddc0ab820b1eb01783331c00a185fc207a4504e5aedba7f",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          367,
+          96,
+          657,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 55078,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exactly one crisp low-resolution pixel-art game sprite of image 1, same individual and exact SW pose, silhouette, viewing angle, overlap and proportions. Image 1 is the normal-view identity and pose target. Image 2 is original pixel style and palette reference only, never copy its direction. Preserve two organic upright tan rods, exactly three rungs enclosing two windows (narrowed naturally in side profile), two short inward curled tails, muted teal and pale lavender markings. Two eyes visible on the front-facing tips. Do not add or relocate an eye. Flat pixel clusters, limited palette at most32 visible colors, no antialiasing or gradients. Transparent background, centered entire figure with generous margin. No text or added parts.",
+      "raw_sha256": "922aab054e177ec8740a19108ba090bad27e167eda8f79d6ce01acb55c7ac52d",
+      "raw_bytes": 404694,
+      "generation_references_in_order": [
+        {
+          "sha256": "58aa7962a74046a0dc70a6594acfdfbd0ecbe9abb1ea9b4e9159fa50c578386c"
+        },
+        {
+          "sha256": "022ebf17600873ec0c72cf655095c170bf97248eb6f73ac98e9757bcd505b51b"
+        }
+      ],
+      "finished": {
+        "sha256": "657d3c47ec7d9ef9931af71290e3985632a26c9ddbc337d36299cce4eb877149",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          43,
+          12,
+          85,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE normal sprite of exact reference organism at W90 strict LEFT EDGE PROFILE. Uprights overlap in depth and central windows become narrow slits/occluded, NOT broad frontal ladder. One front eye at left contour; far eye hidden. Original is slightly front-right SE. Rotate about vertical yaw only, fixed original camera elevation, preserve original gentle bend. Anatomy: TWO long flexible vertical rod cells joined by exactly THREE short horizontal rungs, creating exactly TWO open clear through-windows stacked vertically. TWO eyes only at front of top rod tips, one per rod. TWO short tails from lower rod ends curve inward as hooks. No legs/arms/wings/extra rods or rungs, no membrane filling windows. Keep slender proportions, tan#BDA578 mutedteal#8AA8A5 palelavender#E1D9EB organic membrane marbling and glossy outlined illustration. Sideview is genuinely narrow depth projection; unseen parts naturally overlap rather than multiplying. Full creature centered tall within square1024RGBA transparent with generous padding; no text/grid/shadow/floor.",
+      "raw_sha256": "fadd50ede51593007ecac766f57fe3e030464bcd2781ef39e03215cdbc643aee",
+      "raw_bytes": 459978,
+      "generation_references_in_order": [
+        {
+          "sha256": "98a599583ec0d4a816e2999f5be03432613f28c5083b655524c7e9ac4df380d4"
+        }
+      ],
+      "finished": {
+        "sha256": "e0b9a1408d0d6241e4c24bee6a9f6543ea3cc27622ea5ef565d30beca35bab60",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          403,
+          96,
+          621,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 46781,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exactly one crisp low-resolution pixel-art game sprite of image 1, same individual and exact W pose, silhouette, viewing angle, overlap and proportions. Image 1 is the normal-view identity and pose target. Image 2 is original pixel style and palette reference only, never copy its direction. Preserve two organic upright tan rods, exactly three rungs enclosing two windows (narrowed naturally in side profile), two short inward curled tails, muted teal and pale lavender markings. Only the near eye visible in side profile. Do not add or relocate an eye. Flat pixel clusters, limited palette at most32 visible colors, no antialiasing or gradients. Transparent background, centered entire figure with generous margin. No text or added parts.",
+      "raw_sha256": "9d656a773c6e345b4fa80a1c6cbf3b614311c3ab55dab9ece2b637d2dc5ea549",
+      "raw_bytes": 360176,
+      "generation_references_in_order": [
+        {
+          "sha256": "fadd50ede51593007ecac766f57fe3e030464bcd2781ef39e03215cdbc643aee"
+        },
+        {
+          "sha256": "022ebf17600873ec0c72cf655095c170bf97248eb6f73ac98e9757bcd505b51b"
+        }
+      ],
+      "finished": {
+        "sha256": "3af0c4c727b9bf671d35c0eabe4f436f6c4d5a412423dbf91a9fa70de44c2a22",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          48,
+          12,
+          80,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE normal sprite of exact reference organism at NW135 BACK-LEFT. Rear faces of uprights visible, no pupils/eyes, two narrow holes still open with perspective; curled tail ends stay attached at bottoms. Original is slightly front-right SE. Rotate about vertical yaw only, fixed original camera elevation, preserve original gentle bend. Anatomy: TWO long flexible vertical rod cells joined by exactly THREE short horizontal rungs, creating exactly TWO open clear through-windows stacked vertically. TWO eyes only at front of top rod tips, one per rod. TWO short tails from lower rod ends curve inward as hooks. No legs/arms/wings/extra rods or rungs, no membrane filling windows. Keep slender proportions, tan#BDA578 mutedteal#8AA8A5 palelavender#E1D9EB organic membrane marbling and glossy outlined illustration. Sideview is genuinely narrow depth projection; unseen parts naturally overlap rather than multiplying. Full creature centered tall within square1024RGBA transparent with generous padding; no text/grid/shadow/floor.",
+      "raw_sha256": "8056b6272cf07310c29cd028f66929d254fe8fd85e28fd3682d8b155ec522a56",
+      "raw_bytes": 479510,
+      "generation_references_in_order": [
+        {
+          "sha256": "98a599583ec0d4a816e2999f5be03432613f28c5083b655524c7e9ac4df380d4"
+        }
+      ],
+      "finished": {
+        "sha256": "327527621fdfb3d2bba2863695f6776d28ab3002084fb21e8fb475559b625bcb",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          354,
+          96,
+          669,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 39727,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exactly one crisp low-resolution pixel-art game sprite of image 1, same individual and exact NW pose, silhouette, viewing angle, overlap and proportions. Image 1 is the normal-view identity and pose target. Image 2 is original pixel style and palette reference only, never copy its direction. Preserve two organic upright tan rods, exactly three rungs enclosing two windows (narrowed naturally in side profile), two short inward curled tails, muted teal and pale lavender markings. No visible eyes, because this is the rear surface. Do not add or relocate an eye. Flat pixel clusters, limited palette at most32 visible colors, no antialiasing or gradients. Transparent background, centered entire figure with generous margin. No text or added parts.",
+      "raw_sha256": "2ee446903fff5950aac196aa4624435d6e2fccef7c4c08e382bf80e5da9e0939",
+      "raw_bytes": 338335,
+      "generation_references_in_order": [
+        {
+          "sha256": "8056b6272cf07310c29cd028f66929d254fe8fd85e28fd3682d8b155ec522a56"
+        },
+        {
+          "sha256": "022ebf17600873ec0c72cf655095c170bf97248eb6f73ac98e9757bcd505b51b"
+        }
+      ],
+      "finished": {
+        "sha256": "7a92a72a5f6d0e08a7aa9a087ade36b1e00f3473d634815d5804756eaa556b7e",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          44,
+          12,
+          83,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE normal sprite of exact reference organism at N180 straight BACK. Full ladder plane seen from opposite side, both windows transparent, top eye backs plain membrane with no pupils. Two short bottom hooks keep intrinsic inward curvature. Original is slightly front-right SE. Rotate about vertical yaw only, fixed original camera elevation, preserve original gentle bend. Anatomy: TWO long flexible vertical rod cells joined by exactly THREE short horizontal rungs, creating exactly TWO open clear through-windows stacked vertically. TWO eyes only at front of top rod tips, one per rod. TWO short tails from lower rod ends curve inward as hooks. No legs/arms/wings/extra rods or rungs, no membrane filling windows. Keep slender proportions, tan#BDA578 mutedteal#8AA8A5 palelavender#E1D9EB organic membrane marbling and glossy outlined illustration. Sideview is genuinely narrow depth projection; unseen parts naturally overlap rather than multiplying. Full creature centered tall within square1024RGBA transparent with generous padding; no text/grid/shadow/floor.",
+      "raw_sha256": "4e246a3eb160c426ce9b05c09201ca93002ff398469d6c6ec7501db224866ed7",
+      "raw_bytes": 513502,
+      "generation_references_in_order": [
+        {
+          "sha256": "98a599583ec0d4a816e2999f5be03432613f28c5083b655524c7e9ac4df380d4"
+        }
+      ],
+      "finished": {
+        "sha256": "8a96ef606daf2b68846f2bc886337ea5c4cd9422c7222455da30e1febe69808b",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          330,
+          96,
+          694,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 42439,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exactly one crisp low-resolution pixel-art game sprite of image 1, same individual and exact N pose, silhouette, viewing angle, overlap and proportions. Image 1 is the normal-view identity and pose target. Image 2 is original pixel style and palette reference only, never copy its direction. Preserve two organic upright tan rods, exactly three rungs enclosing two windows (narrowed naturally in side profile), two short inward curled tails, muted teal and pale lavender markings. No visible eyes, because this is the rear surface. Do not add or relocate an eye. Flat pixel clusters, limited palette at most32 visible colors, no antialiasing or gradients. Transparent background, centered entire figure with generous margin. No text or added parts.",
+      "raw_sha256": "3612e7c5c7287c7d7c248969f3e38c32fc60f6c679deb554c8a57ef2a59ce4bc",
+      "raw_bytes": 407829,
+      "generation_references_in_order": [
+        {
+          "sha256": "4e246a3eb160c426ce9b05c09201ca93002ff398469d6c6ec7501db224866ed7"
+        },
+        {
+          "sha256": "022ebf17600873ec0c72cf655095c170bf97248eb6f73ac98e9757bcd505b51b"
+        }
+      ],
+      "finished": {
+        "sha256": "741e578c0c1219b091f4f533e0e9050754077496ca19a0348c739d5fbce7c335",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          42,
+          12,
+          86,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE normal sprite of exact reference organism at NE225 BACK-RIGHT. Rear ladder plane foreshortened, no eyes/pupils, two narrow transparent windows. Original is slightly front-right SE. Rotate about vertical yaw only, fixed original camera elevation, preserve original gentle bend. Anatomy: TWO long flexible vertical rod cells joined by exactly THREE short horizontal rungs, creating exactly TWO open clear through-windows stacked vertically. TWO eyes only at front of top rod tips, one per rod. TWO short tails from lower rod ends curve inward as hooks. No legs/arms/wings/extra rods or rungs, no membrane filling windows. Keep slender proportions, tan#BDA578 mutedteal#8AA8A5 palelavender#E1D9EB organic membrane marbling and glossy outlined illustration. Sideview is genuinely narrow depth projection; unseen parts naturally overlap rather than multiplying. Full creature centered tall within square1024RGBA transparent with generous padding; no text/grid/shadow/floor.",
+      "raw_sha256": "5bd089f0ffb96c0f8321fbfa12c8c02084814ac678ec06bf58bced2d4b1ce26c",
+      "raw_bytes": 461117,
+      "generation_references_in_order": [
+        {
+          "sha256": "98a599583ec0d4a816e2999f5be03432613f28c5083b655524c7e9ac4df380d4"
+        }
+      ],
+      "finished": {
+        "sha256": "224f27160241ac36d6446963937908e351880f23e933e365d41f5551070db2dc",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          384,
+          96,
+          640,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 38308,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exactly one crisp low-resolution pixel-art game sprite of image 1, same individual and exact NE pose, silhouette, viewing angle, overlap and proportions. Image 1 is the normal-view identity and pose target. Image 2 is original pixel style and palette reference only, never copy its direction. Preserve two organic upright tan rods, exactly three rungs enclosing two windows (narrowed naturally in side profile), two short inward curled tails, muted teal and pale lavender markings. No visible eyes, because this is the rear surface. Do not add or relocate an eye. Flat pixel clusters, limited palette at most32 visible colors, no antialiasing or gradients. Transparent background, centered entire figure with generous margin. No text or added parts.",
+      "raw_sha256": "aafc053c4db5e7d237922f6af76666df069f6c7a6289690303998db8f3ffc6a2",
+      "raw_bytes": 383157,
+      "generation_references_in_order": [
+        {
+          "sha256": "5bd089f0ffb96c0f8321fbfa12c8c02084814ac678ec06bf58bced2d4b1ce26c"
+        },
+        {
+          "sha256": "022ebf17600873ec0c72cf655095c170bf97248eb6f73ac98e9757bcd505b51b"
+        }
+      ],
+      "finished": {
+        "sha256": "aada9afa5eddfa74d668e3ebf0f53bc0e70ece123c856c6da6113397c60b94db",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          45,
+          12,
+          83,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE normal sprite of exact reference organism at E270 strict RIGHT EDGE PROFILE. Uprights overlap in depth and holes narrow/occluded; one top eye at right contour, far eye hidden. Not broad frontal ladder. Original is slightly front-right SE. Rotate about vertical yaw only, fixed original camera elevation, preserve original gentle bend. Anatomy: TWO long flexible vertical rod cells joined by exactly THREE short horizontal rungs, creating exactly TWO open clear through-windows stacked vertically. TWO eyes only at front of top rod tips, one per rod. TWO short tails from lower rod ends curve inward as hooks. No legs/arms/wings/extra rods or rungs, no membrane filling windows. Keep slender proportions, tan#BDA578 mutedteal#8AA8A5 palelavender#E1D9EB organic membrane marbling and glossy outlined illustration. Sideview is genuinely narrow depth projection; unseen parts naturally overlap rather than multiplying. Full creature centered tall within square1024RGBA transparent with generous padding; no text/grid/shadow/floor.",
+      "raw_sha256": "a0b4444ed2624eae4d4a418755a804861e93c9571f37d403fe4ae2601e74e121",
+      "raw_bytes": 409160,
+      "generation_references_in_order": [
+        {
+          "sha256": "98a599583ec0d4a816e2999f5be03432613f28c5083b655524c7e9ac4df380d4"
+        }
+      ],
+      "finished": {
+        "sha256": "429ad3277a894386038c24b2e3600dd75d7648d18edbe01b68ea683dc6c9139a",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          384,
+          96,
+          640,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 47413,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exactly one crisp low-resolution pixel-art game sprite of image 1, same individual and exact E pose, silhouette, viewing angle, overlap and proportions. Image 1 is the normal-view identity and pose target. Image 2 is original pixel style and palette reference only, never copy its direction. Preserve two organic upright tan rods, exactly three rungs enclosing two windows (narrowed naturally in side profile), two short inward curled tails, muted teal and pale lavender markings. Only the near eye visible in side profile. Do not add or relocate an eye. Flat pixel clusters, limited palette at most32 visible colors, no antialiasing or gradients. Transparent background, centered entire figure with generous margin. No text or added parts.",
+      "raw_sha256": "9f57a32b3237f675b7e116edef1e959499f9043a7c5f039faa19c01ef669f2a3",
+      "raw_bytes": 326754,
+      "generation_references_in_order": [
+        {
+          "sha256": "a0b4444ed2624eae4d4a418755a804861e93c9571f37d403fe4ae2601e74e121"
+        },
+        {
+          "sha256": "022ebf17600873ec0c72cf655095c170bf97248eb6f73ac98e9757bcd505b51b"
+        }
+      ],
+      "finished": {
+        "sha256": "2077a3225d0c74949e12998ee70122cf182ce17d19420ed2bc64c5e6430068f7",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          47,
+          12,
+          80,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    }
+  ]
+}
