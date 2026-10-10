@@ -1,0 +1,909 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-007",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "existing_direction_basis": "visual inference; no original explicit direction metadata",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/arcane/sm-arcane-007/default.png",
+      "sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18",
+      "git_blob_sha": "6a40d4843f1f244f551800cd9d9584b9028a82d4",
+      "bytes": 574202
+    },
+    "pixel": {
+      "path": "assets/monsters/arcane/sm-arcane-007/pixel.png",
+      "sha256": "129ce85f115b57cf9f77c793fd97f998d57068313d05ea7cc184254698da507a",
+      "git_blob_sha": "8c9e6ed9bcee51a3657f6d9a7231bb623c40edc7",
+      "bytes": 10406
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front, N rear; eight nominal azimuth sectors in order S,SW,W,NW,N,NE,E,SE. Not an assertion of exact physical camera calibration.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/S/default.png",
+      "sha256": "a22e2990ca5277fed2a1e6848a37cf81d73974c3294998c1121e94bb8d1b6071",
+      "bytes": 541284,
+      "git_blob_sha": "7f21cf97ad9d4f48626ac118f5e0c31dfe7ed152",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          187,
+          928,
+          836
+        ],
+        "margins": [
+          96,
+          187,
+          96,
+          188
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 56869,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/S/pixel.png",
+      "sha256": "fdf7eca09bd140a0f31f6c93ab925c7f499d96c3862dadf79904efb090facc7c",
+      "bytes": 7321,
+      "git_blob_sha": "72c4492674d131a9c9121500925be8fc7bea1dbd",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          23,
+          116,
+          104
+        ],
+        "margins": [
+          12,
+          23,
+          12,
+          24
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 31,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "a22e2990ca5277fed2a1e6848a37cf81d73974c3294998c1121e94bb8d1b6071"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/SW/default.png",
+      "sha256": "3bccbdb844fef1a834216bf9607ea81d006596798e7fed0654b98d7d6152ce1b",
+      "bytes": 527034,
+      "git_blob_sha": "8c3387986df04eb819dbc4181f3863e0bf04277a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          190,
+          928,
+          834
+        ],
+        "margins": [
+          96,
+          190,
+          96,
+          190
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 52264,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/SW/pixel.png",
+      "sha256": "87c9d18a3f86dd32a4b38eea2a1edefbef633ab6d39a534819c3ae73c5b26373",
+      "bytes": 7554,
+      "git_blob_sha": "07aba7845fcc3e6ec4287a12f78ecb45ccfe169c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          25,
+          116,
+          103
+        ],
+        "margins": [
+          12,
+          25,
+          12,
+          25
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 32,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "3bccbdb844fef1a834216bf9607ea81d006596798e7fed0654b98d7d6152ce1b"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/W/default.png",
+      "sha256": "f9ad5bb04bbad99f3d81b763f4afa87ab82c97fd5fb2c0c2c639cd09cb64be06",
+      "bytes": 553617,
+      "git_blob_sha": "60ee6474cb121ffd31a96f5c7c2197667f9319c4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          145,
+          928,
+          878
+        ],
+        "margins": [
+          96,
+          145,
+          96,
+          146
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 61422,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/W/pixel.png",
+      "sha256": "fe5aec0e0f908053c4343256ee3a0b39b6592c1ca0bd2d01824f745802d9f618",
+      "bytes": 7363,
+      "git_blob_sha": "c5d7b14861245b49ffcd5f67dab1b69c3026c1e7",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          20,
+          116,
+          108
+        ],
+        "margins": [
+          12,
+          20,
+          12,
+          20
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 29,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "f9ad5bb04bbad99f3d81b763f4afa87ab82c97fd5fb2c0c2c639cd09cb64be06"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/NW/default.png",
+      "sha256": "cf27e9bf2d189c87d6d5a1135ddfe440d541606d2e98b6292cfcb98c2699a788",
+      "bytes": 548472,
+      "git_blob_sha": "a9f2ef5a168862de04318ab60d6faa604c18b5f6",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          115,
+          928,
+          909
+        ],
+        "margins": [
+          96,
+          115,
+          96,
+          115
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 54693,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/NW/pixel.png",
+      "sha256": "1c967ae6860c7f2ad8973c052f9a6d943caa24139b67737248f25077f36df5ac",
+      "bytes": 7344,
+      "git_blob_sha": "60eadb6848d6b259ee954cff8c3216104cab89f2",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          16,
+          116,
+          111
+        ],
+        "margins": [
+          12,
+          16,
+          12,
+          17
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "cf27e9bf2d189c87d6d5a1135ddfe440d541606d2e98b6292cfcb98c2699a788"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/N/default.png",
+      "sha256": "9828e8f2ffe28300941ef3a50ec94eaceb52a9809def6c31278b8e057df2eab7",
+      "bytes": 508930,
+      "git_blob_sha": "965154d9bd82e107533819f3430e0e0b9472457f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          148,
+          928,
+          875
+        ],
+        "margins": [
+          96,
+          148,
+          96,
+          149
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 51327,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/N/pixel.png",
+      "sha256": "bd463a6a2114ae6a709dbe20f6e6d4857dc41f69b32e87d9d0f74577178319d5",
+      "bytes": 7130,
+      "git_blob_sha": "84951c13a24a45aefe2ad803440961399cc6a7b5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          19,
+          116,
+          109
+        ],
+        "margins": [
+          12,
+          19,
+          12,
+          19
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "9828e8f2ffe28300941ef3a50ec94eaceb52a9809def6c31278b8e057df2eab7"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/NE/default.png",
+      "sha256": "b56c6f7b2761ffbd35c0271fbc628536887495098058627b42fc7408488bbb07",
+      "bytes": 533683,
+      "git_blob_sha": "72074ab90606476eb6e459bf3de527ec93433481",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          136,
+          928,
+          888
+        ],
+        "margins": [
+          96,
+          136,
+          96,
+          136
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 55436,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/NE/pixel.png",
+      "sha256": "ce1a6e5fafc574f91af9457fffa44b61e7bcb171d3ebf487aad2df34c3397db8",
+      "bytes": 8145,
+      "git_blob_sha": "17af3092335f53742ba0b87178f65a6a27b82634",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          17,
+          116,
+          110
+        ],
+        "margins": [
+          12,
+          17,
+          12,
+          18
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 30,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "b56c6f7b2761ffbd35c0271fbc628536887495098058627b42fc7408488bbb07"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/E/default.png",
+      "sha256": "a5e9bc654e3ed076ddbe149c57519aaa1a63353f7392f1224cd8024f2381b0a3",
+      "bytes": 510601,
+      "git_blob_sha": "57cbcbb95cc2c7e7bd1dc572ce4a8684852376b6",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          182,
+          928,
+          842
+        ],
+        "margins": [
+          96,
+          182,
+          96,
+          182
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 57649,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-007/directions/E/pixel.png",
+      "sha256": "e033b254e97b7ee37d8949f6dd895d3eedaa91a9d09fbae82d8b519deb939afa",
+      "bytes": 6861,
+      "git_blob_sha": "0078d3e6ce1c47b2c4be6c7ecb9effe09347520f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          26,
+          116,
+          102
+        ],
+        "margins": [
+          12,
+          26,
+          12,
+          26
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 29,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "a5e9bc654e3ed076ddbe149c57519aaa1a63353f7392f1224cd8024f2381b0a3"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-007/default.png",
+      "sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18",
+      "bytes": 574202,
+      "git_blob_sha": "6a40d4843f1f244f551800cd9d9584b9028a82d4",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          176,
+          944,
+          848
+        ],
+        "margins": [
+          80,
+          176,
+          80,
+          176
+        ],
+        "visible_longest_extent": 864,
+        "alpha_value_count": 249,
+        "visible_rgb_colors": 55068,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-007/pixel.png",
+      "sha256": "129ce85f115b57cf9f77c793fd97f998d57068313d05ea7cc184254698da507a",
+      "bytes": 10406,
+      "git_blob_sha": "8c9e6ed9bcee51a3657f6d9a7231bb623c40edc7",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          24,
+          118,
+          103
+        ],
+        "margins": [
+          10,
+          24,
+          10,
+          25
+        ],
+        "visible_longest_extent": 108,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 32,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18"
+    }
+  ],
+  "qa": {
+    "producer_and_parent_visual_review": "candidate correspondence reviewed; scope and caveats retained",
+    "E_independent_numeric_and_hash_review": "performed for all16 files",
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending",
+    "limitations": [
+      "Existing direction is visually inferred from a single two-dimensional reference; labels are nominal viewpoints, not certified 3D rotations.",
+      "Hidden surfaces, far-side occlusion and exact 45-degree continuity are inferred.",
+      "In-game display and final user acceptance have not been completed.",
+      "W/E oblique artistic projections retain angle; not strict90degree or precise3Drotation acceptance. Thickness and unseen perspectives estimated from singleoriginal."
+    ]
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "a22e2990ca5277fed2a1e6848a37cf81d73974c3294998c1121e94bb8d1b6071",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "ad8b167c241802b4c0ab54dc0fd425ad6e2a2a2412540c3061ec396a3ef3f379",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. One transparent 1024 square full-body sprite of exactly the same creature in reference, rotated in 3D to face DIRECTLY FRONT toward viewer (S0). Keep its anatomy: body is a soft accordion fan with exactly7 peaks/ridges; center peak tallest and has exactly1 oval translucent porthole. Four legs only: short front pair, long bent rear pair; 2 amber eyes at low front face, no wings, tail or separate head. Orange #CE8663, slateblue #486493, cream #F0DBB3; preserve band placement and cream scalloped rim. Front view should have both eyes balanced around center and both short front legs visible with longer rear legs behind; preserve fan geometry not a flat pasted silhouette. Exact same individual, clean illustrated smooth shading like original, calm stance. Full figure centered 10% transparent margin, no text, ground, shadow, props, additional parts. Exactly one view.",
+      "generation_references": [
+        {
+          "sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18",
+          "role": "original_identity_reference"
+        }
+      ]
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "fdf7eca09bd140a0f31f6c93ab925c7f499d96c3862dadf79904efb090facc7c",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "156449595ab6be570f125c01f6b0627b02620a9e6a1ca17578c027f9c30089a2",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of image1 EXACT creature, silhouette, pose and S direct FRONT, both eyes balanced, short forelegs nearest view. Image2 is only original pixel STYLE/PALETTE reference, not facing. Maintain the7 physical accordion peaks/ridges (far ridges occlude naturally), tallest middle ridge with only1 oval translucent-window interpreted as opaque pixel clusters,4legs:2 short front and2 long bent rear, no head/wings/tail/extra anatomy. Same orange/slateblue/cream color roles and scalloped edge. Actual128x128 pixel art, crisp square clusters and controlled stair-step contours, max32colors, binary transparency, no blur/antialias/gradient. Full figure104px extent within128square clear margins. Do not revert to original front-right view, do not add hidden eyes. No text, floor, shadow, props.",
+      "generation_references": [
+        {
+          "sha256": "ad8b167c241802b4c0ab54dc0fd425ad6e2a2a2412540c3061ec396a3ef3f379",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "129ce85f115b57cf9f77c793fd97f998d57068313d05ea7cc184254698da507a",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "3bccbdb844fef1a834216bf9607ea81d006596798e7fed0654b98d7d6152ce1b",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "b416287d596f650cea7e50dd56ec301525c7e00ed1705610ffceda515555f03a",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent square1024 sprite of the exact reference accordion-fan creature rotated in3D to SW45, FRONT facing toward SCREEN LEFT. Preserve same body: exactly7 fan accordion ridges/peaks, middle tallest with single oval translucent window, 4 legs (2 short front near screen-left, 2 longer bent rear toward screen-right), 2 amber eyes on low front face, no separate head, wings or tail. Dusty orange #CE8663, slateblue #486493, cream #F0DBB3, same rim and blue markings. True left-front3/4 view of same individual, maintain relative leg and ridge geometry, clean shaded2D fantasy illustration. Entire body centered 10% transparent margin. No ground/shadow/text/extra elements.",
+      "generation_references": [
+        {
+          "sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18",
+          "role": "original_identity_reference"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "87c9d18a3f86dd32a4b38eea2a1edefbef633ab6d39a534819c3ae73c5b26373",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "986027b567f9c6b8f70fbbba87bca8426cfa594b30b70a95d4dc9f32126ec822",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of image1 EXACT creature, silhouette, pose and SW front-left3/4, eyes and short forelegs toward screen-left view. Image2 is only original pixel STYLE/PALETTE reference, not facing. Maintain the7 physical accordion peaks/ridges (far ridges occlude naturally), tallest middle ridge with only1 oval translucent-window interpreted as opaque pixel clusters,4legs:2 short front and2 long bent rear, no head/wings/tail/extra anatomy. Same orange/slateblue/cream color roles and scalloped edge. Actual128x128 pixel art, crisp square clusters and controlled stair-step contours, max32colors, binary transparency, no blur/antialias/gradient. Full figure104px extent within128square clear margins. Do not revert to original front-right view, do not add hidden eyes. No text, floor, shadow, props.",
+      "generation_references": [
+        {
+          "sha256": "b416287d596f650cea7e50dd56ec301525c7e00ed1705610ffceda515555f03a",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "129ce85f115b57cf9f77c793fd97f998d57068313d05ea7cc184254698da507a",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "f9ad5bb04bbad99f3d81b763f4afa87ab82c97fd5fb2c0c2c639cd09cb64be06",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "cd0464636fb9f39ca8ea8d9263e04b1cd510797e9448aae0259c0cf9c6acff4d",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. Make ONE transparent square1024 sprite of exact reference accordion creature from true W90 LEFT-FACING SIDE PROFILE. Rotate whole body3D so low front face/nose and short forelegs face SCREEN LEFT; rear long bent legs extend toward SCREEN RIGHT. Fan body should be foreshortened into a narrower side elevation with depth and partly overlapping seven ridges, NOT a broad frontal fan with turned face. Preserve exactly7 physical accordion ridges center tallest with1 translucent oval window (occlude naturally),4 legs (near2 clear, far2 partially hidden),2 eyes (far eye hidden naturally), no head/wings/tail. Same orange slateblue cream palette and cream rim, original clean smooth-shaded2D illustration. All parts within10% transparent border, no text/ground/shadow.",
+      "generation_references": [
+        {
+          "sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18",
+          "role": "original_identity_reference"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "fe5aec0e0f908053c4343256ee3a0b39b6592c1ca0bd2d01824f745802d9f618",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "a48ee453b2d4eded02ca6a64879235121b725bf18e7c0b415eaedcbac6c90d45",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of image1 EXACT creature, silhouette, pose and W left-facing SIDE profile, one near eye visible and nose screen-left, long hindlegs screen-right view. Image2 is only original pixel STYLE/PALETTE reference, not facing. Maintain the7 physical accordion peaks/ridges (far ridges occlude naturally), tallest middle ridge with only1 oval translucent-window interpreted as opaque pixel clusters,4legs:2 short front and2 long bent rear, no head/wings/tail/extra anatomy. Same orange/slateblue/cream color roles and scalloped edge. Actual128x128 pixel art, crisp square clusters and controlled stair-step contours, max32colors, binary transparency, no blur/antialias/gradient. Full figure104px extent within128square clear margins. Do not revert to original front-right view, do not add hidden eyes. No text, floor, shadow, props.",
+      "generation_references": [
+        {
+          "sha256": "cd0464636fb9f39ca8ea8d9263e04b1cd510797e9448aae0259c0cf9c6acff4d",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "129ce85f115b57cf9f77c793fd97f998d57068313d05ea7cc184254698da507a",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "cf27e9bf2d189c87d6d5a1135ddfe440d541606d2e98b6292cfcb98c2699a788",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "d48ae56ed5123ce37eaae540ceef7a06ac0a5dee364d3c4b1625c55fb94ce761",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. ONE1024 transparent fullbody sprite. Same accordion creature NW135 REAR LEFT-facing3/4 view. Reference1 identity front, reference2 back structure. Animal faces diagonally away toward SCREEN LEFT; back and long hindlegs nearest viewer toward SCREEN RIGHT. NO front eyes visible. Exactly7 folded fan ridges middle tallest with ONE central translucent oval window naturally foreshortened,4legs:2 long bent rear +2 short front (far partly hidden), no tail/wings/head. Preserve orange/slateblue/cream palette, cream scalloped edge, original smooth clean illustrated style and proportions. True rear-left orientation, not front view with eyes erased; show hindleg side clearly. Center full silhouette with10% transparent border, no ground/shadow/text.",
+      "generation_references": [
+        {
+          "sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18",
+          "role": "original_identity_reference"
+        },
+        {
+          "sha256": "16e0b3e272f7c3ecccc92ceacf8e14b8e4871a10cb66889e1b4c53a3c02935e6",
+          "role": "generated_rear_structure_reference"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "1c967ae6860c7f2ad8973c052f9a6d943caa24139b67737248f25077f36df5ac",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "afec177d0978670fd997113e83e4e78644567b2ad89ea771f2faeaf33d90311e",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of image1 EXACT creature, silhouette, pose and NW rear-left3/4, NO EYES, long hindlegs nearest screen-right view. Image2 is only original pixel STYLE/PALETTE reference, not facing. Maintain the7 physical accordion peaks/ridges (far ridges occlude naturally), tallest middle ridge with only1 oval translucent-window interpreted as opaque pixel clusters,4legs:2 short front and2 long bent rear, no head/wings/tail/extra anatomy. Same orange/slateblue/cream color roles and scalloped edge. Actual128x128 pixel art, crisp square clusters and controlled stair-step contours, max32colors, binary transparency, no blur/antialias/gradient. Full figure104px extent within128square clear margins. Do not revert to original front-right view, do not add hidden eyes. No text, floor, shadow, props.",
+      "generation_references": [
+        {
+          "sha256": "d48ae56ed5123ce37eaae540ceef7a06ac0a5dee364d3c4b1625c55fb94ce761",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "129ce85f115b57cf9f77c793fd97f998d57068313d05ea7cc184254698da507a",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "9828e8f2ffe28300941ef3a50ec94eaceb52a9809def6c31278b8e057df2eab7",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "16e0b3e272f7c3ecccc92ceacf8e14b8e4871a10cb66889e1b4c53a3c02935e6",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 square full-body sprite, EXACT reference creature seen from N180 DIRECTLY BEHIND. Rotate animal to face AWAY from viewer, no eyes or front face visible. Show back of orange/slateblue accordion fan body with exactly7 physical ridges, middle highest, cream scalloped rim. The central oval translucent window is a single opening through the middle ridge, can be seen from back but never duplicate it. Four legs: nearest two LONG bent hind legs prominent, far two SHORT front legs partly occluded. No tail, wings, head or added parts. Preserve same body proportions, blue markings, orange cream palette and smooth clean2D fantasy illustration style. Back view should clearly hide eyes and put long hindlegs nearest viewer. Entire silhouette centered 10% transparent border, no text, ground, shadow.",
+      "generation_references": [
+        {
+          "sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18",
+          "role": "original_identity_reference"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "bd463a6a2114ae6a709dbe20f6e6d4857dc41f69b32e87d9d0f74577178319d5",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "e19370af98aac43107c9e819d47dc3434c625396cdafcb4c99a2e4cb6a3756ac",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of image1 EXACT creature, silhouette, pose and N direct BACK, NO EYES, long hindlegs nearest view. Image2 is only original pixel STYLE/PALETTE reference, not facing. Maintain the7 physical accordion peaks/ridges (far ridges occlude naturally), tallest middle ridge with only1 oval translucent-window interpreted as opaque pixel clusters,4legs:2 short front and2 long bent rear, no head/wings/tail/extra anatomy. Same orange/slateblue/cream color roles and scalloped edge. Actual128x128 pixel art, crisp square clusters and controlled stair-step contours, max32colors, binary transparency, no blur/antialias/gradient. Full figure104px extent within128square clear margins. Do not revert to original front-right view, do not add hidden eyes. No text, floor, shadow, props.",
+      "generation_references": [
+        {
+          "sha256": "16e0b3e272f7c3ecccc92ceacf8e14b8e4871a10cb66889e1b4c53a3c02935e6",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "129ce85f115b57cf9f77c793fd97f998d57068313d05ea7cc184254698da507a",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "b56c6f7b2761ffbd35c0271fbc628536887495098058627b42fc7408488bbb07",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "fe202bd2ccd238b4b5757b0a00973b4fa747ccdcb6011a374d0fd8ea7d23bce1",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 square fullbody sprite. Exact reference accordion creature NE225 REAR RIGHT-facing3/4 view. Reference1 front identity, reference2 back structure. Animal faces diagonally away toward SCREEN RIGHT, nearest long bent hindlegs toward SCREEN LEFT, short forelegs farther screen-right. Back view, no eyes/front face visible. Exactly7 physical fan ridges middle highest, exactly1 central oval translucent window, orange/slateblue/cream and cream scalloped rim. Four legs only, no tail/wings/head/additions. Preserve same proportions, clean smooth-shaded fantasy illustration. Clear rear-right viewpoint, centered whole silhouette10% transparent margin, no text/ground/shadow.",
+      "generation_references": [
+        {
+          "sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18",
+          "role": "original_identity_reference"
+        },
+        {
+          "sha256": "16e0b3e272f7c3ecccc92ceacf8e14b8e4871a10cb66889e1b4c53a3c02935e6",
+          "role": "generated_rear_structure_reference"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "ce1a6e5fafc574f91af9457fffa44b61e7bcb171d3ebf487aad2df34c3397db8",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "f41acafd09fba82a1b67d2e3f2adaa30e7a266ec9632306efbadbf96d6a4211a",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of image1 EXACT creature, silhouette, pose and NE rear-right3/4, NO EYES, long hindlegs nearest screen-left view. Image2 is only original pixel STYLE/PALETTE reference, not facing. Maintain the7 physical accordion peaks/ridges (far ridges occlude naturally), tallest middle ridge with only1 oval translucent-window interpreted as opaque pixel clusters,4legs:2 short front and2 long bent rear, no head/wings/tail/extra anatomy. Same orange/slateblue/cream color roles and scalloped edge. Actual128x128 pixel art, crisp square clusters and controlled stair-step contours, max32colors, binary transparency, no blur/antialias/gradient. Full figure104px extent within128square clear margins. Do not revert to original front-right view, do not add hidden eyes. No text, floor, shadow, props.",
+      "generation_references": [
+        {
+          "sha256": "fe202bd2ccd238b4b5757b0a00973b4fa747ccdcb6011a374d0fd8ea7d23bce1",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "129ce85f115b57cf9f77c793fd97f998d57068313d05ea7cc184254698da507a",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "a5e9bc654e3ed076ddbe149c57519aaa1a63353f7392f1224cd8024f2381b0a3",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "4e067120565519f4a19dc99936ac0a5d1fd3ece93e5e0d8dffe4106d4023c02b",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 sprite of same reference creature from strict E270 RIGHT-facing SIDE PROFILE. Nose/front face and2 short forelegs point SCREEN RIGHT,2 long bent rear legs toward SCREEN LEFT. Rotate entire seven-ridge accordion fan body in3D to side, foreshortening ridges and central translucent window naturally, not only turning face. Near eye visible at right low face; far eye occluded. Exactly7 physical ridges highest in center with1 oval window only,4legs total, no tail/head/wings. Preserve orange/slateblue/cream markings, scalloped cream edge and clean smooth-shaded2D original illustration. Full body centered transparent10% border, no text/ground/shadow.",
+      "generation_references": [
+        {
+          "sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18",
+          "role": "original_identity_reference"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "e033b254e97b7ee37d8949f6dd895d3eedaa91a9d09fbae82d8b519deb939afa",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "3e1d4818d506e2e1e406f1eda138c9c60051e7501e4e7a2db2dafd621e9992ea",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of image1 EXACT creature, silhouette, pose and E right-facing SIDE profile, one near eye and nose screen-right, long hindlegs screen-left view. Image2 is only original pixel STYLE/PALETTE reference, not facing. Maintain the7 physical accordion peaks/ridges (far ridges occlude naturally), tallest middle ridge with only1 oval translucent-window interpreted as opaque pixel clusters,4legs:2 short front and2 long bent rear, no head/wings/tail/extra anatomy. Same orange/slateblue/cream color roles and scalloped edge. Actual128x128 pixel art, crisp square clusters and controlled stair-step contours, max32colors, binary transparency, no blur/antialias/gradient. Full figure104px extent within128square clear margins. Do not revert to original front-right view, do not add hidden eyes. No text, floor, shadow, props.",
+      "generation_references": [
+        {
+          "sha256": "4e067120565519f4a19dc99936ac0a5d1fd3ece93e5e0d8dffe4106d4023c02b",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "129ce85f115b57cf9f77c793fd97f998d57068313d05ea7cc184254698da507a",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18",
+        "role": "technical_finished_output"
+      },
+      "operation": "byte_identical_existing_merged_original_copy",
+      "source": {
+        "sha256": "2573779c884fe089ab1f98de77f17783cf8ad15648218c8d957412d877252f18",
+        "role": "merged_original"
+      },
+      "prompt": null,
+      "generation_references": []
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "129ce85f115b57cf9f77c793fd97f998d57068313d05ea7cc184254698da507a",
+        "role": "technical_finished_output"
+      },
+      "operation": "byte_identical_existing_merged_original_copy",
+      "source": {
+        "sha256": "129ce85f115b57cf9f77c793fd97f998d57068313d05ea7cc184254698da507a",
+        "role": "merged_original"
+      },
+      "prompt": null,
+      "generation_references": []
+    }
+  ]
+}

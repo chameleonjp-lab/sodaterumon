@@ -1,0 +1,910 @@
+{
+  "schema_version": 1,
+  "id": "sm-arcane-002",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "S",
+  "existing_direction_basis": "visual inference; no original explicit direction metadata",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/arcane/sm-arcane-002/default.png",
+      "sha256": "b06b309fb9b6af96f6dc2cf2925e7f35e9491a304822cfe75b7dcf4643a699b0",
+      "git_blob_sha": "92cf64e911fdc953233bd4a9961a9bd208c0bd92",
+      "bytes": 489403
+    },
+    "pixel": {
+      "path": "assets/monsters/arcane/sm-arcane-002/pixel.png",
+      "sha256": "51ae4cbdb02405d54443cea18453f6fe571322c323c6edf7ed951e1bc45bf83d",
+      "git_blob_sha": "ff2698dc62751bfb6dfb06f20fe0ec6428efcec0",
+      "bytes": 7571
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front, N rear; eight nominal azimuth sectors in order S,SW,W,NW,N,NE,E,SE. Not an assertion of exact physical camera calibration.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-002/default.png",
+      "sha256": "b06b309fb9b6af96f6dc2cf2925e7f35e9491a304822cfe75b7dcf4643a699b0",
+      "bytes": 489403,
+      "git_blob_sha": "92cf64e911fdc953233bd4a9961a9bd208c0bd92",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          113,
+          96,
+          911,
+          928
+        ],
+        "margins": [
+          113,
+          96,
+          113,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 49869,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-002/pixel.png",
+      "sha256": "51ae4cbdb02405d54443cea18453f6fe571322c323c6edf7ed951e1bc45bf83d",
+      "bytes": 7571,
+      "git_blob_sha": "ff2698dc62751bfb6dfb06f20fe0ec6428efcec0",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          21,
+          116,
+          106
+        ],
+        "margins": [
+          12,
+          21,
+          12,
+          22
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 24,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "b06b309fb9b6af96f6dc2cf2925e7f35e9491a304822cfe75b7dcf4643a699b0"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/SW/default.png",
+      "sha256": "cccfcf9992279e9fbf1ad7c921ed901935ce79433ad1bcc926c742d30de7009b",
+      "bytes": 578727,
+      "git_blob_sha": "fe6f422fb7f7c47502be54725d5317771024dd73",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          123,
+          928,
+          900
+        ],
+        "margins": [
+          96,
+          123,
+          96,
+          124
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 56994,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/SW/pixel.png",
+      "sha256": "222385a3edb591d080af4ccfd1800ee8b3147c176fa09d3fa06b31c791271efa",
+      "bytes": 7234,
+      "git_blob_sha": "040fc5fe2a5fbdf340091031ac2474277deb226b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          14,
+          116,
+          113
+        ],
+        "margins": [
+          12,
+          14,
+          12,
+          15
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 22,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "cccfcf9992279e9fbf1ad7c921ed901935ce79433ad1bcc926c742d30de7009b"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/W/default.png",
+      "sha256": "1463fb6d64932d36910cbb57d27bdf2ac3afcc0a57bb7f4e321bf5d78deaec2c",
+      "bytes": 475846,
+      "git_blob_sha": "6125573f99bac472ef64efe5ad1897e878f3025b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          231,
+          96,
+          793,
+          928
+        ],
+        "margins": [
+          231,
+          96,
+          231,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 45671,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/W/pixel.png",
+      "sha256": "308294738264c3d1ad6c7598109ffbd4f053595766ce402f48494f361f5efea9",
+      "bytes": 5696,
+      "git_blob_sha": "8f553763a3f7538a4f5192c5fd2d8323294b2c7a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          25,
+          12,
+          102,
+          116
+        ],
+        "margins": [
+          25,
+          12,
+          26,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 22,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "1463fb6d64932d36910cbb57d27bdf2ac3afcc0a57bb7f4e321bf5d78deaec2c"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/NW/default.png",
+      "sha256": "598d6dac873f4babee820631d5dfc58947514a6da9db8f883ac5f23e1776bdee",
+      "bytes": 561821,
+      "git_blob_sha": "e675e4e1d66b12f7de73624ad05f62db74332fd5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          111,
+          96,
+          913,
+          928
+        ],
+        "margins": [
+          111,
+          96,
+          111,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 53047,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/NW/pixel.png",
+      "sha256": "6ff18ed5d548c3c23e758174a3bf6cea19fa0261756ca5387511af852a262b34",
+      "bytes": 7054,
+      "git_blob_sha": "c04532aa7971a093ad7d5401a10ec51bbb5b11da",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          14,
+          12,
+          114,
+          116
+        ],
+        "margins": [
+          14,
+          12,
+          14,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 21,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "598d6dac873f4babee820631d5dfc58947514a6da9db8f883ac5f23e1776bdee"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/N/default.png",
+      "sha256": "907ee5ddc9abf048e2d6a4cf3b6293b11db0df49970b69875ab3851c9248f0fe",
+      "bytes": 552721,
+      "git_blob_sha": "9703b23dc804f2490db354f98bb13979b38f93cc",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          174,
+          928,
+          850
+        ],
+        "margins": [
+          96,
+          174,
+          96,
+          174
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 51197,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/N/pixel.png",
+      "sha256": "6cc95258e4e119b4d0649b34ae9c102b1555c8353fb35ffb0a5bee121b1ed28c",
+      "bytes": 6500,
+      "git_blob_sha": "ddc87744f8033f01afba1177eb3acceb03d75722",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          21,
+          116,
+          107
+        ],
+        "margins": [
+          12,
+          21,
+          12,
+          21
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 22,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "907ee5ddc9abf048e2d6a4cf3b6293b11db0df49970b69875ab3851c9248f0fe"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/NE/default.png",
+      "sha256": "569b8ccf781953987598c59dc98527ec451e6c4da7961b783d334f746b09ed9b",
+      "bytes": 613581,
+      "git_blob_sha": "2282d3635f060e3f9133a5c6bf5f43c26108a7a8",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          99,
+          928,
+          925
+        ],
+        "margins": [
+          96,
+          99,
+          96,
+          99
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 54410,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/NE/pixel.png",
+      "sha256": "ea249702c90f6f766db001688ea32226ac7d6fe3f881864b76ce8f7211c8715b",
+      "bytes": 6842,
+      "git_blob_sha": "a9b9cefefeafde4576daaa9fe818e8c9258c1501",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          12,
+          116,
+          116
+        ],
+        "margins": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 22,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "569b8ccf781953987598c59dc98527ec451e6c4da7961b783d334f746b09ed9b"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/E/default.png",
+      "sha256": "cb12794e5ec5e0f2899b2f0c45907e17307fad4dfd62982bff2a3de13e1eaa01",
+      "bytes": 467194,
+      "git_blob_sha": "f4b3791344f3dbac7ff5bd6c3ef8664ffec5bb34",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          202,
+          96,
+          822,
+          928
+        ],
+        "margins": [
+          202,
+          96,
+          202,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 44750,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/E/pixel.png",
+      "sha256": "2363a111caae51718bb8ca8e4a9020f837e006d01732e9a94bb42200fe632e88",
+      "bytes": 5681,
+      "git_blob_sha": "0e6b632052df330ef4b25431de1502ec188c11a5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          21,
+          12,
+          106,
+          116
+        ],
+        "margins": [
+          21,
+          12,
+          22,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 22,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "cb12794e5ec5e0f2899b2f0c45907e17307fad4dfd62982bff2a3de13e1eaa01"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/SE/default.png",
+      "sha256": "12857d2c2828bd0909b3af9549eaef7c266ffd50536684d6bca73608527db25e",
+      "bytes": 632758,
+      "git_blob_sha": "f00145314599bd2ce6cf25d152d193f1cabc0b22",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          102,
+          928,
+          922
+        ],
+        "margins": [
+          96,
+          102,
+          96,
+          102
+        ],
+        "visible_longest_extent": 832,
+        "alpha_value_count": 256,
+        "visible_rgb_colors": 56755,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/arcane/sm-arcane-002/directions/SE/pixel.png",
+      "sha256": "176a4e809f54de73f88b6b9ab9b5d757d71453f365d8e66f78dce0a869373960",
+      "bytes": 7043,
+      "git_blob_sha": "6690961fc9441cb7459589dff0cce80321d691f2",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          13,
+          12,
+          114,
+          116
+        ],
+        "margins": [
+          13,
+          12,
+          14,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "alpha_value_count": 2,
+        "visible_rgb_colors": 23,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "12857d2c2828bd0909b3af9549eaef7c266ffd50536684d6bca73608527db25e"
+    }
+  ],
+  "qa": {
+    "producer_and_parent_visual_review": "candidate correspondence reviewed; scope and caveats retained",
+    "E_independent_numeric_and_hash_review": "performed for all16 files",
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending",
+    "limitations": [
+      "Existing direction is visually inferred from a single two-dimensional reference; labels are nominal viewpoints, not certified 3D rotations.",
+      "Hidden surfaces, far-side occlusion and exact 45-degree continuity are inferred.",
+      "In-game display and final user acceptance have not been completed.",
+      "Candidate set only. W/E artistic perspective caveat; not precision3D rotation or game acceptance. Parent has not individually reviewed all16fullsize files."
+    ]
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "b06b309fb9b6af96f6dc2cf2925e7f35e9491a304822cfe75b7dcf4643a699b0",
+        "role": "technical_finished_output"
+      },
+      "operation": "byte_identical_existing_merged_original_copy",
+      "source": {
+        "sha256": "b06b309fb9b6af96f6dc2cf2925e7f35e9491a304822cfe75b7dcf4643a699b0",
+        "role": "merged_original"
+      },
+      "prompt": null,
+      "generation_references": []
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "51ae4cbdb02405d54443cea18453f6fe571322c323c6edf7ed951e1bc45bf83d",
+        "role": "technical_finished_output"
+      },
+      "operation": "byte_identical_existing_merged_original_copy",
+      "source": {
+        "sha256": "51ae4cbdb02405d54443cea18453f6fe571322c323c6edf7ed951e1bc45bf83d",
+        "role": "merged_original"
+      },
+      "prompt": null,
+      "generation_references": []
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "cccfcf9992279e9fbf1ad7c921ed901935ce79433ad1bcc926c742d30de7009b",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "fc6c74535bc9b8f48942bdd33d92691e67ec050aea73e21b72a5c9998da803be",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. One transparent 1024 square full-body sprite. Turn this exact ribbon-knot creature to a SW 45 degree FRONT LEFT-facing view: its single front eye now points diagonally toward SCREEN LEFT and viewer. Eye/front knot sits leftward of the body center; the loop on SCREEN RIGHT is nearer/broader, SCREEN LEFT loop is farther and foreshortened. Preserve two continuous equal-sized closed side loops, two broad trailing bands hanging down, one square central woven knot with one vertical pale eye, no added head/tail/limbs. Same dusty pink/navy/pale blush ribbon palette, angular light markings, relaxed pose, clean smooth shaded illustration. Rotate in 3D, not image-plane tilt. Full body visible, centered 10% clear transparent margins, no text, props, floor or shadow.",
+      "generation_references": [
+        {
+          "sha256": "b06b309fb9b6af96f6dc2cf2925e7f35e9491a304822cfe75b7dcf4643a699b0",
+          "role": "original_identity_reference"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "222385a3edb591d080af4ccfd1800ee8b3147c176fa09d3fa06b31c791271efa",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "2d0ff5eb51b5f681b4534ecc1ad06045a302115dde6941ac1c68ba48f3f20dd9",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. Create ONE transparent pixel-art sprite of exactly the creature in image1, same SW front-left view, same shape, pose, silhouette and two loops/two hanging bands/one central eye. Image2 is the existing pixel-art STYLE and PALETTE reference ONLY, do not copy its front direction. Render for an actual 128x128 game sprite with sharp square pixel clusters, 24-32 colors maximum, binary transparent background, no antialias, no gradients. Match original dusty pink navy pale blush pixel palette. Preserve near screen-right bigger loop, far left small loop, eye left of center. Full figure occupies about 104 pixels of a 128 pixel square with clear margin. Do not make sheet, no labels/shadows/extra parts. One SW view only.",
+      "generation_references": [
+        {
+          "sha256": "d02844c2b84767e56a37fc53b8de8321c16b1152db309f1b120d99faffb1025f",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "51ae4cbdb02405d54443cea18453f6fe571322c323c6edf7ed951e1bc45bf83d",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "1463fb6d64932d36910cbb57d27bdf2ac3afcc0a57bb7f4e321bf5d78deaec2c",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "d5df3d2fad9e847d4de0ccbd84ed7dc0f1e27a7af35c6253fc982532db541ea0",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. Generate exactly ONE 1024 square transparent game sprite showing the SAME ribbon creature from a strict LEFT-facing SIDE view, W at 90 degrees to its front. Reference is front. Rotate the whole three-dimensional creature around its vertical axis until its front eye points directly toward SCREEN LEFT. Central square knot now seen edge-on: eye only at leftmost edge or naturally hidden, never centered facing viewer. Its two side loops overlap in projection one behind the other; BOTH remain anatomically present, appearing edge-on as narrow thick woven band curves. Two broad hanging ribbon wings overlap partly in depth, no added tail/limbs/head. Preserve exactly 2 equal loops, 1 front eye, 2 downward broad band wings; pink #D988B0/navy #294F6B/pale blush #FFE9F2 bands and pale angular decoration. Smooth original clean illustrated shading. This is a true side profile, NOT a frontal bow with slight skew. Full body centered, transparent padding 10%, no ground shadow, no text.",
+      "generation_references": [
+        {
+          "sha256": "b06b309fb9b6af96f6dc2cf2925e7f35e9491a304822cfe75b7dcf4643a699b0",
+          "role": "original_identity_reference"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "308294738264c3d1ad6c7598109ffbd4f053595766ce402f48494f361f5efea9",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "adce75d2d3bd1bad9216b07ed6c48af4d3de86149a11b1b3b756c749bf97b281",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. Make ONE transparent pixel-art sprite, same exact creature and W LEFT-facing side profile as image1. Image2 only supplies original pixel style and pink/navy/pale blush palette. Preserve image1 silhouette, near and far overlapping ribbon loops, two broad hanging ribbon wings, square central knot and single eye peeking on SCREEN LEFT edge. Do not revert to front. 128x128 pixel game art, hard square clusters, binary transparency, at most32 colors, no antialias or gradients. Whole creature occupies about104 of128 pixels with transparent margin. No new limbs/tail/head, no text/floor/shadow. Exactly one side-view sprite.",
+      "generation_references": [
+        {
+          "sha256": "a3af01c9e214868e4305f0a8872cfbe233aba1d00c524616f929b1f2d7a041a0",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "51ae4cbdb02405d54443cea18453f6fe571322c323c6edf7ed951e1bc45bf83d",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "598d6dac873f4babee820631d5dfc58947514a6da9db8f883ac5f23e1776bdee",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "ebc143dc7e3bc5e5b41c03328383fea629522dc0ccc78aa22b877471c1f48536",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent 1024 square full-body sprite. Show the exact same ribbon-knot creature in NW 135-degree REAR LEFT-facing three-quarter view, halfway between left profile and back. Front points diagonally away toward SCREEN LEFT, back of knot toward viewer. The single eye is on the concealed front face, so NO eye visible on rear. Screen-left loop near, screen-right loop farther; loops foreshortened in 3D. Same 2 equal closed loops and 2 hanging broad band wings under them, same crossed square central knot. Preserve dusty pink navy pale blush palette and pale angular markings, no added parts/head/tail/feet. Same floating relaxed pose and smooth shaded clean illustration as reference. Genuine back three-quarter orientation, not merely removing eye from a front view. Full-body centered with transparent margins, no text/ground/shadow.",
+      "generation_references": [
+        {
+          "sha256": "b06b309fb9b6af96f6dc2cf2925e7f35e9491a304822cfe75b7dcf4643a699b0",
+          "role": "original_identity_reference"
+        },
+        {
+          "sha256": "6c7e885b9d458462f32d88b17902208893cdffcce84e8562a2f29321ce90c6d3",
+          "role": "generated_rear_structure_reference"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "6ff18ed5d548c3c23e758174a3bf6cea19fa0261756ca5387511af852a262b34",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "0ddfc51659351d77ab9643baa84a9dc49fcca231016eab78e61d6d541b6c41c6",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. ONE pixel-art transparent sprite matching image1 exact NW rear-left three-quarter view. Image2 is STYLE/PALETTE reference only. Keep image1 two ribbon loops (near screen-left larger, far screen-right smaller), two trailing broad bands, single central square knot BACK with NO visible eye. Do not revert to front or add eye. Exact same ribbon creature. Actual128x128 pixel aesthetic, at most32 colors in dusty pink/navy/pale blush, binary transparent edges, crisp hard square clusters, no smooth gradient/antialias. Whole creature 104px extent within128 square. No text, ground, shadow, extra anatomy.",
+      "generation_references": [
+        {
+          "sha256": "e9bdf3662d4441b20122afc6214165ac2809c369bbfa7a622de3d81dbe76bdfe",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "51ae4cbdb02405d54443cea18453f6fe571322c323c6edf7ed951e1bc45bf83d",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "907ee5ddc9abf048e2d6a4cf3b6293b11db0df49970b69875ab3851c9248f0fe",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "6c7e885b9d458462f32d88b17902208893cdffcce84e8562a2f29321ce90c6d3",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. Produce ONE transparent 1024 square sprite of exactly the reference ribbon-knot creature, viewed from directly behind (N, 180 degrees from reference front). Rotate the whole object in 3D to show the BACK of the central woven knot. The single eye belongs only to the FRONT, so the rear knot shows woven pink/navy bands and NO eye or face. Preserve exactly 2 closed ribbon loops, one each side, and 2 broad trailing band wings hanging below the loops, same relative sizes, no other limbs, no head, no tail. Preserve pink #D988B0 navy #294F6B pale blush #FFE9F2 palette and angular pale ribbon markings, original smooth illustration/shading and linework. Same hovering relaxed pose, full silhouette centered with 10% transparent border. No ground, shadow, text, frame or props. This is one back view, not a sheet.",
+      "generation_references": [
+        {
+          "sha256": "b06b309fb9b6af96f6dc2cf2925e7f35e9491a304822cfe75b7dcf4643a699b0",
+          "role": "original_identity_reference"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "6cc95258e4e119b4d0649b34ae9c102b1555c8353fb35ffb0a5bee121b1ed28c",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "069481025d8327400a440ef127536bf97836b2347e9d38a046ebccc02ccb9a63",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of EXACT image1 BACK view (N180). Image2 provides ONLY existing pixel style/palette. Preserve two equal closed loops left/right, two broad hanging ribbons, square central woven knot back with NO EYE visible. Match image1 rear silhouette and relaxed pose. Same dusty pink navy pale blush color roles. 128x128 pixel-art sprite, crisp square pixel clusters, maximum32 colors, binary transparency, no antialias, gradients, extra anatomy, text, shadow or background. Full creature ~104px extent, clear margin. Do NOT restore front eye from style reference.",
+      "generation_references": [
+        {
+          "sha256": "a5cd941dc3aad3fc3ba013de1aaef81c63cbf549555006a6ceab6b3a0825eedd",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "51ae4cbdb02405d54443cea18453f6fe571322c323c6edf7ed951e1bc45bf83d",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "569b8ccf781953987598c59dc98527ec451e6c4da7961b783d334f746b09ed9b",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "22a2698d1e110fde29f6414daf94f7b08e6e386ff441784aef7dd0f8d38534a8",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent 1024 square full-body sprite. Same exact ribbon-knot creature in NE 225-degree REAR RIGHT-facing three-quarter view, halfway between right profile and rear. Front points diagonally away toward SCREEN RIGHT; back of central knot faces viewer. Single eye on hidden front, NO visible eye or face on back. SCREEN RIGHT loop is nearer and broader, SCREEN LEFT loop farther/smaller in perspective. Exactly 2 closed broad loops and 2 hanging broad ribbon wings, one woven square knot. Preserve pink/navy/pale blush palette, angular pale marks, proportions, relaxed pose, smooth shading and clean line illustration. No head, limbs, tail, added parts. Full silhouette centered with 10% transparent border, no ground/shadow/text.",
+      "generation_references": [
+        {
+          "sha256": "b06b309fb9b6af96f6dc2cf2925e7f35e9491a304822cfe75b7dcf4643a699b0",
+          "role": "original_identity_reference"
+        },
+        {
+          "sha256": "6c7e885b9d458462f32d88b17902208893cdffcce84e8562a2f29321ce90c6d3",
+          "role": "generated_rear_structure_reference"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "ea249702c90f6f766db001688ea32226ac7d6fe3f881864b76ce8f7211c8715b",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "b44b813399fd21f393ae8bc798f725e86f99af6cbee97cf1124d1c204d1e3023",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite matching image1 exact NE rear-right three-quarter orientation and silhouette. Image2 is pixel style/palette only. Preserve image1 larger nearer SCREEN RIGHT closed loop and smaller farther SCREEN LEFT loop, 2 hanging broad ribbon wings, central woven square knot back with NO eye visible. Same pink/navy/pale blush ribbon monster. Hard square pixel clusters for128x128 actual sprite, max32colors, binary transparent edges, no antialias/gradients. Full body about104px extent inside128px canvas with margin. No front eye, extra head/limbs/tail, text/floor/shadow.",
+      "generation_references": [
+        {
+          "sha256": "959ae7315aa5a71834507c421a12d46cdf51c4ead63333d9484e13ad0a68aa10",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "51ae4cbdb02405d54443cea18453f6fe571322c323c6edf7ed951e1bc45bf83d",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "cb12794e5ec5e0f2899b2f0c45907e17307fad4dfd62982bff2a3de13e1eaa01",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "e6b772b5f4185fe12ec825ac21cf0a8bbe90519f8b40511a2fb65f1038ea1084",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. Make ONE full-body transparent 1024 square sprite of the same ribbon creature in a strict RIGHT-facing side view E 270 degrees. Turn its front eye toward SCREEN RIGHT, at rightmost central knot edge. Knot seen edge-on, front eye only sliver if visible. Two side loops overlap in depth/projection, not side-by-side frontal: nearer loop hides part of far loop. Exactly 2 closed broad ribbon loops and exactly 2 hanging broad band wings, same one square woven knot, no head/feet/tail. Maintain original proportions and pink #D988B0 navy #294F6B pale blush #FFE9F2 palette and pale angular ornament. Preserve original illustrated style and smooth shading. A true side profile facing screen-right, not a tilted frontal bow. Full silhouette centered, around 10% transparent margin, no text, ground, shadow, frame or accessories.",
+      "generation_references": [
+        {
+          "sha256": "b06b309fb9b6af96f6dc2cf2925e7f35e9491a304822cfe75b7dcf4643a699b0",
+          "role": "original_identity_reference"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "2363a111caae51718bb8ca8e4a9020f837e006d01732e9a94bb42200fe632e88",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "863198b79b535f23f91186450f3fe9f5586cac28797dd1a7e250e40143f40a69",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. Create ONE transparent pixel-art sprite exactly matching image1 E SCREEN RIGHT-facing side profile, silhouette, pose and individual. Image2 supplies pixel style and pink/navy/pale blush palette ONLY, not direction. Two overlapping closed broad ribbon loops, two hanging broad ribbon wings, square woven central knot, single eye peeking at SCREEN RIGHT edge. Do not return to front. Pixel-art128x128, crisp square clusters, max32 colors, binary alpha, no gradients or antialias. Full body ~104px extent with transparent margins. No added head/tail/limbs or text, floor, shadow.",
+      "generation_references": [
+        {
+          "sha256": "f0350037ded8d43efad63dbdf54d0b51c7daae1484f645232e5a5b2d4f1a057c",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "51ae4cbdb02405d54443cea18453f6fe571322c323c6edf7ed951e1bc45bf83d",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "12857d2c2828bd0909b3af9549eaef7c266ffd50536684d6bca73608527db25e",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "40833057dd5fd2946d5eab733951c7d2fa01cc30384e7461ab5070b36f71c2f0",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: identity-preserve. Asset type: 1024x1024 transparent creature game sprite. Reference image is the exact existing front-facing S original of sm-arcane-002. Generate exactly ONE new view of this same individual: SW, 45-degree three-quarter front view, creature facing toward screen-left. Turn the entire creature in three dimensions, not a planar rotation. Keep same floating relaxed pose, same ribbon construction, anatomy, ornament pattern and illustration style. It is a wide square central woven knot with exactly one vertical-pupil pale pink eye on the front face, two equal-sized closed ribbon loops one per side, and exactly two broad trailing ribbon wings hanging down from below the loops. No feet, arms, head, tail, extra eyes or added appendages. Perspective naturally foreshortens far loop; preserve continuous broad woven bands and visible holes. Palette dusty pink #D988B0, dark navy #294F6B, pale blush #FFE9F2; smooth shaded clean line illustration. Match original fullness and proportions. Entire silhouette inside image with roughly 10% transparent padding. No floor, shadow, lettering, border or accessories. Transparent background.",
+      "generation_references": [
+        {
+          "sha256": "b06b309fb9b6af96f6dc2cf2925e7f35e9491a304822cfe75b7dcf4643a699b0",
+          "role": "original_identity_reference"
+        }
+      ],
+      "direction_relabel": "Originally prompted SW but visually determined SE due to nearer screen-left loop and eye facing screen-right; adopted as SE. Correct SW generated separately."
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "176a4e809f54de73f88b6b9ab9b5d757d71453f365d8e66f78dce0a869373960",
+        "role": "technical_finished_output"
+      },
+      "operation": "builtin_imagegen_one_image_then_technical_finish",
+      "adopted_raw": {
+        "sha256": "2a64f4683b21bf583d81d78ba099f82b26a83f5806af9d4b35c732f9de47e089",
+        "role": "generated_raw"
+      },
+      "prompt": "Use case: style-transfer. ONE transparent pixel sprite of image1 same creature in exact SE front-right three-quarter view. Image2 is STYLE/PALETTE reference only. Preserve larger nearer SCREEN LEFT ribbon loop, smaller farther SCREEN RIGHT loop, single eye right of central knot, exactly two broad ribbon wings hanging down. No extra limbs/head/tail. Match image1 silhouette and pose. 128x128 game pixel art with crisp square clusters, no smooth gradients, max32colors pink/navy/pale blush, binary transparency, no antialias. Full figure ~104px inside128px square with transparent padding, no text, ground or shadow. One sprite only.",
+      "generation_references": [
+        {
+          "sha256": "9b8bd4316eec2818bd8436ee8fc82c5effb33ecbd0a76fc6721ea3b5f244811b",
+          "role": "actual_generation_time_normal_reference"
+        },
+        {
+          "sha256": "51ae4cbdb02405d54443cea18453f6fe571322c323c6edf7ed951e1bc45bf83d",
+          "role": "original_pixel_style_palette_reference"
+        }
+      ]
+    }
+  ]
+}
