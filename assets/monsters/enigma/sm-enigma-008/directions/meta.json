@@ -1,0 +1,688 @@
+{
+  "schema_version": 1,
+  "id": "sm-enigma-008",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SW",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/enigma/sm-enigma-008/default.png",
+      "sha256": "342cebbe772429914403c55fc5dbbdb56e53bb3a0ef7b820fa8ad97676183aaa",
+      "git_blob_sha": "cbb5096691398b5653628a0db2e94540b1c76362",
+      "bytes": 453714
+    },
+    "pixel": {
+      "path": "assets/monsters/enigma/sm-enigma-008/pixel.png",
+      "sha256": "ed5853477542e391b2ae12775b038470733d60cb85b819b6fd63d4f6f1648f86",
+      "git_blob_sha": "817a174ab1726d86c55e6307bc80dc55e341efe8",
+      "bytes": 6888
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/S/default.png",
+      "sha256": "405676a029cf36c58fe8ea1ce1cf75c353efac93b13132bb2d2ca08b668da0fb",
+      "bytes": 448076,
+      "git_blob_sha": "8337f41b2add85b2a0bca52c6fe3011bb40d8fe5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          224,
+          928,
+          800
+        ],
+        "margins": [
+          96,
+          224,
+          96,
+          224
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 39090,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/S/pixel.png",
+      "sha256": "6c0b947a01d04874787407975e30feefe5360ed33f1331560aaa46d21cb1dd3c",
+      "bytes": 5338,
+      "git_blob_sha": "8cd1566a5c35d5f2dea626952013c8009b2d4831",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          27,
+          116,
+          100
+        ],
+        "margins": [
+          12,
+          27,
+          12,
+          28
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "405676a029cf36c58fe8ea1ce1cf75c353efac93b13132bb2d2ca08b668da0fb"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-008/default.png",
+      "sha256": "342cebbe772429914403c55fc5dbbdb56e53bb3a0ef7b820fa8ad97676183aaa",
+      "bytes": 453714,
+      "git_blob_sha": "cbb5096691398b5653628a0db2e94540b1c76362",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          218,
+          944,
+          806
+        ],
+        "margins": [
+          80,
+          218,
+          80,
+          218
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 38386,
+        "alpha_value_count": 249,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-008/pixel.png",
+      "sha256": "ed5853477542e391b2ae12775b038470733d60cb85b819b6fd63d4f6f1648f86",
+      "bytes": 6888,
+      "git_blob_sha": "817a174ab1726d86c55e6307bc80dc55e341efe8",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          27,
+          118,
+          101
+        ],
+        "margins": [
+          10,
+          27,
+          10,
+          27
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 29,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "342cebbe772429914403c55fc5dbbdb56e53bb3a0ef7b820fa8ad97676183aaa"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/W/default.png",
+      "sha256": "548952218a94679a75f2974f48dce1f2d4f92f1df2e435fff5b87eec548150e2",
+      "bytes": 436676,
+      "git_blob_sha": "1a52e32a2f3d1a139a344bf062b692d6f8a84b6c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          247,
+          928,
+          777
+        ],
+        "margins": [
+          96,
+          247,
+          96,
+          247
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 39973,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/W/pixel.png",
+      "sha256": "8ba328b2780fe3b9ef88a1465d093979149ca19d0e2d6ef02bcd0e0a545de3be",
+      "bytes": 4710,
+      "git_blob_sha": "fbad097917dc0e2537da6e2b627bc8e431b9d9e5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          29,
+          116,
+          98
+        ],
+        "margins": [
+          12,
+          29,
+          12,
+          30
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "548952218a94679a75f2974f48dce1f2d4f92f1df2e435fff5b87eec548150e2"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/NW/default.png",
+      "sha256": "bd370781fed85ae46628012d0656b24a92b65d5d3bb5ef7106e94edc4c90b748",
+      "bytes": 443067,
+      "git_blob_sha": "59b3354738548753b8649b35f762427149ddba13",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          205,
+          928,
+          818
+        ],
+        "margins": [
+          96,
+          205,
+          96,
+          206
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 39637,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/NW/pixel.png",
+      "sha256": "2a58b13a399cc2fae6896689fd32eba7ca7a4249a15fea08388318a1356726f6",
+      "bytes": 5038,
+      "git_blob_sha": "b3109488b2323452ae4088707bacfdb54618fd3c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          26,
+          116,
+          102
+        ],
+        "margins": [
+          12,
+          26,
+          12,
+          26
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 20,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "bd370781fed85ae46628012d0656b24a92b65d5d3bb5ef7106e94edc4c90b748"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/N/default.png",
+      "sha256": "af32853ea9a513852d8e6967b36d43d5b7c90831759d6f1b6bcd68449f8c7115",
+      "bytes": 442021,
+      "git_blob_sha": "5366853e9dbe1c91834f5c144e4998513e844236",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          260,
+          928,
+          763
+        ],
+        "margins": [
+          96,
+          260,
+          96,
+          261
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 41785,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/N/pixel.png",
+      "sha256": "a0be3d7536718ff1b0c30cbaf4f3374eb4d34d8b9b50ef2a9ffa4de2a7ce6e78",
+      "bytes": 5341,
+      "git_blob_sha": "5cf261574af10d86ee0fbeeadd15d18cbbb89b50",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          33,
+          116,
+          95
+        ],
+        "margins": [
+          12,
+          33,
+          12,
+          33
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "af32853ea9a513852d8e6967b36d43d5b7c90831759d6f1b6bcd68449f8c7115"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/NE/default.png",
+      "sha256": "98b64fae1e9a7e43b12dfeb459fb42710fd5f44fd1c07a22337f41c197fba283",
+      "bytes": 409629,
+      "git_blob_sha": "276e67ebd53ed6232c8399d6e484af0627974bfd",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          216,
+          928,
+          807
+        ],
+        "margins": [
+          96,
+          216,
+          96,
+          217
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 40501,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/NE/pixel.png",
+      "sha256": "06c1873bf26a1132958e35efe469675bba0d9875e31b7468d30a88de2036b224",
+      "bytes": 5112,
+      "git_blob_sha": "eab07b68ad9b0a6af3aef55c0410cb0b2047f0e3",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          25,
+          116,
+          103
+        ],
+        "margins": [
+          12,
+          25,
+          12,
+          25
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "98b64fae1e9a7e43b12dfeb459fb42710fd5f44fd1c07a22337f41c197fba283"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/E/default.png",
+      "sha256": "ea67ae34d6f7a0a6037b2706f5499ea797859217c5301c35ca2b4967cbf97125",
+      "bytes": 497550,
+      "git_blob_sha": "37ad1a193ae97458f0f544f85054b8c98ade7f3f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          224,
+          928,
+          800
+        ],
+        "margins": [
+          96,
+          224,
+          96,
+          224
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 45614,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/E/pixel.png",
+      "sha256": "339af307011a9bca3ef7e357153e2be8f50c2c6c3b35d91f645526d693279fe2",
+      "bytes": 5877,
+      "git_blob_sha": "a4b91465aa42c25635143fa7dc1504f5f5b7762a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          27,
+          116,
+          101
+        ],
+        "margins": [
+          12,
+          27,
+          12,
+          27
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "ea67ae34d6f7a0a6037b2706f5499ea797859217c5301c35ca2b4967cbf97125"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/SE/default.png",
+      "sha256": "24bd03d7061495962bedea347ced9718c166a9029903bdf4316dd13a0f195f8a",
+      "bytes": 471267,
+      "git_blob_sha": "a43b6ba713dda0444b4fac1685159c11c3e00389",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          190,
+          928,
+          834
+        ],
+        "margins": [
+          96,
+          190,
+          96,
+          190
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 41229,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-008/directions/SE/pixel.png",
+      "sha256": "db5684057e98821d5ca59f820c216c2b3d502314794bb760efca50cc001f1804",
+      "bytes": 5656,
+      "git_blob_sha": "eaa2cd31cfb50455d94db3c0fc0bc98c5d2282fc",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          23,
+          116,
+          105
+        ],
+        "margins": [
+          12,
+          23,
+          12,
+          23
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "24bd03d7061495962bedea347ced9718c166a9029903bdf4316dd13a0f195f8a"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "Exact45degree/rigid rotation, diagonal leg attachment depths and aperture thickness inferred. NE uses originally NW-labeled v2 generation after image-based reassignment; original prompt retained.",
+      "Earlier N-tail and SE-source-equality review observations corrected after full-resolution inspection; older HOLD notes retained.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. S0 FRONT aligned view of exact sm-enigma-008. Treat body as rigidly positioned soft rectangular slab, rotate yaw only from reference45degree to straightfront; SAME elevatedcamera45degrees, no pitch/roll change. Long width edge horizontal, front short-depth edge centered nearest viewer; large square THROUGH HOLE on viewerLEFT and small square THROUGH HOLE on viewerRIGHT, peach rims. TWO green blunt legs at EACH of4corners=EIGHT total; nearfront4legs andfarrear4legs foreshortened but no changes to their fixedbases/physical lengths. ONE short rounded green bandtail at CENTER farrear edge extending straightaway, partly visible above rearcenter. NO eyes/mouth. Purple #B9AAD2 bodygreen #8BA870 legs peach #EECDB4 rims/tips,softmembrane celshade. Preserve width:depth:thickness from original, hole sizesandpositions. Fullbody centered transparentpaddedsquare,no mirror/text/floor.\n",
+      "raw_sha256": "0fac52a0d2e12c4ccd05e5d40e9a6bfa75463b9f57fe9829ac1d09c64254e860",
+      "raw_bytes": 744366,
+      "generation_reference_sha256": "342cebbe772429914403c55fc5dbbdb56e53bb3a0ef7b820fa8ad97676183aaa",
+      "finished_sha256": "405676a029cf36c58fe8ea1ce1cf75c353efac93b13132bb2d2ca08b668da0fb"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact S0 frontview sm-enigma-008 as128x128 logical pixel sprite. Purple rectangularslab,large squarethroughhole LEFT small RIGHT peachrims,EIGHT green legs2eachcorner,ONE centralreartailvisible topcenter,noeyes/mouth. Same elevatedview/silhouette/proportions/holestransparent. Crispclusters1pxoutline≤24colors,binaryalpha104pxextent paddedtransparent128square,no extra features/text.\n",
+      "raw_sha256": "4af9bd3b282074b02c5d1d840e854901f08a76280983cba6982f6f818117a97e",
+      "raw_bytes": 727152,
+      "generation_reference_sha256": "405676a029cf36c58fe8ea1ce1cf75c353efac93b13132bb2d2ca08b668da0fb",
+      "finished_sha256": "6c0b947a01d04874787407975e30feefe5360ed33f1331560aaa46d21cb1dd3c"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. Correct cornerleg pairs ONLY. Add one matching olive blunt leg beside the single near LOWER-RIGHT leg, so nearleft pair2 and nearright pair2. At each far upper corner show a second leg partly peeking beside the existing far leg, giving2percorner and8total. Keep CENTER RIGHT broad tail unchanged and separate. Preserve exact W sideview,largeholeupper smallholelower,body/rims/sizes/colors/texture/framing/transparency. No other changes.\n",
+      "raw_sha256": "148a267f835491d781dac81d5afae4335c6f7b224eff597c3065b5124be0ee83",
+      "raw_bytes": 678752,
+      "generation_reference_sha256": "02769104cb4552f8c08cc98933bfe3f1c36b848ed7e33513dc749424e72d0caa",
+      "finished_sha256": "548952218a94679a75f2974f48dce1f2d4f92f1df2e435fff5b87eec548150e2"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact W90 leftside sm-enigma-008 as128x128 logicalpixel. Largehole FARupper,smallhole NEARlower,tailrightcenter,eightlegs2eachcorner (far pairs overlap but distinct). Purple slabpeachrims/tips olivelegs,noeyes. Same dimensions/view/transparentholes. Crispclusters1pxoutline≤24colors,binaryalpha104pxextent transparentpadded128square,no addedfeatures/text.\n",
+      "raw_sha256": "05b5447148d740e27c7db596b3fb2aa284e9910e7a01cbf000d56fbea36b4ba6",
+      "raw_bytes": 936326,
+      "generation_reference_sha256": "548952218a94679a75f2974f48dce1f2d4f92f1df2e435fff5b87eec548150e2",
+      "finished_sha256": "8ba328b2780fe3b9ef88a1465d093979149ca19d0e2d6ef02bcd0e0a545de3be"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. Add ONE missing cornerleg beside the single FAR RIGHT outercorner leg. That far-right corner must have TWO olive legs like each othercorner. Keep large solitary appendage at middle of near lower-right edge as TAIL unchanged. Final8cornerlegs+1centertail. Preserve holes upperrightlarge/lowerleftsmall,purplebody,exactview,palette,size,transparency. Only this correction.\n",
+      "raw_sha256": "54ef18ed958d095a3015e7c4f1bb16d930952d1a3f22d91150f70abdd5d2f3c7",
+      "raw_bytes": 752609,
+      "generation_reference_sha256": "23dc271cd4260dbf24dfeff47ac6d1af05f57c85b4ed516949f1c95c909839c6",
+      "finished_sha256": "bd370781fed85ae46628012d0656b24a92b65d5d3bb5ef7106e94edc4c90b748"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact NW135 rearleft sm-enigma-008 as128x128 logicalpixel. Purple slab largeholeupperright smalllowerleft,transparentpeachrims,EIGHTolivelegs2eachcorner,ONEsingle centerrear-tail lower-rightedge,9appendages total. Same view/proportions/colors,noeyes. Crispclusters1pxoutline≤24colors,binaryalpha104pxextent paddedtransparent128square,no extra features/text.\n",
+      "raw_sha256": "834043db12eb20491607724a67b6d2e9c741f6f1632309303b595e0dd9782098",
+      "raw_bytes": 778340,
+      "generation_reference_sha256": "bd370781fed85ae46628012d0656b24a92b65d5d3bb5ef7106e94edc4c90b748",
+      "finished_sha256": "2a58b13a399cc2fae6896689fd32eba7ca7a4249a15fea08388318a1356726f6"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. N180 STRAIGHT REAR view of this exact sm-enigma-008 rectangular creature. Rotate entire body180degrees horizontally, same camera elevation and body tilt/physical dimensions. Long bodywidth stays horizontal; large hole now viewerRIGHT, small hole viewerLEFT because they are fixed in body. Peach square throughhole rims retain sizes. ONE short olive roundedband tail emerges from CENTER NEAR edge pointing towardviewer, partly hiding near sidewall. EIGHT olive bluntlegs TWO fixed at each4corners, constant length, no eyes/mouth. Purple slab same softness/thickness, greenlegs peach tips,rimcolors and celshade unchanged. NOT mirror operation: render rear surface/near-tailbase with correct occlusion. Fullbody centered paddedtransparent square,no text/floor.\n",
+      "raw_sha256": "cc26bbf50e5e6a61c905bd2d297e8f04fe5319f3cf2015abb6e896ba6033ee4d",
+      "raw_bytes": 700030,
+      "generation_reference_sha256": "405676a029cf36c58fe8ea1ce1cf75c353efac93b13132bb2d2ca08b668da0fb",
+      "finished_sha256": "af32853ea9a513852d8e6967b36d43d5b7c90831759d6f1b6bcd68449f8c7115"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact N180 BACK sm-enigma-008 as128x128 logical pixel sprite. Small squarethroughhole LEFT large RIGHT peachrims,purple slab,EIGHT olive legs2eachcorner,ONE nearcentralreartail towardviewer,noeyes. Same dimensions pose and transparentholes. Crispclusters1pxoutline≤24colors,binaryalpha104pxextent paddedtransparent128square,no addedfeatures/text.\n",
+      "raw_sha256": "af9c0198f02dfd8aa124c4cbef740c7d413450ccc7d762c572ee0298ab39fe7b",
+      "raw_bytes": 641279,
+      "generation_reference_sha256": "af32853ea9a513852d8e6967b36d43d5b7c90831759d6f1b6bcd68449f8c7115",
+      "finished_sha256": "a0be3d7536718ff1b0c30cbaf4f3374eb4d34d8b9b50ef2a9ffa4de2a7ce6e78"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. Restore missing ONE rear tail only. Add short broad olive rounded band with peach end from CENTER of NEAR long edge of purple slab (edge running lower-left toward lower-right), midway between the two near corner legpairs; it projects toward lower-right viewer, partly overlaps near purple sidewall. Tail length matches a leg, but attached edgecenter not corner. Keep all EIGHT existing cornerlegs, twoholes sizes/positions, purple body, exactNW perspective,palette/proportions/transparency unchanged. Final8legs+1tail. Noother changes.\n",
+      "raw_sha256": "96e9bc3d2e6735d4fa90f4cbefc851b27d34fee27d6ede05ae9e66457b5ac438",
+      "raw_bytes": 644053,
+      "generation_reference_sha256": "0671748d81c52dfeaba2a39c99106982d9a1ecae0cc5882c776e56b9776bd39c",
+      "finished_sha256": "98b64fae1e9a7e43b12dfeb459fb42710fd5f44fd1c07a22337f41c197fba283"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact image as128x128 logical pixel sprite, no viewpoint change. Purple rectangle with small squarethroughhole upperleft and large lower-right,olive8cornerlegs2eachcorner,one separate rear-edge center tail on lower-left-facing edge, peachrims/tips. Noeyes/mouth. Preserve bodythickness/proportions/holetransparency. Crispclusters1pxoutline≤24colors,binaryalpha104pxextent paddedtransparent128square,no extra features/text.\n",
+      "raw_sha256": "34f840436e4182389e752eb6b7a58073c9f6de392ec4286de535679e8176669f",
+      "raw_bytes": 600021,
+      "generation_reference_sha256": "98b64fae1e9a7e43b12dfeb459fb42710fd5f44fd1c07a22337f41c197fba283",
+      "finished_sha256": "06c1873bf26a1132958e35efe469675bba0d9875e31b7468d30a88de2036b224"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. Fix missing legs only: add one matching olive leg beside single lower-LEFT corner leg, and one partly visible beside single upper-RIGHT corner leg. Other cornerpairs already2. Final8legs2at4corners plus separate centerLEFTtail unchanged. Preserve exact E sideview smallholeupper largeholelower,bodydimensions,colors,allotherfeatures,transparency. No other changes.\n",
+      "raw_sha256": "b9d5ab16e64c33caef832cddb87ba4848effdc4e0c4b98f59ce0f0696574c97a",
+      "raw_bytes": 791782,
+      "generation_reference_sha256": "93164b748b042db9169deb53305283ea9a0c04a14ae9d2101f731a171dded15c",
+      "finished_sha256": "ea67ae34d6f7a0a6037b2706f5499ea797859217c5301c35ca2b4967cbf97125"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact E270 rightside sm-enigma-008 as128x128 logicalpixel. Smallholefarupper largeholene arlower,centerlefttail,eightolivelegs2eachcorner,purple slab peachrims/tips,transparentholes,noeyes. Same pose/proportions. Crispclusters1pxoutline≤24colors,binaryalpha104pxextent paddedtransparent128square,no addedfeatures/text.\n",
+      "raw_sha256": "2d9d74d5606979407713df0d3a1c85a1af8209239de00760c242bfede980b59f",
+      "raw_bytes": 676443,
+      "generation_reference_sha256": "ea67ae34d6f7a0a6037b2706f5499ea797859217c5301c35ca2b4967cbf97125",
+      "finished_sha256": "339af307011a9bca3ef7e357153e2be8f50c2c6c3b35d91f645526d693279fe2"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. SE315 FRONT RIGHT oblique of exact sm-enigma-008. Rigidly yaw45degrees from front towardRIGHT, fixedcamera/bodypitch/physicaldimensions. LARGE leftbodyhole projects LOWER-LEFT (near), SMALL rightbodyhole UPPER-RIGHT (far). Long rectangularwidth slopes lowerleft to upperright,peachrims transparentthroughholes. ONE rearcenterolivebandtail extends UPPER-LEFT from farlongedge. EIGHTolivelegs2fixedateachcorner,constantlength,naturalocclusion. Purple softslab originalwidth/depth/thickness,NOeyes/mouth. Genuine newrotation notmirror,fullbody transparentpadding,no text/floor.\n",
+      "raw_sha256": "71b956c82fb3caa69ff38e43397a2c561b1f882fb2ad88394ac14fdf0ebe5a82",
+      "raw_bytes": 855227,
+      "generation_reference_sha256": "405676a029cf36c58fe8ea1ce1cf75c353efac93b13132bb2d2ca08b668da0fb",
+      "finished_sha256": "24bd03d7061495962bedea347ced9718c166a9029903bdf4316dd13a0f195f8a"
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact SE315 frontright sm-enigma-008 as128x128 logicalpixel. Purplemat largeholelowerleft smallupperright,ONE rearcentertail upperleft,EIGHTolivelegs2eachcorner,peachrims/tips transparentholes,noeyes. Preserve pose/silhouette/dimensions. Crispclusters1pxoutline≤24colors,binaryalpha104pxextent paddedtransparent128square,no extrafeatures/text.\n",
+      "raw_sha256": "64b663da282252a5d5bd0333be7c58f0858a7b29ea4e17f0d2bb87f04003d7be",
+      "raw_bytes": 745582,
+      "generation_reference_sha256": "24bd03d7061495962bedea347ced9718c166a9029903bdf4316dd13a0f195f8a",
+      "finished_sha256": "db5684057e98821d5ca59f820c216c2b3d502314794bb760efca50cc001f1804"
+    }
+  ]
+}

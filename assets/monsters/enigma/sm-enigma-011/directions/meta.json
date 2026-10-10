@@ -1,0 +1,981 @@
+{
+  "schema_version": 1,
+  "id": "sm-enigma-011",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/enigma/sm-enigma-011/default.png",
+      "sha256": "22c84bbded90d03632d02dca4c6207b24c3f606854f3cd5de14c06f33b4031bb",
+      "git_blob_sha": "20e88edbc9bc06054d7085acaca3b19a17fd3b49",
+      "bytes": 415257
+    },
+    "pixel": {
+      "path": "assets/monsters/enigma/sm-enigma-011/pixel.png",
+      "sha256": "9821a9aba0b8f986e6fd835681fc231b6a4187662fb8d228e04fd14792c192f8",
+      "git_blob_sha": "7d5c343492d013c805125fd05130f46c541f5d00",
+      "bytes": 8002
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/S/default.png",
+      "sha256": "160a98dc7a5e177eea2f7e21321faed8484e8b306f6e66014a98f766b13a468f",
+      "bytes": 407428,
+      "git_blob_sha": "4059c491dc4993b00d20acf61cf6e4c037f6d60e",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          303,
+          928,
+          721
+        ],
+        "margins": [
+          96,
+          303,
+          96,
+          303
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 44954,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/S/pixel.png",
+      "sha256": "32c9443f13c2119e273ea58fdea7f94b5870fa054ebd935413da485f89bbc100",
+      "bytes": 7347,
+      "git_blob_sha": "7fecf227ff3f7daa610042b29c622c638c7c839b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          37,
+          116,
+          90
+        ],
+        "margins": [
+          12,
+          37,
+          12,
+          38
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "160a98dc7a5e177eea2f7e21321faed8484e8b306f6e66014a98f766b13a468f"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/SW/default.png",
+      "sha256": "69e87eecc225f1aee5257cbfd3df1348e766afe202cc01d38ebb1b3bb30748f5",
+      "bytes": 442174,
+      "git_blob_sha": "3a226b15cfaec727b42ec9fdce623523210075f1",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          243,
+          928,
+          781
+        ],
+        "margins": [
+          96,
+          243,
+          96,
+          243
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 47523,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/SW/pixel.png",
+      "sha256": "b5462db2ff6c768f042d4d3f2b5605da428011f715ea76600e8a0d088263db23",
+      "bytes": 6462,
+      "git_blob_sha": "b055feb6953292e8f27ffcc37b094e3e80b128f9",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          33,
+          116,
+          94
+        ],
+        "margins": [
+          12,
+          33,
+          12,
+          34
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "69e87eecc225f1aee5257cbfd3df1348e766afe202cc01d38ebb1b3bb30748f5"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/W/default.png",
+      "sha256": "66fd1e8f3602a963d6db050922897945381fb392ac6d61912a8c8a0dcdd961e8",
+      "bytes": 378101,
+      "git_blob_sha": "2cd0621ac4d4da8c6a17e4799e29a83a205d813a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          266,
+          928,
+          757
+        ],
+        "margins": [
+          96,
+          266,
+          96,
+          267
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 34388,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/W/pixel.png",
+      "sha256": "f78a53edf1aac455589734f32f87b117ae7b934824ddfc1972bff100850717ae",
+      "bytes": 6285,
+      "git_blob_sha": "f51c946ae415e0f92b183609dec816f9aff015a1",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          35,
+          116,
+          93
+        ],
+        "margins": [
+          12,
+          35,
+          12,
+          35
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "66fd1e8f3602a963d6db050922897945381fb392ac6d61912a8c8a0dcdd961e8"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/NW/default.png",
+      "sha256": "5ae3339f9520e8e8d7442ebf3a3f86cc00a80349fbdf7f42496c5d01755172ae",
+      "bytes": 335190,
+      "git_blob_sha": "055055feb3e8761af9939df3d45b00c3860e2431",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          276,
+          928,
+          747
+        ],
+        "margins": [
+          96,
+          276,
+          96,
+          277
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 28083,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/NW/pixel.png",
+      "sha256": "738373a282e2ca8533a03f7fda384c151f0e6c4334f24effcdc4ddea5a5ea4ea",
+      "bytes": 5687,
+      "git_blob_sha": "41e832f17ff7e7f2fe1ec79daa9c6137c2a41cab",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          35,
+          116,
+          93
+        ],
+        "margins": [
+          12,
+          35,
+          12,
+          35
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "5ae3339f9520e8e8d7442ebf3a3f86cc00a80349fbdf7f42496c5d01755172ae"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/N/default.png",
+      "sha256": "2910b34e17b78495b2c9018bfbf178e8ff1676b129a7ca8857bf52041eb4f678",
+      "bytes": 330981,
+      "git_blob_sha": "d8fe419fd9673710c41dd49d135547bf8e125c3d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          311,
+          928,
+          712
+        ],
+        "margins": [
+          96,
+          311,
+          96,
+          312
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 30297,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/N/pixel.png",
+      "sha256": "fd355b2e460375524b4696f0435c26dc5a651d08c45917c260eb1b50393a55bb",
+      "bytes": 5172,
+      "git_blob_sha": "e629ed20cea69d3ad2149835b59eb277fc0b040f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          40,
+          116,
+          87
+        ],
+        "margins": [
+          12,
+          40,
+          12,
+          41
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "2910b34e17b78495b2c9018bfbf178e8ff1676b129a7ca8857bf52041eb4f678"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/NE/default.png",
+      "sha256": "7b0e176aad9e9d9caa175afee8c0216e37426464f81a0093723c3b7adf6234f7",
+      "bytes": 340478,
+      "git_blob_sha": "9f9b061cfde5fa33ad600cbc26051e8e881ae196",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          273,
+          928,
+          750
+        ],
+        "margins": [
+          96,
+          273,
+          96,
+          274
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 32039,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/NE/pixel.png",
+      "sha256": "986485fa2a229357c64142217479132f1357b79ebf0f0dadcaf2f51912851d6a",
+      "bytes": 5842,
+      "git_blob_sha": "b5c79cb35891bd06aa92d6fe99934b71a9b9b9cb",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          36,
+          116,
+          92
+        ],
+        "margins": [
+          12,
+          36,
+          12,
+          36
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "7b0e176aad9e9d9caa175afee8c0216e37426464f81a0093723c3b7adf6234f7"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/E/default.png",
+      "sha256": "67fe6e89789ec799fa667c0f91a7dce30da746f912d389af7c1d8840c2307bc9",
+      "bytes": 382032,
+      "git_blob_sha": "11e98e17155b6442a34af92581242bf9f2855c05",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          282,
+          928,
+          741
+        ],
+        "margins": [
+          96,
+          282,
+          96,
+          283
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 33837,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-011/directions/E/pixel.png",
+      "sha256": "da0fee38627e6e65cfed13ab01c9e41a9385e1b8b247d15671bb1f853e8bc938",
+      "bytes": 5811,
+      "git_blob_sha": "f50c55cb33737b567812a9f4b8079d0f99d94d00",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          37,
+          116,
+          91
+        ],
+        "margins": [
+          12,
+          37,
+          12,
+          37
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "67fe6e89789ec799fa667c0f91a7dce30da746f912d389af7c1d8840c2307bc9"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-011/default.png",
+      "sha256": "22c84bbded90d03632d02dca4c6207b24c3f606854f3cd5de14c06f33b4031bb",
+      "bytes": 415257,
+      "git_blob_sha": "20e88edbc9bc06054d7085acaca3b19a17fd3b49",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          248,
+          944,
+          775
+        ],
+        "margins": [
+          80,
+          248,
+          80,
+          249
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 46977,
+        "alpha_value_count": 249,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-011/pixel.png",
+      "sha256": "9821a9aba0b8f986e6fd835681fc231b6a4187662fb8d228e04fd14792c192f8",
+      "bytes": 8002,
+      "git_blob_sha": "7d5c343492d013c805125fd05130f46c541f5d00",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          32,
+          118,
+          95
+        ],
+        "margins": [
+          10,
+          32,
+          10,
+          33
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 26,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "22c84bbded90d03632d02dca4c6207b24c3f606854f3cd5de14c06f33b4031bb"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "W/E depth and peak height, appendage root positions inferred; rigid rotation unverified.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Render exact reference creature sm-enigma-011 after yaw-only rotation to S: direct front, horizontal five-hump row across screen, eyes face viewer. Original gentle elevated camera maintained. ONE low continuous elastic body with FIVE rounded humps in a single staggered row across body, each hump one eye on SAME FRONT outer surface, five eyes total. ONE thick cylindrical leg under body center. FOUR short drooping tails at four body corners with flat spoonlike ends near floor, no hands or fingers; naturally hide far tails rather than add appendages. Preserve original relative hump heights, slight tilt, green #A8B58D upper membrane, purple #AD87B9 lower and tails, peach #EBC7A0 patches and tips. Same dark outlines, cel shading, pale highlights, orange eyes. No wings, extra heads, extra legs, horns. Whole single transparent square sprite with margins, no scenery/ground/shadow/glow/text.",
+      "raw_sha256": "48013581ad7e31dcf948f4b3bacb276fb3ceb492c1dd6581690381e4f6175429",
+      "raw_bytes": 792193,
+      "generation_references_in_order": [
+        {
+          "sha256": "22c84bbded90d03632d02dca4c6207b24c3f606854f3cd5de14c06f33b4031bb"
+        }
+      ],
+      "finished": {
+        "sha256": "160a98dc7a5e177eea2f7e21321faed8484e8b306f6e66014a98f766b13a468f",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          303,
+          928,
+          721
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 44954,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. One intentional128x128 logical pixel-art rendition of exact sm-enigma-011 S normal reference. Match pose/view/silhouette/eye visibility/appendage positions and proportions. Five rounded humps in one continuous low body, FIVE eyes total with reference occlusion, ONE central cylindrical leg, FOUR short spoon-ended tails total at four corners, no hands or extra legs. Front eyes orange; rear eyes hidden; profile one visible. Same green upper/purple lower/peach patches and tips. Crisp pixel clusters, dark1pixel outline, <=32 visible colors, flat limited tones, binary opaque body and transparent exterior. No glow/shadow/gradient/antialias/text, no background. Preserve openings between tails, whole centered sprite with clear margin.",
+      "raw_sha256": "dd6b5c26156b58cf65817ba7b47099909c8c439ee73289d272cbe3b5578e6479",
+      "raw_bytes": 835016,
+      "generation_references_in_order": [
+        {
+          "sha256": "48013581ad7e31dcf948f4b3bacb276fb3ceb492c1dd6581690381e4f6175429"
+        }
+      ],
+      "finished": {
+        "sha256": "32c9443f13c2119e273ea58fdea7f94b5870fa054ebd935413da485f89bbc100",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          37,
+          116,
+          90
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Change yaw to opposite front-left45 view: eye-bearing front faces viewer and screen LEFT. Body row must recede from nearest RIGHT screen hump toward far LEFT screen hump (opposite slope to reference). Five eyes on FRONT surface, five rounded staggered humps, ONE central cylindrical leg, FOUR spoon-ended drooping tails, two near and two far naturally occluded. Same green/purple/peach patches, proportions, slight tilt, camera elevation, cel shading. Do not merely shift pupils; rotate whole body. Whole transparent sprite, no ground/shadow/text.",
+      "raw_sha256": "646def170d8f97ac416e501f18830a831ffa0badca657276a26b7d4b315db196",
+      "raw_bytes": 808320,
+      "generation_references_in_order": [
+        {
+          "sha256": "24dd5a62a7d2877784e44371586bde41be656d8d7576acc35c1122ef00ad5224"
+        }
+      ],
+      "finished": {
+        "sha256": "69e87eecc225f1aee5257cbfd3df1348e766afe202cc01d38ebb1b3bb30748f5",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          243,
+          928,
+          781
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 47523,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. One intentional128x128 logical pixel-art rendition of exact sm-enigma-011 SW normal reference. Match pose/view/silhouette/eye visibility/appendage positions and proportions. Five rounded humps in one continuous low body, FIVE eyes total with reference occlusion, ONE central cylindrical leg, FOUR short spoon-ended tails total at four corners, no hands or extra legs. Front eyes orange; rear eyes hidden; profile one visible. Same green upper/purple lower/peach patches and tips. Crisp pixel clusters, dark1pixel outline, <=32 visible colors, flat limited tones, binary opaque body and transparent exterior. No glow/shadow/gradient/antialias/text, no background. Preserve openings between tails, whole centered sprite with clear margin.",
+      "raw_sha256": "4d1066ff98b67b6d2439bd27ad1fbede79588f60ea00dc50c4d6b9030de8e8fd",
+      "raw_bytes": 1410957,
+      "generation_references_in_order": [
+        {
+          "sha256": "646def170d8f97ac416e501f18830a831ffa0badca657276a26b7d4b315db196"
+        }
+      ],
+      "finished": {
+        "sha256": "b5462db2ff6c768f042d4d3f2b5605da428011f715ea76600e8a0d088263db23",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          33,
+          116,
+          94
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Render exact reference creature sm-enigma-011 after yaw-only rotation to W: true left90 profile, look along five-hump row from its left end, humps overlap in depth; only nearest eye visible with farther eyes naturally hidden. Original gentle elevated camera maintained. ONE low continuous elastic body with FIVE rounded humps in a single staggered row across body, each hump one eye on SAME FRONT outer surface, five eyes total. ONE thick cylindrical leg under body center. FOUR short drooping tails at four body corners with flat spoonlike ends near floor, no hands or fingers; naturally hide far tails rather than add appendages. Preserve original relative hump heights, slight tilt, green #A8B58D upper membrane, purple #AD87B9 lower and tails, peach #EBC7A0 patches and tips. Same dark outlines, cel shading, pale highlights, orange eyes. No wings, extra heads, extra legs, horns. Whole single transparent square sprite with margins, no scenery/ground/shadow/glow/text.",
+      "raw_sha256": "4ddec8e096c1cc82a35ee815b69c9896a62971727c54d3b1fb666627d6557bbb",
+      "raw_bytes": 625177,
+      "generation_references_in_order": [
+        {
+          "sha256": "22c84bbded90d03632d02dca4c6207b24c3f606854f3cd5de14c06f33b4031bb"
+        }
+      ],
+      "finished": {
+        "sha256": "66fd1e8f3602a963d6db050922897945381fb392ac6d61912a8c8a0dcdd961e8",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          266,
+          928,
+          757
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 34388,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. One intentional128x128 logical pixel-art rendition of exact sm-enigma-011 W normal reference. Match pose/view/silhouette/eye visibility/appendage positions and proportions. Five rounded humps in one continuous low body, FIVE eyes total with reference occlusion, ONE central cylindrical leg, FOUR short spoon-ended tails total at four corners, no hands or extra legs. Front eyes orange; rear eyes hidden; profile one visible. Same green upper/purple lower/peach patches and tips. Crisp pixel clusters, dark1pixel outline, <=32 visible colors, flat limited tones, binary opaque body and transparent exterior. No glow/shadow/gradient/antialias/text, no background. Preserve openings between tails, whole centered sprite with clear margin.",
+      "raw_sha256": "40736e6c6c59183a3bda0d5bf3d455902fbce60822cc801f06c55355d80e29bf",
+      "raw_bytes": 712787,
+      "generation_references_in_order": [
+        {
+          "sha256": "4ddec8e096c1cc82a35ee815b69c9896a62971727c54d3b1fb666627d6557bbb"
+        }
+      ],
+      "finished": {
+        "sha256": "f78a53edf1aac455589734f32f87b117ae7b934824ddfc1972bff100850717ae",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          35,
+          116,
+          93
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-enigma-011 reference yaw rotation to NW: rear-left135 view, left edge nearest, eye-bearing front entirely hidden, NO visible eyes. Keep original camera elevation, not overhead. Single low body formed of FIVE rounded humps in one staggered row across body, each with one eye only on same FRONT surface; rear no eyes. ONE cylindrical central underside leg. FOUR drooping spoon-ended short tails at four body corners, far tails naturally occluded. No extra limb, human foot or hand, pointed horn, wings or head. Keep slight tilt, green upper membrane/purple lower body and tails/peach patches and tail tips, original cel shading, outlines and proportions. Whole single transparent square sprite with margins, no ground/shadow/glow/text. Rear patches inferred in same palette, never create eye marks there.",
+      "raw_sha256": "6abbcbe571cd002a59d37990e69d52c623e29b0747444cc4c72c1e897f1518b5",
+      "raw_bytes": 656964,
+      "generation_references_in_order": [
+        {
+          "sha256": "22c84bbded90d03632d02dca4c6207b24c3f606854f3cd5de14c06f33b4031bb"
+        }
+      ],
+      "finished": {
+        "sha256": "5ae3339f9520e8e8d7442ebf3a3f86cc00a80349fbdf7f42496c5d01755172ae",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          276,
+          928,
+          747
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 28083,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. One intentional128x128 logical pixel-art rendition of exact sm-enigma-011 NW normal reference. Match pose/view/silhouette/eye visibility/appendage positions and proportions. Five rounded humps in one continuous low body, FIVE eyes total with reference occlusion, ONE central cylindrical leg, FOUR short spoon-ended tails total at four corners, no hands or extra legs. NO visible eyes on rear surface. Same green upper/purple lower/peach patches and tips. Crisp pixel clusters, dark1pixel outline, <=32 visible colors, flat limited tones, binary opaque body and transparent exterior. No glow/shadow/gradient/antialias/text, no background. Preserve openings between tails, whole centered sprite with clear margin.",
+      "raw_sha256": "0a4deb0b1d31508674e348e7021c539e9d5f043fed9bb91842bfdbc78cd56b98",
+      "raw_bytes": 695482,
+      "generation_references_in_order": [
+        {
+          "sha256": "6abbcbe571cd002a59d37990e69d52c623e29b0747444cc4c72c1e897f1518b5"
+        }
+      ],
+      "finished": {
+        "sha256": "738373a282e2ca8533a03f7fda384c151f0e6c4334f24effcdc4ddea5a5ea4ea",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          35,
+          116,
+          93
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. Remove ONLY two extra short inner dangling tail stubs visible behind main front tails, one on each side of central leg. Keep exactly FOUR long spoon-ended tails total, two at each side, and ONE thick central cylindrical leg. Keep eyeless back, five humps, all shape/palette/shading unchanged. Clean genuine transparency in removed gaps. No other changes.",
+      "raw_sha256": "2b61a5cb57f80d1ac535a931d64847dc79e4f26487ccc807c1e4bcbc3d8d2957",
+      "raw_bytes": 639973,
+      "generation_references_in_order": [
+        {
+          "sha256": "76200c62f63587a63337bad2fbf03e932f11ab7ee8d22c0e64e9a15c50e50a4a"
+        }
+      ],
+      "finished": {
+        "sha256": "2910b34e17b78495b2c9018bfbf178e8ff1676b129a7ca8857bf52041eb4f678",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          311,
+          928,
+          712
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 30297,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. One intentional128x128 logical pixel-art rendition of exact sm-enigma-011 N normal reference. Match pose/view/silhouette/eye visibility/appendage positions and proportions. Five rounded humps in one continuous low body, FIVE eyes total with reference occlusion, ONE central cylindrical leg, FOUR short spoon-ended tails total at four corners, no hands or extra legs. NO visible eyes on rear surface. Same green upper/purple lower/peach patches and tips. Crisp pixel clusters, dark1pixel outline, <=32 visible colors, flat limited tones, binary opaque body and transparent exterior. No glow/shadow/gradient/antialias/text, no background. Preserve openings between tails, whole centered sprite with clear margin.",
+      "raw_sha256": "339a46d7838fc22cef6d17841c939bffc5b407c40d39b989d89a4f6d387fc7f2",
+      "raw_bytes": 1267136,
+      "generation_references_in_order": [
+        {
+          "sha256": "2b61a5cb57f80d1ac535a931d64847dc79e4f26487ccc807c1e4bcbc3d8d2957"
+        }
+      ],
+      "finished": {
+        "sha256": "fd355b2e460375524b4696f0435c26dc5a651d08c45917c260eb1b50393a55bb",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          40,
+          116,
+          87
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-enigma-011 reference yaw rotation to NE: rear-right225 view, right edge nearest, eye-bearing front entirely hidden, no visible eyes. Keep original camera elevation, not overhead. Single low body formed of FIVE rounded humps in one staggered row across body, each with one eye only on same FRONT surface; rear no eyes. ONE cylindrical central underside leg. FOUR drooping spoon-ended short tails at four body corners, far tails naturally occluded. No extra limb, human foot or hand, pointed horn, wings or head. Keep slight tilt, green upper membrane/purple lower body and tails/peach patches and tail tips, original cel shading, outlines and proportions. Whole single transparent square sprite with margins, no ground/shadow/glow/text. Rear patches inferred in same palette, never create eye marks there.",
+      "raw_sha256": "46bd0979982ea79f57e4c6d062b1fa916186ee5733ec9da773e1983420428852",
+      "raw_bytes": 602732,
+      "generation_references_in_order": [
+        {
+          "sha256": "22c84bbded90d03632d02dca4c6207b24c3f606854f3cd5de14c06f33b4031bb"
+        }
+      ],
+      "finished": {
+        "sha256": "7b0e176aad9e9d9caa175afee8c0216e37426464f81a0093723c3b7adf6234f7",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          273,
+          928,
+          750
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 32039,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. One intentional128x128 logical pixel-art rendition of exact sm-enigma-011 NE normal reference. Match pose/view/silhouette/eye visibility/appendage positions and proportions. Five rounded humps in one continuous low body, FIVE eyes total with reference occlusion, ONE central cylindrical leg, FOUR short spoon-ended tails total at four corners, no hands or extra legs. NO visible eyes on rear surface. Same green upper/purple lower/peach patches and tips. Crisp pixel clusters, dark1pixel outline, <=32 visible colors, flat limited tones, binary opaque body and transparent exterior. No glow/shadow/gradient/antialias/text, no background. Preserve openings between tails, whole centered sprite with clear margin.",
+      "raw_sha256": "be3f582cbe5f7dacc84ed12f92e086861458f3769696e69680ee8f6b8bac9378",
+      "raw_bytes": 1232235,
+      "generation_references_in_order": [
+        {
+          "sha256": "46bd0979982ea79f57e4c6d062b1fa916186ee5733ec9da773e1983420428852"
+        }
+      ],
+      "finished": {
+        "sha256": "986485fa2a229357c64142217479132f1357b79ebf0f0dadcaf2f51912851d6a",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          36,
+          116,
+          92
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. Correct ONLY eye occlusion in this true RIGHT profile. Keep the single nearest eye at extreme RIGHT hump. Hide the other FOUR eyes behind curved hump surfaces, replacing those exposed eye fragments with same continuous green/purple membrane. Five eyes exist but far four not visible from this profile. Keep five humps, four tails, one leg, silhouette/proportions and palette unchanged. Transparent no ground/shadow.",
+      "raw_sha256": "5dcd78b5550791adc019f412a4b58d485e6fb724c4e72ecb6f56cb0056d8d767",
+      "raw_bytes": 655504,
+      "generation_references_in_order": [
+        {
+          "sha256": "bebf0ba79965df13fb85b309b193c08685740c402c0271f8debffdef9f1a4d77"
+        }
+      ],
+      "finished": {
+        "sha256": "67fe6e89789ec799fa667c0f91a7dce30da746f912d389af7c1d8840c2307bc9",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          282,
+          928,
+          741
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 33837,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. One intentional128x128 logical pixel-art rendition of exact sm-enigma-011 E normal reference. Match pose/view/silhouette/eye visibility/appendage positions and proportions. Five rounded humps in one continuous low body, FIVE eyes total with reference occlusion, ONE central cylindrical leg, FOUR short spoon-ended tails total at four corners, no hands or extra legs. One visible eye at RIGHT nearest hump; four far eyes hidden. Same green upper/purple lower/peach patches and tips. Crisp pixel clusters, dark1pixel outline, <=32 visible colors, flat limited tones, binary opaque body and transparent exterior. No glow/shadow/gradient/antialias/text, no background. Preserve openings between tails, whole centered sprite with clear margin.",
+      "raw_sha256": "a50922d2e9802f1fe385d02829008bf282f7aa5b2246cee690cb967a484cafa3",
+      "raw_bytes": 710114,
+      "generation_references_in_order": [
+        {
+          "sha256": "5dcd78b5550791adc019f412a4b58d485e6fb724c4e72ecb6f56cb0056d8d767"
+        }
+      ],
+      "finished": {
+        "sha256": "da0fee38627e6e65cfed13ab01c9e41a9385e1b8b247d15671bb1f853e8bc938",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          37,
+          116,
+          91
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    }
+  ]
+}
