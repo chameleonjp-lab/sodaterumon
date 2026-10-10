@@ -1,0 +1,950 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-016",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/decay/sm-decay-016/default.png",
+      "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+      "git_blob_sha": "229be9cbd819efa86086f9cd18f8c928b7fb9236",
+      "bytes": 661797
+    },
+    "pixel": {
+      "path": "assets/monsters/decay/sm-decay-016/pixel.png",
+      "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+      "git_blob_sha": "1d328cd54311f23b0041825ceda619757f44e22b",
+      "bytes": 11102
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-016/directions/S/default.png",
+      "sha256": "137d71b4f63bfc64d2c74b0241cc8633e20e587d5ae117cc75766dde13510f07",
+      "bytes": 736348,
+      "git_blob_sha": "be5fa549d8bedd9c4887e36b7fc55fa11b8ca580",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          150,
+          928,
+          874
+        ],
+        "margins": [
+          96,
+          150,
+          96,
+          150
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 103316,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-016/directions/S/pixel.png",
+      "sha256": "58b3f82baa388ca4b1c333966ae347d7362b43e42ffd706433350ddb5938bd8e",
+      "bytes": 10396,
+      "git_blob_sha": "c56192c36f36719783c94ee6e07317b5b7958c61",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          19,
+          116,
+          109
+        ],
+        "margins": [
+          12,
+          19,
+          12,
+          19
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "137d71b4f63bfc64d2c74b0241cc8633e20e587d5ae117cc75766dde13510f07"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-016/directions/SW/default.png",
+      "sha256": "56cd3252fc70951d97f54184d90d2b3f8674ed90b81e263b6352a687230c924c",
+      "bytes": 633584,
+      "git_blob_sha": "10314394a85ac8e969562fb45700270d07679e13",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          151,
+          928,
+          872
+        ],
+        "margins": [
+          96,
+          151,
+          96,
+          152
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 91028,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-016/directions/SW/pixel.png",
+      "sha256": "c99786ecba52c7ca3f5026fa11fab43321d355bb946f5ce0ecac2ff7b6ef8aed",
+      "bytes": 8929,
+      "git_blob_sha": "2f546dc16f323eb4490853f332f2d4572889ccae",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          21,
+          116,
+          107
+        ],
+        "margins": [
+          12,
+          21,
+          12,
+          21
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "56cd3252fc70951d97f54184d90d2b3f8674ed90b81e263b6352a687230c924c"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-016/directions/W/default.png",
+      "sha256": "4ad5967547d4451f920ca60fec8bda30216961fde01b92237e7f570eb5c752e6",
+      "bytes": 601734,
+      "git_blob_sha": "6c4e170358ddd42b8553ed26b8084535778ab0be",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          213,
+          928,
+          810
+        ],
+        "margins": [
+          96,
+          213,
+          96,
+          214
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 96884,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-016/directions/W/pixel.png",
+      "sha256": "881af59991b23d3ecce5e288b45d6e82ce58f34baf50c2fac24ff4b91322c72b",
+      "bytes": 9166,
+      "git_blob_sha": "99f5e94d11e2b55ae6c93048838b2a25af05a27d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          27,
+          116,
+          101
+        ],
+        "margins": [
+          12,
+          27,
+          12,
+          27
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "4ad5967547d4451f920ca60fec8bda30216961fde01b92237e7f570eb5c752e6"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-016/directions/NW/default.png",
+      "sha256": "7070123d669b14d154dbffac9cfd6c4517207e69d833ce15bf5810a234f4e5b9",
+      "bytes": 559657,
+      "git_blob_sha": "8f290da5284978bace5e06b310bf4fac3fc3924b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          209,
+          928,
+          815
+        ],
+        "margins": [
+          96,
+          209,
+          96,
+          209
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 75338,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-016/directions/NW/pixel.png",
+      "sha256": "b4848af7cfcddfe91e8b88642bafd7955653895d4a6376f1b14dd8a375fb8467",
+      "bytes": 8735,
+      "git_blob_sha": "3d6882277aa8cc62dd37d44722e3225bbb0fcdd4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          25,
+          116,
+          102
+        ],
+        "margins": [
+          12,
+          25,
+          12,
+          26
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "7070123d669b14d154dbffac9cfd6c4517207e69d833ce15bf5810a234f4e5b9"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-016/directions/N/default.png",
+      "sha256": "dfa1dde66fe1d607d012cf769ea4d76a7bde36ab3c7b7ec293fd8f35a17b2f79",
+      "bytes": 540399,
+      "git_blob_sha": "7626e15318efd515268db027932b028d62ec07e0",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          227,
+          928,
+          797
+        ],
+        "margins": [
+          96,
+          227,
+          96,
+          227
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 78643,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-016/directions/N/pixel.png",
+      "sha256": "8e09a5f51194073c8c08a5b2fef07f4e0a648418b060a174625fc85bc2fd749c",
+      "bytes": 8554,
+      "git_blob_sha": "63de010500dc4ef7ef33e829e7290e9b8dbe5e04",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          27,
+          116,
+          101
+        ],
+        "margins": [
+          12,
+          27,
+          12,
+          27
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "dfa1dde66fe1d607d012cf769ea4d76a7bde36ab3c7b7ec293fd8f35a17b2f79"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-016/directions/NE/default.png",
+      "sha256": "65904501e4dbc7d5db79fb56c89e3bee04120362cf718e278fa7ba3d59a2db0e",
+      "bytes": 574061,
+      "git_blob_sha": "8ea42193e2a16c23352d68e2f03758fd9943932d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          211,
+          928,
+          813
+        ],
+        "margins": [
+          96,
+          211,
+          96,
+          211
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 74499,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-016/directions/NE/pixel.png",
+      "sha256": "c1a0941cb39d5b2823fee1c887de13c89157fd5100f3d6e6df3a36132af8b548",
+      "bytes": 9024,
+      "git_blob_sha": "5fff885a50dd3ca3d36750e96ee5eb9437322b6e",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          24,
+          116,
+          104
+        ],
+        "margins": [
+          12,
+          24,
+          12,
+          24
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "65904501e4dbc7d5db79fb56c89e3bee04120362cf718e278fa7ba3d59a2db0e"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-016/directions/E/default.png",
+      "sha256": "8513a80a1dc341688dd5b959579305c4a487f7af09fe6fcd249d9688ce99113a",
+      "bytes": 656550,
+      "git_blob_sha": "b4871ef3e00a4fc6af3dcb4f27fcb500552d5168",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          181,
+          928,
+          843
+        ],
+        "margins": [
+          96,
+          181,
+          96,
+          181
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 95795,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-016/directions/E/pixel.png",
+      "sha256": "58f20822116a2d42bcd168bc97211c1dae1742a45574a379948485c94a63ac71",
+      "bytes": 9889,
+      "git_blob_sha": "0d072204b4cb10604f68d60c0035c6fe1e296a24",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          21,
+          116,
+          106
+        ],
+        "margins": [
+          12,
+          21,
+          12,
+          22
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "8513a80a1dc341688dd5b959579305c4a487f7af09fe6fcd249d9688ce99113a"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-016/default.png",
+      "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+      "bytes": 661797,
+      "git_blob_sha": "229be9cbd819efa86086f9cd18f8c928b7fb9236",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          172,
+          944,
+          852
+        ],
+        "margins": [
+          80,
+          172,
+          80,
+          172
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 93831,
+        "alpha_value_count": 249,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-016/pixel.png",
+      "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+      "bytes": 11102,
+      "git_blob_sha": "1d328cd54311f23b0041825ceda619757f44e22b",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          20,
+          118,
+          108
+        ],
+        "margins": [
+          10,
+          20,
+          10,
+          20
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "Earlier NW/NE eye attachment inconsistent; v3 far-edge occlusion improved. W/E oblique and leaf-stalk continuity remain inferred.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending.",
+      "W/E remain oblique; leaf stalk continuity inferred. Earlier NW/NE eye attachment HOLD retained; v3 improves far-edge occlusion."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "137d71b4f63bfc64d2c74b0241cc8633e20e587d5ae117cc75766dde13510f07",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "cfeb56c2500289bbab2b94e2f816349ba95091b1776cab51f69be6cd5aaa335e",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. Create ONE transparent 1024 full-body game sprite showing same reference organism rotated to S: direct front, two equal small spheres side by side nearest, big sphere centered just behind; three eyes visible. It is one connected creature with exactly THREE spheres arranged as a LOW triangle: one larger rear sphere and two equal smaller front spheres side by side, not a row. The rear sphere is only slightly raised, never a tall pyramid. Exactly SIX articulated short legs ending in cream curved points, two below each sphere; natural occlusion allowed. Exactly one eye on forward-facing surface of each sphere, three anatomical eyes total, obey view occlusion. Exactly ONE flat orange dead leaf lying on top of rear large sphere, never on the front spheres. Brown humus pebble texture, vivid yellow-olive nodules, connected cream mycelium mesh, original bold dark outline and 2D cel shading. Preserve reference proportions/materials and the asymmetric leaf stem attachment as the whole body rotates. No tails or wings, no extra spheres or eyes. Fixed original slight-above camera, no top-down overhead view. Full body with transparent padding, no ground, shadow, text or props.\n",
+      "generation_references": [
+        {
+          "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "58b3f82baa388ca4b1c333966ae347d7362b43e42ffd706433350ddb5938bd8e",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "166212c28303c95785ad92d4b4c6b1b561ebe9ae142ffc50cc4024a945783356",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Produce ONE pixel-art game sprite matching image 1's exact S direction, camera, silhouette and anatomy. Image 2 is only original pixel rendering and palette reference, not pose. Same connected three-sphere creature: two equal small front spheres, one larger rear sphere, six legs two each sphere with cream pointed feet, one front-facing eye per sphere naturally occluded as image 1, one flat orange leaf on rear sphere only. Preserve image 1 leg placements, eye visibility and leaf orientation without adding anatomy. Brown humus, olive nodules and cream connecting mesh. True 128x128 logical pixel art with crisp clusters, no antialiasing or blur, maximum32colors, binary transparent background. Center full body with margin, no shadow, ground, text. Change medium only.\n",
+      "generation_references": [
+        {
+          "sha256": "cfeb56c2500289bbab2b94e2f816349ba95091b1776cab51f69be6cd5aaa335e",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "56cd3252fc70951d97f54184d90d2b3f8674ed90b81e263b6352a687230c924c",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "a2f0ab41df7496f7902b529a44b280a46916ff6623ae3423a88542df3da7d992",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. Create ONE transparent 1024 full-body game sprite showing same reference organism rotated to SW: front-left three-quarter, twin small spheres nearest lower left and big sphere behind upper right. It is one connected creature with exactly THREE spheres arranged as a LOW triangle: one larger rear sphere and two equal smaller front spheres side by side, not a row. The rear sphere is only slightly raised, never a tall pyramid. Exactly SIX articulated short legs ending in cream curved points, two below each sphere; natural occlusion allowed. Exactly one eye on forward-facing surface of each sphere, three anatomical eyes total, obey view occlusion. Exactly ONE flat orange dead leaf lying on top of rear large sphere, never on the front spheres. Brown humus pebble texture, vivid yellow-olive nodules, connected cream mycelium mesh, original bold dark outline and 2D cel shading. Preserve reference proportions/materials and the asymmetric leaf stem attachment as the whole body rotates. No tails or wings, no extra spheres or eyes. Fixed original slight-above camera, no top-down overhead view. Full body with transparent padding, no ground, shadow, text or props.\n",
+      "generation_references": [
+        {
+          "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "c99786ecba52c7ca3f5026fa11fab43321d355bb946f5ce0ecac2ff7b6ef8aed",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "464729ce2ecfd648d8a90689698836721a5e77d16f3d0fd07442ab29ecd9143d",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Produce ONE pixel-art game sprite matching image 1's exact SW direction, camera, silhouette and anatomy. Image 2 is only original pixel rendering and palette reference, not pose. Same connected three-sphere creature: two equal small front spheres, one larger rear sphere, six legs two each sphere with cream pointed feet, one front-facing eye per sphere naturally occluded as image 1, one flat orange leaf on rear sphere only. Preserve image 1 leg placements, eye visibility and leaf orientation without adding anatomy. Brown humus, olive nodules and cream connecting mesh. True 128x128 logical pixel art with crisp clusters, no antialiasing or blur, maximum32colors, binary transparent background. Center full body with margin, no shadow, ground, text. Change medium only.\n",
+      "generation_references": [
+        {
+          "sha256": "a2f0ab41df7496f7902b529a44b280a46916ff6623ae3423a88542df3da7d992",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "4ad5967547d4451f920ca60fec8bda30216961fde01b92237e7f570eb5c752e6",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "09f019f1f939e1cd19a01b64a4872d39cd0f6424188b28df86546417876c88c4",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. Create ONE transparent 1024 full-body game sprite showing same reference organism rotated to W: left side profile, small front spheres at left overlapping naturally, big rear sphere at right; eyes on forward-facing left surfaces. It is one connected creature with exactly THREE spheres arranged as a LOW triangle: one larger rear sphere and two equal smaller front spheres side by side, not a row. The rear sphere is only slightly raised, never a tall pyramid. Exactly SIX articulated short legs ending in cream curved points, two below each sphere; natural occlusion allowed. Exactly one eye on forward-facing surface of each sphere, three anatomical eyes total, obey view occlusion. Exactly ONE flat orange dead leaf lying on top of rear large sphere, never on the front spheres. Brown humus pebble texture, vivid yellow-olive nodules, connected cream mycelium mesh, original bold dark outline and 2D cel shading. Preserve reference proportions/materials and the asymmetric leaf stem attachment as the whole body rotates. No tails or wings, no extra spheres or eyes. Fixed original slight-above camera, no top-down overhead view. Full body with transparent padding, no ground, shadow, text or props.\n",
+      "generation_references": [
+        {
+          "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "881af59991b23d3ecce5e288b45d6e82ce58f34baf50c2fac24ff4b91322c72b",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "7e0aa9a1c9f657e7f704d6949d0d36ba27a854a35ddfed548180dc75f2d2f715",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Produce ONE pixel-art game sprite matching image 1's exact W direction, camera, silhouette and anatomy. Image 2 is only original pixel rendering and palette reference, not pose. Same connected three-sphere creature: two equal small front spheres, one larger rear sphere, six legs two each sphere with cream pointed feet, one front-facing eye per sphere naturally occluded as image 1, one flat orange leaf on rear sphere only. Preserve image 1 leg placements, eye visibility and leaf orientation without adding anatomy. Brown humus, olive nodules and cream connecting mesh. True 128x128 logical pixel art with crisp clusters, no antialiasing or blur, maximum32colors, binary transparent background. Center full body with margin, no shadow, ground, text. Change medium only.\n",
+      "generation_references": [
+        {
+          "sha256": "09f019f1f939e1cd19a01b64a4872d39cd0f6424188b28df86546417876c88c4",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "7070123d669b14d154dbffac9cfd6c4517207e69d833ce15bf5810a234f4e5b9",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "ab3b2cd031c0b275e360d9488b621e7c92e3f4688c5ddb44bb15eae38801d6f5",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: precise-object-edit. Correct the rotational attachment of the two small spheres' eyes in image 1. This is a NW REAR three-quarter view of the same creature in image 2 (original front-right view). The eyes are fixed to each sphere's forward pole, they cannot swivel around the sphere to face the camera. The whole animal faces away toward upper left, so the two front small spheres must show their back/side surfaces nearest us. Their forward-pole eyes wrap around the far contour and are naturally occluded by their own sphere curvature; if a tiny rim peeks around the far edge it must be severely foreshortened, never a broad circular pupil facing viewer. Keep the three actual anatomical eyes, but model their correct fixed positions and occlusion. Do not rotate just pupils. Preserve all three spheres' centers, exact six legs, cream mesh, olive nodules, orange leaf and its stem, original brown material, camera, silhouette and transparent background. Change only this erroneous eye-facing projection and its surrounding surface; preserve big rear sphere eyeless back. One full creature, no text, shadow or ground.\n",
+      "generation_references": [
+        {
+          "sha256": "25a86b55ee4496933d9629c8a5bc9df844a1f1fe8e62eaeeb44482e4c2ba7ea0",
+          "role": "previousdirectioneditinput"
+        },
+        {
+          "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+          "role": "originalidentity"
+        }
+      ],
+      "previous_attempt": {
+        "adopted_raw": {
+          "sha256": "25a86b55ee4496933d9629c8a5bc9df844a1f1fe8e62eaeeb44482e4c2ba7ea0",
+          "role": "generatedraw"
+        },
+        "prompt": "Use case: identity-preserve. Create ONE transparent 1024 full-body game sprite showing same reference organism rotated to NW: rear-left three-quarter, big rear sphere nearest lower right, two small front spheres farther upper left; rear surfaces eyeless. It is one connected creature with exactly THREE spheres arranged as a LOW triangle: one larger rear sphere and two equal smaller front spheres side by side, not a row. The rear sphere is only slightly raised, never a tall pyramid. Exactly SIX articulated short legs ending in cream curved points, two below each sphere; natural occlusion allowed. Exactly one eye on forward-facing surface of each sphere, three anatomical eyes total, obey view occlusion. Exactly ONE flat orange dead leaf lying on top of rear large sphere, never on the front spheres. Brown humus pebble texture, vivid yellow-olive nodules, connected cream mycelium mesh, original bold dark outline and 2D cel shading. Preserve reference proportions/materials and the asymmetric leaf stem attachment as the whole body rotates. No tails or wings, no extra spheres or eyes. Fixed original slight-above camera, no top-down overhead view. Full body with transparent padding, no ground, shadow, text or props.\n",
+        "generation_references": [
+          {
+            "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+            "role": "originalidentity"
+          }
+        ]
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "b4848af7cfcddfe91e8b88642bafd7955653895d4a6376f1b14dd8a375fb8467",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "e19c80093935c99085aa089ebbb3c0ec417f185c2534d54ebc4d5438d088f2e0",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE pixel sprite faithfully matching image 1's NW rear-three-quarter view, including corrected tiny foreshortened eye rim at far outside contour of front small spheres. Do not restore circular front-facing eyes. Image 2 is palette and pixel style only. Keep three connected spheres: rear large nearest viewer, twin small front farther away; six legs, one orange leaf on rear sphere, brown/olive/cream material and exact silhouette. Eyes remain on far forward surfaces, naturally hidden by sphere curvature; no added eyes on near surfaces. 128x128 logical crisp pixel art, max32colors, binary true transparency, no blur/antialias/shadow/ground/text. Full body centered with margin.\n",
+      "generation_references": [
+        {
+          "sha256": "ab3b2cd031c0b275e360d9488b621e7c92e3f4688c5ddb44bb15eae38801d6f5",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+          "role": "pixelstylepalette"
+        }
+      ],
+      "previous_attempt": {
+        "adopted_raw": {
+          "sha256": "2f21b536d1a1729b3f6574da3e5d3b5cd889596afd3ef95dd1460cde99e34230",
+          "role": "generatedraw"
+        },
+        "prompt": "Use case: style-transfer. Produce ONE pixel-art game sprite matching image 1's exact NW direction, camera, silhouette and anatomy. Image 2 is only original pixel rendering and palette reference, not pose. Same connected three-sphere creature: two equal small front spheres, one larger rear sphere, six legs two each sphere with cream pointed feet, one front-facing eye per sphere naturally occluded as image 1, one flat orange leaf on rear sphere only. Preserve image 1 leg placements, eye visibility and leaf orientation without adding anatomy. Brown humus, olive nodules and cream connecting mesh. True 128x128 logical pixel art with crisp clusters, no antialiasing or blur, maximum32colors, binary transparent background. Center full body with margin, no shadow, ground, text. Change medium only.\n",
+        "generation_references": [
+          {
+            "sha256": "25a86b55ee4496933d9629c8a5bc9df844a1f1fe8e62eaeeb44482e4c2ba7ea0",
+            "role": "actualgenerationnormalreference"
+          },
+          {
+            "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+            "role": "pixelstylepalette"
+          }
+        ]
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "dfa1dde66fe1d607d012cf769ea4d76a7bde36ab3c7b7ec293fd8f35a17b2f79",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "68f4e17eacec36a133de4a63951a2d43aeff6ed3a3229933d4443eea6c8a4cf0",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. Create ONE transparent 1024 full-body game sprite showing same reference organism rotated to N: direct rear, big sphere nearest center, twin small spheres partly hidden behind on left/right, eyes hidden on opposite front surfaces. It is one connected creature with exactly THREE spheres arranged as a LOW triangle: one larger rear sphere and two equal smaller front spheres side by side, not a row. The rear sphere is only slightly raised, never a tall pyramid. Exactly SIX articulated short legs ending in cream curved points, two below each sphere; natural occlusion allowed. Exactly one eye on forward-facing surface of each sphere, three anatomical eyes total, obey view occlusion. Exactly ONE flat orange dead leaf lying on top of rear large sphere, never on the front spheres. Brown humus pebble texture, vivid yellow-olive nodules, connected cream mycelium mesh, original bold dark outline and 2D cel shading. Preserve reference proportions/materials and the asymmetric leaf stem attachment as the whole body rotates. No tails or wings, no extra spheres or eyes. Fixed original slight-above camera, no top-down overhead view. Full body with transparent padding, no ground, shadow, text or props.\n",
+      "generation_references": [
+        {
+          "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "8e09a5f51194073c8c08a5b2fef07f4e0a648418b060a174625fc85bc2fd749c",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "2e2ea6114fc62c63a58c08a9dc6cecf8142b24040ccf55344271310c9e426a27",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Produce ONE pixel-art game sprite matching image 1's exact N direction, camera, silhouette and anatomy. Image 2 is only original pixel rendering and palette reference, not pose. Same connected three-sphere creature: two equal small front spheres, one larger rear sphere, six legs two each sphere with cream pointed feet, one front-facing eye per sphere naturally occluded as image 1, one flat orange leaf on rear sphere only. Preserve image 1 leg placements, eye visibility and leaf orientation without adding anatomy. Brown humus, olive nodules and cream connecting mesh. True 128x128 logical pixel art with crisp clusters, no antialiasing or blur, maximum32colors, binary transparent background. Center full body with margin, no shadow, ground, text. Change medium only.\n",
+      "generation_references": [
+        {
+          "sha256": "68f4e17eacec36a133de4a63951a2d43aeff6ed3a3229933d4443eea6c8a4cf0",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "65904501e4dbc7d5db79fb56c89e3bee04120362cf718e278fa7ba3d59a2db0e",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "63b1d3c27ee8c7bc5d4a0f1d5e7caff494f451dcbe9aa428449698a2e69e55cd",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: precise-object-edit. Correct the rotational attachment of the two small spheres' eyes in image 1. This is a NE REAR three-quarter view of the same creature in image 2 (original front-right view). The eyes are fixed to each sphere's forward pole, they cannot swivel around the sphere to face the camera. The whole animal faces away toward upper right, so the two front small spheres must show their back/side surfaces nearest us. Their forward-pole eyes wrap around the far contour and are naturally occluded by their own sphere curvature; if a tiny rim peeks around the far edge it must be severely foreshortened, never a broad circular pupil facing viewer. Keep the three actual anatomical eyes, but model their correct fixed positions and occlusion. Do not rotate just pupils. Preserve all three spheres' centers, exact six legs, cream mesh, olive nodules, orange leaf and its stem, original brown material, camera, silhouette and transparent background. Change only this erroneous eye-facing projection and its surrounding surface; preserve big rear sphere eyeless back. One full creature, no text, shadow or ground.\n",
+      "generation_references": [
+        {
+          "sha256": "837b899ada2750c6e74993e0dae4a360002bce949affacdf1dd12f3b8d18e5bc",
+          "role": "previousdirectioneditinput"
+        },
+        {
+          "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+          "role": "originalidentity"
+        }
+      ],
+      "previous_attempt": {
+        "adopted_raw": {
+          "sha256": "837b899ada2750c6e74993e0dae4a360002bce949affacdf1dd12f3b8d18e5bc",
+          "role": "generatedraw"
+        },
+        "prompt": "Use case: identity-preserve. Create ONE transparent 1024 full-body game sprite showing same reference organism rotated to NE: rear-right three-quarter, big rear sphere nearest lower left, two small front spheres farther upper right; rear surfaces eyeless. It is one connected creature with exactly THREE spheres arranged as a LOW triangle: one larger rear sphere and two equal smaller front spheres side by side, not a row. The rear sphere is only slightly raised, never a tall pyramid. Exactly SIX articulated short legs ending in cream curved points, two below each sphere; natural occlusion allowed. Exactly one eye on forward-facing surface of each sphere, three anatomical eyes total, obey view occlusion. Exactly ONE flat orange dead leaf lying on top of rear large sphere, never on the front spheres. Brown humus pebble texture, vivid yellow-olive nodules, connected cream mycelium mesh, original bold dark outline and 2D cel shading. Preserve reference proportions/materials and the asymmetric leaf stem attachment as the whole body rotates. No tails or wings, no extra spheres or eyes. Fixed original slight-above camera, no top-down overhead view. Full body with transparent padding, no ground, shadow, text or props.\n",
+        "generation_references": [
+          {
+            "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+            "role": "originalidentity"
+          }
+        ]
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "c1a0941cb39d5b2823fee1c887de13c89157fd5100f3d6e6df3a36132af8b548",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "1b10bcc0a5311b967620f44e6f03a517bcf08d835b987cd2be87730f30a099c6",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE pixel sprite faithfully matching image 1's NE rear-three-quarter view, including corrected tiny foreshortened eye rim at far outside contour of front small spheres. Do not restore circular front-facing eyes. Image 2 is palette and pixel style only. Keep three connected spheres: rear large nearest viewer, twin small front farther away; six legs, one orange leaf on rear sphere, brown/olive/cream material and exact silhouette. Eyes remain on far forward surfaces, naturally hidden by sphere curvature; no added eyes on near surfaces. 128x128 logical crisp pixel art, max32colors, binary true transparency, no blur/antialias/shadow/ground/text. Full body centered with margin.\n",
+      "generation_references": [
+        {
+          "sha256": "63b1d3c27ee8c7bc5d4a0f1d5e7caff494f451dcbe9aa428449698a2e69e55cd",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+          "role": "pixelstylepalette"
+        }
+      ],
+      "previous_attempt": {
+        "adopted_raw": {
+          "sha256": "8e0f3f07ee02325ceb35e6f7ab6cca718712784bfd02108a04e8730a912ef96f",
+          "role": "generatedraw"
+        },
+        "prompt": "Use case: style-transfer. Produce ONE pixel-art game sprite matching image 1's exact NE direction, camera, silhouette and anatomy. Image 2 is only original pixel rendering and palette reference, not pose. Same connected three-sphere creature: two equal small front spheres, one larger rear sphere, six legs two each sphere with cream pointed feet, one front-facing eye per sphere naturally occluded as image 1, one flat orange leaf on rear sphere only. Preserve image 1 leg placements, eye visibility and leaf orientation without adding anatomy. Brown humus, olive nodules and cream connecting mesh. True 128x128 logical pixel art with crisp clusters, no antialiasing or blur, maximum32colors, binary transparent background. Center full body with margin, no shadow, ground, text. Change medium only.\n",
+        "generation_references": [
+          {
+            "sha256": "837b899ada2750c6e74993e0dae4a360002bce949affacdf1dd12f3b8d18e5bc",
+            "role": "actualgenerationnormalreference"
+          },
+          {
+            "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+            "role": "pixelstylepalette"
+          }
+        ]
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "8513a80a1dc341688dd5b959579305c4a487f7af09fe6fcd249d9688ce99113a",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "c087976ab0718e9bdade8a2b39d959b2db0b7d578681d0437bd46858345504de",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. Create ONE transparent 1024 full-body game sprite showing same reference organism rotated to E: right side profile, small front spheres at right overlapping naturally, big rear sphere at left; eyes on forward-facing right surfaces. It is one connected creature with exactly THREE spheres arranged as a LOW triangle: one larger rear sphere and two equal smaller front spheres side by side, not a row. The rear sphere is only slightly raised, never a tall pyramid. Exactly SIX articulated short legs ending in cream curved points, two below each sphere; natural occlusion allowed. Exactly one eye on forward-facing surface of each sphere, three anatomical eyes total, obey view occlusion. Exactly ONE flat orange dead leaf lying on top of rear large sphere, never on the front spheres. Brown humus pebble texture, vivid yellow-olive nodules, connected cream mycelium mesh, original bold dark outline and 2D cel shading. Preserve reference proportions/materials and the asymmetric leaf stem attachment as the whole body rotates. No tails or wings, no extra spheres or eyes. Fixed original slight-above camera, no top-down overhead view. Full body with transparent padding, no ground, shadow, text or props.\n",
+      "generation_references": [
+        {
+          "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "58f20822116a2d42bcd168bc97211c1dae1742a45574a379948485c94a63ac71",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "45e7c82b979b5c9a6e0854ed0509b8fc899c5a1914c34b3bf9cf00d7039e55da",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Produce ONE pixel-art game sprite matching image 1's exact E direction, camera, silhouette and anatomy. Image 2 is only original pixel rendering and palette reference, not pose. Same connected three-sphere creature: two equal small front spheres, one larger rear sphere, six legs two each sphere with cream pointed feet, one front-facing eye per sphere naturally occluded as image 1, one flat orange leaf on rear sphere only. Preserve image 1 leg placements, eye visibility and leaf orientation without adding anatomy. Brown humus, olive nodules and cream connecting mesh. True 128x128 logical pixel art with crisp clusters, no antialiasing or blur, maximum32colors, binary transparent background. Center full body with margin, no shadow, ground, text. Change medium only.\n",
+      "generation_references": [
+        {
+          "sha256": "c087976ab0718e9bdade8a2b39d959b2db0b7d578681d0437bd46858345504de",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+        "role": "finaltechnicalderivative"
+      },
+      "operation": "byte-identical original copy",
+      "original": {
+        "sha256": "f3aee2449f4d0dfc6c7629a1c6653607e88a9dac7ded1816d6cae3512f28905f",
+        "role": "original"
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+        "role": "finaltechnicalderivative"
+      },
+      "operation": "byte-identical original copy",
+      "original": {
+        "sha256": "24f4a3184d1380141efa1a379872aa7c7ed44e1fe2af476daf083b89101e32c1",
+        "role": "original"
+      }
+    }
+  ]
+}
