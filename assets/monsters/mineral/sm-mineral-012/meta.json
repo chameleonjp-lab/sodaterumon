@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-012",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別途生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "generation_observed_at_utc": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-mineral-012-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-mineral-012 / マキサビル / 硬体 (mineral)\nBody and exact anatomy: 体幹1節の横向き太い巻き筒形。脚4本、目2個、翼0枚、細い尾2本。手前側の端面だけが開いた巻き断面で、奥側端は丸い鉱物膜で閉じる\nMaterials and biological motif: 赤褐色の薄い鉄質層。岩床の乾いた細粒を筒の下面でゆるくまとめる\nPrimary, secondary, accent colors respectively: #A76E55; #9CABB2; #E4C58B\nThree mandatory visual identifiers: 手前の開いた端面に一巻き半の太い渦が1個だけ見える; 筒の上面に横断する明るい帯が1本; 二本尾は筒の後ろ中央から左右へ分かれる\nPose: 四脚を短く開き、片側の巻き断面を斜め前に見せる\nTemperament to convey through expression or posture: おっとり。地面の凹凸に合わせて巻きが少しゆるむ. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 筒を人工の金属管にしない; 断面を口や歯列にしない; 尾先に工具を付けない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-mineral-012-default-attempt002-prompt": "Use case: precise-object-edit\nCorrect only the leg visibility of this exact mineral scroll creature. Show exactly FOUR short opened legs with four independently visible roots and feet. Currently only three feet are visible; expose the fourth far-rear foot from behind the barrel into a clear gap beneath the body, without adding more than four. Keep one thick horizontal rolled-cylinder body, TWO eyes, TWO thin tails splitting from rear center, a single thick one-and-a-half turn spiral on the near open end, far end rounded and closed by mineral membrane, ONE bright transverse band across the top. Same rusty iron-layer material, #A76E55/#9CABB2/#E4C58B palette, dark contour and restrained main cel shading, same front three-quarter view. No artificial pipe, mouth/teeth, tools, extra bands/spirals/props/text. True transparent background, full body, no outside shadow/halo.\n",
+      "sm-mineral-012-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-mineral-012; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-mineral-012 / マキサビル / 硬体 (mineral)\nLocked body and anatomy: 体幹1節の横向き太い巻き筒形。脚4本、目2個、翼0枚、細い尾2本。手前側の端面だけが開いた巻き断面で、奥側端は丸い鉱物膜で閉じる\nLocked material cues: 赤褐色の薄い鉄質層。岩床の乾いた細粒を筒の下面でゆるくまとめる\nLocked palette roles, primary/secondary/accent: #A76E55; #9CABB2; #E4C58B\nAll three identifiers must remain recognizable: 手前の開いた端面に一巻き半の太い渦が1個だけ見える; 筒の上面に横断する明るい帯が1本; 二本尾は筒の後ろ中央から左右へ分かれる\nLocked pose: 四脚を短く開き、片側の巻き断面を斜め前に見せる\nLocked temperament/expression: おっとり。地面の凹凸に合わせて巻きが少しゆるむ. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 筒を人工の金属管にしない; 断面を口や歯列にしない; 尾先に工具を付けない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "5b002c607e2aee09ce84530e4844608b285cf150d458bd0eea35940865cc0bc7",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-mineral-012-default-attempt001-original.png",
+          "sha256": "c9c69af6caf59bb10ba124d6693b76ec6fc63a171bd50bd86f71b01265e41f22",
+          "bytes": 1297150,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-012-default-attempt002-original.png",
+          "sha256": "d895373e1c2d34b0555c2ecd5ea3baf32fc2193ab94d87e1c4d0cece5afadb37",
+          "bytes": 1002903,
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-012-pixel-attempt001-original.png",
+          "sha256": "dc4f5a5fba6c33732c3015ed3796884b12cc827ee27433b19b59f9fa648db3c6",
+          "bytes": 852027,
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/mineral/sm-mineral-012/default.png",
+      "sha256": "5b002c607e2aee09ce84530e4844608b285cf150d458bd0eea35940865cc0bc7",
+      "bytes": 643575,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        175,
+        944,
+        848
+      ],
+      "transparent_margins": [
+        80,
+        175,
+        80,
+        176
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/mineral/sm-mineral-012/pixel.png",
+      "sha256": "2d5c26e5ceadd5c732eae0d43b5952548bd98eede3e0cf7c0e48b1c8f658d8ad",
+      "bytes": 10725,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        20,
+        118,
+        108
+      ],
+      "transparent_margins": [
+        10,
+        20,
+        10,
+        20
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸と8倍nearest表示、通常/pixel比較を独立レビュー。一節巻筒、四脚二眼二尾、手前のみ約一巻き半渦、奥端は閉鎖輪郭、上横断明帯一本、後中央尾分岐。通常の第四脚可視化を生成編集。遠眼は右外縁の小瞳と淡縁、尾赤茶は不透明輪郭色で孤立ゴミではない。奥膜全面は視点上隠れるが第二開口なし。 PNG規格・永続保存読戻し検証済み。",
+    "review_notes": [
+      "不採用を含む全生成原本を保全。",
+      "透明画素に複数のRGB値が残るが、表示には影響せず、仕様の可視色数32以下を満たす。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
