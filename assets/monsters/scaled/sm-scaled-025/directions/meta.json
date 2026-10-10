@@ -1,0 +1,1113 @@
+{
+  "schema_version": 1,
+  "id": "sm-scaled-025",
+  "asset_type": "eight_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "direction_order": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "nominal_yaw_degrees": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/S/default.png",
+      "bytes": 665011,
+      "sha256": "7031fa5bd43a88e14806f0f749d7d5b998e511bd058845adc04b961497096e29",
+      "git_blob_sha": "1fb21d9726c692511ecc7e913918fd61a975d2aa",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        97,
+        210,
+        927,
+        812
+      ],
+      "min_margin": 97,
+      "visible_extent": 830,
+      "visible_colors": 62715,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/S/pixel.png",
+      "bytes": 8114,
+      "sha256": "c2dc6fe41701e7c8bfbc5101b0202e43ae54298a51a2e933dfe8d479a8fd2487",
+      "git_blob_sha": "215cef1407e0d09aa489bc1c2911dc1cf4d73369",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        26,
+        116,
+        101
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 14,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/SW/default.png",
+      "bytes": 592031,
+      "sha256": "89315bc938ecf558c4701b8b41581cf19c0db9121f4f491c9746004e0cd4f2f0",
+      "git_blob_sha": "9d19d314b203cbadbe25ea016e2c36f50e35470f",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        97,
+        218,
+        926,
+        806
+      ],
+      "min_margin": 97,
+      "visible_extent": 829,
+      "visible_colors": 60901,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/SW/pixel.png",
+      "bytes": 6011,
+      "sha256": "84e452a9785b8b51bb6cc6c9f6812b20e7a6ef9295be68f6c8ee43fa1b4d1739",
+      "git_blob_sha": "f244ccdbf25806932b25dfc4dc79f049f4d1536f",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        24,
+        116,
+        104
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 12,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/W/default.png",
+      "bytes": 525547,
+      "sha256": "8b66dd9c10fbddd4b0b84ec82ad7feb00f2de6c0d83effa706a05854bd755b45",
+      "git_blob_sha": "fd13f0ec39c2344f5c83ddcd056aeb119deed98f",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        97,
+        289,
+        926,
+        734
+      ],
+      "min_margin": 97,
+      "visible_extent": 829,
+      "visible_colors": 57590,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/W/pixel.png",
+      "bytes": 6426,
+      "sha256": "29c41ff20a7cc4fafc86db2703b3e4b5228904cb0a392999eeab4bec9c5eb5e3",
+      "git_blob_sha": "ad5e9969481389b7c704d0a96ac9ed1dd10bf22d",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        36,
+        116,
+        92
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 14,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/NW/default.png",
+      "bytes": 598254,
+      "sha256": "06b2368975de6c041ea136afc2ecd0fc970e042c3d2b7a22498497e2f97c67ac",
+      "git_blob_sha": "096b4797a2e9a29ba33515fd261d9b8669715ab9",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        98,
+        223,
+        927,
+        800
+      ],
+      "min_margin": 97,
+      "visible_extent": 829,
+      "visible_colors": 58363,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/NW/pixel.png",
+      "bytes": 9026,
+      "sha256": "879055508ad72e1c95dbd353141d794d5390938888ec3373482fefbe870d399a",
+      "git_blob_sha": "15f124ff8b681a1ca97472650ca7fb10c0125544",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        26,
+        116,
+        101
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 17,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/N/default.png",
+      "bytes": 585356,
+      "sha256": "736309803fa4582ba1a32e3ab5148a004239d3f09c549db7d7ba369493a56df7",
+      "git_blob_sha": "112e41e75ac04e3d0fd7743ec5b6904779b179fd",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        98,
+        229,
+        927,
+        795
+      ],
+      "min_margin": 97,
+      "visible_extent": 829,
+      "visible_colors": 56015,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/N/pixel.png",
+      "bytes": 7742,
+      "sha256": "2f2457a5433386f3d5f6af6a76e0389e01718d80268b0c4b79c4897d39b4dae8",
+      "git_blob_sha": "92be18281b92ff9aba42200ccf6f6b0f65309cf3",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        28,
+        116,
+        99
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 15,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/NE/default.png",
+      "bytes": 612317,
+      "sha256": "31bc93d9be07066551c80a0baf4f7c23fe1ee9c6616e53cc1dcf28171bf0fd85",
+      "git_blob_sha": "de05b52e2aaa016b96946e19dcfc5079eb3c4d19",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        97,
+        215,
+        926,
+        807
+      ],
+      "min_margin": 97,
+      "visible_extent": 829,
+      "visible_colors": 58533,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/NE/pixel.png",
+      "bytes": 7923,
+      "sha256": "75452590d5f30a26d062dbb589ff0d36ce80935927eeffa2f0e1719b09fea9b0",
+      "git_blob_sha": "9c0719c5ba60df32ae0ef5713410508932978dcb",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        26,
+        116,
+        102
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 16,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/E/default.png",
+      "bytes": 529018,
+      "sha256": "e4d1a8e3b8ab83fbd089c56e549d9b56a16af8cee44ddc78bd8baef1684c9741",
+      "git_blob_sha": "53c61b2c6774ad4068fe5bc0ce5657f529adde55",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        97,
+        296,
+        926,
+        727
+      ],
+      "min_margin": 97,
+      "visible_extent": 829,
+      "visible_colors": 57292,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/directions/E/pixel.png",
+      "bytes": 7288,
+      "sha256": "03e528101685c7c10f79c9461923e2894d6e86e373d9e1bbca9943d81fbcc83d",
+      "git_blob_sha": "199aa7bddae8971a173fa10678abe1d7f26800bf",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        34,
+        116,
+        94
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 17,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/default.png",
+      "bytes": 692384,
+      "sha256": "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a",
+      "git_blob_sha": "5a67f78d81d74e587af512cf16d1423b6d98a49e",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        80,
+        199,
+        944,
+        824
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 69758,
+      "binary_alpha": false,
+      "original_preserved": true,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-025/pixel.png",
+      "bytes": 12830,
+      "sha256": "990e5c2c6c054ae2b4965a211543b43d91b321ec21e4f0efa9c021dcd0d4e96a",
+      "git_blob_sha": "387e7840388be30e80c3b3727d002a5e9e6197a2",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        10,
+        22,
+        118,
+        106
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": true,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    }
+  ],
+  "provenance": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original SE illustration of sm-scaled-025. Draw exactly this same creature with true yaw only, retain original fixed moderately elevated camera and ground stance. One shallow horizontal oval dish-shaped body, long front-to-back, covered in ivory porcelain rounded scales with pale blue/slate shadow scales. At dorsal center exactly ONE long smooth pale-blue oval inset, no pattern, aligned to longitudinal body axis; rotate this inset with body. Four short scale-covered legs, each a broad flattened scalloped foot, one per quadrant. Exactly FOUR round darkblue eyes in a2rows-by2columns grid on FRONT rim only; grid visibility follows occlusion. No arms, wings or tail. Match source body length/width/depth, limb length, low stance, central inset dimensions and source hand-drawn colored outline/cel shading. Palette ivory#DCE3CE,paleblue#B6CDDC,slate#616B84. Turn complete body, scales and feet together; do not just move eyes. Do not mirror the source or alter camera height. TARGET S: direct FRONT facing viewer. Four-eye2by2patch centered on near lower rim. Body and smooth inset longitudinal axis extends vertically away toward top center. Flat dish remains horizontal and unchanged thickness; source camera elevation unchanged. Two near feet lower-left/right, two far feet naturally behind body sides. One full sprite centered on1024square, maxextent832,64px minimum genuine transparent padding. No shadows/floor/glow/text/checkerboard/objects. Normal illustration, not pixel art.",
+      "raw_sha256": "9d5d6a8ede1e0cd6ca92f846c8fc86c661e048fed3d690d7468e8e903b12a329",
+      "raw_file_name": "S-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "892c969f860af067029212ef9be3406e50fbea77d8d0ee3c4818d78a7bfafbff",
+      "final_sha256": "7031fa5bd43a88e14806f0f749d7d5b998e511bd058845adc04b961497096e29",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          101,
+          235,
+          1151,
+          999
+        ],
+        "resize": [
+          832,
+          605
+        ],
+        "offset": [
+          96,
+          209
+        ]
+      },
+      "final_processing": {
+        "method": "Additional authorized micro-alpha finishing after measurement of isolated alpha1-4 pixels: set alpha<8 to0 on1024 final image; RGB, shape, canvas and other alpha unchanged.",
+        "changed_pixels": 4509,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T13:49:33.768609+00:00"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is the selected NORMAL S view of sm-scaled-025. Redraw this exact view as genuine128x128 game pixel art, change only rendering medium. Preserve same camera, yaw, body proportions, foot positions and occlusion. One shallow oval porcelain-scaled dish body, one long smooth pale-blue oval dorsal inset aligned to body length, no pattern in it. FOUR actual short flattened scalloped feet, natural far-side overlap. Exactly FOUR eyes physically on FRONT rim in2by2grid: preserve reference visibility exactly, do not reveal occluded eyes; no eyes on rear. No arms, wings or tail. Ivory#DCE3CE,paleblue#B6CDDC,slate#616B84, darkblue eyes. Crisp intentional pixel clusters,1-2logicalpixel outline,24-32opaque colors maximum, alpha0/255 only. No smoothing, antialias, dithering, blur or gradients. Single full centered sprite within longest104logicalpixels on128square and minimum8pixel transparent margins. Genuine transparent exterior, no ground/shadow/glow/text/grid or extra parts.",
+      "raw_sha256": "0f035b5fb8354928e11d09f11a1761f65b2bcda38d8fbda79c6065ff89ce17d8",
+      "raw_file_name": "S-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "892c969f860af067029212ef9be3406e50fbea77d8d0ee3c4818d78a7bfafbff"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "dd39726bcc26041e4dafdb0ae2f7562dbb7a910569272585d6e0bf2a06b0176a",
+      "final_sha256": "c2dc6fe41701e7c8bfbc5101b0202e43ae54298a51a2e933dfe8d479a8fd2487",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          112,
+          261,
+          1142,
+          1008
+        ],
+        "resize": [
+          104,
+          75
+        ],
+        "offset": [
+          12,
+          26
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized palette finishing: map opaque colors to nearestRGB in immutable source pixel visible palette; preserve every pixel coordinate and alpha.",
+        "changed_pixels": 5120,
+        "palette_source_sha256": "990e5c2c6c054ae2b4965a211543b43d91b321ec21e4f0efa9c021dcd0d4e96a"
+      },
+      "recorded_at": "2026-10-10T13:58:35.916576+00:00"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original SE illustration of sm-scaled-025. Draw exactly this same creature with true yaw only, retain original fixed moderately elevated camera and ground stance. One shallow horizontal oval dish-shaped body, long front-to-back, covered in ivory porcelain rounded scales with pale blue/slate shadow scales. At dorsal center exactly ONE long smooth pale-blue oval inset, no pattern, aligned to longitudinal body axis; rotate this inset with body. Four short scale-covered legs, each a broad flattened scalloped foot, one per quadrant. Exactly FOUR round darkblue eyes in a2rows-by2columns grid on FRONT rim only; grid visibility follows occlusion. No arms, wings or tail. Match source body length/width/depth, limb length, low stance, central inset dimensions and source hand-drawn colored outline/cel shading. Palette ivory#DCE3CE,paleblue#B6CDDC,slate#616B84. Turn complete body, scales and feet together; do not just move eyes. Do not mirror the source or alter camera height. TARGET SW: FRONT-LEFT three-quarter yaw, four-eye patch near lower-left front rim, longitudinal oval inset recedes toward upper-right. Four eyes retain2by2grid with perspective, four feet yaw with body. One full sprite centered on1024square, maxextent832,64px minimum genuine transparent padding. No shadows/floor/glow/text/checkerboard/objects. Normal illustration, not pixel art.",
+      "raw_sha256": "6cd77528b92bd41e22e4917ec78b3a57d75e65358511f147fb90df24c6b5a743",
+      "raw_file_name": "SW-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "1e686bb1b23703c5cebf3d2ef99fe6752b40e99ba544637df3e309dda063a19b",
+      "final_sha256": "89315bc938ecf558c4701b8b41581cf19c0db9121f4f491c9746004e0cd4f2f0",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          106,
+          254,
+          1202,
+          1031
+        ],
+        "resize": [
+          832,
+          590
+        ],
+        "offset": [
+          96,
+          217
+        ]
+      },
+      "final_processing": {
+        "method": "Additional authorized micro-alpha finishing after measurement of isolated alpha1-4 pixels: set alpha<8 to0 on1024 final image; RGB, shape, canvas and other alpha unchanged.",
+        "changed_pixels": 4655,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T13:50:38.239265+00:00"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is the selected NORMAL SW view of sm-scaled-025. Redraw this exact view as genuine128x128 game pixel art, change only rendering medium. Preserve same camera, yaw, body proportions, foot positions and occlusion. One shallow oval porcelain-scaled dish body, one long smooth pale-blue oval dorsal inset aligned to body length, no pattern in it. FOUR actual short flattened scalloped feet, natural far-side overlap. Exactly FOUR eyes physically on FRONT rim in2by2grid: preserve reference visibility exactly, do not reveal occluded eyes; no eyes on rear. No arms, wings or tail. Ivory#DCE3CE,paleblue#B6CDDC,slate#616B84, darkblue eyes. Crisp intentional pixel clusters,1-2logicalpixel outline,24-32opaque colors maximum, alpha0/255 only. No smoothing, antialias, dithering, blur or gradients. Single full centered sprite within longest104logicalpixels on128square and minimum8pixel transparent margins. Genuine transparent exterior, no ground/shadow/glow/text/grid or extra parts.",
+      "raw_sha256": "d63a013596cf45be769397eea8e54a90a8c1761f94745b432667ddf83e73b722",
+      "raw_file_name": "SW-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "1e686bb1b23703c5cebf3d2ef99fe6752b40e99ba544637df3e309dda063a19b"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "1a75d9be3d8d4df0f40c15f0fb31930844fdefa6b3b83b446f58bf9aa4f06805",
+      "final_sha256": "84e452a9785b8b51bb6cc6c9f6812b20e7a6ef9295be68f6c8ee43fa1b4d1739",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          148,
+          272,
+          1148,
+          1046
+        ],
+        "resize": [
+          104,
+          80
+        ],
+        "offset": [
+          12,
+          24
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized palette finishing: map opaque colors to nearestRGB in immutable source pixel visible palette; preserve every pixel coordinate and alpha.",
+        "changed_pixels": 5022,
+        "palette_source_sha256": "990e5c2c6c054ae2b4965a211543b43d91b321ec21e4f0efa9c021dcd0d4e96a"
+      },
+      "recorded_at": "2026-10-10T13:59:46.502491+00:00"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original SE illustration of sm-scaled-025. Draw exactly this same creature with true yaw only, retain original fixed moderately elevated camera and ground stance. One shallow horizontal oval dish-shaped body, long front-to-back, covered in ivory porcelain rounded scales with pale blue/slate shadow scales. At dorsal center exactly ONE long smooth pale-blue oval inset, no pattern, aligned to longitudinal body axis; rotate this inset with body. Four short scale-covered legs, each a broad flattened scalloped foot, one per quadrant. Exactly FOUR round darkblue eyes in a2rows-by2columns grid on FRONT rim only; grid visibility follows occlusion. No arms, wings or tail. Match source body length/width/depth, limb length, low stance, central inset dimensions and source hand-drawn colored outline/cel shading. Palette ivory#DCE3CE,paleblue#B6CDDC,slate#616B84. Turn complete body, scales and feet together; do not just move eyes. Do not mirror the source or alter camera height. TARGET W: pure LEFT profile, front aimsscreen-left and rear right. Long body/inset axis horizontal. Four-eye patch stays only on left-facing front rim; nearest vertical2-eye column may show, far column occluded. Dorsal blue inset stays horizontal with same fixed source elevation; no face on side. Four actual legs with far pair naturally occluded, keep two near legs spaced front/rear. One full sprite centered on1024square, maxextent832,64px minimum genuine transparent padding. No shadows/floor/glow/text/checkerboard/objects. Normal illustration, not pixel art.",
+      "raw_sha256": "470fcdf05e15b5f4d3c0d42983f7838bc7b8017a9b62b2ca0b0810bcd82301c3",
+      "raw_file_name": "W-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "90308755adfe87964ee093cc58200d04ab156c85d5cfa75a1f757c97e12e2f00",
+      "final_sha256": "8b66dd9c10fbddd4b0b84ec82ad7feb00f2de6c0d83effa706a05854bd755b45",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          102,
+          368,
+          1157,
+          937
+        ],
+        "resize": [
+          832,
+          449
+        ],
+        "offset": [
+          96,
+          287
+        ]
+      },
+      "final_processing": {
+        "method": "Additional authorized micro-alpha finishing after measurement of isolated alpha1-4 pixels: set alpha<8 to0 on1024 final image; RGB, shape, canvas and other alpha unchanged.",
+        "changed_pixels": 3981,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T13:52:03.666748+00:00"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is the selected NORMAL W view of sm-scaled-025. Redraw this exact view as genuine128x128 game pixel art, change only rendering medium. Preserve same camera, yaw, body proportions, foot positions and occlusion. One shallow oval porcelain-scaled dish body, one long smooth pale-blue oval dorsal inset aligned to body length, no pattern in it. FOUR actual short flattened scalloped feet, natural far-side overlap. Exactly FOUR eyes physically on FRONT rim in2by2grid: preserve reference visibility exactly, do not reveal occluded eyes; no eyes on rear. No arms, wings or tail. Ivory#DCE3CE,paleblue#B6CDDC,slate#616B84, darkblue eyes. Crisp intentional pixel clusters,1-2logicalpixel outline,24-32opaque colors maximum, alpha0/255 only. No smoothing, antialias, dithering, blur or gradients. Single full centered sprite within longest104logicalpixels on128square and minimum8pixel transparent margins. Genuine transparent exterior, no ground/shadow/glow/text/grid or extra parts.",
+      "raw_sha256": "ed0d1b84a8a0fa463b50d4392f70f4028e0e19e140c992619030e9275395eb92",
+      "raw_file_name": "W-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "90308755adfe87964ee093cc58200d04ab156c85d5cfa75a1f757c97e12e2f00"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "0b0629102c45b3aea31f8d1b825068e242f704155239dcc2d16a9937582ff5ae",
+      "final_sha256": "29c41ff20a7cc4fafc86db2703b3e4b5228904cb0a392999eeab4bec9c5eb5e3",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          117,
+          360,
+          1154,
+          914
+        ],
+        "resize": [
+          104,
+          56
+        ],
+        "offset": [
+          12,
+          36
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized palette finishing: map opaque colors to nearestRGB in immutable source pixel visible palette; preserve every pixel coordinate and alpha.",
+        "changed_pixels": 4237,
+        "palette_source_sha256": "990e5c2c6c054ae2b4965a211543b43d91b321ec21e4f0efa9c021dcd0d4e96a"
+      },
+      "recorded_at": "2026-10-10T14:02:03.524883+00:00"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original SE illustration of sm-scaled-025. Draw exactly this same creature with true yaw only, retain original fixed moderately elevated camera and ground stance. One shallow horizontal oval dish-shaped body, long front-to-back, covered in ivory porcelain rounded scales with pale blue/slate shadow scales. At dorsal center exactly ONE long smooth pale-blue oval inset, no pattern, aligned to longitudinal body axis; rotate this inset with body. Four short scale-covered legs, each a broad flattened scalloped foot, one per quadrant. Exactly FOUR round darkblue eyes in a2rows-by2columns grid on FRONT rim only; grid visibility follows occlusion. No arms, wings or tail. Match source body length/width/depth, limb length, low stance, central inset dimensions and source hand-drawn colored outline/cel shading. Palette ivory#DCE3CE,paleblue#B6CDDC,slate#616B84. Turn complete body, scales and feet together; do not just move eyes. Do not mirror the source or alter camera height. TARGET NW: BACK-LEFT three-quarter. Front with four-eye patch points away upper-left and is fully occluded. Rear eyeless rim foreground lower-right; smooth long inset aligns lower-right to upper-left. Four actual feet rotate with body, correct near/far overlap. One full sprite centered on1024square, maxextent832,64px minimum genuine transparent padding. No shadows/floor/glow/text/checkerboard/objects. Normal illustration, not pixel art.",
+      "raw_sha256": "11ec3f940145a3dcb879da2589e52c91abf315c05fd02e79bd02eb78eb4d20be",
+      "raw_file_name": "NW-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "375c9cdba37f867a83a1df6f978a8b6bfede3460257f3a539b33148d01b76252",
+      "final_sha256": "06b2368975de6c041ea136afc2ecd0fc970e042c3d2b7a22498497e2f97c67ac",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          111,
+          238,
+          1181,
+          983
+        ],
+        "resize": [
+          832,
+          579
+        ],
+        "offset": [
+          96,
+          222
+        ]
+      },
+      "final_processing": {
+        "method": "Additional authorized micro-alpha finishing after measurement of isolated alpha1-4 pixels: set alpha<8 to0 on1024 final image; RGB, shape, canvas and other alpha unchanged.",
+        "changed_pixels": 4114,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T13:53:12.350211+00:00"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "prompt": "Use case: style-transfer. Image1 is an EYELESS REAR-VIEW normal illustration. Redraw exactly the same visible details as crisp128x128 pixel art. The entire visible creature is EYELESS: no eyes, pupils, eye sockets, colored round dots or face anywhere on the rim, scales or central panel. Visible near rim must remain uninterrupted ivory scales, exactly as this reference. Do not invent hidden front features. Preserve the exact yaw, camera, shallow oval dish body, one smooth pale-blue longitudinal oval inset with no pattern, all FOUR flattened scalloped feet and their existing near/far occlusion. Ivory, pale blue and slate colors; clean pixel clusters,1-2pixel outline, maximum24-32colors, binary alpha, no blur or antialias/dither. Whole single creature centered longest104logicalpixels on128square with8pixel transparent margins. No background, text, shadow, glow, extra parts. Target view: NW rear, no visible face.",
+      "raw_sha256": "158186e1da6dec295d91811565ef0b37065216edff392bc701102bc559334551",
+      "raw_file_name": "NW-pixel-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "375c9cdba37f867a83a1df6f978a8b6bfede3460257f3a539b33148d01b76252"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "36733c7fac2c32c97d8b62bbcb3533be218b39d29a40216bb75dc42262c1b803",
+      "final_sha256": "879055508ad72e1c95dbd353141d794d5390938888ec3373482fefbe870d399a",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          112,
+          265,
+          1156,
+          1016
+        ],
+        "resize": [
+          104,
+          75
+        ],
+        "offset": [
+          12,
+          26
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized palette finishing: map opaque colors to nearestRGB in immutable source pixel visible palette; preserve every pixel coordinate and alpha.",
+        "changed_pixels": 4688,
+        "palette_source_sha256": "990e5c2c6c054ae2b4965a211543b43d91b321ec21e4f0efa9c021dcd0d4e96a"
+      },
+      "recorded_at": "2026-10-10T14:04:29.322753+00:00"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original SE illustration of sm-scaled-025. Draw exactly this same creature with true yaw only, retain original fixed moderately elevated camera and ground stance. One shallow horizontal oval dish-shaped body, long front-to-back, covered in ivory porcelain rounded scales with pale blue/slate shadow scales. At dorsal center exactly ONE long smooth pale-blue oval inset, no pattern, aligned to longitudinal body axis; rotate this inset with body. Four short scale-covered legs, each a broad flattened scalloped foot, one per quadrant. Exactly FOUR round darkblue eyes in a2rows-by2columns grid on FRONT rim only; grid visibility follows occlusion. No arms, wings or tail. Match source body length/width/depth, limb length, low stance, central inset dimensions and source hand-drawn colored outline/cel shading. Palette ivory#DCE3CE,paleblue#B6CDDC,slate#616B84. Turn complete body, scales and feet together; do not just move eyes. Do not mirror the source or alter camera height. TARGET N: direct REAR. Eyeless rear rim centered near lower edge, front four eyes fully occluded on far top end. Body and blue oval inset extend away vertically toward top. No eyes on back or shoulders; four feet move together with body. Do not tip dish upright or change camera elevation. One full sprite centered on1024square, maxextent832,64px minimum genuine transparent padding. No shadows/floor/glow/text/checkerboard/objects. Normal illustration, not pixel art.",
+      "raw_sha256": "7528f8fcde1a36960d01372020105f9619605f6d0f1f589712ac239783fa6ebc",
+      "raw_file_name": "N-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "553987d5ca3a50175235c870e1f3a8e4931148c6f88931160c5a222784efbe48",
+      "final_sha256": "736309803fa4582ba1a32e3ab5148a004239d3f09c549db7d7ba369493a56df7",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          107,
+          244,
+          1147,
+          956
+        ],
+        "resize": [
+          832,
+          570
+        ],
+        "offset": [
+          96,
+          227
+        ]
+      },
+      "final_processing": {
+        "method": "Additional authorized micro-alpha finishing after measurement of isolated alpha1-4 pixels: set alpha<8 to0 on1024 final image; RGB, shape, canvas and other alpha unchanged.",
+        "changed_pixels": 4513,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T13:54:12.350114+00:00"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is an EYELESS REAR-VIEW normal illustration. Redraw exactly the same visible details as crisp128x128 pixel art. The entire visible creature is EYELESS: no eyes, pupils, eye sockets, colored round dots or face anywhere on the rim, scales or central panel. Visible near rim must remain uninterrupted ivory scales, exactly as this reference. Do not invent hidden front features. Preserve the exact yaw, camera, shallow oval dish body, one smooth pale-blue longitudinal oval inset with no pattern, all FOUR flattened scalloped feet and their existing near/far occlusion. Ivory, pale blue and slate colors; clean pixel clusters,1-2pixel outline, maximum24-32colors, binary alpha, no blur or antialias/dither. Whole single creature centered longest104logicalpixels on128square with8pixel transparent margins. No background, text, shadow, glow, extra parts. Target view: N rear, no visible face.",
+      "raw_sha256": "d80e3348f0e4d8fd49d21fc82593621d0e234c488d2d5b06f55dffec112e6225",
+      "raw_file_name": "N-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "553987d5ca3a50175235c870e1f3a8e4931148c6f88931160c5a222784efbe48"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "e164b9c0ca2a3e23c438b5963daca2e07581ea23ec19203a8286dadd09a50b9c",
+      "final_sha256": "2f2457a5433386f3d5f6af6a76e0389e01718d80268b0c4b79c4897d39b4dae8",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          99,
+          270,
+          1155,
+          993
+        ],
+        "resize": [
+          104,
+          71
+        ],
+        "offset": [
+          12,
+          28
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized palette finishing: map opaque colors to nearestRGB in immutable source pixel visible palette; preserve every pixel coordinate and alpha.",
+        "changed_pixels": 4390,
+        "palette_source_sha256": "990e5c2c6c054ae2b4965a211543b43d91b321ec21e4f0efa9c021dcd0d4e96a"
+      },
+      "recorded_at": "2026-10-10T14:06:23.438853+00:00"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original SE illustration of sm-scaled-025. Draw exactly this same creature with true yaw only, retain original fixed moderately elevated camera and ground stance. One shallow horizontal oval dish-shaped body, long front-to-back, covered in ivory porcelain rounded scales with pale blue/slate shadow scales. At dorsal center exactly ONE long smooth pale-blue oval inset, no pattern, aligned to longitudinal body axis; rotate this inset with body. Four short scale-covered legs, each a broad flattened scalloped foot, one per quadrant. Exactly FOUR round darkblue eyes in a2rows-by2columns grid on FRONT rim only; grid visibility follows occlusion. No arms, wings or tail. Match source body length/width/depth, limb length, low stance, central inset dimensions and source hand-drawn colored outline/cel shading. Palette ivory#DCE3CE,paleblue#B6CDDC,slate#616B84. Turn complete body, scales and feet together; do not just move eyes. Do not mirror the source or alter camera height. TARGET NE: BACK-RIGHT three-quarter. Front with four eyes points away upper-right and is fully hidden. Rear eyeless rim foreground lower-left; smooth long inset runs lower-left to upper-right. Four feet rotate with body, no visible eyes on rim or upper surface. One full sprite centered on1024square, maxextent832,64px minimum genuine transparent padding. No shadows/floor/glow/text/checkerboard/objects. Normal illustration, not pixel art.",
+      "raw_sha256": "35c3f60a6a6262eb2cce5fd7d1a031cfa978f5adfd21b92c43c37005387d8107",
+      "raw_file_name": "NE-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "59bfba698317c6c5b2074033dc696877c3f3166539bc2ef5680228dc15522d7b",
+      "final_sha256": "31bc93d9be07066551c80a0baf4f7c23fe1ee9c6616e53cc1dcf28171bf0fd85",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          98,
+          240,
+          1167,
+          1005
+        ],
+        "resize": [
+          832,
+          595
+        ],
+        "offset": [
+          96,
+          214
+        ]
+      },
+      "final_processing": {
+        "method": "Additional authorized micro-alpha finishing after measurement of isolated alpha1-4 pixels: set alpha<8 to0 on1024 final image; RGB, shape, canvas and other alpha unchanged.",
+        "changed_pixels": 4941,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T13:55:28.441576+00:00"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is an EYELESS REAR-VIEW normal illustration. Redraw exactly the same visible details as crisp128x128 pixel art. The entire visible creature is EYELESS: no eyes, pupils, eye sockets, colored round dots or face anywhere on the rim, scales or central panel. Visible near rim must remain uninterrupted ivory scales, exactly as this reference. Do not invent hidden front features. Preserve the exact yaw, camera, shallow oval dish body, one smooth pale-blue longitudinal oval inset with no pattern, all FOUR flattened scalloped feet and their existing near/far occlusion. Ivory, pale blue and slate colors; clean pixel clusters,1-2pixel outline, maximum24-32colors, binary alpha, no blur or antialias/dither. Whole single creature centered longest104logicalpixels on128square with8pixel transparent margins. No background, text, shadow, glow, extra parts. Target view: NE rear, no visible face.",
+      "raw_sha256": "edd635ecaf7f49462f9e20ad8fecf70dff7e732c47e2e5320dc7bb2e293cd63e",
+      "raw_file_name": "NE-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "59bfba698317c6c5b2074033dc696877c3f3166539bc2ef5680228dc15522d7b"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "a0b621c9310d855f061754797795a2f30331f71ee5add3ea21c809eed2442ba2",
+      "final_sha256": "75452590d5f30a26d062dbb589ff0d36ce80935927eeffa2f0e1719b09fea9b0",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          98,
+          239,
+          1205,
+          1044
+        ],
+        "resize": [
+          104,
+          76
+        ],
+        "offset": [
+          12,
+          26
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized palette finishing: map opaque colors to nearestRGB in immutable source pixel visible palette; preserve every pixel coordinate and alpha.",
+        "changed_pixels": 4615,
+        "palette_source_sha256": "990e5c2c6c054ae2b4965a211543b43d91b321ec21e4f0efa9c021dcd0d4e96a"
+      },
+      "recorded_at": "2026-10-10T14:07:54.191108+00:00"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original SE illustration of sm-scaled-025. Draw exactly this same creature with true yaw only, retain original fixed moderately elevated camera and ground stance. One shallow horizontal oval dish-shaped body, long front-to-back, covered in ivory porcelain rounded scales with pale blue/slate shadow scales. At dorsal center exactly ONE long smooth pale-blue oval inset, no pattern, aligned to longitudinal body axis; rotate this inset with body. Four short scale-covered legs, each a broad flattened scalloped foot, one per quadrant. Exactly FOUR round darkblue eyes in a2rows-by2columns grid on FRONT rim only; grid visibility follows occlusion. No arms, wings or tail. Match source body length/width/depth, limb length, low stance, central inset dimensions and source hand-drawn colored outline/cel shading. Palette ivory#DCE3CE,paleblue#B6CDDC,slate#616B84. Turn complete body, scales and feet together; do not just move eyes. Do not mirror the source or alter camera height. TARGET E: pure RIGHT profile, front aims screen-right rear left. Body/inset long axis horizontal; four-eye patch only on right-facing front rim, nearest vertical2-eye column visible with far column naturally hidden. Four actual feet and natural near/far overlap, two near feet spaced front/rear. Same source camera, shallow dish thickness and top-inset depth. One full sprite centered on1024square, maxextent832,64px minimum genuine transparent padding. No shadows/floor/glow/text/checkerboard/objects. Normal illustration, not pixel art.",
+      "raw_sha256": "cdefce4c3c5733d29372d7e7b543543671098a23186625b934f108120e298c02",
+      "raw_file_name": "E-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "ad37838a8a5da3fb4847ee497048e7e3c0b59e3daff6b65b27677a2786a80e9a",
+      "final_sha256": "e4d1a8e3b8ab83fbd089c56e549d9b56a16af8cee44ddc78bd8baef1684c9741",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          81,
+          379,
+          1171,
+          948
+        ],
+        "resize": [
+          832,
+          434
+        ],
+        "offset": [
+          96,
+          295
+        ]
+      },
+      "final_processing": {
+        "method": "Additional authorized micro-alpha finishing after measurement of isolated alpha1-4 pixels: set alpha<8 to0 on1024 final image; RGB, shape, canvas and other alpha unchanged.",
+        "changed_pixels": 4121,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T13:56:49.710088+00:00"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is the selected NORMAL E view of sm-scaled-025. Redraw this exact view as genuine128x128 game pixel art, change only rendering medium. Preserve same camera, yaw, body proportions, foot positions and occlusion. One shallow oval porcelain-scaled dish body, one long smooth pale-blue oval dorsal inset aligned to body length, no pattern in it. FOUR actual short flattened scalloped feet, natural far-side overlap. Exactly FOUR eyes physically on FRONT rim in2by2grid: preserve reference visibility exactly, do not reveal occluded eyes; no eyes on rear. No arms, wings or tail. Ivory#DCE3CE,paleblue#B6CDDC,slate#616B84, darkblue eyes. Crisp intentional pixel clusters,1-2logicalpixel outline,24-32opaque colors maximum, alpha0/255 only. No smoothing, antialias, dithering, blur or gradients. Single full centered sprite within longest104logicalpixels on128square and minimum8pixel transparent margins. Genuine transparent exterior, no ground/shadow/glow/text/grid or extra parts.",
+      "raw_sha256": "53b16d41cf44491cfa22a8e15aab4bc447b609d8c3f23e8aa74f4d5b9b0d8423",
+      "raw_file_name": "E-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "ad37838a8a5da3fb4847ee497048e7e3c0b59e3daff6b65b27677a2786a80e9a"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal before additional technical alpha finishing.",
+      "first_technical_output_sha256": "9c86e595763e106a5882c87a184a8177e19ba1c58acd941cf68651e60a11d245",
+      "final_sha256": "03e528101685c7c10f79c9461923e2894d6e86e373d9e1bbca9943d81fbcc83d",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          98,
+          371,
+          1166,
+          983
+        ],
+        "resize": [
+          104,
+          60
+        ],
+        "offset": [
+          12,
+          34
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized palette finishing: map opaque colors to nearestRGB in immutable source pixel visible palette; preserve every pixel coordinate and alpha.",
+        "changed_pixels": 4444,
+        "palette_source_sha256": "990e5c2c6c054ae2b4965a211543b43d91b321ec21e4f0efa9c021dcd0d4e96a"
+      },
+      "recorded_at": "2026-10-10T14:10:01.277539+00:00"
+    }
+  ],
+  "qa": {
+    "numeric_and_hash": "passed_16_slots",
+    "visual": "Normal stage and final pixel pairs inspected;4eyes in2by2 front grid, profile two-eye occlusion and eyeless rear views checked. Four feet, smooth central oval and dish body maintained.",
+    "limitations": [
+      "Exact45degree yaw, fixed camera elevation and limb-root depths are inferred and not a measured3D reconstruction.",
+      "Individual scale positions and precise central-oval proportions across yaw are not guaranteed.",
+      "E profile retains slight obliquity.",
+      "Original sourcemeta states older detailed trial history is incompletely recovered. No known prior stop was found in available records; historical completeness is not claimed."
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending",
+    "independent_review": "Parent eight-pair comparison and E full-resolution NW/E normal/pixel review confirm front4/side2/rear0 eyes, blue dorsal field rotation, body and leg correspondence; all16 slots independently remeasured for dimensions, margin, extent, pixel binary alpha/visible RGB<=32, and hashes.",
+    "retained_limitations": "S/N camera elevation and side-body height differ; scale placement, leg-root rigid3D consistency and precise45-degree angles remain inferred. E view is slightly oblique. In-game/final acceptance pending."
+  }
+}
