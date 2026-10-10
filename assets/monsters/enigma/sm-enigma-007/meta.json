@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "sm-enigma-007",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-enigma-007-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-enigma-007 / ハンワタノ / 謎体 (enigma)\nBody and exact anatomy: 体幹1節の厚いD字形。脚2本、目0個、翼3枚、尾0本。直線辺と半円辺の間は薄い透明膜で埋まる\nMaterials and biological motif: 見える縁と透ける中央膜。明るい水面の近くで反射の輪郭をなぞるように動く\nPrimary, secondary, accent colors respectively: #99C4B8; #AC899F; #F1D39C\nThree mandatory visual identifiers: 直線辺は左向きに固定; 三枚翼は半円辺の上・中央・下に付く; 二本脚は直線辺の下端寄りに並ぶ\nPose: D字面を正面寄りに向け、三枚翼を右側へ開く\nTemperament to convey through expression or posture: おだやか。水面の揺れが収まるまで岸で待つ. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 目や顔を描かない; D字を文字として印字しない; 中央の透明膜を完全な空洞にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-enigma-007-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-enigma-007; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-enigma-007 / ハンワタノ / 謎体 (enigma)\nLocked body and anatomy: 体幹1節の厚いD字形。脚2本、目0個、翼3枚、尾0本。直線辺と半円辺の間は薄い透明膜で埋まる\nLocked material cues: 見える縁と透ける中央膜。明るい水面の近くで反射の輪郭をなぞるように動く\nLocked palette roles, primary/secondary/accent: #99C4B8; #AC899F; #F1D39C\nAll three identifiers must remain recognizable: 直線辺は左向きに固定; 三枚翼は半円辺の上・中央・下に付く; 二本脚は直線辺の下端寄りに並ぶ\nLocked pose: D字面を正面寄りに向け、三枚翼を右側へ開く\nLocked temperament/expression: おだやか。水面の揺れが収まるまで岸で待つ. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 目や顔を描かない; D字を文字として印字しない; 中央の透明膜を完全な空洞にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "b0d09b790c4a20072b8d7fa5e2541e469cf2d572eba13f10313f09e29abec96c",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-enigma-007-default-attempt001-original.png",
+          "bytes": 1415214,
+          "sha256": "a04ea2c152f817dfcc60804eb2b8bd98957308dc682c7ccb1d58f5a5cff26125",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-007-pixel-attempt001-original.png",
+          "bytes": 1061431,
+          "sha256": "9533e95cf34fd8b9d36666204a43005387229c841530fddbf0e95877945c7c25",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/enigma/sm-enigma-007/default.png",
+      "sha256": "b0d09b790c4a20072b8d7fa5e2541e469cf2d572eba13f10313f09e29abec96c",
+      "bytes": 834056,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        99,
+        80,
+        925,
+        944
+      ],
+      "transparent_margins": [
+        99,
+        80,
+        99,
+        80
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/enigma/sm-enigma-007/pixel.png",
+      "sha256": "b3e24809e07c519d0b735cbd84c99b35cc449055f01300e7119cbfc29e434db7",
+      "bytes": 13161,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        13,
+        10,
+        114,
+        118
+      ],
+      "transparent_margins": [
+        13,
+        10,
+        14,
+        10
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "中央膜の透明感は描画表現です。背景が透ける実透過ではありません。pixelは二値alpha仕様です。",
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

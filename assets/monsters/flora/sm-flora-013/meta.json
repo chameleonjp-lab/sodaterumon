@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "sm-flora-013",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-flora-013-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-flora-013 / ウズハネル / 植体 (flora)\nBody and exact anatomy: 一体節の幅広い帯葉が一周だけ渦巻く胴、外側の葉面に目2個。根脚2本、腕0本、翼0枚、独立した尾0本。\nMaterials and biological motif: しなやかな厚い葉と柔らかな根。風の通る林の縁で葉の巻きに露を溜める。\nPrimary, secondary, accent colors respectively: #8DAE79; #C8A1B9; #E5D4A3\nThree mandatory visual identifiers: 渦の中央は大きな丸い空間; 帯葉の外端は下側で外向きに少し開く; 根脚2本は巻きの最下部から出る\nPose: 渦巻きが正面から見えるよう立ち、葉の外端を少し上げる。\nTemperament to convey through expression or posture: 穏やかで風に合わせて体を傾ける。雨粒はゆっくり下へ落とす。. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 渦を何重にも巻かない; 葉の外端を別の尾として伸ばさない; 中央の空間に顔や花を置かない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-flora-013-default-attempt002-prompt": "Use case: precise-object-edit\nInput image1 is sm-flora-013 normal001. Correct only the lower outer leafend and shading. Shorten and tuck that leafend close to the circular coil, with just a slight outward opening and small upward lift. It remains the end of the same single broad strip-leaf, never an independent tail. Preserve exactly one coil, large ROUND empty center, two eyes on outer leafsurface, two rootlegs at lowestbase, no arms/wings/tail. Simplify many painterly tonal streaks into broad restrained three-step cel regions while retaining thickleaf/softroot texture and muted green #8DAE79/pink #C8A1B9/cream #E5D4A3. Keep upright front-facing coil. Genuine transparent background, fullbodyclear padding, no scenery/text/castshadow. No additional water droplets or objects.",
+      "sm-flora-013-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-flora-013; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-flora-013 / ウズハネル / 植体 (flora)\nLocked body and anatomy: 一体節の幅広い帯葉が一周だけ渦巻く胴、外側の葉面に目2個。根脚2本、腕0本、翼0枚、独立した尾0本。\nLocked material cues: しなやかな厚い葉と柔らかな根。風の通る林の縁で葉の巻きに露を溜める。\nLocked palette roles, primary/secondary/accent: #8DAE79; #C8A1B9; #E5D4A3\nAll three identifiers must remain recognizable: 渦の中央は大きな丸い空間; 帯葉の外端は下側で外向きに少し開く; 根脚2本は巻きの最下部から出る\nLocked pose: 渦巻きが正面から見えるよう立ち、葉の外端を少し上げる。\nLocked temperament/expression: 穏やかで風に合わせて体を傾ける。雨粒はゆっくり下へ落とす。. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 渦を何重にも巻かない; 葉の外端を別の尾として伸ばさない; 中央の空間に顔や花を置かない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "dfb58bb844e605bc4bcb4b5c569d4df32283615c80a19c36f271dea7fdd5b94d",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-flora-013-default-attempt001-original.png",
+          "bytes": 1191830,
+          "sha256": "016cfe735d81c8a78b3e8f7c12f2e259f37cf1894be7284adae64484daa9b085",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-flora-013-default-attempt002-original.png",
+          "bytes": 970485,
+          "sha256": "41af911fef654394f657679343a3397ced3b978b0141e0c6fa7bbb5070a57fa2",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-flora-013-pixel-attempt001-original.png",
+          "bytes": 930406,
+          "sha256": "6dbf6c052d4da2e3a65c95467d3e6dc8dc2d579c7750240b29c5d8af288b2416",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/flora/sm-flora-013/default.png",
+      "sha256": "dfb58bb844e605bc4bcb4b5c569d4df32283615c80a19c36f271dea7fdd5b94d",
+      "bytes": 607129,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        173,
+        80,
+        850,
+        944
+      ],
+      "transparent_margins": [
+        173,
+        80,
+        174,
+        80
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/flora/sm-flora-013/pixel.png",
+      "sha256": "c61fe0ac6f2c0216d9d5691d81612d868543d73a5bd005ba1621f6a5035f793b",
+      "bytes": 10395,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        22,
+        10,
+        106,
+        118
+      ],
+      "transparent_margins": [
+        22,
+        10,
+        22,
+        10
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

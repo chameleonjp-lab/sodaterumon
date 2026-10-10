@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "sm-enigma-011",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-enigma-011-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-enigma-011 / ヒトアシユラ / 謎体 (enigma)\nBody and exact anatomy: 体幹1節の五つの丸い山を持つ低い塊。脚1本、目5個、翼0枚、尾4本。一本脚は中央下面の太い円柱\nMaterials and biological motif: 重心がゆっくり移る弾力膜。平らな石の上で小さな揺れを楽しむ\nPrimary, secondary, accent colors respectively: #A8B58D; #AD87B9; #EBC7A0\nThree mandatory visual identifiers: 五つの山は前後にずれた一列; 各山の外側に目が1個ずつ; 四本尾は胴の四隅から短く垂れる\nPose: 一本脚を中心に少し傾き、四本尾を地面近くへ広げる\nTemperament to convey through expression or posture: 陽気。揺れすぎる前に尾でそっと姿勢を戻す. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 一本脚を人の脚にしない; 五つの山を尖った角にしない; 尾の先を手に変えない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-enigma-011-default-attempt002-prompt": "Use case: precise-object-edit\nInput image 1 is the exact edit target, sm-enigma-011. Change only the rendering of light and shade: replace the numerous blended shading layers and mottled highlights with restrained, clearly separated three-step cel shading (base, one shadow, one light) per existing material color. Preserve exactly the same silhouette, five rounded staggered humps and five eyes (one per hump), one thick central cylindrical nonhuman leg, four short drooping tails from four body corners, all colors in their existing roles, pose, proportions, and every structural boundary. Keep an organic elastic membrane, not a stone object. No new patterns, anatomy, props, scenery, lettering or shadow. Full body, centered on genuine transparent background with generous clear padding. This is a lighting/rendering correction only; do not redesign the creature.",
+      "sm-enigma-011-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-enigma-011; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-enigma-011 / ヒトアシユラ / 謎体 (enigma)\nLocked body and anatomy: 体幹1節の五つの丸い山を持つ低い塊。脚1本、目5個、翼0枚、尾4本。一本脚は中央下面の太い円柱\nLocked material cues: 重心がゆっくり移る弾力膜。平らな石の上で小さな揺れを楽しむ\nLocked palette roles, primary/secondary/accent: #A8B58D; #AD87B9; #EBC7A0\nAll three identifiers must remain recognizable: 五つの山は前後にずれた一列; 各山の外側に目が1個ずつ; 四本尾は胴の四隅から短く垂れる\nLocked pose: 一本脚を中心に少し傾き、四本尾を地面近くへ広げる\nLocked temperament/expression: 陽気。揺れすぎる前に尾でそっと姿勢を戻す. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 一本脚を人の脚にしない; 五つの山を尖った角にしない; 尾の先を手に変えない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "22c84bbded90d03632d02dca4c6207b24c3f606854f3cd5de14c06f33b4031bb",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-enigma-011-default-attempt001-original.png",
+          "bytes": 823696,
+          "sha256": "374dbff4da378a7bb2fd813099d4036c33fce266a6b6ec11fe1d71ca5fa3dc29",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-011-default-attempt002-original.png",
+          "bytes": 658660,
+          "sha256": "8f309e26c0c48a3c3eef5d10ecd2280301769263c6a32614146aa6fd439abf14",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-011-pixel-attempt001-original.png",
+          "bytes": 1358733,
+          "sha256": "e8d6fe25ad3fd66edf4df2d291979775bba0888dbf0873f242c15047805e2956",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/enigma/sm-enigma-011/default.png",
+      "sha256": "22c84bbded90d03632d02dca4c6207b24c3f606854f3cd5de14c06f33b4031bb",
+      "bytes": 415257,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        248,
+        944,
+        775
+      ],
+      "transparent_margins": [
+        80,
+        248,
+        80,
+        249
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/enigma/sm-enigma-011/pixel.png",
+      "sha256": "9821a9aba0b8f986e6fd835681fc231b6a4187662fb8d228e04fd14792c192f8",
+      "bytes": 8002,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        32,
+        118,
+        95
+      ],
+      "transparent_margins": [
+        10,
+        32,
+        10,
+        33
+      ],
+      "visible_colors": 26,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

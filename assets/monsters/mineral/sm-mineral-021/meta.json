@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-021",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-mineral-021-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-mineral-021 / ナラビサク / 硬体 (mineral)\nBody and exact anatomy: 体幹1節の長い直方体稜柱。脚0本、目2個、翼0枚、板状の尾5本。尾は長い胴の片側から並んで出る\nMaterials and biological motif: 薄い石膏層。地表を片側へゆっくり滑り、砂粒を広い間隔に分ける\nPrimary, secondary, accent colors respectively: #D8C5B0; #929BAB; #B6BE87\nThree mandatory visual identifiers: 五本尾はすべて同じ長さの角丸板; 胴の反対側には幅広い浅い溝が1本; 目は細い前端の上下に1個ずつ\nPose: 五本の板尾を地面へ広げ、櫛状の輪郭を斜め上から見せる\nTemperament to convey through expression or posture: 几帳面。一度に少しの砂だけ動かす. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 尾を尖った工具の歯にしない; 板尾を左右両側に増やさない; 胴に機械の取っ手を付けない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-mineral-021-default-attempt002-prompt": "Use case: precise-object-edit. Edit this normal illustration of sm-mineral-021. Correct only the tail count to exactly FIVE separate rounded rectangular plate tails of equal length, all emerging in one row from the SAME one long side of the body. The image currently has only four plate tails; add the missing fifth matching tail and keep all five independently countable with open gaps. Preserve one long rectangular-prism gypsum body, zero legs, exactly two eyes one above the other on the narrow front end, zero wings, the wide shallow groove on the opposite long side, the oblique top-down comb silhouette, palette #D8C5B0 #929BAB #B6BE87, stone texture, dark colored outline and three-step cel main shading. Do not sharpen tails into tool teeth, put tails on the opposite side, add a handle, mouth or extra body segments. Full single creature centered on genuine transparent background, 1024 square with ample clear margins, no text or scenery.\n",
+      "sm-mineral-021-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-mineral-021; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-mineral-021 / ナラビサク / 硬体 (mineral)\nLocked body and anatomy: 体幹1節の長い直方体稜柱。脚0本、目2個、翼0枚、板状の尾5本。尾は長い胴の片側から並んで出る\nLocked material cues: 薄い石膏層。地表を片側へゆっくり滑り、砂粒を広い間隔に分ける\nLocked palette roles, primary/secondary/accent: #D8C5B0; #929BAB; #B6BE87\nAll three identifiers must remain recognizable: 五本尾はすべて同じ長さの角丸板; 胴の反対側には幅広い浅い溝が1本; 目は細い前端の上下に1個ずつ\nLocked pose: 五本の板尾を地面へ広げ、櫛状の輪郭を斜め上から見せる\nLocked temperament/expression: 几帳面。一度に少しの砂だけ動かす. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 尾を尖った工具の歯にしない; 板尾を左右両側に増やさない; 胴に機械の取っ手を付けない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "df58de07506812e8542ec67241e6a9760704b6dbc116b1501b3c05fa2be70217",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-mineral-021-default-attempt001-original.png",
+          "bytes": 883529,
+          "sha256": "c063ac0f6ebd2b2eca1b5b0f78e423436cb0b5f3961818d1fa0d3a705869f420",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-021-default-attempt002-original.png",
+          "bytes": 813666,
+          "sha256": "1e51fc44c3244f88122252b6573d0419244e4ec986f46ae9df32f31938b42717",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-021-pixel-attempt001-original.png",
+          "bytes": 775680,
+          "sha256": "a53228e7f4b3fec3d727a86347a8cb9c8cd102b89e936d9a2675c967f0cee381",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/mineral/sm-mineral-021/default.png",
+      "sha256": "df58de07506812e8542ec67241e6a9760704b6dbc116b1501b3c05fa2be70217",
+      "bytes": 499612,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        233,
+        944,
+        790
+      ],
+      "transparent_margins": [
+        80,
+        233,
+        80,
+        234
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/mineral/sm-mineral-021/pixel.png",
+      "sha256": "750da4c5434492fc7986eb0fac94e880a658894a2507edd5807d11a2b1ff5712",
+      "bytes": 7966,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        27,
+        118,
+        100
+      ],
+      "transparent_margins": [
+        10,
+        27,
+        10,
+        28
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

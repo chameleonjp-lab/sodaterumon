@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "id": "sm-enigma-014",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-enigma-014-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-enigma-014 / ヤエフヨル / 謎体 (enigma)\nBody and exact anatomy: 体幹1節の横に広い三こぶ袋形。脚0本、目5個、短い翼8枚、尾0本。中央のこぶが最も低い\nMaterials and biological motif: やわらかな泡状膜。木々の間の小さな空気の流れを八翼で受け分ける\nPrimary, secondary, accent colors respectively: #C3A0C9; #88B6A3; #EAD3A2\nThree mandatory visual identifiers: 八枚翼は胴の下縁に四対で並ぶ; 五つの目は中央の低いこぶに弧状に並ぶ; 左右の高いこぶの頂部に浅い溝が1本ずつ\nPose: 八翼を下へすぼめ、横長の三こぶ輪郭を見せて浮く\nTemperament to convey through expression or posture: 穏やか。狭い場所では左右のこぶを少し寄せる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 八翼を脚や触手にしない; こぶを三つの独立した頭にしない; 尾や長い飾りひもを追加しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-enigma-014-default-attempt002-prompt": "Use case: precise-object-edit\nInput image 1 is the edit target sm-enigma-014. Correct the wing count and simplify shading, preserving all other design features. There must be exactly eight short wings arranged in exactly four pairs along the lower body edge, each pair with exactly two clearly separate wing blades. Remove the small third center blade from each current three-blade group; do not merge it into a third tip. The eight wings remain short wings, not legs or tentacles, angled downward together. Preserve the single broad connected three-hump bag body with central hump lowest, five eyes in an arc on the central low hump, one shallow groove on top of each high side hump, no legs and no tail. Preserve palette #C3A0C9, #88B6A3, #EAD3A2. Replace dense glossy mottling and multilayer blended highlights with restrained clean three-step cel shading for the soft bubbly membrane. No new motifs or decorative reflections. Full body centered on genuine transparent background, clear padding, no scenery, ground, cast shadow, text or extra anatomy.",
+      "sm-enigma-014-default-attempt003-prompt": "Use case: precise-object-edit\nInput image 1 is the sm-enigma-014 edit target. Make just one anatomical correction: each of its four lower wing clusters currently contains THREE separately outlined blades: two large pale-rimmed blades and a slender green third blade in the middle. Remove that slender green third blade from ALL FOUR clusters, making its area actual transparent background. Leave exactly TWO existing large unlobed blades in each group, exactly EIGHT wings total. Show clear transparent gaps between the two wings in each pair; no new central folds, points, leaflets or replacement tips. Do not change the body, five eyes, shallow grooves, colors, pose, simplified shading, shape or placement of the eight retained large wings. Genuine transparent background, full body, no ground or shadow.",
+      "sm-enigma-014-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-enigma-014; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-enigma-014 / ヤエフヨル / 謎体 (enigma)\nLocked body and anatomy: 体幹1節の横に広い三こぶ袋形。脚0本、目5個、短い翼8枚、尾0本。中央のこぶが最も低い\nLocked material cues: やわらかな泡状膜。木々の間の小さな空気の流れを八翼で受け分ける\nLocked palette roles, primary/secondary/accent: #C3A0C9; #88B6A3; #EAD3A2\nAll three identifiers must remain recognizable: 八枚翼は胴の下縁に四対で並ぶ; 五つの目は中央の低いこぶに弧状に並ぶ; 左右の高いこぶの頂部に浅い溝が1本ずつ\nLocked pose: 八翼を下へすぼめ、横長の三こぶ輪郭を見せて浮く\nLocked temperament/expression: 穏やか。狭い場所では左右のこぶを少し寄せる. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 八翼を脚や触手にしない; こぶを三つの独立した頭にしない; 尾や長い飾りひもを追加しない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-enigma-014-default-attempt001-original.png",
+          "bytes": 1053441,
+          "sha256": "c616fc3c7a03b5b8b7e9ee19799d5c322088d6cad49db810cd19a52d801b4a3e",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-014-default-attempt002-original.png",
+          "bytes": 751890,
+          "sha256": "3f2279bd8419f483be7d5eef6f3c02b4a7bff044e5cd015d16b8b0db91f75fe0",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-014-default-attempt003-original.png",
+          "bytes": 716776,
+          "sha256": "4474eef0e5402680dc28ca8d63f24868fc793d168fb658436793a2b8e75b288b",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-014-pixel-attempt001-original.png",
+          "bytes": 1418815,
+          "sha256": "db1ac5865aa01cf1ae080bf131c5fd7c7b716ff6d43c07216e6149423f25f46f",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/enigma/sm-enigma-014/default.png",
+      "sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015",
+      "bytes": 463791,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        262,
+        944,
+        762
+      ],
+      "transparent_margins": [
+        80,
+        262,
+        80,
+        262
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/enigma/sm-enigma-014/pixel.png",
+      "sha256": "2cc4351d685d1156301151504b01e53006e03a820d8c091c9ab378fa3ac29839",
+      "bytes": 7616,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        35,
+        118,
+        93
+      ],
+      "transparent_margins": [
+        10,
+        35,
+        10,
+        35
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

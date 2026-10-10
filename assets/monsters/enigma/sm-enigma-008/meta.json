@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "sm-enigma-008",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-enigma-008-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-enigma-008 / シカクヌケ / 謎体 (enigma)\nBody and exact anatomy: 体幹1節の厚く柔らかい長方形マット形。脚8本、目0個、翼0枚、尾1本。大きい四角穴と小さい四角穴が左右に1個ずつ\nMaterials and biological motif: 穴の縁がゆっくり伸び縮みする膜。草の葉を二つの穴に通してそっと移動する\nPrimary, secondary, accent colors respectively: #B9AAD2; #8BA870; #EECDB4\nThree mandatory visual identifiers: 大きい穴は左、小さい穴は右; 八本脚は長方形の四隅に2本ずつ; 尾は後ろ中央から短い丸角帯として出る\nPose: 長方形の上面を斜めに見せ、二穴の大きさの違いを示す\nTemperament to convey through expression or posture: 丁寧。葉を引っかけるとすぐ足を止める. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 目や口を追加しない; 二穴を同じ大きさにしない; マットの織り目や人工の縫い目を描かない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-enigma-008-default-attempt002-prompt": "Use case: precise-object-edit. Correct this sm-enigma-008 normal creature. Remove the TWO green leaves completely; they are unrelated environment objects and not parts of the creature. Make the two square holes true open through-holes showing genuine transparent background, the LEFT hole distinctly larger and the RIGHT smaller. Correct the leg count to exactly EIGHT legs: TWO independent countable legs beneath EACH of the four rectangular body corners. Separate their silhouettes enough to distinguish all eight roots/feet without hiding extra legs. Preserve one thick soft rectangular mat-like membrane body, zero eyes, zero mouth, zero wings, exactly one short rounded strip tail emerging from rear center. Palette #B9AAD2 #8BA870 #EECDB4, organic unstitched unwoven surface, dark colored outline and three-step cel main shading. Keep original identity and angled top view showing unequal square holes, no additional objects/letters/scenery. Full single creature centered on genuine transparent background, 1024square with generous clear margins.\n",
+      "sm-enigma-008-default-attempt003-prompt": "Use case: precise-object-edit. Change ONLY the interior opening shape of the SMALL RIGHT hole in this sm-enigma-008 normal creature. Its peach outer rim is already roughly square, but the actual transparent inner hole is round. Make the transparent opening itself a small rounded SQUARE with four identifiable straight sides and softly rounded corners, maintaining the smaller size relative to the large LEFT square hole. Genuine transparent background must remain visible through both openings. Preserve exactly eight legs, two at each of four body corners, one short rounded-strip tail at rear center, one thick soft rectangular membrane body, zero eyes, mouth or wings. Do not add any leaves or other objects. Preserve original identity, pose, big left hole, palette #B9AAD2 #8BA870 #EECDB4, dark colored outlines and three-step cel shading. Full single creature centered on genuine transparent background,1024square with generous clear margins,no text.\n",
+      "sm-enigma-008-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-enigma-008; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-enigma-008 / シカクヌケ / 謎体 (enigma)\nLocked body and anatomy: 体幹1節の厚く柔らかい長方形マット形。脚8本、目0個、翼0枚、尾1本。大きい四角穴と小さい四角穴が左右に1個ずつ\nLocked material cues: 穴の縁がゆっくり伸び縮みする膜。草の葉を二つの穴に通してそっと移動する\nLocked palette roles, primary/secondary/accent: #B9AAD2; #8BA870; #EECDB4\nAll three identifiers must remain recognizable: 大きい穴は左、小さい穴は右; 八本脚は長方形の四隅に2本ずつ; 尾は後ろ中央から短い丸角帯として出る\nLocked pose: 長方形の上面を斜めに見せ、二穴の大きさの違いを示す\nLocked temperament/expression: 丁寧。葉を引っかけるとすぐ足を止める. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 目や口を追加しない; 二穴を同じ大きさにしない; マットの織り目や人工の縫い目を描かない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "342cebbe772429914403c55fc5dbbdb56e53bb3a0ef7b820fa8ad97676183aaa",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-enigma-008-default-attempt001-original.png",
+          "bytes": 1017437,
+          "sha256": "051f450d8b57d2c68662d2ed57fb7891d02da061b9d002a9918c377fff90e6ab",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-008-default-attempt002-original.png",
+          "bytes": 841675,
+          "sha256": "216af810a6f8b23ba5f7d795dc6409d8db0fb2ef6b6ab9466986e99e6ef418a0",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-008-default-attempt003-original.png",
+          "bytes": 699999,
+          "sha256": "c183d224ba6d4a2cb6a3df7ee4e32f0a45e33bffcc8dbf0a276abe68e115024c",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-008-pixel-attempt001-original.png",
+          "bytes": 699928,
+          "sha256": "fabfad8742d47a5a0f07a4fa3dc50c769f94390bbe3d3b0338d49b4a0650cd29",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/enigma/sm-enigma-008/default.png",
+      "sha256": "342cebbe772429914403c55fc5dbbdb56e53bb3a0ef7b820fa8ad97676183aaa",
+      "bytes": 453714,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        218,
+        944,
+        806
+      ],
+      "transparent_margins": [
+        80,
+        218,
+        80,
+        218
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/enigma/sm-enigma-008/pixel.png",
+      "sha256": "ed5853477542e391b2ae12775b038470733d60cb85b819b6fd63d4f6f1648f86",
+      "bytes": 6888,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        27,
+        118,
+        101
+      ],
+      "transparent_margins": [
+        10,
+        27,
+        10,
+        27
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "右小穴は6×7pxへ簡略化。左奥脚は一部のみ可視ですが独立肢として識別できます。",
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}

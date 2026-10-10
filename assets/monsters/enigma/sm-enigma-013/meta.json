@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "sm-enigma-013",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-enigma-013-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-enigma-013 / カクオレミ / 謎体 (enigma)\nBody and exact anatomy: 体幹2節の丸角長方体がL字につながる形。脚3本、目2個、翼1枚、尾1本。短い節は左上へ曲がる\nMaterials and biological motif: 曲がり角だけが少し透ける膜。岩影の曲がり目に沿って静かに歩く\nPrimary, secondary, accent colors respectively: #B2C1A8; #AA8098; #EDD1AB\nThree mandatory visual identifiers: 二節の曲がり角に丸い透明窓が1個; 一枚翼は長い節の右側にだけ付く; 尾は短い節の先端から下向きに垂れる\nPose: 三脚で立ち、片翼を横へ開いて左右のつり合いを取る\nTemperament to convey through expression or posture: 慎重。曲がり角では必ず一度止まる. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 二枚目の翼を追加しない; 短い節を頭や腕にしない; L字を記号として胴に印字しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-enigma-013-default-attempt002-prompt": "Use case: precise-object-edit\nInput image 1 is the edit target sm-enigma-013. Correct only the failed material/form rendering while retaining catalog anatomy and palette. Replace the angular cracked rock/crystal plates with smooth soft membrane surfaces and restrained three-step cel shading. The body is exactly two plain rounded rectangular blocks joined in an L, the short block bending upper-left. It must not become a head or an arm: remove the narrowed-neck impression and put the existing two eyes on the long body segment instead of forming a face on the short one. Keep exactly three legs, one single wing attached only to the long block's right side, and one downward hanging tail from the short block's tip. Keep one simple round lightly transparent membrane window at the corner, not a cut gemstone. Preserve primary #B2C1A8, secondary #AA8098, accent #EDD1AB and tripod balancing pose with wing open sideways. No extra anatomy, plates, cracks, jewels, letters, props or background objects. Full creature centered on genuine transparent background, generous transparent padding, no cast shadow.",
+      "sm-enigma-013-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-enigma-013; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-enigma-013 / カクオレミ / 謎体 (enigma)\nLocked body and anatomy: 体幹2節の丸角長方体がL字につながる形。脚3本、目2個、翼1枚、尾1本。短い節は左上へ曲がる\nLocked material cues: 曲がり角だけが少し透ける膜。岩影の曲がり目に沿って静かに歩く\nLocked palette roles, primary/secondary/accent: #B2C1A8; #AA8098; #EDD1AB\nAll three identifiers must remain recognizable: 二節の曲がり角に丸い透明窓が1個; 一枚翼は長い節の右側にだけ付く; 尾は短い節の先端から下向きに垂れる\nLocked pose: 三脚で立ち、片翼を横へ開いて左右のつり合いを取る\nLocked temperament/expression: 慎重。曲がり角では必ず一度止まる. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 二枚目の翼を追加しない; 短い節を頭や腕にしない; L字を記号として胴に印字しない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n"
+    },
+    "reference_default_sha256": "0d952eef81bc4f02ccfca86231268d6d6814036609a1905db9da26cf5b521ecc",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-enigma-013-default-attempt001-original.png",
+          "bytes": 994857,
+          "sha256": "9b46d6483a64672602b922b09b7bfac9ee10ad84a787d5fdb97aab83c7b29501",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-013-default-attempt002-original.png",
+          "bytes": 725324,
+          "sha256": "7586a7238f5b6690db573df58ec6b5cace8949e9e92ccae4e77fdc7065866595",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-enigma-013-pixel-attempt001-original.png",
+          "bytes": 628593,
+          "sha256": "faf6fea77a590553e99f4b444d779ebf84559f50f1388bc02df293104f457cee",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/enigma/sm-enigma-013/default.png",
+      "sha256": "0d952eef81bc4f02ccfca86231268d6d6814036609a1905db9da26cf5b521ecc",
+      "bytes": 411587,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        125,
+        944,
+        899
+      ],
+      "transparent_margins": [
+        80,
+        125,
+        80,
+        125
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/enigma/sm-enigma-013/pixel.png",
+      "sha256": "ba275d082bcd72618c3429f0c3e4627eff4c4bf0fc6e4cf1bd4d0d1fcfab2128",
+      "bytes": 8052,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        16,
+        118,
+        111
+      ],
+      "transparent_margins": [
+        10,
+        16,
+        10,
+        17
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "角の窓は透明感の描画表現です。通常の窓内部alphaは約253/255、pixelは255で、背景の実透過ではありません。",
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
