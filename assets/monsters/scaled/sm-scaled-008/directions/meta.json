@@ -1,0 +1,1547 @@
+{
+  "schema_version": 1,
+  "id": "sm-scaled-008",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/scaled/sm-scaled-008/default.png",
+      "sha256": "c499ed7d69f722b0771726443fab1ec4498a634ddaf213daf02633e86c1dea18",
+      "git_blob_sha": "9a78b7340c86a5cc680c8792066a1cca783f105a",
+      "bytes": 424991
+    },
+    "pixel": {
+      "path": "assets/monsters/scaled/sm-scaled-008/pixel.png",
+      "sha256": "6dedb076d78b4328891abae65ffb09e20528cb7e60977a0446f3279470f1dd9c",
+      "git_blob_sha": "a7a3824564ee487f82be2c04dc83c05811146ec1",
+      "bytes": 5166
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/S/default.png",
+      "sha256": "9cb7bfa3403da12266df3dbfb3885b4ed45656348c0c1f1421a9e19f25afc681",
+      "bytes": 445379,
+      "git_blob_sha": "a94ba36ead3ec68e2cabe3fea6b43ca031e70b1f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          234,
+          928,
+          790
+        ],
+        "margins": [
+          96,
+          234,
+          96,
+          234
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 64969,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/S/pixel.png",
+      "sha256": "97df05bf908b3e7c10e6e32e5fa04d17c02f408725ac2689f96a6d33b02ad31a",
+      "bytes": 7443,
+      "git_blob_sha": "8fe61159c081d526cdcb46f2941d02ccf231903f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          27,
+          116,
+          101
+        ],
+        "margins": [
+          12,
+          27,
+          12,
+          27
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "9cb7bfa3403da12266df3dbfb3885b4ed45656348c0c1f1421a9e19f25afc681"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/SW/default.png",
+      "sha256": "d59364c0925a970b8ed161e280dc8de7cccd6be86426cf36539d27c26e4707b4",
+      "bytes": 430500,
+      "git_blob_sha": "cf7c1f812f293d217101ac00b5f49a9606844b16",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          244,
+          928,
+          780
+        ],
+        "margins": [
+          96,
+          244,
+          96,
+          244
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 69055,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/SW/pixel.png",
+      "sha256": "b36ea7a4d73677765fae0c467c7db3c1a422d39010b3541cce15514c572cdecd",
+      "bytes": 6677,
+      "git_blob_sha": "44a03ab1c915c206fef97d98c7b9df8335647419",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          30,
+          116,
+          97
+        ],
+        "margins": [
+          12,
+          30,
+          12,
+          31
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 21,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "d59364c0925a970b8ed161e280dc8de7cccd6be86426cf36539d27c26e4707b4"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/W/default.png",
+      "sha256": "cd13c5aa6775838ca52c4897cdd483f68d13e1367e914453318aff643586fe7f",
+      "bytes": 338083,
+      "git_blob_sha": "1e4bb5186b00569d6b41e99e287114afb3eefeaf",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          327,
+          928,
+          696
+        ],
+        "margins": [
+          96,
+          327,
+          96,
+          328
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 70191,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/W/pixel.png",
+      "sha256": "4c94b5161a7d5da80dd5978de7e4494fe7ac7fc4b70f9be37445e663959e0ac0",
+      "bytes": 6078,
+      "git_blob_sha": "3d484f4153b93f5a26f1910a596e1866bd2fd980",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          40,
+          116,
+          87
+        ],
+        "margins": [
+          12,
+          40,
+          12,
+          41
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 21,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "cd13c5aa6775838ca52c4897cdd483f68d13e1367e914453318aff643586fe7f"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/NW/default.png",
+      "sha256": "2920df993683c4c7d86140e62aec30a84f6e260cce43307023cacc9c9241a3eb",
+      "bytes": 435009,
+      "git_blob_sha": "3e47134d21a3e4d4a1681f0da2462adff802bc86",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          262,
+          928,
+          761
+        ],
+        "margins": [
+          96,
+          262,
+          96,
+          263
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 63277,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/NW/pixel.png",
+      "sha256": "434a9d6f1019a4e80ad3a298b5163a53e217600e114e9f43fde6472bd81b28eb",
+      "bytes": 6217,
+      "git_blob_sha": "55627b7ab77dae6c7dc2fe62bfec9cb6a41cb49c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          33,
+          116,
+          95
+        ],
+        "margins": [
+          12,
+          33,
+          12,
+          33
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 21,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "2920df993683c4c7d86140e62aec30a84f6e260cce43307023cacc9c9241a3eb"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/N/default.png",
+      "sha256": "05b98828fd9a07e74b9adf5f15e384618f56796842d6002f17c8ef5dd516e47a",
+      "bytes": 423849,
+      "git_blob_sha": "82614794797d8b4fd231b9dd935804ae5164e939",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          212,
+          928,
+          811
+        ],
+        "margins": [
+          96,
+          212,
+          96,
+          213
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 64328,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/N/pixel.png",
+      "sha256": "65d6adc97fa73338c01e249ed792af93419ba54576326df41392f0a11fd5d04d",
+      "bytes": 6712,
+      "git_blob_sha": "d938806e83b7c710f4aa3fe4d0916e3cdf300a93",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          22,
+          116,
+          105
+        ],
+        "margins": [
+          12,
+          22,
+          12,
+          23
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "05b98828fd9a07e74b9adf5f15e384618f56796842d6002f17c8ef5dd516e47a"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/NE/default.png",
+      "sha256": "bd83113e28afb1271064c598cc4a559c868522ef363f8d6d9d4799f34d2ea86b",
+      "bytes": 431457,
+      "git_blob_sha": "2290fa454e15ecb9b3192e8d1964dfe760e73077",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          259,
+          928,
+          764
+        ],
+        "margins": [
+          96,
+          259,
+          96,
+          260
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 59745,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/NE/pixel.png",
+      "sha256": "244114215820c13384365394008565115bf4f0e091832fe62f391690553cfe3f",
+      "bytes": 6772,
+      "git_blob_sha": "6999fb31eff4afddb32ca16843a6f17b5f2efcd8",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          32,
+          116,
+          96
+        ],
+        "margins": [
+          12,
+          32,
+          12,
+          32
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 21,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "bd83113e28afb1271064c598cc4a559c868522ef363f8d6d9d4799f34d2ea86b"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/E/default.png",
+      "sha256": "1336857063b434e358355995823aded3c1cca448e58206d7fe00170742f2edd2",
+      "bytes": 316636,
+      "git_blob_sha": "6a71f2b5785e8ed28a4f1f49ff6849a83711f05d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          336,
+          928,
+          688
+        ],
+        "margins": [
+          96,
+          336,
+          96,
+          336
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 64110,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-008/directions/E/pixel.png",
+      "sha256": "761231d3d1084bc7e845ebe4e59bfee6779ed7beaa61d41eeb9a417b03834767",
+      "bytes": 5603,
+      "git_blob_sha": "5f222e9e779563dd6335048e88f4d3738ff5a4f6",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          40,
+          116,
+          87
+        ],
+        "margins": [
+          12,
+          40,
+          12,
+          41
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "1336857063b434e358355995823aded3c1cca448e58206d7fe00170742f2edd2"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-008/default.png",
+      "sha256": "c499ed7d69f722b0771726443fab1ec4498a634ddaf213daf02633e86c1dea18",
+      "bytes": 424991,
+      "git_blob_sha": "9a78b7340c86a5cc680c8792066a1cca783f105a",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          64,
+          81,
+          960,
+          942
+        ],
+        "margins": [
+          64,
+          81,
+          64,
+          82
+        ],
+        "visible_longest_extent": 896,
+        "visible_rgb_colors": 67739,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-008/pixel.png",
+      "sha256": "6dedb076d78b4328891abae65ffb09e20528cb7e60977a0446f3279470f1dd9c",
+      "bytes": 5166,
+      "git_blob_sha": "a7a3824564ee487f82be2c04dc83c05811146ec1",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          37,
+          116,
+          90
+        ],
+        "margins": [
+          12,
+          37,
+          12,
+          38
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 32,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "c499ed7d69f722b0771726443fab1ec4498a634ddaf213daf02633e86c1dea18"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent comparison confirms front/side/rear eye hiding, head and tail projection, and paired normal/pixel correspondence. E full-resolution inspection completed; review candidate, final acceptance pending.",
+    "limitations": [
+      "S/N camera elevation, flipper overlap/depth and fixed scale pattern are inferred; exact rigid rotation and in-game appearance unverified. W v3 and N/E v2 selected; prior quality-HOLD versions preserved.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "E",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. One new turntable illustration of this exact reference creature. Direction E: True RIGHT PROFILE. Small front lens at image-right, large rear lens left of it, tail extends further left. One near eye visible, far eye hidden. Large lens and small lens are thick curved forms in side view. Two rounded fin-legs on opposite sides of large body, far fin naturally partly hidden. Distinct from source three-quarter view.\nIdentity locked: TWO thick lens-shaped body segments connected directly in a horizontal chain, front small lens slightly raised and rear much larger lens. Exactly TWO round paddle/fin legs attached to left and right of the LARGE segment, zero arms or wings, exactly ONE short-stalk spatula tail with a single rounded widened end at rear, exactly TWO purple eyes total on the front lens only. No thin walking legs, long neck, split tail, extra fins, scales turned into limbs. Large body has broad pearlescent overlapping scales, with THREE distinct oval accent scales along dorsal upper rim and THREE along ventral lower rim; preserve their physical placement under perspective instead of creating extras. Pearl lavender #D6C4DB, pale mint #BFD7C6, purple-gray #67627B edges, same glossy soft cel-shading and upper-left light. Match source proportions, low floating pose, camera elevation and gentle expression. Genuine solid-object yaw with changed occlusion, not image rotation or mirrored sprite. Single full creature square1024, transparent alpha, centered longest extent832 with clear96px margins, no background, water, shadow, text, grid or checkerboard.\n",
+      "raw_sha256": "4ee400525de791984bb7c93719f0f43c9f8a2b48a8bd3c00eb0f79bd18db25a4",
+      "generation_references_in_order": [
+        {
+          "sha256": "c499ed7d69f722b0771726443fab1ec4498a634ddaf213daf02633e86c1dea18"
+        }
+      ],
+      "finished_sha256": "3f574c1c167311eb6cba124c59d98888abad48c16ed4dcb7834528fd95991a2f",
+      "selected": false,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          34,
+          370,
+          1220,
+          889
+        ],
+        "resize": [
+          832,
+          364
+        ],
+        "offset": [
+          96,
+          330
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          330,
+          928,
+          694
+        ],
+        "margins": [
+          96,
+          330,
+          96,
+          330
+        ],
+        "visible_rgb_colors": 56893,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "attempt": 2,
+      "actual_prompt": "Use case: precise-object-edit. Correct this candidate into a TRUE RIGHT SIDE PROFILE of the same creature, keeping its identity. Rotate the complete creature slightly further until its head-body-tail axis points exactly horizontally image-right, NOT toward viewer. The small head lens at the right end is now a narrower SIDE view of a thick lens. ONLY ONE purple eye can be seen, at the center of the visible side of this head. The distant eye must be fully hidden on the opposite face behind the head volume. Do not keep two eyes on a three-quarter front face. Foreshorten the head lens width to support actual side geometry; do not merely erase an eye while keeping the broad frontal shape.\nKeep large rear lens at center, short round-tipped spatula tail on the left, exactly two round fin-legs attached on opposite large-body sides; the far fin must be largely hidden by the body and near fin, with only a small naturally offset portion showing. Preserve all other anatomy: exactly two body segments with no neck, zero arms/wings, one tail, pearlescent lavender/mint scales, three oval accent scales on dorsal rim and three on ventral rim of large segment ONLY, none on head. Same original body proportions, camera elevation, palette, translucent highlights, soft outline and illustration style. Full single creature on true transparent square background with ample margins. No new parts, no background, shadow, text, mirror or image rotation.\n",
+      "raw_sha256": "fe68350d36ea7ad09839898f1ab3ac0a1a900262f77fcfad4bb6f59061e9bcad",
+      "generation_references_in_order": [
+        {
+          "sha256": "3f574c1c167311eb6cba124c59d98888abad48c16ed4dcb7834528fd95991a2f"
+        }
+      ],
+      "finished_sha256": "1336857063b434e358355995823aded3c1cca448e58206d7fe00170742f2edd2",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          58,
+          401,
+          1196,
+          882
+        ],
+        "resize": [
+          832,
+          352
+        ],
+        "offset": [
+          96,
+          336
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          336,
+          928,
+          688
+        ],
+        "margins": [
+          96,
+          336,
+          96,
+          336
+        ],
+        "visible_rgb_colors": 64110,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make genuine pixel art of the exact creature, exact E direction and exact pose shown in reference image1. Keep its silhouette, eye visibility, two lens body segments, fin positions/occlusion, tail orientation, proportions and lavender/mint/purple-gray color placement unchanged. One smaller front lens directly connected to a larger rear lens; exactly TWO rounded fin-legs on the large segment, no arms/wings, exactly ONE round-tipped spatula tail. Two eyes in anatomy but preserve only the eyes visible in reference; never add eyes to rear views or add a second eye to profile. Three raised oval accent scales at each upper/lower edge of large body as visible, none on head; preserve natural occlusion. Broad pearly overlapping scales may be simplified into clean pixel clusters without changing anatomy.\nIntentional128x128 logical grid, crisp stepped outlines and solid color clusters, up to32 visible colors, fully binary transparent alpha, no antialiasing, blur or smooth gradients. Center full creature with longest extent104 and at least12 pixels transparent padding. No shadow, ground, background, text, checkerboard or pixelation filter. This is a faithful rendering-medium change, not a new design or rotation.\n",
+      "raw_sha256": "fc629a6a7e167e670ed7989fb76073c513c2785d42a5f11277dd96db64860f61",
+      "generation_references_in_order": [
+        {
+          "sha256": "1336857063b434e358355995823aded3c1cca448e58206d7fe00170742f2edd2"
+        }
+      ],
+      "finished_sha256": "761231d3d1084bc7e845ebe4e59bfee6779ed7beaa61d41eeb9a417b03834767",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          108,
+          407,
+          1147,
+          873
+        ],
+        "resize": [
+          104,
+          47
+        ],
+        "offset": [
+          12,
+          40
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          40,
+          116,
+          87
+        ],
+        "margins": [
+          12,
+          40,
+          12,
+          41
+        ],
+        "visible_rgb_colors": 22,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. One new turntable illustration of this exact reference creature. Direction N: Direct REAR facing away. Single round-tipped spatula tail nearest centered below large rear lens. Large lens centered, small front lens visible only partly beyond far top edge with no eyes. Fin-legs project symmetrically left and right of large lens. Face entirely away; no eyes on body or tail.\nIdentity locked: TWO thick lens-shaped body segments connected directly in a horizontal chain, front small lens slightly raised and rear much larger lens. Exactly TWO round paddle/fin legs attached to left and right of the LARGE segment, zero arms or wings, exactly ONE short-stalk spatula tail with a single rounded widened end at rear, exactly TWO purple eyes total on the front lens only. No thin walking legs, long neck, split tail, extra fins, scales turned into limbs. Large body has broad pearlescent overlapping scales, with THREE distinct oval accent scales along dorsal upper rim and THREE along ventral lower rim; preserve their physical placement under perspective instead of creating extras. Pearl lavender #D6C4DB, pale mint #BFD7C6, purple-gray #67627B edges, same glossy soft cel-shading and upper-left light. Match source proportions, low floating pose, camera elevation and gentle expression. Genuine solid-object yaw with changed occlusion, not image rotation or mirrored sprite. Single full creature square1024, transparent alpha, centered longest extent832 with clear96px margins, no background, water, shadow, text, grid or checkerboard.\n",
+      "raw_sha256": "b95728cba5973d113c015a4086ecea2eebbf51495f05b6d25c7f39b3227761a0",
+      "generation_references_in_order": [
+        {
+          "sha256": "c499ed7d69f722b0771726443fab1ec4498a634ddaf213daf02633e86c1dea18"
+        }
+      ],
+      "finished_sha256": "256cc64b853dbd5fa452f5029f6bc0da390923eea86c2e4430147efe65433618",
+      "selected": false,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          84,
+          269,
+          1171,
+          1050
+        ],
+        "resize": [
+          832,
+          598
+        ],
+        "offset": [
+          96,
+          213
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          213,
+          928,
+          811
+        ],
+        "margins": [
+          96,
+          213,
+          96,
+          213
+        ],
+        "visible_rgb_colors": 60882,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "attempt": 2,
+      "actual_prompt": "Use case: precise-object-edit. Edit only the SMALL FAR HEAD segment at the top of this rear-view creature. Remove the THREE raised oval accent plates sitting along the top rim of that small head. The small head should have a smooth rounded lens silhouette and ordinary broad pearly overlapping scales, matching the head of the source creature, no raised oval rim plates. Keep it eyeless because the face is turned away. Do not remove any of the six raised oval plates on the LARGE central body segment; those remain exactly three at upper rim and three at lower rim.\nKeep every other element unchanged: direct rear view, two connected thick lens body segments, large segment near viewer, single round-tipped spatula tail extending toward viewer at bottom center, two round side fin-legs, no neck/arms/wings/extra limbs, same lavender/mint palette and pearly scale shading, identical proportions and camera. Full creature, true transparent square background with clear padding, no text, shadow or ground.\n",
+      "raw_sha256": "3a9c2bbceba86c7306f80f26e6fe8f42b03e549356930fdb83faec1fa8356d9a",
+      "generation_references_in_order": [
+        {
+          "sha256": "256cc64b853dbd5fa452f5029f6bc0da390923eea86c2e4430147efe65433618"
+        }
+      ],
+      "finished_sha256": "05b98828fd9a07e74b9adf5f15e384618f56796842d6002f17c8ef5dd516e47a",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          117,
+          260,
+          1137,
+          994
+        ],
+        "resize": [
+          832,
+          599
+        ],
+        "offset": [
+          96,
+          212
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          212,
+          928,
+          811
+        ],
+        "margins": [
+          96,
+          212,
+          96,
+          213
+        ],
+        "visible_rgb_colors": 64328,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make genuine pixel art of the exact creature, exact N direction and exact pose shown in reference image1. Keep its silhouette, eye visibility, two lens body segments, fin positions/occlusion, tail orientation, proportions and lavender/mint/purple-gray color placement unchanged. One smaller front lens directly connected to a larger rear lens; exactly TWO rounded fin-legs on the large segment, no arms/wings, exactly ONE round-tipped spatula tail. Two eyes in anatomy but preserve only the eyes visible in reference; never add eyes to rear views or add a second eye to profile. Three raised oval accent scales at each upper/lower edge of large body as visible, none on head; preserve natural occlusion. Broad pearly overlapping scales may be simplified into clean pixel clusters without changing anatomy.\nIntentional128x128 logical grid, crisp stepped outlines and solid color clusters, up to32 visible colors, fully binary transparent alpha, no antialiasing, blur or smooth gradients. Center full creature with longest extent104 and at least12 pixels transparent padding. No shadow, ground, background, text, checkerboard or pixelation filter. This is a faithful rendering-medium change, not a new design or rotation.\n",
+      "raw_sha256": "2ee08b54afc66d3e1cac90a4eba7083d37d86006bcaf3ba2c87da9feea906161",
+      "generation_references_in_order": [
+        {
+          "sha256": "05b98828fd9a07e74b9adf5f15e384618f56796842d6002f17c8ef5dd516e47a"
+        }
+      ],
+      "finished_sha256": "65d6adc97fa73338c01e249ed792af93419ba54576326df41392f0a11fd5d04d",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          92,
+          212,
+          1163,
+          1064
+        ],
+        "resize": [
+          104,
+          83
+        ],
+        "offset": [
+          12,
+          22
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          22,
+          116,
+          105
+        ],
+        "margins": [
+          12,
+          22,
+          12,
+          23
+        ],
+        "visible_rgb_colors": 22,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. One new turntable illustration of this exact reference creature. Direction NE: REAR-RIGHT three-quarter, tail nearest lower-left and large rear lens nearer viewer; small front lens recedes upper-right beyond large lens, eyes hidden. Body/head/tail axis recedes upper-right, near/far fin-legs change overlap with solid body rotation.\nIdentity locked: TWO thick lens-shaped body segments connected directly in a horizontal chain, front small lens slightly raised and rear much larger lens. Exactly TWO round paddle/fin legs attached to left and right of the LARGE segment, zero arms or wings, exactly ONE short-stalk spatula tail with a single rounded widened end at rear, exactly TWO purple eyes total on the front lens only. No thin walking legs, long neck, split tail, extra fins, scales turned into limbs. Large body has broad pearlescent overlapping scales, with THREE distinct oval accent scales along dorsal upper rim and THREE along ventral lower rim; preserve their physical placement under perspective instead of creating extras. Pearl lavender #D6C4DB, pale mint #BFD7C6, purple-gray #67627B edges, same glossy soft cel-shading and upper-left light. Match source proportions, low floating pose, camera elevation and gentle expression. Genuine solid-object yaw with changed occlusion, not image rotation or mirrored sprite. Single full creature square1024, transparent alpha, centered longest extent832 with clear96px margins, no background, water, shadow, text, grid or checkerboard.\n",
+      "raw_sha256": "075fe5ed2787b5258013ab0e3e95fdd1e94e70f78262e45491e0d2378a2db848",
+      "generation_references_in_order": [
+        {
+          "sha256": "c499ed7d69f722b0771726443fab1ec4498a634ddaf213daf02633e86c1dea18"
+        }
+      ],
+      "finished_sha256": "bd83113e28afb1271064c598cc4a559c868522ef363f8d6d9d4799f34d2ea86b",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          114,
+          309,
+          1134,
+          928
+        ],
+        "resize": [
+          832,
+          505
+        ],
+        "offset": [
+          96,
+          259
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          259,
+          928,
+          764
+        ],
+        "margins": [
+          96,
+          259,
+          96,
+          260
+        ],
+        "visible_rgb_colors": 59745,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make genuine pixel art of the exact creature, exact NE direction and exact pose shown in reference image1. Keep its silhouette, eye visibility, two lens body segments, fin positions/occlusion, tail orientation, proportions and lavender/mint/purple-gray color placement unchanged. One smaller front lens directly connected to a larger rear lens; exactly TWO rounded fin-legs on the large segment, no arms/wings, exactly ONE round-tipped spatula tail. Two eyes in anatomy but preserve only the eyes visible in reference; never add eyes to rear views or add a second eye to profile. Three raised oval accent scales at each upper/lower edge of large body as visible, none on head; preserve natural occlusion. Broad pearly overlapping scales may be simplified into clean pixel clusters without changing anatomy.\nIntentional128x128 logical grid, crisp stepped outlines and solid color clusters, up to32 visible colors, fully binary transparent alpha, no antialiasing, blur or smooth gradients. Center full creature with longest extent104 and at least12 pixels transparent padding. No shadow, ground, background, text, checkerboard or pixelation filter. This is a faithful rendering-medium change, not a new design or rotation.\n",
+      "raw_sha256": "08ea58b6b49314ff7e93a54ba22f93c3df4808c4c7cdada5da5b9313c1e5d11b",
+      "generation_references_in_order": [
+        {
+          "sha256": "bd83113e28afb1271064c598cc4a559c868522ef363f8d6d9d4799f34d2ea86b"
+        }
+      ],
+      "finished_sha256": "244114215820c13384365394008565115bf4f0e091832fe62f391690553cfe3f",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          120,
+          332,
+          1149,
+          969
+        ],
+        "resize": [
+          104,
+          64
+        ],
+        "offset": [
+          12,
+          32
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          32,
+          116,
+          96
+        ],
+        "margins": [
+          12,
+          32,
+          12,
+          32
+        ],
+        "visible_rgb_colors": 21,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. One new turntable illustration of this exact reference creature. Direction NW: REAR-LEFT three-quarter, tail nearest lower-right and large rear lens nearer viewer; small front lens recedes upper-left beyond large lens, its eye-bearing face turns away and eyes hidden. Near and far round fin-legs have correct side attachment and occlusion. Rear tail attaches directly to large lens, never to head.\nIdentity locked: TWO thick lens-shaped body segments connected directly in a horizontal chain, front small lens slightly raised and rear much larger lens. Exactly TWO round paddle/fin legs attached to left and right of the LARGE segment, zero arms or wings, exactly ONE short-stalk spatula tail with a single rounded widened end at rear, exactly TWO purple eyes total on the front lens only. No thin walking legs, long neck, split tail, extra fins, scales turned into limbs. Large body has broad pearlescent overlapping scales, with THREE distinct oval accent scales along dorsal upper rim and THREE along ventral lower rim; preserve their physical placement under perspective instead of creating extras. Pearl lavender #D6C4DB, pale mint #BFD7C6, purple-gray #67627B edges, same glossy soft cel-shading and upper-left light. Match source proportions, low floating pose, camera elevation and gentle expression. Genuine solid-object yaw with changed occlusion, not image rotation or mirrored sprite. Single full creature square1024, transparent alpha, centered longest extent832 with clear96px margins, no background, water, shadow, text, grid or checkerboard.\n",
+      "raw_sha256": "e6b5ffe2effdf943f347d258f63f8da3aa07cd8c77be72365331551d0a46c884",
+      "generation_references_in_order": [
+        {
+          "sha256": "c499ed7d69f722b0771726443fab1ec4498a634ddaf213daf02633e86c1dea18"
+        }
+      ],
+      "finished_sha256": "2920df993683c4c7d86140e62aec30a84f6e260cce43307023cacc9c9241a3eb",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          93,
+          286,
+          1214,
+          959
+        ],
+        "resize": [
+          832,
+          499
+        ],
+        "offset": [
+          96,
+          262
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          262,
+          928,
+          761
+        ],
+        "margins": [
+          96,
+          262,
+          96,
+          263
+        ],
+        "visible_rgb_colors": 63277,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make genuine pixel art of the exact creature, exact NW direction and exact pose shown in reference image1. Keep its silhouette, eye visibility, two lens body segments, fin positions/occlusion, tail orientation, proportions and lavender/mint/purple-gray color placement unchanged. One smaller front lens directly connected to a larger rear lens; exactly TWO rounded fin-legs on the large segment, no arms/wings, exactly ONE round-tipped spatula tail. Two eyes in anatomy but preserve only the eyes visible in reference; never add eyes to rear views or add a second eye to profile. Three raised oval accent scales at each upper/lower edge of large body as visible, none on head; preserve natural occlusion. Broad pearly overlapping scales may be simplified into clean pixel clusters without changing anatomy.\nIntentional128x128 logical grid, crisp stepped outlines and solid color clusters, up to32 visible colors, fully binary transparent alpha, no antialiasing, blur or smooth gradients. Center full creature with longest extent104 and at least12 pixels transparent padding. No shadow, ground, background, text, checkerboard or pixelation filter. This is a faithful rendering-medium change, not a new design or rotation.\n",
+      "raw_sha256": "fcda2ad7d9c1c1fe052802f8f113f3ef05bc8744d4d695c9cdfab76a784c88ad",
+      "generation_references_in_order": [
+        {
+          "sha256": "2920df993683c4c7d86140e62aec30a84f6e260cce43307023cacc9c9241a3eb"
+        }
+      ],
+      "finished_sha256": "434a9d6f1019a4e80ad3a298b5163a53e217600e114e9f43fde6472bd81b28eb",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          108,
+          316,
+          1186,
+          960
+        ],
+        "resize": [
+          104,
+          62
+        ],
+        "offset": [
+          12,
+          33
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          33,
+          116,
+          95
+        ],
+        "margins": [
+          12,
+          33,
+          12,
+          33
+        ],
+        "visible_rgb_colors": 21,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. One new turntable illustration of this exact reference creature. Direction S: Direct FRONT toward viewer, small front lens centered nearest with both eyes symmetrically visible. Large rear lens partly occluded behind head, body length foreshortened. The two round fin-legs project to left and right from large lens; one rear spatula tail is behind large lens, only its naturally visible tip beyond far end. Keep whole anatomy on front-back axis.\nIdentity locked: TWO thick lens-shaped body segments connected directly in a horizontal chain, front small lens slightly raised and rear much larger lens. Exactly TWO round paddle/fin legs attached to left and right of the LARGE segment, zero arms or wings, exactly ONE short-stalk spatula tail with a single rounded widened end at rear, exactly TWO purple eyes total on the front lens only. No thin walking legs, long neck, split tail, extra fins, scales turned into limbs. Large body has broad pearlescent overlapping scales, with THREE distinct oval accent scales along dorsal upper rim and THREE along ventral lower rim; preserve their physical placement under perspective instead of creating extras. Pearl lavender #D6C4DB, pale mint #BFD7C6, purple-gray #67627B edges, same glossy soft cel-shading and upper-left light. Match source proportions, low floating pose, camera elevation and gentle expression. Genuine solid-object yaw with changed occlusion, not image rotation or mirrored sprite. Single full creature square1024, transparent alpha, centered longest extent832 with clear96px margins, no background, water, shadow, text, grid or checkerboard.\n",
+      "raw_sha256": "fe099f8278905f94ddc1a67be7b57b19692a8d708c6c82da0c7c26d0dbd99d8a",
+      "generation_references_in_order": [
+        {
+          "sha256": "c499ed7d69f722b0771726443fab1ec4498a634ddaf213daf02633e86c1dea18"
+        }
+      ],
+      "finished_sha256": "9cb7bfa3403da12266df3dbfb3885b4ed45656348c0c1f1421a9e19f25afc681",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          60,
+          226,
+          1195,
+          984
+        ],
+        "resize": [
+          832,
+          556
+        ],
+        "offset": [
+          96,
+          234
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          234,
+          928,
+          790
+        ],
+        "margins": [
+          96,
+          234,
+          96,
+          234
+        ],
+        "visible_rgb_colors": 64969,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make genuine pixel art of the exact creature, exact S direction and exact pose shown in reference image1. Keep its silhouette, eye visibility, two lens body segments, fin positions/occlusion, tail orientation, proportions and lavender/mint/purple-gray color placement unchanged. One smaller front lens directly connected to a larger rear lens; exactly TWO rounded fin-legs on the large segment, no arms/wings, exactly ONE round-tipped spatula tail. Two eyes in anatomy but preserve only the eyes visible in reference; never add eyes to rear views or add a second eye to profile. Three raised oval accent scales at each upper/lower edge of large body as visible, none on head; preserve natural occlusion. Broad pearly overlapping scales may be simplified into clean pixel clusters without changing anatomy.\nIntentional128x128 logical grid, crisp stepped outlines and solid color clusters, up to32 visible colors, fully binary transparent alpha, no antialiasing, blur or smooth gradients. Center full creature with longest extent104 and at least12 pixels transparent padding. No shadow, ground, background, text, checkerboard or pixelation filter. This is a faithful rendering-medium change, not a new design or rotation.\n",
+      "raw_sha256": "54b57cf9c8f5efc832c1c2acec9cdda7d5b46bcae9ef89bced2f55d88ee0ec78",
+      "generation_references_in_order": [
+        {
+          "sha256": "9cb7bfa3403da12266df3dbfb3885b4ed45656348c0c1f1421a9e19f25afc681"
+        }
+      ],
+      "finished_sha256": "97df05bf908b3e7c10e6e32e5fa04d17c02f408725ac2689f96a6d33b02ad31a",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          99,
+          275,
+          1156,
+          1029
+        ],
+        "resize": [
+          104,
+          74
+        ],
+        "offset": [
+          12,
+          27
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          27,
+          116,
+          101
+        ],
+        "margins": [
+          12,
+          27,
+          12,
+          27
+        ],
+        "visible_rgb_colors": 22,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. One new turntable illustration of this exact reference creature. Direction SW: FRONT-LEFT three-quarter. Small eye-bearing front lens at lower-left, large rear lens extends upper-right behind it, rounded spatula tail continues toward upper-right rear. Both eyes may be visible on front lens. Two rounded fin-legs on opposite sides of large lens, with proper near/far occlusion.\nIdentity locked: TWO thick lens-shaped body segments connected directly in a horizontal chain, front small lens slightly raised and rear much larger lens. Exactly TWO round paddle/fin legs attached to left and right of the LARGE segment, zero arms or wings, exactly ONE short-stalk spatula tail with a single rounded widened end at rear, exactly TWO purple eyes total on the front lens only. No thin walking legs, long neck, split tail, extra fins, scales turned into limbs. Large body has broad pearlescent overlapping scales, with THREE distinct oval accent scales along dorsal upper rim and THREE along ventral lower rim; preserve their physical placement under perspective instead of creating extras. Pearl lavender #D6C4DB, pale mint #BFD7C6, purple-gray #67627B edges, same glossy soft cel-shading and upper-left light. Match source proportions, low floating pose, camera elevation and gentle expression. Genuine solid-object yaw with changed occlusion, not image rotation or mirrored sprite. Single full creature square1024, transparent alpha, centered longest extent832 with clear96px margins, no background, water, shadow, text, grid or checkerboard.\n",
+      "raw_sha256": "c3246416e9b4f3dca18310d690a0d6390be0e6f61d0122c3aaaae6f251d5a399",
+      "generation_references_in_order": [
+        {
+          "sha256": "c499ed7d69f722b0771726443fab1ec4498a634ddaf213daf02633e86c1dea18"
+        }
+      ],
+      "finished_sha256": "d59364c0925a970b8ed161e280dc8de7cccd6be86426cf36539d27c26e4707b4",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          66,
+          271,
+          1214,
+          1010
+        ],
+        "resize": [
+          832,
+          536
+        ],
+        "offset": [
+          96,
+          244
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          244,
+          928,
+          780
+        ],
+        "margins": [
+          96,
+          244,
+          96,
+          244
+        ],
+        "visible_rgb_colors": 69055,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make genuine pixel art of the exact creature, exact SW direction and exact pose shown in reference image1. Keep its silhouette, eye visibility, two lens body segments, fin positions/occlusion, tail orientation, proportions and lavender/mint/purple-gray color placement unchanged. One smaller front lens directly connected to a larger rear lens; exactly TWO rounded fin-legs on the large segment, no arms/wings, exactly ONE round-tipped spatula tail. Two eyes in anatomy but preserve only the eyes visible in reference; never add eyes to rear views or add a second eye to profile. Three raised oval accent scales at each upper/lower edge of large body as visible, none on head; preserve natural occlusion. Broad pearly overlapping scales may be simplified into clean pixel clusters without changing anatomy.\nIntentional128x128 logical grid, crisp stepped outlines and solid color clusters, up to32 visible colors, fully binary transparent alpha, no antialiasing, blur or smooth gradients. Center full creature with longest extent104 and at least12 pixels transparent padding. No shadow, ground, background, text, checkerboard or pixelation filter. This is a faithful rendering-medium change, not a new design or rotation.\n",
+      "raw_sha256": "a1721daec1b686ec10ee598063eae8ae2fc6c04daf5a7dd17180c34249404c47",
+      "generation_references_in_order": [
+        {
+          "sha256": "d59364c0925a970b8ed161e280dc8de7cccd6be86426cf36539d27c26e4707b4"
+        }
+      ],
+      "finished_sha256": "b36ea7a4d73677765fae0c467c7db3c1a422d39010b3541cce15514c572cdecd",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          93,
+          304,
+          1182,
+          1008
+        ],
+        "resize": [
+          104,
+          67
+        ],
+        "offset": [
+          12,
+          30
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          30,
+          116,
+          97
+        ],
+        "margins": [
+          12,
+          30,
+          12,
+          31
+        ],
+        "visible_rgb_colors": 21,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. One new turntable illustration of this exact reference creature. Direction W: True LEFT PROFILE. Small front lens at image-left, large rear lens to its right, single spatula tail extends further right. Only one near eye visible; far eye hidden. Two rounded fin-legs project from large lens sides, far fin naturally partly hidden. Body and head are two thick lens volumes seen in profile, not flat image flip.\nIdentity locked: TWO thick lens-shaped body segments connected directly in a horizontal chain, front small lens slightly raised and rear much larger lens. Exactly TWO round paddle/fin legs attached to left and right of the LARGE segment, zero arms or wings, exactly ONE short-stalk spatula tail with a single rounded widened end at rear, exactly TWO purple eyes total on the front lens only. No thin walking legs, long neck, split tail, extra fins, scales turned into limbs. Large body has broad pearlescent overlapping scales, with THREE distinct oval accent scales along dorsal upper rim and THREE along ventral lower rim; preserve their physical placement under perspective instead of creating extras. Pearl lavender #D6C4DB, pale mint #BFD7C6, purple-gray #67627B edges, same glossy soft cel-shading and upper-left light. Match source proportions, low floating pose, camera elevation and gentle expression. Genuine solid-object yaw with changed occlusion, not image rotation or mirrored sprite. Single full creature square1024, transparent alpha, centered longest extent832 with clear96px margins, no background, water, shadow, text, grid or checkerboard.\n",
+      "raw_sha256": "40c84d684faf0ea434e916ce4a03eb26c43292ccbf77a6b4f024d512d785ce35",
+      "generation_references_in_order": [
+        {
+          "sha256": "c499ed7d69f722b0771726443fab1ec4498a634ddaf213daf02633e86c1dea18"
+        }
+      ],
+      "finished_sha256": "48920240b536ee4f75e9b12c7c7b509b70a393a8d20fe352a35e415c585c2a8a",
+      "selected": false,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          41,
+          366,
+          1220,
+          910
+        ],
+        "resize": [
+          832,
+          384
+        ],
+        "offset": [
+          96,
+          320
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          320,
+          928,
+          704
+        ],
+        "margins": [
+          96,
+          320,
+          96,
+          320
+        ],
+        "visible_rgb_colors": 62267,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "attempt": 2,
+      "actual_prompt": "Use case: precise-object-edit. Correct this candidate into a TRUE LEFT SIDE PROFILE of the same creature, keeping its identity. Rotate the complete creature slightly further until its head-body-tail axis points exactly horizontally image-left, NOT toward viewer. The small head lens at the left end is now a narrower SIDE view of a thick lens. ONLY ONE purple eye can be seen, at the center of the visible side of this head. The distant eye must be fully hidden on the opposite face behind the head volume. Do not keep two eyes on a three-quarter front face. Foreshorten the head lens width to support actual side geometry; do not merely erase an eye while keeping the broad frontal shape.\nKeep large rear lens at center, short round-tipped spatula tail on the right, exactly two round fin-legs attached on opposite large-body sides; the far fin must be largely hidden by the body and near fin, with only a small naturally offset portion showing. Preserve all other anatomy: exactly two body segments with no neck, zero arms/wings, one tail, pearlescent lavender/mint scales, three oval accent scales on dorsal rim and three on ventral rim of large segment ONLY, none on head. Same original body proportions, camera elevation, palette, translucent highlights, soft outline and illustration style. Full single creature on true transparent square background with ample margins. No new parts, no background, shadow, text, mirror or image rotation.\n",
+      "raw_sha256": "4df7b7b51a7fd33175f879e4b624d265c2f65b14a060a239a0aee1154d220f05",
+      "generation_references_in_order": [
+        {
+          "sha256": "48920240b536ee4f75e9b12c7c7b509b70a393a8d20fe352a35e415c585c2a8a"
+        }
+      ],
+      "finished_sha256": "9953e28cc7a244eec15fb8b652833ca1cd6dae2ee81a000b24f33d59bfda699d",
+      "selected": false,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          121,
+          402,
+          1219,
+          890
+        ],
+        "resize": [
+          832,
+          370
+        ],
+        "offset": [
+          96,
+          327
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          327,
+          928,
+          697
+        ],
+        "margins": [
+          96,
+          327,
+          96,
+          327
+        ],
+        "visible_rgb_colors": 67243,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "attempt": 3,
+      "actual_prompt": "Use case: precise-object-edit. Remove ONLY the tiny extra third fin-like purple protrusion above the rightmost visible rounded fin, immediately behind the lower-right oval body accent scale. Keep the large rounded fin at lower-left and the rounded fin at lower-right exactly unchanged. The creature must have only these TWO fins, not a third small sliver above the lower-right fin. Where the tiny protrusion was, restore a clean continuous body edge against genuine transparent background.\nPreserve all other pixels/appearance as closely as possible: same true left side direction, one visible purple eye, small head lens at left, large body lens at center, rounded spatula tail at right, exactly three upper and three lower large oval body rim scales, pearlescent lavender/mint shading, same proportions, lighting, outlines and margins. No new parts, no background, text, shadow or ground. Square transparent PNG.\n",
+      "raw_sha256": "7ce60a49ef43b203f8328570d78c2d34878b2b9d5a629f9bbf4401faf7552926",
+      "generation_references_in_order": [
+        {
+          "sha256": "9953e28cc7a244eec15fb8b652833ca1cd6dae2ee81a000b24f33d59bfda699d"
+        }
+      ],
+      "finished_sha256": "cd13c5aa6775838ca52c4897cdd483f68d13e1367e914453318aff643586fe7f",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          116,
+          400,
+          1138,
+          853
+        ],
+        "resize": [
+          832,
+          369
+        ],
+        "offset": [
+          96,
+          327
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          327,
+          928,
+          696
+        ],
+        "margins": [
+          96,
+          327,
+          96,
+          328
+        ],
+        "visible_rgb_colors": 70191,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Make genuine pixel art of the exact creature, exact W direction and exact pose shown in reference image1. Keep its silhouette, eye visibility, two lens body segments, fin positions/occlusion, tail orientation, proportions and lavender/mint/purple-gray color placement unchanged. One smaller front lens directly connected to a larger rear lens; exactly TWO rounded fin-legs on the large segment, no arms/wings, exactly ONE round-tipped spatula tail. Two eyes in anatomy but preserve only the eyes visible in reference; never add eyes to rear views or add a second eye to profile. Three raised oval accent scales at each upper/lower edge of large body as visible, none on head; preserve natural occlusion. Broad pearly overlapping scales may be simplified into clean pixel clusters without changing anatomy.\nIntentional128x128 logical grid, crisp stepped outlines and solid color clusters, up to32 visible colors, fully binary transparent alpha, no antialiasing, blur or smooth gradients. Center full creature with longest extent104 and at least12 pixels transparent padding. No shadow, ground, background, text, checkerboard or pixelation filter. This is a faithful rendering-medium change, not a new design or rotation.\n",
+      "raw_sha256": "72ee83f9ffad9f00a6faae2c48b6eb81dffa6695ea4ddbabc588a21eb8a83e7f",
+      "generation_references_in_order": [
+        {
+          "sha256": "cd13c5aa6775838ca52c4897cdd483f68d13e1367e914453318aff643586fe7f"
+        }
+      ],
+      "finished_sha256": "4c94b5161a7d5da80dd5978de7e4494fe7ac7fc4b70f9be37445e663959e0ac0",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          102,
+          419,
+          1161,
+          895
+        ],
+        "resize": [
+          104,
+          47
+        ],
+        "offset": [
+          12,
+          40
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          40,
+          116,
+          87
+        ],
+        "margins": [
+          12,
+          40,
+          12,
+          41
+        ],
+        "visible_rgb_colors": 21,
+        "alpha_unique_count": 2
+      }
+    }
+  ]
+}

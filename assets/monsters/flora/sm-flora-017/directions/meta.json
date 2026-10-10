@@ -1,0 +1,935 @@
+{
+  "schema_version": 1,
+  "id": "sm-flora-017",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/flora/sm-flora-017/default.png",
+      "sha256": "23393e48c03f95d73afb39563d2fc920d33e0f30f0808966a5655a40da9aa64c",
+      "git_blob_sha": "c73d5cfcebafbc6171233e59d8b192ff2c2d0b6b",
+      "bytes": 615566
+    },
+    "pixel": {
+      "path": "assets/monsters/flora/sm-flora-017/pixel.png",
+      "sha256": "45f3d416a2c210b01192d298498eedf1358bbbcb8d7b7ebebf52f62c3dd74498",
+      "git_blob_sha": "cddc572a0612097d14c46ebcadd1eef81ff8a774",
+      "bytes": 7978
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-017/directions/S/default.png",
+      "sha256": "35b965ef72239149377278d63b4f20e726f4748b7aef7f98d374caf7f6f08a64",
+      "bytes": 651172,
+      "git_blob_sha": "50e04dce5b3854b81fc571a551c021b8993f54da",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          215,
+          928,
+          809
+        ],
+        "margins": [
+          96,
+          215,
+          96,
+          215
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 64311,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-017/directions/S/pixel.png",
+      "sha256": "fbd5570c0346cf52d553f923370583aba3d295892a7b15d6a8fcd7254154591b",
+      "bytes": 7999,
+      "git_blob_sha": "700925311d5f3daf7ad8ebdee5703d2cab97e0d3",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          28,
+          116,
+          100
+        ],
+        "margins": [
+          12,
+          28,
+          12,
+          28
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "35b965ef72239149377278d63b4f20e726f4748b7aef7f98d374caf7f6f08a64"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-017/directions/SW/default.png",
+      "sha256": "cc607003308d6a647265556adef17cbad6a934c192cd8c0e203ae7237aac430a",
+      "bytes": 531766,
+      "git_blob_sha": "2c8510d1c9598f1f0e38635089b72e1b6b36acf0",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          200,
+          928,
+          824
+        ],
+        "margins": [
+          96,
+          200,
+          96,
+          200
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 53423,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-017/directions/SW/pixel.png",
+      "sha256": "e4185f3d0a4cc57359d5c235cbc182efd7165a41a4b207be7ea834b43f5107d8",
+      "bytes": 7329,
+      "git_blob_sha": "12a39b7094f95da03a0402a5b8ac936e0c1e1abe",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          26,
+          116,
+          102
+        ],
+        "margins": [
+          12,
+          26,
+          12,
+          26
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 29,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "cc607003308d6a647265556adef17cbad6a934c192cd8c0e203ae7237aac430a"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-017/directions/W/default.png",
+      "sha256": "c52a3557cf06c1329c7ee6300bf6fa4d39702121dd43ff78770ea85676df52fa",
+      "bytes": 571753,
+      "git_blob_sha": "0c38b5f21ac9efa285de7e3b1576236d9a7e9907",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          242,
+          928,
+          781
+        ],
+        "margins": [
+          96,
+          242,
+          96,
+          243
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 58476,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-017/directions/W/pixel.png",
+      "sha256": "c42eb912da2ffcf85f168d52a6c136021d21a0dd1d915d7c3a4b5638c15a5738",
+      "bytes": 7486,
+      "git_blob_sha": "7ea5dc7de8297d7b33727c5fef0bcd8dad20409d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          29,
+          116,
+          98
+        ],
+        "margins": [
+          12,
+          29,
+          12,
+          30
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "c52a3557cf06c1329c7ee6300bf6fa4d39702121dd43ff78770ea85676df52fa"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-017/directions/NW/default.png",
+      "sha256": "977125578149f3243591405e4839b61c55e950259e61ec844db2b26e1485366c",
+      "bytes": 506939,
+      "git_blob_sha": "6ccd363b652e2240e898a8660ad6ef49486de39e",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          207,
+          928,
+          817
+        ],
+        "margins": [
+          96,
+          207,
+          96,
+          207
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 53995,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-017/directions/NW/pixel.png",
+      "sha256": "5cb40da29d02b58bf9e9dc1adb9cea017d77517f0efab15c235112a27b7eb4fb",
+      "bytes": 6474,
+      "git_blob_sha": "0853310703dd14b7709c9d3a1385b824b9aeef25",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          26,
+          116,
+          102
+        ],
+        "margins": [
+          12,
+          26,
+          12,
+          26
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 29,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "977125578149f3243591405e4839b61c55e950259e61ec844db2b26e1485366c"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-017/directions/N/default.png",
+      "sha256": "cc124cd0600aa46cbae041a7d304dc2e16b82b7b21dc9ffb354ec5504a4719d5",
+      "bytes": 664976,
+      "git_blob_sha": "91e72d24c990f98c97485c515dd7f98aabbfa92b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          205,
+          928,
+          818
+        ],
+        "margins": [
+          96,
+          205,
+          96,
+          206
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 56928,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-017/directions/N/pixel.png",
+      "sha256": "147e5d8a2dcc2f686264af82d566576010a9b4a4fbef5632c47f294f132c22a9",
+      "bytes": 7444,
+      "git_blob_sha": "6442e44f633a2a81257749d78e36936c5704f157",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          27,
+          116,
+          101
+        ],
+        "margins": [
+          12,
+          27,
+          12,
+          27
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 29,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "cc124cd0600aa46cbae041a7d304dc2e16b82b7b21dc9ffb354ec5504a4719d5"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-017/directions/NE/default.png",
+      "sha256": "bd91277078887e471b0c30e1da064d6207fdcc47b382121c310099799326b590",
+      "bytes": 584898,
+      "git_blob_sha": "a0474e0c32f1c2629aed32bd0e79aff841f01471",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          191,
+          928,
+          832
+        ],
+        "margins": [
+          96,
+          191,
+          96,
+          192
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 62325,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-017/directions/NE/pixel.png",
+      "sha256": "16f540065a10d4c3711db51384de071d6df5c96a6036d8bac3d76332564ed3b4",
+      "bytes": 7262,
+      "git_blob_sha": "8bc6490fd331344d6a90276f20734202da0adc06",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          24,
+          116,
+          104
+        ],
+        "margins": [
+          12,
+          24,
+          12,
+          24
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "bd91277078887e471b0c30e1da064d6207fdcc47b382121c310099799326b590"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-017/directions/E/default.png",
+      "sha256": "446ff243837447f8a7b502417ffac3acd32ae710b29721e0c723190934190c62",
+      "bytes": 709126,
+      "git_blob_sha": "9822644181cb8e9f9ec4d92beead7d85a8d70782",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          197,
+          928,
+          826
+        ],
+        "margins": [
+          96,
+          197,
+          96,
+          198
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 62859,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-017/directions/E/pixel.png",
+      "sha256": "19766a7331a766a911e57f7648cb382de50e35768dcb4c586bfba301457d5682",
+      "bytes": 7964,
+      "git_blob_sha": "712e22d0e377e8aa937550fed6e268fe58a5158d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          26,
+          116,
+          102
+        ],
+        "margins": [
+          12,
+          26,
+          12,
+          26
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 29,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "446ff243837447f8a7b502417ffac3acd32ae710b29721e0c723190934190c62"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-017/default.png",
+      "sha256": "23393e48c03f95d73afb39563d2fc920d33e0f30f0808966a5655a40da9aa64c",
+      "bytes": 615566,
+      "git_blob_sha": "c73d5cfcebafbc6171233e59d8b192ff2c2d0b6b",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          172,
+          944,
+          852
+        ],
+        "margins": [
+          80,
+          172,
+          80,
+          172
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 56691,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-017/pixel.png",
+      "sha256": "45f3d416a2c210b01192d298498eedf1358bbbcb8d7b7ebebf52f62c3dd74498",
+      "bytes": 7978,
+      "git_blob_sha": "cddc572a0612097d14c46ebcadd1eef81ff8a774",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          23,
+          118,
+          105
+        ],
+        "margins": [
+          10,
+          23,
+          10,
+          23
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "23393e48c03f95d73afb39563d2fc920d33e0f30f0808966a5655a40da9aa64c"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "Source already has elevated camera; W/E oblique amount, distant root overlap and attachment positions inferred.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "35b965ef72239149377278d63b4f20e726f4748b7aef7f98d374caf7f6f08a64",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "63637a5ced37a6130120f44c303ba3d1f725e4b689d16b44a9cd591419058de5",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 sprite SAME moss mat at S: direct FRONT, front short edge nearest bottom with two eyes flanking one shallow central notch, four top tufts2x2, roots four along each side. Image1 original front-right SE; image2 W side; image3 N back. Keep original camera elevated about40degrees downward, no camera change, rotate mat horizontally only. Flat rectangular one-piece moss-leaf body, exactly FOUR large round leaf tufts in2x2 top, EIGHT short beige root legs four per longitudinal side, natural overlap but no added or missing legs. TWO front-edge eyes and ONE shallow rounded FRONT central notch only, rear edge plain. Green olive cream palette, broad leaves, no countless small moss grains, no flowers/tree/tail/wings/arms. Same thickness proportions and clean2D shading, fullbody transparent margin no ground shadow text.\n",
+      "generation_references": [
+        {
+          "sha256": "23393e48c03f95d73afb39563d2fc920d33e0f30f0808966a5655a40da9aa64c",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "4c461fcb6a029ca1a43cf9cc4c53cb10e993cd25c00543162f60c40469db5448",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "73bce1426c9f10ac326304c5dca59368d684ef40fa9194ec09040a70650fe9d9",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "fbd5570c0346cf52d553f923370583aba3d295892a7b15d6a8fcd7254154591b",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "9118c4b5a6448683282a60b1ed9a5b4bdb36c6821a9c49e830dca4e9513f30b3",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE crisp128x128 pixel sprite matching EXACT S view in reference, no rotation toward camera. Flat rectangular moss mat, four large top leaf tufts2x2, eight short beige root legs4each side with same natural overlap. Two eyes and one shallow notch fixed FRONT vertical edge, only visible as reference; rear views have no visible eyes/notch and no stalks. Same elevated camera, green olive cream palette and mat thickness. Change medium only to deliberate hard pixel clusters max32colors binary transparent alpha; no extra tufts/legs, no blur antialias halo. Fullbody centered margin no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "63637a5ced37a6130120f44c303ba3d1f725e4b689d16b44a9cd591419058de5",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "cc607003308d6a647265556adef17cbad6a934c192cd8c0e203ae7237aac430a",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "68ac72284c1f50523529df538dc7ba5a3f928910369b07f14661f4b044c8e91b",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 sprite SAME moss mat at SW: front-left45, notched eye edge nearest lower-left, rear upper-right, four roots each side. Image1 original front-right SE; image2 W side; image3 N back. Keep original camera elevated about40degrees downward, no camera change, rotate mat horizontally only. Flat rectangular one-piece moss-leaf body, exactly FOUR large round leaf tufts in2x2 top, EIGHT short beige root legs four per longitudinal side, natural overlap but no added or missing legs. TWO front-edge eyes and ONE shallow rounded FRONT central notch only, rear edge plain. Green olive cream palette, broad leaves, no countless small moss grains, no flowers/tree/tail/wings/arms. Same thickness proportions and clean2D shading, fullbody transparent margin no ground shadow text.\n",
+      "generation_references": [
+        {
+          "sha256": "23393e48c03f95d73afb39563d2fc920d33e0f30f0808966a5655a40da9aa64c",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "4c461fcb6a029ca1a43cf9cc4c53cb10e993cd25c00543162f60c40469db5448",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "73bce1426c9f10ac326304c5dca59368d684ef40fa9194ec09040a70650fe9d9",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "e4185f3d0a4cc57359d5c235cbc182efd7165a41a4b207be7ea834b43f5107d8",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "b34f0ab4656d87e3c359857d9cbf20e39aebf072de5975a2ab632378bad4d332",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE crisp128x128 pixel sprite matching EXACT SW view in reference, no rotation toward camera. Flat rectangular moss mat, four large top leaf tufts2x2, eight short beige root legs4each side with same natural overlap. Two eyes and one shallow notch fixed FRONT vertical edge, only visible as reference; rear views have no visible eyes/notch and no stalks. Same elevated camera, green olive cream palette and mat thickness. Change medium only to deliberate hard pixel clusters max32colors binary transparent alpha; no extra tufts/legs, no blur antialias halo. Fullbody centered margin no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "68ac72284c1f50523529df538dc7ba5a3f928910369b07f14661f4b044c8e91b",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "c52a3557cf06c1329c7ee6300bf6fa4d39702121dd43ff78770ea85676df52fa",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "4c461fcb6a029ca1a43cf9cc4c53cb10e993cd25c00543162f60c40469db5448",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 sprite SAME moss mat creature rotated horizontally to W: LEFT side, front edge points image-left, long side runs horizontally with four near root feet spaced along it and four far feet naturally partly hidden; front eyes only around extreme left edge. Keep camera at original elevated roughly40degree downward angle, unchanged across rotation. Exactly ONE flat rectangular soft moss-leaf mat, exactly FOUR large round leafy tufts in2x2 on top, exactly EIGHT short beige root legs four per longitudinal side, natural occlusion not missing anatomy. TWO eyes only front edge and ONE shallow rounded notch at front center, rear edge has no eyes/notch. No arms/wings/tail/flowers/trees. Same green/olive/cream palette and broad leaf shapes, original clean2D shading, preserve mat thickness and rectangular proportions. Rotate wholebody not top pattern alone. Fullbody centered transparent margins no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "23393e48c03f95d73afb39563d2fc920d33e0f30f0808966a5655a40da9aa64c",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "c42eb912da2ffcf85f168d52a6c136021d21a0dd1d915d7c3a4b5638c15a5738",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "aa673213712c5e8a3ef5df6b1b26d8a0e12da33fa12f6df5a2247ff023832e28",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE crisp128x128 pixel sprite matching EXACT W view in reference, no rotation toward camera. Flat rectangular moss mat, four large top leaf tufts2x2, eight short beige root legs4each side with same natural overlap. Two eyes and one shallow notch fixed FRONT vertical edge, only visible as reference; rear views have no visible eyes/notch and no stalks. Same elevated camera, green olive cream palette and mat thickness. Change medium only to deliberate hard pixel clusters max32colors binary transparent alpha; no extra tufts/legs, no blur antialias halo. Fullbody centered margin no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "4c461fcb6a029ca1a43cf9cc4c53cb10e993cd25c00543162f60c40469db5448",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "977125578149f3243591405e4839b61c55e950259e61ec844db2b26e1485366c",
+        "role": "finaltechnicalderivative"
+      },
+      "previous_attempt": {
+        "raw": {
+          "sha256": "5f9336bb5107f8ccb56a6931a73ed905bfcfad185f15cfef456738c315d03d7f",
+          "role": "retainedprevious"
+        },
+        "prompt": "Use case: identity-preserve. ONE transparent1024 sprite SAME moss mat at NW: rear-left135, plain rear edge nearest lower-right and notched front far upper-left, eyes mostly hidden by mat. Image1 original front-right SE; image2 W side; image3 N back. Keep original camera elevated about40degrees downward, no camera change, rotate mat horizontally only. Flat rectangular one-piece moss-leaf body, exactly FOUR large round leaf tufts in2x2 top, EIGHT short beige root legs four per longitudinal side, natural overlap but no added or missing legs. TWO front-edge eyes and ONE shallow rounded FRONT central notch only, rear edge plain. Green olive cream palette, broad leaves, no countless small moss grains, no flowers/tree/tail/wings/arms. Same thickness proportions and clean2D shading, fullbody transparent margin no ground shadow text.\n",
+        "references": [
+          {
+            "sha256": "23393e48c03f95d73afb39563d2fc920d33e0f30f0808966a5655a40da9aa64c",
+            "role": "originalidentity"
+          },
+          {
+            "sha256": "4c461fcb6a029ca1a43cf9cc4c53cb10e993cd25c00543162f60c40469db5448",
+            "role": "sidegeometryreference"
+          },
+          {
+            "sha256": "73bce1426c9f10ac326304c5dca59368d684ef40fa9194ec09040a70650fe9d9",
+            "role": "reargeometryreference"
+          }
+        ],
+        "issue": "Front vertical-edge eyes incorrectly protruded above far rim"
+      },
+      "adopted_raw": {
+        "sha256": "25f5bacd7195f0e98524a280c1a1b1e77071a57781340c9153699fcd507eb65d",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: precise-object-edit. Correct ONLY eye attachment/occlusion in this rear-three-quarter moss mat. Eyes are flush-mounted on the FRONT VERTICAL EDGE, not on stalks or on top. In this rear angle that front edge faces away and is hidden behind the opaque mat/top tufts; remove the erroneous eyeballs peeking above far top rim and show continuous moss rim there. Preserve actual two eyes on unseen front edge, do not move eyes to visible rear or side. Keep exact four top leaf tufts2x2, eight root legs4per side with natural occlusion, rectangular mat, current camera/pose/palette and true transparent background. No other anatomy changes, fullbody margin no text ground shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "5f9336bb5107f8ccb56a6931a73ed905bfcfad185f15cfef456738c315d03d7f",
+          "role": "previousattempt"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "5cb40da29d02b58bf9e9dc1adb9cea017d77517f0efab15c235112a27b7eb4fb",
+        "role": "finaltechnicalderivative"
+      },
+      "rejected_previous": {
+        "raw": {
+          "sha256": "496bbe81ebd8484fe12ba7c853f481f6e5f7c9d00a38bf1a4ecb53c99bc87a09",
+          "role": "rejectedraw"
+        },
+        "prompt": "Use case: style-transfer. ONE crisp128x128 pixel sprite matching EXACT NW view in reference, no rotation toward camera. Flat rectangular moss mat, four large top leaf tufts2x2, eight short beige root legs4each side with same natural overlap. Two eyes and one shallow notch fixed FRONT vertical edge, only visible as reference; rear views have no visible eyes/notch and no stalks. Same elevated camera, green olive cream palette and mat thickness. Change medium only to deliberate hard pixel clusters max32colors binary transparent alpha; no extra tufts/legs, no blur antialias halo. Fullbody centered margin no shadow ground text.\n",
+        "references": [
+          {
+            "sha256": "25f5bacd7195f0e98524a280c1a1b1e77071a57781340c9153699fcd507eb65d",
+            "role": "actualgenerationnormalreference"
+          }
+        ],
+        "issue": "Eyes reappeared on visible rear rim"
+      },
+      "adopted_raw": {
+        "sha256": "1471a28971dc787c1fed7ce40d9fdc3056c50df02c49eac9f4610c1e6c61bdba",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact REAR-left view into one crisp128x128 pixel sprite. CRITICAL visible rim has NO eyes, NO black dots, NO face and NO central notch. The eyes are on hidden opposite front edge, never add them to nearest rear edge. Preserve flat rectangular green moss mat, exactly FOUR round leaf tufts2x2 and eight beige root legs4each side with same occlusion. Same elevated camera, palette and silhouette. Hard deliberate pixel clusters max32colors binary transparency, no antialias blur, fullbody margin no text shadow ground.\n",
+      "generation_references": [
+        {
+          "sha256": "25f5bacd7195f0e98524a280c1a1b1e77071a57781340c9153699fcd507eb65d",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "cc124cd0600aa46cbae041a7d304dc2e16b82b7b21dc9ffb354ec5504a4719d5",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "73bce1426c9f10ac326304c5dca59368d684ef40fa9194ec09040a70650fe9d9",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 sprite SAME moss mat creature rotated horizontally to N: direct REAR, plain rear edge nearest bottom, front eye edge far top and hidden by opaque mat; same four top leaf mounds visible with original elevated camera, eight roots four each side. Keep camera at original elevated roughly40degree downward angle, unchanged across rotation. Exactly ONE flat rectangular soft moss-leaf mat, exactly FOUR large round leafy tufts in2x2 on top, exactly EIGHT short beige root legs four per longitudinal side, natural occlusion not missing anatomy. TWO eyes only front edge and ONE shallow rounded notch at front center, rear edge has no eyes/notch. No arms/wings/tail/flowers/trees. Same green/olive/cream palette and broad leaf shapes, original clean2D shading, preserve mat thickness and rectangular proportions. Rotate wholebody not top pattern alone. Fullbody centered transparent margins no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "23393e48c03f95d73afb39563d2fc920d33e0f30f0808966a5655a40da9aa64c",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "147e5d8a2dcc2f686264af82d566576010a9b4a4fbef5632c47f294f132c22a9",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "3633d7372a30a11edcfba4ec34cfce0afdc170f6d6f1768d7464a4f0eaefb8e4",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE crisp128x128 pixel sprite matching EXACT N view in reference, no rotation toward camera. Flat rectangular moss mat, four large top leaf tufts2x2, eight short beige root legs4each side with same natural overlap. Two eyes and one shallow notch fixed FRONT vertical edge, only visible as reference; rear views have no visible eyes/notch and no stalks. Same elevated camera, green olive cream palette and mat thickness. Change medium only to deliberate hard pixel clusters max32colors binary transparent alpha; no extra tufts/legs, no blur antialias halo. Fullbody centered margin no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "73bce1426c9f10ac326304c5dca59368d684ef40fa9194ec09040a70650fe9d9",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "bd91277078887e471b0c30e1da064d6207fdcc47b382121c310099799326b590",
+        "role": "finaltechnicalderivative"
+      },
+      "previous_attempt": {
+        "raw": {
+          "sha256": "efab0962a07bb48fd39276911ba5c34636847bea4e2ecf20b05624d383c512e6",
+          "role": "retainedprevious"
+        },
+        "prompt": "Use case: identity-preserve. ONE transparent1024 sprite SAME moss mat at NE: rear-right225, plain rear edge nearest lower-left and notched front far upper-right, eyes mostly hidden by mat. Image1 original front-right SE; image2 W side; image3 N back. Keep original camera elevated about40degrees downward, no camera change, rotate mat horizontally only. Flat rectangular one-piece moss-leaf body, exactly FOUR large round leaf tufts in2x2 top, EIGHT short beige root legs four per longitudinal side, natural overlap but no added or missing legs. TWO front-edge eyes and ONE shallow rounded FRONT central notch only, rear edge plain. Green olive cream palette, broad leaves, no countless small moss grains, no flowers/tree/tail/wings/arms. Same thickness proportions and clean2D shading, fullbody transparent margin no ground shadow text.\n",
+        "references": [
+          {
+            "sha256": "23393e48c03f95d73afb39563d2fc920d33e0f30f0808966a5655a40da9aa64c",
+            "role": "originalidentity"
+          },
+          {
+            "sha256": "4c461fcb6a029ca1a43cf9cc4c53cb10e993cd25c00543162f60c40469db5448",
+            "role": "sidegeometryreference"
+          },
+          {
+            "sha256": "73bce1426c9f10ac326304c5dca59368d684ef40fa9194ec09040a70650fe9d9",
+            "role": "reargeometryreference"
+          }
+        ],
+        "issue": "Front vertical-edge eyes incorrectly protruded above far rim"
+      },
+      "adopted_raw": {
+        "sha256": "794b6bd74292656241632a571bbc13580cc450bc344244a33f3967c9ba3288ca",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: precise-object-edit. Correct ONLY eye attachment/occlusion in this rear-three-quarter moss mat. Eyes are flush-mounted on the FRONT VERTICAL EDGE, not on stalks or on top. In this rear angle that front edge faces away and is hidden behind the opaque mat/top tufts; remove the erroneous eyeballs peeking above far top rim and show continuous moss rim there. Preserve actual two eyes on unseen front edge, do not move eyes to visible rear or side. Keep exact four top leaf tufts2x2, eight root legs4per side with natural occlusion, rectangular mat, current camera/pose/palette and true transparent background. No other anatomy changes, fullbody margin no text ground shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "efab0962a07bb48fd39276911ba5c34636847bea4e2ecf20b05624d383c512e6",
+          "role": "previousattempt"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "16f540065a10d4c3711db51384de071d6df5c96a6036d8bac3d76332564ed3b4",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "219aea4ae8e180533b6e801afe8a1af3b702597765fe8f1bdc0aebe12fbc72cd",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE crisp128x128 pixel sprite matching EXACT NE view in reference, no rotation toward camera. Flat rectangular moss mat, four large top leaf tufts2x2, eight short beige root legs4each side with same natural overlap. Two eyes and one shallow notch fixed FRONT vertical edge, only visible as reference; rear views have no visible eyes/notch and no stalks. Same elevated camera, green olive cream palette and mat thickness. Change medium only to deliberate hard pixel clusters max32colors binary transparent alpha; no extra tufts/legs, no blur antialias halo. Fullbody centered margin no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "794b6bd74292656241632a571bbc13580cc450bc344244a33f3967c9ba3288ca",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "446ff243837447f8a7b502417ffac3acd32ae710b29721e0c723190934190c62",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "6704478fe9365490802b18234277e9688622dff7d0e264fef36804a6ffec8c0e",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. ONE transparent1024 sprite SAME moss mat at E: RIGHT side270, notched front edge points right, long side runs horizontal with four roots near/four far. Image1 original front-right SE; image2 W side; image3 N back. Keep original camera elevated about40degrees downward, no camera change, rotate mat horizontally only. Flat rectangular one-piece moss-leaf body, exactly FOUR large round leaf tufts in2x2 top, EIGHT short beige root legs four per longitudinal side, natural overlap but no added or missing legs. TWO front-edge eyes and ONE shallow rounded FRONT central notch only, rear edge plain. Green olive cream palette, broad leaves, no countless small moss grains, no flowers/tree/tail/wings/arms. Same thickness proportions and clean2D shading, fullbody transparent margin no ground shadow text.\n",
+      "generation_references": [
+        {
+          "sha256": "23393e48c03f95d73afb39563d2fc920d33e0f30f0808966a5655a40da9aa64c",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "4c461fcb6a029ca1a43cf9cc4c53cb10e993cd25c00543162f60c40469db5448",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "73bce1426c9f10ac326304c5dca59368d684ef40fa9194ec09040a70650fe9d9",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "19766a7331a766a911e57f7648cb382de50e35768dcb4c586bfba301457d5682",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "11e76690985b35cc661d79471d68efd5326e33e26b9d9dcf1cc69e2616a526b5",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. ONE crisp128x128 pixel sprite matching EXACT E view in reference, no rotation toward camera. Flat rectangular moss mat, four large top leaf tufts2x2, eight short beige root legs4each side with same natural overlap. Two eyes and one shallow notch fixed FRONT vertical edge, only visible as reference; rear views have no visible eyes/notch and no stalks. Same elevated camera, green olive cream palette and mat thickness. Change medium only to deliberate hard pixel clusters max32colors binary transparent alpha; no extra tufts/legs, no blur antialias halo. Fullbody centered margin no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "6704478fe9365490802b18234277e9688622dff7d0e264fef36804a6ffec8c0e",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "23393e48c03f95d73afb39563d2fc920d33e0f30f0808966a5655a40da9aa64c",
+        "role": "finaltechnicalderivative"
+      },
+      "operation": "byte-identical original copy",
+      "original": {
+        "sha256": "23393e48c03f95d73afb39563d2fc920d33e0f30f0808966a5655a40da9aa64c",
+        "role": "original"
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "45f3d416a2c210b01192d298498eedf1358bbbcb8d7b7ebebf52f62c3dd74498",
+        "role": "finaltechnicalderivative"
+      },
+      "operation": "byte-identical original copy",
+      "original": {
+        "sha256": "45f3d416a2c210b01192d298498eedf1358bbbcb8d7b7ebebf52f62c3dd74498",
+        "role": "original"
+      }
+    }
+  ]
+}

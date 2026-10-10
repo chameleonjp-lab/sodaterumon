@@ -1,0 +1,837 @@
+{
+  "schema_version": 1,
+  "id": "sm-gel-003",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/gel/sm-gel-003/default.png",
+      "sha256": "fb671cdcfeae7420aef4ea2de44a3914f15c658f9608fe3a1fef1a4d24c399a4",
+      "git_blob_sha": "ced343327713f1a0af2387c0ec905ae83f900d9f",
+      "bytes": 471126
+    },
+    "pixel": {
+      "path": "assets/monsters/gel/sm-gel-003/pixel.png",
+      "sha256": "b687a79b2390cae3764835f7b7f66295c72ef7ddc6b5e3f54eff8e0fee2bf8ad",
+      "git_blob_sha": "5dd0ba9a94ded32aea53b446d162ccac3fde60d0",
+      "bytes": 6153
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/gel/sm-gel-003/directions/S/default.png",
+      "sha256": "61093e5205f2b9212990ec900629f378504a5f0ec660e6f6d3933592372afa81",
+      "bytes": 438870,
+      "git_blob_sha": "a1e1b405e066a2df66cd09b0854748fc35fa227c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          261,
+          96,
+          762,
+          928
+        ],
+        "margins": [
+          261,
+          96,
+          262,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 32733,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/gel/sm-gel-003/directions/S/pixel.png",
+      "sha256": "847b3bbb781e76303276f6d76c2a061b2e342c31f4eb7e5d6213767731b79671",
+      "bytes": 4313,
+      "git_blob_sha": "be405a511ec789415ae660c7b5f18fc35b2be759",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          32,
+          12,
+          96,
+          116
+        ],
+        "margins": [
+          32,
+          12,
+          32,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 17,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "61093e5205f2b9212990ec900629f378504a5f0ec660e6f6d3933592372afa81"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/gel/sm-gel-003/directions/SW/default.png",
+      "sha256": "d39d37d776a9e0bc104f01308575989235aa68fbc9a611a1ae6358af8e95a072",
+      "bytes": 442291,
+      "git_blob_sha": "da54b52fb61392809bc9d1f5c375731b0ab72121",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          264,
+          96,
+          760,
+          928
+        ],
+        "margins": [
+          264,
+          96,
+          264,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 35701,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/gel/sm-gel-003/directions/SW/pixel.png",
+      "sha256": "839c387290a7d626af267fdbb50e28bc5f5ddcfd8dc94b4ce845c8f3d50c202b",
+      "bytes": 4105,
+      "git_blob_sha": "9d957761fa91092c0798f8da4f26e499844e5807",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          33,
+          12,
+          95,
+          116
+        ],
+        "margins": [
+          33,
+          12,
+          33,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 18,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "d39d37d776a9e0bc104f01308575989235aa68fbc9a611a1ae6358af8e95a072"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/gel/sm-gel-003/directions/W/default.png",
+      "sha256": "7be4d7476d05db35e8385443feb2d8bbf20f7b5e30fb81e72fb5312206a1b99f",
+      "bytes": 408229,
+      "git_blob_sha": "9433f4ffbf26f35015e6a0da764f4b36dbd0fcc8",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          273,
+          96,
+          750,
+          928
+        ],
+        "margins": [
+          273,
+          96,
+          274,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 31879,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/gel/sm-gel-003/directions/W/pixel.png",
+      "sha256": "6b9916e05ac89777e9af0b64f78a2eccec92e56d1a6b980dd58ef425a10b7982",
+      "bytes": 3656,
+      "git_blob_sha": "b6c1f09ad061c9a4664b9b98b03a24bee24d55b0",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          33,
+          12,
+          94,
+          116
+        ],
+        "margins": [
+          33,
+          12,
+          34,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 19,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "7be4d7476d05db35e8385443feb2d8bbf20f7b5e30fb81e72fb5312206a1b99f"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/gel/sm-gel-003/directions/NW/default.png",
+      "sha256": "58c422e4541772720bcf1b8e8e6cf0794773b29eca59bc5ba92b1bcea1d4cad8",
+      "bytes": 442032,
+      "git_blob_sha": "59cb162565daf3c4c458f3e01276b98caa540c3e",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          260,
+          96,
+          763,
+          928
+        ],
+        "margins": [
+          260,
+          96,
+          261,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 29371,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/gel/sm-gel-003/directions/NW/pixel.png",
+      "sha256": "cee6da21fa91bdf684df13aba5c259d050db1b28764d5e70f771bb7e5e53e6c5",
+      "bytes": 4604,
+      "git_blob_sha": "6bbaa8d1fc47c6b487032873e53a61469a93e647",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          31,
+          12,
+          96,
+          116
+        ],
+        "margins": [
+          31,
+          12,
+          32,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 20,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "58c422e4541772720bcf1b8e8e6cf0794773b29eca59bc5ba92b1bcea1d4cad8"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/gel/sm-gel-003/directions/N/default.png",
+      "sha256": "0074f5b47b24633d6eb29c20d916a7887bf6fedb0e8a6331132798561f694c5a",
+      "bytes": 445944,
+      "git_blob_sha": "df7f5fad2844abe473f74706aefbbc77f5a7777c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          259,
+          96,
+          764,
+          928
+        ],
+        "margins": [
+          259,
+          96,
+          260,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 30772,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/gel/sm-gel-003/directions/N/pixel.png",
+      "sha256": "9095089a535d36b011408cc5f47c37bbeb525c7f22a15886d50d7bfcf07d2d70",
+      "bytes": 4655,
+      "git_blob_sha": "d66ed0e4e3578d175f5d57ed4181a079cd400583",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          32,
+          12,
+          95,
+          116
+        ],
+        "margins": [
+          32,
+          12,
+          33,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 19,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "0074f5b47b24633d6eb29c20d916a7887bf6fedb0e8a6331132798561f694c5a"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/gel/sm-gel-003/directions/NE/default.png",
+      "sha256": "e80dea64b894389c94b4532fb9f7f330f075e60ef26a54f495a6e6dfbe640120",
+      "bytes": 420729,
+      "git_blob_sha": "00aa554e85657804b3c79a2a57e1b426d75f2c4e",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          262,
+          96,
+          762,
+          928
+        ],
+        "margins": [
+          262,
+          96,
+          262,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 27188,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/gel/sm-gel-003/directions/NE/pixel.png",
+      "sha256": "80afd5ddf68521c8d6b7c9d3e2d6c68d15fe9859835e9e19286cd65c9ed333ad",
+      "bytes": 4534,
+      "git_blob_sha": "42d38bf3ea938a17c0322bd189566b61e4e137ed",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          33,
+          12,
+          95,
+          116
+        ],
+        "margins": [
+          33,
+          12,
+          33,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 17,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "e80dea64b894389c94b4532fb9f7f330f075e60ef26a54f495a6e6dfbe640120"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/gel/sm-gel-003/directions/E/default.png",
+      "sha256": "0e4e7ca026a9ad6109600517abcecdadb8ed624c059f637479adb00040a8f882",
+      "bytes": 398976,
+      "git_blob_sha": "8585b4225d80eb38c72cfc4beafec8cf5101a176",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          279,
+          96,
+          745,
+          928
+        ],
+        "margins": [
+          279,
+          96,
+          279,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 31130,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/gel/sm-gel-003/directions/E/pixel.png",
+      "sha256": "6e14d933fc9b90f8a546de8675f5124c178c5d0f8074fdd5535d0f91d9634925",
+      "bytes": 3922,
+      "git_blob_sha": "6c074a92d512c5d2782cf3e911f44eedfa0d81e5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          33,
+          12,
+          94,
+          116
+        ],
+        "margins": [
+          33,
+          12,
+          34,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 18,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "0e4e7ca026a9ad6109600517abcecdadb8ed624c059f637479adb00040a8f882"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/gel/sm-gel-003/default.png",
+      "sha256": "fb671cdcfeae7420aef4ea2de44a3914f15c658f9608fe3a1fef1a4d24c399a4",
+      "bytes": 471126,
+      "git_blob_sha": "ced343327713f1a0af2387c0ec905ae83f900d9f",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          83,
+          64,
+          940,
+          960
+        ],
+        "margins": [
+          83,
+          64,
+          84,
+          64
+        ],
+        "visible_longest_extent": 896,
+        "visible_rgb_colors": 38641,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/gel/sm-gel-003/pixel.png",
+      "sha256": "b687a79b2390cae3764835f7b7f66295c72ef7ddc6b5e3f54eff8e0fee2bf8ad",
+      "bytes": 6153,
+      "git_blob_sha": "5dd0ba9a94ded32aea53b446d162ccac3fde60d0",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          33,
+          12,
+          94,
+          116
+        ],
+        "margins": [
+          33,
+          12,
+          34,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 21,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "fb671cdcfeae7420aef4ea2de44a3914f15c658f9608fe3a1fef1a4d24c399a4"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "Original SE head tilt and generated pose differences retained. Spherical surface exact45degree rotation and physical rigidity inferred.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "61093e5205f2b9212990ec900629f378504a5f0ec660e6f6d3933592372afa81"
+      },
+      "raw": {
+        "sha256": "10bfb42e863d60c3d96001a8c7d2d5f72959c5a90a36962ba9f02e8ec5ac6a24"
+      },
+      "prompt": "Use case: identity-preserve. Game monster turntable, same individual as reference. Three soft amber jelly spheres stacked vertically: flattened largest bottom, medium sphere shifted toward the creature's own right side (image-left in a frontal view), smallest top centered over the base. Exactly two dark plum oval eyes fixed on the front of the TOP sphere only. Every sphere has a milky ivory lower half, glossy amber upper half, same painted highlights and fine plum contour as reference. No arms, legs, mouth, tail, sticks or extra sphere. Rotate whole creature rigidly around vertical axis; keep the reference's low camera elevation and proportions, do not tilt camera or reshape pose. Transparent background, one centered full-body character, no ground shadow, no text. 1024 square. Target S: straight frontal, yaw0. Two symmetrically placed eyes on top sphere. Middle sphere shifted screen-left; top and base centered. Reference1 is original front-right SE identity; reference2 left profile and reference3 rear establish the same fixed body geometry.",
+      "generation_references": [
+        {
+          "sha256": "fb671cdcfeae7420aef4ea2de44a3914f15c658f9608fe3a1fef1a4d24c399a4"
+        },
+        {
+          "sha256": "94eb244d5c11588b4e0ac320e468ed41cb658736beebd1842be6c5e36df09ce6"
+        },
+        {
+          "sha256": "d27a459bbb367dfeb4475da90b1be97725baea210fd485f679f77cc8e5b3d2be"
+        }
+      ]
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "847b3bbb781e76303276f6d76c2a061b2e342c31f4eb7e5d6213767731b79671"
+      },
+      "raw": {
+        "sha256": "9410c18c2882e1bbeb22aff3af18f40d38151ccbbb515eae07c2869637feb298"
+      },
+      "prompt": "Use case: style-transfer. Convert the attached single monster illustration into a crisp 128x128 game pixel sprite of EXACTLY the same individual, direction and pose. Three amber jelly spheres stacked, largest flattened bottom, medium bend and smallest top unchanged. Milky ivory lower half on each sphere. Preserve exact eye visibility and placement from reference: never add eyes to a hidden face. Preserve contours, overlap, center offsets and camera. Limited amber/cream/dark plum palette, hard square pixel clusters, binary alpha transparent background, no antialiasing, no text, no ground or shadow. One full-body centered sprite with ample transparent margins. Target direction S.",
+      "generation_references": [
+        {
+          "sha256": "10bfb42e863d60c3d96001a8c7d2d5f72959c5a90a36962ba9f02e8ec5ac6a24"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "d39d37d776a9e0bc104f01308575989235aa68fbc9a611a1ae6358af8e95a072"
+      },
+      "raw": {
+        "sha256": "3d3b2ed515eb4eb964e7f29c8cec35ee390cc4d25ef8b467f26a54866963b2d7"
+      },
+      "prompt": "Use case: identity-preserve. Game monster turntable, same individual as reference. Three soft amber jelly spheres stacked vertically: flattened largest bottom, medium sphere shifted toward the creature's own right side (image-left in a frontal view), smallest top centered over the base. Exactly two dark plum oval eyes fixed on the front of the TOP sphere only. Every sphere has a milky ivory lower half, glossy amber upper half, same painted highlights and fine plum contour as reference. No arms, legs, mouth, tail, sticks or extra sphere. Rotate whole creature rigidly around vertical axis; keep the reference's low camera elevation and proportions, do not tilt camera or reshape pose. Transparent background, one centered full-body character, no ground shadow, no text. 1024 square. Target SW: front-left three-quarter, yaw45, eyes facing screen-left and viewer. Both top eyes visible with far eye foreshortened. Middle sphere slightly screen-left of aligned base/top. Reference1 is original front-right SE identity; reference2 left profile and reference3 rear establish the same fixed body geometry.",
+      "generation_references": [
+        {
+          "sha256": "fb671cdcfeae7420aef4ea2de44a3914f15c658f9608fe3a1fef1a4d24c399a4"
+        },
+        {
+          "sha256": "94eb244d5c11588b4e0ac320e468ed41cb658736beebd1842be6c5e36df09ce6"
+        },
+        {
+          "sha256": "d27a459bbb367dfeb4475da90b1be97725baea210fd485f679f77cc8e5b3d2be"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "839c387290a7d626af267fdbb50e28bc5f5ddcfd8dc94b4ce845c8f3d50c202b"
+      },
+      "raw": {
+        "sha256": "c84ccc23c4f56c3d16e92c6320a09174cf5b7ba4fca412cb76feed3a26837ea8"
+      },
+      "prompt": "Use case: style-transfer. Convert the attached single monster illustration into a crisp 128x128 game pixel sprite of EXACTLY the same individual, direction and pose. Three amber jelly spheres stacked, largest flattened bottom, medium bend and smallest top unchanged. Milky ivory lower half on each sphere. Preserve exact eye visibility and placement from reference: never add eyes to a hidden face. Preserve contours, overlap, center offsets and camera. Limited amber/cream/dark plum palette, hard square pixel clusters, binary alpha transparent background, no antialiasing, no text, no ground or shadow. One full-body centered sprite with ample transparent margins. Target direction SW.",
+      "generation_references": [
+        {
+          "sha256": "3d3b2ed515eb4eb964e7f29c8cec35ee390cc4d25ef8b467f26a54866963b2d7"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "7be4d7476d05db35e8385443feb2d8bbf20f7b5e30fb81e72fb5312206a1b99f"
+      },
+      "raw": {
+        "sha256": "94eb244d5c11588b4e0ac320e468ed41cb658736beebd1842be6c5e36df09ce6"
+      },
+      "prompt": "Use case: identity-preserve. Game monster turntable, same individual as reference. Three soft amber jelly spheres stacked vertically: flattened largest bottom, medium sphere shifted toward the creature's own right side (image-left in a frontal view), smallest top centered over the base. Exactly two dark plum oval eyes fixed on the front of the TOP sphere only. Every sphere has a milky ivory lower half, glossy amber upper half, same painted highlights and fine plum contour as reference. No arms, legs, mouth, tail, sticks or extra sphere. Rotate whole creature rigidly around vertical axis; keep the reference's low camera elevation and proportions, do not tilt camera or reshape pose. Transparent background, one centered full-body character, no ground shadow, no text. 1024 square. Target W: exact left-facing side profile, nose-less face pointing screen-left, yaw90 from frontal. One near eye on the top sphere's left-facing surface, far eye naturally hidden. The middle sphere's sideways bend is foreshortened into depth, so the three centers are nearly vertically aligned; do not preserve the broad image-left bend of the front view.",
+      "generation_references": [
+        {
+          "sha256": "fb671cdcfeae7420aef4ea2de44a3914f15c658f9608fe3a1fef1a4d24c399a4"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "6b9916e05ac89777e9af0b64f78a2eccec92e56d1a6b980dd58ef425a10b7982"
+      },
+      "raw": {
+        "sha256": "bf38b994f6cca7940b55aa9bdb4b6d6e6a8266c6d94b2b5286b6edc15f107796"
+      },
+      "prompt": "Use case: style-transfer. Convert the attached single monster illustration into a crisp 128x128 game pixel sprite of EXACTLY the same individual, direction and pose. Three amber jelly spheres stacked, largest flattened bottom, medium bend and smallest top unchanged. Milky ivory lower half on each sphere. Preserve exact eye visibility and placement from reference: never add eyes to a hidden face. Preserve contours, overlap, center offsets and camera. Limited amber/cream/dark plum palette, hard square pixel clusters, binary alpha transparent background, no antialiasing, no text, no ground or shadow. One full-body centered sprite with ample transparent margins. Target direction W.",
+      "generation_references": [
+        {
+          "sha256": "94eb244d5c11588b4e0ac320e468ed41cb658736beebd1842be6c5e36df09ce6"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "58c422e4541772720bcf1b8e8e6cf0794773b29eca59bc5ba92b1bcea1d4cad8"
+      },
+      "raw": {
+        "sha256": "1bceda949e30aea62b6a84ae13288af15cbde1a97b7996ff839145988306b78a"
+      },
+      "prompt": "Use case: identity-preserve. Game monster turntable, same individual as reference. Three soft amber jelly spheres stacked vertically: flattened largest bottom, medium sphere shifted toward the creature's own right side (image-left in a frontal view), smallest top centered over the base. Exactly two dark plum oval eyes fixed on the front of the TOP sphere only. Every sphere has a milky ivory lower half, glossy amber upper half, same painted highlights and fine plum contour as reference. No arms, legs, mouth, tail, sticks or extra sphere. Rotate whole creature rigidly around vertical axis; keep the reference's low camera elevation and proportions, do not tilt camera or reshape pose. Transparent background, one centered full-body character, no ground shadow, no text. 1024 square. Target NW: rear-left three-quarter, yaw135, front of creature points screen-left and away. Eyes hidden naturally around the far-left curvature of the top sphere, no frontal eyes. Middle sphere slightly screen-right of aligned base/top. Reference1 is original front-right SE identity; reference2 left profile and reference3 rear establish the same fixed body geometry.",
+      "generation_references": [
+        {
+          "sha256": "fb671cdcfeae7420aef4ea2de44a3914f15c658f9608fe3a1fef1a4d24c399a4"
+        },
+        {
+          "sha256": "94eb244d5c11588b4e0ac320e468ed41cb658736beebd1842be6c5e36df09ce6"
+        },
+        {
+          "sha256": "d27a459bbb367dfeb4475da90b1be97725baea210fd485f679f77cc8e5b3d2be"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "cee6da21fa91bdf684df13aba5c259d050db1b28764d5e70f771bb7e5e53e6c5"
+      },
+      "raw": {
+        "sha256": "a0feb5730a731b03336365cb8e146fc90ba7ef50db6c013767638dbc29c93102"
+      },
+      "prompt": "Use case: style-transfer. Convert the attached single monster illustration into a crisp 128x128 game pixel sprite of EXACTLY the same individual, direction and pose. Three amber jelly spheres stacked, largest flattened bottom, medium bend and smallest top unchanged. Milky ivory lower half on each sphere. Preserve exact eye visibility and placement from reference: never add eyes to a hidden face. Preserve contours, overlap, center offsets and camera. Limited amber/cream/dark plum palette, hard square pixel clusters, binary alpha transparent background, no antialiasing, no text, no ground or shadow. One full-body centered sprite with ample transparent margins. Target direction NW.",
+      "generation_references": [
+        {
+          "sha256": "1bceda949e30aea62b6a84ae13288af15cbde1a97b7996ff839145988306b78a"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "0074f5b47b24633d6eb29c20d916a7887bf6fedb0e8a6331132798561f694c5a"
+      },
+      "raw": {
+        "sha256": "d27a459bbb367dfeb4475da90b1be97725baea210fd485f679f77cc8e5b3d2be"
+      },
+      "prompt": "Use case: identity-preserve. Game monster turntable, same individual as reference. Three soft amber jelly spheres stacked vertically: flattened largest bottom, medium sphere shifted toward the creature's own right side (image-left in a frontal view), smallest top centered over the base. Exactly two dark plum oval eyes fixed on the front of the TOP sphere only. Every sphere has a milky ivory lower half, glossy amber upper half, same painted highlights and fine plum contour as reference. No arms, legs, mouth, tail, sticks or extra sphere. Rotate whole creature rigidly around vertical axis; keep the reference's low camera elevation and proportions, do not tilt camera or reshape pose. Transparent background, one centered full-body character, no ground shadow, no text. 1024 square. Target N: straight rear view, yaw180 from frontal. Both eyes are fully hidden behind the top sphere. The middle sphere shifts screen-right because this is the back view. Bottom and top spheres remain aligned. Milky lower halves wrap fully around.",
+      "generation_references": [
+        {
+          "sha256": "fb671cdcfeae7420aef4ea2de44a3914f15c658f9608fe3a1fef1a4d24c399a4"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "9095089a535d36b011408cc5f47c37bbeb525c7f22a15886d50d7bfcf07d2d70"
+      },
+      "raw": {
+        "sha256": "76db35841c8b95cc24b4864787ad9b14e72437f2bb35dbadd08eb5d9ae6034cb"
+      },
+      "prompt": "Use case: style-transfer. Convert the attached single monster illustration into a crisp 128x128 game pixel sprite of EXACTLY the same individual, direction and pose. Three amber jelly spheres stacked, largest flattened bottom, medium bend and smallest top unchanged. Milky ivory lower half on each sphere. Preserve exact eye visibility and placement from reference: never add eyes to a hidden face. Preserve contours, overlap, center offsets and camera. Limited amber/cream/dark plum palette, hard square pixel clusters, binary alpha transparent background, no antialiasing, no text, no ground or shadow. One full-body centered sprite with ample transparent margins. Target direction N.",
+      "generation_references": [
+        {
+          "sha256": "d27a459bbb367dfeb4475da90b1be97725baea210fd485f679f77cc8e5b3d2be"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "e80dea64b894389c94b4532fb9f7f330f075e60ef26a54f495a6e6dfbe640120"
+      },
+      "raw": {
+        "sha256": "f4609cefd6f5d4f89d76a476ab5ae1d4f5e26f8a774aac565b72373b4d6f69ff"
+      },
+      "prompt": "Use case: identity-preserve. Game monster turntable, same individual as reference. Three soft amber jelly spheres stacked vertically: flattened largest bottom, medium sphere shifted toward the creature's own right side (image-left in a frontal view), smallest top centered over the base. Exactly two dark plum oval eyes fixed on the front of the TOP sphere only. Every sphere has a milky ivory lower half, glossy amber upper half, same painted highlights and fine plum contour as reference. No arms, legs, mouth, tail, sticks or extra sphere. Rotate whole creature rigidly around vertical axis; keep the reference's low camera elevation and proportions, do not tilt camera or reshape pose. Transparent background, one centered full-body character, no ground shadow, no text. 1024 square. Target NE: rear-right three-quarter, yaw225, front points screen-right and away. Eyes hidden naturally around far-right curvature of top sphere. Middle sphere slightly screen-right of aligned base/top. Reference1 is original front-right SE identity; reference2 left profile and reference3 rear establish the same fixed body geometry.",
+      "generation_references": [
+        {
+          "sha256": "fb671cdcfeae7420aef4ea2de44a3914f15c658f9608fe3a1fef1a4d24c399a4"
+        },
+        {
+          "sha256": "94eb244d5c11588b4e0ac320e468ed41cb658736beebd1842be6c5e36df09ce6"
+        },
+        {
+          "sha256": "d27a459bbb367dfeb4475da90b1be97725baea210fd485f679f77cc8e5b3d2be"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "80afd5ddf68521c8d6b7c9d3e2d6c68d15fe9859835e9e19286cd65c9ed333ad"
+      },
+      "raw": {
+        "sha256": "375d752db10d32dc01137771d1f0b3cd58eeb41a800e5b38b0212026c43a7ffc"
+      },
+      "prompt": "Use case: style-transfer. Convert the attached single monster illustration into a crisp 128x128 game pixel sprite of EXACTLY the same individual, direction and pose. Three amber jelly spheres stacked, largest flattened bottom, medium bend and smallest top unchanged. Milky ivory lower half on each sphere. Preserve exact eye visibility and placement from reference: never add eyes to a hidden face. Preserve contours, overlap, center offsets and camera. Limited amber/cream/dark plum palette, hard square pixel clusters, binary alpha transparent background, no antialiasing, no text, no ground or shadow. One full-body centered sprite with ample transparent margins. Target direction NE.",
+      "generation_references": [
+        {
+          "sha256": "f4609cefd6f5d4f89d76a476ab5ae1d4f5e26f8a774aac565b72373b4d6f69ff"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "0e4e7ca026a9ad6109600517abcecdadb8ed624c059f637479adb00040a8f882"
+      },
+      "raw": {
+        "sha256": "89d07e9de47b7ebe578d64cc9a09f928cf9ec53e22b14234bf01e4e99bb82771"
+      },
+      "prompt": "Use case: identity-preserve. Game monster turntable, same individual as reference. Three soft amber jelly spheres stacked vertically: flattened largest bottom, medium sphere shifted toward the creature's own right side (image-left in a frontal view), smallest top centered over the base. Exactly two dark plum oval eyes fixed on the front of the TOP sphere only. Every sphere has a milky ivory lower half, glossy amber upper half, same painted highlights and fine plum contour as reference. No arms, legs, mouth, tail, sticks or extra sphere. Rotate whole creature rigidly around vertical axis; keep the reference's low camera elevation and proportions, do not tilt camera or reshape pose. Transparent background, one centered full-body character, no ground shadow, no text. 1024 square. Target E: exact right-facing side profile, yaw270. One near eye on top sphere's screen-right edge, far eye hidden. Middle sphere's lateral bend foreshortened into depth, all three centers nearly vertically aligned. Reference1 is original front-right SE identity; reference2 left profile and reference3 rear establish the same fixed body geometry.",
+      "generation_references": [
+        {
+          "sha256": "fb671cdcfeae7420aef4ea2de44a3914f15c658f9608fe3a1fef1a4d24c399a4"
+        },
+        {
+          "sha256": "94eb244d5c11588b4e0ac320e468ed41cb658736beebd1842be6c5e36df09ce6"
+        },
+        {
+          "sha256": "d27a459bbb367dfeb4475da90b1be97725baea210fd485f679f77cc8e5b3d2be"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "6e14d933fc9b90f8a546de8675f5124c178c5d0f8074fdd5535d0f91d9634925"
+      },
+      "raw": {
+        "sha256": "e6b49492aee6c918b18c2c02b918cf972f7ab31e50a6be9d274e45bff9b74ef6"
+      },
+      "prompt": "Use case: style-transfer. Convert the attached single monster illustration into a crisp 128x128 game pixel sprite of EXACTLY the same individual, direction and pose. Three amber jelly spheres stacked, largest flattened bottom, medium bend and smallest top unchanged. Milky ivory lower half on each sphere. Preserve exact eye visibility and placement from reference: never add eyes to a hidden face. Preserve contours, overlap, center offsets and camera. Limited amber/cream/dark plum palette, hard square pixel clusters, binary alpha transparent background, no antialiasing, no text, no ground or shadow. One full-body centered sprite with ample transparent margins. Target direction E.",
+      "generation_references": [
+        {
+          "sha256": "89d07e9de47b7ebe578d64cc9a09f928cf9ec53e22b14234bf01e4e99bb82771"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "fb671cdcfeae7420aef4ea2de44a3914f15c658f9608fe3a1fef1a4d24c399a4"
+      },
+      "original_preserved": true,
+      "source": {
+        "sha256": "fb671cdcfeae7420aef4ea2de44a3914f15c658f9608fe3a1fef1a4d24c399a4"
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "b687a79b2390cae3764835f7b7f66295c72ef7ddc6b5e3f54eff8e0fee2bf8ad"
+      },
+      "original_preserved": true,
+      "source": {
+        "sha256": "b687a79b2390cae3764835f7b7f66295c72ef7ddc6b5e3f54eff8e0fee2bf8ad"
+      }
+    }
+  ]
+}
