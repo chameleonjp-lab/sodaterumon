@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "sm-scaled-017",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-scaled-017-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-scaled-017 / ツヅミュラ / 鱗体 (scaled)\nBody and exact anatomy: 幅広い前後2体節と細い中央1体節の計3体節。脚8、腕0、目2、翼0、尾0。前後の大体節に脚2対ずつ。\nMaterials and biological motif: 織物風の横長うろこ。中央の細い体節には大きな帯状うろこ2枚。\nPrimary, secondary, accent colors respectively: #C3A3AC; #D8D9A9; #675B70\nThree mandatory visual identifiers: 横倒しの砂時計形をつくる3体節; 前後の大体節に短脚4本ずつ; 中央のくびれを巻く太帯うろこ2枚\nPose: 前後の胴を同じ高さに保ち、片側の脚を少し曲げる。\nTemperament to convey through expression or posture: 協調的。細い枝の上でバランスを取りながら歩く。. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 胴を縦に立てる人型姿勢; 中央体節の脚; くびれを隠す甲羅\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-scaled-017-default-attempt002-prompt": "Use case: precise-object-edit\nInput image 1 is the edit target sm-scaled-017 new candidate. Correct the leg count and visibility only. The creature requires exactly EIGHT short legs, FOUR attached to the large front body segment and FOUR attached to the large rear body segment, arranged as two pairs on each large segment. The current view shows only three per large segment. Add or reveal the missing far-side leg of each large segment by slightly separating their poses so all eight distinct feet can be counted. No leg may attach to the narrow central segment. Preserve the three body segments, horizontal hourglass silhouette, front and rear at equal height, exactly two broad belt scales around the central narrow segment, two eyes, zero arms, zero wings, zero tails, woven horizontally long scales, muted dusty rose #C3A3AC, pale cream #D8D9A9, purple #675B70 roles, all other proportions and current facing. Keep one side's legs slightly bent. Do not turn the body upright, hide the waist, or invent new features. Full body centered on genuine transparent background with clear padding, no ground, cast shadow or scenery.",
+      "sm-scaled-017-default-attempt003-prompt": "Use case: precise-object-edit\nInput image 1 is the exact edit target sm-scaled-017 new normal002. Change only lighting/shading into restrained three-step cel shading: a flat base, one clear shadow and one light region per material color, without continuous smooth gradients. Keep the woven-scale texture as light material detail, not extra lighting bands. Preserve all eight separately visible short legs (four front, four rear), no central legs, the three horizontal hourglass body segments, exactly two large belt scales at the narrow waist, two eyes, no arms/wings/tails, all scale shapes, pose and muted dusty-rose/cream/purple palette. No new motifs or features. Genuine transparent background, full body, clear padding, no ground or cast shadow.",
+      "sm-scaled-017-default-attempt004-prompt": "Use case: precise-object-edit\nInput image 1 is sm-scaled-017 normal003. Correct only palette and subtle woven material detail. Return the base colors to muted dusty rose #C3A3AC, pale low-saturation cream #D8D9A9 and muted purple #675B70, keeping their existing placements. Avoid brighter candy pink and warm yellow. Restore faint fine crosswoven fibers running horizontally and vertically across the broad scales and waist bands, without adding anatomy or extra lighting bands. Preserve current clear three-step cel shading, eight separate legs four on each broad segment and none central, two eyes, three horizontal hourglass body segments, two waist belt scales, no arms/wings/tail, pose, scale outlines and all other proportions. Genuine transparent background, full body, clear padding, no backdrop or shadow.",
+      "sm-scaled-017-default-attempt005-prompt": "Use case: precise-object-edit\nInput image 1 is sm-scaled-017 approved normal004. Correct only the front endpoint's viewing angle and eye readability. Turn only the face-bearing front endpoint more toward the viewer so BOTH eyes are fully visible, similar in apparent size, entirely inside its outer silhouette. Leave a clearly visible body-colored margin around each eye, particularly between the far eye and the outer contour. Exactly two eyes, on the same existing front endpoint, never on the rear. This needs to remain unambiguous when the whole body is reduced to a 108-pixel-long sprite. Preserve three horizontal hourglass segments, eight separate legs four on each broad segment with none on waist, exactly two broad waist belt scales, woven overlapping scales, no tail/arms/wings, muted dusty rose/cream/purple. Preserve body proportions, all limbs, existing material and three-step soft cel shading. Do not add or remove body parts. Full body on genuine transparent background, generous clear padding, no text, scenery or cast shadow.",
+      "sm-scaled-017-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-scaled-017; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-scaled-017 / ツヅミュラ / 鱗体 (scaled)\nLocked body and anatomy: 幅広い前後2体節と細い中央1体節の計3体節。脚8、腕0、目2、翼0、尾0。前後の大体節に脚2対ずつ。\nLocked material cues: 織物風の横長うろこ。中央の細い体節には大きな帯状うろこ2枚。\nLocked palette roles, primary/secondary/accent: #C3A3AC; #D8D9A9; #675B70\nAll three identifiers must remain recognizable: 横倒しの砂時計形をつくる3体節; 前後の大体節に短脚4本ずつ; 中央のくびれを巻く太帯うろこ2枚\nLocked pose: 前後の胴を同じ高さに保ち、片側の脚を少し曲げる。\nLocked temperament/expression: 協調的。細い枝の上でバランスを取りながら歩く。. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 胴を縦に立てる人型姿勢; 中央体節の脚; くびれを隠す甲羅\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n",
+      "sm-scaled-017-pixel-attempt002-prompt": "Use case: precise-object-edit\nInput image 1 is the exact independently generated pixel-art edit target sm-scaled-017 pixel001. Correct only the two eyes' readability on the intended 128x128 logical grid. Keep exactly two eyes and their existing relative placement, but make each a separate compact dark eye cluster with the small pale highlight from the approved normal design. Leave at least one body-colored logical pixel between the far eye and the external dark outline, so it is visibly an eye rather than a continuation of the contour. Do not merge the two eyes. Simplify stray tiny color dots immediately around the eyes if necessary for clear clusters, without changing the scales elsewhere. Keep all body contours, limb counts and locations, pose, palette roles, texture, and other structures unchanged. Use authentic crisp pixel clusters, one-to-two logical pixel outline, <=32 visible colors, no blur, no antialiasing, no smooth gradients, no new anatomical features. Genuine transparent background, full body centered with clear padding.",
+      "sm-scaled-017-pixel-attempt003-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-scaled-017; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-scaled-017 / ツヅミュラ / 鱗体 (scaled)\nLocked body and anatomy: 幅広い前後2体節と細い中央1体節の計3体節。脚8、腕0、目2、翼0、尾0。前後の大体節に脚2対ずつ。\nLocked material cues: 織物風の横長うろこ。中央の細い体節には大きな帯状うろこ2枚。\nLocked palette roles, primary/secondary/accent: #C3A3AC; #D8D9A9; #675B70\nAll three identifiers must remain recognizable: 横倒しの砂時計形をつくる3体節; 前後の大体節に短脚4本ずつ; 中央のくびれを巻く太帯うろこ2枚\nLocked pose: 前後の胴を同じ高さに保ち、片側の脚を少し曲げる。\nLocked temperament/expression: 協調的。細い枝の上でバランスを取りながら歩く。. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 胴を縦に立てる人型姿勢; 中央体節の脚; くびれを隠す甲羅\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n\nCritical eye placement and readability: both eyes belong ONLY on the front body segment at image-right, matching this normal reference. The rear body segment at image-left has NO eyes or eye-like dots. Show exactly two clearly recognizable compact dark eye clusters on the right front body, each with the existing pale highlight, and keep at least one body-color logical pixel separating the far eye from the outer outline. Group scales into readable larger clusters around the face so the two eyes do not disappear in texture. Preserve all eight legs and the two waist bands.\n",
+      "sm-scaled-017-pixel-attempt004-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-scaled-017; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-scaled-017 / ツヅミュラ / 鱗体 (scaled)\nLocked body and anatomy: 幅広い前後2体節と細い中央1体節の計3体節。脚8、腕0、目2、翼0、尾0。前後の大体節に脚2対ずつ。\nLocked material cues: 織物風の横長うろこ。中央の細い体節には大きな帯状うろこ2枚。\nLocked palette roles, primary/secondary/accent: #C3A3AC; #D8D9A9; #675B70\nAll three identifiers must remain recognizable: 横倒しの砂時計形をつくる3体節; 前後の大体節に短脚4本ずつ; 中央のくびれを巻く太帯うろこ2枚\nLocked pose: 前後の胴を同じ高さに保ち、片側の脚を少し曲げる。\nLocked temperament/expression: 協調的。細い枝の上でバランスを取りながら歩く。. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 胴を縦に立てる人型姿勢; 中央体節の脚; くびれを隠す甲羅\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n\nCritical eye placement and readability: both eyes belong ONLY on the front body segment at image-right, matching this normal reference. The rear body segment at image-left has NO eyes or eye-like dots. Show exactly two clearly recognizable compact dark eye clusters on the right front body, each with the existing pale highlight, and keep at least one body-color logical pixel separating the far eye from the outer outline. Group scales into readable larger clusters around the face so the two eyes do not disappear in texture. Preserve all eight legs and the two waist bands.\n\nThe sole reference is now the independently approved normal005, whose front end has been turned more toward the viewer. Preserve this NEW front-facing eye placement, with exactly TWO distinct dark eyes fully inside the face, a visible body-color margin separating the far eye from the silhouette. Do not reuse earlier side-on eye placement. Keep every catalog body count unchanged."
+    },
+    "reference_default_sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-scaled-017-default-attempt001-original.png",
+          "bytes": 1319973,
+          "sha256": "b4570edd1c87f69a26a09780fa3e5a63a2fa824f9279dc309c4303c8ae7417fb",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-scaled-017-default-attempt002-original.png",
+          "bytes": 1076641,
+          "sha256": "c0df847e53a83aec1770997164b2b5a0527723728c24eea5d7e39cef2a829cf6",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-scaled-017-default-attempt003-original.png",
+          "bytes": 961224,
+          "sha256": "d567baba929cba6e3ffa53c1c79bd3e9fdc0dfd8367eb891be409d521bfc5270",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-scaled-017-default-attempt004-original.png",
+          "bytes": 889229,
+          "sha256": "e01faf5f6c5db43feab58f05fb277d9d7fb0b8cc6067e51b2e39900cc00ea9c3",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-scaled-017-default-attempt005-original.png",
+          "bytes": 1003011,
+          "sha256": "7c4ae1b27078a27778582fec7a2b845b10b27673193de3e9165520ffab4a558f",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-scaled-017-pixel-attempt001-original.png",
+          "bytes": 1590196,
+          "sha256": "d47ac8433fcd0217c1f0b5c476d907c8058c9788968f3817ce19b2378fade3ff",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-scaled-017-pixel-attempt002-original.png",
+          "bytes": 623932,
+          "sha256": "e215609a48a08da1456024b9ebb55584753b0ef6d234e90b68289e66579c766f",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-scaled-017-pixel-attempt003-original.png",
+          "bytes": 1525206,
+          "sha256": "94a37b228ace07b44f91b573777cb677359b21a8c740d2d370e4edf1afa07225",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-scaled-017-pixel-attempt004-original.png",
+          "bytes": 1483825,
+          "sha256": "1dd2367b8a51c414e3677aaa510bd55fb24d83d342ee4f1a6f3925d4e3f9e244",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/scaled/sm-scaled-017/default.png",
+      "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01",
+      "bytes": 554658,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        281,
+        944,
+        743
+      ],
+      "transparent_margins": [
+        80,
+        281,
+        80,
+        281
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/scaled/sm-scaled-017/pixel.png",
+      "sha256": "083f64fee5d7f0760f2859b9cb435f35f97c7295441a18c99cd286c7bb89eba6",
+      "bytes": 10525,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        35,
+        118,
+        93
+      ],
+      "transparent_margins": [
+        10,
+        35,
+        10,
+        35
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
