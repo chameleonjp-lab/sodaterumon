@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-023",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-mineral-023-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-mineral-023 / フタマキロ / 硬体 (mineral)\nBody and exact anatomy: 体幹2節の厚い渦巻き石板が斜めにつながる形。脚4本、目2個、翼0枚、尾1本。前節は小さく後節は大きい\nMaterials and biological motif: 渦状に固まった珪質の薄層。濡れた岩面をゆっくり歩き、細粒をふちへ寄せる\nPrimary, secondary, accent colors respectively: #C7A18A; #879BAA; #EBDEA4\nThree mandatory visual identifiers: 前節の渦は時計回り、後節は反時計回り; 二つの目は前節の外縁に並ぶ; 尾は後節の外端が短く直線状に伸びたもの\nPose: 二つの渦を正面寄りに見せ、四脚で低く立つ\nTemperament to convey through expression or posture: おっとり。濡れた面では歩幅を小さくする. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 渦を貝殻に変えない; 二つの渦を同じ向きにしない; 尾の先に別の渦を追加しない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-mineral-023-default-attempt002-prompt": "Use case: precise-object-edit. Correct two catalog errors in this sm-mineral-023 normal illustration. First preserve the SMALL FRONT spiral's CLOCKWISE direction when traced from its center outward, but reverse ONLY the LARGE REAR spiral to COUNTERCLOCKWISE when traced from its center outward. They must clearly wind in opposite directions. Keep each spiral as thick layered stone, not a shell. Second reveal the missing fourth stone leg, so exactly FOUR independent rooted support legs can be counted without overlap, two at the front region and two at the rear; do not add a fifth. Preserve exactly two thick spiral stone-plate segments joined diagonally, front smaller and rear larger, exactly two eyes together on the front segment's outer rim, no wings, exactly one short STRAIGHT tail formed by the rear plate's outer end with no extra spiral. Same original creature identity, pose showing both spiral faces, palette #C7A18A #879BAA #EBDEA4, silica stone layer texture, clear colored dark contours, restrained THREE-step cel main shading. Single full creature centered on genuine transparent background with ample clear margins, 1024 square, no ground/scenery/text.\n",
+      "sm-mineral-023-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-mineral-023; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-mineral-023 / フタマキロ / 硬体 (mineral)\nLocked body and anatomy: 体幹2節の厚い渦巻き石板が斜めにつながる形。脚4本、目2個、翼0枚、尾1本。前節は小さく後節は大きい\nLocked material cues: 渦状に固まった珪質の薄層。濡れた岩面をゆっくり歩き、細粒をふちへ寄せる\nLocked palette roles, primary/secondary/accent: #C7A18A; #879BAA; #EBDEA4\nAll three identifiers must remain recognizable: 前節の渦は時計回り、後節は反時計回り; 二つの目は前節の外縁に並ぶ; 尾は後節の外端が短く直線状に伸びたもの\nLocked pose: 二つの渦を正面寄りに見せ、四脚で低く立つ\nLocked temperament/expression: おっとり。濡れた面では歩幅を小さくする. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 渦を貝殻に変えない; 二つの渦を同じ向きにしない; 尾の先に別の渦を追加しない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n\nSpiral interpretation for this candidate: trace each groove from outer edge toward its center. The front spiral is clockwise and rear spiral counterclockwise under that convention. Preserve the two opposite winding shapes exactly as the reference; do not reverse or mirror either spiral. The catalog does not define tracing direction, so this is an explicitly documented candidate interpretation, not a change to the catalog.\n"
+    },
+    "reference_default_sha256": "a17581a75f1c1f0a1686e0f413934631b525a6390e0517f281b5f5fa31ae91c0",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-mineral-023-default-attempt001-original.png",
+          "bytes": 1428785,
+          "sha256": "8a15a05ebd2fdb1674af3e8410666e2c9e900fb7a1568a6bb2173db81e368224",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-023-default-attempt002-original.png",
+          "bytes": 1198340,
+          "sha256": "430143245d5191ce27104d20d7e9ec1448abaf494206955f127f1cd1f9548755",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-mineral-023-pixel-attempt001-original.png",
+          "bytes": 924996,
+          "sha256": "6daaccb2f6f164dd98b6fad609826dcee28e444598e8fa9cfc4b826591c89998",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/mineral/sm-mineral-023/default.png",
+      "sha256": "a17581a75f1c1f0a1686e0f413934631b525a6390e0517f281b5f5fa31ae91c0",
+      "bytes": 741133,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        209,
+        944,
+        815
+      ],
+      "transparent_margins": [
+        80,
+        209,
+        80,
+        209
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/mineral/sm-mineral-023/pixel.png",
+      "sha256": "e3315c6446ebbd603eb7294b4537b6361376affa4b539a206176d7ff9317a9c5",
+      "bytes": 10697,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        26,
+        118,
+        101
+      ],
+      "transparent_margins": [
+        10,
+        26,
+        10,
+        27
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "conditional_pass",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "渦は外周から中心へ追跡すると前時計回り・後反時計回り。中心から外周なら両方反転します。カタログに追跡方向の定義がないため、この解釈内の条件付き候補で、最終方向仕様と本人採用は未確定です。",
+      "128pxで眼は前縁の小さな2点、4本目の奥脚は後節下の小さい脚として識別できます。",
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
