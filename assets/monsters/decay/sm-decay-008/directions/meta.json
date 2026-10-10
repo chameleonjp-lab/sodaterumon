@@ -1,0 +1,860 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-008",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/decay/sm-decay-008/default.png",
+      "sha256": "692bdca38955f53ca08453a95c0c5134939d2a0edceba9ff4a82c0d4033aec78",
+      "git_blob_sha": "2df22a371bc90927c10505b1b333bf11c3cfb311",
+      "bytes": 345801
+    },
+    "pixel": {
+      "path": "assets/monsters/decay/sm-decay-008/pixel.png",
+      "sha256": "93f6561b9faf661bdf30a247317dc4c99af452809375034c05b90f93bd452e0c",
+      "git_blob_sha": "4eccbbd8d50e328a1b338701ef1a2417659e91b9",
+      "bytes": 6994
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-008/directions/S/default.png",
+      "sha256": "ba86a5621305e905c2e40b9798c657a8023dbe4a7004e9b8b9e5760d293f925d",
+      "bytes": 298870,
+      "git_blob_sha": "2bbbe43fb1b3eba348ab98f21c471633239dffe8",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          248,
+          928,
+          776
+        ],
+        "margins": [
+          96,
+          248,
+          96,
+          248
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 49853,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-008/directions/S/pixel.png",
+      "sha256": "ccd0a9956d066ea143dd7427c173fc1053a91a3d50609eaf1ab3a6f9d688dac7",
+      "bytes": 5364,
+      "git_blob_sha": "cb54768660cbf3eb8052fe0c94c2a94e0d34deec",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          30,
+          116,
+          98
+        ],
+        "margins": [
+          12,
+          30,
+          12,
+          30
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "ba86a5621305e905c2e40b9798c657a8023dbe4a7004e9b8b9e5760d293f925d"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-008/directions/SW/default.png",
+      "sha256": "b7891a8a65bc0ec44e3eaf9baf4b0253a2ea30607e2c2a9ba98d1a5de00b79a7",
+      "bytes": 384662,
+      "git_blob_sha": "488b8d7d6fdf1d58d9d4063f7bab9b3b7c86f80f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          186,
+          928,
+          837
+        ],
+        "margins": [
+          96,
+          186,
+          96,
+          187
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 55184,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-008/directions/SW/pixel.png",
+      "sha256": "8a8a6aeb085d8a1fb2a4274f0cc4c4b061eaa3265e7eda16ca1c19df766707d4",
+      "bytes": 6028,
+      "git_blob_sha": "32e722261133a4afdf0314bfeddde91669154fe2",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          24,
+          116,
+          103
+        ],
+        "margins": [
+          12,
+          24,
+          12,
+          25
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 29,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "b7891a8a65bc0ec44e3eaf9baf4b0253a2ea30607e2c2a9ba98d1a5de00b79a7"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-008/directions/W/default.png",
+      "sha256": "a906881352d56b9483778a317da9c40e762f962f7fc28f0582b1802b7aa86091",
+      "bytes": 332766,
+      "git_blob_sha": "8db713e77388014c99f87fc02c05fb7c48b61a25",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          253,
+          928,
+          771
+        ],
+        "margins": [
+          96,
+          253,
+          96,
+          253
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 55332,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-008/directions/W/pixel.png",
+      "sha256": "a11904443c44ec5d8ce3b106511165c4d403f21d2317ca0020343e7591ff0720",
+      "bytes": 4831,
+      "git_blob_sha": "0e741e31987c18ad92556e4c9831c01283a93aa9",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          30,
+          116,
+          97
+        ],
+        "margins": [
+          12,
+          30,
+          12,
+          31
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "a906881352d56b9483778a317da9c40e762f962f7fc28f0582b1802b7aa86091"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-008/directions/NW/default.png",
+      "sha256": "c2362d475dfacdc5687764d9b168d444cff868f1326aa60d0180b2eb2dbe0c79",
+      "bytes": 346209,
+      "git_blob_sha": "23a76e292af4aaa9543f91c53da3183c3794d10a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          265,
+          928,
+          759
+        ],
+        "margins": [
+          96,
+          265,
+          96,
+          265
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 51704,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-008/directions/NW/pixel.png",
+      "sha256": "c65cce7bba45d3dfc061ca60aaf19842e778786cc79e0c15009e81a8beed7de5",
+      "bytes": 5425,
+      "git_blob_sha": "25efd88f51c3f349a29f4056ad14d28bc17338d3",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          32,
+          116,
+          95
+        ],
+        "margins": [
+          12,
+          32,
+          12,
+          33
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 28,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "c2362d475dfacdc5687764d9b168d444cff868f1326aa60d0180b2eb2dbe0c79"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-008/directions/N/default.png",
+      "sha256": "9042ef0449dd5715e15135659355624f2bf7b933b71f81cab3a1ff7787ad4989",
+      "bytes": 282814,
+      "git_blob_sha": "09cd05f19ae7ec8d1743debf813fed29d8605d75",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          287,
+          928,
+          737
+        ],
+        "margins": [
+          96,
+          287,
+          96,
+          287
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 44086,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-008/directions/N/pixel.png",
+      "sha256": "7a51e6f4e9c2c58aa7003e2eeb9ab8509ce3777c41d73ba11483baa1cf60c3c9",
+      "bytes": 5037,
+      "git_blob_sha": "a34a53913ac6bdcedbe39dccf947bd65d8defa0c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          34,
+          116,
+          94
+        ],
+        "margins": [
+          12,
+          34,
+          12,
+          34
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 27,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "9042ef0449dd5715e15135659355624f2bf7b933b71f81cab3a1ff7787ad4989"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-008/directions/NE/default.png",
+      "sha256": "307ebb21cd7086617de8333684b52c3801b15595860999b437998e7fe5362fbc",
+      "bytes": 343671,
+      "git_blob_sha": "8f402f4bdebd939dcbbd007a5190a96af74c57bc",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          240,
+          928,
+          783
+        ],
+        "margins": [
+          96,
+          240,
+          96,
+          241
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 51260,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-008/directions/NE/pixel.png",
+      "sha256": "21828ba849abf1c5d2e771408334325db66dcd56a669863a79d11e3237adb260",
+      "bytes": 5632,
+      "git_blob_sha": "1e24cbac14fe9fe367cda71915c7bbacb537e437",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          28,
+          116,
+          99
+        ],
+        "margins": [
+          12,
+          28,
+          12,
+          29
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "307ebb21cd7086617de8333684b52c3801b15595860999b437998e7fe5362fbc"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-008/directions/E/default.png",
+      "sha256": "4f4c363874f34f519148698cb90587e3f42af40c0761bb1ee8c264b3f2a30915",
+      "bytes": 305426,
+      "git_blob_sha": "26e4ae0406a2e7af945515f36ccc2c722cadf8ea",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          250,
+          928,
+          773
+        ],
+        "margins": [
+          96,
+          250,
+          96,
+          251
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 51051,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-008/directions/E/pixel.png",
+      "sha256": "2e1a6dc75140276d277e7377deb8396929f804ec7984c4d88b9d0339ba82c24e",
+      "bytes": 4972,
+      "git_blob_sha": "eb573f9d8f35e3ab7b05de74e61e3d09509359a9",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          28,
+          116,
+          99
+        ],
+        "margins": [
+          12,
+          28,
+          12,
+          29
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 28,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "4f4c363874f34f519148698cb90587e3f42af40c0761bb1ee8c264b3f2a30915"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-008/default.png",
+      "sha256": "692bdca38955f53ca08453a95c0c5134939d2a0edceba9ff4a82c0d4033aec78",
+      "bytes": 345801,
+      "git_blob_sha": "2df22a371bc90927c10505b1b333bf11c3cfb311",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          196,
+          944,
+          827
+        ],
+        "margins": [
+          80,
+          196,
+          80,
+          197
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 50220,
+        "alpha_value_count": 249,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-008/pixel.png",
+      "sha256": "93f6561b9faf661bdf30a247317dc4c99af452809375034c05b90f93bd452e0c",
+      "bytes": 6994,
+      "git_blob_sha": "4eccbbd8d50e328a1b338701ef1a2417659e91b9",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          23,
+          118,
+          104
+        ],
+        "margins": [
+          10,
+          23,
+          10,
+          24
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "692bdca38955f53ca08453a95c0c5134939d2a0edceba9ff4a82c0d4033aec78"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "N v3 replaces earlier excessive-overhead quality-HOLD versions, which remain preserved. Exact fixed camera elevation and 3D wing curvature remain inferred; in-game/final acceptance pending.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "ba86a5621305e905c2e40b9798c657a8023dbe4a7004e9b8b9e5760d293f925d"
+      },
+      "adopted_raw": {
+        "sha256": "b27efb38d08c7e00d4bb6fe9dcd4f52aa4fdaeeb53b40286b46aca8fa5689229",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. Create ONE transparent 1024 square sprite of the exact reference leaf glider rotated in 3D to S: direct front, blunt V-grooved front tip nearest bottom center with two balanced side eyes, long body recedes backward, two long sickle wings spread left and right then sweep backward. Preserve one elongated boat body length three times height, exactly four small bent legs, two side eyes at blunt front, exactly two LONG NARROW sickle-shaped leaf wings attached to rear half, spreading sideways then bending backward, no tail. Each wing width about quarter length, smooth outer edge and one thick pale curved vein near inner edge. One shallow V groove on thick front tip. Preserve rust #C57B56 olive #828C57 cream #EED5A7 mottled fallen-leaf membrane, same proportions and clean shaded illustration. Same low gliding pose and fixed camera elevation, rotate whole body and wing roots together, no new anatomy or feathers. Natural partial occlusion allowed, never add or remove physical wings/legs. Full silhouette centered with 10% transparent margin, no text, ground, shadow or props.\n",
+      "generation_references": [
+        {
+          "sha256": "692bdca38955f53ca08453a95c0c5134939d2a0edceba9ff4a82c0d4033aec78",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "ccd0a9956d066ea143dd7427c173fc1053a91a3d50609eaf1ab3a6f9d688dac7"
+      },
+      "adopted_raw": {
+        "sha256": "27ee879ef3d71f01b5602bfb77b9b8af22aeda79f6ad9b48c38e6bde6bce7df1",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Create one pixel-art game sprite of the SAME leaf-wing creature. Image 1 is the exact pose and direction target (S); image 2 is the original pixel style and palette reference only, not the pose. Preserve image 1's orientation, silhouette, elongated boat-leaf body, exactly two long sickle leaf wings with cream inner veins, exactly four short bent legs with natural occlusion, eyes at the blunt front tip only, pointed rear without a tail. Rust orange, olive green and pale cream original palette. Crisp deliberate pixel clusters on a true 128x128 grid, no antialiasing, no blur, max 32 colors, binary transparent alpha. Full body centered with generous transparent margin. Only one creature, no text, no ground or shadow. Match the image 1 camera and body-part positions; do not revert to image 2's direction.\n",
+      "generation_references": [
+        {
+          "sha256": "b27efb38d08c7e00d4bb6fe9dcd4f52aa4fdaeeb53b40286b46aca8fa5689229",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "93f6561b9faf661bdf30a247317dc4c99af452809375034c05b90f93bd452e0c",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "b7891a8a65bc0ec44e3eaf9baf4b0253a2ea30607e2c2a9ba98d1a5de00b79a7"
+      },
+      "adopted_raw": {
+        "sha256": "18136e5246a43878fe57197f604d6309eda843e3aaa469b030685dd739f57c24",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. Create ONE transparent 1024 square sprite of the exact reference leaf glider rotated in 3D to SW: front-left three-quarter, blunt nose lower-left nearest, pointed rear upper-right, wings spread from rear half then sweep backward. Preserve one elongated boat body length three times height, exactly four small bent legs, two side eyes at blunt front, exactly two LONG NARROW sickle-shaped leaf wings attached to rear half, spreading sideways then bending backward, no tail. Each wing width about quarter length, smooth outer edge and one thick pale curved vein near inner edge. One shallow V groove on thick front tip. Preserve rust #C57B56 olive #828C57 cream #EED5A7 mottled fallen-leaf membrane, same proportions and clean shaded illustration. Same low gliding pose and fixed camera elevation, rotate whole body and wing roots together, no new anatomy or feathers. Natural partial occlusion allowed, never add or remove physical wings/legs. Full silhouette centered with 10% transparent margin, no text, ground, shadow or props.\n",
+      "generation_references": [
+        {
+          "sha256": "692bdca38955f53ca08453a95c0c5134939d2a0edceba9ff4a82c0d4033aec78",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "8a8a6aeb085d8a1fb2a4274f0cc4c4b061eaa3265e7eda16ca1c19df766707d4"
+      },
+      "adopted_raw": {
+        "sha256": "bca8422380fe3acf2908a6c411ff360273ee1bcbf70ddcf7c97a4dfb2cbaa8c1",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Create one pixel-art game sprite of the SAME leaf-wing creature. Image 1 is the exact pose and direction target (SW); image 2 is the original pixel style and palette reference only, not the pose. Preserve image 1's orientation, silhouette, elongated boat-leaf body, exactly two long sickle leaf wings with cream inner veins, exactly four short bent legs with natural occlusion, eyes at the blunt front tip only, pointed rear without a tail. Rust orange, olive green and pale cream original palette. Crisp deliberate pixel clusters on a true 128x128 grid, no antialiasing, no blur, max 32 colors, binary transparent alpha. Full body centered with generous transparent margin. Only one creature, no text, no ground or shadow. Match the image 1 camera and body-part positions; do not revert to image 2's direction.\n",
+      "generation_references": [
+        {
+          "sha256": "18136e5246a43878fe57197f604d6309eda843e3aaa469b030685dd739f57c24",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "93f6561b9faf661bdf30a247317dc4c99af452809375034c05b90f93bd452e0c",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "a906881352d56b9483778a317da9c40e762f962f7fc28f0582b1802b7aa86091"
+      },
+      "adopted_raw": {
+        "sha256": "5a9ad6a572f6f9b4cc8a90b6938b615c964315fa2abe58dd83ff1ca7f21dcbe8",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. Create ONE transparent 1024 square sprite of the exact reference leaf glider rotated in 3D to W: true left side profile, blunt V-grooved nose screen-left, long pointed rear screen-right, near eye visible, two wings overlap in depth naturally. Preserve one elongated boat body length three times height, exactly four small bent legs, two side eyes at blunt front, exactly two LONG NARROW sickle-shaped leaf wings attached to rear half, spreading sideways then bending backward, no tail. Each wing width about quarter length, smooth outer edge and one thick pale curved vein near inner edge. One shallow V groove on thick front tip. Preserve rust #C57B56 olive #828C57 cream #EED5A7 mottled fallen-leaf membrane, same proportions and clean shaded illustration. Same low gliding pose and fixed camera elevation, rotate whole body and wing roots together, no new anatomy or feathers. Natural partial occlusion allowed, never add or remove physical wings/legs. Full silhouette centered with 10% transparent margin, no text, ground, shadow or props.\n",
+      "generation_references": [
+        {
+          "sha256": "692bdca38955f53ca08453a95c0c5134939d2a0edceba9ff4a82c0d4033aec78",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "a11904443c44ec5d8ce3b106511165c4d403f21d2317ca0020343e7591ff0720"
+      },
+      "adopted_raw": {
+        "sha256": "0c7742601769795391ccd0cda56dc189f0380e8534ab0536fd1abecbd74627ad",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Create one pixel-art game sprite of the SAME leaf-wing creature. Image 1 is the exact pose and direction target (W); image 2 is the original pixel style and palette reference only, not the pose. Preserve image 1's orientation, silhouette, elongated boat-leaf body, exactly two long sickle leaf wings with cream inner veins, exactly four short bent legs with natural occlusion, eyes at the blunt front tip only, pointed rear without a tail. Rust orange, olive green and pale cream original palette. Crisp deliberate pixel clusters on a true 128x128 grid, no antialiasing, no blur, max 32 colors, binary transparent alpha. Full body centered with generous transparent margin. Only one creature, no text, no ground or shadow. Match the image 1 camera and body-part positions; do not revert to image 2's direction.\n",
+      "generation_references": [
+        {
+          "sha256": "5a9ad6a572f6f9b4cc8a90b6938b615c964315fa2abe58dd83ff1ca7f21dcbe8",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "93f6561b9faf661bdf30a247317dc4c99af452809375034c05b90f93bd452e0c",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "c2362d475dfacdc5687764d9b168d444cff868f1326aa60d0180b2eb2dbe0c79"
+      },
+      "adopted_raw": {
+        "sha256": "5e9534337caceb2368532d45aaad71da12a91953e54cdab1283022a90b47f662",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. Create ONE transparent 1024 square sprite of the exact reference leaf glider rotated in 3D to NW: rear-left three-quarter, pointed body rear nearest lower-right, blunt nose upper-left away, wings sweep toward anatomical rear. Preserve one elongated boat body length three times height, exactly four small bent legs, two side eyes at blunt front, exactly two LONG NARROW sickle-shaped leaf wings attached to rear half, spreading sideways then bending backward, no tail. Each wing width about quarter length, smooth outer edge and one thick pale curved vein near inner edge. One shallow V groove on thick front tip. Preserve rust #C57B56 olive #828C57 cream #EED5A7 mottled fallen-leaf membrane, same proportions and clean shaded illustration. Same low gliding pose and fixed camera elevation, rotate whole body and wing roots together, no new anatomy or feathers. Natural partial occlusion allowed, never add or remove physical wings/legs. Full silhouette centered with 10% transparent margin, no text, ground, shadow or props.\n",
+      "generation_references": [
+        {
+          "sha256": "692bdca38955f53ca08453a95c0c5134939d2a0edceba9ff4a82c0d4033aec78",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "c65cce7bba45d3dfc061ca60aaf19842e778786cc79e0c15009e81a8beed7de5"
+      },
+      "adopted_raw": {
+        "sha256": "6e56da8ad3994ef3ae68178339010f847a8d9066fed6badf57d8cb9ff8739013",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Create one pixel-art game sprite of the SAME leaf-wing creature. Image 1 is the exact pose and direction target (NW); image 2 is the original pixel style and palette reference only, not the pose. Preserve image 1's orientation, silhouette, elongated boat-leaf body, exactly two long sickle leaf wings with cream inner veins, exactly four short bent legs with natural occlusion, eyes at the blunt front tip only, pointed rear without a tail. Rust orange, olive green and pale cream original palette. Crisp deliberate pixel clusters on a true 128x128 grid, no antialiasing, no blur, max 32 colors, binary transparent alpha. Full body centered with generous transparent margin. Only one creature, no text, no ground or shadow. Match the image 1 camera and body-part positions; do not revert to image 2's direction.\n",
+      "generation_references": [
+        {
+          "sha256": "5e9534337caceb2368532d45aaad71da12a91953e54cdab1283022a90b47f662",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "93f6561b9faf661bdf30a247317dc4c99af452809375034c05b90f93bd452e0c",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "9042ef0449dd5715e15135659355624f2bf7b933b71f81cab3a1ff7787ad4989"
+      },
+      "adopted_raw": {
+        "sha256": "4cedcc34c208f0c665caf7c8aeaba54a945434634f4a1f3c90d0cd92637d83b5"
+      },
+      "prompt": "Use case: identity-preserve. Create corrected N straight REAR view of exact leaf glider in reference1, same low camera as reference2 side view. Rotate only yaw to face directly away. Camera is almost at body height looking horizontally at the POINTED REAR END nearest viewer. Long boat-shaped body recedes directly away and is STRONGLY FORESHORTENED: visible projected body length only about its width, not a long top-down leaf. Far blunt head mostly hidden behind pointed rear/body ridge; eyes naturally hidden. Exactly TWO long narrow sickle leaf wings rooted in rear half stretch left and right and sweep backward toward viewer, foreshortened bases overlap body; preserve their narrow width and cream inner veins. Exactly FOUR short bent legs, near rear pair visible each side and far front pair largely occluded. No tail. Same rust-orange/olive/cream mottled leaf membrane, fine veins, original proportions, gliding posture and painted style. Do not pitch camera overhead or expose whole back surface. One full centered creature, transparent background, no ground shadow/text. Square1024. Reference1 original SE identity, reference2 W fixes low camera; no overhead attempt is a pose reference.",
+      "generation_references": [
+        {
+          "sha256": "692bdca38955f53ca08453a95c0c5134939d2a0edceba9ff4a82c0d4033aec78"
+        },
+        {
+          "sha256": "5a9ad6a572f6f9b4cc8a90b6938b615c964315fa2abe58dd83ff1ca7f21dcbe8"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "7a51e6f4e9c2c58aa7003e2eeb9ab8509ce3777c41d73ba11483baa1cf60c3c9"
+      },
+      "adopted_raw": {
+        "sha256": "3b636d681af8982ddaba70eb9e46a23bc162cf59f48463fd5fd55349304e604b"
+      },
+      "prompt": "Use case: style-transfer. Convert attached corrected N rear-view leaf glider into crisp128x128 pixel sprite, preserve exact same pose, low rear camera, body foreshortening and silhouette. Pointed rear nearest, blunt front farther partly hidden, two long narrow sickle leaf wings with cream inner veins, exactly four bent legs naturally occluded. Rust-orange/olive/cream mottled leaf membrane. Do not elongate body into top-down view, no extra anatomy or eyes. Match attached eye visibility/occlusion. Hard square pixel clusters, limited32colors, binary transparent alpha, no antialiasing text ground shadow. Entire centered creature with transparent margins.",
+      "generation_references": [
+        {
+          "sha256": "4cedcc34c208f0c665caf7c8aeaba54a945434634f4a1f3c90d0cd92637d83b5"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "307ebb21cd7086617de8333684b52c3801b15595860999b437998e7fe5362fbc"
+      },
+      "adopted_raw": {
+        "sha256": "7c0c78057d30cca88643e6f936ea80cdc4e8a6c6b43bb52aab8f5f78a6ca0d88",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. Create ONE transparent 1024 square sprite of the exact reference leaf glider rotated in 3D to NE: rear-right three-quarter, pointed rear nearest lower-left, blunt nose upper-right away, wings sweep toward anatomical rear. Preserve one elongated boat body length three times height, exactly four small bent legs, two side eyes at blunt front, exactly two LONG NARROW sickle-shaped leaf wings attached to rear half, spreading sideways then bending backward, no tail. Each wing width about quarter length, smooth outer edge and one thick pale curved vein near inner edge. One shallow V groove on thick front tip. Preserve rust #C57B56 olive #828C57 cream #EED5A7 mottled fallen-leaf membrane, same proportions and clean shaded illustration. Same low gliding pose and fixed camera elevation, rotate whole body and wing roots together, no new anatomy or feathers. Natural partial occlusion allowed, never add or remove physical wings/legs. Full silhouette centered with 10% transparent margin, no text, ground, shadow or props.\n",
+      "generation_references": [
+        {
+          "sha256": "692bdca38955f53ca08453a95c0c5134939d2a0edceba9ff4a82c0d4033aec78",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "21828ba849abf1c5d2e771408334325db66dcd56a669863a79d11e3237adb260"
+      },
+      "adopted_raw": {
+        "sha256": "701d5239ed73c40de976645c624c6dd193c0d7873a310275c66f419151907e51",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Create one pixel-art game sprite of the SAME leaf-wing creature. Image 1 is the exact pose and direction target (NE); image 2 is the original pixel style and palette reference only, not the pose. Preserve image 1's orientation, silhouette, elongated boat-leaf body, exactly two long sickle leaf wings with cream inner veins, exactly four short bent legs with natural occlusion, eyes at the blunt front tip only, pointed rear without a tail. Rust orange, olive green and pale cream original palette. Crisp deliberate pixel clusters on a true 128x128 grid, no antialiasing, no blur, max 32 colors, binary transparent alpha. Full body centered with generous transparent margin. Only one creature, no text, no ground or shadow. Match the image 1 camera and body-part positions; do not revert to image 2's direction.\n",
+      "generation_references": [
+        {
+          "sha256": "7c0c78057d30cca88643e6f936ea80cdc4e8a6c6b43bb52aab8f5f78a6ca0d88",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "93f6561b9faf661bdf30a247317dc4c99af452809375034c05b90f93bd452e0c",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "4f4c363874f34f519148698cb90587e3f42af40c0761bb1ee8c264b3f2a30915"
+      },
+      "adopted_raw": {
+        "sha256": "5e0988a1d34870786e18af345a6328444438103cdbccf03e18ef5a1f7cd43f91",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. Create ONE transparent 1024 square sprite of the exact reference leaf glider rotated in 3D to E: true right side profile, blunt nose screen-right, pointed rear screen-left, near eye visible, two wings overlap in depth naturally. Preserve one elongated boat body length three times height, exactly four small bent legs, two side eyes at blunt front, exactly two LONG NARROW sickle-shaped leaf wings attached to rear half, spreading sideways then bending backward, no tail. Each wing width about quarter length, smooth outer edge and one thick pale curved vein near inner edge. One shallow V groove on thick front tip. Preserve rust #C57B56 olive #828C57 cream #EED5A7 mottled fallen-leaf membrane, same proportions and clean shaded illustration. Same low gliding pose and fixed camera elevation, rotate whole body and wing roots together, no new anatomy or feathers. Natural partial occlusion allowed, never add or remove physical wings/legs. Full silhouette centered with 10% transparent margin, no text, ground, shadow or props.\n",
+      "generation_references": [
+        {
+          "sha256": "692bdca38955f53ca08453a95c0c5134939d2a0edceba9ff4a82c0d4033aec78",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "2e1a6dc75140276d277e7377deb8396929f804ec7984c4d88b9d0339ba82c24e"
+      },
+      "adopted_raw": {
+        "sha256": "ce486736d6a9b7376a9979ec1e8c9fb26416e1740d74a935168f1f1b61f324f6",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Create one pixel-art game sprite of the SAME leaf-wing creature. Image 1 is the exact pose and direction target (E); image 2 is the original pixel style and palette reference only, not the pose. Preserve image 1's orientation, silhouette, elongated boat-leaf body, exactly two long sickle leaf wings with cream inner veins, exactly four short bent legs with natural occlusion, eyes at the blunt front tip only, pointed rear without a tail. Rust orange, olive green and pale cream original palette. Crisp deliberate pixel clusters on a true 128x128 grid, no antialiasing, no blur, max 32 colors, binary transparent alpha. Full body centered with generous transparent margin. Only one creature, no text, no ground or shadow. Match the image 1 camera and body-part positions; do not revert to image 2's direction.\n",
+      "generation_references": [
+        {
+          "sha256": "5e0988a1d34870786e18af345a6328444438103cdbccf03e18ef5a1f7cd43f91",
+          "role": "actualgenerationnormalreference"
+        },
+        {
+          "sha256": "93f6561b9faf661bdf30a247317dc4c99af452809375034c05b90f93bd452e0c",
+          "role": "pixelstylepalette"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "692bdca38955f53ca08453a95c0c5134939d2a0edceba9ff4a82c0d4033aec78"
+      },
+      "operation": "byte-identical original copy",
+      "original": {
+        "sha256": "692bdca38955f53ca08453a95c0c5134939d2a0edceba9ff4a82c0d4033aec78",
+        "role": "original"
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "93f6561b9faf661bdf30a247317dc4c99af452809375034c05b90f93bd452e0c"
+      },
+      "operation": "byte-identical original copy",
+      "original": {
+        "sha256": "93f6561b9faf661bdf30a247317dc4c99af452809375034c05b90f93bd452e0c",
+        "role": "original"
+      }
+    }
+  ]
+}
