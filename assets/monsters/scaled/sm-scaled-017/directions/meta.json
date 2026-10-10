@@ -1,0 +1,1673 @@
+{
+  "schema_version": 1,
+  "id": "sm-scaled-017",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/scaled/sm-scaled-017/default.png",
+      "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01",
+      "git_blob_sha": "d9d0824439937e5aa6a8025bd75834fa3c79bd92",
+      "bytes": 554658
+    },
+    "pixel": {
+      "path": "assets/monsters/scaled/sm-scaled-017/pixel.png",
+      "sha256": "083f64fee5d7f0760f2859b9cb435f35f97c7295441a18c99cd286c7bb89eba6",
+      "git_blob_sha": "4272164ad1d0c65618893b0f969f12df33095da5",
+      "bytes": 10525
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/S/default.png",
+      "sha256": "6c33bb51405e1d892248b929b885c27d8df1c4b09dc03ac55ef9a96432131caa",
+      "bytes": 752350,
+      "git_blob_sha": "99cac0d545d592e7880c08e5076c35aa2493c79f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          166,
+          928,
+          857
+        ],
+        "margins": [
+          96,
+          166,
+          96,
+          167
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 66694,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/S/pixel.png",
+      "sha256": "55d6d2cf7cb099979b6de4de9c3e06e0ecb9c2c1e1b3c4dd844ff3258ce8bc14",
+      "bytes": 12317,
+      "git_blob_sha": "46b1e82af57c970c33eb401d5f69b126d93c9f9f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          17,
+          116,
+          110
+        ],
+        "margins": [
+          12,
+          17,
+          12,
+          18
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "6c33bb51405e1d892248b929b885c27d8df1c4b09dc03ac55ef9a96432131caa"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/SW/default.png",
+      "sha256": "28f96e6be0c9b53d59593227e70604ef42ad8dffda181776109a207c990b86c1",
+      "bytes": 507347,
+      "git_blob_sha": "b5e11bb13b1302a6fb23dd33e1f995bcb792dad0",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          288,
+          928,
+          736
+        ],
+        "margins": [
+          96,
+          288,
+          96,
+          288
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 63652,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/SW/pixel.png",
+      "sha256": "c7f3aba871a2d1990d341f16ffc1d60267c87a1702205c881e1c2e25a1fa7a8e",
+      "bytes": 8924,
+      "git_blob_sha": "7ad41c14fb7b9529e34805e1d177b05c46adcc43",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          33,
+          116,
+          95
+        ],
+        "margins": [
+          12,
+          33,
+          12,
+          33
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "28f96e6be0c9b53d59593227e70604ef42ad8dffda181776109a207c990b86c1"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/W/default.png",
+      "sha256": "d3cda539a075bec379cea4fee269b942018e16d1aff0cfc66392fac0acac98cb",
+      "bytes": 541850,
+      "git_blob_sha": "2bcf7a26e485783f075c8e9cab58279c573f85ef",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          327,
+          928,
+          697
+        ],
+        "margins": [
+          96,
+          327,
+          96,
+          327
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 56534,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/W/pixel.png",
+      "sha256": "b4ee6937eefe311f075f997ffd72ffb2c05f5d049f9c9ffa6d75c45914dfbf4f",
+      "bytes": 8491,
+      "git_blob_sha": "f0ad23735636581f885bbfab70543050f78304e5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          39,
+          116,
+          88
+        ],
+        "margins": [
+          12,
+          39,
+          12,
+          40
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "d3cda539a075bec379cea4fee269b942018e16d1aff0cfc66392fac0acac98cb"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/NW/default.png",
+      "sha256": "aec001098e46bf3fa570c72df0ee2d5d38c0529723e1365154fbaad633d63195",
+      "bytes": 507367,
+      "git_blob_sha": "5b88f2699e8e48c48c980fd7814f2a07a8cf4a96",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          278,
+          928,
+          746
+        ],
+        "margins": [
+          96,
+          278,
+          96,
+          278
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 61650,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/NW/pixel.png",
+      "sha256": "c634809eb1f2d25e5fe80c8b72dcb72273a36bfb136633f05fe471654a0f98c8",
+      "bytes": 8389,
+      "git_blob_sha": "95fbab0caf167397f1a38a48f18765be2b369f8a",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          34,
+          116,
+          94
+        ],
+        "margins": [
+          12,
+          34,
+          12,
+          34
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "aec001098e46bf3fa570c72df0ee2d5d38c0529723e1365154fbaad633d63195"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/N/default.png",
+      "sha256": "4cb6893debbc1c0e7a00fbadfdfa153ce306f7d988dc0029bf1be91e0d99fa1b",
+      "bytes": 729974,
+      "git_blob_sha": "291cfacd8ce54131a27020135037deba82f2bf84",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          158,
+          928,
+          866
+        ],
+        "margins": [
+          96,
+          158,
+          96,
+          158
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 62933,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/N/pixel.png",
+      "sha256": "2046492ad0c9b978cee0b4cec9f6ffb715ea414a26c85bab7f412ba6ff666f6b",
+      "bytes": 10975,
+      "git_blob_sha": "d1a611bd372cbd547fc8b14103f29003d31f8523",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          18,
+          116,
+          109
+        ],
+        "margins": [
+          12,
+          18,
+          12,
+          19
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "4cb6893debbc1c0e7a00fbadfdfa153ce306f7d988dc0029bf1be91e0d99fa1b"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/NE/default.png",
+      "sha256": "35fdfdd245968574c293522b79e4891ea3859fb58a0e0a51a34f19691eadbdb2",
+      "bytes": 556998,
+      "git_blob_sha": "fc9dcf0b478fe5e6ed75585e1ae77a92285d7f65",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          266,
+          928,
+          758
+        ],
+        "margins": [
+          96,
+          266,
+          96,
+          266
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 58796,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/NE/pixel.png",
+      "sha256": "a3995cb4ca209228e3754e8c6264c12e258613b16ffcbe7e33537a3c1348e849",
+      "bytes": 9304,
+      "git_blob_sha": "f9b67514b5c494445a843cfed9d7d1bb99968b52",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          31,
+          116,
+          97
+        ],
+        "margins": [
+          12,
+          31,
+          12,
+          31
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "35fdfdd245968574c293522b79e4891ea3859fb58a0e0a51a34f19691eadbdb2"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/E/default.png",
+      "sha256": "4f211f012b73f295a7150c47eca23193f55527766d823626c13d17cf852a0481",
+      "bytes": 570816,
+      "git_blob_sha": "1eafc0c5180539674f80df9e87b52adb3f7f7bd1",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          310,
+          928,
+          714
+        ],
+        "margins": [
+          96,
+          310,
+          96,
+          310
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 65186,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-017/directions/E/pixel.png",
+      "sha256": "1ec87871820db28d3c7bcb2777f4d4878457cf0a18f48a569e35631c8cf47504",
+      "bytes": 9167,
+      "git_blob_sha": "a0a9026b5243cd9d5564e079f0e1fb811c051fa9",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          37,
+          116,
+          90
+        ],
+        "margins": [
+          12,
+          37,
+          12,
+          38
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "4f211f012b73f295a7150c47eca23193f55527766d823626c13d17cf852a0481"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/scaled/sm-scaled-017/default.png",
+      "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01",
+      "bytes": 554658,
+      "git_blob_sha": "d9d0824439937e5aa6a8025bd75834fa3c79bd92",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          281,
+          944,
+          743
+        ],
+        "margins": [
+          80,
+          281,
+          80,
+          281
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 60479,
+        "alpha_value_count": 249,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-017/pixel.png",
+      "sha256": "083f64fee5d7f0760f2859b9cb435f35f97c7295441a18c99cd286c7bb89eba6",
+      "bytes": 10525,
+      "git_blob_sha": "4272164ad1d0c65618893b0f969f12df33095da5",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          35,
+          118,
+          93
+        ],
+        "margins": [
+          10,
+          35,
+          10,
+          35
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 29,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent comparison and E full-resolution S/N normal+pixel and W/E normals confirm two body spheres, middle connector, foreground sphere occluding far sphere, eye occlusion and paired correspondence.",
+    "limitations": [
+      "Exact camera elevation, fixed scale mapping and hidden leg roots remain inferred. S/N comparison-sheet enlargement is not evidence of a pitch change. In-game/final acceptance pending; earlier quality corrections preserved.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "E",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. Image1 is the exact character identity, material, pose and camera reference. Draw the SAME creature from the requested new horizontal yaw. Rotate its whole three-dimensional body and eight-leg footprint together; preserve original camera elevation and body volumes. Do not tilt upward for front/back views, flatten the spheres, or move only its eyes.\nExact identity: two large broad round body globes at the front and rear, equal height and similar volume, joined by a much narrower waist segment encircled by exactly TWO broad overlapping belt scales (cream and plum). This is a horizontal hourglass-like three-segment body. Exactly EIGHT short tapered scale-covered legs: FOUR below each large globe, no leg on the waist. Exactly TWO glossy plum eyes on the front-facing end of the front globe only. No eyes on rear globe, no mouth, no arms/wings/tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70 overlapping elongated woven scales, very fine fabric fibers, restrained cel shading, clear thin dark contour. Preserve the source scale sizes, front/rear globe proportions, ground clearance, and subtly turned front face as a fixed pose. Legs may occlude according to view; do not invent extra feet to reveal all eight. Same modest elevated camera as source; show the same sphere top-to-side ratio throughout a turntable. Soft upper-left light, genuine transparent background, no ground shadow/glow/checkerboard/text. One full creature centered1024square with96clear margins, longest832.\nRequired view: RIGHT PROFILE E270. Front globe on RIGHT and rear globe on LEFT, globe centers and feet same screen height. One eye at rightmost near-side front end, other hidden. Two broad waist bands join equal-height side-by-side globes; eight legs have coherent near/far overlap.\n",
+      "raw_sha256": "0bdf57e7259c883e5595a7ef133832cc25e547a39e35e379312fe801cba6ef85",
+      "generation_references_in_order": [
+        {
+          "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+        }
+      ],
+      "finished_sha256": "4f211f012b73f295a7150c47eca23193f55527766d823626c13d17cf852a0481",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          116,
+          401,
+          1142,
+          899
+        ],
+        "resize": [
+          832,
+          404
+        ],
+        "offset": [
+          96,
+          310
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          310,
+          928,
+          714
+        ],
+        "margins": [
+          96,
+          310,
+          96,
+          310
+        ],
+        "visible_rgb_colors": 65186,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Image1 is the selected normal illustration of sm-scaled-017 in E view, the sole identity and geometry reference. Redraw exactly this view as genuine hand-crafted pixel art on a128x128 logical pixel grid. Do not simply downsample or apply a pixelation filter. Change rendering medium ONLY, maintaining the exact camera elevation, globe overlap, body direction, footprint and relative volumes from image1.\nTwo large broad round globes (front and rear) with a narrow central waist wrapped in exactly two broad cream/plum belt scales. Eight short scale-covered legs, four below each globe, none on waist; preserve all visible legs and the same occluded legs from reference. Two eyes only on front-facing end of front globe, preserve the reference visibility exactly, never add eyes on a rear view. No mouth, wings, arms or tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70. Simplify the woven scale texture into clear angular pixel clusters while keeping overlapping scale pattern. Crisp1–2pixel dark contour, limited24–32visiblecolors, no AA, dithering, blur, gradients or semi-transparent pixels. All opaque pixels alpha255, surrounding pixels alpha0, no glow or shadow halo. Single complete sprite centered128square, longest104logicalpixels, at least8logicalpixels clear margin on every edge. No text, checkerboard, ground, scene or extra object. Preserve E yaw and current low-camera projection exactly.\n",
+      "raw_sha256": "fbfebab5c60da32ed1728d9d458dcd5a8c589f0dcb0ae9f96daeb9016f71d22a",
+      "generation_references_in_order": [
+        {
+          "sha256": "4f211f012b73f295a7150c47eca23193f55527766d823626c13d17cf852a0481"
+        }
+      ],
+      "finished_sha256": "1ec87871820db28d3c7bcb2777f4d4878457cf0a18f48a569e35631c8cf47504",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          113,
+          389,
+          1148,
+          914
+        ],
+        "resize": [
+          104,
+          53
+        ],
+        "offset": [
+          12,
+          37
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          37,
+          116,
+          90
+        ],
+        "margins": [
+          12,
+          37,
+          12,
+          38
+        ],
+        "visible_rgb_colors": 24,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. Image1 is the exact character identity, material, pose and camera reference. Draw the SAME creature from the requested new horizontal yaw. Rotate its whole three-dimensional body and eight-leg footprint together; preserve original camera elevation and body volumes. Do not tilt upward for front/back views, flatten the spheres, or move only its eyes.\nExact identity: two large broad round body globes at the front and rear, equal height and similar volume, joined by a much narrower waist segment encircled by exactly TWO broad overlapping belt scales (cream and plum). This is a horizontal hourglass-like three-segment body. Exactly EIGHT short tapered scale-covered legs: FOUR below each large globe, no leg on the waist. Exactly TWO glossy plum eyes on the front-facing end of the front globe only. No eyes on rear globe, no mouth, no arms/wings/tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70 overlapping elongated woven scales, very fine fabric fibers, restrained cel shading, clear thin dark contour. Preserve the source scale sizes, front/rear globe proportions, ground clearance, and subtly turned front face as a fixed pose. Legs may occlude according to view; do not invent extra feet to reveal all eight. Same modest elevated camera as source; show the same sphere top-to-side ratio throughout a turntable. Soft upper-left light, genuine transparent background, no ground shadow/glow/checkerboard/text. One full creature centered1024square with96clear margins, longest832.\nRequired view: BACK N180. Eyeless rear globe centered nearest, front globe centered behind, mostly occluded by equal rear globe. No eyes visible. Keep source camera elevation: no overhead view, no stacking a whole second disk above first. Legs occlude naturally; front legs are farther away.\n",
+      "raw_sha256": "5a046ebba3273c80c73dc5a73c124582c1a59ba3e94b86a0f22676a9761fc0ee",
+      "generation_references_in_order": [
+        {
+          "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+        }
+      ],
+      "finished_sha256": "73f52e7e04a7c3e8ee8e2d74124875ca82a107eb9d4ad1727e1388e8deddf539",
+      "selected": false,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          239,
+          210,
+          1016,
+          1064
+        ],
+        "resize": [
+          757,
+          832
+        ],
+        "offset": [
+          133,
+          96
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          133,
+          96,
+          890,
+          928
+        ],
+        "margins": [
+          133,
+          96,
+          134,
+          96
+        ],
+        "visible_rgb_colors": 74778,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "attempt": 2,
+      "actual_prompt": "Use case: precise-object-edit. Image1 is the rear-view candidate to correct. Image2 is the original identity and correct modest camera-height reference. Change ONLY camera elevation and resulting foreshortening of image1 while retaining directly rear-facing N view.\nThe two globes are horizontal at the same real-world height. Lower camera to reference height, so the large NEAR eyeless rear globe occludes most of the FAR front globe. Show only a shallow cap of far globe, around one fifth of near globe diameter above near globe; no full far disk stacked above it. Waist belts mostly occluded behind near globe. All eyes remain completely hidden on the forward-facing far end. Rear four legs nearest; front four legs farther and largely hidden, only natural side slivers allowed. Keep actual eight short scale-covered legs, no waist legs, two broad waist belt scales, same three-segment body and globular volume. Do not squash spheres or shorten anatomy: change occlusion by lower camera. Preserve dusty rose/cream/plum palette, woven scale material, original outline and restrained shading. One full centered creature with genuine transparent background, no scene, no text, no cast shadow,1024square clear margins.\n",
+      "raw_sha256": "4f2d08c04827d351ab7c055e4ce0291fe662e2623845dc26aaac5ea8558c1d09",
+      "generation_references_in_order": [
+        {
+          "sha256": "73f52e7e04a7c3e8ee8e2d74124875ca82a107eb9d4ad1727e1388e8deddf539"
+        },
+        {
+          "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+        }
+      ],
+      "finished_sha256": "4cb6893debbc1c0e7a00fbadfdfa153ce306f7d988dc0029bf1be91e0d99fa1b",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          136,
+          240,
+          1119,
+          1077
+        ],
+        "resize": [
+          832,
+          708
+        ],
+        "offset": [
+          96,
+          158
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          158,
+          928,
+          866
+        ],
+        "margins": [
+          96,
+          158,
+          96,
+          158
+        ],
+        "visible_rgb_colors": 62933,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Image1 is the selected normal illustration of sm-scaled-017 in N view, the sole identity and geometry reference. Redraw exactly this view as genuine hand-crafted pixel art on a128x128 logical pixel grid. Do not simply downsample or apply a pixelation filter. Change rendering medium ONLY, maintaining the exact camera elevation, globe overlap, body direction, footprint and relative volumes from image1.\nTwo large broad round globes (front and rear) with a narrow central waist wrapped in exactly two broad cream/plum belt scales. Eight short scale-covered legs, four below each globe, none on waist; preserve all visible legs and the same occluded legs from reference. Two eyes only on front-facing end of front globe, preserve the reference visibility exactly, never add eyes on a rear view. No mouth, wings, arms or tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70. Simplify the woven scale texture into clear angular pixel clusters while keeping overlapping scale pattern. Crisp1–2pixel dark contour, limited24–32visiblecolors, no AA, dithering, blur, gradients or semi-transparent pixels. All opaque pixels alpha255, surrounding pixels alpha0, no glow or shadow halo. Single complete sprite centered128square, longest104logicalpixels, at least8logicalpixels clear margin on every edge. No text, checkerboard, ground, scene or extra object. Preserve N yaw and current low-camera projection exactly.\n",
+      "raw_sha256": "b792d2093839767099f9a7125c1653b86f71c62164fc778059896def1686c4d8",
+      "generation_references_in_order": [
+        {
+          "sha256": "4cb6893debbc1c0e7a00fbadfdfa153ce306f7d988dc0029bf1be91e0d99fa1b"
+        }
+      ],
+      "finished_sha256": "2046492ad0c9b978cee0b4cec9f6ffb715ea414a26c85bab7f412ba6ff666f6b",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          88,
+          166,
+          1176,
+          1117
+        ],
+        "resize": [
+          104,
+          91
+        ],
+        "offset": [
+          12,
+          18
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          18,
+          116,
+          109
+        ],
+        "margins": [
+          12,
+          18,
+          12,
+          19
+        ],
+        "visible_rgb_colors": 24,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. Image1 is the exact character identity, material, pose and camera reference. Draw the SAME creature from the requested new horizontal yaw. Rotate its whole three-dimensional body and eight-leg footprint together; preserve original camera elevation and body volumes. Do not tilt upward for front/back views, flatten the spheres, or move only its eyes.\nExact identity: two large broad round body globes at the front and rear, equal height and similar volume, joined by a much narrower waist segment encircled by exactly TWO broad overlapping belt scales (cream and plum). This is a horizontal hourglass-like three-segment body. Exactly EIGHT short tapered scale-covered legs: FOUR below each large globe, no leg on the waist. Exactly TWO glossy plum eyes on the front-facing end of the front globe only. No eyes on rear globe, no mouth, no arms/wings/tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70 overlapping elongated woven scales, very fine fabric fibers, restrained cel shading, clear thin dark contour. Preserve the source scale sizes, front/rear globe proportions, ground clearance, and subtly turned front face as a fixed pose. Legs may occlude according to view; do not invent extra feet to reveal all eight. Same modest elevated camera as source; show the same sphere top-to-side ratio throughout a turntable. Soft upper-left light, genuine transparent background, no ground shadow/glow/checkerboard/text. One full creature centered1024square with96clear margins, longest832.\nRequired view: REAR-RIGHT NE225. Eyeless rear globe nearest lower-left, front globe farther upper-right; eyes point away toward upper-right and hidden. Waist and legs rotate coherently, rear globe obscures part of front globe.\n",
+      "raw_sha256": "f08b7ef4805d82ddfe6484cbacdb2b24b5319e225057a6c6f85a66e8d75a167a",
+      "generation_references_in_order": [
+        {
+          "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+        }
+      ],
+      "finished_sha256": "62cb66bfd861524683c1d45c8c4720dcd9cc3102b3ab23f23dc11c67d017f347",
+      "selected": false,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          132,
+          277,
+          1135,
+          1009
+        ],
+        "resize": [
+          832,
+          607
+        ],
+        "offset": [
+          96,
+          208
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          208,
+          928,
+          815
+        ],
+        "margins": [
+          96,
+          208,
+          96,
+          209
+        ],
+        "visible_rgb_colors": 65167,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "attempt": 2,
+      "actual_prompt": "Use case: precise-object-edit. Image1 is the NE rear-oblique candidate to correct. Image2 is the original correct camera-height and identity reference. Change ONLY camera elevation/foreshortening, preserving NE horizontal yaw and all anatomy. Lower the camera to the subtle downward view of image2, rather than looking down steeply. The near eyeless rear globe stays on the left, far front globe on the right. Both globes stand at the same physical height on one plane. In projection, their centers should be almost level with a shallow diagonal: the vertical center separation only around one fifth of their horizontal center separation, similar to image2, not the steep diagonal of image1. Keep each globe fully round, same physical size and volume. Do not vertically squash the artwork. Redraw changed overlaps and the eight-leg footprint consistently at lower camera elevation. Narrow middle waist with exactly two broad cream/plum belt scales connects them. Four short scale legs below each globe, no legs on waist, no extra parts. Eyes remain hidden on the far front-facing end, never add eyes to the near rear globe. Preserve dusty rose/cream/plum woven scales, fine texture, scale sizes, outline, gentle cel shading. Transparent background, no glow, ground or shadow or text, full single creature in1024square with generous empty margin.\n",
+      "raw_sha256": "4f264ea65d6785e7645b03216d22af9902aa6729ef3e5c628bb5baa2ec97b087",
+      "generation_references_in_order": [
+        {
+          "sha256": "62cb66bfd861524683c1d45c8c4720dcd9cc3102b3ab23f23dc11c67d017f347"
+        },
+        {
+          "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+        }
+      ],
+      "finished_sha256": "35fdfdd245968574c293522b79e4891ea3859fb58a0e0a51a34f19691eadbdb2",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          83,
+          349,
+          1199,
+          1009
+        ],
+        "resize": [
+          832,
+          492
+        ],
+        "offset": [
+          96,
+          266
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          266,
+          928,
+          758
+        ],
+        "margins": [
+          96,
+          266,
+          96,
+          266
+        ],
+        "visible_rgb_colors": 58796,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Image1 is the selected normal illustration of sm-scaled-017 in NE view, the sole identity and geometry reference. Redraw exactly this view as genuine hand-crafted pixel art on a128x128 logical pixel grid. Do not simply downsample or apply a pixelation filter. Change rendering medium ONLY, maintaining the exact camera elevation, globe overlap, body direction, footprint and relative volumes from image1.\nTwo large broad round globes (front and rear) with a narrow central waist wrapped in exactly two broad cream/plum belt scales. Eight short scale-covered legs, four below each globe, none on waist; preserve all visible legs and the same occluded legs from reference. Two eyes only on front-facing end of front globe, preserve the reference visibility exactly, never add eyes on a rear view. No mouth, wings, arms or tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70. Simplify the woven scale texture into clear angular pixel clusters while keeping overlapping scale pattern. Crisp1–2pixel dark contour, limited24–32visiblecolors, no AA, dithering, blur, gradients or semi-transparent pixels. All opaque pixels alpha255, surrounding pixels alpha0, no glow or shadow halo. Single complete sprite centered128square, longest104logicalpixels, at least8logicalpixels clear margin on every edge. No text, checkerboard, ground, scene or extra object. Preserve NE yaw and current low-camera projection exactly.\n",
+      "raw_sha256": "c2650c34880f34b17a98d171b17514e43d933ad0eca02ee7c62d3803007ce943",
+      "generation_references_in_order": [
+        {
+          "sha256": "35fdfdd245968574c293522b79e4891ea3859fb58a0e0a51a34f19691eadbdb2"
+        }
+      ],
+      "finished_sha256": "a3995cb4ca209228e3754e8c6264c12e258613b16ffcbe7e33537a3c1348e849",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          114,
+          329,
+          1165,
+          999
+        ],
+        "resize": [
+          104,
+          66
+        ],
+        "offset": [
+          12,
+          31
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          31,
+          116,
+          97
+        ],
+        "margins": [
+          12,
+          31,
+          12,
+          31
+        ],
+        "visible_rgb_colors": 24,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. Image1 is the exact character identity, material, pose and camera reference. Draw the SAME creature from the requested new horizontal yaw. Rotate its whole three-dimensional body and eight-leg footprint together; preserve original camera elevation and body volumes. Do not tilt upward for front/back views, flatten the spheres, or move only its eyes.\nExact identity: two large broad round body globes at the front and rear, equal height and similar volume, joined by a much narrower waist segment encircled by exactly TWO broad overlapping belt scales (cream and plum). This is a horizontal hourglass-like three-segment body. Exactly EIGHT short tapered scale-covered legs: FOUR below each large globe, no leg on the waist. Exactly TWO glossy plum eyes on the front-facing end of the front globe only. No eyes on rear globe, no mouth, no arms/wings/tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70 overlapping elongated woven scales, very fine fabric fibers, restrained cel shading, clear thin dark contour. Preserve the source scale sizes, front/rear globe proportions, ground clearance, and subtly turned front face as a fixed pose. Legs may occlude according to view; do not invent extra feet to reveal all eight. Same modest elevated camera as source; show the same sphere top-to-side ratio throughout a turntable. Soft upper-left light, genuine transparent background, no ground shadow/glow/checkerboard/text. One full creature centered1024square with96clear margins, longest832.\nRequired view: REAR-LEFT NW135. Eyeless rear globe nearest lower-right, front globe farther upper-left. Near rear globe obscures waist/front appropriately. Eyes face away toward upper-left and are hidden; do not add eyes to the near rear globe. Two-belt waist and leg footprint rotate in depth.\n",
+      "raw_sha256": "cd463b142597f4c55270dedc052e0434cbeebb1346889f439b65dd2fcc33cd74",
+      "generation_references_in_order": [
+        {
+          "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+        }
+      ],
+      "finished_sha256": "3a1b1b53350c7a9b85dd6a712ba8d1778111ab3d8becced0cffdc69366eb0dd5",
+      "selected": false,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          112,
+          265,
+          1192,
+          1056
+        ],
+        "resize": [
+          832,
+          609
+        ],
+        "offset": [
+          96,
+          207
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          207,
+          928,
+          816
+        ],
+        "margins": [
+          96,
+          207,
+          96,
+          208
+        ],
+        "visible_rgb_colors": 62459,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "attempt": 2,
+      "actual_prompt": "Use case: precise-object-edit. Image1 is the NW rear-oblique candidate to correct. Image2 is the original correct camera-height and identity reference. Change ONLY camera elevation/foreshortening, preserving NW horizontal yaw and all anatomy. Lower the camera to the subtle downward view of image2, rather than looking down steeply. The near eyeless rear globe stays on the right, far front globe on the left. Both globes stand at the same physical height on one plane. In projection, their centers should be almost level with a shallow diagonal: the vertical center separation only around one fifth of their horizontal center separation, similar to image2, not the steep diagonal of image1. Keep each globe fully round, same physical size and volume. Do not vertically squash the artwork. Redraw changed overlaps and the eight-leg footprint consistently at lower camera elevation. Narrow middle waist with exactly two broad cream/plum belt scales connects them. Four short scale legs below each globe, no legs on waist, no extra parts. Eyes remain hidden on the far front-facing end, never add eyes to the near rear globe. Preserve dusty rose/cream/plum woven scales, fine texture, scale sizes, outline, gentle cel shading. Transparent background, no glow, ground or shadow or text, full single creature in1024square with generous empty margin.\n",
+      "raw_sha256": "51bbdd1304bbbb4208085c96f2c3ec0d4914c33c2c5d246c2c51bd6d8abe66c7",
+      "generation_references_in_order": [
+        {
+          "sha256": "3a1b1b53350c7a9b85dd6a712ba8d1778111ab3d8becced0cffdc69366eb0dd5"
+        },
+        {
+          "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+        }
+      ],
+      "finished_sha256": "1760ba84a9d514d3d43a3158e06e11a07579fc4eb13697bf2bdbfe1994c3be0d",
+      "selected": false,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          89,
+          336,
+          1196,
+          1014
+        ],
+        "resize": [
+          832,
+          510
+        ],
+        "offset": [
+          96,
+          257
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          257,
+          928,
+          767
+        ],
+        "margins": [
+          96,
+          257,
+          96,
+          257
+        ],
+        "visible_rgb_colors": 58863,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "attempt": 3,
+      "actual_prompt": "Use case: precise-object-edit. Image1 is the current rear-left NW drawing. Image2 is the correct original camera reference. Correct only its remaining excess camera elevation. Preserve the near eyeless rear globe at RIGHT and far front globe at LEFT, same rear-left yaw. Lower viewpoint further: the centers of the two spheres should be almost horizontal, with right sphere only about90 pixels LOWER than left sphere when horizontal center separation is about450 pixels. The current vertical separation is too large. Match the shallow diagonal between sphere centers in image2. Render new lower-camera overlap, never squash spheres or scale body parts independently. Keep both globes equal physical size/height, waist narrow with two cream/plum belt scales, exactly four short legs under each globe and no waist legs, all feet on same ground plane. Eyes hidden at far front-facing end; no eye on rear. Preserve every original color, woven scales, scale sizes, outline and restrained shading. Whole single creature centered,1024square, fully transparent background with empty margin and no text, no shadow or scene.\n",
+      "raw_sha256": "03b22dd275ddeafbf89849a55bf2d9d86074d197a622192a01627063e1bef820",
+      "generation_references_in_order": [
+        {
+          "sha256": "1760ba84a9d514d3d43a3158e06e11a07579fc4eb13697bf2bdbfe1994c3be0d"
+        },
+        {
+          "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+        }
+      ],
+      "finished_sha256": "aec001098e46bf3fa570c72df0ee2d5d38c0529723e1365154fbaad633d63195",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          87,
+          356,
+          1207,
+          986
+        ],
+        "resize": [
+          832,
+          468
+        ],
+        "offset": [
+          96,
+          278
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          278,
+          928,
+          746
+        ],
+        "margins": [
+          96,
+          278,
+          96,
+          278
+        ],
+        "visible_rgb_colors": 61650,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Image1 is the selected normal illustration of sm-scaled-017 in NW view, the sole identity and geometry reference. Redraw exactly this view as genuine hand-crafted pixel art on a128x128 logical pixel grid. Do not simply downsample or apply a pixelation filter. Change rendering medium ONLY, maintaining the exact camera elevation, globe overlap, body direction, footprint and relative volumes from image1.\nTwo large broad round globes (front and rear) with a narrow central waist wrapped in exactly two broad cream/plum belt scales. Eight short scale-covered legs, four below each globe, none on waist; preserve all visible legs and the same occluded legs from reference. Two eyes only on front-facing end of front globe, preserve the reference visibility exactly, never add eyes on a rear view. No mouth, wings, arms or tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70. Simplify the woven scale texture into clear angular pixel clusters while keeping overlapping scale pattern. Crisp1–2pixel dark contour, limited24–32visiblecolors, no AA, dithering, blur, gradients or semi-transparent pixels. All opaque pixels alpha255, surrounding pixels alpha0, no glow or shadow halo. Single complete sprite centered128square, longest104logicalpixels, at least8logicalpixels clear margin on every edge. No text, checkerboard, ground, scene or extra object. Preserve NW yaw and current low-camera projection exactly.\n",
+      "raw_sha256": "bfabf21e5ed64136a7b4167408105d7ccf9c86dc78386ea1256672183ad8d616",
+      "generation_references_in_order": [
+        {
+          "sha256": "aec001098e46bf3fa570c72df0ee2d5d38c0529723e1365154fbaad633d63195"
+        }
+      ],
+      "finished_sha256": "c634809eb1f2d25e5fe80c8b72dcb72273a36bfb136633f05fe471654a0f98c8",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          117,
+          341,
+          1173,
+          947
+        ],
+        "resize": [
+          104,
+          60
+        ],
+        "offset": [
+          12,
+          34
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          34,
+          116,
+          94
+        ],
+        "margins": [
+          12,
+          34,
+          12,
+          34
+        ],
+        "visible_rgb_colors": 24,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. Image1 is the exact character identity, material, pose and camera reference. Draw the SAME creature from the requested new horizontal yaw. Rotate its whole three-dimensional body and eight-leg footprint together; preserve original camera elevation and body volumes. Do not tilt upward for front/back views, flatten the spheres, or move only its eyes.\nExact identity: two large broad round body globes at the front and rear, equal height and similar volume, joined by a much narrower waist segment encircled by exactly TWO broad overlapping belt scales (cream and plum). This is a horizontal hourglass-like three-segment body. Exactly EIGHT short tapered scale-covered legs: FOUR below each large globe, no leg on the waist. Exactly TWO glossy plum eyes on the front-facing end of the front globe only. No eyes on rear globe, no mouth, no arms/wings/tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70 overlapping elongated woven scales, very fine fabric fibers, restrained cel shading, clear thin dark contour. Preserve the source scale sizes, front/rear globe proportions, ground clearance, and subtly turned front face as a fixed pose. Legs may occlude according to view; do not invent extra feet to reveal all eight. Same modest elevated camera as source; show the same sphere top-to-side ratio throughout a turntable. Soft upper-left light, genuine transparent background, no ground shadow/glow/checkerboard/text. One full creature centered1024square with96clear margins, longest832.\nRequired view: FRONT S0. Main body axis runs away from viewer, front eye globe centered nearest, rear globe centered behind and largely occluded by the equal-sized front globe. Both eyes visible on near end. Waist and rear globe are only revealed as naturally visible at the fixed shallow elevation; do NOT raise the rear globe to show a full second disk. Front legs nearest, rear legs partly hidden.\n",
+      "raw_sha256": "6e09638fee6c75d9e187f156a472bbcef9cad85658c2ce7eadcd5eecf1fef267",
+      "generation_references_in_order": [
+        {
+          "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+        }
+      ],
+      "finished_sha256": "c07f7e801717c5a12167eb717f8185a87c698bdf59a6da809cb39815ba579507",
+      "selected": false,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          208,
+          121,
+          1048,
+          1123
+        ],
+        "resize": [
+          697,
+          832
+        ],
+        "offset": [
+          163,
+          96
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          163,
+          96,
+          860,
+          928
+        ],
+        "margins": [
+          163,
+          96,
+          164,
+          96
+        ],
+        "visible_rgb_colors": 71099,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "normal",
+      "attempt": 2,
+      "actual_prompt": "Use case: precise-object-edit. Image1 is the front-view candidate to correct. Image2 is the unchanged identity and correct lower camera-elevation reference. Change ONLY the camera elevation/foreshortening of image1, keeping a directly forward S view.\nThe creature is horizontal, not upright: its rear and front globes have centers at the same real-world height. Lower the camera to the modest height in image2. In projection the large near eye-bearing globe must occlude most of the equally large far globe. Only a shallow upper cap of the far globe should rise above the near globe: visible cap height around one fifth of the near globe diameter, not an entire second disk. The belt waist should be mostly hidden behind the near globe. Rear legs remain on the same ground plane, mostly occluded behind front legs with only side slivers visible. Keep TWO eyes on the near front face at the same facial proportions as image2. Do not merely shorten or vertically compress the anatomy; render correct overlap at the lower camera angle. Keep eight actual legs four below each globe, none on waist; two broad belt scales, dusty rose/cream/plum woven scales, unchanged round volume, outline and cel shading. No extra parts. Full centered single creature, transparent background, no text or ground shadow,1024square and generous clear margin.\n",
+      "raw_sha256": "6bc3beb8ea45c19857e6bcd94a9e19f9ea1a3b2aee8e62016995a4812d0defe4",
+      "generation_references_in_order": [
+        {
+          "sha256": "c07f7e801717c5a12167eb717f8185a87c698bdf59a6da809cb39815ba579507"
+        },
+        {
+          "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+        }
+      ],
+      "finished_sha256": "6c33bb51405e1d892248b929b885c27d8df1c4b09dc03ac55ef9a96432131caa",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          127,
+          298,
+          1128,
+          1129
+        ],
+        "resize": [
+          832,
+          691
+        ],
+        "offset": [
+          96,
+          166
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          166,
+          928,
+          857
+        ],
+        "margins": [
+          96,
+          166,
+          96,
+          167
+        ],
+        "visible_rgb_colors": 66694,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Image1 is the selected normal illustration of sm-scaled-017 in S view, the sole identity and geometry reference. Redraw exactly this view as genuine hand-crafted pixel art on a128x128 logical pixel grid. Do not simply downsample or apply a pixelation filter. Change rendering medium ONLY, maintaining the exact camera elevation, globe overlap, body direction, footprint and relative volumes from image1.\nTwo large broad round globes (front and rear) with a narrow central waist wrapped in exactly two broad cream/plum belt scales. Eight short scale-covered legs, four below each globe, none on waist; preserve all visible legs and the same occluded legs from reference. Two eyes only on front-facing end of front globe, preserve the reference visibility exactly, never add eyes on a rear view. No mouth, wings, arms or tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70. Simplify the woven scale texture into clear angular pixel clusters while keeping overlapping scale pattern. Crisp1–2pixel dark contour, limited24–32visiblecolors, no AA, dithering, blur, gradients or semi-transparent pixels. All opaque pixels alpha255, surrounding pixels alpha0, no glow or shadow halo. Single complete sprite centered128square, longest104logicalpixels, at least8logicalpixels clear margin on every edge. No text, checkerboard, ground, scene or extra object. Preserve S yaw and current low-camera projection exactly.\n",
+      "raw_sha256": "f5cbaaa7cfd17b3be1b45213eba639bf68bb27484c599a3893baffd39b1e1473",
+      "generation_references_in_order": [
+        {
+          "sha256": "6c33bb51405e1d892248b929b885c27d8df1c4b09dc03ac55ef9a96432131caa"
+        }
+      ],
+      "finished_sha256": "55d6d2cf7cb099979b6de4de9c3e06e0ecb9c2c1e1b3c4dd844ff3258ce8bc14",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          111,
+          182,
+          1144,
+          1101
+        ],
+        "resize": [
+          104,
+          93
+        ],
+        "offset": [
+          12,
+          17
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          17,
+          116,
+          110
+        ],
+        "margins": [
+          12,
+          17,
+          12,
+          18
+        ],
+        "visible_rgb_colors": 23,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. Image1 is the exact character identity, material, pose and camera reference. Draw the SAME creature from the requested new horizontal yaw. Rotate its whole three-dimensional body and eight-leg footprint together; preserve original camera elevation and body volumes. Do not tilt upward for front/back views, flatten the spheres, or move only its eyes.\nExact identity: two large broad round body globes at the front and rear, equal height and similar volume, joined by a much narrower waist segment encircled by exactly TWO broad overlapping belt scales (cream and plum). This is a horizontal hourglass-like three-segment body. Exactly EIGHT short tapered scale-covered legs: FOUR below each large globe, no leg on the waist. Exactly TWO glossy plum eyes on the front-facing end of the front globe only. No eyes on rear globe, no mouth, no arms/wings/tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70 overlapping elongated woven scales, very fine fabric fibers, restrained cel shading, clear thin dark contour. Preserve the source scale sizes, front/rear globe proportions, ground clearance, and subtly turned front face as a fixed pose. Legs may occlude according to view; do not invent extra feet to reveal all eight. Same modest elevated camera as source; show the same sphere top-to-side ratio throughout a turntable. Soft upper-left light, genuine transparent background, no ground shadow/glow/checkerboard/text. One full creature centered1024square with96clear margins, longest832.\nRequired view: FRONT-LEFT SW45. Front eye-bearing globe nearest lower-left, rear globe farther upper-right, narrow two-band waist diagonal between them. Show left side and front-end eyes with coherent foreshortening. Eight legs rotate with both globes, four per globe, real occlusion.\n",
+      "raw_sha256": "453464a69ec53d8dca41e430287c754d4f4a052ad168089d367e1da21187e4b7",
+      "generation_references_in_order": [
+        {
+          "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+        }
+      ],
+      "finished_sha256": "c18e7e2b1e313ffeebe3f0566aabc8a779648c0fd1bf9ccf9ad9de1d59dd0c97",
+      "selected": false,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          72,
+          270,
+          1228,
+          1015
+        ],
+        "resize": [
+          832,
+          536
+        ],
+        "offset": [
+          96,
+          244
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          244,
+          928,
+          780
+        ],
+        "margins": [
+          96,
+          244,
+          96,
+          244
+        ],
+        "visible_rgb_colors": 71794,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "attempt": 2,
+      "actual_prompt": "Use case: precise-object-edit. Image1 is front-left SW view needing only a camera-elevation correction. Image2 is the original correct camera-height and identity reference. Keep SW yaw, front eye-bearing globe at LEFT, rear eyeless globe at RIGHT. Lower camera so body is seen along a shallow diagonal, not steeply from above. Projected center of right rear globe should be only slightly higher than left front globe: vertical center separation around ONE FIFTH of horizontal center separation. This matches shallow depth slope of image2 viewed from the opposite side. Keep two globes full-size and round at same physical ground height, not squashed. Redraw occlusion and eight-leg footprint consistently for lower camera. Four actual legs per globe, no legs at waist; two broad belt scales at waist. Preserve both eyes on front-facing left endpoint according to source fixed pose, face location, dusty rose/cream/plum woven scales, fine texture, thin dark outline and restrained cel shading. No mirroring, no anatomy changes. Single full body centered1024square, genuine transparency, clear margin, no text/scene/shadow/glow.\n",
+      "raw_sha256": "7056eb5be11436ef1cff58618facd1bec7b57596555020a50a2d2b5c5855191e",
+      "generation_references_in_order": [
+        {
+          "sha256": "c18e7e2b1e313ffeebe3f0566aabc8a779648c0fd1bf9ccf9ad9de1d59dd0c97"
+        },
+        {
+          "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+        }
+      ],
+      "finished_sha256": "28f96e6be0c9b53d59593227e70604ef42ad8dffda181776109a207c990b86c1",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          57,
+          371,
+          1204,
+          988
+        ],
+        "resize": [
+          832,
+          448
+        ],
+        "offset": [
+          96,
+          288
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          288,
+          928,
+          736
+        ],
+        "margins": [
+          96,
+          288,
+          96,
+          288
+        ],
+        "visible_rgb_colors": 63652,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Image1 is the selected normal illustration of sm-scaled-017 in SW view, the sole identity and geometry reference. Redraw exactly this view as genuine hand-crafted pixel art on a128x128 logical pixel grid. Do not simply downsample or apply a pixelation filter. Change rendering medium ONLY, maintaining the exact camera elevation, globe overlap, body direction, footprint and relative volumes from image1.\nTwo large broad round globes (front and rear) with a narrow central waist wrapped in exactly two broad cream/plum belt scales. Eight short scale-covered legs, four below each globe, none on waist; preserve all visible legs and the same occluded legs from reference. Two eyes only on front-facing end of front globe, preserve the reference visibility exactly, never add eyes on a rear view. No mouth, wings, arms or tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70. Simplify the woven scale texture into clear angular pixel clusters while keeping overlapping scale pattern. Crisp1–2pixel dark contour, limited24–32visiblecolors, no AA, dithering, blur, gradients or semi-transparent pixels. All opaque pixels alpha255, surrounding pixels alpha0, no glow or shadow halo. Single complete sprite centered128square, longest104logicalpixels, at least8logicalpixels clear margin on every edge. No text, checkerboard, ground, scene or extra object. Preserve SW yaw and current low-camera projection exactly.\n",
+      "raw_sha256": "8a2044d3042da436aefc1b58f8b4dda2c380ccf704cd15677389f28248cce0b7",
+      "generation_references_in_order": [
+        {
+          "sha256": "28f96e6be0c9b53d59593227e70604ef42ad8dffda181776109a207c990b86c1"
+        }
+      ],
+      "finished_sha256": "c7f3aba871a2d1990d341f16ffc1d60267c87a1702205c881e1c2e25a1fa7a8e",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          91,
+          354,
+          1179,
+          1006
+        ],
+        "resize": [
+          104,
+          62
+        ],
+        "offset": [
+          12,
+          33
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          33,
+          116,
+          95
+        ],
+        "margins": [
+          12,
+          33,
+          12,
+          33
+        ],
+        "visible_rgb_colors": 23,
+        "alpha_unique_count": 2
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "attempt": 1,
+      "actual_prompt": "Use case: stylized-concept. Image1 is the exact character identity, material, pose and camera reference. Draw the SAME creature from the requested new horizontal yaw. Rotate its whole three-dimensional body and eight-leg footprint together; preserve original camera elevation and body volumes. Do not tilt upward for front/back views, flatten the spheres, or move only its eyes.\nExact identity: two large broad round body globes at the front and rear, equal height and similar volume, joined by a much narrower waist segment encircled by exactly TWO broad overlapping belt scales (cream and plum). This is a horizontal hourglass-like three-segment body. Exactly EIGHT short tapered scale-covered legs: FOUR below each large globe, no leg on the waist. Exactly TWO glossy plum eyes on the front-facing end of the front globe only. No eyes on rear globe, no mouth, no arms/wings/tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70 overlapping elongated woven scales, very fine fabric fibers, restrained cel shading, clear thin dark contour. Preserve the source scale sizes, front/rear globe proportions, ground clearance, and subtly turned front face as a fixed pose. Legs may occlude according to view; do not invent extra feet to reveal all eight. Same modest elevated camera as source; show the same sphere top-to-side ratio throughout a turntable. Soft upper-left light, genuine transparent background, no ground shadow/glow/checkerboard/text. One full creature centered1024square with96clear margins, longest832.\nRequired view: LEFT PROFILE W90. Front globe on LEFT and rear globe on RIGHT; both globe centers and feet at the same screen height. One near eye visible at leftmost end, far eye hidden behind globe. Narrow waist clearly joins side-by-side equal-height globes. Four near legs (two per globe) and only far-leg portions allowed by source elevation.\n",
+      "raw_sha256": "7cdd6eb101d93a8c71c6320dcb56bda0f2c65db86618fbe36660fb80c7713cde",
+      "generation_references_in_order": [
+        {
+          "sha256": "a9ccbc3c4e0f34c9e1adf28f33f54d8f20bf765682e0f6a3f7f5dbd942c0ff01"
+        }
+      ],
+      "finished_sha256": "d3cda539a075bec379cea4fee269b942018e16d1aff0cfc66392fac0acac98cb",
+      "selected": true,
+      "processing": {
+        "method": "Clear isolated alpha1 background noise under authorized alpha finishing, then crop fully transparent margins only, proportionally LANCZOS fit longest extent 832, center on 1024 RGBA. No anatomy changes.",
+        "crop_bbox": [
+          107,
+          402,
+          1154,
+          868
+        ],
+        "resize": [
+          832,
+          370
+        ],
+        "offset": [
+          96,
+          327
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true
+        },
+        "alpha_bbox": [
+          96,
+          327,
+          928,
+          697
+        ],
+        "margins": [
+          96,
+          327,
+          96,
+          327
+        ],
+        "visible_rgb_colors": 56534,
+        "alpha_unique_count": 256
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "attempt": 1,
+      "actual_prompt": "Use case: style-transfer. Image1 is the selected normal illustration of sm-scaled-017 in W view, the sole identity and geometry reference. Redraw exactly this view as genuine hand-crafted pixel art on a128x128 logical pixel grid. Do not simply downsample or apply a pixelation filter. Change rendering medium ONLY, maintaining the exact camera elevation, globe overlap, body direction, footprint and relative volumes from image1.\nTwo large broad round globes (front and rear) with a narrow central waist wrapped in exactly two broad cream/plum belt scales. Eight short scale-covered legs, four below each globe, none on waist; preserve all visible legs and the same occluded legs from reference. Two eyes only on front-facing end of front globe, preserve the reference visibility exactly, never add eyes on a rear view. No mouth, wings, arms or tail. Dusty rose #C3A3AC, pale cream #D8D9A9, muted plum #675B70. Simplify the woven scale texture into clear angular pixel clusters while keeping overlapping scale pattern. Crisp1–2pixel dark contour, limited24–32visiblecolors, no AA, dithering, blur, gradients or semi-transparent pixels. All opaque pixels alpha255, surrounding pixels alpha0, no glow or shadow halo. Single complete sprite centered128square, longest104logicalpixels, at least8logicalpixels clear margin on every edge. No text, checkerboard, ground, scene or extra object. Preserve W yaw and current low-camera projection exactly.\n",
+      "raw_sha256": "357d22df0157b26ffb1055294b3148acce017224a1e08556253aa422a7c65376",
+      "generation_references_in_order": [
+        {
+          "sha256": "d3cda539a075bec379cea4fee269b942018e16d1aff0cfc66392fac0acac98cb"
+        }
+      ],
+      "finished_sha256": "b4ee6937eefe311f075f997ffd72ffb2c05f5d049f9c9ffa6d75c45914dfbf4f",
+      "selected": true,
+      "processing": {
+        "method": "Authorized pixel finishing: alpha threshold128, crop transparent margins, NEAREST fit longest104, median-cut24 colors without dithering, center on128 RGBA. Separately generated pixel original retained.",
+        "crop_bbox": [
+          122,
+          399,
+          1134,
+          878
+        ],
+        "resize": [
+          104,
+          49
+        ],
+        "offset": [
+          12,
+          39
+        ]
+      },
+      "technical_qa": {
+        "status": "PASS",
+        "checks": {
+          "canvas": true,
+          "RGBA": true,
+          "padding": true,
+          "extent": true,
+          "binary_alpha": true,
+          "colors_le_32": true
+        },
+        "alpha_bbox": [
+          12,
+          39,
+          116,
+          88
+        ],
+        "margins": [
+          12,
+          39,
+          12,
+          40
+        ],
+        "visible_rgb_colors": 23,
+        "alpha_unique_count": 2
+      }
+    }
+  ]
+}
