@@ -1,0 +1,985 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-005",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/decay/sm-decay-005/default.png",
+      "sha256": "e76b12b24e45aaa35955eb3ed2615433574339f333696c45901866932aa0135d",
+      "git_blob_sha": "fcd20a47b95bc11b75055e4b0761f643eddb3baf",
+      "bytes": 618717
+    },
+    "pixel": {
+      "path": "assets/monsters/decay/sm-decay-005/pixel.png",
+      "sha256": "44e43475faae89f8b0f6def5c3ecc91d4a1d9932d076502a8a2bd3a0cd5dd8fd",
+      "git_blob_sha": "141a5669c19f0e5681c502923880c642f5e49396",
+      "bytes": 12209
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-005/directions/S/default.png",
+      "sha256": "fd00a52db8e6ce407a4e1a3e8e3565693667b1861d76025a9c33354657a81181",
+      "bytes": 616142,
+      "git_blob_sha": "3f068600c98d94bccc5f83e3f2b82c485faebdca",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          131,
+          96,
+          893,
+          928
+        ],
+        "margins": [
+          131,
+          96,
+          131,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 109082,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-005/directions/S/pixel.png",
+      "sha256": "7de59f1d704f4054901126b91b3cc6205f9e90a753431c7165616250183d2e2c",
+      "bytes": 10612,
+      "git_blob_sha": "563c4e5a32cdafd3afdcc5c53b04774ded1fd0e5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          17,
+          12,
+          111,
+          116
+        ],
+        "margins": [
+          17,
+          12,
+          17,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "fd00a52db8e6ce407a4e1a3e8e3565693667b1861d76025a9c33354657a81181"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-005/directions/SW/default.png",
+      "sha256": "3c209c65f6bf09c8383874bdb7d00331ef0a509a1eb826a4a160b90c922dbcdc",
+      "bytes": 696232,
+      "git_blob_sha": "951e05c7dc26e7bfa31ec2de57207a4b2ad0dc71",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          105,
+          928,
+          918
+        ],
+        "margins": [
+          96,
+          105,
+          96,
+          106
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 126608,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-005/directions/SW/pixel.png",
+      "sha256": "1a99ef0a33a5cc520ed9e1360b9531f36bf57bb68bf4f98d105abc41c1a487da",
+      "bytes": 12250,
+      "git_blob_sha": "89173f244cacd5b356cd7425aab92840acd21b8b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          12,
+          116,
+          116
+        ],
+        "margins": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "3c209c65f6bf09c8383874bdb7d00331ef0a509a1eb826a4a160b90c922dbcdc"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-005/directions/W/default.png",
+      "sha256": "059aae4963db31ec5362efda036f14f9b555e664825dc6dd9c22d89e109588d2",
+      "bytes": 515807,
+      "git_blob_sha": "3363e62a8a9bdecf982af7eefc7bbf9961dd77cd",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          211,
+          928,
+          812
+        ],
+        "margins": [
+          96,
+          211,
+          96,
+          212
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 94468,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-005/directions/W/pixel.png",
+      "sha256": "223ce79dc26445b95b1b7d8ba87ea8797ab61fc4c115439defbab917756032c9",
+      "bytes": 9465,
+      "git_blob_sha": "66973b4cfac5ce452182698518bcf4bf43573b1d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          25,
+          116,
+          103
+        ],
+        "margins": [
+          12,
+          25,
+          12,
+          25
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "059aae4963db31ec5362efda036f14f9b555e664825dc6dd9c22d89e109588d2"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-005/directions/NW/default.png",
+      "sha256": "e87a6de102d98e04b81b31ac6122df45fe25f9a381a9e96c48d83c51484c2504",
+      "bytes": 536420,
+      "git_blob_sha": "c1ada074cf0db58a9ec413b85a64010b84dba30d",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          200,
+          928,
+          824
+        ],
+        "margins": [
+          96,
+          200,
+          96,
+          200
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 91820,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-005/directions/NW/pixel.png",
+      "sha256": "f196fbc5a60fe7e54d25577f500ab494da388bb0b2f8effc8d772314589b1c99",
+      "bytes": 9679,
+      "git_blob_sha": "5ed5e23cd8c7f101aa7237589f56d21b4d0501e3",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          23,
+          116,
+          105
+        ],
+        "margins": [
+          12,
+          23,
+          12,
+          23
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "e87a6de102d98e04b81b31ac6122df45fe25f9a381a9e96c48d83c51484c2504"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-005/directions/N/default.png",
+      "sha256": "bf02d68711a41f406d173f0777617a74be9b122314a8e0e55a76763a0ca7f780",
+      "bytes": 656465,
+      "git_blob_sha": "906b801c7f2f9d2032f84b5555a01281012c5be4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          181,
+          928,
+          842
+        ],
+        "margins": [
+          96,
+          181,
+          96,
+          182
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 103745,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-005/directions/N/pixel.png",
+      "sha256": "668c538e403e38830cf91de30ab7544278dc948d1cb3a0348a44d0f008261897",
+      "bytes": 11197,
+      "git_blob_sha": "09ad7ab2715ff8a9b0b347e44598b09da1d5b52b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          22,
+          116,
+          106
+        ],
+        "margins": [
+          12,
+          22,
+          12,
+          22
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "bf02d68711a41f406d173f0777617a74be9b122314a8e0e55a76763a0ca7f780"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-005/directions/NE/default.png",
+      "sha256": "cfef58d72e7c18efcbf7e6311369d376baf7b3061961d45ba19ec0748f194e0a",
+      "bytes": 489631,
+      "git_blob_sha": "9958fd31bd1dd54db65ab0affe3c3532d37c9fb2",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          218,
+          928,
+          806
+        ],
+        "margins": [
+          96,
+          218,
+          96,
+          218
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 98877,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-005/directions/NE/pixel.png",
+      "sha256": "ec234ce8af2e66eef1c8d6de7ce783afdc3358a68c78cd169aa0bbe2ab8c65e4",
+      "bytes": 8369,
+      "git_blob_sha": "1905e709a567bdbf6eecc205429b2f329446984c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          27,
+          116,
+          100
+        ],
+        "margins": [
+          12,
+          27,
+          12,
+          28
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "cfef58d72e7c18efcbf7e6311369d376baf7b3061961d45ba19ec0748f194e0a"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-005/directions/E/default.png",
+      "sha256": "652e37cd3ce9c4d72d93f7d1489d5c524243cdd28116b99f375d626cca65972b",
+      "bytes": 414961,
+      "git_blob_sha": "4ed294c231d99e6690874e51f4edbfefa1228d45",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          231,
+          928,
+          793
+        ],
+        "margins": [
+          96,
+          231,
+          96,
+          231
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 80653,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-005/directions/E/pixel.png",
+      "sha256": "9c339bdaad08cfcefaaf1d8ae864a11985798552ba3e430429e8404b8e1b9493",
+      "bytes": 7856,
+      "git_blob_sha": "bcd416a5c9ab8db96dd88f26943e8a61ea3e11a4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          28,
+          116,
+          99
+        ],
+        "margins": [
+          12,
+          28,
+          12,
+          29
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "652e37cd3ce9c4d72d93f7d1489d5c524243cdd28116b99f375d626cca65972b"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-005/default.png",
+      "sha256": "e76b12b24e45aaa35955eb3ed2615433574339f333696c45901866932aa0135d",
+      "bytes": 618717,
+      "git_blob_sha": "fcd20a47b95bc11b75055e4b0761f643eddb3baf",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          154,
+          944,
+          870
+        ],
+        "margins": [
+          80,
+          154,
+          80,
+          154
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 96768,
+        "alpha_value_count": 249,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-005/pixel.png",
+      "sha256": "44e43475faae89f8b0f6def5c3ecc91d4a1d9932d076502a8a2bd3a0cd5dd8fd",
+      "bytes": 12209,
+      "git_blob_sha": "141a5669c19f0e5681c502923880c642f5e49396",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          16,
+          118,
+          112
+        ],
+        "margins": [
+          10,
+          16,
+          10,
+          16
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 32,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "e76b12b24e45aaa35955eb3ed2615433574339f333696c45901866932aa0135d"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "Notch and tail-root yaw continuity inferred; v2 pixel single resize replaces broken-tail earlier derivatives.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending.",
+      "Spiral/notch fixed rotation and W/E oblique projection remain inferred."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Create ONE normal game illustration of exact reference creature sm-decay-005, yaw-only turn to S: direct front, both eyes facing camera beneath front rim. Keep original camera elevation and naturally slightly tilted leaf disc pose. One soft thin leaf disc made of ONE wide supple mottled ochre/sage/cream leaf curling exactly TWO turns, not hard shell. TWO circular nicks on outer edge at fixed physical positions rotating with creature, never move them just to make visible. SIX tiny legs total beneath disc, three per side; naturally occlude far legs, do not add or stretch legs. TWO golden eyes total under front rim, naturally occlude with angle. ONE long slender tapering leaf-stalk tail emerges centrally behind, no plume/leaf blade at tip. Preserve exact leaf veins, spiral handedness (do not mirror), earthy mottled palette and hand-painted illustration style, body proportions. Disc stays broad and low, not upright snail shell. Entire single creature centered square with transparent margin including full thin tail, no text, ground, shadow, glow or background.",
+      "raw_sha256": "baeab228827619e6d97b004a2b1671355bd61114a3f4e0d44dfb4f3eb38ceb42",
+      "raw_bytes": 957389,
+      "generation_references_in_order": [
+        {
+          "sha256": "e76b12b24e45aaa35955eb3ed2615433574339f333696c45901866932aa0135d"
+        }
+      ],
+      "finished": {
+        "sha256": "fd00a52db8e6ce407a4e1a3e8e3565693667b1861d76025a9c33354657a81181",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          131,
+          96,
+          893,
+          928
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 109082,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Convert this exact normal view of sm-decay-005 into ONE crisp pixel-art sprite suitable128x128. Preserve direction S, spiral handedness and exactly two leaf turns, exactly two round edge nicks, six tiny legs total with same natural occlusion, two eyes total where visible, one slender leaf-stalk tail. Same ochre/sage/cream soft-leaf texture, palette roles and silhouette, no shell or extra eyes. Intentional hard pixel clusters, ≤32visible colors, binary transparent background, whole creature with generous clear margins. No glow/shadow/backdrop/text. Change rendering medium only, not anatomy, direction or composition.",
+      "raw_sha256": "38e5ee6b8ff0367995e95798de3604f5aca1f3c8760cb0f5117c81bf4e82897c",
+      "raw_bytes": 855326,
+      "generation_references_in_order": [
+        {
+          "sha256": "baeab228827619e6d97b004a2b1671355bd61114a3f4e0d44dfb4f3eb38ceb42"
+        }
+      ],
+      "finished": {
+        "sha256": "7de59f1d704f4054901126b91b3cc6205f9e90a753431c7165616250183d2e2c",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          17,
+          12,
+          111,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. Correct ONLY the extra eye in this front-left creature image. It incorrectly has THREE golden eyes. Keep the two leftmost eyes (the small far eye near screen-left rim and large near eye just left of image center). Remove the rightmost golden eye near lower-right rim, filling just that spot with the same plain leaf underside. Preserve all other pixels/design: same spiral two turns, six tiny legs with occlusion, two round nicks, single thin tail, palette, direction and pose. Genuine transparent background. No other changes.",
+      "raw_sha256": "263dff611048b4cff5c7640294235feb715c9946c0fde54369bdad804ca5c95f",
+      "raw_bytes": 1030679,
+      "generation_references_in_order": [
+        {
+          "sha256": "5309d3d6924fa05fdefeb1d43bcca5b8cfeb26e41bf9f01bf89a5e5ee350b897"
+        }
+      ],
+      "finished": {
+        "sha256": "3c209c65f6bf09c8383874bdb7d00331ef0a509a1eb826a4a160b90c922dbcdc",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          105,
+          928,
+          918
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 126608,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Convert this exact normal view of sm-decay-005 into ONE crisp pixel-art sprite suitable128x128. Preserve direction SW, spiral handedness and exactly two leaf turns, exactly two round edge nicks, six tiny legs total with same natural occlusion, two eyes total where visible, one slender leaf-stalk tail. Same ochre/sage/cream soft-leaf texture, palette roles and silhouette, no shell or extra eyes. Intentional hard pixel clusters, ≤32visible colors, binary transparent background, whole creature with generous clear margins. No glow/shadow/backdrop/text. Change rendering medium only, not anatomy, direction or composition.",
+      "raw_sha256": "502913a81a77c78634120988eb4f985864761cad517692beaa9db919663e4c70",
+      "raw_bytes": 1020646,
+      "generation_references_in_order": [
+        {
+          "sha256": "263dff611048b4cff5c7640294235feb715c9946c0fde54369bdad804ca5c95f"
+        }
+      ],
+      "finished": {
+        "sha256": "1a99ef0a33a5cc520ed9e1360b9531f36bf57bb68bf4f98d105abc41c1a487da",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          12,
+          116,
+          116
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Create ONE normal game illustration of exact reference creature sm-decay-005, yaw-only turn to W: true left profile, face points left, near eye only. Keep original camera elevation and naturally slightly tilted leaf disc pose. One soft thin leaf disc made of ONE wide supple mottled ochre/sage/cream leaf curling exactly TWO turns, not hard shell. TWO circular nicks on outer edge at fixed physical positions rotating with creature, never move them just to make visible. SIX tiny legs total beneath disc, three per side; naturally occlude far legs, do not add or stretch legs. TWO golden eyes total under front rim, naturally occlude with angle. ONE long slender tapering leaf-stalk tail emerges centrally behind, no plume/leaf blade at tip. Preserve exact leaf veins, spiral handedness (do not mirror), earthy mottled palette and hand-painted illustration style, body proportions. Disc stays broad and low, not upright snail shell. Entire single creature centered square with transparent margin including full thin tail, no text, ground, shadow, glow or background.",
+      "raw_sha256": "3867927916d7fd4470b3707c597b962ecfb50c4baadafc5ab1c537c5d46bf086",
+      "raw_bytes": 889505,
+      "generation_references_in_order": [
+        {
+          "sha256": "e76b12b24e45aaa35955eb3ed2615433574339f333696c45901866932aa0135d"
+        }
+      ],
+      "finished": {
+        "sha256": "059aae4963db31ec5362efda036f14f9b555e664825dc6dd9c22d89e109588d2",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          211,
+          928,
+          812
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 94468,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Convert this exact normal view of sm-decay-005 into ONE crisp pixel-art sprite suitable128x128. Preserve direction W, spiral handedness and exactly two leaf turns, exactly two round edge nicks, six tiny legs total with same natural occlusion, two eyes total where visible, one slender leaf-stalk tail. Same ochre/sage/cream soft-leaf texture, palette roles and silhouette, no shell or extra eyes. Intentional hard pixel clusters, ≤32visible colors, binary transparent background, whole creature with generous clear margins. No glow/shadow/backdrop/text. Change rendering medium only, not anatomy, direction or composition.",
+      "raw_sha256": "4a841a9a32305a03bb0adec99e4170a830e3c16a1d0b1daedb6a2441a417cb1e",
+      "raw_bytes": 810358,
+      "generation_references_in_order": [
+        {
+          "sha256": "3867927916d7fd4470b3707c597b962ecfb50c4baadafc5ab1c537c5d46bf086"
+        }
+      ],
+      "finished": {
+        "sha256": "223ce79dc26445b95b1b7d8ba87ea8797ab61fc4c115439defbab917756032c9",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          25,
+          116,
+          103
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. One normal illustration of exact reference leaf creature sm-decay-005, yaw turn to NW: rear-left three-quarter, head recedes upper-left, rear rim and tail root nearest lower-right, no eyes visible. Camera elevation same as original, gently raised; retain naturally tilted but broad LOW leaf disc. One wide supple ochre/sage/cream leaf curled exactly TWO turns into thin spiral disc; preserve handedness, not a mirrored spiral. TWO rounded nicks only on outside rim at fixed physical positions as creature turns. SIX tiny legs total three per side beneath disc, far legs naturally occluded. TWO golden eyes total under front rim, invisible from rear. ONE long slender tapering leaf-stalk tail from central back rim, no blade/plume tip; rear tail comes toward camera. No rear face. Preserve original veins, leaf texture, mottling, proportions and illustrative shading. Not a hard upright snail shell. Entire single transparent creature centered square with ample margins including tail, no text, shadow, glow, ground or additional subjects.",
+      "raw_sha256": "23a98412cfcec7b8a9643f743dc97a060ca970a3a96e98d9c2568b5d82f902d2",
+      "raw_bytes": 869260,
+      "generation_references_in_order": [
+        {
+          "sha256": "e76b12b24e45aaa35955eb3ed2615433574339f333696c45901866932aa0135d"
+        }
+      ],
+      "finished": {
+        "sha256": "e87a6de102d98e04b81b31ac6122df45fe25f9a381a9e96c48d83c51484c2504",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          200,
+          928,
+          824
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 91820,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Redraw THIS exact view as ONE crisp pixel-art sprite, sm-decay-005 NW. Do not change facing, spiral handedness, silhouette, tail position or occlusion. This is REAR view: zero visible eyes, no face; retain faceless rear rim nearest tail root. Soft flat ochre/sage/cream leaf disc curling exactly TWO turns, two round edge nicks, six tiny legs total naturally partly hidden, one long tapering leaf-stalk tail. Preserve all landmarks and proportions from reference. Intentional128x128 logical pixel clusters, at most32visible colors, binary alpha fully transparent background. Full single sprite generous margins. No glow, shadow, text, background, shell or extra anatomy.",
+      "raw_sha256": "e041c7d23b590ca7775981bbd684b0116b62d8bc799e7da8bbe5e547e258ff86",
+      "raw_bytes": 771190,
+      "generation_references_in_order": [
+        {
+          "sha256": "23a98412cfcec7b8a9643f743dc97a060ca970a3a96e98d9c2568b5d82f902d2"
+        }
+      ],
+      "finished": {
+        "sha256": "f196fbc5a60fe7e54d25577f500ab494da388bb0b2f8effc8d772314589b1c99",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          23,
+          116,
+          105
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. Image1 is rear-view candidate, image2 is original individual. Correct ONLY the spiral handedness on image1 so its one broad leaf curls the SAME direction as image2 when viewed from above; rotation in yaw must never mirror a spiral. Keep rear view with no eyes, central nearest tail root and tail toward foreground, same two turns, two round nicks, leg arrangement, size/shape, palette and texture. Treat image2 as handedness/anatomy reference only, do not copy its front-right direction. One flat supple curled leaf, not hard shell. Transparent whole sprite with margins, no background/text/shadow. Preserve other design exactly.",
+      "raw_sha256": "c5d5b738e6b4437a7885a45a5690c4cad08a42acef15c4f6adfa808ba4daa11e",
+      "raw_bytes": 1010742,
+      "generation_references_in_order": [
+        {
+          "sha256": "634d70f3ec2cd0cb172b0c4292a1a08fb8422774f36a6e1dbfcca05beee82a08"
+        },
+        {
+          "sha256": "e76b12b24e45aaa35955eb3ed2615433574339f333696c45901866932aa0135d"
+        }
+      ],
+      "finished": {
+        "sha256": "bf02d68711a41f406d173f0777617a74be9b122314a8e0e55a76763a0ca7f780",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          181,
+          928,
+          842
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 103745,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Redraw THIS exact view as ONE crisp pixel-art sprite, sm-decay-005 N. Do not change facing, spiral handedness, silhouette, tail position or occlusion. This is REAR view: zero visible eyes, no face; retain faceless rear rim nearest tail root. Soft flat ochre/sage/cream leaf disc curling exactly TWO turns, two round edge nicks, six tiny legs total naturally partly hidden, one long tapering leaf-stalk tail. Preserve all landmarks and proportions from reference. Intentional128x128 logical pixel clusters, at most32visible colors, binary alpha fully transparent background. Full single sprite generous margins. No glow, shadow, text, background, shell or extra anatomy.",
+      "raw_sha256": "38967cc346b541cf6710522ed0376aeefd617ee9e77fa344532ec4e8a380752f",
+      "raw_bytes": 921270,
+      "generation_references_in_order": [
+        {
+          "sha256": "c5d5b738e6b4437a7885a45a5690c4cad08a42acef15c4f6adfa808ba4daa11e"
+        }
+      ],
+      "finished": {
+        "sha256": "668c538e403e38830cf91de30ab7544278dc948d1cb3a0348a44d0f008261897",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          22,
+          116,
+          106
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. One normal illustration of exact reference leaf creature sm-decay-005, yaw turn to NE: rear-right three-quarter, head recedes upper-right, rear rim and tail root nearest lower-left, no eyes visible. Camera elevation same as original, gently raised; retain naturally tilted but broad LOW leaf disc. One wide supple ochre/sage/cream leaf curled exactly TWO turns into thin spiral disc; preserve handedness, not a mirrored spiral. TWO rounded nicks only on outside rim at fixed physical positions as creature turns. SIX tiny legs total three per side beneath disc, far legs naturally occluded. TWO golden eyes total under front rim, invisible from rear. ONE long slender tapering leaf-stalk tail from central back rim, no blade/plume tip; rear tail comes toward camera. No rear face. Preserve original veins, leaf texture, mottling, proportions and illustrative shading. Not a hard upright snail shell. Entire single transparent creature centered square with ample margins including tail, no text, shadow, glow, ground or additional subjects.",
+      "raw_sha256": "092df3f11d9064f62e3f4b86b0e898da04488edcb81c5a247274fce7d25ef293",
+      "raw_bytes": 916198,
+      "generation_references_in_order": [
+        {
+          "sha256": "e76b12b24e45aaa35955eb3ed2615433574339f333696c45901866932aa0135d"
+        }
+      ],
+      "finished": {
+        "sha256": "cfef58d72e7c18efcbf7e6311369d376baf7b3061961d45ba19ec0748f194e0a",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          218,
+          928,
+          806
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 98877,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Redraw THIS exact view as ONE crisp pixel-art sprite, sm-decay-005 NE. Do not change facing, spiral handedness, silhouette, tail position or occlusion. This is REAR view: zero visible eyes, no face; retain faceless rear rim nearest tail root. Soft flat ochre/sage/cream leaf disc curling exactly TWO turns, two round edge nicks, six tiny legs total naturally partly hidden, one long tapering leaf-stalk tail. Preserve all landmarks and proportions from reference. Intentional128x128 logical pixel clusters, at most32visible colors, binary alpha fully transparent background. Full single sprite generous margins. No glow, shadow, text, background, shell or extra anatomy.",
+      "raw_sha256": "accccfd126b3067a5eb2f787a186127bc39b87c61f594eb11940a5c09d16b42c",
+      "raw_bytes": 793981,
+      "generation_references_in_order": [
+        {
+          "sha256": "092df3f11d9064f62e3f4b86b0e898da04488edcb81c5a247274fce7d25ef293"
+        }
+      ],
+      "finished": {
+        "sha256": "ec234ce8af2e66eef1c8d6de7ce783afdc3358a68c78cd169aa0bbe2ab8c65e4",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          27,
+          116,
+          100
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. Turn this exact creature a little farther to its RIGHT-facing true side profile. Head points horizontally screen-right, only the near golden eye visible at right rim; far eye fully occluded, not deleted from anatomy. Keep camera elevation, spiral handedness, two-turn broad supple leaf disc, exactly two round rim nicks, six tiny legs total with natural occlusion, one long tapering rear leaf-stalk tail, palette/texture/style. Do not horizontally mirror the spiral. Only yaw changes, no new parts, no background/shadow/text. Full transparent single sprite centered margin.",
+      "raw_sha256": "7474c7c626057d9ef8c9d4f847857d98655b894df850909193e91aa709eb2765",
+      "raw_bytes": 817447,
+      "generation_references_in_order": [
+        {
+          "sha256": "0830f481cb389a48a669a8ecb239aa7f70ebef0e300122075be8b3b03774c6ba"
+        }
+      ],
+      "finished": {
+        "sha256": "652e37cd3ce9c4d72d93f7d1489d5c524243cdd28116b99f375d626cca65972b",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          231,
+          928,
+          793
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 80653,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Redraw THIS exact view as ONE crisp pixel-art sprite, sm-decay-005 E. Do not change facing, spiral handedness, silhouette, tail position or occlusion. One near eye visible, far eye occluded. Soft flat ochre/sage/cream leaf disc curling exactly TWO turns, two round edge nicks, six tiny legs total naturally partly hidden, one long tapering leaf-stalk tail. Preserve all landmarks and proportions from reference. Intentional128x128 logical pixel clusters, at most32visible colors, binary alpha fully transparent background. Full single sprite generous margins. No glow, shadow, text, background, shell or extra anatomy.",
+      "raw_sha256": "a70f18e26311c51d0ee100940513bedc1994985da0f176e8a6da7eb5c34e0998",
+      "raw_bytes": 748989,
+      "generation_references_in_order": [
+        {
+          "sha256": "7474c7c626057d9ef8c9d4f847857d98655b894df850909193e91aa709eb2765"
+        }
+      ],
+      "finished": {
+        "sha256": "9c339bdaad08cfcefaaf1d8ae864a11985798552ba3e430429e8404b8e1b9493",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          28,
+          116,
+          99
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    }
+  ]
+}

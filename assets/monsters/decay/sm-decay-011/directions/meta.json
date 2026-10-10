@@ -1,0 +1,688 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-011",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/decay/sm-decay-011/default.png",
+      "sha256": "09b15e66f1af4a839b5d34a86b8a5ba4cd2ddd599000c4dbb48c1066c1bedd75",
+      "git_blob_sha": "4f91282cb7affc3e344a5e095ba4cdf226784a00",
+      "bytes": 724570
+    },
+    "pixel": {
+      "path": "assets/monsters/decay/sm-decay-011/pixel.png",
+      "sha256": "840db8f3b6b7f309bf9b9f32c42328e8be7664375f55c4f58309f69bd6a9410c",
+      "git_blob_sha": "d03de8a5175d7a95c8d32e620fa637b77f5d807d",
+      "bytes": 13374
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-011/directions/S/default.png",
+      "sha256": "d5e723f49180f222b95dd6545185e9f823cd8e86c398e356c92ed7a506fb3bee",
+      "bytes": 660031,
+      "git_blob_sha": "6121f44ba4bb7a75ed56c8d93d6e44f8faaff415",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          229,
+          96,
+          795,
+          928
+        ],
+        "margins": [
+          229,
+          96,
+          229,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 78450,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-011/directions/S/pixel.png",
+      "sha256": "57bb6d0348cc22f7b37f7520140b859007a65ff038f69188628118541488682c",
+      "bytes": 9931,
+      "git_blob_sha": "4b02e68da9f28542fdad4bb30cd6f3fdddce95eb",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          28,
+          12,
+          99,
+          116
+        ],
+        "margins": [
+          28,
+          12,
+          29,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "d5e723f49180f222b95dd6545185e9f823cd8e86c398e356c92ed7a506fb3bee"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-011/directions/SW/default.png",
+      "sha256": "00243d0fa39a077cf0dee0749134b0ba005d0244df111d5ee96ad8e2bb81b1b3",
+      "bytes": 685827,
+      "git_blob_sha": "ce9e2b81a14c365b0ba590b51fbfb7361044d0ff",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          234,
+          96,
+          790,
+          928
+        ],
+        "margins": [
+          234,
+          96,
+          234,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 96053,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-011/directions/SW/pixel.png",
+      "sha256": "abb25524c8844ab692a69f736c5e32ad13d3b6490be167300c568e1d5bf3b1a6",
+      "bytes": 10337,
+      "git_blob_sha": "fc2ce355d1aa8bb5c527c1e36a39ca3cd1f2060e",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          27,
+          12,
+          100,
+          116
+        ],
+        "margins": [
+          27,
+          12,
+          28,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "00243d0fa39a077cf0dee0749134b0ba005d0244df111d5ee96ad8e2bb81b1b3"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-011/directions/W/default.png",
+      "sha256": "2f028b914f217831b41189e31f28869f7f9c6f6e1556278465a48c18ebfe76f1",
+      "bytes": 665171,
+      "git_blob_sha": "51e663c9673eb3ba08b76550dbd50720959e5a00",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          262,
+          96,
+          762,
+          928
+        ],
+        "margins": [
+          262,
+          96,
+          262,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 95599,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-011/directions/W/pixel.png",
+      "sha256": "0646c0beb624fb3c6a655c0dd9a7d71985588fb611584b6a92448c1dbf007724",
+      "bytes": 9720,
+      "git_blob_sha": "e54e8284254abc941bca05b3bc693ebf4920b8c7",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          31,
+          12,
+          96,
+          116
+        ],
+        "margins": [
+          31,
+          12,
+          32,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "2f028b914f217831b41189e31f28869f7f9c6f6e1556278465a48c18ebfe76f1"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-011/directions/NW/default.png",
+      "sha256": "6f8306b3a6891a64f026bb0133f5fe332ca690a2accacc0c768c53941cd4de7f",
+      "bytes": 691170,
+      "git_blob_sha": "b264562f6adf4a9b77bf81ea06cd0ea225543631",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          246,
+          96,
+          777,
+          928
+        ],
+        "margins": [
+          246,
+          96,
+          247,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 95656,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-011/directions/NW/pixel.png",
+      "sha256": "864f91908158c3b2d0221406d10431ea5500f56fd4ba73e347f64b0bdeaf0bff",
+      "bytes": 9540,
+      "git_blob_sha": "4db4f165b1127b8563c957f92e3040b92ddb02eb",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          32,
+          12,
+          96,
+          116
+        ],
+        "margins": [
+          32,
+          12,
+          32,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "6f8306b3a6891a64f026bb0133f5fe332ca690a2accacc0c768c53941cd4de7f"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-011/directions/N/default.png",
+      "sha256": "d321fd90ef1dbf3121fcf9632b886f391efa4a2d860d3d9e681e58ce8794ccd5",
+      "bytes": 745425,
+      "git_blob_sha": "a7369411a7133d2b5e8371e27f21461b0cc3caf2",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          212,
+          96,
+          811,
+          928
+        ],
+        "margins": [
+          212,
+          96,
+          213,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 99035,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-011/directions/N/pixel.png",
+      "sha256": "5e19f64e682069a39e07e1b36fc137f68ddd48605fe52dde12db0f9ea9fb9d60",
+      "bytes": 10254,
+      "git_blob_sha": "29b14bc2ec724c45f16b49ae3456aed05769094b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          28,
+          12,
+          100,
+          116
+        ],
+        "margins": [
+          28,
+          12,
+          28,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "d321fd90ef1dbf3121fcf9632b886f391efa4a2d860d3d9e681e58ce8794ccd5"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-011/directions/NE/default.png",
+      "sha256": "1a2d9bd96749a5f07534ea2abc920fa069fed8ef49d060f2788b62c2b027a06b",
+      "bytes": 678530,
+      "git_blob_sha": "643794aff79184c4cfaf398233bc72308e5ca71b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          251,
+          96,
+          773,
+          928
+        ],
+        "margins": [
+          251,
+          96,
+          251,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 85936,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-011/directions/NE/pixel.png",
+      "sha256": "fb2517876f2be62083a0184fc5d37fd265121ea3c292b7bf2368d253d8722886",
+      "bytes": 9252,
+      "git_blob_sha": "545a7cca01eb501d520474e6c355731af238d5cd",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          31,
+          12,
+          96,
+          116
+        ],
+        "margins": [
+          31,
+          12,
+          32,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "1a2d9bd96749a5f07534ea2abc920fa069fed8ef49d060f2788b62c2b027a06b"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-011/directions/E/default.png",
+      "sha256": "56793970f9a8e9e5f5e73c9d88b0e4b89da0364c9e2cd1c0bf2d2db123d1d235",
+      "bytes": 680518,
+      "git_blob_sha": "e0675c463ff2d5a5eebb132b22a5504b26c48761",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          236,
+          96,
+          788,
+          928
+        ],
+        "margins": [
+          236,
+          96,
+          236,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 84023,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-011/directions/E/pixel.png",
+      "sha256": "a1fb309aa53687e7df817ecb1a2595429221addcd480661031f65330bd80f5ea",
+      "bytes": 9444,
+      "git_blob_sha": "aad3a8cc8c4020ecb850e2a7a342a418b8d71ee9",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          31,
+          12,
+          97,
+          116
+        ],
+        "margins": [
+          31,
+          12,
+          31,
+          12
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "56793970f9a8e9e5f5e73c9d88b0e4b89da0364c9e2cd1c0bf2d2db123d1d235"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-011/default.png",
+      "sha256": "09b15e66f1af4a839b5d34a86b8a5ba4cd2ddd599000c4dbb48c1066c1bedd75",
+      "bytes": 724570,
+      "git_blob_sha": "4f91282cb7affc3e344a5e095ba4cdf226784a00",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          168,
+          80,
+          855,
+          944
+        ],
+        "margins": [
+          168,
+          80,
+          169,
+          80
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 83631,
+        "alpha_value_count": 249,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-011/pixel.png",
+      "sha256": "840db8f3b6b7f309bf9b9f32c42328e8be7664375f55c4f58309f69bd6a9410c",
+      "bytes": 13374,
+      "git_blob_sha": "d03de8a5175d7a95c8d32e620fa637b77f5d807d",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          22,
+          10,
+          105,
+          118
+        ],
+        "margins": [
+          22,
+          10,
+          23,
+          10
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "09b15e66f1af4a839b5d34a86b8a5ba4cd2ddd599000c4dbb48c1066c1bedd75"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "Rear appearance and strict rigid rotation inferred.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending.",
+      "Rear leaves, tuft attachment and tail roots inferred."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Create ONE new S0 straight FRONT view of this exact sm-decay-011 plant-fiber creature, camera aligned to two-eyed face. Keep inverted teardrop single body segment, fluffy cream plant fibers and brown dead-leaf/humus texture, sage green accents, THREE flat little cottony fan tufts on crown (not hair), TWO large olive eyes, ONE shallow horizontal groove around middle, THREE short rootlike TAILS each ending ONE identical-sized round soil pellet, ZERO legs/wings. Rotate yaw only from right-front reference to front, same elevated camera, slight original body lean preserved in physical3D. Front eye pair symmetric across face, tails naturally spread. Same outlined restrained cel-shaded game illustration, palette #D3C19A #8B705D #9DAE83, full body centered transparent square generous padding. No new face parts, feet, powder clouds, text or floor. No mirror.\n",
+      "raw_sha256": "3c814404b91107f3f647f602a82cf5dcba89d89464144a2c06a1f58f00e2f188",
+      "raw_bytes": 1156999,
+      "generation_reference_sha256": "09b15e66f1af4a839b5d34a86b8a5ba4cd2ddd599000c4dbb48c1066c1bedd75",
+      "finished_sha256": "d5e723f49180f222b95dd6545185e9f823cd8e86c398e356c92ed7a506fb3bee"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact S0 FRONT sm-decay-011 as128x128 logical pixel art. Keep inverted teardrop fluffy cream plant body with brown leaf/humus and sage accents, THREE flat crown tufts, TWO olive eyes, ONE shallow horizontal mid-groove, THREE root tails each one equal round soil pellet, ZERO feet/wings. Same front pose/proportions. Crisp hard pixel clusters1px outline≤24colors,binaryalpha,body104px extent on padded transparent128square. No extra features text or ground.\n",
+      "raw_sha256": "473faca050c7b6f273556a2bf37c92f60821685d4a9009a976a9d85db8f31830",
+      "raw_bytes": 927517,
+      "generation_reference_sha256": "d5e723f49180f222b95dd6545185e9f823cd8e86c398e356c92ed7a506fb3bee",
+      "finished_sha256": "57bb6d0348cc22f7b37f7520140b859007a65ff038f69188628118541488682c"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE SW45 FRONT LEFT view of same sm-decay-011, turn yaw45degrees facing screen LEFT, fixed slightly elevated camera. Cream two-eye face shifts to left, far eye smaller, brown leaf-covered right flank exposed. Three flat fluffy crown fan tufts rotate with body, single inverted teardrop body, one circumferential shallow horizontal middle groove, THREE short root tails each equal round soil pellet, no legs wings. Preserve cream/brown/sage palette, plantfiber leaf and humus textures, proportions and restrained celshading, gentle physical lean. Genuine new view not mirror. Full body centered transparent square padded, no ground text props.\n",
+      "raw_sha256": "7d889ec0095a5668fa016c2f973143a7af8ef796e688ed7052e718d4e72c444c",
+      "raw_bytes": 1147147,
+      "generation_reference_sha256": "d5e723f49180f222b95dd6545185e9f823cd8e86c398e356c92ed7a506fb3bee",
+      "finished_sha256": "00243d0fa39a077cf0dee0749134b0ba005d0244df111d5ee96ad8e2bb81b1b3"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact SW45 left-front sm-decay-011 as128x128 logical pixel art. Preserve two-eye cream face left, brown leaf flank right,3flat fluffy crown tufts,1middle horizontal groove,3root tails each equal soil ball,zero legs/wings. Same pose silhouette palette cream brown sage. Crisp pixel clusters1px outlines≤24colors,binaryalpha,104px extent on transparent128square padding. No added features/text.\n",
+      "raw_sha256": "7ece2c86c69e0a535895e1d99322961dec17c4890158f0797a832df8764f92e9",
+      "raw_bytes": 954240,
+      "generation_reference_sha256": "00243d0fa39a077cf0dee0749134b0ba005d0244df111d5ee96ad8e2bb81b1b3",
+      "finished_sha256": "abb25524c8844ab692a69f736c5e32ad13d3b6490be167300c568e1d5bf3b1a6"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-decay-011 rotated to W90 true LEFT PROFILE, face points directly screen LEFT, same camera elevation. Only ONE near olive eye visible near left edge, far eye fully occluded. Cream facial patch narrow at left, brown/sage leaf-covered flank dominates right two-thirds. Inverted teardrop body, THREE flat cotton fan crown tufts, ONE shallow circumferential middle groove, THREE root tails ending equal round soil pellets,zero legs/wings. Preserve original proportions colors plantfiber/leaf/humus textures, physical slight lean. Must be side90 not frontthreequarter. Full body centered transparent square generous padding, no mirror floor text.\n",
+      "raw_sha256": "edc9a93f799291a40ccea657c33e5dd8c041145b762b9d5d9341bf61c1daf87e",
+      "raw_bytes": 1114915,
+      "generation_reference_sha256": "00243d0fa39a077cf0dee0749134b0ba005d0244df111d5ee96ad8e2bb81b1b3",
+      "finished_sha256": "2f028b914f217831b41189e31f28869f7f9c6f6e1556278465a48c18ebfe76f1"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact W90 LEFT PROFILE plantfiber sm-decay-011 as128x128 logical pixel art. One visible olive eye at left edge, narrow cream face left, brown/sage leaves dominate side,3flat cotton tufts,1midgroove,3root tails with equal round soil balls,zero legs/wings. Preserve pose silhouette colors. Crisp pixel clusters1px outlines≤24colors,binaryalpha,104px extent padded transparent128square, no extra features/text.\n",
+      "raw_sha256": "29d0748f529ec8193e4e73de3989827e0713b54eeb11d646c8a18341921865a3",
+      "raw_bytes": 817882,
+      "generation_reference_sha256": "2f028b914f217831b41189e31f28869f7f9c6f6e1556278465a48c18ebfe76f1",
+      "finished_sha256": "0646c0beb624fb3c6a655c0dd9a7d71985588fb611584b6a92448c1dbf007724"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. One NW135 LEFT REAR view same sm-decay-011, rotate yaw45degrees farther away from this leftprofile. Face points away upper-left, both eyes hidden, cream face at most thin left-edge sliver. Back and right flank brown overlapping dead leaves with sage fragments and humus grains dominate. THREE flat fluffy cream crown tufts physically rotated, inverted teardrop single body, ONE circumferential shallow midgroove, THREE root tails each equal round soil pellet,zero legs/wings. Same outline/celshade colors proportions, fixed elevated camera and physical lean. Full body centered transparent square padded, no mirror/newface/text/floor.\n",
+      "raw_sha256": "15b77c2c1e4b7d62aa1cae2475f7198d5c712ca59fba8abff010344457bddec5",
+      "raw_bytes": 1127721,
+      "generation_reference_sha256": "2f028b914f217831b41189e31f28869f7f9c6f6e1556278465a48c18ebfe76f1",
+      "finished_sha256": "6f8306b3a6891a64f026bb0133f5fe332ca690a2accacc0c768c53941cd4de7f"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact NW135 leftrear sm-decay-011 as128x128 logical pixel art. Preserve no visible eyes, thin cream facial sliver at left, brown/sage leafy back dominant,3flat fluffy crown tufts,1circumferential groove,3root tails each equal soilball. Same pose silhouette proportions colors,zero legs/wings. Crisp clusters1px outlines≤24colors,binaryalpha,104px extent transparent128square padding. No extra features/text.\n",
+      "raw_sha256": "8d0f015e42cc67e7a995f63899f2b932b69bf74c57a6fe5483f298dac78e47a3",
+      "raw_bytes": 847405,
+      "generation_reference_sha256": "6f8306b3a6891a64f026bb0133f5fe332ca690a2accacc0c768c53941cd4de7f",
+      "finished_sha256": "864f91908158c3b2d0221406d10431ea5500f56fd4ba73e347f64b0bdeaf0bff"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Create N180 STRAIGHT BACK view of exact sm-decay-011. Camera behind same elevated angle, face/eyes fully hidden. Rounded upper inverted-teardrop body covered in layered brown dead leaves, sage fragments and humus granules; consistent backside continuation. THREE flat fluffy cream crown tufts viewed from rear, ONE shallow groove encircles middle visible across back. THREE root tails with equal round soil pellets, no legs wings. Back symmetric overall, crown tufts show rear mounting and central far tuft, keep same body scale/proportions/color celshading. Slight physical lean consistent, no invented face/extra tuft. Full body transparent padded square, no floor/text/mirror.\n",
+      "raw_sha256": "41a254a18f96dcd596b01bd36494f8cf7589f2a5bda7b9822a44da38b4167a61",
+      "raw_bytes": 1158597,
+      "generation_reference_sha256": "d5e723f49180f222b95dd6545185e9f823cd8e86c398e356c92ed7a506fb3bee",
+      "finished_sha256": "d321fd90ef1dbf3121fcf9632b886f391efa4a2d860d3d9e681e58ce8794ccd5"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact N180 BACK sm-decay-011 as128x128 logical pixel art. Preserve brown/sage leafy invertedteardrop body,3flat cream tufts,no eyes/face,1midgroove,3root tails equal soilballtips,zero legs/wings. Same symmetry proportions outline colors. Crisp hard clusters1px outline≤24colors,binaryalpha104px extent padded transparent128square. No added features/text.\n",
+      "raw_sha256": "02a6c9f8a694465f77f6c90bbf538c53c05f206411dbdaab5d58055b135b9bbb",
+      "raw_bytes": 844780,
+      "generation_reference_sha256": "d321fd90ef1dbf3121fcf9632b886f391efa4a2d860d3d9e681e58ce8794ccd5",
+      "finished_sha256": "5e19f64e682069a39e07e1b36fc137f68ddd48605fe52dde12db0f9ea9fb9d60"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. ONE NE225 RIGHT REAR three-quarter sm-decay-011. Rotate this back view45degrees so face points away upper-right. Both eyes fully hidden, cream facial patch only thin rightedge sliver. Brown/sage layered leafy back and left flank dominate, rear pattern shifted left,3flat fluffy cream crown tufts visibly rotate depth,1circumferential midgroove,3root tails equal soilpellet tips. Invertedteardrop single body same size/physicallean,zero legs/wings. Fixed elevated camera, celshade palette preserved, genuine yaw no mirror. Full body centered padded transparent square no text/floor.\n",
+      "raw_sha256": "a089bee5702e8873542f3f0ef520859fdac29cf94d5a05b807d136b99743d8a4",
+      "raw_bytes": 1106475,
+      "generation_reference_sha256": "d321fd90ef1dbf3121fcf9632b886f391efa4a2d860d3d9e681e58ce8794ccd5",
+      "finished_sha256": "1a2d9bd96749a5f07534ea2abc920fa069fed8ef49d060f2788b62c2b027a06b"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact NE225 rightrear plantfiber sm-decay-011 as128x128 logical pixel art. No eyes visible, cream thin sliver at right, brown/sage leafy rear left,3flat cotton tufts rotated,1midgroove,3root tails equal soilpellets. Same pose silhouette proportions colors,zero legs/wings. Crisp1px outlines hard clusters≤24colors,binaryalpha,104px extent padded transparent128square,no text/floor.\n",
+      "raw_sha256": "0e0223f534bcdffdae2002390c85d08ccf24bbf52b5233bf2dec3503246eebba",
+      "raw_bytes": 889998,
+      "generation_reference_sha256": "1a2d9bd96749a5f07534ea2abc920fa069fed8ef49d060f2788b62c2b027a06b",
+      "finished_sha256": "fb2517876f2be62083a0184fc5d37fd265121ea3c292b7bf2368d253d8722886"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. One genuine E270 TRUE RIGHT PROFILE of sm-decay-011, rotate original front-right farther to90degree side, fixed elevated camera. Face points directly screen RIGHT, ONE near olive eye visible at right rim, far eye fully hidden. Narrow cream facial patch right, brown/sage leaf flank dominates left two-thirds. Single invertedteardrop body, THREE flat cotton-fan tufts on crown,ONE shallow groove around middle,THREE root tails each equal round soil pellet. Zero legs/wings. Same original cream brown sage palette,plantfiber leaf humus material,proportions and gentle physical lean. Clear side silhouette not frontthreequarter, no mirror. Full body centered transparent square generous padding no floor/text.\n",
+      "raw_sha256": "a7b19c1e8d3d07bf7aac30cf69c39a15ec46494218a6083240b64db00a7384e5",
+      "raw_bytes": 1150144,
+      "generation_reference_sha256": "09b15e66f1af4a839b5d34a86b8a5ba4cd2ddd599000c4dbb48c1066c1bedd75",
+      "finished_sha256": "56793970f9a8e9e5f5e73c9d88b0e4b89da0364c9e2cd1c0bf2d2db123d1d235"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Exact E270 RIGHT PROFILE sm-decay-011 as128x128 logical pixel art. Preserve one near olive eye at right, cream face narrow right, brown/sage leaf flank left,3flat cotton tufts,1midgroove,3root tails equal soilpellets,zero legs/wings. Same silhouette pose proportions palette. Crisp pixel clusters1px outlines≤24colors,binaryalpha,104px extent padded transparent128square. No extra features/text.\n",
+      "raw_sha256": "f0218b73687f5efcec095e66a57d543708c1cd1e90800aa7e384dfe2004b5b3b",
+      "raw_bytes": 852962,
+      "generation_reference_sha256": "56793970f9a8e9e5f5e73c9d88b0e4b89da0364c9e2cd1c0bf2d2db123d1d235",
+      "finished_sha256": "a1fb309aa53687e7df817ecb1a2595429221addcd480661031f65330bd80f5ea"
+    }
+  ]
+}
