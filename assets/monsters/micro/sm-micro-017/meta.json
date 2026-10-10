@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "id": "sm-micro-017",
+  "design_version": 1,
+  "catalog_path": "assets/monsters/catalog.json",
+  "provenance": {
+    "description": "独自カタログ仕様に基づくAI生成。通常版とpixel版を別々に生成。",
+    "tool": "built-in imagegen",
+    "model": null,
+    "generated_at": null,
+    "prompt_template_versions": {
+      "default": "default-v1",
+      "pixel": "pixel-v1"
+    },
+    "expanded_prompts": {
+      "sm-micro-017-default-attempt001-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-micro-017 / イタポチョ / 微体 (micro)\nBody and exact anatomy: 一細胞の扁平なひし形胴、対角の前側に目2個。脚4本、翼0枚、尾0本。背面に丸い板2枚が重なる。\nMaterials and biological motif: 柔らかい層状膜と半透明の薄板。水辺の細かな砂面に体を伏せて暮らす。\nPrimary, secondary, accent colors respectively: #829AAD; #DBBC83; #C6CCA9\nThree mandatory visual identifiers: 背板2枚は中央で少しだけ重なる; 脚4本はひし形の4辺中央に付く; 前端だけに小さな丸い欠け1個\nPose: ひし形の背中と2枚の板を見せ、4本脚で低く構える。\nTemperament to convey through expression or posture: 慎重で、動く水面の影に合わせて少しずつ進む。. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 板を3枚以上に増やさない; 背板を金属の鎧にしない; ひし形を細長い魚形にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n",
+      "sm-micro-017-default-attempt002-prompt": "Use case: precise-object-edit\nInput image1 is sm-micro-017 normal001. Correct only catalog anatomy/readability and simplify shading. Reveal exactly FOUR legs, one attached at the MIDPOINT OF EACH OF THE FOUR SIDES of the flattened diamond body, not the corners. All four leg roots and limbs must be separately visible. Make the two backplates ROUND, without pointed leaf tips, and move them apart so they overlap only a NARROW strip at the center. Preserve exactly two soft thin translucent plates, one flattened diamond cellbody, two eyes near its front corner, exactly one small rounded notch at that front end, zero wings/tail. Keep low pose showing the diamond back and both plates, soft layered membrane rather than metallic armor, muted blue-gray #829AAD/gold #DBBC83/palegreen #C6CCA9. Replace mottled speckles and numerous gradients with restrained broad three-step celshading. Genuine transparent background, fullbody clearpadding, no scenery/text/castshadow or addedparts.",
+      "sm-micro-017-default-attempt003-prompt": "Use case: precise-object-edit\nInput image1 is sm-micro-017 normal002. Preserve four legs, two frontcorner eyes, front rounded notch, palette, clean celshading, soft nonmetallic membrane. Correct geometric attachment: show a clear four-sided rhombus body with four bare vertices. Place each of the FOUR leg roots at the CENTER of one straight side, halfway between adjacent vertices. None of the legs grows from a vertex. Correct two backplates: both must have fully ROUND circular outlines (elliptical only in perspective), no pointed leaf ends. Move the plates apart so only a very small lens-shaped overlap occurs at the center, about one-tenth of each plate width. Keep exactly two plates, no tail/wings, low posture showingback. Fullbody genuine transparency, generousclear padding, no scenery/text/shadow.",
+      "sm-micro-017-default-attempt004-prompt": "Use case: precise-object-edit\nInput image1 is sm-micro-017 normal003. Correct ONLY the outline of the diamond cell body relative to its four leg roots. Keep the existing four limbs and round plates with their narrow overlap. Make the body a plainly visible flat RHOMBUS with FOUR DISTINCT BARE CORNERS. Its front corner bears the existing two eyes and small roundnotch. Its other three corners must project visibly BETWEEN the legs, without any leg growing at those vertices. Every one of the FOUR legs must join halfway along a straight side of the rhombus. The present upper,left,right appendages incorrectly continue from pointed corners; shift their roots sideways along adjacent edges until each is centered on an edge. Preserve two round translucent backplates with only slightcentraloverlap, all4legs,2eyes,1notch,0wings/tail, lowpose, softmembrane (notmetal), mutedblue-gray/gold/palegreen, clean celshading. Genuine transparent background, clearpadding, no scenery/text/shadow.",
+      "sm-micro-017-default-attempt005-prompt": "Use case: stylized-concept\nAsset type: one original creature portrait sprite for a 2D creature-raising game\nPrimary request: Create exactly one full-body creature following the complete independent brief below. This is a new design; do not base it on any existing character.\nManagement only, do not render text: sm-micro-017 / イタポチョ / 微体 (micro)\nBody and exact anatomy: 一細胞の扁平なひし形胴、対角の前側に目2個。脚4本、翼0枚、尾0本。背面に丸い板2枚が重なる。\nMaterials and biological motif: 柔らかい層状膜と半透明の薄板。水辺の細かな砂面に体を伏せて暮らす。\nPrimary, secondary, accent colors respectively: #829AAD; #DBBC83; #C6CCA9\nThree mandatory visual identifiers: 背板2枚は中央で少しだけ重なる; 脚4本はひし形の4辺中央に付く; 前端だけに小さな丸い欠け1個\nPose: ひし形の背中と2枚の板を見せ、4本脚で低く構える。\nTemperament to convey through expression or posture: 慎重で、動く水面の影に合わせて少しずつ進む。. If the brief specifies zero eyes or no face, do not invent eyes or facial features; express temperament through posture only.\nStyle: cohesive hand-drawn 2D fantasy game illustration, clear dark colored contour, restrained three-step cel shading, soft upper-left lighting, appealing natural creature proportions, clean readable form.\nComposition: isolated single creature, full body; by default use a slight top-down three-quarter view facing toward image-right. If the individual pose explicitly requires a front or top view, that explicit pose takes priority. Preserve the specified pose and physical left/right features. Centered in a square canvas, no cropping. Keep transparent padding on all sides. Intended final canvas is 1024 by 1024 pixels, with the longest creature extent about 768–896 pixels and at least 64 pixels of clear padding.\nBackground: genuine transparent alpha, no painted checkerboard, no backdrop, no ground plane, no cast shadow, no diffuse glow. Habitat, rocks, water surfaces and action scenery mentioned in the brief describe only body posture or temperament; do not render those objects or environments.\nConstraints: preserve exact anatomy, all three identifiers and the position of the palette colors; no costume or held tool unless explicitly part of the brief.\nIndividual forbidden changes: 板を3枚以上に増やさない; 背板を金属の鎧にしない; ひし形を細長い魚形にしない\nAvoid: extra creatures, humans, text, letters, labels, logos, watermarks, decorative frame, gradients bleeding into the transparent area, photorealism, 3D render, imitation of an existing character.\n\nImportant layout: use a high oblique almost top-down view of the flat RHOMBUS body. Its four distinct corners point toward front, back, left and right; all four corners are visible and bare. Exactly FOUR legs emerge from the FOUR EDGE MIDPOINTS, between those corners, not at a corner. The front corner alone has twoeyes and one small roundnotch. Two ROUND thin translucent discs sit on the back side-by-side, overlapping in only a tiny central lens (about10%diameter), never pointed leafshapes or metal armor. Preserve lowposture and softlayeredmembrane. Restrained broad three-step cel shading.",
+      "sm-micro-017-default-attempt006-prompt": "Use case: precise-object-edit\nInput image1 is sm-micro-017 normal005. Keep the same creature, materials and colors, but rotate the view to directly ABOVE so the leg attachment positions can be seen without perspective ambiguity. Show a flat diamond body with four naked corners pointing UP, RIGHT, DOWN, LEFT. The DOWN corner bears the two eyes and one small rounded notch. Exactly FOUR short soft legs project diagonally from the middle of the four straight edges: upper-left edge, upper-right edge, lower-left edge, lower-right edge. Absolutely no leg at top/left/right/bottom vertices. Keep two round thin translucent backplates with only a small lens-shaped central overlap, no wing/tail, lowpose. Clean broad three-step celshading in existing muted blue-gray/gold/palegreen; remove busy mottled speckles. Entirebody centered on genuine transparent background, generouspadding, no text/scenery/shadow.",
+      "sm-micro-017-pixel-attempt001-prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art creature sprite, a paired rendition of the approved original illustration\nInput image 1: the approved default illustration for sm-micro-017; it is the identity reference and must remain the same creature.\nPrimary request: Redraw this exact creature as carefully constructed pixel art. Change only the rendering medium. Do not invent a replacement design and do not merely downsample or apply a pixelation filter to the input.\nManagement only, do not render text: sm-micro-017 / イタポチョ / 微体 (micro)\nLocked body and anatomy: 一細胞の扁平なひし形胴、対角の前側に目2個。脚4本、翼0枚、尾0本。背面に丸い板2枚が重なる。\nLocked material cues: 柔らかい層状膜と半透明の薄板。水辺の細かな砂面に体を伏せて暮らす。\nLocked palette roles, primary/secondary/accent: #829AAD; #DBBC83; #C6CCA9\nAll three identifiers must remain recognizable: 背板2枚は中央で少しだけ重なる; 脚4本はひし形の4辺中央に付く; 前端だけに小さな丸い欠け1個\nLocked pose: ひし形の背中と2枚の板を見せ、4本脚で低く構える。\nLocked temperament/expression: 慎重で、動く水面の影に合わせて少しずつ進む。. Preserve eyeless or faceless designs without adding eyes or a face; for those designs use posture to convey temperament.\nRendering: an intentional 128 by 128 logical pixel grid, readable pixel clusters, controlled staircase contours, consistent 1–2 logical pixel outline, limited palette no more than 32 visible colors, hard-edged opaque pixels and transparent background pixels only. Preserve exact counts of eyes, limbs, wings, tails and other declared structures. Simplify surface texture, never delete identity features or invent anatomy.\nComposition: match the reference's facing, pose, relative color placement and body proportions. Full body, centered, longest creature extent about 96–112 logical pixels, at least 8 logical pixels of transparent padding on every side. No cropped body parts.\nBackground: genuine transparent alpha, no drawn checkerboard, no backdrop, no shadow, no glow spilling out of the silhouette. Do not render any habitat, rock, water surface or action scenery mentioned in the brief; depict only the creature and its posture.\nIndividual forbidden changes: 板を3枚以上に増やさない; 背板を金属の鎧にしない; ひし形を細長い魚形にしない\nAvoid: antialiasing, blur, smooth gradients, semitransparent pixels, inconsistent pixel sizes, painterly miniatures, pixelation overlays, extra characters, text, letters, logos, watermarks, decorative frame, redesign.\n\nPreserve the approved top-down pose: four bare diamond corners, four legs on the four side MIDPOINTS, never vertices. Two round backplates with only small central overlap. Twoeyes and roundnotch only at frontcorner."
+    },
+    "reference_default_sha256": "117aab8d7d1d4b9c764c64fccd4e7ee06dfff04db427a844b640e698c298bb66",
+    "original_preservation": {
+      "status": "all_preserved_and_readback_verified",
+      "files": [
+        {
+          "file_name": "sm-micro-017-default-attempt001-original.png",
+          "bytes": 907658,
+          "sha256": "514219a7f88021dd237ed4b5a642907ae7eebc5bcb7f47086f96a715d38087ff",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-micro-017-default-attempt002-original.png",
+          "bytes": 655428,
+          "sha256": "fa106583c7a4f0eb62eea48936641fa6d069b328dc2e2bed956706e75080ec0f",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-micro-017-default-attempt003-original.png",
+          "bytes": 666488,
+          "sha256": "03ecd6c1a8fcee71bda6acef9ce9d44f9f15505ac965417a6ab4d9767ca8a6a0",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-micro-017-default-attempt004-original.png",
+          "bytes": 647885,
+          "sha256": "b12deb741835e2173f2092c2f40afc88b8dfb06218d628745e072ff81333b268",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-micro-017-default-attempt005-original.png",
+          "bytes": 814881,
+          "sha256": "7d4e63fa81da13d2cc50fafcfa9b0051598802048ed8488eb4458d7d28b35944",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-micro-017-default-attempt006-original.png",
+          "bytes": 921569,
+          "sha256": "cb55ba9e5b2219f670f4adac358bd486812bbf3d7cebd029629fcc64bef00367",
+          "preserved": "verified"
+        },
+        {
+          "file_name": "sm-micro-017-pixel-attempt001-original.png",
+          "bytes": 922793,
+          "sha256": "aa380e735197d494451420fd2623d457318194d74de92b4e6ad9ad60905f368d",
+          "preserved": "verified"
+        }
+      ]
+    },
+    "processing_summary": {
+      "default": "alpha below8 cleared; isolated source alpha components under128 pixels cleared; alpha bbox cropped; proportional LANCZOS longest864; alpha below8 cleared; centered transparent1024; no shape redraw",
+      "pixel": "independently generated pixel reference; alpha128 threshold; source isolated components under128 cleared; crop bbox; proportional nearest longest108; MEDIANCUT32 no dithering; binary alpha retained; centered128; no shape redraw"
+    }
+  },
+  "assets": {
+    "default": {
+      "file": "assets/monsters/micro/sm-micro-017/default.png",
+      "sha256": "117aab8d7d1d4b9c764c64fccd4e7ee06dfff04db427a844b640e698c298bb66",
+      "bytes": 656809,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        129,
+        944,
+        894
+      ],
+      "transparent_margins": [
+        80,
+        129,
+        80,
+        130
+      ]
+    },
+    "pixel": {
+      "file": "assets/monsters/micro/sm-micro-017/pixel.png",
+      "sha256": "41203bc4caa1f687ed4fe61171483e565d41a8f9ed537441ceaf3d1278ed5b0a",
+      "bytes": 10821,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        16,
+        118,
+        112
+      ],
+      "transparent_margins": [
+        10,
+        16,
+        10,
+        16
+      ],
+      "visible_colors": 32,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  },
+  "qa": {
+    "default": "passed",
+    "pixel": "passed",
+    "pair": "passed",
+    "basis": "通常原寸、pixel原寸/8倍nearest表示と通常/pixel対を独立実画像レビュー。PNG規格・ローカルhash照合済み。 生成原本全試行と完成画像のLibrary保存・全byte読戻し一致を確認。",
+    "review_notes": [
+      "背板の透明感は主に描画表現。通常の内部alphaは主に253、pixelは二値alphaの不透明色。四隅と辺中央4脚を明確に示す上面構図。",
+      "透明画素のRGB残存を可視ノイズと区別し、可視色数を検査。"
+    ],
+    "user_acceptance": "pending",
+    "rights_review": "not_performed",
+    "runtime": "not_tested"
+  },
+  "readback": {
+    "local": "verified",
+    "library": "verified",
+    "repository": "pending"
+  }
+}
