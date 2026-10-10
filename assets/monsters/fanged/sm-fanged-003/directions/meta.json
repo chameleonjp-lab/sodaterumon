@@ -1,0 +1,911 @@
+{
+  "schema_version": 1,
+  "id": "sm-fanged-003",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/fanged/sm-fanged-003/default.png",
+      "sha256": "d631122209fb21fa7650c388d52cf6237c9cd180226f4f59c516492c339a856b",
+      "git_blob_sha": "1fb7abce257b31cad5b0b2eab81d862e957934b0",
+      "bytes": 511468
+    },
+    "pixel": {
+      "path": "assets/monsters/fanged/sm-fanged-003/pixel.png",
+      "sha256": "e205c552ad99a358104f77dd2d5ea87ffe0be3a9c62686dc5331563dc148a08b",
+      "git_blob_sha": "cb55bda1394569f0b6e8bc7bc7738b521389436e",
+      "bytes": 7855
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/S/default.png",
+      "sha256": "dec45515506c82ad50eea565540791678170eaba5a778fbf0e627c4fc93f5c74",
+      "bytes": 423626,
+      "git_blob_sha": "b5ec4914c9ab21c58536ab6a9271810f8188c211",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          240,
+          928,
+          783
+        ],
+        "margins": [
+          96,
+          240,
+          96,
+          241
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 34218,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/S/pixel.png",
+      "sha256": "d09ca574ba50301d8918656a6bb5d828ce60dce82f4bbf9c6414da4f30b30475",
+      "bytes": 4790,
+      "git_blob_sha": "188786a6570c2ffa85a0d87509720909b394a639",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          29,
+          116,
+          99
+        ],
+        "margins": [
+          12,
+          29,
+          12,
+          29
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "dec45515506c82ad50eea565540791678170eaba5a778fbf0e627c4fc93f5c74"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/SW/default.png",
+      "sha256": "b158062b87eb6bfaf70c5dcb5cc88b4e32eef390efb3c9f7c008855fe7be7012",
+      "bytes": 422285,
+      "git_blob_sha": "337b257d2826026921f5ca06b768ccf5c21005e6",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          217,
+          928,
+          806
+        ],
+        "margins": [
+          96,
+          217,
+          96,
+          218
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 33554,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/SW/pixel.png",
+      "sha256": "5e1d15e898ef76f2689ddc464268449a3b3c87c066526b3b708359b8216c32f9",
+      "bytes": 4840,
+      "git_blob_sha": "52703d48d8f9ae5119d9e828ea662d598428e62c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          26,
+          116,
+          102
+        ],
+        "margins": [
+          12,
+          26,
+          12,
+          26
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "b158062b87eb6bfaf70c5dcb5cc88b4e32eef390efb3c9f7c008855fe7be7012"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/W/default.png",
+      "sha256": "c298e8585846562d5ff7861926434c12158af040c246b645edad223725bcdf21",
+      "bytes": 314558,
+      "git_blob_sha": "a0c9620913979b14ead826e6c86917664714e9b0",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          317,
+          928,
+          707
+        ],
+        "margins": [
+          96,
+          317,
+          96,
+          317
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 28293,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/W/pixel.png",
+      "sha256": "e940185669972c59719387f8e7e2f705c3c4b52a3f7b2d712e4a1cd93fd16ec9",
+      "bytes": 3383,
+      "git_blob_sha": "376ae7918747bb3d3e6b8a922d3c2e91dcc79d03",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          38,
+          116,
+          90
+        ],
+        "margins": [
+          12,
+          38,
+          12,
+          38
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "c298e8585846562d5ff7861926434c12158af040c246b645edad223725bcdf21"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/NW/default.png",
+      "sha256": "024d8902484ed666162f2f1adf88add6f7ffd64544e7a3c7b3dd2451e1f0db33",
+      "bytes": 380541,
+      "git_blob_sha": "b48b3d179861b5d89d5bb6aa0b8e0c7d7359fb60",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          267,
+          928,
+          756
+        ],
+        "margins": [
+          96,
+          267,
+          96,
+          268
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 28265,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/NW/pixel.png",
+      "sha256": "7b73f70880c18372004c7579265fa51c2f34ac88d687db702696f754eccc9762",
+      "bytes": 4673,
+      "git_blob_sha": "caecaa203398a7027633bebef48b27fd4c123904",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          32,
+          116,
+          96
+        ],
+        "margins": [
+          12,
+          32,
+          12,
+          32
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "024d8902484ed666162f2f1adf88add6f7ffd64544e7a3c7b3dd2451e1f0db33"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/N/default.png",
+      "sha256": "aa20b9a252d65510d8bee9c3b1b6962837b49e0d4c7586b920150aae76cac03d",
+      "bytes": 360497,
+      "git_blob_sha": "da309f103b5a4251deff733b2b4c919f3a234825",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          320,
+          928,
+          703
+        ],
+        "margins": [
+          96,
+          320,
+          96,
+          321
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 27790,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/N/pixel.png",
+      "sha256": "bbf3a5e5458dc30bc7b1573928e45faaf3d4a097b90a13c1f4c255ceaf10bbce",
+      "bytes": 3775,
+      "git_blob_sha": "19110003de27d89c9699e66dc33b0787e5a610a1",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          38,
+          116,
+          89
+        ],
+        "margins": [
+          12,
+          38,
+          12,
+          39
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 20,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "aa20b9a252d65510d8bee9c3b1b6962837b49e0d4c7586b920150aae76cac03d"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/NE/default.png",
+      "sha256": "cda38c922b0b561225f06a86f03571eeb956e4e7f7171dcddd0b4a0f184a801b",
+      "bytes": 379454,
+      "git_blob_sha": "56c5c67ce0777a0a2e463241c832d2259ee99e19",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          279,
+          928,
+          744
+        ],
+        "margins": [
+          96,
+          279,
+          96,
+          280
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 28318,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/NE/pixel.png",
+      "sha256": "42f4f4d2585847461925803a7618cbe381eaac77c61c7e8aebb892e1aa2f4d5d",
+      "bytes": 5417,
+      "git_blob_sha": "24adc55111f6a0bf82f34f00861a9d9fdec1ac64",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          33,
+          116,
+          95
+        ],
+        "margins": [
+          12,
+          33,
+          12,
+          33
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 21,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "cda38c922b0b561225f06a86f03571eeb956e4e7f7171dcddd0b4a0f184a801b"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/E/default.png",
+      "sha256": "421fc264d080ab7eba8798886096af5943dc7b8e51f22e36ab81ee8c77cebdc6",
+      "bytes": 357740,
+      "git_blob_sha": "28862a0e86bbe559dcc044f4e429c9d9be8b3ca6",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          269,
+          928,
+          754
+        ],
+        "margins": [
+          96,
+          269,
+          96,
+          270
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 29990,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-003/directions/E/pixel.png",
+      "sha256": "d547b75de9ff8c4a3fba113020273c225d595164d3572e029195e4707199eca9",
+      "bytes": 4435,
+      "git_blob_sha": "90d978a0c57e6a5d6c1aea441a0ddddc24cf5b86",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          32,
+          116,
+          96
+        ],
+        "margins": [
+          12,
+          32,
+          12,
+          32
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 21,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "421fc264d080ab7eba8798886096af5943dc7b8e51f22e36ab81ee8c77cebdc6"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-003/default.png",
+      "sha256": "d631122209fb21fa7650c388d52cf6237c9cd180226f4f59c516492c339a856b",
+      "bytes": 511468,
+      "git_blob_sha": "1fb7abce257b31cad5b0b2eab81d862e957934b0",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          64,
+          132,
+          960,
+          905
+        ],
+        "margins": [
+          64,
+          132,
+          64,
+          119
+        ],
+        "visible_longest_extent": 896,
+        "visible_rgb_colors": 37726,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-003/pixel.png",
+      "sha256": "e205c552ad99a358104f77dd2d5ea87ffe0be3a9c62686dc5331563dc148a08b",
+      "bytes": 7855,
+      "git_blob_sha": "cb55bda1394569f0b6e8bc7bc7738b521389436e",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          23,
+          116,
+          104
+        ],
+        "margins": [
+          12,
+          23,
+          12,
+          24
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "d631122209fb21fa7650c388d52cf6237c9cd180226f4f59c516492c339a856b"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "W/E oblique amount and NW/NE face-side visibility inferred. Exact rigid rotation and rear-side geometry not certified.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "dec45515506c82ad50eea565540791678170eaba5a778fbf0e627c4fc93f5c74",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "c0873f6bed48c7065a771f2b8b78ddc9d9dcaff8f5fc65496aef5a94a587ac2a",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One1024 transparent sprite SAME blue spotted creature rotated to S: direct FRONT, wide mouth facing viewer, two eyes and four rounded fangs two per corner visible, narrow rear and twin oval tails behind. Image1 original front-right identity, image2 correct side thickness, image3 lower-camera rear geometry. Preserve thin flat rounded-triangle single body widest front narrow rear, exactly FOUR broad rounded flipper legs two each side, TWO separate equal short oval tails at rear, TWO front eyes, FOUR short rounded fangs outward two per mouth corner; natural occlusion. No dorsal fin ears arms wings extra appendages. Bluegray skin darkblue oval spots cream side/underside band, original clean illustrated shading. Keep fixed low slight-above camera with foreshortened depth, no overhead view. Rotate whole body and appendage attachments together. Fullbody centered transparent margins, no text ground shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "d631122209fb21fa7650c388d52cf6237c9cd180226f4f59c516492c339a856b",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "a1bc904b1cecc4c3a241719c3b3a9b5d136885598ccffa5fd046d9e483d3370e",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "c16b91ed7561f1cceb68fbd817d3b5ee09f25ccb186e9db2808584ac22b88058",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "d09ca574ba50301d8918656a6bb5d828ce60dce82f4bbf9c6414da4f30b30475",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "56ec5376bf1c83b71fc77d72f1ec83057d4ca4968ac1663c366e4ab24b7c118f",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact S view of blue spotted creature into one crisp128x128 pixel-art sprite, preserving camera and pose. Same flat rounded-triangle body, four broad flipper legs and TWO distinct short oval tails at rear, two front eyes and four rounded fangs only where visible in this image. Natural overlap exactly as reference, no added eyes on back, no merged tail or extra appendages. Keep bluegray darkblue cream palette and spotting. Do not rotate toward viewer or change body proportions. Hard deliberate pixel clusters, maximum32colors, binary transparent background, no antialias/blur. Fullbody centered padding, no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "c0873f6bed48c7065a771f2b8b78ddc9d9dcaff8f5fc65496aef5a94a587ac2a",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "b158062b87eb6bfaf70c5dcb5cc88b4e32eef390efb3c9f7c008855fe7be7012",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "7980350e6b664e20f0ecb6334a0c256a203a164b458783a89ffcdb94687eb957",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One1024 transparent sprite SAME blue spotted creature rotated to SW: front-left45, face lower-left and narrow rear upper-right, two eyes and four mouth-corner fangs naturally foreshortened. Image1 original front-right identity, image2 correct side thickness, image3 lower-camera rear geometry. Preserve thin flat rounded-triangle single body widest front narrow rear, exactly FOUR broad rounded flipper legs two each side, TWO separate equal short oval tails at rear, TWO front eyes, FOUR short rounded fangs outward two per mouth corner; natural occlusion. No dorsal fin ears arms wings extra appendages. Bluegray skin darkblue oval spots cream side/underside band, original clean illustrated shading. Keep fixed low slight-above camera with foreshortened depth, no overhead view. Rotate whole body and appendage attachments together. Fullbody centered transparent margins, no text ground shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "d631122209fb21fa7650c388d52cf6237c9cd180226f4f59c516492c339a856b",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "a1bc904b1cecc4c3a241719c3b3a9b5d136885598ccffa5fd046d9e483d3370e",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "c16b91ed7561f1cceb68fbd817d3b5ee09f25ccb186e9db2808584ac22b88058",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "5e1d15e898ef76f2689ddc464268449a3b3c87c066526b3b708359b8216c32f9",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "59ec8f9f49c0300f6ae38df5d8097f9950d793643acd73b30ae344ba81672323",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact SW view of blue spotted creature into one crisp128x128 pixel-art sprite, preserving camera and pose. Same flat rounded-triangle body, four broad flipper legs and TWO distinct short oval tails at rear, two front eyes and four rounded fangs only where visible in this image. Natural overlap exactly as reference, no added eyes on back, no merged tail or extra appendages. Keep bluegray darkblue cream palette and spotting. Do not rotate toward viewer or change body proportions. Hard deliberate pixel clusters, maximum32colors, binary transparent background, no antialias/blur. Fullbody centered padding, no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "7980350e6b664e20f0ecb6334a0c256a203a164b458783a89ffcdb94687eb957",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "c298e8585846562d5ff7861926434c12158af040c246b645edad223725bcdf21",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "a1bc904b1cecc4c3a241719c3b3a9b5d136885598ccffa5fd046d9e483d3370e",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. Same blue-gray spotted creature in true LEFT side profile W, broad face and mouth at image LEFT, narrow rear at RIGHT. Thin flat rounded-triangle body has low height in side projection, cream underside band, four round broad flipper legs two each side naturally overlapping, TWO short oval tails at rear right separately attached, no single merged tail. Two eyes total fixed front, only near eye visible; four small rounded outward fangs two at each mouth corner, far pair naturally occluded. Preserve reference individual, no dorsal fin ears arms wings extra flippers. Smooth blue skin darkblue oval spots cream edges, clean illustrated shading. Fixed source slight-above camera, body horizontal. Fullbody transparent1024 generous margins, no text ground shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "d631122209fb21fa7650c388d52cf6237c9cd180226f4f59c516492c339a856b",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "e940185669972c59719387f8e7e2f705c3c4b52a3f7b2d712e4a1cd93fd16ec9",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "961e78104dab9532964d14773240002eed009ec0938a8bed5d4a8cd4e08ca844",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact W view of blue spotted creature into one crisp128x128 pixel-art sprite, preserving camera and pose. Same flat rounded-triangle body, four broad flipper legs and TWO distinct short oval tails at rear, two front eyes and four rounded fangs only where visible in this image. Natural overlap exactly as reference, no added eyes on back, no merged tail or extra appendages. Keep bluegray darkblue cream palette and spotting. Do not rotate toward viewer or change body proportions. Hard deliberate pixel clusters, maximum32colors, binary transparent background, no antialias/blur. Fullbody centered padding, no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "a1bc904b1cecc4c3a241719c3b3a9b5d136885598ccffa5fd046d9e483d3370e",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "024d8902484ed666162f2f1adf88add6f7ffd64544e7a3c7b3dd2451e1f0db33",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "8a9f0e105cda74c04a00140b2638fd2a13179038598e46427489c7908723eaf5",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One1024 transparent sprite SAME blue spotted creature rotated to NW: rear-left135, two oval tails nearest lower-right at narrow rear, broad face farther upper-left, face and fangs naturally mostly hidden behind body; no eyes on rear. Image1 original front-right identity, image2 correct side thickness, image3 lower-camera rear geometry. Preserve thin flat rounded-triangle single body widest front narrow rear, exactly FOUR broad rounded flipper legs two each side, TWO separate equal short oval tails at rear, TWO front eyes, FOUR short rounded fangs outward two per mouth corner; natural occlusion. No dorsal fin ears arms wings extra appendages. Bluegray skin darkblue oval spots cream side/underside band, original clean illustrated shading. Keep fixed low slight-above camera with foreshortened depth, no overhead view. Rotate whole body and appendage attachments together. Fullbody centered transparent margins, no text ground shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "d631122209fb21fa7650c388d52cf6237c9cd180226f4f59c516492c339a856b",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "a1bc904b1cecc4c3a241719c3b3a9b5d136885598ccffa5fd046d9e483d3370e",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "c16b91ed7561f1cceb68fbd817d3b5ee09f25ccb186e9db2808584ac22b88058",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "7b73f70880c18372004c7579265fa51c2f34ac88d687db702696f754eccc9762",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "4b6884ada1706221fb18bd04df63d6a5337bbf539ab9b0e9f15a0c72533d0087",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact NW view of blue spotted creature into one crisp128x128 pixel-art sprite, preserving camera and pose. Same flat rounded-triangle body, four broad flipper legs and TWO distinct short oval tails at rear, two front eyes and four rounded fangs only where visible in this image. Natural overlap exactly as reference, no added eyes on back, no merged tail or extra appendages. Keep bluegray darkblue cream palette and spotting. Do not rotate toward viewer or change body proportions. Hard deliberate pixel clusters, maximum32colors, binary transparent background, no antialias/blur. Fullbody centered padding, no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "8a9f0e105cda74c04a00140b2638fd2a13179038598e46427489c7908723eaf5",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "aa20b9a252d65510d8bee9c3b1b6962837b49e0d4c7586b920150aae76cac03d",
+        "role": "finaltechnicalderivative"
+      },
+      "previous_attempt": {
+        "raw": {
+          "sha256": "20e191a0fe1f8a9697bc731dd5837df0d0f336468a863435374569574bd2a679",
+          "role": "retainedprevious"
+        },
+        "prompt": "Use case: identity-preserve. Rotate SAME blue spotted creature to direct REAR N view. Closest to viewer is the narrow rear end with TWO separate equal short OVAL tails on its left and right, never merge into one. Broad rounded front with eyes/mouth/four fangs is far side, hidden behind opaque body from this rear view. Exactly FOUR broad rounded flipper LEGS attach two per side of single flat rounded-triangle body, distinct from the TWO oval tails. No dorsal fin, wings, ears or extra appendages. Body is widest at front and narrow at rear. Keep blue-gray smooth skin, darkblue oval spots, cream side/underside band and original illustrated shading. Camera same low slight-above angle as source, strong depth foreshortening, not overhead dorsal view. Fullbody transparent1024 centered margins, no text ground shadow.\n",
+        "references": [
+          {
+            "sha256": "d631122209fb21fa7650c388d52cf6237c9cd180226f4f59c516492c339a856b",
+            "role": "originalidentity"
+          }
+        ],
+        "issue": "camera too high; corrected lower in v2"
+      },
+      "adopted_raw": {
+        "sha256": "c16b91ed7561f1cceb68fbd817d3b5ee09f25ccb186e9db2808584ac22b88058",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: precise-object-edit. Lower the camera for this rear-view creature to near body level, only about15degrees above horizontal. This is a thin flat body, not an upright balloon. Keep rear nearest with two equal short oval tails at bottom center and four separate flipper legs. Foreshorten the dorsal body strongly so it projects as a broad LOW horizontal mound, not a tall vertical egg and not an overhead view. Broad front is far, narrower rear near. Eyes and fangs are on far front and occluded. Preserve anatomy, two tails distinct from four flippers, blue spots/cream bands and smooth 2D style of reference2. Only camera projection changes, no new parts or flattening actual anatomy. Fullbody true transparent1024, margin, no ground shadow text.\n",
+      "generation_references": [
+        {
+          "sha256": "20e191a0fe1f8a9697bc731dd5837df0d0f336468a863435374569574bd2a679",
+          "role": "previousrearattempt"
+        },
+        {
+          "sha256": "d631122209fb21fa7650c388d52cf6237c9cd180226f4f59c516492c339a856b",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "bbf3a5e5458dc30bc7b1573928e45faaf3d4a097b90a13c1f4c255ceaf10bbce",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "5ecd46ebc8ccb54bba00e797cf6832e438a36862b857642ef8eb47d7ef78e10a",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact N view of blue spotted creature into one crisp128x128 pixel-art sprite, preserving camera and pose. Same flat rounded-triangle body, four broad flipper legs and TWO distinct short oval tails at rear, two front eyes and four rounded fangs only where visible in this image. Natural overlap exactly as reference, no added eyes on back, no merged tail or extra appendages. Keep bluegray darkblue cream palette and spotting. Do not rotate toward viewer or change body proportions. Hard deliberate pixel clusters, maximum32colors, binary transparent background, no antialias/blur. Fullbody centered padding, no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "c16b91ed7561f1cceb68fbd817d3b5ee09f25ccb186e9db2808584ac22b88058",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "cda38c922b0b561225f06a86f03571eeb956e4e7f7171dcddd0b4a0f184a801b",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "1420ab55da0635b6ccd884e2040923805e8982b39447468f2cee810c3159b372",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One1024 transparent sprite SAME blue spotted creature rotated to NE: rear-right225, two oval tails nearest lower-left at narrow rear, broad face farther upper-right, face and fangs naturally mostly hidden behind body; no eyes on rear. Image1 original front-right identity, image2 correct side thickness, image3 lower-camera rear geometry. Preserve thin flat rounded-triangle single body widest front narrow rear, exactly FOUR broad rounded flipper legs two each side, TWO separate equal short oval tails at rear, TWO front eyes, FOUR short rounded fangs outward two per mouth corner; natural occlusion. No dorsal fin ears arms wings extra appendages. Bluegray skin darkblue oval spots cream side/underside band, original clean illustrated shading. Keep fixed low slight-above camera with foreshortened depth, no overhead view. Rotate whole body and appendage attachments together. Fullbody centered transparent margins, no text ground shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "d631122209fb21fa7650c388d52cf6237c9cd180226f4f59c516492c339a856b",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "a1bc904b1cecc4c3a241719c3b3a9b5d136885598ccffa5fd046d9e483d3370e",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "c16b91ed7561f1cceb68fbd817d3b5ee09f25ccb186e9db2808584ac22b88058",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "42f4f4d2585847461925803a7618cbe381eaac77c61c7e8aebb892e1aa2f4d5d",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "f28fcf4f9d4c0dfbbb610ce557ee77970c40fc2217997278783d1c35b1d451e3",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact NE view of blue spotted creature into one crisp128x128 pixel-art sprite, preserving camera and pose. Same flat rounded-triangle body, four broad flipper legs and TWO distinct short oval tails at rear, two front eyes and four rounded fangs only where visible in this image. Natural overlap exactly as reference, no added eyes on back, no merged tail or extra appendages. Keep bluegray darkblue cream palette and spotting. Do not rotate toward viewer or change body proportions. Hard deliberate pixel clusters, maximum32colors, binary transparent background, no antialias/blur. Fullbody centered padding, no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "1420ab55da0635b6ccd884e2040923805e8982b39447468f2cee810c3159b372",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "421fc264d080ab7eba8798886096af5943dc7b8e51f22e36ab81ee8c77cebdc6",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "17559140f6a54e1d5ee43839b094b6db3ad6e2ca2bbf4976d59630d4e501f28e",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One1024 transparent sprite SAME blue spotted creature rotated to E: true RIGHT side270, broad face at right and narrow rear left, one near eye and near corner fang pair, two oval tails rear left, low horizontal body. Image1 original front-right identity, image2 correct side thickness, image3 lower-camera rear geometry. Preserve thin flat rounded-triangle single body widest front narrow rear, exactly FOUR broad rounded flipper legs two each side, TWO separate equal short oval tails at rear, TWO front eyes, FOUR short rounded fangs outward two per mouth corner; natural occlusion. No dorsal fin ears arms wings extra appendages. Bluegray skin darkblue oval spots cream side/underside band, original clean illustrated shading. Keep fixed low slight-above camera with foreshortened depth, no overhead view. Rotate whole body and appendage attachments together. Fullbody centered transparent margins, no text ground shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "d631122209fb21fa7650c388d52cf6237c9cd180226f4f59c516492c339a856b",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "a1bc904b1cecc4c3a241719c3b3a9b5d136885598ccffa5fd046d9e483d3370e",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "c16b91ed7561f1cceb68fbd817d3b5ee09f25ccb186e9db2808584ac22b88058",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "d547b75de9ff8c4a3fba113020273c225d595164d3572e029195e4707199eca9",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "ccdf75be6e23a9c7b38c9fd1adc06b9e5f670f535c34cab118453ab81dfb01e4",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact E view of blue spotted creature into one crisp128x128 pixel-art sprite, preserving camera and pose. Same flat rounded-triangle body, four broad flipper legs and TWO distinct short oval tails at rear, two front eyes and four rounded fangs only where visible in this image. Natural overlap exactly as reference, no added eyes on back, no merged tail or extra appendages. Keep bluegray darkblue cream palette and spotting. Do not rotate toward viewer or change body proportions. Hard deliberate pixel clusters, maximum32colors, binary transparent background, no antialias/blur. Fullbody centered padding, no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "17559140f6a54e1d5ee43839b094b6db3ad6e2ca2bbf4976d59630d4e501f28e",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "d631122209fb21fa7650c388d52cf6237c9cd180226f4f59c516492c339a856b",
+        "role": "finaltechnicalderivative"
+      },
+      "operation": "byte-identical original copy",
+      "original": {
+        "sha256": "d631122209fb21fa7650c388d52cf6237c9cd180226f4f59c516492c339a856b",
+        "role": "original"
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "e205c552ad99a358104f77dd2d5ea87ffe0be3a9c62686dc5331563dc148a08b",
+        "role": "finaltechnicalderivative"
+      },
+      "operation": "byte-identical original copy",
+      "original": {
+        "sha256": "e205c552ad99a358104f77dd2d5ea87ffe0be3a9c62686dc5331563dc148a08b",
+        "role": "original"
+      }
+    }
+  ]
+}

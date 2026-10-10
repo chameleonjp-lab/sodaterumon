@@ -1,0 +1,1020 @@
+{
+  "schema_version": 1,
+  "id": "sm-enigma-014",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "S",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/enigma/sm-enigma-014/default.png",
+      "sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015",
+      "git_blob_sha": "766e81d42149ceff9b4e6e2596e43009c5ea0aee",
+      "bytes": 463791
+    },
+    "pixel": {
+      "path": "assets/monsters/enigma/sm-enigma-014/pixel.png",
+      "sha256": "2cc4351d685d1156301151504b01e53006e03a820d8c091c9ab378fa3ac29839",
+      "git_blob_sha": "39480782a9c9a33f35c7f965f4c1913230f61831",
+      "bytes": 7616
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-014/default.png",
+      "sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015",
+      "bytes": 463791,
+      "git_blob_sha": "766e81d42149ceff9b4e6e2596e43009c5ea0aee",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          262,
+          944,
+          762
+        ],
+        "margins": [
+          80,
+          262,
+          80,
+          262
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 63489,
+        "alpha_value_count": 249,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-014/pixel.png",
+      "sha256": "2cc4351d685d1156301151504b01e53006e03a820d8c091c9ab378fa3ac29839",
+      "bytes": 7616,
+      "git_blob_sha": "39480782a9c9a33f35c7f965f4c1913230f61831",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          35,
+          118,
+          93
+        ],
+        "margins": [
+          10,
+          35,
+          10,
+          35
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 29,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/SW/default.png",
+      "sha256": "07181b2abcce53cb1a4728f727e34d64fd05b65e134198c192586f6fd8aa702d",
+      "bytes": 566562,
+      "git_blob_sha": "c0189d08911eeafd3beb31b5f351b8c1f2615116",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          188,
+          928,
+          835
+        ],
+        "margins": [
+          96,
+          188,
+          96,
+          189
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 76223,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/SW/pixel.png",
+      "sha256": "d457131f76702790daee69bf694aa803abca63616b2460979c929783c41f1afb",
+      "bytes": 6298,
+      "git_blob_sha": "2b1a52c7777439cde677dfc8b0a8623d4201158c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          23,
+          116,
+          105
+        ],
+        "margins": [
+          12,
+          23,
+          12,
+          23
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 27,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "07181b2abcce53cb1a4728f727e34d64fd05b65e134198c192586f6fd8aa702d"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/W/default.png",
+      "sha256": "8356209b12f4b15f4cd453c08b6005b15ae5a42492e9b80c22aae1b9ef039225",
+      "bytes": 675739,
+      "git_blob_sha": "e7a7bab7e1b06577af63891ac7e323d42b22594f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          102,
+          96,
+          922,
+          928
+        ],
+        "margins": [
+          102,
+          96,
+          102,
+          96
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 89734,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/W/pixel.png",
+      "sha256": "9638838b671c3b9e53b7961fbee2a595269b2f9fcc41b3d3c48cf993317e6a52",
+      "bytes": 6331,
+      "git_blob_sha": "010112c8d9e9e1343793c5b078efbace9a10b921",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          13,
+          116,
+          114
+        ],
+        "margins": [
+          12,
+          13,
+          12,
+          14
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 28,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "8356209b12f4b15f4cd453c08b6005b15ae5a42492e9b80c22aae1b9ef039225"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/NW/default.png",
+      "sha256": "ee833d5232201c409d0aaf1dbb2743549dad72c917f8c24aaf656547b48e0afd",
+      "bytes": 498178,
+      "git_blob_sha": "f0a9c2ba00aa0085b769171e71390de6117c992c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          207,
+          928,
+          816
+        ],
+        "margins": [
+          96,
+          207,
+          96,
+          208
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 62747,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/NW/pixel.png",
+      "sha256": "dc51c1e4df31050aff35b7d77ecb2f31ec61f87d11b4df9a02279958ae3c71e0",
+      "bytes": 4810,
+      "git_blob_sha": "fcb9e075a09dce37f39a3a13f0017c7ceb4753f5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          26,
+          116,
+          101
+        ],
+        "margins": [
+          12,
+          26,
+          12,
+          27
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 23,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "ee833d5232201c409d0aaf1dbb2743549dad72c917f8c24aaf656547b48e0afd"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/N/default.png",
+      "sha256": "76045380f05efb8f6eb589ba9def99d4fbdb66b17b1d47940c4f437125b0bb09",
+      "bytes": 403553,
+      "git_blob_sha": "f7b20c073a12c628d35150fb1255fb1023402c00",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          303,
+          928,
+          721
+        ],
+        "margins": [
+          96,
+          303,
+          96,
+          303
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 55285,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/N/pixel.png",
+      "sha256": "64d889102f83a6d7d36eb33873f963ff27ac4f450c64d94e7d08993ac57de76b",
+      "bytes": 4485,
+      "git_blob_sha": "c6827104648251e9c2fceb7cb90b22d3fa60707c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          38,
+          116,
+          90
+        ],
+        "margins": [
+          12,
+          38,
+          12,
+          38
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 28,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "76045380f05efb8f6eb589ba9def99d4fbdb66b17b1d47940c4f437125b0bb09"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/NE/default.png",
+      "sha256": "4e0db6efff81e606fed7a4052eb076cfb9dafb4e7f7d639d2ab1930df1553484",
+      "bytes": 488121,
+      "git_blob_sha": "ad743d69c80aafec3fda98f8eeb7e754d3f9f871",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          220,
+          928,
+          803
+        ],
+        "margins": [
+          96,
+          220,
+          96,
+          221
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 58341,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/NE/pixel.png",
+      "sha256": "5f07febeb1cb122e52feecab52356e7d5a4bcd6ce154e033ca8ed850533c6511",
+      "bytes": 5524,
+      "git_blob_sha": "94dadc2f3d23e6a97d8f7b3635e561f205dda0a5",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          28,
+          116,
+          99
+        ],
+        "margins": [
+          12,
+          28,
+          12,
+          29
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "4e0db6efff81e606fed7a4052eb076cfb9dafb4e7f7d639d2ab1930df1553484"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/E/default.png",
+      "sha256": "2e511a0a8ee044c4ebd57ba3a0c925dc2aa4b934bb2e5b9abf4543559cb80040",
+      "bytes": 545432,
+      "git_blob_sha": "980a54cab8e0c7f95d61957d9dbbadf2ae02328e",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          197,
+          928,
+          827
+        ],
+        "margins": [
+          96,
+          197,
+          96,
+          197
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 69265,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/E/pixel.png",
+      "sha256": "c04a21354af803c0ce2a568ffb8454c3899c912aa23cdf8b9cdf3eef169c6d18",
+      "bytes": 5945,
+      "git_blob_sha": "9b04dc7471247c9aba0017345ca3bc249f8fc1c6",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          26,
+          116,
+          102
+        ],
+        "margins": [
+          12,
+          26,
+          12,
+          26
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 29,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "2e511a0a8ee044c4ebd57ba3a0c925dc2aa4b934bb2e5b9abf4543559cb80040"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/SE/default.png",
+      "sha256": "85da5fa6dfabf2589699d7a8eddccaf2affbe5b22883cb1209c72ed2c10f38dd",
+      "bytes": 517284,
+      "git_blob_sha": "8ee9b28c0530b4f702887ed7d6ba0cced942dd0f",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          216,
+          928,
+          808
+        ],
+        "margins": [
+          96,
+          216,
+          96,
+          216
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 72642,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-014/directions/SE/pixel.png",
+      "sha256": "3308574a7d0c9da515a024f8dfaf9ff31317ad1b5682ddc8260532ca2ddf860e",
+      "bytes": 6182,
+      "git_blob_sha": "c1aa57a5c11d6d82f363fecacc67a8292f8b7382",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          27,
+          116,
+          100
+        ],
+        "margins": [
+          12,
+          27,
+          12,
+          28
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 28,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "85da5fa6dfabf2589699d7a8eddccaf2affbe5b22883cb1209c72ed2c10f38dd"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "Five front eyes hidden at rear; E more oblique than W. Leaf overlap and exact45degree rigid rotation inferred.",
+      "Original S direction interpreted visually; generic image-right template does not define calibrated yaw.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015",
+        "role": "finaltechnicalderivative"
+      },
+      "operation": "byte-identical original copy",
+      "original": {
+        "sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015",
+        "role": "original"
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "2cc4351d685d1156301151504b01e53006e03a820d8c091c9ab378fa3ac29839",
+        "role": "finaltechnicalderivative"
+      },
+      "operation": "byte-identical original copy",
+      "original": {
+        "sha256": "2cc4351d685d1156301151504b01e53006e03a820d8c091c9ab378fa3ac29839",
+        "role": "original"
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "07181b2abcce53cb1a4728f727e34d64fd05b65e134198c192586f6fd8aa702d",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "6d2ee008a2280d50ba8a23d8334fe3b6c5ae0f3699c0d64be754c7a0e2be90b1",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One transparent1024 game sprite of same creature rotated to SW: front-left45, front eye arc faces lower-left, body width foreshortened with near tall lobe at right overlapping part of middle, far lobe recedes upper-left; five eyes naturally partly overlap. Image1 original broad FRONT S identity, image2 left-side reference establishes body thickness and lobe overlap, image3 rear reference establishes eyeless back and8wing anatomy. Preserve one continuous transverse three-hump bag: two taller outer humps each with one shallow top groove, low middle hump. Exactly five small eyes in arc fixed to FRONT of low middle hump, do not move them onto sides or rear. Exactly EIGHT short leaf-shaped wings in FOUR PAIRS on underside; natural overlap, not legs. No tail. Same pastel purple/teal/cream membrane patches, thin purple outline and illustrated restrained shading. Same body and fixed camera elevation, rotate whole object, do not independently turn eyes. Full body centered with transparent margins, no text, ground, shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "771451ce4f42abc61e97776bbb3361d8c86bce7d067790f4bb1c828fb78612f5",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "ea621def6e80c4e92585bac7d6ca8720911f1b4ea8472b86b546a76fd9eb2fc3",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "d457131f76702790daee69bf694aa803abca63616b2460979c929783c41f1afb",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "186f68f1300ad81b984ce3ca57c80ecd2c3699a2b9dfd2ff140e11b53510524c",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact SW illustration into one crisp pixel-art sprite. Preserve its exact camera angle, silhouette, three-hump overlap and wing placements. One connected body with low middle hump and two tall grooved side humps, exactly8 short leaf wings in four pairs with natural occlusion. Keep only the eyes visible in this exact reference and at their exact surface locations; do not rotate the body toward a frontal view or reveal hidden eyes. Side silhouette and foreshortening must match reference. Same purple teal cream patches. Change only rendering to deliberate hard square pixel clusters on128x128 logical grid, maximum32colors, binary transparent background, no antialias or blur. Fullbody centered margin, no text or shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "6d2ee008a2280d50ba8a23d8334fe3b6c5ae0f3699c0d64be754c7a0e2be90b1",
+          "role": "actualgenerationnormalreference"
+        }
+      ],
+      "rejected_previous": {
+        "raw": {
+          "sha256": "92e2720fb8620d8aaacbf7c14f43daae95d76735c37ec10dffcc263631e5236e",
+          "role": "rejectedraw"
+        },
+        "prompt": "Use case: style-transfer. ONE pixel-art sprite of exactly image1 SW view and same creature. Image2 is original pixel palette and cluster style only, do not copy its front direction. Preserve three connected humps, middle lowest, top groove on each taller side hump, eight short leaf wings in four pairs under body with exact occlusion in image1. Five eyes stay on front middle surface, only visible as in image1; rear views remain eyeless. No legs or tail. Match silhouette, camera, lobe overlap and wing placements exactly; change rendering medium only. Pastel purple teal cream original palette, 128x128 logical pixel grid, sharp clusters no antialias/blur, max32colors binary transparent alpha. Full body centered with generous margin, no text shadow or ground.\n",
+        "generation_references": [
+          {
+            "sha256": "6d2ee008a2280d50ba8a23d8334fe3b6c5ae0f3699c0d64be754c7a0e2be90b1",
+            "role": "directionreference"
+          },
+          {
+            "sha256": "2cc4351d685d1156301151504b01e53006e03a820d8c091c9ab378fa3ac29839",
+            "role": "originalpixelstyle"
+          }
+        ],
+        "reason": "Original pixel style reference caused front-view leakage; rear eyes reappeared and side projection drifted"
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "8356209b12f4b15f4cd453c08b6005b15ae5a42492e9b80c22aae1b9ef039225",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "771451ce4f42abc61e97776bbb3361d8c86bce7d067790f4bb1c828fb78612f5",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. Rotate the reference creature 90 degrees to show true LEFT SIDE profile, W. The reference is its broad FRONT S. It has a wide transverse body with two tall lateral lobes and one low central lobe, so seen side-on the near tall lateral lobe overlaps the low middle and far tall lobe in depth. The resulting silhouette should be much NARROWER than the reference, showing the rounded thickness of near outer lobe, not the same three humps spread across screen. Preserve one continuous bag, pastel purple/teal/cream waves and shallow groove on top of each tall lobe. Exactly eight short leaf-shaped wings in four pairs along underside, far wings naturally occluded in side view, no legs/tail. Five small eyes in arc fixed on FRONT of low middle lobe; viewed from side they lie around the forward left contour and are mostly hidden by near tall lobe, never relocate to its side. Fixed original slight-above camera, no overhead view, same shading and individual. Fullbody transparent1024 with margins, no text, ground or shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "9638838b671c3b9e53b7961fbee2a595269b2f9fcc41b3d3c48cf993317e6a52",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "9cb5cffac7bc6026c1f71d339010a934ddf95d6bb2c1c33c3803d23832a90808",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact W illustration into one crisp pixel-art sprite. Preserve its exact camera angle, silhouette, three-hump overlap and wing placements. One connected body with low middle hump and two tall grooved side humps, exactly8 short leaf wings in four pairs with natural occlusion. Keep only the eyes visible in this exact reference and at their exact surface locations; do not rotate the body toward a frontal view or reveal hidden eyes. Side silhouette and foreshortening must match reference. Same purple teal cream patches. Change only rendering to deliberate hard square pixel clusters on128x128 logical grid, maximum32colors, binary transparent background, no antialias or blur. Fullbody centered margin, no text or shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "771451ce4f42abc61e97776bbb3361d8c86bce7d067790f4bb1c828fb78612f5",
+          "role": "actualgenerationnormalreference"
+        }
+      ],
+      "rejected_previous": {
+        "raw": {
+          "sha256": "c10eaa7945384c2b8ae6de08cda527e8059b824a229307fa794ab497db9f7735",
+          "role": "rejectedraw"
+        },
+        "prompt": "Use case: style-transfer. ONE pixel-art sprite of exactly image1 W view and same creature. Image2 is original pixel palette and cluster style only, do not copy its front direction. Preserve three connected humps, middle lowest, top groove on each taller side hump, eight short leaf wings in four pairs under body with exact occlusion in image1. Five eyes stay on front middle surface, only visible as in image1; rear views remain eyeless. No legs or tail. Match silhouette, camera, lobe overlap and wing placements exactly; change rendering medium only. Pastel purple teal cream original palette, 128x128 logical pixel grid, sharp clusters no antialias/blur, max32colors binary transparent alpha. Full body centered with generous margin, no text shadow or ground.\n",
+        "generation_references": [
+          {
+            "sha256": "771451ce4f42abc61e97776bbb3361d8c86bce7d067790f4bb1c828fb78612f5",
+            "role": "directionreference"
+          },
+          {
+            "sha256": "2cc4351d685d1156301151504b01e53006e03a820d8c091c9ab378fa3ac29839",
+            "role": "originalpixelstyle"
+          }
+        ],
+        "reason": "Original pixel style reference caused front-view leakage; rear eyes reappeared and side projection drifted"
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "ee833d5232201c409d0aaf1dbb2743549dad72c917f8c24aaf656547b48e0afd",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "8de3b58c71b1a6178d18808b7efc7e3fd7091be0f530d9e339d1761ce8133bd1",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One transparent1024 game sprite of same creature rotated to NW: rear-left135, back membrane faces viewer with no frontal eyes, near tall lobe overlaps low center and far tall lobe in depth, narrower diagonal rear silhouette. Image1 original broad FRONT S identity, image2 left-side reference establishes body thickness and lobe overlap, image3 rear reference establishes eyeless back and8wing anatomy. Preserve one continuous transverse three-hump bag: two taller outer humps each with one shallow top groove, low middle hump. Exactly five small eyes in arc fixed to FRONT of low middle hump, do not move them onto sides or rear. Exactly EIGHT short leaf-shaped wings in FOUR PAIRS on underside; natural overlap, not legs. No tail. Same pastel purple/teal/cream membrane patches, thin purple outline and illustrated restrained shading. Same body and fixed camera elevation, rotate whole object, do not independently turn eyes. Full body centered with transparent margins, no text, ground, shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "771451ce4f42abc61e97776bbb3361d8c86bce7d067790f4bb1c828fb78612f5",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "ea621def6e80c4e92585bac7d6ca8720911f1b4ea8472b86b546a76fd9eb2fc3",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "dc51c1e4df31050aff35b7d77ecb2f31ec61f87d11b4df9a02279958ae3c71e0",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "3413384aa3cf8cb8e284a59cdf398a5a185f0a1596ede4c5f141cacff089e360",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact NW illustration into one crisp pixel-art sprite. Preserve its exact camera angle, silhouette, three-hump overlap and wing placements. One connected body with low middle hump and two tall grooved side humps, exactly8 short leaf wings in four pairs with natural occlusion. CRITICAL this is a REAR view: visible membrane has ZERO eyes, ZERO dots, ZERO face features. Do not invent eyes. Same purple teal cream patches. Change only rendering to deliberate hard square pixel clusters on128x128 logical grid, maximum32colors, binary transparent background, no antialias or blur. Fullbody centered margin, no text or shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "8de3b58c71b1a6178d18808b7efc7e3fd7091be0f530d9e339d1761ce8133bd1",
+          "role": "actualgenerationnormalreference"
+        }
+      ],
+      "rejected_previous": {
+        "raw": {
+          "sha256": "2e965a40535c26db19ffa205a4d2f5574c995ad8c22a8e74d73b72a30ec4c99d",
+          "role": "rejectedraw"
+        },
+        "prompt": "Use case: style-transfer. ONE pixel-art sprite of exactly image1 NW view and same creature. Image2 is original pixel palette and cluster style only, do not copy its front direction. Preserve three connected humps, middle lowest, top groove on each taller side hump, eight short leaf wings in four pairs under body with exact occlusion in image1. Five eyes stay on front middle surface, only visible as in image1; rear views remain eyeless. No legs or tail. Match silhouette, camera, lobe overlap and wing placements exactly; change rendering medium only. Pastel purple teal cream original palette, 128x128 logical pixel grid, sharp clusters no antialias/blur, max32colors binary transparent alpha. Full body centered with generous margin, no text shadow or ground.\n",
+        "generation_references": [
+          {
+            "sha256": "8de3b58c71b1a6178d18808b7efc7e3fd7091be0f530d9e339d1761ce8133bd1",
+            "role": "directionreference"
+          },
+          {
+            "sha256": "2cc4351d685d1156301151504b01e53006e03a820d8c091c9ab378fa3ac29839",
+            "role": "originalpixelstyle"
+          }
+        ],
+        "reason": "Original pixel style reference caused front-view leakage; rear eyes reappeared and side projection drifted"
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "76045380f05efb8f6eb589ba9def99d4fbdb66b17b1d47940c4f437125b0bb09",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "ea621def6e80c4e92585bac7d6ca8720911f1b4ea8472b86b546a76fd9eb2fc3",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One transparent1024 game sprite showing the same creature DIRECTLY FROM BEHIND, N, rotated180 degrees from reference front. Keep broad transverse ONE continuous body with two tall lateral humps and one low middle hump, shallow top groove on each high hump. The five eyes are fixed on the opposite FRONT of low middle hump and completely hidden behind opaque body in this rear view; smooth patterned rear membrane, no new eyes. Exactly8 short leaf wings in FOUR PAIRS along lower rim, maintain distinct paired attachments and matching shapes, no legs or tail. Same pastel purple/teal/cream flowing material patches, thin purple contour and restrained illustrated shading. Same camera elevation and floating pose as original front, rear wide silhouette, not overhead. Full body transparent margins, no text, ground, shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015",
+          "role": "originalidentity"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "64d889102f83a6d7d36eb33873f963ff27ac4f450c64d94e7d08993ac57de76b",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "c23b512dc0ab0f7b0ee1f6cbaefecb0028542c079619258ee774ba0496e578ff",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact REAR VIEW illustration into one crisp pixel-art sprite. Preserve the exact silhouette and orientation, wide three-hump body with low center and two tall side humps, two top grooves, exactly eight short leaf-shaped wings in four pairs. CRITICAL this image is the back of the creature: the visible membrane has ZERO eyes, ZERO dots, ZERO face features. Do not invent eyes or a face. Same purple teal cream color patches and wing shapes. Only change rendering to deliberate hard square pixel clusters on128x128 logical grid, maximum32colors, binary transparent background, no antialiasing or blur. Full body centered with padding. No text or shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "ea621def6e80c4e92585bac7d6ca8720911f1b4ea8472b86b546a76fd9eb2fc3",
+          "role": "actualgenerationnormalreference"
+        }
+      ],
+      "rejected_previous": {
+        "raw": {
+          "sha256": "ca5240d3540240256324ba4cc9ad8773d4ea7e5d62499fa8cb65b901198e22c2",
+          "role": "rejectedraw"
+        },
+        "prompt": "Use case: style-transfer. ONE pixel-art sprite of exactly image1 N view and same creature. Image2 is original pixel palette and cluster style only, do not copy its front direction. Preserve three connected humps, middle lowest, top groove on each taller side hump, eight short leaf wings in four pairs under body with exact occlusion in image1. Five eyes stay on front middle surface, only visible as in image1; rear views remain eyeless. No legs or tail. Match silhouette, camera, lobe overlap and wing placements exactly; change rendering medium only. Pastel purple teal cream original palette, 128x128 logical pixel grid, sharp clusters no antialias/blur, max32colors binary transparent alpha. Full body centered with generous margin, no text shadow or ground.\n",
+        "generation_references": [
+          {
+            "sha256": "ea621def6e80c4e92585bac7d6ca8720911f1b4ea8472b86b546a76fd9eb2fc3",
+            "role": "directionreference"
+          },
+          {
+            "sha256": "2cc4351d685d1156301151504b01e53006e03a820d8c091c9ab378fa3ac29839",
+            "role": "originalpixelstyle"
+          }
+        ],
+        "reason": "Original pixel style reference caused front-view leakage; rear eyes reappeared and side projection drifted"
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "4e0db6efff81e606fed7a4052eb076cfb9dafb4e7f7d639d2ab1930df1553484",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "fef3f29668baa7bd19cc3ec8d5bbdb137332dc34916eaad07e87310a96ae3fd3",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One transparent1024 game sprite of same creature rotated to NE: rear-right225, back membrane faces viewer with no frontal eyes, near opposite tall lobe overlaps low center and far tall lobe in depth, narrower diagonal rear silhouette opposite NW. Image1 original broad FRONT S identity, image2 left-side reference establishes body thickness and lobe overlap, image3 rear reference establishes eyeless back and8wing anatomy. Preserve one continuous transverse three-hump bag: two taller outer humps each with one shallow top groove, low middle hump. Exactly five small eyes in arc fixed to FRONT of low middle hump, do not move them onto sides or rear. Exactly EIGHT short leaf-shaped wings in FOUR PAIRS on underside; natural overlap, not legs. No tail. Same pastel purple/teal/cream membrane patches, thin purple outline and illustrated restrained shading. Same body and fixed camera elevation, rotate whole object, do not independently turn eyes. Full body centered with transparent margins, no text, ground, shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "771451ce4f42abc61e97776bbb3361d8c86bce7d067790f4bb1c828fb78612f5",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "ea621def6e80c4e92585bac7d6ca8720911f1b4ea8472b86b546a76fd9eb2fc3",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "5f07febeb1cb122e52feecab52356e7d5a4bcd6ce154e033ca8ed850533c6511",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "f4d5200c4934f25c2cc609205b588cb16ed2f9402c949d9708483c9203e8b2f9",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact NE illustration into one crisp pixel-art sprite. Preserve its exact camera angle, silhouette, three-hump overlap and wing placements. One connected body with low middle hump and two tall grooved side humps, exactly8 short leaf wings in four pairs with natural occlusion. CRITICAL this is a REAR view: visible membrane has ZERO eyes, ZERO dots, ZERO face features. Do not invent eyes. Same purple teal cream patches. Change only rendering to deliberate hard square pixel clusters on128x128 logical grid, maximum32colors, binary transparent background, no antialias or blur. Fullbody centered margin, no text or shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "fef3f29668baa7bd19cc3ec8d5bbdb137332dc34916eaad07e87310a96ae3fd3",
+          "role": "actualgenerationnormalreference"
+        }
+      ],
+      "rejected_previous": {
+        "raw": {
+          "sha256": "a23bb513d6e522963f1c0378b694f93bdd7979952957623e10aa356d509e0500",
+          "role": "rejectedraw"
+        },
+        "prompt": "Use case: style-transfer. ONE pixel-art sprite of exactly image1 NE view and same creature. Image2 is original pixel palette and cluster style only, do not copy its front direction. Preserve three connected humps, middle lowest, top groove on each taller side hump, eight short leaf wings in four pairs under body with exact occlusion in image1. Five eyes stay on front middle surface, only visible as in image1; rear views remain eyeless. No legs or tail. Match silhouette, camera, lobe overlap and wing placements exactly; change rendering medium only. Pastel purple teal cream original palette, 128x128 logical pixel grid, sharp clusters no antialias/blur, max32colors binary transparent alpha. Full body centered with generous margin, no text shadow or ground.\n",
+        "generation_references": [
+          {
+            "sha256": "fef3f29668baa7bd19cc3ec8d5bbdb137332dc34916eaad07e87310a96ae3fd3",
+            "role": "directionreference"
+          },
+          {
+            "sha256": "2cc4351d685d1156301151504b01e53006e03a820d8c091c9ab378fa3ac29839",
+            "role": "originalpixelstyle"
+          }
+        ],
+        "reason": "Original pixel style reference caused front-view leakage; rear eyes reappeared and side projection drifted"
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "2e511a0a8ee044c4ebd57ba3a0c925dc2aa4b934bb2e5b9abf4543559cb80040",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "748b3e15e6656c7c4e49b1c55ac799781c93452339cadb6b5ecc36f820a3f89f",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One transparent1024 game sprite of same creature rotated to E: true RIGHT side270, front points right; near outer tall lobe overlaps middle and far tall lobe in depth, significantly narrower than frontal width, small front eyes only partly visible at extreme right around near lobe. Image1 original broad FRONT S identity, image2 left-side reference establishes body thickness and lobe overlap, image3 rear reference establishes eyeless back and8wing anatomy. Preserve one continuous transverse three-hump bag: two taller outer humps each with one shallow top groove, low middle hump. Exactly five small eyes in arc fixed to FRONT of low middle hump, do not move them onto sides or rear. Exactly EIGHT short leaf-shaped wings in FOUR PAIRS on underside; natural overlap, not legs. No tail. Same pastel purple/teal/cream membrane patches, thin purple outline and illustrated restrained shading. Same body and fixed camera elevation, rotate whole object, do not independently turn eyes. Full body centered with transparent margins, no text, ground, shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "771451ce4f42abc61e97776bbb3361d8c86bce7d067790f4bb1c828fb78612f5",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "ea621def6e80c4e92585bac7d6ca8720911f1b4ea8472b86b546a76fd9eb2fc3",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "c04a21354af803c0ce2a568ffb8454c3899c912aa23cdf8b9cdf3eef169c6d18",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "f2f4d490369b3f73f21dbef1af1035f1f46c61727c9e9d9d3d6dedc278e49b4a",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact E illustration into one crisp pixel-art sprite. Preserve its exact camera angle, silhouette, three-hump overlap and wing placements. One connected body with low middle hump and two tall grooved side humps, exactly8 short leaf wings in four pairs with natural occlusion. Keep only the eyes visible in this exact reference and at their exact surface locations; do not rotate the body toward a frontal view or reveal hidden eyes. Side silhouette and foreshortening must match reference. Same purple teal cream patches. Change only rendering to deliberate hard square pixel clusters on128x128 logical grid, maximum32colors, binary transparent background, no antialias or blur. Fullbody centered margin, no text or shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "748b3e15e6656c7c4e49b1c55ac799781c93452339cadb6b5ecc36f820a3f89f",
+          "role": "actualgenerationnormalreference"
+        }
+      ],
+      "rejected_previous": {
+        "raw": {
+          "sha256": "0da9166008972b96a17ff75aa16d345674d0e2e9c158f4fcc90e3b30249d1042",
+          "role": "rejectedraw"
+        },
+        "prompt": "Use case: style-transfer. ONE pixel-art sprite of exactly image1 E view and same creature. Image2 is original pixel palette and cluster style only, do not copy its front direction. Preserve three connected humps, middle lowest, top groove on each taller side hump, eight short leaf wings in four pairs under body with exact occlusion in image1. Five eyes stay on front middle surface, only visible as in image1; rear views remain eyeless. No legs or tail. Match silhouette, camera, lobe overlap and wing placements exactly; change rendering medium only. Pastel purple teal cream original palette, 128x128 logical pixel grid, sharp clusters no antialias/blur, max32colors binary transparent alpha. Full body centered with generous margin, no text shadow or ground.\n",
+        "generation_references": [
+          {
+            "sha256": "748b3e15e6656c7c4e49b1c55ac799781c93452339cadb6b5ecc36f820a3f89f",
+            "role": "directionreference"
+          },
+          {
+            "sha256": "2cc4351d685d1156301151504b01e53006e03a820d8c091c9ab378fa3ac29839",
+            "role": "originalpixelstyle"
+          }
+        ],
+        "reason": "Original pixel style reference caused front-view leakage; rear eyes reappeared and side projection drifted"
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "85da5fa6dfabf2589699d7a8eddccaf2affbe5b22883cb1209c72ed2c10f38dd",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "ebe6d4754af7c0a4704f2948ea6fab831a038f161dc662d14b6255b6ad718093",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One transparent1024 game sprite of same creature rotated to SE: front-right315, front eye arc faces lower-right, width foreshortened, near tall lobe at left overlaps some center, far lobe recedes upper-right; five eyes partly overlap naturally. Image1 original broad FRONT S identity, image2 left-side reference establishes body thickness and lobe overlap, image3 rear reference establishes eyeless back and8wing anatomy. Preserve one continuous transverse three-hump bag: two taller outer humps each with one shallow top groove, low middle hump. Exactly five small eyes in arc fixed to FRONT of low middle hump, do not move them onto sides or rear. Exactly EIGHT short leaf-shaped wings in FOUR PAIRS on underside; natural overlap, not legs. No tail. Same pastel purple/teal/cream membrane patches, thin purple outline and illustrated restrained shading. Same body and fixed camera elevation, rotate whole object, do not independently turn eyes. Full body centered with transparent margins, no text, ground, shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "470a4d7e0adabca414d00559b50e1f2d147141bcd00a74043298e4d03d403015",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "771451ce4f42abc61e97776bbb3361d8c86bce7d067790f4bb1c828fb78612f5",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "ea621def6e80c4e92585bac7d6ca8720911f1b4ea8472b86b546a76fd9eb2fc3",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "3308574a7d0c9da515a024f8dfaf9ff31317ad1b5682ddc8260532ca2ddf860e",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "4b1d405e898f583a99df751fc5db6f108729ccb3de45979f146f339b7ded4016",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact SE illustration into one crisp pixel-art sprite. Preserve its exact camera angle, silhouette, three-hump overlap and wing placements. One connected body with low middle hump and two tall grooved side humps, exactly8 short leaf wings in four pairs with natural occlusion. Keep only the eyes visible in this exact reference and at their exact surface locations; do not rotate the body toward a frontal view or reveal hidden eyes. Side silhouette and foreshortening must match reference. Same purple teal cream patches. Change only rendering to deliberate hard square pixel clusters on128x128 logical grid, maximum32colors, binary transparent background, no antialias or blur. Fullbody centered margin, no text or shadow.\n",
+      "generation_references": [
+        {
+          "sha256": "ebe6d4754af7c0a4704f2948ea6fab831a038f161dc662d14b6255b6ad718093",
+          "role": "actualgenerationnormalreference"
+        }
+      ],
+      "rejected_previous": {
+        "raw": {
+          "sha256": "c8457d6939260929c10fba75d76bd885b6dbc1948c6b746fbb8f74ce16d7613b",
+          "role": "rejectedraw"
+        },
+        "prompt": "Use case: style-transfer. ONE pixel-art sprite of exactly image1 SE view and same creature. Image2 is original pixel palette and cluster style only, do not copy its front direction. Preserve three connected humps, middle lowest, top groove on each taller side hump, eight short leaf wings in four pairs under body with exact occlusion in image1. Five eyes stay on front middle surface, only visible as in image1; rear views remain eyeless. No legs or tail. Match silhouette, camera, lobe overlap and wing placements exactly; change rendering medium only. Pastel purple teal cream original palette, 128x128 logical pixel grid, sharp clusters no antialias/blur, max32colors binary transparent alpha. Full body centered with generous margin, no text shadow or ground.\n",
+        "generation_references": [
+          {
+            "sha256": "ebe6d4754af7c0a4704f2948ea6fab831a038f161dc662d14b6255b6ad718093",
+            "role": "directionreference"
+          },
+          {
+            "sha256": "2cc4351d685d1156301151504b01e53006e03a820d8c091c9ab378fa3ac29839",
+            "role": "originalpixelstyle"
+          }
+        ],
+        "reason": "Original pixel style reference caused front-view leakage; rear eyes reappeared and side projection drifted"
+      }
+    }
+  ]
+}

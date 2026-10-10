@@ -1,0 +1,981 @@
+{
+  "schema_version": 1,
+  "id": "sm-enigma-001",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "S",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/enigma/sm-enigma-001/default.png",
+      "sha256": "3a6f6bcb329b26ae7d24deba9ee1aa01861175a5ae07653f7b80df21f1563a78",
+      "git_blob_sha": "0c662c5bf81f792c8677a26c0b3360a374c95b0e",
+      "bytes": 519167
+    },
+    "pixel": {
+      "path": "assets/monsters/enigma/sm-enigma-001/pixel.png",
+      "sha256": "9e870d9e59e98cd46b0e0337839e62dd485fb97bea755791808b813d4a17c9bd",
+      "git_blob_sha": "31162a0e1fe6e9c80997f7f97e4d7d8390152ee4",
+      "bytes": 6172
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-001/default.png",
+      "sha256": "3a6f6bcb329b26ae7d24deba9ee1aa01861175a5ae07653f7b80df21f1563a78",
+      "bytes": 519167,
+      "git_blob_sha": "0c662c5bf81f792c8677a26c0b3360a374c95b0e",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          142,
+          928,
+          882
+        ],
+        "margins": [
+          96,
+          142,
+          96,
+          142
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 43165,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-001/pixel.png",
+      "sha256": "9e870d9e59e98cd46b0e0337839e62dd485fb97bea755791808b813d4a17c9bd",
+      "bytes": 6172,
+      "git_blob_sha": "31162a0e1fe6e9c80997f7f97e4d7d8390152ee4",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          26,
+          116,
+          101
+        ],
+        "margins": [
+          12,
+          26,
+          12,
+          27
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 22,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "3a6f6bcb329b26ae7d24deba9ee1aa01861175a5ae07653f7b80df21f1563a78"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/SW/default.png",
+      "sha256": "b1d9e198a420ec5ae6c32d730e03d8562861fac674e12146257c9f16e684feef",
+      "bytes": 571408,
+      "git_blob_sha": "dddc2d7b5b6caa171d8ec44ecf81d2a0505c4571",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          160,
+          928,
+          864
+        ],
+        "margins": [
+          96,
+          160,
+          96,
+          160
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 37528,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/SW/pixel.png",
+      "sha256": "93f2fde2f22d6a84c528b58f04439f4c2f53d4ae6d876836d66307bc3f756055",
+      "bytes": 8060,
+      "git_blob_sha": "bfc5059bca688281b6365f417f88071a28449036",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          19,
+          116,
+          109
+        ],
+        "margins": [
+          12,
+          19,
+          12,
+          19
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "b1d9e198a420ec5ae6c32d730e03d8562861fac674e12146257c9f16e684feef"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/W/default.png",
+      "sha256": "e202708aa340ed2579a89209f8e66dd2053eea53c241d8b04c9aed6655109d81",
+      "bytes": 551058,
+      "git_blob_sha": "770093bcc7db4fe5510208f46517fde2c00478d4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          143,
+          928,
+          881
+        ],
+        "margins": [
+          96,
+          143,
+          96,
+          143
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 29515,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/W/pixel.png",
+      "sha256": "9aa8f32dbc7677ca879d5cd80b870829405a19a913463b8b2b13edd211ea54c4",
+      "bytes": 7781,
+      "git_blob_sha": "2728928f13781acf1820bf038630bb5e3e79d54c",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          18,
+          116,
+          109
+        ],
+        "margins": [
+          12,
+          18,
+          12,
+          19
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "e202708aa340ed2579a89209f8e66dd2053eea53c241d8b04c9aed6655109d81"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/NW/default.png",
+      "sha256": "3e16f79eff1323749cbbef2207714874affcd2bc3a7dc4f78cc706432b4f4592",
+      "bytes": 433930,
+      "git_blob_sha": "5a7e3bcd5d389347207d21c8a146af84549f6882",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          220,
+          928,
+          803
+        ],
+        "margins": [
+          96,
+          220,
+          96,
+          221
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 32051,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/NW/pixel.png",
+      "sha256": "136c76eafa67e4e18119f699085e8315a2538713b8c4e748f8133a2b67a83a25",
+      "bytes": 6492,
+      "git_blob_sha": "8f1296805a9108826fc82b555cdb7e3bd065184b",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          28,
+          116,
+          100
+        ],
+        "margins": [
+          12,
+          28,
+          12,
+          28
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "3e16f79eff1323749cbbef2207714874affcd2bc3a7dc4f78cc706432b4f4592"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/N/default.png",
+      "sha256": "0b77f043b450591677677f6005def75c8edb01f4ea26349f7536b757e16baad4",
+      "bytes": 464418,
+      "git_blob_sha": "4f9532a3632d0a632600dea77a3f038b733969b4",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          225,
+          928,
+          799
+        ],
+        "margins": [
+          96,
+          225,
+          96,
+          225
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 31853,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/N/pixel.png",
+      "sha256": "c1b44e5121ea24218a02b81765ce1272b036381b43e424f96b60d56c6b72cad0",
+      "bytes": 6209,
+      "git_blob_sha": "25bcf732c892faebc4bcefefa252d2f67c26af12",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          29,
+          116,
+          99
+        ],
+        "margins": [
+          12,
+          29,
+          12,
+          29
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "0b77f043b450591677677f6005def75c8edb01f4ea26349f7536b757e16baad4"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/NE/default.png",
+      "sha256": "8d48830275c039821d80e43c521efd9e79325f6bde5a24a0c26391f6a1053102",
+      "bytes": 474820,
+      "git_blob_sha": "dc318ae9ddc700119bac8cfa07eb81c91b58aedf",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          195,
+          928,
+          829
+        ],
+        "margins": [
+          96,
+          195,
+          96,
+          195
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 30648,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/NE/pixel.png",
+      "sha256": "11d0f5d0745c21880b98a60f950e1b13f4b4990810dc7d3aa205ab7696379a15",
+      "bytes": 6780,
+      "git_blob_sha": "f0794cf00e88709bae128fa3b7c71499d1db5e35",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          23,
+          116,
+          104
+        ],
+        "margins": [
+          12,
+          23,
+          12,
+          24
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "8d48830275c039821d80e43c521efd9e79325f6bde5a24a0c26391f6a1053102"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/E/default.png",
+      "sha256": "86221f647385232a289a93d102484113c8adb26523df961c34530ff63af20770",
+      "bytes": 490140,
+      "git_blob_sha": "1ace3c5f1598a0862308e6cbb913842657d62562",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          216,
+          928,
+          807
+        ],
+        "margins": [
+          96,
+          216,
+          96,
+          217
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 28342,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/E/pixel.png",
+      "sha256": "89f8e65179b1146dd17bcbfad925ff4d6ca85712b7f03710f588b85cc5b7ee15",
+      "bytes": 6979,
+      "git_blob_sha": "c6adbf18266390441d8bf99927e7a3e0d7e44816",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          26,
+          116,
+          102
+        ],
+        "margins": [
+          12,
+          26,
+          12,
+          26
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 30,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "86221f647385232a289a93d102484113c8adb26523df961c34530ff63af20770"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/SE/default.png",
+      "sha256": "27af9ecc351a37e646abcda18dbec3352024921ff4449c9fdd45653c6468a077",
+      "bytes": 552121,
+      "git_blob_sha": "07d0ee57dacdf1d24771db1ed741bf6a8c348b98",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          184,
+          928,
+          839
+        ],
+        "margins": [
+          96,
+          184,
+          96,
+          185
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 42001,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/enigma/sm-enigma-001/directions/SE/pixel.png",
+      "sha256": "0b24a785aad03f989f21c68e9a44349e27bad3b902dcb3a20d0cc38278f0c65a",
+      "bytes": 7876,
+      "git_blob_sha": "c97e5a9dd60a5349238444c030d0bb72f66b6f86",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          22,
+          116,
+          105
+        ],
+        "margins": [
+          12,
+          22,
+          12,
+          23
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "27af9ecc351a37e646abcda18dbec3352024921ff4449c9fdd45653c6468a077"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "Side thickness, rear pattern and window depth inferred.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. One normal game illustration of exact reference sm-enigma-001 rotated yaw-only to SW: front-left three-quarter, face toward screen left, both eyes on front above window. Keep original gentle elevated camera, seated pose. Single rounded cushion body with modest front-to-back thickness, FOUR legs: two big rounded front feet and two small triangular rear feet, naturally occluded at side angles. TWO eyes only on front surface in horizontal row above one rounded-square window passing completely through body FRONT TO BACK. No mouth, teeth, glass or added frame. No wings, no tail, no separate head. Matte soft frosted membrane, muted blue #A9C2D9, dusty pink #C893AC and cream #F1E3AC patches, flat cel shading, same outline and proportions. No gloss. Whole isolated transparent creature, actual alpha where window visible, square centered margin, no ground/shadow/glow/text.",
+      "raw_sha256": "c3e091263f750428feac7213431e848bd9daf6153d10db218e510d4eb577f89d",
+      "raw_bytes": 837190,
+      "generation_references_in_order": [
+        {
+          "sha256": "3a6f6bcb329b26ae7d24deba9ee1aa01861175a5ae07653f7b80df21f1563a78"
+        }
+      ],
+      "finished": {
+        "sha256": "b1d9e198a420ec5ae6c32d730e03d8562861fac674e12146257c9f16e684feef",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          160,
+          928,
+          864
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 37528,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Make one authentic pixel-art rendition of this exact normal sm-enigma-001 SW reference, unchanged view/pose/proportions/feet positions/eye visibility/window visibility. Intentional128x128 logical pixel grid with crisp staircase clusters, dark1pixel outline, <=32 visible muted blue/pink/cream colors, binary opaque body/transparent background. Same single cushion body, four feet total with occlusion, two big round FRONT feet and two small triangular REAR feet. Two eyes only on front; rear no eyes, profile one near eye. Square window front-to-back: preserve exact reference aperture, side view has no lateral hole. No separate head/tail/wings, no glass/teeth/mouth. Preserve all transparent holes. Broad flat clustered shading, no gradients, no antialias, no glow/shadow/text. Full single creature centered with transparent margin, no cropping.",
+      "raw_sha256": "eca6d685f833cacee8fa10761dac7e42c5ff693f00ea101513fb5ec0dfd4353f",
+      "raw_bytes": 836242,
+      "generation_references_in_order": [
+        {
+          "sha256": "c3e091263f750428feac7213431e848bd9daf6153d10db218e510d4eb577f89d"
+        }
+      ],
+      "finished": {
+        "sha256": "93f2fde2f22d6a84c528b58f04439f4c2f53d4ae6d876836d66307bc3f756055",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          19,
+          116,
+          109
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. Correct ONLY the side projection of this left-facing creature. Close the false lateral window with continuous pastel blue/pink/cream body membrane. Window runs FRONT to BACK, so at true left profile it is hidden, not cut through side. Retain one eye at leading LEFT edge, cushion contour, big round front foot at left, small triangular hind foot at right. No other anatomy/style/palette changes. Transparent no shadow.",
+      "raw_sha256": "255e071345e6e9cacba808ca06028391ab521e1ed6ed0bdb30f6d2672e796559",
+      "raw_bytes": 900458,
+      "generation_references_in_order": [
+        {
+          "sha256": "f6c41f4ae639b3a18da679597b3c037b54d7b0f355688b5d759bb5dc1607b323"
+        }
+      ],
+      "finished": {
+        "sha256": "e202708aa340ed2579a89209f8e66dd2053eea53c241d8b04c9aed6655109d81",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          143,
+          928,
+          881
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 29515,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Make one authentic pixel-art rendition of this exact normal sm-enigma-001 W reference, unchanged view/pose/proportions/feet positions/eye visibility/window visibility. Intentional128x128 logical pixel grid with crisp staircase clusters, dark1pixel outline, <=32 visible muted blue/pink/cream colors, binary opaque body/transparent background. Same single cushion body, four feet total with occlusion, two big round FRONT feet and two small triangular REAR feet. Two eyes only on front; rear no eyes, profile one near eye. Square window front-to-back: preserve exact reference aperture, side view has no lateral hole. No separate head/tail/wings, no glass/teeth/mouth. Preserve all transparent holes. Broad flat clustered shading, no gradients, no antialias, no glow/shadow/text. Full single creature centered with transparent margin, no cropping.",
+      "raw_sha256": "64ab2385c680a193c463143e5861afef4ac1e4e471a14847654c4457ec9d52bf",
+      "raw_bytes": 804782,
+      "generation_references_in_order": [
+        {
+          "sha256": "255e071345e6e9cacba808ca06028391ab521e1ed6ed0bdb30f6d2672e796559"
+        }
+      ],
+      "finished": {
+        "sha256": "9aa8f32dbc7677ca879d5cd80b870829405a19a913463b8b2b13edd211ea54c4",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          18,
+          116,
+          109
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "actual_prompt": "Use case: precise-object-edit. Correct ONLY foot shapes and depth for this REAR-LEFT view. The two feet closest to viewer are REAR feet and must be SMALL TRIANGULAR, not large round domes. Far-side FRONT feet stay large rounded and mostly occluded behind body toward upper-left. Four feet total, no added feet. Keep eyeless rear and square transparent through-window, soft cushion shape, palette patches, cel shading, yaw and camera. Transparent, no other changes.",
+      "raw_sha256": "f73ce0a1d801007f6b82d7624709cee5a45825ce4f66afece489e5dd145facd4",
+      "raw_bytes": 746359,
+      "generation_references_in_order": [
+        {
+          "sha256": "d7851a368548d50c311949269c6aeffa6e6a4bb3e2e8d05e860b9af8d1057aaf"
+        }
+      ],
+      "finished": {
+        "sha256": "3e16f79eff1323749cbbef2207714874affcd2bc3a7dc4f78cc706432b4f4592",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          220,
+          928,
+          803
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 32051,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Make one authentic pixel-art rendition of this exact normal sm-enigma-001 NW reference, unchanged view/pose/proportions/feet positions/eye visibility/window visibility. Intentional128x128 logical pixel grid with crisp staircase clusters, dark1pixel outline, <=32 visible muted blue/pink/cream colors, binary opaque body/transparent background. Same single cushion body, four feet total with occlusion, two big round FRONT feet and two small triangular REAR feet. Two eyes only on front; rear no eyes, profile one near eye. Square window front-to-back: preserve exact reference aperture, side view has no lateral hole. No separate head/tail/wings, no glass/teeth/mouth. Preserve all transparent holes. Broad flat clustered shading, no gradients, no antialias, no glow/shadow/text. Full single creature centered with transparent margin, no cropping.",
+      "raw_sha256": "a18f3b878ff124a9592c4af94085d94db92440138368552e67fd361cb1877f23",
+      "raw_bytes": 734803,
+      "generation_references_in_order": [
+        {
+          "sha256": "f73ce0a1d801007f6b82d7624709cee5a45825ce4f66afece489e5dd145facd4"
+        }
+      ],
+      "finished": {
+        "sha256": "136c76eafa67e4e18119f699085e8315a2538713b8c4e748f8133a2b67a83a25",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          28,
+          116,
+          100
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-enigma-001 reference turned yaw-only to N: direct REAR, two SMALL TRIANGULAR hind feet nearest viewer bottom left/right, two BIG ROUNDED front feet at far rear behind body partially occluded, no eyes, rear window square centered. Camera gentle elevation same as source, seated same creature. Single rounded cushion body modest front-to-back thickness. Exactly four feet, two large rounded FRONT and two small triangular REAR, naturally occluded by view. Two eyes ONLY on front above single rounded-square tunnel through body front-to-back, not mouth or lateral hole, no glass/frame. No wings, tail, separate head. Same matte soft frosted blue/pink/cream membrane with muted pastel patchwork and flat cel shading/dark contour, no gloss. Whole isolated sprite square transparent margin; no background/ground/shadow/glow/text.",
+      "raw_sha256": "d2ea646b9b5b6aef5a70120d3f0b615b19b2933f64fd2c3c4962f69e61daaa07",
+      "raw_bytes": 905996,
+      "generation_references_in_order": [
+        {
+          "sha256": "3a6f6bcb329b26ae7d24deba9ee1aa01861175a5ae07653f7b80df21f1563a78"
+        }
+      ],
+      "finished": {
+        "sha256": "0b77f043b450591677677f6005def75c8edb01f4ea26349f7536b757e16baad4",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          225,
+          928,
+          799
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 31853,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Make one authentic pixel-art rendition of this exact normal sm-enigma-001 N reference, unchanged view/pose/proportions/feet positions/eye visibility/window visibility. Intentional128x128 logical pixel grid with crisp staircase clusters, dark1pixel outline, <=32 visible muted blue/pink/cream colors, binary opaque body/transparent background. Same single cushion body, four feet total with occlusion, two big round FRONT feet and two small triangular REAR feet. Two eyes only on front; rear no eyes, profile one near eye. Square window front-to-back: preserve exact reference aperture, side view has no lateral hole. No separate head/tail/wings, no glass/teeth/mouth. Preserve all transparent holes. Broad flat clustered shading, no gradients, no antialias, no glow/shadow/text. Full single creature centered with transparent margin, no cropping.",
+      "raw_sha256": "eef22975d370d635f772f4a2788ddee6b71fe92fe0427f798b87a1ddb8d9fe2d",
+      "raw_bytes": 806840,
+      "generation_references_in_order": [
+        {
+          "sha256": "d2ea646b9b5b6aef5a70120d3f0b615b19b2933f64fd2c3c4962f69e61daaa07"
+        }
+      ],
+      "finished": {
+        "sha256": "c1b44e5121ea24218a02b81765ce1272b036381b43e424f96b60d56c6b72cad0",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          29,
+          116,
+          99
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-enigma-001 reference turned yaw-only to NE: rear-right three-quarter, front faces away upper-right, SMALL triangular rear feet nearer lower-left, large rounded front feet far upper-right, no eyes, rear window exit visible. Camera gentle elevation same as source, seated same creature. Single rounded cushion body modest front-to-back thickness. Exactly four feet, two large rounded FRONT and two small triangular REAR, naturally occluded by view. Two eyes ONLY on front above single rounded-square tunnel through body front-to-back, not mouth or lateral hole, no glass/frame. No wings, tail, separate head. Same matte soft frosted blue/pink/cream membrane with muted pastel patchwork and flat cel shading/dark contour, no gloss. Whole isolated sprite square transparent margin; no background/ground/shadow/glow/text.",
+      "raw_sha256": "e5adab7597e642c5c324b277bd0078d7f69c530c16a7b7aa83bc68e160d79ade",
+      "raw_bytes": 790511,
+      "generation_references_in_order": [
+        {
+          "sha256": "3a6f6bcb329b26ae7d24deba9ee1aa01861175a5ae07653f7b80df21f1563a78"
+        }
+      ],
+      "finished": {
+        "sha256": "8d48830275c039821d80e43c521efd9e79325f6bde5a24a0c26391f6a1053102",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          195,
+          928,
+          829
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 30648,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Make one authentic pixel-art rendition of this exact normal sm-enigma-001 NE reference, unchanged view/pose/proportions/feet positions/eye visibility/window visibility. Intentional128x128 logical pixel grid with crisp staircase clusters, dark1pixel outline, <=32 visible muted blue/pink/cream colors, binary opaque body/transparent background. Same single cushion body, four feet total with occlusion, two big round FRONT feet and two small triangular REAR feet. Two eyes only on front; rear no eyes, profile one near eye. Square window front-to-back: preserve exact reference aperture, side view has no lateral hole. No separate head/tail/wings, no glass/teeth/mouth. Preserve all transparent holes. Broad flat clustered shading, no gradients, no antialias, no glow/shadow/text. Full single creature centered with transparent margin, no cropping.",
+      "raw_sha256": "4c432db6f93ca01cb2a4ff5e52619c139650b2410cae5b422d8b2981548de1ca",
+      "raw_bytes": 718599,
+      "generation_references_in_order": [
+        {
+          "sha256": "e5adab7597e642c5c324b277bd0078d7f69c530c16a7b7aa83bc68e160d79ade"
+        }
+      ],
+      "finished": {
+        "sha256": "11d0f5d0745c21880b98a60f950e1b13f4b4990810dc7d3aa205ab7696379a15",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          23,
+          116,
+          104
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-enigma-001 reference turned yaw-only to E: strict right profile facing screen RIGHT: narrow lateral body, ONE eye just at leading right edge; body window front-to-back axis now horizontal screen, so its aperture is NOT visible on lateral flank. Solid unbroken side membrane with no hole. Near big round FRONT foot at right, near small triangle REAR foot at left; far pair occluded. Camera gentle elevation same as source, seated same creature. Single rounded cushion body modest front-to-back thickness. Exactly four feet, two large rounded FRONT and two small triangular REAR, naturally occluded by view. Two eyes ONLY on front above single rounded-square tunnel through body front-to-back, not mouth or lateral hole, no glass/frame. No wings, tail, separate head. Same matte soft frosted blue/pink/cream membrane with muted pastel patchwork and flat cel shading/dark contour, no gloss. Whole isolated sprite square transparent margin; no background/ground/shadow/glow/text.",
+      "raw_sha256": "9c02054cba8bf0b2cd84d6ce2dca574adbc660c643d1c592a08e29dfc5f96999",
+      "raw_bytes": 784992,
+      "generation_references_in_order": [
+        {
+          "sha256": "3a6f6bcb329b26ae7d24deba9ee1aa01861175a5ae07653f7b80df21f1563a78"
+        }
+      ],
+      "finished": {
+        "sha256": "86221f647385232a289a93d102484113c8adb26523df961c34530ff63af20770",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          216,
+          928,
+          807
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 28342,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Make one authentic pixel-art rendition of this exact normal sm-enigma-001 E reference, unchanged view/pose/proportions/feet positions/eye visibility/window visibility. Intentional128x128 logical pixel grid with crisp staircase clusters, dark1pixel outline, <=32 visible muted blue/pink/cream colors, binary opaque body/transparent background. Same single cushion body, four feet total with occlusion, two big round FRONT feet and two small triangular REAR feet. Two eyes only on front; rear no eyes, profile one near eye. Square window front-to-back: preserve exact reference aperture, side view has no lateral hole. No separate head/tail/wings, no glass/teeth/mouth. Preserve all transparent holes. Broad flat clustered shading, no gradients, no antialias, no glow/shadow/text. Full single creature centered with transparent margin, no cropping.",
+      "raw_sha256": "7249ff0ea526f98141373affbf7a03025c6a1844471f9b0d764dbc5848097beb",
+      "raw_bytes": 707500,
+      "generation_references_in_order": [
+        {
+          "sha256": "9c02054cba8bf0b2cd84d6ce2dca574adbc660c643d1c592a08e29dfc5f96999"
+        }
+      ],
+      "finished": {
+        "sha256": "89f8e65179b1146dd17bcbfad925ff4d6ca85712b7f03710f588b85cc5b7ee15",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          26,
+          116,
+          102
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 30,
+        "alpha_values": 2
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "actual_prompt": "Use case: identity-preserve. Exact sm-enigma-001 reference turned yaw-only to SE: front-right three-quarter facing screen RIGHT; two eyes above window on front plane, two big rounded front feet nearest lower-right, small triangular rear feet farther upper-left, transparent window tunnel front-to-back. Camera gentle elevation same as source, seated same creature. Single rounded cushion body modest front-to-back thickness. Exactly four feet, two large rounded FRONT and two small triangular REAR, naturally occluded by view. Two eyes ONLY on front above single rounded-square tunnel through body front-to-back, not mouth or lateral hole, no glass/frame. No wings, tail, separate head. Same matte soft frosted blue/pink/cream membrane with muted pastel patchwork and flat cel shading/dark contour, no gloss. Whole isolated sprite square transparent margin; no background/ground/shadow/glow/text.",
+      "raw_sha256": "653867b325534ada79fb0bcc6cbb468e2e4e0c28e59cc0bc65f5717d22d4eef4",
+      "raw_bytes": 926526,
+      "generation_references_in_order": [
+        {
+          "sha256": "3a6f6bcb329b26ae7d24deba9ee1aa01861175a5ae07653f7b80df21f1563a78"
+        }
+      ],
+      "finished": {
+        "sha256": "27af9ecc351a37e646abcda18dbec3352024921ff4449c9fdd45653c6468a077",
+        "size": [
+          1024,
+          1024
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          96,
+          184,
+          928,
+          839
+        ],
+        "visible_longest": 832,
+        "min_margin": 96,
+        "visible_colors": 42001,
+        "alpha_values": 256
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "actual_prompt": "Use case: style-transfer. Make one authentic pixel-art rendition of this exact normal sm-enigma-001 SE reference, unchanged view/pose/proportions/feet positions/eye visibility/window visibility. Intentional128x128 logical pixel grid with crisp staircase clusters, dark1pixel outline, <=32 visible muted blue/pink/cream colors, binary opaque body/transparent background. Same single cushion body, four feet total with occlusion, two big round FRONT feet and two small triangular REAR feet. Two eyes only on front; rear no eyes, profile one near eye. Square window front-to-back: preserve exact reference aperture, side view has no lateral hole. No separate head/tail/wings, no glass/teeth/mouth. Preserve all transparent holes. Broad flat clustered shading, no gradients, no antialias, no glow/shadow/text. Full single creature centered with transparent margin, no cropping.",
+      "raw_sha256": "84a78489e75b1a7824524caadc2cdad6c07dccfb9ebe225ea42a70a136361b95",
+      "raw_bytes": 801202,
+      "generation_references_in_order": [
+        {
+          "sha256": "653867b325534ada79fb0bcc6cbb468e2e4e0c28e59cc0bc65f5717d22d4eef4"
+        }
+      ],
+      "finished": {
+        "sha256": "0b24a785aad03f989f21c68e9a44349e27bad3b902dcb3a20d0cc38278f0c65a",
+        "size": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          22,
+          116,
+          105
+        ],
+        "visible_longest": 104,
+        "min_margin": 12,
+        "visible_colors": 31,
+        "alpha_values": 2
+      }
+    }
+  ]
+}

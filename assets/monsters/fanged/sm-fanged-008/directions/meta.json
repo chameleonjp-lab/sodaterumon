@@ -1,0 +1,921 @@
+{
+  "schema_version": 1,
+  "id": "sm-fanged-008",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "existing_reference_direction": "SE",
+  "source_assets": {
+    "normal": {
+      "path": "assets/monsters/fanged/sm-fanged-008/default.png",
+      "sha256": "6d117e286c681dd2796d5c514d68facfe2dd626257d753d7203a6b64d67b0526",
+      "git_blob_sha": "91147ce34fb88e7d0120e19b1e7c8f5ce640194c",
+      "bytes": 555249
+    },
+    "pixel": {
+      "path": "assets/monsters/fanged/sm-fanged-008/pixel.png",
+      "sha256": "0c4ac813a9f17f0745f2994202d8561ed85f75ea01f2b3a6611f81c5f96ea304",
+      "git_blob_sha": "0870a2acc21da92f7a8930e396be6c5cefd2d3f0",
+      "bytes": 6275
+    }
+  },
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "direction_convention": "S front,N rear; nominal azimuth sectors S,SW,W,NW,N,NE,E,SE. Not calibrated physical 3D rotation.",
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/S/default.png",
+      "sha256": "36db5c9ce1dc211f4ebefdb80af58f92d2a30d07c201588dcff2a2775dfab9e2",
+      "bytes": 464554,
+      "git_blob_sha": "af91e0d79ed1796fa90305842843423e7ac7a007",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          301,
+          928,
+          723
+        ],
+        "margins": [
+          96,
+          301,
+          96,
+          301
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 24591,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/S/pixel.png",
+      "sha256": "7298e47de810ed5ecac2b157fa4b3b3fba5edf33d4082e7b578d10fdd0fe4494",
+      "bytes": 5176,
+      "git_blob_sha": "f062182f74e9f8766c030554570bd6f1a75624b7",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          32,
+          116,
+          95
+        ],
+        "margins": [
+          12,
+          32,
+          12,
+          33
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 24,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 0,
+      "paired_normal_sha256": "36db5c9ce1dc211f4ebefdb80af58f92d2a30d07c201588dcff2a2775dfab9e2"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/SW/default.png",
+      "sha256": "17a83ed998eeda757ccad37cb4898fb093592b77d159896cb619719aaca3cb71",
+      "bytes": 507155,
+      "git_blob_sha": "7c69bb019c055c8dec659a174043f36aba521287",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          258,
+          928,
+          765
+        ],
+        "margins": [
+          96,
+          258,
+          96,
+          259
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 28918,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/SW/pixel.png",
+      "sha256": "251edca1c5c361cb050d3a999dac032f7c2a8e59d7d6c019f737ef1fd642c434",
+      "bytes": 5457,
+      "git_blob_sha": "08e9900287fc4fa25fd0fe29c678aaa4856e7ed8",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          31,
+          116,
+          96
+        ],
+        "margins": [
+          12,
+          31,
+          12,
+          32
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 28,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 45,
+      "paired_normal_sha256": "17a83ed998eeda757ccad37cb4898fb093592b77d159896cb619719aaca3cb71"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/W/default.png",
+      "sha256": "4c6bd72eef0ef5e029a4967e36b7413467c3fa1a4ed3bb800f83bb48e739fad3",
+      "bytes": 523614,
+      "git_blob_sha": "5196f41b19c3c0f5590a69d71ee844ba2765b671",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          264,
+          928,
+          759
+        ],
+        "margins": [
+          96,
+          264,
+          96,
+          265
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 26582,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/W/pixel.png",
+      "sha256": "ee546ac005312513fbef504e0a0c585d0e13469e1da38969bc76f717d2e4a688",
+      "bytes": 5425,
+      "git_blob_sha": "6be6c179bc86b8ad5d87a7b13aa4cb1388979353",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          32,
+          116,
+          96
+        ],
+        "margins": [
+          12,
+          32,
+          12,
+          32
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 27,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 90,
+      "paired_normal_sha256": "4c6bd72eef0ef5e029a4967e36b7413467c3fa1a4ed3bb800f83bb48e739fad3"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/NW/default.png",
+      "sha256": "008a9f3de03432daa272d521f2cc89e40f6e9c26acf4b14e54f6332a8277b41e",
+      "bytes": 464317,
+      "git_blob_sha": "2046c3f2a5601a110babdb0f4d56017bda060b79",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          260,
+          928,
+          763
+        ],
+        "margins": [
+          96,
+          260,
+          96,
+          261
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 21023,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/NW/pixel.png",
+      "sha256": "78eb60086b65f66b071e5bf9313d9bf65e2f9eba25567d9dcd75a10ebd876a63",
+      "bytes": 4564,
+      "git_blob_sha": "443a3b6aa00ad940d07a157db8e1ddffbb173fd2",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          28,
+          116,
+          100
+        ],
+        "margins": [
+          12,
+          28,
+          12,
+          28
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 26,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 135,
+      "paired_normal_sha256": "008a9f3de03432daa272d521f2cc89e40f6e9c26acf4b14e54f6332a8277b41e"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/N/default.png",
+      "sha256": "6e45cfdd2092fcb4db9801041c84d0076669ba84590626d9dbbb5c4cf141579c",
+      "bytes": 506342,
+      "git_blob_sha": "9a28625198cfdb6da24dfbd287021d3c23f3a836",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          271,
+          928,
+          753
+        ],
+        "margins": [
+          96,
+          271,
+          96,
+          271
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 24182,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/N/pixel.png",
+      "sha256": "e52f110a670b3db73ddf553a2a4fbefcb7c9b743a3fbe64d7b3ffa84f7fe7504",
+      "bytes": 5199,
+      "git_blob_sha": "5ea7106935b43ca0c3b2a832aa22b96b0f6398b2",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          13,
+          31,
+          116,
+          96
+        ],
+        "margins": [
+          13,
+          31,
+          12,
+          32
+        ],
+        "visible_longest_extent": 103,
+        "visible_rgb_colors": 26,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 180,
+      "paired_normal_sha256": "6e45cfdd2092fcb4db9801041c84d0076669ba84590626d9dbbb5c4cf141579c"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/NE/default.png",
+      "sha256": "af93b08aa1b078f288c4a47cc0581f0180f4c117b14f0e5361c33bc37d492af5",
+      "bytes": 526822,
+      "git_blob_sha": "bf6d0f915aa5cdf407dfff6a8fba48d5b7bb0a64",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          241,
+          928,
+          782
+        ],
+        "margins": [
+          96,
+          241,
+          96,
+          242
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 24915,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/NE/pixel.png",
+      "sha256": "ff575331b6fe89a0985fa725ff1c9a8df4d3c1beeaa890644635397cd71a2837",
+      "bytes": 5126,
+      "git_blob_sha": "0e175db50199798fdfb1a03c4dc3e43bbcd427ea",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          12,
+          28,
+          116,
+          100
+        ],
+        "margins": [
+          12,
+          28,
+          12,
+          28
+        ],
+        "visible_longest_extent": 104,
+        "visible_rgb_colors": 28,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 225,
+      "paired_normal_sha256": "af93b08aa1b078f288c4a47cc0581f0180f4c117b14f0e5361c33bc37d492af5"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/E/default.png",
+      "sha256": "4f958baa5fa3c85ea65e487aaa29cddd868751538aa79a49d0f8c5dd85ea858c",
+      "bytes": 451938,
+      "git_blob_sha": "711414235ba01e09ed1419a0e3b7dde9fbda6017",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          96,
+          287,
+          928,
+          737
+        ],
+        "margins": [
+          96,
+          287,
+          96,
+          287
+        ],
+        "visible_longest_extent": 832,
+        "visible_rgb_colors": 22105,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-008/directions/E/pixel.png",
+      "sha256": "ebc22e1275a545c01d437ed971b44e27e8778af28682843c6f8a0106c5b85e45",
+      "bytes": 4178,
+      "git_blob_sha": "aac60529e3508bf9a022b31c477cd8839216dbd8",
+      "existing_reference": false,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          13,
+          36,
+          116,
+          92
+        ],
+        "margins": [
+          13,
+          36,
+          12,
+          36
+        ],
+        "visible_longest_extent": 103,
+        "visible_rgb_colors": 26,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 270,
+      "paired_normal_sha256": "4f958baa5fa3c85ea65e487aaa29cddd868751538aa79a49d0f8c5dd85ea858c"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/fanged/sm-fanged-008/default.png",
+      "sha256": "6d117e286c681dd2796d5c514d68facfe2dd626257d753d7203a6b64d67b0526",
+      "bytes": 555249,
+      "git_blob_sha": "91147ce34fb88e7d0120e19b1e7c8f5ce640194c",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "alpha_bbox": [
+          80,
+          234,
+          944,
+          789
+        ],
+        "margins": [
+          80,
+          234,
+          80,
+          235
+        ],
+        "visible_longest_extent": 864,
+        "visible_rgb_colors": 25763,
+        "alpha_value_count": 256,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/fanged/sm-fanged-008/pixel.png",
+      "sha256": "0c4ac813a9f17f0745f2994202d8561ed85f75ea01f2b3a6611f81c5f96ea304",
+      "bytes": 6275,
+      "git_blob_sha": "0870a2acc21da92f7a8930e396be6c5cefd2d3f0",
+      "existing_reference": true,
+      "technical_qa": {
+        "dimensions": [
+          128,
+          128
+        ],
+        "alpha_bbox": [
+          10,
+          28,
+          118,
+          100
+        ],
+        "margins": [
+          10,
+          28,
+          10,
+          28
+        ],
+        "visible_longest_extent": 108,
+        "visible_rgb_colors": 31,
+        "alpha_value_count": 2,
+        "numeric_pass": true
+      },
+      "nominal_sector_degrees": 315,
+      "paired_normal_sha256": "6d117e286c681dd2796d5c514d68facfe2dd626257d753d7203a6b64d67b0526"
+    }
+  ],
+  "qa": {
+    "independent_numeric_and_hash_review": "all16 checked",
+    "candidate_visual_review": "Parent and independent E comparison inspected; specified limitations retained.",
+    "limitations": [
+      "W/E fur volume and depth projection inferred.",
+      "Unseen geometry and exact45degree continuity inferred from a single original.",
+      "In-game validation and final user acceptance pending."
+    ],
+    "in_game_validation": "not_run",
+    "final_user_acceptance": "pending"
+  },
+  "publication_status": "Draft review candidate",
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "final": {
+        "sha256": "36db5c9ce1dc211f4ebefdb80af58f92d2a30d07c201588dcff2a2775dfab9e2",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "f9fdad94201e95b76b28e865329204a4351a7ef47bd6d6e02c44abacb17cdff3",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One transparent1024 sprite SAME shaggy cushion creature rotated to S: direct FRONT, symmetric two eyes and two flat rectangular teeth, two feet spread left/right, wide low body. Image1 original front-right identity, image2 corrected left profile, image3 corrected rear ears. Preserve one LOW WIDE rounded-rectangle cushion body, TWO broad round slate feet only, TWO small horizontal oval ears on top rim, TWO front eyes, TWO large flat rounded-RECTANGULAR ivory teeth at mouth corners, no pointed fangs. Tan shaggy fur, cream muzzle/lower fringe, slate ear interiors only when openings face viewer. Fixed camera elevation low stance, rotate all body parts together with natural occlusion. No extra limbs/tail/costume, no tall upright body. Fullbody margin on true transparent background, absolutely no halo/glow, no ground shadow text.\n",
+      "generation_references": [
+        {
+          "sha256": "6d117e286c681dd2796d5c514d68facfe2dd626257d753d7203a6b64d67b0526",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "7b542ee6a7a24fdb0e2ec9f126a67febef51c639005e77790718b43ad82c2c3a",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "5f0eb7018a2edbfa419e4059965cc3ca5b65a6f622dda82c1a9ff3778a7f4d62",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "final": {
+        "sha256": "7298e47de810ed5ecac2b157fa4b3b3fba5edf33d4082e7b578d10fdd0fe4494",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "e00b4befca6486d32d7de3eae343095646286c0509cb8de61fa23dac36044620",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact S view of same shaggy tan cushion creature to one crisp128x128 pixel-art sprite. Preserve exact direction, low wide body, TWO broad slate round feet with same occlusion, TWO small oval ears with same back/inside visibility, two eyes and two rounded-RECTANGULAR ivory teeth only where visible in reference. Back views remain faceless and ears show furry backs. No tail/extra feet/arms. Same tan cream slate palette and readable shaggy silhouette, deliberate pixel clusters, max32colors binary transparent alpha, no antialias blur or halo. Do not revert to front view. Fullbody centered margin no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "f9fdad94201e95b76b28e865329204a4351a7ef47bd6d6e02c44abacb17cdff3",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "final": {
+        "sha256": "17a83ed998eeda757ccad37cb4898fb093592b77d159896cb619719aaca3cb71",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "1b21a27a48ae15c23a8742fd0ab86083fd982e5613067e807484ca2adcaba9d2",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One transparent1024 sprite SAME shaggy cushion creature rotated to SW: front-left45, muzzle points lower-left, body recedes upper-right, two eyes/teeth foreshortened naturally. Image1 original front-right identity, image2 corrected left profile, image3 corrected rear ears. Preserve one LOW WIDE rounded-rectangle cushion body, TWO broad round slate feet only, TWO small horizontal oval ears on top rim, TWO front eyes, TWO large flat rounded-RECTANGULAR ivory teeth at mouth corners, no pointed fangs. Tan shaggy fur, cream muzzle/lower fringe, slate ear interiors only when openings face viewer. Fixed camera elevation low stance, rotate all body parts together with natural occlusion. No extra limbs/tail/costume, no tall upright body. Fullbody margin on true transparent background, absolutely no halo/glow, no ground shadow text.\n",
+      "generation_references": [
+        {
+          "sha256": "6d117e286c681dd2796d5c514d68facfe2dd626257d753d7203a6b64d67b0526",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "7b542ee6a7a24fdb0e2ec9f126a67febef51c639005e77790718b43ad82c2c3a",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "5f0eb7018a2edbfa419e4059965cc3ca5b65a6f622dda82c1a9ff3778a7f4d62",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "251edca1c5c361cb050d3a999dac032f7c2a8e59d7d6c019f737ef1fd642c434",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "9f67a3d81b22955889593fd5a264ea49f699a35eeaa410fc8d35c640274d42b0",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact SW view of same shaggy tan cushion creature to one crisp128x128 pixel-art sprite. Preserve exact direction, low wide body, TWO broad slate round feet with same occlusion, TWO small oval ears with same back/inside visibility, two eyes and two rounded-RECTANGULAR ivory teeth only where visible in reference. Back views remain faceless and ears show furry backs. No tail/extra feet/arms. Same tan cream slate palette and readable shaggy silhouette, deliberate pixel clusters, max32colors binary transparent alpha, no antialias blur or halo. Do not revert to front view. Fullbody centered margin no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "1b21a27a48ae15c23a8742fd0ab86083fd982e5613067e807484ca2adcaba9d2",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "final": {
+        "sha256": "4c6bd72eef0ef5e029a4967e36b7413467c3fa1a4ed3bb800f83bb48e739fad3",
+        "role": "finaltechnicalderivative"
+      },
+      "previous_attempt": {
+        "raw": {
+          "sha256": "596bb0a7c58f3d4afc865bf7e81f7fabc4e6c02eef0a755dc7250ba0a4857528",
+          "role": "retainedprevious"
+        },
+        "prompt": "Use case: identity-preserve. One transparent1024 sprite of SAME reference fuzzy cushion creature rotated to W: true LEFT SIDE, muzzle points left, cushion body extends behind right, only near eye and near rectangular tooth visible; far foot naturally occluded, two anatomical feet only. Exactly one low wide rounded-rectangle cushion body, shaggy tan fur with cream muzzle/chin and slateblue feet/ear insides. Exactly TWO broad round feet, TWO small horizontal oval ears on top rim, TWO eyes, TWO large flat rounded-RECTANGULAR ivory teeth hanging down from mouth corners. Never point teeth, add limbs/tail or make upright body. Fixed original modest camera elevation and low stance. Preserve individual proportions and fur texture, no costume or props. Front facial features fixed and naturally occluded from back/side. Fullbody centered transparent margins, no ground shadow text.\n",
+        "references": [
+          {
+            "sha256": "6d117e286c681dd2796d5c514d68facfe2dd626257d753d7203a6b64d67b0526",
+            "role": "originalidentity"
+          }
+        ],
+        "issue": "N ear inner cavities facing rear; W frontal drift and background halo; corrected v2"
+      },
+      "adopted_raw": {
+        "sha256": "7b542ee6a7a24fdb0e2ec9f126a67febef51c639005e77790718b43ad82c2c3a",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: precise-object-edit. Correct this sprite to an exact LEFT SIDE profile, face points horizontally LEFT. Turn the face with body so only ONE near eye is visible and only the near flat rectangular tooth is fully seen, far tooth naturally behind. Nose at extreme left contour, not centered toward viewer. Keep low wide shaggy tan cushion body, cream muzzle, two anatomical broad round slate feet (far foot occluded), two small flat oval ears. Remove ALL surrounding brown/gray glow and backdrop: fully transparent exterior right up to fur silhouette. No shadow or ground. Preserve fur/individual, no extra parts. 1024 square fullbody margins.\n",
+      "generation_references": [
+        {
+          "sha256": "596bb0a7c58f3d4afc865bf7e81f7fabc4e6c02eef0a755dc7250ba0a4857528",
+          "role": "previousattempt"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "final": {
+        "sha256": "ee546ac005312513fbef504e0a0c585d0e13469e1da38969bc76f717d2e4a688",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "21ddcc974cc2d91a5f2607e7f740d1fb45824f286d486a0c57cc93843ed10810",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact W view of same shaggy tan cushion creature to one crisp128x128 pixel-art sprite. Preserve exact direction, low wide body, TWO broad slate round feet with same occlusion, TWO small oval ears with same back/inside visibility, two eyes and two rounded-RECTANGULAR ivory teeth only where visible in reference. Back views remain faceless and ears show furry backs. No tail/extra feet/arms. Same tan cream slate palette and readable shaggy silhouette, deliberate pixel clusters, max32colors binary transparent alpha, no antialias blur or halo. Do not revert to front view. Fullbody centered margin no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "7b542ee6a7a24fdb0e2ec9f126a67febef51c639005e77790718b43ad82c2c3a",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "final": {
+        "sha256": "008a9f3de03432daa272d521f2cc89e40f6e9c26acf4b14e54f6332a8277b41e",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "e9a3b69cd6610bac0258ca13670800705e1c4760afd713d0a17da90d52fae8c8",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One transparent1024 sprite SAME shaggy cushion creature rotated to NW: rear-left135, furry back nearest lower-right, face points away upper-left and facial features hidden behind opaque fur; ears show furry backs/edges not forward openings. Image1 original front-right identity, image2 corrected left profile, image3 corrected rear ears. Preserve one LOW WIDE rounded-rectangle cushion body, TWO broad round slate feet only, TWO small horizontal oval ears on top rim, TWO front eyes, TWO large flat rounded-RECTANGULAR ivory teeth at mouth corners, no pointed fangs. Tan shaggy fur, cream muzzle/lower fringe, slate ear interiors only when openings face viewer. Fixed camera elevation low stance, rotate all body parts together with natural occlusion. No extra limbs/tail/costume, no tall upright body. Fullbody margin on true transparent background, absolutely no halo/glow, no ground shadow text.\n",
+      "generation_references": [
+        {
+          "sha256": "6d117e286c681dd2796d5c514d68facfe2dd626257d753d7203a6b64d67b0526",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "7b542ee6a7a24fdb0e2ec9f126a67febef51c639005e77790718b43ad82c2c3a",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "5f0eb7018a2edbfa419e4059965cc3ca5b65a6f622dda82c1a9ff3778a7f4d62",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "final": {
+        "sha256": "78eb60086b65f66b071e5bf9313d9bf65e2f9eba25567d9dcd75a10ebd876a63",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "37a3ad1eb4e055b2031c456f04fcc42708e7a25f76cec373d418d7cb15022d1b",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact NW view of same shaggy tan cushion creature to one crisp128x128 pixel-art sprite. Preserve exact direction, low wide body, TWO broad slate round feet with same occlusion, TWO small oval ears with same back/inside visibility, two eyes and two rounded-RECTANGULAR ivory teeth only where visible in reference. Back views remain faceless and ears show furry backs. No tail/extra feet/arms. Same tan cream slate palette and readable shaggy silhouette, deliberate pixel clusters, max32colors binary transparent alpha, no antialias blur or halo. Do not revert to front view. Fullbody centered margin no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "e9a3b69cd6610bac0258ca13670800705e1c4760afd713d0a17da90d52fae8c8",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "final": {
+        "sha256": "6e45cfdd2092fcb4db9801041c84d0076669ba84590626d9dbbb5c4cf141579c",
+        "role": "finaltechnicalderivative"
+      },
+      "previous_attempt": {
+        "raw": {
+          "sha256": "0a72fb3eb793d277bf8f0475b3a5dbdecb7411e684f91b5407e177b7c6111d1c",
+          "role": "retainedprevious"
+        },
+        "prompt": "Use case: identity-preserve. One transparent1024 sprite of SAME reference fuzzy cushion creature rotated to N: direct BACK, wide furry cushion back nearest, all front eyes/nose/mouth/two teeth hidden; two small horizontal oval ears show backs along top edge, two broad round feet at bottom left/right. Exactly one low wide rounded-rectangle cushion body, shaggy tan fur with cream muzzle/chin and slateblue feet/ear insides. Exactly TWO broad round feet, TWO small horizontal oval ears on top rim, TWO eyes, TWO large flat rounded-RECTANGULAR ivory teeth hanging down from mouth corners. Never point teeth, add limbs/tail or make upright body. Fixed original modest camera elevation and low stance. Preserve individual proportions and fur texture, no costume or props. Front facial features fixed and naturally occluded from back/side. Fullbody centered transparent margins, no ground shadow text.\n",
+        "references": [
+          {
+            "sha256": "6d117e286c681dd2796d5c514d68facfe2dd626257d753d7203a6b64d67b0526",
+            "role": "originalidentity"
+          }
+        ],
+        "issue": "N ear inner cavities facing rear; W frontal drift and background halo; corrected v2"
+      },
+      "adopted_raw": {
+        "sha256": "5f0eb7018a2edbfa419e4059965cc3ca5b65a6f622dda82c1a9ff3778a7f4d62",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: precise-object-edit. This is direct REAR of same furry cushion creature. Correct ONLY both small oval ears: show their tan/cream furry BACKS, not dark slate inner ear cavities facing viewer. The ear openings are fixed to the front and face away. Keep their size/placement, entire fuzzy low wide body, two slate round feet, no eyes/teeth/tail, palette and exact pose. True transparent background, no glow or shadow, fullbody margins.\n",
+      "generation_references": [
+        {
+          "sha256": "0a72fb3eb793d277bf8f0475b3a5dbdecb7411e684f91b5407e177b7c6111d1c",
+          "role": "previousattempt"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "final": {
+        "sha256": "e52f110a670b3db73ddf553a2a4fbefcb7c9b743a3fbe64d7b3ffa84f7fe7504",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "6128d6412dd07fde525baeb483ae31c494708c736d438ca00f20929e519a31ee",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact N view of same shaggy tan cushion creature to one crisp128x128 pixel-art sprite. Preserve exact direction, low wide body, TWO broad slate round feet with same occlusion, TWO small oval ears with same back/inside visibility, two eyes and two rounded-RECTANGULAR ivory teeth only where visible in reference. Back views remain faceless and ears show furry backs. No tail/extra feet/arms. Same tan cream slate palette and readable shaggy silhouette, deliberate pixel clusters, max32colors binary transparent alpha, no antialias blur or halo. Do not revert to front view. Fullbody centered margin no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "5f0eb7018a2edbfa419e4059965cc3ca5b65a6f622dda82c1a9ff3778a7f4d62",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "final": {
+        "sha256": "af93b08aa1b078f288c4a47cc0581f0180f4c117b14f0e5361c33bc37d492af5",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "928d8ed3fc9628b85f6573ab87e0b37a10e2da810b8c8288eda59fa79403c4c0",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One transparent1024 sprite SAME shaggy cushion creature rotated to NE: rear-right225, furry back nearest lower-left, face points away upper-right and features hidden behind opaque fur; ears show furry backs/edges. Image1 original front-right identity, image2 corrected left profile, image3 corrected rear ears. Preserve one LOW WIDE rounded-rectangle cushion body, TWO broad round slate feet only, TWO small horizontal oval ears on top rim, TWO front eyes, TWO large flat rounded-RECTANGULAR ivory teeth at mouth corners, no pointed fangs. Tan shaggy fur, cream muzzle/lower fringe, slate ear interiors only when openings face viewer. Fixed camera elevation low stance, rotate all body parts together with natural occlusion. No extra limbs/tail/costume, no tall upright body. Fullbody margin on true transparent background, absolutely no halo/glow, no ground shadow text.\n",
+      "generation_references": [
+        {
+          "sha256": "6d117e286c681dd2796d5c514d68facfe2dd626257d753d7203a6b64d67b0526",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "7b542ee6a7a24fdb0e2ec9f126a67febef51c639005e77790718b43ad82c2c3a",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "5f0eb7018a2edbfa419e4059965cc3ca5b65a6f622dda82c1a9ff3778a7f4d62",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "ff575331b6fe89a0985fa725ff1c9a8df4d3c1beeaa890644635397cd71a2837",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "3d47f0f453016ce3fae8b35fc726b9934d3573f321c9a2dcfa8cb0c18a6f99c9",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact NE view of same shaggy tan cushion creature to one crisp128x128 pixel-art sprite. Preserve exact direction, low wide body, TWO broad slate round feet with same occlusion, TWO small oval ears with same back/inside visibility, two eyes and two rounded-RECTANGULAR ivory teeth only where visible in reference. Back views remain faceless and ears show furry backs. No tail/extra feet/arms. Same tan cream slate palette and readable shaggy silhouette, deliberate pixel clusters, max32colors binary transparent alpha, no antialias blur or halo. Do not revert to front view. Fullbody centered margin no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "928d8ed3fc9628b85f6573ab87e0b37a10e2da810b8c8288eda59fa79403c4c0",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "final": {
+        "sha256": "4f958baa5fa3c85ea65e487aaa29cddd868751538aa79a49d0f8c5dd85ea858c",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "581dd34b804723cc1766a5b69b86c97569e61187894c1f57636a85e8f120af30",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: identity-preserve. One transparent1024 sprite SAME shaggy cushion creature rotated to E: true RIGHT side270, nose at extreme right contour, one near eye and one near rectangular tooth visible, broad cushion body behind to left, far foot occluded. Image1 original front-right identity, image2 corrected left profile, image3 corrected rear ears. Preserve one LOW WIDE rounded-rectangle cushion body, TWO broad round slate feet only, TWO small horizontal oval ears on top rim, TWO front eyes, TWO large flat rounded-RECTANGULAR ivory teeth at mouth corners, no pointed fangs. Tan shaggy fur, cream muzzle/lower fringe, slate ear interiors only when openings face viewer. Fixed camera elevation low stance, rotate all body parts together with natural occlusion. No extra limbs/tail/costume, no tall upright body. Fullbody margin on true transparent background, absolutely no halo/glow, no ground shadow text.\n",
+      "generation_references": [
+        {
+          "sha256": "6d117e286c681dd2796d5c514d68facfe2dd626257d753d7203a6b64d67b0526",
+          "role": "originalidentity"
+        },
+        {
+          "sha256": "7b542ee6a7a24fdb0e2ec9f126a67febef51c639005e77790718b43ad82c2c3a",
+          "role": "sidegeometryreference"
+        },
+        {
+          "sha256": "5f0eb7018a2edbfa419e4059965cc3ca5b65a6f622dda82c1a9ff3778a7f4d62",
+          "role": "reargeometryreference"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "final": {
+        "sha256": "ebc22e1275a545c01d437ed971b44e27e8778af28682843c6f8a0106c5b85e45",
+        "role": "finaltechnicalderivative"
+      },
+      "adopted_raw": {
+        "sha256": "5b683adc7636deec94b7e3ecf7c79bc1d7e10258b5d016fff8e850f44fdd870c",
+        "role": "generatedraw"
+      },
+      "prompt": "Use case: style-transfer. Convert this exact E view of same shaggy tan cushion creature to one crisp128x128 pixel-art sprite. Preserve exact direction, low wide body, TWO broad slate round feet with same occlusion, TWO small oval ears with same back/inside visibility, two eyes and two rounded-RECTANGULAR ivory teeth only where visible in reference. Back views remain faceless and ears show furry backs. No tail/extra feet/arms. Same tan cream slate palette and readable shaggy silhouette, deliberate pixel clusters, max32colors binary transparent alpha, no antialias blur or halo. Do not revert to front view. Fullbody centered margin no shadow ground text.\n",
+      "generation_references": [
+        {
+          "sha256": "581dd34b804723cc1766a5b69b86c97569e61187894c1f57636a85e8f120af30",
+          "role": "actualgenerationnormalreference"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "final": {
+        "sha256": "6d117e286c681dd2796d5c514d68facfe2dd626257d753d7203a6b64d67b0526",
+        "role": "finaltechnicalderivative"
+      },
+      "operation": "byte-identical original copy",
+      "original": {
+        "sha256": "6d117e286c681dd2796d5c514d68facfe2dd626257d753d7203a6b64d67b0526",
+        "role": "original"
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "final": {
+        "sha256": "0c4ac813a9f17f0745f2994202d8561ed85f75ea01f2b3a6611f81c5f96ea304",
+        "role": "finaltechnicalderivative"
+      },
+      "operation": "byte-identical original copy",
+      "original": {
+        "sha256": "0c4ac813a9f17f0745f2994202d8561ed85f75ea01f2b3a6611f81c5f96ea304",
+        "role": "original"
+      }
+    }
+  ]
+}
