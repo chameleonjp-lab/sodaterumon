@@ -1,0 +1,606 @@
+{
+  "schema_version": 1,
+  "id": "sm-gel-017",
+  "asset_type": "recovery_reselected_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "original_direction_basis": "Rightward eyes and original near lowered versus far raised fin-arm projection; inferred front-right view. Original normal/pixel retained byte-identical.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default",
+      "sha256": "3251f183a45b7cbf627f4b55909e6be57cce3c5f4ced2c250606f9f6240eb5e8",
+      "bytes": 528060,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        125,
+        944,
+        899
+      ],
+      "margins": [
+        80,
+        125,
+        80,
+        125
+      ],
+      "extent": 864,
+      "visible_colors": 31125,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-017/directions/S/default.png",
+      "git_blob_sha": "ea918ce970f0722140e5296990d40465972fd92e",
+      "original_preserved": false
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "sha256": "2450af6322ade8923159754909747d6c77a56094f3910e3d3b50d866f704ef18",
+      "bytes": 3952,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        12,
+        118,
+        115
+      ],
+      "margins": [
+        10,
+        12,
+        10,
+        13
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-017/directions/S/pixel.png",
+      "git_blob_sha": "0222e9f3e2354ce449e40b9cc3b147c94cbe9e57",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "default",
+      "sha256": "b7d4dc6ca8f546cb00b85d1fc74b315c8fd2106a7126bca9b2026dbcf29d6a11",
+      "bytes": 597780,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        81,
+        80,
+        944,
+        944
+      ],
+      "margins": [
+        81,
+        80,
+        80,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 29449,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-017/directions/SW/default.png",
+      "git_blob_sha": "f12481a97b583f5c6fddb1dc65f8a76cbaf8a077",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "sha256": "9c7240217634b44e7d6cdc6cc48475b95f914cfe6a5db8b55f508b949233dce4",
+      "bytes": 5438,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        11,
+        10,
+        116,
+        118
+      ],
+      "margins": [
+        11,
+        10,
+        12,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-017/directions/SW/pixel.png",
+      "git_blob_sha": "9998ee8317012165983ac8dab9e4c00c71970e52",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default",
+      "sha256": "3be0843d2576efe1da416f6ca90730e1f9638c2942d917217f83f7ec303f81b4",
+      "bytes": 547024,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        132,
+        80,
+        892,
+        944
+      ],
+      "margins": [
+        132,
+        80,
+        132,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 24843,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-017/directions/W/default.png",
+      "git_blob_sha": "736ec9fd5fe5babb7be0a81cca24b9b6f66d94b7",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "sha256": "23a529dc6ae9b049dd24c506bab4cfd411685ff02b3b18a81e9b66ac8c615d83",
+      "bytes": 3951,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        16,
+        10,
+        111,
+        118
+      ],
+      "margins": [
+        16,
+        10,
+        17,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-017/directions/W/pixel.png",
+      "git_blob_sha": "a727c703ec007f31555c0adba7659a587f037424",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default",
+      "sha256": "c91a2384488225aaffdd425dce903a9c751b29b524b69e47568ab567bb37b848",
+      "bytes": 562927,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        116,
+        80,
+        907,
+        944
+      ],
+      "margins": [
+        116,
+        80,
+        117,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 20438,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-017/directions/NW/default.png",
+      "git_blob_sha": "057b40d0692a01b9d31a065a9efd85581cabbda5",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "sha256": "a1bc2c0020ebd0e504b3e2c191c50aaeabe148d027309753eca7e9097e7c90da",
+      "bytes": 5262,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        15,
+        10,
+        112,
+        118
+      ],
+      "margins": [
+        15,
+        10,
+        16,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-017/directions/NW/pixel.png",
+      "git_blob_sha": "bff5717949c736c2a1221706d265a48f3c703bbc",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default",
+      "sha256": "985f578fb22a1c5ceb50e3dd4b3da7991f8261b62b6ebfe279291bb6c453ce99",
+      "bytes": 535845,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        113,
+        944,
+        910
+      ],
+      "margins": [
+        80,
+        113,
+        80,
+        114
+      ],
+      "extent": 864,
+      "visible_colors": 22063,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-017/directions/N/default.png",
+      "git_blob_sha": "c80e26dc9420d526855a0f8ecdf4530824b9e1a3",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "sha256": "99d641ef02f6111d7012238e1118d7d1af2701e380ffe98ef116092665b11e7a",
+      "bytes": 4220,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        14,
+        118,
+        114
+      ],
+      "margins": [
+        10,
+        14,
+        10,
+        14
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-017/directions/N/pixel.png",
+      "git_blob_sha": "3eb8462ac0e77854ac6baaae18552ca513237f5c",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default",
+      "sha256": "6530bf954ad79a5bb4732ec8ac34f402fdd352b2edb28be500a01de570f7eeee",
+      "bytes": 504673,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        136,
+        944,
+        888
+      ],
+      "margins": [
+        80,
+        136,
+        80,
+        136
+      ],
+      "extent": 864,
+      "visible_colors": 20849,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-017/directions/NE/default.png",
+      "git_blob_sha": "c8e995446c2e3572943c7ee8ff02f76fff81813f",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "sha256": "86501e41ec50873b12ce7c8ea4c2790ed8b07b698451dd411780244ad7940ee1",
+      "bytes": 4401,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        13,
+        118,
+        115
+      ],
+      "margins": [
+        10,
+        13,
+        10,
+        13
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-017/directions/NE/pixel.png",
+      "git_blob_sha": "db983f87dc1cdaa0d2e70c093c13b24b6708aefb",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default",
+      "sha256": "a34efa61d225cc1b2597db0d0083430b1fe55767eb95e9002a88e3b546776cd8",
+      "bytes": 534522,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        145,
+        80,
+        878,
+        944
+      ],
+      "margins": [
+        145,
+        80,
+        146,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 26351,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-017/directions/E/default.png",
+      "git_blob_sha": "d29352a9358d6f44092daae4ba299f95bc48e759",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "sha256": "ca0aae3c76968b75a7f0d321f98d581b40fe0d2c9d175509e7671a1fb488f436",
+      "bytes": 4419,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        18,
+        10,
+        109,
+        118
+      ],
+      "margins": [
+        18,
+        10,
+        19,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-017/directions/E/pixel.png",
+      "git_blob_sha": "5ce12861c77e92c3e72dc87b33e1c750d5440768",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default",
+      "sha256": "013d8531e412298291ed8513318e2b3125d752e0b7f051d5fd0cebb67c013c4b",
+      "bytes": 518025,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        64,
+        75,
+        960,
+        949
+      ],
+      "margins": [
+        64,
+        75,
+        64,
+        75
+      ],
+      "extent": 896,
+      "visible_colors": 22006,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-017/default.png",
+      "git_blob_sha": "87400f6d0c917e5ebd2d45624f5a00111f159235",
+      "original_preserved": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "sha256": "72fdc3bfbef3d856d0b08f25f9ddfe9876ba88b9194792d8f6f7958340aad35e",
+      "bytes": 3984,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        16,
+        116,
+        111
+      ],
+      "margins": [
+        12,
+        16,
+        12,
+        17
+      ],
+      "extent": 104,
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-017/pixel.png",
+      "git_blob_sha": "506115bc9cf7be3e5194dc46b9947f07350f5331",
+      "original_preserved": true
+    }
+  ],
+  "anatomy": {
+    "body_ovals": 2,
+    "eyes": 2,
+    "fin_arms": 2,
+    "legs": 0,
+    "wings": 0,
+    "tails": 0,
+    "waist_windows": 1,
+    "pose": "same raised arm and opposite lowered arm, roots fixed to lower oval sides"
+  },
+  "provenance": {
+    "recovered_visual_reselection": true,
+    "historical_adoption_identity_proven": false,
+    "historical_direction_prompts": "not fully recovered; no invented prompt lineage",
+    "reselection_itself_generates_images": false,
+    "new_generation_directions": [
+      "SW",
+      "W",
+      "NW"
+    ],
+    "new_generation_image_count": 6,
+    "new_generations": [
+      {
+        "direction": "W",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: precise-object-edit. Make ONE corrected W left-profile game sprite of this exact milky-pink two-oval creature. Input 1 is the original SE identity and fixed arm-pose reference. Input 2 is the W edit target: its left-facing head, two body volumes, colors and waist window are correct, but its arm overlap is wrong. Correct the whole-body yaw relationship of the arms only. Lock arm A as the originally raised short rounded pink fin, arm B as the originally lowered fin; do not exchange their poses or move their anatomical left/right roots. In this opposite LEFT SIDE view, raised arm A is the NEAR arm: its root attaches visibly on the near-facing surface of the LOWER horizontal oval, and its short rounded tip angles UP, in front of the lower body. Lowered arm B is the FAR arm: its root disappears behind the lower body, with only a small low fin edge visible if natural. Remove the current large near downward fin and far upward fin arrangement by correcting depth projection, not changing which physical arm is raised. Exactly TWO fin arms, zero legs/fingers/tails/wings. Keep the same taller vertical upper oval, wider grounded lower oval, same small near eye at LEFT edge of head with far eye hidden, same single mint horizontal transparent waist window. Preserve original glossy milky palette, outline, proportions and modest camera elevation. No ball, object, costume or new body features. Isolated full-body character on true transparency, 1024 square generous empty margins; no text, panels, ground or shadow.",
+        "reference_sha256": [
+          "013d8531e412298291ed8513318e2b3125d752e0b7f051d5fd0cebb67c013c4b",
+          "b3600e9f3d763a54516b4be6214c5e764ff1056784933fb1e803288e45becdbc"
+        ],
+        "raw_sha256": "2c045cb0f20db42a5a78510d62503a3372dc9c168c7fa859500fb2db9a4437e2",
+        "output_sha256": "3be0843d2576efe1da416f6ca90730e1f9638c2942d917217f83f7ec303f81b4"
+      },
+      {
+        "direction": "W",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact single creature and exact W LEFT profile as authentic pixel art on a 128 by 128 logical grid. Preserve the taller upper pink oval with one visible eye at LEFT, wider grounded lower oval, ONE mint oval waist window and TWO rounded fin arms exactly as input: near RAISED arm has its root overlapping the front surface at screen-left, far LOWERED arm is only a small edge behind the body at screen-right. Keep silhouette, proportions, facing and root occlusion. Zero legs/wings/tails/fingers/sphere/props. Same milky pink/mint/dark mauve palette, at most31 opaque colors, crisp controlled pixel clusters and stepped contour, binary transparency. Redraw intentional pixel shapes; do not simply shrink, blur or antialias. Center complete character with transparent margins; no sheet/text/ground/shadow.",
+        "reference_sha256": [
+          "3be0843d2576efe1da416f6ca90730e1f9638c2942d917217f83f7ec303f81b4"
+        ],
+        "raw_sha256": "205fbf9f62bd06cf1fb4520cd2480e8c7d5e88a503980ed5c6a50da1fb8026bf",
+        "output_sha256": "23a529dc6ae9b049dd24c506bab4cfd411685ff02b3b18a81e9b66ac8c615d83"
+      },
+      {
+        "direction": "SW",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: precise-object-edit. ONE transparent SW front-left three-quarter sprite of the exact creature. Input 1 original SE locks identity and pose; input 2 is old SW target with incorrect arms; input 3 is corrected W showing the correct near raised arm. Keep target's left-facing three-quarter upper head and two visible eyes (far eye foreshortened), its vertical upper oval and horizontal wider lower oval, single mint waist window, pink glossy material. Correct ONLY the fixed two fin-arms' depth projection. Arm A is the SAME raised arm, located on creature's anatomical left; in SW this is the NEAR side at screen-right: show its root attached to and overlapping the near right surface of lower oval and its short rounded tip angled upward. Arm B is the SAME lowered arm on opposite physical side, now farther at screen-left; its root is hidden behind lower oval with only a lowered rounded end at far left if visible. Do not swap the physical arm poses. Exactly two short fins, not hands, no fingers/feet/tail/wings/held object. The current target wrongly has far raised fin at left and near lowered fin at right; change their projected attachment/occlusion to the opposite arrangement while retaining same original raised versus lowered pose. Match original source curvature, proportions and shallow camera, no new anatomy or extra volumes. Full isolated creature, 1024 square transparent margins, no text/ground/shadow.",
+        "reference_sha256": [
+          "013d8531e412298291ed8513318e2b3125d752e0b7f051d5fd0cebb67c013c4b",
+          "52dee11796fb611466dd73b8e3a6c4f007935b4d258545c2bc8a6e1512e4b12e",
+          "3be0843d2576efe1da416f6ca90730e1f9638c2942d917217f83f7ec303f81b4"
+        ],
+        "raw_sha256": "418c20e129a30a699c674acfbc30e120ce60841b15f69ab256518deca05510ca",
+        "output_sha256": "b7d4dc6ca8f546cb00b85d1fc74b315c8fd2106a7126bca9b2026dbcf29d6a11"
+      },
+      {
+        "direction": "SW",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact single creature and exact SW pose as authentic pixel art on a 128 by 128 logical grid. Preserve the taller upper pink oval, wider grounded lower oval, two front-left eyes, ONE mint oval waist window and TWO rounded fin arms exactly as input: near raised arm on screen-right overlaps body at its root; far lowered arm on screen-left has root hidden behind body. Keep exact silhouette, proportions, facing and occlusion. Zero legs, wings, tails, fingers, sphere or props. Same milky pink/mint/dark mauve palette, at most31 opaque colors, controlled crisp pixel clusters and stepped contour, binary transparent background. Do not simply shrink the illustration, do not blur or antialias. Center complete character with transparent margins, no sheet/text/ground/shadow.",
+        "reference_sha256": [
+          "b7d4dc6ca8f546cb00b85d1fc74b315c8fd2106a7126bca9b2026dbcf29d6a11"
+        ],
+        "raw_sha256": "2868374660d351db825f251a6638e11f5609d647dd9d0c635319938eb47b31c7",
+        "output_sha256": "9c7240217634b44e7d6cdc6cc48475b95f914cfe6a5db8b55f508b949233dce4"
+      },
+      {
+        "direction": "NW",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: precise-object-edit. ONE transparent NW back-left three-quarter sprite of this exact creature. Input 1 original SE fixes identity and the SAME raised fin A versus lowered fin B; input 2 is existing NW edit target; input 3 corrected W fixes arm-side relationship. Keep the target's blank back of vertical upper oval (NO EYES), lower broad horizontal oval, one mint waist window, pink milky material and camera. Correct the two fin arms' depth projection. At this back-left view raised arm A is the NEAR arm on screen-left: show its root on the near-facing left area of LOWER oval, with dark root contour visibly overlapping lower body and short rounded tip angled UP and left. Lowered arm B is FAR on screen-right: its root is hidden behind the lower oval, only a small lowered rounded end may protrude. The target wrongly puts raised A behind the body and lowered B in front; reverse their overlap by rotating the same fixed arm roots, not changing which anatomical arm is up/down. Same exact two oval body volumes and two short fins; no legs, tail, wings, fingers, sphere or props. Preserve body proportions, palette and restrained highlights. Keep full body centered 1024 square with transparent margins, no text/shadow/ground.",
+        "reference_sha256": [
+          "013d8531e412298291ed8513318e2b3125d752e0b7f051d5fd0cebb67c013c4b",
+          "f0f130ac57c3b5afd04f85887491eadb0d5466074770306041fd8603fc67084e",
+          "3be0843d2576efe1da416f6ca90730e1f9638c2942d917217f83f7ec303f81b4"
+        ],
+        "raw_sha256": "1a5b959ece46e5e8be9c311dcd8b34a6ca6a038b846852fd56796087d93249f4",
+        "output_sha256": "c91a2384488225aaffdd425dce903a9c751b29b524b69e47568ab567bb37b848"
+      },
+      {
+        "direction": "NW",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact single creature and exact NW back-left view as authentic pixel art on a 128 by128 logical grid. Preserve tall upper pink oval with NO EYES, broader grounded lower oval, one mint oval waist window, and exactly two short rounded fin arms: near RAISED arm screen-left has visible root overlapping lower body, far LOWERED arm screen-right mostly hidden behind body with small end visible. Match all proportions, pose and silhouette; no redesign, no added legs/wings/tail/fingers/sphere. Same milky pink, mint, dark mauve limited palette, at most31 opaque colors. Crisp controlled pixel clusters, staircase edges, binary transparency; no blur, smooth gradients or antialiasing, do not merely shrink input. Complete isolated sprite with generous transparent margins, no text/grid/shadow/ground.",
+        "reference_sha256": [
+          "c91a2384488225aaffdd425dce903a9c751b29b524b69e47568ab567bb37b848"
+        ],
+        "raw_sha256": "3fd8273a01b0f5a55dd0e271f7646e905d82fc37a57e4477aa0fc7eb071c8219",
+        "output_sha256": "a1bc2c0020ebd0e504b3e2c191c50aaeabe148d027309753eca7e9097e7c90da"
+      }
+    ],
+    "reused_direction_inputs": [
+      {
+        "direction": "S",
+        "normal_sha256": "3251f183a45b7cbf627f4b55909e6be57cce3c5f4ced2c250606f9f6240eb5e8",
+        "pixel_raw_sha256": "18733dd06c5ab24df343d20403d8d884b633f3b61ab758366a6a9322a0638586"
+      },
+      {
+        "direction": "N",
+        "normal_sha256": "985f578fb22a1c5ceb50e3dd4b3da7991f8261b62b6ebfe279291bb6c453ce99",
+        "pixel_raw_sha256": "77855dea10ba9400e25d075db0c2086855364dc486ed64bfc2bfa083084e79d6"
+      },
+      {
+        "direction": "NE",
+        "normal_sha256": "6530bf954ad79a5bb4732ec8ac34f402fdd352b2edb28be500a01de570f7eeee",
+        "pixel_raw_sha256": "fab42b5c852708ab9e2b648ffda0bfdc480b45422065f34aaa567932a639ac51"
+      },
+      {
+        "direction": "E",
+        "normal_sha256": "a34efa61d225cc1b2597db0d0083430b1fe55767eb95e9002a88e3b546776cd8",
+        "pixel_raw_sha256": "53a2aa3959d065f7441cbf59926b3828ebac73e13cbe10b3740ca05205271454"
+      }
+    ],
+    "source_history_review": "All available original normal2/pixel1 attempt records reviewed. The first normal had an unwanted ball and was corrected; accepted records show finishing. No explicit safety stop recorded; record completeness beyond available metadata unproven."
+  },
+  "processing": {
+    "normal": "Raw retained; alpha below8 cleared, proportional LANCZOS longest864, centered1024, low alpha cleared again. Reused normals proportionally normalized in new files. No shape redraw.",
+    "pixel": "Independently generated pixel inputs; nearest grid adjustment, alpha threshold128, visible-color MAXCOVERAGE31 palette without dithering, longest108 centered128, transparentRGBzero. Existing sourceSE unchanged.",
+    "rejected_technical_candidate": "Earlier median-cut output lost waist mint hue; retained but not selected. Final palette finishing preserves mint window."
+  },
+  "qa": {
+    "technical": "16/16 local pass",
+    "normal_review": "staged full-turn candidate passed",
+    "pair_review": "local 16-frame comparison and white/black pixel edges checked; independent review pending",
+    "old_hold": "Opposite side and back-oblique candidates repeated near lowered/far raised arm; fixed-side arm overlap corrected in SW/W/NW.",
+    "limitations": [
+      "W/E body-width differences treated as projection differences, not exact bilateral 3D proof",
+      "Hidden root depth and waist-window rear visibility inferred consistently",
+      "Old adopted hash/prompt mapping unproven after recovery",
+      "Precise angles, game/runtime and final user acceptance pending"
+    ],
+    "original_pair_unchanged": true,
+    "independent": "All16 numerical/hash checks passed; parent eight-pair and E full-resolution W/NW normal/pixel reviews confirm raised/lowered arm depth ordering, eye direction and mint waist color. Root depth, exact yaw, window depth and W/E width projection remain inferred.",
+    "source_history": "Available full original metadata examined: two normal attempts (first excess arm-tip ball rejected for quality, second accepted after finishing), one pixel accepted after finishing; no explicit safety refusal in recorded trials. No claim about unrecorded calls."
+  }
+}

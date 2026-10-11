@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "id": "sm-micro-002",
+  "asset_type": "eight_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "direction_definition": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/S/default.png",
+      "bytes": 589929,
+      "sha256": "30c06a8a318e72721a77ff383b65a669e9fa2237a5c1fb6cc2c95cbba7e9b2b8",
+      "git_blob_sha": "5e4ceff580110d710c8274860349f71a7eb44a61",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        168,
+        927,
+        855
+      ],
+      "visible_colors": 58599,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/S/pixel.png",
+      "bytes": 6250,
+      "sha256": "0fd8538c1d19cbb886126f39175b4876fb586b65427ab96dfc77b5b0c3c12292",
+      "git_blob_sha": "9ab79a12bb52ea022d0c9b781a33bd9b926c6090",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        17,
+        116,
+        110
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/SW/default.png",
+      "bytes": 513411,
+      "sha256": "1606e0bb9a05934e37a565e67cb589e26b5c89728859ae919196a85492d0bb4d",
+      "git_blob_sha": "bf8075daf339c8b1ac717119830eb0cf791a79e0",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        96,
+        185,
+        926,
+        840
+      ],
+      "visible_colors": 48103,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/SW/pixel.png",
+      "bytes": 5779,
+      "sha256": "ce51d1ee75c40864a311a66f24ceb78bf0e6f08f1a3b596161d02e0cfb2f2739",
+      "git_blob_sha": "d98fb3b880cfe7ad824fd1a3f5caa83cc05b5e00",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        22,
+        116,
+        105
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/W/default.png",
+      "bytes": 445551,
+      "sha256": "ec421b81e26b6e9010deedad1367f3e094c6aac1489f4d06a3ccc17d2dc7b5d8",
+      "git_blob_sha": "46aa35e975adccd98f27ebaa5ccd5eea21857cdb",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        245,
+        928,
+        778
+      ],
+      "visible_colors": 44082,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/W/pixel.png",
+      "bytes": 4960,
+      "sha256": "841524e198112a40f21f10ab151477da94a2dd7fb3b452a08dbae165e30bc0f6",
+      "git_blob_sha": "381148744f0f9f29cd18ff0c896be3500588ae25",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        29,
+        116,
+        98
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/NW/default.png",
+      "bytes": 502815,
+      "sha256": "7173dcd1f8b362fb93a93ba453b6f9240df51fdc81be1c1da4a8633965263799",
+      "git_blob_sha": "347e23cf7ad6c4a52c9945ff0f2826f0f2278ea5",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        168,
+        927,
+        854
+      ],
+      "visible_colors": 38801,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/NW/pixel.png",
+      "bytes": 4965,
+      "sha256": "06375a050f95e75c4d6893b65d1b8ebf438c1a8e8be0d2d74debe407cbe29727",
+      "git_blob_sha": "e66ef8e4d71b94528538ccf39ea603e370a05a95",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        20,
+        116,
+        107
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/N/default.png",
+      "bytes": 637932,
+      "sha256": "8c9b602434a02fbcc558b203357661e18eab74875e463a20f63951701ff0bd1e",
+      "git_blob_sha": "024ab416ea6e7030163fda814c9a3b73a56a6403",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        99,
+        927,
+        924
+      ],
+      "visible_colors": 37935,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/N/pixel.png",
+      "bytes": 4907,
+      "sha256": "ebd02aa216dcc83c8981e994ea0c85c89b18952af754fdbcaa15dc3e0dbadcbc",
+      "git_blob_sha": "4b544c021a226bd2473c252ee9b7c29b520c1c30",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        13,
+        116,
+        114
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/NE/default.png",
+      "bytes": 460559,
+      "sha256": "289ae96e1a28471baf4709614f1c683e2f45320095f4e1bce69f11b994997631",
+      "git_blob_sha": "4c96974abb393565670b0ae2ab72dde341ef69fd",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        214,
+        928,
+        811
+      ],
+      "visible_colors": 39431,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/NE/pixel.png",
+      "bytes": 4513,
+      "sha256": "d9553bd22f80b493f2244d202bee796c16d9d94f0eb622c668a4c225267cefdd",
+      "git_blob_sha": "04896dec4a70b7609441582739964d1461f0b167",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        27,
+        116,
+        100
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/E/default.png",
+      "bytes": 431830,
+      "sha256": "ac1ed838c3596257a923558360278898d35c73256e51dc4c2aa037bfa2e50d69",
+      "git_blob_sha": "5e20f228d8ca103caa170c7199a923a594c6cf86",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        96,
+        246,
+        926,
+        776
+      ],
+      "visible_colors": 38674,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-002/directions/E/pixel.png",
+      "bytes": 4390,
+      "sha256": "d31c9cf9680cece0d25a08275ede56f222edb2d7d64ff09d7f4d60b06dfc4013",
+      "git_blob_sha": "58709a0e57dc2362f6557fe2c583bae56787fb05",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        29,
+        116,
+        98
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-002/default.png",
+      "bytes": 415860,
+      "sha256": "4f867f97ae343f8df60f7c9d8e6f3314b8f3709d489f90d5727ce655eb8c5405",
+      "git_blob_sha": "9e108943c0229a828ea9d7e3d6b4873663d87acc",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        116,
+        243,
+        885,
+        786
+      ],
+      "visible_colors": 43197,
+      "binary_alpha": false,
+      "original_preserved": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-002/pixel.png",
+      "bytes": 6811,
+      "sha256": "cd83b0f5e12757faa706f9190fefc8d13311ee7b447883aba88e5a283c03e828",
+      "git_blob_sha": "d03c1442abaa78dafbed19252eed5a0b0e30ce29",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        26,
+        116,
+        101
+      ],
+      "visible_colors": 24,
+      "binary_alpha": true,
+      "original_preserved": true,
+      "technical_pass": true
+    }
+  ],
+  "provenance": {
+    "tool": "built-in imagegen",
+    "attempts": [
+      {
+        "variant": "normal",
+        "draft_direction": "E",
+        "selected": true,
+        "raw_sha256": "30d6701793253705cd29e382bd3ab8c6c0b5de6e954c762a3406b47681cd966a",
+        "raw_bytes": 715550,
+        "prompt": "Use case: identity-preserve\nOne normal illustrated direction of the exact two-cell pink creature. Original identity reference1; fixed shallow camera and low horizontal posture from side reference2. TWO translucent rounded cells in tandem, front smaller with TWO teal cream-rim eyes, rear larger about1.3x diameter, ONE dark teal waist ring. SIX short bent teal legs in3left/right pairs with cream round suction pads, fixed original gait and roots; naturally occluded legs need not all be exposed. No wings/tail/antennae. Keep pink translucent membrane, teal cloudy cores, cream/lavender spots, proportions, low body center and common ground height. Rotate whole creature in yaw without pitching or standing upright. Hand-drawn dark outline, restrained cel shading and upper-left light. Fullbody transparent1024square, clear padding, no ground/shadow/text.\nRequested E true RIGHT profile: small front eyed cell RIGHT, large rear cell LEFT, waist ring between. One near eye visible at right-facing front, far eye naturally hidden. Two cells share nearly horizontal center axis and same low ground stance as W; do not turn into an oblique copy of original with both eyes visible. Three near-side legs front/middle/rear and naturally partial far legs; preserve short bent gait and cream pads. Larger rear about1.3x smaller head, no change in height or attachment. New right side with correct original lighting, not mirrored W pixels.\n",
+        "prompt_sha256": "9e13b0585d61dc2cb2e287ee72f3a981cd1fed7c6b8198044a2ac8c6de9cf424",
+        "reference_sha256": [
+          "4f867f97ae343f8df60f7c9d8e6f3314b8f3709d489f90d5727ce655eb8c5405",
+          "ec421b81e26b6e9010deedad1367f3e094c6aac1489f4d06a3ccc17d2dc7b5d8"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "pixel",
+        "draft_direction": "E",
+        "selected": true,
+        "raw_sha256": "f09a10642ce744a31d06d75a8830d44682546b01b0adbbd589ab94ea04e491fb",
+        "raw_bytes": 726311,
+        "prompt": "Use case: style-transfer\nRedraw image1 as ONE authentic pixel sprite in E RIGHT profile, identical angle and pose. Image2 original pixel is style/palette only. Small front pink cell RIGHT with one visible near eye, larger rear LEFT, one dark teal waist ring clearly separates/connects cells. SIX actual short teal bent legs with cream suction pads, maintain normal near/far overlaps; no added feet to force count visibility. Same low horizontal spine, head/rear size ratio, pink/teal/cream/lavender markings. No extra cells/wings/tail. Intentionally draw on128logicalgrid, large clean clusters/1px contour,<=32colors, binary opaque/transparent pixels, no antialias/blur/filter.104px max creature extent,8clear margins, genuine alpha, no ground/shadow/text.\n",
+        "prompt_sha256": "bc009ab3f3263fd9b64bc3701f5d73c66b3876743f3fddde675558ebcd48591a",
+        "reference_sha256": [
+          "ac1ed838c3596257a923558360278898d35c73256e51dc4c2aa037bfa2e50d69",
+          "cd83b0f5e12757faa706f9190fefc8d13311ee7b447883aba88e5a283c03e828"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "normal",
+        "draft_direction": "N",
+        "selected": false,
+        "raw_sha256": "7ad9879e49effe9d506ca11f3e67585c2be2c2f444f4b731a1e243b4e6e0f5a0",
+        "raw_bytes": 669082,
+        "prompt": "Use case: identity-preserve\nCreate a genuine N directly REAR-facing direction of the same two-cell creature. Image1 original identity, image2 side view low horizontal anatomy, image3 corrected front view establishes fixed low camera and cell-center relationship.\nExactly TWO rounded translucent pink cells in tandem, SMALL front head with TWO eyes and LARGE rear cell about1.3times head diameter, connected through one dark teal waist ring. Exactly SIX short bent teal legs in three left/right pairs, cream round suction pads; no wings/tail/antennae. Preserve original fixed gait and leg lengths, pink/teal/cream pattern and celshaded material.\nRear view: LARGE rear cell nearest viewer centered, small head directly BEHIND at nearly SAME center height, mostly occluded by rear cell, not perched on top. NO eyes visible because the two eyes stay on far front head. Waist ring is also mostly hidden in depth. Natural leg occlusion is allowed; do not stretch legs or add visible duplicates to show six fully. Near hind pair and parts of middle/front feet show consistently on same ground plane. Rear cell has translucent teal internal core and cream spots, not invented rear face. Same shallow elevation and low stance, not overhead. Body doesn't tilt or resize between viewpoints. One fullbody1024transparent sprite with clear padding, hand-drawn dark contour and upper-left light, no ground/shadow/text.\n",
+        "prompt_sha256": "6275fcbd774654aaa3efcd65aeb0a4989b5742b889e564563f2999dfd1e9d19b",
+        "reference_sha256": [
+          "4f867f97ae343f8df60f7c9d8e6f3314b8f3709d489f90d5727ce655eb8c5405",
+          "ec421b81e26b6e9010deedad1367f3e094c6aac1489f4d06a3ccc17d2dc7b5d8",
+          "30c06a8a318e72721a77ff383b65a669e9fa2237a5c1fb6cc2c95cbba7e9b2b8"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "normal",
+        "draft_direction": "N-v2",
+        "selected": true,
+        "raw_sha256": "15ff1ff84102d34e53c0767a2fd2dd25ef7810fa55cf7ce43f8f82b33ea7aaae",
+        "raw_bytes": 701230,
+        "prompt": "Use case: precise-object-edit\nImage1 is the N rear-view draft to correct. Image2 is authoritative original, image3 is low side profile showing TWO cells on nearly horizontal body axis.\nCorrect ONLY the excessive overhead projection of image1. The small FRONT cell and dark waist ring are wrongly perched visibly ABOVE the large foreground REAR cell. In this low direct rear view, move their projection down BEHIND the large rear cell so they are completely OCCLUDED by it. Preserve the actual two-cell anatomy; the small front cell still exists hidden in depth, do not replace it with another part. The upper silhouette is now solely the round top of the big rear cell. No little ball or waist ring visible above it, no eyes on rear. Leave the LARGE rear cell's current round shape, internal teal core, spots, material and all visible near hind-leg positions unchanged. Six actual short teal suction-pad legs remain in three fixed pairs on common ground plane; farther legs may be partially hidden naturally, no extra or lengthened legs. Do not stretch the body, turn into a vertical two-ball stack, alter colors or add rear eyes. Same front-to-back axis and low camera as original/side guide. Hand-drawn cel style, fullbody transparent square1024, generous padding, no floor/shadow/text.\n",
+        "prompt_sha256": "eab239b57583cf7c38b0e552da5a1fb63b768c60f929f5f7091c51de4bdb0cc6",
+        "reference_sha256": [
+          "b08a9c48280b70b02be97dbcb932e6a4e8bad266cda58ce8e1593b9f8e2f4cf9",
+          "4f867f97ae343f8df60f7c9d8e6f3314b8f3709d489f90d5727ce655eb8c5405",
+          "ec421b81e26b6e9010deedad1367f3e094c6aac1489f4d06a3ccc17d2dc7b5d8"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "pixel",
+        "draft_direction": "N-v2",
+        "selected": true,
+        "raw_sha256": "fb2ea30ec56f93560ce25f3a4f2070addfca70dfe410ac861679c10b66a7a5c1",
+        "raw_bytes": 774077,
+        "prompt": "Use case: style-transfer\nRedraw image1 as ONE N straight REAR pixel sprite of the same creature, preserving exact normal silhouette. Image2 original pixel gives style/palette only, do not expose its head or eyes. The LARGE rear pink cell completely OCCLUDES the smaller front cell and waist ring in this low rear view. Actual two-cell anatomy retained hidden in depth; do NOT add a visible little cell on top. NO visible eyes and no rear face. Six actual short teal suction-pad legs, FOUR visible as normal with two naturally hidden; do not add legs to show all6. Same big rounded cell, teal cloudy core, cream/lavender spots, pink shade and leg positions. Intentional128logicalgrid with104px extent and8pxclear margins,<=32visible colors, crisp pixel clusters/dark1px contour, binary alpha only. No blur/antialias/gradient/filter/shadow/text/background.\n",
+        "prompt_sha256": "09ca20673181361c58f8015d0d18c98cc7230dcc73937ec3201db215821d01a0",
+        "reference_sha256": [
+          "8c9b602434a02fbcc558b203357661e18eab74875e463a20f63951701ff0bd1e",
+          "cd83b0f5e12757faa706f9190fefc8d13311ee7b447883aba88e5a283c03e828"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "normal",
+        "draft_direction": "NE",
+        "selected": true,
+        "raw_sha256": "6cb2255e4b28589117419160c20308f10e030a8f7ba8d2fc93d4195b50823772",
+        "raw_bytes": 756914,
+        "prompt": "Use case: identity-preserve\nOne normal illustrated direction of the exact two-cell pink creature. Original identity reference1; fixed shallow camera and low horizontal posture from side reference2. TWO translucent rounded cells in tandem, front smaller with TWO teal cream-rim eyes, rear larger about1.3x diameter, ONE dark teal waist ring. SIX short bent teal legs in3left/right pairs with cream round suction pads, fixed original gait and roots; naturally occluded legs need not all be exposed. No wings/tail/antennae. Keep pink translucent membrane, teal cloudy cores, cream/lavender spots, proportions, low body center and common ground height. Rotate whole creature in yaw without pitching or standing upright. Hand-drawn dark outline, restrained cel shading and upper-left light. Fullbody transparent1024square, clear padding, no ground/shadow/text.\nRequested NE rear-right quarter: front points AWAY toward upper-right. Large rear cell nearest lower-left, small eyeless front cell farther upper-right with low horizontal spine; small head CENTER only slightly higher than rear center as in original shallow camera, not perched high. Both eyes on far front face fully hidden. Waist ring partially visible between cells. Natural overlap of six short suction-pad legs, rear/near legs in foreground, no full exposed rows of tall back legs. Preserve original size ratio and limb root heights, no top-down camera. Opposite rear quarter is genuinely redrawn with upper-left light, not mirror.\n",
+        "prompt_sha256": "3e7d4c392d84418f3631c16d9dcd56cf73d56b59abd46f86a0daef08f1c32b62",
+        "reference_sha256": [
+          "4f867f97ae343f8df60f7c9d8e6f3314b8f3709d489f90d5727ce655eb8c5405",
+          "ec421b81e26b6e9010deedad1367f3e094c6aac1489f4d06a3ccc17d2dc7b5d8",
+          "8c9b602434a02fbcc558b203357661e18eab74875e463a20f63951701ff0bd1e"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "pixel",
+        "draft_direction": "NE",
+        "selected": true,
+        "raw_sha256": "4691720f330726b3d625468779174d04e876c08bba1c52637c9785cba4feb5ff",
+        "raw_bytes": 602274,
+        "prompt": "Use case: style-transfer\nCreate ONE authentic128grid pixel-art NE rear-right sprite matching image1 normal exactly. Image2 original pixel is style/palette guide only. Large rear pink cell lower-left, smaller eyeless front cell upper-right in shallow perspective, one dark teal waist ring between; actual two front eyes hidden, NO visible eyes or new face. SIX actual short bent teal suction-pad legs with exact normal overlap, no extra limbs/wings/tail. Preserve relative cell sizes, low spine/stance, waist-ring color, pink membrane, teal cores and cream/lavender spots. Intentional clean pixel clusters and consistent1px contour,<=32colors, opaque or transparent pixels only, no blur/antialias/pixelation filter.104px longest extent in128square,8pxclear padding, genuine alpha, no shadow/text/background.\n",
+        "prompt_sha256": "c9f78ebdeebf07cd00a4d0e6f1fc76aacaff8d6f3eaf0272ba204152512bf217",
+        "reference_sha256": [
+          "289ae96e1a28471baf4709614f1c683e2f45320095f4e1bce69f11b994997631",
+          "cd83b0f5e12757faa706f9190fefc8d13311ee7b447883aba88e5a283c03e828"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "normal",
+        "draft_direction": "NW",
+        "selected": true,
+        "raw_sha256": "222536ea73d603e62ebb0951ecbe17487059996ae6acb728bd8a558e1c708d1b",
+        "raw_bytes": 765456,
+        "prompt": "Use case: identity-preserve\nOne normal illustrated direction of the exact two-cell pink creature. Original identity reference1; fixed shallow camera and low horizontal posture from side reference2. TWO translucent rounded cells in tandem, front smaller with TWO teal cream-rim eyes, rear larger about1.3x diameter, ONE dark teal waist ring. SIX short bent teal legs in3left/right pairs with cream round suction pads, fixed original gait and roots; naturally occluded legs need not all be exposed. No wings/tail/antennae. Keep pink translucent membrane, teal cloudy cores, cream/lavender spots, proportions, low body center and common ground height. Rotate whole creature in yaw without pitching or standing upright. Hand-drawn dark outline, restrained cel shading and upper-left light. Fullbody transparent1024square, clear padding, no ground/shadow/text.\nRequested NW rear-left quarter, front points away toward upper-left. LARGE rear cell is NEAREST lower-right, small front head extends beyond it toward upper-left but stays at nearly same center height, no vertical stack. No eyes visible: eye-bearing front face points away. Dark waist ring only partly visible between cells. Near hind/middle legs overlap far legs naturally; six actual pads/legs, not all need full exposure. Same level spine and original short gait. Rear surface has translucent core/spots only. Preserve two-cell size ratio and fixed attachment.\n",
+        "prompt_sha256": "2f94bb07bb09ada0879e6586854614829edbc335d2c8ee77115f8df0aac412cb",
+        "reference_sha256": [
+          "4f867f97ae343f8df60f7c9d8e6f3314b8f3709d489f90d5727ce655eb8c5405",
+          "ec421b81e26b6e9010deedad1367f3e094c6aac1489f4d06a3ccc17d2dc7b5d8",
+          "8c9b602434a02fbcc558b203357661e18eab74875e463a20f63951701ff0bd1e"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "pixel",
+        "draft_direction": "NW",
+        "selected": true,
+        "raw_sha256": "154ddf5e7aa812cc33a64416f152f3e773e6ced07990583ff53158fee8b85c44",
+        "raw_bytes": 646534,
+        "prompt": "Use case: style-transfer\nCreate ONE authentic pixel-art NW rear-left quarter sprite by faithfully redrawing image1, not changing viewpoint. Image2 original pixel is style/palette only. Large rear pink cell near lower-right, smaller eyeless front cell farther upper-left, one dark teal waist ring. NO visible eyes in this rear view; actual two front eyes hidden. Six short teal suction-pad legs physically, match image1's visible overlap/occlusion exactly. Two cells only, no wings/tail/antennae. Keep pink translucent look as clean flat clusters, teal cores, cream/lavender spots, dark neck ring. Same cell-center relationship, relative sizes and ground stance.128logicalgrid, longest104px,8clear padding,<=32colors, crisp1px dark outline, opaque or transparent only. No antialiasing/blur/filter/extra details, no shadow/text/background.\n",
+        "prompt_sha256": "7a97bcbccd02acc29dd4044415bb7b74376d79361094857accb13b26326e9be4",
+        "reference_sha256": [
+          "7173dcd1f8b362fb93a93ba453b6f9240df51fdc81be1c1da4a8633965263799",
+          "cd83b0f5e12757faa706f9190fefc8d13311ee7b447883aba88e5a283c03e828"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "normal",
+        "draft_direction": "S",
+        "selected": false,
+        "raw_sha256": "3c1ef37d299210670c1c99e9ee28bbfc20098c7e1bf5a862ae5dad2bcc313500",
+        "raw_bytes": 773756,
+        "prompt": "Use case: identity-preserve. One exact reference micro creature, rotate rigidly in YAW only. TWO pink translucent rounded cells in tandem: SMALLER front head with TWO dark teal cream-rimmed eyes, LARGER rear cell, one dark teal ring at narrow waist. Exactly SIX short bent teal legs, three left/right pairs front/middle/rear, all ending in cream round suction pads; preserve fixed gait and leg lengths/root heights. Interior teal cloudy cores and cream spots. No antennae, wings, tail or extra cells. Same low camera elevation around15degrees, fixed horizontal body axis and ground stance, no overhead pitch change. Original glossy outlined illustration, full creature transparent background no shadow/text. Requested S exact front view. Small front cell centered nearest viewer, both eyes symmetric on it; larger rear cell centered BEHIND and visible mainly above and a little beyond side shoulders, not stacked upward vertically. Dark waist ring partly hidden behind head. Six legs remain three pairs extending sideways with natural rear-pair occlusion, no stretched rear legs to expose them. Same foot ground level and head height as source; no top-down view.\n",
+        "prompt_sha256": "9a4f78f0cc306bcd6018298f64f2a7d95abae5a612d8e7bb3b15e4d544f5657b",
+        "reference_sha256": [
+          "4f867f97ae343f8df60f7c9d8e6f3314b8f3709d489f90d5727ce655eb8c5405"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "normal",
+        "draft_direction": "S-v2",
+        "selected": false,
+        "raw_sha256": "bf0b8f091ff615783383e8c80a251cfb3dbafa5472e7f0a3ddc5f306733a9e2d",
+        "raw_bytes": 656526,
+        "prompt": "Use case: identity-preserve. One exact reference micro creature, rotate rigidly in YAW only. TWO pink translucent rounded cells in tandem: SMALLER front head with TWO dark teal cream-rimmed eyes, LARGER rear cell, one dark teal ring at narrow waist. Exactly SIX short bent teal legs, three left/right pairs front/middle/rear, all ending in cream round suction pads; preserve fixed gait and leg lengths/root heights. Interior teal cloudy cores and cream spots. No antennae, wings, tail or extra cells. Same low camera elevation around15degrees, fixed horizontal body axis and ground stance, no overhead pitch change. Original glossy outlined illustration, full creature transparent background no shadow/text. Requested S exact frontal view at LOW eye level consistent with side reference2, not overhead. Small head nearest viewer CENTER, larger rear cell directly BEHIND head with almost SAME center HEIGHT. Head occludes lower central rear cell. Rear cell is only about1.3x head diameter, and its upper edge rises only aboutone-quarter head diameter above head top. Do NOT stack rear sphere above head or show its entire circle. Neck ring mostly occluded. Six short legs in three pairs on same ground plane, rear feet may be hidden. Two front eyes. Match original head/body size ratio and short grounded posture.\n",
+        "prompt_sha256": "a203268528db80736479718782a27867eb244bbd7b63fd3f9f7d628c14e92620",
+        "reference_sha256": [
+          "4f867f97ae343f8df60f7c9d8e6f3314b8f3709d489f90d5727ce655eb8c5405",
+          "ec421b81e26b6e9010deedad1367f3e094c6aac1489f4d06a3ccc17d2dc7b5d8"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "normal",
+        "draft_direction": "S-v3",
+        "selected": true,
+        "raw_sha256": "3cc1d47f29aec46e5c1a9d0afa53b5bc4b8b9b7f3d930f6947b1b9560cb527fc",
+        "raw_bytes": 760267,
+        "prompt": "Use case: precise-object-edit\nImage1 is the FRONT S draft to correct. Image2 is authoritative original identity. Image3 is the existing side view establishing low horizontal two-cell stance.\nMake a localized PERSPECTIVE/OCCLUSION correction to image1: keep the small front head, its two eyes, and front leg pair in their current positions. The large rear pink cell is incorrectly stacked high above the head. LOWER its projected center directly BEHIND the front head until their center heights are nearly equal, retaining larger rear size about1.3x head diameter. The front head must now OCCLUDE most of the rear cell. Rear top edge should show only a shallow arc roughly one-quarter head diameter ABOVE head top, plus small side shoulders, not an entire circle towering above. Rear cell remains physically behind, not above or underneath, and does not acquire a new eye. Keep the dark waist ring partially hidden between cells.\nMaintain EXACTLY six short bent teal legs with round cream suction ends at fixed front/middle/rear roots, as original; naturally hide rear roots/feet behind foreground parts if necessary rather than stretch/repose them to show all six. Do not add or delete actual legs; no need for every leg to be fully visible. Feet remain on original common low ground plane. Do not increase rear leg length or shift front eyes/head. Keep two cells only, same translucent pink/teal/cream material and spots, no wings/tail. Correct view to same shallow elevation as images2/3, not a top-down view. Fullbody transparent1024square with clear padding, no ground/shadow/text. Preserve identity and fixed gait.\n",
+        "prompt_sha256": "1ad8a1a89d74c68a44580f2944591af0a5eab2a57e7350a03ad80473cf4aa3d5",
+        "reference_sha256": [
+          "7c47613ccab3ef6ec0385e50e6e2771269e1cff1684cfad0819ebaca0255d58d",
+          "4f867f97ae343f8df60f7c9d8e6f3314b8f3709d489f90d5727ce655eb8c5405",
+          "ec421b81e26b6e9010deedad1367f3e094c6aac1489f4d06a3ccc17d2dc7b5d8"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "pixel",
+        "draft_direction": "S-v3",
+        "selected": true,
+        "raw_sha256": "4850d4b8b3c7780011da176cbbbaccf330bfb418ab9889b91a29c325fc2ddce8",
+        "raw_bytes": 733835,
+        "prompt": "Use case: style-transfer\nCreate ONE authentic pixel-art sprite matching image1 EXACTLY in facing, pose, silhouette, eye visibility, cell overlap and limb occlusion. Image1 is approved normal S FRONT direction, image2 original pixel rendition is STYLE/PALETTE guide only, do NOT copy its different angle.\nSame creature: small pink front cell with TWO dark teal cream-rim eyes, bigger rear cell partly hidden behind it, ONE dark teal waist ring partly visible, SIX actual short teal bent suction-pad legs in three pairs, naturally occluded parts stay hidden exactly as normal. No added or removed anatomy, no wings/tail. Keep pink body/teal cores/cream spots and dark neck-ring color distinct. Deliberately redraw in intentional128x128 logical grid with crisp clean pixel clusters,1pixel dark contour,<=32 visible colors, binary opaque/transparent pixels, no antialiasing/blur/gradient/pixelation filter. Fullbody centered with104px longest span, at least8px clear padding, genuine transparent background. No shadow/text/scenery. Preserve front-view head/rear size ratio and six feet layout in reference1.\n",
+        "prompt_sha256": "b717887b5ea246d4b117dcc8e4e46b8a5d7371a3d15118e903a117d2208b54d7",
+        "reference_sha256": [
+          "30c06a8a318e72721a77ff383b65a669e9fa2237a5c1fb6cc2c95cbba7e9b2b8",
+          "cd83b0f5e12757faa706f9190fefc8d13311ee7b447883aba88e5a283c03e828"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "normal",
+        "draft_direction": "SW",
+        "selected": true,
+        "raw_sha256": "4a1af827f008d1f083d81451f099a7ee9128bcee5076221f4bfa2fe2d3576d86",
+        "raw_bytes": 868829,
+        "prompt": "Use case: identity-preserve\nOne normal illustrated direction of the exact two-cell pink creature. Original identity reference1; fixed shallow camera and low horizontal posture from side reference2. TWO translucent rounded cells in tandem, front smaller with TWO teal cream-rim eyes, rear larger about1.3x diameter, ONE dark teal waist ring. SIX short bent teal legs in3left/right pairs with cream round suction pads, fixed original gait and roots; naturally occluded legs need not all be exposed. No wings/tail/antennae. Keep pink translucent membrane, teal cloudy cores, cream/lavender spots, proportions, low body center and common ground height. Rotate whole creature in yaw without pitching or standing upright. Hand-drawn dark outline, restrained cel shading and upper-left light. Fullbody transparent1024square, clear padding, no ground/shadow/text.\nRequested SW front-left quarter: small eyed head nearest viewer lower-left, large rear cell farther upper-right but its CENTER only slightly higher, not stacked above. Two eyes visible with far eye narrower. Waist ring diagonal between cells. Three near-side legs plus naturally glimpsed far-side feet, no forced six fully visible. Same small head lifted slightly and original short walking stance. True new front-left direction, not mirror of source.\n",
+        "prompt_sha256": "d2ebe5db8b652f32ce8d5a3ff6408ea3e09acf1f404c964a848559777c811da0",
+        "reference_sha256": [
+          "4f867f97ae343f8df60f7c9d8e6f3314b8f3709d489f90d5727ce655eb8c5405",
+          "ec421b81e26b6e9010deedad1367f3e094c6aac1489f4d06a3ccc17d2dc7b5d8"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "pixel",
+        "draft_direction": "SW",
+        "selected": true,
+        "raw_sha256": "4be29370a0a455dd7742fab97009d8b72cb1bf330b0d63f02313e938ce429b8c",
+        "raw_bytes": 668500,
+        "prompt": "Use case: style-transfer\nRedraw image1 as ONE authentic128logical-grid pixel sprite, same SW front-left view and exact pose. Image2 original pixel is STYLE/PALETTE only, not angle. Preserve two pink cells: small front lower-left with two cream-rim teal eyes, bigger rear upper-right, one dark teal waist ring. Exactly6 short bent teal legs with cream suction pads, maintain natural overlaps and fixed gait from normal. Pink/teal internal cores/cream spots; dark waist ring distinct from body. No wings/tail/extra cells. Match image1 relative sizes, shallow camera and limb positions. Intentional large clean pixel clusters,1–2logicalpx contour,<=32visible colors, opaque pixels or transparent only, no blur/antialiasing/pixelation filter. Fullbody longest104px in128square with8pxclear margins, real alpha, no shadow/text/scenery.\n",
+        "prompt_sha256": "6a55263fd301f4ad5de73fe4bc3474226bd4a3c9f6e7f6b3229fb97b4e2876f2",
+        "reference_sha256": [
+          "1606e0bb9a05934e37a565e67cb589e26b5c89728859ae919196a85492d0bb4d",
+          "cd83b0f5e12757faa706f9190fefc8d13311ee7b447883aba88e5a283c03e828"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "normal",
+        "draft_direction": "W",
+        "selected": true,
+        "raw_sha256": "0a6d958950a395c907991fb8f44a011f2bab5410bc77fdf7f185f4a332dd52ec",
+        "raw_bytes": 740895,
+        "prompt": "Use case: identity-preserve. One exact reference micro creature, rotate rigidly in YAW only. TWO pink translucent rounded cells in tandem: SMALLER front head with TWO dark teal cream-rimmed eyes, LARGER rear cell, one dark teal ring at narrow waist. Exactly SIX short bent teal legs, three left/right pairs front/middle/rear, all ending in cream round suction pads; preserve fixed gait and leg lengths/root heights. Interior teal cloudy cores and cream spots. No antennae, wings, tail or extra cells. Same low camera elevation around15degrees, fixed horizontal body axis and ground stance, no overhead pitch change. Original glossy outlined illustration, full creature transparent background no shadow/text. Requested W exact left profile. Small eye-bearing head LEFT, larger rear cell RIGHT, waist ring between. Body axis stays horizontal, ground plane same original, one near eye visible at front left and far eye hidden. Three near legs clearly distinguishable under front/middle/rear, far legs naturally partly hidden rather than added. Keep original low short legs, round pad feet and bigger rear/smaller head ratio.\n",
+        "prompt_sha256": "f3b2672c97fa7d1b7da01c7af1689b2ed51b7b249e407994de79cad0f0f2605d",
+        "reference_sha256": [
+          "4f867f97ae343f8df60f7c9d8e6f3314b8f3709d489f90d5727ce655eb8c5405"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      },
+      {
+        "variant": "pixel",
+        "draft_direction": "W",
+        "selected": true,
+        "raw_sha256": "fadc1043d154cc74580c23ee0b1e0b9852db2b601d27e2c36f95b7be6660c08b",
+        "raw_bytes": 608572,
+        "prompt": "Use case: style-transfer\nRedraw image1 exactly as ONE authentic128logical-grid pixel sprite in W LEFT PROFILE. Image2 original pixel guides style/palette only. Small front cell on LEFT with ONE visible near eye, large rear on RIGHT, one clearly dark teal neck ring. Six actual short bent teal legs with cream round suction ends, preserve precisely the normal's visible near/far overlap rather than invent extra feet. Same size ratio, horizontal low stance and pink/teal/cream spots. No new cells/wings/tail. Intentional pixel clusters and crisp1px contour,<=32visible colors, no antialias/blur/dither/pixelation filter. Match reference1 facing and proportions. Longest104px within128square,8px clear padding, binary alpha. No background/shadow/text.\n",
+        "prompt_sha256": "b3a56e7fc9d465cf2b31190dffdb2e97b77be169125dcdb6e79c97762ca780b1",
+        "reference_sha256": [
+          "ec421b81e26b6e9010deedad1367f3e094c6aac1489f4d06a3ccc17d2dc7b5d8",
+          "cd83b0f5e12757faa706f9190fefc8d13311ee7b447883aba88e5a283c03e828"
+        ],
+        "reference_evidence": "Current recorded call inputs for repair/pixel; retained pre-repair prompt context for old normal calls."
+      }
+    ],
+    "technical_processing": {
+      "normal": "alpha<8 cleared, crop bbox, proportionalLANCZOS832extent, center1024; raw preserved",
+      "pixel": "alpha128binary, crop, nearest104extent, visible-onlyMAXCOVERAGE32palette, center128; raw preserved"
+    },
+    "source_history_review": "Recorded original normal1/pixel1 attempts accepted, no explicit safety stop marker found; complete historical call coverage not independently proven."
+  },
+  "qa": {
+    "technical_pass": true,
+    "normal": "review_candidate",
+    "pair": "local_original-size_and_native-pixel_review_candidate",
+    "notes": [
+      "S/N apparent cell size and visible count differ through foreground occlusion; actual two cells and six legs retained.",
+      "One dark teal neck ring visible between cells where not naturally occluded; N head and ring hidden by larger rear cell.",
+      "Dorsal/core spots and leg-root depths are inferred for unseen surfaces; exact45degree yaw, calibrated3D identity and in-game acceptance not established.",
+      "OriginalSE direction inferred from existing front-right view; fixed original pair kept byte-for-byte.",
+      "Old high-overhead S/S-v2/N drafts retained as unselected evidence."
+    ],
+    "rights_review": "not_performed",
+    "user_game_acceptance": "pending",
+    "independent_review": "All16 numeric/hash checks pass; parent eight-pair/E N and E full-resolution normal/pixel checks confirm two-cell depth order, front eye orientation, dark waist ring and natural six-leg occlusion. N shows four leg tips; hidden roots and spots are inferred, not exact3D/runtime verified.",
+    "source_history": "Available source metadata records normal1/pixel1 accepted after finishing with technical logs; no explicit safety-stop markers found. No claim about unrecorded calls."
+  }
+}

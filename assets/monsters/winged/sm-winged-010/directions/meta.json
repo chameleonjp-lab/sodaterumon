@@ -1,0 +1,611 @@
+{
+  "schema_version": 1,
+  "species": "sm-winged-010",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "original_direction_basis": "Inferred from two eyes on front-lower disk; original metadata gives no direction tag. Original pair unchanged.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "bytes": 562975,
+      "sha256": "9ad8e57a16f527cde44c808d3dc755a9a5ea25bbe2db605867a2646ff1bc9e96",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        80,
+        132,
+        944,
+        892
+      ],
+      "visible_colors": 45940,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/default.png",
+      "original_preserved": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "bytes": 5521,
+      "sha256": "3705f626ea83a00fdea5be51e8a387fec0e215121458bf6a3610f3610e3c3770",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        10,
+        14,
+        118,
+        113
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/pixel.png",
+      "original_preserved": true
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "bytes": 492450,
+      "sha256": "a6496e9727daf0cab217e705d697f60175ed6902ec138afaeca5141fee5f1ab6",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        183,
+        928,
+        841
+      ],
+      "visible_colors": 44069,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/SW/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "bytes": 5424,
+      "sha256": "7d4d9de99d0ab72e7cae7e2596f7f517465f23709ff709c24097bedc4c545483",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        20,
+        116,
+        107
+      ],
+      "visible_colors": 25,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/SW/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "bytes": 514904,
+      "sha256": "158cdeb3d147defb6260c6e3dae836f00b6803a5d94932b188cef1e7ad194e3b",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        139,
+        928,
+        884
+      ],
+      "visible_colors": 41456,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/W/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "bytes": 5146,
+      "sha256": "c21772216725d8688d7621cc955556c11e849bfcf28d7ef34f92b2e42c7e7922",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        16,
+        116,
+        111
+      ],
+      "visible_colors": 22,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/W/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "bytes": 528169,
+      "sha256": "e5fced90c23d12bb02a09d25fa14e99550c5c3dcc2354e39e9cd576847919519",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        155,
+        928,
+        869
+      ],
+      "visible_colors": 46398,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/NW/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "bytes": 5126,
+      "sha256": "2f20cd0aff72f35aaba5fec26f0a1778617b93856a4db3fd5c9138b6526a7884",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        16,
+        116,
+        111
+      ],
+      "visible_colors": 25,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/NW/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "bytes": 479427,
+      "sha256": "3cb640f4af1b20f276574dc8ea294b27363b78cdf40776789f85446802cb19fe",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        173,
+        928,
+        851
+      ],
+      "visible_colors": 41060,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/N/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "bytes": 4531,
+      "sha256": "fe0a43dcdf049fa9946c9635f443c4ccac5c3b4e0914fad6a65b0ea0da9dfadc",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        21,
+        116,
+        107
+      ],
+      "visible_colors": 25,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/N/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "bytes": 476496,
+      "sha256": "ed5b639bcf27c382fb19ded4cee67d9532bc3038df112bc19273c2ef79967feb",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        185,
+        928,
+        838
+      ],
+      "visible_colors": 43975,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/NE/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "bytes": 4810,
+      "sha256": "3b89e3707f3521108ef03d8ee378197973ccf17d10f3db659a5d53eae7dc9749",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        21,
+        116,
+        106
+      ],
+      "visible_colors": 22,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/NE/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "bytes": 471799,
+      "sha256": "ddcb508f1e5cbf1afe0d365abb25e24b16b0c32ccfe941ec7836678231a4b82c",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        185,
+        928,
+        839
+      ],
+      "visible_colors": 40549,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/E/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "bytes": 4744,
+      "sha256": "37325d8d9c5b0b246be5625cad390f72c2e3105b4c6bec6d822d91922ffbb386",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        22,
+        116,
+        106
+      ],
+      "visible_colors": 17,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/E/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "bytes": 503369,
+      "sha256": "e82938d23d4557b45ec806f5c0a2291e69f3fe753b09e130a98c05b581f08874",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        178,
+        928,
+        845
+      ],
+      "visible_colors": 43491,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/SE/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "bytes": 5491,
+      "sha256": "f3ad3282244cbe2dfd7b2a4d34e90829f3b49dee87e4e1dae88bbf45924a9901",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        21,
+        116,
+        107
+      ],
+      "visible_colors": 27,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/winged/sm-winged-010/directions/SE/pixel.png",
+      "original_preserved": false
+    }
+  ],
+  "generation_lineage": [
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "raw_sha256": "494c5fb743a9ecdc1fe2203ead3ec14c84abf341aa07180e38c222c4ec9b7430",
+      "raw_bytes": 941359,
+      "prompt": "Use case: identity-preserve. Render ONE yaw-direction variant of EXACT reference creature. One thin pink porous sponge DISK body, no legs and no tail, exactly EIGHT equal-size round-ended paddle wings attached by narrow necks at equally spaced45degree angles around disk. Wings are translucent sage jelly with pale cream oval spots, each single simple paddle not a split lobe. Preserve their8fixed roots as a radial ring, no additions/deletions. Single small pale cream SQUARE patch on TOP center of disk (not a hole); two teal eyes fixed on top surface close to front lower rim, as in reference. Same pink #EFA0A2,sage#A5BDB5,cream#F6EAC2 palette, soft gel shading and porous texture. Source is approximately FRONT S with a slight in-plane/body tilt. Rotate entire object about its vertical yaw axis ONLY while keeping same camera elevation, body pitch/roll and wing posture. Do NOT merely spin a flat image in the screen plane. Use real near/far foreshortening and overlap: nearer wings bigger, farther shorter, fixed top square and eyes move with body rotation. Eyes sit on upper front surface, not on rim underside; show/hide based on geometry, do not move them to a new edge to face viewer. Do not force rear eyes invisible if top-surface positions naturally remain visible. All wings identical physical size but projection changes. Thin disk remains thin, no dome/inflation/newparts. No ground,shadow,text,labels; genuine transparent alpha. Single full creature centered1024square with ample clear padding.\nRequested direction: SW45 front-left: fixed pair of eyes moves toward screenLOWER-LEFT quadrant of disk; far eye foreshortens. Front wing-root sector shifts lower-left; opposite rear sector upperright. Same3Ddisk and eight wing positions.\nInput2 is an insufficient previous direction candidate. Correct ONLY yaw/projection, keep anatomy/material. Make a clearly different FRONT-LEFT angle from source: both eyes must occupy the LEFT half of the disk, near eye at approximately 8oclock and far eye at10oclock on disk's front-left upper edge. There must be no eye in the lower-right half. Front-left disk edge nearest, wing roots behind upper-right visibly farther/shorter. Do not keep eyes as a horizontal lower-front pair as in source/input2. Keep 8 wings attached, no arbitrary image-plane spin.",
+      "finished_sha256": "a6496e9727daf0cab217e705d697f60175ed6902ec138afaeca5141fee5f1ab6",
+      "references": [
+        {
+          "sha256": "9ad8e57a16f527cde44c808d3dc755a9a5ea25bbe2db605867a2646ff1bc9e96"
+        },
+        {
+          "sha256": "68d13094518cb22fd94e67bd66edf3d0e78bd00fc6768badd559e3a7636ca91e"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "raw_sha256": "828f9c2c1cfcf80c66f4ea39ed7fd29f143502dc7b041f910d9e97398f2d2cd6",
+      "raw_bytes": 866549,
+      "prompt": "Use case: style-transfer. Redraw this exact approved SW direction creature as authentic pixel art at a logical 128x128 resolution. Preserve SAME facing, disk tilt, relative wing positions and all original attachment points. Exactly EIGHT rounded sage paddle wings each joined by its own narrow pink root to ONE thin pink sponge disk; zero legs, tail or extra parts. One cream square in disk center. Match the visible eyes in this specific reference EXACTLY: two left-front eyes. Do not invent eyes on near rear face. Preserve all eight paddle tips even when some are small, cream spots, pink roots and source silhouette. Newly drawn crisp pixel clusters, controlled staircase edges, limited palette at most32 colors, hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Center complete single creature with clear padding. Change rendering medium only, not anatomy or direction.",
+      "finished_sha256": "7d4d9de99d0ab72e7cae7e2596f7f517465f23709ff709c24097bedc4c545483",
+      "references": [
+        {
+          "sha256": "a6496e9727daf0cab217e705d697f60175ed6902ec138afaeca5141fee5f1ab6"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "raw_sha256": "ab675239fa0eac28ba4a53a2047b0421ecd2f0f6fb2bbf333c025a1fedec74c0",
+      "raw_bytes": 892964,
+      "prompt": "Use case: identity-preserve. Image1 is the original anatomy/style reference; image2 is the W side-view edit target. Correct image2 from front-left diagonal into LEFT SIDE view, front pointing screen-left, as the next turn beyond a front-left 45-degree view. Keep one pink thin sponge disk with exactly EIGHT same-size rounded sage jelly paddle wings radiating through EIGHT separate narrow pink roots, two eyes permanently on front-lower face, and one cream square centered on disk. No legs or tail. The front edge must turn fully to screen-left: the near eye is seen edge-on at the extreme left rim, while the far eye is naturally occluded behind the rim rather than displayed above it. Do not just slide eyes across the face; disk, square and eight wing roots turn together. Retain original moderate camera elevation and disk tilt, avoid overhead view and avoid flattening disk into a horizontal pancake. Square is foreshortened with the disk. All eight paddles remain physically attached, distinct rounded ends readable with modest natural near/far overlap. Preserve their colors, cream spots, narrow roots, proportions and painterly soft contours. Keep original full-body padding and transparent background. Single creature, no labels, no ground or shadow.",
+      "finished_sha256": "158cdeb3d147defb6260c6e3dae836f00b6803a5d94932b188cef1e7ad194e3b",
+      "references": [
+        {
+          "sha256": "9ad8e57a16f527cde44c808d3dc755a9a5ea25bbe2db605867a2646ff1bc9e96"
+        },
+        {
+          "sha256": "2c12f9d9057e7e8e7ac892173aab242179e4ea4904e566e755a78c40e1626fb9"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "raw_sha256": "e88c77567cfaa375e26e811734ffe822702383072afc82b7e48072bcf163fd75",
+      "raw_bytes": 789999,
+      "prompt": "Use case: style-transfer. Redraw this exact approved W direction creature as authentic pixel art at a logical 128x128 resolution. Preserve SAME facing, disk tilt, relative wing positions and all original attachment points. Exactly EIGHT rounded sage paddle wings each joined by its own narrow pink root to ONE thin pink sponge disk; zero legs, tail or extra parts. One cream square in disk center. Match the visible eyes in this specific reference EXACTLY: one near eye on extreme left rim, far eye occluded. Do not invent eyes on near rear face. Preserve all eight paddle tips even when some are small, cream spots, pink roots and source silhouette. Newly drawn crisp pixel clusters, controlled staircase edges, limited palette at most32 colors, hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Center complete single creature with clear padding. Change rendering medium only, not anatomy or direction.",
+      "finished_sha256": "c21772216725d8688d7621cc955556c11e849bfcf28d7ef34f92b2e42c7e7922",
+      "references": [
+        {
+          "sha256": "158cdeb3d147defb6260c6e3dae836f00b6803a5d94932b188cef1e7ad194e3b"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "raw_sha256": "d56c8e9092536e7630023c5dbe37f7179b2c77bb909c0ff2446ee924591c084b",
+      "raw_bytes": 948200,
+      "prompt": "Use case: precise-object-edit. Image1 is the edit target, image2 anatomy reference for mandatory EIGHT wings. Image1 has onlySEVEN distinct wings. Change ONLY the missing wing count; preserve exact NW direction, eye positions and occlusion, disk pose, top square, palette, shading, and all7 existing wing shapes. ADD one EIGHTH matching sage jelly paddle wing with its own narrow pink neck at LOWER CENTER edge of disk, between the two existing lower diagonal wings. It extends down into the empty lower-center gap. Exactly8 separate neck roots and8 paddle tips in final, evenly spaced on physical body. Preserve every existing7 wing; no deletion or fusion. Match cream oval spot design and size/projection of adjacent near wings. Do not change eyes, tilt or direction. One full creature centered square1024 with ample transparent padding, no labels, extra anatomy, shadow or background. Genuine transparent alpha.",
+      "finished_sha256": "e5fced90c23d12bb02a09d25fa14e99550c5c3dcc2354e39e9cd576847919519",
+      "references": [
+        {
+          "sha256": "bf7b0fb681a4c129f3e8e46db2edc41a510bc953d330269a61bcafe9f53dbc41"
+        },
+        {
+          "sha256": "9ad8e57a16f527cde44c808d3dc755a9a5ea25bbe2db605867a2646ff1bc9e96"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "raw_sha256": "28e1ad3bf176438978c95813b6776e5b66c26ac56f085de440ca69478a708730",
+      "raw_bytes": 828444,
+      "prompt": "Use case: style-transfer. Redraw this exact approved NW direction creature as authentic pixel art at a logical 128x128 resolution. Preserve SAME facing, disk tilt, relative wing positions and all original attachment points. Exactly EIGHT rounded sage paddle wings each joined by its own narrow pink root to ONE thin pink sponge disk; zero legs, tail or extra parts. One cream square in disk center. Match the visible eyes in this specific reference EXACTLY: only tiny far-rim eye slivers at upper-left edge, no large forward-looking eyes. Do not invent eyes on near rear face. Preserve all eight paddle tips even when some are small, cream spots, pink roots and source silhouette. Newly drawn crisp pixel clusters, controlled staircase edges, limited palette at most32 colors, hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Center complete single creature with clear padding. Change rendering medium only, not anatomy or direction.",
+      "finished_sha256": "2f20cd0aff72f35aaba5fec26f0a1778617b93856a4db3fd5c9138b6526a7884",
+      "references": [
+        {
+          "sha256": "e5fced90c23d12bb02a09d25fa14e99550c5c3dcc2354e39e9cd576847919519"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "raw_sha256": "519dbf9fa0f4b564d2055275d03da29c6faaaf8396a40890657b26c0e1e2cad8",
+      "raw_bytes": 815354,
+      "prompt": "Use case: identity-preserve. Render ONE yaw-direction variant of EXACT reference creature. One thin pink porous sponge DISK body, no legs and no tail, exactly EIGHT equal-size round-ended paddle wings attached by narrow necks at equally spaced45degree angles around disk. Wings are translucent sage jelly with pale cream oval spots, each single simple paddle not a split lobe. Preserve their8fixed roots as a radial ring, no additions/deletions. Single small pale cream SQUARE patch on TOP center of disk (not a hole); two teal eyes fixed on top surface close to front lower rim, as in reference. Same pink #EFA0A2,sage#A5BDB5,cream#F6EAC2 palette, soft gel shading and porous texture. Source is approximately FRONT S with a slight in-plane/body tilt. Rotate entire object about its vertical yaw axis ONLY while keeping same camera elevation, body pitch/roll and wing posture. Do NOT merely spin a flat image in the screen plane. Use real near/far foreshortening and overlap: nearer wings bigger, farther shorter, fixed top square and eyes move with body rotation. Eyes sit on upper front surface, not on rim underside; show/hide based on geometry, do not move them to a new edge to face viewer. Do not force rear eyes invisible if top-surface positions naturally remain visible. All wings identical physical size but projection changes. Thin disk remains thin, no dome/inflation/newparts. No ground,shadow,text,labels; genuine transparent alpha. Single full creature centered1024square with ample clear padding.\nRequested direction: N180 BACK: front eyes on FAR UPPER rim of TOP disk surface, reduced/foreshortened with lower portions naturally hidden by disk curvature if appropriate, not on near lower rim. Rear lower disk surface nearest viewer blank except porous texture. Eight wings rotate with fixedbody, central square sameface visible. Keep same modest top-down camera and flat disk, not vertical flip.",
+      "finished_sha256": "3cb640f4af1b20f276574dc8ea294b27363b78cdf40776789f85446802cb19fe",
+      "references": [
+        {
+          "sha256": "9ad8e57a16f527cde44c808d3dc755a9a5ea25bbe2db605867a2646ff1bc9e96"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "raw_sha256": "3a276e0b27799813ccfc59abc7d97906be057c626a3b0f4db0d96d8d7305b520",
+      "raw_bytes": 750774,
+      "prompt": "Use case: style-transfer. Redraw this exact approved N direction creature as authentic pixel art at a logical 128x128 resolution. Preserve SAME facing, disk tilt, relative wing positions and all original attachment points. Exactly EIGHT rounded sage paddle wings each joined by its own narrow pink root to ONE thin pink sponge disk; zero legs, tail or extra parts. One cream square in disk center. Match the visible eyes in this specific reference EXACTLY: only tiny upper far-rim eye slivers as reference; no eyes on near lower face. Do not invent eyes on near rear face. Preserve all eight paddle tips even when some are small, cream spots, pink roots and source silhouette. Newly drawn crisp pixel clusters, controlled staircase edges, limited palette at most32 colors, hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Center complete single creature with clear padding. Change rendering medium only, not anatomy or direction.",
+      "finished_sha256": "fe0a43dcdf049fa9946c9635f443c4ccac5c3b4e0914fad6a65b0ea0da9dfadc",
+      "references": [
+        {
+          "sha256": "3cb640f4af1b20f276574dc8ea294b27363b78cdf40776789f85446802cb19fe"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "raw_sha256": "f7bd19499ebcffb0dedc09be801f2b148c4751aa7f74a0cedd5baaf2e9368e98",
+      "raw_bytes": 806093,
+      "prompt": "Use case: identity-preserve. Render ONE yaw-direction variant of EXACT reference creature. One thin pink porous sponge DISK body, no legs and no tail, exactly EIGHT equal-size round-ended paddle wings attached by narrow necks at equally spaced45degree angles around disk. Wings are translucent sage jelly with pale cream oval spots, each single simple paddle not a split lobe. Preserve their8fixed roots as a radial ring, no additions/deletions. Single small pale cream SQUARE patch on TOP center of disk (not a hole); two teal eyes fixed on top surface close to front lower rim, as in reference. Same pink #EFA0A2,sage#A5BDB5,cream#F6EAC2 palette, soft gel shading and porous texture. Source is approximately FRONT S with a slight in-plane/body tilt. Rotate entire object about its vertical yaw axis ONLY while keeping same camera elevation, body pitch/roll and wing posture. Do NOT merely spin a flat image in the screen plane. Use real near/far foreshortening and overlap: nearer wings bigger, farther shorter, fixed top square and eyes move with body rotation. Eyes sit on upper front surface, not on rim underside; show/hide based on geometry, do not move them to a new edge to face viewer. Do not force rear eyes invisible if top-surface positions naturally remain visible. All wings identical physical size but projection changes. Thin disk remains thin, no dome/inflation/newparts. No ground,shadow,text,labels; genuine transparent alpha. Single full creature centered1024square with ample clear padding.\nRequested direction: NE225 rear-right: fixed eyes at FAR UPPER-RIGHT top rim, foreshortened and naturally partly hidden; rear sector nearer lowerleft. Complement NW true near/far reversal, not frontal pupils staring fromnearbody.",
+      "finished_sha256": "ed5b639bcf27c382fb19ded4cee67d9532bc3038df112bc19273c2ef79967feb",
+      "references": [
+        {
+          "sha256": "9ad8e57a16f527cde44c808d3dc755a9a5ea25bbe2db605867a2646ff1bc9e96"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "raw_sha256": "aa1409e6252cbe6c3c1cb0f22017c1e65413a80836002bf9a991b083492a93c8",
+      "raw_bytes": 817763,
+      "prompt": "Use case: style-transfer. Redraw this exact approved NE direction creature as authentic pixel art at a logical 128x128 resolution. Preserve SAME facing, disk tilt, relative wing positions and all original attachment points. Exactly EIGHT rounded sage paddle wings each joined by its own narrow pink root to ONE thin pink sponge disk; zero legs, tail or extra parts. One cream square in disk center. Match the visible eyes in this specific reference EXACTLY: only tiny far-rim eye slivers at upper-right edge, no large forward-looking eyes. Do not invent eyes on near rear face. Preserve all eight paddle tips even when some are small, cream spots, pink roots and source silhouette. Newly drawn crisp pixel clusters, controlled staircase edges, limited palette at most32 colors, hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Center complete single creature with clear padding. Change rendering medium only, not anatomy or direction.",
+      "finished_sha256": "3b89e3707f3521108ef03d8ee378197973ccf17d10f3db659a5d53eae7dc9749",
+      "references": [
+        {
+          "sha256": "ed5b639bcf27c382fb19ded4cee67d9532bc3038df112bc19273c2ef79967feb"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "raw_sha256": "ca98bf75cbb647a24f6ed567fbe03e15aa0b9311779e8e101cdd9aa6d477a310",
+      "raw_bytes": 946265,
+      "prompt": "Use case: identity-preserve. Image1 original locks anatomy/style. Image2 is current right-facing E view to edit. Image3 is approved working LEFT-side projection and fixes the required camera elevation, disk depth and paddle scale. Correct image2 into the opposite RIGHT-side view matching image3's moderate elevation and tilted disk, rather than its currently flat horizontal pancake. Front points screen-right. One near eye appears edge-on at extreme right rim, far eye naturally hidden behind rim. Eyes stay attached to original front-lower face; disk, centered cream square and eight wing roots all rotate together. Do not merely move eyes across an unchanged face. Keep EIGHT rounded sage jelly paddles, each own narrow pink root, equal physical sizes and even spacing, cream spots, same thin pink sponge disk and centered small cream square. Near/far paddle overlap may shift modestly but all eight rounded ends/root connections should remain readable. No additional roots, legs, tail or marks. Preserve original illustration palette, softness and outlines, full single creature with transparent padding. Genuine transparent background; no text, ground or shadow. Do not use a different top-down or edge-on camera.",
+      "finished_sha256": "ddcb508f1e5cbf1afe0d365abb25e24b16b0c32ccfe941ec7836678231a4b82c",
+      "references": [
+        {
+          "sha256": "9ad8e57a16f527cde44c808d3dc755a9a5ea25bbe2db605867a2646ff1bc9e96"
+        },
+        {
+          "sha256": "b13cdb10f3187ac311d095ffdcaba9bbbdc27cb69fd1c894763f8f763d5693af"
+        },
+        {
+          "sha256": "ab675239fa0eac28ba4a53a2047b0421ecd2f0f6fb2bbf333c025a1fedec74c0"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "raw_sha256": "ec90fa28280ad4469f8cc254d1a34c4f50c3710fa294dc9a5dfb0cc162d02372",
+      "raw_bytes": 868764,
+      "prompt": "Use case: style-transfer. Redraw this exact approved E direction creature as authentic pixel art at a logical 128x128 resolution. Preserve SAME facing, disk tilt, relative wing positions and all original attachment points. Exactly EIGHT rounded sage paddle wings each joined by its own narrow pink root to ONE thin pink sponge disk; zero legs, tail or extra parts. One cream square in disk center. Match the visible eyes in this specific reference EXACTLY: one near eye on extreme right rim, far eye occluded. Do not invent eyes on near rear face. Preserve all eight paddle tips even when some are small, cream spots, pink roots and source silhouette. Newly drawn crisp pixel clusters, controlled staircase edges, limited palette at most32 colors, hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Center complete single creature with clear padding. Change rendering medium only, not anatomy or direction.",
+      "finished_sha256": "37325d8d9c5b0b246be5625cad390f72c2e3105b4c6bec6d822d91922ffbb386",
+      "references": [
+        {
+          "sha256": "ddcb508f1e5cbf1afe0d365abb25e24b16b0c32ccfe941ec7836678231a4b82c"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "raw_sha256": "cde39b68c305eb6af5ad32b58e0e9798fed5ee2f407c94f61540046490462e0f",
+      "raw_bytes": 872736,
+      "prompt": "Use case: precise-object-edit. Image1 is the edit target, image2 anatomy reference for mandatory EIGHT wings. Image1 has onlySEVEN distinct wings. Change ONLY the missing wing count; preserve exact SE direction, eye positions and occlusion, disk pose, top square, palette, shading, and all7 existing wing shapes. ADD one EIGHTH matching sage jelly paddle wing with its own narrow pink neck at LOWER CENTER edge of disk, between the two existing lower diagonal wings. It extends down into the empty lower-center gap. Exactly8 separate neck roots and8 paddle tips in final, evenly spaced on physical body. Preserve every existing7 wing; no deletion or fusion. Match cream oval spot design and size/projection of adjacent near wings. Do not change eyes, tilt or direction. One full creature centered square1024 with ample transparent padding, no labels, extra anatomy, shadow or background. Genuine transparent alpha.",
+      "finished_sha256": "e82938d23d4557b45ec806f5c0a2291e69f3fe753b09e130a98c05b581f08874",
+      "references": [
+        {
+          "sha256": "ac28fee4d3bbb955a3cba2eaddc7bb693f313713d8c41ff5b5dc343e9aba2a24"
+        },
+        {
+          "sha256": "9ad8e57a16f527cde44c808d3dc755a9a5ea25bbe2db605867a2646ff1bc9e96"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "raw_sha256": "bb100c556d3d8710639422dafda8ff2defb35aaf051074e273fc24f9db0bee75",
+      "raw_bytes": 865828,
+      "prompt": "Use case: style-transfer. Redraw this exact approved SE direction creature as authentic pixel art at a logical 128x128 resolution. Preserve SAME facing, disk tilt, relative wing positions and all original attachment points. Exactly EIGHT rounded sage paddle wings each joined by its own narrow pink root to ONE thin pink sponge disk; zero legs, tail or extra parts. One cream square in disk center. Match the visible eyes in this specific reference EXACTLY: two right-front eyes. Do not invent eyes on near rear face. Preserve all eight paddle tips even when some are small, cream spots, pink roots and source silhouette. Newly drawn crisp pixel clusters, controlled staircase edges, limited palette at most32 colors, hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Center complete single creature with clear padding. Change rendering medium only, not anatomy or direction.",
+      "finished_sha256": "f3ad3282244cbe2dfd7b2a4d34e90829f3b49dee87e4e1dae88bbf45924a9901",
+      "references": [
+        {
+          "sha256": "e82938d23d4557b45ec806f5c0a2291e69f3fe753b09e130a98c05b581f08874"
+        }
+      ]
+    }
+  ],
+  "processing": "Normal low-alpha<8 colored fringe cleanup after raw inspection and measured red low-alpha pixels; uniform832 extent, RGBA1024. Pixel alpha128 threshold, nearest104 extent, nearest original palette, RGBA128. No shape redraw.",
+  "caveats": [
+    "W/E ellipse and perspective are stylized; not exact 3D projection or in-game acceptance.",
+    "Eight equivalent paddle physical identities and hidden root depth inferred.",
+    "Original detailed pre-direction generation attempts partly unrecovered; fixed bytes verified."
+  ],
+  "review": {
+    "producer": "passed technical16 and visual pair review",
+    "parent": "8pair review candidate confirmed",
+    "independent": "pending",
+    "in_game_acceptance": "pending",
+    "external_independent": "Passed numeric/hash checks on16 slots and full-resolution W/E/N normal/pixel and eight-pair comparison. Eight wings, central square, opposite side eye and rear far-rim eyes correspond. W/E angles, body elevation and wing foreshortening remain stylistic inference, not exact3D proof.",
+    "source_history": "Original metadata read in full: no explicit safety-stop marker; original_recovery not_recovered means detailed historical trials are incomplete."
+  }
+}
