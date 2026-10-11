@@ -1,0 +1,613 @@
+{
+  "schema_version": 1,
+  "species": "sm-mineral-020",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "original_direction_basis": "Inferred front-right original; original pair unchanged.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "bytes": 521091,
+      "sha256": "cbbc94c2a147089df4f22b82e02413ad8d846060e6f7fe1fe3ad46cc631ca0fa",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        122,
+        928,
+        901
+      ],
+      "visible_colors": 45325,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/S/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "bytes": 6526,
+      "sha256": "6f82ef834e67d297fc8a2e5cc20e362c868b44270ee34fd2bae0857529c6d32e",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        16,
+        116,
+        111
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/S/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "bytes": 566079,
+      "sha256": "2a7d5a80bef0db4782e655a91b617ef8a1ebd571af18b8e8fe1ce43a1c593e20",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        111,
+        96,
+        913,
+        928
+      ],
+      "visible_colors": 54305,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/SW/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "bytes": 7976,
+      "sha256": "d54f4cd4b8aa6d994b9c368828e2530ac3749b4c6f6afcfa71ce48052f8df996",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        13,
+        12,
+        114,
+        116
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/SW/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "bytes": 520871,
+      "sha256": "099735328f9b75bb459f221e591aa3968a67a281be30e64770cf7b049a4c86b7",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        97,
+        928,
+        927
+      ],
+      "visible_colors": 46021,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/W/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "bytes": 6501,
+      "sha256": "cd071d36c82b99a43575907f0982afb5712a139aeb7e509b643177ccfae64f22",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        13,
+        116,
+        114
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/W/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "bytes": 517705,
+      "sha256": "8824de7f8b344d18179162c96c84c2049c511b9e8d2dd2920b5f906cdb168182",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        126,
+        96,
+        898,
+        928
+      ],
+      "visible_colors": 47604,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/NW/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "bytes": 6884,
+      "sha256": "a64d7cdba5f64fa397e6fc55a42e49c36de1021ba06412f99016aae3f8262ed3",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        16,
+        12,
+        112,
+        116
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/NW/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "bytes": 474571,
+      "sha256": "6b85eb7ebaf104397f57e8a2d1dbf012aa404780a6a3de2422c8a7843f15ce8b",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        116,
+        928,
+        907
+      ],
+      "visible_colors": 40738,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/N/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "bytes": 6731,
+      "sha256": "4d5918daca6ff4960af2e45622ebde70f669d7efd88a4fe8217c136323931e7f",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        14,
+        116,
+        113
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/N/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "bytes": 495650,
+      "sha256": "820b07e9660f9b789849efe7ea4e88f4a837c1a24211bdd1e0e1bb454eaf8aa4",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        150,
+        96,
+        873,
+        928
+      ],
+      "visible_colors": 43225,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/NE/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "bytes": 7016,
+      "sha256": "b29ceadd869c3415b12eb6b037b6ac3d9cbfc0fda1394f9b3b4d96dacbf71cbc",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        18,
+        12,
+        110,
+        116
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/NE/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "bytes": 485276,
+      "sha256": "4f9c06099fe6de0a6f4a5210812897866faa2a87636c955f3f8a4b097440e057",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        137,
+        928,
+        887
+      ],
+      "visible_colors": 42238,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/E/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "bytes": 6160,
+      "sha256": "f6d750aa09838326c1a1717d1be5af8aaadd6f114089c0f58edb4879e75fdee6",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        18,
+        116,
+        110
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/directions/E/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "bytes": 623105,
+      "sha256": "f938edea0354580cc5fc58b0888eef86ea2b8c16acef0b309a611a637b05c4e1",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        80,
+        927,
+        944
+      ],
+      "visible_colors": 54570,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/default.png",
+      "original_preserved": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "bytes": 8951,
+      "sha256": "af029bae7c31c5a955746a70f3da3f884d75b43f86cb74317f6a6bad23a0e4d5",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        10,
+        116,
+        118
+      ],
+      "visible_colors": 31,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/mineral/sm-mineral-020/pixel.png",
+      "original_preserved": true
+    }
+  ],
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "raw_sha256": "5cda1fbd2ad5417b961b45cd4667d9b0954ab2d51aa6e270911ba2ed7b44ec38",
+      "raw_bytes": 1032322,
+      "prompt": "Use case: identity-preserve. Image1 immutable original anatomy/style; image2 accepted side-view topology reference. Create one new direction of SAME hollow stone tetrahedron creature. Exactly FOUR rounded vertices: one apex and three base vertices. Exactly SIX thick stone beams: apex to each of three base vertices, plus triangle of three base beams. Exactly THREE chunky stone legs, one under EACH base vertex. Two gold slit eyes permanently centered together on OUTWARD FRONT BASE BEAM only. No eyes on vertices or other beams. Hollow spaces genuinely transparent, not filled panels. Keep original tall triangular proportions, thick faceted pink feldspar beams, sage patches and pale cream veins, soft outlined hand-painted style. Natural occlusion may hide parts; do not add extra junctions to display hidden connections. No extra beams/vertices/legs, no tails or wings. Keep same fixed modest camera elevation, no overhead angle. FRONT S. Eye-bearing front base beam lies across the nearest lower edge with both gold eyes visible. The two front base vertices flank it left/right; rear base vertex and rear leg are centered farther away through the open cavity. Single apex above. Camera remains at original modest elevation. Full single creature centered with transparent padding, no text/ground/shadow.",
+      "finished_sha256": "cbbc94c2a147089df4f22b82e02413ad8d846060e6f7fe1fe3ad46cc631ca0fa",
+      "references": [
+        {
+          "sha256": "f938edea0354580cc5fc58b0888eef86ea2b8c16acef0b309a611a637b05c4e1"
+        },
+        {
+          "sha256": "ad92a8b8a336c056318c60a8a241a312763cee16fe493c17bd779f021bd16d7b"
+        }
+      ]
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "raw_sha256": "5fb94b33cb663d9f4d95de26b96dfdd4f5b5666573b366e4d196ef9e09070a53",
+      "raw_bytes": 760208,
+      "prompt": "Use case: style-transfer. Redraw the exact reference stone creature in its SAME S direction as newly drawn pixel art on a logical128x128 grid. Keep original silhouette, proportions and natural occlusion. Hollow tetrahedral frame with FOUR rounded vertices and SIX thick beams, THREE stone legs one per base vertex. Some edges/feet naturally overlap; do not add a joint/beam to expose hidden parts. Keep every transparent triangular hole OPEN and clearly readable, no filled stone panels or center core. Same pink feldspar, sage patches, pale cream veins, faceted planes and dark outline. Two gold slit eyes only on the front base beam: match the two visible front eyes. Match three leg attachments and depth ordering exactly. Crisp pixel clusters with stair-step outlines, limited palette at most32 colors, hard fully opaque pixels and fully transparent pixels only. No blur, antialiasing, soft gradients, background, cast shadow, letters or extra parts. Complete single creature centered with generous transparent padding. Change medium only, no redesign.",
+      "finished_sha256": "6f82ef834e67d297fc8a2e5cc20e362c868b44270ee34fd2bae0857529c6d32e",
+      "references": [
+        {
+          "sha256": "cbbc94c2a147089df4f22b82e02413ad8d846060e6f7fe1fe3ad46cc631ca0fa"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "raw_sha256": "a34435ff9b5e6b5ba53be728b6c4f6057365094c14490825d781ba8703d04c10",
+      "raw_bytes": 994200,
+      "prompt": "Use case: identity-preserve. Image1 immutable original anatomy/style; image2 accepted side-view topology reference. Create one new direction of SAME hollow stone tetrahedron creature. Exactly FOUR rounded vertices: one apex and three base vertices. Exactly SIX thick stone beams: apex to each of three base vertices, plus triangle of three base beams. Exactly THREE chunky stone legs, one under EACH base vertex. Two gold slit eyes permanently centered together on OUTWARD FRONT BASE BEAM only. No eyes on vertices or other beams. Hollow spaces genuinely transparent, not filled panels. Keep original tall triangular proportions, thick faceted pink feldspar beams, sage patches and pale cream veins, soft outlined hand-painted style. Natural occlusion may hide parts; do not add extra junctions to display hidden connections. No extra beams/vertices/legs, no tails or wings. Keep same fixed modest camera elevation, no overhead angle. FRONT-LEFT SW, front points diagonally screen-left. Eye-bearing front base beam remains visible diagonally on left/front, two eyes foreshortened. Near front base corner projects lower-right and far front corner projects left; rear base vertex lies to right behind them. Match original camera elevation. Distinct opposite front diagonal from original SE. Full single creature centered with transparent padding, no text/ground/shadow.",
+      "finished_sha256": "2a7d5a80bef0db4782e655a91b617ef8a1ebd571af18b8e8fe1ce43a1c593e20",
+      "references": [
+        {
+          "sha256": "f938edea0354580cc5fc58b0888eef86ea2b8c16acef0b309a611a637b05c4e1"
+        },
+        {
+          "sha256": "ad92a8b8a336c056318c60a8a241a312763cee16fe493c17bd779f021bd16d7b"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "raw_sha256": "adc5147b9e769926c5551c2e71bc7f796fc5d5e4ddeee8870fefacd33ada9d0e",
+      "raw_bytes": 769207,
+      "prompt": "Use case: style-transfer. Redraw the exact reference stone creature in its SAME SW direction as newly drawn pixel art on a logical128x128 grid. Keep original silhouette, proportions and natural occlusion. Hollow tetrahedral frame with FOUR rounded vertices and SIX thick beams, THREE stone legs one per base vertex. Some edges/feet naturally overlap; do not add a joint/beam to expose hidden parts. Keep every transparent triangular hole OPEN and clearly readable, no filled stone panels or center core. Same pink feldspar, sage patches, pale cream veins, faceted planes and dark outline. Two gold slit eyes only on the front base beam: match the two visible front eyes. Match three leg attachments and depth ordering exactly. Crisp pixel clusters with stair-step outlines, limited palette at most32 colors, hard fully opaque pixels and fully transparent pixels only. No blur, antialiasing, soft gradients, background, cast shadow, letters or extra parts. Complete single creature centered with generous transparent padding. Change medium only, no redesign.",
+      "finished_sha256": "d54f4cd4b8aa6d994b9c368828e2530ac3749b4c6f6afcfa71ce48052f8df996",
+      "references": [
+        {
+          "sha256": "2a7d5a80bef0db4782e655a91b617ef8a1ebd571af18b8e8fe1ce43a1c593e20"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "raw_sha256": "ad92a8b8a336c056318c60a8a241a312763cee16fe493c17bd779f021bd16d7b",
+      "raw_bytes": 923384,
+      "prompt": "Use case: precise-object-edit. Image1 is LEFT-view edit target with wrong internal topology. Image2 original identity/anatomy reference only. Correct only the redundant interior junction, preserving thick faceted pink/gray feldspar beams, shape proportions, existing near triangular side and LEFT direction. Intended body is a hollow TETRAHEDRON: exactly FOUR rounded vertices A(top), B(near front base at screenleft), C(far front base partly behind B at screenleft), D(rear base at screenright), with exactly SIX edges AB AC AD BC BD CD. Letters are management only, never render. Near large triangular silhouette ABD stays unchanged. In target a spurious central Y junction above middle foot duplicates the far vertex C. REMOVE that phantom center junction. The far sloping beam from A and far base diagonal beams must connect to the SINGLE far-left C behind B, where the eye-bearing front base edge BC recedes around LEFT contour. Do not connect beams to a new middle node. Make only six physical beams: three from apex to B/C/D plus base triangleBC/BD/CD. Exactly THREE short stone feet, one under each B,C,D: C's far foot must be behind/partly hidden by B's foot at LEFT, not hanging under phantomcenter. Two amber eyes remain on BC only, mostly foreshortened/hidden on far-left edge. No eye on the broad nearest horizontal BD beam. Maintain completely transparent open interior, no solid panels/core and no crossbraces. Keep B/D outer corners and their feet, A apex andAB/AD/BD triangle, same camera angle, same material colors and cracks. Correct internal connections without flatteningtetrahedron into planar triangle or creating fifthvertex. Single fullcreature centered1024square with clear transparentpadding; no text, arrows, labels, ground or castshadow.",
+      "finished_sha256": "099735328f9b75bb459f221e591aa3968a67a281be30e64770cf7b049a4c86b7",
+      "references": [
+        {
+          "sha256": "5bceb44132faf6178fc33def0e66b36108ded412773efead9403105e92c00a85"
+        },
+        {
+          "sha256": "f938edea0354580cc5fc58b0888eef86ea2b8c16acef0b309a611a637b05c4e1"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "raw_sha256": "cb1cc69fcb44d6b015bd0f25e2a8f7cfc5dab3b09c2ba2b43e4508a511f15ef2",
+      "raw_bytes": 666463,
+      "prompt": "Use case: style-transfer. Redraw the exact reference stone creature in its SAME W direction as newly drawn pixel art on a logical128x128 grid. Keep original silhouette, proportions and natural occlusion. Hollow tetrahedral frame with FOUR rounded vertices and SIX thick beams, THREE stone legs one per base vertex. Some edges/feet naturally overlap; do not add a joint/beam to expose hidden parts. Keep every transparent triangular hole OPEN and clearly readable, no filled stone panels or center core. Same pink feldspar, sage patches, pale cream veins, faceted planes and dark outline. Two gold slit eyes only on the front base beam: match eye portions peeking only from far left beam. Match three leg attachments and depth ordering exactly. Crisp pixel clusters with stair-step outlines, limited palette at most32 colors, hard fully opaque pixels and fully transparent pixels only. No blur, antialiasing, soft gradients, background, cast shadow, letters or extra parts. Complete single creature centered with generous transparent padding. Change medium only, no redesign.",
+      "finished_sha256": "cd071d36c82b99a43575907f0982afb5712a139aeb7e509b643177ccfae64f22",
+      "references": [
+        {
+          "sha256": "099735328f9b75bb459f221e591aa3968a67a281be30e64770cf7b049a4c86b7"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "raw_sha256": "76f93e5b5703c0df6af9bceb1294d7279af6a56f79d8f49197cf688cc0b7fcd8",
+      "raw_bytes": 924609,
+      "prompt": "Use case: identity-preserve. Image1 immutable original anatomy/style; image2 accepted side-view topology reference. Create one new direction of SAME hollow stone tetrahedron creature. Exactly FOUR rounded vertices: one apex and three base vertices. Exactly SIX thick stone beams: apex to each of three base vertices, plus triangle of three base beams. Exactly THREE chunky stone legs, one under EACH base vertex. Two gold slit eyes permanently centered together on OUTWARD FRONT BASE BEAM only. No eyes on vertices or other beams. Hollow spaces genuinely transparent, not filled panels. Keep original tall triangular proportions, thick faceted pink feldspar beams, sage patches and pale cream veins, soft outlined hand-painted style. Natural occlusion may hide parts; do not add extra junctions to display hidden connections. No extra beams/vertices/legs, no tails or wings. Keep same fixed modest camera elevation, no overhead angle. BACK-LEFT NW, front points away diagonally toward upper-left. Rear base vertex and its leg are nearest at lower-right; two front base vertices recede to left/far. Eye-bearing front base beam is far side and its outward eyes naturally hidden by beam/vertices, not moved onto near rear beams. Show the two rear-connected base edges with natural overlap and hollow interior. Full single creature centered with transparent padding, no text/ground/shadow.",
+      "finished_sha256": "8824de7f8b344d18179162c96c84c2049c511b9e8d2dd2920b5f906cdb168182",
+      "references": [
+        {
+          "sha256": "f938edea0354580cc5fc58b0888eef86ea2b8c16acef0b309a611a637b05c4e1"
+        },
+        {
+          "sha256": "ad92a8b8a336c056318c60a8a241a312763cee16fe493c17bd779f021bd16d7b"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "raw_sha256": "54450f4aa40ddf6c2a7dc3c66ea19697b2c3bc1b8b06d0bc1e05a26cbf70ae35",
+      "raw_bytes": 659530,
+      "prompt": "Use case: style-transfer. Redraw the exact reference stone creature in its SAME NW direction as newly drawn pixel art on a logical128x128 grid. Keep original silhouette, proportions and natural occlusion. Hollow tetrahedral frame with FOUR rounded vertices and SIX thick beams, THREE stone legs one per base vertex. Some edges/feet naturally overlap; do not add a joint/beam to expose hidden parts. Keep every transparent triangular hole OPEN and clearly readable, no filled stone panels or center core. Same pink feldspar, sage patches, pale cream veins, faceted planes and dark outline. Two gold slit eyes only on the front base beam: eyes face away and are hidden; do not add eyes on the visible rear beams. Match three leg attachments and depth ordering exactly. Crisp pixel clusters with stair-step outlines, limited palette at most32 colors, hard fully opaque pixels and fully transparent pixels only. No blur, antialiasing, soft gradients, background, cast shadow, letters or extra parts. Complete single creature centered with generous transparent padding. Change medium only, no redesign.",
+      "finished_sha256": "a64d7cdba5f64fa397e6fc55a42e49c36de1021ba06412f99016aae3f8262ed3",
+      "references": [
+        {
+          "sha256": "8824de7f8b344d18179162c96c84c2049c511b9e8d2dd2920b5f906cdb168182"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "raw_sha256": "6a6b38f2fcdbc9d5a418571931f246ec3efc2a269b9847ae4056bf71913f98d5",
+      "raw_bytes": 877887,
+      "prompt": "Use case: identity-preserve. Image1 immutable original anatomy/style; image2 accepted side-view topology reference. Create one new direction of SAME hollow stone tetrahedron creature. Exactly FOUR rounded vertices: one apex and three base vertices. Exactly SIX thick stone beams: apex to each of three base vertices, plus triangle of three base beams. Exactly THREE chunky stone legs, one under EACH base vertex. Two gold slit eyes permanently centered together on OUTWARD FRONT BASE BEAM only. No eyes on vertices or other beams. Hollow spaces genuinely transparent, not filled panels. Keep original tall triangular proportions, thick faceted pink feldspar beams, sage patches and pale cream veins, soft outlined hand-painted style. Natural occlusion may hide parts; do not add extra junctions to display hidden connections. No extra beams/vertices/legs, no tails or wings. Keep same fixed modest camera elevation, no overhead angle. BACK N. Single rear base vertex and attached rear leg are nearest at center-bottom. Two front base vertices with their legs are farther away left/right. Apex-to-rear beam is nearest central sloping beam; front eye-bearing base beam is farthest across rear base, with its eyes facing away and hidden. The two rear-connected base beams form a shallow V from nearest rear vertex toward left/right far vertices. Open cavities stay transparent. No fifth central junction or fourth leg. Full single creature centered with transparent padding, no text/ground/shadow.",
+      "finished_sha256": "6b85eb7ebaf104397f57e8a2d1dbf012aa404780a6a3de2422c8a7843f15ce8b",
+      "references": [
+        {
+          "sha256": "f938edea0354580cc5fc58b0888eef86ea2b8c16acef0b309a611a637b05c4e1"
+        },
+        {
+          "sha256": "ad92a8b8a336c056318c60a8a241a312763cee16fe493c17bd779f021bd16d7b"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "raw_sha256": "db4a2fff5af9b5722dc07619c64e87ccdef5be2c005c35cfbea90b159ad00a3c",
+      "raw_bytes": 728154,
+      "prompt": "Use case: style-transfer. Redraw the exact reference stone creature in its SAME N direction as newly drawn pixel art on a logical128x128 grid. Keep original silhouette, proportions and natural occlusion. Hollow tetrahedral frame with FOUR rounded vertices and SIX thick beams, THREE stone legs one per base vertex. Some edges/feet naturally overlap; do not add a joint/beam to expose hidden parts. Keep every transparent triangular hole OPEN and clearly readable, no filled stone panels or center core. Same pink feldspar, sage patches, pale cream veins, faceted planes and dark outline. Two gold slit eyes only on the front base beam: eyes face away and are hidden; do not add eyes on the visible rear beams. Match three leg attachments and depth ordering exactly. Crisp pixel clusters with stair-step outlines, limited palette at most32 colors, hard fully opaque pixels and fully transparent pixels only. No blur, antialiasing, soft gradients, background, cast shadow, letters or extra parts. Complete single creature centered with generous transparent padding. Change medium only, no redesign.",
+      "finished_sha256": "4d5918daca6ff4960af2e45622ebde70f669d7efd88a4fe8217c136323931e7f",
+      "references": [
+        {
+          "sha256": "6b85eb7ebaf104397f57e8a2d1dbf012aa404780a6a3de2422c8a7843f15ce8b"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "raw_sha256": "fd31be3e8e76fe84f0c2e94e282a704eac6db7aacdf186adb9802e155dde3175",
+      "raw_bytes": 919987,
+      "prompt": "Use case: identity-preserve. Image1 immutable original anatomy/style; image2 accepted side-view topology reference. Create one new direction of SAME hollow stone tetrahedron creature. Exactly FOUR rounded vertices: one apex and three base vertices. Exactly SIX thick stone beams: apex to each of three base vertices, plus triangle of three base beams. Exactly THREE chunky stone legs, one under EACH base vertex. Two gold slit eyes permanently centered together on OUTWARD FRONT BASE BEAM only. No eyes on vertices or other beams. Hollow spaces genuinely transparent, not filled panels. Keep original tall triangular proportions, thick faceted pink feldspar beams, sage patches and pale cream veins, soft outlined hand-painted style. Natural occlusion may hide parts; do not add extra junctions to display hidden connections. No extra beams/vertices/legs, no tails or wings. Keep same fixed modest camera elevation, no overhead angle. BACK-RIGHT NE, front points away diagonally toward upper-right. Rear base vertex and its leg nearest at lower-left; two front base vertices recede toward right/far. Eye-bearing front beam is far side and outward eyes naturally hidden behind beam/vertices, not placed on visible rear beams. Same hollow tetrahedral topology, natural overlap, original camera height. Full single creature centered with transparent padding, no text/ground/shadow.",
+      "finished_sha256": "820b07e9660f9b789849efe7ea4e88f4a837c1a24211bdd1e0e1bb454eaf8aa4",
+      "references": [
+        {
+          "sha256": "f938edea0354580cc5fc58b0888eef86ea2b8c16acef0b309a611a637b05c4e1"
+        },
+        {
+          "sha256": "ad92a8b8a336c056318c60a8a241a312763cee16fe493c17bd779f021bd16d7b"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "raw_sha256": "3fe72290b14db0c079eb4f6a651b73015b090f9bcb96555ca97a9dda77d7c006",
+      "raw_bytes": 654483,
+      "prompt": "Use case: style-transfer. Redraw the exact reference stone creature in its SAME NE direction as newly drawn pixel art on a logical128x128 grid. Keep original silhouette, proportions and natural occlusion. Hollow tetrahedral frame with FOUR rounded vertices and SIX thick beams, THREE stone legs one per base vertex. Some edges/feet naturally overlap; do not add a joint/beam to expose hidden parts. Keep every transparent triangular hole OPEN and clearly readable, no filled stone panels or center core. Same pink feldspar, sage patches, pale cream veins, faceted planes and dark outline. Two gold slit eyes only on the front base beam: eyes face away and are hidden; do not add eyes on the visible rear beams. Match three leg attachments and depth ordering exactly. Crisp pixel clusters with stair-step outlines, limited palette at most32 colors, hard fully opaque pixels and fully transparent pixels only. No blur, antialiasing, soft gradients, background, cast shadow, letters or extra parts. Complete single creature centered with generous transparent padding. Change medium only, no redesign.",
+      "finished_sha256": "b29ceadd869c3415b12eb6b037b6ac3d9cbfc0fda1394f9b3b4d96dacbf71cbc",
+      "references": [
+        {
+          "sha256": "820b07e9660f9b789849efe7ea4e88f4a837c1a24211bdd1e0e1bb454eaf8aa4"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "raw_sha256": "197389fc5b8f8aab467ac635530b1a66f1e73908fe941a02d90c55bffa912d5a",
+      "raw_bytes": 971488,
+      "prompt": "Use case: identity-preserve. Image1 immutable original anatomy/style; image2 accepted side-view topology reference. Create one new direction of SAME hollow stone tetrahedron creature. Exactly FOUR rounded vertices: one apex and three base vertices. Exactly SIX thick stone beams: apex to each of three base vertices, plus triangle of three base beams. Exactly THREE chunky stone legs, one under EACH base vertex. Two gold slit eyes permanently centered together on OUTWARD FRONT BASE BEAM only. No eyes on vertices or other beams. Hollow spaces genuinely transparent, not filled panels. Keep original tall triangular proportions, thick faceted pink feldspar beams, sage patches and pale cream veins, soft outlined hand-painted style. Natural occlusion may hide parts; do not add extra junctions to display hidden connections. No extra beams/vertices/legs, no tails or wings. Keep same fixed modest camera elevation, no overhead angle. RIGHT SIDE E, front points screen-right. Counterpart to image2 W. One near front base vertex is at right, the other front base vertex is behind it at right; single rear base vertex projects left. Eye-bearing front beam is foreshortened on far right, only naturally exposed gold eye portions may peek. Nearest side triangle is apex/right-front/left-rear. Far front corner and its third foot group behind near right corner, no extra middle Y junction. Full single creature centered with transparent padding, no text/ground/shadow.",
+      "finished_sha256": "4f9c06099fe6de0a6f4a5210812897866faa2a87636c955f3f8a4b097440e057",
+      "references": [
+        {
+          "sha256": "f938edea0354580cc5fc58b0888eef86ea2b8c16acef0b309a611a637b05c4e1"
+        },
+        {
+          "sha256": "ad92a8b8a336c056318c60a8a241a312763cee16fe493c17bd779f021bd16d7b"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "raw_sha256": "f837a91941d53c44acc2a3a593835fae0ade06f8de980cd0fe310582a0e7ee07",
+      "raw_bytes": 606554,
+      "prompt": "Use case: style-transfer. Redraw the exact reference stone creature in its SAME E direction as newly drawn pixel art on a logical128x128 grid. Keep original silhouette, proportions and natural occlusion. Hollow tetrahedral frame with FOUR rounded vertices and SIX thick beams, THREE stone legs one per base vertex. Some edges/feet naturally overlap; do not add a joint/beam to expose hidden parts. Keep every transparent triangular hole OPEN and clearly readable, no filled stone panels or center core. Same pink feldspar, sage patches, pale cream veins, faceted planes and dark outline. Two gold slit eyes only on the front base beam: match eye portions peeking only from far right beam. Match three leg attachments and depth ordering exactly. Crisp pixel clusters with stair-step outlines, limited palette at most32 colors, hard fully opaque pixels and fully transparent pixels only. No blur, antialiasing, soft gradients, background, cast shadow, letters or extra parts. Complete single creature centered with generous transparent padding. Change medium only, no redesign.",
+      "finished_sha256": "f6d750aa09838326c1a1717d1be5af8aaadd6f114089c0f58edb4879e75fdee6",
+      "references": [
+        {
+          "sha256": "4f9c06099fe6de0a6f4a5210812897866faa2a87636c955f3f8a4b097440e057"
+        }
+      ]
+    }
+  ],
+  "processing": "Normal alpha<8 colored fringe cleanup after visual/quantitative inspection; uniform832 extent RGBA1024. Pixel alpha128 threshold, nearest104 extent, nearest original palette, RGBA128. No shape redraw.",
+  "caveats": [
+    "Exact 3D yaw and hidden edge endpoints inferred, not guaranteed; visible edges and natural overlaps preserve tetrahedral reading.",
+    "W near/far compressed front beam eye projection stylized; no requirement all six edges directly visible.",
+    "Old N and initial W not recovered; new N-v4 is a new original-referenced candidate, not historical restoration."
+  ],
+  "review": {
+    "producer": "passed technical16 and visual paired review",
+    "independent": "pending",
+    "in_game_acceptance": "pending",
+    "external_independent": "Passed all16 numeric/hash checks; parent eight-pair and E W/E native pixel review confirms hollow frame, projected edges/vertices/feet and eye correspondence. Hidden edges and compressed side eyes are inferred; not all6 edges directly visible in every projection. Exact3D/runtime untested.",
+    "source_history": "Source contains one normal and one pixel expanded prompt and2 preserved raw records plus technical finishing. No explicit safety-stop markers; no complete status/attempt array or unrecorded-call completeness claim."
+  }
+}
