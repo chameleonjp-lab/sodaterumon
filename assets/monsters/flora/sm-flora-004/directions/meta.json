@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "id": "sm-flora-004",
+  "asset_type": "direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-004/directions/S/default.png",
+      "sha256": "4b5438745dfb291657b34fdceeea627930fed6ee027f64d9a75b91a7d014bd6c",
+      "bytes": 448430,
+      "git_blob_sha": "ced6c04e485d12caa1d99938583079df480bb301",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        163,
+        928,
+        860
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 37172,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-004/directions/S/pixel.png",
+      "sha256": "b113022a3dfc2d88e38cbf1c52a01c643133697622979a8b9bff174f3271b330",
+      "bytes": 6626,
+      "git_blob_sha": "03ed619f07406b194b6e91f6e4f54ce3dab208c8",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        19,
+        116,
+        108
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-004/directions/SW/default.png",
+      "sha256": "83c23887225ada65e648aac966d70dc7b243eb439a1e7234641da2c27c57f476",
+      "bytes": 445005,
+      "git_blob_sha": "930e9d2aebc846704923337a069753f076fbb060",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        165,
+        928,
+        859
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 40141,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-004/directions/SW/pixel.png",
+      "sha256": "183eb8af651cdc34cb4eec696b00425dd53eb1b680b7da9eb4e26afa7a1823fb",
+      "bytes": 6186,
+      "git_blob_sha": "d2eb398771230a383038cf87f21296fbc6b772b6",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        19,
+        116,
+        108
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-004/directions/W/default.png",
+      "sha256": "4170d8597ce0dd8424a07093a3012c761e98aa15d3f9b5edde197ad8ffb801b0",
+      "bytes": 384657,
+      "git_blob_sha": "2fe0f25b5cb30892ce175b09f4b181608e1bca48",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        185,
+        928,
+        839
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 36999,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-004/directions/W/pixel.png",
+      "sha256": "7e63705f516fd89e9f4a1cd12a49e00247f17cf54af5e8f3afbbacf30405b946",
+      "bytes": 5532,
+      "git_blob_sha": "3ab4ef79717569490f98e8d4a4ef050c258f5d7b",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        21,
+        116,
+        106
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-004/directions/NW/default.png",
+      "sha256": "af60031534de89eb3563602ed194dca704bda0036471c222bfd8fd43a4544ea1",
+      "bytes": 427172,
+      "git_blob_sha": "e71b82037b7348af8a6b8c7009589f6ebe26d48e",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        161,
+        928,
+        862
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 37089,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-004/directions/NW/pixel.png",
+      "sha256": "ac1d7b31f57529f97b7377b5ee22fa3d46b4e25dfdb411645b4b07d68c18fae5",
+      "bytes": 6295,
+      "git_blob_sha": "9b66225ec8aee6f6b529a22202c696067e3c51ec",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        19,
+        116,
+        108
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-004/directions/N/default.png",
+      "sha256": "e71a2d5b0445d99f331d0c33eb87bcc2318d77aa72036760cf7312424163d076",
+      "bytes": 411659,
+      "git_blob_sha": "e22b489805eac16562ea16f15a48ca27995c5c52",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        172,
+        928,
+        851
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 35508,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-004/directions/N/pixel.png",
+      "sha256": "694f0cc8bd0176b2b31ab242a0438556baf854b750147d80b78e4d4088b384fa",
+      "bytes": 6129,
+      "git_blob_sha": "16aaa1919c7622fdd7c378d7951be4b8516aace1",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        20,
+        116,
+        107
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-004/directions/NE/default.png",
+      "sha256": "77a472e0266ad87b53a319fb9c69d65f2c4de93d909444de0a1e43addb4b1e0c",
+      "bytes": 426485,
+      "git_blob_sha": "37d15ca14d5e3e7ba0843814efa230aec26d5aef",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        167,
+        928,
+        857
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 37553,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-004/directions/NE/pixel.png",
+      "sha256": "488cdd715afb61ccb3cd3226db77bfa7ce885c5c1baac3733d03c0dc7b4929eb",
+      "bytes": 5911,
+      "git_blob_sha": "da42aab31f6c730c03753e9a584f2f3a1660c8b7",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        18,
+        116,
+        109
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-004/directions/E/default.png",
+      "sha256": "5f2ce13bffeae15715b83e86d2703b16b78abae27d0d57bf52e743dce9495a4d",
+      "bytes": 405641,
+      "git_blob_sha": "cd86bd01907df8dc5f2ba2fc902713d18e131875",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        177,
+        928,
+        846
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 37842,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-004/directions/E/pixel.png",
+      "sha256": "de4675dddb3d96ab6290050b6e58ae1867a47f69835a1ef9e7fe69911d87c525",
+      "bytes": 5912,
+      "git_blob_sha": "a885d838d6d34679273d0256897fa580765e691f",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        21,
+        116,
+        106
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/flora/sm-flora-004/default.png",
+      "sha256": "5f5862af94b465de36ccefda31b2bdd664fe372b753e6929a7c668e92b09f1da",
+      "bytes": 475336,
+      "git_blob_sha": "5abd6a97e95631675bfcc883402d83e386a49379",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        148,
+        944,
+        876
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 38873,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/flora/sm-flora-004/pixel.png",
+      "sha256": "f8e91d3f550dd5f7e787c307513ac36fddd20a47a4af6f9e6e12e3a98ce0b225",
+      "bytes": 4901,
+      "git_blob_sha": "acb91b08417cdba364dfa429f3a79be75817b549",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        17,
+        118,
+        111
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "technical_pass": true
+    }
+  ],
+  "generation_provenance": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "raw_sha256": "ff13343cad2ef80eab78205d9183e6dc0412b512058bd6d92cc6a850f7d7559c",
+      "final_sha256": "4b5438745dfb291657b34fdceeea627930fed6ee027f64d9a75b91a7d014bd6c",
+      "provenance_status": "Recovery-time visual reselection; historical adopted label/hash and original generation prompt/reference not recovered"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart matching this exact S normal illustration. Single reference is full anatomy/pose target. Flat horizontal teal leaf saucer, one shallow rear notch at EXACT same screen position, exactly THREE thick pale veins from center following same directions, ONE tan root-tail attached below with unchanged curve and rounded unbranched tip. Preserve TWO visible golden brown eyes at exact same front-rim positions. Preserve thin rim, same dish ellipse/angle and root attachment. Do not rotate notch or veins, do not add eyes/flowers/stems/legs/roots. Use intentional128x128 logical pixel clusters, teal/tan/pale yellow/brown limited palette at most32 visible colors, crisp outline, binary transparency, no antialiasing/blur/gradients. Same silhouette and camera, rendering-medium change only. Full body centered with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "1a5f269bc2d92ed48d14f0dc116040482568e9d8aaf244ffecdd71cfe1d3150a",
+      "reference_hashes": [
+        "4b5438745dfb291657b34fdceeea627930fed6ee027f64d9a75b91a7d014bd6c"
+      ],
+      "final_sha256": "b113022a3dfc2d88e38cbf1c52a01c643133697622979a8b9bff174f3271b330"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "raw_sha256": "9244356d528e258280470b66031a92fdd2956e9858a762549d5624f9272f7686",
+      "final_sha256": "83c23887225ada65e648aac966d70dc7b243eb439a1e7234641da2c27c57f476",
+      "provenance_status": "Recovery-time visual reselection; historical adopted label/hash and original generation prompt/reference not recovered"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart matching this exact SW normal illustration. Single reference is full anatomy/pose target. Flat horizontal teal leaf saucer, one shallow rear notch at EXACT same screen position, exactly THREE thick pale veins from center following same directions, ONE tan root-tail attached below with unchanged curve and rounded unbranched tip. Preserve TWO visible golden brown eyes at exact same front-rim positions. Preserve thin rim, same dish ellipse/angle and root attachment. Do not rotate notch or veins, do not add eyes/flowers/stems/legs/roots. Use intentional128x128 logical pixel clusters, teal/tan/pale yellow/brown limited palette at most32 visible colors, crisp outline, binary transparency, no antialiasing/blur/gradients. Same silhouette and camera, rendering-medium change only. Full body centered with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "bd668f8f6327b9dfb4bbc1504dacd22e978d5daa149c5363c9dee2a0931e878c",
+      "reference_hashes": [
+        "83c23887225ada65e648aac966d70dc7b243eb439a1e7234641da2c27c57f476"
+      ],
+      "final_sha256": "183eb8af651cdc34cb4eec696b00425dd53eb1b680b7da9eb4e26afa7a1823fb"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "prompt": "Precise-object-edit: ONE normal transparent sprite. Change ONLY incorrect eye visibility/anatomy in this exact W image. This is a strict W SIDE view. Keep ONE near golden-brown eye flush on the extreme LEFT front edge. The second eye is naturally behind the near eye/rim and must not appear as a separate stacked eye or raised knob. Preserve EVERYTHING ELSE: same flat horizontal green leaf saucer, one rear shallow notch at EXACT current screen location, exactly three pale thick veins meeting at center with same directions, one tan unbranched root-tail from the same underside attachment with same curve and rounded tip. Same dish ellipse/camera elevation, body thickness, teal/tan/pale-yellow palette, glossy illustrated surface and dark contour. No extra stem/flower/limbs, no new notches, no extra veins. Keep leaf surface flat; eyes do not stand as domes on rim. Same full-body position and silhouette except removal of eye protrusions. Centered transparent square canvas with margin, no text/ground/shadow.",
+      "raw_sha256": "cb46f906fc3193f0f18aa2354fe832570033e68a38fe85acec85fc4a270fdb64",
+      "reference_hashes": [
+        "61d68305393d511c6789c0345222c60638a99d7634f45b64660d1f9608d058c3"
+      ],
+      "final_sha256": "4170d8597ce0dd8424a07093a3012c761e98aa15d3f9b5edde197ad8ffb801b0"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart matching this exact W normal illustration. Single reference is full anatomy/pose target. Flat horizontal teal leaf saucer, one shallow rear notch at EXACT same screen position, exactly THREE thick pale veins from center following same directions, ONE tan root-tail attached below with unchanged curve and rounded unbranched tip. Preserve ONE near golden brown eye at same extreme side rim; no second exposed eye. Preserve thin rim, same dish ellipse/angle and root attachment. Do not rotate notch or veins, do not add eyes/flowers/stems/legs/roots. Use intentional128x128 logical pixel clusters, teal/tan/pale yellow/brown limited palette at most32 visible colors, crisp outline, binary transparency, no antialiasing/blur/gradients. Same silhouette and camera, rendering-medium change only. Full body centered with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "e7c67c5f1b78e62f4fa465a2e37ac5915ff7cd704ead5788703fd9c165e8eb6c",
+      "reference_hashes": [
+        "4170d8597ce0dd8424a07093a3012c761e98aa15d3f9b5edde197ad8ffb801b0"
+      ],
+      "final_sha256": "7e63705f516fd89e9f4a1cd12a49e00247f17cf54af5e8f3afbbacf30405b946"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "prompt": "Precise-object-edit: ONE normal transparent sprite. Change ONLY incorrect eye visibility/anatomy in this exact NW image. This is a REAR view. The reference erroneously invents two eye domes protruding above the FAR rim. Remove those protruding domes and restore a smooth thin leaf rim there. Both front eyes are naturally hidden behind that far rim; ZERO visible eyes and no eye stalks. Preserve EVERYTHING ELSE: same flat horizontal green leaf saucer, one rear shallow notch at EXACT current screen location, exactly three pale thick veins meeting at center with same directions, one tan unbranched root-tail from the same underside attachment with same curve and rounded tip. Same dish ellipse/camera elevation, body thickness, teal/tan/pale-yellow palette, glossy illustrated surface and dark contour. No extra stem/flower/limbs, no new notches, no extra veins. Keep leaf surface flat; eyes do not stand as domes on rim. Same full-body position and silhouette except removal of eye protrusions. Centered transparent square canvas with margin, no text/ground/shadow.",
+      "raw_sha256": "148d0e558de32244f3d9183261bf2adb9a58ff5430e8d79fd9f2e13df3fddfce",
+      "reference_hashes": [
+        "114a2a5cccfd64dcfe836737f0f511eda6840f923bcf4ac11201ae372c0c6446"
+      ],
+      "final_sha256": "af60031534de89eb3563602ed194dca704bda0036471c222bfd8fd43a4544ea1"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart matching this exact NW normal illustration. Single reference is full anatomy/pose target. Flat horizontal teal leaf saucer, one shallow rear notch at EXACT same screen position, exactly THREE thick pale veins from center following same directions, ONE tan root-tail attached below with unchanged curve and rounded unbranched tip. Preserve ZERO visible eyes or mouth anywhere; back surface has no face, and no eye domes at far edge. Preserve thin rim, same dish ellipse/angle and root attachment. Do not rotate notch or veins, do not add eyes/flowers/stems/legs/roots. Use intentional128x128 logical pixel clusters, teal/tan/pale yellow/brown limited palette at most32 visible colors, crisp outline, binary transparency, no antialiasing/blur/gradients. Same silhouette and camera, rendering-medium change only. Full body centered with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "025b8ae6d732cb7e70f9c485ba7e3079acdabe8faa374f44518adcf6523af291",
+      "reference_hashes": [
+        "af60031534de89eb3563602ed194dca704bda0036471c222bfd8fd43a4544ea1"
+      ],
+      "final_sha256": "ac1d7b31f57529f97b7377b5ee22fa3d46b4e25dfdb411645b4b07d68c18fae5"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "prompt": "Precise-object-edit: ONE normal transparent sprite. Change ONLY incorrect eye visibility/anatomy in this exact N image. This is a REAR view. The reference erroneously invents two eye domes protruding above the FAR rim. Remove those protruding domes and restore a smooth thin leaf rim there. Both front eyes are naturally hidden behind that far rim; ZERO visible eyes and no eye stalks. Preserve EVERYTHING ELSE: same flat horizontal green leaf saucer, one rear shallow notch at EXACT current screen location, exactly three pale thick veins meeting at center with same directions, one tan unbranched root-tail from the same underside attachment with same curve and rounded tip. Same dish ellipse/camera elevation, body thickness, teal/tan/pale-yellow palette, glossy illustrated surface and dark contour. No extra stem/flower/limbs, no new notches, no extra veins. Keep leaf surface flat; eyes do not stand as domes on rim. Same full-body position and silhouette except removal of eye protrusions. Centered transparent square canvas with margin, no text/ground/shadow.",
+      "raw_sha256": "f0a5088007e0f4ce90977132fdfb46b5f969295728df4730d6a8730892bb0af3",
+      "reference_hashes": [
+        "9e43e960953f198f647b7e72f98b44fac0a664fd19dbd2192ce45d30959dd34b"
+      ],
+      "final_sha256": "e71a2d5b0445d99f331d0c33eb87bcc2318d77aa72036760cf7312424163d076"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart matching this exact N normal illustration. Single reference is full anatomy/pose target. Flat horizontal teal leaf saucer, one shallow rear notch at EXACT same screen position, exactly THREE thick pale veins from center following same directions, ONE tan root-tail attached below with unchanged curve and rounded unbranched tip. Preserve ZERO visible eyes or mouth anywhere; back surface has no face, and no eye domes at far edge. Preserve thin rim, same dish ellipse/angle and root attachment. Do not rotate notch or veins, do not add eyes/flowers/stems/legs/roots. Use intentional128x128 logical pixel clusters, teal/tan/pale yellow/brown limited palette at most32 visible colors, crisp outline, binary transparency, no antialiasing/blur/gradients. Same silhouette and camera, rendering-medium change only. Full body centered with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "3314e43d956e74b7685def9ba86a675211bc72264e053dd48d1815a61cf2aa5e",
+      "reference_hashes": [
+        "e71a2d5b0445d99f331d0c33eb87bcc2318d77aa72036760cf7312424163d076"
+      ],
+      "final_sha256": "694f0cc8bd0176b2b31ab242a0438556baf854b750147d80b78e4d4088b384fa"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "prompt": "Precise-object-edit: ONE normal transparent sprite. Change ONLY incorrect eye visibility/anatomy in this exact NE image. This is a REAR view. The reference erroneously invents two eye domes protruding above the FAR rim. Remove those protruding domes and restore a smooth thin leaf rim there. Both front eyes are naturally hidden behind that far rim; ZERO visible eyes and no eye stalks. Preserve EVERYTHING ELSE: same flat horizontal green leaf saucer, one rear shallow notch at EXACT current screen location, exactly three pale thick veins meeting at center with same directions, one tan unbranched root-tail from the same underside attachment with same curve and rounded tip. Same dish ellipse/camera elevation, body thickness, teal/tan/pale-yellow palette, glossy illustrated surface and dark contour. No extra stem/flower/limbs, no new notches, no extra veins. Keep leaf surface flat; eyes do not stand as domes on rim. Same full-body position and silhouette except removal of eye protrusions. Centered transparent square canvas with margin, no text/ground/shadow.",
+      "raw_sha256": "e03c340d1845fafb16272413b912fffc359f7ce4c18e5a1f81d877fbcc44182b",
+      "reference_hashes": [
+        "b2894b2678ceb8795865a0ff1066d8e8c306b0ad3fb3f4643eb46cfc2448b728"
+      ],
+      "final_sha256": "77a472e0266ad87b53a319fb9c69d65f2c4de93d909444de0a1e43addb4b1e0c"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart matching this exact NE normal illustration. Single reference is full anatomy/pose target. Flat horizontal teal leaf saucer, one shallow rear notch at EXACT same screen position, exactly THREE thick pale veins from center following same directions, ONE tan root-tail attached below with unchanged curve and rounded unbranched tip. Preserve ZERO visible eyes or mouth anywhere; back surface has no face, and no eye domes at far edge. Preserve thin rim, same dish ellipse/angle and root attachment. Do not rotate notch or veins, do not add eyes/flowers/stems/legs/roots. Use intentional128x128 logical pixel clusters, teal/tan/pale yellow/brown limited palette at most32 visible colors, crisp outline, binary transparency, no antialiasing/blur/gradients. Same silhouette and camera, rendering-medium change only. Full body centered with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "4a906c5d7afe9755b6779b807678f9d788c487a2adea40a3cfa1ab3e25849ca5",
+      "reference_hashes": [
+        "77a472e0266ad87b53a319fb9c69d65f2c4de93d909444de0a1e43addb4b1e0c"
+      ],
+      "final_sha256": "488cdd715afb61ccb3cd3226db77bfa7ce885c5c1baac3733d03c0dc7b4929eb"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "prompt": "Precise-object-edit: ONE normal transparent sprite. Change ONLY incorrect eye visibility/anatomy in this exact E image. This is a strict E SIDE view. Keep ONE near golden-brown eye flush on the extreme RIGHT front edge. The second eye is naturally behind the near eye/rim and must not appear as a separate stacked eye or raised knob. Preserve EVERYTHING ELSE: same flat horizontal green leaf saucer, one rear shallow notch at EXACT current screen location, exactly three pale thick veins meeting at center with same directions, one tan unbranched root-tail from the same underside attachment with same curve and rounded tip. Same dish ellipse/camera elevation, body thickness, teal/tan/pale-yellow palette, glossy illustrated surface and dark contour. No extra stem/flower/limbs, no new notches, no extra veins. Keep leaf surface flat; eyes do not stand as domes on rim. Same full-body position and silhouette except removal of eye protrusions. Centered transparent square canvas with margin, no text/ground/shadow.",
+      "raw_sha256": "712f0ac4dfdef04e070f00bed51271d4bd37a9ca5a070924f6cf95a2ebf86c94",
+      "reference_hashes": [
+        "0bdd477aebadbd3132c88317cbb86531bbf0c3cd7022d33a7e73672fa842e158"
+      ],
+      "final_sha256": "5f2ce13bffeae15715b83e86d2703b16b78abae27d0d57bf52e743dce9495a4d"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart matching this exact E normal illustration. Single reference is full anatomy/pose target. Flat horizontal teal leaf saucer, one shallow rear notch at EXACT same screen position, exactly THREE thick pale veins from center following same directions, ONE tan root-tail attached below with unchanged curve and rounded unbranched tip. Preserve ONE near golden brown eye at same extreme side rim; no second exposed eye. Preserve thin rim, same dish ellipse/angle and root attachment. Do not rotate notch or veins, do not add eyes/flowers/stems/legs/roots. Use intentional128x128 logical pixel clusters, teal/tan/pale yellow/brown limited palette at most32 visible colors, crisp outline, binary transparency, no antialiasing/blur/gradients. Same silhouette and camera, rendering-medium change only. Full body centered with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "6ca700162941e84dcc24d4e9ea95f7f8836fc2fd8021f3cb1c85d31960e50ce1",
+      "reference_hashes": [
+        "5f2ce13bffeae15715b83e86d2703b16b78abae27d0d57bf52e743dce9495a4d"
+      ],
+      "final_sha256": "de4675dddb3d96ab6290050b6e58ae1867a47f69835a1ef9e7fe69911d87c525"
+    }
+  ],
+  "interpretation": {
+    "fixed_anatomy": "One thin horizontal leafdish, one rear notch, three thick veins, one underside unbranched rounded root-tail, two front eyes",
+    "direction_features": "Notch rotates from Sfarcenter through SWfarright/Wright/NWnearright/Nnearcenter/NEnearleft/Eleft to sourceSEfarleft. Eye visibility front2,side1,rear0.",
+    "repair": "Removed invented far-rim eye domes in rear views; side far-eye occlusion corrected. Notch/vein/root poses retained.",
+    "inference": "Underside visibility and root curvature are interpolated from original; exact rigid3D/angle not claimed",
+    "history": "Old7 candidates kept; S/SW currently reselected by actual images, not claimed recovered historical adoption. Source detailed original trials incomplete."
+  },
+  "qa": {
+    "technical_all16": true,
+    "source_pair_unchanged": true,
+    "visual": "Normal/pixel eye visibility, notch location, three veins and single root correspondence reviewed on white/black",
+    "independent_review": "E independently measured all16 slots and checked hashes/unchanged source pair against main Git tree. All8pair white/black normal-pixel views inspected: eyes front2/side1/rear0, rear notch, three veins and one underside root-tail correspond. S/SW are visually reselected after recovery; old adoption and detailed source trial history unavailable. Vein positions, root depth and precise yaw are inferred; runtime untested.",
+    "runtime": "pending"
+  }
+}

@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "id": "sm-flora-015",
+  "asset_type": "recovery_reselected_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "original_direction_basis": "Original shows three front eyes in a row, central eye larger, with six lower roots. S front original pair retained unchanged.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default",
+      "sha256": "5de5b36798b9089fc2fa5ad68a865c00c2edda8afd9076f9668cbab22e3a05c6",
+      "bytes": 576803,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        126,
+        944,
+        897
+      ],
+      "margins": [
+        80,
+        126,
+        80,
+        127
+      ],
+      "extent": 864,
+      "visible_colors": 56070,
+      "binary_alpha": false,
+      "file": "assets/monsters/flora/sm-flora-015/default.png",
+      "git_blob_sha": "5a937e564070e5eff7cbe9942455601981c0ec12",
+      "original_preserved": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "sha256": "f754d23d69eb08ab6e17f0ab65028414eebf2f8e954d1ba1cdc26b79cb9ed2b7",
+      "bytes": 6835,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        14,
+        118,
+        114
+      ],
+      "margins": [
+        10,
+        14,
+        10,
+        14
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/flora/sm-flora-015/pixel.png",
+      "git_blob_sha": "a03f212d3b0965b672217bfe62ef11597d5e4e62",
+      "original_preserved": true
+    },
+    {
+      "direction": "SW",
+      "kind": "default",
+      "sha256": "fb355c2150a7b5e756202241bb67d6a2d56548168ef335cfe03791a785531f25",
+      "bytes": 631013,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        91,
+        80,
+        932,
+        944
+      ],
+      "margins": [
+        91,
+        80,
+        92,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 63933,
+      "binary_alpha": false,
+      "file": "assets/monsters/flora/sm-flora-015/directions/SW/default.png",
+      "git_blob_sha": "08fdd45218a4982436273c5427c7769d78d860a2",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "sha256": "2c28c73ae66da4493c6bccdbd75aa8a96d814039b924849c793bf77dfcfc0a4e",
+      "bytes": 6897,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        10,
+        117,
+        118
+      ],
+      "margins": [
+        10,
+        10,
+        11,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/flora/sm-flora-015/directions/SW/pixel.png",
+      "git_blob_sha": "00a8eceb164f4e169dbb78c5168ef8d970ff62fe",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default",
+      "sha256": "0182853887dd82b9b5abeacc7dbaf2d5423ee001275cf42c5446e073a64d0670",
+      "bytes": 481507,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        137,
+        81,
+        887,
+        944
+      ],
+      "margins": [
+        137,
+        81,
+        137,
+        80
+      ],
+      "extent": 863,
+      "visible_colors": 52329,
+      "binary_alpha": false,
+      "file": "assets/monsters/flora/sm-flora-015/directions/W/default.png",
+      "git_blob_sha": "6f62398ed9cc9dc4b35c1effa5abca6c774b5014",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "sha256": "a6f75dbb2f2b095a8168fae7564faa5b8778b5990082024b7e21f5ba25894074",
+      "bytes": 6736,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        15,
+        10,
+        113,
+        118
+      ],
+      "margins": [
+        15,
+        10,
+        15,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/flora/sm-flora-015/directions/W/pixel.png",
+      "git_blob_sha": "e7cec8123d99c0eb6ed98a451122b0ab66c3fe0a",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default",
+      "sha256": "b7d78ec6e8bf29613acb264386a69f6fedf36ee910bd3cffda5072f44d5ce976",
+      "bytes": 612306,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        83,
+        80,
+        941,
+        944
+      ],
+      "margins": [
+        83,
+        80,
+        83,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 56950,
+      "binary_alpha": false,
+      "file": "assets/monsters/flora/sm-flora-015/directions/NW/default.png",
+      "git_blob_sha": "de72c329d28d24e3135fa0c6c8dc3a8359e006e9",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "sha256": "2c408344308082ea1b29c6e1ef8c67c0f7c2aa4391e577eee6474b80846e548a",
+      "bytes": 8437,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        10,
+        115,
+        118
+      ],
+      "margins": [
+        12,
+        10,
+        13,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/flora/sm-flora-015/directions/NW/pixel.png",
+      "git_blob_sha": "12ab782e1f49f736bc5304440d23ea7964fe3916",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default",
+      "sha256": "82017c1c83a76569947cf03ac27baa105cf4fa3fa0b37ba23358a93d8b88be76",
+      "bytes": 584858,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        123,
+        944,
+        901
+      ],
+      "margins": [
+        80,
+        123,
+        80,
+        123
+      ],
+      "extent": 864,
+      "visible_colors": 54743,
+      "binary_alpha": false,
+      "file": "assets/monsters/flora/sm-flora-015/directions/N/default.png",
+      "git_blob_sha": "00fc48326a71cc85101147632a6c9cee26636b42",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "sha256": "749f628935ad7226c1806ac76c64b4922f2c24f56823badff7ab0d0d48a0dd4d",
+      "bytes": 7097,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        14,
+        118,
+        113
+      ],
+      "margins": [
+        10,
+        14,
+        10,
+        15
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/flora/sm-flora-015/directions/N/pixel.png",
+      "git_blob_sha": "984d457f8c82341a32d4174b6a168361c7183f23",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default",
+      "sha256": "7f61a77b2c0ea0fea1aff5a6395326192c1b9ec447dc3f569cbeb369264e6dbd",
+      "bytes": 614278,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        80,
+        927,
+        944
+      ],
+      "margins": [
+        96,
+        80,
+        97,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 58825,
+      "binary_alpha": false,
+      "file": "assets/monsters/flora/sm-flora-015/directions/NE/default.png",
+      "git_blob_sha": "a3338534fd74cfbc0cc929238e42139bc551634c",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "sha256": "55ebac76b723f5e993a93328795460a33bd9e11b96ca047dbd63ed235645d2a2",
+      "bytes": 8963,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        10,
+        115,
+        118
+      ],
+      "margins": [
+        12,
+        10,
+        13,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/flora/sm-flora-015/directions/NE/pixel.png",
+      "git_blob_sha": "411239979320bdf0429585b49a1a32f5ca63127d",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default",
+      "sha256": "fbeb96f3767a8a2cca0a29fd581bd8bfa5c12e03518a41fcf10ba4ccfbc332b8",
+      "bytes": 541843,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        108,
+        80,
+        915,
+        944
+      ],
+      "margins": [
+        108,
+        80,
+        109,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 58448,
+      "binary_alpha": false,
+      "file": "assets/monsters/flora/sm-flora-015/directions/E/default.png",
+      "git_blob_sha": "b341f62c1a39af093e7aa5e345f80d0d5889c1b8",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "sha256": "8f0c1f55aeba50d16070e099973ba726e7cdbbe37c4a121c16cb89d5204bfb76",
+      "bytes": 7081,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        10,
+        116,
+        118
+      ],
+      "margins": [
+        12,
+        10,
+        12,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/flora/sm-flora-015/directions/E/pixel.png",
+      "git_blob_sha": "c51a8cca1b94b44d3288ffb60a98346424a1b4c7",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default",
+      "sha256": "132349747005ee380bfd665a005bc8c4627c3bf295ced1d78c7656594f5ad26d",
+      "bytes": 641066,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        95,
+        80,
+        928,
+        944
+      ],
+      "margins": [
+        95,
+        80,
+        96,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 67092,
+      "binary_alpha": false,
+      "file": "assets/monsters/flora/sm-flora-015/directions/SE/default.png",
+      "git_blob_sha": "797f0442fb982d79cb647090856b2106c69c8542",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "sha256": "8fda99297ba97b97104ce657aec4e8caede161dd16a3837a0371fbb29141b2a3",
+      "bytes": 7705,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        10,
+        117,
+        118
+      ],
+      "margins": [
+        10,
+        10,
+        11,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/flora/sm-flora-015/directions/SE/pixel.png",
+      "git_blob_sha": "e8fa0cc1b1edacb18d07ff42af2b06763eb14330",
+      "original_preserved": false
+    }
+  ],
+  "anatomy": {
+    "body_segments": 1,
+    "form": "flattened triangular root tuber",
+    "eyes": 3,
+    "root_legs": 6,
+    "arms": 0,
+    "wings": 0,
+    "tails": 0,
+    "leaves": 1,
+    "fixed_connections": "Six ordered main root legs on lower edge; one striped ribbon leaf at apex bending to physical right. Three front eyes with larger central eye."
+  },
+  "provenance": {
+    "recovered_visual_reselection": true,
+    "historical_adoption_identity_proven": false,
+    "old_direction_prompts": "not fully recovered; old N selected visually, not claimed historically identical",
+    "new_generation_directions": [
+      "SW",
+      "W",
+      "NW",
+      "NE",
+      "E",
+      "SE"
+    ],
+    "new_generation_image_count": 12,
+    "new_generations": [
+      {
+        "direction": "W",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. Draw ONE true LEFT SIDE profile of this SAME rooted creature, facing left. Reference is FRONT identity only; do not keep its frontal fan of roots. Rotate the whole flattened triangular tuber and attached leaf rigidly in yaw. The main visible result MUST be a narrow triangular SIDE WEDGE with a row of overlapping root legs receding into depth, rather than the full broad frontal triangle. Exactly six root legs retain their same lower-edge attachment order; only 2–3 nearer roots may be individually readable because far ones are naturally behind them. Near eye peeks at extreme LEFT, other two front eyes hidden. CRITICAL LEAF PROJECTION: the single long ribbon leaf bends toward the physical RIGHT side of the body. In this left profile that side points directly AWAY from viewer. Therefore its arch is foreshortened nearly end-on directly ABOVE the tuber apex, its long blade runs AWAY behind the body, and the drooping leaf tip is HIDDEN behind the tuber. Show only the upper curved loop/upper portion above the apex. Do not place a long hanging leaf silhouette to either screen-left OR screen-right. This is occlusion of the original long leaf, not shortening, cutting, regrowing or changing its bend. One leaf only, same green/cream stripe and supple curve. Tan bark body with cream veins, exactly6 root legs including hidden roots, exactly3 front eyes including hidden eyes, no arms/wings/tail. Same pose/material/proportions and low modest camera; full creature1024 genuine transparent margin, no ground/text/shadow.",
+        "reference_sha256": [
+          "5de5b36798b9089fc2fa5ad68a865c00c2edda8afd9076f9668cbab22e3a05c6"
+        ],
+        "raw_sha256": "950394253b8b2d4fd78af93fee2a5b4b4c771d6daf740ed2ff25bc0d37e953d3",
+        "output_sha256": "0182853887dd82b9b5abeacc7dbaf2d5423ee001275cf42c5446e073a64d0670",
+        "selection_note": "Requested direction visually selected; first W attempt excluded from adoption and retained separately."
+      },
+      {
+        "direction": "E",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. ONE E RIGHT SIDE profile of this SAME root-and-leaf creature. Input1 original front S locks identity; input2 W left side is the staged opposite-side reference for tuber thickness and foreshortened root row. Turn the same flattened triangular tuber to face SCREEN-RIGHT, retaining same pose,6 root legs ordered on original lower edge,3 eyes on front with only near eye(s) at RIGHT edge visible. Opposite-side relationship is crucial: the original single long striped leaf curves to the creature's physical RIGHT. In this E view physical RIGHT points TOWARD viewer, so the same leaf arches forward over the apex and its long drooping blade lies IN FRONT of the upper/middle tuber, visibly occluding some bark/veins. Its root is still the apex, its tip descends across near middle body, rather than hanging far out at screen-left/right. Preserve the original leaf length, supple green ribbon width, cream stripe and hooked curve; foreshorten naturally but do not turn it into a new short bud or second leaf. Keep a narrow triangular SIDE WEDGE matching opposite W proportions, root legs naturally overlapping in near-to-far depth, not a new spread circular base. Warm tan root bark, cream branching veins, golden eyes, small rootlets remain. No new body part, no arms/wings/tail, no props. Original modest camera and full body1024 with genuine transparent margins, no ground/shadow/text.",
+        "reference_sha256": [
+          "5de5b36798b9089fc2fa5ad68a865c00c2edda8afd9076f9668cbab22e3a05c6",
+          "0182853887dd82b9b5abeacc7dbaf2d5423ee001275cf42c5446e073a64d0670"
+        ],
+        "raw_sha256": "478b8c225d50ae140185e02672a9518f8a79f2fa2c29016e309aac1d03846f2a",
+        "output_sha256": "fbeb96f3767a8a2cca0a29fd581bd8bfa5c12e03518a41fcf10ba4ccfbc332b8",
+        "selection_note": "Requested direction visually selected; first W attempt excluded from adoption and retained separately."
+      },
+      {
+        "direction": "SW",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. ONE SW view of exactly this root-and-leaf creature. Input1 original FRONT S locks its anatomy and physical identity; input2 staged side view anchors fixed leaf bend and root-depth overlap. Rotate whole flattened triangular tuber in yaw only, same standing pose and modest camera. Front-left diagonal, between original S and staged W, face turned toward screen-left. Exactly ONE long supple green/cream striped ribbon leaf stays rooted at apex and bent to creature's physical RIGHT; never swap its bend to the other physical side. Physical right side is farther, projecting toward SCREEN-LEFT: arch extends left/back but is foreshortened; descending blade passes BEHIND the left/back tuber edge, with tip partly hidden. It must be a midpoint between full left-hanging original S leaf and end-on hidden-tip W. Preserve original actual leaf length, hooked arch and taper while foreshortening/occluding naturally, no bud/second leaf. SIX thick root legs remain in original order along same lower edge, with natural nearer/farther overlaps; don't rearrange into new circle or add legs. Three original front eyes may show: larger central eye and near eye visible, far left eye narrower and partly hidden at left edge. Same tan bark, cream branching veins, fine rootlets, golden eyes, same triangular tuber rather than bulb/cone. Full creature1024 genuine transparent margins, no arms/wings/tail/props/text/ground/shadow.",
+        "reference_sha256": [
+          "5de5b36798b9089fc2fa5ad68a865c00c2edda8afd9076f9668cbab22e3a05c6",
+          "0182853887dd82b9b5abeacc7dbaf2d5423ee001275cf42c5446e073a64d0670"
+        ],
+        "raw_sha256": "003c8e5909b1060c3ad3f83d81267df2f3d14ee271afe7db5deae19fc4f10af7",
+        "output_sha256": "fb355c2150a7b5e756202241bb67d6a2d56548168ef335cfe03791a785531f25",
+        "selection_note": "Requested direction visually selected; first W attempt excluded from adoption and retained separately."
+      },
+      {
+        "direction": "SE",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. ONE SE view of exactly this root-and-leaf creature. Input1 original FRONT S locks its anatomy and physical identity; input2 staged side view anchors fixed leaf bend and root-depth overlap. Rotate whole flattened triangular tuber in yaw only, same standing pose and modest camera. Front-right diagonal, face turned toward screen-right, midway original S and staged E. Exactly ONE long supple green/cream striped ribbon leaf stays rooted at apex and bent to creature's physical RIGHT; never swap its bend to the other physical side. Physical right side is nearer, projecting toward SCREEN-LEFT: same leaf arches toward viewer and left, and descending blade overlaps the near-left tuber surface. Its tip is in front of bark, unlike far-side SW. Keep natural original hooked curve. Preserve original actual leaf length, hooked arch and taper while foreshortening/occluding naturally, no bud/second leaf. SIX thick root legs remain in original order along same lower edge, with natural nearer/farther overlaps; don't rearrange into new circle or add legs. Three original front eyes with larger center; far right eye smaller/partly hidden, near left eye and central eye visible. Same tan bark, cream branching veins, fine rootlets, golden eyes, same triangular tuber rather than bulb/cone. Full creature1024 genuine transparent margins, no arms/wings/tail/props/text/ground/shadow.",
+        "reference_sha256": [
+          "5de5b36798b9089fc2fa5ad68a865c00c2edda8afd9076f9668cbab22e3a05c6",
+          "fbeb96f3767a8a2cca0a29fd581bd8bfa5c12e03518a41fcf10ba4ccfbc332b8"
+        ],
+        "raw_sha256": "bb812747de9a7b89653de8f2eb4ce87714c84ec2a8ebdd9c8ae3cd0357c22a8c",
+        "output_sha256": "132349747005ee380bfd665a005bc8c4627c3bf295ced1d78c7656594f5ad26d",
+        "selection_note": "Requested direction visually selected; first W attempt excluded from adoption and retained separately."
+      },
+      {
+        "direction": "NW",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. ONE NW view of exactly this root-and-leaf creature. Input1 original FRONT S locks its anatomy and physical identity; input2 staged side view anchors fixed leaf bend and root-depth overlap. Rotate whole flattened triangular tuber in yaw only, same standing pose and modest camera. Back-left diagonal between staged W and straight N, front face away-left. Exactly ONE long supple green/cream striped ribbon leaf stays rooted at apex and bent to creature's physical RIGHT; never swap its bend to the other physical side. Physical right side is FARTHER, projecting toward SCREEN-RIGHT: same leaf arch extends right/back and descending blade passes behind the right/back tuber edge with tip partly occluded. Keep continuous progression from end-on hidden-tip W to right-hanging N. Preserve original actual leaf length, hooked arch and taper while foreshortening/occluding naturally, no bud/second leaf. SIX thick root legs remain in original order along same lower edge, with natural nearer/farther overlaps; don't rearrange into new circle or add legs. NO eyes visible on the near back; all three front eyes are naturally hidden. Same tan bark, cream branching veins, fine rootlets, golden eyes, same triangular tuber rather than bulb/cone. Full creature1024 genuine transparent margins, no arms/wings/tail/props/text/ground/shadow.",
+        "reference_sha256": [
+          "5de5b36798b9089fc2fa5ad68a865c00c2edda8afd9076f9668cbab22e3a05c6",
+          "0182853887dd82b9b5abeacc7dbaf2d5423ee001275cf42c5446e073a64d0670"
+        ],
+        "raw_sha256": "bf3f30c489ace1c3f6dcd63f8530099827ec46d0a0d81b8549aa27e4d031b4aa",
+        "output_sha256": "b7d78ec6e8bf29613acb264386a69f6fedf36ee910bd3cffda5072f44d5ce976",
+        "selection_note": "Requested direction visually selected; first W attempt excluded from adoption and retained separately."
+      },
+      {
+        "direction": "NE",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. ONE NE view of exactly this root-and-leaf creature. Input1 original FRONT S locks its anatomy and physical identity; input2 staged side view anchors fixed leaf bend and root-depth overlap. Rotate whole flattened triangular tuber in yaw only, same standing pose and modest camera. Back-right diagonal between N and staged E, front face away-right. Exactly ONE long supple green/cream striped ribbon leaf stays rooted at apex and bent to creature's physical RIGHT; never swap its bend to the other physical side. Physical right side is NEARER, projecting toward SCREEN-RIGHT: same leaf arches toward viewer/right and descends OVER the near-right back of tuber, hiding some bark/veins. Keep continuous progression from right-hanging N to front-overlap E. Preserve original actual leaf length, hooked arch and taper while foreshortening/occluding naturally, no bud/second leaf. SIX thick root legs remain in original order along same lower edge, with natural nearer/farther overlaps; don't rearrange into new circle or add legs. NO eyes visible on near back; all three front eyes are naturally hidden. Same tan bark, cream branching veins, fine rootlets, golden eyes, same triangular tuber rather than bulb/cone. Full creature1024 genuine transparent margins, no arms/wings/tail/props/text/ground/shadow.",
+        "reference_sha256": [
+          "5de5b36798b9089fc2fa5ad68a865c00c2edda8afd9076f9668cbab22e3a05c6",
+          "fbeb96f3767a8a2cca0a29fd581bd8bfa5c12e03518a41fcf10ba4ccfbc332b8"
+        ],
+        "raw_sha256": "44882265d6eb531caf89595704bf69eb2bde0fb621cb800e64422b16df33c2cc",
+        "output_sha256": "7f61a77b2c0ea0fea1aff5a6395326192c1b9ec447dc3f569cbeb369264e6dbd",
+        "selection_note": "Requested direction visually selected; first W attempt excluded from adoption and retained separately."
+      },
+      {
+        "direction": "SW",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact root-and-leaf creature in this exact SW view as authentic128x128 pixel art. Preserve single flattened triangular tan tuber, SIX main tapered root legs and their small rootlets exactly as shown (natural occlusion, no added seventh root), one long green/cream striped leaf from apex with identical bend, overlap and hidden tip. Leaf is behind left edge of tuber, same root and partly occluded tip. Three front-left eyes remain in a shallow row with larger central eye and smaller partly occluded far eye. Keep bark veins and warm brown/gold eyes, original tan/cream/green/mauve palette; at most31 opaque colors, hard-edged controlled pixel clusters, binary transparency. Keep main roots connected and readable; simplify only fine texture, not anatomy. Draw anew on a consistent logical pixel grid, no simple shrinking, blur or antialiasing. Full isolated sprite with margins, no props/text/grid/shadow/ground.",
+        "reference_sha256": [
+          "fb355c2150a7b5e756202241bb67d6a2d56548168ef335cfe03791a785531f25"
+        ],
+        "raw_sha256": "81e495d7e8b04dbe97ec1d9d1bb42790018fab224402c1b81c05b9b60144eef9",
+        "output_sha256": "2c28c73ae66da4493c6bccdbd75aa8a96d814039b924849c793bf77dfcfc0a4e"
+      },
+      {
+        "direction": "W",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact root-and-leaf creature in this exact W view as authentic128x128 pixel art. Preserve single flattened triangular tan tuber, SIX main tapered root legs and their small rootlets exactly as shown (natural occlusion, no added seventh root), one long green/cream striped leaf from apex with identical bend, overlap and hidden tip. Leaf is end-on above apex, far tip hidden behind body. Only one near eye is visible at left edge; two far front eyes remain hidden. Keep bark veins and warm brown/gold eyes, original tan/cream/green/mauve palette; at most31 opaque colors, hard-edged controlled pixel clusters, binary transparency. Keep main roots connected and readable; simplify only fine texture, not anatomy. Draw anew on a consistent logical pixel grid, no simple shrinking, blur or antialiasing. Full isolated sprite with margins, no props/text/grid/shadow/ground.",
+        "reference_sha256": [
+          "0182853887dd82b9b5abeacc7dbaf2d5423ee001275cf42c5446e073a64d0670"
+        ],
+        "raw_sha256": "25ef971aa2fb881a012f7ae8be514ac4211ca8ddeeebcd328dcd6a96557d2fef",
+        "output_sha256": "a6f75dbb2f2b095a8168fae7564faa5b8778b5990082024b7e21f5ba25894074"
+      },
+      {
+        "direction": "NW",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact root-and-leaf creature in this exact NW view as authentic128x128 pixel art. Preserve single flattened triangular tan tuber, SIX main tapered root legs and their small rootlets exactly as shown (natural occlusion, no added seventh root), one long green/cream striped leaf from apex with identical bend, overlap and hidden tip. Leaf arches behind right side with tip hidden by back tuber. No eyes visible on back. Keep bark veins and warm brown/gold eyes, original tan/cream/green/mauve palette; at most31 opaque colors, hard-edged controlled pixel clusters, binary transparency. Keep main roots connected and readable; simplify only fine texture, not anatomy. Draw anew on a consistent logical pixel grid, no simple shrinking, blur or antialiasing. Full isolated sprite with margins, no props/text/grid/shadow/ground.",
+        "reference_sha256": [
+          "b7d78ec6e8bf29613acb264386a69f6fedf36ee910bd3cffda5072f44d5ce976"
+        ],
+        "raw_sha256": "e7c7a6eba09ac6f4bce06f9d92d3b5038779c4592d8fc482c3863a65a48b7f43",
+        "output_sha256": "2c408344308082ea1b29c6e1ef8c67c0f7c2aa4391e577eee6474b80846e548a"
+      },
+      {
+        "direction": "NE",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact root-and-leaf creature in this exact NE view as authentic128x128 pixel art. Preserve single flattened triangular tan tuber, SIX main tapered root legs and their small rootlets exactly as shown (natural occlusion, no added seventh root), one long green/cream striped leaf from apex with identical bend, overlap and hidden tip. Leaf drapes over near-right back and occludes bark. No eyes visible on back. Keep bark veins and warm brown/gold eyes, original tan/cream/green/mauve palette; at most31 opaque colors, hard-edged controlled pixel clusters, binary transparency. Keep main roots connected and readable; simplify only fine texture, not anatomy. Draw anew on a consistent logical pixel grid, no simple shrinking, blur or antialiasing. Full isolated sprite with margins, no props/text/grid/shadow/ground.",
+        "reference_sha256": [
+          "7f61a77b2c0ea0fea1aff5a6395326192c1b9ec447dc3f569cbeb369264e6dbd"
+        ],
+        "raw_sha256": "ecc4e50852d77f34e534b359354e27a1d88b34489af398ac2a7307b7320cec2a",
+        "output_sha256": "55ebac76b723f5e993a93328795460a33bd9e11b96ca047dbd63ed235645d2a2"
+      },
+      {
+        "direction": "E",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact root-and-leaf creature in this exact E view as authentic128x128 pixel art. Preserve single flattened triangular tan tuber, SIX main tapered root legs and their small rootlets exactly as shown (natural occlusion, no added seventh root), one long green/cream striped leaf from apex with identical bend, overlap and hidden tip. Leaf drapes down in foreground over middle tuber, keep clear overlap. Only one near eye visible at right edge, other front eyes hidden. Keep bark veins and warm brown/gold eyes, original tan/cream/green/mauve palette; at most31 opaque colors, hard-edged controlled pixel clusters, binary transparency. Keep main roots connected and readable; simplify only fine texture, not anatomy. Draw anew on a consistent logical pixel grid, no simple shrinking, blur or antialiasing. Full isolated sprite with margins, no props/text/grid/shadow/ground.",
+        "reference_sha256": [
+          "fbeb96f3767a8a2cca0a29fd581bd8bfa5c12e03518a41fcf10ba4ccfbc332b8"
+        ],
+        "raw_sha256": "e1993a7143ebcc9d07bf8b6cd89ff86e205983083e358563bf0d44b7e9fc316a",
+        "output_sha256": "8f0c1f55aeba50d16070e099973ba726e7cdbbe37c4a121c16cb89d5204bfb76"
+      },
+      {
+        "direction": "SE",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact root-and-leaf creature in this exact SE view as authentic128x128 pixel art. Preserve single flattened triangular tan tuber, SIX main tapered root legs and their small rootlets exactly as shown (natural occlusion, no added seventh root), one long green/cream striped leaf from apex with identical bend, overlap and hidden tip. Leaf drapes down over near-left front tuber, keep clear overlap. Three front-right eyes in row, larger center and partly foreshortened far eye. Keep bark veins and warm brown/gold eyes, original tan/cream/green/mauve palette; at most31 opaque colors, hard-edged controlled pixel clusters, binary transparency. Keep main roots connected and readable; simplify only fine texture, not anatomy. Draw anew on a consistent logical pixel grid, no simple shrinking, blur or antialiasing. Full isolated sprite with margins, no props/text/grid/shadow/ground.",
+        "reference_sha256": [
+          "132349747005ee380bfd665a005bc8c4627c3bf295ced1d78c7656594f5ad26d"
+        ],
+        "raw_sha256": "dffe06adc28df21492f8dd49f80cfd02ca3d4c0211e8c43c8bf2117fa9ebd905",
+        "output_sha256": "8fda99297ba97b97104ce657aec4e8caede161dd16a3837a0371fbb29141b2a3"
+      }
+    ],
+    "reused_N": {
+      "normal_input_sha256": "82017c1c83a76569947cf03ac27baa105cf4fa3fa0b37ba23358a93d8b88be76",
+      "pixel_input_sha256": "967631da9555f1f13196c8e40924cdc5ad7ee8b40987cd42ce472a1aa182ff32"
+    },
+    "source_history_review": "Fixed metadata was read in full; detailed original attempts not recovered. E ledger confirms no known safety stop, cancellation or added generation hold. Record completeness beyond available history unproven."
+  },
+  "processing": {
+    "normal": "Raw retained; alpha below8 cleared, proportional LANCZOS longest864, centered1024, low alpha cleared again. Old N proportionally normalized in separate derived file.",
+    "pixel": "Independently drawn pixel inputs; nearest128 grid, alpha128 threshold, crop/nearest longest108, visible MAXCOVERAGE31 palette no dithering, centered128; transparentRGBzero. Original S unchanged.",
+    "shape_redraw_by_program": false
+  },
+  "qa": {
+    "technical": "16/16 local pass",
+    "normal_review": "full-turn stage candidate passed",
+    "pair_review": "local all16 comparison, native and nearest pixel views on white/black checked; independent review pending",
+    "old_hold": "Old leaf tip stayed screen-left across most views and root yaw order was unclear. Revised views preserve same bent leaf side through far-side concealment versus near-side drape, with front eye occlusion and root depth overlap.",
+    "limitations": [
+      "Tuber thickness and six-root depth positions inferred consistently from original flattened body",
+      "Precise camera/angles and hidden root overlap are artistic estimates, not unique3D reconstruction",
+      "Old adopted hashes and exact old direction prompts unproven",
+      "Game/runtime and final user acceptance pending"
+    ],
+    "original_pair_unchanged": true,
+    "independent_review": "E remeasured all16 slots and original source Git blobs; full8pair and native/enlarged black-white pixel edges reviewed. Three front eyes/side eye/rear absence, six main root attachments and curved leaf overlap correspond. Source detailed historical attempts unavailable; inferred body thickness/root depth/camera remain unmeasured and runtime untested. N is post-recovery visual reselection, not proven identical to historical adoption."
+  }
+}

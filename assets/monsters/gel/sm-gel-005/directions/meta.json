@@ -1,0 +1,665 @@
+{
+  "schema_version": 1,
+  "id": "sm-gel-005",
+  "asset_type": "recovery_reselected_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "original_direction_basis": "Catalog explicitly specifies fan front-facing pose; fixed original pair retained unchanged.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default",
+      "sha256": "6d6ad7d43cac470a7d314873e5c8b2c2e2b55a7f0848ebc87f25cd194403dda0",
+      "bytes": 579435,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        64,
+        106,
+        960,
+        917
+      ],
+      "margins": [
+        64,
+        106,
+        64,
+        107
+      ],
+      "extent": 896,
+      "visible_colors": 42204,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-005/default.png",
+      "git_blob_sha": "303b0cdd3db0a27d504e6de5af9c101f7b1ecfe7",
+      "original_preserved": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "sha256": "c7d46b1e32436a3e4cf31476fae340a1426b85992be673e27bf046f5b39604c2",
+      "bytes": 6145,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        26,
+        116,
+        102
+      ],
+      "margins": [
+        12,
+        26,
+        12,
+        26
+      ],
+      "extent": 104,
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-005/pixel.png",
+      "git_blob_sha": "b50d37cbb463900f92cd8e72902c3c95940fcbca",
+      "original_preserved": true
+    },
+    {
+      "direction": "SW",
+      "kind": "default",
+      "sha256": "0645e0c41d9020595665437988d9125e695cac3e5cb6297462bc28aea662ef75",
+      "bytes": 700623,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        94,
+        944,
+        929
+      ],
+      "margins": [
+        80,
+        94,
+        80,
+        95
+      ],
+      "extent": 864,
+      "visible_colors": 56443,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-005/directions/SW/default.png",
+      "git_blob_sha": "395b3aaf6736cb6e9578844e0a7d2f3207797bad",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "sha256": "dd7809944ab60afbd948e2e5cfc9c4b1724d0b7ea8850a170087cd911133697f",
+      "bytes": 6760,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        11,
+        118,
+        116
+      ],
+      "margins": [
+        10,
+        11,
+        10,
+        12
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-005/directions/SW/pixel.png",
+      "git_blob_sha": "3782cf8a5fb437333df5130c8855caec084df65d",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default",
+      "sha256": "b4afc09d23f7189109456f3ec94e4107c119074bb5c92a2bfd5e06a155fe94d2",
+      "bytes": 382297,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        317,
+        80,
+        706,
+        944
+      ],
+      "margins": [
+        317,
+        80,
+        318,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 43281,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-005/directions/W/default.png",
+      "git_blob_sha": "a48058fd7e0339f1a0e53323ed9ef619b137f19a",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "sha256": "4c82080f1152d7fc7a8a94a74ae54f1fd62958b96c016097ecfb19f785af44a7",
+      "bytes": 4319,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        39,
+        10,
+        89,
+        118
+      ],
+      "margins": [
+        39,
+        10,
+        39,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-005/directions/W/pixel.png",
+      "git_blob_sha": "9de687364cd80eb917af8df3a11cd03a29b3045e",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default",
+      "sha256": "af23f2e908974efe4853ff758741d0efc6a6549e21c09e8e9a85deee959ef02e",
+      "bytes": 644166,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        110,
+        944,
+        914
+      ],
+      "margins": [
+        80,
+        110,
+        80,
+        110
+      ],
+      "extent": 864,
+      "visible_colors": 41388,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-005/directions/NW/default.png",
+      "git_blob_sha": "f799176d18779689da7d8d2e39444de54f1aca96",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "sha256": "d871e9641acbfca32221a082dc790d224ab7d3792323c775359fb9fc93f0061c",
+      "bytes": 7631,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        12,
+        118,
+        116
+      ],
+      "margins": [
+        10,
+        12,
+        10,
+        12
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-005/directions/NW/pixel.png",
+      "git_blob_sha": "8deb036b9da5556a5635cbd976a77b2d50c6e687",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default",
+      "sha256": "23d545a7ddfd681dd612b8109396ceae00d8862a1e1d977e64d43ba2690598a1",
+      "bytes": 548387,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        208,
+        944,
+        816
+      ],
+      "margins": [
+        80,
+        208,
+        80,
+        208
+      ],
+      "extent": 864,
+      "visible_colors": 36849,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-005/directions/N/default.png",
+      "git_blob_sha": "36f06cbf5ca172c2b81bdc1ad15ae3f3d841316d",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "sha256": "e7db7468177bd4ffa26e15f1cc1594e1bfd7e115488113cd0e8cc2df362e015a",
+      "bytes": 7042,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        24,
+        118,
+        103
+      ],
+      "margins": [
+        10,
+        24,
+        10,
+        25
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-005/directions/N/pixel.png",
+      "git_blob_sha": "9ddd98abdd7381496e84096049e447783208f9c1",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default",
+      "sha256": "169b9d5d80c5648a38e81f952490de913c546b5b93148e2b9501358993f6ce56",
+      "bytes": 626001,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        136,
+        944,
+        887
+      ],
+      "margins": [
+        80,
+        136,
+        80,
+        137
+      ],
+      "extent": 864,
+      "visible_colors": 36674,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-005/directions/NE/default.png",
+      "git_blob_sha": "201ad6b0a638a81fb1bbc3e3494e9eb691f6411d",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "sha256": "05a0d1fa370aadec9a9fbbf2c785af41e2a287b6280dfad4260cf8accaf733ca",
+      "bytes": 7813,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        17,
+        118,
+        111
+      ],
+      "margins": [
+        10,
+        17,
+        10,
+        17
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-005/directions/NE/pixel.png",
+      "git_blob_sha": "2c171b4bf214a714c4b6debed82bf582f5f7778a",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default",
+      "sha256": "92e5468c4f768bb888aca2eb850c8f6d70923d0b4e9f14a4551736bfa8c2c7b3",
+      "bytes": 325349,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        348,
+        80,
+        677,
+        944
+      ],
+      "margins": [
+        348,
+        80,
+        347,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 37899,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-005/directions/E/default.png",
+      "git_blob_sha": "a6d2191fef7c5ee82a1b66e9c9b22aca9f28472a",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "sha256": "aff9a3822746ca3d650641ef4082ee8f9c94f0505e30d7d255813a1d69c75c73",
+      "bytes": 3926,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        41,
+        10,
+        86,
+        118
+      ],
+      "margins": [
+        41,
+        10,
+        42,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-005/directions/E/pixel.png",
+      "git_blob_sha": "ab24e088aad6be75be37799517aa185bac1dd7a1",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default",
+      "sha256": "496d2b73b0beb75a778a672a9e837480e466498ca7b1ce1fb061a07af4c9c5fc",
+      "bytes": 709349,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        109,
+        80,
+        914,
+        944
+      ],
+      "margins": [
+        109,
+        80,
+        110,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 43682,
+      "binary_alpha": false,
+      "file": "assets/monsters/gel/sm-gel-005/directions/SE/default.png",
+      "git_blob_sha": "42cfcd589432df15d105874dd6e84185587a4792",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "sha256": "b0e3b16a3de0572937d13d85973ad526b99a40d747928f59a1a8c6858fd6600b",
+      "bytes": 7397,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        13,
+        10,
+        114,
+        118
+      ],
+      "margins": [
+        13,
+        10,
+        14,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/gel/sm-gel-005/directions/SE/pixel.png",
+      "git_blob_sha": "c06884ef19a3c097f584781e96f1bc02bf04efb2",
+      "original_preserved": false
+    }
+  ],
+  "anatomy": {
+    "body_segments": 1,
+    "form": "broad soft semicircular fan membrane",
+    "eyes": 2,
+    "teardrop_feet": 5,
+    "arms": 0,
+    "wings": 0,
+    "tails": 0,
+    "cloudy_rays": 3,
+    "fixed_connections": "five ordered roots on same lower edge; three rays converge at same lower central point and fan to original upper rim"
+  },
+  "provenance": {
+    "recovered_visual_reselection": true,
+    "historical_adoption_identity_proven": false,
+    "old_direction_prompts": "not fully recovered; old N selected visually, not claimed historically identical",
+    "new_generation_directions": [
+      "SW",
+      "W",
+      "NW",
+      "NE",
+      "E",
+      "SE"
+    ],
+    "new_generation_image_count": 12,
+    "new_generations": [
+      {
+        "direction": "W",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. ONE transparent W true LEFT PROFILE sprite of the exact original fan-shaped gel creature in input1. The input is its FRONT S view and the sole identity reference. Turn this SAME softly rounded thin fan membrane 90 degrees in yaw, front pointing screen-left. This is a broad semicircular FAN with a thin rounded gel edge, not a hemispherical dome or bell. In true profile its broad fan face is strongly foreshortened to a narrow softly curved side, preserving its full upright fan height and small original gel thickness. Do not leave the full broad fan face exposed. TWO eyes remain on the front face: only the near eye may peek at the left front edge, far eye hidden. Exactly THREE pale green broad cloudy rays stay embedded on the SAME front membrane, converging at the SAME bottom-center junction and spreading to the curved upper rim; at this edge view most rays are naturally compressed/occluded, not relocated across a new dome. Exactly FIVE short teardrop feet keep their five evenly spaced roots along the SAME straight lower edge of the fan. That lower edge now recedes in depth, so feet overlap naturally in a near-to-far row; do not fan all five across screen or move their roots to make them countable. No added sixth foot, long tentacle, arm, wing, tail, split body or opening. Preserve pink translucent gel, pale mint rays, mauve contour, soft upper-left highlights, same stance and modest camera height. Infer only a soft rounded thickness from original edge, never a flat rigid board or a new thick cylinder. Full isolated character, 1024 square real transparency with generous margin, no ground, shadow, text or sheet.",
+        "reference_sha256": [
+          "6d6ad7d43cac470a7d314873e5c8b2c2e2b55a7f0848ebc87f25cd194403dda0"
+        ],
+        "raw_sha256": "a74baef0d2993c706be39171afbc9b7dfc45d2dda0c68aa8fd247a4c08504582",
+        "output_sha256": "b4afc09d23f7189109456f3ec94e4107c119074bb5c92a2bfd5e06a155fe94d2",
+        "selection_note": "Requested direction visually selected"
+      },
+      {
+        "direction": "E",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. ONE transparent E true RIGHT PROFILE sprite of the exact original fan-shaped gel creature in input1. Input1 is its FRONT S view and the identity reference. Input2 is the staged opposite W side as a supporting thickness/curvature reference, not a new design. Turn this SAME softly rounded thin fan membrane 90 degrees in yaw, front pointing screen-right. This is a broad semicircular FAN with a thin rounded gel edge, not a hemispherical dome or bell. In true profile its broad fan face is strongly foreshortened to a narrow softly curved side, preserving its full upright fan height and small original gel thickness. Do not leave the full broad fan face exposed. TWO eyes remain on the front face: only the near eye may peek at the right front edge, far eye hidden. Exactly THREE pale green broad cloudy rays stay embedded on the SAME front membrane, converging at the SAME bottom-center junction and spreading to the curved upper rim; at this edge view most rays are naturally compressed/occluded, not relocated across a new dome. Exactly FIVE short teardrop feet keep their five evenly spaced roots along the SAME straight lower edge of the fan. That lower edge now recedes in depth, so feet overlap naturally in a near-to-far row; do not fan all five across screen or move their roots to make them countable. No added sixth foot, long tentacle, arm, wing, tail, split body or opening. Preserve pink translucent gel, pale mint rays, mauve contour, soft upper-left highlights, same stance and modest camera height. Infer only a soft rounded thickness from original edge, never a flat rigid board or a new thick cylinder. Full isolated character, 1024 square real transparency with generous margin, no ground, shadow, text or sheet.",
+        "reference_sha256": [
+          "6d6ad7d43cac470a7d314873e5c8b2c2e2b55a7f0848ebc87f25cd194403dda0",
+          "b4afc09d23f7189109456f3ec94e4107c119074bb5c92a2bfd5e06a155fe94d2"
+        ],
+        "raw_sha256": "6906ec3da54e6fda532d8bc6bdd7ebea1728c01c88b0bcd6805c854a7f9d9fd5",
+        "output_sha256": "92e5468c4f768bb888aca2eb850c8f6d70923d0b4e9f14a4551736bfa8c2c7b3",
+        "selection_note": "Requested direction visually selected"
+      },
+      {
+        "direction": "SE",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. ONE SW front-left three-quarter sprite of this same soft pink FAN membrane creature. Input1 is original front S identity; input2 is approved staged W profile showing its rounded membrane thickness. Rotate the original entire fan about45 degrees in yaw toward screen-left, midway between these two references. Keep a continuous broad semicircular fan, but naturally foreshorten its face width, NOT a hemispherical dome. Preserve front height and gently rounded thin gel membrane curvature. TWO front eyes turn toward LEFT, near eye larger and far eye narrower; both remain close to original lower-front positions. THREE pale green thick rays stay rooted together at the original bottom-center junction and spread upward to the same three rim locations; foreshorten the entire fixed fan/ray arrangement together, do not relocate convergence toward a different foot. FIVE short teardrop feet remain in their original order on the fan's lower edge, now a diagonal line receding toward screen-right: near feet overlap far feet naturally, no new feet and no circular arrangement. Keep pink translucent gel, mint cloudy rays and mauve outline, same posture and camera. No arms/wings/tail/extra lobes/crack, no rigid flat board, no dome. Full-body isolated sprite1024 with true transparent margin, no text/ground/shadow.",
+        "reference_sha256": [
+          "6d6ad7d43cac470a7d314873e5c8b2c2e2b55a7f0848ebc87f25cd194403dda0",
+          "b4afc09d23f7189109456f3ec94e4107c119074bb5c92a2bfd5e06a155fe94d2"
+        ],
+        "raw_sha256": "82439671c3fe2ade155d353c060c1fe64d548c680bda8713580bc07deda6e842",
+        "output_sha256": "496d2b73b0beb75a778a672a9e837480e466498ca7b1ce1fb061a07af4c9c5fc",
+        "selection_note": "Requested SW; output eye projection is front-right and selected as SE after visual review."
+      },
+      {
+        "direction": "SW",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. ONE SW front-left three-quarter view of the same soft fan gel creature. Input1 original S fixes exact identity; input2 accepted W fixes side thickness. Important facing cue: turn front toward SCREEN-LEFT. Put the face's two eyes in the LOWER-LEFT area of projected fan, the far eye at the extreme LEFT is narrower/smaller, and the near eye just to its RIGHT is wider/larger. The three-ray bottom convergence is the same physical central junction between/below these eyes, now projected left-of-center, never shifted on the actual membrane. The fan's right side recedes behind toward screen-right. Face width is naturally compressed between full-front and narrow W; retain height, semicircular rounded upper rim and soft thin gel thickness, NOT a dome. Exactly THREE thick pale-green rays fan upward from the same lower-center junction to their original upper-rim endpoints. Exactly FIVE short teardrop feet remain in order along the original lower edge; screen-right feet are farther/smaller with natural overlaps, not spread around a circular belly. Preserve original pink gel, mint rays, mauve outline, same body shape and modest camera. Two eyes only, no arm/wing/tail/extra foot/crack/props. Full single creature1024 transparent margin, no text/shadow/ground.",
+        "reference_sha256": [
+          "6d6ad7d43cac470a7d314873e5c8b2c2e2b55a7f0848ebc87f25cd194403dda0",
+          "b4afc09d23f7189109456f3ec94e4107c119074bb5c92a2bfd5e06a155fe94d2"
+        ],
+        "raw_sha256": "a7c60c28df0d25181bed0210542867d4994b7b94c976cb1125de011e6427dcf4",
+        "output_sha256": "0645e0c41d9020595665437988d9125e695cac3e5cb6297462bc28aea662ef75",
+        "selection_note": "Requested direction visually selected"
+      },
+      {
+        "direction": "NW",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. ONE NW back-left three-quarter view of exactly this soft pink fan-membrane creature. Input1 is original front S identity; input2 approved W side defines rounded thin thickness; input3 old N back is only the eyeless-back/ray material reference. Rotate SAME semicircular fan around vertical axis to the back-left diagonal, between W narrow side and N full broad back. NO EYES visible: front eyes are on the far face occluded by membrane. Keep upright softly curved fan height and naturally foreshorten the width to an oblique fan plane, not a dome or round bell. Exactly THREE broad pale mint rays remain embedded in the same membrane, spread from the SAME bottom-center junction to original upper rim points; visible softly through back gel, no new rays and no moving junction to another foot. Exactly FIVE short teardrop feet stay along the SAME lower edge in original order, no circular redistribution. In this diagonal rear view the lower edge recedes from near screen-right toward far screen-left, so nearer right feet can overlap smaller far left feet naturally. Preserve continuous pink translucent gel silhouette, soft round rim, original pastel palette and mauve line, no gap/crack, arm, wing, tail, sixth foot, props. Same shallow camera, not top-down. One full-body character1024, generous true transparent margin, no text/ground/shadow.",
+        "reference_sha256": [
+          "6d6ad7d43cac470a7d314873e5c8b2c2e2b55a7f0848ebc87f25cd194403dda0",
+          "b4afc09d23f7189109456f3ec94e4107c119074bb5c92a2bfd5e06a155fe94d2",
+          "d95f1484dbecaa51ffa41fc6905d899dccefb1226e574fce70ca56f13714849e"
+        ],
+        "raw_sha256": "f025f02a1bab60f892cb7980b1ed77a6574c25ed4da1e9a14eb173d9748f6346",
+        "output_sha256": "af23f2e908974efe4853ff758741d0efc6a6549e21c09e8e9a85deee959ef02e",
+        "selection_note": "Requested direction visually selected"
+      },
+      {
+        "direction": "NE",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. ONE NE back-right three-quarter view of exactly this soft pink fan-membrane creature. Input1 is original front S identity; input2 approved E side defines rounded thin thickness; input3 old N back is only the eyeless-back/ray material reference. Rotate SAME semicircular fan around vertical axis to the back-right diagonal, between E narrow side and N full broad back. NO EYES visible: front eyes are on the far face occluded by membrane. Keep upright softly curved fan height and naturally foreshorten the width to an oblique fan plane, not a dome or round bell. Exactly THREE broad pale mint rays remain embedded in the same membrane, spread from the SAME bottom-center junction to original upper rim points; visible softly through back gel, no new rays and no moving junction to another foot. Exactly FIVE short teardrop feet stay along the SAME lower edge in original order, no circular redistribution. In this diagonal rear view the lower edge recedes from near screen-left toward far screen-right, so nearer left feet can overlap smaller far right feet naturally. Preserve continuous pink translucent gel silhouette, soft round rim, original pastel palette and mauve line, no gap/crack, arm, wing, tail, sixth foot, props. Same shallow camera, not top-down. One full-body character1024, generous true transparent margin, no text/ground/shadow.",
+        "reference_sha256": [
+          "6d6ad7d43cac470a7d314873e5c8b2c2e2b55a7f0848ebc87f25cd194403dda0",
+          "92e5468c4f768bb888aca2eb850c8f6d70923d0b4e9f14a4551736bfa8c2c7b3",
+          "d95f1484dbecaa51ffa41fc6905d899dccefb1226e574fce70ca56f13714849e"
+        ],
+        "raw_sha256": "798de0288d8cf14d7f0a9782c6c162b9dcc74bb27e86c5ab06e8377cbc64fb62",
+        "output_sha256": "169b9d5d80c5648a38e81f952490de913c546b5b93148e2b9501358993f6ce56",
+        "selection_note": "Requested direction visually selected"
+      },
+      {
+        "direction": "SW",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact single soft pink FAN membrane creature as authentic pixel art on a 128x128 logical grid. Match this SW view exactly, including silhouette and all root occlusion. Preserve the semicircular fan membrane with rounded gel edge, THREE thick pale-mint cloudy rays converging at the SAME bottom-center point and spreading to original upper rim points. Exactly FIVE short teardrop feet stay in the same order along lower edge with exactly the reference's visible overlap; hidden feet stay hidden, never add an extra foot or spread them into a circle. Preserve TWO left-facing front eyes, far left smaller and near right larger. No arms/wings/tail/crack/props. Keep original pink gel, pale-green rays and mauve dark contour, readable three-step gel clusters, at most31 opaque colors, binary alpha and true transparency. Preserve foreshortening and thickness, do not widen a profile or turn membrane into a dome. Crisp pixel steps without blur/antialiasing; draw pixel art anew, not merely resize normal. Full sprite with transparent margin, no text/grid/sheet/shadow/ground.",
+        "reference_sha256": [
+          "0645e0c41d9020595665437988d9125e695cac3e5cb6297462bc28aea662ef75"
+        ],
+        "raw_sha256": "93a0ae8d886fc38b8bf5a303130dc788f049e49d9171e6e8953f7eef181ec4a8",
+        "output_sha256": "dd7809944ab60afbd948e2e5cfc9c4b1724d0b7ea8850a170087cd911133697f"
+      },
+      {
+        "direction": "W",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact single soft pink FAN membrane creature as authentic pixel art on a 128x128 logical grid. Match this W view exactly, including silhouette and all root occlusion. Preserve the semicircular fan membrane with rounded gel edge, THREE thick pale-mint cloudy rays converging at the SAME bottom-center point and spreading to original upper rim points. Exactly FIVE short teardrop feet stay in the same order along lower edge with exactly the reference's visible overlap; hidden feet stay hidden, never add an extra foot or spread them into a circle. Preserve ONE near eye on left front edge, far eye hidden. No arms/wings/tail/crack/props. Keep original pink gel, pale-green rays and mauve dark contour, readable three-step gel clusters, at most31 opaque colors, binary alpha and true transparency. Preserve foreshortening and thickness, do not widen a profile or turn membrane into a dome. Crisp pixel steps without blur/antialiasing; draw pixel art anew, not merely resize normal. Full sprite with transparent margin, no text/grid/sheet/shadow/ground.",
+        "reference_sha256": [
+          "b4afc09d23f7189109456f3ec94e4107c119074bb5c92a2bfd5e06a155fe94d2"
+        ],
+        "raw_sha256": "34e15af0e75c48141bb368faf879f87094ad929770149d530ee937f64783a97a",
+        "output_sha256": "4c82080f1152d7fc7a8a94a74ae54f1fd62958b96c016097ecfb19f785af44a7"
+      },
+      {
+        "direction": "NW",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact single soft pink FAN membrane creature as authentic pixel art on a 128x128 logical grid. Match this NW view exactly, including silhouette and all root occlusion. Preserve the semicircular fan membrane with rounded gel edge, THREE thick pale-mint cloudy rays converging at the SAME bottom-center point and spreading to original upper rim points. Exactly FIVE short teardrop feet stay in the same order along lower edge with exactly the reference's visible overlap; hidden feet stay hidden, never add an extra foot or spread them into a circle. NO EYES visible in this rear-oblique view; do not invent face marks. No arms/wings/tail/crack/props. Keep original pink gel, pale-green rays and mauve dark contour, readable three-step gel clusters, at most31 opaque colors, binary alpha and true transparency. Preserve foreshortening and thickness, do not widen a profile or turn membrane into a dome. Crisp pixel steps without blur/antialiasing; draw pixel art anew, not merely resize normal. Full sprite with transparent margin, no text/grid/sheet/shadow/ground.",
+        "reference_sha256": [
+          "af23f2e908974efe4853ff758741d0efc6a6549e21c09e8e9a85deee959ef02e"
+        ],
+        "raw_sha256": "6235116500baadde793e96e771812fc538f6928d86a7646d3e99a14a761cfca6",
+        "output_sha256": "d871e9641acbfca32221a082dc790d224ab7d3792323c775359fb9fc93f0061c"
+      },
+      {
+        "direction": "NE",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact single soft pink FAN membrane creature as authentic pixel art on a 128x128 logical grid. Match this NE view exactly, including silhouette and all root occlusion. Preserve the semicircular fan membrane with rounded gel edge, THREE thick pale-mint cloudy rays converging at the SAME bottom-center point and spreading to original upper rim points. Exactly FIVE short teardrop feet stay in the same order along lower edge with exactly the reference's visible overlap; hidden feet stay hidden, never add an extra foot or spread them into a circle. NO EYES visible in this rear-oblique view; do not invent face marks. No arms/wings/tail/crack/props. Keep original pink gel, pale-green rays and mauve dark contour, readable three-step gel clusters, at most31 opaque colors, binary alpha and true transparency. Preserve foreshortening and thickness, do not widen a profile or turn membrane into a dome. Crisp pixel steps without blur/antialiasing; draw pixel art anew, not merely resize normal. Full sprite with transparent margin, no text/grid/sheet/shadow/ground.",
+        "reference_sha256": [
+          "169b9d5d80c5648a38e81f952490de913c546b5b93148e2b9501358993f6ce56"
+        ],
+        "raw_sha256": "657b3cb3617736f269b60fe05e850f6dd70234c5548358b0d262eb0740d20b0f",
+        "output_sha256": "05a0d1fa370aadec9a9fbbf2c785af41e2a287b6280dfad4260cf8accaf733ca"
+      },
+      {
+        "direction": "E",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact single soft pink FAN membrane creature as authentic pixel art on a 128x128 logical grid. Match this E view exactly, including silhouette and all root occlusion. Preserve the semicircular fan membrane with rounded gel edge, THREE thick pale-mint cloudy rays converging at the SAME bottom-center point and spreading to original upper rim points. Exactly FIVE short teardrop feet stay in the same order along lower edge with exactly the reference's visible overlap; hidden feet stay hidden, never add an extra foot or spread them into a circle. Preserve ONE near eye on right front edge, far eye hidden. No arms/wings/tail/crack/props. Keep original pink gel, pale-green rays and mauve dark contour, readable three-step gel clusters, at most31 opaque colors, binary alpha and true transparency. Preserve foreshortening and thickness, do not widen a profile or turn membrane into a dome. Crisp pixel steps without blur/antialiasing; draw pixel art anew, not merely resize normal. Full sprite with transparent margin, no text/grid/sheet/shadow/ground.",
+        "reference_sha256": [
+          "92e5468c4f768bb888aca2eb850c8f6d70923d0b4e9f14a4551736bfa8c2c7b3"
+        ],
+        "raw_sha256": "c4430c563ad512257a9045b7281d9f82d58ffb761bb1b532ebb3baa59d6d923d",
+        "output_sha256": "aff9a3822746ca3d650641ef4082ee8f9c94f0505e30d7d255813a1d69c75c73"
+      },
+      {
+        "direction": "SE",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact single soft pink FAN membrane creature as authentic pixel art on a 128x128 logical grid. Match this SE view exactly, including silhouette and all root occlusion. Preserve the semicircular fan membrane with rounded gel edge, THREE thick pale-mint cloudy rays converging at the SAME bottom-center point and spreading to original upper rim points. Exactly FIVE short teardrop feet stay in the same order along lower edge with exactly the reference's visible overlap; hidden feet stay hidden, never add an extra foot or spread them into a circle. Preserve TWO right-facing front eyes, near left larger and far right smaller. No arms/wings/tail/crack/props. Keep original pink gel, pale-green rays and mauve dark contour, readable three-step gel clusters, at most31 opaque colors, binary alpha and true transparency. Preserve foreshortening and thickness, do not widen a profile or turn membrane into a dome. Crisp pixel steps without blur/antialiasing; draw pixel art anew, not merely resize normal. Full sprite with transparent margin, no text/grid/sheet/shadow/ground.",
+        "reference_sha256": [
+          "496d2b73b0beb75a778a672a9e837480e466498ca7b1ce1fb061a07af4c9c5fc"
+        ],
+        "raw_sha256": "89bb3af5ff5640e22631a2fd371b32dd39fc612dca5515f5fcc8c297104d833f",
+        "output_sha256": "b0e3b16a3de0572937d13d85973ad526b99a40d747928f59a1a8c6858fd6600b"
+      }
+    ],
+    "reused_N": {
+      "normal_input_sha256": "23d545a7ddfd681dd612b8109396ceae00d8862a1e1d977e64d43ba2690598a1",
+      "pixel_input_sha256": "7190320021e2422a7a53ea7c79a8f9b7b40b402e0be1c05cd782b17e14d7bf3d"
+    },
+    "source_history_review": "Available original normal1 and pixel1 attempt records were read in full and both accepted after finishing. No explicit stop recorded; completeness beyond available records unproven."
+  },
+  "processing": {
+    "normal": "Raw retained; alpha below8 cleared, proportional LANCZOS longest864, centered1024, low alpha cleared again. Old N proportionally normalized in separate derived file.",
+    "pixel": "Independently drawn pixel inputs; nearest128 grid, alpha128 threshold, crop/nearest longest108, visible MAXCOVERAGE31 palette no dithering, centered128; transparentRGBzero. Original S unchanged.",
+    "shape_redraw_by_program": false
+  },
+  "qa": {
+    "technical": "16/16 local pass",
+    "normal_review": "full-turn stage candidate passed",
+    "pair_review": "local all16 comparison, native and nearest pixel views on white/black checked; independent review pending",
+    "old_hold": "Old profiles kept a dome-like full fan width and spread feet; new plane foreshortening and lower-edge depth overlap correct the continuity.",
+    "limitations": [
+      "Soft gel membrane thickness and curvature inferred consistently from original rounded edge",
+      "Precise camera/angles and hidden foot overlap are artistic estimates, not unique3D reconstruction",
+      "Old adopted hashes and exact old direction prompts unproven",
+      "Game/runtime and final user acceptance pending"
+    ],
+    "original_pair_unchanged": true,
+    "independent_review": "All16 numeric/hash checks passed; parent eight-pair and E W/E normal/native pixel review confirms profile foreshortening, compressed five-foot row, opposite eye edge and ray correspondence. Rounded membrane thickness, rear ray appearance/root depth are inferred; precise3D/runtime unverified.",
+    "source_history": "Available source normal1/pixel1 attempts accepted after finishing, no explicit safety-stop marker. Unrecorded calls not established."
+  }
+}
