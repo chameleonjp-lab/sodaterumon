@@ -1,0 +1,595 @@
+{
+  "schema_version": 1,
+  "id": "sm-gel-002",
+  "asset_type": "eight_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "direction_definition": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-002/default.png",
+      "bytes": 409082,
+      "sha256": "da23ef4398e4114c909e0c94fb8c23353288324b22faba1d4f0a036c6453f6a6",
+      "git_blob_sha": "6752cc4f67be0a2aa7e6a3a9aad4681b9ba483b5",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        99,
+        256,
+        917,
+        839
+      ],
+      "visible_colors": 27145,
+      "binary_alpha": false,
+      "original_preserved": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-002/pixel.png",
+      "bytes": 6096,
+      "sha256": "d271200d9094af080d248b8135536ceeea0107976de8c504d9bb2d0cac5aa1fc",
+      "git_blob_sha": "1ade3d67bc6a8333288395c619f08ae7eb44ff2f",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        26,
+        116,
+        102
+      ],
+      "visible_colors": 22,
+      "binary_alpha": true,
+      "original_preserved": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/SW/default.png",
+      "bytes": 504577,
+      "sha256": "1f7def66b8c84674b2452186d621adf83fa361a5aa6468c93de7e8da6077cb39",
+      "git_blob_sha": "26ad03efda5438ce72a9ed5fc1a2e54a8b5a5fd4",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        162,
+        927,
+        861
+      ],
+      "visible_colors": 33772,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/SW/pixel.png",
+      "bytes": 6032,
+      "sha256": "dd8caad58e71794d6aae54e80b79403e97402f1d7816993f8a54e3f704f0aeec",
+      "git_blob_sha": "b21141c13239323e7f802fbc5f4ea19e8c1ecd34",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        21,
+        116,
+        106
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/W/default.png",
+      "bytes": 344243,
+      "sha256": "ce0384a626ee0ad7b18cef7fba592a01a4fbd7e5c76e5e5d9b5b0d1d7bd5eae0",
+      "git_blob_sha": "fe0eca7c05b1e5b48169651db005b68d3491b609",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        314,
+        97,
+        710,
+        927
+      ],
+      "visible_colors": 25490,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/W/pixel.png",
+      "bytes": 4388,
+      "sha256": "bf984d5cb6865432665784c518d96b1cf4dd6108a061c18bf543f03ac8eb3772",
+      "git_blob_sha": "5852d9b9f3659859b4c1d76e7b55ea6a73c9402e",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        39,
+        12,
+        89,
+        116
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/NW/default.png",
+      "bytes": 431225,
+      "sha256": "898dc4ef35fdb8ac7fe8826a95f622fae5af478cea407b29da34763bc21152bc",
+      "git_blob_sha": "9ad86b775488c5f18cf22505637df146adb22f9f",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        209,
+        928,
+        813
+      ],
+      "visible_colors": 24623,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/NW/pixel.png",
+      "bytes": 5230,
+      "sha256": "f52babcec572901f908a7dba137e2fbb691806fb8b29ce71c5f958c42aab9afb",
+      "git_blob_sha": "c589609b56042c0fcee7551fc82d527ecc7dda40",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        27,
+        116,
+        100
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/N/default.png",
+      "bytes": 407429,
+      "sha256": "f4c2d3bf0c6c692e61a7937cb4b1997995fdc2bae789d40c19a09571d0af3806",
+      "git_blob_sha": "71a5d8bd1cc81bd41446292b060030be90673daa",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        227,
+        927,
+        795
+      ],
+      "visible_colors": 24900,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/N/pixel.png",
+      "bytes": 4683,
+      "sha256": "99be344c0e57685cfc9c3219ae7a6a4868a9db11f8daa7d50fdd5898dd60c4fe",
+      "git_blob_sha": "1f55ad0a47e063e734d2022a5ed42c60bd20a431",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        28,
+        116,
+        99
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/NE/default.png",
+      "bytes": 432589,
+      "sha256": "b418f2a1a7d5d1ba3d9cc7584760cb2ae36fc11b34fef8a31254cb8c16ee7db4",
+      "git_blob_sha": "f119921c5583483841646438e013b0e561ed0a69",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        96,
+        202,
+        926,
+        820
+      ],
+      "visible_colors": 26420,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/NE/pixel.png",
+      "bytes": 5451,
+      "sha256": "13f0d306193cba2f3fc61692d161630ef3ec849cd4961b5030dec3f43eced742",
+      "git_blob_sha": "f9b83d4dfdd89fc6cf2c5b651bc036ce63ee3a73",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        23,
+        116,
+        105
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/E/default.png",
+      "bytes": 363972,
+      "sha256": "d37659c632b0cfe5cbfdf81566813afabea4089d73f1aa5cc6ef31a1f14452f6",
+      "git_blob_sha": "97c37effe8eb49f5b325121315257b18fa73ba62",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        313,
+        97,
+        710,
+        927
+      ],
+      "visible_colors": 24316,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/E/pixel.png",
+      "bytes": 3796,
+      "sha256": "62ea2bdd8b659775d1ec75fed25e256cc00d30d79152c68e4a3f95e63470b034",
+      "git_blob_sha": "07a9f8ac14042a6d3eed09245994ec74eebb245f",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        40,
+        12,
+        88,
+        116
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/SE/default.png",
+      "bytes": 527388,
+      "sha256": "b6c2a018d924ea52aed1038501ee4fa5d770ee4ad4f412ea16859c6b945fb0c3",
+      "git_blob_sha": "b35e29e35caf055b5ad0cd95168c7bf07b728a0c",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        97,
+        123,
+        927,
+        900
+      ],
+      "visible_colors": 34499,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/gel/sm-gel-002/directions/SE/pixel.png",
+      "bytes": 5108,
+      "sha256": "a6b8eae22b37eef37ddf9f5787732f1987df935f1ce4c90969c5a2848bfe0f3a",
+      "git_blob_sha": "744b34977d8afdff9423f3af35293f943a2aeb92",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        12,
+        15,
+        116,
+        112
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "technical_pass": true
+    }
+  ],
+  "provenance": {
+    "tool": "built-in imagegen",
+    "attempts": [
+      {
+        "direction_version": "W-repair",
+        "variant": "normal",
+        "raw_sha256": "a6f8427dec14af05f0bba9740c5dc52b500729fef55be0d3a5e094c12ce27c79",
+        "prompt": "Use case: precise-object-edit\nOne W side-profile normal sprite of the exact soft lavender crescent creature. Input1 is immutable original identity, input2 existing side draft to correct. Keep the original ONE upright horizontal U-shaped crescent with its concavity pointing UP, exactly TWO eyes at the outer ends and TWO short round feet directly below those ends. Rotate only in yaw, no roll, bending or stretching. In this exact side view the two upright crescent horns line up in depth: the near horn hides almost all of the far horn, leaving only a tiny far-tip sliver behind the upper outline. Preserve the true open depression between them in 3D, but it is naturally occluded, NOT filled with a membrane. The two feet also align: one near rounded foot is fully visible, the far foot is mostly hidden directly behind it, not two wide side-by-side feet. The body is a rounded narrow oval side section at original horn height, NOT a tall J-shaped horn bent upward. One near-end eye is seen only as a narrow ellipse toward the screen-left/front edge; far eye is fully occluded, never duplicated on the side. Cream cloudy material stays on the inner concave surface, a slim rear rim may be visible; outer surface lavender #A9B8F2, dark #464470 accents and cream #F3F0CB. Match original foot size, material and illustrated shading. Full isolated creature on genuine transparent background, no text, no scene/shadow. Do not delete or add anatomy; use natural occlusion.\n",
+        "reference_sha256": [
+          "da23ef4398e4114c909e0c94fb8c23353288324b22faba1d4f0a036c6453f6a6",
+          "646caf2425640bca5231c8033c3b94503ca7f351f1df1ba44851b7a5a9bdfde1"
+        ],
+        "selected": false
+      },
+      {
+        "direction_version": "W-repair-v2",
+        "variant": "normal",
+        "raw_sha256": "7cedf2e2c0e9fd2b916833a879d3e4d4e79165488bcf5bf7e4604df163552b4e",
+        "prompt": "Use case: precise-object-edit\nEdit target image1, preserve its NARROW OVAL SIDE-VIEW BODY silhouette exactly. Image2 is original identity reference only, do NOT restore its wide U face. Make only TWO local corrections to image1: (1) overlap the two feet in depth so the nearer foot remains in place but hides most of the far foot directly behind it; only a small far-foot sliver remains, no two feet side-by-side. (2) narrow the visible eye ellipse toward the left outline so it is a side projection, not a broad round front eye. Keep the exact existing oval body width/height, existing tiny far horn behind the top tip, lavender material, cream strip along inner rear edge, and all other contour and surface colors. The two anatomical crescent ends line up in depth in this W side view; the U opening is occluded, not filled by new material. Two eyes and two feet still exist physically, with far eye and most far foot hidden. No new body horns, no widened crescent, no tall J bend. Same original drawn style, full body, transparent background, no text or shadow.\n",
+        "reference_sha256": [
+          "646caf2425640bca5231c8033c3b94503ca7f351f1df1ba44851b7a5a9bdfde1",
+          "da23ef4398e4114c909e0c94fb8c23353288324b22faba1d4f0a036c6453f6a6"
+        ],
+        "selected": true
+      },
+      {
+        "direction_version": "N",
+        "variant": "normal",
+        "raw_sha256": "b280331dbad552b174b280367ad96aa6bf819ae5444e2ff26c844dcc07f665cb",
+        "prompt": "Use case: identity-preserve\nOne new N BACK view of the SAME lavender gel crescent in reference1, no redesign. Original is the broad front S identity. Turn it 180 degrees around vertical axis while keeping the crescent bowl upright, deep opening UP, same width and height, same slight elevated camera and two short feet under its ends. Show the broad BACK of the thick U-shaped body: the two eyes stay physically on opposite front surfaces and are fully hidden, do not place them on the back. Cream cloudy inner concavity remains a visible recessed band along the upper U inside rim; outer back remains lavender #A9B8F2 with darker violet #464470 patches and restrained pale highlights. Original physical slightly raised foot and unequal projected horn heights swap screen sides naturally, not a flat image mirror. Exactly one thick crescent body, two short round feet, two hidden front eyes, zero wings/arms/tail. Don't close the U or add membrane. Same hand-drawn/cel-shaded soft frosted gel. Transparent full sprite, no text/shadow.\n",
+        "reference_sha256": [
+          "da23ef4398e4114c909e0c94fb8c23353288324b22faba1d4f0a036c6453f6a6"
+        ],
+        "selected": true
+      },
+      {
+        "direction_version": "SW",
+        "variant": "normal",
+        "raw_sha256": "4af5ce2d029bf13514bf63c956e234f63ed15a3148b84cf9b3818d7c1125cfbf",
+        "prompt": "Use case: identity-preserve\nDraw ONE SW front-left oblique45-degree yaw sprite of this exact lavender U-shaped gel creature. Reference1 immutable S front identity, reference2 corrected W narrow side is depth guide. Intermediate view halfway between these: upright U with deep opening still UP and same horn heights, apparent width about65percent of front. Do not bend or roll the crescent into a vertical J. Near left end and its foot overlap part of farther right end in depth; near left eye full oval, far right eye narrower and partly hidden at far tip. Two feet stay directly beneath their own crescent ends, far foot partly hidden behind the body but no new central foot. Maintain two horns of original proportions and thick lavender belly curve; cream only inside recessed concavity. Near end is slightly larger, far end smaller/behind, avoid stretching far horn upward. One physical eye per outer end, exactly2eyes2feet, no arms/wings/tail. Same colors #A9B8F2 #F3F0CB #464470, same soft frosted gel hand-drawn style. Same slight elevated camera, no pitch change. Full isolated transparent sprite with padding, no text/shadow.\n",
+        "reference_sha256": [
+          "da23ef4398e4114c909e0c94fb8c23353288324b22faba1d4f0a036c6453f6a6",
+          "ce0384a626ee0ad7b18cef7fba592a01a4fbd7e5c76e5e5d9b5b0d1d7bd5eae0"
+        ],
+        "selected": true
+      },
+      {
+        "direction_version": "NW",
+        "variant": "normal",
+        "raw_sha256": "f1d6d54e7c7e09968eda316cefaf829fe0a82492b197270c0e6690c6bb3aa18b",
+        "prompt": "Use case: identity-preserve\nOne NW rear-left oblique sprite of the same upright lavender crescent creature. Input1 N back for rear material; input2 W side for narrow depth; input3 original front identity. Show halfway between full back and side: U-shaped body opening UP, clearly foreshortened to about60percent full-back width at same height. Near end on screen-RIGHT is in front of the farther screen-LEFT end, with rounded side wall visible, far end partly overlapped. BOTH eyes remain hidden on front-facing surfaces away from viewer; no eyes drawn on rear or near side. Two short rounded feet below their end roots, far foot partly hidden and near foot original size. Preserve rigid original crescent curvature, no taller bent J or rolled body, no filled U. Cream recessed inner rim on upper concavity, lavender outer back, violet and cream patches, frosted gel illustration. Original slight elevated camera, same grounded pose, no tail/arms/wings. One complete transparent sprite, no text/shadow.\n",
+        "reference_sha256": [
+          "f4c2d3bf0c6c692e61a7937cb4b1997995fdc2bae789d40c19a09571d0af3806",
+          "ce0384a626ee0ad7b18cef7fba592a01a4fbd7e5c76e5e5d9b5b0d1d7bd5eae0",
+          "da23ef4398e4114c909e0c94fb8c23353288324b22faba1d4f0a036c6453f6a6"
+        ],
+        "selected": false
+      },
+      {
+        "direction_version": "NE",
+        "variant": "normal",
+        "raw_sha256": "212772420da59c6e0c81e02c5004b59acfddeba5f3f2c24b7806687ac862dc01",
+        "prompt": "Use case: identity-preserve\nOne NE rear-right oblique view of same upright soft lavender U-crescent creature. Input1 full N rear; input2 original S identity. Turn from N halfway toward the opposite side, keeping concavity UP and original slight elevated camera. Near end is now screen-LEFT, rounded side wall larger and in front; farther RIGHT horn and its short foot are partly overlapped behind. Projected body width about60percent N, same physical height, do not turn into tall J or invent unequal horns. Both front eyes fully hidden on far-facing front surfaces. Preserve TWO short round feet below the two end roots, with far foot partly occluded. The white/cream cloudy inner U recess stays uppermost; main outer lavender gel, violet accents and few cream highlights, unchanged original palette/style. No fill across open U, no extra parts/arms/wings/tail. One full transparent sprite, no text or ground shadow.\n",
+        "reference_sha256": [
+          "f4c2d3bf0c6c692e61a7937cb4b1997995fdc2bae789d40c19a09571d0af3806",
+          "da23ef4398e4114c909e0c94fb8c23353288324b22faba1d4f0a036c6453f6a6"
+        ],
+        "selected": false
+      },
+      {
+        "direction_version": "E",
+        "variant": "normal",
+        "raw_sha256": "7eb337267201121aa690210ffc84c3770cb91ff2cbbaa97410a5602cdf67f5eb",
+        "prompt": "Use case: identity-preserve\nOne E exact opposite SIDE profile of same lavender U-shaped gel creature. Input1 W narrow side silhouette is thickness guide, input2 original immutable identity. Turn to the opposite physical side, do not create a flat mirrored duplicate. The two U horns align in depth, near horn hides most far horn; tiny far-tip sliver behind top only. Narrow oval side silhouette, same horn height and belly thickness as W, no wide U face or tall J bend. One near outer-end eye appears as a narrow ellipse toward the RIGHT/front contour; far eye hidden. ONE near short round foot fully visible, second far foot mostly occluded behind it, not side-by-side. Preserve original slightly lifted-foot pose through this opposite view; inner cream recess is only a thin side rim because U opening is naturally occluded, no membrane added. Lavender soft frosted gel with cream highlights/violet accents, unchanged original style and part counts 2eyes2feet, no arms/wings/tail. Full sprite transparent padding, no text/shadow.\n",
+        "reference_sha256": [
+          "ce0384a626ee0ad7b18cef7fba592a01a4fbd7e5c76e5e5d9b5b0d1d7bd5eae0",
+          "da23ef4398e4114c909e0c94fb8c23353288324b22faba1d4f0a036c6453f6a6"
+        ],
+        "selected": false
+      },
+      {
+        "direction_version": "E-v2",
+        "variant": "normal",
+        "raw_sha256": "09f370d38fcde5328c6ec285ab09b338763f4aaa40d50fdfff0157d70d8ee268",
+        "prompt": "Use case: identity-preserve\nRender the OPPOSITE physical side of this creature in the exact narrow side profile shown. This is E view; current reference is W. Keep its narrow OVAL body cross-section, same width/height, same near-horn-over-far-horn overlap and one visible foot with small occluded second-foot sliver. The eye belongs on the RIGHT-facing front edge in the new view, seen narrowly, rather than the reference left edge. The original raised foot is now near the viewer and slightly lifted, far support foot only partly visible behind. Repaint the lavender/cream highlights and shadow for the same upper-left light; do not simply mirror the bitmap. Two anatomical crescent horns align in depth, so DO NOT reveal the wide U-shaped front. No second broad horn out to the side. A tiny far horn sliver at top and slim cream recessed rim are enough. Same lavender frosted gel material, purple patches, cream cloudy inner edge, one physical eye per end (far one hidden), two short feet. No new anatomy or scene. Full transparent sprite.\n",
+        "reference_sha256": [
+          "ce0384a626ee0ad7b18cef7fba592a01a4fbd7e5c76e5e5d9b5b0d1d7bd5eae0"
+        ],
+        "selected": true
+      },
+      {
+        "direction_version": "SE",
+        "variant": "normal",
+        "raw_sha256": "1825e48d7cf1b1da2a3dac04dfddedc16ddb544ecf477ce8d99d17aeb0157b11",
+        "prompt": "Use case: identity-preserve\nOne SE front-right45-degree oblique sprite of this exact lavender U-crescent gel creature. Input1 original broad front identity; input2 E narrow side sets depth. Intermediate yaw halfway between them: UP-facing deep U recess, same physical horn heights and body curvature, projected width about65percent front. Near end is RIGHT, slightly larger and overlaps the farther LEFT end. Right-end eye full oval, left-end eye thinner partly hidden along far edge. Two short round feet directly below respective ends, near right foot forward/lifted slightly and far left foot partly occluded. Keep original lavender thick curved belly, cream cloudy inner concavity and two horns, no tall stretched J or new membrane. Same slight elevated camera, no pitching or rolling. Exactly2eyes2feet, zero arms/wings/tail. Same original hand-drawn frosted gel style/palette, full transparent padding, no text or shadow.\n",
+        "reference_sha256": [
+          "da23ef4398e4114c909e0c94fb8c23353288324b22faba1d4f0a036c6453f6a6",
+          "d37659c632b0cfe5cbfdf81566813afabea4089d73f1aa5cc6ef31a1f14452f6"
+        ],
+        "selected": true
+      },
+      {
+        "direction_version": "NW-v2",
+        "variant": "normal",
+        "raw_sha256": "127339201b70d133673804fcd498df768c02912fcfc9b52898bb43eb1b80db66",
+        "prompt": "Use case: precise-object-edit\nEdit ONLY the physical asymmetry in image1 NW rear-left oblique draft. Image2 is full N rear and establishes which physical end is taller and which foot is lifted. In BOTH rear views the RIGHT end is the original taller end with its slightly lifted foot. Image1 mistakenly has the LEFT end taller. Correct it: lower the LEFT horn to original shorter-end height, raise the RIGHT horn to original taller-end height, keeping the same overall U body and deep upward opening. The RIGHT end is NEAR in this NW view; keep it larger/forward, left end farther partly occluded. RIGHT short foot should be slightly lifted/tilted showing some sole, LEFT foot lower supporting. Do not mirror whole image or exchange near/far viewpoint. Keep zero visible rear eyes, exactly two physical feet/end horns, original lavender gel, cream only inside concavity, no additions. Preserve current body thickness, material, camera elevation and pose apart from this asymmetry correction. Full transparent sprite, no text/shadow.\n",
+        "reference_sha256": [
+          "d4f6bdbbcedc4cd10e2a89fbf27ce88e200e42bedddf60643c7cda9b4c774ec8",
+          "f4c2d3bf0c6c692e61a7937cb4b1997995fdc2bae789d40c19a09571d0af3806"
+        ],
+        "selected": true
+      },
+      {
+        "direction_version": "NE-v2",
+        "variant": "normal",
+        "raw_sha256": "f374563c74a85adb62dcadf4da91ed936a6187f02cec76bc0727b3c1a6634f76",
+        "prompt": "Use case: precise-object-edit\nEdit ONLY the original physical asymmetry of image1 NE rear-right draft. Image2 full N rear defines the physical taller end and lifted foot: they are on SCREEN RIGHT in rear views. Correct image1 so its LEFT horn is lower, RIGHT horn taller. Keep NE depth: LEFT end remains nearer/larger, RIGHT end remains farther and partly occluded; a taller physical far horn may rise above the nearer lower horn without enlarging the far body. Preserve the broad thick U curve and UP opening, no roll or bending. Right far foot should be slightly lifted/tilted and partly hidden behind body; LEFT near foot is the lower support. Do not exchange near/far or mirror the whole image. Both eyes stay fully hidden on front surfaces. Preserve exact two short feet, no extra parts, original cream cloudy concavity/lavender outer gel/violet pattern/style, same camera. Full transparent sprite, no text/shadow.\n",
+        "reference_sha256": [
+          "b1b70286360d162393ac19774fe85f412c1656dd92898446c4a3825d65f192b4",
+          "f4c2d3bf0c6c692e61a7937cb4b1997995fdc2bae789d40c19a09571d0af3806"
+        ],
+        "selected": true
+      },
+      {
+        "direction_version": "SW",
+        "variant": "pixel",
+        "raw_sha256": "6a2741df8271621aa7749ae473db89c0917e644e349e9b51ec6ad1bc2f1caec0",
+        "prompt": "Use case: style-transfer\nOne authentic pixel-art sprite of EXACT normal creature image1. Image2 original pixel is palette/grid style only, not its facing. Preserve image1's viewpoint, upright U or narrow side profile, horn heights and near/far overlap, visible/hidden eye count, two physical short feet with raised foot/occlusion exactly as shown. Soft lavender gel #A9B8F2 with dark violet #464470 patches and cream #F3F0CB cloudy inner recess. TWO eyes fixed at outer ends, TWO feet beneath them; no tails/wings/arms. Do not symmetrize horns or feet. Match silhouette/proportions, change only medium. Intentional128 logical grid, crisp clusters, <=32 opaque colors, binary transparency, no antialias/blur. Complete centered sprite with clear transparent padding, no text/shadow/background.\nSW front oblique: LEFT horn taller, left near eye broad/right far eye narrow. Retain foot overlap from image1.\n",
+        "reference_sha256": [
+          "1f7def66b8c84674b2452186d621adf83fa361a5aa6468c93de7e8da6077cb39",
+          "d271200d9094af080d248b8135536ceeea0107976de8c504d9bb2d0cac5aa1fc"
+        ],
+        "selected": true
+      },
+      {
+        "direction_version": "W-repair-v2",
+        "variant": "pixel",
+        "raw_sha256": "835c39c3d179aa21aaaa19ecbb7a181962172f3dacd3082f6178a0cd21d9eb91",
+        "prompt": "Use case: style-transfer\nOne authentic pixel-art sprite of EXACT normal creature image1. Image2 original pixel is palette/grid style only, not its facing. Preserve image1's viewpoint, upright U or narrow side profile, horn heights and near/far overlap, visible/hidden eye count, two physical short feet with raised foot/occlusion exactly as shown. Soft lavender gel #A9B8F2 with dark violet #464470 patches and cream #F3F0CB cloudy inner recess. TWO eyes fixed at outer ends, TWO feet beneath them; no tails/wings/arms. Do not symmetrize horns or feet. Match silhouette/proportions, change only medium. Intentional128 logical grid, crisp clusters, <=32 opaque colors, binary transparency, no antialias/blur. Complete centered sprite with clear transparent padding, no text/shadow/background.\nW narrow side silhouette, one narrow eye toward LEFT edge, one near foot plus small hidden far foot sliver. Far crescent horn tiny behind top. Do NOT restore broad U front from style reference.\n",
+        "reference_sha256": [
+          "ce0384a626ee0ad7b18cef7fba592a01a4fbd7e5c76e5e5d9b5b0d1d7bd5eae0",
+          "d271200d9094af080d248b8135536ceeea0107976de8c504d9bb2d0cac5aa1fc"
+        ],
+        "selected": true
+      },
+      {
+        "direction_version": "NW-v2",
+        "variant": "pixel",
+        "raw_sha256": "f93fb39d9dfd012705b826c5161065d47354868518a5dcaa54383d3dc57b5e16",
+        "prompt": "Use case: style-transfer\nOne authentic pixel-art sprite of EXACT normal creature image1. Image2 original pixel is palette/grid style only, not its facing. Preserve image1's viewpoint, upright U or narrow side profile, horn heights and near/far overlap, visible/hidden eye count, two physical short feet with raised foot/occlusion exactly as shown. Soft lavender gel #A9B8F2 with dark violet #464470 patches and cream #F3F0CB cloudy inner recess. TWO eyes fixed at outer ends, TWO feet beneath them; no tails/wings/arms. Do not symmetrize horns or feet. Match silhouette/proportions, change only medium. Intentional128 logical grid, crisp clusters, <=32 opaque colors, binary transparency, no antialias/blur. Complete centered sprite with clear transparent padding, no text/shadow/background.\nNW rear oblique: NO visible eyes. RIGHT horn taller and near, RIGHT foot slightly tilted/raised with sole, LEFT horn lower/left foot support. Keep this asymmetry exactly, never swap.\n",
+        "reference_sha256": [
+          "898dc4ef35fdb8ac7fe8826a95f622fae5af478cea407b29da34763bc21152bc",
+          "d271200d9094af080d248b8135536ceeea0107976de8c504d9bb2d0cac5aa1fc"
+        ],
+        "selected": true
+      },
+      {
+        "direction_version": "N",
+        "variant": "pixel",
+        "raw_sha256": "a267c5c250bd4a21598989c1a6404f6075dcd6d76c119384d989387d81f95c1c",
+        "prompt": "Use case: style-transfer\nOne authentic pixel-art sprite of EXACT normal creature image1. Image2 original pixel is palette/grid style only, not its facing. Preserve image1's viewpoint, upright U or narrow side profile, horn heights and near/far overlap, visible/hidden eye count, two physical short feet with raised foot/occlusion exactly as shown. Soft lavender gel #A9B8F2 with dark violet #464470 patches and cream #F3F0CB cloudy inner recess. TWO eyes fixed at outer ends, TWO feet beneath them; no tails/wings/arms. Do not symmetrize horns or feet. Match silhouette/proportions, change only medium. Intentional128 logical grid, crisp clusters, <=32 opaque colors, binary transparency, no antialias/blur. Complete centered sprite with clear transparent padding, no text/shadow/background.\nN full rear: NO visible eyes. RIGHT horn taller and right foot lifted/tilted; LEFT lower horn and supporting foot. Broad U opens up, retain original rear asymmetry.\n",
+        "reference_sha256": [
+          "f4c2d3bf0c6c692e61a7937cb4b1997995fdc2bae789d40c19a09571d0af3806",
+          "d271200d9094af080d248b8135536ceeea0107976de8c504d9bb2d0cac5aa1fc"
+        ],
+        "selected": true
+      },
+      {
+        "direction_version": "NE-v2",
+        "variant": "pixel",
+        "raw_sha256": "fb33220fe089fb7e589d98988315a1025ca00da0d46abe42a0c3a624f7d6070d",
+        "prompt": "Use case: style-transfer\nOne authentic pixel-art sprite of EXACT normal creature image1. Image2 original pixel is palette/grid style only, not its facing. Preserve image1's viewpoint, upright U or narrow side profile, horn heights and near/far overlap, visible/hidden eye count, two physical short feet with raised foot/occlusion exactly as shown. Soft lavender gel #A9B8F2 with dark violet #464470 patches and cream #F3F0CB cloudy inner recess. TWO eyes fixed at outer ends, TWO feet beneath them; no tails/wings/arms. Do not symmetrize horns or feet. Match silhouette/proportions, change only medium. Intentional128 logical grid, crisp clusters, <=32 opaque colors, binary transparency, no antialias/blur. Complete centered sprite with clear transparent padding, no text/shadow/background.\nNE rear oblique: NO visible eyes. RIGHT far horn taller, RIGHT far foot raised and partly occluded. LEFT near horn lower, left near foot supporting. Never swap this asymmetric pose.\n",
+        "reference_sha256": [
+          "b418f2a1a7d5d1ba3d9cc7584760cb2ae36fc11b34fef8a31254cb8c16ee7db4",
+          "d271200d9094af080d248b8135536ceeea0107976de8c504d9bb2d0cac5aa1fc"
+        ],
+        "selected": true
+      },
+      {
+        "direction_version": "E-v2",
+        "variant": "pixel",
+        "raw_sha256": "7e903ce4c9dd209b64f2c282ab7a1ebb4172911f8e73e6f6aa3243ab3d37ba87",
+        "prompt": "Use case: style-transfer\nOne authentic pixel-art sprite of EXACT normal creature image1. Image2 original pixel is palette/grid style only, not its facing. Preserve image1's viewpoint, upright U or narrow side profile, horn heights and near/far overlap, visible/hidden eye count, two physical short feet with raised foot/occlusion exactly as shown. Soft lavender gel #A9B8F2 with dark violet #464470 patches and cream #F3F0CB cloudy inner recess. TWO eyes fixed at outer ends, TWO feet beneath them; no tails/wings/arms. Do not symmetrize horns or feet. Match silhouette/proportions, change only medium. Intentional128 logical grid, crisp clusters, <=32 opaque colors, binary transparency, no antialias/blur. Complete centered sprite with clear transparent padding, no text/shadow/background.\nE narrow SIDE profile: one narrow eye near RIGHT contour, near short foot and small hidden far-foot sliver. Two horns overlap into narrow oval, do not restore wide U front. Match normal exactly.\n",
+        "reference_sha256": [
+          "d37659c632b0cfe5cbfdf81566813afabea4089d73f1aa5cc6ef31a1f14452f6",
+          "d271200d9094af080d248b8135536ceeea0107976de8c504d9bb2d0cac5aa1fc"
+        ],
+        "selected": true
+      },
+      {
+        "direction_version": "SE",
+        "variant": "pixel",
+        "raw_sha256": "76f867da106a2ee59d3003918d8a5762c3661127695d33902d165e35fc7df43e",
+        "prompt": "Use case: style-transfer\nOne authentic pixel-art sprite of EXACT normal creature image1. Image2 original pixel is palette/grid style only, not its facing. Preserve image1's viewpoint, upright U or narrow side profile, horn heights and near/far overlap, visible/hidden eye count, two physical short feet with raised foot/occlusion exactly as shown. Soft lavender gel #A9B8F2 with dark violet #464470 patches and cream #F3F0CB cloudy inner recess. TWO eyes fixed at outer ends, TWO feet beneath them; no tails/wings/arms. Do not symmetrize horns or feet. Match silhouette/proportions, change only medium. Intentional128 logical grid, crisp clusters, <=32 opaque colors, binary transparency, no antialias/blur. Complete centered sprite with clear transparent padding, no text/shadow/background.\nSE front oblique: LEFT farther horn taller, RIGHT nearer horn lower; right eye broad/left eye narrow at edge. Left foot farther partly hidden, right foot near. Preserve image1 exact asymmetric silhouette.\n",
+        "reference_sha256": [
+          "b6c2a018d924ea52aed1038501ee4fa5d770ee4ad4f412ea16859c6b945fb0c3",
+          "d271200d9094af080d248b8135536ceeea0107976de8c504d9bb2d0cac5aa1fc"
+        ],
+        "selected": true
+      }
+    ],
+    "source_history": "Fixed source normal1/pixel1 attempt records read; no explicit stop in available history, independent completeness not guaranteed. Recovered earlier direction raw3/derived3 preserved but exact old prompts/direction mapping unavailable; side image used only as visual reference.",
+    "processing": {
+      "normal": "alpha<8 cleanup, transparent crop, proportional LANCZOS832 extent, centered1024",
+      "pixel": "separately generated art, alpha128 binary, NEAREST104 extent, visible MAXCOVERAGE32 palette, centered128"
+    },
+    "scripts_sha256": {
+      "finish_new.py": "8682c73bd4ef42f4a8c5b79cc4b14a6caa6b91b86d4527c91c67f564496a160e",
+      "finish_pixel32.py": "d84e61e65404d63ab2b0478a2ee913e4c48d31a09dc52133baaa410ac2cb76d1"
+    }
+  },
+  "qa": {
+    "status": "review_candidate_independently_checked",
+    "technical_all16": true,
+    "visual": "Same taller end and raised-foot side retained: front left, back right. Near/far eyes and feet occlude in side views. All16 reviewed at native size and pixel enlarged.",
+    "limitations": [
+      "Original S direction inferred from broad eye face",
+      "Oblique exact yaw and texture patch coordinates inferred",
+      "W/E raised-foot height partly occluded and not measurable",
+      "Initial E prompt incorrectly named near foot as raised; retained as unsuccessful attempt evidence, final image reviewed against original physical side",
+      "No game-engine acceptance"
+    ],
+    "independent": "E independently measured all16slots/hash; source pair Git blobs matched unchanged main. All8pair comparison and native N/E pixels inspected: fixed asymmetric high end/raised-foot physical side, eyes front/side/rear occlusion and normal-pixel correspondence. OriginalS inferred; oblique yaw, patches and side raised-foot occlusion are inferred. Old direction prompts missing, new candidates not represented as restored history; E initial incorrect raised-foot prompt retained and corrected final reviewed. Runtime untested."
+  }
+}

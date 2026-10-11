@@ -1,0 +1,1051 @@
+{
+  "schema_version": 1,
+  "id": "sm-winged-020",
+  "asset_type": "eight_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "direction_order": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "nominal_yaw_degrees": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/S/default.png",
+      "bytes": 667869,
+      "sha256": "34c177a2bd0d54577770e543f389a5a3737bd1aeb1f57160178002cfa79f06bf",
+      "git_blob_sha": "949ca075750cad72096a673b564a94b3fe4954f8",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        187,
+        928,
+        837
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 69544,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/S/pixel.png",
+      "bytes": 8797,
+      "sha256": "ece0ebe75193f74bc6a98b0cb9df98ddfd3d27e94948d392c1cd6c381bd73bba",
+      "git_blob_sha": "1ce09900518e1036e7713b026747156898585155",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        22,
+        116,
+        106
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/SW/default.png",
+      "bytes": 641185,
+      "sha256": "3268e8898d119a741a2550241c26d6331bcaea13f648733fb844ee4a80c614cf",
+      "git_blob_sha": "9530c127b2ba5a05a5b6112b7f642ec29237823e",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        190,
+        928,
+        833
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 69631,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/SW/pixel.png",
+      "bytes": 8007,
+      "sha256": "0be72af591d40c0f8d5d242b44435feb79416e99fe479f14a45a78fe4dbccf37",
+      "git_blob_sha": "88cf455cf79a154060429d6ebd26a6176add3bca",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        21,
+        116,
+        107
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/W/default.png",
+      "bytes": 550731,
+      "sha256": "c402cc604e314a10b7f4740a3af6a52788ae73dc2dd5beb77cfcf7d842e63075",
+      "git_blob_sha": "5834cc542fc1f0979f3158972eff5a74ce5b1e47",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        223,
+        928,
+        801
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 59309,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/W/pixel.png",
+      "bytes": 6671,
+      "sha256": "d34b0c16ae88497c0818b541ac84bb51872e7eb0031b7fb7087a3871482b75bf",
+      "git_blob_sha": "7d85a22147fe595e07370e44bc63f9fb3295d683",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        25,
+        116,
+        103
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/NW/default.png",
+      "bytes": 586769,
+      "sha256": "06a20803af9b2e7678f71e2d5430b85606161741bea6da136c95ab5af1ffb158",
+      "git_blob_sha": "d247f12eae0ea98642ddfe413e0c57b2f4c66ce1",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        203,
+        928,
+        820
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 64018,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/NW/pixel.png",
+      "bytes": 7037,
+      "sha256": "5ed0830705dc1bade2bfe470be1965eb9aeae676032ac313abfa3833eed437ef",
+      "git_blob_sha": "63b448f070b65aa4e614751643fe249684647952",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        22,
+        116,
+        106
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 27,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/N/default.png",
+      "bytes": 549030,
+      "sha256": "04b682473608d820e30ff84692d43bd62a80530fd7a5a6543cfbe590ad6bbc13",
+      "git_blob_sha": "1d9ab21708fb9873d3cb163318a64c8fabd3fbaf",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        233,
+        928,
+        791
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 56281,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/N/pixel.png",
+      "bytes": 6889,
+      "sha256": "179cdb6ccf46f5c07cae5b093474daf4caff67988c45934c23b55cf90a664bd1",
+      "git_blob_sha": "1add4f511659bdefed3053af1a136fdc1d621604",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        27,
+        116,
+        100
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/NE/default.png",
+      "bytes": 733678,
+      "sha256": "15c4f50f9dbd3cb68a07fef9c66205ca1f8a34904ac6ff05aeb2e9a10e2c7655",
+      "git_blob_sha": "8853f7e92f30b5a4e1f9e219fce0e9b0f4c8e752",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        134,
+        928,
+        889
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 73143,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/NE/pixel.png",
+      "bytes": 8330,
+      "sha256": "ab7e867428081ea794281ba1013d9d59cecc2f67341db2a65f38917f99424ca1",
+      "git_blob_sha": "039caedf9d8d2c61135251eedd24e00432aa759e",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        18,
+        116,
+        110
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/E/default.png",
+      "bytes": 544145,
+      "sha256": "db7757fec38ec39431edfc6fbed32b8e09c2a0f1af65213bcb13a7bdfba2eadd",
+      "git_blob_sha": "00e65bce41ea3ffb4d48fcb92a37f0a812f55a61",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        219,
+        928,
+        804
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 67046,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-020/directions/E/pixel.png",
+      "bytes": 7326,
+      "sha256": "3b970114a73b2a0f0f77cb370a89c1dc62626096f85a522490390d89bd62cb4c",
+      "git_blob_sha": "ad3502b3497c91d0052553d24d24aef08f1dc514",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        26,
+        116,
+        101
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-020/default.png",
+      "bytes": 729676,
+      "sha256": "bda6b13eb5b4396a5cfa989c04a5731bdc3a06539657c4e9334a764063d6074d",
+      "git_blob_sha": "26f0b5e0a8c60a642785a1fa64aa36a5517e2d4a",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        80,
+        167,
+        944,
+        857
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 75825,
+      "binary_alpha": false,
+      "original_preserved": true,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-020/pixel.png",
+      "bytes": 8134,
+      "sha256": "bbe643bf8d8701c2151fe3bd6a0aa60250a57a1889e27ef8a700ebe80a2269d7",
+      "git_blob_sha": "9fe1788e0ff6da8fd7857ef37e9975d39f8f4af9",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        10,
+        20,
+        118,
+        108
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": true,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    }
+  ],
+  "provenance": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original SE sm-winged-020. Rotate this same entire monster in true3D yaw ONLY; never mirror image or spiral. One flat broad oval coiled-paper layered brown shell body, no distincthead/neck. One large broad cream-and-brown SPIRAL groove of about ONE AND A HALF TURNS on broad upper-visible shell surface. Preserve this exact spiral shape, handedness, endpoint and material-fixed location during yaw; no extra thin spiral lines. TWO round blueblack eyes with cream rims fixed along FRONT edge. Exactly FIVE short bent brown legs with cream blunt toetips, roots fixed in original fanaroundunderside, rotate them together; natural occlusion allowed but never add6thleg. TWO opened half-moon crescent pale-blue leathery leafwings, oneperbacksides, creamveins and curved scallopededges, original rootposition/opening/height retained. One THICK SHORT rear tail, like coiledlayerextension, with exactlyone shallow Vnotch at its broadtip; no longtail and no tailspiral. Brown#AA8266,bluegray#A8BAC7,cream#EAD49C,rolledpaperlayers,colored darkoutline,softcelshade. Same fixed camera elevation, oval volume and pose as source, not overhead, all wings/tail/legs rotatewithbody rather thanstay screenfixed. TARGET S: direct FRONT, two eyes on centered nearfront rim. Wide flattened oval upper spiral remains at original pitch. Rear Vnotched tail recedes behindbody and maypartlyhide. Pair of crescent wings on left/right back, fivelegs withnear/farocclusion. One whole normalillustration sprite centered1024square longest832px,min64px cleartransparentpadding. No background/text/shadow/floor/glow/grid.",
+      "raw_sha256": "53e4b165914bde21f062c40f2acb628059878e0ceb00c8424c5664db75c98a68",
+      "raw_file_name": "S-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "bda6b13eb5b4396a5cfa989c04a5731bdc3a06539657c4e9334a764063d6074d"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          61,
+          186,
+          1194,
+          1071
+        ],
+        "resize": [
+          832,
+          650
+        ],
+        "offset": [
+          96,
+          187
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "34c177a2bd0d54577770e543f389a5a3737bd1aeb1f57160178002cfa79f06bf",
+      "recorded_at": "2026-10-10T15:18:12.749874+00:00"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is the sole exact FRONT S normal reference. Independently redraw this same low flat layered brown spiral-shell creature as logical128x128 pixel art. Preserve two front rim eyes, exactly FIVE short feet with paired pale toe tips in the same positions, TWO blue-gray crescent wings with cream veins, ONE short thick rear tail and shallow V-notch. Keep the single broad1.5turn cream/brown spiral's visible winding, inner hook and outer join exactly as this normal, without rotating or reflecting the motif. Same camera, proportions, front-facing pose and wing roots. Crisp deliberate pixel clusters,1px dark warm outline, muted brown/cream/blue-gray palette,<=32 opaque colors,binary alpha,no antialiasing/blur/dither. Logical128square,longest104px,min8px transparent margins. Enlarged preview nearest-neighbor blocks. Genuine transparent background,no text/ground/shadow/frame or extra parts.\n",
+      "raw_sha256": "6607b251f4b51c21e5142dad04f44f4676bca630924e046ced49bb88b3a6660f",
+      "raw_file_name": "S-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "34c177a2bd0d54577770e543f389a5a3737bd1aeb1f57160178002cfa79f06bf"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          79,
+          208,
+          1176,
+          1089
+        ],
+        "resize": [
+          104,
+          84
+        ],
+        "offset": [
+          12,
+          22
+        ]
+      },
+      "palette_source_sha256": "bbe643bf8d8701c2151fe3bd6a0aa60250a57a1889e27ef8a700ebe80a2269d7",
+      "final_sha256": "ece0ebe75193f74bc6a98b0cb9df98ddfd3d27e94948d392c1cd6c381bd73bba",
+      "recorded_at": "2026-10-11T01:47:27.392865+00:00"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit. Image1 is current FRONT-LEFT view of sm-winged-020. Image2 is immutable FRONT-RIGHT original. Keep image1 body silhouette, camera pitch, two eyes, five actual leg roots with visible occlusions, two crescent wings, Vnotched tail and all their positions. Correct ONLY the broad top spiral surface motif. Current image1 appears to reverse the handedness of image2. The SAME paper shell must keep the identical one-and-a-half-turn groove, SAME winding handedness, center tip, outer exit and layer joins fixed on its upper surface. Transfer the image2 motif as a rigid physical surface viewed after90degrees of yaw from front-right to front-left, with perspective foreshortening. Do not reflect the spiral, flip its winding, leave it screenfixed, invent extra nested turns or add fine concentric lines. The central hook and outer endpoint must rotate together with the eye-to-tail body axis. Retain image1 palette/material shading and all non-spiral anatomy. One whole sprite centered transparent1024square with64px clear margins; no text/background/floor/shadow/glow.\n",
+      "raw_sha256": "c8e8ba9334569a1af4603b2fd748d2668912dcd89c9fd9ff78ab9e0612ad277f",
+      "raw_file_name": "SW-normal-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "b7895d6ff34bb408aa23a8a94747ba6356a4b33a4341f041f18efbacb28bc154",
+        "bda6b13eb5b4396a5cfa989c04a5731bdc3a06539657c4e9334a764063d6074d"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          117,
+          232,
+          1138,
+          1021
+        ],
+        "resize": [
+          832,
+          643
+        ],
+        "offset": [
+          96,
+          190
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "3268e8898d119a741a2550241c26d6331bcaea13f648733fb844ee4a80c614cf",
+      "recorded_at": "2026-10-10T15:22:33.204844+00:00"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is the sole exact FRONT-LEFT SW normal reference. Independently redraw this view as true logical128x128 pixel art. Keep low flat brown layered-paper spiral shell,2front rim eyes at lower left,5physical short feet with current occlusion,2blue-gray crescent wings at the same roots, and1short thick upper-right rear tail with shallow V-notch. Preserve single broad1.5turn cream/brown spiral, its winding, inner hook and outer join in precisely this orientation. Do not mirror/rotate or add loops. Same elevated camera, proportions and anatomy. Crisp pixel clusters,1px dark warm contour,muted brown/cream/blue-gray shading,<=32opaque colors,binary alpha,no blur/antialiasing/dither. Logical128square,longest104px,min8px transparent margin; nearest-neighbor blocks if enlarged. Genuine transparent background,no text/ground/shadow/frame.\n",
+      "raw_sha256": "bfacfcfc31ec3f42403cc2a82c93230131bdf792970afdc419026f9936a0a33f",
+      "raw_file_name": "SW-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "3268e8898d119a741a2550241c26d6331bcaea13f648733fb844ee4a80c614cf"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          79,
+          177,
+          1218,
+          1114
+        ],
+        "resize": [
+          104,
+          86
+        ],
+        "offset": [
+          12,
+          21
+        ]
+      },
+      "palette_source_sha256": "bbe643bf8d8701c2151fe3bd6a0aa60250a57a1889e27ef8a700ebe80a2269d7",
+      "final_sha256": "0be72af591d40c0f8d5d242b44435feb79416e99fe479f14a45a78fe4dbccf37",
+      "recorded_at": "2026-10-11T01:48:54.592965+00:00"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original SE sm-winged-020. Rotate this same entire monster in true3D yaw ONLY; never mirror image or spiral. One flat broad oval coiled-paper layered brown shell body, no distincthead/neck. One large broad cream-and-brown SPIRAL groove of about ONE AND A HALF TURNS on broad upper-visible shell surface. Preserve this exact spiral shape, handedness, endpoint and material-fixed location during yaw; no extra thin spiral lines. TWO round blueblack eyes with cream rims fixed along FRONT edge. Exactly FIVE short bent brown legs with cream blunt toetips, roots fixed in original fanaroundunderside, rotate them together; natural occlusion allowed but never add6thleg. TWO opened half-moon crescent pale-blue leathery leafwings, oneperbacksides, creamveins and curved scallopededges, original rootposition/opening/height retained. One THICK SHORT rear tail, like coiledlayerextension, with exactlyone shallow Vnotch at its broadtip; no longtail and no tailspiral. Brown#AA8266,bluegray#A8BAC7,cream#EAD49C,rolledpaperlayers,colored darkoutline,softcelshade. Same fixed camera elevation, oval volume and pose as source, not overhead, all wings/tail/legs rotatewithbody rather thanstay screenfixed. TARGET W: LEFT pureprofile, front rim with eyes towardscreen-left, at most nearesteye visible. Shortrear Vtail screensright. Broad oval fore-aft length projects atthisangle, maintain flat shellheight and sourcepitch. Nearwing occludespartoffarwing, fivelegs naturallyoverlap. One whole normalillustration sprite centered1024square longest832px,min64px cleartransparentpadding. No background/text/shadow/floor/glow/grid.",
+      "raw_sha256": "e3105738f0ab8573a16c9350c3e0f00111e7755bfb60c81febcde2bd732b47f0",
+      "raw_file_name": "W-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "bda6b13eb5b4396a5cfa989c04a5731bdc3a06539657c4e9334a764063d6074d"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          84,
+          223,
+          1212,
+          1006
+        ],
+        "resize": [
+          832,
+          578
+        ],
+        "offset": [
+          96,
+          223
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "c402cc604e314a10b7f4740a3af6a52788ae73dc2dd5beb77cfcf7d842e63075",
+      "recorded_at": "2026-10-10T15:20:32.623249+00:00"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is the sole exact LEFT W normal. Independently redraw it as logical128x128 pixel art. Preserve one visible left-front rim eye,low flat brown layered shell,5physical short feet with same visibility,2pale blue crescent wings overlapping in this side view with their roots unchanged,1short thick right rear tail with V-notch. Keep the ONE broad1.5turn cream/brown spiral with identical winding and phase to this normal; no new loop,reflection or turning. Same camera and silhouette. Deliberate crisp pixel clusters,1px dark warm outline,muted brown/cream/blue-gray palette,<=32opaque colors,binary alpha,no blur/antialiasing/dither.128square,longest104px,min8px transparent margins,enlarged preview nearest-neighbor blocks. Real transparent alpha,no text/ground/shadow/frame or extra parts.\n",
+      "raw_sha256": "ba382728ef651f21775b8d42ed2adf4e624963e04c6c2bb03f85ccbc856350c7",
+      "raw_file_name": "W-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "c402cc604e314a10b7f4740a3af6a52788ae73dc2dd5beb77cfcf7d842e63075"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          79,
+          225,
+          1177,
+          1053
+        ],
+        "resize": [
+          104,
+          78
+        ],
+        "offset": [
+          12,
+          25
+        ]
+      },
+      "palette_source_sha256": "bbe643bf8d8701c2151fe3bd6a0aa60250a57a1889e27ef8a700ebe80a2269d7",
+      "final_sha256": "d34b0c16ae88497c0818b541ac84bb51872e7eb0031b7fb7087a3871482b75bf",
+      "recorded_at": "2026-10-11T01:50:10.701803+00:00"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 3,
+      "prompt": "Use case: precise-object-edit\nOnly edit the brown-and-cream spiral painted/carved on the top of the oval shell. Keep the entire creature in exactly this pose. Rotate this spiral texture by 180 degrees around its own center ON the curved shell surface, without rotating or mirroring the creature. This is a half-turn of the existing pattern, not a different spiral.\nThe concrete change must be visible: the current small dark curled terminal sits to the RIGHT of its cream center. After the half-turn put that dark terminal to the LEFT of its cream center, with the rounded hook bulging below-left rather than above-right. Likewise move the outer spiral's near-edge continuation onto the far edge behind the center. Preserve the original winding direction and the single broad one-and-a-half-turn path. Do not add another turn or leave the pattern unchanged. Render the rotated pattern with the same compressed oval perspective and paper-layer texture.\nDo not touch the body outline or sidewall layers, wing roots or blue wing shape, all five physical feet/occlusion, eyeless front, V-notched lower-right tail, camera or colors. Keep genuine transparent alpha and full creature with clear margins. No text, arrows, background, ground or shadow.\n",
+      "raw_sha256": "e4f4452965b056a04ccd71688cac0a3a031926012d68029c142c865f9b4410c6",
+      "raw_file_name": "NW-normal-v3.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "e7fdbad531c20f76de07a0fff70945f154a21a07834a84edfd85b4b55699660b"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          118,
+          248,
+          1138,
+          1005
+        ],
+        "resize": [
+          832,
+          617
+        ],
+        "offset": [
+          96,
+          203
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "06a20803af9b2e7678f71e2d5430b85606161741bea6da136c95ab5af1ffb158",
+      "recorded_at": "2026-10-11T01:42:33.493518+00:00"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is the sole exact BACK-LEFT NW normal reference. Independently redraw this same view as logical128x128 pixel art. Preserve low flat brown layered shell,NO eyes,5physical short feet with reference's SAME four visible feet and fifth occluded,2blue-gray crescent wings and exact root placements,short thick lower-right V-notched tail. Keep the ONE broad1.5turn cream/brown spiral, inner dark terminal toLEFT of cream center and outer joining edge in the same phase as this normal. Do not reflect or rotate the spiral,add a loop or alter wings. Same high camera/silhouette/palette. Crisp clusters,1px dark warm outline,<=32opaque colors,binary alpha,no blur/antialiasing/dither.128square,longest104px,min8px transparent margin; nearest-neighbor blocks if enlarged. Genuine transparent background,no text/ground/shadow/frame.\n",
+      "raw_sha256": "cef83aaf1fb29bf6a008a429701b49b79230f0fcadf6ddd4f8efc25666cba42e",
+      "raw_file_name": "NW-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "06a20803af9b2e7678f71e2d5430b85606161741bea6da136c95ab5af1ffb158"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          93,
+          221,
+          1160,
+          1086
+        ],
+        "resize": [
+          104,
+          84
+        ],
+        "offset": [
+          12,
+          22
+        ]
+      },
+      "palette_source_sha256": "bbe643bf8d8701c2151fe3bd6a0aa60250a57a1889e27ef8a700ebe80a2269d7",
+      "final_sha256": "5ed0830705dc1bade2bfe470be1965eb9aeae676032ac313abfa3833eed437ef",
+      "recorded_at": "2026-10-11T01:51:52.459906+00:00"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit\nImage 1 is the directly BACK-facing N edit target, eyeless front away at TOP and V-notched tail nearest at BOTTOM. Image 2 is the corrected back-left view of the same shell, to define the physical spiral orientation.\nChange ONLY the top spiral texture of image 1 to follow the same marking as image 2 after a further45degree horizontal turn so the front points TOP. Preserve its single continuous broad roughly1.5turn cream/brown groove and winding handedness. The outer joining/exit band must now be at the FAR TOP part of the shell between the wing roots, not remain a separate crossing cream ribbon across the near bottom. The small dark inner terminal and entire coil rotate together, with the terminal toward the upper-left side of its cream center. Keep the spiral centered and compressed into the broad shell ellipse. No additional loop, branch, concentric line or mirrored coil.\nKeep the original body silhouette, low flat layered shell, five physical short feet with the SAME tail occlusion, no eyes, two pale blue crescent wings, short thick bottom tail with shallow V-notch, all attachments, camera, palette and shading unchanged. Full isolated sprite, real transparent alpha, clear margins, no text/ground/shadow.\n",
+      "raw_sha256": "fea61ce06b28f4c9d12175e2dd41b1f906c069d1acc6d1b8e0cf80e92f74e493",
+      "raw_file_name": "N-normal-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "994d402d7ed9e4fa73d4abfc4f98e7e59acad0fb9d654cd4508927784b917b24",
+        "06a20803af9b2e7678f71e2d5430b85606161741bea6da136c95ab5af1ffb158"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          71,
+          248,
+          1181,
+          992
+        ],
+        "resize": [
+          832,
+          558
+        ],
+        "offset": [
+          96,
+          233
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "04b682473608d820e30ff84692d43bd62a80530fd7a5a6543cfbe590ad6bbc13",
+      "recorded_at": "2026-10-11T01:43:42.550185+00:00"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is the sole exact BACK N normal reference. Independently redraw this pose as logical128x128 pixel art. Preserve low flat layered brown spiral shell,NO visible eyes,TWO pale blue crescent wings with cream veins rooted exactly as shown,ONE short thick foreground tail with shallow V-notch,and FIVE physical short legs with the same FOUR visible feet and fifth hidden by shell/tail. Keep ONE continuous broad1.5turn cream/brown spiral, its winding and corrected inner hook/outer join exactly in the normal's phase. Do not rotate,reflect,add second spiral or move wings. Same high camera,silhouette and muted palette. Crisp clusters,1px dark contour,<=32opaque colors,binary alpha,no antialiasing/blur/dither.128square,longest104px,min8px transparent margins,enlarged preview nearest-neighbor blocks. Genuine transparent alpha,no ground/shadow/text/frame.\n",
+      "raw_sha256": "f9c135fc0d4a55b11e931539805919698fe8290b35bac043406d58271f29de96",
+      "raw_file_name": "N-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "04b682473608d820e30ff84692d43bd62a80530fd7a5a6543cfbe590ad6bbc13"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          49,
+          243,
+          1205,
+          1057
+        ],
+        "resize": [
+          104,
+          73
+        ],
+        "offset": [
+          12,
+          27
+        ]
+      },
+      "palette_source_sha256": "bbe643bf8d8701c2151fe3bd6a0aa60250a57a1889e27ef8a700ebe80a2269d7",
+      "final_sha256": "179cdb6ccf46f5c07cae5b093474daf4caff67988c45934c23b55cf90a664bd1",
+      "recorded_at": "2026-10-11T01:53:16.149062+00:00"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit\nImage 1 is the away-UPPER-RIGHT NE edit target, with the thick V-notched tail at lower LEFT. Image 2 is the corrected directly-back N shell view for the same body-fixed spiral.\nCorrect only image1's broad top spiral texture. Continue the image2 marking by another45degree horizontal yaw until the front points upper RIGHT. The small dark inner terminal should lie at the TOP side of its cream center rather than retaining its old right-facing terminal. Keep ONE continuous roughly1.5turn broad spiral with original winding handedness; the outer progression goes toward the far right/front of the shell. Remove the separate little curled return currently visible on the far upper shell behind the left wing root: blend it into the same plain layered shell surface, not a second spiral or branch. Preserve a single readable coil centered on the oval back and its perspective compression. No added loop or fine concentric lines.\nDo not change any anatomy or camera: flat brown paper-layer shell,5physical short feet with same occlusion, no visible eyes,2blue crescent wings with cream veins,short thick V-notched lower-left tail, all their attachment positions, colors and outlined texture. Full isolated creature on genuine transparent alpha with clear padding,no ground/shadow/text.\n",
+      "raw_sha256": "8d9c7b618f53fd2f6e62da122d0502766809e32304fbf0c1ea47b4812d1cd6f7",
+      "raw_file_name": "NE-normal-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "1ec7b578f8dc36e09ae33f24abdf9c117dde8baff230b70d2a66cedb090aaae4",
+        "04b682473608d820e30ff84692d43bd62a80530fd7a5a6543cfbe590ad6bbc13"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          117,
+          165,
+          1137,
+          1090
+        ],
+        "resize": [
+          832,
+          755
+        ],
+        "offset": [
+          96,
+          134
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "15c4f50f9dbd3cb68a07fef9c66205ca1f8a34904ac6ff05aeb2e9a10e2c7655",
+      "recorded_at": "2026-10-11T01:45:09.833460+00:00"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is the sole exact BACK-RIGHT NE normal. Independently redraw same pose as logical128x128 pixel art. Preserve flat layered brown shell,NO eyes,5physical short legs with same FOUR visible feet and fifth hidden,2blue-gray crescent wings at their precise roots,1short thick lower-left rear tail with shallow V-notch. Preserve the ONE broad1.5turn cream/brown spiral's current phase and winding, no second curled return behind wing, no branching/fine rings/mirroring. Keep camera,bodyshape,palette and occlusion. Crisp clusters,1px dark contour,<=32opaque colors,binary alpha,no antialiasing/blur/dither.128square,longest104px,min8px transparent padding; enlarged preview nearest-neighbor blocks. Genuine transparent background,no ground/shadow/text/frame or anatomy change.\n",
+      "raw_sha256": "2f7307801a67d88a3c98a6a1d7f98030fa74f91a889b8e93ed352123274c7c8a",
+      "raw_file_name": "NE-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "15c4f50f9dbd3cb68a07fef9c66205ca1f8a34904ac6ff05aeb2e9a10e2c7655"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          111,
+          166,
+          1162,
+          1097
+        ],
+        "resize": [
+          104,
+          92
+        ],
+        "offset": [
+          12,
+          18
+        ]
+      },
+      "palette_source_sha256": "bbe643bf8d8701c2151fe3bd6a0aa60250a57a1889e27ef8a700ebe80a2269d7",
+      "final_sha256": "ab7e867428081ea794281ba1013d9d59cecc2f67341db2a65f38917f99424ca1",
+      "recorded_at": "2026-10-11T01:54:42.108153+00:00"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit\nImage 1 is the edit target, a RIGHT-facing side view of the same creature. Correct ONLY the eyes. Keep the large near eye at the right-front rim. Remove the second small far eye at the extreme right edge, replacing that eye ring and pupil with uninterrupted brown/cream shell rim. The far front eye is naturally hidden in this side view. Do not move the remaining near eye.\nEverything else is locked: the low flat brown layered-paper shell and its single broad one-and-a-half-turn spiral, five short physical legs with current natural occlusion, two overlapping pale blue crescent wings and cream veins, short thick left rear tail with its shallow V notch, camera, outline, shading and palette. No new part, no pose change, no mirroring. Preserve full body with transparent margins and genuine alpha; no ground, shadow or text.\n",
+      "raw_sha256": "a8017178376ca827ef59d533eabde3ec1fa29baaba82c4d2e9966e1954a74efb",
+      "raw_file_name": "E-normal-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "38c172d16cd637d78bf685fe78a462d5246406d032622ec3b13c7a7d886cd879"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          116,
+          272,
+          1124,
+          981
+        ],
+        "resize": [
+          832,
+          585
+        ],
+        "offset": [
+          96,
+          219
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "db7757fec38ec39431edfc6fbed32b8e09c2a0f1af65213bcb13a7bdfba2eadd",
+      "recorded_at": "2026-10-11T01:41:04.695057+00:00"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is the sole exact RIGHT E normal. Independently redraw same view as logical128x128 pixel art. Preserve ONE near right rim eye (far eye hidden),low flat brown layered-paper shell,5physical short feet with SAME four visible/one occluded,2blue-gray crescent wings overlapping with unchanged roots,short thick LEFT rear tail with V-notch. Keep the ONE broad1.5turn cream/brown spiral's same winding,phase,inner hook and outerjoin. No mirroring,rotation,extra loops or anatomy. Same camera/proportions and muted palette. Deliberate crisp pixel clusters,1px dark outline,<=32opaque colors,binary alpha,no antialiasing/blur/dither.128square,longest104px,min8px transparent margins; enlarged output nearest-neighbor blocks. Genuine transparent background,no ground/shadow/text/frame.\n",
+      "raw_sha256": "ebc2da176af377f324009d047cd56043d624b44172c31dde49851d697df44481",
+      "raw_file_name": "E-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "db7757fec38ec39431edfc6fbed32b8e09c2a0f1af65213bcb13a7bdfba2eadd"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          95,
+          265,
+          1169,
+          1036
+        ],
+        "resize": [
+          104,
+          75
+        ],
+        "offset": [
+          12,
+          26
+        ]
+      },
+      "palette_source_sha256": "bbe643bf8d8701c2151fe3bd6a0aa60250a57a1889e27ef8a700ebe80a2269d7",
+      "final_sha256": "3b970114a73b2a0f0f77cb370a89c1dc62626096f85a522490390d89bd62cb4c",
+      "recorded_at": "2026-10-11T01:56:12.811916+00:00"
+    }
+  ],
+  "qa": {
+    "numeric_and_hash": "passed_16_slots",
+    "visual": "Fixed source plus seven normals preserve flat layered spiral shell, five physical legs with natural occlusion, two crescent wings, short V-notched tail and front-only eyes. Seven actual128px sprites were compared to corresponding normals: one broad spiral rather than an extra coil, unchanged wing roots and same limb/eye/tail visibility.",
+    "limitations": [
+      "Coherent drawn directions with inferred foreshortening and occlusion, not a measured3D reconstruction.",
+      "One broad spiral is preserved; exact45degree phase, outer layer joins and membrane/root depth are approximated rather than uniquely proven.",
+      "S and W expose all five feet; SW/NW/N/NE/E naturally occlude one. These occlusions are matched between normal and pixel.",
+      "Original fixed pair is hash-verified, while its original generation raw files and detailed source trial history remain incompletely recovered.",
+      "Fine paper texture and wing veins simplify in pixel art. In-game rendering not tested."
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending",
+    "independent_review": "E measured all16 slots/hash and unchanged sourceSEpair; all8-pair comparison plus native N/E pixels inspected. Single spiral, two wings, short notched tail and feet/eye occlusion correspond. Spiral exact phase, wing roots and camera depth remain inferred; source detailed old trials unavailable, absence of explicit safety markers is not complete historical proof. Runtime untested."
+  },
+  "revision_notes": [
+    "NW texture-only halfturn corrected its visible spiral orientation after a first local edit did not achieve the change. N/NE transfer is an approximate consistent drawing.",
+    "NE extra curled return was removed; E far eye was hidden for the side view.",
+    "Fixed SE pair and all earlier raw/quality-held attempts are retained."
+  ]
+}
