@@ -1,0 +1,1115 @@
+{
+  "schema_version": 1,
+  "id": "sm-winged-004",
+  "asset_type": "eight_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "direction_order": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "nominal_yaw_degrees": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/S/default.png",
+      "bytes": 568964,
+      "sha256": "48de9702dde8b72b3a65b378c0d10c21aa0289295506130726c962d2fe5e3843",
+      "git_blob_sha": "e6468fe553b8f56dd5886dc683a86498ff30f0ea",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        181,
+        928,
+        842
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 38633,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/S/pixel.png",
+      "bytes": 7068,
+      "sha256": "106737f20a2ad144ca9bcbf560cfb94f3e182bb489e478f4144ac0334c3f842d",
+      "git_blob_sha": "162fafbedadd6c8580ead8515fb72eb9508c3a61",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        19,
+        116,
+        109
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/SW/default.png",
+      "bytes": 671688,
+      "sha256": "ad6f5757a7f4191f24ee86097418e0f452a0b71011263181d55143c55d6c622d",
+      "git_blob_sha": "585ba12e3d174e9b76366635aaa2a71bacbc76aa",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        144,
+        928,
+        880
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 41618,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/SW/pixel.png",
+      "bytes": 6002,
+      "sha256": "190ad9af6bc2448a277c6eb76e64cb7271ca37cc322ab40d58b420ad30cf4003",
+      "git_blob_sha": "062f26666a6b5e81ff8cb3ef6f7438358788464a",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        16,
+        116,
+        112
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/W/default.png",
+      "bytes": 657948,
+      "sha256": "84994c43e3946c31f921b1963027283577981c11dd20552640b966471907ba89",
+      "git_blob_sha": "521fe708fb903a27cb4638bf4737cfbb21d8b860",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        108,
+        928,
+        916
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 35231,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/W/pixel.png",
+      "bytes": 5400,
+      "sha256": "64629fbdd2a26b4e700f6065fdc6ff4e971c0f6aa41b7d16f9e4b512b155a443",
+      "git_blob_sha": "1f57af5e1348d6eb23560d39c1bed7c7c97a518e",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        13,
+        116,
+        114
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/NW/default.png",
+      "bytes": 634304,
+      "sha256": "14090896522d45d57363a6b667e590ae0c04b665ad72c06e380d0968a8d64722",
+      "git_blob_sha": "fd045af272d4d070db98117dbf535ee2e9410591",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        154,
+        928,
+        869
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 37304,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/NW/pixel.png",
+      "bytes": 6447,
+      "sha256": "9b917200e6a0404f9382707a65e6f23e0a524115050c2a6a5818eeff2f0480d6",
+      "git_blob_sha": "5cc69534517955be5dba64138f8d9cf1c91c29bb",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        15,
+        116,
+        112
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/N/default.png",
+      "bytes": 591514,
+      "sha256": "fe20ce5fa958174648d3fe6fea4b2a311b0023fffafd348fe15f92ec6b067702",
+      "git_blob_sha": "aa205f8ff9f64e7e4759f40a6901b81b26ff6212",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        199,
+        928,
+        824
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 35813,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/N/pixel.png",
+      "bytes": 5969,
+      "sha256": "83a121dfe9aca549c3c3289a7e086493bb45c700abadc0085e2277e113a5c512",
+      "git_blob_sha": "e942ff82cbf136c2229fe73c4ce96fc5ebfd2d73",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        24,
+        116,
+        103
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/NE/default.png",
+      "bytes": 717998,
+      "sha256": "3f86b750913f520a2d62bd7a4c156aa692310766d2ec277618e666df4fa43ef8",
+      "git_blob_sha": "42fb877616c310e9ce6f0819a42bc49a07ba260a",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        106,
+        928,
+        918
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 41793,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/NE/pixel.png",
+      "bytes": 7105,
+      "sha256": "2eb8222b78bcfa7269e09e2f9af74c0844121cc1133985084cd79789c7b84286",
+      "git_blob_sha": "b6b2d16197719bc8b0a0d9ab5d2977b46fff3692",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        12,
+        116,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/E/default.png",
+      "bytes": 709046,
+      "sha256": "ec164c7dd191d10d407b48633d675613ed1f5268932706d50da0f6cd68497d60",
+      "git_blob_sha": "a37ff73721bef7a580be8610a4d4da831ba9fb6b",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        126,
+        96,
+        898,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 36157,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-004/directions/E/pixel.png",
+      "bytes": 5991,
+      "sha256": "2d1264f5d623685b730d6576fb9c40e58d81307af46d4259f2d59c3b46497c17",
+      "git_blob_sha": "042767921cb3645449cd83de2f9e30bf90c2e361",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        16,
+        12,
+        112,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-004/default.png",
+      "bytes": 695577,
+      "sha256": "95752c4bf26c1977fef1a907eac089e597dcd5352135ab2acf0388ba568e9b69",
+      "git_blob_sha": "758eb0cd8f9f01eb745709f4d6086660d82b524b",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        80,
+        144,
+        944,
+        879
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 48877,
+      "binary_alpha": false,
+      "original_preserved": true,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-004/pixel.png",
+      "bytes": 6976,
+      "sha256": "b5f8e55930c98880c0d0bdf3af986bd5ddcce5fc6a977f0977ad08bf61858ce5",
+      "git_blob_sha": "62dfc31ca9bd5924eb664bbf1b9dfdb7bfcd861d",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        10,
+        19,
+        118,
+        109
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": true,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    }
+  ],
+  "provenance": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is original SE sm-winged-004. Draw SAME cork cube creature by true yaw only. One single rounded-corner CUBE body, not sphere; original broad cube proportions and lightly elevated camera with top plane visible but not overhead. ONE horizontal rounded-rectangle darkgreen eye on FRONT plane only, with single vertical pupil and cream highlights. Exactly SIX small darkgreen cardboard TRIANGLE wings, three separate wings per physical side, stepped/staggered stack each side, cream outer tips. Do not merge into single wing. Exactly THREE stout cork legs under cube at fixed triangle vertices: ONE at front-middle, TWO at rear-left/rear-right. Cream tapered footcaps. The tripod must rotate together with cube, not stay screenfixed; natural occlusion rather than adding limbs. Zero arms, tail, antennae. Cork ochre#C7AC6B,green#4E7465,cream#F1E9B9, same porous texture, colored outline and gentle cel shading. Preserve stance, each wing root and half-open fan pose, source camera elevation and fixed volume. TARGET S: direct FRONT. Eye centered wide on front face, left/right wings3each. Front-middle leg center nearest bottom, two rear legs farther to left/right. Top plane remains shallow as source. Single entire sprite1024square centered longest832px,64minimum true transparent margin. No shadows/glow/text/scenery/background/grid. Normal art not pixel.",
+      "raw_sha256": "b3b956a9ab47f0c18d19faeae7877974576889fdf373d17fac04dd2934a82865",
+      "raw_file_name": "S-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "95752c4bf26c1977fef1a907eac089e597dcd5352135ab2acf0388ba568e9b69"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "48de9702dde8b72b3a65b378c0d10c21aa0289295506130726c962d2fe5e3843",
+      "final_sha256": "48de9702dde8b72b3a65b378c0d10c21aa0289295506130726c962d2fe5e3843",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          47,
+          187,
+          1208,
+          1110
+        ],
+        "resize": [
+          832,
+          661
+        ],
+        "offset": [
+          96,
+          181
+        ]
+      },
+      "final_processing": {
+        "method": "Selected normal technical output copied unchanged.",
+        "changed_pixels": 0,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T14:16:04.788685+00:00"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is selected normal S view of sm-winged-004. Redraw this exact visible creature as genuine128x128 pixel art, change medium only, preserve camera, yaw, cube proportions, limb positions and near/far overlap. One rounded cork cube, exactly3stout legs with creamcaps in same tripod arrangement. Six actual small green triangular wings3perphysicalside, preserve visibility and foreshortening exactly: W/E near3 are very compact depth-shortened fin tips and far3hidden; do not enlarge fins or add hidden wings. Preserve the single horizontal rounded-rectangle eye exactly where visible in reference; at side view only its edge is visible, never add eye to broad flank. Cork ochre#C7AC6B,green#4E7465,cream#F1E9B9, simplify speckles to readable flat pixel clusters. No arms/tail. Keep128logicalgrid,1-2pixel outline,max24-32colors,alpha0/255, no antialias/blur/dither. Whole sprite longest104logicalpixels centered128square with8pixel transparent margins; no text, grid, background, glow, floor/shadow or extra objects.",
+      "raw_sha256": "03abc98be37534e2e9a9147a85c5225a306de7aaf93cbd357a9bd31ff6c5f414",
+      "raw_file_name": "S-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "48de9702dde8b72b3a65b378c0d10c21aa0289295506130726c962d2fe5e3843"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "6ceb15f5ea6bf909355f7e54d0e681a50df202336941dfe767b237608248f0e5",
+      "final_sha256": "106737f20a2ad144ca9bcbf560cfb94f3e182bb489e478f4144ac0334c3f842d",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          142,
+          228,
+          1111,
+          1062
+        ],
+        "resize": [
+          104,
+          90
+        ],
+        "offset": [
+          12,
+          19
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized replacement quantization of same generated raw: alpha128 binary, identical crop/NEAREST size/centering, nearestRGB immutable source pixel palette without dithering; avoids median-cut24 losing small green details. Coordinates and final alpha identical to initial technical output.",
+        "changed_pixels": 6053,
+        "palette_source_sha256": "b5f8e55930c98880c0d0bdf3af986bd5ddcce5fc6a977f0977ad08bf61858ce5"
+      },
+      "recorded_at": "2026-10-10T14:29:39.038482+00:00"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is original SE sm-winged-004. Draw SAME cork cube creature by true yaw only. One single rounded-corner CUBE body, not sphere; original broad cube proportions and lightly elevated camera with top plane visible but not overhead. ONE horizontal rounded-rectangle darkgreen eye on FRONT plane only, with single vertical pupil and cream highlights. Exactly SIX small darkgreen cardboard TRIANGLE wings, three separate wings per physical side, stepped/staggered stack each side, cream outer tips. Do not merge into single wing. Exactly THREE stout cork legs under cube at fixed triangle vertices: ONE at front-middle, TWO at rear-left/rear-right. Cream tapered footcaps. The tripod must rotate together with cube, not stay screenfixed; natural occlusion rather than adding limbs. Zero arms, tail, antennae. Cork ochre#C7AC6B,green#4E7465,cream#F1E9B9, same porous texture, colored outline and gentle cel shading. Preserve stance, each wing root and half-open fan pose, source camera elevation and fixed volume. TARGET SW: FRONT-LEFT three-quarter, eye-bearing front aims lower-left. Front-middle leg rotated toward lower-left, rear pair follows fixed base triangle. Three wings near side and three far side naturally overlapping; no extra limbs. Single entire sprite1024square centered longest832px,64minimum true transparent margin. No shadows/glow/text/scenery/background/grid. Normal art not pixel.",
+      "raw_sha256": "004897325e111c81da8a872824c32f65c0a414d054947c0df02f0d64d920b4d9",
+      "raw_file_name": "SW-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "95752c4bf26c1977fef1a907eac089e597dcd5352135ab2acf0388ba568e9b69"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "ad6f5757a7f4191f24ee86097418e0f452a0b71011263181d55143c55d6c622d",
+      "final_sha256": "ad6f5757a7f4191f24ee86097418e0f452a0b71011263181d55143c55d6c622d",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          105,
+          161,
+          1159,
+          1093
+        ],
+        "resize": [
+          832,
+          736
+        ],
+        "offset": [
+          96,
+          144
+        ]
+      },
+      "final_processing": {
+        "method": "Selected normal technical output copied unchanged.",
+        "changed_pixels": 0,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T14:17:21.495167+00:00"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is selected normal SW view of sm-winged-004. Redraw this exact visible creature as genuine128x128 pixel art, change medium only, preserve camera, yaw, cube proportions, limb positions and near/far overlap. One rounded cork cube, exactly3stout legs with creamcaps in same tripod arrangement. Six actual small green triangular wings3perphysicalside, preserve visibility and foreshortening exactly: W/E near3 are very compact depth-shortened fin tips and far3hidden; do not enlarge fins or add hidden wings. Preserve the single horizontal rounded-rectangle eye exactly where visible in reference; at side view only its edge is visible, never add eye to broad flank. Cork ochre#C7AC6B,green#4E7465,cream#F1E9B9, simplify speckles to readable flat pixel clusters. No arms/tail. Keep128logicalgrid,1-2pixel outline,max24-32colors,alpha0/255, no antialias/blur/dither. Whole sprite longest104logicalpixels centered128square with8pixel transparent margins; no text, grid, background, glow, floor/shadow or extra objects.",
+      "raw_sha256": "60bd8428702a62c885b523139b93aabfa7b30695fc81ff0c609e602e7735eef1",
+      "raw_file_name": "SW-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "ad6f5757a7f4191f24ee86097418e0f452a0b71011263181d55143c55d6c622d"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "bbc2888f7ad71959d2a2d6b99365f10881e331f667f65c37ff6312eeb69ef592",
+      "final_sha256": "190ad9af6bc2448a277c6eb76e64cb7271ca37cc322ab40d58b420ad30cf4003",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          130,
+          173,
+          1131,
+          1098
+        ],
+        "resize": [
+          104,
+          96
+        ],
+        "offset": [
+          12,
+          16
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized replacement quantization of same generated raw: alpha128 binary, identical crop/NEAREST size/centering, nearestRGB immutable source pixel palette without dithering; avoids median-cut24 losing small green details. Coordinates and final alpha identical to initial technical output.",
+        "changed_pixels": 6319,
+        "palette_source_sha256": "b5f8e55930c98880c0d0bdf3af986bd5ddcce5fc6a977f0977ad08bf61858ce5"
+      },
+      "recorded_at": "2026-10-10T14:30:58.129034+00:00"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit. Image1 is current W side-view target; image2 is original front-three-quarter identity reference. Correct only wing geometry in image1. Preserve cube, eye edge on left, three feet, camera, stance, cork texture and scale. The side view currently falsely lays three wide green triangles along the side face. In the actual creature these wings project OUTWARD PERPENDICULAR from the side of the cube, like tiny rigid fins, and their broad surfaces lie in the body transverse vertical plane. In a true side view these wing surfaces are seen nearly EDGE ON: severely shortened narrow green-and-cream fin slivers at a vertical set of three root positions near center of visible side, extending toward viewer in depth rather than pointing screen-left or screen-right. The upper sliver tilts up slightly, middle is compact foreshortened tip, lower tilts down. Do NOT paste three broad sideways triangle faces along the flank. Far-side three fins are hidden behind cube. No additional parts. Keep all3existing feet and same plain cork side/edge-visible eye. Single complete creature transparentbackground,1024square with64px margins, same illustration style. This is a geometry quality correction only.",
+      "raw_sha256": "47462df768fc0607566f12ca0dfa91d444d33af288c0dc739a2978eee4e914f9",
+      "raw_file_name": "W-normal-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "701514f6140cbaebb07b8e3c1f000aa6ccac4f0e66dd0b85514fcc3bda6b3d26",
+        "95752c4bf26c1977fef1a907eac089e597dcd5352135ab2acf0388ba568e9b69"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "84994c43e3946c31f921b1963027283577981c11dd20552640b966471907ba89",
+      "final_sha256": "84994c43e3946c31f921b1963027283577981c11dd20552640b966471907ba89",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          117,
+          131,
+          1137,
+          1122
+        ],
+        "resize": [
+          832,
+          808
+        ],
+        "offset": [
+          96,
+          108
+        ]
+      },
+      "final_processing": {
+        "method": "Selected normal technical output copied unchanged.",
+        "changed_pixels": 0,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T14:25:59.055259+00:00"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is selected normal W view of sm-winged-004. Redraw this exact visible creature as genuine128x128 pixel art, change medium only, preserve camera, yaw, cube proportions, limb positions and near/far overlap. One rounded cork cube, exactly3stout legs with creamcaps in same tripod arrangement. Six actual small green triangular wings3perphysicalside, preserve visibility and foreshortening exactly: W/E near3 are very compact depth-shortened fin tips and far3hidden; do not enlarge fins or add hidden wings. Preserve the single horizontal rounded-rectangle eye exactly where visible in reference; at side view only its edge is visible, never add eye to broad flank. Cork ochre#C7AC6B,green#4E7465,cream#F1E9B9, simplify speckles to readable flat pixel clusters. No arms/tail. Keep128logicalgrid,1-2pixel outline,max24-32colors,alpha0/255, no antialias/blur/dither. Whole sprite longest104logicalpixels centered128square with8pixel transparent margins; no text, grid, background, glow, floor/shadow or extra objects.",
+      "raw_sha256": "1aa43d7db4fec4c6c4f4eff6731594739ee370f53b0b9f9192301618ead0fbb1",
+      "raw_file_name": "W-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "84994c43e3946c31f921b1963027283577981c11dd20552640b966471907ba89"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "fd2a751c37ed1f9c90efd4f8594e626d5ff6619d650ae490b62a6ac9cb1fe18a",
+      "final_sha256": "64629fbdd2a26b4e700f6065fdc6ff4e971c0f6aa41b7d16f9e4b512b155a443",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          151,
+          167,
+          1134,
+          1117
+        ],
+        "resize": [
+          104,
+          101
+        ],
+        "offset": [
+          12,
+          13
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized replacement quantization of same generated raw: alpha128 binary, identical crop/NEAREST size/centering, nearestRGB immutable source pixel palette without dithering; avoids median-cut24 losing small green details. Coordinates and final alpha identical to initial technical output.",
+        "changed_pixels": 6834,
+        "palette_source_sha256": "b5f8e55930c98880c0d0bdf3af986bd5ddcce5fc6a977f0977ad08bf61858ce5"
+      },
+      "recorded_at": "2026-10-10T14:32:17.846704+00:00"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is original SE sm-winged-004. Draw SAME cork cube creature by true yaw only. One single rounded-corner CUBE body, not sphere; original broad cube proportions and lightly elevated camera with top plane visible but not overhead. ONE horizontal rounded-rectangle darkgreen eye on FRONT plane only, with single vertical pupil and cream highlights. Exactly SIX small darkgreen cardboard TRIANGLE wings, three separate wings per physical side, stepped/staggered stack each side, cream outer tips. Do not merge into single wing. Exactly THREE stout cork legs under cube at fixed triangle vertices: ONE at front-middle, TWO at rear-left/rear-right. Cream tapered footcaps. The tripod must rotate together with cube, not stay screenfixed; natural occlusion rather than adding limbs. Zero arms, tail, antennae. Cork ochre#C7AC6B,green#4E7465,cream#F1E9B9, same porous texture, colored outline and gentle cel shading. Preserve stance, each wing root and half-open fan pose, source camera elevation and fixed volume. TARGET NW: BACK-LEFT three-quarter, eye front plane points away upper-left and fully hidden. Eyeless rear plane lower-right nearest. Rear-pair legs toward viewer, original front-middle leg farther upper-left partly occluded. Wings rotate with cube,3eachphysicalside with natural overlap. Single entire sprite1024square centered longest832px,64minimum true transparent margin. No shadows/glow/text/scenery/background/grid. Normal art not pixel.",
+      "raw_sha256": "dd06667e2b88a7a0b70837b1270eeea0ab01bf1add61e1f0b64882b46e088a6d",
+      "raw_file_name": "NW-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "95752c4bf26c1977fef1a907eac089e597dcd5352135ab2acf0388ba568e9b69"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "14090896522d45d57363a6b667e590ae0c04b665ad72c06e380d0968a8d64722",
+      "final_sha256": "14090896522d45d57363a6b667e590ae0c04b665ad72c06e380d0968a8d64722",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          112,
+          172,
+          1164,
+          1076
+        ],
+        "resize": [
+          832,
+          715
+        ],
+        "offset": [
+          96,
+          154
+        ]
+      },
+      "final_processing": {
+        "method": "Selected normal technical output copied unchanged.",
+        "changed_pixels": 0,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T14:20:18.878119+00:00"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is selected normal NW view of sm-winged-004. Redraw this exact visible creature as genuine128x128 pixel art, change medium only, preserve camera, yaw, cube proportions, limb positions and near/far overlap. One rounded cork cube, exactly3stout legs with creamcaps in same tripod arrangement. Six actual small green triangular wings3perphysicalside, preserve visibility and foreshortening exactly: W/E near3 are very compact depth-shortened fin tips and far3hidden; do not enlarge fins or add hidden wings. Visible surface is EYELESS; NO eye, pupil, socket, lens, face or dark rounded rectangles anywhere. Cork ochre#C7AC6B,green#4E7465,cream#F1E9B9, simplify speckles to readable flat pixel clusters. No arms/tail. Keep128logicalgrid,1-2pixel outline,max24-32colors,alpha0/255, no antialias/blur/dither. Whole sprite longest104logicalpixels centered128square with8pixel transparent margins; no text, grid, background, glow, floor/shadow or extra objects.",
+      "raw_sha256": "51d7e4c3928a6896e993999ec741f27fa903cd0033da4bc9b588d78590632217",
+      "raw_file_name": "NW-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "14090896522d45d57363a6b667e590ae0c04b665ad72c06e380d0968a8d64722"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "2ac7ca561e2944b346f1b742fc29244a58d589bac91da3e9bc552d6901eb9256",
+      "final_sha256": "9b917200e6a0404f9382707a65e6f23e0a524115050c2a6a5818eeff2f0480d6",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          170,
+          216,
+          1083,
+          1070
+        ],
+        "resize": [
+          104,
+          97
+        ],
+        "offset": [
+          12,
+          15
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized replacement quantization of same generated raw: alpha128 binary, identical crop/NEAREST size/centering, nearestRGB immutable source pixel palette without dithering; avoids median-cut24 losing small green details. Coordinates and final alpha identical to initial technical output.",
+        "changed_pixels": 6677,
+        "palette_source_sha256": "b5f8e55930c98880c0d0bdf3af986bd5ddcce5fc6a977f0977ad08bf61858ce5"
+      },
+      "recorded_at": "2026-10-10T14:35:08.914916+00:00"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is original SE sm-winged-004. Draw SAME cork cube creature by true yaw only. One single rounded-corner CUBE body, not sphere; original broad cube proportions and lightly elevated camera with top plane visible but not overhead. ONE horizontal rounded-rectangle darkgreen eye on FRONT plane only, with single vertical pupil and cream highlights. Exactly SIX small darkgreen cardboard TRIANGLE wings, three separate wings per physical side, stepped/staggered stack each side, cream outer tips. Do not merge into single wing. Exactly THREE stout cork legs under cube at fixed triangle vertices: ONE at front-middle, TWO at rear-left/rear-right. Cream tapered footcaps. The tripod must rotate together with cube, not stay screenfixed; natural occlusion rather than adding limbs. Zero arms, tail, antennae. Cork ochre#C7AC6B,green#4E7465,cream#F1E9B9, same porous texture, colored outline and gentle cel shading. Preserve stance, each wing root and half-open fan pose, source camera elevation and fixed volume. TARGET N: direct BACK. Rear plane entirely eyeless cork. Two rear legs foreground left/right, single original front-middle leg farther centered, may be hidden behind body. Three triangle wings on each physical side, stepped roots maintain same original angles. Original low-moderate top-plane visibility. Single entire sprite1024square centered longest832px,64minimum true transparent margin. No shadows/glow/text/scenery/background/grid. Normal art not pixel.",
+      "raw_sha256": "96c3c1ccc6ab9b3f8c6ffad77913a6e65c9881eda0a010e6f56293839cfe5d81",
+      "raw_file_name": "N-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "95752c4bf26c1977fef1a907eac089e597dcd5352135ab2acf0388ba568e9b69"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "fe20ce5fa958174648d3fe6fea4b2a311b0023fffafd348fe15f92ec6b067702",
+      "final_sha256": "fe20ce5fa958174648d3fe6fea4b2a311b0023fffafd348fe15f92ec6b067702",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          88,
+          180,
+          1166,
+          990
+        ],
+        "resize": [
+          832,
+          625
+        ],
+        "offset": [
+          96,
+          199
+        ]
+      },
+      "final_processing": {
+        "method": "Selected normal technical output copied unchanged.",
+        "changed_pixels": 0,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T14:21:25.109417+00:00"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is selected normal N view of sm-winged-004. Redraw this exact visible creature as genuine128x128 pixel art, change medium only, preserve camera, yaw, cube proportions, limb positions and near/far overlap. One rounded cork cube, exactly3stout legs with creamcaps in same tripod arrangement. Six actual small green triangular wings3perphysicalside, preserve visibility and foreshortening exactly: W/E near3 are very compact depth-shortened fin tips and far3hidden; do not enlarge fins or add hidden wings. Visible surface is EYELESS; NO eye, pupil, socket, lens, face or dark rounded rectangles anywhere. Cork ochre#C7AC6B,green#4E7465,cream#F1E9B9, simplify speckles to readable flat pixel clusters. No arms/tail. Keep128logicalgrid,1-2pixel outline,max24-32colors,alpha0/255, no antialias/blur/dither. Whole sprite longest104logicalpixels centered128square with8pixel transparent margins; no text, grid, background, glow, floor/shadow or extra objects.",
+      "raw_sha256": "1cd510b5addc4f432d480fb1dcca6f17d5b14337e68f1ddbe421890a8379873f",
+      "raw_file_name": "N-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "fe20ce5fa958174648d3fe6fea4b2a311b0023fffafd348fe15f92ec6b067702"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "0dafe37c93cc8c35a0063f3cc0631578d2690144d9017b5e914616389bbca2ea",
+      "final_sha256": "83a121dfe9aca549c3c3289a7e086493bb45c700abadc0085e2277e113a5c512",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          121,
+          241,
+          1134,
+          1015
+        ],
+        "resize": [
+          104,
+          79
+        ],
+        "offset": [
+          12,
+          24
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized replacement quantization of same generated raw: alpha128 binary, identical crop/NEAREST size/centering, nearestRGB immutable source pixel palette without dithering; avoids median-cut24 losing small green details. Coordinates and final alpha identical to initial technical output.",
+        "changed_pixels": 5556,
+        "palette_source_sha256": "b5f8e55930c98880c0d0bdf3af986bd5ddcce5fc6a977f0977ad08bf61858ce5"
+      },
+      "recorded_at": "2026-10-10T14:36:40.846915+00:00"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is original SE sm-winged-004. Draw SAME cork cube creature by true yaw only. One single rounded-corner CUBE body, not sphere; original broad cube proportions and lightly elevated camera with top plane visible but not overhead. ONE horizontal rounded-rectangle darkgreen eye on FRONT plane only, with single vertical pupil and cream highlights. Exactly SIX small darkgreen cardboard TRIANGLE wings, three separate wings per physical side, stepped/staggered stack each side, cream outer tips. Do not merge into single wing. Exactly THREE stout cork legs under cube at fixed triangle vertices: ONE at front-middle, TWO at rear-left/rear-right. Cream tapered footcaps. The tripod must rotate together with cube, not stay screenfixed; natural occlusion rather than adding limbs. Zero arms, tail, antennae. Cork ochre#C7AC6B,green#4E7465,cream#F1E9B9, same porous texture, colored outline and gentle cel shading. Preserve stance, each wing root and half-open fan pose, source camera elevation and fixed volume. TARGET NE: BACK-RIGHT three-quarter, eye front plane points away upper-right and hidden. Plain cork rear plane lower-left nearest, rear two legs nearer, original front-middle leg farther upper-right. Wings rotate with cube and retain3eachside. Single entire sprite1024square centered longest832px,64minimum true transparent margin. No shadows/glow/text/scenery/background/grid. Normal art not pixel.",
+      "raw_sha256": "02752f0006c0b0707f4020694235b7352c26a0afd08791ebe29def5f7fd6a755",
+      "raw_file_name": "NE-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "95752c4bf26c1977fef1a907eac089e597dcd5352135ab2acf0388ba568e9b69"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "3f86b750913f520a2d62bd7a4c156aa692310766d2ec277618e666df4fa43ef8",
+      "final_sha256": "3f86b750913f520a2d62bd7a4c156aa692310766d2ec277618e666df4fa43ef8",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          141,
+          164,
+          1092,
+          1092
+        ],
+        "resize": [
+          832,
+          812
+        ],
+        "offset": [
+          96,
+          106
+        ]
+      },
+      "final_processing": {
+        "method": "Selected normal technical output copied unchanged.",
+        "changed_pixels": 0,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T14:22:47.234085+00:00"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is selected normal NE view of sm-winged-004. Redraw this exact visible creature as genuine128x128 pixel art, change medium only, preserve camera, yaw, cube proportions, limb positions and near/far overlap. One rounded cork cube, exactly3stout legs with creamcaps in same tripod arrangement. Six actual small green triangular wings3perphysicalside, preserve visibility and foreshortening exactly: W/E near3 are very compact depth-shortened fin tips and far3hidden; do not enlarge fins or add hidden wings. Visible surface is EYELESS; NO eye, pupil, socket, lens, face or dark rounded rectangles anywhere. Cork ochre#C7AC6B,green#4E7465,cream#F1E9B9, simplify speckles to readable flat pixel clusters. No arms/tail. Keep128logicalgrid,1-2pixel outline,max24-32colors,alpha0/255, no antialias/blur/dither. Whole sprite longest104logicalpixels centered128square with8pixel transparent margins; no text, grid, background, glow, floor/shadow or extra objects.",
+      "raw_sha256": "802b847c4e66014be1d2b17494c99aed1ca2ccb48855423a9b68ba8149c39929",
+      "raw_file_name": "NE-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "3f86b750913f520a2d62bd7a4c156aa692310766d2ec277618e666df4fa43ef8"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "bc8c636c1b3b25f5006a41b3b62dc4ddfb26a32caf97fa41b926386770850016",
+      "final_sha256": "2eb8222b78bcfa7269e09e2f9af74c0844121cc1133985084cd79789c7b84286",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          138,
+          129,
+          1168,
+          1155
+        ],
+        "resize": [
+          104,
+          104
+        ],
+        "offset": [
+          12,
+          12
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized replacement quantization of same generated raw: alpha128 binary, identical crop/NEAREST size/centering, nearestRGB immutable source pixel palette without dithering; avoids median-cut24 losing small green details. Coordinates and final alpha identical to initial technical output.",
+        "changed_pixels": 6610,
+        "palette_source_sha256": "b5f8e55930c98880c0d0bdf3af986bd5ddcce5fc6a977f0977ad08bf61858ce5"
+      },
+      "recorded_at": "2026-10-10T14:38:19.471200+00:00"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit. Image1 is current E side-view target; image2 is original front-three-quarter identity reference. Correct only wing geometry in image1. Preserve cube, eye edge on right, three feet, camera, stance, cork texture and scale. The side view currently falsely lays three wide green triangles along the side face. In the actual creature these wings project OUTWARD PERPENDICULAR from the side of the cube, like tiny rigid fins, and their broad surfaces lie in the body transverse vertical plane. In a true side view these wing surfaces are seen nearly EDGE ON: severely shortened narrow green-and-cream fin slivers at a vertical set of three root positions near center of visible side, extending toward viewer in depth rather than pointing screen-left or screen-right. The upper sliver tilts up slightly, middle is compact foreshortened tip, lower tilts down. Do NOT paste three broad sideways triangle faces along the flank. Far-side three fins are hidden behind cube. No additional parts. Keep all3existing feet and same plain cork side/edge-visible eye. Single complete creature transparentbackground,1024square with64px margins, same illustration style. This is a geometry quality correction only.",
+      "raw_sha256": "91883fbe87748e595df96a31f0fd262484b16389a3e79ed966643a96ea53f223",
+      "raw_file_name": "E-normal-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "95aa57e194b2986e44bb20531bdfaf7ec17119fe9ea09069beaea58684cd427c",
+        "95752c4bf26c1977fef1a907eac089e597dcd5352135ab2acf0388ba568e9b69"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "ec164c7dd191d10d407b48633d675613ed1f5268932706d50da0f6cd68497d60",
+      "final_sha256": "ec164c7dd191d10d407b48633d675613ed1f5268932706d50da0f6cd68497d60",
+      "initial_processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          186,
+          118,
+          1132,
+          1137
+        ],
+        "resize": [
+          772,
+          832
+        ],
+        "offset": [
+          126,
+          96
+        ]
+      },
+      "final_processing": {
+        "method": "Selected normal technical output copied unchanged.",
+        "changed_pixels": 0,
+        "palette_source_sha256": null
+      },
+      "recorded_at": "2026-10-10T14:27:38.028831+00:00"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer. Image1 is selected normal E view of sm-winged-004. Redraw this exact visible creature as genuine128x128 pixel art, change medium only, preserve camera, yaw, cube proportions, limb positions and near/far overlap. One rounded cork cube, exactly3stout legs with creamcaps in same tripod arrangement. Six actual small green triangular wings3perphysicalside, preserve visibility and foreshortening exactly: W/E near3 are very compact depth-shortened fin tips and far3hidden; do not enlarge fins or add hidden wings. Preserve the single horizontal rounded-rectangle eye exactly where visible in reference; at side view only its edge is visible, never add eye to broad flank. Cork ochre#C7AC6B,green#4E7465,cream#F1E9B9, simplify speckles to readable flat pixel clusters. No arms/tail. Keep128logicalgrid,1-2pixel outline,max24-32colors,alpha0/255, no antialias/blur/dither. Whole sprite longest104logicalpixels centered128square with8pixel transparent margins; no text, grid, background, glow, floor/shadow or extra objects.",
+      "raw_sha256": "d5d896158210224bf4faecf3edda87a6fb5a511b754e2bbeb7b7c93f790ea089",
+      "raw_file_name": "E-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "ec164c7dd191d10d407b48633d675613ed1f5268932706d50da0f6cd68497d60"
+      ],
+      "reference_evidence": "Exact file hashes used in executed native imagegen call; pixels referenced the selected same-direction normal with exact references recorded; normal finals unchanged; pixel final quantization reprocessed from generated raw using immutable source palette.",
+      "first_technical_output_sha256": "cb13c0c1276e354fe66d2c3a66c5572addd4953dddfca0fad6db2f1d931983e8",
+      "final_sha256": "2d1264f5d623685b730d6576fb9c40e58d81307af46d4259f2d59c3b46497c17",
+      "initial_processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, median-cut24 without dithering, center128",
+        "crop_bbox": [
+          169,
+          133,
+          1093,
+          1137
+        ],
+        "resize": [
+          96,
+          104
+        ],
+        "offset": [
+          16,
+          12
+        ]
+      },
+      "final_processing": {
+        "method": "Authorized replacement quantization of same generated raw: alpha128 binary, identical crop/NEAREST size/centering, nearestRGB immutable source pixel palette without dithering; avoids median-cut24 losing small green details. Coordinates and final alpha identical to initial technical output.",
+        "changed_pixels": 7507,
+        "palette_source_sha256": "b5f8e55930c98880c0d0bdf3af986bd5ddcce5fc6a977f0977ad08bf61858ce5"
+      },
+      "recorded_at": "2026-10-10T14:42:49.578296+00:00"
+    }
+  ],
+  "qa": {
+    "numeric_and_hash": "passed_16_slots",
+    "visual": "Parent eight-pair review and E full-resolution key normal/pixel review confirm direction/identity correspondence within documented limitations. In-game acceptance pending.",
+    "limitations": [
+      "Exact45degree yaw, fixed camera elevation and limb-root depths are inferred and not a measured3D reconstruction.",
+      "Precise wing-root positions between W/E and NW/NE, cube face areas, camera pitch, and cork speckle identities across rotations are not guaranteed.",
+      "Profiles retain slight obliquity; far-side wings are inferred occluded. Pixel wing tips may simplify far-side shape. Rear N third leg is mostly occluded.",
+      "Original sourcemeta states older detailed trial history is incompletely recovered. No known prior stop was found in available records; historical completeness is not claimed."
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending",
+    "numeric_hash": "E independently passed all16slots dimensions, margins, visible extent, SHA256, pixel binaryalpha and <=32visibleRGB.",
+    "source_history_audit": "Available fixed-source metadata has no explicit safety-stop marker; historical completeness beyond the available record is unproven."
+  }
+}

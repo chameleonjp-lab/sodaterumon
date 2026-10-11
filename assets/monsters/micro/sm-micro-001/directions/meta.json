@@ -1,0 +1,498 @@
+{
+  "schema_version": 1,
+  "id": "sm-micro-001",
+  "asset_type": "recovery_reselected_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "original_direction_basis": "Original two front-right eyes and rear-left S tail retained as SE anchor.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-001/directions/S/default.png",
+      "sha256": "c07fb89ae30404aa45af4311118502ee6eb5c7cc9421bb25185e650b36055e55",
+      "bytes": 624256,
+      "git_blob_sha": "b919bf3c23004acb1be397c5a65b594fe1466318",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        146,
+        80,
+        877,
+        944
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 62703,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-001/directions/S/pixel.png",
+      "sha256": "f8d9a7c8298073814cf37b5ca08e0d8cd2620248f3d59f926431c19fa1b5f943",
+      "bytes": 6893,
+      "git_blob_sha": "fb12eac3ae9faf2eb27e25a89453058d6844d29d",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        19,
+        10,
+        108,
+        118
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-001/directions/SW/default.png",
+      "sha256": "9a970352f22615784160addef11b0c09f99ba7cbe1224a15f4adb74d598b39a9",
+      "bytes": 504652,
+      "git_blob_sha": "8fe7c420d2f8e3e96059dcfba1ee089e421e62cb",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        195,
+        944,
+        829
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 62018,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-001/directions/SW/pixel.png",
+      "sha256": "5051f09e112997ced109b16f36bf4c83216011ed0b271d350f8e9a3d8802b3a0",
+      "bytes": 6274,
+      "git_blob_sha": "95af296a52f0a5b220438b6ed1ce3e7174c8c7b4",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        22,
+        118,
+        106
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-001/directions/W/default.png",
+      "sha256": "3f039057ff50c4751ff703d8c1fb12efdf8a563e8d80d4ecc61ef86b200d1417",
+      "bytes": 414926,
+      "git_blob_sha": "f5c51cf5a29a7ab2bfc45ca80bca2c5fb3794753",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        258,
+        944,
+        765
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 47147,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-001/directions/W/pixel.png",
+      "sha256": "f7f986878b643c17523abd093adac54dbfe94d8f29e76b538af7e2bd28c649e1",
+      "bytes": 6146,
+      "git_blob_sha": "220f0dd004ed225b793a93f206bb700032d3be77",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        32,
+        118,
+        96
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-001/directions/NW/default.png",
+      "sha256": "ee37ea861a365d7fe3db273fbca13e6fe33fefb07675480349f09372d51d09ef",
+      "bytes": 514100,
+      "git_blob_sha": "a464e645216820b46ffe6abd238978b52bac002e",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        167,
+        944,
+        857
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 60375,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-001/directions/NW/pixel.png",
+      "sha256": "92a2359d7b05d997552b27ad59ef5de6c7d8cca6caa6dc7246094a7b503694b5",
+      "bytes": 6860,
+      "git_blob_sha": "2fee89bf512efdac6df5c150e13afdf1ef5914ff",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        18,
+        118,
+        109
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-001/directions/N/default.png",
+      "sha256": "6b7bb02e1eaed99c55267bc4a19ad580595814a13eb28c39395ed893796e913b",
+      "bytes": 509842,
+      "git_blob_sha": "75b9fb5709782baf1c1ee9f60bce17f9be2c1858",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        212,
+        80,
+        811,
+        944
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 62381,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-001/directions/N/pixel.png",
+      "sha256": "82b9ebdab404b41c8ce9891c81a2471ec464226673ed720ab1d1d1fea2ba783b",
+      "bytes": 6818,
+      "git_blob_sha": "59d816292c1793011879027e260129470f937266",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        27,
+        10,
+        100,
+        118
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-001/directions/NE/default.png",
+      "sha256": "33c0248051297eb1c0c82c2bf2c8942ebace5031cd7460248c155bb876566a11",
+      "bytes": 444315,
+      "git_blob_sha": "b4d43ce1bfb338163fd11ddf5f097db4c924241b",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        241,
+        944,
+        783
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 50516,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-001/directions/NE/pixel.png",
+      "sha256": "ab70ac3c68b7eab959468c5f4afa100456869b5dee19f3ae6a3e87163e7e4cef",
+      "bytes": 6537,
+      "git_blob_sha": "548f091469dcbf38da109f8210da5727ca36cd7c",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        28,
+        118,
+        100
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-001/directions/E/default.png",
+      "sha256": "1d54a68be3684b47735816ac32b0f5186d19164cfd78a898a6f4acbc7e0327c4",
+      "bytes": 425166,
+      "git_blob_sha": "942fdb4bd941b34b21cb08203bfb576273748d39",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        237,
+        944,
+        787
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 47638,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-001/directions/E/pixel.png",
+      "sha256": "11537a334f759c4ef05c33378d2bf75cebe0e2a92601f457563f44904818b209",
+      "bytes": 6109,
+      "git_blob_sha": "3917d8deae392174df9373c5a1a4fbbf4e16adbe",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        29,
+        118,
+        98
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/micro/sm-micro-001/default.png",
+      "sha256": "84213d8389eab8ba9bf2ddedb5605c262c8ea75707a167e631eb12b7d94a43f1",
+      "bytes": 408273,
+      "git_blob_sha": "5c90efe7cbdc7fe64286729c9116c9fe60b4a7c8",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        106,
+        928,
+        920
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 43993,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/micro/sm-micro-001/pixel.png",
+      "sha256": "5ab35c8209bcafe84335896361d033534a04a174ac34e2a44e665426c620c800",
+      "bytes": 5780,
+      "git_blob_sha": "9887bf910f144356cf4e0ace2d696abb4119a7d3",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        28,
+        116,
+        99
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 23,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    }
+  ],
+  "selection_provenance": [
+    {
+      "direction": "S",
+      "selection_basis": "New frontal eyes and rear-center tail occluded by body",
+      "provenance_status": "New normal/pixel with recorded prompt/raw/reference hashes."
+    },
+    {
+      "direction": "SW",
+      "selection_basis": "Recovered032/031 front-left eyes, far-right tail",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    },
+    {
+      "direction": "W",
+      "selection_basis": "Recovered044/045 left profile with right tail and matched body width",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    },
+    {
+      "direction": "NW",
+      "selection_basis": "New near lower-right tail root, hidden far frontal eyes",
+      "provenance_status": "New normal/pixel with recorded prompt/raw/reference hashes."
+    },
+    {
+      "direction": "N",
+      "selection_basis": "Recovered034/033 straight rear with foreground center tail",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    },
+    {
+      "direction": "NE",
+      "selection_basis": "Recovered038/037 rear-right oblique with near-left tail",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    },
+    {
+      "direction": "E",
+      "selection_basis": "Recovered042/041 right-edge eye with left tail",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    }
+  ],
+  "new_generation_provenance": [
+    {
+      "direction": "S",
+      "type": "normal",
+      "prompt": "Use case: precise-object-edit. One corrected straight FRONT/S view of this same own cyan cell creature. Image1 is target with two eyes straight toward viewer but tail incorrectly attached visibly to side; image2 is original three-quarter identity. Keep the round cyan membrane, single large golden nucleus, two equally visible forward eyes, size/palette/style and camera unchanged. Reproject ONLY the one rear S-curved flagellum from its fixed rear-center attachment: its root lies on the FAR side of the body opposite the eyes, hidden behind the body. The short S tip may peek above the upper CENTER of the body, foreshortened in depth, with its lower portion naturally occluded. Do not attach it at the left or right side, on the forehead or upper surface. One tail only, no limbs, mouth or extra organs. Original tail material/cream stripe and two gentle opposite bends remain. Fullbody genuine transparency, centered1024 generous margins, no text/shadow.",
+      "sha256": "c07fb89ae30404aa45af4311118502ee6eb5c7cc9421bb25185e650b36055e55",
+      "raw_sha256": "d0cbb4b551e6f600d496c931e9fdf03f8fbcdeb3a0a92349df1417184d16d4c6",
+      "reference_hashes": [
+        "490585c0f3593e9a05402aab3d709c2251c175d93217d8b38b9e48b7d1caa8bc",
+        "84213d8389eab8ba9bf2ddedb5605c262c8ea75707a167e631eb12b7d94a43f1"
+      ]
+    },
+    {
+      "direction": "S",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Redraw this exact own cell-creature front portrait as authentic128x128 logical pixel art. Preserve round cyan body, one golden circular nucleus, TWO equal frontal eyes and ONE short tail peeking above center from behind the body with its root occluded. No side-attached tail, limbs or added organs. Same pose, proportions, palette and cream spots. Intentionally designed broad flat clusters, <=31 visible colors, crisp dark one-pixel contour, opaque pixels or transparent pixels only, no antialiasing or soft gradient. Can show enlarged uniform square logical pixels. Fullbody centered generous transparent margins, no shadow/text. Change only rendering medium.",
+      "sha256": "f8d9a7c8298073814cf37b5ca08e0d8cd2620248f3d59f926431c19fa1b5f943",
+      "raw_sha256": "d46c415d51397aacb66911a2392312ab01be1dd755cb6af8749cb54b6c0ac2cd",
+      "reference_hashes": [
+        "c07fb89ae30404aa45af4311118502ee6eb5c7cc9421bb25185e650b36055e55"
+      ]
+    },
+    {
+      "direction": "NW",
+      "type": "normal",
+      "prompt": "Use case: precise-object-edit. Correct only the two erroneous eye slivers protruding at the far UPPER-LEFT edge of this rear-view cell creature. This is a rear-left oblique: the original frontal eyes are completely occluded on the opposite side. Replace those two brown/white protruding eye crescents with the smooth continuous cyan outer membrane contour and transparent exterior, with no eye visible. Keep all other geometry exactly: single round golden nucleus, one S tail attached on near lower-right and projecting foreground, body roundness, cream spots, palette, shading and camera. No new anatomy. Genuine transparent background, no text or shadow.",
+      "sha256": "ee37ea861a365d7fe3db273fbca13e6fe33fefb07675480349f09372d51d09ef",
+      "raw_sha256": "06cd3d9003d423054f389a5aeb0fbf1e17254509b57c3b6cef228622ac6baead",
+      "reference_hashes": [
+        "268f7616364355b793f5fb3a6bc0b9554803af203a51a3bf1c0d504efcb54f6e"
+      ]
+    },
+    {
+      "direction": "NW",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Redraw this exact own cell-creature rear-left oblique portrait as authentic128x128 logical pixel art. Preserve round cyan body, one golden circular nucleus, NO VISIBLE EYES because front eyes are hidden on far side, and ONE short S tail rooted on near lower-right surface overlapping the rim and extending lower-right foreground. No limbs or added organs. Same pose, proportions, palette and cream spots. Intentionally designed broad flat clusters, <=31 visible colors, crisp dark one-pixel contour, opaque pixels or transparent pixels only, no antialiasing or soft gradient. Can show enlarged uniform square logical pixels. Fullbody centered generous transparent margins, no shadow/text. Change only rendering medium.",
+      "sha256": "92a2359d7b05d997552b27ad59ef5de6c7d8cca6caa6dc7246094a7b503694b5",
+      "raw_sha256": "fb0afd45213e04da6f78fa5b7245a3fa786a2dc13dd6d840e8ee10826ce6c5bb",
+      "reference_hashes": [
+        "ee37ea861a365d7fe3db273fbca13e6fe33fefb07675480349f09372d51d09ef"
+      ]
+    }
+  ],
+  "generation_scope": "Four adopted new images: S/NW normal and corresponding pixel pairs. One earlier NW normal with eye slivers retained but not adopted. Five recovered pairs selected unchanged; original SE pair unchanged.",
+  "historical_provenance_gap": "Old adopted mapping and generation prompt/reference lineage for reused candidates were not recovered. Current visual reselection is not claimed identical to historical adoption.",
+  "quality_history": [
+    {
+      "status": "previous_direction_hold",
+      "reason": "Tail root fixed rotation across S and rear obliques unproven."
+    },
+    {
+      "status": "review_candidate",
+      "improvements": "S tail now lies at rear-center hidden by the body; NW root overlaps near lower-right membrane and far frontal eyes are hidden. Corresponding pixels follow both corrections."
+    }
+  ],
+  "anatomy": "One round cyan cell body, one circular golden nucleus, two front eyes and one short S-shaped rear flagellum; zero limbs or wings.",
+  "processing": {
+    "reused_candidates": "Byte-identical recovered selections, no changes during reselection.",
+    "new_normals": "Low-alpha cleanup below8, proportional LANCZOS fit visible864, centered transparent1024; no shape redraw.",
+    "new_pixels": "Nearest128, alpha threshold128,31-color quantization without dithering, transparent RGB cleared, proportional nearest visible108, centered128; no shape redraw."
+  },
+  "qa": {
+    "numeric_hash": "E all16slots independently passed numerical and SHA256 checks",
+    "visual": "Parent8pair and E full-resolution S/NW normal/pixel reviews confirm rear-central tail root versus near rear-diagonal root, eye occlusion and paired correspondence within documented limitations.",
+    "limitations": [
+      "Historical adopted hashes and old generation lineage for reused candidates remain unproven",
+      "Tail root depth and nucleus/cream-spot rotation remain inferred from one original; S lower tail bend is occluded rather than removed",
+      "Exact45-degree yaw and fixed camera/body-tilt continuity unverified"
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending",
+    "source_history": "Available source attempts default1 quality rejected for C-shaped tail, default2 and pixel1 accepted with technical finishing. No explicit safety-stop marker in this record; completeness beyond the record unproven."
+  }
+}

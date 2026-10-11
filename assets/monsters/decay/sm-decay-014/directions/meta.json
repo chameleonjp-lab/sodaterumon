@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-014",
+  "asset_type": "recovery_reselected_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "original_direction_basis": "Retains historical nominal S anchor; largest lobe at far-right is used as fixed orientation marker, not proven locomotion front.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/decay/sm-decay-014/default.png",
+      "sha256": "355583abd52948fffddf9d0d4fdf0beda1f2ee33caf046d21657163e1d9ad56f",
+      "bytes": 802512,
+      "git_blob_sha": "76df6031fa73226c07255a4131e64d15330d1271",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        101,
+        944,
+        922
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 114522,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/decay/sm-decay-014/pixel.png",
+      "sha256": "b9290a898f403e9dd12bc4014f7309570b9dbbff4d16c040392269b6125a8c41",
+      "bytes": 13911,
+      "git_blob_sha": "379e1388da003f4815214c24dc6d1c82c2bcb729",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        12,
+        118,
+        115
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/decay/sm-decay-014/directions/SW/default.png",
+      "sha256": "e897d87aff963620fbe0825c67cdecc66b35f5804fc2fc389575711969aaa5b3",
+      "bytes": 702589,
+      "git_blob_sha": "14f81c474d179a88df5e422c335508872d5b07e8",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        184,
+        944,
+        839
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 111980,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/decay/sm-decay-014/directions/SW/pixel.png",
+      "sha256": "0ee308d14801b4abf03a651b7faa2e6919721e0034552efe8e97996e3686e44d",
+      "bytes": 10435,
+      "git_blob_sha": "6b3e329d0b621257e7ac096b2a826ef87ef22558",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        22,
+        118,
+        106
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/decay/sm-decay-014/directions/W/default.png",
+      "sha256": "e9246f29fe48db3e72cbb4ad17d90fe9ac2ecab06d61e065887b73f421e0a840",
+      "bytes": 713159,
+      "git_blob_sha": "d757dcef4385661375848393365cfbbcd905d0f2",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        121,
+        944,
+        903
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 109954,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/decay/sm-decay-014/directions/W/pixel.png",
+      "sha256": "ae1c24cda004c76afc789a4be1f1c25d673fddf82f4f76ae1bde10c735d08f38",
+      "bytes": 10468,
+      "git_blob_sha": "c202d5c0bb10e629770925d5bf611473166f8d43",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        13,
+        118,
+        115
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/decay/sm-decay-014/directions/NW/default.png",
+      "sha256": "e9b309f1a3c33fd9dec297c904210f3463c057ae8ef01f770094db94136ecb5a",
+      "bytes": 827986,
+      "git_blob_sha": "92293a8544a328158545b9d02f4d42b87065fa56",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        140,
+        944,
+        884
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 118562,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/decay/sm-decay-014/directions/NW/pixel.png",
+      "sha256": "245d290a8158c7b876b168e1b3443030c9ec75d2d8610049ad0c59945c55cf4a",
+      "bytes": 11147,
+      "git_blob_sha": "68b418a78dbd452a707bf2ca5efdcb5326d0fee8",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        17,
+        118,
+        110
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/decay/sm-decay-014/directions/N/default.png",
+      "sha256": "88dd519ce32444de41c059c938e078273bf9ec6aa589af6150a4dd69da957ba8",
+      "bytes": 756104,
+      "git_blob_sha": "3418c934cce3fcb8515e48b8cb844654abb78384",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        158,
+        944,
+        866
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 111431,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/decay/sm-decay-014/directions/N/pixel.png",
+      "sha256": "d5cbbe024a628d1c5a4430b8cbff43c55bae307512997ee9c757d22f8d194246",
+      "bytes": 10710,
+      "git_blob_sha": "a18220ac394535a9e7d18fc5d6defed44efb2984",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        19,
+        118,
+        108
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/decay/sm-decay-014/directions/NE/default.png",
+      "sha256": "a6a22c22d5aa6913074c8771fe44927792b33ff80fa19b0f1268b4ec73241d57",
+      "bytes": 722772,
+      "git_blob_sha": "fbc8c1551ae0e74f964e9c942f2bc1e0a0929a47",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        164,
+        944,
+        860
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 108720,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/decay/sm-decay-014/directions/NE/pixel.png",
+      "sha256": "b00280d7bc386533683d5754436fd6000b7e901ad639f1eb9f98066d37cb3b44",
+      "bytes": 11403,
+      "git_blob_sha": "dfef82a0b795d4b8fd41ab203c5b168c6ad475e3",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        19,
+        118,
+        109
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/decay/sm-decay-014/directions/E/default.png",
+      "sha256": "0a69726c184dd1817c9b7d22148a67913073e6874a660e6e1d7dbe7048f087d6",
+      "bytes": 825714,
+      "git_blob_sha": "3ebcd9f938995568455addca693f9ce419f17142",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        97,
+        944,
+        926
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 130318,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/decay/sm-decay-014/directions/E/pixel.png",
+      "sha256": "1b357729fb6e4dcc95ab2baa42c555ffffacc6e570d1fceb92be69fb48c20789",
+      "bytes": 11320,
+      "git_blob_sha": "7fcb87fa6237587dbfcb76f6a638eeb91c161196",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        10,
+        118,
+        117
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/decay/sm-decay-014/directions/SE/default.png",
+      "sha256": "d04a35cecd312c89ed9766db253089a298e46494122d36fcb3a98931f23cadb0",
+      "bytes": 809748,
+      "git_blob_sha": "760ddd26330bd12fd798ac68842f07f01a7d88ba",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        87,
+        944,
+        937
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 117705,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/decay/sm-decay-014/directions/SE/pixel.png",
+      "sha256": "0fddfcb463f8c0228ebe5ff6826bddb8f7cf9d967e0ef074b9509dfafac857b5",
+      "bytes": 11145,
+      "git_blob_sha": "878c7c44f542c1e843df815c1d8ef82ae6a2c31f",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        10,
+        117,
+        118
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    }
+  ],
+  "selection_provenance": [
+    {
+      "direction": "SW",
+      "selection_basis": "Recovered016/017 with largest lobe lateral right",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    },
+    {
+      "direction": "W",
+      "selection_basis": "New largest lobe near-right",
+      "provenance_status": "New normal/pixel with recorded prompt/raw/reference hashes."
+    },
+    {
+      "direction": "NW",
+      "selection_basis": "Recovered018/019 largest lobe foreground",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    },
+    {
+      "direction": "N",
+      "selection_basis": "Recovered020/021 largest lobe near-left",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    },
+    {
+      "direction": "NE",
+      "selection_basis": "New largest lobe lateral left",
+      "provenance_status": "New normal/pixel with recorded prompt/raw/reference hashes."
+    },
+    {
+      "direction": "E",
+      "selection_basis": "Recovered024/025 largest lobe far-left",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    },
+    {
+      "direction": "SE",
+      "selection_basis": "Recovered026/027 largest lobe away/up",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    }
+  ],
+  "new_generation_provenance": [
+    {
+      "direction": "W",
+      "type": "normal",
+      "prompt": "Use case: precise-object-edit. Correct only the extra leg in this own leaf-creature directional candidate. There must be exactly SIX curved root legs. Remove the newly added isolated leg at the far RIGHT edge at about 3 o'clock (the large sideways hook projecting right from behind the small right lobe). Keep the other six legs exactly as they are: upper-left curled rear leg, short partially occluded rear leg above the right notch, left horizontal leg, lower-left diagonal leg, lower central downward leg, and lower-right downward leg. Preserve every leaf lobe, the unique largest lower-right lobe, central round depression, veins, mottling, palette, body tilt, current W projection and all other pixels as closely as possible. Do not add any limbs or eyes. Fullbody genuine transparent background, generous margins, no text or shadow.",
+      "sha256": "e9246f29fe48db3e72cbb4ad17d90fe9ac2ecab06d61e065887b73f421e0a840",
+      "raw_sha256": "db57462c50ffd946f90e15f035fb2786ebe4c8d8746116db18997a696abbf0e2",
+      "reference_hashes": [
+        "3ed3bf00b53356821337f8f5dc96f4bdb54dcf7cf3c8cb73e9d178d32de6ee84"
+      ]
+    },
+    {
+      "direction": "W",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Redraw image1 as one intentional 128x128 logical pixel-art sprite of exactly the SAME leaf creature in exactly this W pose. Preserve connected five rounded leaf lobes with unique largest lower-right foreground lobe, one round central depression, SIX curved underside root legs including short partly hidden upper-right rear tip. No eyes/mouth/wings/tail. Lock all lobe and leg positions, body tilt, proportions, orange leaf/olive patches/cream veins palette. Broad crisp clusters, restrained flat shades, dark one-pixel contour, <=31 visible colors, binary opaque/transparent alpha, no antialiasing. Logical sprite may be displayed enlarged with uniform square pixels. Genuine transparent background, centered fullbody generous margins, no shadow, text or scene. Change only rendering medium, do not rotate or redesign.",
+      "sha256": "ae1c24cda004c76afc789a4be1f1c25d673fddf82f4f76ae1bde10c735d08f38",
+      "raw_sha256": "9550a37db161ac1df1e341c15d24e8a206ba4ea1ccd75f5173205a0e3f37db3d",
+      "reference_hashes": [
+        "e9246f29fe48db3e72cbb4ad17d90fe9ac2ecab06d61e065887b73f421e0a840"
+      ]
+    },
+    {
+      "direction": "NE",
+      "type": "normal",
+      "prompt": "Use case: precise-object-edit. Change ONLY the visibility of the far sixth root leg in this exact original five-lobed leaf creature. Keep the five currently visible root legs unchanged. Reveal the existing far upper-left rear leg as a short cream/olive curved tip projecting into the open transparent notch between the largest screen-left leaf lobe and the top rounded leaf lobe. The tip must connect naturally under the membrane, not emerge from its upper surface. Exactly SIX legs total in three underside pairs, no seventh. Preserve all five leaf lobes, largest lobe pointing screen-left, central round depression, veins/mottling/palette, fixed body tilt and camera, silhouette elsewhere unchanged. No eyes/mouth/wings/tail. Same transparent background and generous margins. This is only an occluded rear tip visibility correction, not a new direction or new body shape.",
+      "sha256": "a6a22c22d5aa6913074c8771fe44927792b33ff80fa19b0f1268b4ec73241d57",
+      "raw_sha256": "b87676a03d80d13c343c2d6a5d2fe5a6e7ad1b0998c63fb8d01e0252ccde959a",
+      "reference_hashes": [
+        "cf6964415c4ac788dd364b5225452790ef82fa378df77d6cd68f85d15ce5ab8f"
+      ]
+    },
+    {
+      "direction": "NE",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Redraw image1 as one intentional 128x128 logical pixel-art sprite of exactly the SAME leaf creature in exactly this NE pose. Preserve connected five rounded leaf lobes with unique largest screen-left lobe, one round central depression, SIX curved underside root legs including the two short rear hooks in the top notches. No eyes/mouth/wings/tail. Lock all lobe and leg positions, body tilt, proportions, orange leaf/olive patches/cream veins palette. Broad crisp clusters, restrained flat shades, dark one-pixel contour, <=31 visible colors, binary opaque/transparent alpha, no antialiasing. Logical sprite may be displayed enlarged with uniform square pixels. Genuine transparent background, centered fullbody generous margins, no shadow, text or scene. Change only rendering medium, do not rotate or redesign.",
+      "sha256": "b00280d7bc386533683d5754436fd6000b7e901ad639f1eb9f98066d37cb3b44",
+      "raw_sha256": "0f2346f38e1d659ab11a8d51c14fd6f225697c5fa7b0f93f1d9c1f39492b4507",
+      "reference_hashes": [
+        "a6a22c22d5aa6913074c8771fe44927792b33ff80fa19b0f1268b4ec73241d57"
+      ]
+    }
+  ],
+  "generation_scope": "Four adopted new images: W/NE normal and corresponding pixel pairs. Initial W and NE normals retained but not adopted. Five recovered pairs visually reselected unchanged, including right-lobe pair chosen as SW; original S pair unchanged.",
+  "historical_provenance_gap": "Old adopted mapping and generation prompt/reference lineage for reused candidates were not recovered. Current visual reselection is not claimed identical to historical adoption.",
+  "quality_history": [
+    {
+      "status": "previous_direction_hold",
+      "reason": "S/SW and NE/E largest lobe projections were similar; fixed yaw and six-root projection unproven."
+    },
+    {
+      "status": "review_candidate",
+      "improvements": "Largest lobe now progresses far-right, right, near-right, foreground, near-left, left, far-left, far across S through SE. New W/NE pairs preserve six visible roots after targeted extra-root removal and rear-tip visibility correction."
+    }
+  ],
+  "anatomy": "One connected thin five-rounded-lobe leaf membrane with one largest lobe, one circular central depression, six underside root legs in three pairs, no eyes, mouth, wings or tail.",
+  "processing": {
+    "reused_candidates": "Byte-identical recovered selections, no changes during reselection.",
+    "new_normals": "Low-alpha cleanup below8, proportional LANCZOS fit visible864, centered transparent1024; no shape redraw.",
+    "new_pixels": "Nearest128, alpha threshold128,31-color quantization without dithering, transparent RGB cleared, proportional nearest visible108, centered128; no shape redraw."
+  },
+  "qa": {
+    "numeric_hash": "E all16slots independently passed numeric and SHA256 checks",
+    "visual": "Parent8pair and E full-resolution W/NE normal/pixel reviews confirm maximum-lobe orientation sequence, six root tips/natural occlusion and pair correspondence within recorded limitations.",
+    "limitations": [
+      "Historical adopted hashes and old generation lineage for reused candidates remain unproven",
+      "Largest lobe is an orientation marker, not a proven locomotion front; six-root attachments and rigid vein/mottle projection are inferred",
+      "Exact45-degree yaw, root depth and fixed camera/body inclination unverified"
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending",
+    "source_history": "Available source metadata includes four normal prompts and one pixel prompt with quality/technical correction history and no explicit safety-stop marker. Absence outside recorded history is unproven."
+  }
+}

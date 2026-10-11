@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "id": "sm-gel-001",
+  "asset_type": "recovery_reselected_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "original_direction_basis": "Original two eyes on lower-right front hemisphere; source retained as front-right reference.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-001/directions/S/default.png",
+      "sha256": "5cdc0acb65bf874b231a85ad24e571f20d93a4c2f1f748e5d7973cd5a8de2555",
+      "bytes": 475498,
+      "git_blob_sha": "78bfb57fd911435506ee276f6a5ad1c4f60493cc",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        257,
+        944,
+        767
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 33511,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-001/directions/S/pixel.png",
+      "sha256": "9d42dc118585c0a0364da31a9f3b0e65877c7e835917aa1d537330a86cef5aec",
+      "bytes": 6658,
+      "git_blob_sha": "33d55ca17486775c1bb42ba65d0d931d445ed039",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        31,
+        118,
+        97
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-001/directions/SW/default.png",
+      "sha256": "cbd9e9979c7f9ed452736279bf3b806183e7f9b555d4c7a8816a67d582b6ada4",
+      "bytes": 488549,
+      "git_blob_sha": "b11ac96d57d53295602d3cc112f9863f4eb01c54",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        257,
+        944,
+        767
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 35084,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-001/directions/SW/pixel.png",
+      "sha256": "4bb69e86ef25ecd0bc40d41c5a2648c300752013234d9a8f4c492d49db678cc8",
+      "bytes": 6743,
+      "git_blob_sha": "a5b875d17119f5a2edbb9340255f3320a5d1d3dd",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        30,
+        118,
+        98
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-001/directions/W/default.png",
+      "sha256": "1a2d1f862ea8bd1170c607e25c7aa4e76af6ae246e9da73f7f3e7c1c3d875554",
+      "bytes": 479194,
+      "git_blob_sha": "1fac98de595824438e1373e3efd0ef50b8f81c54",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        255,
+        944,
+        769
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 33899,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-001/directions/W/pixel.png",
+      "sha256": "17662018263325aa7b2a9b32824d2081ef6973cdf8c36fb808106fe82b5eda02",
+      "bytes": 6340,
+      "git_blob_sha": "eb3dc27105d71bd25b8bb6d4a29f3f3fc5dba71f",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        31,
+        118,
+        96
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-001/directions/NW/default.png",
+      "sha256": "44e8a62f48d9d03f83b963645f3178e1a3d97aabd0b94ab4eee1d4f9485505f9",
+      "bytes": 468383,
+      "git_blob_sha": "d67f05d5bab3762aacd736a7fc7f8302101e6fd5",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        250,
+        944,
+        773
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 31548,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-001/directions/NW/pixel.png",
+      "sha256": "7da8511706b13e6223195e2938c44c84eb1dc80a7b374660323d8f6005b20e5a",
+      "bytes": 7182,
+      "git_blob_sha": "a7a7091f1f18f0fe3cb8866c038177fdef999596",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        30,
+        118,
+        98
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-001/directions/N/default.png",
+      "sha256": "de3cb7e6e13fde5aab00787859f204e443b4b4f97f3def3dbd6212f84f6b531c",
+      "bytes": 462576,
+      "git_blob_sha": "acfff57814b4353d2a1f9e29751687f78c5e7c49",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        253,
+        944,
+        770
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 30052,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-001/directions/N/pixel.png",
+      "sha256": "bf9ac6af6a80d9e7aa6684934859125fb5d06550e062308350319da5302d36a5",
+      "bytes": 6721,
+      "git_blob_sha": "68955ee3843d929167f3de2ef221328f96583127",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        30,
+        118,
+        98
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-001/directions/NE/default.png",
+      "sha256": "2e2460d9a55c6a098fa20ab78fcfa99399781f99cbd0abfa7893118f5c217b77",
+      "bytes": 469026,
+      "git_blob_sha": "df1953f0fab1875332a137b8d4f9d2868663f035",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        255,
+        944,
+        769
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 31456,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-001/directions/NE/pixel.png",
+      "sha256": "6a1af39d86d1a73c195afc3986bfb9556294bf7ed5bd8ea669bdbfcaa002850d",
+      "bytes": 6391,
+      "git_blob_sha": "a50299a181fa64317291d1e2c6c53ad413ab8e1e",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        30,
+        118,
+        98
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-001/directions/E/default.png",
+      "sha256": "2731eae5cf4cd16e9662a9da342bd1eef21659d8e4ecfb629fb03a97e6f9d0f5",
+      "bytes": 499645,
+      "git_blob_sha": "bf17f94239fea7ff091b861e638f43c5e1b72a37",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        249,
+        944,
+        774
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 37155,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-001/directions/E/pixel.png",
+      "sha256": "ec2b992dd73bea3016b30bcec8ee1f507054cacc770bbc90a794818653e88103",
+      "bytes": 7908,
+      "git_blob_sha": "dd4f9cfae5c5c71b96fbb2952c71200362cf705d",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        30,
+        118,
+        98
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-001/default.png",
+      "sha256": "61d611ca550616761ca53a96487eb994ecf2ee285da72d77c411066984756d01",
+      "bytes": 430494,
+      "git_blob_sha": "8c0628d7206c34270ab14e23289ddcb113e6a475",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        111,
+        928,
+        912
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 28364,
+      "binary_alpha": false,
+      "source_byte_identical": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-001/pixel.png",
+      "sha256": "93ff2b689d61265f01c1bd57ed96258261add082936bbf9253a7e84b0eeadca8",
+      "bytes": 5949,
+      "git_blob_sha": "c202de1ab212976d408c7eecb77ba946b35cdff2",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        31,
+        116,
+        96
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 23,
+      "binary_alpha": true,
+      "source_byte_identical": true
+    }
+  ],
+  "selection_provenance": [
+    {
+      "direction": "S",
+      "selection_basis": "Recovered symmetric front two-eye view and upper-center bubble",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    },
+    {
+      "direction": "SW",
+      "selection_basis": "Recovered left-front eyes and left bubble",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    },
+    {
+      "direction": "W",
+      "selection_basis": "Recovered left-edge eye, left bubble",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    },
+    {
+      "direction": "NW",
+      "selection_basis": "New eyeless rear-left bubble slightly left",
+      "provenance_status": "New normal/pixel with recorded prompt/raw/reference hashes."
+    },
+    {
+      "direction": "N",
+      "selection_basis": "New eyeless rear bubble centered upper-middle",
+      "provenance_status": "New normal/pixel with recorded prompt/raw/reference hashes."
+    },
+    {
+      "direction": "NE",
+      "selection_basis": "Recovered eyeless rear-right bubble right",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    },
+    {
+      "direction": "E",
+      "selection_basis": "Recovered right-edge eye, right bubble",
+      "provenance_status": "Recovery-time visual reselection; historical adopted hashes and old prompt/reference lineage unproven."
+    }
+  ],
+  "new_generation_provenance": [
+    {
+      "direction": "NW",
+      "type": "normal",
+      "prompt": "Use case: precise-object-edit. In this NW back-view jelly creature, reposition ONLY the single internal round bubble to slightly LEFT of the body centerline, roughly one tenth of body width left, keeping its present height, circular size and transparent material. This represents one fixed near-front internal bubble projected through the body: rear-left has bubble left of center, straight rear centered, rear-right right of center. Clear the old bubble seamlessly with the same translucent gel; exactly ONE bubble remains, no duplicate. Preserve ALL other body silhouette, wide hemispherical proportions, flat base, pose, view angle, teal/mint colors, reflection placement, transparency and absence of eyes on back. No anatomy changes, no new features, no extra circles. One full transparent1024 sprite with margin, no text/floor/shadow.",
+      "sha256": "44e8a62f48d9d03f83b963645f3178e1a3d97aabd0b94ab4eee1d4f9485505f9",
+      "raw_sha256": "6a8d1eab11e9ed1b47a8bdeb6903886964e01e865b758f2ce2880d3f12865ec6",
+      "reference_hashes": [
+        "f4d1554c6e2f3b57d11a65b1e98b963057f1793a4d5005ffb4a75463ebf0e82c"
+      ]
+    },
+    {
+      "direction": "NW",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this exact ONE translucent mint jelly dome into ONE crisp128x128 pixel sprite, same NW back view. Preserve exactly ONE internal circular bubble slightly LEFT of body centerline, matching its exact reference height/diameter/offset. No eyes visible on back; no limbs or other anatomy. Preserve wide hemispherical silhouette, flat base, small tilt, mint/teal/cream palette and highlights. Do not move bubble or add circles; do not alter pose.31 opaque colors maximum, binary transparent background, hard pixel clusters no blur/antialiasing. Whole centered sprite with generous padding, no text/grid/sheet/floor/shadow.",
+      "sha256": "7da8511706b13e6223195e2938c44c84eb1dc80a7b374660323d8f6005b20e5a",
+      "raw_sha256": "5d270f2d238c7279142762cbdc91e9df4c1b5ce193fe4f9fd511818435ec7e01",
+      "reference_hashes": [
+        "44e8a62f48d9d03f83b963645f3178e1a3d97aabd0b94ab4eee1d4f9485505f9"
+      ]
+    },
+    {
+      "direction": "N",
+      "type": "normal",
+      "prompt": "Use case: precise-object-edit. Keep this jelly creature and its SINGLE centered internal bubble exactly unchanged except move that bubble straight UP by approximately one quarter of its own diameter. Preserve bubble diameter, horizontal centering, circular shape and highlights; seamlessly fill old location, no duplicate. Target bubble center is in upper-middle of dome, about45 percent of the visible body height below top, rather than current lower-middle. Body silhouette, flat base, reflection locations, mint translucent colours and no eyes remain unchanged. Genuine transparent background, same composition, no extra circles or anatomy.",
+      "sha256": "de3cb7e6e13fde5aab00787859f204e443b4b4f97f3def3dbd6212f84f6b531c",
+      "raw_sha256": "521f12e0ba0c3080e38746c6d82803f0303249b88937ed2748c0a5a8f9c27970",
+      "reference_hashes": [
+        "875c2dc4d1c45b6ab0615dbd80dfaeeab20bc7f9e66cb0b1d3365b1e3a5dc1bc"
+      ]
+    },
+    {
+      "direction": "N",
+      "type": "pixel",
+      "prompt": "Use case: style-transfer. Convert this exact ONE translucent mint jelly dome into ONE crisp128x128 pixel sprite, same N back view. Preserve exactly ONE internal circular bubble centered on body vertical centerline in upper-middle, matching its exact reference height/diameter/offset. No eyes visible on back; no limbs or other anatomy. Preserve wide hemispherical silhouette, flat base, small tilt, mint/teal/cream palette and highlights. Do not move bubble or add circles; do not alter pose.31 opaque colors maximum, binary transparent background, hard pixel clusters no blur/antialiasing. Whole centered sprite with generous padding, no text/grid/sheet/floor/shadow.",
+      "sha256": "bf9ac6af6a80d9e7aa6684934859125fb5d06550e062308350319da5302d36a5",
+      "raw_sha256": "0cf2afabab639b745f5be1c0b7f3cf5489d7c75b7b6d31f98bad0ea07bcd238f",
+      "reference_hashes": [
+        "de3cb7e6e13fde5aab00787859f204e443b4b4f97f3def3dbd6212f84f6b531c"
+      ]
+    }
+  ],
+  "generation_scope": "Four adopted new images: NW/N normal and corresponding pixel pairs. One earlier N normal retained but not adopted. Five other recovered pairs selected unchanged; original SE pair unchanged.",
+  "historical_provenance_gap": "Old adopted mapping and generation prompt/reference lineage for reused candidates were not recovered. Current visual reselection is not claimed identical to historical adoption.",
+  "quality_history": [
+    {
+      "status": "previous_direction_hold",
+      "reason": "NW/N/NE bubble positions shifted right-left-right without a consistent fixed-point projection basis."
+    },
+    {
+      "status": "review_candidate",
+      "improvements": "NW bubble now slightly left, N centered upper-middle, NE retained on right; corresponding pixels match. Horizontal continuity improved; exact depth remains inferred."
+    }
+  ],
+  "anatomy": "One broad mint translucent hemispherical body, two lower-front eyes, exactly one upper internal circular bubble; zero limbs, wings or tail.",
+  "processing": {
+    "reused_candidates": "Byte-identical recovered selections, no changes during reselection.",
+    "new_normals": "Low-alpha cleanup below8, proportional LANCZOS fit visible864, centered transparent1024; no shape redraw.",
+    "new_pixels": "Nearest128, alpha threshold128,31-color quantization without dithering, transparent RGB cleared, proportional nearest visible108, centered128; no shape redraw."
+  },
+  "qa": {
+    "numeric_hash": "E independently passed all16slots dimensions, margins, visible extent, SHA256, pixel binaryalpha and <=32visibleRGB.",
+    "visual": "Parent eight-pair review and E full-resolution key normal/pixel review confirm direction/identity correspondence within documented limitations. In-game acceptance pending.",
+    "limitations": [
+      "Historical adopted hashes and old generation lineage for reused candidates remain unproven",
+      "Single bubble depth and fixed coordinates are inferred; vertical projection and body tilt are not established by the single original",
+      "Exact45-degree yaw and camera/body-tilt continuity unverified"
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending",
+    "source_history_audit": "Available fixed-source metadata has no explicit safety-stop marker; historical completeness beyond the available record is unproven."
+  }
+}
