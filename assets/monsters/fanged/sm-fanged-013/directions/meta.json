@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "id": "sm-fanged-013",
+  "asset_type": "recovery_reselected_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/S/default.png",
+      "sha256": "210e93c68793480b1f68868a45a52f51616bdc68ed14e2fb6b5eb5ff52bf7560",
+      "bytes": 697659,
+      "git_blob_sha": "fb10d90172b57c4d4a1e928176f89c4c83453c31",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        193,
+        928,
+        830
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 33043,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/S/pixel.png",
+      "sha256": "0ad0e38d65638453c3cba97c128d818e3ddfea0f1b385a02a91fa458f2823b83",
+      "bytes": 11524,
+      "git_blob_sha": "a48d02181e59d2fb98ec06c91a6dae66c18ec76f",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        24,
+        116,
+        104
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/SW/default.png",
+      "sha256": "437c82c68ad0ea3ce430aed8a9351ae7f7899d32afd4074c0a8dd44ac3715cce",
+      "bytes": 673975,
+      "git_blob_sha": "4fa633c7334f1ca20ccbef11e1f0404919f0762c",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        191,
+        928,
+        832
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 31523,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/SW/pixel.png",
+      "sha256": "5008ef385bd069a5f4d912623a392bf69c9bbdacb9a60664d6fd67de9135d3a6",
+      "bytes": 12624,
+      "git_blob_sha": "19b3736f047f196fa8d217c95f47c95129f90bc0",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        22,
+        116,
+        105
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/W/default.png",
+      "sha256": "30907d4d3d91772c8bea9a727974f81cf9795e62ce77ec9305bd35215c11f649",
+      "bytes": 729107,
+      "git_blob_sha": "3ee727af7dda48f8af144b7c24b5a59dc45c2b59",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        184,
+        928,
+        840
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 30897,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/W/pixel.png",
+      "sha256": "eae9d930c57a365c1275b4707f607ae042b7107c4f6a037e36ab583f231793e9",
+      "bytes": 11087,
+      "git_blob_sha": "12d1eea2da3563e53172b01965b308c2f9ce5d8e",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        23,
+        116,
+        105
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/NW/default.png",
+      "sha256": "eccbe1d0616e12190a4b42a40601d28eae0bd1b5ced3e8789337d8cc52cc5a5f",
+      "bytes": 670376,
+      "git_blob_sha": "cfd8c94a3f0d903161f26da65e89f37503ac9edf",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        189,
+        928,
+        835
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 29475,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/NW/pixel.png",
+      "sha256": "14a10495916e3019faf452e809c9408e361c9df5eb378b1996cd6d042c069a6f",
+      "bytes": 12523,
+      "git_blob_sha": "857fe6b8c2a3be4f41589f47a89b5878b88d37ce",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        23,
+        116,
+        104
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/N/default.png",
+      "sha256": "7cc3d1af2412d3fd5323a3ace190b3e1248b91d3898603fe2660607f177a918e",
+      "bytes": 585458,
+      "git_blob_sha": "d11cf28932e2f83bf0d861c829d87d22d5a7052a",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        204,
+        928,
+        820
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 26296,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/N/pixel.png",
+      "sha256": "08dc6ec3403faa036efc42ec44bab789af4c042d71d14d95f816ef417c870821",
+      "bytes": 10433,
+      "git_blob_sha": "56f0f7e2a3c9cd4382b6b83558621e6d630c5d56",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        25,
+        116,
+        103
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/NE/default.png",
+      "sha256": "e3f69cabd08bdc3c2ec38af7278f6db6236397f4e669e3ba9932d7c21e1e485a",
+      "bytes": 608120,
+      "git_blob_sha": "f278884e7a2e9f9bb6bb4fe6663deadeea7d1ed6",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        198,
+        928,
+        825
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 25953,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/NE/pixel.png",
+      "sha256": "c6f588bd784112f09316e663d9f84fc88903749b51a951f1148f430072faba6d",
+      "bytes": 11255,
+      "git_blob_sha": "9b8f749e3e824d1f1cb613e23237052b9fc4e5a6",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        25,
+        116,
+        103
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/E/default.png",
+      "sha256": "3614832d9bb87de6dd429a5b820196c4b3bff12437c11a43f379aa54833cef8a",
+      "bytes": 668435,
+      "git_blob_sha": "a14fb095fcb81af0929fbb45adff190e884875d3",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        195,
+        928,
+        828
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 28351,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-013/directions/E/pixel.png",
+      "sha256": "22e8b05cb1b95632765ffb810577f628adf3ea400c2e345da41346191f4ebe07",
+      "bytes": 12399,
+      "git_blob_sha": "7c62458ad4e43de810c3e61c2a8abd016cfde9a3",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        24,
+        116,
+        103
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/fanged/sm-fanged-013/default.png",
+      "sha256": "c0ea1cfa489a8b648e830424e26d5ee2da573aa6efe9281e6083fa802e9331a3",
+      "bytes": 727263,
+      "git_blob_sha": "0ca73c9b5f8eea074176bbfbea3d79d5bcaaaf73",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        80,
+        184,
+        944,
+        840
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 31537,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-013/pixel.png",
+      "sha256": "34683af74cf27371aa18d0af055ad9f6f1fa7d93b32eff8b330f996b51ccf236",
+      "bytes": 7761,
+      "git_blob_sha": "50b41add1f3562e0d9a16d62f4fdd5653dac9192",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        10,
+        22,
+        118,
+        106
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "technical_pass": true
+    }
+  ],
+  "selection_provenance": {
+    "method": "Recovery-time visual reselection of older candidates; original pre-recovery adoption hashes not proven. NW/NE newly revised from rear anchor; Wpixel and Epair corrections retained.",
+    "unrecovered": "Older generation prompts/reference lineage unavailable for S/SW/Wnormal/N. Original detailed trials not fully recovered.",
+    "inferred_geometry": "Five roots consistently interpreted as front pair, side-rear pair and rear-middle; exact unseen angular spacing is inferred, not measured. Natural occlusion allowed.",
+    "visual_qa": "Front single eye/four separated round teeth, opposite profiles with edge eye/mouth, eyeless rear views, near/far feet and normal/pixel correspondence reviewed on white/black.",
+    "limitations": [
+      "Exact45degree rigid3D reconstruction not claimed",
+      "Runtime review pending"
+    ]
+  },
+  "new_generation_provenance": [
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "prompt": "Create ONE transparent-background normal game-character illustration of the exact creature in these references, viewed from REAR LEFT three-quarter NW,135degrees from front. Image1 is the straight rear structural anchor; image2 is the immutable front-right original identity and camera reference. Rotate the same squat furry body and its fixed FIVE leg roots together45degrees from image1 toward the left-side rear oblique. One short rounded cylinder body, flat pale furry top, vertical beige shag, five stout furry legs around the bottom perimeter, dark slate rounded toe tips, no arms/tail/wings/ears. One front eye and four small round teeth exist on front only and are hidden behind the body from this rear view. Root arrangement is a coherent natural interpretation: two front legs, two side-rear legs, one rear-middle leg. Keep that same ring; do not create five feet by adding roots. The rear-middle leg that is centered nearest in image1 should shift toward SCREEN RIGHT in this NW view; the adjacent side leg is nearer SCREEN LEFT, forming the two nearer legs. Far front feet may be partly hidden beneath the body. Natural occlusion is preferred to forcing all five full legs visible. Keep low stance, body height/diameter, pale top ellipse and camera elevation matching the original; not overhead, not taller cylindrical body. Preserve fur style, palette, face anatomy on hidden front and existing toe style. Keep the rear eye-free. Do not turn it into wood or add rings. Full creature centered, generous transparent margin, square canvas, no labels, no scenery, no ground shadow. This is a coherent adjacent-angle view of one individual, not a redesign.",
+      "raw_sha256": "bb10defa77338ad58664257e980ceeb4ac306b0d75f8f2241cf1bbae9aee6a83",
+      "reference_hashes": [
+        "7cc3d1af2412d3fd5323a3ace190b3e1248b91d3898603fe2660607f177a918e",
+        "c0ea1cfa489a8b648e830424e26d5ee2da573aa6efe9281e6083fa802e9331a3"
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "prompt": "Create ONE pixel-art game sprite matching image1 EXACTLY in NW rear-oblique direction, anatomy, pose, body proportions, five fixed leg roots and natural foot occlusion. Image1 is the normal illustration to convert; image2 is pixel style/palette reference ONLY, do not copy its front-facing pose or eye. Same squat beige furry flat-top cylinder, five short furry legs with slate toe tips, no eye/mouth visible on rear. Preserve near/far foot ordering and exact silhouette from image1. Crisp deliberate square pixel clusters on a128x128 logical grid, maximum32 visible colors, binary transparent alpha, no antialiasing, no gradients or blur. Beige/tan/cream/slate palette matching reference, dark pixel outline and restrained fur texture. Do not add body parts, ears, tail, eye or teeth. Entire creature centered with transparent margin, no ground/shadow/text. This is the corresponding pixel counterpart of the normal, not a new pose.",
+      "raw_sha256": "a3f7728c1c590be75addf4ef834c5fabf46057d63720b0070cbf05b6752f2e7c",
+      "reference_hashes": [
+        "eccbe1d0616e12190a4b42a40601d28eae0bd1b5ced3e8789337d8cc52cc5a5f",
+        "34683af74cf27371aa18d0af055ad9f6f1fa7d93b32eff8b330f996b51ccf236"
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "prompt": "Create ONE transparent-background normal game-character illustration of the exact same beige furry creature in REAR RIGHT three-quarter NE view,225degrees from front. Image1 is the straight REAR structural anchor, image2 original FRONT-RIGHT identity/camera reference, image3 newly matched opposite rear-left NW view. Rotate the SAME fixed five-leg body from straight rear toward the opposite rear oblique to image3. One short rounded cylinder with flat pale furry top, vertical beige shag, FIVE stout legs attached around bottom circumference, rounded dark slate toe tips. Fixed inferred arrangement: two front legs, two side-rear legs, one rear-middle leg. From NE the rear-middle leg shifts toward SCREEN LEFT and the adjacent side leg is nearer SCREEN RIGHT, reversing the near-leg ordering in image3. Far front legs naturally partly hide beneath the body. Keep five roots total, do not add or detach legs to force five fully visible feet. One front eye and four small round teeth remain on hidden front surface; no rear eye or mouth. Keep original squat body ratio and low stance, same modest view of the flat top and camera height, same fur/style/palette. No arms, tail, wings or ears; no wood/grain rings. Entire creature centered, transparent margin, square canvas, no text or ground or shadow. Preserve physical identity and coherent adjacent-angle root layout, use natural occlusion rather than independently rearranging feet.",
+      "raw_sha256": "53805e653b1bc37118bd07357cbb5ec749bf99bfdbf9777cdef31aa8de3f1125",
+      "reference_hashes": [
+        "7cc3d1af2412d3fd5323a3ace190b3e1248b91d3898603fe2660607f177a918e",
+        "c0ea1cfa489a8b648e830424e26d5ee2da573aa6efe9281e6083fa802e9331a3",
+        "bb10defa77338ad58664257e980ceeb4ac306b0d75f8f2241cf1bbae9aee6a83"
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "prompt": "Create ONE pixel-art game sprite matching image1 EXACTLY in NE rear-oblique direction, anatomy, pose, body proportions, five fixed leg roots and natural foot occlusion. Image1 is the normal illustration to convert; image2 is pixel style/palette reference ONLY, do not copy its front-facing pose or eye. Same squat beige furry flat-top cylinder, five short furry legs with slate toe tips, no eye/mouth visible on rear. Preserve near/far foot ordering and exact silhouette from image1. Crisp deliberate square pixel clusters on a128x128 logical grid, maximum32 visible colors, binary transparent alpha, no antialiasing, no gradients or blur. Beige/tan/cream/slate palette matching reference, dark pixel outline and restrained fur texture. Do not add body parts, ears, tail, eye or teeth. Entire creature centered with transparent margin, no ground/shadow/text. This is the corresponding pixel counterpart of the normal, not a new pose.",
+      "raw_sha256": "06bb535922dfdcb4dab7d0908743d9daa8a2cf00803e101e1b719f253db6abf3",
+      "reference_hashes": [
+        "e3f69cabd08bdc3c2ec38af7278f6db6236397f4e669e3ba9932d7c21e1e485a",
+        "34683af74cf27371aa18d0af055ad9f6f1fa7d93b32eff8b330f996b51ccf236"
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "prompt": "Use case: style-transfer. Create exactly one crisp pixel-art rendition of image1, preserving its exact LEFT side-profile silhouette and every visible part. Image1 is the normal target; image2 is only original pixel style/palette. Keep flat-topped tan furry cylinder body and five legs at unchanged roots with same natural occlusion. At the far LEFT contour the single blue eye is a narrow partly occluded oval; the mouth is only a narrow side sliver, with just TWO partly visible rounded tooth tips as image1 (one upper, one lower), not a broad frontal grin or four exposed teeth. Preserve all visible foot positions, dark slate toe tips, cream fur near face and top ellipse, no ears or tail. Low-resolution pixel clusters, at most32 visible colors, no antialiasing or gradients. Whole figure centered on transparent background, generous margin. No text or extra parts.",
+      "raw_sha256": "45ae41137b4fcdde932318fc4be9af7673b71ee60322f29d91d587bb6404c5f4",
+      "reference_hashes": [
+        "30907d4d3d91772c8bea9a727974f81cf9795e62ce77ec9305bd35215c11f649",
+        "34683af74cf27371aa18d0af055ad9f6f1fa7d93b32eff8b330f996b51ccf236"
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "prompt": "Use case: precise-object-edit. Correct ONLY the yaw projection of image1 into strict RIGHT SIDE PROFILE (E270), keeping the same individual's anatomy, body size and fixed camera elevation. Image2 is the accepted LEFT profile as geometric comparison, not a mirror target. The single FRONT eye must become a very narrow partly hidden oval only at the far RIGHT silhouette; the mouth must become a narrow edge sliver showing only one upper and one lower rounded tooth tip, NOT a frontal smile with all four teeth. Preserve the flat-topped tan furry cylindrical body, cream facial fur, five stout legs at unchanged fixed roots with natural overlap, dark slate toe tips. Preserve leg-root layout and fur texture of image1, do not add/rearrange feet merely for count. No ears, horns, wings, tail or text. Center full body on transparent background with generous margin. Same realistic soft fur illustration as references.",
+      "raw_sha256": "4cef8786c9418659e609bba917418e7565f7f52abb8df38f6345b5b5e7f4369c",
+      "reference_hashes": [
+        "517fe44ee5fa16ba8620a4594897818d9c81417c15b47a5ee6eebc9273c746e3",
+        "30907d4d3d91772c8bea9a727974f81cf9795e62ce77ec9305bd35215c11f649"
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "prompt": "Use case: style-transfer. Exactly one crisp pixel-art sprite matching image1's exact RIGHT PROFILE, anatomy, proportions and occlusion. Image1 is the normal pose target, image2 is original pixel palette/style only. One flat-topped tan furry cylinder, five stout legs at same roots, slate toes. Single eye appears only as a narrow oval on extreme RIGHT contour; mouth a narrow edge sliver with TWO partly visible rounded tooth tips, one upper and one lower, not a frontal four-tooth grin. Preserve original leg overlap, top ellipse and fur palette. No ears, tail, extra parts or pose change. At most32 visible colors, crisp low-resolution clusters, no gradients/antialiasing. Center entire sprite with generous transparent margin, no text.",
+      "raw_sha256": "3f53820727b5b5cc310d101f7dd1fc07a676b30cfa4fee1615ab6c8a79e5763d",
+      "reference_hashes": [
+        "4cef8786c9418659e609bba917418e7565f7f52abb8df38f6345b5b5e7f4369c",
+        "34683af74cf27371aa18d0af055ad9f6f1fa7d93b32eff8b330f996b51ccf236"
+      ]
+    }
+  ],
+  "qa": {
+    "technical_all16": true,
+    "source_pair_unchanged": true,
+    "visual": "review candidate",
+    "external_independent_review": "E numerical/hash checks passed for all16 slots; parent eight-pair review and E full-resolution NW/NE normal/pixel review passed as an inferred-direction review candidate.",
+    "source_history": "Available original metadata has no explicit safety-stop marker but says detailed original trials were not fully recovered; historical completeness is unproven."
+  }
+}
