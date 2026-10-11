@@ -1,0 +1,609 @@
+{
+  "schema_version": 1,
+  "species": "sm-enigma-004",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "original_direction_basis": "Inferred S from frontal three-eye row and broad dimpled lobe. Supersedes earlier provisional SE inference; source bytes unchanged. No explicit individual cardinal direction in source definition. Generated S excluded as near duplicate.",
+  "identity_note": "One asymmetric opaque sac, narrow pointed side with three eyes, broad opposite side with one dimple; three legs with shorter central leg. No wings or tail.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "bytes": 639197,
+      "sha256": "4420502533e5c32d0f64030f34a93b5ca1a10c5e1df1be4164bdf21f6966208e",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        80,
+        114,
+        944,
+        909
+      ],
+      "visible_colors": 49792,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/default.png",
+      "original_preserved": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "bytes": 10421,
+      "sha256": "7fbcd71561145c5a776ca524983902d3d19c573231c8d120c6b19597f7d3bf8c",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        10,
+        15,
+        118,
+        112
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/pixel.png",
+      "original_preserved": true
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "bytes": 615235,
+      "sha256": "23a9ab7c4e682d24bc9237ba10b2726886be4895039bd790f8a187ef0a5515f2",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        115,
+        96,
+        908,
+        928
+      ],
+      "visible_colors": 48303,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/SW/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "bytes": 8251,
+      "sha256": "ea19b38a5bb8c5e2eed189878caccdeb199bfa14fd0e7b2894f4356a721c3363",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        12,
+        116,
+        116
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/SW/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "bytes": 596118,
+      "sha256": "17329fb35e564fc85b3dd57a3288a6e07e41f576f7d42311c75d9df0a0ad9801",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        105,
+        928,
+        918
+      ],
+      "visible_colors": 49227,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/W/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "bytes": 7600,
+      "sha256": "55adada669639f20d7cd0bd1881a5094dfad4b86ede3b18c8d1f2fb2ed2b3e6f",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        13,
+        116,
+        115
+      ],
+      "visible_colors": 28,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/W/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "bytes": 565487,
+      "sha256": "b95cd952e09601b31232d74f5830b8812d8811b7c6fe661971744cdc650ca855",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        141,
+        96,
+        882,
+        928
+      ],
+      "visible_colors": 46212,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/NW/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "bytes": 7241,
+      "sha256": "14741da1a8a5609fc4050c14a6bb81b22da141ae2756bc17b0a99f151dd29e2a",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        17,
+        12,
+        110,
+        116
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/NW/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "bytes": 576617,
+      "sha256": "e8b9507d75aed07377fc26d1374083b26d547281653ebc0f03e2326aea29c5f5",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        145,
+        928,
+        878
+      ],
+      "visible_colors": 40736,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/N/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "bytes": 5619,
+      "sha256": "bb53bee87334bbdffc701fd7c6122431ab577001d545ce0d7b3fe92b1be73172",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        19,
+        116,
+        109
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/N/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "bytes": 570273,
+      "sha256": "bd500a4e01df3e0ffbf6e36881fa40daeb43afe341da915605727dc9c0872712",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        140,
+        928,
+        883
+      ],
+      "visible_colors": 39013,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/NE/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "bytes": 7493,
+      "sha256": "ac9df16336bc91c82956e3dd1aea9b2928fcc1a5360e8664e442c0031a5fe432",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        17,
+        116,
+        110
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/NE/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "bytes": 589806,
+      "sha256": "3588845ff1b743a49fc4dbfa8c2ff2658b86a83e878e0707381ef9d9fbafb945",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        130,
+        928,
+        894
+      ],
+      "visible_colors": 43498,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/E/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "bytes": 6819,
+      "sha256": "42a3276ef9721ac6e426efca5b598b88d082333ea60b6bfcd6fd4a7f360360bb",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        17,
+        116,
+        110
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/E/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "bytes": 610316,
+      "sha256": "3395deb5b2329b29f7dcd0c469719a225f995576bc5f4326b4d0064075f0d5cc",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        119,
+        928,
+        905
+      ],
+      "visible_colors": 46403,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/SE/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "bytes": 7200,
+      "sha256": "bbcd5577a6478c865784c6c716574fd6e636b3b46258bff7cde02b3e9a32e278",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        14,
+        116,
+        114
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-004/directions/SE/pixel.png",
+      "original_preserved": false
+    }
+  ],
+  "generation_lineage": [
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "raw_sha256": "e76c6032472f9fa55342337229f0ad086c28238b87bf9d319f84d0b38f1cd00a",
+      "raw_bytes": 1014378,
+      "prompt": "Use case: identity-preserve. Image1 immutable FRONT S reference, image2 new BACK N reference. Same ONE lopsided opaque membrane sac. In front reference the NARROW pointed portion at screen-left carries THREE lavender eyes in a vertical row; broad bulge on screen-right has ONE round dimple. Back reference shows broad bulge screen-left, narrow pointed portion screen-right. Preserve these as fixed parts, rotate body and features together; never duplicate eyes/dimple to keep them visible. THREE fleshy legs same thickness, middle shorter, no wings/tail/arms. Same beige-blue-pale pink patch palette, smooth cel shading and dark outline. Original camera elevation and slight lean remain. FRONT-LEFT SW between front image1 and LEFT profile. Narrow eye-bearing side is closer, broad dimpled bulge recedes behind/right. Three eyes remain vertical, slightly foreshortened; dimple on far bulge becomes an oval and may partly hide. Give visible near/far overlap and narrower bulge projection than front, not unchanged front with tilted feet. Single full creature with generous transparent padding, genuine transparent alpha; no text/background/shadow.",
+      "finished_sha256": "23a9ab7c4e682d24bc9237ba10b2726886be4895039bd790f8a187ef0a5515f2",
+      "references": [
+        {
+          "sha256": "4420502533e5c32d0f64030f34a93b5ca1a10c5e1df1be4164bdf21f6966208e"
+        },
+        {
+          "sha256": "4d79edc39e9ee873d57717ce1d8a373a60426ba8ab369f73778c25bd42fa29da"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "raw_sha256": "668ebb7097ee388f3df060949e391724e89b493b563de68094172152786acba9",
+      "raw_bytes": 1025056,
+      "prompt": "Use case: style-transfer. Redraw this exact SW direction reference as newly drawn authentic pixel art at logical128x128. Preserve one asymmetric beige/blue/pale-pink opaque sac, narrow pointed side and broad bulge with same near/far overlap. Exactly THREE fleshy feet, same thickness with MIDDLE foot shorter. No arms, wings or tail. Match the visible fixed facial features precisely: THREE vertically stacked eyes at the front-left narrow side and one far oval dimple on bulge. Never add eyes to the opposite/back side, never convert the dimple into an eye. Keep source silhouette and patches, modest camera angle, leg attachments and direction. Crisp deliberate pixel clusters with controlled stepped contours and limited<=32color palette; hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Full centered creature with clear padding. Change medium only, no new features.",
+      "finished_sha256": "ea19b38a5bb8c5e2eed189878caccdeb199bfa14fd0e7b2894f4356a721c3363",
+      "references": [
+        {
+          "sha256": "23a9ab7c4e682d24bc9237ba10b2726886be4895039bd790f8a187ef0a5515f2"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "raw_sha256": "da1ef79e4543439db203c8c5045ee3ea77bf29b284f13993b26d5f39ff02d537",
+      "raw_bytes": 894575,
+      "prompt": "Use case: identity-preserve. Image1 immutable FRONT S reference, image2 new BACK N reference. Same ONE lopsided opaque membrane sac. In front reference the NARROW pointed portion at screen-left carries THREE lavender eyes in a vertical row; broad bulge on screen-right has ONE round dimple. Back reference shows broad bulge screen-left, narrow pointed portion screen-right. Preserve these as fixed parts, rotate body and features together; never duplicate eyes/dimple to keep them visible. THREE fleshy legs same thickness, middle shorter, no wings/tail/arms. Same beige-blue-pale pink patch palette, smooth cel shading and dark outline. Original camera elevation and slight lean remain. LEFT W profile, front points screen-left. Look from narrow eye-bearing side; THREE vertical eyes may show as compressed side/front edge at screen-left, without moving them to new surface. Broad bulge is behind this narrow side in depth and partly occluded, dimple on far front-right surface is hidden. Body side silhouette narrower than front image1; preserve same large bulge physically, not shrink into a different creature. Three legs overlap naturally with middle shorter. Single full creature with generous transparent padding, genuine transparent alpha; no text/background/shadow.",
+      "finished_sha256": "17329fb35e564fc85b3dd57a3288a6e07e41f576f7d42311c75d9df0a0ad9801",
+      "references": [
+        {
+          "sha256": "4420502533e5c32d0f64030f34a93b5ca1a10c5e1df1be4164bdf21f6966208e"
+        },
+        {
+          "sha256": "4d79edc39e9ee873d57717ce1d8a373a60426ba8ab369f73778c25bd42fa29da"
+        }
+      ]
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "raw_sha256": "af6e8c97f5fa41006bd38279fdc2cf5dd49cb0e55d86ba5df31b41c055da2adc",
+      "raw_bytes": 992785,
+      "prompt": "Use case: style-transfer. Redraw this exact W direction reference as newly drawn authentic pixel art at logical128x128. Preserve one asymmetric beige/blue/pale-pink opaque sac, narrow pointed side and broad bulge with same near/far overlap. Exactly THREE fleshy feet, same thickness with MIDDLE foot shorter. No arms, wings or tail. Match the visible fixed facial features precisely: THREE compressed vertically stacked eyes at the extreme left/front edge; NO dimple visible. Never add eyes to the opposite/back side, never convert the dimple into an eye. Keep source silhouette and patches, modest camera angle, leg attachments and direction. Crisp deliberate pixel clusters with controlled stepped contours and limited<=32color palette; hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Full centered creature with clear padding. Change medium only, no new features.",
+      "finished_sha256": "55adada669639f20d7cd0bd1881a5094dfad4b86ede3b18c8d1f2fb2ed2b3e6f",
+      "references": [
+        {
+          "sha256": "17329fb35e564fc85b3dd57a3288a6e07e41f576f7d42311c75d9df0a0ad9801"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "raw_sha256": "6191f6718fbe1d284c4f33e8e5816b1569654c4ff6b765dcb62f7b9574721c62",
+      "raw_bytes": 899875,
+      "prompt": "Use case: identity-preserve. Correct only the BACK-LEFT direction projection in image1, using image2 for fixed anatomy. Do not retain the broad flat back view. Turn the sac further so the narrow pointed eye-bearing side is NEAREST at screen-right and the large bulge is FARTHER behind it toward screen-left. The near narrow ridge must overlap a substantial portion of the far bulge; compress the far bulge's apparent width by perspective, without changing its physical size. Maintain original low/modest camera elevation and body height. Three eyes stay on FRONT of narrow ridge and face away; at most tiny eye-edge slivers, no full pupils looking at camera. The front dimple is hidden. Keep one connected asymmetric sac and THREE same-thickness legs with central shorter; nearer right leg appears larger, far left leg partially overlaps, no extra limb. Same beige/blue/pink patches and opaque membrane. Genuine transparent background and full creature padding; no text/shadow.",
+      "finished_sha256": "b95cd952e09601b31232d74f5830b8812d8811b7c6fe661971744cdc650ca855",
+      "references": [
+        {
+          "sha256": "22f8717ec548a06e032a00cbd45f5820d383c6b8334659047a98ac82c177ea3c"
+        },
+        {
+          "sha256": "4420502533e5c32d0f64030f34a93b5ca1a10c5e1df1be4164bdf21f6966208e"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "raw_sha256": "f656fc07e3e31dd963e1cac79ecea7570e18dad9b4914ec799e3c1050b0e3def",
+      "raw_bytes": 850894,
+      "prompt": "Use case: style-transfer. Redraw this exact NW direction reference as newly drawn authentic pixel art at logical128x128. Preserve one asymmetric beige/blue/pale-pink opaque sac, narrow pointed side and broad bulge with same near/far overlap. Exactly THREE fleshy feet, same thickness with MIDDLE foot shorter. No arms, wings or tail. Match the visible fixed facial features precisely: Only tiny eye-edge slivers on far right edge of pointed narrow side; no full forward-looking pupils and no dimple. Never add eyes to the opposite/back side, never convert the dimple into an eye. Keep source silhouette and patches, modest camera angle, leg attachments and direction. Crisp deliberate pixel clusters with controlled stepped contours and limited<=32color palette; hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Full centered creature with clear padding. Change medium only, no new features.",
+      "finished_sha256": "14741da1a8a5609fc4050c14a6bb81b22da141ae2756bc17b0a99f151dd29e2a",
+      "references": [
+        {
+          "sha256": "b95cd952e09601b31232d74f5830b8812d8811b7c6fe661971744cdc650ca855"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "raw_sha256": "4d79edc39e9ee873d57717ce1d8a373a60426ba8ab369f73778c25bd42fa29da",
+      "raw_bytes": 980130,
+      "prompt": "Use case: identity-preserve. Create a direction of exact original asymmetric membrane creature. ONE connected irregular sac, not two separate balls. Original FRONT design has three lavender eyes in ONE vertical row on its narrow LEFT-side portion and a much larger RIGHT-side bulge with ONE small round dimple, not a mouth or eye. These placements stay fixed on the creature. THREE equal-thickness short fleshy legs, middle leg shorter, no arms/wings/tail. Keep pointed upper contour above eye-side, lopsided bulge proportions, smooth opaque beige membrane with muted blue and pale pink patches, dark contour and soft cel shading. Original has slight camera elevation; maintain it, no overhead view or changing pose. BACK N: rotate the whole same asymmetric creature180degrees, do not invent a new body. Large bulge now projects on screen-LEFT, narrow pointed eye-bearing portion on screen-RIGHT. The three eyes and circular dimple are on the far/front surface and naturally hidden. Back is a smooth opaque patterned sac with no eyes/dimple/mouth added. Same three feet and middle shorter, natural depth overlap; do not mirror the shading or turn the eyes to camera. Single full creature with transparent padding, genuine transparent background, no text/shadow/ground.",
+      "finished_sha256": "e8b9507d75aed07377fc26d1374083b26d547281653ebc0f03e2326aea29c5f5",
+      "references": [
+        {
+          "sha256": "4420502533e5c32d0f64030f34a93b5ca1a10c5e1df1be4164bdf21f6966208e"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "raw_sha256": "3c4fed6a5becd114fbe8ca1891855e46247b9a6f6939f23c5b70d846c6f9b76a",
+      "raw_bytes": 857604,
+      "prompt": "Use case: style-transfer. Redraw this exact N direction reference as newly drawn authentic pixel art at logical128x128. Preserve one asymmetric beige/blue/pale-pink opaque sac, narrow pointed side and broad bulge with same near/far overlap. Exactly THREE fleshy feet, same thickness with MIDDLE foot shorter. No arms, wings or tail. Match the visible fixed facial features precisely: NO visible eyes and NO dimple; both are hidden on front side. Never add eyes to the opposite/back side, never convert the dimple into an eye. Keep source silhouette and patches, modest camera angle, leg attachments and direction. Crisp deliberate pixel clusters with controlled stepped contours and limited<=32color palette; hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Full centered creature with clear padding. Change medium only, no new features.",
+      "finished_sha256": "bb53bee87334bbdffc701fd7c6122431ab577001d545ce0d7b3fe92b1be73172",
+      "references": [
+        {
+          "sha256": "e8b9507d75aed07377fc26d1374083b26d547281653ebc0f03e2326aea29c5f5"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "raw_sha256": "9c01b3fffe58e135780c42fe96f9e90b0c78851e63209e6b90e575025a6a70af",
+      "raw_bytes": 1051461,
+      "prompt": "Use case: identity-preserve. Correct only BACK-RIGHT direction projection in image1 using image2 as anatomy reference. View from the opposite rear diagonal: LARGE bulge NEAREST at screen-left, narrow pointed eye-bearing side FARTHER behind at screen-right. Shift the bulge overlap across the narrow ridge so only a thinner far ridge/point peeks beyond its right contour. The fixed FRONT eyes are now on that far ridge and hidden behind the near bulge/away-facing surface; do not put visible pupils along the back edge. Front dimple also hidden. Do not change physical sac size or make it symmetric, just depth overlap. Keep camera at same modest height, three equal-thickness legs with central shorter; near bulge-side leg nearer, far ridge-side leg partly hidden naturally. Same beige/blue/pink opaque membrane, no added features. Genuine transparent background full creature padding, no text/shadow.",
+      "finished_sha256": "bd500a4e01df3e0ffbf6e36881fa40daeb43afe341da915605727dc9c0872712",
+      "references": [
+        {
+          "sha256": "dca6d5dafadf77b6ffa71302a7df66bb5bb003d34df63dba07fef198c3e9fca8"
+        },
+        {
+          "sha256": "4420502533e5c32d0f64030f34a93b5ca1a10c5e1df1be4164bdf21f6966208e"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "raw_sha256": "257270bbf34117ccfcd68183850edae94a07e05f4907055f15fcf7996a058dfd",
+      "raw_bytes": 877024,
+      "prompt": "Use case: style-transfer. Redraw this exact NE direction reference as newly drawn authentic pixel art at logical128x128. Preserve one asymmetric beige/blue/pale-pink opaque sac, narrow pointed side and broad bulge with same near/far overlap. Exactly THREE fleshy feet, same thickness with MIDDLE foot shorter. No arms, wings or tail. Match the visible fixed facial features precisely: NO visible eyes and NO dimple; near bulge obscures far eye-side. Never add eyes to the opposite/back side, never convert the dimple into an eye. Keep source silhouette and patches, modest camera angle, leg attachments and direction. Crisp deliberate pixel clusters with controlled stepped contours and limited<=32color palette; hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Full centered creature with clear padding. Change medium only, no new features.",
+      "finished_sha256": "ac9df16336bc91c82956e3dd1aea9b2928fcc1a5360e8664e442c0031a5fe432",
+      "references": [
+        {
+          "sha256": "bd500a4e01df3e0ffbf6e36881fa40daeb43afe341da915605727dc9c0872712"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "raw_sha256": "c37f8bf714b7affd380cdf551a6ab198712e0977ab52bd1fe8fd6962fef0fe76",
+      "raw_bytes": 1041259,
+      "prompt": "Use case: identity-preserve. Image1 immutable FRONT S reference, image2 new BACK N reference. Same ONE lopsided opaque membrane sac. In front reference the NARROW pointed portion at screen-left carries THREE lavender eyes in a vertical row; broad bulge on screen-right has ONE round dimple. Back reference shows broad bulge screen-left, narrow pointed portion screen-right. Preserve these as fixed parts, rotate body and features together; never duplicate eyes/dimple to keep them visible. THREE fleshy legs same thickness, middle shorter, no wings/tail/arms. Same beige-blue-pale pink patch palette, smooth cel shading and dark outline. Original camera elevation and slight lean remain. RIGHT E profile, front points screen-right. View from broad bulging side; large bulge closest dominates side silhouette and overlaps narrow eye-side behind it. The dimple remains on original front-right surface and may appear foreshortened near screen-right. Three eyes belong to far narrow side and are naturally hidden, never add any on bulge. Three legs naturally overlap with shorter middle. Modest depth compression, same camera not overhead. Single full creature with generous transparent padding, genuine transparent alpha; no text/background/shadow.",
+      "finished_sha256": "3588845ff1b743a49fc4dbfa8c2ff2658b86a83e878e0707381ef9d9fbafb945",
+      "references": [
+        {
+          "sha256": "4420502533e5c32d0f64030f34a93b5ca1a10c5e1df1be4164bdf21f6966208e"
+        },
+        {
+          "sha256": "4d79edc39e9ee873d57717ce1d8a373a60426ba8ab369f73778c25bd42fa29da"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "raw_sha256": "d59c344ac40f2ee8750dde58f9ea131c9b2a7fc85bd17d3761777494e7d66795",
+      "raw_bytes": 892564,
+      "prompt": "Use case: style-transfer. Redraw this exact E direction reference as newly drawn authentic pixel art at logical128x128. Preserve one asymmetric beige/blue/pale-pink opaque sac, narrow pointed side and broad bulge with same near/far overlap. Exactly THREE fleshy feet, same thickness with MIDDLE foot shorter. No arms, wings or tail. Match the visible fixed facial features precisely: NO visible eyes; ONE small foreshortened dimple on bulge, not an eye. Never add eyes to the opposite/back side, never convert the dimple into an eye. Keep source silhouette and patches, modest camera angle, leg attachments and direction. Crisp deliberate pixel clusters with controlled stepped contours and limited<=32color palette; hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Full centered creature with clear padding. Change medium only, no new features.",
+      "finished_sha256": "42a3276ef9721ac6e426efca5b598b88d082333ea60b6bfcd6fd4a7f360360bb",
+      "references": [
+        {
+          "sha256": "3588845ff1b743a49fc4dbfa8c2ff2658b86a83e878e0707381ef9d9fbafb945"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "raw_sha256": "18c896d5ce8003aea095694ddb983092c4923bf9c81aaf29ef12e252bb7b3cd1",
+      "raw_bytes": 1098339,
+      "prompt": "Use case: identity-preserve. Image1 immutable FRONT S reference, image2 new BACK N reference. Same ONE lopsided opaque membrane sac. In front reference the NARROW pointed portion at screen-left carries THREE lavender eyes in a vertical row; broad bulge on screen-right has ONE round dimple. Back reference shows broad bulge screen-left, narrow pointed portion screen-right. Preserve these as fixed parts, rotate body and features together; never duplicate eyes/dimple to keep them visible. THREE fleshy legs same thickness, middle shorter, no wings/tail/arms. Same beige-blue-pale pink patch palette, smooth cel shading and dark outline. Original camera elevation and slight lean remain. FRONT-RIGHT SE between RIGHT profile and original front. Broad dimpled bulge is closest at screen-right, narrow pointed eye-bearing portion farther at screen-left, partly obscured by bulge. Dimple oval in near broad surface. Three eyes vertical on far narrow front strip, naturally partially covered but never additional eyes. Distinct three-quarter depth from original frontalS, same camera and three legs/shortmiddle. Single full creature with generous transparent padding, genuine transparent alpha; no text/background/shadow.",
+      "finished_sha256": "3395deb5b2329b29f7dcd0c469719a225f995576bc5f4326b4d0064075f0d5cc",
+      "references": [
+        {
+          "sha256": "4420502533e5c32d0f64030f34a93b5ca1a10c5e1df1be4164bdf21f6966208e"
+        },
+        {
+          "sha256": "4d79edc39e9ee873d57717ce1d8a373a60426ba8ab369f73778c25bd42fa29da"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "raw_sha256": "4abab341595e917e2969950bffdf1b1a9d416d80c722e37be36def197acf38c4",
+      "raw_bytes": 967970,
+      "prompt": "Use case: style-transfer. Redraw this exact SE direction reference as newly drawn authentic pixel art at logical128x128. Preserve one asymmetric beige/blue/pale-pink opaque sac, narrow pointed side and broad bulge with same near/far overlap. Exactly THREE fleshy feet, same thickness with MIDDLE foot shorter. No arms, wings or tail. Match the visible fixed facial features precisely: THREE partly obscured vertical eyes on far narrow left strip, ONE dimple on near bulge. Never add eyes to the opposite/back side, never convert the dimple into an eye. Keep source silhouette and patches, modest camera angle, leg attachments and direction. Crisp deliberate pixel clusters with controlled stepped contours and limited<=32color palette; hard opaque pixels and fully transparent background only. No blur/antialiasing/gradients, no background/shadow/text. Full centered creature with clear padding. Change medium only, no new features.",
+      "finished_sha256": "bbcd5577a6478c865784c6c716574fd6e636b3b46258bff7cde02b3e9a32e278",
+      "references": [
+        {
+          "sha256": "3395deb5b2329b29f7dcd0c469719a225f995576bc5f4326b4d0064075f0d5cc"
+        }
+      ]
+    }
+  ],
+  "processing": "Normal alpha<8 fringe cleanup after inspection; uniform832 extent RGBA1024. Pixel alpha128 threshold, nearest104 extent, nearest original palette, RGBA128. No shape redraw.",
+  "caveats": [
+    "Original S inferred from frontal three-eye/dimple arrangement; former SE inference superseded without source byte change; individual catalog has no explicit cardinal. Generated S was excluded as near duplicate.",
+    "Precise yaw and hidden root depth are interpolated; not in-game acceptance.",
+    "Old failed candidates not recovered; this run is new original-referenced production, not historical restoration."
+  ],
+  "review": {
+    "producer": "passed technical16 and visual pair review",
+    "independent": "E independently measured all16 slots and hashes, original inferredS pair unchanged against main. All8pair white/black and native rear/side pixels inspected: asymmetric swelling/dent, three vertical eyes and three legs with short middle leg correspond. SourceSE-to-S inference correction and rejected generatedS retained. Depth/occlusion/camera artistic inference, complete old history and runtime unproven.",
+    "in_game_acceptance": "pending"
+  }
+}
