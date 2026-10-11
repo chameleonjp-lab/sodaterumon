@@ -1,0 +1,1219 @@
+{
+  "schema_version": 1,
+  "id": "sm-winged-012",
+  "asset_type": "eight_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "direction_order": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "nominal_yaw_degrees": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/S/default.png",
+      "bytes": 511837,
+      "sha256": "09115d64a012d6d6990ee87d86ad5b94c75fd39f1732cb7f7e6ee0bd1be96c89",
+      "git_blob_sha": "c4affe74cdf5d82ec3b8dff0faaf76bb3aa31657",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        165,
+        928,
+        859
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 82796,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/S/pixel.png",
+      "bytes": 7328,
+      "sha256": "81c981ab89d0734159354aa6b0b74263e526749f0b13bd5ea330d5acf2f351db",
+      "git_blob_sha": "ead624e8d30fd8137add5ff021fcfd385fda2160",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        18,
+        116,
+        109
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 27,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/SW/default.png",
+      "bytes": 512327,
+      "sha256": "0b36278f963d791158d49890fb053994e51440caf18778dc9638691131e21681",
+      "git_blob_sha": "8db304051190c10443d10fa6f56fcc193d634cea",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        145,
+        928,
+        879
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 86316,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/SW/pixel.png",
+      "bytes": 7405,
+      "sha256": "d188c01f146e3ff2a9e02527255df63026c2d37d400376f166fc4cef0f3a3950",
+      "git_blob_sha": "8b41065afe26aa846f01eca7f8dc17ca1eac2da4",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        18,
+        116,
+        109
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/W/default.png",
+      "bytes": 524620,
+      "sha256": "1597c901a3a89fe06f5ea254e3e9b0549a404f78bd9a3b9ff6e2ad7b1c1ce221",
+      "git_blob_sha": "c8c51d3e4e942d7a7fc2dd36f4ce5c2b5701a88d",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        151,
+        928,
+        872
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 83252,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/W/pixel.png",
+      "bytes": 7184,
+      "sha256": "afa2f10992a1785970734c83b3253c8fdc0d81da1b3e0b8b0f40f1e640e6a002",
+      "git_blob_sha": "ea634c45553cabeb274dbacad65e2ed709c6f6d2",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        19,
+        116,
+        109
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/NW/default.png",
+      "bytes": 468889,
+      "sha256": "54c6e040a76a9c52b970620650a3ffa47cb9eb3cfc31f26b92bd25874b064b2e",
+      "git_blob_sha": "4a03685cd39998c4c77cfb7fdb3dd217dbf2ca17",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        134,
+        928,
+        890
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 81182,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/NW/pixel.png",
+      "bytes": 6923,
+      "sha256": "adc9daf94648ff2706a3f2d57cf6a131a158e4900137e31de67449907a587613",
+      "git_blob_sha": "3129dd6686f86d921fbfbabcbe201eb2d584c598",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        13,
+        116,
+        114
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/N/default.png",
+      "bytes": 420735,
+      "sha256": "84d7906c2ef25622034f2b98eb3be3fb0c508a6d31e1574f6b7150f1a2ac6b12",
+      "git_blob_sha": "4c5d7fddc7a241599409a9dc8f99314b8829f8a6",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        173,
+        928,
+        851
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 79138,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/N/pixel.png",
+      "bytes": 6556,
+      "sha256": "22ad75b1bf3bd372c4deab48d87d081a6409775c88b611dcb636e4538777f02a",
+      "git_blob_sha": "c4103d672c55dba6c30e4cb921ee2e6a863f7b99",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        17,
+        116,
+        110
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 27,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/NE/default.png",
+      "bytes": 524424,
+      "sha256": "b4867dc5d86673bf7f2a140e32374ceebf76869cf0f60af5c8ffb637e03ea08e",
+      "git_blob_sha": "178b53d62cfe2b30e93513709a0ce5329b1726ee",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        99,
+        928,
+        925
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 83438,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/NE/pixel.png",
+      "bytes": 6364,
+      "sha256": "087ab5b743294f04f325dee4705a348c4e20fec3153893768e8b860153849c70",
+      "git_blob_sha": "373222ff72b668ecfd2486b7a39391581623f003",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        14,
+        12,
+        114,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 25,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/E/default.png",
+      "bytes": 515997,
+      "sha256": "f89159d4635d4ec8d24c767e77f0dc18c7fe0ab3ef468f91c41b72c1a6b71562",
+      "git_blob_sha": "0cee2faeafbfeafa774e7622de3764249f71a93e",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        133,
+        928,
+        891
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 87460,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-012/directions/E/pixel.png",
+      "bytes": 7089,
+      "sha256": "238141b720129125dd4f696f7b1137d087ec5be0969a23147ac40eea1687f05a",
+      "git_blob_sha": "21d76c0b5b234985d0f4cd496773bb64b0fca1e3",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        17,
+        116,
+        111
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "file": "assets/monsters/winged/sm-winged-012/default.png",
+      "bytes": 553052,
+      "sha256": "05e0200ef660ec2bc17f8f4c7e52d9c1cd03d9e6c167fb86b54e59f951e5fa5d",
+      "git_blob_sha": "d1d8e135746b069b31f9e9ba8f88aba450afad9c",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        80,
+        113,
+        944,
+        910
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 90841,
+      "binary_alpha": false,
+      "original_preserved": true,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/winged/sm-winged-012/pixel.png",
+      "bytes": 6784,
+      "sha256": "f3d7afdf471136dd16727b212aa3bcbdf388532c67719d30b730797772e62573",
+      "git_blob_sha": "2de56c25a3f2338a879e1c80900ebaed356e2af0",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        10,
+        15,
+        118,
+        112
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": true,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "margin": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    }
+  ],
+  "provenance": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit. Image1 is attempted FRONT view of the creature; image2 is immutable original SE design. Keep image1 FRONT ring edge-on pose, two eyes, orthogonal ring shapes, camera, body proportions, materials and transparent background. Correct ONLY wing attachment ownership to match image2: exactly FOUR total narrow membrane wings, TWO roots on FRONT upright wheel and TWO roots on REAR horizontal torus. In image1 all four roots wrongly sit on the rear torus. Move the upper-right wing root onto the UPPER rim of the FRONT vertical wheel; move the lower-left wing root onto the LOWER rim of that FRONT wheel, each visibly connected to its porous surface. Keep upper-left and lower-right wing roots on the REAR horizontal ring. Each root must unambiguously belong to its own ring, with no extra wings and no detached floating wings. The front pair stays diagonally spread upper-right/lower-left, rear pair upper-left/lower-right, respecting depth and preserving four separate rounded triangle membrane tips. Do not change ring planes or eye positions, do not add legs/arms/tail. Fullsprite 1024square centered,64px minimum true transparent margins, no text/shadow/floor/glow.\n",
+      "raw_sha256": "e69d132db3f89eab5c3aac6694db799a85951124640e31a24ed6b0b9aa3aa952",
+      "raw_file_name": "S-normal-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "8e0f38350338c64203e6e6367667be2d2e230b2cd634ed1fd8bc43ccd4616b27",
+        "05e0200ef660ec2bc17f8f4c7e52d9c1cd03d9e6c167fb86b54e59f951e5fa5d"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          118,
+          238,
+          1126,
+          1079
+        ],
+        "resize": [
+          832,
+          694
+        ],
+        "offset": [
+          96,
+          165
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "09115d64a012d6d6990ee87d86ad5b94c75fd39f1732cb7f7e6ee0bd1be96c89",
+      "recorded_at": "2026-10-10T14:49:59.595283+00:00"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer.\nImage 1 is the approved NORMAL S view of sm-winged-012. Redraw this exact visible sprite as genuine 128 by 128 logical pixel art, changing medium only. Do not change yaw, mirror, move a wing root, add a part or alter the pose.\nFront view: upright front ring is edge-on with two blue eyes, and the rear horizontal hole shows small open regions on both sides of the foreground front ring. Four wing roots retain their correct two-per-ring ownership.\nKeep two connected porous biscuit-ochre ring body segments and exactly four physical thin cyan membrane wings, two per ring, allowing the SAME occlusions as the reference. Keep cream veins and sparse turquoise body patches; simplify tiny pores and texture into deliberate pixel clusters. Preserve transparent openings where the reference has true through-holes, including thin openings; never fill them with opaque brown or black pixels. No added eyes, legs, arms or tail.\nUse muted baked ochre, pale cream and turquoise, with a clean dark warm outline, consistent with colors #BF8D75, #80B9C0 and #EDDDB1. At most 32 visible colors, binary alpha, crisp stepped edges, no antialiasing, blur or dithering. Full sprite centered in a 128 square, longest extent about 104 pixels and at least 8 pixels transparent padding. No text, grid, floor, cast shadow, glow or background.",
+      "raw_sha256": "790f79b4768b5b4c6ce49ee480b25bee220f520f3003b48dbff647a4e97fe4d3",
+      "raw_file_name": "S-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "09115d64a012d6d6990ee87d86ad5b94c75fd39f1732cb7f7e6ee0bd1be96c89"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          96,
+          184,
+          1158,
+          1109
+        ],
+        "resize": [
+          104,
+          91
+        ],
+        "offset": [
+          12,
+          18
+        ]
+      },
+      "palette_source_sha256": "f3d7afdf471136dd16727b212aa3bcbdf388532c67719d30b730797772e62573",
+      "final_sha256": "81c981ab89d0734159354aa6b0b74263e526749f0b13bd5ea330d5acf2f351db",
+      "recorded_at": "2026-10-11T00:50:51.893516+00:00"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original SE of sm-winged-012. Rotate this exact creature by true yaw, unchanged fixed camera elevation and body volume, NOT a mirror or arrangement of flat cutouts. Two porous baked-ochre torus body segments joined by short thin connector fore-aft. Front ring is UPRIGHT VERTICAL OVAL in fore-aft vertical plane like a wheel; rear ring is HORIZONTAL OVAL lying flat, their ring planes remain perpendicular during yaw. Both have real through-holes; hide a hole only if genuinely edge-on or occluded, never fill or fuse the rings. Exactly2blue oval eyes belong only on the forward outer rim of front upright ring; rear ring has NOeyes. Exactly4thin transparent narrow triangular wings with rounded tips,2roots per ring, same diagonal spread and root placements as reference. Zero legs/arms/tail/antennae. Warm porous biscuit body with sparse turquoise patches, transparent pale cyan membranes and cream veins, colored outline gentle shading. Preserve exact anterior-to-posterior size ratio, connector and rigid relative height. TARGET SW: FRONT-LEFT three-quarter, nose/eyes toward lower-left, upright front ring lower-left and horizontal rear ring upper-right. Opposite actual side is seen with correct wing depth occlusion. Do not mirror artwork. One complete normal sprite centered1024square longest832px,minimum64px fullytransparent margin. No background/floor/shadow/glow/text/grid. Do not exaggerate elevation or switch to overhead.",
+      "raw_sha256": "b6396ff92858c188bed185e31cbcd9265a8a45a87b4a08962260e9e6d2deeee3",
+      "raw_file_name": "SW-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "05e0200ef660ec2bc17f8f4c7e52d9c1cd03d9e6c167fb86b54e59f951e5fa5d"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          87,
+          142,
+          1211,
+          1134
+        ],
+        "resize": [
+          832,
+          734
+        ],
+        "offset": [
+          96,
+          145
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "0b36278f963d791158d49890fb053994e51440caf18778dc9638691131e21681",
+      "recorded_at": "2026-10-10T14:50:57.101350+00:00"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer.\nImage 1 is the approved NORMAL SW view of sm-winged-012. Redraw this exact visible sprite as genuine 128 by 128 logical pixel art, changing medium only. Do not change yaw, mirror, move a wing root, add a part or alter the pose.\nFront-left quarter view: two eyes belong to the upright front rim. Keep both through-holes open and the upper/lower front wings and the two rear-ring wings in the same locations.\nKeep two connected porous biscuit-ochre ring body segments and exactly four physical thin cyan membrane wings, two per ring, allowing the SAME occlusions as the reference. Keep cream veins and sparse turquoise body patches; simplify tiny pores and texture into deliberate pixel clusters. Preserve transparent openings where the reference has true through-holes, including thin openings; never fill them with opaque brown or black pixels. No added eyes, legs, arms or tail.\nUse muted baked ochre, pale cream and turquoise, with a clean dark warm outline, consistent with colors #BF8D75, #80B9C0 and #EDDDB1. At most 32 visible colors, binary alpha, crisp stepped edges, no antialiasing, blur or dithering. Full sprite centered in a 128 square, longest extent about 104 pixels and at least 8 pixels transparent padding. No text, grid, floor, cast shadow, glow or background.",
+      "raw_sha256": "b7d7039a9c8172b8efa7603ab9bab65744e27fca356c239904f8c64e3120a4c7",
+      "raw_file_name": "SW-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "0b36278f963d791158d49890fb053994e51440caf18778dc9638691131e21681"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          103,
+          176,
+          1175,
+          1119
+        ],
+        "resize": [
+          104,
+          91
+        ],
+        "offset": [
+          12,
+          18
+        ]
+      },
+      "palette_source_sha256": "f3d7afdf471136dd16727b212aa3bcbdf388532c67719d30b730797772e62573",
+      "final_sha256": "d188c01f146e3ff2a9e02527255df63026c2d37d400376f166fc4cef0f3a3950",
+      "recorded_at": "2026-10-11T00:52:06.138743+00:00"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original SE of sm-winged-012. Rotate this exact creature by true yaw, unchanged fixed camera elevation and body volume, NOT a mirror or arrangement of flat cutouts. Two porous baked-ochre torus body segments joined by short thin connector fore-aft. Front ring is UPRIGHT VERTICAL OVAL in fore-aft vertical plane like a wheel; rear ring is HORIZONTAL OVAL lying flat, their ring planes remain perpendicular during yaw. Both have real through-holes; hide a hole only if genuinely edge-on or occluded, never fill or fuse the rings. Exactly2blue oval eyes belong only on the forward outer rim of front upright ring; rear ring has NOeyes. Exactly4thin transparent narrow triangular wings with rounded tips,2roots per ring, same diagonal spread and root placements as reference. Zero legs/arms/tail/antennae. Warm porous biscuit body with sparse turquoise patches, transparent pale cyan membranes and cream veins, colored outline gentle shading. Preserve exact anterior-to-posterior size ratio, connector and rigid relative height. TARGET W: LEFT full profile, anterior upright ring at screen-left, rear horizontal ring screen-right. Vertical front wheel broad side visible with clear vertically tall hole; rear ring shows shallow horizontal opening. Only near eye at forward left rim; far eye naturally hidden. Wings foreshorten in correct depth rather than retain original flat positions. One complete normal sprite centered1024square longest832px,minimum64px fullytransparent margin. No background/floor/shadow/glow/text/grid. Do not exaggerate elevation or switch to overhead.",
+      "raw_sha256": "be2cde18f9577bbbe2357386ad1bf6c2238361de4203aa7a71a28280f3c2590d",
+      "raw_file_name": "W-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "05e0200ef660ec2bc17f8f4c7e52d9c1cd03d9e6c167fb86b54e59f951e5fa5d"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          118,
+          152,
+          1215,
+          1103
+        ],
+        "resize": [
+          832,
+          721
+        ],
+        "offset": [
+          96,
+          151
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "1597c901a3a89fe06f5ea254e3e9b0549a404f78bd9a3b9ff6e2ad7b1c1ce221",
+      "recorded_at": "2026-10-10T14:52:13.924651+00:00"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer.\nImage 1 is the approved NORMAL W view of sm-winged-012. Redraw this exact visible sprite as genuine 128 by 128 logical pixel art, changing medium only. Do not change yaw, mirror, move a wing root, add a part or alter the pose.\nLeft side view: front upright ring at left and horizontal rear ring at right. Preserve the near eye and tiny far-eye sliver exactly as visible; both through-holes stay open, four physical wings remain with the same roots.\nKeep two connected porous biscuit-ochre ring body segments and exactly four physical thin cyan membrane wings, two per ring, allowing the SAME occlusions as the reference. Keep cream veins and sparse turquoise body patches; simplify tiny pores and texture into deliberate pixel clusters. Preserve transparent openings where the reference has true through-holes, including thin openings; never fill them with opaque brown or black pixels. No added eyes, legs, arms or tail.\nUse muted baked ochre, pale cream and turquoise, with a clean dark warm outline, consistent with colors #BF8D75, #80B9C0 and #EDDDB1. At most 32 visible colors, binary alpha, crisp stepped edges, no antialiasing, blur or dithering. Full sprite centered in a 128 square, longest extent about 104 pixels and at least 8 pixels transparent padding. No text, grid, floor, cast shadow, glow or background.",
+      "raw_sha256": "4a86c736049ad470e8cededd0c307d72303e5357eee71e4feae5b73bf0f9b90d",
+      "raw_file_name": "W-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "1597c901a3a89fe06f5ea254e3e9b0549a404f78bd9a3b9ff6e2ad7b1c1ce221"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          117,
+          165,
+          1184,
+          1087
+        ],
+        "resize": [
+          104,
+          90
+        ],
+        "offset": [
+          12,
+          19
+        ]
+      },
+      "palette_source_sha256": "f3d7afdf471136dd16727b212aa3bcbdf388532c67719d30b730797772e62573",
+      "final_sha256": "afa2f10992a1785970734c83b3253c8fdc0d81da1b3e0b8b0f40f1e640e6a002",
+      "recorded_at": "2026-10-11T00:53:35.054874+00:00"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit.\nImage 1 is the existing NW rear-left view to edit. Image 2 is the immutable original SE design. Image 3 is the adjacent W view, used only to help consistent wing placement.\nKeep Image 1's two connected porous biscuit rings, their shapes and holes, eyeless rear-facing view, camera, body size, materials, lighting and two wings on the horizontal rear ring. Correct only the duplicated upper placement of the FRONT ring's wing pair.\nPreserve the upper-left wing on the upper part of the upright front ring. Move the other front wing, currently attached at the upper-right rim, to the lower opposite part of that SAME upright front ring, below the connector region, consistent with the upper/lower diagonal pair in Image 2 and Image 3. Its membrane extends down and right in this rear-left view, with natural depth overlap against the nearer rear ring. It may be partly hidden; do not force all four tips visible by moving roots. The root must visibly belong to the front ring whenever exposed, never to the connector or rear ring. Exactly four physical wings total, two per ring. No extra root, floating wing or added limb.\nDo not move either ring, the connector or the two rear-ring wing roots. Do not change yaw, mirror the creature, add eyes, merge holes or change the narrow rounded membrane-wing design. This is a targeted attachment correction, not a complete redesign.\nOne complete normal illustration on genuine transparent alpha, centered in a 1024 square with at least 64 pixels clear padding. No floor, shadow, glow, text or grid.",
+      "raw_sha256": "9481e186b2a46ba06043ddbefd7437ff415fa3a6e97775cca9f5765ea2812456",
+      "raw_file_name": "NW-normal-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "dd88c53dc95291f0e70510ad4e698129e08eb66a0ee611f81a8390c7bc21898b",
+        "05e0200ef660ec2bc17f8f4c7e52d9c1cd03d9e6c167fb86b54e59f951e5fa5d",
+        "1597c901a3a89fe06f5ea254e3e9b0549a404f78bd9a3b9ff6e2ad7b1c1ce221"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          118,
+          163,
+          1137,
+          1089
+        ],
+        "resize": [
+          832,
+          756
+        ],
+        "offset": [
+          96,
+          134
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "54c6e040a76a9c52b970620650a3ffa47cb9eb3cfc31f26b92bd25874b064b2e",
+      "recorded_at": "2026-10-11T00:40:27.412873+00:00"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer.\nImage 1 is the approved NORMAL NW view of sm-winged-012. Redraw this exact visible sprite as genuine 128 by 128 logical pixel art, changing medium only. Do not change yaw, mirror, move a wing root, add a part or alter the pose.\nRear-left quarter view: no eyes; upright front ring farther upper-left and horizontal rear ring near lower-right. Two front roots are high/low and two rear roots remain on the rear ring; both holes stay open.\nKeep two connected porous biscuit-ochre ring body segments and exactly four physical thin cyan membrane wings, two per ring, allowing the SAME occlusions as the reference. Keep cream veins and sparse turquoise body patches; simplify tiny pores and texture into deliberate pixel clusters. Preserve transparent openings where the reference has true through-holes, including thin openings; never fill them with opaque brown or black pixels. No added eyes, legs, arms or tail.\nUse muted baked ochre, pale cream and turquoise, with a clean dark warm outline, consistent with colors #BF8D75, #80B9C0 and #EDDDB1. At most 32 visible colors, binary alpha, crisp stepped edges, no antialiasing, blur or dithering. Full sprite centered in a 128 square, longest extent about 104 pixels and at least 8 pixels transparent padding. No text, grid, floor, cast shadow, glow or background.",
+      "raw_sha256": "942234152268d95884aef4c5c9df19a4968f1d8b8dbc39b314dbea2f50dabb7f",
+      "raw_file_name": "NW-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "54c6e040a76a9c52b970620650a3ffa47cb9eb3cfc31f26b92bd25874b064b2e"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          129,
+          110,
+          1199,
+          1151
+        ],
+        "resize": [
+          104,
+          101
+        ],
+        "offset": [
+          12,
+          13
+        ]
+      },
+      "palette_source_sha256": "f3d7afdf471136dd16727b212aa3bcbdf388532c67719d30b730797772e62573",
+      "final_sha256": "adc9daf94648ff2706a3f2d57cf6a131a158e4900137e31de67449907a587613",
+      "recorded_at": "2026-10-11T00:54:42.673798+00:00"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit.\nImage 1 is the existing direct BACK (N) view to edit. Image 2 is the immutable original SE design. Image 3 is the corrected neighboring NW view. Image 4 is the front S view, showing which wing pair belongs to each ring.\nPreserve Image 1's camera, two connected porous biscuit rings, rear ring in the foreground, front upright ring behind it, no eyes on the back, color and materials. Correct only the front ring wing pair. Image 1 wrongly places both front wings at its upper rim. Keep its upper-left front wing attached high. Remove the upper-right attachment and place that SAME physical wing at the lower opposed part of the FRONT upright ring, matching the upper/lower pair in Images 2-4.\nThe near horizontal rear ring naturally hides part or all of this lower front root and wing in a direct back view. Respect that depth; allow a small visible membrane portion or full occlusion instead of moving the root back to the top or attaching it to the rear ring. Keep the two existing rear-ring wings exactly on that rear ring. Four physical wings total, two per ring, but do not force all four tips visible. If any lower front membrane is exposed, it must read as coming from behind the rear ring and continuing from the lower front ring, with no floating extra piece.\nKeep the front ring edge-on, rear through-hole open, same connector and body silhouette. No new eyes, limbs, antennae or tail. Do not move the rings or alter yaw. Make only this attachment correction.\nOne complete normal illustration on genuine transparent alpha, centered 1024 square, at least 64 pixels clear padding. No floor, cast shadow, glow, text or grid.",
+      "raw_sha256": "ed3c19f326a2693395fcb340f228bc64a81521c67547781319c1e6893317f49f",
+      "raw_file_name": "N-normal-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "13ee03c0187f8396eaa4cd97a4a0cd107ff26951693ef5e21ed117fe0ee1af3d",
+        "05e0200ef660ec2bc17f8f4c7e52d9c1cd03d9e6c167fb86b54e59f951e5fa5d",
+        "54c6e040a76a9c52b970620650a3ffa47cb9eb3cfc31f26b92bd25874b064b2e",
+        "09115d64a012d6d6990ee87d86ad5b94c75fd39f1732cb7f7e6ee0bd1be96c89"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          116,
+          200,
+          1137,
+          1032
+        ],
+        "resize": [
+          832,
+          678
+        ],
+        "offset": [
+          96,
+          173
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "84d7906c2ef25622034f2b98eb3be3fb0c508a6d31e1574f6b7150f1a2ac6b12",
+      "recorded_at": "2026-10-11T00:43:29.672359+00:00"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer.\nImage 1 is the approved NORMAL N view of sm-winged-012. Redraw this exact visible sprite as genuine 128 by 128 logical pixel art, changing medium only. Do not change yaw, mirror, move a wing root, add a part or alter the pose.\nDirect back: no eyes; upright front ring is edge-on behind the horizontal rear ring. Only the rear through-hole is visibly open; do not invent a visible front hole. Keep the lower front wing partly hidden by the rear ring and its exposed membrane portion separate from the two rear wings.\nKeep two connected porous biscuit-ochre ring body segments and exactly four physical thin cyan membrane wings, two per ring, allowing the SAME occlusions as the reference. Keep cream veins and sparse turquoise body patches; simplify tiny pores and texture into deliberate pixel clusters. Preserve transparent openings where the reference has true through-holes, including thin openings; never fill them with opaque brown or black pixels. No added eyes, legs, arms or tail.\nUse muted baked ochre, pale cream and turquoise, with a clean dark warm outline, consistent with colors #BF8D75, #80B9C0 and #EDDDB1. At most 32 visible colors, binary alpha, crisp stepped edges, no antialiasing, blur or dithering. Full sprite centered in a 128 square, longest extent about 104 pixels and at least 8 pixels transparent padding. No text, grid, floor, cast shadow, glow or background.",
+      "raw_sha256": "70b6f0c3324925853d8d6aab514c55e62b14f580aa6cfb542b8f32a2e9013ad6",
+      "raw_file_name": "N-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "84d7906c2ef25622034f2b98eb3be3fb0c508a6d31e1574f6b7150f1a2ac6b12"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          90,
+          150,
+          1164,
+          1106
+        ],
+        "resize": [
+          104,
+          93
+        ],
+        "offset": [
+          12,
+          17
+        ]
+      },
+      "palette_source_sha256": "f3d7afdf471136dd16727b212aa3bcbdf388532c67719d30b730797772e62573",
+      "final_sha256": "22ad75b1bf3bd372c4deab48d87d081a6409775c88b611dcb636e4538777f02a",
+      "recorded_at": "2026-10-11T00:56:15.759732+00:00"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve.\nImage 1 is the immutable original SE design of sm-winged-012. Image 2 is its corrected direct N back view, and Image 3 is its E right-side view. Draw the same creature at the intermediate NE BACK-RIGHT three-quarter yaw, not a mirror. The upright FRONT oval ring is farther away at the UPPER RIGHT; its eye-bearing forward rim faces away so both eyes are hidden. The flatter horizontal REAR ring is nearer at the LOWER LEFT. Join them by the same short thin connector. Preserve source-relative ring proportions, open through-holes with believable foreshortening, and a consistent elevated camera between the N and E references.\nExactly two narrow translucent wings belong to each ring, four physical wings total. On the front upright ring, one root is high and the opposed root is LOW, never both upper. Continue the corrected high/low pair of Image 2 into this quarter view; the low front wing can overlap or be partly hidden by the nearer rear ring, but must never attach to that rear ring. The rear horizontal ring keeps its own two opposed wing roots. Natural occlusion is preferable to moving a root or adding another wing to expose four tips.\nKeep porous baked-ochre surfaces with sparse turquoise patches, pale cyan transparent membranes with cream veins and rounded narrow triangular tips. Maintain the same body pose, lighting and hand-drawn style. No eyes on the back, no legs, arms, tail or antennae; do not merge the holes or add segments.\nOne full normal sprite, genuine transparent alpha, centered 1024 square, longest extent about 832 pixels, at least 64 transparent pixels on every side. No floor, cast shadow, glow, text or grid.",
+      "raw_sha256": "f4263622497dd6561c776a075a170ab833c3e3265a58b182e1c7f56ec8ff8fee",
+      "raw_file_name": "NE-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "05e0200ef660ec2bc17f8f4c7e52d9c1cd03d9e6c167fb86b54e59f951e5fa5d",
+        "84d7906c2ef25622034f2b98eb3be3fb0c508a6d31e1574f6b7150f1a2ac6b12",
+        "f89159d4635d4ec8d24c767e77f0dc18c7fe0ab3ef468f91c41b72c1a6b71562"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          129,
+          140,
+          1111,
+          1115
+        ],
+        "resize": [
+          832,
+          826
+        ],
+        "offset": [
+          96,
+          99
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "b4867dc5d86673bf7f2a140e32374ceebf76869cf0f60af5c8ffb637e03ea08e",
+      "recorded_at": "2026-10-11T00:48:28.386007+00:00"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer.\nImage 1 is the approved NORMAL NE view of sm-winged-012. Redraw this exact visible sprite as genuine 128 by 128 logical pixel art, changing medium only. Do not change yaw, mirror, move a wing root, add a part or alter the pose.\nRear-right quarter view: no eyes; upright front ring farther upper-right and horizontal rear ring near lower-left. Both holes remain open, front wings attach high/low and rear wings attach to the rear ring.\nKeep two connected porous biscuit-ochre ring body segments and exactly four physical thin cyan membrane wings, two per ring, allowing the SAME occlusions as the reference. Keep cream veins and sparse turquoise body patches; simplify tiny pores and texture into deliberate pixel clusters. Preserve transparent openings where the reference has true through-holes, including thin openings; never fill them with opaque brown or black pixels. No added eyes, legs, arms or tail.\nUse muted baked ochre, pale cream and turquoise, with a clean dark warm outline, consistent with colors #BF8D75, #80B9C0 and #EDDDB1. At most 32 visible colors, binary alpha, crisp stepped edges, no antialiasing, blur or dithering. Full sprite centered in a 128 square, longest extent about 104 pixels and at least 8 pixels transparent padding. No text, grid, floor, cast shadow, glow or background.",
+      "raw_sha256": "800327a0a2c0eaecee2fdf62e6c40e27b346b6b3dbef2c50261e88813213e661",
+      "raw_file_name": "NE-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "b4867dc5d86673bf7f2a140e32374ceebf76869cf0f60af5c8ffb637e03ea08e"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          110,
+          88,
+          1157,
+          1180
+        ],
+        "resize": [
+          100,
+          104
+        ],
+        "offset": [
+          14,
+          12
+        ]
+      },
+      "palette_source_sha256": "f3d7afdf471136dd16727b212aa3bcbdf388532c67719d30b730797772e62573",
+      "final_sha256": "087ab5b743294f04f325dee4705a348c4e20fec3153893768e8b860153849c70",
+      "recorded_at": "2026-10-11T00:57:30.482738+00:00"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: identity-preserve.\nImage 1 is the immutable original SE design of sm-winged-012. Image 2 is its adjacent-set W view for proportions only. Create a genuinely turned RIGHT SIDE (E) view of the same creature, not a flipped copy.\nThe front upright oval ring is at the RIGHT, with its forward outer rim and one near blue eye at the right edge; the second eye is naturally hidden around that front rim. The rear horizontal oval ring extends to the LEFT, joined by the same short thin connector. Keep both real through-holes readable at this side view, the original relative ring sizes, biscuit-like porous ochre body, sparse turquoise patches, translucent pale-cyan narrow rounded triangular wings and cream veins. Keep the original elevated camera and restrained illustration style.\nExactly four physical wings: the FRONT upright ring has one wing rooted high and a second at the opposed LOWER rim, just as in Image 1; never place both at its upper rim. The REAR horizontal ring has its own two roots on opposite sides. Preserve these attachment owners during the turn, with natural foreshortening and overlap. Do not force four tips visible by moving roots. No eyes on rear ring, no legs, arms, tail or antennae. Keep one consistent pose and no dramatic tilt or volume change.\nOne complete normal sprite centered on genuine transparent alpha, 1024 square, longest extent about 832 pixels and at least 64 pixels transparent padding. No text, background, floor, cast shadow, glow or grid.",
+      "raw_sha256": "621eed5ed59b2866dc4b481d81860152b8c607bb4ad4dc6b96c9b8617cd531e4",
+      "raw_file_name": "E-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "05e0200ef660ec2bc17f8f4c7e52d9c1cd03d9e6c167fb86b54e59f951e5fa5d",
+        "1597c901a3a89fe06f5ea254e3e9b0549a404f78bd9a3b9ff6e2ad7b1c1ce221"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          91,
+          151,
+          1160,
+          1125
+        ],
+        "resize": [
+          832,
+          758
+        ],
+        "offset": [
+          96,
+          133
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "f89159d4635d4ec8d24c767e77f0dc18c7fe0ab3ef468f91c41b72c1a6b71562",
+      "recorded_at": "2026-10-11T00:46:22.960087+00:00"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer.\nImage 1 is the approved NORMAL E view of sm-winged-012. Redraw this exact visible sprite as genuine 128 by 128 logical pixel art, changing medium only. Do not change yaw, mirror, move a wing root, add a part or alter the pose.\nRight side view: one visible eye on the right forward rim. Upright front ring right and horizontal rear ring left, both holes open, front high/low wings and separate rear pair.\nKeep two connected porous biscuit-ochre ring body segments and exactly four physical thin cyan membrane wings, two per ring, allowing the SAME occlusions as the reference. Keep cream veins and sparse turquoise body patches; simplify tiny pores and texture into deliberate pixel clusters. Preserve transparent openings where the reference has true through-holes, including thin openings; never fill them with opaque brown or black pixels. No added eyes, legs, arms or tail.\nUse muted baked ochre, pale cream and turquoise, with a clean dark warm outline, consistent with colors #BF8D75, #80B9C0 and #EDDDB1. At most 32 visible colors, binary alpha, crisp stepped edges, no antialiasing, blur or dithering. Full sprite centered in a 128 square, longest extent about 104 pixels and at least 8 pixels transparent padding. No text, grid, floor, cast shadow, glow or background.",
+      "raw_sha256": "b2aa9c1fd9eaaaaf68c8ec8443c45897f713c6a9334688bc10ab880c21af33a4",
+      "raw_file_name": "E-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "f89159d4635d4ec8d24c767e77f0dc18c7fe0ab3ef468f91c41b72c1a6b71562"
+      ],
+      "reference_evidence": "Executed image-generation references are identified by exact hashes. Each pixel image was generated independently from the selected normal of the same direction; final files are unchanged copies of technical outputs.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          102,
+          151,
+          1160,
+          1103
+        ],
+        "resize": [
+          104,
+          94
+        ],
+        "offset": [
+          12,
+          17
+        ]
+      },
+      "palette_source_sha256": "f3d7afdf471136dd16727b212aa3bcbdf388532c67719d30b730797772e62573",
+      "final_sha256": "238141b720129125dd4f696f7b1137d087ec5be0969a23147ac40eea1687f05a",
+      "recorded_at": "2026-10-11T00:58:32.894858+00:00"
+    }
+  ],
+  "qa": {
+    "numeric_and_hash": "passed_16_slots",
+    "visual": "Normal full set reviewed for two connected ring segments, eyes on the front rim only, two wings per ring and front upper/lower attachment continuity. Each independently generated pixel checked against its selected normal at128px: same direction, visible ring holes, eye visibility and wing counts/occlusion retained.",
+    "pixel_hole_components": {
+      "S": [
+        {
+          "area": 7,
+          "bbox": [
+            51,
+            59,
+            54,
+            62
+          ]
+        },
+        {
+          "area": 7,
+          "bbox": [
+            74,
+            59,
+            77,
+            62
+          ]
+        }
+      ],
+      "SW": [
+        {
+          "area": 44,
+          "bbox": [
+            75,
+            52,
+            88,
+            57
+          ]
+        },
+        {
+          "area": 37,
+          "bbox": [
+            44,
+            63,
+            47,
+            77
+          ]
+        }
+      ],
+      "W": [
+        {
+          "area": 131,
+          "bbox": [
+            30,
+            59,
+            38,
+            80
+          ]
+        },
+        {
+          "area": 20,
+          "bbox": [
+            77,
+            67,
+            88,
+            69
+          ]
+        }
+      ],
+      "NW": [
+        {
+          "area": 60,
+          "bbox": [
+            63,
+            80,
+            78,
+            85
+          ]
+        },
+        {
+          "area": 20,
+          "bbox": [
+            41,
+            50,
+            44,
+            61
+          ]
+        }
+      ],
+      "N": [
+        {
+          "area": 34,
+          "bbox": [
+            58,
+            82,
+            71,
+            85
+          ]
+        },
+        {
+          "area": 1,
+          "bbox": [
+            72,
+            69,
+            73,
+            70
+          ]
+        }
+      ],
+      "NE": [
+        {
+          "area": 50,
+          "bbox": [
+            57,
+            82,
+            72,
+            87
+          ]
+        },
+        {
+          "area": 31,
+          "bbox": [
+            92,
+            48,
+            95,
+            62
+          ]
+        }
+      ],
+      "E": [
+        {
+          "area": 81,
+          "bbox": [
+            89,
+            62,
+            95,
+            80
+          ]
+        },
+        {
+          "area": 30,
+          "bbox": [
+            46,
+            63,
+            59,
+            66
+          ]
+        }
+      ],
+      "SE": [
+        {
+          "area": 89,
+          "bbox": [
+            85,
+            61,
+            92,
+            80
+          ]
+        },
+        {
+          "area": 43,
+          "bbox": [
+            47,
+            60,
+            60,
+            64
+          ]
+        }
+      ]
+    },
+    "limitations": [
+      "This is a hand-drawn directional set with source-preserving inferred foreshortening and occlusion, not a measured3D reconstruction.",
+      "Fine pore patterns and membrane veins simplify or vary across views; they are not treated as unique anatomical IDs.",
+      "The lower front wing is partly occluded by the foreground rear ring in N. Front ring holes disappear naturally at edge-on front/back angles; exposed rear holes remain open.",
+      "Exact45degree projection and pixel-perfect material registration are not claimed. In-game rendering has not been tested."
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending",
+    "independent_review": "Passed all16 numeric/hash checks; parent eight-pair/E S,N,NW full-resolution pixel inspection confirms two rings, two wings per ring, holes and eye occlusion correspondence. Membrane/root depth, small pore placement and exact angles remain inferred; no runtime verification.",
+    "source_history": "Full available original metadata has no explicit safety-stop marker but original_recovery not_recovered states incomplete detailed trials; absence of unrecorded stops is not established."
+  },
+  "revision_notes": [
+    "Initial front view attached all wings to the rear ring; the selected front correction restores two per ring.",
+    "Initial NW/N placed both front-ring wings high; selected local edits restore the upper/lower pair without changing body feature counts.",
+    "Review uses visible individual identity and consistent directional drawing, rather than requiring a uniquely provable hidden3D construction."
+  ]
+}
