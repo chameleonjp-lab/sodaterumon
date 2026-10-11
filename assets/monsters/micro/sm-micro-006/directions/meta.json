@@ -1,0 +1,661 @@
+{
+  "schema_version": 1,
+  "id": "sm-micro-006",
+  "asset_type": "eight_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "direction_definition": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-006/default.png",
+      "bytes": 681842,
+      "sha256": "7434cfd4e830b94dd22995177fcf7f6e75c08ac37b136c3e1d4f976c2cd67849",
+      "git_blob_sha": "d87084767af1d638987d7ef78e1bfba114cff4b9",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        99,
+        83,
+        925,
+        940
+      ],
+      "visible_colors": 78972,
+      "binary_alpha": false,
+      "alpha8_connected_components": 1,
+      "original_preserved": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-006/pixel.png",
+      "bytes": 7702,
+      "sha256": "9acb29d2b92d0f3804ca3c6f09e3da4219bc919e7bdef35959c6740ce975eeab",
+      "git_blob_sha": "7e9be68216b3f064da79b9f6618d164f435ab6f2",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        14,
+        10,
+        114,
+        118
+      ],
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "alpha8_connected_components": 1,
+      "original_preserved": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/SW/default.png",
+      "bytes": 509022,
+      "sha256": "f3b6c7f8bfbb68a6a1aa5b090b84aacc40aba42c068b9b27fa8cc93124c1a984",
+      "git_blob_sha": "05788f207541861a9383ae497c17f4229f46e802",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        199,
+        97,
+        824,
+        928
+      ],
+      "visible_colors": 85220,
+      "binary_alpha": false,
+      "alpha8_connected_components": 31,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/SW/pixel.png",
+      "bytes": 7327,
+      "sha256": "e23aec16cc3636fc65a651fc17ec8ff96e628e88b263fd6dd300c44520937818",
+      "git_blob_sha": "3a6e0f20f633380b3e56ec6484d302aef3e25678",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        23,
+        12,
+        105,
+        116
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "alpha8_connected_components": 1,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/W/default.png",
+      "bytes": 245197,
+      "sha256": "075f5dad78ffac4e06fe972a391e131b52b865ea34c48ce10eacda5bed533afa",
+      "git_blob_sha": "3710801d702714982d742b0670ceee23ec09fa89",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        400,
+        97,
+        624,
+        927
+      ],
+      "visible_colors": 57181,
+      "binary_alpha": false,
+      "alpha8_connected_components": 19,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/W/pixel.png",
+      "bytes": 3573,
+      "sha256": "45be09ea19123b1c0e5f5401657f820e53ef8d8da7249dbc7dd467ae917fa98d",
+      "git_blob_sha": "a7a1823c617b07b467f46a112c47f1e7094d46e0",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        48,
+        12,
+        79,
+        116
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "alpha8_connected_components": 1,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/NW/default.png",
+      "bytes": 413707,
+      "sha256": "78173fa8411eae2e2c43f297e55dbbc238a23ca5e3f8eda09823b38e30cb1866",
+      "git_blob_sha": "446506d56a0ca9981929e043f029c54755144298",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        303,
+        97,
+        720,
+        927
+      ],
+      "visible_colors": 46381,
+      "binary_alpha": false,
+      "alpha8_connected_components": 38,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/NW/pixel.png",
+      "bytes": 5973,
+      "sha256": "06dd011505fa5a5680c7ab23297d6b8629522463b6282861151799fa8819c3c3",
+      "git_blob_sha": "6a8372647ec7aad7fd556b034fa33335c3243fa7",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        37,
+        12,
+        90,
+        116
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "alpha8_connected_components": 1,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/N/default.png",
+      "bytes": 567344,
+      "sha256": "ce38e266c792689ce8f283a018e8ddec638d309ce278eecd74a070e68617ec47",
+      "git_blob_sha": "0387454c440f9361c36340c69b7b9f5bce3a8951",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        105,
+        97,
+        918,
+        927
+      ],
+      "visible_colors": 54794,
+      "binary_alpha": false,
+      "alpha8_connected_components": 30,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/N/pixel.png",
+      "bytes": 6781,
+      "sha256": "c1c86eb2b6acf6e8827f1e222f46e8d9a2a876694756cd330ea1f255c1343da3",
+      "git_blob_sha": "09fd56f1938529bc89a54f812f738233a79fc5e9",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        13,
+        12,
+        114,
+        116
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "alpha8_connected_components": 1,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/NE/default.png",
+      "bytes": 525736,
+      "sha256": "46a40abcb614343ceb98f6743007167da0b3cfbd6023ad34c9ee5d2199c5959d",
+      "git_blob_sha": "cd3a637e1cd0435c9041a3798a98c3c0bfdf3e05",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        155,
+        96,
+        869,
+        927
+      ],
+      "visible_colors": 52095,
+      "binary_alpha": false,
+      "alpha8_connected_components": 22,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/NE/pixel.png",
+      "bytes": 6661,
+      "sha256": "61e580c19f24a3d0486e8925a560d399238cbf5ec44a3b39cb16997852497b6c",
+      "git_blob_sha": "d85fddda45f7897a9a99612dfca8ee9cc78e0768",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        20,
+        12,
+        108,
+        116
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "alpha8_connected_components": 1,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/E/default.png",
+      "bytes": 273051,
+      "sha256": "bdd28f17d0cd6badf7273c9e221e4c2c579f358a91b3e113ead432e9c14c9400",
+      "git_blob_sha": "01e81825d88330c9d1d4d255a1ed29fd8151f610",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        367,
+        97,
+        657,
+        927
+      ],
+      "visible_colors": 53433,
+      "binary_alpha": false,
+      "alpha8_connected_components": 26,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/E/pixel.png",
+      "bytes": 4091,
+      "sha256": "ada53c58f32a5d2df5073bc3740fad45dffc35eef0e6cfa552009c013d5585e4",
+      "git_blob_sha": "7bf25a962ebc6d17279158eeab57d9a88eaac719",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        45,
+        12,
+        82,
+        116
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "alpha8_connected_components": 1,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/SE/default.png",
+      "bytes": 550925,
+      "sha256": "0f463d4f94ef6943a0acfd2ac16221fcd769f70f8a11aea8e6ddb5db3ab66ff6",
+      "git_blob_sha": "5bd8369a43dc9296f9de48b2456d159fcb6152ec",
+      "size": [
+        1024,
+        1024
+      ],
+      "solid_alpha_bbox": [
+        192,
+        97,
+        832,
+        927
+      ],
+      "visible_colors": 91089,
+      "binary_alpha": false,
+      "alpha8_connected_components": 14,
+      "original_preserved": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/micro/sm-micro-006/directions/SE/pixel.png",
+      "bytes": 7029,
+      "sha256": "8cdcbb0b5a9147fda1c43050d07109267866fd725fe1c71b33397e208ab22574",
+      "git_blob_sha": "d0540fb51cc9d783d7ce163c8d3e93072364a475",
+      "size": [
+        128,
+        128
+      ],
+      "solid_alpha_bbox": [
+        21,
+        12,
+        107,
+        116
+      ],
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "alpha8_connected_components": 1,
+      "original_preserved": false,
+      "technical_pass": true
+    }
+  ],
+  "provenance": {
+    "tool": "built-in imagegen",
+    "attempts": [
+      {
+        "direction_version": "E",
+        "variant": "normal",
+        "raw_sha256": "43ade656dd80b0e19a94f66a9a88bd434dd897851d48858ad93c0af46fc89a00",
+        "prompt": "Use case: identity-preserve\nOne E exact right-side profile of this same pearly crescent micro creature, transparent game sprite. Reference1 original front; reference2 W profile is opposite side thickness guide; reference3 NE shows inner-edge anatomy. Rotate the original a quarter turn toward screen-right, keeping vertical height and upright pose. The broad C-shaped front/back sheet is almost edge-on, a narrow vertical rounded strip, not a broad C. We view from the CONCAVE opening side now, so the visible side has three cream filament roots at upper-middle, middle, lower-middle projecting TOWARD the camera: compact foreshortened round-tipped filaments partly overlap the strip, center longest. Original C tips above and below point toward us and look round; concave waist is deeper behind. Four gold front eyes lie on the far-right front contour, only four thin gold edge slivers with no broad dark pupil faces. This is opposite the W view whose roots point away; do not mirror the W illustration. Preserve original pale blue membrane/cream cellular web, fixed four eyes/three filaments, no legs/wings. Same glossy illustration. Transparent padding, no text/shadow.\n",
+        "selected": true,
+        "references": [
+          {
+            "sha256": "7434cfd4e830b94dd22995177fcf7f6e75c08ac37b136c3e1d4f976c2cd67849"
+          },
+          {
+            "sha256": "075f5dad78ffac4e06fe972a391e131b52b865ea34c48ce10eacda5bed533afa"
+          },
+          {
+            "sha256": "46a40abcb614343ceb98f6743007167da0b3cfbd6023ad34c9ee5d2199c5959d"
+          }
+        ]
+      },
+      {
+        "direction_version": "E",
+        "variant": "pixel",
+        "raw_sha256": "1e08bb1bdba79da4cfd53e6d778a383622d0165056d65749d565ca89b2d953ec",
+        "prompt": "Use case: style-transfer\nCreate ONE authentic pixel-art sprite of the exact normal creature in image1. Image2 original pixel is palette/pixel language reference ONLY, do not copy its different facing. Preserve image1 silhouette, perspective, visible eye slivers or hidden eyes exactly, thick pale blue crescent membrane, equal rounded tips, THREE attached cream thin filaments with central longest and upper/lower shorter, cream cellular pattern and gold eye rims/mottling. Each visible filament must remain a connected pixel path all the way from body to round tip; open C area stays transparent. Four physical eyes remain in their fixed front positions; do not reveal hidden ones. Zero legs/wings. Change medium only, no rotation or reposing. Native128 logical pixel grid, deliberate crisp clusters,32 colors maximum, opaque pixels or fully transparent only, no antialias/blur, outline and sparse highlights. Full isolated creature, generous transparent padding. No text/shadow/background.\nDirection E exact side, narrow profile: FOUR gold-rim edge slivers on RIGHT with no visible front pupils, THREE short cream filaments projecting left from near concave lip. Preserve their thickness and attached roots.\n",
+        "selected": true,
+        "references": [
+          {
+            "role": "same-direction normal",
+            "sha256": "bdd28f17d0cd6badf7273c9e221e4c2c579f358a91b3e113ead432e9c14c9400"
+          },
+          {
+            "role": "original pixel style",
+            "sha256": "9acb29d2b92d0f3804ca3c6f09e3da4219bc919e7bdef35959c6740ce975eeab"
+          }
+        ]
+      },
+      {
+        "direction_version": "N",
+        "variant": "normal",
+        "raw_sha256": "2ebac766c12781b2f72617d95b5bb8813474ac66903239f749000678ee7efec9",
+        "prompt": "Use case: identity-preserve. Single exact pearly blue C-crescent micro creature from reference, rotate in yaw without rolling or reposing. One thick rounded crescent, equal rounded tips, FOUR gold-rim dark eyes on convex outer-arc FRONT face only. THREE thin cream gel filaments emerge only from concave inner edge, central filament much longer than equal short upper/lower ones. No legs/wings/new parts. Pale periwinkle translucent cellular membrane with cream web and tan highlights. Preserve fixed upright crescent plane, thickness, proportions and gentle filament curves, original glossy illustration, transparent background no text/shadow. Requested N exact BACK view after180degree yaw. Crescent opening now screen LEFT, convex curved back screen RIGHT. All FOUR eyes hidden on far/front face, no eye sockets or gold iris circles on back. THREE filaments still attached inner concave edge now extend LEFT with center longest. Same crescent dimensions and tilt, same filament lengths and roots. Back has pearly cellular texture only; genuinely rear surfaces, not mirrored original with eyes.\n",
+        "selected": true,
+        "references": [],
+        "reference_evidence": "Retained exact prompt and pre-repair checkpoint; full original tool reference list not reconstructed here."
+      },
+      {
+        "direction_version": "N",
+        "variant": "pixel",
+        "raw_sha256": "3f4029fb427e648fcbc6d8a89f710d85060622534644deb76a2debce257a0db2",
+        "prompt": "Use case: style-transfer\nCreate ONE authentic pixel-art sprite of the exact normal creature in image1. Image2 original pixel is palette/pixel language reference ONLY, do not copy its different facing. Preserve image1 silhouette, perspective, visible eye slivers or hidden eyes exactly, thick pale blue crescent membrane, equal rounded tips, THREE attached cream thin filaments with central longest and upper/lower shorter, cream cellular pattern and gold eye rims/mottling. Each visible filament must remain a connected pixel path all the way from body to round tip; open C area stays transparent. Four physical eyes remain in their fixed front positions; do not reveal hidden ones. Zero legs/wings. Change medium only, no rotation or reposing. Native128 logical pixel grid, deliberate crisp clusters,32 colors maximum, opaque pixels or fully transparent only, no antialias/blur, outline and sparse highlights. Full isolated creature, generous transparent padding. No text/shadow/background.\nDirection N full rear: ZERO visible eyes, broad crescent opening LEFT, three extended cream filaments center longest. Same rear face and width as image1.\n",
+        "selected": true,
+        "references": [
+          {
+            "role": "same-direction normal",
+            "sha256": "ce38e266c792689ce8f283a018e8ddec638d309ce278eecd74a070e68617ec47"
+          },
+          {
+            "role": "original pixel style",
+            "sha256": "9acb29d2b92d0f3804ca3c6f09e3da4219bc919e7bdef35959c6740ce975eeab"
+          }
+        ]
+      },
+      {
+        "direction_version": "NE",
+        "variant": "normal",
+        "raw_sha256": "44a73215a813f299a17b39238e134e758ab9cc07291589dd5eca053fcb8931d8",
+        "prompt": "Use case: identity-preserve. Single exact pearly blue C-crescent micro creature from reference, rotate in yaw without rolling or reposing. One thick rounded crescent, equal rounded tips, FOUR gold-rim dark eyes on convex outer-arc FRONT face only. THREE thin cream gel filaments emerge only from concave inner edge, central filament much longer than equal short upper/lower ones. No legs/wings/new parts. Pale periwinkle translucent cellular membrane with cream web and tan highlights. Preserve fixed upright crescent plane, thickness, proportions and gentle filament curves, original glossy illustration, transparent background no text/shadow. Requested NE rear-right oblique225degree yaw, all4 eyes hidden on far front surface. Opening still LEFT as back reference2. View the opposite oblique side from NW: concave inner edge and three filament roots are NEARER viewer and prominent, convex outer edge farther; rounded tips project nearer on left. Crescent foreshortened to70percent rear width without changing height. Three filaments extend left and toward viewer, visible overlap and foreshortening, center longest. Show backside cellular membrane only, no eye sockets, no mirrored NW texture.\n",
+        "selected": false,
+        "references": [],
+        "reference_evidence": "Retained exact prompt and pre-repair checkpoint; full original tool reference list not reconstructed here."
+      },
+      {
+        "direction_version": "NE-v2",
+        "variant": "normal",
+        "raw_sha256": "1ab7885ee42d8f3f8860d058a9d644c771a5becc6faf5f2974d77f39b6d65343",
+        "prompt": "Use case: identity-preserve\nCreate one normal NE rear-right oblique view of the exact crescent creature on transparent background. Input1 immutable original front identity; input2 full back N defines eye-free rear surface; input3 repaired NW shows the OPPOSITE rear oblique for comparison only. Rotate from full rear halfway toward opposite side E, no roll or pitch. Opening remains screen-left, body height unchanged, overall horizontal span about 65 percent of N. Unlike NW, the concave inner edge is NOW NEAR the viewer: expose a broad rounded inner side wall along the left-facing concavity, with all three filament attachment roots visibly sitting on its near lip. The right convex outside edge is farther away and slimmer. Three cream filaments project toward the viewer and left, moderate foreshortening, distinct raised roots and tip-over-root overlaps, center much longer than equal shorter upper/lower ones. Thus do not copy NW with different texture. Four physical eyes stay hidden on the far front face. Keep equal crescent tips, thickness, pale periwinkle translucent cells, cream webbing/gold mottling, original glossy hand-drawn rendering, no legs/wings or added parts. Full body padding, no text or shadow.\n",
+        "selected": true,
+        "references": [
+          {
+            "sha256": "7434cfd4e830b94dd22995177fcf7f6e75c08ac37b136c3e1d4f976c2cd67849"
+          },
+          {
+            "sha256": "ce38e266c792689ce8f283a018e8ddec638d309ce278eecd74a070e68617ec47"
+          },
+          {
+            "sha256": "78173fa8411eae2e2c43f297e55dbbc238a23ca5e3f8eda09823b38e30cb1866"
+          }
+        ]
+      },
+      {
+        "direction_version": "NE-v2",
+        "variant": "pixel",
+        "raw_sha256": "2b0efe23e072ac3d1cc4114808ad91209c8e7870c37e75b5c3d4a4fd8c8d027d",
+        "prompt": "Use case: style-transfer\nCreate ONE authentic pixel-art sprite of the exact normal creature in image1. Image2 original pixel is palette/pixel language reference ONLY, do not copy its different facing. Preserve image1 silhouette, perspective, visible eye slivers or hidden eyes exactly, thick pale blue crescent membrane, equal rounded tips, THREE attached cream thin filaments with central longest and upper/lower shorter, cream cellular pattern and gold eye rims/mottling. Each visible filament must remain a connected pixel path all the way from body to round tip; open C area stays transparent. Four physical eyes remain in their fixed front positions; do not reveal hidden ones. Zero legs/wings. Change medium only, no rotation or reposing. Native128 logical pixel grid, deliberate crisp clusters,32 colors maximum, opaque pixels or fully transparent only, no antialias/blur, outline and sparse highlights. Full isolated creature, generous transparent padding. No text/shadow/background.\nDirection NE rear-right oblique: ZERO visible eyes, crescent opening LEFT, exposed near rounded inner concave wall and three connected filament roots. Preserve that inner-wall thickness instead of flattening it to a simple back view.\n",
+        "selected": true,
+        "references": [
+          {
+            "role": "same-direction normal",
+            "sha256": "46a40abcb614343ceb98f6743007167da0b3cfbd6023ad34c9ee5d2199c5959d"
+          },
+          {
+            "role": "original pixel style",
+            "sha256": "9acb29d2b92d0f3804ca3c6f09e3da4219bc919e7bdef35959c6740ce975eeab"
+          }
+        ]
+      },
+      {
+        "direction_version": "NW",
+        "variant": "normal",
+        "raw_sha256": "c677846d77080cc4b96510c564cf8d0e7d97b9a6d1a89a029d18ffb5684735af",
+        "prompt": "Use case: identity-preserve. Single exact pearly blue C-crescent micro creature from reference, rotate in yaw without rolling or reposing. One thick rounded crescent, equal rounded tips, FOUR gold-rim dark eyes on convex outer-arc FRONT face only. THREE thin cream gel filaments emerge only from concave inner edge, central filament much longer than equal short upper/lower ones. No legs/wings/new parts. Pale periwinkle translucent cellular membrane with cream web and tan highlights. Preserve fixed upright crescent plane, thickness, proportions and gentle filament curves, original glossy illustration, transparent background no text/shadow. Requested NW rear-left oblique135degree yaw. Eye-bearing front faces away upper-left, all FOUR eyes hidden. Use rear reference2 for backside texture and mirrored C anatomy: opening screen LEFT, convex outer arc screen RIGHT. Foreshorten this backside to about70percent full rear width at same height. Three filaments from inner concavity extend screen-left into depth and are foreshortened, middle longest. Keep attachment roots and rounded equal tips, no roll, do not add eyes to rear.\n",
+        "selected": false,
+        "references": [],
+        "reference_evidence": "Retained exact prompt and pre-repair checkpoint; full original tool reference list not reconstructed here."
+      },
+      {
+        "direction_version": "NW-v2",
+        "variant": "normal",
+        "raw_sha256": "63008c99875891ab9e5a47a43477004f50836c74d67dee1dd2c55f0097c8b235",
+        "prompt": "Use case: identity-preserve\nSingle transparent normal game sprite of the SAME pearly blue crescent creature. Input1 rear-oblique draft is edit target; input2 narrow side silhouette is thickness reference; input3 immutable front original identity. Correct the draft to NW, halfway in yaw between its narrow W profile and full N backside. Keep upright, no roll or pitch change. The broad rear C surface must be foreshortened to roughly 60 percent its current horizontal span at unchanged height. More importantly show a substantial rounded side wall along the RIGHT convex outer contour, nearest the viewer, overlapping the rear membrane plane, while the LEFT concave inner edge and its THREE cream filament roots recede behind that wall. Filaments are distinctly shortened in projection and partly overlap the body's inner edge, not three long sideways lines like the full back view. Center filament longest, upper and lower short. Body opening remains left. All FOUR gold front eyes remain hidden on the opposite face. Same thick rounded crescent with equal tips and original pale blue/cream cell pattern, no limbs/wings/new parts. Preserve physical attachments and original crescent shape; change their projection and visibility only. Same illustration medium, transparent padding, no text or shadow.\n",
+        "selected": true,
+        "references": [
+          {
+            "sha256": "7f8fca1c23f0d5444eec0dfa60bdec218f16964f86224d129f256563ebb91f6a"
+          },
+          {
+            "sha256": "075f5dad78ffac4e06fe972a391e131b52b865ea34c48ce10eacda5bed533afa"
+          },
+          {
+            "sha256": "7434cfd4e830b94dd22995177fcf7f6e75c08ac37b136c3e1d4f976c2cd67849"
+          }
+        ]
+      },
+      {
+        "direction_version": "NW-v2",
+        "variant": "pixel",
+        "raw_sha256": "075f939d2c1a9c6a86cce0c45bd5b974b9aa608a96932a6387e22b28ce27f695",
+        "prompt": "Use case: style-transfer\nCreate ONE authentic pixel-art sprite of the exact normal creature in image1. Image2 original pixel is palette/pixel language reference ONLY, do not copy its different facing. Preserve image1 silhouette, perspective, visible eye slivers or hidden eyes exactly, thick pale blue crescent membrane, equal rounded tips, THREE attached cream thin filaments with central longest and upper/lower shorter, cream cellular pattern and gold eye rims/mottling. Each visible filament must remain a connected pixel path all the way from body to round tip; open C area stays transparent. Four physical eyes remain in their fixed front positions; do not reveal hidden ones. Zero legs/wings. Change medium only, no rotation or reposing. Native128 logical pixel grid, deliberate crisp clusters,32 colors maximum, opaque pixels or fully transparent only, no antialias/blur, outline and sparse highlights. Full isolated creature, generous transparent padding. No text/shadow/background.\nDirection NW rear-left oblique: ZERO visible eyes, narrow rear crescent opening LEFT and three short left-pointing filaments, broad outer sidewall on RIGHT. Match image1 exactly.\n",
+        "selected": true,
+        "references": [
+          {
+            "role": "same-direction normal",
+            "sha256": "78173fa8411eae2e2c43f297e55dbbc238a23ca5e3f8eda09823b38e30cb1866"
+          },
+          {
+            "role": "original pixel style",
+            "sha256": "9acb29d2b92d0f3804ca3c6f09e3da4219bc919e7bdef35959c6740ce975eeab"
+          }
+        ]
+      },
+      {
+        "direction_version": "SE",
+        "variant": "normal",
+        "raw_sha256": "904b87a6b1a8f27a4acf1cbf67265d67ec96a57ca4d23452905e5912b484be82",
+        "prompt": "Use case: identity-preserve\nCreate one SE front-right oblique view of the exact pearly blue crescent creature, same upright pose and slight camera elevation. Input1 original S full front identity, input2 E side for rounded inner-lip thickness. Rotate halfway from S to E. Four original gold-rim dark eyes remain on the front broad surface and are visible as moderately narrowed ellipses, fixed along its convex arc, not on the inner lip. Original C opening remains screen-right, body width about two-thirds frontal width, same height. The right-facing CONCAVE lip is the NEAR side and has clearly exposed rounded thickness; three cream filaments project right and slightly toward viewer with modest foreshortening, center much longer than upper/lower, with roots naturally occluding the far edge. Convex outside arc is farther from viewer, giving a clearly different depth treatment from SW. Preserve one thick rounded crescent with equal rounded tips, four eyes, three filaments, zero legs/wings. Pale blue cellular membrane, cream webbing, restrained tan mottling, glossy hand-drawn original style. No redesign, no extra parts, no text/shadow. Single complete sprite with transparent background and padding.\n",
+        "selected": true,
+        "references": [
+          {
+            "sha256": "7434cfd4e830b94dd22995177fcf7f6e75c08ac37b136c3e1d4f976c2cd67849"
+          },
+          {
+            "sha256": "bdd28f17d0cd6badf7273c9e221e4c2c579f358a91b3e113ead432e9c14c9400"
+          }
+        ]
+      },
+      {
+        "direction_version": "SE",
+        "variant": "pixel",
+        "raw_sha256": "cc9f72c4aac17f891af937207456b7ac8947416828931931ca3e815c63b7e91f",
+        "prompt": "Use case: style-transfer\nCreate ONE authentic pixel-art sprite of the exact normal creature in image1. Image2 original pixel is palette/pixel language reference ONLY, do not copy its different facing. Preserve image1 silhouette, perspective, visible eye slivers or hidden eyes exactly, thick pale blue crescent membrane, equal rounded tips, THREE attached cream thin filaments with central longest and upper/lower shorter, cream cellular pattern and gold eye rims/mottling. Each visible filament must remain a connected pixel path all the way from body to round tip; open C area stays transparent. Four physical eyes remain in their fixed front positions; do not reveal hidden ones. Zero legs/wings. Change medium only, no rotation or reposing. Native128 logical pixel grid, deliberate crisp clusters,32 colors maximum, opaque pixels or fully transparent only, no antialias/blur, outline and sparse highlights. Full isolated creature, generous transparent padding. No text/shadow/background.\nDirection SE front-right oblique, FOUR visible gold dark eyes, C opens RIGHT, exposed near rounded concave wall and three attached cream filaments. Keep image1 eye ellipses and thickness.\n",
+        "selected": true,
+        "references": [
+          {
+            "role": "same-direction normal",
+            "sha256": "0f463d4f94ef6943a0acfd2ac16221fcd769f70f8a11aea8e6ddb5db3ab66ff6"
+          },
+          {
+            "role": "original pixel style",
+            "sha256": "9acb29d2b92d0f3804ca3c6f09e3da4219bc919e7bdef35959c6740ce975eeab"
+          }
+        ]
+      },
+      {
+        "direction_version": "SW",
+        "variant": "normal",
+        "raw_sha256": "97ae872bb5ebc55cf2dd1c36693244e2566e70fe063154fcae6408093341317e",
+        "prompt": "Use case: identity-preserve. Single exact pearly blue C-crescent micro creature from reference, rotate in yaw without rolling or reposing. One thick rounded crescent, equal rounded tips, FOUR gold-rim dark eyes on convex outer-arc FRONT face only. THREE thin cream gel filaments emerge only from concave inner edge, central filament much longer than equal short upper/lower ones. No legs/wings/new parts. Pale periwinkle translucent cellular membrane with cream web and tan highlights. Preserve fixed upright crescent plane, thickness, proportions and gentle filament curves, original glossy illustration, transparent background no text/shadow. Requested SW front-left oblique45degree yaw: eye-bearing front faces diagonally screen LEFT toward viewer. Crescent plane foreshortens to about70percent original width without changing height; opening still screen RIGHT but seen receding into depth. All four eyes still visible along near outer arc, each foreshortened and facing left. Three inner filaments point screen-right and away into depth, shorter projected lengths with long middle still longest. Preserve four eye roots and exact C tips, no roll.\n",
+        "selected": true,
+        "references": [],
+        "reference_evidence": "Retained exact prompt and pre-repair checkpoint; full original tool reference list not reconstructed here."
+      },
+      {
+        "direction_version": "SW",
+        "variant": "pixel",
+        "raw_sha256": "677fe351a8f5b8e8f698851ecf92642ea52004a83f4efc10eec16be75eaa5766",
+        "prompt": "Use case: style-transfer\nCreate ONE authentic pixel-art sprite of the exact normal creature in image1. Image2 original pixel is palette/pixel language reference ONLY, do not copy its different facing. Preserve image1 silhouette, perspective, visible eye slivers or hidden eyes exactly, thick pale blue crescent membrane, equal rounded tips, THREE attached cream thin filaments with central longest and upper/lower shorter, cream cellular pattern and gold eye rims/mottling. Each visible filament must remain a connected pixel path all the way from body to round tip; open C area stays transparent. Four physical eyes remain in their fixed front positions; do not reveal hidden ones. Zero legs/wings. Change medium only, no rotation or reposing. Native128 logical pixel grid, deliberate crisp clusters,32 colors maximum, opaque pixels or fully transparent only, no antialias/blur, outline and sparse highlights. Full isolated creature, generous transparent padding. No text/shadow/background.\nDirection SW front-left oblique, keep four visible gold eyes and image1's exact projected width.\n",
+        "selected": true,
+        "references": [
+          {
+            "role": "same-direction normal",
+            "sha256": "f3b6c7f8bfbb68a6a1aa5b090b84aacc40aba42c068b9b27fa8cc93124c1a984"
+          },
+          {
+            "role": "original pixel style",
+            "sha256": "9acb29d2b92d0f3804ca3c6f09e3da4219bc919e7bdef35959c6740ce975eeab"
+          }
+        ]
+      },
+      {
+        "direction_version": "W",
+        "variant": "normal",
+        "raw_sha256": "e1fabe6625181b040363c2d5910ccaa444463b18c568cbc26f3dfc8df9b48bd2",
+        "prompt": "Use case: identity-preserve. Single exact pearly blue C-crescent micro creature from reference, rotate in yaw without rolling or reposing. One thick rounded crescent, equal rounded tips, FOUR gold-rim dark eyes on convex outer-arc FRONT face only. THREE thin cream gel filaments emerge only from concave inner edge, central filament much longer than equal short upper/lower ones. No legs/wings/new parts. Pale periwinkle translucent cellular membrane with cream web and tan highlights. Preserve fixed upright crescent plane, thickness, proportions and gentle filament curves, original glossy illustration, transparent background no text/shadow. Requested W exact90degree LEFT profile. The broad C plane is now EDGE-ON: narrow upright curved membrane strip, original height unchanged but horizontal width aroundone-quarter frontal width. Convex outer arc nearest viewer, concave opening and three filaments recede behind into depth. Four eye surfaces face LEFT, seen as narrow slivers along left edge, do not move eyes onto side plane. Rounded crescent tips almost align horizontally in projection. Three tails naturally foreshortened/occluded behind body, center still longest if visible. No rotated flat crescent and no body stretching.\n",
+        "selected": false,
+        "references": [],
+        "reference_evidence": "Retained exact prompt and pre-repair checkpoint; full original tool reference list not reconstructed here."
+      },
+      {
+        "direction_version": "W-v2",
+        "variant": "normal",
+        "raw_sha256": "51fe7165a9c4ab3aa8a621565a2cc5bdec347b73cab224a3ac0831f0d6ffc1d2",
+        "prompt": "Use case: precise-object-edit\nOne normal creature game sprite, true transparent background. Input1 edit target: existing narrow W profile. Input2 immutable original front identity. Correct ONLY the eye-surface projection and filament projection in input1 to finish a 90-degree side view. Preserve the existing narrow vertical body silhouette, rounded equal crescent tips, body height, translucent pale blue cellular material, cream webbing, and shading.\nThe four gold-rim eyes belong to the original broad FRONT surface, which faces screen-left in this W view. They must no longer be four broad oval eye faces painted on the side. Show them as four very thin gold crescent/sliver protrusions exactly along the far-left outline; the dark pupils are hidden around the front edge. The middle of the visible side remains pearly membrane, not eyes. Keep all four physical eye attachments at their original heights. The three cream inner-edge filaments point away into depth behind the body: shorten their screen-horizontal projection substantially, allowing roots to be occluded by the side wall; the center remains the longest, upper and lower are equal shorter filaments. Retain all three physical filaments, no added limbs or wings. No other pose or identity changes. No text, ground or shadow. Full creature centered with ample transparent margins.\n",
+        "selected": true,
+        "references": [
+          {
+            "sha256": "bacf716f7ad9a68dc717747a26f1195313580fcbc9a1a24ad5ee16029eb5d508"
+          },
+          {
+            "sha256": "7434cfd4e830b94dd22995177fcf7f6e75c08ac37b136c3e1d4f976c2cd67849"
+          }
+        ]
+      },
+      {
+        "direction_version": "W-v2",
+        "variant": "pixel",
+        "raw_sha256": "aa60672f70163744b8817dc066c99e607d666c87a5cd0f8c2e34db7e3c77ad8b",
+        "prompt": "Use case: style-transfer\nCreate ONE authentic pixel-art sprite of the exact normal creature in image1. Image2 original pixel is palette/pixel language reference ONLY, do not copy its different facing. Preserve image1 silhouette, perspective, visible eye slivers or hidden eyes exactly, thick pale blue crescent membrane, equal rounded tips, THREE attached cream thin filaments with central longest and upper/lower shorter, cream cellular pattern and gold eye rims/mottling. Each visible filament must remain a connected pixel path all the way from body to round tip; open C area stays transparent. Four physical eyes remain in their fixed front positions; do not reveal hidden ones. Zero legs/wings. Change medium only, no rotation or reposing. Native128 logical pixel grid, deliberate crisp clusters,32 colors maximum, opaque pixels or fully transparent only, no antialias/blur, outline and sparse highlights. Full isolated creature, generous transparent padding. No text/shadow/background.\nDirection W exact side. Preserve the very narrow body and FOUR thin gold eye-rim slivers on the LEFT contour, no visible dark front eye faces. Three short connected filaments on right.\n",
+        "selected": true,
+        "references": [
+          {
+            "role": "same-direction normal",
+            "sha256": "075f5dad78ffac4e06fe972a391e131b52b865ea34c48ce10eacda5bed533afa"
+          },
+          {
+            "role": "original pixel style",
+            "sha256": "9acb29d2b92d0f3804ca3c6f09e3da4219bc919e7bdef35959c6740ce975eeab"
+          }
+        ]
+      }
+    ],
+    "original_history": "Fixed source metadata states original raw and detailed attempts were incompletely recovered. No claim of complete source history.",
+    "processing": {
+      "normal": "alpha below8 cleared, transparent crop, proportional LANCZOS832 extent, centered1024",
+      "pixel": "separately generated pixel art; alpha128 binary, transparent crop, NEAREST104 extent, MAXCOVERAGE32 visible palette, centered128"
+    },
+    "processing_script_sha256": {
+      "finish_new.py": "4d72fd4489d1aacb997658d75c60a98d76f817c809b6f88bb9700daa32fdf545",
+      "finish_pixel32.py": "a82ab1b8f4e4b81b65b08d34333b8757d2f04463c750710d2092d866839c7935"
+    }
+  },
+  "qa": {
+    "status": "review_candidate_independently_checked",
+    "technical_all16": true,
+    "visual": "Four front eyes become side rim slivers and rear-hidden; three connected cream filaments and central-longest relation retained; C opening and near/far lip treatment vary across views. All16 inspected.",
+    "limitations": [
+      "Original S frontal definition inferred",
+      "N and NE precise angular separation inferred; inner concave sidewall distinguishes NE",
+      "Cell pattern and filament curve/depth interpolated, not measured fixed3D",
+      "No game-engine acceptance or unique exact yaw claim"
+    ],
+    "independent": "E independently measured all16slots/hash; source pair Git blobs matched unchanged main. All8pair comparison and native W normal/N pixel inspected: C opening, three connected filaments, eye rim/front/back correspondence. N/NE angular separation and filament depth/curvature are inferred, exact3D/runtime unverified. Source detailed trials unavailable; no explicit stop marker in retained metadata is not a complete historical guarantee."
+  }
+}
