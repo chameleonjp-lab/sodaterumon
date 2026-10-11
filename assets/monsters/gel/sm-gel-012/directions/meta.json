@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "id": "sm-gel-012",
+  "asset_type": "direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-012/directions/S/default.png",
+      "sha256": "5b350cd59df3a8932355ff88d1332faf870e050e95ea332cfd77c43cc0156480",
+      "bytes": 521667,
+      "git_blob_sha": "f4149aad1de562bb07b3c4677a1344a4fc58d828",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        184,
+        928,
+        840
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 27887,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-012/directions/S/pixel.png",
+      "sha256": "26f9cd986147325f2eb4fcf2f0cccb9d25b35ff1b113d668f22ef191d3026607",
+      "bytes": 8581,
+      "git_blob_sha": "844472f682b43c1836ff991529cd05f442873dbd",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        23,
+        116,
+        105
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-012/directions/SW/default.png",
+      "sha256": "b2aeb29faad52d2e5a92f3c828aa376beb5f900d0124d9308d5602592a32e8a6",
+      "bytes": 522597,
+      "git_blob_sha": "0765e0140b5fdcc0d5815890037e66ade1a0c975",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        174,
+        928,
+        850
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 27098,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-012/directions/SW/pixel.png",
+      "sha256": "a10710ca5d2fce0f52a1dd9a45d54699c3df21e7d8863267ab850609b2b1d3fe",
+      "bytes": 8172,
+      "git_blob_sha": "e63a71adc54e532d67c09516567c75f1797628f2",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        21,
+        116,
+        106
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-012/directions/W/default.png",
+      "sha256": "dccda2d937fcdd0f2d6af7a82ad46b3c6bf595a7e37f86583dfec3e5e1adb54e",
+      "bytes": 517737,
+      "git_blob_sha": "353ce0093a2c1e91519712bed1aeef7c1177a7c0",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        185,
+        928,
+        838
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 27500,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-012/directions/W/pixel.png",
+      "sha256": "18e4d87842c33aa1f39c0abcc564e878f473478e8cab872c2f6a99e0a534855e",
+      "bytes": 8316,
+      "git_blob_sha": "47a39b5a97438ac88ed21c4ac454ac66df032039",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        23,
+        116,
+        105
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-012/directions/NW/default.png",
+      "sha256": "c3b5dbfc280249cef10c23a23b8d30027438f85577db09d910f7accfbb51ffe8",
+      "bytes": 480109,
+      "git_blob_sha": "b06e0470c8a5d02aa243f45f41f5f71ed71a6adc",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        184,
+        928,
+        839
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 23057,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-012/directions/NW/pixel.png",
+      "sha256": "905247ea9e5ebd712f3bac9d697c95964e3a43f631a0a6127dc6ee3585a8b501",
+      "bytes": 7658,
+      "git_blob_sha": "bca1d0b9543a3547dbed4040f930145cf56a80cc",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        23,
+        116,
+        105
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-012/directions/N/default.png",
+      "sha256": "ba011737c77646df3d9b590cf0bc5863048f32915684b293fb5642d828a8ce16",
+      "bytes": 499708,
+      "git_blob_sha": "d0c2959715dcb83324cc502ce87243a181e414a6",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        185,
+        928,
+        839
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 21805,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-012/directions/N/pixel.png",
+      "sha256": "a9c37f48eee2a812118569d34f8e676d940155ff11d9ba517f253832d085b6be",
+      "bytes": 8281,
+      "git_blob_sha": "7ebe5cd512250e53fb02690b66aae612f5700777",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        22,
+        116,
+        106
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-012/directions/NE/default.png",
+      "sha256": "a428f08a8c8f683b6e8e5ecbca9e3a4a725a249b4fefb555dc184899c4022e8b",
+      "bytes": 485540,
+      "git_blob_sha": "2efc4aa1523e34077f01feabd752211c59601641",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        186,
+        928,
+        838
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 23797,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-012/directions/NE/pixel.png",
+      "sha256": "685fa45f252b4629e273653691663553dc745bde0ce0d87eb2705fd0273dc117",
+      "bytes": 8095,
+      "git_blob_sha": "1dc260cbd9a62dd2603fadfb199b99fd73488e0d",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        21,
+        116,
+        106
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-012/directions/E/default.png",
+      "sha256": "b7a7fd2acc8c3370a895fa04ac5824994e9ee23be5186ccdee42cc4dbc548471",
+      "bytes": 476012,
+      "git_blob_sha": "9964fda826c2aa7d5866dc1b79769548d20b54c5",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        199,
+        928,
+        824
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 24568,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-012/directions/E/pixel.png",
+      "sha256": "efec4405f4553082f86a43f5113095bc435ea113658aabd2c40f32726a58917d",
+      "bytes": 8356,
+      "git_blob_sha": "e82a9eb1a32cd19fcc91fdee6254a170a78eab9f",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        24,
+        116,
+        104
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-012/default.png",
+      "sha256": "29cfdd8514494ccdd0655cd4c7fb42311e7f45b8bf32c400562f922dc3e34afe",
+      "bytes": 559624,
+      "git_blob_sha": "1160a906c445f4d74950035545ba96fa96b7a1cb",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        64,
+        108,
+        960,
+        915
+      ],
+      "min_margin": 64,
+      "visible_extent": 896,
+      "visible_colors": 29723,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-012/pixel.png",
+      "sha256": "eed0688553ad65bd9a8506881f7c46e1b3989f30d0e6e0754a1f71e8e3255f48",
+      "bytes": 5459,
+      "git_blob_sha": "401568575bd9d42fc18f6f7e934a70299c83c0b7",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        23,
+        116,
+        104
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "technical_pass": true
+    }
+  ],
+  "new_generation_provenance": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "prompt": "Create ONE normal illustrated game sprite of the EXACT same peach gel creature viewed STRAIGHT FROM THE FRONT S0, with its two eyes symmetrically facing the viewer. Reference is immutable front-right original SE, rotate the same body45degrees to front; do not just move the eyes on the unchanged oblique body. Keep one LOW rounded cone, rounded apex leaning slightly BACKWARD AWAY from its face. In this straight front projection the backward lean is mainly depth, apex approximately centered above face rather than still offset far to screen-left. Keep source's modest camera elevation, not overhead; preserve original low height/width ratio and translucent peach gel. One wide pale cream continuous spiral band wraps ONE AND A HALF turns around body, same winding handedness and thickness, no mirrored spiral and no thin extra coils. Its sloping intersections with silhouette must follow the turned surface, not copy identical original band placement. Exactly FOUR same-sized spherical peach feet attached around the skirt at fixed perimeter roots. Natural far-foot overlap under body is allowed, do not detach or move feet to show all four. Two dark blue oval eyes on front lower sector, no mouth/arms/wings/tail. Preserve rounded apex, gloss, peach/cream/slate colors, dark contour and original drawing style. No hard shell, spikes, added parts or redesign. Full creature centered on transparent background, generous padding, square canvas, no text, ground or shadow.",
+      "raw_sha256": "4c5af52507f5e606418c119f649ddc44306d03a53cbe6a4283bbb0349818476d",
+      "reference_hashes": [
+        "29cfdd8514494ccdd0655cd4c7fb42311e7f45b8bf32c400562f922dc3e34afe"
+      ],
+      "final_sha256": "5b350cd59df3a8932355ff88d1332faf870e050e95ea332cfd77c43cc0156480"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of image1, exactly the same S facing and silhouette, same rounded low cone and backward-leaning rounded apex, same broad cream1.5turn spiral and its projected band positions, same visible ball-foot positions/near-far occlusion. Image1 is the approved NORMAL target; image2 is original pixel style/palette ONLY, not its pose. FOUR spherical feet total at unchanged roots; do not reveal a hidden far foot by rearranging feet. Copy only the eyes actually visible in image1, preserving their number and edge occlusion; rear views have none. Peach gel body, cream broad continuous spiral, slate outline/eyes, glossy highlights simplified into flat pixel clusters. Intentional128x128 logical pixel grid, at most32 visible colors, hard opaque pixels and fully transparent background, no antialiasing/blur/gradients. No new coils, changed handedness, limbs, mouth, tail or pointed tip. Full centered creature with transparent margin, no text/ground/shadow. Preserve direction and anatomy precisely; change only rendering medium.",
+      "raw_sha256": "beb218d17ada351ee049ced8ef9135700cce42342171dcc3584dad8ba8cfd0a2",
+      "reference_hashes": [
+        "5b350cd59df3a8932355ff88d1332faf870e050e95ea332cfd77c43cc0156480",
+        "eed0688553ad65bd9a8506881f7c46e1b3989f30d0e6e0754a1f71e8e3255f48"
+      ],
+      "final_sha256": "26f9cd986147325f2eb4fcf2f0cccb9d25b35ff1b113d668f22ef191d3026607"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "prompt": "Create ONE normal transparent game sprite of the exact peach gel creature in FRONT LEFT three-quarter SW45 view, naturally between image1 straight frontS and image2 leftprofileW. Image3 immutable front-rightSE is identity/style reference, not target pose. Face toward screen LEFT obliquely, TWO front dark-blue oval eyes visible on lower left-facing front sector, far eye slightly foreshortened. Rounded cone apex leans backward, so slightly toward SCREEN RIGHT, opposite sourceSE's leftward backward lean. Preserve one low round cone, FOUR same-sized ballfeet at fixed skirt roots with natural far-foot overlap. One broad continuous cream1.5turn spiral wraps peach gel, same winding handedness, thickness and smooth surface transitions. Do not mirror sourceSE or copy its unchanged body and merely relocate eyes. Preserve exact original body ratio, modest camera elevation, glossy peach/cream/slate gel and dark outline. No mouth/arms/wings/tail/shell/sharp apex/extra coils/extra limbs. Whole creature centered square canvas with generous genuine transparency, no text/ground/shadow. Consistent adjacent-angle interpolation of one creature.",
+      "raw_sha256": "6bc4377d5ea59bf7dda7cde5e2a16ae091c37e269e932f71615a96c8778ff088",
+      "reference_hashes": [
+        "4c5af52507f5e606418c119f649ddc44306d03a53cbe6a4283bbb0349818476d",
+        "346332807958b4ff1b7d5b6fa116f879457622cb98b7caa1c7b4709a77da0894",
+        "29cfdd8514494ccdd0655cd4c7fb42311e7f45b8bf32c400562f922dc3e34afe"
+      ],
+      "final_sha256": "b2aeb29faad52d2e5a92f3c828aa376beb5f900d0124d9308d5602592a32e8a6"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of image1, exactly the same SW facing and silhouette, same rounded low cone and backward-leaning rounded apex, same broad cream1.5turn spiral and its projected band positions, same visible ball-foot positions/near-far occlusion. Image1 is the approved NORMAL target; image2 is original pixel style/palette ONLY, not its pose. FOUR spherical feet total at unchanged roots; do not reveal a hidden far foot by rearranging feet. Copy only the eyes actually visible in image1, preserving their number and edge occlusion; rear views have none. Peach gel body, cream broad continuous spiral, slate outline/eyes, glossy highlights simplified into flat pixel clusters. Intentional128x128 logical pixel grid, at most32 visible colors, hard opaque pixels and fully transparent background, no antialiasing/blur/gradients. No new coils, changed handedness, limbs, mouth, tail or pointed tip. Full centered creature with transparent margin, no text/ground/shadow. Preserve direction and anatomy precisely; change only rendering medium.",
+      "raw_sha256": "801fa00cb63324afbf0a9735b0a4c2d881133232c74ba6fffeffc37d5eb58f1e",
+      "reference_hashes": [
+        "b2aeb29faad52d2e5a92f3c828aa376beb5f900d0124d9308d5602592a32e8a6",
+        "eed0688553ad65bd9a8506881f7c46e1b3989f30d0e6e0754a1f71e8e3255f48"
+      ],
+      "final_sha256": "a10710ca5d2fce0f52a1dd9a45d54699c3df21e7d8863267ab850609b2b1d3fe"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "prompt": "Create ONE normal illustrated transparent sprite of the exact same peach gel creature in LEFT SIDE PROFILE W90, its front toward SCREEN LEFT. References image1 originalSE identity, image2 matched frontS, image3 provisional rearN. Interpolate a natural LEFT SIDE between front and rear, rotate the body rather than only moving eyes. Keep one low round-tipped cone and its rounded apex leaning backward: with face LEFT the backward apex leans slightly toward SCREEN RIGHT. One near dark-blue eye is a narrow oval at the left-facing lower contour; far eye naturally hidden, no broad two-eye frontal face. Four same-sized round ball feet remain attached at fixed skirt roots, near-side pair visible, far pair partly hidden naturally. Same one broad continuous cream spiral band1.5turns over peach gel. Preserve winding as a physical wrap by continuing the band around the side between front/back; do not use a horizontal mirror or add thin rings. Keep the original band widths, glossy translucent material, low height/width and camera elevation. No overhead view, no shell/sharp point/mouth/arms/wings/tail or extra parts. Full creature centered with transparent margin, square canvas, same peach/cream/slate colors and dark outline, no text or ground/shadow. Direction is an artistic consistent interpolation of the original, not a redesign.",
+      "raw_sha256": "346332807958b4ff1b7d5b6fa116f879457622cb98b7caa1c7b4709a77da0894",
+      "reference_hashes": [
+        "29cfdd8514494ccdd0655cd4c7fb42311e7f45b8bf32c400562f922dc3e34afe",
+        "4c5af52507f5e606418c119f649ddc44306d03a53cbe6a4283bbb0349818476d",
+        "910e4355a828d4103e839098a73f2efb4a375521e24b19fed0788762715e5594"
+      ],
+      "final_sha256": "dccda2d937fcdd0f2d6af7a82ad46b3c6bf595a7e37f86583dfec3e5e1adb54e"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of image1, exactly the same W facing and silhouette, same rounded low cone and backward-leaning rounded apex, same broad cream1.5turn spiral and its projected band positions, same visible ball-foot positions/near-far occlusion. Image1 is the approved NORMAL target; image2 is original pixel style/palette ONLY, not its pose. FOUR spherical feet total at unchanged roots; do not reveal a hidden far foot by rearranging feet. Copy only the eyes actually visible in image1, preserving their number and edge occlusion; rear views have none. Peach gel body, cream broad continuous spiral, slate outline/eyes, glossy highlights simplified into flat pixel clusters. Intentional128x128 logical pixel grid, at most32 visible colors, hard opaque pixels and fully transparent background, no antialiasing/blur/gradients. No new coils, changed handedness, limbs, mouth, tail or pointed tip. Full centered creature with transparent margin, no text/ground/shadow. Preserve direction and anatomy precisely; change only rendering medium.",
+      "raw_sha256": "b3ebe700f223b20530f6983b3534bb3812be678484e2a31519d3a1b7c2107f16",
+      "reference_hashes": [
+        "dccda2d937fcdd0f2d6af7a82ad46b3c6bf595a7e37f86583dfec3e5e1adb54e",
+        "eed0688553ad65bd9a8506881f7c46e1b3989f30d0e6e0754a1f71e8e3255f48"
+      ],
+      "final_sha256": "18e4d87842c33aa1f39c0abcc564e878f473478e8cab872c2f6a99e0a534855e"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "prompt": "Create ONE normal game illustration of the exact same peach cone-gel creature in REAR LEFT three-quarter NW135 view, between image1 straight BACK N and image2 LEFT PROFILE W. Image3 originalSE is immutable identity reference. Turn the SAME body/feet/spiral naturally from N toward W by45degrees. Low rounded cone, rounded apex leaning away from hidden front (in this NW view slightly SCREEN RIGHT), four equal spherical feet attached around skirt with coherent near/far overlap. Two eyes are on the front sector now fully hidden on far side; no visible eyes or mouth. Keep one wide cream1.5turn spiral continuously wrapping peach gel, same handedness/width and natural side-to-back transition, not mirrored or repainted rings. Preserve low original body proportions, fixed camera elevation, rounded tip, translucent gloss, dark contour and peach/cream/slate palette. Back-right flank should recede, near left flank visible; use body/apex/foot projection, not only eye deletion. Natural farfoot hiding allowed, never add/detach feet. No arms/wings/tail/shell/sharp point. Whole character centered on transparent canvas, generous margin, no labels/text/ground/shadow.",
+      "raw_sha256": "9e538fcc3625277af6230feef8cf566168e8c5b13d1acbc8dc0a1910b6887a6d",
+      "reference_hashes": [
+        "910e4355a828d4103e839098a73f2efb4a375521e24b19fed0788762715e5594",
+        "346332807958b4ff1b7d5b6fa116f879457622cb98b7caa1c7b4709a77da0894",
+        "29cfdd8514494ccdd0655cd4c7fb42311e7f45b8bf32c400562f922dc3e34afe"
+      ],
+      "final_sha256": "c3b5dbfc280249cef10c23a23b8d30027438f85577db09d910f7accfbb51ffe8"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of this exact NW REAR VIEW normal illustration. The single reference is the complete pose and anatomy target. There are ZERO VISIBLE EYES and ZERO VISIBLE MOUTH anywhere on this BACK surface. Do not invent a face; the actual two eyes are on the hidden opposite side. Preserve exactly the normal silhouette, rounded apex position/lean, broad cream spiral bands and peach spaces, and every visible spherical foot position with same far-foot occlusion. Four fixed feet total, naturally hidden feet stay hidden. Low rounded cone of glossy peach gel with one cream1.5turn spiral, dark slate outline. Intentional128x128 logical pixel clusters, maximum32 flat visible colors, binary transparent background, no antialiasing/blur. Highlights only peach/cream, no dark round eye-like spots on body. Same scale, pose and feature positions; only rendering medium changes. Full body centered with clear transparent margin, no labels/ground/shadow. Again: back view has no visible eye or face.",
+      "raw_sha256": "6605fbcf4005bccdb5884e0a9794b2e2a57c7dfe8996d98c062f5de7a564a510",
+      "reference_hashes": [
+        "c3b5dbfc280249cef10c23a23b8d30027438f85577db09d910f7accfbb51ffe8"
+      ],
+      "final_sha256": "905247ea9e5ebd712f3bac9d697c95964e3a43f631a0a6127dc6ee3585a8b501"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "prompt": "Create ONE normal illustrated transparent sprite of this SAME peach gel creature in STRAIGHT REAR N180 view. Image1 is the matched straight FRONT for body ratio and fixed feet; image2 an older BACK candidate for eyeless surface/spiral continuity, image3 immutable original identity. Rotate one body180degrees from image1, not simply erase eyes. One LOW rounded cone, same rounded apex leaning slightly BACKWARD toward viewer in this rear view (mainly depth, not an arbitrary side kink). Same modest fixed camera elevation and body height/width as original. One broad cream continuous spiral band makes1.5turns around peach gel, preserve physical winding handedness; do not mirror front, do not add thin rings. Show natural rear continuation and where band crosses the turned silhouette. FOUR same-sized spherical gel feet at same skirt roots: rear pair now near, front pair partly occluded behind skirt. Keep the four-foot root arrangement from image1, natural hiding allowed. Two eyes are on the opposite FRONT surface and naturally fully hidden; no rear eyes or mouth. Preserve gloss, soft peach/cream/slate palette, dark outline and exact original gel illustration style. No shell, sharp tip, arms, wings, tail or extra parts. Full body centered on transparent background, generous margin, square canvas, no text/ground/shadow. Only change viewing direction, with coherent original feature positions.",
+      "raw_sha256": "910e4355a828d4103e839098a73f2efb4a375521e24b19fed0788762715e5594",
+      "reference_hashes": [
+        "4c5af52507f5e606418c119f649ddc44306d03a53cbe6a4283bbb0349818476d",
+        "8e29ad7bde48c2b4257905c0aa92ed32cc524f8e1315eb68a1583afc1158fdb4",
+        "29cfdd8514494ccdd0655cd4c7fb42311e7f45b8bf32c400562f922dc3e34afe"
+      ],
+      "final_sha256": "ba011737c77646df3d9b590cf0bc5863048f32915684b293fb5642d828a8ce16"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of this exact N REAR VIEW normal illustration. The single reference is the complete pose and anatomy target. There are ZERO VISIBLE EYES and ZERO VISIBLE MOUTH anywhere on this BACK surface. Do not invent a face; the actual two eyes are on the hidden opposite side. Preserve exactly the normal silhouette, rounded apex position/lean, broad cream spiral bands and peach spaces, and every visible spherical foot position with same far-foot occlusion. Four fixed feet total, naturally hidden feet stay hidden. Low rounded cone of glossy peach gel with one cream1.5turn spiral, dark slate outline. Intentional128x128 logical pixel clusters, maximum32 flat visible colors, binary transparent background, no antialiasing/blur. Highlights only peach/cream, no dark round eye-like spots on body. Same scale, pose and feature positions; only rendering medium changes. Full body centered with clear transparent margin, no labels/ground/shadow. Again: back view has no visible eye or face.",
+      "raw_sha256": "4ac2d3d20323329ddece3c7470506459b0437b54e2528891276227dd55ec721b",
+      "reference_hashes": [
+        "ba011737c77646df3d9b590cf0bc5863048f32915684b293fb5642d828a8ce16"
+      ],
+      "final_sha256": "a9c37f48eee2a812118569d34f8e676d940155ff11d9ba517f253832d085b6be"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "prompt": "Create ONE normal transparent game sprite of the exact same peach gel creature in REAR RIGHT three-quarter NE225 view, halfway between image1 rearN and image2 rightprofileE. Image3 opposite NW is only a matching anatomy/camera guide, NOT a mirror template. Rotate same body/feet/spiral to opposite rear oblique. Low round cone, rounded apex leaning away from hidden front, slightly SCREEN LEFT in this view. FOUR equal spherical peach feet at fixed skirt roots, near foot toward SCREEN RIGHT and far foot partially hidden; do not add feet to force full visibility. Both frontal eyes are fully hidden behind body; no rear eye/mouth. Preserve ONE broad cream continuous1.5-turn spiral as same physical wrap, connecting natural right-side/back surface with same handedness and thickness. Do not mirror drawing or introduce fine rings. Match original low height/width, modest camera elevation, round tip and glossy peach/cream/slate gel illustration with dark outline. Whole creature centered transparent margin, square canvas. No arms/wings/tail/shell/sharp point/text/ground/shadow. Keep all structure coherent across N/E/NW references and change only viewing angle.",
+      "raw_sha256": "a7925682c9b6646a8be192530e45f57bd553fcd8cb6f492a6b97249c325a24a2",
+      "reference_hashes": [
+        "910e4355a828d4103e839098a73f2efb4a375521e24b19fed0788762715e5594",
+        "a013c86c9a789a300a29342f0a9f02079ad315ba00287fc1f5585cfafec2fbc9",
+        "9e538fcc3625277af6230feef8cf566168e8c5b13d1acbc8dc0a1910b6887a6d"
+      ],
+      "final_sha256": "a428f08a8c8f683b6e8e5ecbca9e3a4a725a249b4fefb555dc184899c4022e8b"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of this exact NE REAR VIEW normal illustration. The single reference is the complete pose and anatomy target. There are ZERO VISIBLE EYES and ZERO VISIBLE MOUTH anywhere on this BACK surface. Do not invent a face; the actual two eyes are on the hidden opposite side. Preserve exactly the normal silhouette, rounded apex position/lean, broad cream spiral bands and peach spaces, and every visible spherical foot position with same far-foot occlusion. Four fixed feet total, naturally hidden feet stay hidden. Low rounded cone of glossy peach gel with one cream1.5turn spiral, dark slate outline. Intentional128x128 logical pixel clusters, maximum32 flat visible colors, binary transparent background, no antialiasing/blur. Highlights only peach/cream, no dark round eye-like spots on body. Same scale, pose and feature positions; only rendering medium changes. Full body centered with clear transparent margin, no labels/ground/shadow. Again: back view has no visible eye or face.",
+      "raw_sha256": "69f35b354d1969e84f5f02e533d9853dc8d56a74ed3d6942e621ebb2c6a80c61",
+      "reference_hashes": [
+        "a428f08a8c8f683b6e8e5ecbca9e3a4a725a249b4fefb555dc184899c4022e8b"
+      ],
+      "final_sha256": "685fa45f252b4629e273653691663553dc745bde0ce0d87eb2705fd0273dc117"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "prompt": "Create ONE normal illustrated transparent sprite of the exact peach gel creature in RIGHT SIDE PROFILE E270, front facing SCREEN RIGHT. Image1 immutable originalSE defines identity; image2 matched W leftprofile defines opposite side height/camera only, do not mirror it; image3 frontS defines fixed face/feet. Rotate the same creature to right profile. One LOW rounded cone with rounded apex leaning backward: face RIGHT means apex slightly toward SCREEN LEFT. ONE near dark-blue eye at extreme right lower contour, far eye naturally hidden. FOUR equal spherical peach feet remain attached at fixed skirt roots; near pair and partial far feet, natural overlap. Same one broad pale cream continuous1.5turn spiral on peach gel, preserve original physical winding and wide band continuity across right side, do not mirror spiral or add thin rings. Same body ratio, low stance, glossy gel, dark contour and peach/cream/slate palette as original. Modest fixed camera elevation, no overhead. No mouth/arms/tail/wings/shell/sharp point/extra features. Entire character centered with transparent margin, square canvas, no text/ground/shadow. Preserve physical feature placement and same individual.",
+      "raw_sha256": "a013c86c9a789a300a29342f0a9f02079ad315ba00287fc1f5585cfafec2fbc9",
+      "reference_hashes": [
+        "29cfdd8514494ccdd0655cd4c7fb42311e7f45b8bf32c400562f922dc3e34afe",
+        "346332807958b4ff1b7d5b6fa116f879457622cb98b7caa1c7b4709a77da0894",
+        "4c5af52507f5e606418c119f649ddc44306d03a53cbe6a4283bbb0349818476d"
+      ],
+      "final_sha256": "b7a7fd2acc8c3370a895fa04ac5824994e9ee23be5186ccdee42cc4dbc548471"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of image1, exactly the same E facing and silhouette, same rounded low cone and backward-leaning rounded apex, same broad cream1.5turn spiral and its projected band positions, same visible ball-foot positions/near-far occlusion. Image1 is the approved NORMAL target; image2 is original pixel style/palette ONLY, not its pose. FOUR spherical feet total at unchanged roots; do not reveal a hidden far foot by rearranging feet. Copy only the eyes actually visible in image1, preserving their number and edge occlusion; rear views have none. Peach gel body, cream broad continuous spiral, slate outline/eyes, glossy highlights simplified into flat pixel clusters. Intentional128x128 logical pixel grid, at most32 visible colors, hard opaque pixels and fully transparent background, no antialiasing/blur/gradients. No new coils, changed handedness, limbs, mouth, tail or pointed tip. Full centered creature with transparent margin, no text/ground/shadow. Preserve direction and anatomy precisely; change only rendering medium.",
+      "raw_sha256": "29e0da277d3acc90287b09b611dcb769d110b5bd449cd993a786bf8ba67ef974",
+      "reference_hashes": [
+        "b7a7fd2acc8c3370a895fa04ac5824994e9ee23be5186ccdee42cc4dbc548471",
+        "eed0688553ad65bd9a8506881f7c46e1b3989f30d0e6e0754a1f71e8e3255f48"
+      ],
+      "final_sha256": "efec4405f4553082f86a43f5113095bc435ea113658aabd2c40f32726a58917d"
+    }
+  ],
+  "interpretation": {
+    "fixed_anatomy": "One low rounded cone, backward rounded apex, four equal ball feet at skirt, two front eyes, one broad1.5turn cream helix",
+    "direction_interpolation": "Adjacent front/side/rear references used. Hidden band continuation and exact root angular positions are inferred, not uniquely measured3D.",
+    "occlusion": "NW far ballfoot naturally hidden; front2eyes/profile1/rear0",
+    "spiral_qa": "Apparent slope alone is not treated as evidence of mirrored handedness; band thickness, continuity and apex/side transitions visually reviewed",
+    "history": "Old7 direction candidates recovered and retained but not adopted in this new set; their historical labels/adoption unproven. New7normal and7pixel lineages recorded."
+  },
+  "qa": {
+    "technical_all16": true,
+    "source_pair_unchanged": true,
+    "visual": "Normal/pixel pairs and all8 directions reviewed on white/black backgrounds; rear pixels corrected to match zero-visible-eye normals",
+    "runtime": "pending",
+    "exact_angle": "Not claimed measured45degree reconstruction",
+    "independent_review": "All16 numeric/hash checks passed. Parent eight-pair and E full-resolution rear NW/N/NE pixel checks confirm no extra rear eyes, rounded apex, band and ball-foot correspondence. Hidden band continuation/root angles are explicit interpolation; exact3D/runtime unverified.",
+    "source_history": "Previously verified fixed-meta audit distinguishes normal attempt1 leg-count quality rejection from a safety stop; no explicit safety refusal in available recorded attempts. Unrecorded-call completeness not claimed."
+  }
+}
