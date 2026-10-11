@@ -1,0 +1,682 @@
+{
+  "schema_version": 1,
+  "id": "sm-micro-010",
+  "asset_type": "recovery_reselected_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "E",
+  "original_direction_basis": "Catalog specifies side view showing seven feet; original is right-facing E. Fixed original pair retained unchanged.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default",
+      "sha256": "6a2fb8568dcaeaa74e4a2b825a025c028e54feda75a1966b0e2a45c46173170c",
+      "bytes": 481023,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        207,
+        80,
+        815,
+        944
+      ],
+      "margins": [
+        207,
+        80,
+        209,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 89522,
+      "binary_alpha": false,
+      "file": "assets/monsters/micro/sm-micro-010/directions/S/default.png",
+      "git_blob_sha": "c475455bec55a5eeba6d2e76be0e1acf4def670b",
+      "original_preserved": false
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "sha256": "ee6963a8050643de1c9ccea24f2dee551f836d2de37f6e6fb1f04005b293377a",
+      "bytes": 4751,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        26,
+        10,
+        102,
+        118
+      ],
+      "margins": [
+        26,
+        10,
+        26,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/micro/sm-micro-010/directions/S/pixel.png",
+      "git_blob_sha": "1d55c46f15913e90c204d5f246df8260162ea38f",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "default",
+      "sha256": "cb42effd8242ec8f61eb9752f74df9fa2003a8b9d6cb717b6ce934959277583f",
+      "bytes": 394938,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        220,
+        944,
+        804
+      ],
+      "margins": [
+        80,
+        220,
+        80,
+        220
+      ],
+      "extent": 864,
+      "visible_colors": 74973,
+      "binary_alpha": false,
+      "file": "assets/monsters/micro/sm-micro-010/directions/SW/default.png",
+      "git_blob_sha": "ac9cb8c19c2312f3963665a34d8f119fd429be9b",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "sha256": "3e4d0daaf812fc0a8da3b240fc75bae90487cb769e844bf50c02a2cb9a7362d5",
+      "bytes": 4398,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        26,
+        118,
+        101
+      ],
+      "margins": [
+        10,
+        26,
+        10,
+        27
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/micro/sm-micro-010/directions/SW/pixel.png",
+      "git_blob_sha": "7438c3414f4c68c9f4ee086d377b4622cde6cd63",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default",
+      "sha256": "5530a98fdc53d5e4086ba0682adc9404664f544bbbb75e0da74d3b78e8b7b4a1",
+      "bytes": 225303,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        389,
+        944,
+        634
+      ],
+      "margins": [
+        80,
+        389,
+        80,
+        390
+      ],
+      "extent": 864,
+      "visible_colors": 48165,
+      "binary_alpha": false,
+      "file": "assets/monsters/micro/sm-micro-010/directions/W/default.png",
+      "git_blob_sha": "6d13afa2730c8d34ce6ea9572b320fa70aae3366",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "sha256": "910c672ae16c857151cf7d34e3e6042a50f81b818f5bb2259c0262ee1b1be4c3",
+      "bytes": 2934,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        47,
+        118,
+        81
+      ],
+      "margins": [
+        10,
+        47,
+        10,
+        47
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/micro/sm-micro-010/directions/W/pixel.png",
+      "git_blob_sha": "d509a785d74275ab86f7a7a6b4af2cec5f7c3032",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "default",
+      "sha256": "b519132337076851825674d211d2e5317b1930bd97abf453e90fbda8345efa8a",
+      "bytes": 416362,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        81,
+        248,
+        944,
+        776
+      ],
+      "margins": [
+        81,
+        248,
+        80,
+        248
+      ],
+      "extent": 863,
+      "visible_colors": 61392,
+      "binary_alpha": false,
+      "file": "assets/monsters/micro/sm-micro-010/directions/NW/default.png",
+      "git_blob_sha": "82ef0f8addbafe57ce4250f4cb8706532b05489c",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "sha256": "0312b322c43a5415bf08d6d8f8ef4b3d80951222fb9cf9a5686285f404115c37",
+      "bytes": 5160,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        29,
+        118,
+        99
+      ],
+      "margins": [
+        10,
+        29,
+        10,
+        29
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/micro/sm-micro-010/directions/NW/pixel.png",
+      "git_blob_sha": "ae5eae7952aa705d1d73144ca07cdb9caf94d09e",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default",
+      "sha256": "df0002d2317635e84966393514d5e1ab25ffaa2081b23a4060c65a41fa4e9d58",
+      "bytes": 488352,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        204,
+        80,
+        819,
+        944
+      ],
+      "margins": [
+        204,
+        80,
+        205,
+        80
+      ],
+      "extent": 864,
+      "visible_colors": 73830,
+      "binary_alpha": false,
+      "file": "assets/monsters/micro/sm-micro-010/directions/N/default.png",
+      "git_blob_sha": "dab1d098a292a5c0dccb9acd25ffc8e150438200",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "sha256": "f04eca660c3854802ac866d6525a042632006d05f11b283e38c2fa79a083a356",
+      "bytes": 5813,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        26,
+        10,
+        102,
+        118
+      ],
+      "margins": [
+        26,
+        10,
+        26,
+        10
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/micro/sm-micro-010/directions/N/pixel.png",
+      "git_blob_sha": "4a508542b95c89ab6eda42e36d2e09443993f518",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default",
+      "sha256": "32ffca126f37af84af6287ed282d81625d0603aeb4ab3c76f8095031c5416058",
+      "bytes": 374120,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        289,
+        944,
+        735
+      ],
+      "margins": [
+        80,
+        289,
+        80,
+        289
+      ],
+      "extent": 864,
+      "visible_colors": 58370,
+      "binary_alpha": false,
+      "file": "assets/monsters/micro/sm-micro-010/directions/NE/default.png",
+      "git_blob_sha": "732414f25b8e915afc850d302ef8e60d9eabfc35",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "sha256": "2e2cd3355fbc6d3de64ef0d2eafefe86ad3ff1c2161d29912f8e82fc6cfed147",
+      "bytes": 4701,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        34,
+        118,
+        94
+      ],
+      "margins": [
+        10,
+        34,
+        10,
+        34
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/micro/sm-micro-010/directions/NE/pixel.png",
+      "git_blob_sha": "0ac1751a61018424bf2fe8b461b0bea42b34bcd4",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default",
+      "sha256": "66fb2821c9132f4dcb877aa485f10b7c77c13c315ccf26ed411312aa70f04db6",
+      "bytes": 230227,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        383,
+        944,
+        641
+      ],
+      "margins": [
+        80,
+        383,
+        80,
+        383
+      ],
+      "extent": 864,
+      "visible_colors": 35971,
+      "binary_alpha": false,
+      "file": "assets/monsters/micro/sm-micro-010/default.png",
+      "git_blob_sha": "6981e8750d10fcca58354451e407cdb41cbb5e11",
+      "original_preserved": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "sha256": "5bd10112a0f84b7e21fd52f26b42cb51b2d6064f6460a64432655c96a3561fa6",
+      "bytes": 2963,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        8,
+        46,
+        120,
+        81
+      ],
+      "margins": [
+        8,
+        46,
+        8,
+        47
+      ],
+      "extent": 112,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/micro/sm-micro-010/pixel.png",
+      "git_blob_sha": "609c75d862f93042a7f821dbdd79fd62501d6e7e",
+      "original_preserved": true
+    },
+    {
+      "direction": "SE",
+      "kind": "default",
+      "sha256": "fe6751d060120be1e9e471751a060030be26ccf536e5f64d431ab3a9c53993e3",
+      "bytes": 322849,
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        261,
+        944,
+        763
+      ],
+      "margins": [
+        80,
+        261,
+        80,
+        261
+      ],
+      "extent": 864,
+      "visible_colors": 57395,
+      "binary_alpha": false,
+      "file": "assets/monsters/micro/sm-micro-010/directions/SE/default.png",
+      "git_blob_sha": "c9948f7a3b882f7dad6b9d91715281a17a62d9c8",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "sha256": "8233b5217595d265caf1e8739f4c210146c1b8bf5ca63739bbcde0d281853b73",
+      "bytes": 3965,
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        31,
+        118,
+        97
+      ],
+      "margins": [
+        10,
+        31,
+        10,
+        31
+      ],
+      "extent": 108,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "file": "assets/monsters/micro/sm-micro-010/directions/SE/pixel.png",
+      "git_blob_sha": "b47f2e88b9c9cc3ee369c454ffc0ce1ec0fd498d",
+      "original_preserved": false
+    }
+  ],
+  "anatomy": {
+    "body_segments": 1,
+    "form": "one elongated flat oval cell",
+    "eyes": 2,
+    "feet": 7,
+    "foot_arrangement": "one longitudinal row under belly; axial views use natural occlusion",
+    "wings": 0,
+    "tails": 1,
+    "tail_form": "flat round-ended spatula slightly raised at rear",
+    "dorsal_stripes": 1
+  },
+  "provenance": {
+    "recovered_visual_reselection": true,
+    "historical_adoption_identity_proven": false,
+    "old_direction_prompts": "not fully recovered; old W normal selected visually, not claimed historically identical",
+    "new_normal_directions": [
+      "S",
+      "SW",
+      "NW",
+      "N",
+      "NE",
+      "SE"
+    ],
+    "new_pixel_directions": [
+      "S",
+      "SW",
+      "W",
+      "NW",
+      "N",
+      "NE",
+      "SE"
+    ],
+    "new_generation_image_count": 13,
+    "new_generations": [
+      {
+        "direction": "S",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. Draw a TRUE END-ON FRONT sprite of this exact long flat gel creature, as though the reference's head turns from screen-right directly toward viewer while the camera stays LOW at eye level. The body runs AWAY into depth, so the front head occludes almost all of its long upper surface. The image should read as a squat rounded head with two amber eyes, a THIN narrow strip of dorsal mint body/cream stripe receding just behind it, and the original lavender spatula tail distant behind. Do not show a tall overhead canoe-shaped body. Keep the same flattened low body, not a sphere. Most importantly, its SEVEN feet are fixed in ONE straight front-to-back MIDLINE row directly UNDER the belly. Viewed straight down that row, the nearest single lavender short foot covers the six farther feet. Show ONE foreground foot centered beneath head; farther feet are hidden, not relocated or deleted. No foot row sticking out to either side, no paired legs and no fan. Preserve both original eyes at head, one cream dorsal stripe, original broad rounded flat spatula tail at rear, same gel texture and mint/cream/lavender palette. The tail is not a fin on head; show only any naturally unoccluded raised rear tip. This is a physical yaw projection with natural occlusion, not a new anatomy. Normal painted sprite, full creature centered with transparent background and generous margins, no text/ground/shadows.",
+        "reference_sha256": [
+          "66fb2821c9132f4dcb877aa485f10b7c77c13c315ccf26ed411312aa70f04db6"
+        ],
+        "raw_sha256": "0dbc380de5d8b3d4631b0d22dfa3c2fb0c9d0c751abbf86d13101ed4686f9609",
+        "output_sha256": "6a2fb8568dcaeaa74e4a2b825a025c028e54feda75a1966b0e2a45c46173170c",
+        "selection_note": "Requested direction visually selected; prior failed proportions/count trials retained separately."
+      },
+      {
+        "direction": "N",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. ONE END-ON REAR N view of this exact long flat mint gel creature. The reference is side E. Rotate the entire creature to face directly away while keeping the same low modest camera elevation, body pose and anatomy. The original broad flat lavender round-ended SPATULA TAIL is now closest, rises slightly from the rear center and naturally occludes the receding body. Preserve its short tapered connecting base, rounded broad end and subtle veins, not a new vertical fin. Body runs away behind tail; reveal only naturally visible mint body shoulders and a short foreshortened cream dorsal stripe. The two eyes are on the far front and hidden. EXACTLY SEVEN thick short comb feet stay in ONE longitudinal MIDLINE row under the belly, tail-to-head. From directly behind they overlap: only nearest rear foot and small farther portions can show centrally underneath, no two rows or fan of feet, no side protruding line. Preserve long low flattened body rather than converting to a ball, original relative tail/body proportions, mint/cream/lavender gel palette and texture. Do not show long top-down canoe view. No new anatomy. Full normal painted sprite centered with genuine transparent margin; no ground, shadow, text or props.",
+        "reference_sha256": [
+          "66fb2821c9132f4dcb877aa485f10b7c77c13c315ccf26ed411312aa70f04db6"
+        ],
+        "raw_sha256": "fc1267bae888589154ddae6b5c001fc294e6c857ae07953956a4241d8f155ef6",
+        "output_sha256": "df0002d2317635e84966393514d5e1ab25ffaa2081b23a4060c65a41fa4e9d58",
+        "selection_note": "Requested direction visually selected; prior failed proportions/count trials retained separately."
+      },
+      {
+        "direction": "SE",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: precise-object-edit. Correct only the foot-count defect in image1, preserving its SE body view, eyes, stripe, tail, gel texture and framing. Image2 is anatomy reference: it has SEVEN feet in one ordered row. Image1 accidentally has only SIX. Add the missing seventh short thick lavender-tipped foot at the FRONT end of the existing row, immediately below the head and just ahead of the current large frontmost foot. Its root is under belly on same single longitudinal row, close behind front head; partly overlap it naturally with current first foot so it does not become a second row. Preserve the existing six feet and their attachments without duplicating the body. Final anatomy seven feet total, one row, no extra eighth, no paired lateral legs. Keep all other pixels/shape as close to image1 as possible. Genuine transparent background, no other changes.",
+        "reference_sha256": [
+          "31613f1f3c7cd10acf4dc2e8939c05d623039707a2caab52a94be9353a4cb91b",
+          "66fb2821c9132f4dcb877aa485f10b7c77c13c315ccf26ed411312aa70f04db6"
+        ],
+        "raw_sha256": "06f071d1dab730a7b55006861794d45fce8f426d315382cd0e7e32984cb0d670",
+        "output_sha256": "fe6751d060120be1e9e471751a060030be26ccf536e5f64d431ab3a9c53993e3",
+        "selection_note": "Requested direction visually selected; prior failed proportions/count trials retained separately."
+      },
+      {
+        "direction": "NW",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: precise-object-edit. Fix only two local fidelity defects in image1 rear-left view using original anatomy image2. 1) Image1 has six feet, restore the SEVENTH rear-most short thick lavender foot under the belly immediately before tail base, in the SAME single row as the six existing feet. Let its root be partially overlapped by rear body, but its tip should be naturally visible just to the right of currently nearest large foot. Do not create a second row or eighth foot. 2) Front eyes at upper-left should be almost completely occluded by the head's far front edge in this rear-oblique view; keep at most a tiny dark sliver, no wide eyeball facing camera. Keep body outline, single dorsal stripe, tail oblique foreshortening, material, colors and existing six feet unchanged. Transparent background, no other modifications.",
+        "reference_sha256": [
+          "0467a336bd6a5f0b3404d6c23a9f60e45ebe6b0cd0ca640a6d23ad8a6912657b",
+          "66fb2821c9132f4dcb877aa485f10b7c77c13c315ccf26ed411312aa70f04db6"
+        ],
+        "raw_sha256": "999bb5f1a0c69cf45be5efe0a75c821434b140022fe9d15d32ccc094174c4bb7",
+        "output_sha256": "b519132337076851825674d211d2e5317b1930bd97abf453e90fbda8345efa8a",
+        "selection_note": "Requested direction visually selected; prior failed proportions/count trials retained separately."
+      },
+      {
+        "direction": "NE",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: identity-preserve. Draw ONE REAR-RIGHT NE three-quarter view of same creature. Input1 is original side anatomy; input2 is opposite rear-left NW reference with correct seven-foot count. Rotate same whole body to opposite rear oblique: distant head at upper-right, nearer spatula tail lower-left. Keep low flattened long oval mint gel body, one cream dorsal stripe, one flat lavender rounded spatula tail slightly raised at rear center. Tail overlaps nearer rear body naturally and its broad face is foreshortened obliquely, same shape/veins as NW. Eyes at far front upper-right are occluded, at most tiny edge sliver, no eyes on back. EXACTLY SEVEN thick short lavender-ended feet in one longitudinal row beneath belly, count rear-to-front seven fixed roots; overlapping is fine but do not drop a foot or make two rows. Same body depth and seven feet sizes as references, no bulking or overhead camera. Full painted transparent sprite with generous margin, no shadows, ground, text or props.",
+        "reference_sha256": [
+          "66fb2821c9132f4dcb877aa485f10b7c77c13c315ccf26ed411312aa70f04db6",
+          "999bb5f1a0c69cf45be5efe0a75c821434b140022fe9d15d32ccc094174c4bb7"
+        ],
+        "raw_sha256": "3da5b879ad2e13facd6c48b34077b8a5a6291a7475ff50a9cb89fed46a3b6448",
+        "output_sha256": "32ffca126f37af84af6287ed282d81625d0603aeb4ab3c76f8095031c5416058",
+        "selection_note": "Requested direction visually selected; prior failed proportions/count trials retained separately."
+      },
+      {
+        "direction": "SW",
+        "kind": "normal",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: precise-object-edit. Image1 SW is edit target; images2 SE and3 original E define the SAME slender creature's correct proportions. Correct image1's oversized head, eyes and front foot ONLY while keeping its front-left direction, mint body, stripe, tail, seven-foot single-row anatomy and rendering. Reduce front head width and bulbous cheeks to the slender tapered rounded head proportions of images2/3. Reduce both amber eyes accordingly, preserving two eyes with far eye more foreshortened. Reduce the protruding foremost foot and bring its attachment underneath head into alignment with six following feet, maintaining SEVEN total in ONE longitudinal ventral row. Do not remove a foot, invent two rows, thicken body or alter tail. Keep SW camera and original body length, soft gel material and palette. Full isolated normal asset on transparent background with generous margins, no text/props/shadow.",
+        "reference_sha256": [
+          "72204ad0e2020155dd2e2653cbe17c78c3e9e31e7372c27bb4f0fa2747973073",
+          "fe6751d060120be1e9e471751a060030be26ccf536e5f64d431ab3a9c53993e3",
+          "66fb2821c9132f4dcb877aa485f10b7c77c13c315ccf26ed411312aa70f04db6"
+        ],
+        "raw_sha256": "5290e330f9b6feb4b7d8a50a824236b445359a3d6b80026c3012ab34a21b3162",
+        "output_sha256": "cb42effd8242ec8f61eb9752f74df9fa2003a8b9d6cb717b6ce934959277583f",
+        "selection_note": "Requested direction visually selected; prior failed proportions/count trials retained separately."
+      },
+      {
+        "direction": "S",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact FRONT S creature in authentic128x128 pixel art, same shape, pose, camera and relative scale. Preserve two amber front eyes, flat mint body foreshortened into depth, one cream dorsal stripe, distant lavender rounded spatula tail. Seven underlying feet are ONE longitudinal row, but only ONE centered foreground foot is visible because others are occluded. Do not expose extra feet or make paired rows. Keep gel palette mint/cream/lavender and warm eyes, at most31 opaque colors, binary transparent background, controlled hard pixel clusters, no antialias/blur/simple shrinking. Full isolated sprite with margins, no new details, text or ground.",
+        "reference_sha256": [
+          "6a2fb8568dcaeaa74e4a2b825a025c028e54feda75a1966b0e2a45c46173170c"
+        ],
+        "raw_sha256": "ba8f74e18e54cd464e47e0812f68feee05ea7cb281f7acb1dd0ed2611333f063",
+        "output_sha256": "ee6963a8050643de1c9ccea24f2dee551f836d2de37f6e6fb1f04005b293377a"
+      },
+      {
+        "direction": "SW",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact SW gel creature in authentic128x128 pixel art. Preserve the slim front-left head, two small amber eyes, ONE long cream dorsal stripe on mint elongated flat body, distant lavender spatula tail and EXACTLY SEVEN lavender short feet in ONE longitudinal row. Count one foremost partly overlapping under head then six following along belly, no paired legs or sixth-only row. Keep original shape/pose and foot attachments, no enlarged head/eyes. Preserve mint cream lavender and warm eyes with at most31 opaque colors, crisp controlled pixel clusters on consistent grid, binary transparency, no blur/antialias or simple shrink. Full sprite with margins, no new anatomy/text/props/ground.",
+        "reference_sha256": [
+          "cb42effd8242ec8f61eb9752f74df9fa2003a8b9d6cb717b6ce934959277583f"
+        ],
+        "raw_sha256": "f85feb758688abca13fbf8f29ec0a6b2c397227fe28b77f15a04bd8bed87eb9c",
+        "output_sha256": "3e4d0daaf812fc0a8da3b240fc75bae90487cb769e844bf50c02a2cb9a7362d5"
+      },
+      {
+        "direction": "W",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw exact left-facing W profile in authentic128x128 pixel art. Same long LOW flattened mint gel body, two small eyes at left head edge, one cream dorsal stripe, one raised lavender round-ended spatula tail at right. EXACTLY SEVEN short thick lavender feet along ONE row below body, retain seven separate attachments in original order. No second row, no six-only feet. Preserve proportions and pose, controlled hard pixel clusters, mint cream lavender palette plus amber eyes, at most31 opaque colors, binary transparent background. Draw on logical pixel grid, no simple shrinking/blur/antialias. Full sprite with margins, no ground/text/shadows.",
+        "reference_sha256": [
+          "5530a98fdc53d5e4086ba0682adc9404664f544bbbb75e0da74d3b78e8b7b4a1"
+        ],
+        "raw_sha256": "36338dde66da9e43e3b20466dd2fc69271e8843cde11cb662fd2c9f0f54aab5e",
+        "output_sha256": "910c672ae16c857151cf7d34e3e6042a50f81b818f5bb2259c0262ee1b1be4c3"
+      },
+      {
+        "direction": "NW",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw exact NW rear-left gel creature in authentic128x128 pixel art. Preserve long flat mint body, cream stripe, nearest lower-right broad lavender spatula tail oblique projection, hidden front eyes (only tiny distant edge sliver if shown), and EXACTLY SEVEN short lavender-tipped feet in ONE longitudinal belly row as reference. Retain seventh small rear foot beside tail base, no six-only row or second row. Same body/head/foot proportions, pose and tail overlap. At most31 opaque colors, retain mint cream lavender palette, controlled hard pixel clusters with binary transparent background. No antialias/blur/simple shrink, no new anatomy or text/props/ground. Full sprite with margins.",
+        "reference_sha256": [
+          "b519132337076851825674d211d2e5317b1930bd97abf453e90fbda8345efa8a"
+        ],
+        "raw_sha256": "016e4df64004a1c6a4ab8319a70d25faa4a4d8d67fbf4ed0fb0433a85bd1326a",
+        "output_sha256": "0312b322c43a5415bf08d6d8f8ef4b3d80951222fb9cf9a5686285f404115c37"
+      },
+      {
+        "direction": "N",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw exact N rear axial gel creature as authentic128x128 pixel art. Keep near broad lavender round-ended spatula tail overlapping mint body, one cream stripe on far receding body, NO eyes. Seven underlying feet form ONE centerline longitudinal row, only nearest central foot and partially overlapping further foot portions visible underneath as reference; do not turn into two rows or fan. Preserve proportions, tail depth and same pose, palette mint cream lavender, at most31 opaque colors, hard controlled pixel clusters, binary transparent background. No simple shrink/antialias/blur. Whole sprite margins, no ground/text/new anatomy.",
+        "reference_sha256": [
+          "df0002d2317635e84966393514d5e1ab25ffaa2081b23a4060c65a41fa4e9d58"
+        ],
+        "raw_sha256": "ce549a62cc12b2da060130f535a3cdd1f1878ab3289775b696fec2ebc8918a33",
+        "output_sha256": "f04eca660c3854802ac866d6525a042632006d05f11b283e38c2fa79a083a356"
+      },
+      {
+        "direction": "NE",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw exact NE rear-right gel creature as authentic128x128 pixel art. Preserve mint long flat body pointing upper-right, one cream stripe, broad lavender oblique spatula tail nearer lower-left, no visible front eyes except tiny far edge sliver if present. EXACTLY SEVEN short feet on ONE longitudinal belly row, retain same roots, order and overlaps, no second row or count loss. Preserve body size and tail foreshortening. Mint/cream/lavender palette at most31 opaque colors, hard controlled pixel clusters, binary transparency, no blur/antialias/simple shrink. Full isolated sprite with margins, no new anatomy/props/text/ground.",
+        "reference_sha256": [
+          "32ffca126f37af84af6287ed282d81625d0603aeb4ab3c76f8095031c5416058"
+        ],
+        "raw_sha256": "f90276e8bb7dd440313226efd23c6791014b08353a94e6c4991ef3e0d440c472",
+        "output_sha256": "2e2cd3355fbc6d3de64ef0d2eafefe86ad3ff1c2161d29912f8e82fc6cfed147"
+      },
+      {
+        "direction": "SE",
+        "kind": "pixel",
+        "tool": "built-in imagegen",
+        "prompt": "Use case: style-transfer. Redraw this exact SE front-right gel creature as authentic128x128 pixel art. Preserve slim rounded head with two small amber eyes at right, mint long flattened body, one cream dorsal stripe, lavender flat rounded spatula tail at upper-left. EXACTLY SEVEN short lavender-ended feet in ONE ordered longitudinal underbelly row; keep small seventh front foot just under head, no six-only row or paired legs. Same proportions and overlap, no enlargement. Preserve mint cream lavender and amber palette, at most31 opaque colors, binary transparency and hard controlled pixel clusters, no antialias/blur/simple shrink. Full isolated sprite generous margin, no new anatomy/text/props/ground.",
+        "reference_sha256": [
+          "fe6751d060120be1e9e471751a060030be26ccf536e5f64d431ab3a9c53993e3"
+        ],
+        "raw_sha256": "8fe81a6bc1d69e11c82c7c2e215e4c63211f991a80b7c7a3f2a18605f5e99f32",
+        "output_sha256": "8233b5217595d265caf1e8739f4c210146c1b8bf5ca63739bbcde0d281853b73"
+      }
+    ],
+    "reused_W_normal": {
+      "normal_input_sha256": "5530a98fdc53d5e4086ba0682adc9404664f544bbbb75e0da74d3b78e8b7b4a1",
+      "new_pixel_raw_sha256": "36338dde66da9e43e3b20466dd2fc69271e8843cde11cb662fd2c9f0f54aab5e"
+    },
+    "source_history_review": "Fixed metadata was read in full; detailed original attempts not recovered. E ledger confirms no known safety stop, cancellation or added generation hold. Record completeness beyond available history unproven."
+  },
+  "processing": {
+    "normal": "Raw retained; alpha below8 cleared, proportional LANCZOS longest864, centered1024, low alpha cleared again. Old W proportionally normalized in separate derived file.",
+    "pixel": "Independently drawn pixel inputs; nearest128 grid, alpha128 threshold, crop/nearest longest108, visible MAXCOVERAGE31 palette no dithering, centered128; transparentRGBzero. Original E unchanged.",
+    "shape_redraw_by_program": false
+  },
+  "qa": {
+    "technical": "16/16 local pass",
+    "normal_review": "full-turn stage candidate passed",
+    "pair_review": "local all16 comparison, native and nearest pixel views on white/black checked; independent review pending",
+    "old_hold": "Old axial views had paired lateral foot rows and top-down appearance; corrected axial occlusion preserves one seven-foot row. Old oblique candidates had six feet; new SE/NW missing-root fixes restore seven, and SW head/eye/front-foot proportions were reduced.",
+    "limitations": [
+      "Axial shortening and hidden single-row foot depth inferred consistently from original flattened body",
+      "Precise camera/angles and hidden foot overlap are artistic estimates, not unique3D reconstruction",
+      "Old adopted hashes and exact old direction prompts unproven",
+      "Game/runtime and final user acceptance pending"
+    ],
+    "original_pair_unchanged": true,
+    "independent_review": "E remeasured all16 slots and original source Git blobs; full8pair and native/enlarged black-white pixel edges reviewed. Single row seven comb legs, front2/side1/rear0 eyes and rear spatulate tail correspond; S/N column occlusion consistent with one row rather than invented paired rows. Source E pair unchanged and old W normal visually reselected after recovery, historical adoption unproven. Source detailed old trials unavailable; inferred leg depth/camera and exact proportions remain unmeasured, runtime untested."
+  }
+}
