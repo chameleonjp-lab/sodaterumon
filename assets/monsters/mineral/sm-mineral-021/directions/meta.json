@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "id": "sm-mineral-021",
+  "asset_type": "direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/S/default.png",
+      "sha256": "39c6c98fa34505540e1a7106d1e9377033c714ba7980a195840b0f5a2f8bc049",
+      "bytes": 666115,
+      "git_blob_sha": "a19b2a9aed224a104d8aa7af16100c6211332605",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        107,
+        96,
+        916,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 55204,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/S/pixel.png",
+      "sha256": "a189faac78a382bbfa6bd763a0012d6f27505d6b59e67cce664393d98b36c2fc",
+      "bytes": 9843,
+      "git_blob_sha": "46bd50f1169164429b9fd0de02556acb8ed3521f",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        14,
+        12,
+        114,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/SW/default.png",
+      "sha256": "78b607c734ad8115636fe2c835cf9527372ed972ee65c3a22c14eb30fb5f0eb6",
+      "bytes": 600187,
+      "git_blob_sha": "8df215a110716dc7a488f7aedbe77daa1c01db5b",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        151,
+        928,
+        873
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 48132,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/SW/pixel.png",
+      "sha256": "7d907b2167cba3fc198233272b99cc6dd7d0af8e8929c37b5ce77e5097d2243d",
+      "bytes": 8358,
+      "git_blob_sha": "7fa1ebae65cbdc7693bed5cefa4cfaf77786ca58",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        16,
+        116,
+        112
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/W/default.png",
+      "sha256": "0fabff7e9dc8ae5f9162de7125472af3768bd92421775b0b88651147768a976e",
+      "bytes": 322595,
+      "git_blob_sha": "9e3c58b98730848a20daa791e83c3da9fd4fe310",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        336,
+        928,
+        688
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 37690,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/W/pixel.png",
+      "sha256": "f0353bb99e30be2b841f842aec1a7019085e2cbd2a0577b5037f62110766e3a9",
+      "bytes": 5002,
+      "git_blob_sha": "391d2749cc87abafd9660d25e67f829c966a537a",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        41,
+        116,
+        87
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/NW/default.png",
+      "sha256": "d4f4b81fff8ca3e9b62529c38b3f148079314ed9ab16b63588b9b8f7f3b05901",
+      "bytes": 480480,
+      "git_blob_sha": "97019bbb1122bd17b33320099b9a5a29c52a0df8",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        221,
+        928,
+        803
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 41132,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/NW/pixel.png",
+      "sha256": "27b8e36b03a13c4508071b64968214193b4224920b641d048a905a5f5c9c3f34",
+      "bytes": 6636,
+      "git_blob_sha": "d8930816ad2747e1007fdcd2bb68bde8ad2daee1",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        26,
+        116,
+        101
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/N/default.png",
+      "sha256": "7b0c192dd27bde2dd080e3aac0092f296fd6012094c7616a80db0614953fbefa",
+      "bytes": 749311,
+      "git_blob_sha": "b74eccd3b91ea173b10e2703ff37800a90f40f15",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        99,
+        96,
+        924,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 54165,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/N/pixel.png",
+      "sha256": "5cfce39d16c71840e0b03a12004f7629b46cee2b8dc499e493aeafc85bcb1ffa",
+      "bytes": 10586,
+      "git_blob_sha": "2da4f9e6a4a11755563234eec82fbfc810eb1d47",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        14,
+        12,
+        114,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/NE/default.png",
+      "sha256": "c2ab474126c46c4e4ff107a586640720a2d5a7cd473aa72eb123745684c6a1e0",
+      "bytes": 483978,
+      "git_blob_sha": "61a49bf48143d2b2d96cd694d7a822dd041773d7",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        199,
+        928,
+        825
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 36170,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/NE/pixel.png",
+      "sha256": "0d195e8ca569b7dcfb83d1c88d308e218957c4ac0aec1d1ccbfd1995bb8bbc0d",
+      "bytes": 7576,
+      "git_blob_sha": "6012ba15f082454f6d214e5e096b3adf624bebd2",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        24,
+        116,
+        104
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/E/default.png",
+      "sha256": "caac42b525d2f37a90efdb27048679cc8f5110088ba2cae517d7f2b44c05722b",
+      "bytes": 298669,
+      "git_blob_sha": "d5654f25843c06e9347e832b47374e88931500ba",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        342,
+        928,
+        682
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 29299,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-021/directions/E/pixel.png",
+      "sha256": "6a6f0ad58361cb68bc4130f232d6fe76ab8f8cf84ba88075a06cb428e111344b",
+      "bytes": 5523,
+      "git_blob_sha": "b7787abcd3419bf43bc472b05e731606d3382de7",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        42,
+        116,
+        86
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/mineral/sm-mineral-021/default.png",
+      "sha256": "df58de07506812e8542ec67241e6a9760704b6dbc116b1501b3c05fa2be70217",
+      "bytes": 499612,
+      "git_blob_sha": "31774ccbcda28eca0086266926ed1a1284f3d5ca",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        80,
+        233,
+        944,
+        790
+      ],
+      "min_margin": 80,
+      "visible_extent": 864,
+      "visible_colors": 43773,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-021/pixel.png",
+      "sha256": "750da4c5434492fc7986eb0fac94e880a658894a2507edd5807d11a2b1ff5712",
+      "bytes": 7966,
+      "git_blob_sha": "518d1d4f72573b4fb95668cbaa73887293cdc774",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        10,
+        27,
+        118,
+        100
+      ],
+      "min_margin": 10,
+      "visible_extent": 108,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    }
+  ],
+  "generation_provenance": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "prompt": "Create ONE corrected FRONT S0 view of the same stone-comb creature. Image1 has correct TWO green eyes but its body is seen too much from overhead. Image2 immutable original defines the fixed camera elevation and thickness. Change ONLY camera-relative FRONT projection: look along the long body's axis from its narrow front end at the same modest elevated camera as original; longitudinal body must recede and foreshorten into depth, not extend its full length up the canvas. Five equal rounded flat plate tails remain attached in order along the SAME physical flank and extend SCREEN LEFT, receding/overlapping naturally in depth. Do not force all five plates broad and separated if perspective hides part of them. One long ridged beige gypsum body, broad shallow gray groove opposite the plate flank, moss patches/cracks unchanged. Narrow front end has exactly TWO eyes TOTAL, ONE centered on upper tip and ONE centered on lower tip, vertically stacked. Fill any leftover paired eye sockets with plain matching stone, no extra eye-shaped sockets. Keep original front-end split/notch but no new mouths, legs or arms. Body broad front cross-section and depth foreshortening should clearly distinguish it from overhead. Preserve original physical proportions, colors/style and stone thickness. Full creature centered on transparent background, square canvas with margin, no labels/text/ground/shadow.",
+      "raw_sha256": "edb9856edf50de3ea180580c7fed20c9733bac97b1e8a464df58a0b6b1f59f0c",
+      "reference_hashes": [
+        "34a312fbda630908a11e106b0bcbd58f008889557df0bcc7d61515da0ecdc4f3",
+        "df58de07506812e8542ec67241e6a9760704b6dbc116b1501b3c05fa2be70217"
+      ],
+      "final_sha256": "39c6c98fa34505540e1a7106d1e9377033c714ba7980a195840b0f5a2f8bc049"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of image1 in exactly the same S view. Image1 is the sole anatomy/pose/silhouette target. One long beige gypsum ridgebody, five equal rounded flat plate tails on ONE physical flank, broad shallow gray groove opposite that flank, moss green patches. Preserve exact projected plate side, narrow gaps, root positions and depth order. Where body hides a plate root or tip in normal, preserve natural hiding; do not move parts to reveal all5. EXACTLY TWO green eyes TOTAL, one at upper narrow front tip and one at lower tip, vertically stacked; never side-by-side pairs or4eyes. No legs/arms/wings/handle/extra parts. Match normal body/plate proportions and same camera. Pixel illustration using crisp128x128 logical grid, limited beige/gray/moss/dark outline palette at most32 visible colors, binary transparent alpha, no antialiasing/gradients/blur. Simplify cracks without redesigning. Whole sprite centered with generous transparent margin, no text/ground/shadow. Change rendering medium only, preserve all anatomy and facing.",
+      "raw_sha256": "4b9981030e8da65784f0481feb57783a5ca14cdae831b0753cd6325c933b1e95",
+      "reference_hashes": [
+        "39c6c98fa34505540e1a7106d1e9377033c714ba7980a195840b0f5a2f8bc049"
+      ],
+      "final_sha256": "a189faac78a382bbfa6bd763a0012d6f27505d6b59e67cce664393d98b36c2fc"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "prompt": "Create ONE FRONT LEFT three-quarter SW45 normal view of the exact same asymmetrical stone-comb creature, between image1 FRONT S and image2 LEFT W. Image3 immutable original defines identity. Lock plate-bearing flank: in S plates extend screen-left; in W they recede BEHIND body upward. In SW the front end points toward LOWER LEFT and the five plates extend toward UPPER LEFT/far-left from the SAME side of the long body. Do NOT put plates spreading lower-right of body, which would switch to the wrong flank. Keep FIVE equal round-ended flat plate tails rooted sequentially along one flank; natural overlap of far plates allowed, no root relocation. Long beige gypsum ridgebody, opposite broad shallow gray groove, exactly TWO green eyes stacked one upper/one lower at narrow front tips, zero legs/wings/arms. Preserve original plate length/body ratio, stone thickness, crack/moss texture, same modest elevated camera. Body axis diagonally lower-left front to upper-right rear. Same individual only changing yaw, not mirrored art. Full figure with transparent margin on square canvas, no text/ground/shadow/handle/sharp tips.",
+      "raw_sha256": "c1e50c3bc6de4cc747ec249a5fdd8e2099fc955e1fc1ee7cc7e1bc68ef762ae0",
+      "reference_hashes": [
+        "edb9856edf50de3ea180580c7fed20c9733bac97b1e8a464df58a0b6b1f59f0c",
+        "406a49751d8c0bbeea19665f0a8f79237875e7daf74eed3e83b9647f2c3a6c12",
+        "df58de07506812e8542ec67241e6a9760704b6dbc116b1501b3c05fa2be70217"
+      ],
+      "final_sha256": "78b607c734ad8115636fe2c835cf9527372ed972ee65c3a22c14eb30fb5f0eb6"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of image1 in exactly the same SW view. Image1 is the sole anatomy/pose/silhouette target. One long beige gypsum ridgebody, five equal rounded flat plate tails on ONE physical flank, broad shallow gray groove opposite that flank, moss green patches. Preserve exact projected plate side, narrow gaps, root positions and depth order. Where body hides a plate root or tip in normal, preserve natural hiding; do not move parts to reveal all5. EXACTLY TWO green eyes TOTAL, one at upper narrow front tip and one at lower tip, vertically stacked; never side-by-side pairs or4eyes. No legs/arms/wings/handle/extra parts. Match normal body/plate proportions and same camera. Pixel illustration using crisp128x128 logical grid, limited beige/gray/moss/dark outline palette at most32 visible colors, binary transparent alpha, no antialiasing/gradients/blur. Simplify cracks without redesigning. Whole sprite centered with generous transparent margin, no text/ground/shadow. Change rendering medium only, preserve all anatomy and facing.",
+      "raw_sha256": "1ba78f11d6a44af4171a12fb8f6787bd2ed1ecfeaca5f133eb4f9380a41646ba",
+      "reference_hashes": [
+        "78b607c734ad8115636fe2c835cf9527372ed972ee65c3a22c14eb30fb5f0eb6"
+      ],
+      "final_sha256": "7d907b2167cba3fc198233272b99cc6dd7d0af8e8929c37b5ce77e5097d2243d"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "prompt": "Create ONE LEFT PROFILE W90 normal sprite of the exact asymmetrical stone-comb creature. Image1 ORIGINAL SE and image2 FRONT S fix which physical flank carries the five plates. In S, plates extend SCREEN LEFT. Rotate the whole creature into W with narrow front pointing SCREEN LEFT: that same plate-bearing flank now turns AWAY from viewer. Therefore the LONG RIDGED BODY is in FRONT, and the FIVE rounded flat plate tails project into FAR DEPTH BEHIND/ABOVE the body, partially hidden by it. DO NOT put five plates hanging toward bottom/near side; that would swap them to the wrong physical flank. All five tail ROOTS stay on same far flank, ordered from head to rear. Some roots/plates may be occluded, naturally; never relocate them just to expose all five. Show original shallow groove on the opposing near body side/ridge, beige gypsum stone with gray groove and moss patches. One long body, five equal physical plate lengths, exactly two eyes one upper/one lower on narrow front end, zero legs or extra parts. Maintain original elevated camera, visible top thickness and physical dimensions, no overhead plan. Head points left; body axis horizontal; far plates recede upward behind body. Same illustration style, rounded plate ends, no handle/tool teeth. Full centered transparent square canvas, generous padding, no text/ground/shadow. This is correcting fixed-side topology, not redesigning.",
+      "raw_sha256": "406a49751d8c0bbeea19665f0a8f79237875e7daf74eed3e83b9647f2c3a6c12",
+      "reference_hashes": [
+        "df58de07506812e8542ec67241e6a9760704b6dbc116b1501b3c05fa2be70217",
+        "edb9856edf50de3ea180580c7fed20c9733bac97b1e8a464df58a0b6b1f59f0c"
+      ],
+      "final_sha256": "0fabff7e9dc8ae5f9162de7125472af3768bd92421775b0b88651147768a976e"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of image1 in exactly the same W view. Image1 is the sole anatomy/pose/silhouette target. One long beige gypsum ridgebody, five equal rounded flat plate tails on ONE physical flank, broad shallow gray groove opposite that flank, moss green patches. Preserve exact projected plate side, narrow gaps, root positions and depth order. Where body hides a plate root or tip in normal, preserve natural hiding; do not move parts to reveal all5. EXACTLY TWO green eyes TOTAL, one at upper narrow front tip and one at lower tip, vertically stacked; never side-by-side pairs or4eyes. No legs/arms/wings/handle/extra parts. Match normal body/plate proportions and same camera. Pixel illustration using crisp128x128 logical grid, limited beige/gray/moss/dark outline palette at most32 visible colors, binary transparent alpha, no antialiasing/gradients/blur. Simplify cracks without redesigning. Whole sprite centered with generous transparent margin, no text/ground/shadow. Change rendering medium only, preserve all anatomy and facing.",
+      "raw_sha256": "a0dc3e4304e598b3e8e656e2518de8807a0954ed83d065d3ee6211ea253d822f",
+      "reference_hashes": [
+        "0fabff7e9dc8ae5f9162de7125472af3768bd92421775b0b88651147768a976e"
+      ],
+      "final_sha256": "f0353bb99e30be2b841f842aec1a7019085e2cbd2a0577b5037f62110766e3a9"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "prompt": "Create ONE REAR LEFT three-quarter NW135 normal sprite of the exact same asymmetrical stone-comb creature. Interpolate image1 LEFT W toward image2 direct REAR N by45degrees. The blunt REAR END is NEAREST at LOWER RIGHT; narrow head is FAR at UPPER LEFT, hidden front eyes not visible. Long body axis runs upper-left to lower-right. Keep the SAME physical plate-bearing flank: five equal rounded flat plate tails extend into FAR/UPPER RIGHT depth, partly hidden BEHIND the near body. They must not jump to the near/bottom-left side. Five roots ordered along one flank, preserve all roots even where body naturally hides them. One broad shallow gray groove on opposing flank/ridge, one beige gypsum body, gray shading and moss green patches/cracks. Exactly two eyes exist only on the far front end, not visible from this rear oblique. No legs, arms, wings or additions. Match original fixed elevated camera, physical body/plate proportions, rounded ends and stone thickness, no overhead plan or shape redesign. Full isolated sprite centered on transparent square canvas, margin, no text/ground/shadow.",
+      "raw_sha256": "96814a723f4b1f1c98d724e690c7b49debf8ffbb7190551c7101745103fa1ac1",
+      "reference_hashes": [
+        "406a49751d8c0bbeea19665f0a8f79237875e7daf74eed3e83b9647f2c3a6c12",
+        "caee4dcd72f8008ba80756b7c5a41d57cb8756353f6cd2d07673be9741eef9a4",
+        "df58de07506812e8542ec67241e6a9760704b6dbc116b1501b3c05fa2be70217"
+      ],
+      "final_sha256": "d4f4b81fff8ca3e9b62529c38b3f148079314ed9ab16b63588b9b8f7f3b05901"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of image1 in exactly the same NW view. Image1 is the sole anatomy/pose/silhouette target. One long beige gypsum ridgebody, five equal rounded flat plate tails on ONE physical flank, broad shallow gray groove opposite that flank, moss green patches. Preserve exact projected plate side, narrow gaps, root positions and depth order. Where body hides a plate root or tip in normal, preserve natural hiding; do not move parts to reveal all5. ZERO VISIBLE EYES on this rear surface; actual two eyes are hidden on opposite front. Never invent eyes or eye-like marks. No legs/arms/wings/handle/extra parts. Match normal body/plate proportions and same camera. Pixel illustration using crisp128x128 logical grid, limited beige/gray/moss/dark outline palette at most32 visible colors, binary transparent alpha, no antialiasing/gradients/blur. Simplify cracks without redesigning. Whole sprite centered with generous transparent margin, no text/ground/shadow. Change rendering medium only, preserve all anatomy and facing.",
+      "raw_sha256": "29d05e4e90a861d3650cd086899bd6eb16ef877b04cb44609eeaa0b2c372f764",
+      "reference_hashes": [
+        "d4f4b81fff8ca3e9b62529c38b3f148079314ed9ab16b63588b9b8f7f3b05901"
+      ],
+      "final_sha256": "27b8e36b03a13c4508071b64968214193b4224920b641d048a905a5f5c9c3f34"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "prompt": "Create ONE normal transparent sprite of the same asymmetrical stone-comb creature in DIRECT REAR N180 view. Image1 original front-rightSE gives identity and fixed camera elevation; image2 corrected frontS gives opposite end-on comparison; image3 old rear candidate has correct eyeless rear material but is too diagonally oriented. In the new image, blunt REAR END is closest at bottom-center, long body's axis recedes straight UP into depth, no diagonal yaw. FIVE equal rounded flat plate tails are attached only along ONE physical side and project SCREEN RIGHT in this rear view, opposite the frontS screen-left. Preserve root order T1 nearest front through T5 nearest rear; near T5 at lower right, farther plates overlap/recede above it. Keep one broad shallow gray groove on the opposite flank/top ridge, same side relationship. No eyes at rear: original exactly two eyes on stacked front tips remain on far hidden end. One long beige gypsum ridge body, five plates, zero legs/wings/arms/tail additions, moss green patches and gray shading. Longitudinal projection should foreshorten naturally at original modest elevated camera; do not show full overhead plan or spread all plates to force count. Keep original body thickness and plate lengths. Rounded plate tips, no tools or handles. Full figure centered on transparent canvas with margin, no text/ground/shadow. Rotate same anatomy, do not mirror texture or rearrange roots.",
+      "raw_sha256": "caee4dcd72f8008ba80756b7c5a41d57cb8756353f6cd2d07673be9741eef9a4",
+      "reference_hashes": [
+        "df58de07506812e8542ec67241e6a9760704b6dbc116b1501b3c05fa2be70217",
+        "edb9856edf50de3ea180580c7fed20c9733bac97b1e8a464df58a0b6b1f59f0c",
+        "0f3989982f074429d6ee0a16664625a974b28db62e7bb3cee4fac935d14e9a6b"
+      ],
+      "final_sha256": "7b0c192dd27bde2dd080e3aac0092f296fd6012094c7616a80db0614953fbefa"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of image1 in exactly the same N view. Image1 is the sole anatomy/pose/silhouette target. One long beige gypsum ridgebody, five equal rounded flat plate tails on ONE physical flank, broad shallow gray groove opposite that flank, moss green patches. Preserve exact projected plate side, narrow gaps, root positions and depth order. Where body hides a plate root or tip in normal, preserve natural hiding; do not move parts to reveal all5. ZERO VISIBLE EYES on this rear surface; actual two eyes are hidden on opposite front. Never invent eyes or eye-like marks. No legs/arms/wings/handle/extra parts. Match normal body/plate proportions and same camera. Pixel illustration using crisp128x128 logical grid, limited beige/gray/moss/dark outline palette at most32 visible colors, binary transparent alpha, no antialiasing/gradients/blur. Simplify cracks without redesigning. Whole sprite centered with generous transparent margin, no text/ground/shadow. Change rendering medium only, preserve all anatomy and facing.",
+      "raw_sha256": "888981be2a0932b44ea03efc1f4711c595992ea47cc15f2e14a77ede176d36da",
+      "reference_hashes": [
+        "7b0c192dd27bde2dd080e3aac0092f296fd6012094c7616a80db0614953fbefa"
+      ],
+      "final_sha256": "5cfce39d16c71840e0b03a12004f7629b46cee2b8dc499e493aeafc85bcb1ffa"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "prompt": "Precise-object-edit: ONE corrected normal sprite. Image1 is the correct REAR RIGHT NE view orientation, but it has only FOUR plate-tail roots on the fully visible near flank. Restore EXACTLY FIVE evenly spaced equal-length rounded flat plate tails attached along this SAME near flank. Use image2 original's FIVE plate roots and proportions as anatomy reference. Keep image1 rear end closest LOWER LEFT, head far UPPER RIGHT, no eyes on rear, body axis diagonal. Do not move tails to opposite side. Five roots from near blunt rear along the flank to far front; preserve original smooth spacing and plate widths, none pointed, no separate extra floating piece. Keep one long beige gypsum ridgebody, one broad shallow gray groove opposite plate flank, gray underside/moss patches/cracks. No legs, arms, wings, mechanical handle or eyes on back. Preserve camera elevation, body length/thickness, perspective and style. Full centered creature on transparent square background, generous margin, no text/ground/shadow. Change only missing plate/root and proportional spacing necessary to retain five same plates.",
+      "raw_sha256": "079d74f05b24edddeb13738576b6c6e3dff4d331240c3976c921303baa98d890",
+      "reference_hashes": [
+        "38e4c5470f720e0e80660751cc34d4b035f10173c1f4ca477c4dc29f5f375e10",
+        "df58de07506812e8542ec67241e6a9760704b6dbc116b1501b3c05fa2be70217"
+      ],
+      "final_sha256": "c2ab474126c46c4e4ff107a586640720a2d5a7cd473aa72eb123745684c6a1e0"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of image1 in exactly the same NE view. Image1 is the sole anatomy/pose/silhouette target. One long beige gypsum ridgebody, five equal rounded flat plate tails on ONE physical flank, broad shallow gray groove opposite that flank, moss green patches. Preserve exact projected plate side, narrow gaps, root positions and depth order. Where body hides a plate root or tip in normal, preserve natural hiding; do not move parts to reveal all5. ZERO VISIBLE EYES on this rear surface; actual two eyes are hidden on opposite front. Never invent eyes or eye-like marks. No legs/arms/wings/handle/extra parts. Match normal body/plate proportions and same camera. Pixel illustration using crisp128x128 logical grid, limited beige/gray/moss/dark outline palette at most32 visible colors, binary transparent alpha, no antialiasing/gradients/blur. Simplify cracks without redesigning. Whole sprite centered with generous transparent margin, no text/ground/shadow. Change rendering medium only, preserve all anatomy and facing.",
+      "raw_sha256": "343525731c116c3c9a931f4e64e5a1933380c4831d37e8dc84f313c834ddfc28",
+      "reference_hashes": [
+        "c2ab474126c46c4e4ff107a586640720a2d5a7cd473aa72eb123745684c6a1e0"
+      ],
+      "final_sha256": "0d195e8ca569b7dcfb83d1c88d308e218957c4ac0aec1d1ccbfd1995bb8bbc0d"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "prompt": "Use case: identity-preserve. Exactly one sprite rotating this same gypsum comb-shaped creature from source SE front-right to E270 strict RIGHT side: eye end screen right, spine extends horizontally left, five plates extend toward viewer from the SAME own-right side in a row. Only yaw changes, keep source camera elevation and body orientation relative to ground. One long rectangular prism spine, exactly FIVE equal-length rounded rectangular flat plate tails in a single row attached to ONE fixed long side (creature RIGHT), never both sides. Opposite long side has one broad shallow gray groove. Two small olive eyes vertically stacked at narrow FRONT end, preserve original end notch and positions. Zero legs, wings or extra body parts. Preserve cream/tan gypsum layers, slate gray edges and olive patches, dark outline and painterly style. Fixed five tail roots and original thickness, natural depth overlap; never fan tail roots around body. Whole figure centered with generous transparent margins. No text, scenery, tools or sharp teeth.",
+      "raw_sha256": "0743b332f0e7eac9525d1e14967769df113cc9a5ee10c791cd6a4310374c6262",
+      "reference_hashes": [
+        "df58de07506812e8542ec67241e6a9760704b6dbc116b1501b3c05fa2be70217"
+      ],
+      "final_sha256": "caac42b525d2f37a90efdb27048679cc8f5110088ba2cae517d7f2b44c05722b"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of image1 in exactly the same E view. Image1 is the sole anatomy/pose/silhouette target. One long beige gypsum ridgebody, five equal rounded flat plate tails on ONE physical flank, broad shallow gray groove opposite that flank, moss green patches. Preserve exact projected plate side, narrow gaps, root positions and depth order. Where body hides a plate root or tip in normal, preserve natural hiding; do not move parts to reveal all5. EXACTLY TWO green eyes TOTAL, one at upper narrow front tip and one at lower tip, vertically stacked; never side-by-side pairs or4eyes. No legs/arms/wings/handle/extra parts. Match normal body/plate proportions and same camera. Pixel illustration using crisp128x128 logical grid, limited beige/gray/moss/dark outline palette at most32 visible colors, binary transparent alpha, no antialiasing/gradients/blur. Simplify cracks without redesigning. Whole sprite centered with generous transparent margin, no text/ground/shadow. Change rendering medium only, preserve all anatomy and facing.",
+      "raw_sha256": "05f637decb0c295ca9f82f272746ed8875ae884c32ee06d43efbf8dcdad18711",
+      "reference_hashes": [
+        "caac42b525d2f37a90efdb27048679cc8f5110088ba2cae517d7f2b44c05722b"
+      ],
+      "final_sha256": "6a6f0ad58361cb68bc4130f232d6fe76ab8f8cf84ba88075a06cb428e111344b"
+    }
+  ],
+  "interpretation": {
+    "fixed_anatomy": "One long gypsum ridgebody, five equal round-ended plate tails on one fixed flank, opposite shallow groove, two vertically stacked front eyes, no legs",
+    "direction_topology": "Plate side passes Sleft,SWfarleft,Wfar,NWfarright,Nright,NEnearright,Enear,SEnearleft. Same root flank maintained.",
+    "occlusion": "SW/W show four tips while a fifth root is interpreted as hidden by near body; neighboring projections retain five roots.",
+    "camera": "S/N expose more top than obliques; camera/depth interpolation remains an artistic inference, not measured3D",
+    "selection": "E older normal retained. NE new correction used older NW-requested image as actual NE geometry reference after visual classification; requested and adopted directions distinguished. Older W4plate claim corrected after original-size inspection showed5; count-addition draft never executed.",
+    "source": "OriginalSEpair immutable; all previous candidates retained"
+  },
+  "qa": {
+    "technical_all16": true,
+    "source_pair_unchanged": true,
+    "visual": "Normal/pixel correspondence, edge gaps, eye counts and same-side topology inspected at original/enlarged scale on white/black",
+    "independent_review": "E independently measured all16 slots and checked hashes/unchanged source pair against main Git tree. All8pair normal/pixel and enlarged pixel board inspected: front2/rear0 eyes and one-sided plate roots correspond. Hidden fifth root in SW/W and S/N camera interpolation are inferred, not measured 3D. Runtime untested.",
+    "runtime": "pending"
+  }
+}
