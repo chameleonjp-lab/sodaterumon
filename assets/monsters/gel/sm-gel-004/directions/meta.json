@@ -1,0 +1,535 @@
+{
+  "schema_version": 1,
+  "id": "sm-gel-004",
+  "asset_type": "direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-004/directions/S/default.png",
+      "sha256": "ad0e56689772db1c7abf5764361d0a3add51f13003628053c5bcbb1a443e34d9",
+      "bytes": 701453,
+      "git_blob_sha": "9ab184afd78c34899eb5b98f3f8905e2d8ca28c3",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        106,
+        928,
+        917
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 58873,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-004/directions/S/pixel.png",
+      "sha256": "aeb3330db40fce05ac9a43ab303bdfa6d67827458ac0ccea77f05fa11e158cb6",
+      "bytes": 9712,
+      "git_blob_sha": "15787868c585cfdd46e6c7d10ded0c05578d40d9",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        12,
+        116,
+        115
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-004/directions/SW/default.png",
+      "sha256": "c9539c4c4d256cf5509c5ba7cf945d3c701148d05cb6486d753d23ca8dd6e69b",
+      "bytes": 720338,
+      "git_blob_sha": "f34636eb052ae238152e98b5d7039199e8b80c26",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        140,
+        96,
+        884,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 58907,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-004/directions/SW/pixel.png",
+      "sha256": "757b7ba07b66f5a022f9391b857747e3245fc447ed2fe9727cba96017e573a91",
+      "bytes": 10821,
+      "git_blob_sha": "3d800475e22892e0bb5bd2b1060e6aa3eae73bae",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        17,
+        12,
+        110,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-004/directions/W/default.png",
+      "sha256": "86bb035b77292fe73361103f0eb14e2769ac78a320d8aa5c7c572dbc0fad212f",
+      "bytes": 405692,
+      "git_blob_sha": "2ee97bc87093839a3331070977a8d1ab07a16ed3",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        319,
+        96,
+        704,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 49648,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-004/directions/W/pixel.png",
+      "sha256": "f944da18bb644c54ab26142ae8a36cc00e6a9463334bce1a7f2c8e15fb7cd81e",
+      "bytes": 6331,
+      "git_blob_sha": "23f6e41d494357fd506d1b397d598dbc5b38f59d",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        38,
+        12,
+        89,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-004/directions/NW/default.png",
+      "sha256": "2cbe10509c95128904bc0f1a3678a5a269fcfe967e8f59c30da7f06c781daccb",
+      "bytes": 612828,
+      "git_blob_sha": "0377110b7e0fa2b0c7847aa0ffbf29453d077709",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        166,
+        96,
+        858,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 51411,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-004/directions/NW/pixel.png",
+      "sha256": "cec0769c43d7fe92f804b0fe5317e61fdc369c82d17bfd6ff1624e3ff82b1cae",
+      "bytes": 8641,
+      "git_blob_sha": "8fa61fc6bf9aab340d7abcb80b5f4c6fbff5fa1a",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        21,
+        12,
+        106,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-004/directions/N/default.png",
+      "sha256": "9268b6fb93466974dd13ab9a2614ada5ad7f967b68f4c6a5856e933cadb91590",
+      "bytes": 689864,
+      "git_blob_sha": "3e3cc3038d59ddc281d2e2d5b8b3d0d6b9b2af0a",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        98,
+        928,
+        926
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 43593,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-004/directions/N/pixel.png",
+      "sha256": "405aced44617f2995a22e02f344022166402c6f3205600677ac16fb7becfb7f5",
+      "bytes": 9883,
+      "git_blob_sha": "90546a223a5c8c7864c299a8d9a76e2f77a0c272",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        12,
+        115,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-004/directions/NE/default.png",
+      "sha256": "de3c84c2fe3a5a585669cab9db0d2d8c7b8bad59c006b628d277b0df78e64428",
+      "bytes": 617298,
+      "git_blob_sha": "31aac3b399d56e1fc9ca1b1d30299d5d5edd273a",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        158,
+        96,
+        865,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 48084,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-004/directions/NE/pixel.png",
+      "sha256": "0926da01e8f79e98b9b79534ba401a189fcc7447b56dffab019a300c2d7ec520",
+      "bytes": 8962,
+      "git_blob_sha": "f46f608a791e6531c86a5248d4e7ca1ffee561f3",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        19,
+        12,
+        108,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-004/directions/E/default.png",
+      "sha256": "8bf83c44c077717842b61a50e62170f7a803f4f6733a3e06936578644c32c33e",
+      "bytes": 357019,
+      "git_blob_sha": "671e3768acdc5c3f057376fc2fc258caad5da803",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        347,
+        96,
+        677,
+        928
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 45194,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-004/directions/E/pixel.png",
+      "sha256": "1e8ee9228a0b1fdc53a22405b9af8da605d478e575340925ebe30f3124b9d8bf",
+      "bytes": 5563,
+      "git_blob_sha": "29308553d955cdbf40d71a8db63febcf18be859a",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        43,
+        12,
+        85,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-004/default.png",
+      "sha256": "c372d3b3fee03f3bfefa4c0d9297ffe9b266a190d277c376d5c9ae87e10a0d8f",
+      "bytes": 662381,
+      "git_blob_sha": "53e6815dea90e7e9800a10a0364c729584e36307",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        64,
+        67,
+        960,
+        957
+      ],
+      "min_margin": 64,
+      "visible_extent": 896,
+      "visible_colors": 62808,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-004/pixel.png",
+      "sha256": "a6ce2f65b79136344ba8ac022b7a834b6fa48f7be1ca035066207036481f454e",
+      "bytes": 7612,
+      "git_blob_sha": "d37dfa5129ee818390a6564d637209bce5559e07",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        14,
+        12,
+        114,
+        116
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "technical_pass": true
+    }
+  ],
+  "generation_provenance": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "raw_sha256": "0f5837e65baa309cbb0bfb5f46f0e5cc45ac3df16578cb740d49e63567de698c",
+      "final_sha256": "ad0e56689772db1c7abf5764361d0a3add51f13003628053c5bcbb1a443e34d9",
+      "provenance_status": "Recovery-time visual reselection; historical adopted label/hash and original generation prompt/reference not recovered"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of this exact S normal gel-ring sprite. Match the normal silhouette, lean, thickness, and central throughhole/side occlusion precisely; do not open a hole that is hidden edge-on in the normal. Preserve TWO upper frontal purple eyes. Exactly3 lower embedded golden bubbles as in normal, same centers and depth; on rear they are muted pale internal shapes, not extra surface bubbles. Same thick closed purple ring with cream gel patterns, no legs/arms/tail/axle/metal or outer protrusions. Keep same direction and all feature positions, change rendering medium only. Intentional128x128 logical pixel grid, at most32 visible flat colors, crisp dark outline, opaque pixels or full transparent background only, no antialiasing/blur. Rear has no eyes; bubble total3 never duplicated. Full centered sprite with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "66c8d0b8f72bfc592700698768cdbaab7dc12980ce48e663d8d4315647e3cd80",
+      "reference_hashes": [
+        "ad0e56689772db1c7abf5764361d0a3add51f13003628053c5bcbb1a443e34d9"
+      ],
+      "final_sha256": "aeb3330db40fce05ac9a43ab303bdfa6d67827458ac0ccea77f05fa11e158cb6"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "raw_sha256": "8722b4510d9a6563a14b8e047d4e1c53ade82e40717827838959a6dc543e661b",
+      "final_sha256": "c9539c4c4d256cf5509c5ba7cf945d3c701148d05cb6486d753d23ca8dd6e69b",
+      "provenance_status": "Recovery-time visual reselection; historical adopted label/hash and original generation prompt/reference not recovered"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of this exact SW normal gel-ring sprite. Match the normal silhouette, lean, thickness, and central throughhole/side occlusion precisely; do not open a hole that is hidden edge-on in the normal. Preserve TWO upper frontal purple eyes. Exactly3 lower embedded golden bubbles as in normal, same centers and depth; on rear they are muted pale internal shapes, not extra surface bubbles. Same thick closed purple ring with cream gel patterns, no legs/arms/tail/axle/metal or outer protrusions. Keep same direction and all feature positions, change rendering medium only. Intentional128x128 logical pixel grid, at most32 visible flat colors, crisp dark outline, opaque pixels or full transparent background only, no antialiasing/blur. Rear has no eyes; bubble total3 never duplicated. Full centered sprite with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "8cd8765fd3f3d6bd37e12f4c80a8a09608aa299c5b9339be13858b57c36c6743",
+      "reference_hashes": [
+        "c9539c4c4d256cf5509c5ba7cf945d3c701148d05cb6486d753d23ca8dd6e69b"
+      ],
+      "final_sha256": "757b7ba07b66f5a022f9391b857747e3245fc447ed2fe9727cba96017e573a91"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "raw_sha256": "66a3922e0035c1ce743b64f82f6e318637a19127dd6d42ae05417fd8cbd80619",
+      "final_sha256": "86bb035b77292fe73361103f0eb14e2769ac78a320d8aa5c7c572dbc0fad212f",
+      "provenance_status": "Recovery-time visual reselection; historical adopted label/hash and original generation prompt/reference not recovered"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of this exact W normal gel-ring sprite. Match the normal silhouette, lean, thickness, and central throughhole/side occlusion precisely; do not open a hole that is hidden edge-on in the normal. Preserve ONE near upper eye at same side edge. Exactly3 lower embedded golden bubbles as in normal, same centers and depth; on rear they are muted pale internal shapes, not extra surface bubbles. Same thick closed purple ring with cream gel patterns, no legs/arms/tail/axle/metal or outer protrusions. Keep same direction and all feature positions, change rendering medium only. Intentional128x128 logical pixel grid, at most32 visible flat colors, crisp dark outline, opaque pixels or full transparent background only, no antialiasing/blur. Rear has no eyes; bubble total3 never duplicated. Full centered sprite with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "336720e9cf8b7bf6ad03c8875e0ad0aa9ab2e2a5ba9bf516c076026f71e8cd35",
+      "reference_hashes": [
+        "86bb035b77292fe73361103f0eb14e2769ac78a320d8aa5c7c572dbc0fad212f"
+      ],
+      "final_sha256": "f944da18bb644c54ab26142ae8a36cc00e6a9463334bce1a7f2c8e15fb7cd81e"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "prompt": "Precise-object-edit: ONE normal transparent sprite. Keep image1 exact NW REAR OBLIQUE silhouette, thick closed purple gel ring, throughhole, camera and body lean. Correct ONLY the appearance of the three embedded golden air bubbles on lower arc. Image2 straightREAR is material reference: the SAME three front-sector bubbles appear as faint soft embedded internal shapes through LOW-TRANSLUCENCY purple gel, NOT three sharp glossy golden circles newly attached to back. Match that subdued diffuse internal appearance on image1, with a near edge bubble portion only where naturally exposed around rim. Do not move bubble centers around circumference, do not add/delete actual bubbles or create rear duplicates. Keep total3 at fixed lower arc. Rear remains ZERO eyes or mouth. Preserve original purple/cream pattern, glossy gel shading, dark outline, one large open hole, body thickness and view. No limbs/axle/metal/outer protrusions, no pose change. Full character centered on genuine transparent background with margin, no text/ground/shadow.",
+      "raw_sha256": "62b972336c92099ee6f06b4af1494dcde18b8a4aadce9d413d91303cc9403257",
+      "reference_hashes": [
+        "41ea0dcf909a13616d8035386b21a54f1ad5d0725f9ea06cfe8c5174240f686a",
+        "5ef2fba0b99623e09fa34218e205a0b93af86e3e22c0ab1b3e8268b56ee6812e"
+      ],
+      "final_sha256": "2cbe10509c95128904bc0f1a3678a5a269fcfe967e8f59c30da7f06c781daccb"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of this exact NW normal gel-ring sprite. Match the normal silhouette, lean, thickness, and central throughhole/side occlusion precisely; do not open a hole that is hidden edge-on in the normal. Preserve ZERO eyes or face on rear, do not invent dark eye-like marks. Exactly3 lower embedded golden bubbles as in normal, same centers and depth; on rear they are muted pale internal shapes, not extra surface bubbles. Same thick closed purple ring with cream gel patterns, no legs/arms/tail/axle/metal or outer protrusions. Keep same direction and all feature positions, change rendering medium only. Intentional128x128 logical pixel grid, at most32 visible flat colors, crisp dark outline, opaque pixels or full transparent background only, no antialiasing/blur. Rear has no eyes; bubble total3 never duplicated. Full centered sprite with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "08b8633b2687ec39519464cec7da5f71aaa13ef4b8c4534757e59a4d85fa7de3",
+      "reference_hashes": [
+        "2cbe10509c95128904bc0f1a3678a5a269fcfe967e8f59c30da7f06c781daccb"
+      ],
+      "final_sha256": "cec0769c43d7fe92f804b0fe5317e61fdc369c82d17bfd6ff1624e3ff82b1cae"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "raw_sha256": "5ef2fba0b99623e09fa34218e205a0b93af86e3e22c0ab1b3e8268b56ee6812e",
+      "final_sha256": "9268b6fb93466974dd13ab9a2614ada5ad7f967b68f4c6a5856e933cadb91590",
+      "provenance_status": "Recovery-time visual reselection; historical adopted label/hash and original generation prompt/reference not recovered"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of this exact N normal gel-ring sprite. Match the normal silhouette, lean, thickness, and central throughhole/side occlusion precisely; do not open a hole that is hidden edge-on in the normal. Preserve ZERO eyes or face on rear, do not invent dark eye-like marks. Exactly3 lower embedded golden bubbles as in normal, same centers and depth; on rear they are muted pale internal shapes, not extra surface bubbles. Same thick closed purple ring with cream gel patterns, no legs/arms/tail/axle/metal or outer protrusions. Keep same direction and all feature positions, change rendering medium only. Intentional128x128 logical pixel grid, at most32 visible flat colors, crisp dark outline, opaque pixels or full transparent background only, no antialiasing/blur. Rear has no eyes; bubble total3 never duplicated. Full centered sprite with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "6722ed3cd8c91c287a5f9a675f25f566f0cccf7041503264ccc2702c2dabd41e",
+      "reference_hashes": [
+        "9268b6fb93466974dd13ab9a2614ada5ad7f967b68f4c6a5856e933cadb91590"
+      ],
+      "final_sha256": "405aced44617f2995a22e02f344022166402c6f3205600677ac16fb7becfb7f5"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "prompt": "Precise-object-edit: correct ONLY two unintended golden protruding slivers beyond the RIGHT OUTER CONTOUR of this rear-oblique gel ring (one at mid-right around3oclock, one lower-right around4oclock). Remove those external golden slivers and restore a smooth continuous PURPLE outer ring edge, with transparent background immediately outside. Keep the THREE faint embedded golden bubble shapes INSIDE the lower ring exactly as they are: lower-left, bottom, lower-right. Do not remove these3 internal shapes, do not add another bubble, do not relocate them. These are the same3 embedded original bubbles seen faintly through thick gel. Preserve exact NE direction, big open throughhole, silhouette except removing protrusions, ring thickness, purple/cream texture, gloss and ZERO eyes. No outer protrusions, limbs or face. One transparent sprite, centered, no text/shadow. Everything other than the two external golden slivers stays unchanged.",
+      "raw_sha256": "72ca2dba91886e1c478fc8bfdd2f3cfc221d3cba76e0a5f3278e115690e0daa0",
+      "reference_hashes": [
+        "428a694f935b1b9d07cde99806af6c41f5ec1716e5a3c762acdeb669bb2b2868"
+      ],
+      "final_sha256": "de3c84c2fe3a5a585669cab9db0d2d8c7b8bad59c006b628d277b0df78e64428"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of this exact NE normal gel-ring sprite. Match the normal silhouette, lean, thickness, and central throughhole/side occlusion precisely; do not open a hole that is hidden edge-on in the normal. Preserve ZERO eyes or face on rear, do not invent dark eye-like marks. Exactly3 lower embedded golden bubbles as in normal, same centers and depth; on rear they are muted pale internal shapes, not extra surface bubbles. Same thick closed purple ring with cream gel patterns, no legs/arms/tail/axle/metal or outer protrusions. Keep same direction and all feature positions, change rendering medium only. Intentional128x128 logical pixel grid, at most32 visible flat colors, crisp dark outline, opaque pixels or full transparent background only, no antialiasing/blur. Rear has no eyes; bubble total3 never duplicated. Full centered sprite with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "6faa68df9edd14b7dbe4174dff3def5176f4409905ec83de506ef8af89ab5db8",
+      "reference_hashes": [
+        "de3c84c2fe3a5a585669cab9db0d2d8c7b8bad59c006b628d277b0df78e64428"
+      ],
+      "final_sha256": "0926da01e8f79e98b9b79534ba401a189fcc7447b56dffab019a300c2d7ec520"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "raw_sha256": "526c21b13c0cf8f1fc2c804fb3369b58265b934e69db8f36ab7773c53f29efb8",
+      "final_sha256": "8bf83c44c077717842b61a50e62170f7a803f4f6733a3e06936578644c32c33e",
+      "provenance_status": "Recovery-time visual reselection; historical adopted label/hash and original generation prompt/reference not recovered"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "prompt": "Create ONE crisp pixel-art counterpart of this exact E normal gel-ring sprite. Match the normal silhouette, lean, thickness, and central throughhole/side occlusion precisely; do not open a hole that is hidden edge-on in the normal. Preserve ONE near upper eye at same side edge. Exactly3 lower embedded golden bubbles as in normal, same centers and depth; on rear they are muted pale internal shapes, not extra surface bubbles. Same thick closed purple ring with cream gel patterns, no legs/arms/tail/axle/metal or outer protrusions. Keep same direction and all feature positions, change rendering medium only. Intentional128x128 logical pixel grid, at most32 visible flat colors, crisp dark outline, opaque pixels or full transparent background only, no antialiasing/blur. Rear has no eyes; bubble total3 never duplicated. Full centered sprite with generous transparent margin, no text/ground/shadow.",
+      "raw_sha256": "7973fc56e036efb79966f8bfeea4e9760d8eb5da953be80945b88eea63c5cd9b",
+      "reference_hashes": [
+        "8bf83c44c077717842b61a50e62170f7a803f4f6733a3e06936578644c32c33e"
+      ],
+      "final_sha256": "1e8ee9228a0b1fdc53a22405b9af8da605d478e575340925ebe30f3124b9d8bf"
+    }
+  ],
+  "interpretation": {
+    "fixed_anatomy": "One thick closed elastic gel ring, through-hole, two front eyes, three embedded lower bubbles, no limbs or outer protrusions",
+    "direction_features": "Hole shortens to a closed profile in W/E; front2 eyes, side1, rear0. The same three bubbles have subdued rear transmission.",
+    "repair": "NW/NE bubble contrast harmonized with N. NE v2 had ambiguous extra outer golden slivers; v3 removes both while preserving three internal shapes.",
+    "inference": "Bubble depth and rear transmission inferred; exact rigid3D or angle not claimed",
+    "history": "Old7 kept. Five normal views reselected by actual images; historical adopted labels/prompts not recovered."
+  },
+  "qa": {
+    "technical_all16": true,
+    "source_pair_unchanged": true,
+    "visual": "Normal/pixel eye visibility, ring thickness, hole projection and three embedded bubble correspondence reviewed on white/black",
+    "independent_review": "E independently measured all16 slots and checked hashes/unchanged source pair against main Git tree. All8pair white/black normal-pixel views inspected: ring hole/profile, eyes front2/side1/rear0 and three embedded bubbles correspond. NE v3 removes ambiguous outer extras. Five normals are post-recovery visual reselection, old adoption/prompts unproven. Bubble depth/rear transmission are inferred; exact3D/runtime untested.",
+    "runtime": "pending"
+  }
+}
