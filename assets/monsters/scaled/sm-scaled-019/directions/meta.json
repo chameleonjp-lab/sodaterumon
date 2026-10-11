@@ -1,0 +1,1053 @@
+{
+  "schema_version": 1,
+  "id": "sm-scaled-019",
+  "asset_type": "eight_direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "S",
+  "direction_order": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "nominal_yaw_degrees": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/default.png",
+      "bytes": 583288,
+      "sha256": "8e963d3a8c26d8b8bb3181d3f4b367a0423aece03b9a5aa48740e561f2e6564a",
+      "git_blob_sha": "f86dd40ce139828431df69cb795898c64ac5b7dd",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        79,
+        64,
+        945,
+        960
+      ],
+      "min_margin": 64,
+      "visible_extent": 896,
+      "visible_colors": 54874,
+      "binary_alpha": false,
+      "original_preserved": true,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/pixel.png",
+      "bytes": 6762,
+      "sha256": "bb2baa5ac3d6df2836e233170c4448da0449eb0bceee55e854e733a11f5842d4",
+      "git_blob_sha": "83a54c8fe3c4936ae4714a35155c23d795e00641",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        15,
+        116,
+        112
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": true,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/SW/default.png",
+      "bytes": 573817,
+      "sha256": "730bfc34f05e99090fd826856ad990713aa029a996e3d8e582a767370a0938f8",
+      "git_blob_sha": "073c409f9a6b8e6fca0b19e269d22f8d95fe83f2",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        121,
+        928,
+        903
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 53415,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/SW/pixel.png",
+      "bytes": 7230,
+      "sha256": "218e8491965f8757780f6623584bbe3bdd3241b6e1a207a7a9013cff7913c423",
+      "git_blob_sha": "a4d8a612f8484121ab30c9ef3caa7683723a44be",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        15,
+        116,
+        113
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/W/default.png",
+      "bytes": 576536,
+      "sha256": "efa1f8b634274d54ff007d9611aa476690c2f47da6056741e6dd3af135eb0e92",
+      "git_blob_sha": "b3d682b3f48dbc20f31b9fdc068f6a81d72326e5",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        161,
+        928,
+        862
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 54054,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/W/pixel.png",
+      "bytes": 7759,
+      "sha256": "fae2826c5f1309a66dcc377fefa5bdd932b348a597f4929c57e677fd868bd070",
+      "git_blob_sha": "49b3eaf23dc6b5865b298b72412b2654dab80447",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        18,
+        116,
+        109
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/NW/default.png",
+      "bytes": 528623,
+      "sha256": "5b415f8a2b1378a367e2e3bd6dc529b2f477af427bb27b2c1959c3fa2dc93102",
+      "git_blob_sha": "1fcc119435060f9b3410729db16116b04e517bff",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        186,
+        928,
+        838
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 50239,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/NW/pixel.png",
+      "bytes": 6871,
+      "sha256": "29dc51e3a10c3c0aae91102d7146a0cafe45de7c17eb3736e0c417ec956ca744",
+      "git_blob_sha": "befb25d52eeddf5d56868a7546e047327a44200b",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        22,
+        116,
+        105
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/N/default.png",
+      "bytes": 524858,
+      "sha256": "faeea0d4d5495b65c8ff0adc024dba55a91a1ed36956d07de3d31a84e8088b0b",
+      "git_blob_sha": "d46c1e42a469131def0526493e961fae725c92ed",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        207,
+        928,
+        817
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 53582,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/N/pixel.png",
+      "bytes": 6819,
+      "sha256": "844c6816692ecd08b421bd6956c1b25e97988c4291c823bedbfaecee4aa6111f",
+      "git_blob_sha": "750e30d242c60bd8b7b40f19a494cd0ed2ed4de5",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        23,
+        116,
+        105
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/NE/default.png",
+      "bytes": 520703,
+      "sha256": "35ccf99c519386b53fc0307ea5f7feee1c74d6f325de762b7f6c80624cf6367e",
+      "git_blob_sha": "24252a8f7608325f0096c52319413c23eeb592b0",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        196,
+        928,
+        828
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 50850,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/NE/pixel.png",
+      "bytes": 6923,
+      "sha256": "41eb78ac521e17dc4b5d1609848227177eaad93fc30722b18d1bf602e79abece",
+      "git_blob_sha": "0928dce340fe05d260c4493afb6a2dd96c3216a1",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        19,
+        116,
+        108
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/E/default.png",
+      "bytes": 552571,
+      "sha256": "b521cff6a731a49a21cd83cf2340a2324a441be7eb38580a35f392d6d027429f",
+      "git_blob_sha": "85061488fb2b3ac1b65979beef5a641fa055504d",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        167,
+        928,
+        857
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 54098,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/E/pixel.png",
+      "bytes": 7681,
+      "sha256": "bf56cfcafa2c5aed36296e90f487885ba3e2b343d5fbbe1d879de9ac87581c6d",
+      "git_blob_sha": "2dd6527fa3e2d62af2434ba78e65add28204ce78",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        17,
+        116,
+        111
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/SE/default.png",
+      "bytes": 562057,
+      "sha256": "3174b17af86c00865bd262aad53c55c722efac6a41d13d256245e0bbe3be8b14",
+      "git_blob_sha": "a7541640c39d9f34a87a0c101a8b5b9b1db595c4",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        96,
+        158,
+        928,
+        866
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 54910,
+      "binary_alpha": false,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true
+      }
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "file": "assets/monsters/scaled/sm-scaled-019/directions/SE/pixel.png",
+      "bytes": 7680,
+      "sha256": "6216d010f8f3c0753d2b9f65fb82cd1b95a90aa4053dd78f24782adc6150c55a",
+      "git_blob_sha": "7aa8b79d42579d81f6e8c09fb3780f7998e48b7f",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        12,
+        16,
+        116,
+        111
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "original_preserved": false,
+      "numeric_checks": {
+        "canvas": true,
+        "RGBA": true,
+        "padding": true,
+        "extent": true,
+        "binary_alpha": true,
+        "colors_le32": true
+      }
+    }
+  ],
+  "provenance": [
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: stylized-concept. Image1 is exact creature identity and camera/pose reference. Draw the SAME creature at a new horizontal yaw, rotating all physical features and radial feet together. IMPORTANT: source camera is HIGH and looks down onto broad back. Maintain precisely that elevated camera for EVERY yaw, including side-azimuth views; do NOT lower into an eye-level profile or hide the broad six-scale back. Only yaw changes, no pitch/roll.\nOne low flat circular lavender body, exactly FIVE short radial legs spaced around its perimeter, each a short plum stalk with a round cream/lavender petal-pattern foot. No sixth leg. Exactly SIX large cream petal scales on back: ONE center scale surrounded by a ring of FIVE outer scales. Do not add a seventh plate or split the center. All six scales have lavender petal markings. Small lavender scales fill gaps. TWO small oval dark plum eyes on the front rim only. Exactly ONE small upright fan-shaped tail at rear, pale cream lobed top with lavender inner petals and plum base, tilted almost vertical. Tail is not a leg or flower stem. Keep fan and all five legs anchored at the same relative points on the body as source, and keep tail thickness physically coherent when viewed side-on. Palette #D4B9D4,#E4D89D,#685E82, same rounded contour, glossy restrained cel shading and upper-left highlights. No new arm/wing/mouth/segment. Full single creature on genuine transparent alpha,1024square centeredlongest832 with96margin. No text, scene, ground or shadow, no mirrored copy.\nRequired yaw: FRONT-LEFT SW45. Eyes and front body rim point toward lower-left; upright rear fan moves toward upper-right. Rotate the pentagonal five-leg footprint and six petal plates coherently while keeping high source viewpoint and same back/body thickness ratio.\n",
+      "raw_sha256": "da7a80da70788c566d83d2b59f07c75feaeaa71cac3900c8e7602fab3f6d0949",
+      "raw_file_name": "SW-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "8e963d3a8c26d8b8bb3181d3f4b367a0423aece03b9a5aa48740e561f2e6564a"
+      ],
+      "reference_evidence": "Original raw PNG and exact prompt recovered. Reference source was independently restored from the fixed commit and visually matched; the original pre-recovery local reference-hash ledger was unavailable.",
+      "processing": {
+        "method": "Previously approved alpha<=1 clear, crop transparent margins only, proportionalLANCZOS fit832, center1024; native recovered bytes retained",
+        "crop_bbox": [
+          73,
+          115,
+          1181,
+          1157
+        ],
+        "resize": [
+          832,
+          782
+        ],
+        "offset": [
+          96,
+          121
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "730bfc34f05e99090fd826856ad990713aa029a996e3d8e582a767370a0938f8",
+      "recorded_at": "2026-10-10T13:05:42.857055+00:00"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer\nAsset type: one authentic pixel-art game creature sprite.\nImage 1 is the sole identity and same-direction pose reference. Redraw that precise view as crisp pixel art, without rotating or redesigning it. The flat round lavender body faces lower LEFT; retain its two small front-rim eyes, exactly FIVE short radial stalk feet and ONE upright cream/lavender rear fan at upper right. Preserve exactly SIX cream petal scales: ONE center with lavender petals converging lower left, surrounded by FIVE separate outer cream plates with inward petal markings. Preserve the feet positions, high camera, low body thickness, tail projection, plate layout and overlaps.\nDeliberately draw clean chunky pixel clusters on a logical 128x128 canvas, at most32 opaque colors, binary transparent alpha, consistent 1px dark plum outline, three-tone cel shading, no antialiasing/dither/blur. If delivered enlarged, use nearest-neighbor integer pixel blocks. Longest creature extent about104 logical pixels, centered with at least8 transparent logical pixels on all sides. Genuine transparent background, no ground/shadow/text/frame. Do not merely downsample the normal image; independently render readable pixel contours while preserving all six plates and five feet.\n",
+      "raw_sha256": "09503a37cb03786a69ee9183caccbb60412cc98fd7afd26e228b175627a61586",
+      "raw_file_name": "SW-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "730bfc34f05e99090fd826856ad990713aa029a996e3d8e582a767370a0938f8"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          69,
+          133,
+          1197,
+          1196
+        ],
+        "resize": [
+          104,
+          98
+        ],
+        "offset": [
+          12,
+          15
+        ]
+      },
+      "palette_source_sha256": "bb2baa5ac3d6df2836e233170c4448da0449eb0bceee55e854e733a11f5842d4",
+      "final_sha256": "218e8491965f8757780f6623584bbe3bdd3241b6e1a207a7a9013cff7913c423",
+      "recorded_at": "2026-10-11T01:11:42.540980+00:00"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 3,
+      "prompt": "Use case: precise-object-edit\nImage 1 is the edit target, the left-facing creature. Image 2 is reference ONLY for how thin its upright tail looks edge-on from the opposite side; do not copy image 2's body or its missing plate.\nChange ONLY the upright fan-tail at the upper RIGHT of image 1. Turn its broad plane away from the viewer so it is seen from its thin side edge: a narrow vertical scalloped sliver, approximately half its present horizontal width, preserving the original height, attachment, short plum base and cream/lavender colors. The tail has physical width, so keep a slim cream edge and tiny overlapping hints of lobes; do not display the whole three-lobed face. This is the same fan, not a spike or a flower stem.\nEverything else in image 1 must stay unchanged: LEFT rim eye, exactly FIVE radial feet, exactly SIX cream top scales with central lavender mark converging LEFT, all plate positions, flat rounded lavender body, high viewing camera, highlights, framing and cel-illustration style. Real transparent background; no scene, shadow, labels or text.\n",
+      "raw_sha256": "e662aa589f318e7ecbf6facf018d03fa23d7032b31c540b06fe3304fedc34f29",
+      "raw_file_name": "W-normal-v3.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "1756573da77f351cad0af642e68e529e587b15fc98d0ee1f2f3714b52a94296d",
+        "3b6b728c2b6d0ee8565b6ba4250edc69a05f61fba39a2def7a5e8ed338944b20"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          117,
+          197,
+          1137,
+          1056
+        ],
+        "resize": [
+          832,
+          701
+        ],
+        "offset": [
+          96,
+          161
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "efa1f8b634274d54ff007d9611aa476690c2f47da6056741e6dd3af135eb0e92",
+      "recorded_at": "2026-10-11T01:06:23.839551+00:00"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer\nImage 1 is the sole identity reference and exact LEFT-facing W normal. Independently redraw this same view as authentic logical128x128 pixel art. Maintain high camera and flat lavender round body, one visible LEFT rim eye, exactly FIVE radial short feet and one slim upright edge-on fan at RIGHT. Preserve exactly SIX cream top petal scales (one center plus five outer); center lavender petals converge LEFT, outer markings point inward. Match every leg, scale and tail placement and overlap. Do not rotate, mirror or redesign.\nUse purposeful chunky clusters, clean 1px dark plum contours, three-tone cream/lavender cel shading, maximum32 opaque colors and binary alpha. Crisp stepped pixel edges, no smoothing, blur, antialiasing or dithering. If delivered enlarged use nearest-neighbor blocks. Final logical128 square, creature longest104 pixels with at least8 transparent margin. Genuine transparent background, no ground, shadow, text or border. Keep the narrow tail distinct from the neighboring right foot.\n",
+      "raw_sha256": "f7dc0614b16c391c0905bb2ea0581c067cd99d2eb2d6fc20cf5b009894c99074",
+      "raw_file_name": "W-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "efa1f8b634274d54ff007d9611aa476690c2f47da6056741e6dd3af135eb0e92"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          88,
+          180,
+          1186,
+          1144
+        ],
+        "resize": [
+          104,
+          91
+        ],
+        "offset": [
+          12,
+          18
+        ]
+      },
+      "palette_source_sha256": "bb2baa5ac3d6df2836e233170c4448da0449eb0bceee55e854e733a11f5842d4",
+      "final_sha256": "fae2826c5f1309a66dcc377fefa5bdd932b348a597f4929c57e677fd868bd070",
+      "recorded_at": "2026-10-11T01:12:54.291608+00:00"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit\nImage 1 is the edit target: this same flat round creature facing away toward UPPER LEFT, with the upright fan on its LOWER RIGHT rear. Image 2 is its FRONT identity reference and Image 3 is its directly BACK-facing view, showing that the central plate's painted petal mark turns with the body.\nCorrect the orientation of the lavender three-petal marking on the ONE central cream plate in image 1. The three petals must converge to a point at the UPPER LEFT edge of that central plate, toward the creature's hidden front. Their broad rounded lobes extend diagonally toward LOWER RIGHT. At present they converge at the bottom as though the body still faces the viewer; fix this specific error. Keep the cream plate the same attached size and location, retaining source-style highlights and gently rounded edges. The other FIVE outer cream plates form the surrounding radial ring with their lavender marks pointing inward, keeping all six plates distinguishable.\nPreserve everything else: exactly FIVE existing radial short feet, one upright fan at lower right with natural rear-quarter width, no visible eyes because its front rim faces away, high fixed camera and broad flat lavender body, small filler scales, linework, colors and framing. No new or deleted part, text, ground, shadow or background. Genuine transparent alpha and generous margins.\n",
+      "raw_sha256": "ccb433e51a7ff35a58d396812303e21ac1a99d97a16bc4d1e4afb2f497cbab69",
+      "raw_file_name": "NW-normal-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "31d245188e075761dfb22d7cd58a6bdb760f364449b4857b51da85b21721e0a0",
+        "8e963d3a8c26d8b8bb3181d3f4b367a0423aece03b9a5aa48740e561f2e6564a",
+        "faeea0d4d5495b65c8ff0adc024dba55a91a1ed36956d07de3d31a84e8088b0b"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          117,
+          227,
+          1138,
+          1027
+        ],
+        "resize": [
+          832,
+          652
+        ],
+        "offset": [
+          96,
+          186
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "5b415f8a2b1378a367e2e3bd6dc529b2f477af427bb27b2c1959c3fa2dc93102",
+      "recorded_at": "2026-10-11T01:08:53.855463+00:00"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer\nImage 1 is the sole identity and same-direction normal reference. Redraw it as authentic logical128x128 pixel art. This creature faces away UPPER LEFT. Preserve its low flat lavender circular body, exactly FIVE short radial feet, NO visible eyes, ONE upright fan at lower RIGHT, and exactly SIX cream petal scales: one center and five outer, including the outer plate partially behind the fan. Center lavender petals converge UPPER LEFT and their rounded lobes extend lower right. The five outer markings point inward. Match the normal's camera elevation, contour, all attachments and occlusion, do not mirror or rotate.\nDeliberate chunky clusters, crisp 1px dark plum outline, simple cream/lavender cel shading, maximum32 opaque colors and binary alpha, no antialiasing/blur/dither. Use logical128square with104px longest extent and8px minimum transparent padding; any enlarged preview uses nearest-neighbor blocks. Genuine transparent background, no ground, cast shadow, text or frame. Keep fan and adjacent foot separately recognizable.\n",
+      "raw_sha256": "bf23f536e1e45fe5474716a362399dc0e53161eb0c08eb8529cf344ba08bbb54",
+      "raw_file_name": "NW-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "5b415f8a2b1378a367e2e3bd6dc529b2f477af427bb27b2c1959c3fa2dc93102"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          96,
+          216,
+          1183,
+          1087
+        ],
+        "resize": [
+          104,
+          83
+        ],
+        "offset": [
+          12,
+          22
+        ]
+      },
+      "palette_source_sha256": "bb2baa5ac3d6df2836e233170c4448da0449eb0bceee55e854e733a11f5842d4",
+      "final_sha256": "29dc51e3a10c3c0aae91102d7146a0cafe45de7c17eb3736e0c417ec956ca744",
+      "recorded_at": "2026-10-11T01:13:49.097180+00:00"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: stylized-concept. Image1 is exact creature identity and camera/pose reference. Draw the SAME creature at a new horizontal yaw, rotating all physical features and radial feet together. IMPORTANT: source camera is HIGH and looks down onto broad back. Maintain precisely that elevated camera for EVERY yaw, including side-azimuth views; do NOT lower into an eye-level profile or hide the broad six-scale back. Only yaw changes, no pitch/roll.\nOne low flat circular lavender body, exactly FIVE short radial legs spaced around its perimeter, each a short plum stalk with a round cream/lavender petal-pattern foot. No sixth leg. Exactly SIX large cream petal scales on back: ONE center scale surrounded by a ring of FIVE outer scales. Do not add a seventh plate or split the center. All six scales have lavender petal markings. Small lavender scales fill gaps. TWO small oval dark plum eyes on the front rim only. Exactly ONE small upright fan-shaped tail at rear, pale cream lobed top with lavender inner petals and plum base, tilted almost vertical. Tail is not a leg or flower stem. Keep fan and all five legs anchored at the same relative points on the body as source, and keep tail thickness physically coherent when viewed side-on. Palette #D4B9D4,#E4D89D,#685E82, same rounded contour, glossy restrained cel shading and upper-left highlights. No new arm/wing/mouth/segment. Full single creature on genuine transparent alpha,1024square centeredlongest832 with96margin. No text, scene, ground or shadow, no mirrored copy.\nRequired yaw: BACK N180. Rotate the whole creature half a turn around a vertical axis, so upright rear fan sits nearest lower-center and eyes face away at far upper rim, completely hidden. The center scale lavender petal marking MUST rotate half-turn too: its narrow joining tip points toward upper edge rather than source lower edge. Likewise rotate the entire pentagonal outer-scale arrangement and five-foot footprint, not merely relocate face and fan. Keep the same high camera and body oval thickness. Upright fan partly obscures near lower back naturally.\n",
+      "raw_sha256": "1bf7ea1e6f883497e27c20b5dcba3f172f530dd1a24d6958081282213e32ae8f",
+      "raw_file_name": "N-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "8e963d3a8c26d8b8bb3181d3f4b367a0423aece03b9a5aa48740e561f2e6564a"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          94,
+          269,
+          1160,
+          1050
+        ],
+        "resize": [
+          832,
+          610
+        ],
+        "offset": [
+          96,
+          207
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "faeea0d4d5495b65c8ff0adc024dba55a91a1ed36956d07de3d31a84e8088b0b",
+      "recorded_at": "2026-10-10T13:08:41.084343+00:00"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer\nImage 1 is the sole identity reference: the directly BACK-facing N view of this same creature. Independently redraw precisely this view as logical128x128 pixel art, no pose change. Keep the high camera and low flat lavender round body, exactly FIVE short radial feet, NO visible eyes, ONE upright fan in the lower foreground, and exactly SIX cream top scales: one center surrounded by five outer, the rear outer partly hidden by the fan. Central lavender petal mark converges UP toward its hidden front; rounded lobes extend down. Match the feet, tail base, cream/lavender arrangement, occlusion and outlines to the reference.\nClean deliberate pixel clusters, 1px dark plum outline, simple three-tone cel shading, <=32 opaque colors, binary alpha. No antialiasing, blur or dithering. Logical128 square, creature extent104px, at least8px transparent margin; enlarged output should use nearest-neighbor solid blocks. Real transparent background, no ground/shadow/text/frame, no extra parts. The fan remains distinct from the lower central foot.\n",
+      "raw_sha256": "a649dca71302730d7a139fb556c0c9b8bcd0540952663475ee021ca97662f0f7",
+      "raw_file_name": "N-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "faeea0d4d5495b65c8ff0adc024dba55a91a1ed36956d07de3d31a84e8088b0b"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          69,
+          241,
+          1185,
+          1121
+        ],
+        "resize": [
+          104,
+          82
+        ],
+        "offset": [
+          12,
+          23
+        ]
+      },
+      "palette_source_sha256": "bb2baa5ac3d6df2836e233170c4448da0449eb0bceee55e854e733a11f5842d4",
+      "final_sha256": "844c6816692ecd08b421bd6956c1b25e97988c4291c823bedbfaecee4aa6111f",
+      "recorded_at": "2026-10-11T01:15:05.030913+00:00"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit\nImage 1 is the edit target: the flat round creature faces away toward UPPER RIGHT, with its upright fan on the LOWER LEFT rear. Image 2 is the fixed FRONT identity reference; Image 3 is the directly BACK-facing view. They show the central lavender mark is attached to the back and turns with the creature.\nCorrect ONLY the painted three-petal lavender marking on the ONE central cream plate of image 1. The three petals must converge at the UPPER RIGHT edge of the plate, toward its hidden front; the broad rounded lobes extend toward LOWER LEFT. Currently the point faces the bottom; change that painting orientation while keeping the same cream plate, size, position and highlights. Keep the FIVE outer cream plates as a surrounding radial ring, their lavender marks inward, so exactly SIX large top scales remain.\nEverything else unchanged: exactly FIVE short radial feet in the existing positions, low flat lavender round body, small filler scales, one fan lower left with its rear-quarter face showing, NO visible eyes in this back-quarter view, high viewing camera, restrained cel shading, outline and colors. No extra parts, no ground or shadow, no text. Full single creature on genuine transparent alpha with generous transparent margin.\n",
+      "raw_sha256": "1a53e15ccc2ee5e7cf9f49694e43c5fbc33ee03aa35392691fa99e09c3c656cc",
+      "raw_file_name": "NE-normal-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "6ff63fd7425c233f2abae8d7956f16bc48ed04deb74ea6ae9dcf1804ff07dbbd",
+        "8e963d3a8c26d8b8bb3181d3f4b367a0423aece03b9a5aa48740e561f2e6564a",
+        "faeea0d4d5495b65c8ff0adc024dba55a91a1ed36956d07de3d31a84e8088b0b"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          113,
+          235,
+          1142,
+          1017
+        ],
+        "resize": [
+          832,
+          632
+        ],
+        "offset": [
+          96,
+          196
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "35ccf99c519386b53fc0307ea5f7feee1c74d6f325de762b7f6c80624cf6367e",
+      "recorded_at": "2026-10-11T01:10:05.268288+00:00"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer\nImage 1 is the sole identity and exact same-direction reference. Independently redraw this UPPER RIGHT away-facing creature in logical128x128 pixel art. Match the high camera, flat round lavender body, exactly FIVE short radial feet, NO visible eyes, ONE upright fan at lower LEFT, and exactly SIX cream top petal plates: ONE center plus FIVE outer, with natural fan overlap. The central lavender mark converges UPPER RIGHT and its rounded petals extend toward lower left. Keep the source plate layout, shading regions, feet positions, fan size and attachments, without mirroring or changing yaw.\nDeliberate crisp pixel clusters, 1px dark plum outline, simple cream/lavender cel shading, maximum32 opaque colors, binary alpha. No smoothing, antialiasing, blur or dithering. Logical128square, longest104pixels with8pixel transparent margin; enlarged output uses nearest-neighbor solid blocks. Genuine transparent background, no ground, shadow, text or frame. Five foot tips and six top plates must remain readable at final pixel size.\n",
+      "raw_sha256": "31e09450f087a9a27ab4154728474c2cfca0ec770f32876aada0345c85ee3ead",
+      "raw_file_name": "NE-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "35ccf99c519386b53fc0307ea5f7feee1c74d6f325de762b7f6c80624cf6367e"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          69,
+          157,
+          1215,
+          1136
+        ],
+        "resize": [
+          104,
+          89
+        ],
+        "offset": [
+          12,
+          19
+        ]
+      },
+      "palette_source_sha256": "bb2baa5ac3d6df2836e233170c4448da0449eb0bceee55e854e733a11f5842d4",
+      "final_sha256": "41eb78ac521e17dc4b5d1609848227177eaad93fc30722b18d1bf602e79abece",
+      "recorded_at": "2026-10-11T01:16:16.390758+00:00"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit\nImage 1 is the edit target: the same round, flat lavender creature facing RIGHT, with a narrow upright fan-tail on the LEFT. Image 2 is its fixed front identity reference, showing the required top scale arrangement: ONE central cream plate surrounded by FIVE outer cream petal plates.\nCorrect only the missing fifth outer cream petal plate in image 1. The existing center and four outer plates must remain: upper-left, upper-right, lower-right, lower-left. Add the missing outer plate along the lower back margin, between the current lower-left and lower-right plates, over the exposed lavender gap just above the bottom stalk foot. It is an attached broad cream petal scale of matching thickness with a lavender three-petal marking pointing inward, not an extra foot or tail. Make room through a small local spacing adjustment of the two adjacent plates if necessary; leave the body outline and feet unchanged. Final count exactly SIX large scales: central ONE plus outer FIVE, each distinctly outlined and attached to the back.\nKeep the central mark converging RIGHT, single right-rim visible eye, FIVE radial feet, narrow left edge-on fan tail, elevated camera and flat body, colors, outline and shading. Preserve full-body composition with genuine transparent alpha and generous clear margins. No new feature, text, ground or shadow.\n",
+      "raw_sha256": "1e04367dad23a7343a9ce2448d1e8458f8a4d89fa226e78d80fca7b41ce99472",
+      "raw_file_name": "E-normal-v2.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "3b6b728c2b6d0ee8565b6ba4250edc69a05f61fba39a2def7a5e8ed338944b20",
+        "8e963d3a8c26d8b8bb3181d3f4b367a0423aece03b9a5aa48740e561f2e6564a"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          116,
+          203,
+          1138,
+          1050
+        ],
+        "resize": [
+          832,
+          690
+        ],
+        "offset": [
+          96,
+          167
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "b521cff6a731a49a21cd83cf2340a2324a441be7eb38580a35f392d6d027429f",
+      "recorded_at": "2026-10-11T01:07:32.278669+00:00"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer\nImage 1 is the sole normal reference: this RIGHT-facing creature at high camera. Independently redraw the exact same view in true logical128x128 pixel art, changing medium only. Keep the flat lavender circular body, exactly FIVE short radial feet, one visible RIGHT rim eye, ONE slim upright edge-on fan on LEFT, exactly SIX cream top plates: one center and five outer including the smaller lower-middle plate above the bottom foot. Keep central lavender petals converging RIGHT, inward outer markings, all attachments, camera, proportions and occlusions.\nCrisp intentional stepped contours, 1px dark plum outline, simple cream/lavender cel shading, <=32 opaque colors, binary alpha. No antialiasing, blur, dithering, mirror or yaw change. Logical128square with104pixel extent and8pixel minimum transparent margin; enlarged preview uses nearest-neighbor solid blocks. Genuine transparent background, no ground, cast shadow, text or frame. Do not lose the smaller fifth outer plate or merge the left fan into a foot.\n",
+      "raw_sha256": "4f4819ac72a569a43e5a3219b33ee2429f1661c54d9bb7d7893517d17dacb050",
+      "raw_file_name": "E-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "b521cff6a731a49a21cd83cf2340a2324a441be7eb38580a35f392d6d027429f"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          79,
+          176,
+          1176,
+          1165
+        ],
+        "resize": [
+          104,
+          94
+        ],
+        "offset": [
+          12,
+          17
+        ]
+      },
+      "palette_source_sha256": "bb2baa5ac3d6df2836e233170c4448da0449eb0bceee55e854e733a11f5842d4",
+      "final_sha256": "bf56cfcafa2c5aed36296e90f487885ba3e2b343d5fbbe1d879de9ac87581c6d",
+      "recorded_at": "2026-10-11T01:17:37.360592+00:00"
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: stylized-concept. Image1 is exact creature identity and camera/pose reference. Draw the SAME creature at a new horizontal yaw, rotating all physical features and radial feet together. IMPORTANT: source camera is HIGH and looks down onto broad back. Maintain precisely that elevated camera for EVERY yaw, including side-azimuth views; do NOT lower into an eye-level profile or hide the broad six-scale back. Only yaw changes, no pitch/roll.\nOne low flat circular lavender body, exactly FIVE short radial legs spaced around its perimeter, each a short plum stalk with a round cream/lavender petal-pattern foot. No sixth leg. Exactly SIX large cream petal scales on back: ONE center scale surrounded by a ring of FIVE outer scales. Do not add a seventh plate or split the center. All six scales have lavender petal markings. Small lavender scales fill gaps. TWO small oval dark plum eyes on the front rim only. Exactly ONE small upright fan-shaped tail at rear, pale cream lobed top with lavender inner petals and plum base, tilted almost vertical. Tail is not a leg or flower stem. Keep fan and all five legs anchored at the same relative points on the body as source, and keep tail thickness physically coherent when viewed side-on. Palette #D4B9D4,#E4D89D,#685E82, same rounded contour, glossy restrained cel shading and upper-left highlights. No new arm/wing/mouth/segment. Full single creature on genuine transparent alpha,1024square centeredlongest832 with96margin. No text, scene, ground or shadow, no mirrored copy.\nRequired yaw: FRONT-RIGHT SE315. Eye pair and front rim face lower-right, upright rear fan upper-left. Rotate the central petal motif, all five outer plates and pentagonal feet together with body, same elevated source camera and low oval-body thickness. Fan foreshortening must match oblique azimuth.\n",
+      "raw_sha256": "c469ecd2e742be741931d4ffc0917b6e5029b42cb53f6c62b81b1d8404cdf0aa",
+      "raw_file_name": "SE-normal-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "8e963d3a8c26d8b8bb3181d3f4b367a0423aece03b9a5aa48740e561f2e6564a"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized alpha<=1 clear; transparent margins crop only; proportionalLANCZOS fit832; center1024, no anatomy edits",
+        "crop_bbox": [
+          94,
+          155,
+          1164,
+          1066
+        ],
+        "resize": [
+          832,
+          708
+        ],
+        "offset": [
+          96,
+          158
+        ]
+      },
+      "palette_source_sha256": null,
+      "final_sha256": "3174b17af86c00865bd262aad53c55c722efac6a41d13d256245e0bbe3be8b14",
+      "recorded_at": "2026-10-10T13:12:49.262007+00:00"
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "prompt": "Use case: style-transfer\nImage 1 is the sole identity and pose reference. Independently redraw this same LOWER RIGHT front-quarter creature as true logical128x128 pixel art. Preserve flat lavender round body under high camera, TWO visible small eyes on the front rim, exactly FIVE short radial feet, ONE upright rear fan at upper LEFT, and exactly SIX cream petal top scales: ONE central plus FIVE surrounding. The central lavender marking converges lower RIGHT; the outer markings point inward. Match each foot, scale and tail position, overlap, camera elevation and full-body silhouette. No mirroring, yaw change, new part or deleted part.\nUse clean purposeful pixel clusters, a dark plum 1px outline, simple cream/lavender three-tone cel shading, <=32 opaque colors, binary alpha. No antialiasing, smoothing, blur or dithering. Logical128 square,104px longest extent and at least8px transparent margins. Any enlarged output uses nearest-neighbor solid blocks. Genuine transparent background; no ground, cast shadow, text, frame or glow. All five feet and six top plates remain distinguishable.\n",
+      "raw_sha256": "263737aa6006ab95d3c305387718b5a4526a84277d269439a1f368a831cf4362",
+      "raw_file_name": "SE-pixel-v1.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "generation_reference_sha256": [
+        "3174b17af86c00865bd262aad53c55c722efac6a41d13d256245e0bbe3be8b14"
+      ],
+      "reference_evidence": "Exact executed reference hashes; each pixel used the selected normal of its same direction.",
+      "processing": {
+        "method": "Authorized separately generated pixel alpha128 binary, transparent-margin crop, proportionalNEAREST fit104, nearestRGB immutable source pixel palette without dithering; source palette referenced in source-reference.json, center128",
+        "crop_bbox": [
+          70,
+          118,
+          1196,
+          1146
+        ],
+        "resize": [
+          104,
+          95
+        ],
+        "offset": [
+          12,
+          16
+        ]
+      },
+      "palette_source_sha256": "bb2baa5ac3d6df2836e233170c4448da0449eb0bceee55e854e733a11f5842d4",
+      "final_sha256": "6216d010f8f3c0753d2b9f65fb82cd1b95a90aa4053dd78f24782adc6150c55a",
+      "recorded_at": "2026-10-11T01:18:41.602111+00:00"
+    }
+  ],
+  "qa": {
+    "numeric_and_hash": "passed_16_slots",
+    "visual": "Fixed source and selected seven normals keep flat body, five radial feet, central1+outer5 cream scales, one rear fan, and front-only eyes. Seven independently generated pixel sprites were checked at128px against their matching normals: same facing, five feet, six top plates, fan width/overlap and eye visibility retained.",
+    "limitations": [
+      "A coherent drawn turntable with inferred foreshortening and occlusion, not a measured 3D reconstruction.",
+      "Individual identities of similar outer petal plates and exact 45-degree yaw are not uniquely established. Counts, inward outer markings and front-facing central marking remain consistent.",
+      "The rear outer plate is partly occluded by the fan in rear-quarter/back views. Fan width is shortened in side views.",
+      "The high source camera is retained visually; small changes in body volume and exact attachment depth are not mathematically quantified. In-game rendering has not been tested."
+    ],
+    "in_game": "not_run",
+    "user_acceptance": "pending",
+    "independent_review": "E measured all16 slots/hash and unchanged source pair; all8-pair comparison plus native E pixel and NE normal inspected. Six plates/five radial feet/fan and eye-side projections correspond. Source normal first attempt was a five-foot visibility quality hold, pixel first was superseded with output; no explicit safety-stop marker in available source history. Strict geometry/runtime remain unverified."
+  },
+  "revision_notes": [
+    "Local correction rotated the central petal marking with the W/NW/NE body direction.",
+    "W fan was foreshortened by a separate local edit; E missing fifth outer scale was restored without changing the defined anatomy.",
+    "Original S pair and all previous raw/quality-held attempts are retained."
+  ]
+}
