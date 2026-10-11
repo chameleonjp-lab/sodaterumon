@@ -1,0 +1,537 @@
+{
+  "schema_version": 1,
+  "id": "sm-gel-008",
+  "asset_type": "direction_review_candidate",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "SE",
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-008/directions/S/default.png",
+      "sha256": "97efcda3133f79a646e87164a3836d6bd8caf8ba66987d663830a87f9a30da2e",
+      "bytes": 607793,
+      "git_blob_sha": "7c03494a0ead26ecc42cd5095136073c827ff257",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        167,
+        928,
+        857
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 41608,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-008/directions/S/pixel.png",
+      "sha256": "38bde2306198cc081ba753771454fb3f30add10bcb63119ebb05b9cb89820405",
+      "bytes": 8461,
+      "git_blob_sha": "3c4e80378fb3ca0bed0908b433d12c668a7c7425",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        19,
+        116,
+        108
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-008/directions/SW/default.png",
+      "sha256": "cd17559590d78dc21a64092d40c2d7eac20842bb9250755e2ad2299199e4eaad",
+      "bytes": 623505,
+      "git_blob_sha": "a602c8a656bf302cd6d4634b6a5924f46356272f",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        152,
+        928,
+        871
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 45806,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-008/directions/SW/pixel.png",
+      "sha256": "cb3d271326c821beb78c65bd5f872af28d0442d80179f0db572045b68f191457",
+      "bytes": 8931,
+      "git_blob_sha": "56a7b96e35e52f63844c9d40fa26648cd543877c",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        17,
+        116,
+        110
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-008/directions/W/default.png",
+      "sha256": "1f9487dc32e45271ed573aa510db407252bbf8da0582c032a38958ed25b54e8e",
+      "bytes": 521633,
+      "git_blob_sha": "eb6b3c7eaa7485dbf4d6296996976b356541b7f3",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        209,
+        928,
+        814
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 36828,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-008/directions/W/pixel.png",
+      "sha256": "0fd5fc00900bd8b6b1c012eccbd5213a05f0b4b901b4e62466ff7102ced86599",
+      "bytes": 7673,
+      "git_blob_sha": "5ba34be7c0729126a85d18d595c90d969e160f86",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        23,
+        116,
+        105
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 31,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-008/directions/NW/default.png",
+      "sha256": "088e5dff9ea848987ab136b32fee1e0323722a9a57542aad26945fe94b61a540",
+      "bytes": 576830,
+      "git_blob_sha": "2d9bce85beb640f151eea63b864ab3f85d63f4d2",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        188,
+        928,
+        835
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 33365,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-008/directions/NW/pixel.png",
+      "sha256": "1030cf2c10b2aa3a250b6f94f64d9c7fdebe8cf471ad1184d9955ffd08cee0e7",
+      "bytes": 8401,
+      "git_blob_sha": "1cc7232283ddde4592431d9761358456e576e999",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        21,
+        116,
+        107
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-008/directions/N/default.png",
+      "sha256": "cd43933723462d4f62d8e2d3ceaf44e7b70713143631cc4a7c5655258cf6812a",
+      "bytes": 569390,
+      "git_blob_sha": "d65a994d8152e6d5b001fbdcc76da7ac436a5184",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        215,
+        928,
+        809
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 37407,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-008/directions/N/pixel.png",
+      "sha256": "2cba06eb18d28295f059de7f68c7d5a02094d240381b3e1c57b609b9cfdde9e4",
+      "bytes": 7553,
+      "git_blob_sha": "96cd332ba07ec88a305cc55a0039d11a6d63f4aa",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        24,
+        116,
+        103
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 28,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-008/directions/NE/default.png",
+      "sha256": "a0591b9eefeb3df108256c8720f8696a93b2f0a81e542e790608813e23d16ba9",
+      "bytes": 609011,
+      "git_blob_sha": "73fa77e58ce8c067777c0752a272caf0d0cb5ffe",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        161,
+        928,
+        863
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 34648,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-008/directions/NE/pixel.png",
+      "sha256": "f055f0d0551e22d407361b2638a925d90bc19b1091fe73fb202170eef47bcdb4",
+      "bytes": 8938,
+      "git_blob_sha": "d97c63f20aa3f14a394bf637164cf9136277dc86",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        18,
+        116,
+        110
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-008/directions/E/default.png",
+      "sha256": "a54aee130265b03bb1340a0f3feea561744daa560587ecbd0244958a515f23d7",
+      "bytes": 495073,
+      "git_blob_sha": "c4a75dfa0919b39777c603fdae28ec96f67ec568",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        96,
+        230,
+        928,
+        794
+      ],
+      "min_margin": 96,
+      "visible_extent": 832,
+      "visible_colors": 32037,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-008/directions/E/pixel.png",
+      "sha256": "4675ee8fd6f1eac92572678b9384ba0b0585f264fdee809508ab7d6381642987",
+      "bytes": 6922,
+      "git_blob_sha": "70a7df82a8bf8131731bcca8b2800caefb25bc8b",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        25,
+        116,
+        102
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "file": "assets/monsters/gel/sm-gel-008/default.png",
+      "sha256": "e8dad2b0d336ef41a84b678f26d3efc5cc6e50fcda52039a9e1acd336e94b22b",
+      "bytes": 553854,
+      "git_blob_sha": "4f05ca463b019b15e97590921035a7f3070fa517",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "bbox": [
+        99,
+        64,
+        924,
+        960
+      ],
+      "min_margin": 64,
+      "visible_extent": 896,
+      "visible_colors": 42130,
+      "binary_alpha": false,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "file": "assets/monsters/gel/sm-gel-008/pixel.png",
+      "sha256": "6935a2f73fac0cadb25a3f0819006e9ef5ab8a2355faa3f1a45d1fb47deba99d",
+      "bytes": 6876,
+      "git_blob_sha": "0b14675b915c020188a383f3843f8d6592acc4e8",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        12,
+        18,
+        116,
+        110
+      ],
+      "min_margin": 12,
+      "visible_extent": 104,
+      "visible_colors": 32,
+      "binary_alpha": true,
+      "technical_pass": true
+    }
+  ],
+  "generation_provenance": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "raw_sha256": "b6c1542242631c03508732a29fe024f6dc9ca879ef93a1920d2999236c68d637",
+      "final_sha256": "97efcda3133f79a646e87164a3836d6bd8caf8ba66987d663830a87f9a30da2e",
+      "provenance_status": "Recovery-time visual reselection; historical adopted label/hash and original generation prompt/reference not recovered"
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "prompt": "Style-transfer production pixel sprite of this EXACT S view. Use supplied normal image as sole geometry reference; do not rotate or redesign. Reproduce the identical aqua gel bowl, thick continuous cream rim and open blue hollow, same eye count and position, same visible short rounded feet and occlusions. Physically3 fixed tripod feet, not all need visible. Exactly2 visible eyes. Preserve bowl thickness, rim tilt and elliptic projection, foot attachment positions and silhouette. Crisp hand-crafted low-resolution pixel art designed for128x128, hard square pixels, limited aqua/cream/darkteal palette at most32 visible colors, no antialiasing, no blur, binary transparent background, centered complete single character, no text or ground shadow.",
+      "raw_sha256": "c4c8aa18190963f59bd7a63fa5d654a4b30f4512bc74a00341b49985ec4340b9",
+      "reference_hashes": [
+        "97efcda3133f79a646e87164a3836d6bd8caf8ba66987d663830a87f9a30da2e"
+      ],
+      "final_sha256": "38bde2306198cc081ba753771454fb3f30add10bcb63119ebb05b9cb89820405"
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "raw_sha256": "ec04beb1c9159bfeb3b6395be69d1fae080faa354bd3b1d3bf248596fa7f888d",
+      "final_sha256": "cd17559590d78dc21a64092d40c2d7eac20842bb9250755e2ad2299199e4eaad",
+      "provenance_status": "Recovery-time visual reselection; historical adopted label/hash and original generation prompt/reference not recovered"
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "prompt": "Style-transfer production pixel sprite of this EXACT SW view. Use supplied normal image as sole geometry reference; do not rotate or redesign. Reproduce the identical aqua gel bowl, thick continuous cream rim and open blue hollow, same eye count and position, same visible short rounded feet and occlusions. Physically3 fixed tripod feet, not all need visible. Exactly2 visible eyes. Preserve bowl thickness, rim tilt and elliptic projection, foot attachment positions and silhouette. Crisp hand-crafted low-resolution pixel art designed for128x128, hard square pixels, limited aqua/cream/darkteal palette at most32 visible colors, no antialiasing, no blur, binary transparent background, centered complete single character, no text or ground shadow.",
+      "raw_sha256": "1fb93304baf280c4d0cd379ac3f23bd779fb4439fbb0a5196b2dac7158467c16",
+      "reference_hashes": [
+        "cd17559590d78dc21a64092d40c2d7eac20842bb9250755e2ad2299199e4eaad"
+      ],
+      "final_sha256": "cb3d271326c821beb78c65bd5f872af28d0442d80179f0db572045b68f191457"
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "prompt": "Identity-preserve sprite view correction. Image1 is the unchanged SE identity reference; image2 is the W left-profile edit target. Draw the same deep aqua gel bowl in a TRUE left-facing side view at the same modest elevated camera. Interpret the opening as an oval wider across the face than front-to-back. At side yaw its long left/right axis recedes in depth, so the projected bowl and rim are appreciably narrower than image2, while the body height, thick continuous cream rim and deep open interior stay the same. Rim ellipse is horizontal in the image, not tilted diagonally. Do not just move the eye on the same broad front bowl. Exactly TWO eyes on front physically, only ONE visible tucked at the far LEFT silhouette edge. Three fixed short round feet total: front-center foot appears lower LEFT; near rear foot lower RIGHT; far rear foot naturally hidden behind near rear/bowl, not moved to middle to show all three. No extra feet, handles, lid, arms or tail. Preserve aqua/cream/darkteal palette, glossy translucent gel texture and illustration style. One centered complete sprite, true transparent background, no text or shadow.",
+      "raw_sha256": "d58d24eb6bd931b0291cdf05230a8c6c8bf2a8112bcfcf471f6c80e2e63525db",
+      "reference_hashes": [
+        "e8dad2b0d336ef41a84b678f26d3efc5cc6e50fcda52039a9e1acd336e94b22b",
+        "4f340e769fdbf08e2440a9fbc2b1b7699c839ee24888f4eccdc5c6bad6967f2f"
+      ],
+      "final_sha256": "1f9487dc32e45271ed573aa510db407252bbf8da0582c032a38958ed25b54e8e"
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "prompt": "Style-transfer production pixel sprite of this EXACT W view. Use supplied normal image as sole geometry reference; do not rotate or redesign. Reproduce the identical aqua gel bowl, thick continuous cream rim and open blue hollow, same eye count and position, same visible short rounded feet and occlusions. Physically3 fixed tripod feet, not all need visible. Exactly1 visible eye at the same profile edge. Preserve bowl thickness, rim tilt and elliptic projection, foot attachment positions and silhouette. Crisp hand-crafted low-resolution pixel art designed for128x128, hard square pixels, limited aqua/cream/darkteal palette at most32 visible colors, no antialiasing, no blur, binary transparent background, centered complete single character, no text or ground shadow.",
+      "raw_sha256": "b462eb0d6c9c2d34dbdc67efeb5f286fdab4fdcdeb51c35b595574b951273283",
+      "reference_hashes": [
+        "1f9487dc32e45271ed573aa510db407252bbf8da0582c032a38958ed25b54e8e"
+      ],
+      "final_sha256": "0fd5fc00900bd8b6b1c012eccbd5213a05f0b4b901b4e62466ff7102ced86599"
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "raw_sha256": "ab34c0b6a33d04f42ad84f16327f2202e82373cf8938b4ddf1b7ef90894085b7",
+      "final_sha256": "088e5dff9ea848987ab136b32fee1e0323722a9a57542aad26945fe94b61a540",
+      "provenance_status": "Recovery-time visual reselection; historical adopted label/hash and original generation prompt/reference not recovered"
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "prompt": "Style-transfer production pixel sprite of this EXACT NW view. Use supplied normal image as sole geometry reference; do not rotate or redesign. Reproduce the identical aqua gel bowl, thick continuous cream rim and open blue hollow, same eye count and position, same visible short rounded feet and occlusions. Physically3 fixed tripod feet, not all need visible. ZERO eyes on this rear view; no invented face. Preserve bowl thickness, rim tilt and elliptic projection, foot attachment positions and silhouette. Crisp hand-crafted low-resolution pixel art designed for128x128, hard square pixels, limited aqua/cream/darkteal palette at most32 visible colors, no antialiasing, no blur, binary transparent background, centered complete single character, no text or ground shadow.",
+      "raw_sha256": "45b65cd700baf17d548d1bb618a3a39b88cc539c5c0acc27a0f5a79fa105bb5c",
+      "reference_hashes": [
+        "088e5dff9ea848987ab136b32fee1e0323722a9a57542aad26945fe94b61a540"
+      ],
+      "final_sha256": "1030cf2c10b2aa3a250b6f94f64d9c7fdebe8cf471ad1184d9955ffd08cee0e7"
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "raw_sha256": "c85544686d6936d33d42b6a050c8d4ddc7c5a41520cd791c5179cc8d97137c83",
+      "final_sha256": "cd43933723462d4f62d8e2d3ceaf44e7b70713143631cc4a7c5655258cf6812a",
+      "provenance_status": "Recovery-time visual reselection; historical adopted label/hash and original generation prompt/reference not recovered"
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "prompt": "Style-transfer production pixel sprite of this EXACT N view. Use supplied normal image as sole geometry reference; do not rotate or redesign. Reproduce the identical aqua gel bowl, thick continuous cream rim and open blue hollow, same eye count and position, same visible short rounded feet and occlusions. Physically3 fixed tripod feet, not all need visible. ZERO eyes on this rear view; no invented face. Preserve bowl thickness, rim tilt and elliptic projection, foot attachment positions and silhouette. Crisp hand-crafted low-resolution pixel art designed for128x128, hard square pixels, limited aqua/cream/darkteal palette at most32 visible colors, no antialiasing, no blur, binary transparent background, centered complete single character, no text or ground shadow.",
+      "raw_sha256": "87a3d35959b5d3189ef82887500312725349251aad8c48fa730be19d5e5564a1",
+      "reference_hashes": [
+        "cd43933723462d4f62d8e2d3ceaf44e7b70713143631cc4a7c5655258cf6812a"
+      ],
+      "final_sha256": "2cba06eb18d28295f059de7f68c7d5a02094d240381b3e1c57b609b9cfdde9e4"
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "raw_sha256": "b095c5e1d2594ba9d4c61deac36520adb2b5a94787420bb69ad27b31ac54c45a",
+      "final_sha256": "a0591b9eefeb3df108256c8720f8696a93b2f0a81e542e790608813e23d16ba9",
+      "provenance_status": "Recovery-time visual reselection; historical adopted label/hash and original generation prompt/reference not recovered"
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "prompt": "Style-transfer production pixel sprite of this EXACT NE view. Use supplied normal image as sole geometry reference; do not rotate or redesign. Reproduce the identical aqua gel bowl, thick continuous cream rim and open blue hollow, same eye count and position, same visible short rounded feet and occlusions. Physically3 fixed tripod feet, not all need visible. ZERO eyes on this rear view; no invented face. Preserve bowl thickness, rim tilt and elliptic projection, foot attachment positions and silhouette. Crisp hand-crafted low-resolution pixel art designed for128x128, hard square pixels, limited aqua/cream/darkteal palette at most32 visible colors, no antialiasing, no blur, binary transparent background, centered complete single character, no text or ground shadow.",
+      "raw_sha256": "e259c1cdd17b7e237d0e70e5d0fd1d0791781269a12450fafcf529d7413cf729",
+      "reference_hashes": [
+        "a0591b9eefeb3df108256c8720f8696a93b2f0a81e542e790608813e23d16ba9"
+      ],
+      "final_sha256": "f055f0d0551e22d407361b2638a925d90bc19b1091fe73fb202170eef47bcdb4"
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "prompt": "Identity-preserve direction sprite. Image1 is the accepted LEFT profile structural counterpart. Image2 is unchanged original SE identity. Image3 is old RIGHT profile requiring correction. Produce the corresponding TRUE RIGHT-facing E side profile of this exact aqua gel deep bowl. Match image1 bowl proportions, height, opening-depth and horizontal cream-rim ellipse, but see the opposite physical side: single visible eye at the far RIGHT front silhouette, front-center round foot below RIGHT, near rear foot below LEFT, third far rear foot naturally occluded. The bowl has exactly3 tripod feet total,2 front eyes total; do not show hidden far eye or move hidden foot just to expose it. No diagonal tilt in rim; oval bowl long anatomical left/right axis recedes into depth at profile. Keep thick uninterrupted ivory rim, open bowl cavity, glossy translucent aqua gel and darkteal outlines identical to source. Preserve body silhouette and width/height of image1 rather than broad diagonal image3. One complete centered sprite on transparent background, no text, no floor shadow, no handles/lid/extra limbs.",
+      "raw_sha256": "dcda59610b67342d27081bafbcf13d95104c5e91719d7de07b51ee6a67e8dbba",
+      "reference_hashes": [
+        "d58d24eb6bd931b0291cdf05230a8c6c8bf2a8112bcfcf471f6c80e2e63525db",
+        "e8dad2b0d336ef41a84b678f26d3efc5cc6e50fcda52039a9e1acd336e94b22b",
+        "14e0ba0348b2cc1371953868af752ac8c3a15efb8eadd42e256bd804d055c532"
+      ],
+      "final_sha256": "a54aee130265b03bb1340a0f3feea561744daa560587ecbd0244958a515f23d7"
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "prompt": "Style-transfer production pixel sprite of this EXACT E view. Use supplied normal image as sole geometry reference; do not rotate or redesign. Reproduce the identical aqua gel bowl, thick continuous cream rim and open blue hollow, same eye count and position, same visible short rounded feet and occlusions. Physically3 fixed tripod feet, not all need visible. Exactly1 visible eye at the same profile edge. Preserve bowl thickness, rim tilt and elliptic projection, foot attachment positions and silhouette. Crisp hand-crafted low-resolution pixel art designed for128x128, hard square pixels, limited aqua/cream/darkteal palette at most32 visible colors, no antialiasing, no blur, binary transparent background, centered complete single character, no text or ground shadow.",
+      "raw_sha256": "a1ebb62dc675ab855b438554d10c47b9e1d69d4f64b4289a5a3829a9da0f672e",
+      "reference_hashes": [
+        "a54aee130265b03bb1340a0f3feea561744daa560587ecbd0244958a515f23d7"
+      ],
+      "final_sha256": "4675ee8fd6f1eac92572678b9384ba0b0585f264fdee809508ab7d6381642987"
+    }
+  ],
+  "interpretation": {
+    "fixed_anatomy": "One deep hollow aqua gel bowl, continuous thick cream rim, two front eyes, three short rounded tripod feet, no arms/wings/tail",
+    "direction_features": "Front-center foot and rear-left/right feet retain triangle; rear foot occludes naturally in profile. Front2 eyes, side1, rear0.",
+    "repair": "W/E profile projections harmonized using counterpart reference, horizontal rim and opposite front-foot/near-rear-foot order.",
+    "inference": "Oval rim long axis, root depth and exact dimension are inferred. Side body height is somewhat lower, accepted as approximate side projection; exact rigid3D or angle not claimed.",
+    "history": "Old45 kept. Five normal views reselected by actual images; historical adopted labels/prompts not recovered."
+  },
+  "qa": {
+    "technical_all16": true,
+    "source_pair_unchanged": true,
+    "visual": "Normal/pixel eye visibility, bowl/rim thickness, opening ellipse and tripod-foot occlusion correspondence reviewed on white/black",
+    "independent_review": "E independently measured all16 slots and checked hashes/unchanged source pair against main Git tree. All8pair white/black normal-pixel views inspected: white rim, basin thickness, eyes front2/side1/rear0 and three legs correspond. W/E normals repaired, other five normals are post-recovery visual reselection with old adoption/prompts unproven. Ellipse axis, side height and leg depth are inferred; exact3D/runtime untested.",
+    "runtime": "pending"
+  }
+}
