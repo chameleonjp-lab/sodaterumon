@@ -1,0 +1,606 @@
+{
+  "schema_version": 1,
+  "species": "sm-enigma-010",
+  "source_commit": "971a5cf0295e520d0331b1f561ecbe1e5ca63aef",
+  "original_direction": "W",
+  "original_direction_basis": "Inferred W from horizontally aligned large leading sac on image-left and small trailing sac/tails image-right. Supersedes prior provisional SW inference; source bytes unchanged. Individual pose defines large sac as leading; generic image-right default conflicts, retained as source uncertainty. No explicit individual cardinal direction given.",
+  "identity_note": "Large sac leads and bears four wings. Small trailing sac bears BOTH eyes and two tails as actual source. Rear-facing does not imply eyeless.",
+  "direction_convention": {
+    "S": 0,
+    "SW": 45,
+    "W": 90,
+    "NW": 135,
+    "N": 180,
+    "NE": 225,
+    "E": 270,
+    "SE": 315
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "bytes": 520689,
+      "sha256": "6210d70e1511956d2e2cf2f9234d8ff261f8544627bd9e26febe86e495b5c6d8",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        157,
+        928,
+        867
+      ],
+      "visible_colors": 50600,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/S/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "bytes": 6578,
+      "sha256": "dfab0c0a1e423f3d1ba42309d91ac2722b69d65c94379c79843003e8b2f9025b",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        19,
+        116,
+        108
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/S/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "bytes": 468424,
+      "sha256": "9f0023af4b5bf28ca076e503d32928797e7f6e8fb913bf3bbc29b48076395281",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        157,
+        928,
+        866
+      ],
+      "visible_colors": 48628,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/SW/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "bytes": 6388,
+      "sha256": "c87ec410bdc39d4f0309914390b0f6e05a1461cb8e1350973c21d55541b87712",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        18,
+        116,
+        109
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/SW/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "W",
+      "kind": "default.png",
+      "bytes": 448749,
+      "sha256": "a54059efd5e0cc9afd3e845c26b70150c1deeee3ed0f71dce53be85b8be45599",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        80,
+        145,
+        944,
+        879
+      ],
+      "visible_colors": 43764,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/default.png",
+      "original_preserved": true
+    },
+    {
+      "direction": "W",
+      "kind": "pixel.png",
+      "bytes": 8179,
+      "sha256": "1925a9ffe4ce72cface65b9b85013777979ae314cf8c038804f5a7afa7f260c9",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        10,
+        17,
+        118,
+        111
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/pixel.png",
+      "original_preserved": true
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "bytes": 437049,
+      "sha256": "e9bee58eaa7988dbe578c834f7192274d6e262ba20a7c6ed5ee115da532093ea",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        144,
+        928,
+        879
+      ],
+      "visible_colors": 43086,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/NW/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "bytes": 6455,
+      "sha256": "1aca13198b4acc887012410fffe68c9216ee278056920c9a8eb54261e4841a60",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        16,
+        116,
+        112
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/NW/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "bytes": 553433,
+      "sha256": "3ef757068cc03b6623d838f79c33c6f8dd43d817ef928bf804fe9464e66a5c7a",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        111,
+        928,
+        912
+      ],
+      "visible_colors": 54865,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/N/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "bytes": 7348,
+      "sha256": "6549454921afbe85eb5da50cb092447b9a66ccdd2e3e8fea0e5a726835d6110d",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        13,
+        116,
+        114
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/N/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "bytes": 344559,
+      "sha256": "e894458e5cbf135e355654637f498436ab4405f3602b776bd75915efbfa40a4f",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        155,
+        928,
+        869
+      ],
+      "visible_colors": 39396,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/NE/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "bytes": 5257,
+      "sha256": "c1b76218106887619c2bed92e96bf70c66d2ca7556c80188d5cc49555c1434b0",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        18,
+        116,
+        110
+      ],
+      "visible_colors": 30,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/NE/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "bytes": 359883,
+      "sha256": "44b0147cc86dad5a53296bc365fadda03a4c6448abfc8f43aaa79a04c4832da9",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        204,
+        928,
+        819
+      ],
+      "visible_colors": 40546,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/E/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "bytes": 5667,
+      "sha256": "d8499270241281653c539711b4bb5c4a578ce88534a2dd1de213a78fcb530191",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        22,
+        116,
+        105
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/E/pixel.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "bytes": 418704,
+      "sha256": "0afda0c49e7f78f433934cad94bc1897632771801c7be0af6b93b47cc65a3530",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        96,
+        164,
+        928,
+        860
+      ],
+      "visible_colors": 41570,
+      "alpha_values": "continuous",
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/SE/default.png",
+      "original_preserved": false
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "bytes": 5997,
+      "sha256": "cc13046baa605f0f81c42721f001a806b56e705c61d92755cc18141a967bd53a",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        12,
+        17,
+        116,
+        110
+      ],
+      "visible_colors": 29,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "technical_pass": true,
+      "path": "assets/monsters/enigma/sm-enigma-010/directions/SE/pixel.png",
+      "original_preserved": false
+    }
+  ],
+  "generation_lineage": [
+    {
+      "direction": "S",
+      "kind": "default.png",
+      "raw_sha256": "4f7ca501b3e4d6eaf0bf6e7b6e7fde705251524e80ddef3f39ea219d0515b27f",
+      "raw_bytes": 956182,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original, image2 is a new BACK-view topology reference. One hourglass membrane body with a LARGE FRONT/leading sac and SMALL REAR/trailing sac connected by narrow waist. TWO blue eyes AND TWO thin ribbon tails are both attached to SMALL rear sac as original, even when rear-facing. FOUR broad blue/blush membranous fan wings attach only to LARGE sac, two upper and two lower. Zero legs. Keep original sac size ratio, soft beige volume with blue/blush flowing bands, four tapered/lobed wing shapes and two long thin tails ending in pointed blue/blush ribbons. Do not make equal spheres, add arms, remove eyes based solely on front/back labels, or move attachments. Same modest camera elevation; rotate whole creature with natural occlusion, no independent face turning or top-down camera. S FRONT, looking at the LARGE leading sac. Large sac nearest centered, small trailing sac mostly hidden directly behind it. Eyes on small rear sac are naturally hidden by large sac, never added to the large sac. Four wings remain attached to large sac and fan left/right as two upper and two lower. Two narrow tails originate behind from small sac and can peek at sides with natural overlap. Single centered complete creature on genuine transparent background, ample padding, no text/ground/shadow.",
+      "finished_sha256": "6210d70e1511956d2e2cf2f9234d8ff261f8544627bd9e26febe86e495b5c6d8",
+      "references": [
+        {
+          "sha256": "a54059efd5e0cc9afd3e845c26b70150c1deeee3ed0f71dce53be85b8be45599"
+        },
+        {
+          "sha256": "e029abd76c1b113339496038a071d52b495a1b0ce837e424143437d1559f382d"
+        }
+      ]
+    },
+    {
+      "direction": "S",
+      "kind": "pixel.png",
+      "raw_sha256": "8046aea8353436fa0ffb7254abded273d6626c6adeb7dee76067c9514a0c0489",
+      "raw_bytes": 805704,
+      "prompt": "Use case: style-transfer. Redraw EXACT same S reference creature as authentic pixel art on logical128x128 grid. Keep same pose, direction, sac size ratio, waist, four wing shapes/roots and two ribbon tail paths. One LARGE leading sac with exactly FOUR blue/blush fan wings, two upper and two lower. SMALL trailing sac bears BOTH two blue eyes AND two thin tails. In this S front view the small rear sac/eyes are hidden by large leading sac. Do not add eyes on large visible sac. Two tails peek at the sides exactly as reference. Preserve exactly FOUR broad wings, do not invent a fifth small wing or turn thin tail ends into extra wings. Zero legs. Same beige body, flowing blue/blush bands, delicate dark contour; big sac remains clearly larger. Crisp deliberate pixel clusters, limited palette<=32 colors, fully opaque pixels and fully transparent background, no antialias/blur/soft gradients. Full single creature centered with ample padding, no text/ground/shadow. Medium change only.",
+      "finished_sha256": "dfab0c0a1e423f3d1ba42309d91ac2722b69d65c94379c79843003e8b2f9025b",
+      "references": [
+        {
+          "sha256": "6210d70e1511956d2e2cf2f9234d8ff261f8544627bd9e26febe86e495b5c6d8"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "default.png",
+      "raw_sha256": "1210eb48bd8e3f67e039288157ecd61ca8ac48cf84c6131c669d4430f4be673c",
+      "raw_bytes": 928434,
+      "prompt": "Use case: precise-object-edit. Correct only the wing count in this image. It currently shows five broad blue-and-pink fan wings. REMOVE the small extra lower-right fan wing immediately to the right of the big sac, below the narrow waist. Preserve the two upper wings, broad lower-left wing, and long lower-center wing: FOUR fan wings total, all rooted on the large sac. Fill the removed wing region with genuine transparent background, not more body. Keep the exact body/waist/small sac, TWO eyes, TWO thin ribbon tails extending upper-right, front-left direction, palette, proportions, texture, framing and all other four wings unchanged. No new parts, no text or shadow.",
+      "finished_sha256": "9f0023af4b5bf28ca076e503d32928797e7f6e8fb913bf3bbc29b48076395281",
+      "references": [
+        {
+          "sha256": "097322e19002404f26f27bb5783a13d472980cf8e7710394b3e8e1b7d29a8853"
+        }
+      ]
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel.png",
+      "raw_sha256": "5d3e7d8782260d525776904805da0c7a98e34671d88263714edf59131efa9876",
+      "raw_bytes": 757409,
+      "prompt": "Use case: style-transfer. Redraw EXACT same SW reference creature as authentic pixel art on logical128x128 grid. Keep same pose, direction, sac size ratio, waist, four wing shapes/roots and two ribbon tail paths. One LARGE leading sac with exactly FOUR blue/blush fan wings, two upper and two lower. SMALL trailing sac bears BOTH two blue eyes AND two thin tails. Match the visible blue eyes ONLY on small sac, where both tails also attach. Do not remove those eyes just because this is a rear or side view. Preserve exactly FOUR broad wings, do not invent a fifth small wing or turn thin tail ends into extra wings. Zero legs. Same beige body, flowing blue/blush bands, delicate dark contour; big sac remains clearly larger. Crisp deliberate pixel clusters, limited palette<=32 colors, fully opaque pixels and fully transparent background, no antialias/blur/soft gradients. Full single creature centered with ample padding, no text/ground/shadow. Medium change only.",
+      "finished_sha256": "c87ec410bdc39d4f0309914390b0f6e05a1461cb8e1350973c21d55541b87712",
+      "references": [
+        {
+          "sha256": "9f0023af4b5bf28ca076e503d32928797e7f6e8fb913bf3bbc29b48076395281"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "default.png",
+      "raw_sha256": "6ac312d5437e8e8feef6de312121b82374c3f17fde80936246582769cbdc042f",
+      "raw_bytes": 794737,
+      "prompt": "Use case: precise-object-edit. Image1 edit target has FIVE fan wings; image2 original anatomy requires FOUR. Remove ONLY the small fifth blue/blush wing protruding behind the large sac at the screen-right middle edge, between the upper pair and lower pair. Leave genuine transparent background in that small removed wing area. Preserve the existing two broad upper wings and two broad lower wings with their four roots on the large sac, all body/sac/waist shapes, two eyes and two ribbon tails on small sac, exact NW direction, colors, markings, camera and padding. Do not add, reposition or replace any other part. Final four fan wings, two tails, zero legs. Transparent background, no text/shadow.",
+      "finished_sha256": "e9bee58eaa7988dbe578c834f7192274d6e262ba20a7c6ed5ee115da532093ea",
+      "references": [
+        {
+          "sha256": "6cd7dbe47081e9400076c63a23e4d7036558645d40b41e13249c2e46f3c13db7"
+        },
+        {
+          "sha256": "a54059efd5e0cc9afd3e845c26b70150c1deeee3ed0f71dce53be85b8be45599"
+        }
+      ]
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel.png",
+      "raw_sha256": "e67a5b572c6fad194d153fa7d639afce8f7b844ed884f0bc9f30783b2477d41a",
+      "raw_bytes": 769748,
+      "prompt": "Use case: style-transfer. Redraw EXACT same NW reference creature as authentic pixel art on logical128x128 grid. Keep same pose, direction, sac size ratio, waist, four wing shapes/roots and two ribbon tail paths. One LARGE leading sac with exactly FOUR blue/blush fan wings, two upper and two lower. SMALL trailing sac bears BOTH two blue eyes AND two thin tails. Match the visible blue eyes ONLY on small sac, where both tails also attach. Do not remove those eyes just because this is a rear or side view. Preserve exactly FOUR broad wings, do not invent a fifth small wing or turn thin tail ends into extra wings. Zero legs. Same beige body, flowing blue/blush bands, delicate dark contour; big sac remains clearly larger. Crisp deliberate pixel clusters, limited palette<=32 colors, fully opaque pixels and fully transparent background, no antialias/blur/soft gradients. Full single creature centered with ample padding, no text/ground/shadow. Medium change only.",
+      "finished_sha256": "1aca13198b4acc887012410fffe68c9216ee278056920c9a8eb54261e4841a60",
+      "references": [
+        {
+          "sha256": "e9bee58eaa7988dbe578c834f7192274d6e262ba20a7c6ed5ee115da532093ea"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "default.png",
+      "raw_sha256": "e029abd76c1b113339496038a071d52b495a1b0ce837e424143437d1559f382d",
+      "raw_bytes": 918470,
+      "prompt": "Use case: identity-preserve. Create ONE new N BACK-view direction candidate of the exact reference creature, not a redesign. Important unusual anatomy: its LARGE bulging sac is the FRONT/leading end; its SMALL sac is the REAR/trailing end. TWO blue eyes and TWO thin ribbon tails both belong to the SMALL REAR sac, exactly as the reference shows. Do not relocate eyes onto the big sac, and do not remove the rear eyes just because this is a back view. FOUR broad blue-and-blush membranous fan wings attach ONLY to the large sac, two upper and two lower, with the same tapered/lobed shapes and scale. Zero legs. Rotate this whole hourglass-shaped body so the SMALL rear sac is closest to camera, centered in front of the larger far sac. Its two eyes remain on that small sac and may be visible naturally from behind. Two ribbon tails emerge from that same small sac, extending toward the camera and outward to either side with pale pink stems and blue/blush pointed ends. The big far sac remains visibly much larger and connects through the narrow waist; don't turn the two sacs into equal balls or add a neck joint. Four wings spread around the far large sac with natural overlap, roots never moved to the small eye-bearing sac. Same modest camera elevation and floating pose, smooth beige membrane with blue/blush bands, delicate dark contour and soft cel shading. Natural foreshortening/occlusion, no forced hidden-part display. Genuine transparent background, full centered single creature with padding; no floor/shadow/text.",
+      "finished_sha256": "3ef757068cc03b6623d838f79c33c6f8dd43d817ef928bf804fe9464e66a5c7a",
+      "references": [
+        {
+          "sha256": "a54059efd5e0cc9afd3e845c26b70150c1deeee3ed0f71dce53be85b8be45599"
+        }
+      ]
+    },
+    {
+      "direction": "N",
+      "kind": "pixel.png",
+      "raw_sha256": "713c14b9c3da8af030092e356919394487cc47037dd0e0413177d2d60b9911aa",
+      "raw_bytes": 794982,
+      "prompt": "Use case: style-transfer. Redraw EXACT same N reference creature as authentic pixel art on logical128x128 grid. Keep same pose, direction, sac size ratio, waist, four wing shapes/roots and two ribbon tail paths. One LARGE leading sac with exactly FOUR blue/blush fan wings, two upper and two lower. SMALL trailing sac bears BOTH two blue eyes AND two thin tails. Match the visible blue eyes ONLY on small sac, where both tails also attach. Do not remove those eyes just because this is a rear or side view. Preserve exactly FOUR broad wings, do not invent a fifth small wing or turn thin tail ends into extra wings. Zero legs. Same beige body, flowing blue/blush bands, delicate dark contour; big sac remains clearly larger. Crisp deliberate pixel clusters, limited palette<=32 colors, fully opaque pixels and fully transparent background, no antialias/blur/soft gradients. Full single creature centered with ample padding, no text/ground/shadow. Medium change only.",
+      "finished_sha256": "6549454921afbe85eb5da50cb092447b9a66ccdd2e3e8fea0e5a726835d6110d",
+      "references": [
+        {
+          "sha256": "3ef757068cc03b6623d838f79c33c6f8dd43d817ef928bf804fe9464e66a5c7a"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "default.png",
+      "raw_sha256": "8c94abad9f8907a44a8c2dd3d9a965846f29d9d1293d0f2ed7c55e8694890a3d",
+      "raw_bytes": 705769,
+      "prompt": "Use case: precise-object-edit. Image1 edit target has FIVE fan wings; image2 original anatomy requires FOUR. Remove ONLY the extra short upper-left wing directly below the tall upper-left wing and left of the large sac's top edge. Keep the tall upper-left wing, broad upper-right wing, broad lower-right wing and narrow lower-left wing, four total all rooted on the large sac. Leave genuine transparent background where the extra short wing was. Preserve body size ratio, narrow waist, two eyes and two ribbon tails on small sac, exact NE direction, all markings/palette and camera. Do not change the other four wings or tails. Final four fan wings, two tails, zero legs. Transparent background, no text/shadow.",
+      "finished_sha256": "e894458e5cbf135e355654637f498436ab4405f3602b776bd75915efbfa40a4f",
+      "references": [
+        {
+          "sha256": "0f442786052d010451d5075b5169cb72f7e880507082fdbbd3af7736617e868d"
+        },
+        {
+          "sha256": "a54059efd5e0cc9afd3e845c26b70150c1deeee3ed0f71dce53be85b8be45599"
+        }
+      ]
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel.png",
+      "raw_sha256": "fac9ff847710e93b8d76be5f93ead43ce2a57a0502318404a9c489d3908efe84",
+      "raw_bytes": 597560,
+      "prompt": "Use case: style-transfer. Redraw EXACT same NE reference creature as authentic pixel art on logical128x128 grid. Keep same pose, direction, sac size ratio, waist, four wing shapes/roots and two ribbon tail paths. One LARGE leading sac with exactly FOUR blue/blush fan wings, two upper and two lower. SMALL trailing sac bears BOTH two blue eyes AND two thin tails. Match the visible blue eyes ONLY on small sac, where both tails also attach. Do not remove those eyes just because this is a rear or side view. Preserve exactly FOUR broad wings, do not invent a fifth small wing or turn thin tail ends into extra wings. Zero legs. Same beige body, flowing blue/blush bands, delicate dark contour; big sac remains clearly larger. Crisp deliberate pixel clusters, limited palette<=32 colors, fully opaque pixels and fully transparent background, no antialias/blur/soft gradients. Full single creature centered with ample padding, no text/ground/shadow. Medium change only.",
+      "finished_sha256": "c1b76218106887619c2bed92e96bf70c66d2ca7556c80188d5cc49555c1434b0",
+      "references": [
+        {
+          "sha256": "e894458e5cbf135e355654637f498436ab4405f3602b776bd75915efbfa40a4f"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "default.png",
+      "raw_sha256": "ac6160886f2fdb0d5f04e8e2fecc0bf7d55b7a084a2c0c44c1acb1ffbb521226",
+      "raw_bytes": 687519,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original, image2 is a new BACK-view topology reference. One hourglass membrane body with a LARGE FRONT/leading sac and SMALL REAR/trailing sac connected by narrow waist. TWO blue eyes AND TWO thin ribbon tails are both attached to SMALL rear sac as original, even when rear-facing. FOUR broad blue/blush membranous fan wings attach only to LARGE sac, two upper and two lower. Zero legs. Keep original sac size ratio, soft beige volume with blue/blush flowing bands, four tapered/lobed wing shapes and two long thin tails ending in pointed blue/blush ribbons. Do not make equal spheres, add arms, remove eyes based solely on front/back labels, or move attachments. Same modest camera elevation; rotate whole creature with natural occlusion, no independent face turning or top-down camera. E RIGHT side. Large leading sac at screen-right, narrow waist, small eye-bearing trailing sac at screen-left. Body long axis horizontally left/right. Four wings remain on large right sac, paired wings naturally overlap but four wing tips remain recognizable. Two ribbon tails extend left from small sac. Eyes remain on small sac and follow side visibility, not moved to leading big sac. Single centered complete creature on genuine transparent background, ample padding, no text/ground/shadow.",
+      "finished_sha256": "44b0147cc86dad5a53296bc365fadda03a4c6448abfc8f43aaa79a04c4832da9",
+      "references": [
+        {
+          "sha256": "a54059efd5e0cc9afd3e845c26b70150c1deeee3ed0f71dce53be85b8be45599"
+        },
+        {
+          "sha256": "e029abd76c1b113339496038a071d52b495a1b0ce837e424143437d1559f382d"
+        }
+      ]
+    },
+    {
+      "direction": "E",
+      "kind": "pixel.png",
+      "raw_sha256": "b5b39d6947f78fdfa28469b90f22e591351da3a8b8c26420369d8e2e84fd004b",
+      "raw_bytes": 656787,
+      "prompt": "Use case: style-transfer. Redraw EXACT same E reference creature as authentic pixel art on logical128x128 grid. Keep same pose, direction, sac size ratio, waist, four wing shapes/roots and two ribbon tail paths. One LARGE leading sac with exactly FOUR blue/blush fan wings, two upper and two lower. SMALL trailing sac bears BOTH two blue eyes AND two thin tails. Match the visible blue eyes ONLY on small sac, where both tails also attach. Do not remove those eyes just because this is a rear or side view. Preserve exactly FOUR broad wings, do not invent a fifth small wing or turn thin tail ends into extra wings. Zero legs. Same beige body, flowing blue/blush bands, delicate dark contour; big sac remains clearly larger. Crisp deliberate pixel clusters, limited palette<=32 colors, fully opaque pixels and fully transparent background, no antialias/blur/soft gradients. Full single creature centered with ample padding, no text/ground/shadow. Medium change only.",
+      "finished_sha256": "d8499270241281653c539711b4bb5c4a578ce88534a2dd1de213a78fcb530191",
+      "references": [
+        {
+          "sha256": "44b0147cc86dad5a53296bc365fadda03a4c6448abfc8f43aaa79a04c4832da9"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "default.png",
+      "raw_sha256": "f2af6e84483968915e79165613182da809f4af295ed93e70eadd84ee42e3e015",
+      "raw_bytes": 775303,
+      "prompt": "Use case: identity-preserve. Image1 is immutable original, image2 is a new BACK-view topology reference. One hourglass membrane body with a LARGE FRONT/leading sac and SMALL REAR/trailing sac connected by narrow waist. TWO blue eyes AND TWO thin ribbon tails are both attached to SMALL rear sac as original, even when rear-facing. FOUR broad blue/blush membranous fan wings attach only to LARGE sac, two upper and two lower. Zero legs. Keep original sac size ratio, soft beige volume with blue/blush flowing bands, four tapered/lobed wing shapes and two long thin tails ending in pointed blue/blush ribbons. Do not make equal spheres, add arms, remove eyes based solely on front/back labels, or move attachments. Same modest camera elevation; rotate whole creature with natural occlusion, no independent face turning or top-down camera. SE FRONT-RIGHT, opposite front diagonal to original SW. Large leading sac nearest at lower-right, small trailing sac farther upper-left. Four fan wings attach only to large near sac. Two tails emerge from small far sac toward upper-left. Eyes on small far sac may be partly obscured by large sac/waist naturally, not relocated. Preserve same slight camera elevation and floating attitude. Single centered complete creature on genuine transparent background, ample padding, no text/ground/shadow.",
+      "finished_sha256": "0afda0c49e7f78f433934cad94bc1897632771801c7be0af6b93b47cc65a3530",
+      "references": [
+        {
+          "sha256": "a54059efd5e0cc9afd3e845c26b70150c1deeee3ed0f71dce53be85b8be45599"
+        },
+        {
+          "sha256": "e029abd76c1b113339496038a071d52b495a1b0ce837e424143437d1559f382d"
+        }
+      ]
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel.png",
+      "raw_sha256": "68cc1dac1072380d6a0d4583c6ae2e1bdc0c37e42b67addb6bc33d880411e910",
+      "raw_bytes": 765309,
+      "prompt": "Use case: style-transfer. Redraw EXACT same SE reference creature as authentic pixel art on logical128x128 grid. Keep same pose, direction, sac size ratio, waist, four wing shapes/roots and two ribbon tail paths. One LARGE leading sac with exactly FOUR blue/blush fan wings, two upper and two lower. SMALL trailing sac bears BOTH two blue eyes AND two thin tails. Match the visible blue eyes ONLY on small sac, where both tails also attach. Do not remove those eyes just because this is a rear or side view. Preserve exactly FOUR broad wings, do not invent a fifth small wing or turn thin tail ends into extra wings. Zero legs. Same beige body, flowing blue/blush bands, delicate dark contour; big sac remains clearly larger. Crisp deliberate pixel clusters, limited palette<=32 colors, fully opaque pixels and fully transparent background, no antialias/blur/soft gradients. Full single creature centered with ample padding, no text/ground/shadow. Medium change only.",
+      "finished_sha256": "cc13046baa605f0f81c42721f001a806b56e705c61d92755cc18141a967bd53a",
+      "references": [
+        {
+          "sha256": "0afda0c49e7f78f433934cad94bc1897632771801c7be0af6b93b47cc65a3530"
+        }
+      ]
+    }
+  ],
+  "processing": "Normal alpha<8 colored fringe cleanup after visual/quantitative inspection; uniform832 extent RGBA1024. Pixel alpha128 threshold, nearest104 extent, nearest original palette, RGBA128. No shape redraw.",
+  "caveats": [
+    "Original W inferred from horizontal sac/tail alignment; former SW inference superseded without changing source bytes. Generic image-right default conflicts with individual large-sac-leading definition.",
+    "Large sac is leading; small trailing sac has both eyes and tails. Wing-root depth and exact angle are interpolated, not unique3D proof or in-game acceptance.",
+    "Old N not recovered; new N is original-referenced candidate, not historical restoration."
+  ],
+  "review": {
+    "producer": "passed technical16 and visual pair review",
+    "independent": "E measured16slots/hash and originalWpair unchanged against main Git tree; all8pairs and native Npixel inspected. Individual definition large sack leading, small rear sack carrying eyes/two tails explains visible rear eyes. Four wings attach to large sack. OriginalSW-to-W inference correction retained; depth/wing overlap/yaw artistic interpolation and oldNprompt missing remain explicit. Runtime untested.",
+    "in_game_acceptance": "pending"
+  }
+}
