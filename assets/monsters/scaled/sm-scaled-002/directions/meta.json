@@ -1,0 +1,151 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-scaled-002",
+  "design_version": "substantive_redesign_trapezoid_two_disc_feet_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/scaled/sm-scaled-002/default.png",
+      "git_blob_sha": "050c18ca52d8e5a785ec4e40d448c0f7465cc913",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/scaled/sm-scaled-002/pixel.png",
+      "git_blob_sha": "91dc416d6a3be54a8dece728358e07891fcc6868",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/S/default.png",
+      "sha256": "d359005da57d63187f928dc16e2df135889328b48a74632d7f9da101486ea57f",
+      "bytes": 886060
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/S/pixel.png",
+      "sha256": "12e886e1a5c15e26c6054f8f1ce8d0eaf1e33398626ae60039e4742a084e870d",
+      "bytes": 8491
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/SE/default.png",
+      "sha256": "2e5020a5b4c26c90cd42d9fdac383d52a9edc7143dc3ff279e0ef6ed78b56e9b",
+      "bytes": 962090
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/SE/pixel.png",
+      "sha256": "3338d63da6236665057eddfb4b2eb19ab6ef0d3e9aa7d1e6cf4deb7dfd2033db",
+      "bytes": 10359
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/E/default.png",
+      "sha256": "0de25dab05e5e544eb1b1b42b1bf40a48aee031fc8540bf93a9d2cab6d0fd80c",
+      "bytes": 524540
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/E/pixel.png",
+      "sha256": "081dc68859ad5b596f6a80d6148de51f99c9b87d6a5bcbcce470a2b63c75fa60",
+      "bytes": 7271
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/NE/default.png",
+      "sha256": "d3ec53261a648f24038661058892df32e5a9bd4f192a52dfebb7f5a79adc010c",
+      "bytes": 844907
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/NE/pixel.png",
+      "sha256": "d3fe07ff1cc78f09accf2bd8cb5a31f3ff8d60a857ab535b69fe712873dea5b4",
+      "bytes": 11062
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/N/default.png",
+      "sha256": "16ef3aa9218842c9fe2405f0b1eaaeded17a58542f94e4a33c81c4c1dfb8a914",
+      "bytes": 811370
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/N/pixel.png",
+      "sha256": "98cd4b712aabb63dfc4a3e0ab06246c7f22c07e60a8f91bc84c28c8dc4a59dd0",
+      "bytes": 9259
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/NW/default.png",
+      "sha256": "147cabcb3dba6921043da0d536442da6f7ba84c2c37c6f96011ce96d5b2dd50c",
+      "bytes": 939327
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/NW/pixel.png",
+      "sha256": "02192d4ccd73b0e3e35340fabce2ec54eb98217d2975f1a716af19c8f5eb157b",
+      "bytes": 10701
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/W/default.png",
+      "sha256": "a9492ab95f7222b3c7851479c3a54d83a00a71d2645be7579c8c073a75f6ef4a",
+      "bytes": 490660
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/W/pixel.png",
+      "sha256": "1fa4a7f7b450ea744ebebbc27b01dd360937f11c8def562a6f9ee36a080258fc",
+      "bytes": 6519
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/SW/default.png",
+      "sha256": "8cb5cc0cbd7df9399db9c0131d8a16998736773a59e692cb624549e6457d97b1",
+      "bytes": 910038
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-002/directions/SW/pixel.png",
+      "sha256": "79ffcd5254b16dc720e88bda8915291ab3313c4cc1df76e3bf1508217a3e4065",
+      "bytes": 8420
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This is a newly adopted independent trapezoid design. All 16 images were newly generated for this branch, with no legacy images or earlier held-branch images reused. The two legacy root images and original metadata are retained unchanged.",
+    "New anatomy: one thick upright trapezoidal body with wider top and shorter bottom, two eyes only on the upper front face, two rounded disk feet attached at the bottom corners, and one flat horizontal oval scale at the center of the back face. There are no arms, wings or tail. The body has small rectangular matte scales in brickwork rows.",
+    "The legacy crescent profile, broad spatula-like front, four legs and oval-ended tail are not identity requirements of this redesign. S normal defines the new visual identity. Each pixel image was generated with only its corresponding selected direction normal as image reference.",
+    "Front views S/SE/SW show two eyes, side views E/W show one edge eye and partly overlapping feet, and rear views NE/N/NW show no eyes and one central back oval. Hidden geometry and attachment depths are inferred.",
+    "Exact 45-degree yaw spacing and measured 3D reconstruction are unproved. E/W and NE/NW do not have perfectly symmetric pitch, top-face exposure or projected thickness.",
+    "Pixel rendering strengthens scale seams and stepped borders, simplifies eye slivers, and may slightly increase oblique slopes or top-face exposure relative to normal. Palette roles are lavender body (#B8A5CF), pale yellow-green feet and rear oval (#E3E7AF), and muted dark edges (#5B5772), with generated shaded variations rather than exact flat colors.",
+    "SW pixel uses a whole-image MAXCOVERAGE32 reduction of the same successful raw output to retain pale-yellow foot colors. Its silhouette and alpha are identical to the earlier palette derivation; no additional image generation or local repainting was used.",
+    "Runtime and device-scale rendering have not been tested."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
