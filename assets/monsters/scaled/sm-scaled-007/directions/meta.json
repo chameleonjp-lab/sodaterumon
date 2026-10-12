@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "monster_id": "sm-scaled-007",
+  "design_branch": "approved-low-Y-body-three-feet-v1",
+  "substantively_distinct_design": true,
+  "original_root_pair_preserved": true,
+  "old_root_images_used_in_this_branch": 0,
+  "baseline_direction": "S",
+  "direction_basis": "New approved front baseline; orbit the fixed Y-body through eight approximate visual camera views. The immutable old root pair belongs to another design and is not part of this sixteen-image set. Directions are artistic production coordinates, not measured3D or verified game-motion axes.",
+  "new_design": {
+    "label": "三叉鱗台（仮称）",
+    "shape": "上から見るとY字になる、先端を丸めた三叉の一体胴。三叉は同じ高さで中央に太く接合し、各端の下に短い角足1本、合計3脚。前へ伸びる枝の端面に目2個。尾・腕・翼0。",
+    "material": "細かい六角鱗。後ろへ開く2枝の上に、各1枚の丸い大鱗を平らに埋める。",
+    "palette_roles": "#A6AEC1を三叉胴、#E5CBA7を3足と2大鱗、#4C586Dを縁。"
+  },
+  "part_ownership": {
+    "F": "Front branch:2eyes on outward endface,smallhexscales only,one shortblockfoot underneath",
+    "L": "Rear-left branch:1flat smooth round beige scale on top,one shortblockfoot underneath",
+    "R": "Rear-right branch:1flat smooth round beige scale on top,one shortblockfoot underneath"
+  },
+  "assets": [
+    {
+      "direction": "S",
+      "sha256": "1037c697aad697d556cb7f1d782ae6b4da9064268bea34917b21cb64b312566c",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        201,
+        944,
+        824
+      ],
+      "minimum_transparent_margin": 80,
+      "longest_visible_extent": 864,
+      "visible_rgb_colors": 22136,
+      "binary_alpha": false,
+      "technical_pass": true,
+      "variant": "default",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/S/default.png"
+    },
+    {
+      "direction": "S",
+      "sha256": "06a0fdc8f97c6d8efbd702151396a1ef75b7d8182f230d9fd691e063e8700257",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        24,
+        118,
+        103
+      ],
+      "minimum_transparent_margin": 10,
+      "longest_visible_extent": 108,
+      "visible_rgb_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true,
+      "variant": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/S/pixel.png",
+      "reference_default_sha256": "1037c697aad697d556cb7f1d782ae6b4da9064268bea34917b21cb64b312566c"
+    },
+    {
+      "direction": "SW",
+      "sha256": "64d203f708881e1f14f4db1391d7b0a4843c45822e69fc1194cfea783743e28a",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        135,
+        944,
+        889
+      ],
+      "minimum_transparent_margin": 80,
+      "longest_visible_extent": 864,
+      "visible_rgb_colors": 26345,
+      "binary_alpha": false,
+      "technical_pass": true,
+      "variant": "default",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/SW/default.png"
+    },
+    {
+      "direction": "SW",
+      "sha256": "5c0eaef315abb94fad1c999869d030b25657d67a6ebe569d244d2b37ff6765ab",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        14,
+        118,
+        113
+      ],
+      "minimum_transparent_margin": 10,
+      "longest_visible_extent": 108,
+      "visible_rgb_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true,
+      "variant": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/SW/pixel.png",
+      "reference_default_sha256": "64d203f708881e1f14f4db1391d7b0a4843c45822e69fc1194cfea783743e28a"
+    },
+    {
+      "direction": "W",
+      "sha256": "608b686692ea355d62c046d46d8693b17ce48140df4e426944155bfa5bdcc00f",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        81,
+        220,
+        944,
+        804
+      ],
+      "minimum_transparent_margin": 80,
+      "longest_visible_extent": 863,
+      "visible_rgb_colors": 22083,
+      "binary_alpha": false,
+      "technical_pass": true,
+      "variant": "default",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/W/default.png"
+    },
+    {
+      "direction": "W",
+      "sha256": "2483ea516c00344bd15494a09f8931fb2d94fa7dc42d736043c7f3612aeb59d9",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        28,
+        118,
+        100
+      ],
+      "minimum_transparent_margin": 10,
+      "longest_visible_extent": 108,
+      "visible_rgb_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true,
+      "variant": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/W/pixel.png",
+      "reference_default_sha256": "608b686692ea355d62c046d46d8693b17ce48140df4e426944155bfa5bdcc00f"
+    },
+    {
+      "direction": "NW",
+      "sha256": "b0c789bddad572afef2c7ea3521f5adee2d4e4e6f5d2f6d1c2ab435b2bbb920c",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        189,
+        944,
+        836
+      ],
+      "minimum_transparent_margin": 80,
+      "longest_visible_extent": 864,
+      "visible_rgb_colors": 22852,
+      "binary_alpha": false,
+      "technical_pass": true,
+      "variant": "default",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/NW/default.png"
+    },
+    {
+      "direction": "NW",
+      "sha256": "fbb08c25d5390ece95bc67f8475f9b919d1d71f2c159c123304a8772fe94704c",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        23,
+        118,
+        105
+      ],
+      "minimum_transparent_margin": 10,
+      "longest_visible_extent": 108,
+      "visible_rgb_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true,
+      "variant": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/NW/pixel.png",
+      "reference_default_sha256": "b0c789bddad572afef2c7ea3521f5adee2d4e4e6f5d2f6d1c2ab435b2bbb920c"
+    },
+    {
+      "direction": "N",
+      "sha256": "96e6a2b0e57f9ad12938857559d21b7101414885cc1c33efa64d3a56ef5c7e5a",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        81,
+        210,
+        943,
+        814
+      ],
+      "minimum_transparent_margin": 81,
+      "longest_visible_extent": 862,
+      "visible_rgb_colors": 20594,
+      "binary_alpha": false,
+      "technical_pass": true,
+      "variant": "default",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/N/default.png"
+    },
+    {
+      "direction": "N",
+      "sha256": "3c262bca3ef487dfb5ff476aff92c620e85a519ce719c34cdba2e1bd905354e0",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        26,
+        118,
+        102
+      ],
+      "minimum_transparent_margin": 10,
+      "longest_visible_extent": 108,
+      "visible_rgb_colors": 29,
+      "binary_alpha": true,
+      "technical_pass": true,
+      "variant": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/N/pixel.png",
+      "reference_default_sha256": "96e6a2b0e57f9ad12938857559d21b7101414885cc1c33efa64d3a56ef5c7e5a"
+    },
+    {
+      "direction": "NE",
+      "sha256": "6e5a28de4268fa9e0030ed43213743171568f0a26e5bd12307a92d0e9ebb7112",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        172,
+        944,
+        852
+      ],
+      "minimum_transparent_margin": 80,
+      "longest_visible_extent": 864,
+      "visible_rgb_colors": 23790,
+      "binary_alpha": false,
+      "technical_pass": true,
+      "variant": "default",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/NE/default.png"
+    },
+    {
+      "direction": "NE",
+      "sha256": "1e675fe9357ccbbd9fce41762371e5312f74d8a8180421c6072f9442b6c496eb",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        21,
+        118,
+        107
+      ],
+      "minimum_transparent_margin": 10,
+      "longest_visible_extent": 108,
+      "visible_rgb_colors": 30,
+      "binary_alpha": true,
+      "technical_pass": true,
+      "variant": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/NE/pixel.png",
+      "reference_default_sha256": "6e5a28de4268fa9e0030ed43213743171568f0a26e5bd12307a92d0e9ebb7112"
+    },
+    {
+      "direction": "E",
+      "sha256": "363a6dfd5ec85ca0812f4887d3c175eef19beb0c8c45ad988075131e76942f59",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        225,
+        944,
+        799
+      ],
+      "minimum_transparent_margin": 80,
+      "longest_visible_extent": 864,
+      "visible_rgb_colors": 23177,
+      "binary_alpha": false,
+      "technical_pass": true,
+      "variant": "default",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/E/default.png"
+    },
+    {
+      "direction": "E",
+      "sha256": "7b0d58b60c6607f1589ffca6fbd782cbc40c870d4445ebefb023fdb324ea48ad",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        26,
+        118,
+        102
+      ],
+      "minimum_transparent_margin": 10,
+      "longest_visible_extent": 108,
+      "visible_rgb_colors": 31,
+      "binary_alpha": true,
+      "technical_pass": true,
+      "variant": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/E/pixel.png",
+      "reference_default_sha256": "363a6dfd5ec85ca0812f4887d3c175eef19beb0c8c45ad988075131e76942f59"
+    },
+    {
+      "direction": "SE",
+      "sha256": "c6f223ab9da38d002cdf03cc19cbb0580b5e8ee5982ad2f6656afb66027d8bee",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        182,
+        944,
+        842
+      ],
+      "minimum_transparent_margin": 80,
+      "longest_visible_extent": 864,
+      "visible_rgb_colors": 25306,
+      "binary_alpha": false,
+      "technical_pass": true,
+      "variant": "default",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/SE/default.png"
+    },
+    {
+      "direction": "SE",
+      "sha256": "965f02d3073053d333d53352fb6f678860b53345e2a6e2ca87d7457319346a61",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        22,
+        118,
+        105
+      ],
+      "minimum_transparent_margin": 10,
+      "longest_visible_extent": 108,
+      "visible_rgb_colors": 31,
+      "binary_alpha": true,
+      "technical_pass": true,
+      "variant": "pixel",
+      "path": "assets/monsters/scaled/sm-scaled-007/directions/SE/pixel.png",
+      "reference_default_sha256": "c6f223ab9da38d002cdf03cc19cbb0580b5e8ee5982ad2f6656afb66027d8bee"
+    }
+  ],
+  "validation": {
+    "visual_status": "B and parent full16 visual candidate PASS2026-10-12T14:50Z",
+    "technical_status": "B and independent E full16 numeric/hash/meta PASS; all17 returned-call provenance and8 sole-normal pixel references verified.",
+    "game_runtime": "not tested"
+  },
+  "generation_summary": {
+    "new_calls": 17,
+    "selected_new_images": 16,
+    "unselected_quality_baseline": 1,
+    "old_images_reused": 0,
+    "pixel_sole_same_normal_references_verified": 8
+  },
+  "limitations": [
+    "Smallhexscales are coarsened/enlarged in pixelart; highlights and contours are simplified.",
+    "Exact45degree camera yaw, measured3D projection equivalence and precise hidden foot-root depth are unverified.",
+    "N far front foot is partly occluded; it remains one branch-end support, not an extra central foot.",
+    "The original root design remains unchanged and must not be mixed with the new16frames."
+  ],
+  "preserved_original_git_blobs": [
+    {
+      "path": "assets/monsters/scaled/sm-scaled-007/default.png",
+      "sha": "9a50cbc3e82176faf9b8dedd6a92909e204c4705",
+      "size": 612526
+    },
+    {
+      "path": "assets/monsters/scaled/sm-scaled-007/meta.json",
+      "sha": "37a96db57f8ab24bd94ce729269c18a83a881e39",
+      "size": 54148
+    },
+    {
+      "path": "assets/monsters/scaled/sm-scaled-007/pixel.png",
+      "sha": "38e62bcc6557992dfae794ab0f23927f9e8b9264",
+      "size": 5818
+    }
+  ]
+}
