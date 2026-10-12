@@ -1,0 +1,145 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-mineral-017",
+  "design_version": "substantive_redesign_private_candidate_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/mineral/sm-mineral-017/default.png",
+      "git_blob_sha": "cadf46c0336132ce2eb7b86c7c0adee43a452576",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/mineral/sm-mineral-017/pixel.png",
+      "git_blob_sha": "dbd0dc1794b047e12306d2a5fa38f8b602bf8be4",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/S/default.png",
+      "sha256": "f3355825982268a6bf219a2d027e8841fcc13e1a7c9aee8f49a48275355ed8ac",
+      "bytes": 948106
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/S/pixel.png",
+      "sha256": "022b225b6e087489f4639c6ab4750115c90cfb8fd702e5a241cd3075841f3c03",
+      "bytes": 11694
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/SW/default.png",
+      "sha256": "518e48f5d4b28214acb90f9c8afd2bcf092b1a7704be6d4f9d267270473f8b4a",
+      "bytes": 908992
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/SW/pixel.png",
+      "sha256": "66252a4c51ac9e016e3290aa8e39be5a9d83a5ec0702559af28e3d586089157f",
+      "bytes": 11924
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/W/default.png",
+      "sha256": "74f9f784480ee09dbce184c68b0000925aba4d51a0eb92d3ae917e02a86c32a9",
+      "bytes": 641878
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/W/pixel.png",
+      "sha256": "57b0867c0c013ecee28789a1354f1b34e3e813572f8fa821cfed8ba5198556db",
+      "bytes": 8655
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/NW/default.png",
+      "sha256": "080f9c62facaed6d28317a67ca8a03b93fe52c387df6a2848a394f30226031a3",
+      "bytes": 825274
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/NW/pixel.png",
+      "sha256": "78c824c1d25870aa26376a895e319d7123fb8fa65f9f2334731c24580c0ddfef",
+      "bytes": 9783
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/N/default.png",
+      "sha256": "8b689703dfe1b7005f5b8151876441575a3084e0ebe134f71ebfb408b3703d00",
+      "bytes": 905988
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/N/pixel.png",
+      "sha256": "f649561bf02ef08b1cfbd75a0156fb61c7497d80a0fc6c6cd683443d035df8d6",
+      "bytes": 10879
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/NE/default.png",
+      "sha256": "6c39de28653a4758274cb981884d4c86bd909c47ba5d3eca794bf922d7f39d58",
+      "bytes": 843836
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/NE/pixel.png",
+      "sha256": "45c0cf59275290fa525af4f5316424b5bd0601a25c549f1cadf784bb60ddba7b",
+      "bytes": 10187
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/E/default.png",
+      "sha256": "3c56135886778b176cda28573cda31c48d780a6d8adc03413f5983c593d374b1",
+      "bytes": 670861
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/E/pixel.png",
+      "sha256": "440331058cb20d539b7d24c840e1a51d5a31b0f97b41ae5d70ec2a192e48aa05",
+      "bytes": 9293
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/SE/default.png",
+      "sha256": "3c71447031dc83455f656c2a6909fb7ca1bcbb5b141ee9f9d5f8dd752be0c27b",
+      "bytes": 795652
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-017/directions/SE/pixel.png",
+      "sha256": "d622f3fd43ada34ef942484c137718c7dd2370cbe3f736fa7280f375f80a1fd4",
+      "bytes": 8479
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This 16-image set represents a distinct design. The two legacy root images are retained unchanged and are not part of this new set.",
+    "Direction, hidden surfaces and attachment depths are inferred; exact 3D reconstruction and runtime scale have not been verified."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
