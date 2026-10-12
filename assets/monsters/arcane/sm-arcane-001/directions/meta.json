@@ -1,0 +1,145 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-arcane-001",
+  "design_version": "substantive_redesign_private_candidate_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/arcane/sm-arcane-001/default.png",
+      "git_blob_sha": "d4043a37ddd48853c798e561de27af86294e3039",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/arcane/sm-arcane-001/pixel.png",
+      "git_blob_sha": "3e067242badf04dc02eec8773058cfbae197fc35",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/S/default.png",
+      "sha256": "3ded68b38b609b8d4729204d359fe01ad4f9d12744c21a36dd5cd537a29e08c0",
+      "bytes": 314829
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/S/pixel.png",
+      "sha256": "a9e66472de2430438520316c3b6b6946d128de69e16756745868d43f1de6144a",
+      "bytes": 2719
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/SW/default.png",
+      "sha256": "2c01206a739de8a8e2c232fa0f0e903269e08489d5807e6ab5415a22d05bfb9d",
+      "bytes": 352805
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/SW/pixel.png",
+      "sha256": "4e85438f24977240ae3c424851d55e812921e737fbcb37b3616541fc7f4c05ea",
+      "bytes": 3025
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/W/default.png",
+      "sha256": "1a82eec0fb41d9c3db6979da85a1d8b9715ffcb943925162c7d80c651f68383c",
+      "bytes": 286688
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/W/pixel.png",
+      "sha256": "952e6208e45683626c4ee6762da845621bc79532dbfa869f3c96a7aab95b245f",
+      "bytes": 2749
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/NW/default.png",
+      "sha256": "30709706effea8320c85264bb103103212eca19a54691ba8baa0bf1847944d09",
+      "bytes": 327940
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/NW/pixel.png",
+      "sha256": "472a258fbb9c7b3f8152e9b4a5121d27a8a55cbfd77d92bb3cb9b89be51a209a",
+      "bytes": 3465
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/N/default.png",
+      "sha256": "94defab775428116ad262ee59bd725f590e3b65dac78fc2316809515e3d75e2c",
+      "bytes": 285217
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/N/pixel.png",
+      "sha256": "37fe8b57a50bf84c6226b51f839ae579a5937d8bbd17dd265e6b345eb5e49eea",
+      "bytes": 3049
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/NE/default.png",
+      "sha256": "de8d6232843cd421a1f0ac5dc977a35158460afa1eb138402bd1c871d3d32c18",
+      "bytes": 341665
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/NE/pixel.png",
+      "sha256": "f628fa72fb4d041cf64f700f2c26a92e92a66273fc157c153742ae7ab1c12a76",
+      "bytes": 3129
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/E/default.png",
+      "sha256": "b4a5d90887c278f133fde7bdcce32b287a82d73ad67321fc4d0ca7a0cd52de94",
+      "bytes": 276274
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/E/pixel.png",
+      "sha256": "ad74373ddb66e3ed6745cb751f58bc7c9c013ed66aa0fa09e9b4b922c17df8ea",
+      "bytes": 2739
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/SE/default.png",
+      "sha256": "8255376f6c82759b5ea47cb4459a6ab21ec3485de621cef62a8285491b780514",
+      "bytes": 314992
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/arcane/sm-arcane-001/directions/SE/pixel.png",
+      "sha256": "ce63a1853fe44adaf893f686905ee83040492f490d77b125debe558af087d281",
+      "bytes": 3084
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This 16-image set represents a distinct design. The two legacy root images are retained unchanged and are not part of this new set.",
+    "Direction, hidden surfaces and attachment depths are inferred; exact 3D reconstruction and runtime scale have not been verified."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
