@@ -1,0 +1,145 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-scaled-018",
+  "design_version": "substantive_redesign_private_candidate_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/scaled/sm-scaled-018/default.png",
+      "git_blob_sha": "a39e7fade8d9466f4e2f5cd8e9fef6a36a360c65",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/scaled/sm-scaled-018/pixel.png",
+      "git_blob_sha": "e9a2bddf321a02410a55bb956a935af77511729c",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/S/default.png",
+      "sha256": "1ad9528a07c45fd6b6e84df8c5f340aef8904f1587ee8d4078b1d014af33a678",
+      "bytes": 541762
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/S/pixel.png",
+      "sha256": "17450e696e5029fce3c5841dc7ef8575e1da3b34e061cbdf18d4ecee535cd35a",
+      "bytes": 7003
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/SW/default.png",
+      "sha256": "a751eff7c260f866ae3bab3a9de0f697c89b9d50e821c6129ea8959ded49c9ca",
+      "bytes": 565589
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/SW/pixel.png",
+      "sha256": "c981f457ba54f31f6a3d7044b195ba6bc5774ee1b948be97befdd43f148f4bf6",
+      "bytes": 8241
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/W/default.png",
+      "sha256": "8b9bc382637852ffb456929c8ef3227aeca6de302abc1d3ca3999332cda67ab1",
+      "bytes": 569165
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/W/pixel.png",
+      "sha256": "dd20f549704c7b39234da8ba8d058db45027f0ed9e28ff556659c8858a8d3ece",
+      "bytes": 8431
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/NW/default.png",
+      "sha256": "926281fe07c258ac656eaeb0696dddec0f4827ff092c4c0f68bfde316ff8cf61",
+      "bytes": 642177
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/NW/pixel.png",
+      "sha256": "6d51cb924843ffc231dfd550eaaedc96c2da5868d486f590e2f4167c21f02cb2",
+      "bytes": 8911
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/N/default.png",
+      "sha256": "3ef6d1e937b3e35cd61f73855d25e7c6adb273e29b352be8e1b6822b73eb7eb3",
+      "bytes": 559747
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/N/pixel.png",
+      "sha256": "7278261b3d1b86b1c94137daa12e8472dcb38b79d2e4e0e1f1f81559c06ceebb",
+      "bytes": 8312
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/NE/default.png",
+      "sha256": "4c25e890c9beb9d37be03b8e851c2bbbe5dad1251732e06cc80aa5499d81b594",
+      "bytes": 575470
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/NE/pixel.png",
+      "sha256": "b1bf62b6c274edf187b427cd6b1094bc958286d54e7a263b1e7a5e5f63f1aaa2",
+      "bytes": 9009
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/E/default.png",
+      "sha256": "7584f568c2c3390c9660378969e275d2d374d5fd1006ba6517b8296008d3cfed",
+      "bytes": 483318
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/E/pixel.png",
+      "sha256": "0ea713e3e93b9baa170f1fcfb02bd83d4cc6a00da6532b685e06085df20a8152",
+      "bytes": 6886
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/SE/default.png",
+      "sha256": "d5fd254fefa584967566d8ee61ea12f49f155e61b0200fce5dc5b4249e191cb9",
+      "bytes": 630012
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-018/directions/SE/pixel.png",
+      "sha256": "3b6b2aff2c82aff63d3d3e0a514552c4e24385b1e0302f535960f39eb5342e2d",
+      "bytes": 8433
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This 16-image set represents a distinct design. The two legacy root images are retained unchanged and are not part of this new set.",
+    "Direction, hidden surfaces and attachment depths are inferred; exact 3D reconstruction and runtime scale have not been verified."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
