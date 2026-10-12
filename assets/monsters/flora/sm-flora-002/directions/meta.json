@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-flora-002",
+  "design_version": "substantive_redesign_three_leaf_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/flora/sm-flora-002/default.png",
+      "git_blob_sha": "d16456d489feb009dccae150144821d4fdb386eb",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/flora/sm-flora-002/pixel.png",
+      "git_blob_sha": "e6a336d62cf570d28fc53c0699a670011f7ad9a0",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-002/directions/S/default.png",
+      "sha256": "d11dcdf860094c0bb9c025fcae57fbabf91caf3ddaf1cf7d3d3f433236f28cee",
+      "bytes": 591376
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-002/directions/S/pixel.png",
+      "sha256": "200ddd9aab72e3286560ccb14dcfca69c672e774d88d807945c1ce04d0d235d9",
+      "bytes": 9281
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-002/directions/SE/default.png",
+      "sha256": "958e9d176e3a6678a1e9a861537eed08ebebd7fdbdab737213c53bf70675b02f",
+      "bytes": 561728
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-002/directions/SE/pixel.png",
+      "sha256": "e24d63edb8db090988591352ad71a59c54c5001253c665951cac5e65de47b922",
+      "bytes": 8152
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-002/directions/E/default.png",
+      "sha256": "247be09112a8d5ebd39fa3a89861c1590964b26e33aaa10277a483ea93a568f5",
+      "bytes": 257955
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-002/directions/E/pixel.png",
+      "sha256": "b07bcb4f1443d2faa0d7458e95b27767aa6c7db2b0b624dde3bc5252fa2b9b82",
+      "bytes": 4670
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-002/directions/NE/default.png",
+      "sha256": "b7dcb551fdddc035d8e7f973434f8b8bcf7e93772f715624887558abb18d9a98",
+      "bytes": 399934
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-002/directions/NE/pixel.png",
+      "sha256": "7297abd90fcdc3be131fb9e599234d6826e14ac591553bc1a4c1b4577dde8f1e",
+      "bytes": 6852
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-002/directions/N/default.png",
+      "sha256": "2e9654548df8def69773ee61d2a7306dff87d66106c6a888fac476693e12567d",
+      "bytes": 628813
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-002/directions/N/pixel.png",
+      "sha256": "6973f91af4b1c7fd3a03ca8d635096b005f2fe1ae1798ea9971800b7d7d5582b",
+      "bytes": 8925
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-002/directions/NW/default.png",
+      "sha256": "c48fb4d0aec669de36bc65dda2ee900b6ea3c02573d64afd3bb19d0ef07ac8cf",
+      "bytes": 570319
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-002/directions/NW/pixel.png",
+      "sha256": "af2976d3d5babe1378fdb3dac54eabab78bf7d4a8844154476e7058761032a35",
+      "bytes": 8078
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-002/directions/W/default.png",
+      "sha256": "2b115202eba644d258f428769f75c68cc7f55d04225d098e6b816f4a306fb183",
+      "bytes": 336828
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-002/directions/W/pixel.png",
+      "sha256": "a23d0a4f37eda7e95ab075fc8a5efceccb0bea1e43bd9a294db4ecd4215505d9",
+      "bytes": 5335
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-002/directions/SW/default.png",
+      "sha256": "758f631701367e8f10d09359099814f4044b70d4e1d974d9976bb54ff3082446",
+      "bytes": 491323
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-002/directions/SW/pixel.png",
+      "sha256": "d4118c3ca077df0fce38f553367ff120bfdc4dd9e6eda32e460be605a420863a",
+      "bytes": 7504
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This is a newly adopted independent three-leaf design. All 16 images were newly generated for this branch; the two legacy root images are retained unchanged and are not used in this set. Earlier held branches are not reused.",
+    "New anatomy: three separate thin fan leaves meet one stem-top node, with a higher central blade and two lower lateral blades; one upright stem terminates in two connected broad root-foot masses. Two eyes exist only on the central front leaf surface. No arms, wings or tail.",
+    "The legacy curved seedpod, four root legs and coiled tail are not identity requirements of this redesign. The selected normal front S defines the new visual identity. Each selected pixel image was generated using only its own direction normal as the image reference.",
+    "Visible eyes are two in S/SE/SW, one edge eye in E/W and zero in NE/N/NW. Physical leaf count is three; leaf visibility and overlap depend on direction, and occluded leaf parts are inferred.",
+    "NE/NW and E/W expose unequal amounts of leaf face. These are artistic approximate directional projections; exact 45-degree spacing, hidden attachment depth and measured 3D consistency have not been proved.",
+    "Pixel rendering simplifies leaf edges into angular steps, emphasizes veins and outlines, and has minor proportion differences including a slightly taller S silhouette. The fixed palette roles are green leaves (#9FB86F), brown stem/feet (#C48A63) and cream veins (#EBDBC5), with generated lighting shades rather than exact flat-color equivalence.",
+    "Runtime and device-scale rendering have not been tested."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
