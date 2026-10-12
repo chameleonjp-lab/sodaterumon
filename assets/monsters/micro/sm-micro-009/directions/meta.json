@@ -1,0 +1,145 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-micro-009",
+  "design_version": "substantive_redesign_private_candidate_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/micro/sm-micro-009/default.png",
+      "git_blob_sha": "763320fd32fa176c527e41672c3e19d9e71fc0ee",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/micro/sm-micro-009/pixel.png",
+      "git_blob_sha": "f093dd56134579e5d7bde907457bd8c9d43cc7fe",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/micro/sm-micro-009/directions/S/default.png",
+      "sha256": "ac34219fd40673d91d16aedfaaf840c395ab257dcaac37333370a977616a1b1d",
+      "bytes": 616618
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/micro/sm-micro-009/directions/S/pixel.png",
+      "sha256": "6486f8dc1158af99b322542e37ff972740d9467ae8cababb8e222a013b591329",
+      "bytes": 7928
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/micro/sm-micro-009/directions/SW/default.png",
+      "sha256": "487bfdc6ce67ec9bca8729c3ef7e2ab97aea62dc8bb5c08e1a5ae2380319e8f3",
+      "bytes": 394596
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/micro/sm-micro-009/directions/SW/pixel.png",
+      "sha256": "016704d855082712945c203b16e69b1fb678d50d8ba451082a12d9da96dc28e2",
+      "bytes": 5816
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/micro/sm-micro-009/directions/W/default.png",
+      "sha256": "84c13db76773980792d0c6072aaf39d9ac3347c2a5007937455cad85a8f601c8",
+      "bytes": 252179
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/micro/sm-micro-009/directions/W/pixel.png",
+      "sha256": "a126d95df88eea39ba59d91afc8e10bc7804f665cac8840d80f9632f39843726",
+      "bytes": 4212
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/micro/sm-micro-009/directions/NW/default.png",
+      "sha256": "b1171d30091f4e6ae15ade9cc5a844d777e2ab544c8ae141e1773a3a10cfbcfc",
+      "bytes": 395547
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/micro/sm-micro-009/directions/NW/pixel.png",
+      "sha256": "eecabe3c7b0572e098294bc3116a97e63aa48d5a69ed78a10627ea1b61863026",
+      "bytes": 5926
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/micro/sm-micro-009/directions/N/default.png",
+      "sha256": "e14b577dc8098b7e7ca45775035cac369ba112d4c439a00ab3003c5bfd813a68",
+      "bytes": 530746
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/micro/sm-micro-009/directions/N/pixel.png",
+      "sha256": "9984ef7d71e0a5229af686d840e2701eb365b400f6c1b48751a1390539efc463",
+      "bytes": 6940
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/micro/sm-micro-009/directions/NE/default.png",
+      "sha256": "8061b1f9428eda9d157fd669a8079f836f5278ba0eacaf5bd62185f2ea35e161",
+      "bytes": 401323
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/micro/sm-micro-009/directions/NE/pixel.png",
+      "sha256": "e824fa5eb5ec35fc123d52269a8456bc8ad908cee7586fb1c02a986da5b3d3bd",
+      "bytes": 5890
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/micro/sm-micro-009/directions/E/default.png",
+      "sha256": "f72bd621435cc9119debe07725530e3e02b3a6441dc8c615aff49f70986ff4f3",
+      "bytes": 309172
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/micro/sm-micro-009/directions/E/pixel.png",
+      "sha256": "cbe4873843f5fcd57a72517573259ea29e2fe439ecbaa88e63dd9f6f490259a5",
+      "bytes": 4905
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/micro/sm-micro-009/directions/SE/default.png",
+      "sha256": "e161e030fec3360b853d4e70d047607e9cb6a05d879f0c5c2311225c96548ad3",
+      "bytes": 454245
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/micro/sm-micro-009/directions/SE/pixel.png",
+      "sha256": "fc6cf5949e375e4e4977fa86fd87f426c69a0c55eaff3d86604d848c2b17a86e",
+      "bytes": 6694
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This 16-image set represents a distinct design. The two legacy root images are retained unchanged and are not part of this new set.",
+    "Direction, hidden surfaces and attachment depths are inferred; exact 3D reconstruction and runtime scale have not been verified."
+  ],
+  "publication_status": "approved_for_draft_review"
+}

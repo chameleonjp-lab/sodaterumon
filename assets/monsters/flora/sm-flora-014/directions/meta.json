@@ -1,0 +1,145 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-flora-014",
+  "design_version": "substantive_redesign_private_candidate_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/flora/sm-flora-014/default.png",
+      "git_blob_sha": "3eec669598a11269f71c202d0a18b5d8ee2c8737",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/flora/sm-flora-014/pixel.png",
+      "git_blob_sha": "a5ae5cc225ba5c90280958628e0c43982d57268e",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-014/directions/S/default.png",
+      "sha256": "c13cb91b9a124ba896dadf363297016ac161745b44d48b66f96b629114b5897d",
+      "bytes": 1111643
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-014/directions/S/pixel.png",
+      "sha256": "84b3b99b8cc7d737d2ced691de9199a516f0ad71892bb05ab6b55b6557ed35ff",
+      "bytes": 11307
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-014/directions/SW/default.png",
+      "sha256": "f43fd43cf5af4a0a77ac02dc204066c1e9ad97faddad7a79b759130faedaacb8",
+      "bytes": 988524
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-014/directions/SW/pixel.png",
+      "sha256": "94609941c9b833ea04a3912f9f35cdabe795afd91f8f30c417af09df0974eae2",
+      "bytes": 11155
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-014/directions/W/default.png",
+      "sha256": "3ac1cc961bd2bc1198b5a4e8641bf38a05cd7e1914762f2f4bcc10db643e3c85",
+      "bytes": 1066557
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-014/directions/W/pixel.png",
+      "sha256": "bc932a39f629fdec7cf9bab7413c80173019d2fe5e6d1d8933414021d0025c27",
+      "bytes": 11673
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-014/directions/NW/default.png",
+      "sha256": "bb1a6951a877f41f0e1aafcbc5c416a92795424e26062e5674c13bd6c77faaf4",
+      "bytes": 997427
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-014/directions/NW/pixel.png",
+      "sha256": "a0d5ebb5bdaab7966a19584c1877f8a60d53a4b8046169fd9454f382f629c340",
+      "bytes": 12135
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-014/directions/N/default.png",
+      "sha256": "a7490e5755e3b7daa5739a51ffc61177b56c80df87b02fd9cfc0a2f2623fd837",
+      "bytes": 1010851
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-014/directions/N/pixel.png",
+      "sha256": "f05835f42cf191ca6ac47d99e5c1437704dddbae68847e855128540d7bcfbc04",
+      "bytes": 12399
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-014/directions/NE/default.png",
+      "sha256": "0806952b271fad5e4e64ebfbd0414d7feb550bb48cbcf240e985169b0c748ef9",
+      "bytes": 1050328
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-014/directions/NE/pixel.png",
+      "sha256": "5541824da1aaff14b0db3f10bdd64487c2cdfc5d60f74a8489dd6f459393e85b",
+      "bytes": 11652
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-014/directions/E/default.png",
+      "sha256": "0e3472e40b41d6d0d8f5453f8de78c68d02a28207bf609e8677013099063e934",
+      "bytes": 1010509
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-014/directions/E/pixel.png",
+      "sha256": "2cc4bd4022cc7d3228b888cd6118d5ff253c59a0ead8584d336990031e527091",
+      "bytes": 11885
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-014/directions/SE/default.png",
+      "sha256": "8b37ee8e283bab01c9027a41e0c9108f282757a2596a41bca0c72159a8f2e0c3",
+      "bytes": 926978
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-014/directions/SE/pixel.png",
+      "sha256": "6f0dde797b3e24ec32adbb77e6d3f7fdd263c637f8b4c15a18ebf12242a67426",
+      "bytes": 10292
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This 16-image set represents a distinct design. The two legacy root images are retained unchanged and are not part of this new set.",
+    "Direction, hidden surfaces and attachment depths are inferred; exact 3D reconstruction and runtime scale have not been verified."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
