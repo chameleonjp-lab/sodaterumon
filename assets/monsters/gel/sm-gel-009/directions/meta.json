@@ -1,0 +1,145 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-gel-009",
+  "design_version": "substantive_redesign_private_candidate_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/gel/sm-gel-009/default.png",
+      "git_blob_sha": "cfd392104a28ca3c503b66e121eddb3caed9b5bb",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/gel/sm-gel-009/pixel.png",
+      "git_blob_sha": "362f411938c49c17e9dc4c3b514d3e7eb6af402c",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/gel/sm-gel-009/directions/S/default.png",
+      "sha256": "574135f9619afe92aba81a74ae2a46b403e7c79891773ab6282d9d11c1090002",
+      "bytes": 445771
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/gel/sm-gel-009/directions/S/pixel.png",
+      "sha256": "7b476e1b17bcb8318e44c6d2b8f4cfaf8790abda14711bc838d70f09a9ce4a03",
+      "bytes": 3385
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/gel/sm-gel-009/directions/SW/default.png",
+      "sha256": "4f1f64d2639b489d07078ad3cdaa8c2de7c49c736bf56dfd66f69cfc014b3ed5",
+      "bytes": 445224
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/gel/sm-gel-009/directions/SW/pixel.png",
+      "sha256": "fae2a69e87ca33398a53541994b8c24aaa5819d88e128c407b4ee4f4f99424a2",
+      "bytes": 3093
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/gel/sm-gel-009/directions/W/default.png",
+      "sha256": "19768f4690fdd55a854cd477ad3bec895ed2d1ccebb1609bb711672db2ed8a11",
+      "bytes": 463793
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/gel/sm-gel-009/directions/W/pixel.png",
+      "sha256": "205e165f386e29008a7438d5f593a5162edda0b5485040c22dc037f2da2a2e74",
+      "bytes": 3447
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/gel/sm-gel-009/directions/NW/default.png",
+      "sha256": "7fd4acdc6a749911f1e5875f9bc4715aafd1ecc762c9b168083d87622b3488be",
+      "bytes": 428390
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/gel/sm-gel-009/directions/NW/pixel.png",
+      "sha256": "facbc1c313be590e577e5615e7d59adad4cef3ebf8e88457b37f6cbae66d0493",
+      "bytes": 3147
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/gel/sm-gel-009/directions/N/default.png",
+      "sha256": "546963a2cd47701090afbd9053cd08d28ece6d5a098c31b60f4f4625068cd21b",
+      "bytes": 432481
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/gel/sm-gel-009/directions/N/pixel.png",
+      "sha256": "54813ba0209ca570cf4fb27c90f9534fa0ae07002b0d201f1950da5291c5376a",
+      "bytes": 3062
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/gel/sm-gel-009/directions/NE/default.png",
+      "sha256": "48432375f3ec2833bdeed2eb32ecc72737a663b4bc0b64b84354302e699d8b40",
+      "bytes": 426552
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/gel/sm-gel-009/directions/NE/pixel.png",
+      "sha256": "f8a785d37596a22379e599e164713c037b7c63ac9074aef9adb61cda30b3eca2",
+      "bytes": 3612
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/gel/sm-gel-009/directions/E/default.png",
+      "sha256": "c50f20f107fc63549ac500a7d168573cddf4a83e4334f9d57b606bfa53a4cc0e",
+      "bytes": 440413
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/gel/sm-gel-009/directions/E/pixel.png",
+      "sha256": "9706b6a2a0203e01366af254dcd0d969047dd4c0cae6b37807a49f27b576625c",
+      "bytes": 2699
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/gel/sm-gel-009/directions/SE/default.png",
+      "sha256": "457512fd5fb0a1627ea652493ddfdb3f85327961aee03ba73161fcbfebbee897",
+      "bytes": 451956
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/gel/sm-gel-009/directions/SE/pixel.png",
+      "sha256": "f4c25b1a2af330fe655ea74fa6b3869c9d766bcd729453ee97babd741710dd90",
+      "bytes": 3105
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This 16-image set represents a distinct design. The two legacy root images are retained unchanged and are not part of this new set.",
+    "Direction, hidden surfaces and attachment depths are inferred; exact 3D reconstruction and runtime scale have not been verified."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
