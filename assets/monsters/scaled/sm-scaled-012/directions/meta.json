@@ -1,0 +1,151 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-scaled-012",
+  "design_version": "substantive_redesign_limbless_scale_lens_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/scaled/sm-scaled-012/default.png",
+      "git_blob_sha": "3ae11787da8d6c751a821fbf89281fde2d7da670",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/scaled/sm-scaled-012/pixel.png",
+      "git_blob_sha": "1d0d74509c5f6267e4e71d548328d84709b096d5",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/S/default.png",
+      "sha256": "2bb119beebbe2e6e45361407143d9912f918a82d8c8032328bbd59a38bf69f2d",
+      "bytes": 678315
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/S/pixel.png",
+      "sha256": "f3fe706e01c6776968910bf8238419cfd6f929791e5026b041d3ae8b48214cdd",
+      "bytes": 10538
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/SE/default.png",
+      "sha256": "8d983b99e180e3e90a0440f7130efe301a07b11a2df1d89cf319a77edcf80a79",
+      "bytes": 664327
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/SE/pixel.png",
+      "sha256": "9f0523d29d86179627de84fa17f2e4ed55d5186d05404c10f6538651f06da9ac",
+      "bytes": 10499
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/E/default.png",
+      "sha256": "c5d4b5a6aa18e1cdac953c41ffb0d00cbe02e19bb93c436f746b932c7d17a88d",
+      "bytes": 524223
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/E/pixel.png",
+      "sha256": "70429a0518fd36e3b88c914384b17920c8428849e378ee633b75fb90dacf1c64",
+      "bytes": 8136
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/NE/default.png",
+      "sha256": "407f86257c6bff45fee80090b50a1e024e7f6bae9b6f35d8746ab834f6ed2494",
+      "bytes": 589198
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/NE/pixel.png",
+      "sha256": "ba47f95ca0020df9d36ebe42ec19fe9014286c10f3b62c8f2114b8f59e587925",
+      "bytes": 8868
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/N/default.png",
+      "sha256": "e9a302e84f680df8b69db6b6acd3230f512ab925871aeb4524719936c683d853",
+      "bytes": 615139
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/N/pixel.png",
+      "sha256": "de99731a40720d8816e24123d0e15411e6f6165c91653edba4a6a67affc0ce3f",
+      "bytes": 11223
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/NW/default.png",
+      "sha256": "a859b1e52b7c24d2f1c3720fb8546f9d4e85446076a3b21e440560266cdf99db",
+      "bytes": 605541
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/NW/pixel.png",
+      "sha256": "ea4504ace7a93ea6bace7977c801e4442121e32a11597dc780aff824add67e22",
+      "bytes": 9150
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/W/default.png",
+      "sha256": "4d4c45757bb4394c61e529631a83b9cd2a574a1686931a18c7ccc29c02716477",
+      "bytes": 480084
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/W/pixel.png",
+      "sha256": "38b73eabce69e685e638005363c32a3eea543f58632e6c7bf3e3cff54c0373a0",
+      "bytes": 7286
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/SW/default.png",
+      "sha256": "7ccd3b1bbce843be28006fded7796af9e8e9c052c66c2d1df68cf1f981c6c9a9",
+      "bytes": 614810
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-012/directions/SW/pixel.png",
+      "sha256": "2c831e225775e13c1ac21b5994a80b87ffa2be4b45e33054c95398f646feb685",
+      "bytes": 9545
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This is a newly adopted independent scale-lens design. All 16 images were newly generated for this branch; legacy root images remain unchanged and are not used in or referenced by this set.",
+    "New anatomy: one thick upright biconvex oval lens with a rounded bottom, two eyes on the broad front, zero legs, arms, wings or tails, continuous overlapping semicircular scales, and three large flat rhombus scales in one vertical column on the rear. This set is not a validation of the legacy anatomy.",
+    "The selected normal S defines the new identity with a slightly oblique front and small lean. Every selected pixel image was generated using only its own direction normal image. No direction is a mirrored-image substitute.",
+    "Two eyes are visible on the gold front in S, SE and SW; one near eye remains at the front edge in E and W; no eyes appear in NE, N and NW. Three rear rhombi remain visible in NE, N and NW and are occluded in the other views. The side/front color boundary and occlusion are representative directional interpretations.",
+    "The S baseline is slightly oblique rather than a proved straight-front projection. Exact 45-degree yaw spacing, fixed camera elevation and a rigid 3D rotation of the lean have not been established. N appears near upright. At equal normalized height832, W side width362 differs from E width404; that projection-width mismatch remains a limitation. SW has intermediate width478 between S width516 and W width362.",
+    "Individual small-scale placement, scale attachment depth and hidden geometry are artistic inferences. The rear small-scale fill continues the adjacent cool side palette. True 3D geometry has not been proved.",
+    "Pixel rendering simplifies scale microtexture and eye highlights; outlines and shadows are more angular or stronger. The front sand-gold (#CEB178), cool side and large rear scales (#BDCEDD), and slate rims (#595C70) are palette roles represented through generated lighting shades rather than exact flat-color equivalence.",
+    "Runtime and device-scale rendering have not been tested."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
