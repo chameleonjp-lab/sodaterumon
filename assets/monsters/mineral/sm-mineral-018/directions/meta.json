@@ -1,0 +1,151 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-mineral-018",
+  "design_version": "substantive_redesign_upright_ceramic_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/mineral/sm-mineral-018/default.png",
+      "git_blob_sha": "ccfc97dd8b4235e4b508181f2a1a29562abba9d8",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/mineral/sm-mineral-018/pixel.png",
+      "git_blob_sha": "9a3f156825b1669a91708979561c66fba3e73c66",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/S/default.png",
+      "sha256": "d236ba12a5d25ecaceb51c2d39b28b84f72d018fcb298ee2e9fe4f20b85fd285",
+      "bytes": 677464
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/S/pixel.png",
+      "sha256": "99a74ec9dc8020387cefdbeac076b1c18a2f3098c58f203314860990c0098ea3",
+      "bytes": 5627
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/SE/default.png",
+      "sha256": "2ec44c5bc8fb696a28f3795f9069e09d9cb866573a48ac22a9d90b397ca7854b",
+      "bytes": 588295
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/SE/pixel.png",
+      "sha256": "082c96f269f28e47fca7bfeebb1fd915e2c659829dada2a468928f441f478ead",
+      "bytes": 5842
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/E/default.png",
+      "sha256": "082f26f04cd3453b08da5419da0543cc5d211411296ca8e542323c5768f392c1",
+      "bytes": 324877
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/E/pixel.png",
+      "sha256": "2dbac026bd355fd6cea8aa1c6540dab9796677188ff76dc7908b07b87f9db1d6",
+      "bytes": 3763
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/NE/default.png",
+      "sha256": "16e3bab0b24d692939538695c1c69201d81b68961bafe9d907007c8447b04c58",
+      "bytes": 552362
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/NE/pixel.png",
+      "sha256": "92c058bef4dc2fcc9ff62432c1b8043f416fad05d29c96995eac0660bc946ab3",
+      "bytes": 5675
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/N/default.png",
+      "sha256": "ba31913d8c52aff182b933824dd64de3e301c52c118b1dd53ce8b37488e6e494",
+      "bytes": 679832
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/N/pixel.png",
+      "sha256": "8420409d75a34c71ad1cb4f394eda52ef67a410cd6f667d4851247e6df896cd2",
+      "bytes": 4415
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/NW/default.png",
+      "sha256": "f3057850e1ccbe518aaf10612ecc1c44be49d5b416f164b81a7aee920d96ba88",
+      "bytes": 518437
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/NW/pixel.png",
+      "sha256": "5ce5f6e4fa33b967a5631b156fdb17bd8a4ee99e972ff0d533186a438784f60d",
+      "bytes": 5997
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/W/default.png",
+      "sha256": "cf3715f2bbd8ecb607c95e902dda19f0b80ec80045fa696f6a85c493861eb948",
+      "bytes": 310274
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/W/pixel.png",
+      "sha256": "8017f19465cec50a478a5d7c5687e3787896c46b1c31daa808555cc8e7c9b444",
+      "bytes": 3762
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/SW/default.png",
+      "sha256": "840befede6fbb632ca7178aac37159d8ae8d453c3a3dd73cdf6ac73361a5fc8b",
+      "bytes": 594252
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-018/directions/SW/pixel.png",
+      "sha256": "83e50430c973a26ecf02598fed9c4fb7cb5d68f04b5fb526bbf9813f3644d89e",
+      "bytes": 6160
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This is a newly adopted independent upright-ceramic design. All 16 images were newly generated for this branch; legacy root images remain unchanged and are not used in or referenced by this set.",
+    "New anatomy: one thick vertically standing oval fired-ceramic slab, one central eye on the front, two short broad angular feet at the lower left/right edges, and three flat rectangular tiles embedded in a horizontal row across the upper front. No arms, wings, tail, separate upper stone or cavity.",
+    "The legacy low saddle-like clay body, depression, three legs and three tails are not identity requirements of this redesign. The selected normal front S defines its new visual identity. Every selected pixel image was generated using only its own direction normal image as the reference.",
+    "One eye and three tiles are visible in S, SE and SW. They remain on the front face and are occluded in E, NE, N, NW and W. Rear and side surfaces are unmarked. Two physical feet persist; side profiles partly occlude the far foot.",
+    "The broad front/rear, narrow side thickness and foot overlap are artistically consistent directional interpretations. Oblique projection widths vary slightly. Exact 45-degree yaw spacing, fixed camera elevation, hidden foot attachment depth and true 3D geometry have not been proved.",
+    "Pixel rendering simplifies ceramic grain, glaze cracks, rim highlights and the eye highlight; shadows and outlines may be warmer or stronger than in normal images. Individual speckle correspondence is approximate. Fixed palette roles are terracotta slab (#C58972), blue-gray feet (#8C93AA) and cream tiles (#EBCFAC), represented through generated lighting shades rather than exact flat-color equivalence.",
+    "The N pixel selection uses a whole-image MAXCOVERAGE32 palette to retain the blue-gray feet. This is a technical derivative of the same generated pixel image with unchanged binary alpha; it is not an additional image generation or anatomical repaint.",
+    "Runtime and device-scale rendering have not been tested."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
