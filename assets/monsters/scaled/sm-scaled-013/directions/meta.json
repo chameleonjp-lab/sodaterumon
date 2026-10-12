@@ -1,0 +1,152 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-scaled-013",
+  "design_version": "substantive_redesign_single_eye_T_scales_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/scaled/sm-scaled-013/default.png",
+      "git_blob_sha": "de1b3db76d42f43e146fd61e036995b3c788e19c",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/scaled/sm-scaled-013/pixel.png",
+      "git_blob_sha": "58862c64ded684717709cead20aa064ee0d9b119",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/S/default.png",
+      "sha256": "adea2e1ca123f81c4ef49d9943ce8426b67cfa5cc87162a8e6cff09539e1fa65",
+      "bytes": 661438
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/S/pixel.png",
+      "sha256": "ef45f36bcefc111d71bcb950a319e50a3e03fb2b3ff8b9ad2726c4810e56e8f4",
+      "bytes": 7164
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/SE/default.png",
+      "sha256": "ea0eb46bd49399e714eac33052dc3dca252c252b70ce8d074ae557e9a18cec37",
+      "bytes": 686218
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/SE/pixel.png",
+      "sha256": "ee26c5098473d66df5dd45bfaa79236877ab7cc3c2ddc10235f857823b757592",
+      "bytes": 6817
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/E/default.png",
+      "sha256": "f3a5a732797339f17abfa477c8e96e8812d4299d73b8c75770c82d74709ad935",
+      "bytes": 575562
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/E/pixel.png",
+      "sha256": "d10acb68fc9e09ef23b9e2c33f5562681d4b5f50a63489e1c64cd52f4d4ec1b6",
+      "bytes": 6174
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/NE/default.png",
+      "sha256": "105fc3c76dfbf4869c891c27f6400f2bcb8d0901d2f7fe6e1120ca88793f3925",
+      "bytes": 633011
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/NE/pixel.png",
+      "sha256": "c4d3232afb7f580f15ed6c339f7048117e22ba4895af7939c60377d59abfe1a7",
+      "bytes": 5586
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/N/default.png",
+      "sha256": "f9c6d59df54bfad8e0bca32db02e1efe05c47e2678bedfc56a994363e70555a2",
+      "bytes": 649545
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/N/pixel.png",
+      "sha256": "3cddba8f1209096461fce74766f217918cbb99a0f4611bccca047c0c05439919",
+      "bytes": 5047
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/NW/default.png",
+      "sha256": "1e7b461a85e4af28a8b7b0c31322902fc2fd7b7f415b23374314e460b772bc5f",
+      "bytes": 607108
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/NW/pixel.png",
+      "sha256": "755779762be7d10d97400481b4843e4c7d89701e62c69ca2ae552d218e994906",
+      "bytes": 5673
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/W/default.png",
+      "sha256": "8174c5067f55a101fb0129ab6b38624c499eb2166a4b73bd14f2620a4c5f4649",
+      "bytes": 557554
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/W/pixel.png",
+      "sha256": "e6b8a1a8dc2471e069ba23b243ea0abdb191e4896d06d893c6acf9f3dfcc988c",
+      "bytes": 6845
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/SW/default.png",
+      "sha256": "0bbb7d29b32aac5389178de2868545d906a68144f6bd1cc3a89836e95a51a6f2",
+      "bytes": 656467
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-013/directions/SW/pixel.png",
+      "sha256": "13af5530940129f18cb0b65c9a880652f9417aefbac856f58418aa2c7de8801c",
+      "bytes": 7072
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "producer_and_E_independent_16_slot_numeric_hash_meta_passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This newly adopted T-shaped design is a separate identity from legacy root images. All 16 selected images were generated in this branch. Legacy root images and metadata remain unchanged and were not used as image references.",
+    "New anatomy: one continuous T body with a wide rounded top bar and vertical column, one front-center eye, two short lower side feet, no arms, wings or tail; thin rounded body scales and three flat smooth circular scales in one horizontal row on the rear bar.",
+    "The S baseline establishes a column slightly taller than bar thickness. Subsequent W/E define substantial front-to-back bar thickness as a new artistic interpolation, not measured legacy geometry.",
+    "One eye is visible from the front and at the front side edge; no eye is visible in the three rear views. The rear three smooth disks widen into view from the side rims to the rear. Feet overlap naturally in side and diagonal views.",
+    "Exact 45-degree spacing, fixed elevation and rigid 3D geometry have not been proved. Near/far disk size differences, particularly the enlarged near-right disk in NE, remain perspective inferences. SE rear disk edge fragments have a vertical offset whose precise projection is unverified.",
+    "Each selected pixel image was generated using only its selected direction normal. Pixel art has stronger contrast, simplified angular or diamond-shaped small scales, and more angular rear disk outlines. Pink is especially vivid in NE/SE and paler in W; palette consistency across directions is approximate.",
+    "Palette roles are dusty rose body #D9A7B0, sage feet and rear disks #D5E0BE, plum rim #725966, represented with lighting shades. Technical palette reduction preserves sage regions.",
+    "Runtime and common device-scale rendering have not been tested.",
+    "Reference declarations and file hashes are producer records independently matched to local outputs and saved checkpoints. A separate service-side input digest was not obtained."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
