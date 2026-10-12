@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-018",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "existing_reference_direction": "SE",
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-018/directions/S/default.png",
+      "sha256": "332afbef21894c39f517a0ce7ad36478073138c45c040f7b82bb9d7d99f12147",
+      "git_blob_sha": "e3abd5544aa17da755c2bbceab67f7398ed50aa9",
+      "bytes": 804055,
+      "existing_reference": false
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-018/directions/S/pixel.png",
+      "sha256": "049d4a354b5f000130de8bf6f4611ff8d16e7895d5dbf089b876eefdf6c73e07",
+      "git_blob_sha": "3cbd7207a1233c391461bb495269eb368c5e30c9",
+      "bytes": 12469,
+      "existing_reference": false
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-018/directions/SW/default.png",
+      "sha256": "45a272284403d36af19a744cc3652198d4fedf0779a73ca5a83913f395776f3e",
+      "git_blob_sha": "1c960d4f557879023cb60fe141e87e6017f15d9b",
+      "bytes": 706788,
+      "existing_reference": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-018/directions/SW/pixel.png",
+      "sha256": "d1de92fa6f72ac0a769143b70ba4a68bb2422f254f05077fdc48f1c4b0c2a0cc",
+      "git_blob_sha": "064f505c4a6b651eed2f245ddea3d3b0c166106e",
+      "bytes": 11148,
+      "existing_reference": false
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-018/directions/W/default.png",
+      "sha256": "50d3ea04290477ff1a3c5455aaa0c95f02a0f7bad9310bcc790bc0a5fca95038",
+      "git_blob_sha": "3c09ee703141302bc63cd81c54b34b1eda9ecfff",
+      "bytes": 585401,
+      "existing_reference": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-018/directions/W/pixel.png",
+      "sha256": "90032b470d47beb763a3ee5f32d1853e91104519d55391089e9e6a70d81f9749",
+      "git_blob_sha": "a6b387e9ad0eb442fda84f618c534475f67fa85e",
+      "bytes": 10371,
+      "existing_reference": false
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-018/directions/NW/default.png",
+      "sha256": "70f39342c414a71bf736931b244772ea703de0ae5311e5443dcf1b2ad769ec90",
+      "git_blob_sha": "0077f29de43433d926f8b23cdd5a8f070cb5926f",
+      "bytes": 685556,
+      "existing_reference": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-018/directions/NW/pixel.png",
+      "sha256": "ee075553c026f8fdf72cd8b78a0cdf1854999fa2d99ef3df63d8d223e0b7e233",
+      "git_blob_sha": "834c9b99884658977f442af1d680ffe71497785d",
+      "bytes": 11908,
+      "existing_reference": false
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-018/directions/N/default.png",
+      "sha256": "9963d6c815d6062a8a546f033633e2949343b3eb5db4d690e27989d2a2980bf9",
+      "git_blob_sha": "8c16b69dcff67d56b4213f278e24dbc355e8b1f2",
+      "bytes": 683315,
+      "existing_reference": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-018/directions/N/pixel.png",
+      "sha256": "ab9f2cb4f3d06dd55a7d823d9f908f4ab3efe84d05364d0bb7c260feb57c372b",
+      "git_blob_sha": "139e7ad7ce69a332ce3c25175a17766a25657291",
+      "bytes": 12634,
+      "existing_reference": false
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-018/directions/NE/default.png",
+      "sha256": "92fc0a6ebd622e24401464b4fbc15eb9f0c3aa1f649cd87c26cb4c06c678b5bc",
+      "git_blob_sha": "600e90ab53b4d98b5aacf68a4466b65d4256bccd",
+      "bytes": 672455,
+      "existing_reference": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-018/directions/NE/pixel.png",
+      "sha256": "d0d75d07feec088044e48b120712de594eefd2c344d0f11415e41a140d62a3a7",
+      "git_blob_sha": "43f8f38bef0ab553bb43ee39f6f3d036f93f463d",
+      "bytes": 10814,
+      "existing_reference": false
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-018/directions/E/default.png",
+      "sha256": "42966981f902403dcfdb916ae365830a40a2734581b8d84bb9a27f0b20030585",
+      "git_blob_sha": "2931bab13ff769c93f6594a32a21a99a923620dc",
+      "bytes": 579414,
+      "existing_reference": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-018/directions/E/pixel.png",
+      "sha256": "295cbbfdbba3ae5b08cf380c4444097d09df3eff3209f0ac89ec1c923bee2b1b",
+      "git_blob_sha": "39b67d785f1378dc7c21c77444452fa71c9a3c2a",
+      "bytes": 10348,
+      "existing_reference": false
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-018/default.png",
+      "sha256": "b8b4866de03b6421a53ef4d3e5aae5319fe44795c2639946e041a89570281291",
+      "git_blob_sha": "31b2f0f8c0ea95be5cc94857bc084edd951b798c",
+      "bytes": 692398,
+      "existing_reference": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-018/pixel.png",
+      "sha256": "38def6a035f0a675bbb217d200c2e04c9f13049d1eddd00e293a59012a1819db",
+      "git_blob_sha": "8e19da73815e2bcf58361e2cc8e7a7440b2cf87c",
+      "bytes": 12157,
+      "existing_reference": true
+    }
+  ],
+  "direction_convention": "New relative artistic production labels anchored to unchanged original SE pair; historical absolute orientation not restored. Exact 45-degree yaw is not proved.",
+  "selection_provenance": "Original2 + previously preserved candidate10 reselected + new W/N normal-pixel4. Old quality-HOLD and cancelled submission histories retained privately.",
+  "qa": {
+    "technical": "16/16 dimensions, margins, alpha, colors, byte SHA256 and Gitblob passed independent E verification.",
+    "visual": "Parent full16 visual candidate PASS; same-direction pairs and front-two/back-one bump relation reviewed.",
+    "pixel_reference": "New W/N pixel sole same-normal references recorded. Historical sole-normal generation lineage for reused pixels is not newly proved."
+  },
+  "limitations": [
+    "Exact 45-degree yaw, hidden tail-root 3D position and historical absolute directions are unverified.",
+    "Direction labels are a new production convention; this is not recovery of the prior final metadata.",
+    "In-game/device rendering has not been tested."
+  ],
+  "publication_status": "approved_draft_scope"
+}
