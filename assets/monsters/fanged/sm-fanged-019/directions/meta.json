@@ -1,0 +1,145 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-fanged-019",
+  "design_version": "substantive_redesign_private_candidate_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/fanged/sm-fanged-019/default.png",
+      "git_blob_sha": "3e1fc135fc76b4692b81d99666dfed033ace9b84",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/fanged/sm-fanged-019/pixel.png",
+      "git_blob_sha": "ef8befd1231dfc8c9b6e19c699f0477c70806e22",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/S/default.png",
+      "sha256": "f3d08938706d341707523d0d5ad185cfccaccd420b80df41fb561e00cea26988",
+      "bytes": 833357
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/S/pixel.png",
+      "sha256": "12f44654623455d814a6b14aa36d0b85fa7514e636c7cd13d5112b4656483bfe",
+      "bytes": 12112
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/SW/default.png",
+      "sha256": "80a3f8deb3dbf5fbdcae2f84ce94e8b42bd37544b90c9f31cf326252f2487811",
+      "bytes": 617792
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/SW/pixel.png",
+      "sha256": "354c40f735fc9bf71a4d123111d6e7e7dfc9f995dd94b610aed5a9467fb56ac5",
+      "bytes": 9193
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/W/default.png",
+      "sha256": "3d28d79e52066999dbe9863a84f80418ec3de414ee1567d18b1fc6d2bb68a385",
+      "bytes": 520580
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/W/pixel.png",
+      "sha256": "cd8495d30898135247b146b7a229f088e037ff69f665b2f615682d0a59223808",
+      "bytes": 8676
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/NW/default.png",
+      "sha256": "df5aff211db185769594466b442599031670763bc3ddcaef873bfdbf79367e97",
+      "bytes": 628001
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/NW/pixel.png",
+      "sha256": "9b7e675718ddd405fcef70ed49364ab5cd20ca807b91856eb83fc5349aaf598b",
+      "bytes": 9338
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/N/default.png",
+      "sha256": "85e22de8d4219a405bf3f6ce3a83b09823d5ae1b291c89dfeabb08c05f1a18e6",
+      "bytes": 662195
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/N/pixel.png",
+      "sha256": "320c0c9d7cedbfc395220dd7cb9ca9258de130b4157393035c4dac283bb91fe5",
+      "bytes": 9465
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/NE/default.png",
+      "sha256": "4251fc3c0ffea02d3640a6dd149f351f12873f0a34bbe6c9fa5e4984d3f5a5ea",
+      "bytes": 597511
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/NE/pixel.png",
+      "sha256": "c585562645582719f1628e7d59e3c9f2fa7d2f59f338a1d0bc25ebe1e9472f07",
+      "bytes": 8289
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/E/default.png",
+      "sha256": "cbeefff09097eb55b0fb8c19b9908497212b740060bcd7e071585bf3ff15bdbd",
+      "bytes": 535650
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/E/pixel.png",
+      "sha256": "d9d6d17d159dd455632372d043ad5392f7a35051825f2ec074880a361e45b339",
+      "bytes": 7406
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/SE/default.png",
+      "sha256": "5aacae629444e118602c7debf731425f8dec1dcba314272b2cdacfe36f98ddc9",
+      "bytes": 572199
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/fanged/sm-fanged-019/directions/SE/pixel.png",
+      "sha256": "b51e0edeea65d2e5c7a24a9217b3f0ec619f2c8224f492dcc03801a892d012a6",
+      "bytes": 8740
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This 16-image set represents a distinct design. The two legacy root images are retained unchanged and are not part of this new set.",
+    "Direction, hidden surfaces and attachment depths are inferred; exact 3D reconstruction and runtime scale have not been verified."
+  ],
+  "publication_status": "approved_for_draft_review"
+}

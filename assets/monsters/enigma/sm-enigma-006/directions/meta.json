@@ -1,0 +1,145 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-enigma-006",
+  "design_version": "substantive_redesign_private_candidate_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/enigma/sm-enigma-006/default.png",
+      "git_blob_sha": "7893e54acd50a3a6aa369c224a28cb35b7ac6bf4",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/enigma/sm-enigma-006/pixel.png",
+      "git_blob_sha": "d1d47ec2fd141cde22762312765e438b739518b5",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/S/default.png",
+      "sha256": "78f108dd99fbc7e9c114f3dfca5e81f88f1c282e4ebe35e2d73de0ea6787cead",
+      "bytes": 785782
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/S/pixel.png",
+      "sha256": "82d685ea7de35b283817bceb285cb9781091800b7f157277ae735dbc328548fc",
+      "bytes": 7620
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/SW/default.png",
+      "sha256": "23a7b6244971f5e64dd242d1df94e18705005627417f26e414959943d11deefd",
+      "bytes": 758621
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/SW/pixel.png",
+      "sha256": "a2f8689ad5a5fc99462d9a027df611a5dbe29d58ebd6387947e23db301eac8f1",
+      "bytes": 7311
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/W/default.png",
+      "sha256": "09fd3f572178079d0a3846bab4e1e0fedb3b8d765ff891e3bb2a7f608bd68577",
+      "bytes": 731589
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/W/pixel.png",
+      "sha256": "62d7c87142c931b5a51b55fdf1c7b5ffef6dab429a7cdc4cb13c8b42f5f53395",
+      "bytes": 8618
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/NW/default.png",
+      "sha256": "8147cb8fb15773425bcb0f7d912beb5c9d5ac1cc5542c94cdaddbf956c06c15f",
+      "bytes": 649717
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/NW/pixel.png",
+      "sha256": "be129421e20183391865763048dc1399d8d5c73216c02f2089ad8cf1dc5e6de1",
+      "bytes": 8589
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/N/default.png",
+      "sha256": "30ef57f07bfde5a14243ce7ccfce87c3f48da5b63e30900b8a8db23f87f929aa",
+      "bytes": 644083
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/N/pixel.png",
+      "sha256": "baf9fcb854e55d679933d9115a04b19f035e087f29f319a77dd6f423cc8182c8",
+      "bytes": 9021
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/NE/default.png",
+      "sha256": "28b684ffdec14f44cc3671d94dd99d792834185a285b4d1ee31942296a4aac8e",
+      "bytes": 678060
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/NE/pixel.png",
+      "sha256": "771df1f6ce90f039de4b2c591fc00529c68f7b0248c09aafc6819dc975851c0c",
+      "bytes": 7306
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/E/default.png",
+      "sha256": "641745d713970b7eee2578001fbfd01592e8928db43791c5a48e1e6026b8a916",
+      "bytes": 774634
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/E/pixel.png",
+      "sha256": "9276e41bbc3faa9501b14a647c713147de59bb5b084ae96c932f2c473f877364",
+      "bytes": 9444
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/SE/default.png",
+      "sha256": "c745ce285527947812052a1f4e395a175c09c07216b54878e1483bca0bad0251",
+      "bytes": 824694
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/enigma/sm-enigma-006/directions/SE/pixel.png",
+      "sha256": "1ce195fc6403b2746c6681b594b747013de35cd82c1e67e4e07f9993420fc521",
+      "bytes": 6849
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This 16-image set represents a distinct design. The two legacy root images are retained unchanged and are not part of this new set.",
+    "Direction, hidden surfaces and attachment depths are inferred; exact 3D reconstruction and runtime scale have not been verified."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
