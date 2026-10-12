@@ -1,0 +1,152 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-winged-014",
+  "design_version": "substantive_redesign_four_folded_wing_boxes_v2",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/winged/sm-winged-014/default.png",
+      "git_blob_sha": "8c1335afa8354ed976f7d269cd775bd0661692d6",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/winged/sm-winged-014/pixel.png",
+      "git_blob_sha": "4dc89908bc53c9694e73a5d6afae11fb1f695a09",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-014/directions/S/default.png",
+      "sha256": "d6f50907e4a56eb912bb02cdc34443002a393901ecc78fc16c556ed0b0680e13",
+      "bytes": 552617
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-014/directions/S/pixel.png",
+      "sha256": "224ff2f73a3b014c7304d5857381dff37d94fec950342df3fc0e2e5ac45b84b7",
+      "bytes": 6569
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-014/directions/SE/default.png",
+      "sha256": "a546298ad0a61fb080baca73a9c343a44cba51d242e699869b5a5542e2289f6b",
+      "bytes": 648440
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-014/directions/SE/pixel.png",
+      "sha256": "a27b34dd1b65c8459b1fd880ad2d7eb1e87803671c965cad2dcbb351cf1fae85",
+      "bytes": 8652
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-014/directions/E/default.png",
+      "sha256": "b650eee52f94825df8686b9f50f3572cc379c1c256b955d77db8ba8d49595668",
+      "bytes": 767233
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-014/directions/E/pixel.png",
+      "sha256": "7791e8ed64030e509e717a3d7eafc4e24bc0a3cddcec7d915aada28d98e9def9",
+      "bytes": 8863
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-014/directions/NE/default.png",
+      "sha256": "43eff79b2e51d09839f8f486d6f8fed109a979893cce3b4155a93f4cf90fe025",
+      "bytes": 847114
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-014/directions/NE/pixel.png",
+      "sha256": "2d6ea6a41cec973bea75dfa107c6ad23ab8ef000454fe7b6e29238e61e4cc72c",
+      "bytes": 10312
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-014/directions/N/default.png",
+      "sha256": "acedc2598b590264af7deb592caf513a421a43cd772017a159bfc4bc811515f0",
+      "bytes": 525959
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-014/directions/N/pixel.png",
+      "sha256": "0e65f049b7994f2d5a09e8b1a8949f1e2e30733fc89d42cc1769d4fb326db67f",
+      "bytes": 7315
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-014/directions/NW/default.png",
+      "sha256": "95ce4982ca9f2233ce17f29f77f6643a87c4bded9095b2748e315822c42de1ef",
+      "bytes": 646236
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-014/directions/NW/pixel.png",
+      "sha256": "ee006b402e12ca16375540dfd924be234c4a8591c533bd3a62f0e51b5f3ab030",
+      "bytes": 7688
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-014/directions/W/default.png",
+      "sha256": "9b3c776456a01fe6709eec4e322966d7156e0ffdce82f83d3cc9590085a0b72c",
+      "bytes": 908029
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-014/directions/W/pixel.png",
+      "sha256": "71ee616529e3747cb36f28503d9b573f21b6f409dc748f6c395ddd65f42402ba",
+      "bytes": 9949
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-014/directions/SW/default.png",
+      "sha256": "67a54305e152eeb45bdfa7e811e2f3035265e093336080e5b570f3721167a59d",
+      "bytes": 795704
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-014/directions/SW/pixel.png",
+      "sha256": "956ef24d46750d02f1e5f7cffda9eb970fd0136e7595da9bbd1226a7d12ae850",
+      "bytes": 10075
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "producer_and_E_independent_passed",
+    "visual": "limited_pass_representative_direction_major_structure_normal_pixel_correspondence",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This is the newly adopted independent four-wing/two-box design. All16 selected images were generated for this branch. Legacy root normal,pixel and metadata are retained unchanged and were not image references. This version replaces the old single hexagonal body,three radial wings and six ball feet; the old prohibition on four wings was explicitly revised for this adopted separate design.",
+    "New anatomy: two small rounded woven plant-fiber boxes stacked vertically and joined by a short broad connector; exactly one eye only on the upper front face; one short broad rectangular paper wing on each left/right side of each box, four total at two distinct root levels. No legs,arms or tail. Each thick paper wing has one fold producing two panels.",
+    "The accepted new S normal is the identity baseline. The direction set represents front eye visible in S/SE/SW, partial edge eye in E/W, and fully hidden eye in NE/N/NW. Upper gold wings remain assigned to the upper box and lower sage wings to the lower box. Near/far overlaps were visually reviewed, not derived from a measured mesh.",
+    "These are approximate representative8-direction illustrations, not verified exact45-degree rotations or fully consistent rigid3D projections. S includes slight right-side box depth. E/W have different wing-face opening widths, and NE/NW and SE/SW are not exact symmetric projections. Camera pitch/top-plane exposure, apparent body size and wing/body ratios vary among views. Each asset was proportionally fitted to its longest-extent canvas specification, rather than a single measured world scale.",
+    "Woven pattern phase and hidden root depth are unverified across directions. Some far-wing folds are partially occluded or visually weak, especially in side views. No claim of complete3D agreement is made.",
+    "Each selected pixel image used its corresponding selected normal as its sole image reference. Pixel simplification changes corner stair-steps, apparent end-edge slopes, weave contrast and proportions. E pixel flattens the near-wing lower-edge slope; N pixel has more vertical outer ends and a larger height/width ratio; SW pixel emphasizes the fold as a line rather than the broad normal-image shading. W far-fold contrast is weak. These are documented limited visual passes.",
+    "Palette roles are gray-blue woven body(#7D8894), pale-gold upper wings(#E2CA83), and pale-sage lower wings(#BACCB5), with generated shading rather than exact flat color patches. The single eye is blue-black with view-dependent highlights; SW has a more violet shadow.",
+    "There were21 successful image returns for16 selected assets:8 normal and13 pixel returns. S/SE/E/NE/N pixelv1 outputs were retained privately as unselected quality-review images. Their selected replacements are pixelv2. An additional same-raw global MAXCOVERAGE32-color NE palette diagnostic was retained but not selected; it was not a generation call. No safety refusal or unresolved generation outcome occurred in this new branch.",
+    "Game integration,runtime animation and device-scale appearance have not been tested."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
