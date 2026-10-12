@@ -1,0 +1,145 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-decay-012",
+  "design_version": "substantive_redesign_private_candidate_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/decay/sm-decay-012/default.png",
+      "git_blob_sha": "d5e27bb0b235f86775ad89a0e311c51e08b7e686",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/decay/sm-decay-012/pixel.png",
+      "git_blob_sha": "e7a4f1d98fcdea44359a5a843503d5f31dd2cbf4",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/decay/sm-decay-012/directions/S/default.png",
+      "sha256": "79fbcbf431973b07bf8db26de2cf80592bd8ce1ddfc4fd80e4e2903d5570eee3",
+      "bytes": 752082
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/decay/sm-decay-012/directions/S/pixel.png",
+      "sha256": "a6603e69bbf5ba46c2ddfbc9d82ac32231197676b4a8bece3f7324a4d1a1cc17",
+      "bytes": 8453
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/decay/sm-decay-012/directions/SW/default.png",
+      "sha256": "857df21ed48d771f4e40a00bc8381d52ad6e715282a511ba33b4caad37c84265",
+      "bytes": 745139
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/decay/sm-decay-012/directions/SW/pixel.png",
+      "sha256": "b3f8a07fa830bcdbb45265ebd756365a426dc2c896f2a9553fd1fa36ff5e1fb9",
+      "bytes": 7718
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/decay/sm-decay-012/directions/W/default.png",
+      "sha256": "53634d7850d30964819244f64eea4d9adcf182ab4f28010426b51fbea59a53a8",
+      "bytes": 720389
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/decay/sm-decay-012/directions/W/pixel.png",
+      "sha256": "f3887938b47cfed8f6d3532935288410d7f3fafb058b009a5e295b80fb334974",
+      "bytes": 7478
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/decay/sm-decay-012/directions/NW/default.png",
+      "sha256": "24ebb79ccb23e7bbe84e62e2760513e66a4556994eed986a245b63ff98e8c385",
+      "bytes": 739392
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/decay/sm-decay-012/directions/NW/pixel.png",
+      "sha256": "c27f6f5a9650e3e5af300a9aa8ca8d98550abf700b0b34620b7b742d9f4c5758",
+      "bytes": 7085
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/decay/sm-decay-012/directions/N/default.png",
+      "sha256": "92b396038d9c2542ffbb33cce88d98cfab1c6dda5a89f044d4b81b528dc47820",
+      "bytes": 784436
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/decay/sm-decay-012/directions/N/pixel.png",
+      "sha256": "9ffc2828ea5a59b17974731ea6f3641bc34a40228037eb34fb8b5192c7653d99",
+      "bytes": 8301
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/decay/sm-decay-012/directions/NE/default.png",
+      "sha256": "15fb8f7b25d4b93ed63e8cee6886c76f594ce733113b68ba416203cc67bb3ecc",
+      "bytes": 792007
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/decay/sm-decay-012/directions/NE/pixel.png",
+      "sha256": "71b1ca6cfdae019e3cb8a43be9c282c0a86c1110b7aeb7ece46c306cb688d997",
+      "bytes": 7716
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/decay/sm-decay-012/directions/E/default.png",
+      "sha256": "8c5a287a03870ec5e76e1beb61db348458e3adbccebc9e133728b7c38b269502",
+      "bytes": 724894
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/decay/sm-decay-012/directions/E/pixel.png",
+      "sha256": "e301891c8c243d15b17921ed9064ba42d255a66562d5bd5fc33a73f9ed80a932",
+      "bytes": 8096
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/decay/sm-decay-012/directions/SE/default.png",
+      "sha256": "31f568b7e4007c8c6f043ef64612ba2f7cc72cc373b2aa4b9a4e1abec8a657e5",
+      "bytes": 810626
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/decay/sm-decay-012/directions/SE/pixel.png",
+      "sha256": "568c87cc132c134d3fcdf640e1564f1f3d1d3c9966904634a843e2a7173cf653",
+      "bytes": 8957
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This 16-image set represents a distinct design. The two legacy root images are retained unchanged and are not part of this new set.",
+    "Direction, hidden surfaces and attachment depths are inferred; exact 3D reconstruction and runtime scale have not been verified."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
