@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "id": "sm-flora-012",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "existing_reference_direction": "SE",
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-012/directions/S/default.png",
+      "sha256": "981c5c08c114dee11b34d82646435a92538cc979d73cbbc8531be7da5c12521b",
+      "git_blob_sha": "a20428b394b053e25f733a2cb3092347a0f6e7da",
+      "bytes": 558967,
+      "existing_reference": false
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-012/directions/S/pixel.png",
+      "sha256": "6b32a9421b9b113d999e2836e940186fab340170754651fbb487d118648e750d",
+      "git_blob_sha": "7eef349c6d89a239c5cf465611762c19a7285be3",
+      "bytes": 6898,
+      "existing_reference": false
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-012/directions/SW/default.png",
+      "sha256": "10c00142ccf19cea18ce4f0af61720a18ed1f2518de4e05ecf37d2fc6ea8e196",
+      "git_blob_sha": "e7bb808ef37a38079e67b9975ef6ee9d89839486",
+      "bytes": 558968,
+      "existing_reference": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-012/directions/SW/pixel.png",
+      "sha256": "ff8a68259ada6c89bdabb4054b7cfdf0a7f09cedaa45705fcf51be151604ad72",
+      "git_blob_sha": "c2dd8ea7d49cd83dafd08401f8ad3ca550c78fb7",
+      "bytes": 7693,
+      "existing_reference": false
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-012/directions/W/default.png",
+      "sha256": "709423bc498a57229aa9937858ded4c37a3f690f239943e1eba054aaadf0a3b2",
+      "git_blob_sha": "fde1ed9a97e7eeb61a9943568b9e8d06e4924f61",
+      "bytes": 511784,
+      "existing_reference": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-012/directions/W/pixel.png",
+      "sha256": "ecde2e2bc43119f98481885e9411d58b4a76410cc6a6c74099dac5ee178f6e8b",
+      "git_blob_sha": "e4349714be52b99feed9dfc8f6dd16c93026f5fa",
+      "bytes": 6208,
+      "existing_reference": false
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-012/directions/NW/default.png",
+      "sha256": "fa49f07889b362b8e730e6c3dd2e0d0a57715e14fe0b22ff4d22bf75169a92e4",
+      "git_blob_sha": "b5a8414e1958db76263bf3e0b06a84468b10746c",
+      "bytes": 517437,
+      "existing_reference": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-012/directions/NW/pixel.png",
+      "sha256": "b95095c4a210b0f1185347c0571c578c7ddb894d5f188622457baa92d1afcfaf",
+      "git_blob_sha": "ad3dfcc6afe998c1ae02f6633be0d5914d1c819c",
+      "bytes": 7689,
+      "existing_reference": false
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-012/directions/N/default.png",
+      "sha256": "cdf81c5bfda323a1a8006ea3f00408d7861d7653325d716866d7fda6387c6ea7",
+      "git_blob_sha": "354a353adca2a0187f77984ee97157a3285c8d96",
+      "bytes": 550515,
+      "existing_reference": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-012/directions/N/pixel.png",
+      "sha256": "8445d70c547abb8e4f9343f557019d3c7756f696cd004f61e4a78658741424b0",
+      "git_blob_sha": "20cd3cd1f0eaf6828f81ca61ef3e595082a98225",
+      "bytes": 7068,
+      "existing_reference": false
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-012/directions/NE/default.png",
+      "sha256": "2a082eb287f6878dad7fc5ceb4aedca9110cbe403fe0e4b9bf088a054833e655",
+      "git_blob_sha": "22cd5dbca10224de2784a08ae8fdeb806d885b2b",
+      "bytes": 542149,
+      "existing_reference": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-012/directions/NE/pixel.png",
+      "sha256": "0ad58256c14dd744f0fbd30659ab116476cae20c4d7af33f3ff2c2132f99b023",
+      "git_blob_sha": "43a364245f9bffcab121a686bacbc3a5b142f5fa",
+      "bytes": 7689,
+      "existing_reference": false
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-012/directions/E/default.png",
+      "sha256": "369a9645f7301e80800ccddae87a1e0ff7e2b895f17c06c261a95fd8a5f9ce1f",
+      "git_blob_sha": "788a4289f79da5c60de5c63df3489363c5906926",
+      "bytes": 515605,
+      "existing_reference": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-012/directions/E/pixel.png",
+      "sha256": "632a2319f8a4f10f9f694f398ca2cc45a38122cedd4062f1c3f39aef62d06b09",
+      "git_blob_sha": "0b34a8fd9bdd7ed93e6de87eadf726071dcd8fc4",
+      "bytes": 7035,
+      "existing_reference": false
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/flora/sm-flora-012/default.png",
+      "sha256": "3ecafd32d15ade614b643d9ddf09fd593e466c5486acb16fc7624d52886239aa",
+      "git_blob_sha": "55aeed912c4c840420d152526cfb24533b214874",
+      "bytes": 594745,
+      "existing_reference": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/flora/sm-flora-012/pixel.png",
+      "sha256": "75fab692c6757430a5b810bd4b7599b465753edef86db4aaf6b87416397d44f4",
+      "git_blob_sha": "356c4924bd3d6820c4b40352b192a30c55f6e1bd",
+      "bytes": 6407,
+      "existing_reference": true
+    }
+  ],
+  "direction_convention": "Nominal visual production directions. Exact 3D yaw, camera, hidden geometry and in-game behavior are unverified.",
+  "selection_provenance": "New review selection from preserved images; historical selected metadata was not recovered. Direction labels are an inferred visual production convention.",
+  "qa": {
+    "technical": "16 selected images passed dimensions,alpha,palette,margins and hash checks",
+    "visual": "Independent candidate review and parent visual gate passed with stated caveats",
+    "generation_reference_limit": "Historical sole-normal pixel input receipts were not recovered; present visual matching is not proof of historical generation inputs."
+  },
+  "publication_status": "approved_candidate_for_draft_submission"
+}

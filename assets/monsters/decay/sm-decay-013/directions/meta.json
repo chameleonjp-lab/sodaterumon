@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "id": "sm-decay-013",
+  "asset_set": "eight_direction_normal_and_pixel_candidates",
+  "existing_reference_direction": "SE",
+  "existing_files_unchanged": true,
+  "total_slots": 16,
+  "new_image_paths": 14,
+  "files": [
+    {
+      "direction": "S",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-013/directions/S/default.png",
+      "sha256": "a03191fb1fbf7717f51de88433941e811c05d6bdb62cf4052efbf8575a76b558",
+      "git_blob_sha": "b657abe17a71d021c337a0376da0828935e4441f",
+      "bytes": 586169,
+      "existing_reference": false
+    },
+    {
+      "direction": "S",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-013/directions/S/pixel.png",
+      "sha256": "1bc36d349c72ecf671b83358f0fe140c18607f0a0e9e531a68ca8e29fc354e7a",
+      "git_blob_sha": "1ad5a2f0e432fbe7baf0e6a9a4a15caea00713be",
+      "bytes": 9081,
+      "existing_reference": false
+    },
+    {
+      "direction": "SW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-013/directions/SW/default.png",
+      "sha256": "de5f6e100f75a7915309c9d882e86a575c0b5445faac04f5ebed1856cb9e47ad",
+      "git_blob_sha": "2b0f44d13051fa1636b1554e1d9f6e60b25ca9c2",
+      "bytes": 593039,
+      "existing_reference": false
+    },
+    {
+      "direction": "SW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-013/directions/SW/pixel.png",
+      "sha256": "25a6119e14185c28e708ea9419a83c36f85c616f79ebe1f84e410299902b0f6b",
+      "git_blob_sha": "18ed4376304dbdbacde1a36155d97e37260e7642",
+      "bytes": 8437,
+      "existing_reference": false
+    },
+    {
+      "direction": "W",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-013/directions/W/default.png",
+      "sha256": "b87c598b2c43fc7bb7f15aec58ee9de26ac0c4943da27d63bdce45fc1933836b",
+      "git_blob_sha": "985fc24c45da1f4c88d8fa798d07a1df6ecd24e9",
+      "bytes": 457771,
+      "existing_reference": false
+    },
+    {
+      "direction": "W",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-013/directions/W/pixel.png",
+      "sha256": "8e236ab46cb58b7a1bc64f3e44d33920ab755a8c3b3895db4045ea6e89d9d427",
+      "git_blob_sha": "9aab3c502a40a9fa229f9a8ae5973fbb7eb27a28",
+      "bytes": 5959,
+      "existing_reference": false
+    },
+    {
+      "direction": "NW",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-013/directions/NW/default.png",
+      "sha256": "63ed93eebc7de431dc8c954c3daa41993aed02fb0040d31f4b79c77689d8c78f",
+      "git_blob_sha": "482dc8d855bbd78216ca81dd8408871c39078225",
+      "bytes": 573843,
+      "existing_reference": false
+    },
+    {
+      "direction": "NW",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-013/directions/NW/pixel.png",
+      "sha256": "10ed6b06e95e49b5ee414efc436c8e808cb542016a8a4e4e55b92d184e398862",
+      "git_blob_sha": "03bbe7e4b7c3d1590a0e2602909d11729cd1d8b8",
+      "bytes": 8203,
+      "existing_reference": false
+    },
+    {
+      "direction": "N",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-013/directions/N/default.png",
+      "sha256": "959e012fdef7d7e4ae82b25da6c835367ad8375f02296c2d6f4c50264f7a6780",
+      "git_blob_sha": "edaaaae1e50be80281d61e131a07d1fb2b6b1731",
+      "bytes": 564629,
+      "existing_reference": false
+    },
+    {
+      "direction": "N",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-013/directions/N/pixel.png",
+      "sha256": "05583372ac41e13de48376c46bde18bd417907c94fb0c26797fb84ba88001875",
+      "git_blob_sha": "f837087a7d47040818e8651fd4010066ff5bf6d6",
+      "bytes": 8465,
+      "existing_reference": false
+    },
+    {
+      "direction": "NE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-013/directions/NE/default.png",
+      "sha256": "3a86c70ef417a43738eb88bce6f6a168723ef2ec06ca9745fa729576bb0565bd",
+      "git_blob_sha": "0d7a09bffd250a05a2c17349bc672ede4f59e76b",
+      "bytes": 572779,
+      "existing_reference": false
+    },
+    {
+      "direction": "NE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-013/directions/NE/pixel.png",
+      "sha256": "d0fc78a85c5ed59cd78d44dec9df3caf80e0f8a82a823a318350264db77275ad",
+      "git_blob_sha": "ff426cb8fee3d3c372db2b2c022440db08199c2f",
+      "bytes": 8420,
+      "existing_reference": false
+    },
+    {
+      "direction": "E",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-013/directions/E/default.png",
+      "sha256": "6b6c26ea42195d0ef39923f1f2ffb67c68e00b1ccf2e6803ce2d9ff68d310866",
+      "git_blob_sha": "e36ddd013861293bd24a976f4b93239a9fc20912",
+      "bytes": 605119,
+      "existing_reference": false
+    },
+    {
+      "direction": "E",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-013/directions/E/pixel.png",
+      "sha256": "0130a0d986c83744c16fc496535c8c7601dc70ddc03c6cf3760719c3cb8817b3",
+      "git_blob_sha": "1c0b4b1c942a58d0b035af0e7395b7d1e57c1eb3",
+      "bytes": 8596,
+      "existing_reference": false
+    },
+    {
+      "direction": "SE",
+      "kind": "normal",
+      "path": "assets/monsters/decay/sm-decay-013/default.png",
+      "sha256": "39d44ead0ae55fd75697782b16cc76c02da6bb508fd2d56760b06a754e61968c",
+      "git_blob_sha": "ef385f467acbab18504ddc91feb1f9850cee5937",
+      "bytes": 660056,
+      "existing_reference": true
+    },
+    {
+      "direction": "SE",
+      "kind": "pixel",
+      "path": "assets/monsters/decay/sm-decay-013/pixel.png",
+      "sha256": "36cd48550fdaf176df2f8818c5519ed42050df9cb86e6f6b38fdf5727e29af5b",
+      "git_blob_sha": "dab1963b37a5a368a9d93df5aa6ec7c2a22d70ef",
+      "bytes": 10025,
+      "existing_reference": true
+    }
+  ],
+  "direction_convention": "Nominal visual production directions. Exact 3D yaw, camera, hidden geometry and in-game behavior are unverified.",
+  "selection_provenance": "Recovered saved-commit selection and metadata; all16 hashes matched.",
+  "qa": {
+    "technical": "16 selected images passed dimensions,alpha,palette,margins and hash checks",
+    "visual": "Independent candidate review and parent visual gate passed with stated caveats",
+    "generation_reference_limit": "Historical sole-normal pixel input receipts were not recovered; present visual matching is not proof of historical generation inputs."
+  },
+  "publication_status": "approved_candidate_for_draft_submission"
+}
