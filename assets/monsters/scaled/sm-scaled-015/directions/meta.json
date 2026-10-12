@@ -1,0 +1,151 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-scaled-015",
+  "design_version": "substantive_redesign_twin_cylinder_tripod_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/scaled/sm-scaled-015/default.png",
+      "git_blob_sha": "016909f6fc2cb7ab9b6fe20a4cf7edd03a0bfaf9",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/scaled/sm-scaled-015/pixel.png",
+      "git_blob_sha": "052ccfa7ee19526a8a9da6acb8fe77632bcc488d",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/S/default.png",
+      "sha256": "8c9337f3c56ccb61e17e0857c496caf93df90c30a1e7a63932b8b19e963a1824",
+      "bytes": 1035307
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/S/pixel.png",
+      "sha256": "bebd4c031e8900bf2880236a29b1cb32a054429cdc42e60b4637ca1a96092671",
+      "bytes": 14791
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/SE/default.png",
+      "sha256": "7be6bc84e41190a7eba20c926a2ee66ab63354aab3f88eea97b4b81202c1f92e",
+      "bytes": 929447
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/SE/pixel.png",
+      "sha256": "b8e0220b9afb460e6c96b38e0a86972487ffeea7b8fb09f0923ca9940e4d362c",
+      "bytes": 12927
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/E/default.png",
+      "sha256": "f36eb43c7e484fa0b90e318b92a54fbe3a7d16d8becaf988451859c92082200b",
+      "bytes": 905524
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/E/pixel.png",
+      "sha256": "72219fd560b33ecb32da73c5f00c26c181c2674bc8fa2808bd768cf00d28c3c2",
+      "bytes": 13872
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/NE/default.png",
+      "sha256": "d171fdc2e6f062ce13b3efdc33aecfc089c0b8f8769dec6bedf5bb3d813bb515",
+      "bytes": 929648
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/NE/pixel.png",
+      "sha256": "8499328b4223e97c40a72a1bd7323f8fe7c4254efa9c61a3d9a8e11b89df331f",
+      "bytes": 15444
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/N/default.png",
+      "sha256": "31342e4549df48f64b436e0a4c928c0ee301dd00c7c863927391e5e7b9c90fca",
+      "bytes": 972961
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/N/pixel.png",
+      "sha256": "c976da75f3ab724e3a4c9ab06b9945489da1297407c241eb9358d0001962ea5e",
+      "bytes": 14575
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/NW/default.png",
+      "sha256": "b5fc6b634f463324b658e27b3d79f21ebc7fcdf32077e17b39c02a7185d83d7b",
+      "bytes": 973524
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/NW/pixel.png",
+      "sha256": "22e43a1e3e638420002cc9adf66e13fba21e172285a23b94b5b1682eec2630f0",
+      "bytes": 14543
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/W/default.png",
+      "sha256": "0f477785ab348a941f616521b7c0345ee79465fb677ed5734a96b2c2d17e66ff",
+      "bytes": 993164
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/W/pixel.png",
+      "sha256": "e46bfd0990342239e0e5193ac6b3c849713ee326ba59d0549ed6769adb84995b",
+      "bytes": 13378
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/SW/default.png",
+      "sha256": "ad5be8d1381780f93efc8a7ee5e67c019f620712a70b5853b04d684ef437672b",
+      "bytes": 989363
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-015/directions/SW/pixel.png",
+      "sha256": "6dac33c97e470529b849648acab2426a52dccf91c87691258852dbab8d84ad75",
+      "bytes": 13591
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed_producer_and_independent_E",
+    "visual": "limited_pass_representative_direction_major_structure_normal_pixel_correspondence",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This is the newly adopted independent two-cylinder tripod design. All16 selected images were generated for this branch. Legacy root normal/pixel and original metadata are retained unchanged and were not image references for the new design.",
+    "New anatomy: two equal-diameter low cylinders stacked vertically, connected by one short thick central column; two eyes only on the upper front curved wall; one flat vertically elongated purple scale only on the lower front wall; three equal short legs in a triangular attachment plan. No arms, wings or tail. The legacy seed-shaped body and leaf wings are not identity requirements of this version.",
+    "S normalv2 defines the accepted new front identity and a front-left/front-right/rear-center tripod production coordinate. Eye pair, lower front marker and tripod positions are assessed as turning together in representative views. Front views show two eyes and one marker; side views show an edge eye and edge marker; back views show neither.",
+    "Exact45-degree spacing, measured rigid3D rotation, hidden leg-root geometry and equal projected leg lengths are not proven. NE/NW feet are not exact mirror projections. Top-plane exposure, body-to-leg proportions and texture phase vary modestly among generated views.",
+    "Each selected pixel image was generated with its corresponding selected normal as the sole image reference. Pixel rendering strengthens contrast, yellow/beige tones and scale boundaries, simplifies scalloped scales toward diamond-like steps, and can slightly narrow overall proportions.",
+    "Palette roles are sandy beige cylinders(#C9BB8F), pale periwinkle connector and legs(#BAC8E8), muted gray-purple front marker and edges(#625C7F), with generated shading rather than exact flat color patches.",
+    "Snormalv1 with an overlapping-looking marker,SEnormalv1 with insufficient leg rotation,andNEpixelv1 with unwanted front features were retained privately as unselected quality-review outputs. The selected replacements are Snormalv2,SEnormalv2,andNEpixelv2. There were19 successful image returns for16 selected assets, with no safety refusal in this new branch.",
+    "Game integration, runtime animation and device-scale appearance have not been tested."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
