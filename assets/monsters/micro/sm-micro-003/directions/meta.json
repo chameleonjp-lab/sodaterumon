@@ -2,22 +2,25 @@
   "schema_version": 1,
   "monster_id": "sm-micro-003",
   "design_version": "hexplate-new-design-20261013",
-  "status": "partial_followup_Draft_candidate",
+  "status": "full16_representative_Draft_candidate",
   "direction_basis": "New S-front ceramic design anchor; representative artistic 2.5D directions, not historical reconstruction.",
   "new_design": true,
   "legacy_root_pair_unchanged": true,
   "legacy_root_pair_used_as_reference": false,
-  "selected_image_count": 13,
+  "selected_image_count": 16,
   "expected_image_count": 16,
   "completed_directions": [
     "S",
     "SW",
     "W",
+    "NW",
+    "N",
     "NE",
-    "E"
+    "E",
+    "SE"
   ],
   "missing_directions": [],
-  "all16_complete": false,
+  "all16_complete": true,
   "assets": [
     {
       "direction": "S",
@@ -39,34 +42,6 @@
       "path": "assets/monsters/micro/sm-micro-003/directions/S/pixel.png",
       "sha256": "e37ba17c37aa87fade75fcc3c6cc8961a41a7f2f1be183e00fe5078aa8ecf555",
       "bytes": 2962,
-      "width": 128,
-      "height": 128,
-      "minimum_transparent_margin": 12,
-      "longest_visible_extent": 104,
-      "visible_rgb_colors": 32,
-      "binary_alpha": true,
-      "technical_pass": true
-    },
-    {
-      "direction": "W",
-      "variant": "default",
-      "path": "assets/monsters/micro/sm-micro-003/directions/W/default.png",
-      "sha256": "00d70facceb9f88220b76a21f9593e05905d4cd9752f7a89a9ffbecd92d32265",
-      "bytes": 287842,
-      "width": 1024,
-      "height": 1024,
-      "minimum_transparent_margin": 96,
-      "longest_visible_extent": 832,
-      "visible_rgb_colors": null,
-      "binary_alpha": null,
-      "technical_pass": true
-    },
-    {
-      "direction": "W",
-      "variant": "pixel",
-      "path": "assets/monsters/micro/sm-micro-003/directions/W/pixel.png",
-      "sha256": "2f45e612c1bfa286815097ba102ca5a7655eede95f57dd9d4d42ed87c2506ee6",
-      "bytes": 1780,
       "width": 128,
       "height": 128,
       "minimum_transparent_margin": 12,
@@ -104,6 +79,34 @@
       "technical_pass": true
     },
     {
+      "direction": "W",
+      "variant": "default",
+      "path": "assets/monsters/micro/sm-micro-003/directions/W/default.png",
+      "sha256": "00d70facceb9f88220b76a21f9593e05905d4cd9752f7a89a9ffbecd92d32265",
+      "bytes": 287842,
+      "width": 1024,
+      "height": 1024,
+      "minimum_transparent_margin": 96,
+      "longest_visible_extent": 832,
+      "visible_rgb_colors": null,
+      "binary_alpha": null,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "path": "assets/monsters/micro/sm-micro-003/directions/W/pixel.png",
+      "sha256": "2f45e612c1bfa286815097ba102ca5a7655eede95f57dd9d4d42ed87c2506ee6",
+      "bytes": 1780,
+      "width": 128,
+      "height": 128,
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
       "direction": "NW",
       "variant": "default",
       "path": "assets/monsters/micro/sm-micro-003/directions/NW/default.png",
@@ -115,8 +118,21 @@
       "longest_visible_extent": 832,
       "visible_rgb_colors": null,
       "binary_alpha": null,
-      "technical_pass": true,
-      "stage_status": "normal_only_PASS_pixel_incomplete"
+      "technical_pass": true
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "path": "assets/monsters/micro/sm-micro-003/directions/NW/pixel.png",
+      "sha256": "b4453c9038b78179da095cfb01b3b8e0a41e27964200a23c8d910e36112b8bd4",
+      "bytes": 2815,
+      "width": 128,
+      "height": 128,
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "technical_pass": true
     },
     {
       "direction": "N",
@@ -130,8 +146,21 @@
       "longest_visible_extent": 831,
       "visible_rgb_colors": null,
       "binary_alpha": null,
-      "technical_pass": true,
-      "stage_status": "normal_only_PASS_pixel_incomplete"
+      "technical_pass": true
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "path": "assets/monsters/micro/sm-micro-003/directions/N/pixel.png",
+      "sha256": "baf09712dde5801cb14c01acb6ff85b789b345e1b11fd733843adfe8eb0f811d",
+      "bytes": 2039,
+      "width": 128,
+      "height": 128,
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "technical_pass": true
     },
     {
       "direction": "NE",
@@ -145,6 +174,20 @@
       "longest_visible_extent": 832,
       "visible_rgb_colors": null,
       "binary_alpha": null,
+      "technical_pass": true
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "path": "assets/monsters/micro/sm-micro-003/directions/NE/pixel.png",
+      "sha256": "09439280ab23b7f5ab483d542cfb93fdea37bd3c148e818f2b5233098c79819b",
+      "bytes": 2794,
+      "width": 128,
+      "height": 128,
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
       "technical_pass": true
     },
     {
@@ -162,21 +205,6 @@
       "technical_pass": true
     },
     {
-      "direction": "SE",
-      "variant": "default",
-      "path": "assets/monsters/micro/sm-micro-003/directions/SE/default.png",
-      "sha256": "f46eed2db6aa88d5b0a2b4fd07ddd1583f94ad3c0dfc1bf438f62023c3ac9055",
-      "bytes": 644749,
-      "width": 1024,
-      "height": 1024,
-      "minimum_transparent_margin": 96,
-      "longest_visible_extent": 832,
-      "visible_rgb_colors": null,
-      "binary_alpha": null,
-      "technical_pass": true,
-      "stage_status": "normal_only_PASS_pixel_incomplete"
-    },
-    {
       "direction": "E",
       "variant": "pixel",
       "path": "assets/monsters/micro/sm-micro-003/directions/E/pixel.png",
@@ -191,11 +219,25 @@
       "technical_pass": true
     },
     {
-      "direction": "NE",
+      "direction": "SE",
+      "variant": "default",
+      "path": "assets/monsters/micro/sm-micro-003/directions/SE/default.png",
+      "sha256": "f46eed2db6aa88d5b0a2b4fd07ddd1583f94ad3c0dfc1bf438f62023c3ac9055",
+      "bytes": 644749,
+      "width": 1024,
+      "height": 1024,
+      "minimum_transparent_margin": 96,
+      "longest_visible_extent": 832,
+      "visible_rgb_colors": null,
+      "binary_alpha": null,
+      "technical_pass": true
+    },
+    {
+      "direction": "SE",
       "variant": "pixel",
-      "path": "assets/monsters/micro/sm-micro-003/directions/NE/pixel.png",
-      "sha256": "09439280ab23b7f5ab483d542cfb93fdea37bd3c148e818f2b5233098c79819b",
-      "bytes": 2794,
+      "path": "assets/monsters/micro/sm-micro-003/directions/SE/pixel.png",
+      "sha256": "adddeaa68fd76a2fb567beb701f95ac5ad9e65dfa57c759e0ac199a666ae4b12",
+      "bytes": 2878,
       "width": 128,
       "height": 128,
       "minimum_transparent_margin": 12,
@@ -209,12 +251,12 @@
     "body": "One matte sage-green hexagonal ceramic extrusion",
     "front_eyes": 2,
     "total_foot_roots_hypothesis": 4,
-    "back_mark": "One centered cream line verified in NW/N/NE normal views and the selected NE pixel; NW/N pixels remain incomplete. Not visible in selected front or exact side views.",
+    "back_mark": "One centered cream line verified in NW/N/NE normal and pixel views. Not visible in selected front or exact side views.",
     "feet": "Four short plate feet with broad frontal face and thinner side depth; precise dimensions unproven."
   },
   "provenance_summary": {
     "new_selected_normal_images": 8,
-    "new_selected_pixel_images": 5,
+    "new_selected_pixel_images": 8,
     "historical_images_reused": 0,
     "new_successful_image_calls": 30,
     "quality_hold_outputs_excluded": 11,
@@ -223,10 +265,11 @@
     "additional_normal_candidate_pending_pair": 0,
     "non_delivery_opaque_intermediates": 6,
     "selected_pixel_normal_sole_then_background_extraction_pipelines": 3,
-    "additional_pixel_candidate_pending_gate": 0
+    "additional_pixel_candidate_pending_gate": 0,
+    "selected_pixel_normal_sole_then_code_background_pipelines": 3
   },
   "limitations": [
-    "13 of16 selected images: all8 normals and final pixels S/SW/W/NE/E. NW/N/SE final pixels remain on quality HOLD for internal-alpha holes introduced during background extraction. Normal-stage PASS is not pair PASS.",
+    "All16 representative candidate images selected:8 normals and8 pixels. Historical failed/HOLD versions are excluded and preserved. This image-set completion is not runtime or production acceptance.",
     "The historical root images and catalog depict a different3-cell design and remain unchanged. Do not mix those images with this new ceramic candidate as a coherent single-character set.",
     "Four foot roots and occlusion remain a design hypothesis. S retains broad frontal foot faces; corrected SW shows broad faces with thin side edges; W-v2 shows thin side depth. Exact rigid roots are unproven.",
     "The accepted S image has wider and more separated feet than the initial numerical proposal. Actual selected-image continuity is the reference; the initial dimensions are not claimed to be achieved.",
@@ -237,21 +280,20 @@
     "The selected SW, E and NE pixels use approved two-stage paths: selected normal alone to opaque pixel intermediate, then intermediate-only background extraction. It is not a direct normal-to-final single call; extraction can alter small contour/color details.",
     "N foot spacing is slightly wider and visible breadth slightly narrower than S; E side width is about7 percent smaller than W at the same image extent. These are representative artistic views, not exact metric geometry.",
     "W/E sidewalls have no unique markings; handedness relies on the adjacent views and creation record, not on a distinct mark in either side view.",
-    "Opaque intermediate pixel renders are not included. NW failed transparent versions are quality-HOLD; unfinished pixel processing is not silently counted as selected."
+    "Opaque intermediate renders are private working sources, not delivery images. Failed transparent outputs and earlier code masks remain preserved; no interior holes were filled by code.",
+    "The selected NW/N/SE pixels use selected-normal-only opaque generation followed by authorized code alpha removal of exterior-connected magenta background, then standard uniform resizing and global32-color quantization. Alpha removal preserved all RGB and all RGBA outside its mask; finishing is a separate operation.",
+    "A few faint pink or gray-purple edge pixels remain visible when enlarged. Full color-edge agreement is not achieved; no extra internal recoloring or shape alteration was used to hide them.",
+    "Front pixels S/SW/SE differ in eye diameter, saturation, grain and outlines. These approximations are disclosed rather than represented as exact material/color matching."
   ],
   "validation": {
-    "producer_technical_review": "PASS_13_of13_selected",
-    "parent_visual_review": "PASS_all8_normals_and_S_SW_W_NE_E_pairs_incomplete_set",
-    "independent_F_visual_and_provenance_review": "PASS_selected13_with_limitations",
-    "independent_E_submission_review": "PASS_normal5_and_E_NE_two_stage_pixel_deltas_numeric_native_raw_prompt_reference_scope",
+    "producer_technical_review": "PASS_16_of16_selected",
+    "parent_visual_review": "PASS_all16_pairs_and_whole_ring_with_disclosed_limitations",
+    "independent_F_visual_and_provenance_review": "PASS_all16_numeric_hash_visual_provenance_and_whole_ring",
+    "independent_E_submission_review": "PASS_all16_numeric_hash_and_code3_background_difference",
     "runtime_acceptance": "not_tested"
   },
-  "quality_hold_directions": [
-    "NW",
-    "N",
-    "SE"
-  ],
-  "published_image_count_after_proposed_addition": 13,
+  "quality_hold_directions": [],
+  "published_image_count_after_proposed_addition": 16,
   "superseded_quality_hold_assets": [
     {
       "direction": "SW",
@@ -284,23 +326,21 @@
       "status": "superseded_HOLD_preserved_in_history"
     }
   ],
-  "normal_only_directions": [
-    "NW",
-    "N",
-    "SE"
-  ],
-  "missing_slots": [
-    {
-      "direction": "NW",
-      "variant": "pixel"
-    },
-    {
-      "direction": "N",
-      "variant": "pixel"
-    },
-    {
-      "direction": "SE",
-      "variant": "pixel"
-    }
-  ]
+  "normal_only_directions": [],
+  "missing_slots": [],
+  "background_processing_summary": {
+    "code_processed_directions": [
+      "NW",
+      "N",
+      "SE"
+    ],
+    "alpha_rule": "Outer-border-connected magenta pixels only; no dilation or interior repaint",
+    "intermediate_RGB_unchanged": true,
+    "outside_mask_RGBA_unchanged": true,
+    "final_internal_alpha_holes": 0,
+    "border_color_match": "limited; faint enlarged edge remnants disclosed",
+    "SE_connectivity_note": "Four magenta pixels isolated by the earlier narrow criterion became exterior-connected under the adopted magenta criterion and were removed. The24 candidate pixels still isolated under the adopted criterion are different pixels and were retained unchanged in the alpha-only derivative."
+  },
+  "normal_count": 8,
+  "pixel_count": 8
 }
