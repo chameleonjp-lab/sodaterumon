@@ -2,7 +2,7 @@
   "schema_version": 1,
   "monster_id": "sm-micro-003",
   "design_version": "hexplate-new-design-20261013",
-  "status": "partial_Draft_candidate",
+  "status": "partial_Draft_reassessment_HOLD_not_for_merge",
   "direction_basis": "New S-front ceramic design anchor; representative artistic 2.5D directions, not historical reconstruction.",
   "new_design": true,
   "legacy_root_pair_unchanged": true,
@@ -96,6 +96,7 @@
     "historical_outcome_unknown_resolved": false
   },
   "limitations": [
+    "2026-10-13 15:10 JST: cross-direction foot-thickness reassessment HOLD. These four retained S/SW images are candidates only; do not merge as accepted final output. No image is removed or replaced by this metadata update.",
     "Only S and SW pairs are included:4 of16 images. The other6 directions remain absent; this is not a complete direction set.",
     "The historical root images and catalog depict a different3-cell design and remain unchanged. Do not mix those images with this new ceramic candidate as a coherent single-character set.",
     "Four foot roots and their occlusion are a design hypothesis. S shows2 feet; SW shows3. The unseen fourth root and exact rigid geometry are not proven.",
@@ -110,6 +111,7 @@
     "parent_visual_review": "PASS_S_and_SW_representative_pairs",
     "independent_F_visual_and_provenance_review": "PASS_S_and_SW_pairs_with_limitations",
     "independent_E_submission_review": "PASS_selected4_numeric_sole2_native_raw_prompt_and_scope",
-    "runtime_acceptance": "not_tested"
+    "runtime_acceptance": "not_tested",
+    "current_cross_direction_foot_thickness_review": "HOLD: W side view revealed column-like thickness versus approved plate feet; S/SW previous limited PASS candidates are under reassessment."
   }
 }
