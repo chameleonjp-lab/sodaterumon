@@ -1,0 +1,152 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-scaled-001",
+  "design_version": "substantive_redesign_three_segment_six_feet_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/scaled/sm-scaled-001/default.png",
+      "git_blob_sha": "8893f0d06a67d9df07932ee0e18740931cf0d5dc",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/scaled/sm-scaled-001/pixel.png",
+      "git_blob_sha": "ababeb1c6d3fbab37ed527c9c1c14e8dec38f5dc",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/S/default.png",
+      "sha256": "cda8c2331c4f4976a0257a57da97af82c9604e7edd5feea10ece62504ad08f27",
+      "bytes": 840669
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/S/pixel.png",
+      "sha256": "ee6608e0feb88ec25c21a9ff44a14e54971458c32d85485fa4f502deb1dacefa",
+      "bytes": 11093
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/SE/default.png",
+      "sha256": "857e5bcc78823b357bb1012eda04149877f6f1af87d2d5511cf0432e470e7a60",
+      "bytes": 745698
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/SE/pixel.png",
+      "sha256": "740685ff0805cc5805e5eb515587fe4e544b6a2f3092d41c97aab7fc5ae575b1",
+      "bytes": 11299
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/E/default.png",
+      "sha256": "3610808d9de320361d4d1f7b75f77cf89568d311efa79c0b00df2fa1b43713c0",
+      "bytes": 466662
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/E/pixel.png",
+      "sha256": "763a37f8f8d5f0098e146bdccceba7999cd60a8fd8bf151399fd032d1401a463",
+      "bytes": 7639
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/NE/default.png",
+      "sha256": "3816a69774888a15144a7f2c3192c762707f841c514afae2a4d3226786224412",
+      "bytes": 580983
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/NE/pixel.png",
+      "sha256": "59d130be25f80d8b31ef868860ed92bd6cea86cf5982d8dd2db73b44d996e7cb",
+      "bytes": 6999
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/N/default.png",
+      "sha256": "5a03e68efd475026a44c0c19aca8add46bd84307e60729f3092a3a33c02c2e1b",
+      "bytes": 778557
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/N/pixel.png",
+      "sha256": "f7263629e8e5f1712ed55aca1465215c120671b9232b6933498bdb70d38b3de3",
+      "bytes": 11537
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/NW/default.png",
+      "sha256": "74d43a307b2b4ef38dfd71b846ab06ec972b8acd6c10ef41cc8dff5e0fa754a8",
+      "bytes": 819164
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/NW/pixel.png",
+      "sha256": "3ecdca9bb34aab1ae6223c6163fe4c1393d5f8ce9585291e92da9e96614199ee",
+      "bytes": 12117
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/W/default.png",
+      "sha256": "8fbb6ce54004767f20564b0128861520200d28ba9299180b796c5baa8a169b95",
+      "bytes": 496632
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/W/pixel.png",
+      "sha256": "88a9e1cd12112cce2eaa0077e3ffd2cfd8a5092ada5778d8984cf69f301818a7",
+      "bytes": 8262
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/SW/default.png",
+      "sha256": "f142c243c8385477ae0ae2bc477b39bcc9befe6d87e4d4a33ee9247b66e07276",
+      "bytes": 580877
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-001/directions/SW/pixel.png",
+      "sha256": "294f71bee6753b64cd4781434b07bb42e4787edb2890f82038bb0e1364261951",
+      "bytes": 8776
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "producer_and_E_independent_passed",
+    "visual": "limited_pass_representative_direction_major_structure_normal_pixel_correspondence",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This is the independently adopted three-segment/six-foot redesign, not a repair of the legacy individual. The old one-piece bean body,four feet,three large back scales and fan tail are replaced. The earlier triangular two-foot and hexagonal three-foot/crescent branches were not image references. Catalog ID and name Korohanui are retained only as existing labels; visual identity and the old name-associated design meaning are not asserted unchanged. Legacy root normal,pixel and metadata are retained unchanged; no game code or catalog definition is modified here.",
+    "New anatomy: three rounded low rectangular scaly body blocks F/M/R in a straight front-to-back train,joined by two short broad cream smooth connections. Each block owns one left/right pair of short cream feet,six total. Exactly two eyes belong only to the front end face of F. No separate head,arms,wings or tail. The rear end face of R has blue-gray small scales. The adopted images use soft-rounded blocks and rounded scaly feet rather than an exact dimensioned mechanical block model.",
+    "The accepted new S normal is the visual identity baseline. Front eyes are visible in S/SE/SW and narrowly visible together at the rounded front end in E/W; rear views NE/N/NW have no visible eyes. Rear blue-gray end color is clearest in NE/N/NW and appears at the far end rim in some side/front-oblique views. The extent of that colored surface was visually compared,not established from a measured texture map.",
+    "These are approximate representative views,not verified exact45-degree rotations,strict90-degree side views or a fixed rigid3D camera rig. E/W remain slightly front-oblique. NE/NW and SE/SW have different axis angles and camera pitch; NW andSE appear steeper than their opposite obliques. Apparent segment size,roundness and top-surface exposure vary with perspective. Assets are independently fitted proportionally to longest-extent specifications,not a proven common world scale.",
+    "Six feet are assigned by the new design and demonstrated in the frontal/back views,while side views andSW hide most far-side feet. SE shows more far-side foot fragments thanSW. Hidden roots,exact equal limb lengths and complete3D occlusion geometry are unverified. No extra visible foot is required merely to make the count six in every frame.",
+    "Each selected pixel used only its matching selected normal as its sole image reference. Round small scales become angular or diamond-like clusters; shading is flatter and outlines more pronounced. Tiny side-view eyes have limited readability at128px. Pixel foot bottoms have stair steps and dark border pixels. Palette and apparent proportions are simplified,not exact painted-pixel copies of the normal.",
+    "Palette roles remain sage #92B9A0 body scales,cream #E8D6AD feet/connections,and blue-gray #405B6A scale edges/eyes/rear end,with generated light/shadow variations rather than exact flat hex patches. Warmth and saturation of the small pixel feet/connections differ slightly across views.",
+    "All16 selected assets derive from16 successful image returns:8 normal and8 pixel. NE pixel uses a second global32-color MAXCOVERAGE derivation of the same generated raw after its first MEDIANCUT derivation had weak rear blue-gray separation; alpha and visible shape were identical and no extra image call was made. Both derived versions are retained privately. W raw included an unwanted translucent glow; the standard global alpha128 binary threshold removed it without a location-specific mask or repaint. The raw and initial quality note are retained. No safety refusal or unresolved generation response occurred in this new branch.",
+    "Game runtime,animation,device-scale readability and gameplay integration have not been tested."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
