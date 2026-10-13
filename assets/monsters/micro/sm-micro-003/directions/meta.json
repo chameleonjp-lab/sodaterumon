@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "monster_id": "sm-micro-003",
+  "design_version": "hexplate-new-design-20261013",
+  "status": "partial_Draft_reassessment_HOLD_not_for_merge",
+  "direction_basis": "New S-front ceramic design anchor; representative artistic 2.5D directions, not historical reconstruction.",
+  "new_design": true,
+  "legacy_root_pair_unchanged": true,
+  "legacy_root_pair_used_as_reference": false,
+  "selected_image_count": 4,
+  "expected_image_count": 16,
+  "completed_directions": [
+    "S",
+    "SW"
+  ],
+  "missing_directions": [
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "all16_complete": false,
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "path": "assets/monsters/micro/sm-micro-003/directions/S/default.png",
+      "sha256": "e3cb0293ba1f743df4be4e5deb9259f40ef773b382abf054624218cba5296747",
+      "bytes": 722321,
+      "width": 1024,
+      "height": 1024,
+      "minimum_transparent_margin": 96,
+      "longest_visible_extent": 832,
+      "visible_rgb_colors": null,
+      "binary_alpha": null,
+      "technical_pass": true
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "path": "assets/monsters/micro/sm-micro-003/directions/S/pixel.png",
+      "sha256": "e37ba17c37aa87fade75fcc3c6cc8961a41a7f2f1be183e00fe5078aa8ecf555",
+      "bytes": 2962,
+      "width": 128,
+      "height": 128,
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "path": "assets/monsters/micro/sm-micro-003/directions/SW/default.png",
+      "sha256": "b06ec408792b49f2dcea1add17b45b6459f7ffb2da2ceda019b2fa1f2aa3ba46",
+      "bytes": 651833,
+      "width": 1024,
+      "height": 1024,
+      "minimum_transparent_margin": 96,
+      "longest_visible_extent": 832,
+      "visible_rgb_colors": null,
+      "binary_alpha": null,
+      "technical_pass": true
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "path": "assets/monsters/micro/sm-micro-003/directions/SW/pixel.png",
+      "sha256": "96c08b30d6008b55dd6c6888ddeb7b5788bb6b9581f7abbe905fdeb90c57f5dc",
+      "bytes": 3437,
+      "width": 128,
+      "height": 128,
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "technical_pass": true
+    }
+  ],
+  "design_summary": {
+    "body": "One matte sage-green hexagonal ceramic extrusion",
+    "front_eyes": 2,
+    "total_foot_roots_hypothesis": 4,
+    "back_mark": "One centered cream line on the rear face; not visible or yet verified in the selected front views."
+  },
+  "provenance_summary": {
+    "new_selected_normal_images": 2,
+    "new_selected_pixel_images": 2,
+    "historical_images_reused": 0,
+    "new_successful_image_calls": 5,
+    "quality_hold_outputs_excluded": 1,
+    "selected_pixel_sole_normal_references": 2,
+    "historical_outcome_unknown_resolved": false
+  },
+  "limitations": [
+    "2026-10-13 15:10 JST: cross-direction foot-thickness reassessment HOLD. These four retained S/SW images are candidates only; do not merge as accepted final output. No image is removed or replaced by this metadata update.",
+    "Only S and SW pairs are included:4 of16 images. The other6 directions remain absent; this is not a complete direction set.",
+    "The historical root images and catalog depict a different3-cell design and remain unchanged. Do not mix those images with this new ceramic candidate as a coherent single-character set.",
+    "Four foot roots and their occlusion are a design hypothesis. S shows2 feet; SW shows3. The unseen fourth root and exact rigid geometry are not proven.",
+    "The accepted S image has wider and more separated feet than the initial numerical proposal. Actual selected-image continuity is the reference; the initial dimensions are not claimed to be achieved.",
+    "Exact body thickness, camera yaw,45-degree spacing and common in-game scale are unverified.",
+    "Pixel versions simplify shade levels, grain and contours; highlights and foot edges can be stronger.",
+    "Application binding/catalog migration, game changes, runtime acceptance and production adoption are outside this Draft.",
+    "Historical incomplete candidates and the prior safety hold remain separately preserved; this new design does not resolve the old request outcome."
+  ],
+  "validation": {
+    "producer_technical_review": "PASS_4_of4_selected",
+    "parent_visual_review": "PASS_S_and_SW_representative_pairs",
+    "independent_F_visual_and_provenance_review": "PASS_S_and_SW_pairs_with_limitations",
+    "independent_E_submission_review": "PASS_selected4_numeric_sole2_native_raw_prompt_and_scope",
+    "runtime_acceptance": "not_tested",
+    "current_cross_direction_foot_thickness_review": "HOLD: W side view revealed column-like thickness versus approved plate feet; S/SW previous limited PASS candidates are under reassessment."
+  }
+}
