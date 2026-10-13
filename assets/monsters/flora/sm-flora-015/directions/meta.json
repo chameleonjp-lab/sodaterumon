@@ -648,7 +648,7 @@
   "qa": {
     "technical": "16/16 local pass",
     "normal_review": "full-turn stage candidate passed",
-    "pair_review": "local all16 comparison, native and nearest pixel views on white/black checked; independent review pending",
+    "pair_review": "local all16 comparison, native and nearest pixel views on white/black checked; independent review completed; see qa.independent_review",
     "old_hold": "Old leaf tip stayed screen-left across most views and root yaw order was unclear. Revised views preserve same bent leaf side through far-side concealment versus near-side drape, with front eye occlusion and root depth overlap.",
     "limitations": [
       "Tuber thickness and six-root depth positions inferred consistently from original flattened body",

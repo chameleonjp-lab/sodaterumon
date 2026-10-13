@@ -591,7 +591,7 @@
   "qa": {
     "technical": "16/16 local pass",
     "normal_review": "staged full-turn candidate passed",
-    "pair_review": "local 16-frame comparison and white/black pixel edges checked; independent review pending",
+    "pair_review": "local 16-frame comparison and white/black pixel edges checked; independent review completed; see qa.independent",
     "old_hold": "Opposite side and back-oblique candidates repeated near lowered/far raised arm; fixed-side arm overlap corrected in SW/W/NW.",
     "limitations": [
       "W/E body-width differences treated as projection differences, not exact bilateral 3D proof",

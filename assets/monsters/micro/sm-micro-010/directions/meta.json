@@ -668,7 +668,7 @@
   "qa": {
     "technical": "16/16 local pass",
     "normal_review": "full-turn stage candidate passed",
-    "pair_review": "local all16 comparison, native and nearest pixel views on white/black checked; independent review pending",
+    "pair_review": "local all16 comparison, native and nearest pixel views on white/black checked; independent review completed; see qa.independent_review",
     "old_hold": "Old axial views had paired lateral foot rows and top-down appearance; corrected axial occlusion preserves one seven-foot row. Old oblique candidates had six feet; new SE/NW missing-root fixes restore seven, and SW head/eye/front-foot proportions were reduced.",
     "limitations": [
       "Axial shortening and hidden single-row foot depth inferred consistently from original flattened body",

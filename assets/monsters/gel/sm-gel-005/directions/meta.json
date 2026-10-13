@@ -650,7 +650,7 @@
   "qa": {
     "technical": "16/16 local pass",
     "normal_review": "full-turn stage candidate passed",
-    "pair_review": "local all16 comparison, native and nearest pixel views on white/black checked; independent review pending",
+    "pair_review": "local all16 comparison, native and nearest pixel views on white/black checked; independent review completed; see qa.independent_review",
     "old_hold": "Old profiles kept a dome-like full fan width and spread feet; new plane foreshortening and lower-edge depth overlap correct the continuity.",
     "limitations": [
       "Soft gel membrane thickness and curvature inferred consistently from original rounded edge",
