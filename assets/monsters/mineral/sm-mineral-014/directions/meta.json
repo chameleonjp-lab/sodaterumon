@@ -4,7 +4,7 @@
   "original_direction": "SE",
   "original_direction_is_estimated": true,
   "original_pair_unchanged": true,
-  "completion_status": "partial:14 of16 accepted;N normal and pixel unavailable",
+  "completion_status": "full16 representative directional candidates accepted",
   "direction_basis": "Representative camera-relative directions,original SE source anchors identity;exact yaw is not measured. Eyes remain on upper surface even in rear-oblique views.",
   "assets": [
     {
@@ -300,18 +300,51 @@
       "visible_rgb_colors": 32,
       "binary_alpha": true,
       "selection": "reviewed representative directional candidate"
-    }
-  ],
-  "missing_assets": [
-    {
-      "direction": "N",
-      "variant": "default"
     },
     {
       "direction": "N",
-      "variant": "pixel"
+      "variant": "default",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/N/default.png",
+      "sha256": "2efc153448e7e1a771b99fc6c2c48302f025518040a369b5a29ef60dca10a4e0",
+      "bytes": 538989,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        154,
+        97,
+        869,
+        928
+      ],
+      "minimum_transparent_margin": 96,
+      "longest_visible_extent": 831,
+      "visible_rgb_colors": 100149,
+      "binary_alpha": false,
+      "selection": "authorized body-surface code correction"
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/N/pixel.png",
+      "sha256": "ff504af7f593a6d77438c8d762e51f923b85c4adde2f763d1f8f3f58ff68d02a",
+      "bytes": 9425,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        15,
+        12,
+        112,
+        116
+      ],
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "selection": "imagegen sole-reference to selected corrected N normal"
     }
   ],
+  "missing_assets": [],
   "structural_basis": {
     "body": "one elongated thin diamond body with central narrow ridge and granular narrow mica flakes",
     "eyes": 2,
@@ -320,18 +353,21 @@
     "tail": "one short rounded triangular tail"
   },
   "validation": {
-    "visual_status": "parent accepted all14 selected frames;D independently accepted newNW pair;full16 gate incomplete",
-    "technical_status": "E independent numeric14/root3/path13 PASS; historical service provenance incomplete",
-    "runtime_acceptance": "not tested"
+    "visual_status": "parent/D final full16 visualPASS;Nnormal limited material interpolation accepted with recorded limitations",
+    "technical_status": "D and E full16 numeric/hash PASS;E verified originalSE exceptions,N sole reference,alpha and protected-region equality,unchanged existing14 and native raw correspondence",
+    "runtime_acceptance": "not tested",
+    "N_pixel_reference": "selected corrected N normal sole reference recorded"
   },
   "limitations": [
-    "N body-flake direction remains qualityHOLD. Proposed expanded code correction of two body-surface regions is awaiting authorization.",
     "W/E pixel wing contours were locally corrected with explicitly authorized code/manual source traces;outside each approved mask RGBA was preserved. Local root alignment does not establish fullbody rigid alignment.",
     "NW differs from NE in body width,camera elevation and wing spread;pixel nearwing/root is narrower with stronger saturation and stepped edges.",
     "Exact projection,wing-root depth,hidden surfaces and source 3D reconstruction are not established.",
     "Mica patterns and pixel simplification vary;common runtime scale and in-game appearance untested.",
     "Historical recovered S/SW generation request records are incomplete;current visual acceptance does not restore missing service provenance.",
-    "Reference arrays/hashes are writer records;service-side input digest was not provided."
+    "Reference arrays/hashes are writer records;service-side input digest was not provided.",
+    "N body surface was corrected inside two explicitly authorized masks;eyes,ridge,body silhouette,wings,feet,tail and all alpha retained from the N basis. This is visible-surface interpolation,not proof of hidden original flake roots.",
+    "N material longitudinal mapping is1:1;cross-width mapping varies approximately0.742 to1.348. Two posterior source-eye-aperture regions have more uniform fine grain and weaker shading than adjacent mica.",
+    "Npixel simplifies eyes,flake borders and grain;wing widths and saturation differ modestly from normal."
   ],
   "source_pair_git_blobs": {
     "default": "e0b4e7e3fc77b1bbd5be573ee9941a69d17621c7",
