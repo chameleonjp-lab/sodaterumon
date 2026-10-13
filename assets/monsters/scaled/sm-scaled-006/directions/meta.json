@@ -1,0 +1,159 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-scaled-006",
+  "design_version": "substantive_redesign_closed_scale_box_two_support_discs_v1",
+  "old_design_compatible": false,
+  "original_assets_preserved": [
+    {
+      "path": "assets/monsters/scaled/sm-scaled-006/default.png",
+      "git_blob_sha": "c56b5f0c8cc5ac07f8ca5bdb55bded20518319d7",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/scaled/sm-scaled-006/meta.json",
+      "git_blob_sha": "f13bfa8331209c921e21e0d6c984b73646c2a6fa",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/scaled/sm-scaled-006/pixel.png",
+      "git_blob_sha": "cedaf68d01b086f66661be50030fb8cd140d9ab4",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "original_pixel_available": true,
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/S/default.png",
+      "sha256": "b0b4c60c7bb868e9d4f081dd7dcfd390cd3dda669ebb27a08521bd70dd248be0",
+      "bytes": 612921
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/S/pixel.png",
+      "sha256": "6d1c0eb11974e13657c5e9d1db7a4911696fb3556a1a9ca75edd0c2dfe1a2081",
+      "bytes": 6002
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/SW/default.png",
+      "sha256": "bb4cb6bfb4794a47e14196a987e17cc99a18a37220f69d84b40e86d1fdd0cb20",
+      "bytes": 672125
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/SW/pixel.png",
+      "sha256": "521dbd6001e9194504c8b4c6017b75f66cdb6ee9e25e6ab9d4e65be150def7d4",
+      "bytes": 8033
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/W/default.png",
+      "sha256": "1510fc6fd8bcb924dd8e7bb7f41cc8d846a6de710d6d5d224e5d3e8efdf622f1",
+      "bytes": 536142
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/W/pixel.png",
+      "sha256": "caeea886e8291d633d2d2e5e946bbbab90e135180e4fe7bb7902b359dc52f17c",
+      "bytes": 6028
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/NW/default.png",
+      "sha256": "3a2a2399e105664ca6435c7da479ccd22d195e774c53e0c203ef3176cf0b7d22",
+      "bytes": 723830
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/NW/pixel.png",
+      "sha256": "c043200dff8cf064242e1f6728f97aa189ba6228827f953a3571b2cf5f91608d",
+      "bytes": 8611
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/N/default.png",
+      "sha256": "02230473f207a2049deef8bab0ba63805febf05d0d03b3f8e23c0dde7273aca4",
+      "bytes": 663173
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/N/pixel.png",
+      "sha256": "58e8a1e3856b294d0aec7171b9e28c23a7c19d5f3c1b41fd4332c897fbdfa1b8",
+      "bytes": 7462
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/NE/default.png",
+      "sha256": "eff16a49ff2af05eacbb7edea6ffe9cf7d81b6eb89f2695873ec7b91821b06e8",
+      "bytes": 698286
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/NE/pixel.png",
+      "sha256": "4c7497491a6704ddfa438375f68ab16ab3821ac2996bf6985864d99a4f475225",
+      "bytes": 7240
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/E/default.png",
+      "sha256": "a13b95d4cc2d1076effe0bef421ea29d9b4581f6051287d297ad867d2f013e3b",
+      "bytes": 560510
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/E/pixel.png",
+      "sha256": "128aab5609146939f9ee462bc6a287dd2d3202656e41326d16b9374d783587cf",
+      "bytes": 5408
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/SE/default.png",
+      "sha256": "a01ce707d59040c3aca4b141547888325948b96cbc045c37416999f4f8a8448f",
+      "bytes": 710862
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-006/directions/SE/pixel.png",
+      "sha256": "392b08f56c0f365902f60eb5e57a9134d462b7735d1e6463d48500ab78b84d11",
+      "bytes": 8111
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_documented_approximation_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This independently adopted two-disc scale-box design is a substantive new version, not a validation or replacement of the legacy design. All three original root assets remain unchanged and are excluded from the new sixteen-image set.",
+    "Anatomy: one closed low rounded rectangular scale-covered box with a broad flat roof, two front-end eyes, exactly two equal-design thick upright smooth support discs attached at opposite sidewall midpoints, one short darkgreen rear-end vertical mark, no opening, separate head, hub, axle, legs, arms, wings or tail. Body #C6BE79, discs #E9EACD and edges/eyes/rear mark #576B57 are material color roles under lighting.",
+    "Directions are representative image-generated views: S front, SW front-left, W left, NW rear-left, N rear, NE rear-right, E right and SE front-right. The front pair of eyes becomes one edge eye on sides and is hidden from rear views. The back mark is visible only from rear views. No view is an image mirror of another.",
+    "Normals were image-generated independently using accepted new-design references; no shared fixed 3D model is claimed. Exact45-degree yaw, constant camera elevation, common support-axis height, physical equal disc diameter, ground clearance and rigid-body projection are not proven. The far support upper cap is visible above the roof in side views. A shallow raised appearance remains on the intended flat rear mark.",
+    "All normals use proportional longest-edge normalization around832pixels on1024square transparent canvases; per-view display fitting is not proof of equal physical scale. N projected height is599 versus S541 at about832width, and W535 versus E551. Diagonal roof depth, support width and scale-tile placement vary.",
+    "Every selected pixel was generated using only its own corresponding selected normal as image reference. Preserved generated originals were finished with equal X/Y nearest-neighbor reduction, transparent placement, binary alpha and nondithered visible32-color quantization. No local drawing or part-specific code deformation was used.",
+    "Selected pixels retain positive support-disc lower-rim ordering relative to an adjacent box corner, while exact projected differences remain approximate. At108width: SE normal6.25/pixel4, NE normal2.60/pixel2, N normal8.46/pixel6, NW normal1.69/pixel1, W normal13.14/pixel11 and SW normal3.90/pixel1. These are diagnostic2D silhouette-region measurements, not physical ground-clearance measurements.",
+    "NW uses the same corrected generated pixel original with a whole-image vertical sampling phase of-0.30logicalpixel, preserving a1pixel positive support offset. Its raw offset is about0.63pixel at108width; the centered sampling variant gave0. Prior unsuccessful rounded-body/support-projection drafts remain unselected. SW normal support size was locally corrected through image generation before its own pixel conversion.",
+    "Pixels simplify smooth circular rims, thickness, highlights and tile corners, often with stronger dark borders; SW has stronger pale-disc grain. Exact contour equality, material-color equality, mechanical rolling behavior, game integration and device-scale runtime appearance have not been established."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
