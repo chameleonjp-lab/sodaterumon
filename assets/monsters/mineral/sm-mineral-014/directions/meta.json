@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "monster_id": "sm-mineral-014",
+  "original_direction": "SE",
+  "original_direction_is_estimated": true,
+  "original_pair_unchanged": true,
+  "completion_status": "partial:14 of16 accepted;N normal and pixel unavailable",
+  "direction_basis": "Representative camera-relative directions,original SE source anchors identity;exact yaw is not measured. Eyes remain on upper surface even in rear-oblique views.",
+  "assets": [
+    {
+      "direction": "SE",
+      "variant": "default",
+      "path": "assets/monsters/mineral/sm-mineral-014/default.png",
+      "sha256": "5b22580319e7771211d5a9fbf9a0ec91fb6c2e4c0c59d2203a11888a36ec7f9a",
+      "bytes": 525677,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        80,
+        236,
+        944,
+        788
+      ],
+      "minimum_transparent_margin": 80,
+      "longest_visible_extent": 864,
+      "visible_rgb_colors": 100054,
+      "binary_alpha": false,
+      "selection": "unchanged source pair"
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "path": "assets/monsters/mineral/sm-mineral-014/pixel.png",
+      "sha256": "aba665437c2fffa810e74675895e63eb3dee8d6e0226d228a8b5aadad2135f4f",
+      "bytes": 7855,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        10,
+        27,
+        118,
+        101
+      ],
+      "minimum_transparent_margin": 10,
+      "longest_visible_extent": 108,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "selection": "unchanged source pair"
+    },
+    {
+      "direction": "S",
+      "variant": "default",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/S/default.png",
+      "sha256": "9a146ede67c9c97ab081925be64b55eff27fb7ca8d75375cbee76be0e1b35d11",
+      "bytes": 467470,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        96,
+        235,
+        928,
+        789
+      ],
+      "minimum_transparent_margin": 96,
+      "longest_visible_extent": 832,
+      "visible_rgb_colors": 93011,
+      "binary_alpha": false,
+      "selection": "reviewed representative directional candidate"
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/S/pixel.png",
+      "sha256": "e67e49ca1a3bdfe71778363ccbd3699f3fe760bf1e2234b509a6a137f791a0cb",
+      "bytes": 6478,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        12,
+        28,
+        116,
+        99
+      ],
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 24,
+      "binary_alpha": true,
+      "selection": "reviewed representative directional candidate"
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/SW/default.png",
+      "sha256": "5fab6974ba252fa7e789d647d966adb78b081f41c60bce1c312131f580f2ffb0",
+      "bytes": 705232,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        96,
+        172,
+        928,
+        852
+      ],
+      "minimum_transparent_margin": 96,
+      "longest_visible_extent": 832,
+      "visible_rgb_colors": 121980,
+      "binary_alpha": false,
+      "selection": "reviewed representative directional candidate"
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/SW/pixel.png",
+      "sha256": "1fb00be8ac060d2b6c92eebfda0137e6b3837f44cc3c0e36cdd2d56a33207199",
+      "bytes": 9341,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        12,
+        20,
+        116,
+        108
+      ],
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 24,
+      "binary_alpha": true,
+      "selection": "reviewed representative directional candidate"
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/W/default.png",
+      "sha256": "a12908f78c4287f3ec3f14e6bd28972fd0b8a8ad0f1c71b8a00faa1071bab24a",
+      "bytes": 526695,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        96,
+        193,
+        928,
+        830
+      ],
+      "minimum_transparent_margin": 96,
+      "longest_visible_extent": 832,
+      "visible_rgb_colors": 94839,
+      "binary_alpha": false,
+      "selection": "reviewed representative directional candidate"
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/E/default.png",
+      "sha256": "63ae5c359c243980f6ee9306a6d7836f4472fd1cadd5f94eeecd06e78237ca82",
+      "bytes": 491274,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        96,
+        206,
+        928,
+        817
+      ],
+      "minimum_transparent_margin": 96,
+      "longest_visible_extent": 832,
+      "visible_rgb_colors": 90980,
+      "binary_alpha": false,
+      "selection": "reviewed representative directional candidate"
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/NE/default.png",
+      "sha256": "89d547310af09b1b3873663f847557bfcf03c0091aa7f622a17bac86190e0d4f",
+      "bytes": 571279,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        96,
+        188,
+        928,
+        835
+      ],
+      "minimum_transparent_margin": 96,
+      "longest_visible_extent": 832,
+      "visible_rgb_colors": 103692,
+      "binary_alpha": false,
+      "selection": "reviewed representative directional candidate"
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/NE/pixel.png",
+      "sha256": "afb07fb6cad47da4814dba4d3bbd4d9e94d9f6578aae9ea5998fe2125074de23",
+      "bytes": 9054,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        12,
+        19,
+        116,
+        108
+      ],
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "selection": "reviewed representative directional candidate"
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/W/pixel.png",
+      "sha256": "8fdea4effc6fb35839b1d1d3586793b742410e7baf4fab7e58fd2991ac8c4e7e",
+      "bytes": 8465,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        12,
+        20,
+        116,
+        106
+      ],
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "selection": "approved local wing contour code correction"
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/E/pixel.png",
+      "sha256": "7ebf8301c99e538c4fe1c9501fc6209c60a7f0efa41c02eb8fc8c20868267e2a",
+      "bytes": 6131,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        12,
+        26,
+        115,
+        106
+      ],
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 103,
+      "visible_rgb_colors": 23,
+      "binary_alpha": true,
+      "selection": "approved local wing contour code correction"
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/NW/default.png",
+      "sha256": "17180abd464684365a5cc6b0a7634aa71c439446e1e018b7a78d36d459ff2ba0",
+      "bytes": 742684,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        96,
+        166,
+        927,
+        857
+      ],
+      "minimum_transparent_margin": 96,
+      "longest_visible_extent": 831,
+      "visible_rgb_colors": 122702,
+      "binary_alpha": false,
+      "selection": "reviewed representative directional candidate"
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "path": "assets/monsters/mineral/sm-mineral-014/directions/NW/pixel.png",
+      "sha256": "9b289e4db7f9f8910587e9b152e1692229ae8ba6ca40810403318a6a3364e22f",
+      "bytes": 11429,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        12,
+        18,
+        116,
+        110
+      ],
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "selection": "reviewed representative directional candidate"
+    }
+  ],
+  "missing_assets": [
+    {
+      "direction": "N",
+      "variant": "default"
+    },
+    {
+      "direction": "N",
+      "variant": "pixel"
+    }
+  ],
+  "structural_basis": {
+    "body": "one elongated thin diamond body with central narrow ridge and granular narrow mica flakes",
+    "eyes": 2,
+    "wings": "two broad rounded trapezoids",
+    "legs": 2,
+    "tail": "one short rounded triangular tail"
+  },
+  "validation": {
+    "visual_status": "parent accepted all14 selected frames;D independently accepted newNW pair;full16 gate incomplete",
+    "technical_status": "E independent numeric14/root3/path13 PASS; historical service provenance incomplete",
+    "runtime_acceptance": "not tested"
+  },
+  "limitations": [
+    "N body-flake direction remains qualityHOLD. Proposed expanded code correction of two body-surface regions is awaiting authorization.",
+    "W/E pixel wing contours were locally corrected with explicitly authorized code/manual source traces;outside each approved mask RGBA was preserved. Local root alignment does not establish fullbody rigid alignment.",
+    "NW differs from NE in body width,camera elevation and wing spread;pixel nearwing/root is narrower with stronger saturation and stepped edges.",
+    "Exact projection,wing-root depth,hidden surfaces and source 3D reconstruction are not established.",
+    "Mica patterns and pixel simplification vary;common runtime scale and in-game appearance untested.",
+    "Historical recovered S/SW generation request records are incomplete;current visual acceptance does not restore missing service provenance.",
+    "Reference arrays/hashes are writer records;service-side input digest was not provided."
+  ],
+  "source_pair_git_blobs": {
+    "default": "e0b4e7e3fc77b1bbd5be573ee9941a69d17621c7",
+    "pixel": "86ab44af818b1f649928480d3fdbc19c7c1a632c"
+  }
+}
