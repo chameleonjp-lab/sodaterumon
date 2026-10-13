@@ -2,19 +2,19 @@
   "schema_version": 1,
   "monster_id": "sm-micro-003",
   "design_version": "hexplate-new-design-20261013",
-  "status": "partial_Draft_reassessment_HOLD_not_for_merge",
+  "status": "partial_followup_Draft_candidate",
   "direction_basis": "New S-front ceramic design anchor; representative artistic 2.5D directions, not historical reconstruction.",
   "new_design": true,
   "legacy_root_pair_unchanged": true,
   "legacy_root_pair_used_as_reference": false,
-  "selected_image_count": 4,
+  "selected_image_count": 6,
   "expected_image_count": 16,
   "completed_directions": [
     "S",
-    "SW"
+    "SW",
+    "W"
   ],
   "missing_directions": [
-    "W",
     "NW",
     "N",
     "NE",
@@ -52,11 +52,39 @@
       "technical_pass": true
     },
     {
+      "direction": "W",
+      "variant": "default",
+      "path": "assets/monsters/micro/sm-micro-003/directions/W/default.png",
+      "sha256": "00d70facceb9f88220b76a21f9593e05905d4cd9752f7a89a9ffbecd92d32265",
+      "bytes": 287842,
+      "width": 1024,
+      "height": 1024,
+      "minimum_transparent_margin": 96,
+      "longest_visible_extent": 832,
+      "visible_rgb_colors": null,
+      "binary_alpha": null,
+      "technical_pass": true
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "path": "assets/monsters/micro/sm-micro-003/directions/W/pixel.png",
+      "sha256": "2f45e612c1bfa286815097ba102ca5a7655eede95f57dd9d4d42ed87c2506ee6",
+      "bytes": 1780,
+      "width": 128,
+      "height": 128,
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "technical_pass": true
+    },
+    {
       "direction": "SW",
       "variant": "default",
       "path": "assets/monsters/micro/sm-micro-003/directions/SW/default.png",
-      "sha256": "b06ec408792b49f2dcea1add17b45b6459f7ffb2da2ceda019b2fa1f2aa3ba46",
-      "bytes": 651833,
+      "sha256": "6e53cccb6bdeaf996b7658937f562ae282bcc5b283a83f72b0f3a1edaf3f05af",
+      "bytes": 575833,
       "width": 1024,
       "height": 1024,
       "minimum_transparent_margin": 96,
@@ -69,8 +97,8 @@
       "direction": "SW",
       "variant": "pixel",
       "path": "assets/monsters/micro/sm-micro-003/directions/SW/pixel.png",
-      "sha256": "96c08b30d6008b55dd6c6888ddeb7b5788bb6b9581f7abbe905fdeb90c57f5dc",
-      "bytes": 3437,
+      "sha256": "90b343f9ad93dd35d2af5cd860afafb5688570d6adc96100763b18e11f276878",
+      "bytes": 3738,
       "width": 128,
       "height": 128,
       "minimum_transparent_margin": 12,
@@ -84,34 +112,71 @@
     "body": "One matte sage-green hexagonal ceramic extrusion",
     "front_eyes": 2,
     "total_foot_roots_hypothesis": 4,
-    "back_mark": "One centered cream line on the rear face; not visible or yet verified in the selected front views."
+    "back_mark": "One centered cream line on the rear face; not visible or yet verified in the selected front views.",
+    "feet": "Four short plate feet with broad frontal face and thinner side depth; precise dimensions unproven."
   },
   "provenance_summary": {
-    "new_selected_normal_images": 2,
-    "new_selected_pixel_images": 2,
+    "new_selected_normal_images": 3,
+    "new_selected_pixel_images": 3,
     "historical_images_reused": 0,
-    "new_successful_image_calls": 5,
-    "quality_hold_outputs_excluded": 1,
+    "new_successful_image_calls": 15,
+    "quality_hold_outputs_excluded": 7,
     "selected_pixel_sole_normal_references": 2,
-    "historical_outcome_unknown_resolved": false
+    "historical_outcome_unknown_resolved": false,
+    "additional_normal_candidate_pending_pair": 1,
+    "non_delivery_opaque_intermediates": 1,
+    "selected_pixel_normal_sole_then_background_extraction_pipelines": 1
   },
   "limitations": [
-    "2026-10-13 15:10 JST: cross-direction foot-thickness reassessment HOLD. These four retained S/SW images are candidates only; do not merge as accepted final output. No image is removed or replaced by this metadata update.",
-    "Only S and SW pairs are included:4 of16 images. The other6 directions remain absent; this is not a complete direction set.",
+    "Only S/SW/W pairs pass:6 of16 images. NW normal is a separate pending candidate; N/NE/E/SE and all remaining pairs are incomplete. Earlier published SW quality-HOLD versions are superseded with preserved history.",
     "The historical root images and catalog depict a different3-cell design and remain unchanged. Do not mix those images with this new ceramic candidate as a coherent single-character set.",
-    "Four foot roots and their occlusion are a design hypothesis. S shows2 feet; SW shows3. The unseen fourth root and exact rigid geometry are not proven.",
+    "Four foot roots and occlusion remain a design hypothesis. S retains broad frontal foot faces; corrected SW shows broad faces with thin side edges; W-v2 shows thin side depth. Exact rigid roots are unproven.",
     "The accepted S image has wider and more separated feet than the initial numerical proposal. Actual selected-image continuity is the reference; the initial dimensions are not claimed to be achieved.",
     "Exact body thickness, camera yaw,45-degree spacing and common in-game scale are unverified.",
     "Pixel versions simplify shade levels, grain and contours; highlights and foot edges can be stronger.",
     "Application binding/catalog migration, game changes, runtime acceptance and production adoption are outside this Draft.",
-    "Historical incomplete candidates and the prior safety hold remain separately preserved; this new design does not resolve the old request outcome."
+    "Historical incomplete candidates and the prior safety hold remain separately preserved; this new design does not resolve the old request outcome.",
+    "The corrected SW pixel uses an approved two-stage path: selected normal alone to opaque pixel intermediate, then intermediate-only background extraction. It is not a direct normal-to-final single call; extraction can alter small contour/color details."
   ],
   "validation": {
-    "producer_technical_review": "PASS_4_of4_selected",
-    "parent_visual_review": "PASS_S_and_SW_representative_pairs",
-    "independent_F_visual_and_provenance_review": "PASS_S_and_SW_pairs_with_limitations",
-    "independent_E_submission_review": "PASS_selected4_numeric_sole2_native_raw_prompt_and_scope",
-    "runtime_acceptance": "not_tested",
-    "current_cross_direction_foot_thickness_review": "HOLD: W side view revealed column-like thickness versus approved plate feet; S/SW previous limited PASS candidates are under reassessment."
-  }
+    "producer_technical_review": "PASS_6_of6_selected",
+    "parent_visual_review": "PASS_S_SW_W_representative_pairs",
+    "independent_F_visual_and_provenance_review": "PASS_S_SW_W_pairs_with_limitations",
+    "independent_E_submission_review": "PASS_W_and_corrected_SW_delta_by_E_records",
+    "runtime_acceptance": "not_tested"
+  },
+  "quality_hold_directions": [],
+  "published_image_count_after_proposed_addition": 6,
+  "superseded_quality_hold_assets": [
+    {
+      "direction": "SW",
+      "variant": "default",
+      "path": "assets/monsters/micro/sm-micro-003/directions/SW/default.png",
+      "sha256": "b06ec408792b49f2dcea1add17b45b6459f7ffb2da2ceda019b2fa1f2aa3ba46",
+      "bytes": 651833,
+      "width": 1024,
+      "height": 1024,
+      "minimum_transparent_margin": 96,
+      "longest_visible_extent": 832,
+      "visible_rgb_colors": null,
+      "binary_alpha": null,
+      "technical_pass": true,
+      "status": "superseded_HOLD_preserved_in_history"
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "path": "assets/monsters/micro/sm-micro-003/directions/SW/pixel.png",
+      "sha256": "96c08b30d6008b55dd6c6888ddeb7b5788bb6b9581f7abbe905fdeb90c57f5dc",
+      "bytes": 3437,
+      "width": 128,
+      "height": 128,
+      "minimum_transparent_margin": 12,
+      "longest_visible_extent": 104,
+      "visible_rgb_colors": 32,
+      "binary_alpha": true,
+      "technical_pass": true,
+      "status": "superseded_HOLD_preserved_in_history"
+    }
+  ]
 }
