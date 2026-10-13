@@ -1,0 +1,159 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-winged-017",
+  "design_version": "substantive_redesign_four_eye_disc_fixed_paper_surface_v1",
+  "old_design_compatible": false,
+  "original_assets_preserved": [
+    {
+      "path": "assets/monsters/winged/sm-winged-017/default.png",
+      "git_blob_sha": "adcc9c3894dc48617a9f5c7ce3befc02552c96e9",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/winged/sm-winged-017/pixel.png",
+      "git_blob_sha": "4dd3ce3cbc42b214527ef7decc1cccdaf6a52f58",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/winged/sm-winged-017/meta.json",
+      "git_blob_sha": "a0044f44bd1ea889a30b9c4b199947da510bd5c6",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "original_pixel_available": true,
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-017/directions/S/default.png",
+      "sha256": "dddca9c337e9e72515537748930f7d2baa92f7c316ead77275edecfa80652b8d",
+      "bytes": 109676
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-017/directions/S/pixel.png",
+      "sha256": "ba7c64173942c366a6463dd217eaccf1725a580188701b9e86dc9291b6feb723",
+      "bytes": 1510
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-017/directions/SW/default.png",
+      "sha256": "0f8fc57ec7ec347f43a58144d0313508fbc0570ddbd45d9026befbf54bbbab92",
+      "bytes": 170792
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-017/directions/SW/pixel.png",
+      "sha256": "b14055dc1241f6915d0a9835eb36dc0eca0c4e0e9a3034cb7539d3a06f48ff54",
+      "bytes": 2259
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-017/directions/W/default.png",
+      "sha256": "3e4f9712824d177341dd19dfd967ea8acd9e62671a0ea3027cec326114e3cf87",
+      "bytes": 270585
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-017/directions/W/pixel.png",
+      "sha256": "432121e079d0482c25cdc752f1297199444c69e33d40aa44d3dfb633092b44da",
+      "bytes": 2654
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-017/directions/NW/default.png",
+      "sha256": "4b1d1d5ea7b8c46d5af8d754c0f1e49aff09b1d7f63a3bb03833fbdae5ca7c79",
+      "bytes": 169399
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-017/directions/NW/pixel.png",
+      "sha256": "31b98001499212c9866cbaca39adb27d9b842cb7ed324e280f9a023de753ac49",
+      "bytes": 2201
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-017/directions/N/default.png",
+      "sha256": "64f080f6d5733dc847fc27796d3e70adfe38441a9d893df1829c1280ff41ae46",
+      "bytes": 109635
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-017/directions/N/pixel.png",
+      "sha256": "08b300df927128f9d674941f1b375fca1cca7f3fd36f222c6ecf226846499ce1",
+      "bytes": 1334
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-017/directions/NE/default.png",
+      "sha256": "ca21e638735f3f0cd0fa3c64b962afe3d05c133d5b57530b4c68acab9ff4e01c",
+      "bytes": 171802
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-017/directions/NE/pixel.png",
+      "sha256": "eabf0e299e8e84ba52fbd741676ef0c59529a8f1192166e1ea9e0e36cd068a6f",
+      "bytes": 2718
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-017/directions/E/default.png",
+      "sha256": "ce842ed4608aa46af5748c93be79b8702a3717016e9a84d92b3ea6b975b9a5b6",
+      "bytes": 271343
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-017/directions/E/pixel.png",
+      "sha256": "7914e6f6e2b048138e1eca86825c80b188d06f25e3ecd9807846308094d53b11",
+      "bytes": 2612
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/winged/sm-winged-017/directions/SE/default.png",
+      "sha256": "0c4031712384a578c0e48bd106db93756807be26badd47eb77a6ca6f4ed61c83",
+      "bytes": 168873
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/winged/sm-winged-017/directions/SE/pixel.png",
+      "sha256": "340c6a46971e7d299f9ab0ed95122a0beee5ad0c0d24a7adf31e66c0a98c2401",
+      "bytes": 2621
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_documented_approximation_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This is the independently adopted four-eyed-disc-and-folded-wings design, not validation of the legacy segmented anatomy. The original root normal, pixel and metadata remain unchanged and unused by this new set.",
+    "New anatomy: one thin horizontal matte-fiber disc, four small eyes in a square on the front portion of its upper surface, two directly joined broad thin-paper fan membranes, exactly four connected surface facets and three parallel physical fold axes per wing, one short flat rear upper-surface mark, and no legs, arms or tail. Disc #9BA762, wings #E5AF84, folds and rear mark #6C9392 are material color roles under lighting, not exact flat-color equality.",
+    "The eight normal images were rendered from one fixed local Blender 4.3.2 mesh/material/light setup using an orthographic camera at 30 degrees elevation. S 0, SW -45, W -90, NW -135, N 180, NE 135, E 90 and SE 45 are object-yaw degrees. Dimensions and shallow fold profile are explicit drawing assumptions, not measurements supplied by the legacy catalog. Creases are connected membrane folds with a surface color mask, not separate raised rods.",
+    "The fixed raw camera scale is 6.8. Per-view longest-edge normalization changes display scale: S/N approximately1.017115, diagonals approximately1.260606, E/W approximately2.004819. Side-view display enlargement is about 1.98 times the S/N factor; raw framing is retained separately. Normal longest extents are 830–832 pixels after alpha cleanup.",
+    "The four eyes lie on the upper surface and remain visible in all eight views; a front-face/back-face eye-hiding rule does not apply. Their relative position and the single rear mark rotate together. Wing roots are partly hidden by the disc in some projections. Mathematical source parallelism is verified, but does not by itself prove pixel readability.",
+    "Each selected pixel was generated with only its own exact same-direction normal as reference. The selected images are technically finished from preserved generated originals using proportional nearest-neighbor reduction, transparent placement, binary alpha and a nondithered visible 32-color palette. No direction was made by mirroring another image.",
+    "S, N and E use whole-image technical sampling variants to keep three crease lines distinct. N has a global -0.35 pixel vertical canvas shift and E a global +0.35 pixel horizontal shift, with no local drawing or shape alteration. The older unreadable variants remain unselected. SW was separately regenerated from its own normal to reduce excessive projected height; its final height/width is about 0.473 versus normal 0.504, so residual illustration approximation remains.",
+    "Pixels simplify disc thickness, highlights and material bands; some diagonal crease lines are stepped or discontinuous at native 128 size. SW and some other views have stronger color patches or grain. The local-render normal style is simpler than previous image-generated candidates. Exact pixel-to-normal contour/angle equality, physical realism, game-runtime appearance and device-scale rendering are not established.",
+    "Independent verification passed for all 16 image sizes, alpha, margins, visible pixel color counts and hashes, all eight same-direction sole-reference pixel generation records, and the three unchanged original root assets. Image-level visual approval remains separate from game-runtime validation."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
