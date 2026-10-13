@@ -1,0 +1,152 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-flora-020",
+  "design_version": "substantive_redesign_four_leaf_raft_v1",
+  "old_design_compatible": false,
+  "original_assets_preserved": [
+    {
+      "path": "assets/monsters/flora/sm-flora-020/default.png",
+      "git_blob_sha": "0b27501b49138558c680f7be7cec965d020036c8",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/flora/sm-flora-020/meta.json",
+      "git_blob_sha": "ba8b05bc845719779d9fcfce35cd4945cc9cc3e8",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "original_pixel_available": false,
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-020/directions/S/default.png",
+      "sha256": "9df9e052e4cca59508fb753c68a8c3209e6f68ba0a1a146f067a84b27e0c0664",
+      "bytes": 435043
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-020/directions/S/pixel.png",
+      "sha256": "85aea9d0ba88337f22f68503c8db2b7026ed5448a865d117a4f92b51d79b2764",
+      "bytes": 4165
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-020/directions/SW/default.png",
+      "sha256": "115195f0584d8378a1c41f6966184f2f0d22f855f9b43a100fc3584bc36566f7",
+      "bytes": 494900
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-020/directions/SW/pixel.png",
+      "sha256": "ca6645a1c20e1f7fdd24bb44d80cc26229aea9db29cab2ebe218250b7a778c1a",
+      "bytes": 4222
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-020/directions/W/default.png",
+      "sha256": "67a5deba00b593cc6aaad89b785a698e5436dd56193e9f330eb80eaa903dd450",
+      "bytes": 425132
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-020/directions/W/pixel.png",
+      "sha256": "c48b68f4b37372df1437a371a769cc228adb15d9f9ff19dc6d49b86f9e1c3f82",
+      "bytes": 5263
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-020/directions/NW/default.png",
+      "sha256": "60a7e1a72ad2f7d555f94a49ce4933e770ec62380c0983670b8a7f6c4f168c54",
+      "bytes": 456867
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-020/directions/NW/pixel.png",
+      "sha256": "bc0f8047741637b7088b97e89af9dd6d68d93d027f9fb2092ea205cc1e744916",
+      "bytes": 4037
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-020/directions/N/default.png",
+      "sha256": "c3014ca89d457da6f3ecacb492417dbca64d9d77e0fd04bd548454a87c816b46",
+      "bytes": 397477
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-020/directions/N/pixel.png",
+      "sha256": "77cdee28bfbb7afa2c342aacc46142bcbbb77fed1883e6ee28040d733c99a627",
+      "bytes": 3784
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-020/directions/NE/default.png",
+      "sha256": "2bdca255ea6f475e26bdcc4938be1497617a37dc3a98ed15ace3beb025095f02",
+      "bytes": 479674
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-020/directions/NE/pixel.png",
+      "sha256": "0aeac3badde6743aa47132545dae99515b1746907ce9f467dcf85ee513d79cf4",
+      "bytes": 5037
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-020/directions/E/default.png",
+      "sha256": "0f3bee76729be50d18b2a4f77484ebd151d72de8be22a0542bee92a7cfd4cb45",
+      "bytes": 408441
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-020/directions/E/pixel.png",
+      "sha256": "9a7dfc7a2937725699c6a17ea4e8057da0bddf90a0e4074a314ccbb28fe67976",
+      "bytes": 3882
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/flora/sm-flora-020/directions/SE/default.png",
+      "sha256": "1ce43df1331043f65d3db46f01e4514b9e110c256271f2343bc154dcaa912529",
+      "bytes": 442920
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/flora/sm-flora-020/directions/SE/pixel.png",
+      "sha256": "3d173661eea59eb7ba34434707ad1918289c5e0cdf42a037d73617ebc921f4b6",
+      "bytes": 4902
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "passed",
+    "visual": "candidate_passed_with_inference_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This is an independently adopted four-leaf-raft design, not a validation of the legacy fruit-and-root anatomy. The legacy root normal and metadata remain unchanged and are not used or referenced by this set. No legacy root pixel image was available. All 16 directions images belong to the new design.",
+    "New anatomy: one small low flat cork-like central node, four separate broad rounded thick succulent leaves connected directly in a horizontal cross, one unbranched main vein per leaf, and two eyes at the root of the front leaf. There are no legs, arms, wings, root tails, fruit body or stems. The four leaf junctions remain distinguishable.",
+    "Every selected pixel image was generated using only its own direction normal image. No direction was produced by mirroring another image. Technical normalization preserves the source shape while resizing, padding, thresholding alpha and reducing the palette.",
+    "The front leaf and its eyes move together: toward the viewer in S, lower-left in SW, left in W, upper-left and occluded in NW, far and occluded in N, upper-right and occluded in NE, right in E, and lower-right in SE. Eye readability was checked at native 128-pixel size on light and dark backgrounds; this is an image-level review, not a game-runtime test.",
+    "The W pixel uses a whole-image palette derivative of the same generated raw image, reserving sampled dark colors to keep two eye clusters separate. Its alpha and silhouette are unchanged. The S pixel was separately regenerated from its own normal to distinguish the two round eyes from the mid-tone cork shading; prior low-readability candidates were not selected.",
+    "The intended center (#C9AD73), leaves (#81ABA7), and rims and main veins (#E5D1C0) are lighting and palette roles rather than exact flat-color equality. SW pixel is more saturated. NE and SE pixel show a deeper or longer front cork side and stronger leaf grain; other views also simplify highlights and use more angular rims or stronger shadows.",
+    "There are small differences in leaf proportions, projected height, camera elevation, center-face thickness and apparent attachment depth. Exact 45-degree yaw spacing, rigid 3D consistency, hidden junction geometry and unique physical leaf identity are not established. These are representative directional illustrations with documented artistic inference.",
+    "Runtime and device-scale rendering have not been tested."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
