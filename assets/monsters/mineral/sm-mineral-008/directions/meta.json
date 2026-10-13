@@ -1,0 +1,153 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-mineral-008",
+  "design_version": "substantive_redesign_three_tablets_grounded_plinth_v1",
+  "old_design_compatible": false,
+  "original_assets_preserved": [
+    {
+      "path": "assets/monsters/mineral/sm-mineral-008/default.png",
+      "git_blob_sha": "5cf5528b5561df93e6ad531fbd697acd907dfd94",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/mineral/sm-mineral-008/meta.json",
+      "git_blob_sha": "50c377014b5a85e9ba6c9b60d02b699ae13226ce",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "original_pixel_available": false,
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/S/default.png",
+      "sha256": "7d6432e850343da2ded0ec9a7a68fef2b5394c28de91ebd7f9c1964500be0134",
+      "bytes": 736022
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/S/pixel.png",
+      "sha256": "90d0200c4f01225bc701f5a8e64877f11c500ac1e7fbdaaf48076ca5ba1c066c",
+      "bytes": 8199
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/SE/default.png",
+      "sha256": "61a4a4803f4b92bb6aee9690332941eaf7f4a6306e02296d1af84a59c2467c3d",
+      "bytes": 857128
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/SE/pixel.png",
+      "sha256": "2211d7c3aa2c21e43da52576d458e2005671403e38e6d2dc7d7a924715e22774",
+      "bytes": 10226
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/E/default.png",
+      "sha256": "708197b1f63e962f4b14278ab9db1129a172f5c72475560f5191547bb93ce71c",
+      "bytes": 554226
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/E/pixel.png",
+      "sha256": "310de414aa60bf4ab9a29daf3a08a42fcd6e41050511c925580cef73a285dbec",
+      "bytes": 7585
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/NE/default.png",
+      "sha256": "24040d31a632e18aed812c52cb081e3338d48ba5c1c112fe3386e13ce42c2e5e",
+      "bytes": 941142
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/NE/pixel.png",
+      "sha256": "5fd3b942d42c428fe335e01bc3cc520ded76fd263d0fd19d928f1c22d50a7aba",
+      "bytes": 11399
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/N/default.png",
+      "sha256": "babf718c168f1de94d25a255c3f58143ac40ef048a69a89e91828ccfad2c7457",
+      "bytes": 741070
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/N/pixel.png",
+      "sha256": "8f7e524e0bed9c2174e622f12e2c99779a96e7619c99c3ad89dd1eb4e98d3856",
+      "bytes": 8504
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/NW/default.png",
+      "sha256": "adec33b6474aedb93b1a22a61c9af1b433919c897a298aea166134708e39f54a",
+      "bytes": 833930
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/NW/pixel.png",
+      "sha256": "7f4e636bb134a8f40ea7c83ff1312975ea56748e21209df45eee8cb3214f6931",
+      "bytes": 9078
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/W/default.png",
+      "sha256": "ff83c680b3b4acd29d8f17bfe2c830c37d1602985f941b1abd9b04501c13181c",
+      "bytes": 589966
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/W/pixel.png",
+      "sha256": "e19812127307b15bf07728536d519ed7cf7055682a7d01842d4cbe6c054804aa",
+      "bytes": 8018
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/SW/default.png",
+      "sha256": "0a0f6d873d89d3a599bc255a8bd155301fb6841a20e420b33013d073aeaa58a7",
+      "bytes": 981447
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-008/directions/SW/pixel.png",
+      "sha256": "0bd42ed28c5d5204b1039ac2682c8be32918fc635d3ec2d537ed405571ccdb61",
+      "bytes": 10436
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "producer_and_E_independent_passed",
+    "visual": "parent_and_C_independent_limited_pass_representative_directions_major_structure_normal_pixel_correspondence",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This is the separately adopted three-tablet grounded-plinth redesign. The legacy rounded octahedron, triangular top facet, three eyes on different body faces and three cylindrical legs are replaced. The later stopped U-shaped bridge with two supports and three eyes on a single beam is also not reused. The catalog ID and name Hachimeshio remain existing labels; the old name-associated octahedron meaning and old visual identity are not claimed unchanged. No catalog or game code is changed.",
+    "Legacy root contains default.png and meta.json only. Its pixel image was never returned after the old safety stop. These two actual original files are preserved unchanged; there is no preserved two-image legacy pair. Neither original nor stopped bridge imagery was a shape or pixel-style reference for this new set. Old requests, refusals and successful partial returns remain separately preserved; no specific refusal cause is inferred.",
+    "Adopted anatomy: three thick rounded-rectangular limestone tablets in a transverse row permanently joined to one broad low solid blue-gray plinth. Center tablet taller, outer two equally shorter in the design. Each tablet has one small front eye high on its own face, center eye higher. No independent legs, arms, wings, tail or separate head, and no plinth opening or divided supports. Each tablet owns one flat gold horizontal mineral stratum around its own lower-third height, so the central band is higher. The shape is a stylized approximate rendering, not a dimensioned solid model.",
+    "The new S normal is the identity baseline. S,SE and correctedSW show three front eyes; E/W show two narrow front-edge eyes while the broad side surfaces remain eyeless and the far short tablet is occluded. NE,N,NW are eyeless back views. Hidden third-tablet roots in E/W are inferred from the adopted layout, not independently visible or proven by a3D model. Open tablet gaps can be hidden by overlap; three visible tablets are not required in every side frame.",
+    "Approximate representative directions only. E/W screen-space row axes and base slopes are not exact mirror counterparts. SW andNE have stronger elevation/thickness exposure than SE andNW. S/N apparent central-height ratio, tablet widths, corner rounding, gap width and plinth depth vary modestly. Exact45degree steps, precise90degree side projections, constant camera pitch and rigid3D rotation are not established. Each source is independently proportionally fitted to the longest-extent specification; matching display canvases do not imply a common world scale.",
+    "Tablet and plinth fractures, diagonal stone grain and mineral-layer texture phase are not a verified wrapped texture across views. Palette roles remain pale warm #DDCEC8 tablets, blue-gray #889EBC base/shadow, muted-gold #C6B775 strata, with generated shading and material variation rather than flat exact-color patches.",
+    "Each of the eight selected pixel sprites references only its matching selected normal; correctedSW uses SW-normal-v2. Pixel conversion makes corners more angular, fractures and outlines stronger, side eyes into tiny dark clusters, blue-gray base more saturated, and shading flatter. Gold bands become simplified yellow-brown or ochre planes, notably low-saturationNE, but remain distinguishable from stone and plinth. Small apparent height/width changes and material-detail simplification are retained as pixel limitations, not exact color/shape equality.",
+    "Seventeen successful image calls produced the selected set: nine normal returns and eight pixel returns. SW normalv1 incorrectly returned the SE-side projection and was excluded as a direction qualityHOLD without sending a pixel for it. One explicitly approved different-reference correction used the accepted NE projected layout plus newS front identity to obtain SWnormalv2. The original SWv1 request and output remain unchanged and were neither relabeled nor programmatically mirrored. No safety refusal or unknown response occurred in this new three-tablet branch.",
+    "All native returns, full prompts, reference hashes and normalized derivatives are retained. Standard global alpha cleanup, removal of tiny disconnected artifacts, proportional resizing and global32color pixel quantization were applied; no local semantic repainting or shape construction was used. Pixel assets have binary alpha. Runtime, animation, fixed-rig geometry and device-scale gameplay readability are untested."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
