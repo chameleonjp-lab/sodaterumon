@@ -1,0 +1,153 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-mineral-023",
+  "design_version": "substantive_redesign_single_eye_monolithic_stepped_rock_v1",
+  "old_design_compatible": false,
+  "original_pair_preserved": [
+    {
+      "path": "assets/monsters/mineral/sm-mineral-023/default.png",
+      "git_blob_sha": "c51ee797558084f7aa982190172b0fabb9999821",
+      "unchanged": true,
+      "used_in_new_set": false
+    },
+    {
+      "path": "assets/monsters/mineral/sm-mineral-023/pixel.png",
+      "git_blob_sha": "5069a704b2baf28cf909555ffaaaad6b4d5d78ff",
+      "unchanged": true,
+      "used_in_new_set": false
+    }
+  ],
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/S/default.png",
+      "sha256": "33e06ff76571eec8cc1d149365343fe6de7085a46b17991a4659d9b947a82324",
+      "bytes": 828615
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/S/pixel.png",
+      "sha256": "c9e5f4925a3414cb61be366d2ca06105ee9db5762ca0319840ae8e848609b7fa",
+      "bytes": 8476
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/SW/default.png",
+      "sha256": "bc3f261edf6ed6187ec5cb2842b67e8c4d0655755da4b720a0df535d37068035",
+      "bytes": 993749
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/SW/pixel.png",
+      "sha256": "2702715b75e3bf8da6985cf38055a824c32c9e7339eaabcc6999b7b0d7456e15",
+      "bytes": 12726
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/W/default.png",
+      "sha256": "c04adf8362f10a4037e2387e4fa2772bacbd558dbf0e085a9bcabee2645ffb14",
+      "bytes": 561171
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/W/pixel.png",
+      "sha256": "dc6e8cd50816c769c834bf887bebf6fb456a0b75c8edf1157eb73081e3f5408f",
+      "bytes": 8311
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/NW/default.png",
+      "sha256": "cf1a65bb6a2049ac94fcc0bed6c37e316089bdc8967667936c8c0ebf3f52e571",
+      "bytes": 937753
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/NW/pixel.png",
+      "sha256": "009eaf225ea69d5c9ae29eb6f557a032f5afe32694175e270c7ce2ee57ee92e0",
+      "bytes": 12988
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/N/default.png",
+      "sha256": "bc977af99d4e6d0b3700eee52c19fc5f4dd623b42ca5abc8aa698b10308afad2",
+      "bytes": 865113
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/N/pixel.png",
+      "sha256": "8194453485c8a616bb52fe933c03661b92ccf1b394fa20dc419d83b20616948f",
+      "bytes": 9529
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/NE/default.png",
+      "sha256": "d8579bab2fd9f5b4f4d404f5bc4bee47b08c388f7616b8972e4dad320d3b2aee",
+      "bytes": 932084
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/NE/pixel.png",
+      "sha256": "bc59f7e3a63dbea2325b48d3e37992b30efd63a0548b287c838199fdd0b951af",
+      "bytes": 11134
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/E/default.png",
+      "sha256": "8713a05f18a475c2755a1f9920a7da0daeb08b69a99177bf6c171d90f1610f87",
+      "bytes": 544903
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/E/pixel.png",
+      "sha256": "38235766111990d308fe56f49b25fe7954498b83bfc47f116e73bfc1ce13788e",
+      "bytes": 8384
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/SE/default.png",
+      "sha256": "23cdc9a24caaedc895fe24fdd3f036544a92fcd477a8a88ff44c9595aaa75b3a",
+      "bytes": 873148
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/mineral/sm-mineral-023/directions/SE/pixel.png",
+      "sha256": "b279f7a5847e82b08c53df2ea0541b101a1bb582c86792ca7fe996828fb3500f",
+      "bytes": 11848
+    }
+  ],
+  "qa": {
+    "slots": 16,
+    "technical": "producer_and_independent_16asset_8sole_reference_18raw_record_checks_passed",
+    "visual": "parent_and_independent_visual_candidate_passed_with_caveats",
+    "runtime_tested": false
+  },
+  "caveats": [
+    "This independently adopted stepped-rock design replaces the legacy spiral-body design only in this direction set. All 16 images are newly generated; legacy root images and metadata remain unchanged and were not image references.",
+    "One continuous monolithic rock has a broad lower block and centered half-width upper extension, two short rectangular feet, one eye on the upper front, no arms, wings or tail. The upper and lower portions share front/back endpoints; shoulders extend sideways. Side views hide the shoulders in depth and the far foot behind the near foot.",
+    "Front and front-diagonal views show the single eye; side and rear views show no eye. Oblique views connect the stepped front/back plane to the unmarked side plane. W and E are nearly symmetric unmarked sides; their unique orientation cannot be proved from outline alone.",
+    "A broad blue-gray lower-body stratum has a thin pale-yellow stratum immediately above it. The adopted baseline renders these two distinguishable layers adjacent rather than with a visible taupe gap. This difference from the wording slightly above remains recorded.",
+    "Palette roles are taupe rock and feet #C7A18A, broad layer #879BAA and thin layer #EBDEA4, with lighting and granular material shades.",
+    "Exact depth ratios, 45-degree yaw intervals, camera elevation, rigid stone-grain rotation and hidden shoulder/foot connections are artistic approximations, not measured 3D proof.",
+    "Direction-specific fitting makes W/E appear taller than the broad front/back views at their individual canvas scale. Common world-scale runtime rendering is untested.",
+    "Each selected pixel image uses its same-direction normal as the sole image reference. Pixel art simplifies rounded corners, eye highlights and stone grain; yellow eye-rim shifts, stronger diagonal grain and stepped layer boundaries remain visible.",
+    "W and SW each retain an earlier rejected normal separately; neither rejected image is part of this set. Structure diagrams were private production aids and are not delivered assets.",
+    "Reference arrays and hashes were recorded before reference-based calls and checked locally with returned outputs. No separate service-side input digest was provided."
+  ],
+  "publication_status": "approved_for_draft_review"
+}
