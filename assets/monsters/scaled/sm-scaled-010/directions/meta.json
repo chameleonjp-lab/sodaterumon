@@ -1,0 +1,174 @@
+{
+  "schema_version": 2,
+  "monster_id": "sm-scaled-010",
+  "design_version": "newform_trapezoid_five_feet_v8b_N_completion",
+  "candidate_only": true,
+  "parent_full16_gate": "PASS for Draft candidate 2026-10-13 12:26 JST",
+  "assets": [
+    {
+      "direction": "S",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/S/default.png",
+      "sha256": "e8842ce08b636a2170aeea76fc60e4bc7068c05795c2104eaa6854527299e39a",
+      "bytes": 632484,
+      "origin": "unchanged previously selected new-form asset"
+    },
+    {
+      "direction": "S",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/S/pixel.png",
+      "sha256": "6f1d91cf21d868283f20a164a6cf5e256225b9c0b749d34a557626f2b07eda76",
+      "bytes": 6432,
+      "origin": "unchanged previously selected new-form asset"
+    },
+    {
+      "direction": "SW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/SW/default.png",
+      "sha256": "36fa44b668215ee7a22d26748b749db92643c990d9baad6451265e78cb252304",
+      "bytes": 517290,
+      "origin": "unchanged previously selected new-form asset"
+    },
+    {
+      "direction": "SW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/SW/pixel.png",
+      "sha256": "2f1a61bc0ce253e09b72bec60022f55d3b48f12425bf1ad738b6cb77cd25d799",
+      "bytes": 8254,
+      "origin": "unchanged previously selected new-form asset"
+    },
+    {
+      "direction": "W",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/W/default.png",
+      "sha256": "0283a256637cdf746fa4ad5f06a89afa2263ffcbcc82deaab455541ac227ba67",
+      "bytes": 406659,
+      "origin": "unchanged previously selected new-form asset"
+    },
+    {
+      "direction": "W",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/W/pixel.png",
+      "sha256": "fd7ac35ae7558d7864971cd608e81e436d391329e1400877ed298e40e0066868",
+      "bytes": 6248,
+      "origin": "approved six-pixel RGB-only darkgold eye protection v4"
+    },
+    {
+      "direction": "NW",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/NW/default.png",
+      "sha256": "e1a2532e344a3e207db00b0063ae601891659138f677f0d2db4b4b6dfbd3923a",
+      "bytes": 446331,
+      "origin": "unchanged previously selected new-form asset"
+    },
+    {
+      "direction": "NW",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/NW/pixel.png",
+      "sha256": "2a5fcd91b3eece094dd8ccbfcff136b66580f1d353ec7dbeb89f03f70b08ad41",
+      "bytes": 7171,
+      "origin": "approved one-pixel RGB-only palette correction of NW v2; all remaining RGBA unchanged"
+    },
+    {
+      "direction": "N",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/N/default.png",
+      "sha256": "cbfff17cda840cafd75b4d98e1902dd37feea71733961b6b59f8c535c2e34e97",
+      "bytes": 391730,
+      "origin": "approved deterministic fixed2.5D existing-material composite"
+    },
+    {
+      "direction": "N",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/N/pixel.png",
+      "sha256": "608e771d63c4a91302356df7285370b6e40e9f1d7a298bdd26530d35b158acdb",
+      "bytes": 6861,
+      "origin": "one imagegen call, sole approved N normal reference, format-only finishing"
+    },
+    {
+      "direction": "NE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/NE/default.png",
+      "sha256": "778a04a2e01064a130ce4479a724ab3501124a267f53ae321ac5810b55dc46d7",
+      "bytes": 446650,
+      "origin": "unchanged previously selected new-form asset"
+    },
+    {
+      "direction": "NE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/NE/pixel.png",
+      "sha256": "c95dfcec085038875fc83ab693eb1f954b753a2d196bdbc29adc036bfc7e0481",
+      "bytes": 7242,
+      "origin": "unchanged previously selected new-form asset"
+    },
+    {
+      "direction": "E",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/E/default.png",
+      "sha256": "5e2765646a63f5902beb1cb533316b0541db03f12fa1ff33c2a15f14921a8b66",
+      "bytes": 400079,
+      "origin": "unchanged previously selected new-form asset"
+    },
+    {
+      "direction": "E",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/E/pixel.png",
+      "sha256": "6f6e43441e5e43fe4f4d1101ea7360decfd2c8318d39cc4cf500cf7814e5aaa9",
+      "bytes": 5891,
+      "origin": "unchanged previously selected new-form asset"
+    },
+    {
+      "direction": "SE",
+      "variant": "default",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/SE/default.png",
+      "sha256": "fc1f59c462cd5dbf3233ec7e56d1774fee58e061ce663eddc329e7c82b4060a3",
+      "bytes": 479274,
+      "origin": "unchanged previously selected new-form asset"
+    },
+    {
+      "direction": "SE",
+      "variant": "pixel",
+      "file": "assets/monsters/scaled/sm-scaled-010/directions/SE/pixel.png",
+      "sha256": "c3ed97ace72c7b072b72fc6c6ae4abaaaaee3944e9ab8faff42ea5f0504c2993",
+      "bytes": 8411,
+      "origin": "unchanged previously selected new-form asset"
+    }
+  ],
+  "directions": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "limits": [
+    "Approximate artistic eight-direction identity; exact reconstructed 3D, measured yaw, and strict shared-rig consistency are not established.",
+    "N normal is an explicitly approved deterministic fixed2.5D existing-material composite. Its scale pattern is more regular and edges/shading harder than the painted other directions; cross-direction exact shape equivalence is not claimed.",
+    "Pixel texture, scales, feet, highlights, outlines and shadows are simplified.",
+    "For the seven historical pixel generations, checkpoints record sole selected-normal references and output hashes, but separate pre-call tool-argument/service-input digests are unavailable. Current file/hash matching does not independently prove those historical service-side inputs. N has its single-reference tool call in current history and pre-call/reference/return evidence.",
+    "Runtime and animation transitions untested. Original root assets remain outside this candidate; this worker made no repository or external writes."
+  ],
+  "preservation": {
+    "old14_selection_file": {
+      "path": "/workspace/shared/soda-B-scaled010-W-eye-technical-20261013T0121Z/selected14-after-W-parent-PASS-v1.json",
+      "bytes": 4490,
+      "sha256": "cfc87536e311a75ed86ddbcfa113cee0b5ccf41e2492969c01c0e4b2eb0f08cd",
+      "git_blob_sha": "0079e83aa61c68edc58b95d763692b8827d9d94c"
+    },
+    "all_old14_bytes_unchanged": true,
+    "original_root3": "No writes by this worker. E0121 preservation confirmation carried forward; no fresh root3 scan claimed."
+  },
+  "external_writer": "E only",
+  "status": "FULL16_PARENT_DRAFT_CANDIDATE_ADOPTED_E_INDEPENDENT_QA_PASS",
+  "exact_3D_or_shared_rig_validated": false,
+  "parent_gate": {
+    "path": "/workspace/shared/soda-scaled010-full16-candidate-20261013T0323Z/full16-parent-Draft-candidate-PASS-v2.json",
+    "bytes": 2116,
+    "sha256": "d16edd2d5495bd3518ca3d3b56a34c0336dbe5da01588a62ae767a0b0bf042a8",
+    "git_blob_sha": "b5823cb7c218a5cd4136e66652b730bb83d01413"
+  },
+  "E_formal_index_reconciliation": "Wv4 and NWv3 selected hashes confirmed by E 12:27 JST; independent16 technical and8 recorded-reference hash checks PASS 12:28 JST"
+}
