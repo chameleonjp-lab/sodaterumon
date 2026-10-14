@@ -1,0 +1,401 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-fanged-013",
+  "nameJa": "ネモグルカ",
+  "motion": "walk",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 6,
+  "frameDurationMs": 180,
+  "cycleMs": 1080,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "laterality": "Five fixed paw identities: front image-left, outer image-left, short central rear, outer image-right, front image-right. Front and outer paws show three rounded dark toe tips each; the short central paw shows two tips and its root stays occluded. One central blue eye, four small teeth and a short flat-topped furry cylinder are retained without mirroring. Exact hidden leg-root depth remains a production hypothesis.",
+  "sharedPixelPalette": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      7
+    ],
+    [
+      17,
+      12,
+      18
+    ],
+    [
+      24,
+      19,
+      24
+    ],
+    [
+      47,
+      38,
+      43
+    ],
+    [
+      85,
+      92,
+      116
+    ],
+    [
+      177,
+      138,
+      99
+    ],
+    [
+      188,
+      146,
+      105
+    ],
+    [
+      190,
+      149,
+      107
+    ],
+    [
+      192,
+      153,
+      111
+    ],
+    [
+      207,
+      169,
+      124
+    ],
+    [
+      224,
+      185,
+      137
+    ],
+    [
+      224,
+      187,
+      139
+    ],
+    [
+      225,
+      187,
+      138
+    ],
+    [
+      225,
+      188,
+      140
+    ],
+    [
+      225,
+      190,
+      142
+    ],
+    [
+      227,
+      190,
+      142
+    ],
+    [
+      230,
+      196,
+      152
+    ],
+    [
+      233,
+      204,
+      163
+    ],
+    [
+      237,
+      206,
+      164
+    ],
+    [
+      241,
+      210,
+      167
+    ],
+    [
+      248,
+      227,
+      193
+    ],
+    [
+      251,
+      235,
+      207
+    ],
+    [
+      252,
+      235,
+      204
+    ],
+    [
+      252,
+      236,
+      206
+    ],
+    [
+      252,
+      236,
+      207
+    ],
+    [
+      252,
+      237,
+      208
+    ],
+    [
+      253,
+      236,
+      207
+    ],
+    [
+      253,
+      237,
+      207
+    ],
+    [
+      253,
+      237,
+      208
+    ],
+    [
+      253,
+      240,
+      214
+    ]
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 180,
+      "phaseDescriptionJa": "画面左前pawを回収し、残る4脚で支持する。",
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "bytes": 683772,
+          "sha256": "b1dce6cae1cc2bee65a4ec7be0bca0996ca318ea0910c6bbd86ead3b087be2b5",
+          "sourceKind": "generated_same_identity_phase",
+          "generationInputSha256": "210e93c68793480b1f68868a45a52f51616bdc68ed14e2fb6b5eb5ff52bf7560"
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "bytes": 8291,
+          "sha256": "69eaf8193b8fd19e9715594bed28247d0c1efc846908c31e5998b1511e382a64",
+          "sourceKind": "generated_same_phase_normal_sole",
+          "parentNormalSha256": "b1dce6cae1cc2bee65a4ec7be0bca0996ca318ea0910c6bbd86ead3b087be2b5",
+          "soleFinalNormalGenerationVerified": true,
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 180,
+      "phaseDescriptionJa": "左前pawを接地へ戻し、画面左外側pawを回収する。",
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "bytes": 681487,
+          "sha256": "30baa97b110753741b332bfdded9bd198be58fef2690c96cd5ebd80fd8e158ab",
+          "sourceKind": "generated_same_identity_phase",
+          "generationInputSha256": "210e93c68793480b1f68868a45a52f51616bdc68ed14e2fb6b5eb5ff52bf7560"
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "bytes": 9609,
+          "sha256": "4f3606b6b36fdb9c9e9dbf8124d684b998857f06d4afc33ec1af641bdcac4704",
+          "sourceKind": "generated_same_phase_normal_sole",
+          "parentNormalSha256": "30baa97b110753741b332bfdded9bd198be58fef2690c96cd5ebd80fd8e158ab",
+          "soleFinalNormalGenerationVerified": true,
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 180,
+      "phaseDescriptionJa": "左外側pawを接地へ戻し、短い中央pawを小さく回収する。",
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "bytes": 688146,
+          "sha256": "fe5461d20dc0907b3c8b5837299e555815a4750b4480a6d954f228a5a7835f3e",
+          "sourceKind": "generated_same_identity_phase",
+          "generationInputSha256": "210e93c68793480b1f68868a45a52f51616bdc68ed14e2fb6b5eb5ff52bf7560"
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "bytes": 8599,
+          "sha256": "d8beb5b52c985ae739bed472336c42ffc7cbd7a80423dab240e8017079eef8b0",
+          "sourceKind": "generated_same_phase_normal_sole",
+          "parentNormalSha256": "fe5461d20dc0907b3c8b5837299e555815a4750b4480a6d954f228a5a7835f3e",
+          "soleFinalNormalGenerationVerified": true,
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 180,
+      "phaseDescriptionJa": "中央pawを接地へ戻し、画面右外側pawを回収する。",
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "bytes": 687350,
+          "sha256": "b5cc3ebd68b6381921e5b7efd75da43487ef46ef1873952dbbc6bb133f5ef6d6",
+          "sourceKind": "generated_same_identity_phase",
+          "generationInputSha256": "210e93c68793480b1f68868a45a52f51616bdc68ed14e2fb6b5eb5ff52bf7560"
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "bytes": 8394,
+          "sha256": "4f0e73587a157d94c4faabae0884bd05eae92eb17031177643ed0e22455d6c79",
+          "sourceKind": "generated_same_phase_normal_sole",
+          "parentNormalSha256": "b5cc3ebd68b6381921e5b7efd75da43487ef46ef1873952dbbc6bb133f5ef6d6",
+          "soleFinalNormalGenerationVerified": true,
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "durationMs": 180,
+      "phaseDescriptionJa": "右外側pawを接地へ戻し、画面右前pawを回収する。",
+      "assets": {
+        "normal": {
+          "path": "S/05/default.png",
+          "bytes": 678312,
+          "sha256": "02c1f108441ac9b2716a905916dc65101da7eac264f63860a1272ae4c6ece8cc",
+          "sourceKind": "generated_same_identity_phase",
+          "generationInputSha256": "210e93c68793480b1f68868a45a52f51616bdc68ed14e2fb6b5eb5ff52bf7560"
+        },
+        "pixel": {
+          "path": "S/05/pixel.png",
+          "bytes": 9435,
+          "sha256": "7600e003bdc7a267cf8d197b71608746a2ac2dbf7b6d714c847f96ce160db1fd",
+          "sourceKind": "generated_same_phase_normal_sole",
+          "parentNormalSha256": "02c1f108441ac9b2716a905916dc65101da7eac264f63860a1272ae4c6ece8cc",
+          "soleFinalNormalGenerationVerified": true,
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "durationMs": 180,
+      "phaseDescriptionJa": "右前pawを接地へ戻して5脚支持を整え、次の左前paw回収へつなぐ。",
+      "assets": {
+        "normal": {
+          "path": "S/06/default.png",
+          "bytes": 697659,
+          "sha256": "210e93c68793480b1f68868a45a52f51616bdc68ed14e2fb6b5eb5ff52bf7560",
+          "sourceKind": "verified_reuse",
+          "sourceCommit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+          "sourceBlob": "fb10d90172b57c4d4a1e928176f89c4c83453c31",
+          "sourcePath": "assets/monsters/fanged/sm-fanged-013/directions/S/default.png",
+          "reuseNote": "Exact-byte reuse of the canonical all-five-paw contact normal for the sixth phase. No image-generation call for this normal slot."
+        },
+        "pixel": {
+          "path": "S/06/pixel.png",
+          "bytes": 10137,
+          "sha256": "a259cfdb16451e599166db703553ae432553d8b5ad9d12352ba7a8f85398782f",
+          "sourceKind": "generated_same_phase_normal_sole",
+          "parentNormalSha256": "210e93c68793480b1f68868a45a52f51616bdc68ed14e2fb6b5eb5ff52bf7560",
+          "soleFinalNormalGenerationVerified": true,
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified",
+          "generationNote": "First-time new contact pixel generated from the exact-byte reused phase06 normal as sole input. The historical S pixel was not selected and is not used as sole-reference evidence."
+        }
+      }
+    }
+  ],
+  "designReference": {
+    "repositoryPath": "assets/monsters/fanged/sm-fanged-013/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "gitBlobSha": "fb10d90172b57c4d4a1e928176f89c4c83453c31",
+    "bytes": 697659,
+    "sha256": "210e93c68793480b1f68868a45a52f51616bdc68ed14e2fb6b5eb5ff52bf7560"
+  },
+  "processing": {
+    "normal": "Five built-in phase generations followed by fixed1024/1254 isotropic normalization. Only detached alpha<=2 exterior dots were removed. Whole-frame translation0; no per-frame fit or Python part editing. Phase06 normal is unchanged canonical exact-byte reuse.",
+    "pixel": "Built-in style conversion uses only the accepted same-phase normal. Fixed128/1254 nearest sampling, alpha>=128 binary alpha and nearest mapping to the shared31-color palette. No direct normal-to-pixel conversion and no individual fitting.",
+    "uniformPixelTranslations": {
+      "01": [
+        0,
+        0
+      ],
+      "02": [
+        0,
+        -1
+      ],
+      "03": [
+        0,
+        -3
+      ],
+      "04": [
+        0,
+        -1
+      ],
+      "05": [
+        0,
+        -1
+      ],
+      "06": [
+        0,
+        0
+      ]
+    },
+    "translationVerification": "Each translated derivative was checked for zero clippedRGBA and exact inverse-translation equality. No part was moved independently.",
+    "boundedCorrections": "Pixel01,02,03 each had one bounded same-normal correction for canvas/body/eye framing. All initial and corrected raw images are preserved. Pixel04,05,06 are first candidates.",
+    "counts": {
+      "successfulImageGenerationCalls": 14,
+      "newNormalImageCalls": 5,
+      "newPixelImageCalls": 9,
+      "logicalNormalFrames": 6,
+      "logicalPixelFrames": 6,
+      "uniqueSelectedNormalImages": 6,
+      "uniqueSelectedPixelImages": 6,
+      "exactByteReuseLogicalSlots": 1,
+      "directNormalToPixelConversions": 0
+    }
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_SEQUENCE_PASS",
+    "scope": "S six-phase five-paw sequential recovery/contact return",
+    "individualFrames": "Technical checks and independent visual pair review passed with the listed limitations.",
+    "sequenceReview": "All six adjacent common-coordinate static connections, including05to06to01, were inspected. The five paw recoveries progress through front-left, outer-left, short-center, outer-right and front-right, followed by all-support return. One eye, four teeth, visible toe counts, occlusion and body proportions stay readable.",
+    "animationData": "Both local diagnostic APNGs decode to six exact sourceRGBA frames,180ms each,1080ms total,loop0. APNGs are not part of the13path payload.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "strictLoadTransferAndForwardStride": "not verified",
+    "plannedBodyCenterOfMassCirculation": "not demonstrated; the body is kept stable in these front-view primary recovery samples",
+    "residualCaveats": [
+      "Normal target/observed lift in pixels:01 24/53;02 20/56;03 16/12;04 20/43;05 24/37. The original targets remain recorded; the asymmetry and smaller projected central recovery are not claimed to be exact planned amplitudes.",
+      "Normal supporting sole differences are0..1px. Selected pixel support or recovery registration differences are generally within1px after whole-frame alignment; strict contact forces and continuous sliding are not established.",
+      "Same-normal128 projection versus pixel width/height deltas:01 +2/+1;02 +4/+1;03 +2/+3;04 0/0;05 +4/+1;06 0/-1. These residual contour differences did not show an unequivocal body/eye size jump in the static review.",
+      "Top fur is flatter on01/04 and more finely patterned on02/03/05/06. Eye reflections, dark pupil/mouth regions, teeth and fur line detail visibly change. In particular,06to01 changes from a grainier top to a smoother top.",
+      "The central paw retains only two visible toe tips and a concealed root; missing anatomy is not inferred or drawn in. Front/back root depth remains a production hypothesis.",
+      "Sequential recovery is readable, but strict forward displacement, body-center circulation and full biomechanical load transfer are not verified. Static review and exact APNG readback do not establish continuous perceived smoothness, collision behavior or real-game playback."
+    ]
+  }
+}
