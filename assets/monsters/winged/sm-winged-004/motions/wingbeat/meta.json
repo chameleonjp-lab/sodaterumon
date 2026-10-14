@@ -1,0 +1,550 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-winged-004",
+  "nameJa": "カクホサラ",
+  "motion": "wingbeat",
+  "motionType": "低振幅の羽ばたき移動（提案）",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 6,
+  "frameDurationMs": 140,
+  "cycleMs": 840,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 140,
+      "phaseDescriptionJa": "翼を上げた頂点",
+      "normalEyeAnchorPx": [
+        514,
+        442
+      ],
+      "pixelEyeAnchorPx": [
+        64.25,
+        55.25
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "bytes": 517139,
+          "sha256": "bfc656d5f7ce7fd08bf7f6a5d223d7e0946fd17370b7ad0970f2abed593fbd5c",
+          "rawGenerationSha256": "95ae703ee0697b7fa94abb377e8bb8f8d9476a734a01c0f11621aaf39ff4b71c",
+          "wholeFrameTranslationPx": [
+            0,
+            0
+          ],
+          "eyeResidualPx": [
+            -0.5,
+            0.5
+          ]
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "bytes": 7778,
+          "sha256": "f948f363a3c6b526b714f04c342df6794e4bfc82a830bd13985e95aa8fb7a655",
+          "rawGenerationSha256": "7c13767686c56986ffab95ef9e3d93cb9b359f1421ca14c227e3c5b7c81061da",
+          "wholeFrameTranslationPx": [
+            0,
+            -3
+          ],
+          "eyeResidualPx": [
+            -0.25,
+            0.25
+          ],
+          "parentNormalSha256": "bfc656d5f7ce7fd08bf7f6a5d223d7e0946fd17370b7ad0970f2abed593fbd5c",
+          "visibleColors": 32
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 140,
+      "phaseDescriptionJa": "翼を打ち下ろし始める",
+      "normalEyeAnchorPx": [
+        514,
+        440
+      ],
+      "pixelEyeAnchorPx": [
+        64.25,
+        55.0
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "bytes": 501662,
+          "sha256": "882ea8ff6d05e9c121a75143cc68a96ee137261f60c04079cc6d178392806f8d",
+          "rawGenerationSha256": "fac0a377b2a0eb708c88fe560a160c3b8e46d1beecfa729af98caf2204139a77",
+          "wholeFrameTranslationPx": [
+            0,
+            -2
+          ],
+          "eyeResidualPx": [
+            -0.5,
+            0.5
+          ]
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "bytes": 6809,
+          "sha256": "13d9d920e7bd0da00780cdbcb71c19f9ce2d5db615cdac3921770abe5fcc7cd6",
+          "rawGenerationSha256": "59b1b19ca4656a1b5054f19ee5945a326cc5deb06744a04e3eecaeb342ac2b83",
+          "wholeFrameTranslationPx": [
+            0,
+            -2
+          ],
+          "eyeResidualPx": [
+            -0.25,
+            0.0
+          ],
+          "parentNormalSha256": "882ea8ff6d05e9c121a75143cc68a96ee137261f60c04079cc6d178392806f8d",
+          "visibleColors": 32
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 140,
+      "phaseDescriptionJa": "翼が中立面を通り胴が遅れて上がる",
+      "normalEyeAnchorPx": [
+        514,
+        436
+      ],
+      "pixelEyeAnchorPx": [
+        64.25,
+        54.5
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "bytes": 502664,
+          "sha256": "7072a5380965a04745738993a354626db27164b3f71c0be66af7d1ab3bdb7a65",
+          "rawGenerationSha256": "e6c5133211ca6ce5838138d1f4932c4ee55f0bbe1781820ce44779e73220eb05",
+          "wholeFrameTranslationPx": [
+            0,
+            -6
+          ],
+          "eyeResidualPx": [
+            -0.5,
+            0.0
+          ]
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "bytes": 6412,
+          "sha256": "0127d08502a1ed6c95a89c2e2880116dea8d9c1a8853ccf1161ccb90e8d5bf6b",
+          "rawGenerationSha256": "76ba587d18bfd2b3d4724b8a33fe0c818f1d422c0d0b8d853f689b86b0b0d1b5",
+          "wholeFrameTranslationPx": [
+            0,
+            -2
+          ],
+          "eyeResidualPx": [
+            0.25,
+            -0.5
+          ],
+          "parentNormalSha256": "7072a5380965a04745738993a354626db27164b3f71c0be66af7d1ab3bdb7a65",
+          "visibleColors": 31
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 140,
+      "phaseDescriptionJa": "翼を下げた底点",
+      "normalEyeAnchorPx": [
+        514,
+        442
+      ],
+      "pixelEyeAnchorPx": [
+        64.25,
+        55.25
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "bytes": 503158,
+          "sha256": "69cc0bd111b3f5587fa0bb55720564db8ba37211f426d6ea9c42b8d0da6f495f",
+          "rawGenerationSha256": "5ab4eb7ea7dc52ffbf692839facdae5bd22b05dd051d67f347a02fd34f453f0c",
+          "wholeFrameTranslationPx": [
+            0,
+            0
+          ],
+          "eyeResidualPx": [
+            0.0,
+            0.0
+          ]
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "bytes": 6593,
+          "sha256": "d73a1ebe0a107b46e38892a38ba52243763c56ea87b5524922572847043d7b22",
+          "rawGenerationSha256": "56848a64947dd75f84d3961cf6149beca0f5548d72eca30111dedaa3f9b6f294",
+          "wholeFrameTranslationPx": [
+            1,
+            -3
+          ],
+          "eyeResidualPx": [
+            0.25,
+            0.25
+          ],
+          "parentNormalSha256": "69cc0bd111b3f5587fa0bb55720564db8ba37211f426d6ea9c42b8d0da6f495f",
+          "visibleColors": 31
+        }
+      }
+    },
+    {
+      "index": 5,
+      "durationMs": 140,
+      "phaseDescriptionJa": "翼を戻し始め胴が遅れて下がる",
+      "normalEyeAnchorPx": [
+        514,
+        448
+      ],
+      "pixelEyeAnchorPx": [
+        64.25,
+        56.0
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/05/default.png",
+          "bytes": 501795,
+          "sha256": "764f15faf8e4c78dddd6861944b48597ca116735edcba5f79a7fc7b691056ee1",
+          "rawGenerationSha256": "70b0c23c0d87208026022f230f3b6b5b76cbe590a4d798cbfbe59d5e38012584",
+          "wholeFrameTranslationPx": [
+            0,
+            6
+          ],
+          "eyeResidualPx": [
+            0.0,
+            0.0
+          ]
+        },
+        "pixel": {
+          "path": "S/05/pixel.png",
+          "bytes": 5390,
+          "sha256": "6dba7fcd59ee464b94f9c63e40c18b7f8aa20c4b860099a2e2f0fa8b47ea4a54",
+          "rawGenerationSha256": "306ce7d1a176b06025b2dc5d2b3e36d0a2c44df3b5c3301268b1493bdeb63231",
+          "wholeFrameTranslationPx": [
+            0,
+            -2
+          ],
+          "eyeResidualPx": [
+            -0.25,
+            -0.5
+          ],
+          "parentNormalSha256": "764f15faf8e4c78dddd6861944b48597ca116735edcba5f79a7fc7b691056ee1",
+          "visibleColors": 29
+        }
+      }
+    },
+    {
+      "index": 6,
+      "durationMs": 140,
+      "phaseDescriptionJa": "翼を上げて次の頂点へ",
+      "normalEyeAnchorPx": [
+        514,
+        444
+      ],
+      "pixelEyeAnchorPx": [
+        64.25,
+        55.5
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/06/default.png",
+          "bytes": 499955,
+          "sha256": "ab3cb2fb9fcce24990e8644dc9cc68a3fc339987f1a23a2ad020cb4701a04f60",
+          "rawGenerationSha256": "9304a94ee07ae381a172a98fa8ee805e81f4ffefb15078c6815b0f4105286e57",
+          "wholeFrameTranslationPx": [
+            0,
+            2
+          ],
+          "eyeResidualPx": [
+            0.0,
+            0.0
+          ]
+        },
+        "pixel": {
+          "path": "S/06/pixel.png",
+          "bytes": 6641,
+          "sha256": "366d366e67c8222a0bbf9498dc6828fef1a71691898a086f64c32a55b23cdf30",
+          "rawGenerationSha256": "1b6c63094f772d19d58b50bbe450cfe1dee208ab9aedd55cc36fe681850c92d4",
+          "wholeFrameTranslationPx": [
+            0,
+            -4
+          ],
+          "eyeResidualPx": [
+            0.25,
+            0.0
+          ],
+          "parentNormalSha256": "ab3cb2fb9fcce24990e8644dc9cc68a3fc339987f1a23a2ad020cb4701a04f60",
+          "visibleColors": 30
+        }
+      }
+    }
+  ],
+  "groundContact": "定常飛行中の提案ループ。接地・離陸・着陸はこの6相に含まない。",
+  "wingStaging": {
+    "visiblePairs": [
+      "screen-upper-left/right",
+      "screen-middle-left/right",
+      "screen-lower-left/right"
+    ],
+    "sequence": "Visible upper pair leads, middle follows, lower lags in small lowering and recovery movements.",
+    "uncertainty": "画面上段・中段・下段の3対に位相差を付けた制作仮説。S静止画から解剖学的な前後順序を確定していない。",
+    "turningPoints": "各翼の既存角度に対する相対的な上端・下端。全翼が水平面を越えて反転する大振幅表現ではない。"
+  },
+  "sharedPixelPalette": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      2,
+      2
+    ],
+    [
+      5,
+      2,
+      1
+    ],
+    [
+      7,
+      4,
+      2
+    ],
+    [
+      9,
+      2,
+      2
+    ],
+    [
+      9,
+      6,
+      3
+    ],
+    [
+      19,
+      35,
+      32
+    ],
+    [
+      19,
+      40,
+      36
+    ],
+    [
+      21,
+      33,
+      29
+    ],
+    [
+      22,
+      20,
+      14
+    ],
+    [
+      26,
+      52,
+      47
+    ],
+    [
+      40,
+      70,
+      63
+    ],
+    [
+      57,
+      97,
+      89
+    ],
+    [
+      100,
+      110,
+      91
+    ],
+    [
+      177,
+      142,
+      88
+    ],
+    [
+      191,
+      118,
+      68
+    ],
+    [
+      197,
+      132,
+      72
+    ],
+    [
+      201,
+      142,
+      74
+    ],
+    [
+      207,
+      147,
+      75
+    ],
+    [
+      217,
+      158,
+      77
+    ],
+    [
+      235,
+      179,
+      90
+    ],
+    [
+      238,
+      184,
+      94
+    ],
+    [
+      239,
+      185,
+      93
+    ],
+    [
+      239,
+      185,
+      95
+    ],
+    [
+      239,
+      186,
+      95
+    ],
+    [
+      243,
+      188,
+      96
+    ],
+    [
+      245,
+      211,
+      141
+    ],
+    [
+      250,
+      196,
+      104
+    ],
+    [
+      251,
+      232,
+      178
+    ],
+    [
+      252,
+      197,
+      104
+    ],
+    [
+      252,
+      200,
+      107
+    ],
+    [
+      252,
+      240,
+      202
+    ]
+  ],
+  "pixelPaletteLineage": {
+    "maxVisibleColors": 32,
+    "sourcePhase": 1,
+    "sourceRawSha256": "7c13767686c56986ffab95ef9e3d93cb9b359f1421ca14c227e3c5b7c81061da",
+    "mapping": "Fixed nearest RGB squared Euclidean, no dithering",
+    "binaryAlpha": [
+      0,
+      255
+    ]
+  },
+  "normalization": {
+    "normalRawCanvas": [
+      1254,
+      1254
+    ],
+    "normalResizedCanvas": [
+      980,
+      980
+    ],
+    "normalUniformScale": 0.7814992025518341,
+    "normalTransparentPaddingPx": [
+      22,
+      22
+    ],
+    "normalBaseEyeAnchorPx": [
+      514,
+      442
+    ],
+    "phaseBodyYOffsetPx": [
+      0,
+      -2,
+      -6,
+      0,
+      6,
+      2
+    ],
+    "eyeAnchorDefinition": "Bounding-box center of the dark outer eye ring, not the reflection centroid.",
+    "normalAlphaCleanup": "Only disconnected exterior points with alpha at most2 removed before uniform resizing.",
+    "pixelScaleFromVirtualCanvas": 0.125,
+    "pixelRawCanvas": [
+      1254,
+      1254
+    ],
+    "pixelRawToOutputScale": 0.10207336523125997,
+    "pixelResampling": "Nearest neighbor; alpha at least128 becomes255, otherwise0.",
+    "pixelReferences": "Each pixel sprite is generated using only its listed same-phase normal. Normal pixels are not directly quantized into the deliverable.",
+    "perFrameBodyFit": false,
+    "poseRedrawnByCode": false,
+    "alignment": "Whole-frame integer translation only; one uniform scale per medium, no individual silhouette fitting."
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_CYCLE_PASS",
+    "scope": "S six-phase normal/pixel candidate cycle",
+    "individualFrames": "All twelve PNG assets passed technical and limited visual checks.",
+    "sequenceReview": "Same-coordinate normal/pixel still sequences including 06 to01 inspected. One horizontal rounded-rectangle eye, six wings and three legs remain readable through staged lowering and recovery.",
+    "animationData": "Diagnostic native APNGs contain six140ms frames, an840ms cycle and infinite looping. Every decoded frame is RGBA-exact to its corresponding PNG.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "residualCaveats": [
+      "Central leg lengths, eye width/reflections, cork spots and shading differ subtly across frames, especially in pixel art.",
+      "Pixel06 center foot ends about2px above the same-phase normal projection; pixel05 and02 center legs extend about2..3px below their normal projections.",
+      "Normal04 upper tip left/right height difference reached20.5px, then returned to near balance by05 and06. This is a visible generated asymmetry, not confirmed anatomical asymmetry.",
+      "Pixel artwork is a same-phase interpretation with simplified contours, not an exact geometric projection of the normal illustration.",
+      "Continuous playback and in-game timing, movement distance and collision behavior remain unverified. This is not completion of all eight directions."
+    ],
+    "revisionNote": "The earlier pixel06 had enlarged head/body proportions and failed cycle consistency. One targeted generation from the unchanged same-phase normal replaced that candidate; the common transform and palette remained unchanged, as did the other eleven PNGs. Previous raw and normalized candidates are preserved separately."
+  },
+  "designReference": {
+    "repositoryPath": "assets/monsters/winged/sm-winged-004/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "direction": "S",
+    "bytes": 568964,
+    "sha256": "48de9702dde8b72b3a65b378c0d10c21aa0289295506130726c962d2fe5e3843"
+  }
+}
