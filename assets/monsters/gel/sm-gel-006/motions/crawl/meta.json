@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-gel-006",
+  "nameJa": "クルメポア",
+  "motion": "crawl",
+  "motionType": "belly-supported contraction crawl",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 4,
+  "frameDurationMs": 200,
+  "cycleMs": 800,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 200,
+      "phaseDescriptionJa": "後側を接地させて胴を軽く縮める",
+      "phaseDescriptionEn": "Rear-supported mild central-column contraction",
+      "normalSupportPointPx": [
+        512,
+        900
+      ],
+      "pixelVisibleSupportPointPx": [
+        64,
+        112
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "sha256": "f4cc9699aac8937c5545dc6079eec330f7c9dc9edcca02dbeb1925399f3692cc",
+          "bytes": 646988
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "sha256": "a64d19fe8bc735f7efc8b758eeba8c230cfc4709f836a9edf739c45a1af1a210",
+          "bytes": 11761,
+          "parentNormalSha256": "f4cc9699aac8937c5545dc6079eec330f7c9dc9edcca02dbeb1925399f3692cc",
+          "rawGenerationSha256": "df65a9a3ab2cf6ada809d64c057ba3fa903b4edc47a3fd7308856e62599e88c3",
+          "visibleColors": 32
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 200,
+      "phaseDescriptionJa": "前側を伸ばし、前縁を接地させる",
+      "phaseDescriptionEn": "Front lower-disc rim extension and front contact",
+      "normalSupportPointPx": [
+        512,
+        904
+      ],
+      "pixelVisibleSupportPointPx": [
+        64,
+        112
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "sha256": "fbc079537e5693d5b0a51941c305cf63b011ea56f50c4f992efd994b0468fe34",
+          "bytes": 677358
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "sha256": "3e9468d9c30f1cbf8eee48237ae9256135323df9bd95cf3ff9b9574787e64dc0",
+          "bytes": 8560,
+          "parentNormalSha256": "fbc079537e5693d5b0a51941c305cf63b011ea56f50c4f992efd994b0468fe34",
+          "rawGenerationSha256": "907389e3bd8d1aabf04d65cb36608a350ea002caea85acc4d4ff28a75730f6df",
+          "visibleColors": 30
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 200,
+      "phaseDescriptionJa": "前側を支持して後側を引き寄せる",
+      "phaseDescriptionEn": "Front-supported rear lower-disc draw-in",
+      "normalSupportPointPx": [
+        512,
+        904
+      ],
+      "pixelVisibleSupportPointPx": [
+        64,
+        112
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "sha256": "19e3dfd71b019f41e39b6ffa3e180f8e08523b32259c22d56c555d0ae7c8bf91",
+          "bytes": 632091
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "sha256": "9951ab0cfc497191ea973a43de5f01d3e576da7f547ee22cde86946632e6baf1",
+          "bytes": 7676,
+          "parentNormalSha256": "19e3dfd71b019f41e39b6ffa3e180f8e08523b32259c22d56c555d0ae7c8bf91",
+          "rawGenerationSha256": "a2b428f546205956751f56c0f76b22f1eb7561d2f324442cff19a9292e281a19",
+          "visibleColors": 28
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 200,
+      "phaseDescriptionJa": "胴の高さと長さを戻し、次の伸展へつなぐ",
+      "phaseDescriptionEn": "Return near neutral waist height for the next contraction",
+      "normalSupportPointPx": [
+        512,
+        900
+      ],
+      "pixelVisibleSupportPointPx": [
+        64,
+        112
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "sha256": "00f91df70fe8138256e70d788c6c19c23363b75dede2461e6521084700c27418",
+          "bytes": 656133
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "sha256": "72c39198fd3227c4a2f189965dd574a5663db476ed4bb86fecfad9371b72a4e6",
+          "bytes": 8148,
+          "parentNormalSha256": "00f91df70fe8138256e70d788c6c19c23363b75dede2461e6521084700c27418",
+          "rawGenerationSha256": "c6ff46e7c3894a959d66737a4de3278b8f122c7449573446ef1a70ba07c9f964",
+          "visibleColors": 29
+        }
+      }
+    }
+  ],
+  "sharedPixelPalette": [
+    [
+      3,
+      24,
+      57
+    ],
+    [
+      5,
+      33,
+      68
+    ],
+    [
+      40,
+      75,
+      110
+    ],
+    [
+      129,
+      180,
+      220
+    ],
+    [
+      140,
+      182,
+      218
+    ],
+    [
+      156,
+      191,
+      219
+    ],
+    [
+      181,
+      202,
+      213
+    ],
+    [
+      183,
+      203,
+      213
+    ],
+    [
+      183,
+      205,
+      215
+    ],
+    [
+      185,
+      204,
+      213
+    ],
+    [
+      194,
+      209,
+      211
+    ],
+    [
+      225,
+      223,
+      196
+    ],
+    [
+      227,
+      224,
+      197
+    ],
+    [
+      227,
+      225,
+      198
+    ],
+    [
+      227,
+      227,
+      202
+    ],
+    [
+      228,
+      225,
+      198
+    ],
+    [
+      232,
+      228,
+      198
+    ],
+    [
+      247,
+      239,
+      201
+    ],
+    [
+      250,
+      246,
+      215
+    ],
+    [
+      252,
+      240,
+      193
+    ],
+    [
+      252,
+      251,
+      245
+    ],
+    [
+      253,
+      241,
+      194
+    ],
+    [
+      253,
+      242,
+      197
+    ],
+    [
+      253,
+      244,
+      200
+    ],
+    [
+      253,
+      245,
+      205
+    ],
+    [
+      253,
+      246,
+      206
+    ],
+    [
+      253,
+      247,
+      205
+    ],
+    [
+      253,
+      247,
+      208
+    ],
+    [
+      253,
+      249,
+      208
+    ],
+    [
+      253,
+      251,
+      230
+    ],
+    [
+      253,
+      252,
+      246
+    ],
+    [
+      254,
+      253,
+      248
+    ]
+  ],
+  "pixelPaletteLineage": {
+    "maxVisibleColors": 32,
+    "sourcePhase": 1,
+    "sourceRawSha256": "df65a9a3ab2cf6ada809d64c057ba3fa903b4edc47a3fd7308856e62599e88c3",
+    "mapping": "Phase01: MEDIANCUT32 from its visible raw-derived pixels. Phases02-04: uniform nearest RGB squared Euclidean to the same fixed palette. No dithering or local repaint.",
+    "binaryAlpha": [
+      0,
+      255
+    ]
+  },
+  "designReference": {
+    "repositoryPath": "assets/monsters/gel/sm-gel-006/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "sha256": "b9aa7dae4770ebd07723eeb7328ab153fc06157ab2d0f4a75df16fbe03151266"
+  },
+  "normalization": {
+    "commonRawCanvas": [
+      1254,
+      1254
+    ],
+    "commonResizedCanvas": [
+      1024,
+      1024
+    ],
+    "normalCanvas": [
+      1024,
+      1024
+    ],
+    "pixelScaleFromVirtualCanvas": 0.125,
+    "perFrameBodyFit": false,
+    "poseRedrawnByCode": false,
+    "normalResampling": "LANCZOS",
+    "pixelResampling": "NEAREST",
+    "normalCleanup": "Only exterior alpha1 pixels more than2 taxicab pixels away from alpha>=2 support were removed before resampling.",
+    "supportQuantization": "Normal intended bottom support is900/904/904/900. The4px difference is0.5px at pixel scale; all final pixel visible bottom supports quantize to112. Exact pixel contact migration is not established."
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_SEQUENCE_PASS",
+    "scope": "S four-phase normal/pixel candidate cycle",
+    "individualFrames": "Technical checks and independent visual pair checks passed with residual caveats.",
+    "sequenceReview": "All ordered connections01-02-03-04-01 were visually inspected in common coordinates. Two discs, two upper-disc eyes, one blue waist band, major bubble motifs and connected central column remain readable through contraction, extension, rear draw-in and return.",
+    "animationData": "Normal1024 and pixel128 APNG each have4 frames at200ms,800ms cycle,loop0; decodedRGBA matches each corresponding PNG exactly.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "residualCaveats": [
+      "Actual deformation differs from numeric pose targets. Normal phase03 apex is175px versus134px planned, and phase02-to03 changes73px.",
+      "Pixel phase04-to01 upper and lower apparent disc widths change6px and8px; visible area increases approximately6.79%.",
+      "Normal phase04-to01 apex changes12px.",
+      "Apparent brightness, color-area proportions, bubble locations and highlight simplification vary despite the shared32-color palette.",
+      "Screen apparent disc-diameter ratios and normal/pixel outlines vary modestly across phases.",
+      "Visible pixel contact migration is limited by half-pixel support quantization.",
+      "This is limited offline frame-sequence approval, not continuous-playback or in-game acceptance, and not completion of all eight directions."
+    ],
+    "versionNote": "Adopted8PNG only. Original reference, all raw images and superseded attempts are retained separately and are not part of this set."
+  }
+}
