@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-winged-015",
+  "nameJa": "ツミコノア",
+  "motion": "walk",
+  "motionType": "二足の小歩行（提案）",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 4,
+  "frameDurationMs": 160,
+  "cycleMs": 640,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 160,
+      "phaseDescriptionJa": "左足接地・右足を前へ送り始める",
+      "supportFootId": "L",
+      "normalSupportAnchorPx": [
+        738,
+        656
+      ],
+      "pixelSupportAnchorPx": [
+        92.25,
+        82.0
+      ],
+      "normalSwingLiftPx": 15,
+      "pixelSwingLiftPx": 3,
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "bytes": 220522,
+          "sha256": "3145f623d601b1123cff5d1670286758fa9e99aa1999f1e74b02d2220f467dd6",
+          "rawGenerationSha256": "f6635db40454f170f82d3db5ce4540c8ba423bcd2342b43ad936cf42be168aba",
+          "wholeFrameTranslationPx": [
+            2,
+            3
+          ],
+          "supportAnchorResidualPx": [
+            0.0,
+            0.0
+          ]
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "bytes": 3572,
+          "sha256": "804cf003366279f28e118ca37d5789a5289f9eb93c8e1d2ef2bcfe2c9154ce54",
+          "rawGenerationSha256": "ba90dba75e2654cf9c716a7f1c80206871c85c12d065291f699e899fdba5a5b7",
+          "wholeFrameTranslationPx": [
+            0,
+            -7
+          ],
+          "supportAnchorResidualPx": [
+            0.25,
+            0.0
+          ],
+          "parentNormalSha256": "3145f623d601b1123cff5d1670286758fa9e99aa1999f1e74b02d2220f467dd6",
+          "visibleColors": 31,
+          "eyeCenterPx": [
+            64.5,
+            63.5
+          ]
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 160,
+      "phaseDescriptionJa": "右足通過・胴が軽く上がる",
+      "supportFootId": "L",
+      "normalSupportAnchorPx": [
+        738,
+        656
+      ],
+      "pixelSupportAnchorPx": [
+        92.25,
+        82.0
+      ],
+      "normalSwingLiftPx": 20,
+      "pixelSwingLiftPx": 3,
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "bytes": 222229,
+          "sha256": "8efc2c052920fb95b5ec76314f2fdbd035cb489d52b99615141165bda502e48c",
+          "rawGenerationSha256": "4a1bd7d61f7f1de74a4432bf25ebac30ea4fdacb0eaadedccbb3afbed7fbc21b",
+          "wholeFrameTranslationPx": [
+            2,
+            0
+          ],
+          "supportAnchorResidualPx": [
+            0.5,
+            0.0
+          ]
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "bytes": 2462,
+          "sha256": "00216de050bbe61db1bb7b60ed976aa1548d480d1a7ea6dc9f2e4a6ac9dc8d03",
+          "rawGenerationSha256": "979217bd6837fc982554e550ad00daad2e05788311fb607420521d36a5291633",
+          "wholeFrameTranslationPx": [
+            0,
+            -2
+          ],
+          "supportAnchorResidualPx": [
+            -0.25,
+            0.0
+          ],
+          "parentNormalSha256": "8efc2c052920fb95b5ec76314f2fdbd035cb489d52b99615141165bda502e48c",
+          "visibleColors": 24,
+          "eyeCenterPx": [
+            64.0,
+            62.5
+          ]
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 160,
+      "phaseDescriptionJa": "右足接地・左足を前へ送り始める",
+      "supportFootId": "R",
+      "normalSupportAnchorPx": [
+        286,
+        656
+      ],
+      "pixelSupportAnchorPx": [
+        35.75,
+        82.0
+      ],
+      "normalSwingLiftPx": 14,
+      "pixelSwingLiftPx": 1,
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "bytes": 223493,
+          "sha256": "0ac65595e8c27067a7fb18447e1d44a11ce53775867e6e05f3540c144772ea8f",
+          "rawGenerationSha256": "3900616862936a9899f9801fcd608747610a7bb0e931169b8c7bd567050ede28",
+          "wholeFrameTranslationPx": [
+            -2,
+            3
+          ],
+          "supportAnchorResidualPx": [
+            0.0,
+            0.0
+          ]
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "bytes": 1697,
+          "sha256": "e0119e203d7dc58af414b87317efedc229cb21aa037efa39b029453cc16372ef",
+          "rawGenerationSha256": "34044d115a13624caf5c266bec6291302850dc4d3ca075cdde45ac08ae5c1e08",
+          "wholeFrameTranslationPx": [
+            -1,
+            -5
+          ],
+          "supportAnchorResidualPx": [
+            0.25,
+            0.0
+          ],
+          "parentNormalSha256": "0ac65595e8c27067a7fb18447e1d44a11ce53775867e6e05f3540c144772ea8f",
+          "visibleColors": 16,
+          "eyeCenterPx": [
+            63.0,
+            64.5
+          ]
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 160,
+      "phaseDescriptionJa": "左足通過・次の左接地へ連続",
+      "supportFootId": "R",
+      "normalSupportAnchorPx": [
+        286,
+        656
+      ],
+      "pixelSupportAnchorPx": [
+        35.75,
+        82.0
+      ],
+      "normalSwingLiftPx": 17,
+      "pixelSwingLiftPx": 2,
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "bytes": 223984,
+          "sha256": "361c846a1beb8e73770e24d043caa71f4c80564f5886579009c5a506c3a29748",
+          "rawGenerationSha256": "c87f25ac313ddc9774259e71f93ed83bc4e2bb5c78add656fa855e6182549404",
+          "wholeFrameTranslationPx": [
+            -2,
+            3
+          ],
+          "supportAnchorResidualPx": [
+            -0.5,
+            0.0
+          ]
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "bytes": 1475,
+          "sha256": "78a6ccb878eca806ab45123fbda35bd6bd98f4f448b6e711ff222a00f9150fcf",
+          "rawGenerationSha256": "766427bc10c956ea8e00e7caea144b47751e5d7339170255b325fa93ce98ca19",
+          "wholeFrameTranslationPx": [
+            1,
+            -1
+          ],
+          "supportAnchorResidualPx": [
+            0.25,
+            0.0
+          ],
+          "parentNormalSha256": "361c846a1beb8e73770e24d043caa71f4c80564f5886579009c5a506c3a29748",
+          "visibleColors": 16,
+          "eyeCenterPx": [
+            65.0,
+            64.0
+          ]
+        }
+      }
+    }
+  ],
+  "identityInvariants": "単眼、中央上端に開いた切欠きのある幅広で低い水色胴、左右の淡い黄色の二山翼2枚、胴端に接続した短い豆足2本。尾・腕・追加脚はない。",
+  "motionScope": "正面Sの二足小歩行を表す4相の提案。翼は小さい釣合い動作のみで飛行能力を断定しない。実移動距離・歩幅達成は未検証。",
+  "groundContact": {
+    "footIds": "L=個体左=正面画像右、R=個体右=正面画像左。画像反転による交換は使わない。",
+    "supportOrder": [
+      "L",
+      "L",
+      "R",
+      "R"
+    ],
+    "normalSoleBBoxBottomY": 656,
+    "pixelSoleBBoxBottomY": 82,
+    "definition": "通常はalpha>=128の足裏境界、pixelは二値alphaの足裏境界。半透明の外縁は接地点に数えない。ゲーム当たり判定の設定ではない。",
+    "alignment": "各相の支持足の水平中心と足裏へ全画像を整数平行移動。眼の独立位置合わせで支持姿勢を打ち消さない。"
+  },
+  "sharedPixelPalette": [
+    [
+      2,
+      104,
+      122
+    ],
+    [
+      31,
+      17,
+      13
+    ],
+    [
+      79,
+      215,
+      219
+    ],
+    [
+      83,
+      55,
+      54
+    ],
+    [
+      88,
+      59,
+      49
+    ],
+    [
+      89,
+      137,
+      120
+    ],
+    [
+      110,
+      71,
+      25
+    ],
+    [
+      120,
+      235,
+      237
+    ],
+    [
+      120,
+      237,
+      240
+    ],
+    [
+      121,
+      234,
+      237
+    ],
+    [
+      122,
+      234,
+      236
+    ],
+    [
+      122,
+      234,
+      237
+    ],
+    [
+      122,
+      234,
+      238
+    ],
+    [
+      122,
+      235,
+      238
+    ],
+    [
+      123,
+      234,
+      237
+    ],
+    [
+      123,
+      235,
+      236
+    ],
+    [
+      123,
+      235,
+      237
+    ],
+    [
+      123,
+      235,
+      238
+    ],
+    [
+      123,
+      236,
+      238
+    ],
+    [
+      124,
+      234,
+      237
+    ],
+    [
+      124,
+      235,
+      238
+    ],
+    [
+      124,
+      236,
+      239
+    ],
+    [
+      125,
+      235,
+      238
+    ],
+    [
+      127,
+      238,
+      240
+    ],
+    [
+      168,
+      250,
+      251
+    ],
+    [
+      206,
+      213,
+      166
+    ],
+    [
+      232,
+      246,
+      223
+    ],
+    [
+      252,
+      219,
+      154
+    ],
+    [
+      253,
+      221,
+      157
+    ],
+    [
+      253,
+      222,
+      158
+    ],
+    [
+      253,
+      224,
+      162
+    ]
+  ],
+  "pixelPaletteLineage": {
+    "maxVisibleColors": 32,
+    "sourcePhase": 1,
+    "sourceRawSha256": "ba90dba75e2654cf9c716a7f1c80206871c85c12d065291f699e899fdba5a5b7",
+    "mapping": "Fixed nearest RGB squared Euclidean, no dithering",
+    "binaryAlpha": [
+      0,
+      255
+    ]
+  },
+  "normalization": {
+    "normalRawCanvas": [
+      1254,
+      1254
+    ],
+    "normalResizedCanvas": [
+      1000,
+      1000
+    ],
+    "normalUniformScale": 0.7974481658692185,
+    "normalTransparentPaddingPx": [
+      12,
+      12
+    ],
+    "normalCleanup": "Only disconnected exterior components with maximum alpha at most2 are removed before uniform resizing; connected body RGB and anatomy are not redrawn or recolored.",
+    "pixelScaleFromVirtualNormalCanvas": 0.125,
+    "typicalPixelRawCanvas": [
+      1254,
+      1254
+    ],
+    "typicalPixelRawToOutputScale": 0.10207336523125997,
+    "pixelResampling": "Nearest neighbor, alpha>=128 becomes255 otherwise0; same common palette for all frames.",
+    "pixelReferences": "Each pixel was newly generated using only its listed same-phase accepted normal fullcanvas. No direct normal-to-pixel quantization is used.",
+    "pixelRawAspectException": {
+      "frameIndex": 3,
+      "rawCanvas": [
+        1402,
+        1122
+      ],
+      "transparentPaddingLeftTopRightBottom": [
+        0,
+        140,
+        0,
+        140
+      ],
+      "virtualSquare": [
+        1402,
+        1402
+      ],
+      "uniformScale": 0.0912981455064194,
+      "sourceRectangleRGBAExact": true,
+      "paddingRGBAZero": true,
+      "wholeTranslationAfterResize": [
+        -1,
+        -5
+      ],
+      "explanation": "The returned wide fullcanvas was letterboxed into a square before isotropic scaling. This is an explicit camera exception, not an object bbox fit or anisotropic stretch."
+    },
+    "perFrameObjectFit": false,
+    "poseRedrawnByCode": false,
+    "wholeFrameTranslationOnly": true,
+    "allPixelTranslationsReverseRGBAExact": true,
+    "allPixelVisibleClipping": 0
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_CYCLE_PASS",
+    "scope": "S four-phase normal/pixel still-sequence and file-data QA",
+    "individualFrames": "Eight PNGs passed technical and limited same-phase visual checks.",
+    "sequenceReview": "Same-coordinate normal and native128 pixel sequences 01-02-03-04-01 and closure03-04-01 inspected. Support sides alternate and one eye, open notch, two wings and two attached feet remain readable. No conspicuous whole-body size jump was observed; residual eye/body and color-area differences remain.",
+    "animationData": "Diagnostic APNGs contain four160ms frames,640ms total and infinite loop. Every decoded frame matches its respective PNG RGBA exactly.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "residualCaveats": [
+      "Actual normal swing lifts15,20,14,17px versus initial nominal8/12; last target20 was underachieved. Body rise01->02=3px,03->04=1.5px. No validated stride length or movement distance.",
+      "Normal02 initial candidate moved the visible swing-foot root toward center by61.5px; one targeted repair restored the body-edge root. Old version retained.",
+      "Pixel04 initial candidate had enlarged8x7 eye and pale gray-green wing/foot edges. One targeted same-normal repair restored small eye/warm brown boundary. Old version retained.",
+      "Pixel03 alone was returned1402x1122; transparent140top/bottom letterbox restores full1402 square, then128/1402 isotropic scaling. Source rectangle exactRGBA and no clipping; all other pixel raws use128/1254. This is not per-frame bbox fitting.",
+      "Common first-pixel palette31 colors fixed for all phases. Quantized dark-eye threshold may exclude brown edge/highlight pixels; raw eye component count is not complete eye silhouette.",
+      "Pixel04 eye centerX65 vs same normal63.5625 and pixel03X63; swing footX94 vs normal92, rightmost bbox+2.875px. These differences remain visible and were not hidden with an individual fit.",
+      "Pixel eye dimensions/highlight, wing outline/color regions and small foot widths vary. Pixel01 has somewhat taller/wider body than later phases; central geometryROI and visual sequences are both retained, not interchangeable proof.",
+      "Continuous playback visual inspection, runtime timing, collision, actual movement distance, iPhone acceptance and other directions are unverified."
+    ]
+  },
+  "designReference": {
+    "repositoryPath": "assets/monsters/winged/sm-winged-015/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "direction": "S",
+    "bytes": 223643,
+    "sha256": "cbcff8775823b46363b42553e5a695d58ed8124e21ebd10ffde9c9a678bc219a"
+  }
+}
