@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-fanged-002",
+  "nameJa": "タロメグア",
+  "motion": "walk",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 4,
+  "frameDurationMs": 160,
+  "cycleMs": 640,
+  "laterality": "Monster anatomical left/right; the S front view reverses screen sides.",
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "supportBaselineExclusive": {
+    "normal": 731,
+    "pixel": 91
+  },
+  "sharedPixelPalette": [
+    [
+      145,
+      38,
+      13
+    ],
+    [
+      169,
+      60,
+      28
+    ],
+    [
+      218,
+      87,
+      43
+    ],
+    [
+      229,
+      94,
+      46
+    ],
+    [
+      230,
+      140,
+      73
+    ],
+    [
+      244,
+      120,
+      50
+    ],
+    [
+      249,
+      188,
+      104
+    ],
+    [
+      251,
+      175,
+      80
+    ],
+    [
+      252,
+      165,
+      66
+    ],
+    [
+      252,
+      217,
+      150
+    ],
+    [
+      253,
+      143,
+      55
+    ],
+    [
+      253,
+      208,
+      125
+    ],
+    [
+      253,
+      225,
+      166
+    ],
+    [
+      253,
+      234,
+      181
+    ],
+    [
+      255,
+      255,
+      255
+    ],
+    [
+      58,
+      18,
+      6
+    ]
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 160,
+      "phaseDescriptionJa": "左足接地・右足を前へ送り始める",
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "bytes": 332178,
+          "sha256": "87450f2f3afb08212fb89de72d344a720b418cb5d3b363e108a564d414b83ab2"
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "bytes": 3884,
+          "sha256": "3f784de17eef58524222c165b2dae41da4c4afe60723e712ef654c5c4bdef964",
+          "parentNormalSha256": "87450f2f3afb08212fb89de72d344a720b418cb5d3b363e108a564d414b83ab2"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 160,
+      "phaseDescriptionJa": "右足通過・胴が軽く上がる",
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "bytes": 332130,
+          "sha256": "13c3676c37e62970b787f215fe9940e134b183b0d13c75c13a600fab8ae08978"
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "bytes": 3366,
+          "sha256": "366428c304e2495dd91e36843d8af44d2100ea101bc524bdb998e1131880e167",
+          "parentNormalSha256": "13c3676c37e62970b787f215fe9940e134b183b0d13c75c13a600fab8ae08978"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 160,
+      "phaseDescriptionJa": "右足接地・左足を前へ送り始める",
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "bytes": 338677,
+          "sha256": "41501651413be33159a92cdd3a197ad970e5b9a7737a7c2fde4dd022ae259a8f"
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "bytes": 3211,
+          "sha256": "4cd7772602774fef3217cb404f734ab3e3cf60be9175b741f26c2b7a00a6c8f1",
+          "parentNormalSha256": "41501651413be33159a92cdd3a197ad970e5b9a7737a7c2fde4dd022ae259a8f"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 160,
+      "phaseDescriptionJa": "左足通過・次の左接地へ連続",
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "bytes": 336464,
+          "sha256": "f1b240fc93e9bc93592b9e70409471e5d7ae47674f22b399427acd11a76a357a"
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "bytes": 3260,
+          "sha256": "1f1c25d26693b51cbfaa4753557c315d03ed4fbb14e3f8de5b1884a579bd9a39",
+          "parentNormalSha256": "f1b240fc93e9bc93592b9e70409471e5d7ae47674f22b399427acd11a76a357a"
+        }
+      }
+    }
+  ],
+  "designReference": {
+    "repositoryPath": "assets/monsters/fanged/sm-fanged-002/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "sha256": "bc6e76b8516357a5f454c5c225805e1205ebd01fb489e83e575d0420473cea1d"
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_SEQUENCE_PASS",
+    "scope": "S four-phase normal/pixel cycle",
+    "individualFrames": "technical andvisual checks passed",
+    "sequenceReview": "All adjacent frame connections including 04 to 01 visually inspected in common-coordinate frame sequences. Character legibility and alternating support are preserved.",
+    "animationData": "Native APNG frame RGBA verified byte-for-byte against corresponding PNG assets; duration 160 ms per frame, cycle 640 ms.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "residualCaveats": [
+      "Pixel phase 04 upper extent is 3 pixels lower than phases 01 through 03.",
+      "Small generated face/body color patches still vary across phases after shared 16-color reduction.",
+      "White tooth and facial details are simplified at 128 pixels.",
+      "Pixel silhouettes and normal silhouettes are not numerically identical."
+    ],
+    "versionNote": "Shared 16-color pixel variants supersede earlier 32-color candidates. Earlier color-consistency HOLD and oversized phase 04 candidate are preserved separately and not included as adopted assets."
+  }
+}
