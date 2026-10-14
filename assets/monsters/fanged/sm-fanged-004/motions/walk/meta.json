@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-fanged-004",
+  "nameJa": "クレモピア",
+  "motion": "walk",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 6,
+  "frameDurationMs": 160,
+  "cycleMs": 960,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "laterality": "One central round eye, two inward-curving tusks, three legs with one dark hoof each. Fixed image-left, image-right, and short central leg identities are retained without mirroring. Exact leg-root depth and central front/back mapping remain a production hypothesis; the hidden tail is not redrawn.",
+  "sharedPixelPalette": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      2,
+      2
+    ],
+    [
+      12,
+      0,
+      0
+    ],
+    [
+      17,
+      13,
+      11
+    ],
+    [
+      88,
+      79,
+      82
+    ],
+    [
+      117,
+      100,
+      108
+    ],
+    [
+      172,
+      134,
+      102
+    ],
+    [
+      177,
+      140,
+      113
+    ],
+    [
+      181,
+      138,
+      95
+    ],
+    [
+      182,
+      140,
+      99
+    ],
+    [
+      200,
+      159,
+      112
+    ],
+    [
+      214,
+      185,
+      145
+    ],
+    [
+      216,
+      176,
+      125
+    ],
+    [
+      217,
+      177,
+      126
+    ],
+    [
+      218,
+      177,
+      126
+    ],
+    [
+      218,
+      178,
+      127
+    ],
+    [
+      218,
+      179,
+      128
+    ],
+    [
+      219,
+      179,
+      126
+    ],
+    [
+      219,
+      180,
+      129
+    ],
+    [
+      220,
+      180,
+      128
+    ],
+    [
+      233,
+      190,
+      136
+    ],
+    [
+      235,
+      215,
+      192
+    ],
+    [
+      249,
+      198,
+      135
+    ],
+    [
+      250,
+      200,
+      138
+    ],
+    [
+      250,
+      201,
+      139
+    ],
+    [
+      251,
+      209,
+      155
+    ],
+    [
+      251,
+      230,
+      196
+    ],
+    [
+      251,
+      230,
+      199
+    ],
+    [
+      252,
+      231,
+      200
+    ],
+    [
+      252,
+      237,
+      212
+    ]
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 160,
+      "phaseDescriptionJa": "画面左脚の蹄を回収し、画面右脚と中央脚で支持する。",
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "bytes": 657326,
+          "sha256": "e62b13efa413fcf406a6bd75109569fecde187f335be78abc8590a1a661c8923",
+          "sourceKind": "generated_same_identity_phase",
+          "generationInputSha256": "2d4f4ae6b69f9ddaa712697d24f3e3a6fe48981994f32bb2be1a2e2ef2b60b35"
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "bytes": 5907,
+          "sha256": "5f48235848538d8da20242eeb735ac72d2f8b5cd449a0dc3a077297d8a645220",
+          "parentNormalSha256": "e62b13efa413fcf406a6bd75109569fecde187f335be78abc8590a1a661c8923",
+          "soleFinalNormalGenerationVerified": true,
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified",
+          "sourceKind": "generated_same_phase_normal_sole"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 160,
+      "phaseDescriptionJa": "画面左の蹄を接地へ戻す、3脚の重複支持相。",
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "bytes": 672127,
+          "sha256": "2d4f4ae6b69f9ddaa712697d24f3e3a6fe48981994f32bb2be1a2e2ef2b60b35",
+          "sourceKind": "verified_reuse",
+          "sourceCommit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+          "sourceBlob": "3cf817fc4c060fb6e55da0abf8985dfff42b2883",
+          "sourcePath": "assets/monsters/fanged/sm-fanged-004/directions/S/default.png"
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "bytes": 7772,
+          "sha256": "f86ec1724e0c086714d3e03ebaac9629c8c2e7f347bc5cd251cb2164f70f9fe7",
+          "parentNormalSha256": "2d4f4ae6b69f9ddaa712697d24f3e3a6fe48981994f32bb2be1a2e2ef2b60b35",
+          "soleFinalNormalGenerationVerified": true,
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified",
+          "sourceKind": "generated_same_phase_normal_sole"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 160,
+      "phaseDescriptionJa": "画面右脚の蹄を回収し、画面左脚と中央脚で支持する。",
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "bytes": 646313,
+          "sha256": "3d5b48da1d63ceb7c92d2d4b5916979575773e1b17718398ddb48bc953d0b032",
+          "sourceKind": "generated_same_identity_phase",
+          "generationInputSha256": "7804cae3c7d90277c6fdf661a4e1a0b9f896ad8614adb6774c5a1b3458b26548",
+          "generationNote": "One bounded right-leg correction used the initial phase03 normal as its sole input. The earlier excessive-flexion candidate and the original design reference are retained in production provenance."
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "bytes": 7586,
+          "sha256": "b1c7b38135032a4083516fa55dcbb3c62f3b7a5f4b4c45554509a0e9662da255",
+          "parentNormalSha256": "3d5b48da1d63ceb7c92d2d4b5916979575773e1b17718398ddb48bc953d0b032",
+          "soleFinalNormalGenerationVerified": true,
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified",
+          "sourceKind": "generated_same_phase_normal_sole"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 160,
+      "phaseDescriptionJa": "画面右の蹄を接地へ戻す、3脚の重複支持相。",
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "bytes": 672127,
+          "sha256": "2d4f4ae6b69f9ddaa712697d24f3e3a6fe48981994f32bb2be1a2e2ef2b60b35",
+          "sourceKind": "verified_reuse",
+          "sourceCommit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+          "sourceBlob": "3cf817fc4c060fb6e55da0abf8985dfff42b2883",
+          "sourcePath": "assets/monsters/fanged/sm-fanged-004/directions/S/default.png"
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "bytes": 7772,
+          "sha256": "f86ec1724e0c086714d3e03ebaac9629c8c2e7f347bc5cd251cb2164f70f9fe7",
+          "parentNormalSha256": "2d4f4ae6b69f9ddaa712697d24f3e3a6fe48981994f32bb2be1a2e2ef2b60b35",
+          "soleFinalNormalGenerationVerified": true,
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified",
+          "sourceKind": "verified_reuse",
+          "reuseSourcePhase": 2,
+          "reuseSourceAsset": "S/02/pixel.png",
+          "reuseSourceSha256": "f86ec1724e0c086714d3e03ebaac9629c8c2e7f347bc5cd251cb2164f70f9fe7",
+          "generationReferenceChainNote": "Exact-byte reuse of the newly generated phase02 contact pixel. The paired phase04/06 normal is byte-identical to its sole phase02 normal input. No new image-generation call for this reused slot."
+        }
+      }
+    },
+    {
+      "index": 5,
+      "durationMs": 160,
+      "phaseDescriptionJa": "短く投影された中央脚の蹄を回収し、左右2脚で支持する。",
+      "assets": {
+        "normal": {
+          "path": "S/05/default.png",
+          "bytes": 665063,
+          "sha256": "0ed658a262450f974a5a2cac9e58cc60809932589eb25241c9297acef07e299a",
+          "sourceKind": "generated_same_identity_phase",
+          "generationInputSha256": "2d4f4ae6b69f9ddaa712697d24f3e3a6fe48981994f32bb2be1a2e2ef2b60b35"
+        },
+        "pixel": {
+          "path": "S/05/pixel.png",
+          "bytes": 6329,
+          "sha256": "3250d3eff72e7fb0c544bf4a325dd0e1a1416c3313bfc5303bd5dabb31436d50",
+          "parentNormalSha256": "0ed658a262450f974a5a2cac9e58cc60809932589eb25241c9297acef07e299a",
+          "soleFinalNormalGenerationVerified": true,
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified",
+          "sourceKind": "generated_same_phase_normal_sole"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "durationMs": 160,
+      "phaseDescriptionJa": "中央の蹄を接地へ戻し、次の画面左脚回収へつなぐ。",
+      "assets": {
+        "normal": {
+          "path": "S/06/default.png",
+          "bytes": 672127,
+          "sha256": "2d4f4ae6b69f9ddaa712697d24f3e3a6fe48981994f32bb2be1a2e2ef2b60b35",
+          "sourceKind": "verified_reuse",
+          "sourceCommit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+          "sourceBlob": "3cf817fc4c060fb6e55da0abf8985dfff42b2883",
+          "sourcePath": "assets/monsters/fanged/sm-fanged-004/directions/S/default.png"
+        },
+        "pixel": {
+          "path": "S/06/pixel.png",
+          "bytes": 7772,
+          "sha256": "f86ec1724e0c086714d3e03ebaac9629c8c2e7f347bc5cd251cb2164f70f9fe7",
+          "parentNormalSha256": "2d4f4ae6b69f9ddaa712697d24f3e3a6fe48981994f32bb2be1a2e2ef2b60b35",
+          "soleFinalNormalGenerationVerified": true,
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified",
+          "sourceKind": "verified_reuse",
+          "reuseSourcePhase": 2,
+          "reuseSourceAsset": "S/02/pixel.png",
+          "reuseSourceSha256": "f86ec1724e0c086714d3e03ebaac9629c8c2e7f347bc5cd251cb2164f70f9fe7",
+          "generationReferenceChainNote": "Exact-byte reuse of the newly generated phase02 contact pixel. The paired phase04/06 normal is byte-identical to its sole phase02 normal input. No new image-generation call for this reused slot."
+        }
+      }
+    }
+  ],
+  "designReference": {
+    "repositoryPath": "assets/monsters/fanged/sm-fanged-004/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "gitBlobSha": "3cf817fc4c060fb6e55da0abf8985dfff42b2883",
+    "bytes": 672127,
+    "sha256": "2d4f4ae6b69f9ddaa712697d24f3e3a6fe48981994f32bb2be1a2e2ef2b60b35"
+  },
+  "processing": {
+    "normal": "Built-in phase generation and one bounded phase03 right-leg correction, followed by fixed 1024/1254 isotropic normalization. Only detached alpha<=2 exterior marks removed. No Python part editing or per-frame fitting. Contact normals02/04/06 are exact-byte canonical reuse.",
+    "pixel": "Built-in generation supplied only the accepted same-phase normal. Fixed128/1254 nearest sampling, alpha>=128 binarization and nearest mapping to the shared30-color palette. Uniform whole-frame alignment only:01Y-2,02Y0,03Y-1,05Y-3; phase02 uses no translation; each checked for zero clipping and exact inverseRGBA equality.",
+    "contactReuse": "New contact pixel02 is copied byte-for-byte into04/06. Historical canonical pixel candidates were not selected because their face/fur style differed in the mixed sequence.",
+    "boundedRepairs": "Phase03 normal recovery amplitude and phase03 pixel framing each received one bounded generated correction; earlier versions are preserved.",
+    "counts": {
+      "successfulImageGenerationCalls": 9,
+      "logicalNormalFrames": 6,
+      "logicalPixelFrames": 6,
+      "uniqueSelectedNormalImages": 4,
+      "uniqueSelectedPixelImages": 4,
+      "exactByteReuseLogicalSlots": 5,
+      "directNormalToPixelConversions": 0
+    }
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_SEQUENCE_PASS",
+    "scope": "S six-phase normal/pixel primary-leg cycle",
+    "individualFrames": "Technical checks and independent visual pair review passed with the listed limitations.",
+    "sequenceReview": "All adjacent common-coordinate static connections, including06to01, were inspected independently. Three legs and single hooves, one central eye, two inward-curving tusks, body proportions and hidden-tail occlusion remain readable through image-left, image-right and central recovery/contact return.",
+    "animationData": "Both diagnostic APNGs decode to six exact sourceRGBA frames,160ms each,960ms total,loop0. The APNGs are local diagnostics and are not part of this13path payload.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "strictLoadTransferAndForwardStride": "not verified",
+    "secondaryFurTailLag": "not implemented; tail remains hidden",
+    "residualCaveats": [
+      "The initial phase01 target was24normalpx; the accepted phase lifts80px. The original target is not rewritten. Phase03 used a new80px target, first lifted113px with excessive knee/hoof rotation, and the accepted bounded correction lifts68px. The short central phase05 target was24px and its actual lift is38px.",
+      "Normal supporting hoof bottoms vary by up to1px. Pixel support and phase registration residuals are at most1px in the final selected pairs.",
+      "Relative to same-normal128 diagnostics: phase01 pixel width+2/height+1 and crown-2px; phase03 width+2/height+1 and crown-2px; new contact02 width+2/height-1 and crown+1px; phase05 width+2/height+2 and crown-2px. Contact pixel crowns are3px below odd-frame crowns, retained as contour variation for further playback review.",
+      "Phase03 tusk curves are more angular, and eye dark areas/reflections and fur grain differ between generated frames. Replacing the historical contact pixel reduced the alternating pupil/reflection style.",
+      "Exact leg-root depth, strict load transfer, forward displacement, body lean and hidden tail delay are not established by these front-view stills. No hidden anatomy was added.",
+      "Static sequence review and exact APNG readback do not establish continuous perceived smoothness, collision behavior or real-game playback."
+    ]
+  }
+}
