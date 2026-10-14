@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-gel-003",
+  "nameJa": "プコルミン",
+  "motion": "crawl",
+  "motionType": "Belly-supported contraction wave crawl",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 6,
+  "frameDurationMs": 160,
+  "cycleMs": 960,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 160,
+      "phaseDescriptionJa": "下段を後側支持で縮める",
+      "phaseDescriptionEn": "Rear-supported lower-segment contraction",
+      "normalSupportPointPx": [
+        507,
+        925
+      ],
+      "pixelVisibleSupportY": 115,
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "sha256": "bc0668aa0a22659e4cd72b591468a03a596702bd714f99139d676d7afd1ecdab",
+          "bytes": 416815
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "sha256": "1923af2c8a3567b7cbeab79f5a1f60ec9725642d084e35e8fbaaa0c8c75a9d3a",
+          "bytes": 6155,
+          "parentNormalSha256": "bc0668aa0a22659e4cd72b591468a03a596702bd714f99139d676d7afd1ecdab",
+          "rawGenerationSha256": "d5b1b80792da3f1ddbd5014c99af5e6f5f0fdaf18448e83140082854f47f88d7",
+          "visibleColors": 31
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 160,
+      "phaseDescriptionJa": "下段を戻しつつ中段へ収縮を伝える",
+      "phaseDescriptionEn": "Lower-segment recovery with contraction redistributed to the middle",
+      "normalSupportPointPx": [
+        507,
+        925
+      ],
+      "pixelVisibleSupportY": 115,
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "sha256": "d4272434b6cc00cffcc75e0281454c9241e28589a0bd8495cfe89ebffc7d2269",
+          "bytes": 435192
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "sha256": "5aa3a728ae7f4b46e8b4b2b561fb42773fe500500260f928fde59977683fcc2c",
+          "bytes": 5829,
+          "parentNormalSha256": "d4272434b6cc00cffcc75e0281454c9241e28589a0bd8495cfe89ebffc7d2269",
+          "rawGenerationSha256": "914b5afb32a89fe934b2ae7bb28f5428408d3cbe0c8fe5917e50256d6d184cdb",
+          "visibleColors": 30
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 160,
+      "phaseDescriptionJa": "前縁を伸ばして支持する",
+      "phaseDescriptionEn": "Tall front extension with front belly support",
+      "normalSupportPointPx": [
+        507,
+        929
+      ],
+      "pixelVisibleSupportY": 115,
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "sha256": "79d5acb9a077d086ffde75690ae24a9989694a01b7d3fdf64248244ec713d851",
+          "bytes": 455179
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "sha256": "f58dcc963f3a4adba8c6d6cba086e7b47d4d7c3bea2124000eac16ff835ed979",
+          "bytes": 6138,
+          "parentNormalSha256": "79d5acb9a077d086ffde75690ae24a9989694a01b7d3fdf64248244ec713d851",
+          "rawGenerationSha256": "2974c87a23e490525639aa3303201945a532e28b77f8f7d141212564e6415566",
+          "visibleColors": 30
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 160,
+      "phaseDescriptionJa": "前縁支持のまま下段後側を引き寄せる",
+      "phaseDescriptionEn": "Front-supported rear lower-segment draw-in",
+      "normalSupportPointPx": [
+        507,
+        929
+      ],
+      "pixelVisibleSupportY": 115,
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "sha256": "f796606e539b833447a00b3b6e1c15e9e58dbb468e8319a66c3f976a3abca111",
+          "bytes": 415608
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "sha256": "317d67803f1b5b7ee3c8257ba302f641f150d861793a30947ac82c584ee2a785",
+          "bytes": 5345,
+          "parentNormalSha256": "f796606e539b833447a00b3b6e1c15e9e58dbb468e8319a66c3f976a3abca111",
+          "rawGenerationSha256": "25bc8c7072742bfdb522fddbca26748f37f8782bf0ede68eb71232aba835d715",
+          "visibleColors": 30
+        }
+      }
+    },
+    {
+      "index": 5,
+      "durationMs": 160,
+      "phaseDescriptionJa": "下段復帰と中段扁平を遅れて伝える",
+      "phaseDescriptionEn": "Delayed middle flattening while the lower segment recovers",
+      "normalSupportPointPx": [
+        507,
+        927
+      ],
+      "pixelVisibleSupportY": 115,
+      "assets": {
+        "normal": {
+          "path": "S/05/default.png",
+          "sha256": "201d5e62c359ac4a492e90c9067a0cfe88a17c4e80848b4482a805064e7e3d74",
+          "bytes": 414670
+        },
+        "pixel": {
+          "path": "S/05/pixel.png",
+          "sha256": "c491de8849df9f858204e458ac92e4918e0c757af29b97c8ff923c5e5d002c7c",
+          "bytes": 5216,
+          "parentNormalSha256": "201d5e62c359ac4a492e90c9067a0cfe88a17c4e80848b4482a805064e7e3d74",
+          "rawGenerationSha256": "4c5147ef61e1e832e7271cac99f5159c7676d9c572de710bb28f3b4cb9040487",
+          "visibleColors": 29
+        }
+      }
+    },
+    {
+      "index": 6,
+      "durationMs": 160,
+      "phaseDescriptionJa": "原本近傍の高さと腹面支持へ戻る",
+      "phaseDescriptionEn": "Return near the original height and belly support",
+      "normalSupportPointPx": [
+        507,
+        925
+      ],
+      "pixelVisibleSupportY": 115,
+      "assets": {
+        "normal": {
+          "path": "S/06/default.png",
+          "sha256": "0932d7172d414f416250407457fa6b32eb1c3d7b4befb71c7e8389923bfbfa3a",
+          "bytes": 435238
+        },
+        "pixel": {
+          "path": "S/06/pixel.png",
+          "sha256": "53e0042512e18b7d049aef74562f8f2a00365f67985d90f0c39717aaf7204db0",
+          "bytes": 5760,
+          "parentNormalSha256": "0932d7172d414f416250407457fa6b32eb1c3d7b4befb71c7e8389923bfbfa3a",
+          "rawGenerationSha256": "026f43568a87eec92e2cb7dd4f6e8936021b2e502de684c80d55c9df7ba7d33b",
+          "visibleColors": 30
+        }
+      }
+    }
+  ],
+  "sharedPixelPalette": [
+    [
+      51,
+      1,
+      2
+    ],
+    [
+      66,
+      2,
+      3
+    ],
+    [
+      113,
+      52,
+      40
+    ],
+    [
+      225,
+      145,
+      66
+    ],
+    [
+      229,
+      151,
+      67
+    ],
+    [
+      233,
+      158,
+      69
+    ],
+    [
+      236,
+      228,
+      220
+    ],
+    [
+      237,
+      167,
+      73
+    ],
+    [
+      238,
+      224,
+      204
+    ],
+    [
+      242,
+      172,
+      73
+    ],
+    [
+      244,
+      177,
+      75
+    ],
+    [
+      247,
+      181,
+      76
+    ],
+    [
+      249,
+      185,
+      78
+    ],
+    [
+      249,
+      189,
+      81
+    ],
+    [
+      249,
+      238,
+      226
+    ],
+    [
+      250,
+      239,
+      223
+    ],
+    [
+      250,
+      239,
+      227
+    ],
+    [
+      251,
+      236,
+      195
+    ],
+    [
+      252,
+      191,
+      81
+    ],
+    [
+      252,
+      195,
+      85
+    ],
+    [
+      252,
+      200,
+      91
+    ],
+    [
+      252,
+      209,
+      107
+    ],
+    [
+      252,
+      212,
+      113
+    ],
+    [
+      252,
+      221,
+      141
+    ],
+    [
+      253,
+      205,
+      95
+    ],
+    [
+      253,
+      218,
+      126
+    ],
+    [
+      253,
+      243,
+      200
+    ],
+    [
+      253,
+      247,
+      232
+    ],
+    [
+      253,
+      249,
+      235
+    ],
+    [
+      253,
+      252,
+      245
+    ],
+    [
+      253,
+      252,
+      250
+    ]
+  ],
+  "pixelPaletteLineage": {
+    "maxVisibleColors": 32,
+    "sourcePhase": 1,
+    "sourceRawSha256": "d5b1b80792da3f1ddbd5014c99af5e6f5f0fdaf18448e83140082854f47f88d7",
+    "mapping": "Phase01 MEDIANCUT with at most32 visible colors; all later phases use uniform nearest RGB squared Euclidean mapping to the same31-color palette. No dithering or local repaint.",
+    "binaryAlpha": [
+      0,
+      255
+    ]
+  },
+  "designReference": {
+    "repositoryPath": "assets/monsters/gel/sm-gel-003/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "sha256": "61093e5205f2b9212990ec900629f378504a5f0ec660e6f6d3933592372afa81",
+    "direction": "S",
+    "directionCaution": "The actual directions/S reference was used; the root default image is a different direction and was not used."
+  },
+  "normalization": {
+    "commonRawCanvas": [
+      1254,
+      1254
+    ],
+    "commonResizedCanvas": [
+      1024,
+      1024
+    ],
+    "normalCanvas": [
+      1024,
+      1024
+    ],
+    "pixelScaleFromVirtualCanvas": 0.125,
+    "perFrameBodyFit": false,
+    "poseRedrawnByCode": false,
+    "normalResampling": "LANCZOS",
+    "pixelResampling": "NEAREST",
+    "normalCleanup": "Only exterior alpha1 pixels more than2 taxicab pixels from alpha>=2 support were removed before resampling. RGB and all alpha>=2 pixels were preserved at the cleanup step.",
+    "supportAnchor": "X midpoint of alpha>=128 pixels in the bottommost4 virtual-canvas rows; Y is the bottommost alpha>=128 row. The lower belly, rather than the staggered full silhouette, defines the anchor.",
+    "supportQuantization": "Normal support targets are925/925/929/929/927/925 at x507. All pixel visible bottoms quantize to row115 with the fixed common-scale conversion.",
+    "requiredNormalVisibleLongest": [
+      768,
+      896
+    ],
+    "requiredPixelVisibleLongest": [
+      96,
+      112
+    ]
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_SEQUENCE_PASS",
+    "scope": "S six-phase normal/pixel candidate cycle only",
+    "individualFrames": "Technical and independent visual pair checks passed with residual caveats.",
+    "sequenceReview": "Static ordered sequences01-02-03-04-05-06-01 and all same-phase pairs were independently inspected. Both variants show the same two-peak contraction and extension sequence, with the three size-ordered connected segments, left-offset middle, two top eyes and three milky-white undersides retained. No obvious pixel-only change to a different body size was seen. This is limited offline frame-sequence approval only.",
+    "animationData": "Both source-size APNGs contain6 frames at160ms,960ms cycle,loop0. Every decoded RGBA frame exactly matches its corresponding PNG.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "normalApexDeltasPx": [
+      -7,
+      -55,
+      70,
+      8,
+      -68,
+      52
+    ],
+    "pixelApexDeltasPx": [
+      -2,
+      -5,
+      8,
+      1,
+      -8,
+      6
+    ],
+    "residualCaveats": [
+      "The normal apex changes across01-02-03-04-05-06-01 are-7,-55,+70,+8,-68,+52px; the final pixel changes are-2,-5,+8,+1,-8,+6px. Some returns remain abrupt in the static sequence.",
+      "Pixel02 crown is about3px higher and eye centers about1.5px higher than its same-normal128 projection; exact head proportions and highlights differ.",
+      "In phase05 the approximate middle span contracts48px while the lower span recovers36px, exceeding the planned small changes. The planned overall height recovery was not achieved. The normal visible height is at the768px minimum.",
+      "Lower-belly contact changes of2-4 normal pixels quantize away; all pixel visible bottoms are row115.",
+      "Eye reflections, gloss and the shapes of milky-white areas simplify and vary. A shared31-color palette does not eliminate changes in color-area proportions.",
+      "Continuous-playback smoothness has not been visually reviewed. Game and iPhone runtime behavior has not been tested.",
+      "This approval does not establish exact planned amplitudes, all-eight-direction completion or in-game acceptance."
+    ],
+    "versionNote": "All12 adopted images are generated assets. The original reference, all15 raw outputs, the superseded pixel02 first candidate, held pixel04 first candidate and held normal05 first candidate are retained separately. No individual body-fit scaling was used."
+  }
+}
