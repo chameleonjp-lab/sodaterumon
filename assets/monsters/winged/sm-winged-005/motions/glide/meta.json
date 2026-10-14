@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-winged-005",
+  "nameJa": "ワノヒララ",
+  "motion": "glide",
+  "motionType": "小迎角変化の滑空・漂行（提案）",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 4,
+  "frameDurationMs": 300,
+  "cycleMs": 1200,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 300,
+      "phaseDescriptionJa": "翼の中立迎角・胴は周期中間高度",
+      "normalHoleAnchorPx": [
+        512,
+        392
+      ],
+      "pixelHoleAnchorPx": [
+        64,
+        49.0
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "bytes": 438765,
+          "sha256": "874ec55c9029c37891bba913d0b14482f620188a881c86e2543c2b3f91a93e1e",
+          "rawGenerationSha256": "ab0bd33c0aaedcac52832b7421e46a5a654a1a6af9712be02a3ae15349b4a425",
+          "wholeFrameTranslationPx": [
+            -1,
+            -2
+          ],
+          "holeAnchorResidualPx": [
+            0.0,
+            -0.5
+          ]
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "bytes": 7170,
+          "sha256": "5192edc268a0323c18cb6b006698ceb1eebf447958542681732caf5252db8a5e",
+          "rawGenerationSha256": "086c1a578d39eba7cee16372d477c09b7dda80dad300811c8ad66d1bd73c59e1",
+          "wholeFrameTranslationPx": [
+            0,
+            -2
+          ],
+          "holeAnchorResidualPx": [
+            0.0,
+            -0.5
+          ],
+          "parentNormalSha256": "874ec55c9029c37891bba913d0b14482f620188a881c86e2543c2b3f91a93e1e",
+          "visibleColors": 32
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 300,
+      "phaseDescriptionJa": "翼端を微小に上げ胴が少し浮く",
+      "normalHoleAnchorPx": [
+        512,
+        386
+      ],
+      "pixelHoleAnchorPx": [
+        64,
+        48.25
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "bytes": 444454,
+          "sha256": "a44e0954f96c726d25b7ddc7cb8f41df2f0981ae493e7b4e112b8b322fa665a8",
+          "rawGenerationSha256": "d8fcfe4b9b2ec57ee25d6b97a1ef117b1928dd71f7f416031bc029a4241add08",
+          "wholeFrameTranslationPx": [
+            0,
+            -8
+          ],
+          "holeAnchorResidualPx": [
+            0.5,
+            0.5
+          ]
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "bytes": 7537,
+          "sha256": "4f371c0ac05e6f4032cf75a3136c806a53b958446cbd3a1d17a4575ba41491a0",
+          "rawGenerationSha256": "717501b6737568c0f6c21e85d14b45ada29122d5f9aa21c76fa3d51b8f00d59b",
+          "wholeFrameTranslationPx": [
+            0,
+            0
+          ],
+          "holeAnchorResidualPx": [
+            0.0,
+            0.25
+          ],
+          "parentNormalSha256": "a44e0954f96c726d25b7ddc7cb8f41df2f0981ae493e7b4e112b8b322fa665a8",
+          "visibleColors": 32
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 300,
+      "phaseDescriptionJa": "翼の中立迎角へ戻り胴は周期中間高度",
+      "normalHoleAnchorPx": [
+        512,
+        392
+      ],
+      "pixelHoleAnchorPx": [
+        64,
+        49.0
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "bytes": 441181,
+          "sha256": "bd39ee3b722bff61452a58fd82998283c0769acee513ffb936d019c6489b8104",
+          "rawGenerationSha256": "7f6958c811235e578bba9d6bf57563d5d35c6ef21c29a8d7264fdd195d83cfc2",
+          "wholeFrameTranslationPx": [
+            -2,
+            -2
+          ],
+          "holeAnchorResidualPx": [
+            -0.5,
+            0.0
+          ]
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "bytes": 6680,
+          "sha256": "b972212ca956f7bfb4f0fd341ae419f43380b6fec2b00f5efa9bf4b70acbfeee",
+          "rawGenerationSha256": "eff1fcaab517966bb2ce6d2d3a25ad4c95356c622731096f7e71bc49d67fab94",
+          "wholeFrameTranslationPx": [
+            0,
+            -2
+          ],
+          "holeAnchorResidualPx": [
+            0.0,
+            0.0
+          ],
+          "parentNormalSha256": "bd39ee3b722bff61452a58fd82998283c0769acee513ffb936d019c6489b8104",
+          "visibleColors": 30
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 300,
+      "phaseDescriptionJa": "翼端を微小に下げ胴が少し沈み次周期へ",
+      "normalHoleAnchorPx": [
+        512,
+        398
+      ],
+      "pixelHoleAnchorPx": [
+        64,
+        49.75
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "bytes": 441995,
+          "sha256": "33a2706ac84270e3aec787942a8249041d1ec5bfdc8666b277d989fd3df5cb04",
+          "rawGenerationSha256": "6fc9e43ab4df413d2913226b3859c22b527bbfe3558cd7bd892f3d9a09059b5d",
+          "wholeFrameTranslationPx": [
+            -2,
+            4
+          ],
+          "holeAnchorResidualPx": [
+            -0.5,
+            0.5
+          ]
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "bytes": 7336,
+          "sha256": "bd7b455446893bc770a574ce46438cda7b5f85b0a189fa0618b201393c4bfb39",
+          "rawGenerationSha256": "34e6d562b975ea2bbc6f7b39dbc64b737b397c4e9f23fad3662f2a92f491225f",
+          "wholeFrameTranslationPx": [
+            0,
+            0
+          ],
+          "holeAnchorResidualPx": [
+            0.0,
+            -0.25
+          ],
+          "parentNormalSha256": "33a2706ac84270e3aec787942a8249041d1ec5bfdc8666b277d989fd3df5cb04",
+          "visibleColors": 32
+        }
+      }
+    }
+  ],
+  "groundContact": "定常滑空・漂行中の提案ループ。接地・離陸・着陸は含まない。",
+  "identityInvariants": "輪の上半分の4眼、開いた貫通穴、左右2枚の葉脈翼、2筋が編まれて先端1つに閉じる尾。脚はない。",
+  "sharedPixelPalette": [
+    [
+      0,
+      3,
+      4
+    ],
+    [
+      1,
+      10,
+      13
+    ],
+    [
+      2,
+      19,
+      24
+    ],
+    [
+      3,
+      30,
+      36
+    ],
+    [
+      3,
+      49,
+      56
+    ],
+    [
+      4,
+      64,
+      72
+    ],
+    [
+      5,
+      84,
+      92
+    ],
+    [
+      6,
+      40,
+      49
+    ],
+    [
+      15,
+      13,
+      6
+    ],
+    [
+      15,
+      29,
+      28
+    ],
+    [
+      15,
+      109,
+      113
+    ],
+    [
+      17,
+      48,
+      45
+    ],
+    [
+      20,
+      82,
+      83
+    ],
+    [
+      23,
+      129,
+      132
+    ],
+    [
+      37,
+      152,
+      148
+    ],
+    [
+      40,
+      25,
+      6
+    ],
+    [
+      58,
+      175,
+      162
+    ],
+    [
+      61,
+      53,
+      20
+    ],
+    [
+      62,
+      32,
+      2
+    ],
+    [
+      113,
+      206,
+      174
+    ],
+    [
+      114,
+      71,
+      10
+    ],
+    [
+      138,
+      175,
+      118
+    ],
+    [
+      178,
+      213,
+      182
+    ],
+    [
+      191,
+      129,
+      18
+    ],
+    [
+      213,
+      222,
+      181
+    ],
+    [
+      221,
+      234,
+      202
+    ],
+    [
+      229,
+      160,
+      29
+    ],
+    [
+      235,
+      242,
+      214
+    ],
+    [
+      237,
+      240,
+      188
+    ],
+    [
+      241,
+      182,
+      48
+    ],
+    [
+      249,
+      203,
+      68
+    ],
+    [
+      249,
+      224,
+      108
+    ]
+  ],
+  "pixelPaletteLineage": {
+    "maxVisibleColors": 32,
+    "sourcePhase": 1,
+    "sourceRawSha256": "7c5b27988e69a0864d5f7d581c1268bb1ea9010510e800494ab1f03c3734bcb9",
+    "mapping": "Fixed nearest RGB squared Euclidean, no dithering",
+    "binaryAlpha": [
+      0,
+      255
+    ],
+    "note": "Palette extracted from the first phase01 generation; its geometry was held and replaced by a later same-normal pixel generation. Only the listed frame assets are current."
+  },
+  "normalization": {
+    "normalRawCanvas": [
+      1254,
+      1254
+    ],
+    "normalResizedCanvas": [
+      1000,
+      1000
+    ],
+    "normalUniformScale": 0.7974481658692185,
+    "normalTransparentPaddingPx": [
+      12,
+      12
+    ],
+    "normalBaseHoleAnchorPx": [
+      512,
+      392
+    ],
+    "phaseBodyYOffsetPx": [
+      0,
+      -6,
+      0,
+      6
+    ],
+    "anchorDefinition": "Bounding-box center of the largest enclosed alpha-under128 transparent component, excluding the exterior background.",
+    "normalAlphaCleanup": "Only disconnected exterior points with alpha at most2 removed before uniform resizing. Connected creature pixels were not recolored or redrawn.",
+    "pixelScaleFromVirtualCanvas": 0.125,
+    "pixelRawCanvas": [
+      1254,
+      1254
+    ],
+    "pixelRawToOutputScale": 0.10207336523125997,
+    "pixelResampling": "Nearest neighbor; alpha at least128 becomes255, otherwise0.",
+    "pixelReferences": "Every pixel sprite was generated using only its listed same-phase normal full canvas. No deliverable is a direct quantization of the normal illustration.",
+    "perFrameBodyFit": false,
+    "poseRedrawnByCode": false,
+    "alignment": "Whole-frame integer translation only; one uniform scale per medium, no individual silhouette fit."
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_CYCLE_PASS",
+    "scope": "S four-phase normal/pixel candidate cycle",
+    "individualFrames": "All eight PNG assets passed technical and limited visual checks.",
+    "sequenceReview": "Same-coordinate normal/pixel still sequences 01-02-03-04-01 were inspected. Four eyes, open ring, two wings and closed braided tail remain readable through neutral/rise/neutral/descent; no conspicuous identity or body-size discontinuity was observed.",
+    "animationData": "Diagnostic native APNGs contain four300ms frames, a1200ms cycle and infinite looping. Every decoded frame is RGBA-exact to its corresponding PNG.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "residualCaveats": [
+      "Returned wing-angle amplitude exceeds the small12raw-pixel prompt target and is asymmetric: about28px up at02 versus48/49px down at04, excluding body translation. Static visual gates accepted these as a gentle glide interpretation.",
+      "Pixel ring contour, eye reflections, braid detail, leaf veins and tail tip colors differ subtly between frames. These are same-phase interpretations, not exact geometric projections.",
+      "Pixel01 crown is about2px above the normal projection; pixel02 hole is about2px narrower and tail about2px longer; pixel03 hole is about1px shorter; pixel04 crown is2px above and tail2.875px below its normal projection.",
+      "The pixel04 to01 closure changes tail endpoint by3px; the small body rise explains only part of this change. This residual simplification is retained and disclosed.",
+      "Continuous playback and in-game timing, movement distance, height and collision behavior remain unverified. This is not completion of all eight directions."
+    ],
+    "revisionNote": "Initial pixel01/02/03 candidates enlarged wing/body/tail geometry and were held. Each was corrected once by targeted builtin generation using only its unchanged same-phase normal. The common transform and palette stayed fixed; earlier raw and normalized candidates are retained separately."
+  },
+  "designReference": {
+    "repositoryPath": "assets/monsters/winged/sm-winged-005/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "direction": "S",
+    "bytes": 459494,
+    "sha256": "4712ab9ef8b3031345375ecc827785a1fda6863e83657716c4a11841f8075353"
+  }
+}

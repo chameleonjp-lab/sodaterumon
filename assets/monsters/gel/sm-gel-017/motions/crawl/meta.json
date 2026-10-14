@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-gel-017",
+  "nameJa": "フタリュモ",
+  "motion": "crawl",
+  "motionType": "belly-supported contraction crawl",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 4,
+  "frameDurationMs": 200,
+  "cycleMs": 800,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 200,
+      "phaseDescriptionJa": "後側を接地させて胴を軽く縮める",
+      "phaseDescriptionEn": "Rear-supported mild lower-body contraction",
+      "normalSupportPointPx": [
+        516.5,
+        897
+      ],
+      "pixelVisibleSupportY": 111,
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "sha256": "b187683dba9f9706c4f02d7b990308651cfb7352f00a414282cc05052e5d3dac",
+          "bytes": 470058
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "sha256": "5173ffcc1d58eff012c7fa5a522828433f9c1f7d0bf4b3a584169e94ef08cf93",
+          "bytes": 7893,
+          "parentNormalSha256": "b187683dba9f9706c4f02d7b990308651cfb7352f00a414282cc05052e5d3dac",
+          "rawGenerationSha256": "d65ea48b7d93180b37ab37943b6417e23607579f7000d048e77aab7d64c38005",
+          "visibleColors": 32
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 200,
+      "phaseDescriptionJa": "前側を伸ばし、前縁を接地させる",
+      "phaseDescriptionEn": "Front belly-rim extension and support transfer",
+      "normalSupportPointPx": [
+        516.5,
+        901
+      ],
+      "pixelVisibleSupportY": 112,
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "sha256": "85ecbf2a1d13dece300db9cc5d8702a06ab174d1889b7b285c1c757ba2b61fbd",
+          "bytes": 510727
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "sha256": "92f1829046842052f441f59ef71eed68a3ac7615bf67a5f96fe34b2e5541ac9e",
+          "bytes": 6409,
+          "parentNormalSha256": "85ecbf2a1d13dece300db9cc5d8702a06ab174d1889b7b285c1c757ba2b61fbd",
+          "rawGenerationSha256": "9ac00db651eb4d7c1dabfc64cdfa610018c3ddc2d77e0f00ae09b795117403bb",
+          "visibleColors": 30
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 200,
+      "phaseDescriptionJa": "前側を支持して後側を引き寄せる",
+      "phaseDescriptionEn": "Front-supported rear lower-body draw-in",
+      "normalSupportPointPx": [
+        516.5,
+        901
+      ],
+      "pixelVisibleSupportY": 112,
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "sha256": "c55518669574d6c7d66f14cdbcfe795a4a29fdbfec40ce21d91459ba598000f4",
+          "bytes": 482550
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "sha256": "0fb80f91d4cedd4a22e8c4b641816f7d351100832c86c6bf7f4fb4fc89a4e706",
+          "bytes": 6669,
+          "parentNormalSha256": "c55518669574d6c7d66f14cdbcfe795a4a29fdbfec40ce21d91459ba598000f4",
+          "rawGenerationSha256": "fa05b5e7b91d83cb21683064b9d382b95fd5a0ae56419cf2d5a99dba2a934ef5",
+          "visibleColors": 31
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 200,
+      "phaseDescriptionJa": "胴の高さと長さを戻し、次の伸展へつなぐ",
+      "phaseDescriptionEn": "Return near neutral body height and fin-arm positions",
+      "normalSupportPointPx": [
+        516.5,
+        897
+      ],
+      "pixelVisibleSupportY": 111,
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "sha256": "32b0b1ba3aeda1b2b4f5f63436c7dc890fd74f1179dd8c16d51adade25358709",
+          "bytes": 492251
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "sha256": "d21ceb5d51a672d70065f4ae975f2fbef33ca08070fe620a6875b91dbda7c91c",
+          "bytes": 6625,
+          "parentNormalSha256": "32b0b1ba3aeda1b2b4f5f63436c7dc890fd74f1179dd8c16d51adade25358709",
+          "rawGenerationSha256": "f2668d36d24480af32129ca3421594d24f8aa8bec1e1761fcf3bbac306263e4d",
+          "visibleColors": 29
+        }
+      }
+    }
+  ],
+  "sharedPixelPalette": [
+    [
+      103,
+      19,
+      75
+    ],
+    [
+      127,
+      22,
+      86
+    ],
+    [
+      145,
+      83,
+      119
+    ],
+    [
+      163,
+      222,
+      200
+    ],
+    [
+      180,
+      165,
+      179
+    ],
+    [
+      203,
+      159,
+      180
+    ],
+    [
+      239,
+      163,
+      188
+    ],
+    [
+      240,
+      163,
+      188
+    ],
+    [
+      243,
+      170,
+      190
+    ],
+    [
+      250,
+      184,
+      194
+    ],
+    [
+      250,
+      185,
+      194
+    ],
+    [
+      250,
+      195,
+      201
+    ],
+    [
+      251,
+      182,
+      193
+    ],
+    [
+      251,
+      184,
+      193
+    ],
+    [
+      251,
+      184,
+      194
+    ],
+    [
+      251,
+      185,
+      193
+    ],
+    [
+      251,
+      185,
+      194
+    ],
+    [
+      251,
+      185,
+      195
+    ],
+    [
+      251,
+      186,
+      195
+    ],
+    [
+      251,
+      199,
+      203
+    ],
+    [
+      252,
+      184,
+      194
+    ],
+    [
+      252,
+      186,
+      195
+    ],
+    [
+      252,
+      195,
+      200
+    ],
+    [
+      252,
+      209,
+      208
+    ],
+    [
+      253,
+      207,
+      206
+    ],
+    [
+      253,
+      209,
+      208
+    ],
+    [
+      253,
+      210,
+      209
+    ],
+    [
+      253,
+      211,
+      210
+    ],
+    [
+      253,
+      214,
+      213
+    ],
+    [
+      253,
+      244,
+      242
+    ],
+    [
+      253,
+      248,
+      246
+    ],
+    [
+      253,
+      250,
+      249
+    ]
+  ],
+  "pixelPaletteLineage": {
+    "maxVisibleColors": 32,
+    "sourcePhase": 1,
+    "sourceRawSha256": "d65ea48b7d93180b37ab37943b6417e23607579f7000d048e77aab7d64c38005",
+    "mapping": "Phase01: MEDIANCUT32 from visible raw-derived pixels. Phases02-04: uniform nearest RGB squared Euclidean to the same fixed palette. No dithering or local repaint.",
+    "binaryAlpha": [
+      0,
+      255
+    ]
+  },
+  "designReference": {
+    "repositoryPath": "assets/monsters/gel/sm-gel-017/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "sha256": "3251f183a45b7cbf627f4b55909e6be57cce3c5f4ced2c250606f9f6240eb5e8"
+  },
+  "normalization": {
+    "commonRawCanvas": [
+      1254,
+      1254
+    ],
+    "commonResizedCanvas": [
+      1000,
+      1000
+    ],
+    "normalCanvas": [
+      1024,
+      1024
+    ],
+    "pixelScaleFromVirtualCanvas": 0.125,
+    "perFrameBodyFit": false,
+    "poseRedrawnByCode": false,
+    "normalResampling": "LANCZOS",
+    "pixelResampling": "NEAREST",
+    "normalCleanup": "Only exterior alpha1 pixels more than2 taxicab pixels away from alpha>=2 support were removed before resampling.",
+    "supportAnchor": "X midpoint of alpha>=128 pixels in the bottommost4 virtual-canvas rows; Y is the bottommost alpha>=128 row. This belly-specific anchor avoids centering on asymmetric fin-arm bounds.",
+    "supportQuantization": "Planned normal support is897/901/901/897, with a fixed x516.5 anchor. Pixel visible support rows are111/112/112/111 after common-scale nearest-neighbor conversion. Subpixel support positions are quantized."
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_SEQUENCE_PASS",
+    "scope": "S four-phase normal/pixel candidate cycle",
+    "individualFrames": "Technical and independent visual pair checks passed with residual caveats.",
+    "sequenceReview": "All ordered adjacent connections01-02-03-04-01 were visually inspected in common coordinates. Two body tiers, two upper-body eyes, one mint oval neck window and viewer-left-down/viewer-right-up fin-arm asymmetry remain readable through contraction, extension, rear draw-in and return. Arms remain fins rather than support feet.",
+    "animationData": "Normal1024 and pixel128 APNG each have4 frames at200ms,800ms cycle,loop0; decodedRGBA matches each corresponding PNG exactly.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "residualCaveats": [
+      "Actual contraction and arm movement are larger than the small numeric pose targets.",
+      "Normal apex changes across01-02-03-04-01 are-42,+50,-40,+32px; corresponding pixel changes are-5,+6,-5,+4px.",
+      "The04-to01 visible area decreases about4.51% in normal and4.66% in pixel; fin-arm swing remains visually apparent.",
+      "Mint-window outline and gloss, eye shading and small highlights simplify in pixel art.",
+      "Fine-grain gloss texture and color-area proportions vary despite a shared32-color palette.",
+      "This limited offline frame-sequence approval does not establish continuous-playback or in-game acceptance and does not complete all eight directions."
+    ],
+    "versionNote": "All8 adopted images are generated assets. The original reference,8 raw generation outputs and the superseded1024/1254 normal derivative are retained separately. The1000/1254 scale is common to all adopted phases."
+  }
+}

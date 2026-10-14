@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-fanged-001",
+  "nameJa": "マユポルン",
+  "motion": "walk",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 4,
+  "frameDurationMs": 200,
+  "cycleMs": 800,
+  "laterality": "Anatomical left/right; screen sides reverse in the nominal S front view. Rear-left is occluded.",
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "sharedPixelPalette": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      16,
+      3,
+      24
+    ],
+    [
+      24,
+      0,
+      35
+    ],
+    [
+      25,
+      1,
+      39
+    ],
+    [
+      30,
+      8,
+      43
+    ],
+    [
+      66,
+      54,
+      81
+    ],
+    [
+      78,
+      68,
+      97
+    ],
+    [
+      111,
+      91,
+      139
+    ],
+    [
+      163,
+      132,
+      207
+    ],
+    [
+      179,
+      148,
+      223
+    ],
+    [
+      179,
+      149,
+      222
+    ],
+    [
+      179,
+      149,
+      224
+    ],
+    [
+      179,
+      149,
+      225
+    ],
+    [
+      180,
+      150,
+      224
+    ],
+    [
+      180,
+      150,
+      225
+    ],
+    [
+      181,
+      150,
+      225
+    ],
+    [
+      182,
+      151,
+      226
+    ],
+    [
+      182,
+      152,
+      222
+    ],
+    [
+      185,
+      156,
+      228
+    ],
+    [
+      211,
+      183,
+      197
+    ],
+    [
+      238,
+      208,
+      147
+    ],
+    [
+      240,
+      208,
+      143
+    ],
+    [
+      241,
+      209,
+      146
+    ],
+    [
+      246,
+      223,
+      168
+    ],
+    [
+      252,
+      233,
+      179
+    ],
+    [
+      252,
+      234,
+      181
+    ],
+    [
+      253,
+      234,
+      178
+    ],
+    [
+      253,
+      234,
+      181
+    ],
+    [
+      253,
+      235,
+      182
+    ],
+    [
+      253,
+      241,
+      197
+    ]
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 200,
+      "phaseDescriptionJa": "前右（画面左の前足）を持ち上げ、前左・後右を支持。後左は遮蔽。",
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "bytes": 887857,
+          "sha256": "0fd5361ef8e7509b204180e0d3df36f880a8591439053af700ab5d61c1ef15e7",
+          "sourceKind": "generated_same_identity_phase"
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "bytes": 10915,
+          "sha256": "f434240eba589553d8f6acc60902d5d7c9d33184317beebef5d291603a445bc7",
+          "sourceKind": "generated_same_identity_phase",
+          "parentNormalSha256": "0fd5361ef8e7509b204180e0d3df36f880a8591439053af700ab5d61c1ef15e7",
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified",
+          "soleFinalNormalGenerationVerified": true
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 200,
+      "phaseDescriptionJa": "前右を接地へ戻し、可視3足が接地する重複支持相。",
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "bytes": 835753,
+          "sha256": "5aa4e1f4aec128d03d7b65c05575764d2d050a7532d589c47798fe455085748a",
+          "sourceKind": "verified_reuse",
+          "sourceCommit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+          "sourceBlob": "ed5687b81648a5667de98dc7b32113f87744e031",
+          "sourcePath": "assets/monsters/fanged/sm-fanged-001/directions/S/default.png"
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "bytes": 13522,
+          "sha256": "d34e220c5a7bf81df1850beb8377d96411e8f3c44690c056700930881f1c8897",
+          "sourceKind": "verified_reuse",
+          "sourceCommit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+          "sourceBlob": "9a01510ccda00683c6e8f1c720e6143a227e7d9a",
+          "sourcePath": "assets/monsters/fanged/sm-fanged-001/directions/S/pixel.png",
+          "parentNormalSha256": "35ade62d559e9bea9b09192973768ca8ecb270269bf4fa711d364ec05f4ab2f1",
+          "parentNormalReferenceEvidence": "historical_metadata_only",
+          "pairedNormalSha256": "5aa4e1f4aec128d03d7b65c05575764d2d050a7532d589c47798fe455085748a",
+          "soleFinalNormalGenerationVerified": false,
+          "generationReferenceChainNote": "The old pixel metadata reports one input normal hash, different from the final canonical normal. The relation between these hashes is unresolved. This exact-byte reuse is not a newly generated or final-normal-sole-verified pixel frame."
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 200,
+      "phaseDescriptionJa": "前左（画面右の前足）と後右（画面左の後足）を持ち上げ、前右を支持。後左は遮蔽。",
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "bytes": 879733,
+          "sha256": "08b7a4e38cbc064172f7d5cc2560e260235d207613a796983b469b0f280d83c9",
+          "sourceKind": "generated_same_identity_phase"
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "bytes": 11009,
+          "sha256": "002e52237170d242f8a5e5a7b84e657b97f84656815fb584fa713d571191fcb3",
+          "sourceKind": "generated_same_identity_phase",
+          "parentNormalSha256": "08b7a4e38cbc064172f7d5cc2560e260235d207613a796983b469b0f280d83c9",
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified",
+          "soleFinalNormalGenerationVerified": true
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 200,
+      "phaseDescriptionJa": "送り足を接地へ戻し、次の前右送りへつなぐ重複支持相。",
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "bytes": 835753,
+          "sha256": "5aa4e1f4aec128d03d7b65c05575764d2d050a7532d589c47798fe455085748a",
+          "sourceKind": "verified_reuse",
+          "sourceCommit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+          "sourceBlob": "ed5687b81648a5667de98dc7b32113f87744e031",
+          "sourcePath": "assets/monsters/fanged/sm-fanged-001/directions/S/default.png"
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "bytes": 13522,
+          "sha256": "d34e220c5a7bf81df1850beb8377d96411e8f3c44690c056700930881f1c8897",
+          "sourceKind": "verified_reuse",
+          "sourceCommit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+          "sourceBlob": "9a01510ccda00683c6e8f1c720e6143a227e7d9a",
+          "sourcePath": "assets/monsters/fanged/sm-fanged-001/directions/S/pixel.png",
+          "parentNormalSha256": "35ade62d559e9bea9b09192973768ca8ecb270269bf4fa711d364ec05f4ab2f1",
+          "parentNormalReferenceEvidence": "historical_metadata_only",
+          "pairedNormalSha256": "5aa4e1f4aec128d03d7b65c05575764d2d050a7532d589c47798fe455085748a",
+          "soleFinalNormalGenerationVerified": false,
+          "generationReferenceChainNote": "The old pixel metadata reports one input normal hash, different from the final canonical normal. The relation between these hashes is unresolved. This exact-byte reuse is not a newly generated or final-normal-sole-verified pixel frame."
+        }
+      }
+    }
+  ],
+  "designReference": {
+    "repositoryPath": "assets/monsters/fanged/sm-fanged-001/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "gitBlobSha": "ed5687b81648a5667de98dc7b32113f87744e031",
+    "bytes": 835753,
+    "sha256": "5aa4e1f4aec128d03d7b65c05575764d2d050a7532d589c47798fe455085748a"
+  },
+  "processing": {
+    "newNormal": "Built-in generation followed by fixed1024/1254 isotropic normalization and removal only of detached alpha<=2 exterior dots. No part repainting or per-frame fitting.",
+    "newPixel": "Only the accepted same-phase normal supplied at generation. Fixed128/1254 nearest sampling, alpha>=128 binarization and shared30-color nearest mapping; uniform whole-frame shifts phase01Y-3, phase03Y-2, with zero clipping and exact inverseRGBA proof.",
+    "reuse": "Phases02/04 are exact-byte canonical normal/pixel pairs; no new image-generation call.",
+    "historicalReferenceMetadata": {
+      "repositoryPath": "assets/monsters/fanged/sm-fanged-001/directions/meta.json",
+      "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913"
+    }
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_SEQUENCE_PASS",
+    "scope": "S four-phase normal/pixel primary-limb cycle",
+    "individualFrames": "Technical and independent visual pair checks passed with stated limitations.",
+    "sequenceReview": "All adjacent frame connections including04to01 independently visually inspected as static common-coordinate sequences. Alternating visible paw swing and contact return retain character identity and occlusion.",
+    "animationData": "Both native APNG diagnostic sequences decoded to4exactRGBA frames,200ms each,800ms total,loop0. APNGs are local diagnostics, not part of this9path payload.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "secondaryEarTailLag": "not implemented",
+    "hiddenRearLeftLoad": "not visually verified",
+    "residualCaveats": [
+      "Phases02/04 are exact-byte canonical reuse. Historical pixel input hash differs from the final canonical normal; final-normal-sole generation chain is unverified.",
+      "Only3paws are visible; fourthrearleft remains occluded. Root depth and hidden load/swing remain design hypotheses.",
+      "Ear/tail lag from the larger motion plan is not implemented in this primary-limb cycle.",
+      "Target lift24normalpixels was exceeded: phase01front60, phase03front58/rear43. These actual amplitudes are retained, not claimed to meet24.",
+      "Pixel phase01 width+4/height+2 and phase03 width+3/height+3 relative to same-phase normal128diagnostics. Paw registration residuals up to2pixels remain.",
+      "Pixel face,ear,tail outlines and fur areas vary across generated and reused frames; numeric silhouettes are not identical.",
+      "Static sequence review and exact APNG readback do not establish continuous perceived smoothness or runtime behavior."
+    ]
+  }
+}
