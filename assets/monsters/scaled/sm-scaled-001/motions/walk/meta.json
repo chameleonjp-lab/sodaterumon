@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-scaled-001",
+  "nameJa": "コロハヌイ",
+  "motion": "walk",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 6,
+  "frameDurationMs": 160,
+  "cycleMs": 960,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "sharedPixelPalette": [
+    [
+      2,
+      22,
+      34
+    ],
+    [
+      3,
+      48,
+      58
+    ],
+    [
+      4,
+      33,
+      46
+    ],
+    [
+      8,
+      57,
+      63
+    ],
+    [
+      11,
+      64,
+      69
+    ],
+    [
+      12,
+      50,
+      57
+    ],
+    [
+      18,
+      70,
+      72
+    ],
+    [
+      32,
+      86,
+      80
+    ],
+    [
+      45,
+      94,
+      79
+    ],
+    [
+      53,
+      103,
+      86
+    ],
+    [
+      63,
+      67,
+      50
+    ],
+    [
+      63,
+      115,
+      93
+    ],
+    [
+      74,
+      122,
+      95
+    ],
+    [
+      81,
+      132,
+      99
+    ],
+    [
+      103,
+      131,
+      94
+    ],
+    [
+      106,
+      146,
+      104
+    ],
+    [
+      106,
+      154,
+      110
+    ],
+    [
+      114,
+      160,
+      115
+    ],
+    [
+      124,
+      169,
+      119
+    ],
+    [
+      135,
+      177,
+      125
+    ],
+    [
+      142,
+      182,
+      129
+    ],
+    [
+      145,
+      185,
+      131
+    ],
+    [
+      148,
+      186,
+      133
+    ],
+    [
+      149,
+      188,
+      134
+    ],
+    [
+      151,
+      189,
+      135
+    ],
+    [
+      155,
+      192,
+      137
+    ],
+    [
+      177,
+      208,
+      149
+    ],
+    [
+      208,
+      198,
+      133
+    ],
+    [
+      218,
+      220,
+      163
+    ],
+    [
+      219,
+      169,
+      95
+    ],
+    [
+      225,
+      209,
+      145
+    ],
+    [
+      253,
+      233,
+      187
+    ]
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 160,
+      "phaseDescriptionJa": "前脚の画面左側を持ち上げ、他の可視脚を支持に残す代表送り相。",
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "bytes": 831939,
+          "sha256": "3b2a246bfb8bfc5837898397db6f4a881e28e649abb9a18d07e0b00e4fe78dbc",
+          "sourceKind": "generated_same_identity_phase"
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "bytes": 13093,
+          "sha256": "0cab2573dcd50322345288ac2bb76f88d6683fce7435f14ffef4d4a76fdd6877",
+          "sourceKind": "direct_normal_derivative_not_imagegen",
+          "parentNormalSha256": "3b2a246bfb8bfc5837898397db6f4a881e28e649abb9a18d07e0b00e4fe78dbc",
+          "parentNormalReferenceEvidence": "actual_same_phase_final_normal_derivation_input_bytes_verified",
+          "soleFinalNormalDerivativeVerified": true,
+          "imageGenerationUsed": false
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 160,
+      "phaseDescriptionJa": "前脚を接地へ戻し、荷重を受ける接地相。",
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "bytes": 840669,
+          "sha256": "cda8c2331c4f4976a0257a57da97af82c9604e7edd5feea10ece62504ad08f27",
+          "sourceKind": "verified_reuse",
+          "sourceCommit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+          "sourceBlob": "53fbe4cc7f8b382f372ee46148ad165da18c5d24",
+          "sourcePath": "assets/monsters/scaled/sm-scaled-001/directions/S/default.png"
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "bytes": 12727,
+          "sha256": "2ebb219cf67e15f7c9a23731da3dc2dfa92bb02e4be89df1b8dab07947e41b5b",
+          "sourceKind": "direct_normal_derivative_not_imagegen",
+          "parentNormalSha256": "cda8c2331c4f4976a0257a57da97af82c9604e7edd5feea10ece62504ad08f27",
+          "parentNormalReferenceEvidence": "actual_same_phase_final_normal_derivation_input_bytes_verified",
+          "soleFinalNormalDerivativeVerified": true,
+          "imageGenerationUsed": false
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 160,
+      "phaseDescriptionJa": "中脚の画面右側を持ち上げ、前後の可視脚を支持に残す代表送り相。",
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "bytes": 821149,
+          "sha256": "be11ce473c2616fb7e34adbf06429976320ae6870659bbffbeeb27e39f8954a0",
+          "sourceKind": "generated_same_identity_phase"
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "bytes": 12605,
+          "sha256": "07d10d617b823729f2a84327db23dcaf2ec22b99de7bfbd8d0e6e2b3e02c7756",
+          "sourceKind": "direct_normal_derivative_not_imagegen",
+          "parentNormalSha256": "be11ce473c2616fb7e34adbf06429976320ae6870659bbffbeeb27e39f8954a0",
+          "parentNormalReferenceEvidence": "actual_same_phase_final_normal_derivation_input_bytes_verified",
+          "soleFinalNormalDerivativeVerified": true,
+          "imageGenerationUsed": false
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 160,
+      "phaseDescriptionJa": "中脚を接地へ戻す接地相。",
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "bytes": 840669,
+          "sha256": "cda8c2331c4f4976a0257a57da97af82c9604e7edd5feea10ece62504ad08f27",
+          "sourceKind": "verified_reuse",
+          "sourceCommit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+          "sourceBlob": "53fbe4cc7f8b382f372ee46148ad165da18c5d24",
+          "sourcePath": "assets/monsters/scaled/sm-scaled-001/directions/S/default.png"
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "bytes": 12727,
+          "sha256": "2ebb219cf67e15f7c9a23731da3dc2dfa92bb02e4be89df1b8dab07947e41b5b",
+          "sourceKind": "direct_normal_derivative_not_imagegen",
+          "parentNormalSha256": "cda8c2331c4f4976a0257a57da97af82c9604e7edd5feea10ece62504ad08f27",
+          "parentNormalReferenceEvidence": "actual_same_phase_final_normal_derivation_input_bytes_verified",
+          "soleFinalNormalDerivativeVerified": true,
+          "imageGenerationUsed": false,
+          "reuseKind": "exact_byte_same_normal_direct_derivative",
+          "reusedFrom": "S/02/pixel.png"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "durationMs": 160,
+      "phaseDescriptionJa": "後脚の画面左側を持ち上げ、前中の可視脚を支持に残す代表送り相。",
+      "assets": {
+        "normal": {
+          "path": "S/05/default.png",
+          "bytes": 821433,
+          "sha256": "a2e1812e2706d6e064f33bc7a36789c6ff49d16216c4e04654e545f0c28c6015",
+          "sourceKind": "generated_same_identity_phase"
+        },
+        "pixel": {
+          "path": "S/05/pixel.png",
+          "bytes": 13001,
+          "sha256": "6cfbea8a78c09093efe3147990dde5ffde0665c2ba67f0e4a884ec50e5fc2fc0",
+          "sourceKind": "direct_normal_derivative_not_imagegen",
+          "parentNormalSha256": "a2e1812e2706d6e064f33bc7a36789c6ff49d16216c4e04654e545f0c28c6015",
+          "parentNormalReferenceEvidence": "actual_same_phase_final_normal_derivation_input_bytes_verified",
+          "soleFinalNormalDerivativeVerified": true,
+          "imageGenerationUsed": false
+        }
+      }
+    },
+    {
+      "index": 6,
+      "durationMs": 160,
+      "phaseDescriptionJa": "後脚を接地へ戻し、次の前脚送りへつなぐ接地相。",
+      "assets": {
+        "normal": {
+          "path": "S/06/default.png",
+          "bytes": 840669,
+          "sha256": "cda8c2331c4f4976a0257a57da97af82c9604e7edd5feea10ece62504ad08f27",
+          "sourceKind": "verified_reuse",
+          "sourceCommit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+          "sourceBlob": "53fbe4cc7f8b382f372ee46148ad165da18c5d24",
+          "sourcePath": "assets/monsters/scaled/sm-scaled-001/directions/S/default.png"
+        },
+        "pixel": {
+          "path": "S/06/pixel.png",
+          "bytes": 12727,
+          "sha256": "2ebb219cf67e15f7c9a23731da3dc2dfa92bb02e4be89df1b8dab07947e41b5b",
+          "sourceKind": "direct_normal_derivative_not_imagegen",
+          "parentNormalSha256": "cda8c2331c4f4976a0257a57da97af82c9604e7edd5feea10ece62504ad08f27",
+          "parentNormalReferenceEvidence": "actual_same_phase_final_normal_derivation_input_bytes_verified",
+          "soleFinalNormalDerivativeVerified": true,
+          "imageGenerationUsed": false,
+          "reuseKind": "exact_byte_same_normal_direct_derivative",
+          "reusedFrom": "S/02/pixel.png"
+        }
+      }
+    }
+  ],
+  "designReference": {
+    "repositoryPath": "assets/monsters/scaled/sm-scaled-001/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "gitBlobSha": "53fbe4cc7f8b382f372ee46148ad165da18c5d24",
+    "bytes": 840669,
+    "sha256": "cda8c2331c4f4976a0257a57da97af82c9604e7edd5feea10ece62504ad08f27"
+  },
+  "processing": {
+    "normal": "Accepted normal frames retain the individual common scale and anchor. Generated frames were normalized with the recorded fixed transform; no body or limb reshaping is performed in this package.",
+    "pixel": {
+      "method": "direct_normal_derivative_not_imagegen",
+      "input": "Accepted same-phase final normal only",
+      "scale": 0.125,
+      "resampler": "NEAREST",
+      "alphaThreshold": 128,
+      "paletteMapping": "nearest fixed shared 32-color palette",
+      "dither": false,
+      "translation": [
+        0,
+        0
+      ],
+      "perFrameFit": false,
+      "shapeEdits": false,
+      "newImageGenerationCalls": 0,
+      "logicalDirectPixelFrames": 6,
+      "uniqueDirectConversions": 4
+    },
+    "reuse": "Normal phases 02/04/06 are exact-byte reuse of the canonical S contact pose. Their direct pixels are identical; phases 04/06 reuse the phase 02 direct derivative bytes. No historical canonical pixel is selected."
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_SEQUENCE_PASS",
+    "scope": "S six-phase normal/pixel primary-limb cycle",
+    "individualFrames": "All 12 PNG files passed size, margin, extent, byte/hash and same-phase identity checks. Pixel alpha is binary and all visible colors belong to one shared palette of at most 32 colors.",
+    "sequenceReview": "All six adjacent static frame connections including 06 to 01 were visually inspected in common coordinates. Front, middle and rear lifting samples and contact returns preserve three body segments, six legs and two eyes.",
+    "animationData": "Both diagnostic APNG sequences independently decoded to six exact RGBA frames, 160 ms each, 960 ms total, loop 0. APNG files are local diagnostics and are not part of this 13-path payload.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "residualCaveats": [
+      "Pixels are fixed nearest-neighbor reductions of accepted normal images, not newly drawn pixel art. Fine scales, aliasing and loss of small details remain.",
+      "Existing normal brightness and eye-highlight variations, and support/body registration differences of about one pixel at 128 scale, remain.",
+      "Leg pairing and forward displacement are inferred from the frontal view. Exact physical foot trajectories, load transfer and world-space stride length are not verified.",
+      "Normal phases 02/04/06 use one canonical contact pose. The full planned within-pair half-phase trajectory and coordinated body wave are not verified by these sparse representative samples.",
+      "Static sequence review and exact APNG data readback do not establish continuous perceived smoothness or game-runtime behavior."
+    ]
+  }
+}
