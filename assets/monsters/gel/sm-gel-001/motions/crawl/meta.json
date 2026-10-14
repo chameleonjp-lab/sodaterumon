@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-gel-001",
+  "nameJa": "ポユネラ",
+  "motionType": "belly-supported contraction crawl",
+  "cycleMs": 800,
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 200,
+      "normalSupportPointPx": [
+        511.5,
+        765
+      ],
+      "phaseDescriptionEn": "Rear-supported mild contraction",
+      "phaseDescriptionJa": "後側を接地させて胴を軽く縮める",
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "sha256": "166ccc366e1a8c3bd11b52ec3dc130466f540555c415386be2cd2ea563ceff9f",
+          "bytes": 430742
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "sha256": "8c39a87ab8b0b8d7926a3157b600292493a97c260bd84f39b722dfe18a2384db",
+          "bytes": 7530,
+          "rawGenerationSha256": "6b43c25889fffbd10189bd765b6d02defd6ca66d1c3f7793fe7b65267b7abb93",
+          "visibleColors": 32,
+          "parentNormalSha256": "166ccc366e1a8c3bd11b52ec3dc130466f540555c415386be2cd2ea563ceff9f"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 200,
+      "normalSupportPointPx": [
+        511.5,
+        777
+      ],
+      "phaseDescriptionEn": "Front extension and front-rim contact",
+      "phaseDescriptionJa": "前側を伸ばし、前縁を接地させる",
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "sha256": "d9f1c6c82373d581f9d817d9b5cec1696b037e1d683c2367492ec10e534aeb2b",
+          "bytes": 457094
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "sha256": "c53dba1e0c666ca0caa11ae0f1e96d6c584df7b37d020a31c5170d61fcebb4dd",
+          "bytes": 6959,
+          "rawGenerationSha256": "cc22036ca337da659b85d826c518d18262fc668b3dea3098a6dcdd37d85fbfd8",
+          "visibleColors": 32,
+          "parentNormalSha256": "d9f1c6c82373d581f9d817d9b5cec1696b037e1d683c2367492ec10e534aeb2b"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 200,
+      "normalSupportPointPx": [
+        511.5,
+        777
+      ],
+      "phaseDescriptionEn": "Front-supported rear draw-in",
+      "phaseDescriptionJa": "前側を支持して後側を引き寄せる",
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "sha256": "0c1d72a9630799e6aff3ba2de7aef6764b30025d33d3a434a9a3ee64ee56e3ba",
+          "bytes": 424522
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "sha256": "041875cde253bdb4a4614fd1dae4ce2e9da447245746064f73305c79949b4ceb",
+          "bytes": 6057,
+          "rawGenerationSha256": "f24461afbf054a693a74dbd406a3d9834cdd65b3bc9c05bbece1904b22f1d097",
+          "visibleColors": 31,
+          "parentNormalSha256": "0c1d72a9630799e6aff3ba2de7aef6764b30025d33d3a434a9a3ee64ee56e3ba"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 200,
+      "normalSupportPointPx": [
+        511.5,
+        769
+      ],
+      "phaseDescriptionEn": "Return toward neutral for next contraction",
+      "phaseDescriptionJa": "胴の高さと長さを戻し、次の伸展へつなぐ",
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "sha256": "0fc08bd4dd341912f8880b71eaf82904e3dd3f65f5b2bf914bd775a51be7d839",
+          "bytes": 423279
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "sha256": "c18427d82e63ac118a448dfeb2bace0b3a6d220a036a27a2f761730443a8d8a7",
+          "bytes": 6401,
+          "rawGenerationSha256": "d4875634128d43467c89e6d7a1a52655c38aa38260ca1b74e7759120583a8643",
+          "visibleColors": 32,
+          "parentNormalSha256": "0fc08bd4dd341912f8880b71eaf82904e3dd3f65f5b2bf914bd775a51be7d839"
+        }
+      }
+    }
+  ],
+  "sharedPixelPalette": [
+    [
+      2,
+      47,
+      77
+    ],
+    [
+      8,
+      42,
+      71
+    ],
+    [
+      15,
+      30,
+      59
+    ],
+    [
+      19,
+      71,
+      102
+    ],
+    [
+      33,
+      133,
+      168
+    ],
+    [
+      40,
+      146,
+      178
+    ],
+    [
+      49,
+      160,
+      187
+    ],
+    [
+      59,
+      166,
+      189
+    ],
+    [
+      60,
+      177,
+      196
+    ],
+    [
+      63,
+      179,
+      198
+    ],
+    [
+      70,
+      188,
+      203
+    ],
+    [
+      80,
+      196,
+      209
+    ],
+    [
+      85,
+      198,
+      210
+    ],
+    [
+      86,
+      201,
+      211
+    ],
+    [
+      90,
+      203,
+      213
+    ],
+    [
+      98,
+      211,
+      217
+    ],
+    [
+      100,
+      206,
+      214
+    ],
+    [
+      107,
+      214,
+      219
+    ],
+    [
+      116,
+      220,
+      222
+    ],
+    [
+      120,
+      223,
+      224
+    ],
+    [
+      127,
+      224,
+      225
+    ],
+    [
+      138,
+      225,
+      226
+    ],
+    [
+      142,
+      231,
+      229
+    ],
+    [
+      158,
+      235,
+      231
+    ],
+    [
+      165,
+      237,
+      232
+    ],
+    [
+      180,
+      239,
+      235
+    ],
+    [
+      202,
+      247,
+      240
+    ],
+    [
+      222,
+      251,
+      245
+    ],
+    [
+      243,
+      253,
+      249
+    ],
+    [
+      244,
+      250,
+      250
+    ],
+    [
+      253,
+      252,
+      252
+    ],
+    [
+      254,
+      254,
+      253
+    ]
+  ],
+  "normalization": {
+    "commonRawCanvas": [
+      1254,
+      1254
+    ],
+    "commonResizedCanvas": [
+      972,
+      972
+    ],
+    "normalCanvas": [
+      1024,
+      1024
+    ],
+    "pixelScaleFromVirtualCanvas": 0.125,
+    "perFrameBodyFit": false,
+    "poseRedrawnByCode": false
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_SEQUENCE_PASS",
+    "scope": "S four-phase normal/pixel candidate cycle",
+    "individualFrames": "Technical and visual checks passed with residual caveats.",
+    "sequenceReview": "All adjacent frame connections including04to01 were visually inspected in common-coordinate frame sequences. Identity,two eyes,one bubble,and belly-support sequence are retained.",
+    "animationData": "Native APNG frames areRGBA-exact to corresponding PNG assets;4frames at200ms each,800ms cycle,loop0.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "residualCaveats": [
+      "Pixel phase03 has stronger apparent contraction than the normal phase03.",
+      "Apparent brightness and color-area proportions vary despite a shared32-color palette.",
+      "Normal phase04-to01 dome apex changes about30px on the1024px canvas.",
+      "This limited candidate-cycle review is not an in-game acceptance or a full eight-direction completion."
+    ],
+    "versionNote": "Shared32-color pixel variants supersede individually reduced palettes. Earlier raw,oversize,and superseded variants remain preserved separately and are not adopted here."
+  },
+  "motion": "crawl",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 4,
+  "frameDurationMs": 200,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "pixelAlpha": "binary",
+  "pixelPaletteLineage": {
+    "maxVisibleColors": 32,
+    "sourcePhase": 1,
+    "sourceRawSha256": "6b43c25889fffbd10189bd765b6d02defd6ca66d1c3f7793fe7b65267b7abb93",
+    "mapping": "Uniform nearest RGB squared Euclidean, no dithering",
+    "binaryAlpha": [
+      0,
+      255
+    ]
+  },
+  "designReference": {
+    "repositoryPath": "assets/monsters/gel/sm-gel-001/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "sha256": "5cdc0acb65bf874b231a85ad24e571f20d93a4c2f1f748e5d7973cd5a8de2555"
+  }
+}
