@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-micro-008",
+  "nameJa": "ワッカネル",
+  "motion": "float",
+  "motionType": "漂い移動（提案）",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 4,
+  "frameDurationMs": 260,
+  "cycleMs": 1040,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 260,
+      "phaseDescriptionJa": "基準高さから少し上昇する",
+      "normalHoleAnchorTargetPx": [
+        512,
+        508
+      ],
+      "normalHoleCenterActualPx": [
+        512.0,
+        507.5
+      ],
+      "pixelHoleAnchorTargetPx": [
+        64.0,
+        63.5
+      ],
+      "pixelHoleCenterActualPx": [
+        64.0,
+        64.0
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "bytes": 664415,
+          "sha256": "d6df596929733439e84cac1c827b7e912b1891795e03ff0dc00bb4288a6b3f1f",
+          "wholeFrameTranslationPx": [
+            -23,
+            -6
+          ],
+          "anchorResidualPx": [
+            0.0,
+            -0.5
+          ],
+          "provenance": {
+            "kind": "generated_normal",
+            "sourceOrRawSha256": "6fa19260c315b577848d526d1edf2b51454043ada02b29a10b6fc48fef899453",
+            "newGenerationCount": 1,
+            "nativeCanvas": [
+              1254,
+              1254
+            ],
+            "fullCanvasUniformScale": 0.7974481658692185,
+            "scaledCanvas": [
+              1000,
+              1000
+            ],
+            "transparentPaddingBeforeAlignment": [
+              12,
+              12
+            ]
+          }
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "bytes": 8798,
+          "sha256": "c132f64db92ab94376e9b2b6c034e869c3747fb5679eff6f07d53bed87d15c03",
+          "wholeFrameTranslationPx": [
+            -1,
+            -2
+          ],
+          "anchorResidualPx": [
+            0.0,
+            0.5
+          ],
+          "parentNormalSha256": "d6df596929733439e84cac1c827b7e912b1891795e03ff0dc00bb4288a6b3f1f",
+          "rawGenerationSha256": "b232cd9c85f6eec3af1c9bc51e324f8c731be6639a128886f98baf3e8205abd2",
+          "visibleColors": 32,
+          "holeSizePx": [
+            30.0,
+            28.0
+          ],
+          "holeAreaPx": 616.0,
+          "opaqueAreaPx": 6619.0
+        }
+      },
+      "pixelToNormalHoleAreaRatio": 0.9016764631887108,
+      "pixelToNormalOpaqueAreaRatio": 1.086930640228257
+    },
+    {
+      "index": 2,
+      "durationMs": 260,
+      "phaseDescriptionJa": "上側の折返しで胴の傾きを緩める",
+      "normalHoleAnchorTargetPx": [
+        512,
+        502
+      ],
+      "normalHoleCenterActualPx": [
+        512.5,
+        501.5
+      ],
+      "pixelHoleAnchorTargetPx": [
+        64.0,
+        62.75
+      ],
+      "pixelHoleCenterActualPx": [
+        64.0,
+        63.0
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "bytes": 697096,
+          "sha256": "1aa6aa1710c55cb0c8ab8f66da6da746f656068392e2480fd6095559371c335e",
+          "wholeFrameTranslationPx": [
+            -18,
+            -18
+          ],
+          "anchorResidualPx": [
+            0.5,
+            -0.5
+          ],
+          "provenance": {
+            "kind": "adopted_source_transform_reuse",
+            "sourceOrRawSha256": "c21a3192e180f89922595c1ae7a7878fa08037a0e82cf329fdac09c91e486c2b",
+            "newGenerationCount": 0,
+            "nativeCanvas": [
+              1024,
+              1024
+            ],
+            "fullCanvasUniformScale": 0.9765625,
+            "scaledCanvas": [
+              1000,
+              1000
+            ],
+            "transparentPaddingBeforeAlignment": [
+              12,
+              12
+            ]
+          }
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "bytes": 8186,
+          "sha256": "2a5eb80b3a9b292be99f5888ab5ec261b94a4e86a5bf204acfc6ff6b50af110c",
+          "wholeFrameTranslationPx": [
+            -1,
+            0
+          ],
+          "anchorResidualPx": [
+            0.0,
+            0.25
+          ],
+          "parentNormalSha256": "1aa6aa1710c55cb0c8ab8f66da6da746f656068392e2480fd6095559371c335e",
+          "rawGenerationSha256": "135c80b64b445035aea5e45446efcd052dede7c1d455dfe7f9c3dcc61fd55322",
+          "visibleColors": 31,
+          "holeSizePx": [
+            30.0,
+            28.0
+          ],
+          "holeAreaPx": 626.0,
+          "opaqueAreaPx": 6491.0
+        }
+      },
+      "pixelToNormalHoleAreaRatio": 0.9085013265606929,
+      "pixelToNormalOpaqueAreaRatio": 1.0726016963375118
+    },
+    {
+      "index": 3,
+      "durationMs": 260,
+      "phaseDescriptionJa": "基準高さを通って少し下降する",
+      "normalHoleAnchorTargetPx": [
+        512,
+        516
+      ],
+      "normalHoleCenterActualPx": [
+        512.0,
+        516.5
+      ],
+      "pixelHoleAnchorTargetPx": [
+        64.0,
+        64.5
+      ],
+      "pixelHoleCenterActualPx": [
+        63.5,
+        65.0
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "bytes": 672192,
+          "sha256": "f904aa913caa15e5909eeb2a0c7eb3cc3a010839cb5163f3fea2b5bf785591c7",
+          "wholeFrameTranslationPx": [
+            -20,
+            -8
+          ],
+          "anchorResidualPx": [
+            0.0,
+            0.5
+          ],
+          "provenance": {
+            "kind": "generated_normal",
+            "sourceOrRawSha256": "880ded40bfd8108d4593ea233f95a62d95201be9d7aca29667f23ef152dae08b",
+            "newGenerationCount": 1,
+            "nativeCanvas": [
+              1254,
+              1254
+            ],
+            "fullCanvasUniformScale": 0.7974481658692185,
+            "scaledCanvas": [
+              1000,
+              1000
+            ],
+            "transparentPaddingBeforeAlignment": [
+              12,
+              12
+            ]
+          }
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "bytes": 8931,
+          "sha256": "dc08bdbb3d71d5d555db116133197f6887c072a13f854258d441884d330df3a9",
+          "wholeFrameTranslationPx": [
+            -2,
+            -2
+          ],
+          "anchorResidualPx": [
+            -0.5,
+            0.5
+          ],
+          "parentNormalSha256": "f904aa913caa15e5909eeb2a0c7eb3cc3a010839cb5163f3fea2b5bf785591c7",
+          "rawGenerationSha256": "0204b736ea2a7922e43d52759467b9d95a3e0700007692f16ecc20fdf3691271",
+          "visibleColors": 32,
+          "holeSizePx": [
+            29.0,
+            28.0
+          ],
+          "holeAreaPx": 625.0,
+          "opaqueAreaPx": 6489.0
+        }
+      },
+      "pixelToNormalHoleAreaRatio": 0.9129918743723181,
+      "pixelToNormalOpaqueAreaRatio": 1.0667954471310812
+    },
+    {
+      "index": 4,
+      "durationMs": 260,
+      "phaseDescriptionJa": "下側で傾きを戻し、次の上昇へつなぐ",
+      "normalHoleAnchorTargetPx": [
+        512,
+        522
+      ],
+      "normalHoleCenterActualPx": [
+        512.5,
+        521.5
+      ],
+      "pixelHoleAnchorTargetPx": [
+        64.0,
+        65.25
+      ],
+      "pixelHoleCenterActualPx": [
+        64.5,
+        65.5
+      ],
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "bytes": 697226,
+          "sha256": "a133e05ef42a81c5d0eee6af336b72eac96f10555baa5c6d2a28daf59a57a168",
+          "wholeFrameTranslationPx": [
+            -18,
+            2
+          ],
+          "anchorResidualPx": [
+            0.5,
+            -0.5
+          ],
+          "provenance": {
+            "kind": "adopted_source_transform_reuse",
+            "sourceOrRawSha256": "c21a3192e180f89922595c1ae7a7878fa08037a0e82cf329fdac09c91e486c2b",
+            "newGenerationCount": 0,
+            "nativeCanvas": [
+              1024,
+              1024
+            ],
+            "fullCanvasUniformScale": 0.9765625,
+            "scaledCanvas": [
+              1000,
+              1000
+            ],
+            "transparentPaddingBeforeAlignment": [
+              12,
+              12
+            ]
+          }
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "bytes": 9027,
+          "sha256": "c44c88199904931c6ff1f42d57fb9682a6eb0ce7c06f243affdb2e6e3f854cea",
+          "wholeFrameTranslationPx": [
+            0,
+            0
+          ],
+          "anchorResidualPx": [
+            0.5,
+            0.25
+          ],
+          "parentNormalSha256": "a133e05ef42a81c5d0eee6af336b72eac96f10555baa5c6d2a28daf59a57a168",
+          "rawGenerationSha256": "f81f9f890a6c89e539d2d95c18ec27a3ea702d5c1717a6ab5e880be1535da6a6",
+          "visibleColors": 32,
+          "holeSizePx": [
+            29.0,
+            29.0
+          ],
+          "holeAreaPx": 649.0,
+          "opaqueAreaPx": 6377.0
+        }
+      },
+      "pixelToNormalHoleAreaRatio": 0.9418807682713893,
+      "pixelToNormalOpaqueAreaRatio": 1.0537638295400267
+    }
+  ],
+  "identityInvariants": "厚い薄紫の輪胴、背景が見える貫通穴、上側の琥珀色の眼2個、外周に接続した丸い突起6個、下半の緑色帯とクリーム色境界。脚・翼・腕・尾・口はない。",
+  "motionScope": "既存の水滴の縁で漂う設定を元にした、S基準画像の浅い上下移動4相。水面や地面の絵は追加しない。6突起を脚として動かさず輪と一体に維持。実移動距離や水面追従は未検証。",
+  "cameraAndAnchor": {
+    "direction": "Representative S with the original shallow oblique perspective retained; not a calibrated3D front.",
+    "normalVirtualCanvas": [
+      1024,
+      1024
+    ],
+    "scaledCanvas": [
+      1000,
+      1000
+    ],
+    "paddingBeforeAlignment": [
+      12,
+      12
+    ],
+    "baselineHoleAnchor": [
+      512,
+      512
+    ],
+    "normalYOffsetTargets": [
+      -4,
+      -10,
+      4,
+      10
+    ],
+    "anchorDefinition": "Bounding-box center of the largest fully enclosed transparent region at alpha<128; a projected hole-center proxy, not measured physical mass center.",
+    "alignment": "Whole-image integer translation only; no object bbox fitting or independent feature alignment.",
+    "sameVirtualScale": "Generated1254-square normals use1000/1254. Reused adopted1024-square source normals use1000/1024; both map the complete input canvas to the same1000-square camera before padding.",
+    "sourceReuseFrames": [
+      2,
+      4
+    ],
+    "sourceReuseRelation": "Normal04 equals normal02 after a whole-frame Y+20px translation with all RGBA values retained; both were independently derived from the unchanged source.",
+    "sourceReuseNewGenerationCount": 0
+  },
+  "sharedPixelPalette": [
+    [
+      53,
+      2,
+      36
+    ],
+    [
+      58,
+      2,
+      40
+    ],
+    [
+      62,
+      2,
+      40
+    ],
+    [
+      63,
+      5,
+      32
+    ],
+    [
+      66,
+      2,
+      40
+    ],
+    [
+      80,
+      31,
+      57
+    ],
+    [
+      81,
+      147,
+      112
+    ],
+    [
+      103,
+      180,
+      137
+    ],
+    [
+      115,
+      187,
+      144
+    ],
+    [
+      126,
+      160,
+      147
+    ],
+    [
+      126,
+      199,
+      155
+    ],
+    [
+      129,
+      201,
+      157
+    ],
+    [
+      160,
+      218,
+      180
+    ],
+    [
+      164,
+      101,
+      165
+    ],
+    [
+      171,
+      221,
+      184
+    ],
+    [
+      188,
+      120,
+      193
+    ],
+    [
+      189,
+      122,
+      194
+    ],
+    [
+      196,
+      135,
+      197
+    ],
+    [
+      203,
+      189,
+      208
+    ],
+    [
+      211,
+      150,
+      206
+    ],
+    [
+      211,
+      151,
+      217
+    ],
+    [
+      215,
+      157,
+      207
+    ],
+    [
+      215,
+      158,
+      221
+    ],
+    [
+      233,
+      181,
+      238
+    ],
+    [
+      236,
+      184,
+      240
+    ],
+    [
+      238,
+      184,
+      225
+    ],
+    [
+      250,
+      203,
+      203
+    ],
+    [
+      252,
+      215,
+      134
+    ],
+    [
+      252,
+      227,
+      152
+    ],
+    [
+      252,
+      240,
+      199
+    ],
+    [
+      253,
+      225,
+      141
+    ],
+    [
+      253,
+      253,
+      253
+    ]
+  ],
+  "pixelPaletteLineage": {
+    "maxVisibleColors": 32,
+    "sourcePhase": 1,
+    "sourceRawSha256": "d258217d3d37cfa563c42ad0a5ff82e529aff1d0b0c24377c8a8553d11d3ca8f",
+    "mapping": "Fixed nearest squared RGB distance, no dithering; same palette in every phase.",
+    "binaryAlpha": [
+      0,
+      255
+    ]
+  },
+  "normalization": {
+    "normalGeneratedCleanup": "Only disconnected exterior components with maximum alpha at most2 were removed before uniform resizing; connected artwork not redrawn or recolored.",
+    "normalSourceReuseCleanup": "No source anatomy or colors altered; source normals only uniformly resized and translated.",
+    "pixelRawCanvas": [
+      1254,
+      1254
+    ],
+    "pixelRawToOutputScale": 0.10207336523125997,
+    "pixelScaleFromVirtualNormalCanvas": 0.125,
+    "pixelResampling": "Nearest neighbor, alpha>=128 becomes255 otherwise0, common palette mapping.",
+    "pixelReferences": "Each pixel image was generated from only its listed same-phase accepted normal fullcanvas. No direct normal-to-pixel quantization.",
+    "perFrameObjectFit": false,
+    "poseRedrawnByCode": false,
+    "allPixelTranslationsReverseRGBAExact": true,
+    "allPixelVisibleClipping": 0
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_CYCLE_PASS",
+    "scope": "S four-phase same-coordinate normal/pixel still-sequence and file-data checks",
+    "individualFrames": "All8 PNGs passed technical and limited same-phase visual checks.",
+    "sequenceReview": "Normal01-02-03-04-01, native128 pixel all connections and03-04-01 closure examined. Through-hole, two eyes, six knobs and band remain readable; no conspicuous whole-body scale jump observed in those still sequences.",
+    "animationData": "Both diagnostic APNGs contain four260ms frames,1040ms total, infinite loop, and every decodedRGBA frame exactly matches its PNG.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "residualCaveats": [
+      "Only representative S direction; original shallow oblique view is retained, not a calibrated rigid3D rotation.",
+      "Four260ms phases form a proposed1040ms gentle drift; no world speed, water interaction, collisions or game timing has been validated.",
+      "Normal02/04 reuse the original source via the same virtual canvas resize and whole-frame alignment; no new image generation for those two normals. They differ by exactly20px whole Y translation.",
+      "Normal03 counterclockwise1degree design target is not proven. Eye-dark-box axis is a projected appearance proxy, not strict rigid angle; the basic downward phase is visible.",
+      "Pixel ring thickness/outer area and hole angularity differ from normal. Hole area ratios and opaque area ratios are documented per phase; matching feature count alone is not a size-continuity pass.",
+      "Eye dark shape/highlights, knob contours, speckles and glossy color patches simplify and change between frames despite a fixed common palette.",
+      "Subpixel anchor rounding is recorded; exact perspective/physical geometry is unverified.",
+      "APNG frame/time/RGBA checks were performed, but continuous playback visual review and actual game/device testing were not performed.",
+      "01pixel is slightly fuller than04pixel; opaque-area ratio04->01 is about1.038. Eye dark shapes/reflections vary and must not be treated as fully identical eye silhouettes.",
+      "02/04 color fields appear somewhat smoother than01/03. This remains a visual caveat, not a continuous-playback pass."
+    ]
+  },
+  "designReference": {
+    "repositoryPath": "assets/monsters/micro/sm-micro-008/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "direction": "S",
+    "bytes": 708209,
+    "sha256": "c21a3192e180f89922595c1ae7a7878fa08037a0e82cf329fdac09c91e486c2b"
+  }
+}
