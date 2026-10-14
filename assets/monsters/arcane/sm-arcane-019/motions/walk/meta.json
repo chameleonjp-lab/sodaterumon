@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-arcane-019",
+  "nameJa": "サラネコロ",
+  "motion": "walk",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 4,
+  "frameDurationMs": 200,
+  "cycleMs": 800,
+  "laterality": "Anatomical left equals screen right in S front view; exactly two legs. No mirroring.",
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "sharedPixelPalette": [
+    [
+      251,
+      244,
+      230
+    ],
+    [
+      251,
+      243,
+      228
+    ],
+    [
+      251,
+      242,
+      226
+    ],
+    [
+      250,
+      239,
+      223
+    ],
+    [
+      249,
+      238,
+      221
+    ],
+    [
+      248,
+      238,
+      223
+    ],
+    [
+      248,
+      237,
+      221
+    ],
+    [
+      247,
+      237,
+      221
+    ],
+    [
+      248,
+      236,
+      217
+    ],
+    [
+      249,
+      234,
+      212
+    ],
+    [
+      246,
+      235,
+      220
+    ],
+    [
+      245,
+      234,
+      218
+    ],
+    [
+      243,
+      232,
+      217
+    ],
+    [
+      218,
+      242,
+      250
+    ],
+    [
+      204,
+      236,
+      251
+    ],
+    [
+      244,
+      231,
+      211
+    ],
+    [
+      241,
+      231,
+      215
+    ],
+    [
+      240,
+      230,
+      215
+    ],
+    [
+      243,
+      228,
+      206
+    ],
+    [
+      242,
+      218,
+      190
+    ],
+    [
+      204,
+      226,
+      238
+    ],
+    [
+      228,
+      210,
+      190
+    ],
+    [
+      183,
+      220,
+      250
+    ],
+    [
+      167,
+      208,
+      245
+    ],
+    [
+      221,
+      194,
+      170
+    ],
+    [
+      170,
+      188,
+      203
+    ],
+    [
+      146,
+      193,
+      236
+    ],
+    [
+      110,
+      184,
+      244
+    ],
+    [
+      131,
+      128,
+      132
+    ],
+    [
+      64,
+      114,
+      167
+    ],
+    [
+      37,
+      57,
+      90
+    ],
+    [
+      3,
+      21,
+      54
+    ]
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 200,
+      "phaseDescriptionJa": "個体左（画面右）支持、個体右（画面左）遊脚を前送り。",
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "bytes": 709063,
+          "sha256": "76da5ac4e213501abebe1ecd8d9bff5829c4fa7ff05cd8a9d96b64ea78e68d7f",
+          "sourceKind": "generated_same_identity_phase"
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "bytes": 6594,
+          "sha256": "277e039864ad671305e450ae8b986ab3ca9228f147792fb7829e1cc4010e8cf5",
+          "sourceKind": "direct_normal_derivative",
+          "parentNormalSha256": "76da5ac4e213501abebe1ecd8d9bff5829c4fa7ff05cd8a9d96b64ea78e68d7f",
+          "parentNormalReferenceEvidence": "actual_same_phase_final_normal_bytes_directly_processed",
+          "soleFinalNormalDerivationVerified": true,
+          "newPixelImagegenCalls": 0
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 200,
+      "phaseDescriptionJa": "個体右（画面左）が着地し、個体左は後行接地。",
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "bytes": 698397,
+          "sha256": "4b142e79095685be488c90df101643d30a33a268b588be7d8d017164320686f1",
+          "sourceKind": "generated_same_identity_phase"
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "bytes": 6322,
+          "sha256": "875a5c86c256c4687f9afd48ab4a6a5a47d5ebdcdf0493193c55b42c032fe853",
+          "sourceKind": "direct_normal_derivative",
+          "parentNormalSha256": "4b142e79095685be488c90df101643d30a33a268b588be7d8d017164320686f1",
+          "parentNormalReferenceEvidence": "actual_same_phase_final_normal_bytes_directly_processed",
+          "soleFinalNormalDerivationVerified": true,
+          "newPixelImagegenCalls": 0
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 200,
+      "phaseDescriptionJa": "個体右（画面左）支持、個体左（画面右）遊脚を前送り。",
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "bytes": 689561,
+          "sha256": "6fef21db5ffdefe3df02b600fdc45c44f8f8e0c5a881936fa47443c64a430ce6",
+          "sourceKind": "generated_same_identity_phase"
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "bytes": 6251,
+          "sha256": "4ce78285b8e7d5adb74d6f9bd38062e97180de3845ca311085b37d15366429bb",
+          "sourceKind": "direct_normal_derivative",
+          "parentNormalSha256": "6fef21db5ffdefe3df02b600fdc45c44f8f8e0c5a881936fa47443c64a430ce6",
+          "parentNormalReferenceEvidence": "actual_same_phase_final_normal_bytes_directly_processed",
+          "soleFinalNormalDerivationVerified": true,
+          "newPixelImagegenCalls": 0
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 200,
+      "phaseDescriptionJa": "個体左（画面右）が着地し、個体右は後行接地、初期支持へ戻る。",
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "bytes": 689898,
+          "sha256": "2b2481704a2b7807dd63d66899582458102f2c1ecc52d508cafa6cd440519b40",
+          "sourceKind": "generated_same_identity_phase"
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "bytes": 6422,
+          "sha256": "7802669dbd9a735826628a869bfecf7ae2bbce07b36d8c13ca68e5499da416b8",
+          "sourceKind": "direct_normal_derivative",
+          "parentNormalSha256": "2b2481704a2b7807dd63d66899582458102f2c1ecc52d508cafa6cd440519b40",
+          "parentNormalReferenceEvidence": "actual_same_phase_final_normal_bytes_directly_processed",
+          "soleFinalNormalDerivationVerified": true,
+          "newPixelImagegenCalls": 0
+        }
+      }
+    }
+  ],
+  "designReference": {
+    "repositoryPath": "assets/monsters/arcane/sm-arcane-019/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "gitBlobSha": "37cda890a00249ab7a41eca580882f14b92e8ebb",
+    "bytes": 780605,
+    "sha256": "a02c27371b0ac727b34db226a9b8babed20cb3603f0708b0dfe04081fcacec84"
+  },
+  "processing": {
+    "newNormal": "Built-in image generation, fixed1024/1254 isotropic LANCZOS normalization, alpha1 exterior-dot cleanup outside protected body rectangle, whole-canvas integer anchor alignment only. No part painting.",
+    "newPixel": "Direct derivative from final accepted same-phase normal. Fixed1/8 BOX whole-canvas resize, alpha>=128 binarization, frozen common32color MEDIANCUT palette and no dither. No pixel image-generation call or per-frame fit.",
+    "sharedPaletteTraining": "Visible downsampled colors of accepted normal phases01 and02; same frozen palette applied to all4frames.",
+    "newNormalSlots": 4,
+    "directPixelDerivativeSlots": 4,
+    "newPixelImagegenCallsForSelectedAssets": 0,
+    "verifiedStillReuseSlots": 0,
+    "normalWholeFrameTranslationY": [
+      -2,
+      1,
+      4,
+      -2
+    ],
+    "normalPivot": [
+      512,
+      928
+    ],
+    "pixelPivot": [
+      64,
+      116
+    ]
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_SEQUENCE_PASS",
+    "scope": "S four-phase normal and direct-pixel two-leg cycle only",
+    "individualFrames": "Independent technical and static same-phase visual pair checks passed with caveats.",
+    "sequenceReview": "All adjacent transitions including04to01 reviewed independently in common-coordinate static rows; body/window/two legs and alternating support retained. Prior generated-pixel body-proportion inconsistency resolved by direct derivation.",
+    "animationData": "Both local diagnostic APNGs decoded to4exact source RGBA frames at200ms each,800ms total,loop0. Not part of9path payload.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "residualCaveats": [
+      "Normal swing lift is asymmetric: phase01 about6px, phase03 about20px; stated6px target not uniformly met.",
+      "Normal rigid outlines and body top vary by several pixels across frames; subtle window shading variation remains.",
+      "Phase04normal soles differ2pixels; both round to pixel ground116.",
+      "Pixel1px contour rounding, thin-edge simplification and dark foot-surface simplification remain.",
+      "Static sequence review and exact animation-data readback do not prove perceived continuous-playback smoothness or runtime behavior."
+    ]
+  }
+}

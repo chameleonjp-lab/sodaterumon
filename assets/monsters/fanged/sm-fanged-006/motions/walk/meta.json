@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-fanged-006",
+  "nameJa": "トワリメル",
+  "motion": "walk",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 4,
+  "frameDurationMs": 160,
+  "cycleMs": 640,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "laterality": "Anatomical left/right; screen sides reverse in the nominal S front view. The blue stripe remains on image right without mirroring.",
+  "sharedPixelPalette": [
+    [
+      20,
+      37,
+      56
+    ],
+    [
+      32,
+      53,
+      75
+    ],
+    [
+      54,
+      68,
+      85
+    ],
+    [
+      67,
+      91,
+      98
+    ],
+    [
+      79,
+      138,
+      195
+    ],
+    [
+      91,
+      118,
+      114
+    ],
+    [
+      92,
+      123,
+      140
+    ],
+    [
+      96,
+      98,
+      101
+    ],
+    [
+      97,
+      149,
+      199
+    ],
+    [
+      100,
+      154,
+      119
+    ],
+    [
+      115,
+      152,
+      182
+    ],
+    [
+      116,
+      170,
+      217
+    ],
+    [
+      120,
+      121,
+      119
+    ],
+    [
+      121,
+      147,
+      137
+    ],
+    [
+      123,
+      174,
+      137
+    ],
+    [
+      144,
+      143,
+      139
+    ],
+    [
+      146,
+      184,
+      218
+    ],
+    [
+      148,
+      159,
+      168
+    ],
+    [
+      148,
+      198,
+      159
+    ],
+    [
+      166,
+      200,
+      172
+    ],
+    [
+      169,
+      165,
+      160
+    ],
+    [
+      177,
+      179,
+      175
+    ],
+    [
+      177,
+      217,
+      184
+    ],
+    [
+      194,
+      199,
+      202
+    ],
+    [
+      201,
+      182,
+      171
+    ],
+    [
+      207,
+      240,
+      204
+    ],
+    [
+      226,
+      206,
+      189
+    ],
+    [
+      229,
+      231,
+      220
+    ],
+    [
+      229,
+      253,
+      222
+    ],
+    [
+      249,
+      228,
+      212
+    ],
+    [
+      253,
+      255,
+      249
+    ],
+    [
+      255,
+      246,
+      227
+    ]
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 160,
+      "phaseDescriptionJa": "左足（画面右）で支持し、右足（画面左）を持ち上げて送る。",
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "bytes": 357114,
+          "sha256": "b7ac9e567c931ca86c80d2024beff2750229dcdcf39c87b3eb40e90cf4e7aa7f",
+          "sourceKind": "generated_same_identity_phase",
+          "generationReferenceSha256": "1ad4e95b80b31ae3e6f206aa04d8a696fbcf022e856b0a0d1a5e1ec7e261084e"
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "bytes": 2851,
+          "sha256": "78b63b46d53c0fa7ed7d0e43471e5291fb6d4f8e17196785fdc1c5643bdee744",
+          "sourceKind": "generated_same_identity_phase",
+          "parentNormalSha256": "b7ac9e567c931ca86c80d2024beff2750229dcdcf39c87b3eb40e90cf4e7aa7f",
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified",
+          "soleFinalNormalGenerationVerified": true
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 160,
+      "phaseDescriptionJa": "左足（画面右）で支持し、右足（画面左）を内側へ通過させ、胴を上げる。",
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "bytes": 366139,
+          "sha256": "2a6d7ead0f92fdb122d229e2a0fef2be895bce020b86c95260786709d58f041a",
+          "sourceKind": "generated_same_identity_phase",
+          "generationReferenceSha256": "b7ac9e567c931ca86c80d2024beff2750229dcdcf39c87b3eb40e90cf4e7aa7f"
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "bytes": 2929,
+          "sha256": "0301d7fbbbaf3714164ce3c8c8732590e7e74258936a6fc33075665fd8bcbf38",
+          "sourceKind": "generated_same_identity_phase",
+          "parentNormalSha256": "2a6d7ead0f92fdb122d229e2a0fef2be895bce020b86c95260786709d58f041a",
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified",
+          "soleFinalNormalGenerationVerified": true
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 160,
+      "phaseDescriptionJa": "右足（画面左）へ支持を交替し、左足（画面右）を持ち上げて送る。",
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "bytes": 359370,
+          "sha256": "780f9d19ae3e0f055dd5729ee9e0257988e1438144324edda8fef348a77b8248",
+          "sourceKind": "generated_same_identity_phase",
+          "generationReferenceSha256": "1ad4e95b80b31ae3e6f206aa04d8a696fbcf022e856b0a0d1a5e1ec7e261084e"
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "bytes": 3039,
+          "sha256": "4ae3a43b479796a6414139e8a723d1362f63481891f1bc86cd0427c30e93812c",
+          "sourceKind": "generated_same_identity_phase",
+          "parentNormalSha256": "780f9d19ae3e0f055dd5729ee9e0257988e1438144324edda8fef348a77b8248",
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified",
+          "soleFinalNormalGenerationVerified": true
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 160,
+      "phaseDescriptionJa": "右足（画面左）で支持し、左足（画面右）を内側へ通過させ、次の左支持へつなぐ。",
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "bytes": 363969,
+          "sha256": "88b64fae8175ec5c56bd82f8ea41ecb6a3ea9c5199482ca1f6800a865622d207",
+          "sourceKind": "generated_same_identity_phase",
+          "generationReferenceSha256": "780f9d19ae3e0f055dd5729ee9e0257988e1438144324edda8fef348a77b8248"
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "bytes": 2538,
+          "sha256": "5d99b459648d719513e689c8ee3dae593d38c4794aac95a3e5d9aec703d84b1d",
+          "sourceKind": "generated_same_identity_phase",
+          "parentNormalSha256": "88b64fae8175ec5c56bd82f8ea41ecb6a3ea9c5199482ca1f6800a865622d207",
+          "parentNormalReferenceEvidence": "actual_same_phase_imagegen_input_bytes_verified",
+          "soleFinalNormalGenerationVerified": true
+        }
+      }
+    }
+  ],
+  "designReference": {
+    "repositoryPath": "assets/monsters/fanged/sm-fanged-006/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "gitBlobSha": "2ffc45955ea4ad28f128d0855dd7a2fd4ca4f679",
+    "bytes": 318420,
+    "sha256": "1ad4e95b80b31ae3e6f206aa04d8a696fbcf022e856b0a0d1a5e1ec7e261084e"
+  },
+  "processing": {
+    "normal": "Built-in generation followed by fixed 1024/1254 isotropic premultiplied BICUBIC normalization. Only detached exterior components with alpha <= 2 were removed; no part repainting or per-frame fitting.",
+    "pixel": "Only the accepted same-phase normal was supplied to built-in generation. Fixed 128/1254 nearest sampling, alpha >= 128 binarization and nearest shared 32-color mapping without dithering. Uniform whole-frame Y shifts: 01 -3, 02 -3, 03 -2, 04 -3 pixels; zero clipping and exact inverse RGBA checks.",
+    "paletteReference": {
+      "repositoryPath": "assets/monsters/fanged/sm-fanged-006/directions/S/pixel.png",
+      "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+      "sha256": "74e0bde0f7ac18f4a5cc5d2c0665abf9d33f94c3e63b41bd497eb4baa90992e6",
+      "use": "Finishing palette only; not a generation reference and not reused as an animation frame."
+    },
+    "reuseFrames": [],
+    "directNormalToPixel": false
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_SEQUENCE_PASS",
+    "scope": "S four-phase alternating support and passing cycle",
+    "individualFrames": "Technical and independent visual pair checks passed with the stated limitations.",
+    "sequenceReview": "All adjacent connections including 04 to 01 were independently inspected as static common-coordinate normal and native 128-pixel sequences. Alternating support, passing poses, identity and body rise are readable. No clear body or eye scale discontinuity was seen after the bounded phase04 pixel repair.",
+    "animationData": "Both diagnostic APNGs decode to four exact source RGBA frames, 160ms each, 640ms total, loop 0. APNGs are local diagnostics outside this nine-file payload.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "neckLag": "Independent secondary neck-lag behavior has not been established.",
+    "residualCaveats": [
+      "Phase01 planned foot lift 20 normal pixels was exceeded by the actual 39. Phase03 targeted the achieved opposite amplitude 39 and reached 42. Planned values have not been retrospectively changed.",
+      "Passing body-rise target was 4 normal pixels. Phase02 head top rose 16 and central protrusion 10; phase04 head top rose 18 and central protrusion 17. These are not exact rigid 4-pixel translations.",
+      "Pixel03 support-to-swing sole separation is 8 pixels versus 5 in the same-normal 128 diagnostic, a 3-pixel swing amplification rather than assumed quantization.",
+      "From phase03 to phase04, the pixel right-foot bottom moves down 1 pixel (108 to 109), while the normal diagnostic moves up 1 (110 to 109). The foot moves inward and remains lifted, but its vertical path is not identical.",
+      "Small pixel silhouette and registration differences remain. Phase04 support is 1 pixel lower than its normal diagnostic, while the passing foot and central protrusion bottom agree.",
+      "Face color areas, small tooth, eye reflections, shading, neck and stripe simplification, and foot contours vary among pixel frames.",
+      "The small central underside protrusion has unidentified anatomy. Its shape and torso-relative placement are retained; it is not declared an additional supporting leg.",
+      "Root depth, exact forward stride, world displacement and collision synchronization are not established by this S-view sequence.",
+      "Static sequence inspection and exact animation-byte readback do not establish continuous perceived smoothness or runtime behavior."
+    ]
+  }
+}
