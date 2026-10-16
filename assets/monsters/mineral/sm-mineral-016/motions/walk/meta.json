@@ -5,7 +5,9 @@
   "motion": "walk",
   "motionType": "Three-foot sequential small-step walk",
   "directionsIncluded": [
-    "S"
+    "S",
+    "NE",
+    "N"
   ],
   "frameCountPerDirection": 6,
   "frameDurationMs": 160,
@@ -482,5 +484,648 @@
       "Limited ordered-still approval does not establish continuous-playback smoothness, all-eight-direction completion, or game/device acceptance."
     ],
     "preservationNote": "All originals, raw outputs, superseded candidates and failed export diagnostics are retained separately; only accepted source files were copied into this set."
+  },
+  "legacyTopLevelDirection": "S",
+  "directionSequences": {
+    "NE": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "swingFootProjected": "centerForeground",
+          "assets": {
+            "normal": {
+              "path": "NE/01/default.png",
+              "sha256": "1df90381e9278f566a6c3134123ffd1f48960e615606b668e2b1c65dafd656a3",
+              "bytes": 807470,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NE/01/pixel.png",
+              "sha256": "e230e742472012838a1a497b13e0144acbb0075fabbeaaeee584127ac9eda998",
+              "bytes": 9941,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "1df90381e9278f566a6c3134123ffd1f48960e615606b668e2b1c65dafd656a3",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "NE/02/default.png",
+              "sha256": "dfafc281cf997f53d383c379631a4ea26152c85588d8407c6d2190015edd4271",
+              "bytes": 896876,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NE/02/pixel.png",
+              "sha256": "f224a5ddadf79bf70287bc59c96c02d384231e7cf3663d2fe9ca6c9d7e12c2ce",
+              "bytes": 10872,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "dfafc281cf997f53d383c379631a4ea26152c85588d8407c6d2190015edd4271",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "swingFootProjected": "screenRight",
+          "assets": {
+            "normal": {
+              "path": "NE/03/default.png",
+              "sha256": "33beb2df6e45fe0bc3ab48badfd666536be31efc4e867cc307ee2a53644a2790",
+              "bytes": 819313,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NE/03/pixel.png",
+              "sha256": "aed97c0d15ddaacad53b750ef4e2ce9b8bee19cdd0e15519a571c0c66a68c856",
+              "bytes": 9698,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "33beb2df6e45fe0bc3ab48badfd666536be31efc4e867cc307ee2a53644a2790",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "NE/04/default.png",
+              "sha256": "dfafc281cf997f53d383c379631a4ea26152c85588d8407c6d2190015edd4271",
+              "bytes": 896876,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NE/04/pixel.png",
+              "sha256": "f224a5ddadf79bf70287bc59c96c02d384231e7cf3663d2fe9ca6c9d7e12c2ce",
+              "bytes": 10872,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "dfafc281cf997f53d383c379631a4ea26152c85588d8407c6d2190015edd4271",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "swingFootProjected": "screenLeft",
+          "assets": {
+            "normal": {
+              "path": "NE/05/default.png",
+              "sha256": "05a5942c688b8fd93fdf8151a34cbca98e36ad8fe47bc77a7940f6c28be6f861",
+              "bytes": 818420,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NE/05/pixel.png",
+              "sha256": "92a2c716942a312cab301d62564f3e5cb05e6c4728bbdbbefdd4361e8fe8f41c",
+              "bytes": 9449,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "05a5942c688b8fd93fdf8151a34cbca98e36ad8fe47bc77a7940f6c28be6f861",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "NE/06/default.png",
+              "sha256": "dfafc281cf997f53d383c379631a4ea26152c85588d8407c6d2190015edd4271",
+              "bytes": 896876,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NE/06/pixel.png",
+              "sha256": "f224a5ddadf79bf70287bc59c96c02d384231e7cf3663d2fe9ca6c9d7e12c2ce",
+              "bytes": 10872,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "dfafc281cf997f53d383c379631a4ea26152c85588d8407c6d2190015edd4271",
+              "visibleColors": 32
+            }
+          }
+        }
+      ],
+      "designReference": {
+        "repositoryPath": "assets/monsters/mineral/sm-mineral-016/directions/NE/default.png",
+        "commit": "1cf08dd9c4b0b23bbd77b7e17d01ac8b9b4eae24",
+        "sha256": "dfafc281cf997f53d383c379631a4ea26152c85588d8407c6d2190015edd4271"
+      },
+      "sharedPixelPalette": [
+        [
+          242,
+          181,
+          143
+        ],
+        [
+          239,
+          172,
+          133
+        ],
+        [
+          239,
+          162,
+          119
+        ],
+        [
+          225,
+          154,
+          117
+        ],
+        [
+          235,
+          145,
+          97
+        ],
+        [
+          232,
+          144,
+          98
+        ],
+        [
+          229,
+          144,
+          100
+        ],
+        [
+          216,
+          145,
+          110
+        ],
+        [
+          231,
+          139,
+          92
+        ],
+        [
+          225,
+          138,
+          94
+        ],
+        [
+          225,
+          133,
+          88
+        ],
+        [
+          219,
+          131,
+          89
+        ],
+        [
+          213,
+          135,
+          98
+        ],
+        [
+          213,
+          126,
+          87
+        ],
+        [
+          206,
+          133,
+          100
+        ],
+        [
+          203,
+          125,
+          91
+        ],
+        [
+          207,
+          119,
+          82
+        ],
+        [
+          196,
+          119,
+          87
+        ],
+        [
+          198,
+          113,
+          78
+        ],
+        [
+          194,
+          106,
+          71
+        ],
+        [
+          184,
+          111,
+          81
+        ],
+        [
+          182,
+          101,
+          70
+        ],
+        [
+          172,
+          100,
+          72
+        ],
+        [
+          167,
+          95,
+          68
+        ],
+        [
+          166,
+          91,
+          64
+        ],
+        [
+          161,
+          89,
+          64
+        ],
+        [
+          157,
+          87,
+          63
+        ],
+        [
+          145,
+          81,
+          60
+        ],
+        [
+          136,
+          69,
+          49
+        ],
+        [
+          126,
+          56,
+          37
+        ],
+        [
+          93,
+          50,
+          37
+        ],
+        [
+          70,
+          29,
+          19
+        ]
+      ],
+      "normalization": {
+        "normal": "whole1254->1024 LANCZOS; remove only disconnected alpha<=2 exterior dots; translation0",
+        "pixel": "whole max-edge transparent pad ->128 NEAREST, fixed palette, binary alpha; translation0",
+        "perFrameBodyFit": false
+      },
+      "reuseAccounting": {
+        "logicalImageSlots": 12,
+        "newGeneratedAdoptedSlots": 7,
+        "verifiedReuseSlots": 5
+      },
+      "qa": {
+        "status": "LIMITED_OFFLINE_STATIC_CYCLE_PASS",
+        "scope": "NE six-phase normal/pixel ordered still sequence 01-02-03-04-05-06-01",
+        "continuousPlaybackVisualReview": "not performed",
+        "gameRuntime": "not tested",
+        "crossDirectionPhaseCorrespondence": "not verified; projected foot order is a working mapping, not an anatomical guarantee",
+        "residualCaveats": [
+          "Neutral pixel02/04/06 appears darker than recovery frames; grain and hole detail vary.",
+          "Pixel01 width108 versus106 in other adopted frames; pixel03 crown1px higher.",
+          "Normals have fine texture redraw differences; source contact poses are exact-byte reused.",
+          "Static closure is not dynamic smoothness or all-eight-direction completion."
+        ]
+      }
+    },
+    "N": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "swingFootProjected": "centerFar",
+          "assets": {
+            "normal": {
+              "path": "N/01/default.png",
+              "sha256": "d12a3fd2ce1da4f2dba2aa39b2d638c6327214e5faeb988540bcd8e25e96d665",
+              "bytes": 834726,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "N/01/pixel.png",
+              "sha256": "5d280615ce6004839a5efe091ef38746024d61ea944e5fd1793e33864df52377",
+              "bytes": 9674,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "d12a3fd2ce1da4f2dba2aa39b2d638c6327214e5faeb988540bcd8e25e96d665",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "N/02/default.png",
+              "sha256": "28f80322be6d4ab6ba6063d5ce54b4f4a7185d304f15128bd8f22c785fd995ac",
+              "bytes": 888988,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "N/02/pixel.png",
+              "sha256": "8c00597ad3a7a58d8bebc422c3675f9c342a15e8c2f2738132e6f89359e0aa54",
+              "bytes": 10331,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "28f80322be6d4ab6ba6063d5ce54b4f4a7185d304f15128bd8f22c785fd995ac",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "swingFootProjected": "screenLeft",
+          "assets": {
+            "normal": {
+              "path": "N/03/default.png",
+              "sha256": "6ee34b8a7cdd25cc6eea95d855b249170e0d66206bd76091d41707aae4e71542",
+              "bytes": 785306,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "N/03/pixel.png",
+              "sha256": "63d87d294516dbbd274f6ebe9290a659607f166b43304b29f58b5f1ef6022a36",
+              "bytes": 6578,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "6ee34b8a7cdd25cc6eea95d855b249170e0d66206bd76091d41707aae4e71542",
+              "visibleColors": 26
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "N/04/default.png",
+              "sha256": "28f80322be6d4ab6ba6063d5ce54b4f4a7185d304f15128bd8f22c785fd995ac",
+              "bytes": 888988,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "N/04/pixel.png",
+              "sha256": "8c00597ad3a7a58d8bebc422c3675f9c342a15e8c2f2738132e6f89359e0aa54",
+              "bytes": 10331,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "28f80322be6d4ab6ba6063d5ce54b4f4a7185d304f15128bd8f22c785fd995ac",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "swingFootProjected": "screenRight",
+          "assets": {
+            "normal": {
+              "path": "N/05/default.png",
+              "sha256": "da3c6f503cb1ecce9d4df3f56b5d76b3e89da50fced08d5e7a82959be2bb013d",
+              "bytes": 797861,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "N/05/pixel.png",
+              "sha256": "928cb26e671cf2e976f174b4d5dc3552c914fd71095ce4cc2ec649b876027313",
+              "bytes": 9557,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "da3c6f503cb1ecce9d4df3f56b5d76b3e89da50fced08d5e7a82959be2bb013d",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "N/06/default.png",
+              "sha256": "28f80322be6d4ab6ba6063d5ce54b4f4a7185d304f15128bd8f22c785fd995ac",
+              "bytes": 888988,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "N/06/pixel.png",
+              "sha256": "8c00597ad3a7a58d8bebc422c3675f9c342a15e8c2f2738132e6f89359e0aa54",
+              "bytes": 10331,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "28f80322be6d4ab6ba6063d5ce54b4f4a7185d304f15128bd8f22c785fd995ac",
+              "visibleColors": 29
+            }
+          }
+        }
+      ],
+      "designReference": {
+        "repositoryPath": "assets/monsters/mineral/sm-mineral-016/directions/N/default.png",
+        "commit": "1cf08dd9c4b0b23bbd77b7e17d01ac8b9b4eae24",
+        "sha256": "28f80322be6d4ab6ba6063d5ce54b4f4a7185d304f15128bd8f22c785fd995ac"
+      },
+      "sharedPixelPalette": [
+        [
+          241,
+          172,
+          123
+        ],
+        [
+          237,
+          165,
+          116
+        ],
+        [
+          235,
+          161,
+          113
+        ],
+        [
+          225,
+          149,
+          105
+        ],
+        [
+          222,
+          141,
+          97
+        ],
+        [
+          220,
+          140,
+          96
+        ],
+        [
+          221,
+          138,
+          94
+        ],
+        [
+          213,
+          139,
+          99
+        ],
+        [
+          220,
+          135,
+          91
+        ],
+        [
+          218,
+          135,
+          91
+        ],
+        [
+          217,
+          133,
+          89
+        ],
+        [
+          216,
+          130,
+          86
+        ],
+        [
+          213,
+          129,
+          86
+        ],
+        [
+          192,
+          126,
+          91
+        ],
+        [
+          202,
+          118,
+          78
+        ],
+        [
+          195,
+          116,
+          79
+        ],
+        [
+          193,
+          111,
+          73
+        ],
+        [
+          191,
+          108,
+          71
+        ],
+        [
+          183,
+          115,
+          84
+        ],
+        [
+          184,
+          105,
+          70
+        ],
+        [
+          178,
+          101,
+          68
+        ],
+        [
+          169,
+          96,
+          65
+        ],
+        [
+          165,
+          92,
+          61
+        ],
+        [
+          153,
+          87,
+          62
+        ],
+        [
+          140,
+          79,
+          56
+        ],
+        [
+          127,
+          68,
+          48
+        ],
+        [
+          111,
+          60,
+          42
+        ],
+        [
+          93,
+          52,
+          37
+        ],
+        [
+          73,
+          39,
+          28
+        ],
+        [
+          173,
+          0,
+          10
+        ],
+        [
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "normalization": {
+        "normal": "whole1254->1024 LANCZOS; disconnected alpha<=2 speck cleanup",
+        "pixel": "whole max-edge transparent pad ->126 NEAREST,offset1,1,fixed palette,binary alpha; phase01 additional whole Y-1 support registration",
+        "perFrameBodyFit": false
+      },
+      "reuseAccounting": {
+        "logicalImageSlots": 12,
+        "newGeneratedAdoptedSlots": 7,
+        "verifiedReuseSlots": 5
+      },
+      "qa": {
+        "status": "LIMITED_OFFLINE_STATIC_CYCLE_PASS",
+        "scope": "N six-phase ordered still sequence 01-02-03-04-05-06-01",
+        "continuousPlaybackVisualReview": "not performed",
+        "gameRuntime": "not tested",
+        "crossDirectionPhaseCorrespondence": "not verified; projected foot order is a working mapping",
+        "residualCaveats": [
+          "Pixel03 has fewer grain specks and different shading from neutral frames.",
+          "Central far-foot recovery is subtle and partly occluded at128px.",
+          "Hole simplification and small support differences remain.",
+          "Static closure is not dynamic smoothness or all-eight-direction completion."
+        ]
+      }
+    }
   }
 }
