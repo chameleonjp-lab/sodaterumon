@@ -22,7 +22,7 @@
     128
   ],
   "pixelAlpha": "binary",
-  "status": "PARTIAL40_OWNER_REVIEW_CANDIDATES",
+  "status": "PARTIAL53_OWNER_REVIEW_CANDIDATES",
   "qualityCaveats": [
     "Review candidates, not final animation PASS",
     "Static pair/loop sheets inspected; continuous playback/runtime unverified",
@@ -34,7 +34,7 @@
     "W03pixel": "quality HOLD: planted foot compression/support mismatch",
     "N01pixel": "generation safety rejection; no retry",
     "N02-N04": "dependent production paused after safety rejection",
-    "E/SE": "not yet produced"
+    "SE02pixel/03pixel/04pixel": "quality HOLD: scale/support mismatch"
   },
   "directions": {
     "S": {
@@ -555,6 +555,175 @@
       ],
       "sourceNormalSha256": "3b4053009cecf147b02e3d5138a9d446fb38a9870b91424a727079ff694d6647",
       "reviewSlotCount": 8
+    },
+    "E": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 200,
+          "phase": "side-pair recovery",
+          "assets": {
+            "normal": {
+              "path": "E/01/default.png",
+              "sha256": "7a242976de1779fe003de72be26d136a2aa3e8bb8f0f37af7cbc85163225d4b7",
+              "bytes": 512271,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "E/01/pixel.png",
+              "sha256": "96cd2b927a615d77b5777be79593e180841cac0c75ba79e4e9a2ce589749f240",
+              "bytes": 9102,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "7a242976de1779fe003de72be26d136a2aa3e8bb8f0f37af7cbc85163225d4b7",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 200,
+          "phase": "contact",
+          "assets": {
+            "normal": {
+              "path": "E/02/default.png",
+              "sha256": "0191cdd3b6a40865225028f399deed8250781600f6dd7fc76873e4d2c26145d5",
+              "bytes": 533819,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "E/02/pixel.png",
+              "sha256": "057bd57a48af7610e9be7c4465e5285dd6685d29aa518eb189eea3523c860f7d",
+              "bytes": 8003,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "0191cdd3b6a40865225028f399deed8250781600f6dd7fc76873e4d2c26145d5",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 200,
+          "phase": "side-pair recovery",
+          "assets": {
+            "normal": {
+              "path": "E/03/default.png",
+              "sha256": "bb70a79b2312a0c905b681807282f0a93e6d16655f398ac5b35b4799eb568aa7",
+              "bytes": 513633,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "E/03/pixel.png",
+              "sha256": "c487e6e7df8947da2176ede85a47d14846f4e5d2fad67a969d46c09d40e17046",
+              "bytes": 7601,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "bb70a79b2312a0c905b681807282f0a93e6d16655f398ac5b35b4799eb568aa7",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 200,
+          "phase": "contact",
+          "assets": {
+            "normal": {
+              "path": "E/04/default.png",
+              "sha256": "0191cdd3b6a40865225028f399deed8250781600f6dd7fc76873e4d2c26145d5",
+              "bytes": 533819,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "E/04/pixel.png",
+              "sha256": "057bd57a48af7610e9be7c4465e5285dd6685d29aa518eb189eea3523c860f7d",
+              "bytes": 8003,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "0191cdd3b6a40865225028f399deed8250781600f6dd7fc76873e4d2c26145d5",
+              "visibleColors": 32
+            }
+          }
+        }
+      ],
+      "sourceNormalSha256": "0191cdd3b6a40865225028f399deed8250781600f6dd7fc76873e4d2c26145d5",
+      "reviewSlotCount": 8
+    },
+    "SE": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 200,
+          "phase": "side-pair recovery",
+          "assets": {
+            "normal": {
+              "path": "SE/01/default.png",
+              "sha256": "b7f88d46da913bbb32f3be598773738e72753310fc60e2d53810fd7a8e1bc9f6",
+              "bytes": 600734,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "SE/01/pixel.png",
+              "sha256": "9c9d31e4fd85902cc12e84c352e8c0c8efed1e1e676772cb689c22a52c0be196",
+              "bytes": 9409,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "b7f88d46da913bbb32f3be598773738e72753310fc60e2d53810fd7a8e1bc9f6",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 200,
+          "phase": "contact",
+          "assets": {
+            "normal": {
+              "path": "SE/02/default.png",
+              "sha256": "5b002c607e2aee09ce84530e4844608b285cf150d458bd0eea35940865cc0bc7",
+              "bytes": 643575,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE"
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 200,
+          "phase": "side-pair recovery",
+          "assets": {
+            "normal": {
+              "path": "SE/03/default.png",
+              "sha256": "5c54ff1bb2bac8634a6cbd353cc9c3942363e48f743b331f9b52e99e8dfeda66",
+              "bytes": 609951,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE"
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 200,
+          "phase": "contact",
+          "assets": {
+            "normal": {
+              "path": "SE/04/default.png",
+              "sha256": "5b002c607e2aee09ce84530e4844608b285cf150d458bd0eea35940865cc0bc7",
+              "bytes": 643575,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE"
+            }
+          }
+        }
+      ],
+      "sourceNormalSha256": "5b002c607e2aee09ce84530e4844608b285cf150d458bd0eea35940865cc0bc7",
+      "reviewSlotCount": 5
     }
   },
   "frames": [
