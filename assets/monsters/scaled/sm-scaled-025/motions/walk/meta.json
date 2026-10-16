@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-scaled-025",
+  "nameJa": "メヨツパラ",
+  "motion": "walk",
+  "frameCountPerDirection": 4,
+  "frameDurationMs": 200,
+  "cycleMs": 800,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "pixelAlpha": "binary",
+  "status": "PARTIAL8_OWNER_REVIEW_CANDIDATES",
+  "directions": {
+    "S": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 200,
+          "phase": "diagonal-pair recovery",
+          "assets": {
+            "normal": {
+              "path": "S/01/default.png",
+              "sha256": "1c4b6cfa624370ed485527dd4005b1281ebe3e102c89546f58c760fea5489ff1",
+              "bytes": 643961,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "S/01/pixel.png",
+              "sha256": "893b159a0faf9c073557f575f1452f81c5295df9430454f2b2f1d5caee8318c3",
+              "bytes": 10997,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "1c4b6cfa624370ed485527dd4005b1281ebe3e102c89546f58c760fea5489ff1",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 200,
+          "phase": "contact",
+          "assets": {
+            "normal": {
+              "path": "S/02/default.png",
+              "sha256": "7031fa5bd43a88e14806f0f749d7d5b998e511bd058845adc04b961497096e29",
+              "bytes": 665011,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "S/02/pixel.png",
+              "sha256": "14b1c02f61057febca54beba6728c7e2c0fba6c8837f9309832514e7b7035d05",
+              "bytes": 10920,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "7031fa5bd43a88e14806f0f749d7d5b998e511bd058845adc04b961497096e29",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 200,
+          "phase": "diagonal-pair recovery",
+          "assets": {
+            "normal": {
+              "path": "S/03/default.png",
+              "sha256": "6a26ae17c0602dd4e840d488fed2d02eb95184e498511ffdf8481472100b86c8",
+              "bytes": 675103,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "S/03/pixel.png",
+              "sha256": "f5944f7bc490d3ffdfc059d207d19077449d4b266f9d0d7e0681fda1d093094a",
+              "bytes": 10882,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "6a26ae17c0602dd4e840d488fed2d02eb95184e498511ffdf8481472100b86c8",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 200,
+          "phase": "contact",
+          "assets": {
+            "normal": {
+              "path": "S/04/default.png",
+              "sha256": "7031fa5bd43a88e14806f0f749d7d5b998e511bd058845adc04b961497096e29",
+              "bytes": 665011,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "S/04/pixel.png",
+              "sha256": "14b1c02f61057febca54beba6728c7e2c0fba6c8837f9309832514e7b7035d05",
+              "bytes": 10920,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "7031fa5bd43a88e14806f0f749d7d5b998e511bd058845adc04b961497096e29",
+              "visibleColors": 30
+            }
+          }
+        }
+      ],
+      "sourceNormalSha256": "7031fa5bd43a88e14806f0f749d7d5b998e511bd058845adc04b961497096e29",
+      "reviewSlotCount": 8
+    }
+  },
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 200,
+      "phase": "diagonal-pair recovery",
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "sha256": "1c4b6cfa624370ed485527dd4005b1281ebe3e102c89546f58c760fea5489ff1",
+          "bytes": 643961,
+          "sourceKind": "new_generation",
+          "status": "REVIEW_CANDIDATE"
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "sha256": "893b159a0faf9c073557f575f1452f81c5295df9430454f2b2f1d5caee8318c3",
+          "bytes": 10997,
+          "sourceKind": "new_generation",
+          "status": "REVIEW_CANDIDATE",
+          "parentNormalSha256": "1c4b6cfa624370ed485527dd4005b1281ebe3e102c89546f58c760fea5489ff1",
+          "visibleColors": 30
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 200,
+      "phase": "contact",
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "sha256": "7031fa5bd43a88e14806f0f749d7d5b998e511bd058845adc04b961497096e29",
+          "bytes": 665011,
+          "sourceKind": "verified_reuse",
+          "status": "REVIEW_CANDIDATE"
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "sha256": "14b1c02f61057febca54beba6728c7e2c0fba6c8837f9309832514e7b7035d05",
+          "bytes": 10920,
+          "sourceKind": "new_generation",
+          "status": "REVIEW_CANDIDATE",
+          "parentNormalSha256": "7031fa5bd43a88e14806f0f749d7d5b998e511bd058845adc04b961497096e29",
+          "visibleColors": 30
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 200,
+      "phase": "diagonal-pair recovery",
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "sha256": "6a26ae17c0602dd4e840d488fed2d02eb95184e498511ffdf8481472100b86c8",
+          "bytes": 675103,
+          "sourceKind": "new_generation",
+          "status": "REVIEW_CANDIDATE"
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "sha256": "f5944f7bc490d3ffdfc059d207d19077449d4b266f9d0d7e0681fda1d093094a",
+          "bytes": 10882,
+          "sourceKind": "new_generation",
+          "status": "REVIEW_CANDIDATE",
+          "parentNormalSha256": "6a26ae17c0602dd4e840d488fed2d02eb95184e498511ffdf8481472100b86c8",
+          "visibleColors": 31
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 200,
+      "phase": "contact",
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "sha256": "7031fa5bd43a88e14806f0f749d7d5b998e511bd058845adc04b961497096e29",
+          "bytes": 665011,
+          "sourceKind": "verified_reuse",
+          "status": "REVIEW_CANDIDATE"
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "sha256": "14b1c02f61057febca54beba6728c7e2c0fba6c8837f9309832514e7b7035d05",
+          "bytes": 10920,
+          "sourceKind": "verified_reuse",
+          "status": "REVIEW_CANDIDATE",
+          "parentNormalSha256": "7031fa5bd43a88e14806f0f749d7d5b998e511bd058845adc04b961497096e29",
+          "visibleColors": 30
+        }
+      }
+    }
+  ],
+  "missingDirections": [
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "qualityCaveats": [
+    "Static pair/loop sheets inspected; review candidates not final animation PASS",
+    "Continuous playback/runtime and cross-direction synchronization unverified",
+    "Four eyes in2x2 grid, four broad feet, rigid shallow dish and smooth blue dorsal oval retained",
+    "Diagonal recovery/contact readable; phase03 rear foot rotates outward and limb spread wider",
+    "Pixel scale clusters/eye highlights/oval shading vary; support projections differ about1-2px",
+    "Common pixel124+(2,1) and palette across all phases; same-normal sole references; contact02 source normal and04 exact02pair reuse; actual load transfer not measured"
+  ]
+}
