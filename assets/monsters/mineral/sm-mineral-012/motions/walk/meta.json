@@ -22,7 +22,7 @@
     128
   ],
   "pixelAlpha": "binary",
-  "status": "PARTIAL54_OWNER_REVIEW_CANDIDATES",
+  "status": "PARTIAL56_OWNER_REVIEW_CANDIDATES",
   "qualityCaveats": [
     "Review candidates, not final animation PASS",
     "Static pair/loop sheets inspected; continuous playback/runtime unverified",
@@ -33,7 +33,7 @@
   "missing": {
     "N01pixel": "generation safety rejection; no retry",
     "N02-N04": "dependent production paused after safety rejection",
-    "SE02pixel/03pixel/04pixel": "quality HOLD: scale/support mismatch"
+    "SE03pixel": "quality HOLD: scale/support mismatch"
   },
   "directions": {
     "S": {
@@ -698,6 +698,15 @@
               "bytes": 643575,
               "sourceKind": "verified_reuse",
               "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "SE/02/pixel.png",
+              "sha256": "17acbf61b0d36216ecab4ad76ca3a2988eb81fc09c8946fc9c10dd893e1ecca5",
+              "bytes": 9110,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "5b002c607e2aee09ce84530e4844608b285cf150d458bd0eea35940865cc0bc7",
+              "visibleColors": 30
             }
           }
         },
@@ -726,12 +735,21 @@
               "bytes": 643575,
               "sourceKind": "verified_reuse",
               "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "SE/04/pixel.png",
+              "sha256": "17acbf61b0d36216ecab4ad76ca3a2988eb81fc09c8946fc9c10dd893e1ecca5",
+              "bytes": 9110,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "5b002c607e2aee09ce84530e4844608b285cf150d458bd0eea35940865cc0bc7",
+              "visibleColors": 30
             }
           }
         }
       ],
       "sourceNormalSha256": "5b002c607e2aee09ce84530e4844608b285cf150d458bd0eea35940865cc0bc7",
-      "reviewSlotCount": 5
+      "reviewSlotCount": 7
     }
   },
   "frames": [
