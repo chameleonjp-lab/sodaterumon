@@ -7,7 +7,12 @@
   "directionsIncluded": [
     "S",
     "NE",
-    "N"
+    "N",
+    "NW",
+    "SW",
+    "W",
+    "SE",
+    "E"
   ],
   "frameCountPerDirection": 6,
   "frameDurationMs": 160,
@@ -1124,6 +1129,1606 @@
           "Central far-foot recovery is subtle and partly occluded at128px.",
           "Hole simplification and small support differences remain.",
           "Static closure is not dynamic smoothness or all-eight-direction completion."
+        ]
+      }
+    },
+    "NW": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "swingFootProjected": "screenLeft",
+          "assets": {
+            "normal": {
+              "path": "NW/01/default.png",
+              "sha256": "cd380a48f72904e89cac7f0a050adff9668751aaac59d958c78828657a1a97ee",
+              "bytes": 798159,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NW/01/pixel.png",
+              "sha256": "0004a83102cf7f0d7e8aef1a346af096bbace77a98a36a7887f1738095c0e8d3",
+              "bytes": 10124,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "cd380a48f72904e89cac7f0a050adff9668751aaac59d958c78828657a1a97ee",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "NW/02/default.png",
+              "sha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96",
+              "bytes": 876686,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NW/02/pixel.png",
+              "sha256": "3744a6abb3891ac18e06bb61cb9282f8029fa812fab9f4502a9d517554ce3a34",
+              "bytes": 11600,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "swingFootProjected": "centerForeground",
+          "assets": {
+            "normal": {
+              "path": "NW/03/default.png",
+              "sha256": "345fd3d17f10e775a579b41d54894a8f73af784530349f2f53a1ffdeafc0cac2",
+              "bytes": 800326,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NW/03/pixel.png",
+              "sha256": "94b801db120010e8d5cff16b9ee5ba2cd367dbfbc826256a8e85f6a78ce38998",
+              "bytes": 6600,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "345fd3d17f10e775a579b41d54894a8f73af784530349f2f53a1ffdeafc0cac2",
+              "visibleColors": 27
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "NW/04/default.png",
+              "sha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96",
+              "bytes": 876686,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NW/04/pixel.png",
+              "sha256": "3744a6abb3891ac18e06bb61cb9282f8029fa812fab9f4502a9d517554ce3a34",
+              "bytes": 11600,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "swingFootProjected": "screenRight",
+          "assets": {
+            "normal": {
+              "path": "NW/05/default.png",
+              "sha256": "c17f336df448694a7c774db88ecebffcc8d48c8ad5f04d35368062efeef474c3",
+              "bytes": 803803,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NW/05/pixel.png",
+              "sha256": "6f3e905eaf4a8b528d3e3a7cf859cacc06adc1afef1051648adad8db0583b81f",
+              "bytes": 6582,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "c17f336df448694a7c774db88ecebffcc8d48c8ad5f04d35368062efeef474c3",
+              "visibleColors": 25
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "NW/06/default.png",
+              "sha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96",
+              "bytes": 876686,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NW/06/pixel.png",
+              "sha256": "3744a6abb3891ac18e06bb61cb9282f8029fa812fab9f4502a9d517554ce3a34",
+              "bytes": 11600,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96",
+              "visibleColors": 29
+            }
+          }
+        }
+      ],
+      "designReference": {
+        "repositoryPath": "assets/monsters/mineral/sm-mineral-016/directions/NW/default.png",
+        "commit": "1cf08dd9c4b0b23bbd77b7e17d01ac8b9b4eae24",
+        "sha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96"
+      },
+      "sharedPixelPalette": [
+        [
+          242,
+          185,
+          147
+        ],
+        [
+          235,
+          174,
+          136
+        ],
+        [
+          236,
+          165,
+          121
+        ],
+        [
+          224,
+          165,
+          131
+        ],
+        [
+          232,
+          157,
+          113
+        ],
+        [
+          229,
+          150,
+          105
+        ],
+        [
+          218,
+          155,
+          120
+        ],
+        [
+          219,
+          148,
+          109
+        ],
+        [
+          225,
+          142,
+          98
+        ],
+        [
+          220,
+          141,
+          99
+        ],
+        [
+          218,
+          133,
+          90
+        ],
+        [
+          211,
+          135,
+          96
+        ],
+        [
+          211,
+          127,
+          86
+        ],
+        [
+          195,
+          133,
+          101
+        ],
+        [
+          207,
+          122,
+          81
+        ],
+        [
+          199,
+          120,
+          82
+        ],
+        [
+          196,
+          114,
+          76
+        ],
+        [
+          191,
+          109,
+          72
+        ],
+        [
+          178,
+          117,
+          89
+        ],
+        [
+          177,
+          108,
+          77
+        ],
+        [
+          176,
+          103,
+          70
+        ],
+        [
+          173,
+          97,
+          64
+        ],
+        [
+          160,
+          96,
+          68
+        ],
+        [
+          163,
+          92,
+          61
+        ],
+        [
+          158,
+          86,
+          58
+        ],
+        [
+          147,
+          86,
+          62
+        ],
+        [
+          135,
+          81,
+          57
+        ],
+        [
+          122,
+          66,
+          43
+        ],
+        [
+          88,
+          49,
+          32
+        ],
+        [
+          232,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          127
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "normalization": {
+        "normal": "whole1254->1024 LANCZOS; disconnected alpha<=2 speck cleanup",
+        "pixel": "whole max-edge transparent pad ->124 NEAREST,offset2,1,fixed palette,binary alpha; phase01 additional whole Y+2; phase03/05 whole Y+1 support registration",
+        "perFrameBodyFit": false
+      },
+      "reuseAccounting": {
+        "logicalImageSlots": 12,
+        "newGeneratedAdoptedSlots": 7,
+        "verifiedReuseSlots": 5
+      },
+      "qa": {
+        "status": "LIMITED_OFFLINE_STATIC_CYCLE_PASS",
+        "scope": "NW six-phase ordered still sequence 01-02-03-04-05-06-01",
+        "continuousPlaybackVisualReview": "not performed",
+        "gameRuntime": "not tested",
+        "crossDirectionPhaseCorrespondence": "not verified; projected foot order is a working mapping",
+        "residualCaveats": [
+          "Pixel03 and05 have fewer grain specks and different shading from neutral frames.",
+          "Recovery support differences and hole simplification remain at128px.",
+          "Hole simplification and small support differences remain.",
+          "Static closure is not dynamic smoothness or all-eight-direction completion."
+        ]
+      }
+    },
+    "SW": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "swingFootProjected": "centerForeground",
+          "assets": {
+            "normal": {
+              "path": "SW/01/default.png",
+              "sha256": "756f9af5d8ad84bcc8654a0577c1bd761eb583fc149fe12eeb17c230b581482b",
+              "bytes": 795267,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SW/01/pixel.png",
+              "sha256": "c89e8d78be58b03f0cc3cab97ff400a50694f8481f8dead00c0f8471983daed7",
+              "bytes": 10695,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "756f9af5d8ad84bcc8654a0577c1bd761eb583fc149fe12eeb17c230b581482b",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "SW/02/default.png",
+              "sha256": "5bc704588141dae79c7e2339eb037a5d5c94f27c10e2d132e92c6af6e3c06f52",
+              "bytes": 901782,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SW/02/pixel.png",
+              "sha256": "7c96ccf176332bdcc84c188e4b4258e098b701b55e071e6cbd2d38f930a85fb6",
+              "bytes": 6750,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "5bc704588141dae79c7e2339eb037a5d5c94f27c10e2d132e92c6af6e3c06f52",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "swingFootProjected": "screenLeft",
+          "assets": {
+            "normal": {
+              "path": "SW/03/default.png",
+              "sha256": "6d6158caa6dc10ff082ddcd02e559495e6c1f44cb96ede77a432e34814611491",
+              "bytes": 831939,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SW/03/pixel.png",
+              "sha256": "3bd411a47dfb7c99b563fbdefe4fd3da2685ce0b6615b882e86a1e3e822eda5a",
+              "bytes": 7216,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "6d6158caa6dc10ff082ddcd02e559495e6c1f44cb96ede77a432e34814611491",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "SW/04/default.png",
+              "sha256": "5bc704588141dae79c7e2339eb037a5d5c94f27c10e2d132e92c6af6e3c06f52",
+              "bytes": 901782,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SW/04/pixel.png",
+              "sha256": "7c96ccf176332bdcc84c188e4b4258e098b701b55e071e6cbd2d38f930a85fb6",
+              "bytes": 6750,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "5bc704588141dae79c7e2339eb037a5d5c94f27c10e2d132e92c6af6e3c06f52",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "swingFootProjected": "screenRight",
+          "assets": {
+            "normal": {
+              "path": "SW/05/default.png",
+              "sha256": "b0aaaa66a4036c924370782b4827beb8ecbc2ef3e68c263e60967937e31c38b1",
+              "bytes": 817671,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SW/05/pixel.png",
+              "sha256": "7c13e7aed7c678767302c14ad23b0ecbb89cd862cf70509898ca8ed40143e239",
+              "bytes": 7159,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "b0aaaa66a4036c924370782b4827beb8ecbc2ef3e68c263e60967937e31c38b1",
+              "visibleColors": 27
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "SW/06/default.png",
+              "sha256": "5bc704588141dae79c7e2339eb037a5d5c94f27c10e2d132e92c6af6e3c06f52",
+              "bytes": 901782,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SW/06/pixel.png",
+              "sha256": "7c96ccf176332bdcc84c188e4b4258e098b701b55e071e6cbd2d38f930a85fb6",
+              "bytes": 6750,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "5bc704588141dae79c7e2339eb037a5d5c94f27c10e2d132e92c6af6e3c06f52",
+              "visibleColors": 31
+            }
+          }
+        }
+      ],
+      "designReference": {
+        "repositoryPath": "assets/monsters/mineral/sm-mineral-016/directions/SW/default.png",
+        "commit": "1cf08dd9c4b0b23bbd77b7e17d01ac8b9b4eae24",
+        "sha256": "5bc704588141dae79c7e2339eb037a5d5c94f27c10e2d132e92c6af6e3c06f52"
+      },
+      "sharedPixelPalette": [
+        [
+          35,
+          24,
+          18
+        ],
+        [
+          72,
+          41,
+          25
+        ],
+        [
+          107,
+          56,
+          33
+        ],
+        [
+          133,
+          76,
+          52
+        ],
+        [
+          163,
+          94,
+          63
+        ],
+        [
+          181,
+          98,
+          62
+        ],
+        [
+          187,
+          103,
+          65
+        ],
+        [
+          188,
+          107,
+          69
+        ],
+        [
+          189,
+          114,
+          78
+        ],
+        [
+          200,
+          111,
+          69
+        ],
+        [
+          203,
+          121,
+          80
+        ],
+        [
+          210,
+          119,
+          75
+        ],
+        [
+          212,
+          144,
+          106
+        ],
+        [
+          214,
+          124,
+          79
+        ],
+        [
+          214,
+          129,
+          85
+        ],
+        [
+          216,
+          136,
+          92
+        ],
+        [
+          218,
+          152,
+          114
+        ],
+        [
+          219,
+          146,
+          104
+        ],
+        [
+          221,
+          130,
+          83
+        ],
+        [
+          226,
+          135,
+          88
+        ],
+        [
+          227,
+          140,
+          92
+        ],
+        [
+          227,
+          146,
+          100
+        ],
+        [
+          227,
+          161,
+          122
+        ],
+        [
+          228,
+          153,
+          109
+        ],
+        [
+          232,
+          147,
+          99
+        ],
+        [
+          234,
+          168,
+          128
+        ],
+        [
+          235,
+          152,
+          104
+        ],
+        [
+          236,
+          155,
+          108
+        ],
+        [
+          237,
+          161,
+          115
+        ],
+        [
+          238,
+          182,
+          148
+        ],
+        [
+          252,
+          251,
+          253
+        ],
+        [
+          0,
+          3,
+          5
+        ]
+      ],
+      "normalization": {
+        "normal": "whole1254->1024 LANCZOS; disconnected alpha<=2 speck cleanup",
+        "pixel": "whole max-edge transparent pad ->128 NEAREST,initialY-5,fixed palette,binary alpha; phase01 netY-5;02/04/05/06 netY0;03 netY-1, whole supporting-foot registration only",
+        "perFrameBodyFit": false
+      },
+      "reuseAccounting": {
+        "logicalImageSlots": 12,
+        "newGeneratedAdoptedSlots": 7,
+        "verifiedReuseSlots": 5
+      },
+      "qa": {
+        "status": "LIMITED_OFFLINE_STATIC_CYCLE_PASS",
+        "scope": "SW six-phase ordered still sequence 01-02-03-04-05-06-01",
+        "continuousPlaybackVisualReview": "not performed",
+        "gameRuntime": "not tested",
+        "crossDirectionPhaseCorrespondence": "not verified; projected foot order is a working mapping",
+        "residualCaveats": [
+          "Pixel01 differs in grain and eye glints from newly generated02/03/05.",
+          "Pixel03 crown and pixel05 width differ slightly; foot phase remains readable.",
+          "Hole simplification and small support differences remain.",
+          "Static closure is not dynamic smoothness or all-eight-direction completion."
+        ]
+      }
+    },
+    "W": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "swingFootProjected": "screenLeft",
+          "assets": {
+            "normal": {
+              "path": "W/01/default.png",
+              "sha256": "df4ecb4280fbcde3f661bef0456945d13591e3767a9c7c9d49969af82c0cbc85",
+              "bytes": 835824,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "W/01/pixel.png",
+              "sha256": "f29783d1c80bd5f4262c479897e0d9cc295c83b6d3552ba139bb1c15dad62072",
+              "bytes": 6298,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "df4ecb4280fbcde3f661bef0456945d13591e3767a9c7c9d49969af82c0cbc85",
+              "visibleColors": 22
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "W/02/default.png",
+              "sha256": "8bc7ed7c317580a5fab984242de2906b04aae565c7904adaacaf1aabeff56e4a",
+              "bytes": 894728,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "W/02/pixel.png",
+              "sha256": "768e971d3c5d75ee0d67be56b8a54e2ae380f957517f9bd6695f929a3cb6271e",
+              "bytes": 6620,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "8bc7ed7c317580a5fab984242de2906b04aae565c7904adaacaf1aabeff56e4a",
+              "visibleColors": 26
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "swingFootProjected": "centerForeground",
+          "assets": {
+            "normal": {
+              "path": "W/03/default.png",
+              "sha256": "23a8ad825fdc2a68bd206a4a60ad249812522ec645a7ec9ebe5baebb773068f2",
+              "bytes": 799657,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "W/03/pixel.png",
+              "sha256": "ba66c47c6370145ffd80f2aef697744cb8ee9eb83f7d259176e6b59433034e5f",
+              "bytes": 5810,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "23a8ad825fdc2a68bd206a4a60ad249812522ec645a7ec9ebe5baebb773068f2",
+              "visibleColors": 28
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "W/04/default.png",
+              "sha256": "8bc7ed7c317580a5fab984242de2906b04aae565c7904adaacaf1aabeff56e4a",
+              "bytes": 894728,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "W/04/pixel.png",
+              "sha256": "768e971d3c5d75ee0d67be56b8a54e2ae380f957517f9bd6695f929a3cb6271e",
+              "bytes": 6620,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "8bc7ed7c317580a5fab984242de2906b04aae565c7904adaacaf1aabeff56e4a",
+              "visibleColors": 26
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "swingFootProjected": "screenRight",
+          "assets": {
+            "normal": {
+              "path": "W/05/default.png",
+              "sha256": "67aba931c989bd3853c5f86159c623aacada044c770fbccea42802cb76317cd1",
+              "bytes": 815870,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "W/05/pixel.png",
+              "sha256": "51845e56a7049338d4705d585782055bac4c91466fb8296046926d3d2e02b5ba",
+              "bytes": 6823,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "67aba931c989bd3853c5f86159c623aacada044c770fbccea42802cb76317cd1",
+              "visibleColors": 28
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "W/06/default.png",
+              "sha256": "8bc7ed7c317580a5fab984242de2906b04aae565c7904adaacaf1aabeff56e4a",
+              "bytes": 894728,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "W/06/pixel.png",
+              "sha256": "768e971d3c5d75ee0d67be56b8a54e2ae380f957517f9bd6695f929a3cb6271e",
+              "bytes": 6620,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "8bc7ed7c317580a5fab984242de2906b04aae565c7904adaacaf1aabeff56e4a",
+              "visibleColors": 26
+            }
+          }
+        }
+      ],
+      "designReference": {
+        "repositoryPath": "assets/monsters/mineral/sm-mineral-016/directions/W/default.png",
+        "commit": "1cf08dd9c4b0b23bbd77b7e17d01ac8b9b4eae24",
+        "sha256": "8bc7ed7c317580a5fab984242de2906b04aae565c7904adaacaf1aabeff56e4a"
+      },
+      "sharedPixelPalette": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          15,
+          12,
+          10
+        ],
+        [
+          57,
+          30,
+          19
+        ],
+        [
+          93,
+          50,
+          32
+        ],
+        [
+          122,
+          0,
+          0
+        ],
+        [
+          126,
+          68,
+          46
+        ],
+        [
+          141,
+          83,
+          59
+        ],
+        [
+          157,
+          92,
+          64
+        ],
+        [
+          167,
+          94,
+          63
+        ],
+        [
+          170,
+          110,
+          83
+        ],
+        [
+          173,
+          100,
+          68
+        ],
+        [
+          182,
+          106,
+          70
+        ],
+        [
+          183,
+          115,
+          83
+        ],
+        [
+          190,
+          110,
+          73
+        ],
+        [
+          192,
+          131,
+          97
+        ],
+        [
+          193,
+          120,
+          84
+        ],
+        [
+          194,
+          116,
+          78
+        ],
+        [
+          202,
+          121,
+          81
+        ],
+        [
+          205,
+          126,
+          85
+        ],
+        [
+          205,
+          133,
+          95
+        ],
+        [
+          211,
+          128,
+          85
+        ],
+        [
+          213,
+          146,
+          108
+        ],
+        [
+          214,
+          133,
+          89
+        ],
+        [
+          215,
+          138,
+          95
+        ],
+        [
+          220,
+          156,
+          119
+        ],
+        [
+          223,
+          139,
+          92
+        ],
+        [
+          229,
+          145,
+          97
+        ],
+        [
+          231,
+          150,
+          102
+        ],
+        [
+          238,
+          166,
+          121
+        ],
+        [
+          239,
+          157,
+          107
+        ],
+        [
+          248,
+          178,
+          130
+        ],
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "normalization": {
+        "normal": "whole1254->1024 LANCZOS; disconnected alpha<=2 speck cleanup",
+        "pixel": "whole max-edge transparent pad ->128 NEAREST,offset0,0,fixed palette,binary alpha; no additional phase registration",
+        "perFrameBodyFit": false
+      },
+      "reuseAccounting": {
+        "logicalImageSlots": 12,
+        "newGeneratedAdoptedSlots": 7,
+        "verifiedReuseSlots": 5
+      },
+      "qa": {
+        "status": "LIMITED_OFFLINE_STATIC_CYCLE_PASS",
+        "scope": "W six-phase ordered still sequence 01-02-03-04-05-06-01",
+        "continuousPlaybackVisualReview": "not performed",
+        "gameRuntime": "not tested",
+        "crossDirectionPhaseCorrespondence": "not verified; projected foot order is a working mapping",
+        "residualCaveats": [
+          "New whole-cycle pixel version uses common128px and has sparse grain/eye glint differences.",
+          "Side foot recovery is subtle at128px.",
+          "Hole simplification and small support differences remain.",
+          "Static closure is not dynamic smoothness or all-eight-direction completion."
+        ]
+      }
+    },
+    "SE": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "swingFootProjected": "centerForeground",
+          "assets": {
+            "normal": {
+              "path": "SE/01/default.png",
+              "sha256": "8f39ef611fc9f19dd842ad436dbc4886d00cd84b81e5a6ba1690f41c5d0892ef",
+              "bytes": 766953,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SE/01/pixel.png",
+              "sha256": "a8a1987d54fa83af92f32a3934e9b636cc513c44a795ec245f654c9665bf1f8a",
+              "bytes": 5501,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "8f39ef611fc9f19dd842ad436dbc4886d00cd84b81e5a6ba1690f41c5d0892ef",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "SE/02/default.png",
+              "sha256": "04a04b10b237b9303dab654060d6e472362ba6bde08039c65ccee5064f029ff7",
+              "bytes": 845805,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SE/02/pixel.png",
+              "sha256": "19b3381740300b03cc00263413673d06b8170fd155837b1273234b66269e837e",
+              "bytes": 10483,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "04a04b10b237b9303dab654060d6e472362ba6bde08039c65ccee5064f029ff7",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "swingFootProjected": "screenLeft",
+          "assets": {
+            "normal": {
+              "path": "SE/03/default.png",
+              "sha256": "a7393143c79b7c2327154b0b101f3fba3bdf6dd86ebd51b378335ed5fb0745dd",
+              "bytes": 777246,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SE/03/pixel.png",
+              "sha256": "2215476d38cce9735413838b5d184b41d585d30b4397920db07b6751c5ed601c",
+              "bytes": 7456,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "a7393143c79b7c2327154b0b101f3fba3bdf6dd86ebd51b378335ed5fb0745dd",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "SE/04/default.png",
+              "sha256": "04a04b10b237b9303dab654060d6e472362ba6bde08039c65ccee5064f029ff7",
+              "bytes": 845805,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SE/04/pixel.png",
+              "sha256": "19b3381740300b03cc00263413673d06b8170fd155837b1273234b66269e837e",
+              "bytes": 10483,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "04a04b10b237b9303dab654060d6e472362ba6bde08039c65ccee5064f029ff7",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "swingFootProjected": "screenRight",
+          "assets": {
+            "normal": {
+              "path": "SE/05/default.png",
+              "sha256": "cb0d0fd29b485756a258b274151aa0552e1e08daabd877f495b43da045a73e63",
+              "bytes": 778298,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SE/05/pixel.png",
+              "sha256": "cf9cf819769b8cc2b3a6371fa14d5ef97b7b464e23523799dd8971d888ff714d",
+              "bytes": 6846,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "cb0d0fd29b485756a258b274151aa0552e1e08daabd877f495b43da045a73e63",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "SE/06/default.png",
+              "sha256": "04a04b10b237b9303dab654060d6e472362ba6bde08039c65ccee5064f029ff7",
+              "bytes": 845805,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SE/06/pixel.png",
+              "sha256": "19b3381740300b03cc00263413673d06b8170fd155837b1273234b66269e837e",
+              "bytes": 10483,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "04a04b10b237b9303dab654060d6e472362ba6bde08039c65ccee5064f029ff7",
+              "visibleColors": 32
+            }
+          }
+        }
+      ],
+      "designReference": {
+        "repositoryPath": "assets/monsters/mineral/sm-mineral-016/directions/SE/default.png",
+        "commit": "1cf08dd9c4b0b23bbd77b7e17d01ac8b9b4eae24",
+        "sha256": "04a04b10b237b9303dab654060d6e472362ba6bde08039c65ccee5064f029ff7"
+      },
+      "sharedPixelPalette": [
+        [
+          246,
+          185,
+          143
+        ],
+        [
+          235,
+          163,
+          118
+        ],
+        [
+          233,
+          154,
+          107
+        ],
+        [
+          223,
+          153,
+          111
+        ],
+        [
+          229,
+          147,
+          100
+        ],
+        [
+          227,
+          145,
+          98
+        ],
+        [
+          212,
+          146,
+          108
+        ],
+        [
+          224,
+          140,
+          93
+        ],
+        [
+          215,
+          135,
+          92
+        ],
+        [
+          212,
+          129,
+          85
+        ],
+        [
+          209,
+          127,
+          84
+        ],
+        [
+          206,
+          128,
+          88
+        ],
+        [
+          206,
+          124,
+          83
+        ],
+        [
+          186,
+          131,
+          104
+        ],
+        [
+          203,
+          120,
+          80
+        ],
+        [
+          192,
+          116,
+          80
+        ],
+        [
+          187,
+          109,
+          75
+        ],
+        [
+          182,
+          106,
+          74
+        ],
+        [
+          178,
+          107,
+          76
+        ],
+        [
+          176,
+          102,
+          71
+        ],
+        [
+          168,
+          112,
+          87
+        ],
+        [
+          150,
+          106,
+          87
+        ],
+        [
+          172,
+          99,
+          70
+        ],
+        [
+          164,
+          94,
+          66
+        ],
+        [
+          146,
+          87,
+          66
+        ],
+        [
+          129,
+          82,
+          66
+        ],
+        [
+          111,
+          63,
+          47
+        ],
+        [
+          80,
+          45,
+          33
+        ],
+        [
+          67,
+          43,
+          35
+        ],
+        [
+          49,
+          32,
+          28
+        ],
+        [
+          33,
+          32,
+          31
+        ],
+        [
+          195,
+          194,
+          194
+        ]
+      ],
+      "normalization": {
+        "normal": "whole1254->1024 LANCZOS; disconnected alpha<=2 speck cleanup",
+        "pixel": "whole max-edge transparent pad ->126 NEAREST,offset1,1,fixed palette,binary alpha; no additional phase registration",
+        "perFrameBodyFit": false
+      },
+      "reuseAccounting": {
+        "logicalImageSlots": 12,
+        "newGeneratedAdoptedSlots": 7,
+        "verifiedReuseSlots": 5
+      },
+      "qa": {
+        "status": "LIMITED_OFFLINE_STATIC_CYCLE_PASS",
+        "scope": "SE six-phase ordered still sequence 01-02-03-04-05-06-01",
+        "continuousPlaybackVisualReview": "not performed",
+        "gameRuntime": "not tested",
+        "crossDirectionPhaseCorrespondence": "not verified; projected foot order is a working mapping",
+        "residualCaveats": [
+          "Pixel01/03/05 have fewer grain specks and different shading from neutral frames.",
+          "Side foot recovery is subtle after128px quantization, especially05.",
+          "Hole simplification and small support differences remain.",
+          "Static closure is not dynamic smoothness or all-eight-direction completion."
+        ]
+      }
+    },
+    "E": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "swingFootProjected": "screenRight",
+          "assets": {
+            "normal": {
+              "path": "E/01/default.png",
+              "sha256": "669d50977ea5b94100daca56d476d759539a8e641a837c976968f5a328b0bb59",
+              "bytes": 787349,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "E/01/pixel.png",
+              "sha256": "1d8f5e0b8196751f3a36a1b636a65b3365b8938fd2a8169400c944d29f1114fe",
+              "bytes": 6394,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "669d50977ea5b94100daca56d476d759539a8e641a837c976968f5a328b0bb59",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "E/02/default.png",
+              "sha256": "72cff680a5b493a82a723f74978d67eda58d45e2ff4fe546b13672c49a749032",
+              "bytes": 866606,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "E/02/pixel.png",
+              "sha256": "04e762b48afc1370515f914dc838c9c4a4c680bfbe9925e0704d15b9b6a1fb04",
+              "bytes": 7190,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "72cff680a5b493a82a723f74978d67eda58d45e2ff4fe546b13672c49a749032",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "swingFootProjected": "screenLeft",
+          "assets": {
+            "normal": {
+              "path": "E/03/default.png",
+              "sha256": "50187b7badd7888a7c9edb8c4de00b4f3a0c08319479fe7c2d66ad956aeacb34",
+              "bytes": 792467,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "E/03/pixel.png",
+              "sha256": "102db3cb75b9ae3e1c17ccfa19556ece3b00d834667812a351c126fa08c83a02",
+              "bytes": 5411,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "50187b7badd7888a7c9edb8c4de00b4f3a0c08319479fe7c2d66ad956aeacb34",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "E/04/default.png",
+              "sha256": "72cff680a5b493a82a723f74978d67eda58d45e2ff4fe546b13672c49a749032",
+              "bytes": 866606,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "E/04/pixel.png",
+              "sha256": "04e762b48afc1370515f914dc838c9c4a4c680bfbe9925e0704d15b9b6a1fb04",
+              "bytes": 7190,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "72cff680a5b493a82a723f74978d67eda58d45e2ff4fe546b13672c49a749032",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "swingFootProjected": "occludedThirdFootWithRigidBodyWeightTransfer",
+          "assets": {
+            "normal": {
+              "path": "E/05/default.png",
+              "sha256": "e8ebc87936177b5f2fb618dd8fe94be16c096ba4744d7d06785176eaad465601",
+              "bytes": 794890,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "E/05/pixel.png",
+              "sha256": "474d2b04a78b5b4e02c030ab6d3e4168e9d1e87d21769f4e1bd7565c441aa769",
+              "bytes": 7166,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "e8ebc87936177b5f2fb618dd8fe94be16c096ba4744d7d06785176eaad465601",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "E/06/default.png",
+              "sha256": "72cff680a5b493a82a723f74978d67eda58d45e2ff4fe546b13672c49a749032",
+              "bytes": 866606,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "E/06/pixel.png",
+              "sha256": "04e762b48afc1370515f914dc838c9c4a4c680bfbe9925e0704d15b9b6a1fb04",
+              "bytes": 7190,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "72cff680a5b493a82a723f74978d67eda58d45e2ff4fe546b13672c49a749032",
+              "visibleColors": 29
+            }
+          }
+        }
+      ],
+      "designReference": {
+        "repositoryPath": "assets/monsters/mineral/sm-mineral-016/directions/E/default.png",
+        "commit": "1cf08dd9c4b0b23bbd77b7e17d01ac8b9b4eae24",
+        "sha256": "72cff680a5b493a82a723f74978d67eda58d45e2ff4fe546b13672c49a749032"
+      },
+      "sharedPixelPalette": [
+        [
+          246,
+          176,
+          131
+        ],
+        [
+          240,
+          161,
+          115
+        ],
+        [
+          235,
+          148,
+          101
+        ],
+        [
+          232,
+          147,
+          100
+        ],
+        [
+          233,
+          144,
+          98
+        ],
+        [
+          231,
+          143,
+          97
+        ],
+        [
+          228,
+          142,
+          97
+        ],
+        [
+          229,
+          139,
+          94
+        ],
+        [
+          226,
+          138,
+          93
+        ],
+        [
+          225,
+          135,
+          91
+        ],
+        [
+          222,
+          131,
+          88
+        ],
+        [
+          216,
+          128,
+          86
+        ],
+        [
+          211,
+          121,
+          79
+        ],
+        [
+          207,
+          119,
+          78
+        ],
+        [
+          191,
+          126,
+          96
+        ],
+        [
+          207,
+          116,
+          75
+        ],
+        [
+          205,
+          115,
+          75
+        ],
+        [
+          204,
+          115,
+          75
+        ],
+        [
+          203,
+          115,
+          75
+        ],
+        [
+          202,
+          113,
+          73
+        ],
+        [
+          200,
+          113,
+          74
+        ],
+        [
+          171,
+          114,
+          90
+        ],
+        [
+          196,
+          110,
+          73
+        ],
+        [
+          179,
+          100,
+          71
+        ],
+        [
+          167,
+          95,
+          71
+        ],
+        [
+          155,
+          99,
+          79
+        ],
+        [
+          139,
+          72,
+          53
+        ],
+        [
+          101,
+          46,
+          33
+        ],
+        [
+          82,
+          40,
+          30
+        ],
+        [
+          64,
+          28,
+          21
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "normalization": {
+        "normal": "whole1254->1024 LANCZOS; disconnected alpha<=2 speck cleanup",
+        "pixel": "whole max-edge transparent pad ->128 NEAREST,offset0,0,fixed palette,binary alpha; no additional phase registration",
+        "perFrameBodyFit": false
+      },
+      "reuseAccounting": {
+        "logicalImageSlots": 12,
+        "newGeneratedAdoptedSlots": 7,
+        "verifiedReuseSlots": 5
+      },
+      "qa": {
+        "status": "STATIC_REVIEW_CANDIDATE_OWNER_JUDGMENT_PENDING",
+        "scope": "E six-phase ordered still sequence 01-02-03-04-05-06-01",
+        "continuousPlaybackVisualReview": "not performed",
+        "gameRuntime": "not tested",
+        "crossDirectionPhaseCorrespondence": "not verified; projected foot order is a working mapping",
+        "residualCaveats": [
+          "New whole-cycle pixel version uses common128px and has sparse grain/eye glint differences.",
+          "E05 generated rigid-body rise is subtle at128px; hidden third-foot motion cannot be visually verified.",
+          "Hole simplification and small support differences remain.",
+          "Body width and texture vary slightly; user review needed. Static closure does not establish dynamic smoothness."
         ]
       }
     }
