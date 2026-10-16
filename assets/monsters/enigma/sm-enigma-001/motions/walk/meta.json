@@ -21,7 +21,7 @@
     128
   ],
   "pixelAlpha": "binary",
-  "status": "PARTIAL8_OWNER_REVIEW_CANDIDATES",
+  "status": "PARTIAL12_OWNER_REVIEW_CANDIDATES_SAFETY_HOLD",
   "directions": {
     "S": {
       "frames": [
@@ -120,6 +120,63 @@
       ],
       "sourceNormalSha256": "3a6f6bcb329b26ae7d24deba9ee1aa01861175a5ae07653f7b80df21f1563a78",
       "reviewSlotCount": 8
+    },
+    "SW": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 200,
+          "phase": "far-front recovery; hidden rear remains occluded",
+          "assets": {
+            "normal": {
+              "path": "SW/01/default.png",
+              "sha256": "68a06ba679d2f1d7d936b2d8fb778f70379240d0bf1a6761d90a586f355a2f7b",
+              "bytes": 566566,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "SW/01/pixel.png",
+              "sha256": "8df83df0f27db208fea2d0d7cf935e76999c497c54b3a7a55248b6a26ca0a7a1",
+              "bytes": 8335,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "68a06ba679d2f1d7d936b2d8fb778f70379240d0bf1a6761d90a586f355a2f7b",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 200,
+          "phase": "contact",
+          "assets": {
+            "normal": {
+              "path": "SW/02/default.png",
+              "sha256": "b1d9e198a420ec5ae6c32d730e03d8562861fac674e12146257c9f16e684feef",
+              "bytes": 571408,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "SW/02/pixel.png",
+              "sha256": "c936343873df4b2d2ef3844f19b8eb6ff4fdbfd6469e434a40374d9265946769",
+              "bytes": 5985,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "b1d9e198a420ec5ae6c32d730e03d8562861fac674e12146257c9f16e684feef",
+              "visibleColors": 27
+            }
+          }
+        }
+      ],
+      "reviewSlotCount": 4,
+      "sourceNormalSha256": "b1d9e198a420ec5ae6c32d730e03d8562861fac674e12146257c9f16e684feef",
+      "status": "PARTIAL_SAFETY_HOLD",
+      "missingFrames": [
+        3,
+        4
+      ]
     }
   },
   "frames": [
@@ -217,7 +274,6 @@
     }
   ],
   "missingDirections": [
-    "SW",
     "W",
     "NW",
     "N",
@@ -231,6 +287,16 @@
     "Rounded cushion, two eyes, square through-window and four feet retained",
     "Pixel saturation/eye highlights/window contours vary; phase03 top about2-3px lower",
     "Normal03 whole-frame translation(-2,0), all visible RGBA identical/no clipping; no local warping",
-    "One common pixel124+(2,0) and palette across all phases; same-normal sole references, contact04 exact02pair reuse"
+    "One common pixel124+(2,0) and palette across all phases; same-normal sole references, contact04 exact02pair reuse",
+    "SW uses common128 export and fixed palette; pixel saturation/eye highlights differ",
+    "SW01 and02 only; no SW cycle completion; hidden fourth foot remains hidden"
+  ],
+  "holds": [
+    {
+      "direction": "SW",
+      "phase": 3,
+      "style": "normal",
+      "reason": "generation service safety refusal; no image returned; no retry; remaining individual production paused"
+    }
   ]
 }
