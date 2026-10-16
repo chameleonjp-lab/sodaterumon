@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-mineral-016",
+  "nameJa": "サゲカクナ",
+  "motion": "walk",
+  "motionType": "Three-foot sequential small-step walk",
+  "directionsIncluded": [
+    "S"
+  ],
+  "frameCountPerDirection": 6,
+  "frameDurationMs": 160,
+  "cycleMs": 960,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "pixelAlpha": "binary",
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 160,
+      "phaseDescriptionJa": "後方/左右の二脚で支え中央前脚を前送り",
+      "swingFoot": "centerFront",
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "sha256": "30fd0dd213caf43d407407fe256a2c8ad105f3c9f3588918ef829ac9a26f97d0",
+          "bytes": 810795,
+          "sourceKind": "new_generation"
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "sha256": "ebfe33d594083d13ec4f85ae93788ca2575ed434610753191507fc23442216b5",
+          "bytes": 11481,
+          "sourceKind": "new_generation",
+          "parentNormalSha256": "30fd0dd213caf43d407407fe256a2c8ad105f3c9f3588918ef829ac9a26f97d0",
+          "rawGenerationSha256": "b6aecb227017e51c299f3396f5fd07daaa2400b71e8d3f33bec2fedb55eb89a2",
+          "visibleColors": 32
+        }
+      },
+      "normalFootSolesExclusivePx": {
+        "viewerLeftRear": 738,
+        "centerFront": 777,
+        "viewerRightRear": 738
+      },
+      "pixelFootSolesExclusivePx": {
+        "viewerLeftRear": 93,
+        "centerFront": 98,
+        "viewerRightRear": 93
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 160,
+      "phaseDescriptionJa": "中央前脚が着地、三脚支持",
+      "swingFoot": "none",
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "sha256": "f935d563a57919b04bcedd697b0dddabc86b54a3ffb0a9a721b2ada20af65678",
+          "bytes": 853604,
+          "sourceKind": "verified_reuse"
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "sha256": "4dd33e3e875c57962966cf84db3c7d827c5fe67befe32eec8d2268c5cd805a27",
+          "bytes": 8599,
+          "sourceKind": "new_generation",
+          "parentNormalSha256": "f935d563a57919b04bcedd697b0dddabc86b54a3ffb0a9a721b2ada20af65678",
+          "rawGenerationSha256": "ca158c8dd7160d0627948cd7a2752f62830c0f0d5c355aa93355feded326e658",
+          "visibleColors": 24
+        }
+      },
+      "normalFootSolesExclusivePx": {
+        "viewerLeftRear": 737,
+        "centerFront": 804,
+        "viewerRightRear": 737
+      },
+      "pixelFootSolesExclusivePx": {
+        "viewerLeftRear": 94,
+        "centerFront": 101,
+        "viewerRightRear": 94
+      },
+      "reuseNote": "Normal is exact-byte reuse of the verified original S three-foot contact pose. Pixel was newly generated solely from this reused normal."
+    },
+    {
+      "index": 3,
+      "durationMs": 160,
+      "phaseDescriptionJa": "画面左後脚を上げ中央と右後脚で支持",
+      "swingFoot": "viewerLeftRear",
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "sha256": "73b92b9338994a5bcead66097f674440cf1fefdb1b148a353737e42713a5161a",
+          "bytes": 824730,
+          "sourceKind": "new_generation"
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "sha256": "27e6028ebc3b3a569bc492630379529dc57ae58c3fd36f66a442c8c432fe071e",
+          "bytes": 11643,
+          "sourceKind": "new_generation",
+          "parentNormalSha256": "73b92b9338994a5bcead66097f674440cf1fefdb1b148a353737e42713a5161a",
+          "rawGenerationSha256": "2ea88632523eccae048c591fbd78265640e71cbc57ea6d3da3ee6124d35638c1",
+          "visibleColors": 32
+        }
+      },
+      "normalFootSolesExclusivePx": {
+        "viewerLeftRear": 719,
+        "centerFront": 803,
+        "viewerRightRear": 739
+      },
+      "pixelFootSolesExclusivePx": {
+        "viewerLeftRear": 90,
+        "centerFront": 100,
+        "viewerRightRear": 93
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 160,
+      "phaseDescriptionJa": "画面左後脚が着地、三脚支持",
+      "swingFoot": "none",
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "sha256": "f935d563a57919b04bcedd697b0dddabc86b54a3ffb0a9a721b2ada20af65678",
+          "bytes": 853604,
+          "sourceKind": "verified_reuse"
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "sha256": "4dd33e3e875c57962966cf84db3c7d827c5fe67befe32eec8d2268c5cd805a27",
+          "bytes": 8599,
+          "sourceKind": "verified_reuse",
+          "parentNormalSha256": "f935d563a57919b04bcedd697b0dddabc86b54a3ffb0a9a721b2ada20af65678",
+          "rawGenerationSha256": "ca158c8dd7160d0627948cd7a2752f62830c0f0d5c355aa93355feded326e658",
+          "visibleColors": 24
+        }
+      },
+      "normalFootSolesExclusivePx": {
+        "viewerLeftRear": 737,
+        "centerFront": 804,
+        "viewerRightRear": 737
+      },
+      "pixelFootSolesExclusivePx": {
+        "viewerLeftRear": 94,
+        "centerFront": 101,
+        "viewerRightRear": 94
+      },
+      "reuseNote": "Normal is exact-byte reuse of the verified original S three-foot contact pose. Pixel is an exact-byte reuse of accepted phase02 made solely from that identical normal hash."
+    },
+    {
+      "index": 5,
+      "durationMs": 160,
+      "phaseDescriptionJa": "画面右後脚を前送り、中央と左後脚で支持",
+      "swingFoot": "viewerRightRear",
+      "assets": {
+        "normal": {
+          "path": "S/05/default.png",
+          "sha256": "6455bebbf09d8ef93839ab64f8ec9907dfe9e52dd9d917c89a6bb21c1a66b92a",
+          "bytes": 820262,
+          "sourceKind": "new_generation"
+        },
+        "pixel": {
+          "path": "S/05/pixel.png",
+          "sha256": "8f47377d8c1eefe2942d4e5fa48cd592256e1e403bc04c8e750bd16a33551539",
+          "bytes": 10582,
+          "sourceKind": "new_generation",
+          "parentNormalSha256": "6455bebbf09d8ef93839ab64f8ec9907dfe9e52dd9d917c89a6bb21c1a66b92a",
+          "rawGenerationSha256": "31afc64b98966dafe61ce2a5b29f52e2b591aea572e5579a68ac62ebd3ae043e",
+          "visibleColors": 32
+        }
+      },
+      "normalFootSolesExclusivePx": {
+        "viewerLeftRear": 737,
+        "centerFront": 805,
+        "viewerRightRear": 719
+      },
+      "pixelFootSolesExclusivePx": {
+        "viewerLeftRear": 92,
+        "centerFront": 101,
+        "viewerRightRear": 90
+      }
+    },
+    {
+      "index": 6,
+      "durationMs": 160,
+      "phaseDescriptionJa": "画面右後脚が着地し三脚支持へ戻る",
+      "swingFoot": "none",
+      "assets": {
+        "normal": {
+          "path": "S/06/default.png",
+          "sha256": "f935d563a57919b04bcedd697b0dddabc86b54a3ffb0a9a721b2ada20af65678",
+          "bytes": 853604,
+          "sourceKind": "verified_reuse"
+        },
+        "pixel": {
+          "path": "S/06/pixel.png",
+          "sha256": "4dd33e3e875c57962966cf84db3c7d827c5fe67befe32eec8d2268c5cd805a27",
+          "bytes": 8599,
+          "sourceKind": "verified_reuse",
+          "parentNormalSha256": "f935d563a57919b04bcedd697b0dddabc86b54a3ffb0a9a721b2ada20af65678",
+          "rawGenerationSha256": "ca158c8dd7160d0627948cd7a2752f62830c0f0d5c355aa93355feded326e658",
+          "visibleColors": 24
+        }
+      },
+      "normalFootSolesExclusivePx": {
+        "viewerLeftRear": 737,
+        "centerFront": 804,
+        "viewerRightRear": 737
+      },
+      "pixelFootSolesExclusivePx": {
+        "viewerLeftRear": 94,
+        "centerFront": 101,
+        "viewerRightRear": 94
+      },
+      "reuseNote": "Normal is exact-byte reuse of the verified original S three-foot contact pose. Pixel is an exact-byte reuse of accepted phase02 made solely from that identical normal hash."
+    }
+  ],
+  "sharedPixelPalette": [
+    [
+      42,
+      22,
+      15
+    ],
+    [
+      83,
+      40,
+      25
+    ],
+    [
+      111,
+      47,
+      25
+    ],
+    [
+      136,
+      73,
+      52
+    ],
+    [
+      137,
+      59,
+      34
+    ],
+    [
+      165,
+      86,
+      58
+    ],
+    [
+      174,
+      113,
+      86
+    ],
+    [
+      185,
+      93,
+      58
+    ],
+    [
+      191,
+      115,
+      82
+    ],
+    [
+      194,
+      101,
+      63
+    ],
+    [
+      202,
+      107,
+      67
+    ],
+    [
+      204,
+      113,
+      73
+    ],
+    [
+      210,
+      112,
+      70
+    ],
+    [
+      211,
+      140,
+      105
+    ],
+    [
+      213,
+      117,
+      73
+    ],
+    [
+      216,
+      121,
+      78
+    ],
+    [
+      222,
+      124,
+      78
+    ],
+    [
+      222,
+      129,
+      84
+    ],
+    [
+      228,
+      136,
+      89
+    ],
+    [
+      228,
+      155,
+      117
+    ],
+    [
+      232,
+      135,
+      87
+    ],
+    [
+      232,
+      164,
+      129
+    ],
+    [
+      235,
+      140,
+      91
+    ],
+    [
+      236,
+      144,
+      95
+    ],
+    [
+      238,
+      147,
+      100
+    ],
+    [
+      239,
+      172,
+      136
+    ],
+    [
+      240,
+      153,
+      106
+    ],
+    [
+      241,
+      159,
+      114
+    ],
+    [
+      242,
+      164,
+      122
+    ],
+    [
+      244,
+      188,
+      159
+    ],
+    [
+      253,
+      252,
+      249
+    ],
+    [
+      8,
+      2,
+      0
+    ]
+  ],
+  "designReference": {
+    "repositoryPath": "assets/monsters/mineral/sm-mineral-016/directions/S/default.png",
+    "commit": "2b223a75448f2df8bfdfbb9512e4db64fd930913",
+    "sha256": "f935d563a57919b04bcedd697b0dddabc86b54a3ffb0a9a721b2ada20af65678",
+    "direction": "S"
+  },
+  "reuseAccounting": {
+    "logicalImageSlots": 12,
+    "newGeneratedAdoptedSlots": 7,
+    "verifiedReuseSlots": 5,
+    "normalReusedPhases": [
+      2,
+      4,
+      6
+    ],
+    "pixelReusedPhases": [
+      4,
+      6
+    ],
+    "reuseIsNotNewGeneration": true
+  },
+  "normalization": {
+    "normalCommonRawCanvas": [
+      1254,
+      1254
+    ],
+    "normalUniformScale": "512/627",
+    "normalTranslation": [
+      0,
+      0
+    ],
+    "normalResampling": "LANCZOS",
+    "normalCleanup": "Only disconnected exterior alpha pixels with maximum alpha2 were removed, then full-canvas uniform resampling; all retained raw RGBA unchanged before resampling.",
+    "pixelCommonRule": "Transparent central padding to raw maximum edge, uniform nearest-neighbor resize to128 square, global palette nearest RGB mapping, binary alpha threshold128, whole-canvas support registration only.",
+    "pixelResampling": "NEAREST",
+    "pixelDefaultTranslation": [
+      0,
+      -2
+    ],
+    "pixel05RawCanvas": [
+      1402,
+      1122
+    ],
+    "pixel05PaddedCanvas": [
+      1402,
+      1402
+    ],
+    "pixel05PaddingOffset": [
+      0,
+      140
+    ],
+    "pixel05UniformScale": "128/1402",
+    "pixel05TotalTranslation": [
+      0,
+      -4
+    ],
+    "pixel05RegistrationEvidence": "After common Y-2, left rear and center front planted supports were both+2px from rounded same-normal projection; swing was also+2px. Additional whole-canvasY-2 made supports92/101 and swing90. No scale change, no clipping, all visible RGBA preserved.",
+    "existingSquarePadRuleProof": "For existing1254-square raw frames, central max-edge padding is a no-op and the resulting128 RGBA resampling is unchanged. Existing adopted PNG files were not overwritten.",
+    "perFrameBodyFit": false,
+    "poseRedrawnByCode": false,
+    "nonUniformScaling": false,
+    "pixelPaletteMethod": "Phase01 global30-color MEDIANCUT plus actual light/dark source colors, at most32 visible colors; every subsequent frame uses this same palette with nearest squared RGB distance, no dithering.",
+    "requiredNormalVisibleLongest": [
+      768,
+      896
+    ],
+    "requiredPixelVisibleLongest": [
+      96,
+      112
+    ],
+    "footAnchorNote": "Each foot has a separate projected support depth. The global bottom is not used to align normals because it may belong to the swinging center-front foot."
+  },
+  "qa": {
+    "status": "LIMITED_OFFLINE_CYCLE_PASS",
+    "scope": "S six-phase normal/pixel cycle only",
+    "individualFrames": "Independent limited visual and technical frame/pair checks passed with residual caveats.",
+    "sequenceReview": "Ordered static normal and native128 pixel sequences01-02-03-04-05-06-01 were independently inspected by integration reviewer and coordinator. Center-front, viewer-left rear and viewer-right rear recovery alternate with three-foot contact. The06-to01 closure retains rear supports while recovering center front. No different creature, missing foot, or pronounced body-size change was seen.",
+    "continuousPlaybackVisualReview": "not performed",
+    "gameRuntime": "not tested",
+    "otherDirections": "not included",
+    "residualCaveats": [
+      "Pixel02/04/06 have darker tone and weaker eye highlights than recovery phases; fixed palette does not eliminate color-area and speckle variation.",
+      "Pixel03 crown is roughly1-2px higher than early phases. Pixel05 width is104px versus106px in other adopted generated pixel frames, and crown is29px versus26-28px elsewhere.",
+      "Normal01 central recovery is about27px rather than the initial12px guide. Normal03/05 rear-foot recovery is about18px. Production guide values are not exact reproduced amplitudes.",
+      "Normal surface fine-line detail varies, and the exposed volume of the central foot shortens when recovered.",
+      "Some connected low-alpha colored fringes remain from raw generation; no local repaint or shape erasure was applied.",
+      "Reuse normal02/04/06 has original material detail rather than generated-phase surface detail.",
+      "Limited ordered-still approval does not establish continuous-playback smoothness, all-eight-direction completion, or game/device acceptance."
+    ],
+    "preservationNote": "All originals, raw outputs, superseded candidates and failed export diagnostics are retained separately; only accepted source files were copied into this set."
+  }
+}
