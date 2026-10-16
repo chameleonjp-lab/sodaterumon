@@ -1,0 +1,1299 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-mineral-011",
+  "nameJa": "ミツマタグ",
+  "motion": "walk",
+  "motionType": "Three-foot sequential recovery/contact walk",
+  "directionsIncluded": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "frameCountPerDirection": 6,
+  "frameDurationMs": 160,
+  "cycleMs": 960,
+  "loopOrder": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "normalCanvas": [
+    1024,
+    1024
+  ],
+  "pixelCanvas": [
+    128,
+    128
+  ],
+  "pixelAlpha": "binary",
+  "status": "ALL96_REVIEW_CANDIDATES_OWNER_JUDGMENT_PENDING",
+  "missing": [],
+  "qualityCaveats": [
+    "Review candidates only; not final animation approval",
+    "N01 replaced by smaller full-volume central recovery pivot and same-normal pixel with whole-frame Y-3 support registration; upper body3px high; old candidates retained",
+    "NW03 pixel body narrower than contact frames; scale consistency needs review",
+    "Some swing pivots and foreshortening are larger/asymmetric; body intended rigid",
+    "Pixel patches, pale-face brightness, outline thickness and support registration vary",
+    "NE all pixel phases use common whole-canvas Y=-3 registration; no local warping",
+    "Cross-direction anatomical foot synchronization unverified",
+    "Static individual/pair/loop contact sheets inspected; continuous playback and runtime not tested",
+    "SE uses fixed124px whole-canvas pixel export; phase03 receives whole-frameY+2 support registration; scale never varied per phase",
+    "SE direction is the existing static root source and remains estimated"
+  ],
+  "directions": {
+    "S": {
+      "sourceNormalSha256": "d4703ba9cacb7e73d2cac29ec2462e85ed9175653994456aec05f494d6b41899",
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "central pointed foot recovery",
+          "assets": {
+            "normal": {
+              "path": "S/01/default.png",
+              "sha256": "792878024839c31ba41cdc5452f9736298fe1fde16ce14aa105c8facef131f0d",
+              "bytes": 692285,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "S/01/pixel.png",
+              "sha256": "dd29d8cf7371057e4593c7c72e47e4d028b39c26db1f918f7bef0f1ddab715e4",
+              "bytes": 9571,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "792878024839c31ba41cdc5452f9736298fe1fde16ce14aa105c8facef131f0d",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "S/02/default.png",
+              "sha256": "d4703ba9cacb7e73d2cac29ec2462e85ed9175653994456aec05f494d6b41899",
+              "bytes": 721875,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "S/02/pixel.png",
+              "sha256": "e15ee091e1166129887af9c3bf636e2c11e5f07ae6a70d7200d77190fcc32a1e",
+              "bytes": 8698,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "d4703ba9cacb7e73d2cac29ec2462e85ed9175653994456aec05f494d6b41899",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "screenLeft recovery",
+          "assets": {
+            "normal": {
+              "path": "S/03/default.png",
+              "sha256": "839357a9c2d32fe87c069182d2696e551ba94679d08d68bf5bb4fbfb7edc23dc",
+              "bytes": 702571,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "S/03/pixel.png",
+              "sha256": "ac1d94501b21fdce14c9256ca15f69a6cbda51474fbf90b7f77de101c7b57747",
+              "bytes": 8832,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "839357a9c2d32fe87c069182d2696e551ba94679d08d68bf5bb4fbfb7edc23dc",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "S/04/default.png",
+              "sha256": "d4703ba9cacb7e73d2cac29ec2462e85ed9175653994456aec05f494d6b41899",
+              "bytes": 721875,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "S/04/pixel.png",
+              "sha256": "e15ee091e1166129887af9c3bf636e2c11e5f07ae6a70d7200d77190fcc32a1e",
+              "bytes": 8698,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "d4703ba9cacb7e73d2cac29ec2462e85ed9175653994456aec05f494d6b41899",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "screenRight recovery",
+          "assets": {
+            "normal": {
+              "path": "S/05/default.png",
+              "sha256": "4cad3c95f6b1ac55eb27a9b9d546e221daa626bcdc9e202183f9a6e0bd762c0d",
+              "bytes": 707123,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "S/05/pixel.png",
+              "sha256": "8655e7c6b59813bc96a6985a05407cce4c3755ddee501e8b5e11cc401eda24be",
+              "bytes": 8745,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "4cad3c95f6b1ac55eb27a9b9d546e221daa626bcdc9e202183f9a6e0bd762c0d",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "S/06/default.png",
+              "sha256": "d4703ba9cacb7e73d2cac29ec2462e85ed9175653994456aec05f494d6b41899",
+              "bytes": 721875,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "S/06/pixel.png",
+              "sha256": "e15ee091e1166129887af9c3bf636e2c11e5f07ae6a70d7200d77190fcc32a1e",
+              "bytes": 8698,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "d4703ba9cacb7e73d2cac29ec2462e85ed9175653994456aec05f494d6b41899",
+              "visibleColors": 31
+            }
+          }
+        }
+      ],
+      "status": "REVIEW_12_SLOTS",
+      "mappingCaveat": "working projected mapping; cross-direction synchronization unverified"
+    },
+    "SW": {
+      "sourceNormalSha256": "8263fa09686798d2b07463a6520cc38755b68036aee97d27fcb7440b08474488",
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "large foreground lower-left foot",
+          "assets": {
+            "normal": {
+              "path": "SW/01/default.png",
+              "sha256": "f9aa2be34131b041777ca6e80721b473b61fe55420b8d093202cd1e0de3ad433",
+              "bytes": 728456,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SW/01/pixel.png",
+              "sha256": "7acedefd441bb30e3f89e88d0aa415b03807699253d3cab62a42af9bf6e88d06",
+              "bytes": 9395,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "f9aa2be34131b041777ca6e80721b473b61fe55420b8d093202cd1e0de3ad433",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "SW/02/default.png",
+              "sha256": "8263fa09686798d2b07463a6520cc38755b68036aee97d27fcb7440b08474488",
+              "bytes": 765179,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SW/02/pixel.png",
+              "sha256": "aa84cc32be999e60818671aeaf47556a6ca7c9c9584ab463e1f192afca85fa53",
+              "bytes": 8928,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "8263fa09686798d2b07463a6520cc38755b68036aee97d27fcb7440b08474488",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "small middle rear foot",
+          "assets": {
+            "normal": {
+              "path": "SW/03/default.png",
+              "sha256": "217a53323a4fd565fb108505ac163a0bc7fc3de19cb51731c0bdf98c392a17aa",
+              "bytes": 730828,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SW/03/pixel.png",
+              "sha256": "0f48c155739f62c22739221857f5fa164a4b5ab7d850245f58cc8c8ce477bcf5",
+              "bytes": 8697,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "217a53323a4fd565fb108505ac163a0bc7fc3de19cb51731c0bdf98c392a17aa",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "SW/04/default.png",
+              "sha256": "8263fa09686798d2b07463a6520cc38755b68036aee97d27fcb7440b08474488",
+              "bytes": 765179,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SW/04/pixel.png",
+              "sha256": "aa84cc32be999e60818671aeaf47556a6ca7c9c9584ab463e1f192afca85fa53",
+              "bytes": 8928,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "8263fa09686798d2b07463a6520cc38755b68036aee97d27fcb7440b08474488",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "large screen-right foot",
+          "assets": {
+            "normal": {
+              "path": "SW/05/default.png",
+              "sha256": "f2dc239f32d824957728aaab8be0fab68bf0ac4e6339c2aaf81de70fde6b27a4",
+              "bytes": 755964,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SW/05/pixel.png",
+              "sha256": "77ce57d8c668a700f191df844b5607a94206042762f9251171b32b87c1cb61d4",
+              "bytes": 8929,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "f2dc239f32d824957728aaab8be0fab68bf0ac4e6339c2aaf81de70fde6b27a4",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "SW/06/default.png",
+              "sha256": "8263fa09686798d2b07463a6520cc38755b68036aee97d27fcb7440b08474488",
+              "bytes": 765179,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SW/06/pixel.png",
+              "sha256": "aa84cc32be999e60818671aeaf47556a6ca7c9c9584ab463e1f192afca85fa53",
+              "bytes": 8928,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "8263fa09686798d2b07463a6520cc38755b68036aee97d27fcb7440b08474488",
+              "visibleColors": 29
+            }
+          }
+        }
+      ],
+      "status": "REVIEW_12_SLOTS",
+      "mappingCaveat": "working projected mapping; cross-direction anatomical sync unverified"
+    },
+    "W": {
+      "sourceNormalSha256": "f22f36205a2160c4ddf14f1478a9e01d2315fa7dfb9fd3dd3bf104c687836a9a",
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "large foreground lower foot",
+          "assets": {
+            "normal": {
+              "path": "W/01/default.png",
+              "sha256": "ca999d1c636d87b97953ab196722c4957f1cbbd5b0763cf151420ea9820d50a2",
+              "bytes": 634653,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "W/01/pixel.png",
+              "sha256": "1269ea4bdd5ae656962d4234b616fb011520fcd3b895e4312043d108bbfd266a",
+              "bytes": 9168,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "ca999d1c636d87b97953ab196722c4957f1cbbd5b0763cf151420ea9820d50a2",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "W/02/default.png",
+              "sha256": "f22f36205a2160c4ddf14f1478a9e01d2315fa7dfb9fd3dd3bf104c687836a9a",
+              "bytes": 652856,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "W/02/pixel.png",
+              "sha256": "7b8763feb0780ff48d614d434ee848e1a08fc8d807d35da433783736100f7322",
+              "bytes": 7369,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "f22f36205a2160c4ddf14f1478a9e01d2315fa7dfb9fd3dd3bf104c687836a9a",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "small center partly occluded foot",
+          "assets": {
+            "normal": {
+              "path": "W/03/default.png",
+              "sha256": "337d6418629104abf37cb3ff46bfcd4d7d03b9a8adfefa4bce28084ffd0357cc",
+              "bytes": 637017,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "W/03/pixel.png",
+              "sha256": "774e9ba4fb95237122ce0927ccd8bfc3ebbb8fa9fb7026927300c8899b2d55a5",
+              "bytes": 8471,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "337d6418629104abf37cb3ff46bfcd4d7d03b9a8adfefa4bce28084ffd0357cc",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "W/04/default.png",
+              "sha256": "f22f36205a2160c4ddf14f1478a9e01d2315fa7dfb9fd3dd3bf104c687836a9a",
+              "bytes": 652856,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "W/04/pixel.png",
+              "sha256": "7b8763feb0780ff48d614d434ee848e1a08fc8d807d35da433783736100f7322",
+              "bytes": 7369,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "f22f36205a2160c4ddf14f1478a9e01d2315fa7dfb9fd3dd3bf104c687836a9a",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "screenRight rear foot",
+          "assets": {
+            "normal": {
+              "path": "W/05/default.png",
+              "sha256": "89549bdfcf63c85c074b9449460f03068fd77969fcb0278d1944a87f02ce98e2",
+              "bytes": 632763,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "W/05/pixel.png",
+              "sha256": "70e7c8fb35876f5a063b81889e377fa5256b63faed602d5e3e64da49dc14ed15",
+              "bytes": 9578,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "89549bdfcf63c85c074b9449460f03068fd77969fcb0278d1944a87f02ce98e2",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "W/06/default.png",
+              "sha256": "f22f36205a2160c4ddf14f1478a9e01d2315fa7dfb9fd3dd3bf104c687836a9a",
+              "bytes": 652856,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "W/06/pixel.png",
+              "sha256": "7b8763feb0780ff48d614d434ee848e1a08fc8d807d35da433783736100f7322",
+              "bytes": 7369,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "f22f36205a2160c4ddf14f1478a9e01d2315fa7dfb9fd3dd3bf104c687836a9a",
+              "visibleColors": 32
+            }
+          }
+        }
+      ],
+      "status": "REVIEW_12_SLOTS",
+      "mappingCaveat": "working projected mapping; cross-direction anatomical sync unverified"
+    },
+    "NW": {
+      "sourceNormalSha256": "64304d81690a9a49fbad8d0df803a698f17fc7b661ed043bc730618d6ed19413",
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "large lower-right foreground foot",
+          "assets": {
+            "normal": {
+              "path": "NW/01/default.png",
+              "sha256": "131a7d0205a8161c4962a87052cb5a0e5c0c86488722bf0c6209ea8f2a3c1ccc",
+              "bytes": 707560,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NW/01/pixel.png",
+              "sha256": "0602550144f674654060dd1122983cacc637b5333650ba508113beae6ded375e",
+              "bytes": 9479,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "131a7d0205a8161c4962a87052cb5a0e5c0c86488722bf0c6209ea8f2a3c1ccc",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "NW/02/default.png",
+              "sha256": "64304d81690a9a49fbad8d0df803a698f17fc7b661ed043bc730618d6ed19413",
+              "bytes": 709922,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NW/02/pixel.png",
+              "sha256": "8f34e8a771076f109e84df38390a0964694e34d3e3c26fd9cf137e64b6cce767",
+              "bytes": 9277,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "64304d81690a9a49fbad8d0df803a698f17fc7b661ed043bc730618d6ed19413",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "small middle foot",
+          "assets": {
+            "normal": {
+              "path": "NW/03/default.png",
+              "sha256": "a255ad9479a7ec2c7a3510cb7202b3249edfbd8d5ea882056b674b275c234039",
+              "bytes": 678853,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NW/03/pixel.png",
+              "sha256": "2fb3366a41fb8995204c4c991808bd0bad687828f5812c0e90964d2b40cd24fa",
+              "bytes": 8560,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "a255ad9479a7ec2c7a3510cb7202b3249edfbd8d5ea882056b674b275c234039",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "NW/04/default.png",
+              "sha256": "64304d81690a9a49fbad8d0df803a698f17fc7b661ed043bc730618d6ed19413",
+              "bytes": 709922,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NW/04/pixel.png",
+              "sha256": "8f34e8a771076f109e84df38390a0964694e34d3e3c26fd9cf137e64b6cce767",
+              "bytes": 9277,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "64304d81690a9a49fbad8d0df803a698f17fc7b661ed043bc730618d6ed19413",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "screenLeft foot",
+          "assets": {
+            "normal": {
+              "path": "NW/05/default.png",
+              "sha256": "dc29f3c6c1e49cac35f86825965216466288d6012cbb4573ff79d54579cc232f",
+              "bytes": 689717,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NW/05/pixel.png",
+              "sha256": "d3b05da6c21a694a60772683cd473a4fb304e7f8ff2564d6d46d3c229a88e83b",
+              "bytes": 9053,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "dc29f3c6c1e49cac35f86825965216466288d6012cbb4573ff79d54579cc232f",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "NW/06/default.png",
+              "sha256": "64304d81690a9a49fbad8d0df803a698f17fc7b661ed043bc730618d6ed19413",
+              "bytes": 709922,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NW/06/pixel.png",
+              "sha256": "8f34e8a771076f109e84df38390a0964694e34d3e3c26fd9cf137e64b6cce767",
+              "bytes": 9277,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "64304d81690a9a49fbad8d0df803a698f17fc7b661ed043bc730618d6ed19413",
+              "visibleColors": 32
+            }
+          }
+        }
+      ],
+      "status": "REVIEW_12_SLOTS",
+      "mappingCaveat": "working projected mapping; cross-direction anatomical sync unverified"
+    },
+    "N": {
+      "sourceNormalSha256": "76bab95438a1d8f855cc7523775390fee38f0abf9b3a5955d01bf7986b2fc87c",
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "central foot",
+          "assets": {
+            "normal": {
+              "path": "N/01/default.png",
+              "sha256": "49d3e79cdc9ddbbec4269f21d4ae46db4158b4cb1447ca492be7398bcd14781d",
+              "bytes": 710318,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "N/01/pixel.png",
+              "sha256": "075ab901af9bd45502f79d5911e409e298961c9f13e2530018deba350daa2dd0",
+              "bytes": 9201,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "49d3e79cdc9ddbbec4269f21d4ae46db4158b4cb1447ca492be7398bcd14781d",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "N/02/default.png",
+              "sha256": "76bab95438a1d8f855cc7523775390fee38f0abf9b3a5955d01bf7986b2fc87c",
+              "bytes": 743492,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "N/02/pixel.png",
+              "sha256": "0e955a2dcb4e0dc188042a07f7b784fccfb96dce38087d7f1bc6bef1b1591121",
+              "bytes": 8783,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "76bab95438a1d8f855cc7523775390fee38f0abf9b3a5955d01bf7986b2fc87c",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "screenLeft foot",
+          "assets": {
+            "normal": {
+              "path": "N/03/default.png",
+              "sha256": "82a029bc6a933e4d0dd769beffb752cf552a9135dbade1694e21168d061fe47f",
+              "bytes": 722530,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "N/03/pixel.png",
+              "sha256": "83cccb8c58c829ad9a5a78aa476987fac0475795c37d5aac22ce4db5a500effd",
+              "bytes": 9673,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "82a029bc6a933e4d0dd769beffb752cf552a9135dbade1694e21168d061fe47f",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "N/04/default.png",
+              "sha256": "76bab95438a1d8f855cc7523775390fee38f0abf9b3a5955d01bf7986b2fc87c",
+              "bytes": 743492,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "N/04/pixel.png",
+              "sha256": "0e955a2dcb4e0dc188042a07f7b784fccfb96dce38087d7f1bc6bef1b1591121",
+              "bytes": 8783,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "76bab95438a1d8f855cc7523775390fee38f0abf9b3a5955d01bf7986b2fc87c",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "screenRight foot",
+          "assets": {
+            "normal": {
+              "path": "N/05/default.png",
+              "sha256": "ddbf85334fabc18c0daac5fe9c216b41cce51935176d374329437669925d0f28",
+              "bytes": 717001,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "N/05/pixel.png",
+              "sha256": "8edae24f8c7d6599c69becfd2d2debe9e51d9729fe424154e5966d2ef19ab07e",
+              "bytes": 8810,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "ddbf85334fabc18c0daac5fe9c216b41cce51935176d374329437669925d0f28",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "N/06/default.png",
+              "sha256": "76bab95438a1d8f855cc7523775390fee38f0abf9b3a5955d01bf7986b2fc87c",
+              "bytes": 743492,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "N/06/pixel.png",
+              "sha256": "0e955a2dcb4e0dc188042a07f7b784fccfb96dce38087d7f1bc6bef1b1591121",
+              "bytes": 8783,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "76bab95438a1d8f855cc7523775390fee38f0abf9b3a5955d01bf7986b2fc87c",
+              "visibleColors": 29
+            }
+          }
+        }
+      ],
+      "status": "REVIEW_12_SLOTS",
+      "mappingCaveat": "working projected mapping; cross-direction anatomical sync unverified"
+    },
+    "NE": {
+      "sourceNormalSha256": "13c7f7b7d731c7379a520110e023cd6a1596469fa035d36e836d6ac667e51260",
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "lower-left foreground foot",
+          "assets": {
+            "normal": {
+              "path": "NE/01/default.png",
+              "sha256": "9a18a57d3ef30d861bc14bf2826df3c37b171a7ce0200c31b5715aa10d21b652",
+              "bytes": 637278,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NE/01/pixel.png",
+              "sha256": "3d41d521df5089286be968e37070a4256b98db5c49bda2cf7a20fae777035a3e",
+              "bytes": 8700,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "9a18a57d3ef30d861bc14bf2826df3c37b171a7ce0200c31b5715aa10d21b652",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "NE/02/default.png",
+              "sha256": "13c7f7b7d731c7379a520110e023cd6a1596469fa035d36e836d6ac667e51260",
+              "bytes": 656396,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NE/02/pixel.png",
+              "sha256": "6acb78afa16734d0c2e366873d072289b454149a8d691cb4de6526e70a8a829d",
+              "bytes": 8781,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "13c7f7b7d731c7379a520110e023cd6a1596469fa035d36e836d6ac667e51260",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "small middle foot",
+          "assets": {
+            "normal": {
+              "path": "NE/03/default.png",
+              "sha256": "d9d72e53498387b9fc0cd7cb7d4de5c2b91bfd35b41b7beb9fbffa45483f0e95",
+              "bytes": 631148,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NE/03/pixel.png",
+              "sha256": "594222858a5b7fd0a824f6484e8d0ff1bef8c8e76f06ed86f63cddb4cade4e4b",
+              "bytes": 8401,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "d9d72e53498387b9fc0cd7cb7d4de5c2b91bfd35b41b7beb9fbffa45483f0e95",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "NE/04/default.png",
+              "sha256": "13c7f7b7d731c7379a520110e023cd6a1596469fa035d36e836d6ac667e51260",
+              "bytes": 656396,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NE/04/pixel.png",
+              "sha256": "6acb78afa16734d0c2e366873d072289b454149a8d691cb4de6526e70a8a829d",
+              "bytes": 8781,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "13c7f7b7d731c7379a520110e023cd6a1596469fa035d36e836d6ac667e51260",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "right foot",
+          "assets": {
+            "normal": {
+              "path": "NE/05/default.png",
+              "sha256": "8d1ea1a69bcbe1473321b598b0da291b9b2c89d0a8f747332bbc7c8dec4cfda4",
+              "bytes": 635847,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NE/05/pixel.png",
+              "sha256": "d3b822eb8d492132c1b2923ea37178a150a4f72907b95f120b39aa28212cb09f",
+              "bytes": 8389,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "8d1ea1a69bcbe1473321b598b0da291b9b2c89d0a8f747332bbc7c8dec4cfda4",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "NE/06/default.png",
+              "sha256": "13c7f7b7d731c7379a520110e023cd6a1596469fa035d36e836d6ac667e51260",
+              "bytes": 656396,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NE/06/pixel.png",
+              "sha256": "6acb78afa16734d0c2e366873d072289b454149a8d691cb4de6526e70a8a829d",
+              "bytes": 8781,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "13c7f7b7d731c7379a520110e023cd6a1596469fa035d36e836d6ac667e51260",
+              "visibleColors": 31
+            }
+          }
+        }
+      ],
+      "status": "REVIEW_12_SLOTS",
+      "mappingCaveat": "working projected mapping; cross-direction anatomical sync unverified"
+    },
+    "E": {
+      "sourceNormalSha256": "703c65db10d09c9476360024c16042b8a26216e55635f2e97b202ba9c72752e1",
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "lower-right foreground foot",
+          "assets": {
+            "normal": {
+              "path": "E/01/default.png",
+              "sha256": "e9b5e61d45d00984671c06eadeac05814e3041842fa4a51f04568a5bb89dbe41",
+              "bytes": 661947,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "E/01/pixel.png",
+              "sha256": "91498b529f05e9ac08d4c83b021058bb37a3f88b926504a6cfdeaf3378bcd7cc",
+              "bytes": 8918,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "e9b5e61d45d00984671c06eadeac05814e3041842fa4a51f04568a5bb89dbe41",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "E/02/default.png",
+              "sha256": "703c65db10d09c9476360024c16042b8a26216e55635f2e97b202ba9c72752e1",
+              "bytes": 712595,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "E/02/pixel.png",
+              "sha256": "f78a568f18ad861b93b18aac25752d36c70802292c8c5925cfa35435596cff38",
+              "bytes": 8720,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "703c65db10d09c9476360024c16042b8a26216e55635f2e97b202ba9c72752e1",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "small middle foot",
+          "assets": {
+            "normal": {
+              "path": "E/03/default.png",
+              "sha256": "aeef00100ddfc3f468c2505f6a78695809bef668138a3d6777cad23b0f8dba6a",
+              "bytes": 684305,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "E/03/pixel.png",
+              "sha256": "9cc5544f7ce6f9b7302a2e5e72ea3d434553aa78993855207438f5faaf4f1b0c",
+              "bytes": 7835,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "aeef00100ddfc3f468c2505f6a78695809bef668138a3d6777cad23b0f8dba6a",
+              "visibleColors": 28
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "E/04/default.png",
+              "sha256": "703c65db10d09c9476360024c16042b8a26216e55635f2e97b202ba9c72752e1",
+              "bytes": 712595,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "E/04/pixel.png",
+              "sha256": "f78a568f18ad861b93b18aac25752d36c70802292c8c5925cfa35435596cff38",
+              "bytes": 8720,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "703c65db10d09c9476360024c16042b8a26216e55635f2e97b202ba9c72752e1",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "left foot",
+          "assets": {
+            "normal": {
+              "path": "E/05/default.png",
+              "sha256": "5d44d0126fd4a34dac40034ea67298907592f89bb97bab560a14f5dbcc867cc5",
+              "bytes": 681703,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "E/05/pixel.png",
+              "sha256": "43a5540aba9f85ac8c65912d16402fd6b590e202de74e12bc2460b4a4301c02e",
+              "bytes": 7691,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "5d44d0126fd4a34dac40034ea67298907592f89bb97bab560a14f5dbcc867cc5",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "E/06/default.png",
+              "sha256": "703c65db10d09c9476360024c16042b8a26216e55635f2e97b202ba9c72752e1",
+              "bytes": 712595,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "E/06/pixel.png",
+              "sha256": "f78a568f18ad861b93b18aac25752d36c70802292c8c5925cfa35435596cff38",
+              "bytes": 8720,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "703c65db10d09c9476360024c16042b8a26216e55635f2e97b202ba9c72752e1",
+              "visibleColors": 29
+            }
+          }
+        }
+      ],
+      "status": "REVIEW_12_SLOTS",
+      "mappingCaveat": "working projected mapping; cross-direction anatomical sync unverified"
+    },
+    "SE": {
+      "sourceNormalSha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "lower-right foreground foot",
+          "assets": {
+            "normal": {
+              "path": "SE/01/default.png",
+              "sha256": "412ccff2fac8b1e60bacb3d8a68195ee5654d513622526429288054ca96d0917",
+              "bytes": 752076,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SE/01/pixel.png",
+              "sha256": "ef6368286aabf518bcec3ac26b3e4932fb35ff7598be484d50ae76e8fec5d309",
+              "bytes": 10008,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "412ccff2fac8b1e60bacb3d8a68195ee5654d513622526429288054ca96d0917",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "SE/02/default.png",
+              "sha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+              "bytes": 822140,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SE/02/pixel.png",
+              "sha256": "f79d9ba90a5a09025e0958c74eaaddc63e651e9b9c6bfc385d2116d4ca923a29",
+              "bytes": 10134,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "small middle foot",
+          "assets": {
+            "normal": {
+              "path": "SE/03/default.png",
+              "sha256": "de398fa234eef525a15c5ab2bc82619087183e1c5502f11cf986c65f0a236487",
+              "bytes": 761279,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SE/03/pixel.png",
+              "sha256": "07cad3b0411847b9308bd2f1a5eb530f935fbe0cd02ff3eb6d6b9041e1d346f6",
+              "bytes": 9582,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "de398fa234eef525a15c5ab2bc82619087183e1c5502f11cf986c65f0a236487",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "SE/04/default.png",
+              "sha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+              "bytes": 822140,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SE/04/pixel.png",
+              "sha256": "f79d9ba90a5a09025e0958c74eaaddc63e651e9b9c6bfc385d2116d4ca923a29",
+              "bytes": 10134,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "left foot",
+          "assets": {
+            "normal": {
+              "path": "SE/05/default.png",
+              "sha256": "39bded07f98d78945028f5a8a1da23e8865c3001b80f8e6c2cfe480dc5e03c0e",
+              "bytes": 778209,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SE/05/pixel.png",
+              "sha256": "738e835ea371eda5fab4dae219bda8e86440408ee5e2bd0607248c956a90f0df",
+              "bytes": 8994,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "39bded07f98d78945028f5a8a1da23e8865c3001b80f8e6c2cfe480dc5e03c0e",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "SE/06/default.png",
+              "sha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+              "bytes": 822140,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SE/06/pixel.png",
+              "sha256": "f79d9ba90a5a09025e0958c74eaaddc63e651e9b9c6bfc385d2116d4ca923a29",
+              "bytes": 10134,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+              "visibleColors": 29
+            }
+          }
+        }
+      ],
+      "status": "REVIEW_12_SLOTS",
+      "mappingCaveat": "working projected mapping; cross-direction anatomical sync unverified"
+    }
+  },
+  "frames": [
+    {
+      "index": 1,
+      "durationMs": 160,
+      "phase": "single-foot recovery",
+      "swingFoot": "central pointed foot recovery",
+      "assets": {
+        "normal": {
+          "path": "S/01/default.png",
+          "sha256": "792878024839c31ba41cdc5452f9736298fe1fde16ce14aa105c8facef131f0d",
+          "bytes": 692285,
+          "sourceKind": "new_generation"
+        },
+        "pixel": {
+          "path": "S/01/pixel.png",
+          "sha256": "dd29d8cf7371057e4593c7c72e47e4d028b39c26db1f918f7bef0f1ddab715e4",
+          "bytes": 9571,
+          "sourceKind": "new_generation",
+          "parentNormalSha256": "792878024839c31ba41cdc5452f9736298fe1fde16ce14aa105c8facef131f0d",
+          "visibleColors": 32
+        }
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 160,
+      "phase": "contact",
+      "swingFoot": "none",
+      "assets": {
+        "normal": {
+          "path": "S/02/default.png",
+          "sha256": "d4703ba9cacb7e73d2cac29ec2462e85ed9175653994456aec05f494d6b41899",
+          "bytes": 721875,
+          "sourceKind": "verified_reuse"
+        },
+        "pixel": {
+          "path": "S/02/pixel.png",
+          "sha256": "e15ee091e1166129887af9c3bf636e2c11e5f07ae6a70d7200d77190fcc32a1e",
+          "bytes": 8698,
+          "sourceKind": "new_generation",
+          "parentNormalSha256": "d4703ba9cacb7e73d2cac29ec2462e85ed9175653994456aec05f494d6b41899",
+          "visibleColors": 31
+        }
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 160,
+      "phase": "single-foot recovery",
+      "swingFoot": "screenLeft recovery",
+      "assets": {
+        "normal": {
+          "path": "S/03/default.png",
+          "sha256": "839357a9c2d32fe87c069182d2696e551ba94679d08d68bf5bb4fbfb7edc23dc",
+          "bytes": 702571,
+          "sourceKind": "new_generation"
+        },
+        "pixel": {
+          "path": "S/03/pixel.png",
+          "sha256": "ac1d94501b21fdce14c9256ca15f69a6cbda51474fbf90b7f77de101c7b57747",
+          "bytes": 8832,
+          "sourceKind": "new_generation",
+          "parentNormalSha256": "839357a9c2d32fe87c069182d2696e551ba94679d08d68bf5bb4fbfb7edc23dc",
+          "visibleColors": 32
+        }
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 160,
+      "phase": "contact",
+      "swingFoot": "none",
+      "assets": {
+        "normal": {
+          "path": "S/04/default.png",
+          "sha256": "d4703ba9cacb7e73d2cac29ec2462e85ed9175653994456aec05f494d6b41899",
+          "bytes": 721875,
+          "sourceKind": "verified_reuse"
+        },
+        "pixel": {
+          "path": "S/04/pixel.png",
+          "sha256": "e15ee091e1166129887af9c3bf636e2c11e5f07ae6a70d7200d77190fcc32a1e",
+          "bytes": 8698,
+          "sourceKind": "verified_reuse",
+          "parentNormalSha256": "d4703ba9cacb7e73d2cac29ec2462e85ed9175653994456aec05f494d6b41899",
+          "visibleColors": 31
+        }
+      }
+    },
+    {
+      "index": 5,
+      "durationMs": 160,
+      "phase": "single-foot recovery",
+      "swingFoot": "screenRight recovery",
+      "assets": {
+        "normal": {
+          "path": "S/05/default.png",
+          "sha256": "4cad3c95f6b1ac55eb27a9b9d546e221daa626bcdc9e202183f9a6e0bd762c0d",
+          "bytes": 707123,
+          "sourceKind": "new_generation"
+        },
+        "pixel": {
+          "path": "S/05/pixel.png",
+          "sha256": "8655e7c6b59813bc96a6985a05407cce4c3755ddee501e8b5e11cc401eda24be",
+          "bytes": 8745,
+          "sourceKind": "new_generation",
+          "parentNormalSha256": "4cad3c95f6b1ac55eb27a9b9d546e221daa626bcdc9e202183f9a6e0bd762c0d",
+          "visibleColors": 32
+        }
+      }
+    },
+    {
+      "index": 6,
+      "durationMs": 160,
+      "phase": "contact",
+      "swingFoot": "none",
+      "assets": {
+        "normal": {
+          "path": "S/06/default.png",
+          "sha256": "d4703ba9cacb7e73d2cac29ec2462e85ed9175653994456aec05f494d6b41899",
+          "bytes": 721875,
+          "sourceKind": "verified_reuse"
+        },
+        "pixel": {
+          "path": "S/06/pixel.png",
+          "sha256": "e15ee091e1166129887af9c3bf636e2c11e5f07ae6a70d7200d77190fcc32a1e",
+          "bytes": 8698,
+          "sourceKind": "verified_reuse",
+          "parentNormalSha256": "d4703ba9cacb7e73d2cac29ec2462e85ed9175653994456aec05f494d6b41899",
+          "visibleColors": 31
+        }
+      }
+    }
+  ]
+}
