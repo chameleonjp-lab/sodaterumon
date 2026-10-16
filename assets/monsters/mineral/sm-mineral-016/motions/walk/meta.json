@@ -7,7 +7,8 @@
   "directionsIncluded": [
     "S",
     "NE",
-    "N"
+    "N",
+    "NW"
   ],
   "frameCountPerDirection": 6,
   "frameDurationMs": 160,
@@ -1122,6 +1123,326 @@
         "residualCaveats": [
           "Pixel03 has fewer grain specks and different shading from neutral frames.",
           "Central far-foot recovery is subtle and partly occluded at128px.",
+          "Hole simplification and small support differences remain.",
+          "Static closure is not dynamic smoothness or all-eight-direction completion."
+        ]
+      }
+    },
+    "NW": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "swingFootProjected": "screenLeft",
+          "assets": {
+            "normal": {
+              "path": "NW/01/default.png",
+              "sha256": "cd380a48f72904e89cac7f0a050adff9668751aaac59d958c78828657a1a97ee",
+              "bytes": 798159,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NW/01/pixel.png",
+              "sha256": "0004a83102cf7f0d7e8aef1a346af096bbace77a98a36a7887f1738095c0e8d3",
+              "bytes": 10124,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "cd380a48f72904e89cac7f0a050adff9668751aaac59d958c78828657a1a97ee",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "NW/02/default.png",
+              "sha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96",
+              "bytes": 876686,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NW/02/pixel.png",
+              "sha256": "3744a6abb3891ac18e06bb61cb9282f8029fa812fab9f4502a9d517554ce3a34",
+              "bytes": 11600,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "swingFootProjected": "centerForeground",
+          "assets": {
+            "normal": {
+              "path": "NW/03/default.png",
+              "sha256": "345fd3d17f10e775a579b41d54894a8f73af784530349f2f53a1ffdeafc0cac2",
+              "bytes": 800326,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NW/03/pixel.png",
+              "sha256": "94b801db120010e8d5cff16b9ee5ba2cd367dbfbc826256a8e85f6a78ce38998",
+              "bytes": 6600,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "345fd3d17f10e775a579b41d54894a8f73af784530349f2f53a1ffdeafc0cac2",
+              "visibleColors": 27
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "NW/04/default.png",
+              "sha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96",
+              "bytes": 876686,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NW/04/pixel.png",
+              "sha256": "3744a6abb3891ac18e06bb61cb9282f8029fa812fab9f4502a9d517554ce3a34",
+              "bytes": 11600,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "swingFootProjected": "screenRight",
+          "assets": {
+            "normal": {
+              "path": "NW/05/default.png",
+              "sha256": "c17f336df448694a7c774db88ecebffcc8d48c8ad5f04d35368062efeef474c3",
+              "bytes": 803803,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "NW/05/pixel.png",
+              "sha256": "6f3e905eaf4a8b528d3e3a7cf859cacc06adc1afef1051648adad8db0583b81f",
+              "bytes": 6582,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "c17f336df448694a7c774db88ecebffcc8d48c8ad5f04d35368062efeef474c3",
+              "visibleColors": 25
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "swingFootProjected": "none",
+          "assets": {
+            "normal": {
+              "path": "NW/06/default.png",
+              "sha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96",
+              "bytes": 876686,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "NW/06/pixel.png",
+              "sha256": "3744a6abb3891ac18e06bb61cb9282f8029fa812fab9f4502a9d517554ce3a34",
+              "bytes": 11600,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96",
+              "visibleColors": 29
+            }
+          }
+        }
+      ],
+      "designReference": {
+        "repositoryPath": "assets/monsters/mineral/sm-mineral-016/directions/NW/default.png",
+        "commit": "1cf08dd9c4b0b23bbd77b7e17d01ac8b9b4eae24",
+        "sha256": "7522121fbf2c1262f06bdea2f4bc78abaaf001a782698d0b650f15d579a14a96"
+      },
+      "sharedPixelPalette": [
+        [
+          242,
+          185,
+          147
+        ],
+        [
+          235,
+          174,
+          136
+        ],
+        [
+          236,
+          165,
+          121
+        ],
+        [
+          224,
+          165,
+          131
+        ],
+        [
+          232,
+          157,
+          113
+        ],
+        [
+          229,
+          150,
+          105
+        ],
+        [
+          218,
+          155,
+          120
+        ],
+        [
+          219,
+          148,
+          109
+        ],
+        [
+          225,
+          142,
+          98
+        ],
+        [
+          220,
+          141,
+          99
+        ],
+        [
+          218,
+          133,
+          90
+        ],
+        [
+          211,
+          135,
+          96
+        ],
+        [
+          211,
+          127,
+          86
+        ],
+        [
+          195,
+          133,
+          101
+        ],
+        [
+          207,
+          122,
+          81
+        ],
+        [
+          199,
+          120,
+          82
+        ],
+        [
+          196,
+          114,
+          76
+        ],
+        [
+          191,
+          109,
+          72
+        ],
+        [
+          178,
+          117,
+          89
+        ],
+        [
+          177,
+          108,
+          77
+        ],
+        [
+          176,
+          103,
+          70
+        ],
+        [
+          173,
+          97,
+          64
+        ],
+        [
+          160,
+          96,
+          68
+        ],
+        [
+          163,
+          92,
+          61
+        ],
+        [
+          158,
+          86,
+          58
+        ],
+        [
+          147,
+          86,
+          62
+        ],
+        [
+          135,
+          81,
+          57
+        ],
+        [
+          122,
+          66,
+          43
+        ],
+        [
+          88,
+          49,
+          32
+        ],
+        [
+          232,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          127
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "normalization": {
+        "normal": "whole1254->1024 LANCZOS; disconnected alpha<=2 speck cleanup",
+        "pixel": "whole max-edge transparent pad ->124 NEAREST,offset2,1,fixed palette,binary alpha; phase01 additional whole Y+2; phase03/05 whole Y+1 support registration",
+        "perFrameBodyFit": false
+      },
+      "reuseAccounting": {
+        "logicalImageSlots": 12,
+        "newGeneratedAdoptedSlots": 7,
+        "verifiedReuseSlots": 5
+      },
+      "qa": {
+        "status": "LIMITED_OFFLINE_STATIC_CYCLE_PASS",
+        "scope": "NW six-phase ordered still sequence 01-02-03-04-05-06-01",
+        "continuousPlaybackVisualReview": "not performed",
+        "gameRuntime": "not tested",
+        "crossDirectionPhaseCorrespondence": "not verified; projected foot order is a working mapping",
+        "residualCaveats": [
+          "Pixel03 and05 have fewer grain specks and different shading from neutral frames.",
+          "Recovery support differences and hole simplification remain at128px.",
           "Hole simplification and small support differences remain.",
           "Static closure is not dynamic smoothness or all-eight-direction completion."
         ]
