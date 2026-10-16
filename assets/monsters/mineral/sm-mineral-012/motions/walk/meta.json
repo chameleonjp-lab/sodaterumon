@@ -22,7 +22,7 @@
     128
   ],
   "pixelAlpha": "binary",
-  "status": "PARTIAL53_OWNER_REVIEW_CANDIDATES",
+  "status": "PARTIAL54_OWNER_REVIEW_CANDIDATES",
   "qualityCaveats": [
     "Review candidates, not final animation PASS",
     "Static pair/loop sheets inspected; continuous playback/runtime unverified",
@@ -31,7 +31,6 @@
     "Whole-canvas pixel scale fixed per direction before first pair adoption; no local warping/per-frame scale fitting"
   ],
   "missing": {
-    "W03pixel": "quality HOLD: planted foot compression/support mismatch",
     "N01pixel": "generation safety rejection; no retry",
     "N02-N04": "dependent production paused after safety rejection",
     "SE02pixel/03pixel/04pixel": "quality HOLD: scale/support mismatch"
@@ -292,6 +291,15 @@
               "bytes": 546570,
               "sourceKind": "new_generation",
               "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "W/03/pixel.png",
+              "sha256": "6b9cb5c6585a38815d86f17cfbc0b52e2c7a4f57664412d9d41bcdfb2d74cd83",
+              "bytes": 8521,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "8647701cd48f35417e0bc2c952af56e484da7ebf1d8ebf4c5ba25320ec8f48a4",
+              "visibleColors": 32
             }
           }
         },
@@ -320,7 +328,7 @@
         }
       ],
       "sourceNormalSha256": "6dc5420f5bd4c62ad1b133f617b18b6d2922246d233a986c8ca2f1a15ccdaab4",
-      "reviewSlotCount": 7
+      "reviewSlotCount": 8
     },
     "NW": {
       "frames": [
