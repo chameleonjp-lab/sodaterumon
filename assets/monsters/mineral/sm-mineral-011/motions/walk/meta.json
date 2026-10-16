@@ -11,7 +11,8 @@
     "NW",
     "N",
     "NE",
-    "E"
+    "E",
+    "SE"
   ],
   "frameCountPerDirection": 6,
   "frameDurationMs": 160,
@@ -33,20 +34,19 @@
     128
   ],
   "pixelAlpha": "binary",
-  "status": "PARTIAL_REVIEW_CANDIDATES_OWNER_JUDGMENT_PENDING",
-  "missing": [
-    "N/01/pixel.png",
-    "SE all12 slots"
-  ],
+  "status": "ALL96_REVIEW_CANDIDATES_OWNER_JUDGMENT_PENDING",
+  "missing": [],
   "qualityCaveats": [
     "Review candidates only; not final animation approval",
-    "N01 pixel held for elongated support feet; no substitution included",
+    "N01 replaced by smaller full-volume central recovery pivot and same-normal pixel with whole-frame Y-3 support registration; upper body3px high; old candidates retained",
     "NW03 pixel body narrower than contact frames; scale consistency needs review",
     "Some swing pivots and foreshortening are larger/asymmetric; body intended rigid",
     "Pixel patches, pale-face brightness, outline thickness and support registration vary",
     "NE all pixel phases use common whole-canvas Y=-3 registration; no local warping",
     "Cross-direction anatomical foot synchronization unverified",
-    "Static individual/pair/loop contact sheets inspected; continuous playback and runtime not tested"
+    "Static individual/pair/loop contact sheets inspected; continuous playback and runtime not tested",
+    "SE uses fixed124px whole-canvas pixel export; phase03 receives whole-frameY+2 support registration; scale never varied per phase",
+    "SE direction is the existing static root source and remains estimated"
   ],
   "directions": {
     "S": {
@@ -616,9 +616,17 @@
           "assets": {
             "normal": {
               "path": "N/01/default.png",
-              "sha256": "89c76e0e36e76e58ffeafb0b488b05f0c3b01c93a6e71641e72ad4b8261f5229",
-              "bytes": 728756,
+              "sha256": "49d3e79cdc9ddbbec4269f21d4ae46db4158b4cb1447ca492be7398bcd14781d",
+              "bytes": 710318,
               "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "N/01/pixel.png",
+              "sha256": "075ab901af9bd45502f79d5911e409e298961c9f13e2530018deba350daa2dd0",
+              "bytes": 9201,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "49d3e79cdc9ddbbec4269f21d4ae46db4158b4cb1447ca492be7398bcd14781d",
+              "visibleColors": 30
             }
           }
         },
@@ -733,7 +741,7 @@
           }
         }
       ],
-      "status": "PARTIAL_11_SLOTS",
+      "status": "REVIEW_12_SLOTS",
       "mappingCaveat": "working projected mapping; cross-direction anatomical sync unverified"
     },
     "NE": {
@@ -1006,6 +1014,145 @@
               "bytes": 8720,
               "sourceKind": "verified_reuse",
               "parentNormalSha256": "703c65db10d09c9476360024c16042b8a26216e55635f2e97b202ba9c72752e1",
+              "visibleColors": 29
+            }
+          }
+        }
+      ],
+      "status": "REVIEW_12_SLOTS",
+      "mappingCaveat": "working projected mapping; cross-direction anatomical sync unverified"
+    },
+    "SE": {
+      "sourceNormalSha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "lower-right foreground foot",
+          "assets": {
+            "normal": {
+              "path": "SE/01/default.png",
+              "sha256": "412ccff2fac8b1e60bacb3d8a68195ee5654d513622526429288054ca96d0917",
+              "bytes": 752076,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SE/01/pixel.png",
+              "sha256": "ef6368286aabf518bcec3ac26b3e4932fb35ff7598be484d50ae76e8fec5d309",
+              "bytes": 10008,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "412ccff2fac8b1e60bacb3d8a68195ee5654d513622526429288054ca96d0917",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "SE/02/default.png",
+              "sha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+              "bytes": 822140,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SE/02/pixel.png",
+              "sha256": "f79d9ba90a5a09025e0958c74eaaddc63e651e9b9c6bfc385d2116d4ca923a29",
+              "bytes": 10134,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "small middle foot",
+          "assets": {
+            "normal": {
+              "path": "SE/03/default.png",
+              "sha256": "de398fa234eef525a15c5ab2bc82619087183e1c5502f11cf986c65f0a236487",
+              "bytes": 761279,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SE/03/pixel.png",
+              "sha256": "07cad3b0411847b9308bd2f1a5eb530f935fbe0cd02ff3eb6d6b9041e1d346f6",
+              "bytes": 9582,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "de398fa234eef525a15c5ab2bc82619087183e1c5502f11cf986c65f0a236487",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "SE/04/default.png",
+              "sha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+              "bytes": 822140,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SE/04/pixel.png",
+              "sha256": "f79d9ba90a5a09025e0958c74eaaddc63e651e9b9c6bfc385d2116d4ca923a29",
+              "bytes": 10134,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "phase": "single-foot recovery",
+          "swingFoot": "left foot",
+          "assets": {
+            "normal": {
+              "path": "SE/05/default.png",
+              "sha256": "39bded07f98d78945028f5a8a1da23e8865c3001b80f8e6c2cfe480dc5e03c0e",
+              "bytes": 778209,
+              "sourceKind": "new_generation"
+            },
+            "pixel": {
+              "path": "SE/05/pixel.png",
+              "sha256": "738e835ea371eda5fab4dae219bda8e86440408ee5e2bd0607248c956a90f0df",
+              "bytes": 8994,
+              "sourceKind": "new_generation",
+              "parentNormalSha256": "39bded07f98d78945028f5a8a1da23e8865c3001b80f8e6c2cfe480dc5e03c0e",
+              "visibleColors": 29
+            }
+          }
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "phase": "contact",
+          "swingFoot": "none",
+          "assets": {
+            "normal": {
+              "path": "SE/06/default.png",
+              "sha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
+              "bytes": 822140,
+              "sourceKind": "verified_reuse"
+            },
+            "pixel": {
+              "path": "SE/06/pixel.png",
+              "sha256": "f79d9ba90a5a09025e0958c74eaaddc63e651e9b9c6bfc385d2116d4ca923a29",
+              "bytes": 10134,
+              "sourceKind": "verified_reuse",
+              "parentNormalSha256": "1debf129d24773a0f6277abb8c6a5b100b48bddc1ac3c65855e3a471642a33d4",
               "visibleColors": 29
             }
           }
