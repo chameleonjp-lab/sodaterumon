@@ -21,7 +21,7 @@
     128
   ],
   "pixelAlpha": "binary",
-  "status": "PARTIAL48_OWNER_REVIEW_CANDIDATES_QUALITY_HOLDS",
+  "status": "PARTIAL56_OWNER_REVIEW_CANDIDATES_QUALITY_HOLDS",
   "directions": {
     "S": {
       "frames": [
@@ -636,6 +636,104 @@
       ],
       "sourceNormalSha256": "e4d1a8e3b8ab83fbd089c56e549d9b56a16af8cee44ddc78bd8baef1684c9741",
       "reviewSlotCount": 8
+    },
+    "SE": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 200,
+          "phase": "diagonal-pair recovery",
+          "assets": {
+            "normal": {
+              "path": "SE/01/default.png",
+              "sha256": "f537e224dc1efb27c1f6247e9ea82af44b65d5e22dd77af2525aa02620b5e2fd",
+              "bytes": 684346,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "SE/01/pixel.png",
+              "sha256": "29309de5239e96dd89f3b25ff7ef68ac9a32da7de05d01daf6009e32177156a3",
+              "bytes": 11775,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "f537e224dc1efb27c1f6247e9ea82af44b65d5e22dd77af2525aa02620b5e2fd",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 200,
+          "phase": "contact",
+          "assets": {
+            "normal": {
+              "path": "SE/02/default.png",
+              "sha256": "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a",
+              "bytes": 692384,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "SE/02/pixel.png",
+              "sha256": "8d83b686029d9fc03846489120d557173924b605f6461225a29b53b01d4707cb",
+              "bytes": 11450,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a",
+              "visibleColors": 30
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 200,
+          "phase": "diagonal-pair recovery",
+          "assets": {
+            "normal": {
+              "path": "SE/03/default.png",
+              "sha256": "bada4013c69fb597d2a970a83a717de9611dc683b46f0b3abce0f7123fb0310e",
+              "bytes": 672314,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "SE/03/pixel.png",
+              "sha256": "49b6a46e871c28a2af717f2bf86d17ccf7bbfc0ab07c27a2ba4d6464ed7853c7",
+              "bytes": 11339,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "bada4013c69fb597d2a970a83a717de9611dc683b46f0b3abce0f7123fb0310e",
+              "visibleColors": 31
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 200,
+          "phase": "contact",
+          "assets": {
+            "normal": {
+              "path": "SE/04/default.png",
+              "sha256": "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a",
+              "bytes": 692384,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "SE/04/pixel.png",
+              "sha256": "8d83b686029d9fc03846489120d557173924b605f6461225a29b53b01d4707cb",
+              "bytes": 11450,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a",
+              "visibleColors": 30
+            }
+          }
+        }
+      ],
+      "sourceNormalSha256": "697c68d80b28e6febd4029038e49acbebe72345a836e43a2087ee45502cef32a",
+      "reviewSlotCount": 8
     }
   },
   "frames": [
@@ -732,9 +830,7 @@
       }
     }
   ],
-  "missingDirections": [
-    "SE"
-  ],
+  "missingDirections": [],
   "holds": [
     {
       "direction": "NE",
@@ -775,7 +871,7 @@
     "Four eyes in2x2 grid, four broad feet, rigid shallow dish and smooth blue dorsal oval retained",
     "Diagonal recovery/contact readable; phase03 rear foot rotates outward and limb spread wider",
     "Pixel scale clusters/eye highlights/oval shading vary; support projections differ about1-2px",
-    "S/SW/NW commonpixel124+(2,1); W common128+(0,-2); N/NE common128+(0,0); E common124+(2,0); fixed palette per direction; same-normal sole references",
+    "S/SW/NW commonpixel124+(2,1); W common128+(0,-2); N/NE/SE common128+(0,0); E common124+(2,0); fixed palette per direction; same-normal sole references",
     "S contact04 exact02pair reuse; SW/W contact02/04 normal reuse only, unavailable pixels excluded",
     "SW foot volumes/scale clusters and W recovery tilt differ; no completed SW/W cycle claim; actual load transfer not measured; NE03pixel absent, E03pixel recovery shallow and supports2-4px lower than normal; far feet and crossdirection synchronization uncertain"
   ]
