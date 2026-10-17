@@ -21,7 +21,7 @@
     128
   ],
   "pixelAlpha": "binary",
-  "status": "PARTIAL8_OWNER_REVIEW_CANDIDATES",
+  "status": "PARTIAL16_OWNER_REVIEW_CANDIDATES",
   "directions": {
     "S": {
       "frames": [
@@ -120,6 +120,104 @@
       ],
       "sourceNormalSha256": "44eea43f861b7b1932c4c09e13199e0c9f1482ac1c3706f58bf196bcf6ad94c5",
       "reviewSlotCount": 8
+    },
+    "SW": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 200,
+          "phase": "left/right paired-foot recovery",
+          "assets": {
+            "normal": {
+              "path": "SW/01/default.png",
+              "sha256": "d9fc957fa7030ea9e1cf5f491b9ec15291f84a401a42dd268086554e2af6716b",
+              "bytes": 570557,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "SW/01/pixel.png",
+              "sha256": "ad0a76cd7fb43fef10199ec0a6edc309041687ac5db986062455bc1ac63d9783",
+              "bytes": 8628,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "d9fc957fa7030ea9e1cf5f491b9ec15291f84a401a42dd268086554e2af6716b",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 200,
+          "phase": "contact",
+          "assets": {
+            "normal": {
+              "path": "SW/02/default.png",
+              "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+              "bytes": 561016,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "SW/02/pixel.png",
+              "sha256": "8805e9c86d86135ca55c778b1a6a3e83415a2153cdc0114af6c8e8cb15ca1b99",
+              "bytes": 7956,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 200,
+          "phase": "left/right paired-foot recovery",
+          "assets": {
+            "normal": {
+              "path": "SW/03/default.png",
+              "sha256": "d57ef47399083ffee76448f3367d7d92514d2c33b97d2ac8ae04721f71c0d971",
+              "bytes": 537487,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "SW/03/pixel.png",
+              "sha256": "3cc04bbf838fa2b0c6ae94b998f19dfd10501cd82b5789a566ac844eefee3344",
+              "bytes": 8263,
+              "sourceKind": "new_generation",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "d57ef47399083ffee76448f3367d7d92514d2c33b97d2ac8ae04721f71c0d971",
+              "visibleColors": 32
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 200,
+          "phase": "contact",
+          "assets": {
+            "normal": {
+              "path": "SW/04/default.png",
+              "sha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+              "bytes": 561016,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "path": "SW/04/pixel.png",
+              "sha256": "8805e9c86d86135ca55c778b1a6a3e83415a2153cdc0114af6c8e8cb15ca1b99",
+              "bytes": 7956,
+              "sourceKind": "verified_reuse",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+              "visibleColors": 32
+            }
+          }
+        }
+      ],
+      "sourceNormalSha256": "8aeb74dbdcf184db05636c03b9a116f156f31da0a99288d645d6b7cc849de5ab",
+      "reviewSlotCount": 8
     }
   },
   "frames": [
@@ -217,7 +315,6 @@
     }
   ],
   "missingDirections": [
-    "SW",
     "W",
     "NW",
     "N",
@@ -231,6 +328,6 @@
     "Eyeless thin hexagonal plate, triangular window, three orange bands, two rear notches and four pointed legs retained",
     "Lateral paired-foot recovery/contact readable; phase03 recovery swings outward more than01",
     "Pixel pearly reflections and saturation vary; support tips differ about1-3px",
-    "Common pixel128+(0,0) and palette across all phases; same-normal sole references; contact02 source normal and04 exact02pair reuse; actual load transfer not measured"
+    "S common pixel128+(0,0), SW common124+(1,1) and palette across all phases; same-normal sole references; contact02 source normal and04 exact02pair reuse; actual load transfer not measured; SW03 curls more strongly than01 and pixel highlights vary"
   ]
 }
