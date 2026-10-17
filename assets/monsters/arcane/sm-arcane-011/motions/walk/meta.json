@@ -21,7 +21,7 @@
     128
   ],
   "pixelAlpha": "binary",
-  "status": "PARTIAL30_OWNER_REVIEW_CANDIDATES",
+  "status": "PARTIAL_REVIEW",
   "directions": {
     "S": {
       "frames": [
@@ -412,6 +412,346 @@
         "near-foot recovery bends strongly; direction synchronization unverified",
         "pixel saturated reflections vary; dynamic/runtime/crossdirection unverified"
       ]
+    },
+    "N": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "d7743972b93cce020748d9cd0b04998f7a1f651a0654d7480225c78836d4e2c1",
+              "bytes": 568743,
+              "sourceKind": "new_generation",
+              "path": "N/01/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "27b16bf9513ed4b14e64e743ecd7c8965744faf1630b860ed19975e700d43b2f",
+              "bytes": 8111,
+              "sourceKind": "new_generation",
+              "path": "N/01/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "d7743972b93cce020748d9cd0b04998f7a1f651a0654d7480225c78836d4e2c1"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "ae83160e6c63db0924be8931e72b06b1e20cd1740cc7522917a78cbd259cdaca",
+              "bytes": 565378,
+              "sourceKind": "new_generation",
+              "path": "N/02/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "f930f3a11b90f2f5cbc9a2bcee4158775aab13a5729601b6451c05b37ed33243",
+              "bytes": 6743,
+              "sourceKind": "new_generation",
+              "path": "N/02/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "ae83160e6c63db0924be8931e72b06b1e20cd1740cc7522917a78cbd259cdaca"
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "918743ea701bcbfe360a38f70773ee3532dffb562dc99055a33a564ab5ff7483",
+              "bytes": 565635,
+              "sourceKind": "new_generation",
+              "path": "N/03/default.png",
+              "status": "REVIEW_CANDIDATE"
+            }
+          },
+          "missingAssets": [
+            "pixel"
+          ]
+        },
+        {
+          "index": 4,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "ae83160e6c63db0924be8931e72b06b1e20cd1740cc7522917a78cbd259cdaca",
+              "bytes": 565378,
+              "sourceKind": "new_generation",
+              "path": "N/04/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "f930f3a11b90f2f5cbc9a2bcee4158775aab13a5729601b6451c05b37ed33243",
+              "bytes": 6743,
+              "sourceKind": "new_generation",
+              "path": "N/04/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "ae83160e6c63db0924be8931e72b06b1e20cd1740cc7522917a78cbd259cdaca"
+            }
+          }
+        }
+      ],
+      "reviewSlotCount": 7,
+      "status": "LIMITED_REVIEW_NOT_RUNTIME_PASS"
+    },
+    "NE": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "f3540cec8e2cb2d0b79a261621eca47054e16d05d86400e77f6bbf7002783461",
+              "bytes": 424170,
+              "sourceKind": "new_generation",
+              "path": "NE/01/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "5fa80bbd5c3556f2ad508a7956c37e5f7932a556bf782a9f847a15f134cd6191",
+              "bytes": 6569,
+              "sourceKind": "new_generation",
+              "path": "NE/01/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "f3540cec8e2cb2d0b79a261621eca47054e16d05d86400e77f6bbf7002783461"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "5ef7f5a8c5a23b69ce2586fdf666b27f478ea3aeb2af827f719abc49cf339528",
+              "bytes": 438165,
+              "sourceKind": "verified_reuse",
+              "path": "NE/02/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "2d8754c517bc25c3686c764d6eedb5b80d8623a133589a919dca27a22edd2c52",
+              "bytes": 6717,
+              "sourceKind": "new_generation",
+              "path": "NE/02/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "5ef7f5a8c5a23b69ce2586fdf666b27f478ea3aeb2af827f719abc49cf339528"
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "a3c13d770815f6fcb74b4b8435aba8058d0e2fc1983f67813d70380b5cb6e23d",
+              "bytes": 437289,
+              "sourceKind": "new_generation",
+              "path": "NE/03/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "d53a27bcbc727367bcc93290842baf7b4f5a287dc1f5ca914ea9449b3e3fd6bf",
+              "bytes": 6427,
+              "sourceKind": "new_generation",
+              "path": "NE/03/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "a3c13d770815f6fcb74b4b8435aba8058d0e2fc1983f67813d70380b5cb6e23d"
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "5ef7f5a8c5a23b69ce2586fdf666b27f478ea3aeb2af827f719abc49cf339528",
+              "bytes": 438165,
+              "sourceKind": "verified_reuse",
+              "path": "NE/04/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "2d8754c517bc25c3686c764d6eedb5b80d8623a133589a919dca27a22edd2c52",
+              "bytes": 6717,
+              "sourceKind": "verified_reuse",
+              "path": "NE/04/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "5ef7f5a8c5a23b69ce2586fdf666b27f478ea3aeb2af827f719abc49cf339528"
+            }
+          }
+        }
+      ],
+      "reviewSlotCount": 8,
+      "status": "LIMITED_REVIEW_NOT_RUNTIME_PASS"
+    },
+    "E": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "9d10d6d8223c8638841ab8adb07b0b9494b364ce6b06f28852669df93772b0e0",
+              "bytes": 463158,
+              "sourceKind": "new_generation",
+              "path": "E/01/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "5bac8faa74506c2463f375a89d4a09dfe7e01d2dd1e8e2398580cf47a534e632",
+              "bytes": 6942,
+              "sourceKind": "new_generation",
+              "path": "E/01/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "9d10d6d8223c8638841ab8adb07b0b9494b364ce6b06f28852669df93772b0e0"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "acc15634c37e91ab50fe9d5d8347a184dbf38c8bb664c4d156b6e17a9fa51330",
+              "bytes": 464453,
+              "sourceKind": "verified_reuse",
+              "path": "E/02/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "772c707fc31524c210f679ee640fd3831c060e6307155dd1a2cba967561aa35a",
+              "bytes": 7476,
+              "sourceKind": "new_generation",
+              "path": "E/02/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "acc15634c37e91ab50fe9d5d8347a184dbf38c8bb664c4d156b6e17a9fa51330"
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "2bca8bfee6b26a46312187596704521e54626322345f2f3fa15fea1077100c9a",
+              "bytes": 466788,
+              "sourceKind": "new_generation",
+              "path": "E/03/default.png",
+              "status": "REVIEW_CANDIDATE"
+            }
+          },
+          "missingAssets": [
+            "pixel"
+          ]
+        },
+        {
+          "index": 4,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "acc15634c37e91ab50fe9d5d8347a184dbf38c8bb664c4d156b6e17a9fa51330",
+              "bytes": 464453,
+              "sourceKind": "verified_reuse",
+              "path": "E/04/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "772c707fc31524c210f679ee640fd3831c060e6307155dd1a2cba967561aa35a",
+              "bytes": 7476,
+              "sourceKind": "verified_reuse",
+              "path": "E/04/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "acc15634c37e91ab50fe9d5d8347a184dbf38c8bb664c4d156b6e17a9fa51330"
+            }
+          }
+        }
+      ],
+      "reviewSlotCount": 7,
+      "status": "LIMITED_REVIEW_NOT_RUNTIME_PASS"
+    },
+    "SE": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "ed35934900dc01d13690ddb8751d9ba1f48bb44580daa9d8d10dca017dbd5d54",
+              "bytes": 515725,
+              "sourceKind": "new_generation",
+              "path": "SE/01/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "99d7f5ee92bf39750a1e1737fd132ba1e2c75e6e9117de7734bc5c7f7b576b81",
+              "bytes": 7802,
+              "sourceKind": "new_generation",
+              "path": "SE/01/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "ed35934900dc01d13690ddb8751d9ba1f48bb44580daa9d8d10dca017dbd5d54"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "fedd992728c6ca33c5c5aa7b22c6afd15de5ee50ef9d90331474b4ad86cb2988",
+              "bytes": 513528,
+              "sourceKind": "verified_reuse",
+              "path": "SE/02/default.png",
+              "status": "REVIEW_CANDIDATE"
+            }
+          },
+          "missingAssets": [
+            "pixel"
+          ]
+        },
+        {
+          "index": 3,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "80a4485e684ad610584e7b120626725ef3cf630ece68b4777f3cf587b78b4dd3",
+              "bytes": 523516,
+              "sourceKind": "new_generation",
+              "path": "SE/03/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "eb7d9793c2d48d6dddd9b4a39980485c897957cd9d64cc53a824774dd8461d96",
+              "bytes": 7539,
+              "sourceKind": "new_generation",
+              "path": "SE/03/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "80a4485e684ad610584e7b120626725ef3cf630ece68b4777f3cf587b78b4dd3"
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 200,
+          "assets": {
+            "normal": {
+              "sha256": "fedd992728c6ca33c5c5aa7b22c6afd15de5ee50ef9d90331474b4ad86cb2988",
+              "bytes": 513528,
+              "sourceKind": "verified_reuse",
+              "path": "SE/04/default.png",
+              "status": "REVIEW_CANDIDATE"
+            }
+          },
+          "missingAssets": [
+            "pixel"
+          ]
+        }
+      ],
+      "reviewSlotCount": 6,
+      "status": "LIMITED_REVIEW_NOT_RUNTIME_PASS"
     }
   },
   "frames": [
@@ -527,5 +867,32 @@
   "qualityHolds": [
     "W03pixel",
     "NW03pixel"
-  ]
+  ],
+  "reviewSummary": {
+    "qualityHold": {
+      "W": "03pixel scale",
+      "NW": "03pixel body depth/support",
+      "N": "03pixel scale/support",
+      "E": [
+        "03pixel scale/support"
+      ],
+      "SE": [
+        "02pixel scale",
+        "04pixel depends on02"
+      ]
+    },
+    "status": "PARTIAL_REVIEW",
+    "planned": 64,
+    "reviewImages": 58,
+    "missingImages": 6,
+    "continuousPlayback": "not_verified",
+    "inGameValidation": "not_run",
+    "finalUserAcceptance": "pending",
+    "crossDirectionSynchronization": "unverified",
+    "notes": [
+      "Existing originals retained. No game code changes.",
+      "Candidates have static visual and technical checks; scale/support/light texture caveats remain.",
+      "Direction-specific fixed wholecanvas normalization; no per-frame shape warping or bbox fit."
+    ]
+  }
 }

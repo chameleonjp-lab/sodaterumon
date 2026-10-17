@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-flora-005",
+  "motionId": "walk",
+  "framesPerDirection": 6,
+  "cycleMs": 960,
+  "directions": {
+    "S": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 160,
+          "assets": {
+            "normal": {
+              "sha256": "e2631f763537d8b53aacf2cf08e04eb56aaefa79bd3ad4696e2f7cac3c1551dd",
+              "bytes": 489027,
+              "sourceKind": "new_generation",
+              "path": "S/01/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "3c29f24641a6a91c4c710c050d4f7c12043c0600c3130fb33edee4cdb2691654",
+              "bytes": 9643,
+              "sourceKind": "new_generation",
+              "path": "S/01/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "e2631f763537d8b53aacf2cf08e04eb56aaefa79bd3ad4696e2f7cac3c1551dd"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 160,
+          "assets": {
+            "normal": {
+              "sha256": "10f0396a3d22723ebdc20602d7bced94f0b0bd2b33f5a45aba8a16b4580e216c",
+              "bytes": 492567,
+              "sourceKind": "new_generation",
+              "path": "S/02/default.png",
+              "status": "REVIEW_CANDIDATE"
+            }
+          },
+          "missingAssets": [
+            "pixel"
+          ]
+        },
+        {
+          "index": 3,
+          "durationMs": 160,
+          "assets": {
+            "normal": {
+              "sha256": "581593ff751947fd487a31d76835eed6a944e496f8bdbdf64d76f49c2468c215",
+              "bytes": 477403,
+              "sourceKind": "verified_reuse",
+              "path": "S/03/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "ab87c1412173f33b71aba8fe7168bbc1b5c60d936f18d419af4cda1480ef0e20",
+              "bytes": 8008,
+              "sourceKind": "new_generation",
+              "path": "S/03/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "581593ff751947fd487a31d76835eed6a944e496f8bdbdf64d76f49c2468c215"
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 160,
+          "assets": {
+            "normal": {
+              "sha256": "38cec6758dbfa753f0de86c10941377e7bfa253a9888f070fa90fc295ca79db4",
+              "bytes": 462252,
+              "sourceKind": "new_generation",
+              "path": "S/04/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "4b7e18e6f69ba14cb834d55aa9ab42e2355caad087371898e2216656c746fa52",
+              "bytes": 7376,
+              "sourceKind": "new_generation",
+              "path": "S/04/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "38cec6758dbfa753f0de86c10941377e7bfa253a9888f070fa90fc295ca79db4"
+            }
+          }
+        },
+        {
+          "index": 5,
+          "durationMs": 160,
+          "assets": {},
+          "missingAssets": [
+            "normal",
+            "pixel"
+          ]
+        },
+        {
+          "index": 6,
+          "durationMs": 160,
+          "assets": {},
+          "missingAssets": [
+            "normal",
+            "pixel"
+          ]
+        }
+      ],
+      "reviewSlotCount": 7,
+      "status": "LIMITED_REVIEW_NOT_RUNTIME_PASS"
+    }
+  },
+  "status": "INDIVIDUAL_SAFETY_HOLD",
+  "reviewSummary": {
+    "status": "INDIVIDUAL_SAFETY_HOLD",
+    "planned": 96,
+    "qualityHold": [
+      "S02pixel"
+    ],
+    "refusedTarget": "S05normal",
+    "retry": false,
+    "remainingUnattempted": true,
+    "reviewImages": 7,
+    "missingImages": 89,
+    "continuousPlayback": "not_verified",
+    "inGameValidation": "not_run",
+    "finalUserAcceptance": "pending",
+    "crossDirectionSynchronization": "unverified",
+    "notes": [
+      "Existing originals retained. No game code changes.",
+      "Candidates have static visual and technical checks; scale/support/light texture caveats remain.",
+      "Direction-specific fixed wholecanvas normalization; no per-frame shape warping or bbox fit."
+    ]
+  }
+}
