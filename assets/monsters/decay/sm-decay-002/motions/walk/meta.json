@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "monsterId": "sm-decay-002",
+  "motionId": "walk",
+  "framesPerDirection": 4,
+  "cycleMs": 880,
+  "directions": {
+    "S": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 220,
+          "assets": {
+            "normal": {
+              "sha256": "58d26ddcaf5ecadd5302ddbb54d9d144a7e5911b6dbcd16a0d34a06e26425904",
+              "bytes": 705236,
+              "sourceKind": "new_generation",
+              "path": "S/01/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "d65fb9bb00ece7d2ae09074693b11086c30db22fe70ea30fa9bc380edde342ed",
+              "bytes": 12041,
+              "sourceKind": "new_generation",
+              "path": "S/01/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "58d26ddcaf5ecadd5302ddbb54d9d144a7e5911b6dbcd16a0d34a06e26425904"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 220,
+          "assets": {
+            "normal": {
+              "sha256": "7c229581cf7076bd38b2f64439ef7d1d74465dbb62e443e650f60edadc805ebf",
+              "bytes": 736892,
+              "sourceKind": "new_generation",
+              "path": "S/02/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "dfabfa23cefb65aa76c777e1694d71ec94dc70ea1e1777f75ee65a6c6d328f2f",
+              "bytes": 12307,
+              "sourceKind": "new_generation",
+              "path": "S/02/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "7c229581cf7076bd38b2f64439ef7d1d74465dbb62e443e650f60edadc805ebf"
+            }
+          }
+        },
+        {
+          "index": 3,
+          "durationMs": 220,
+          "assets": {
+            "normal": {
+              "sha256": "b12971b55f83f2a740eb57d12fa10a32d29ec429bbfe13fba6c963f0c62d28a3",
+              "bytes": 738321,
+              "sourceKind": "verified_reuse",
+              "path": "S/03/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "4ad78ccd44fb0b2ef51d812ccc6289267461a5275cd247ad9eadbd6b0447afc0",
+              "bytes": 12109,
+              "sourceKind": "new_generation",
+              "path": "S/03/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "b12971b55f83f2a740eb57d12fa10a32d29ec429bbfe13fba6c963f0c62d28a3"
+            }
+          }
+        },
+        {
+          "index": 4,
+          "durationMs": 220,
+          "assets": {
+            "normal": {
+              "sha256": "cd22d626a2b96b843c5359b0c6669c279ea2d1749ee5b351bb0ef100a80ddf46",
+              "bytes": 736746,
+              "sourceKind": "new_generation",
+              "path": "S/04/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "4c32f11390d96f5f976c6e415c2583c2cc26c2f6ae2ac8ccc44da1b681683126",
+              "bytes": 12059,
+              "sourceKind": "new_generation",
+              "path": "S/04/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "cd22d626a2b96b843c5359b0c6669c279ea2d1749ee5b351bb0ef100a80ddf46"
+            }
+          }
+        }
+      ],
+      "reviewSlotCount": 8,
+      "status": "LIMITED_REVIEW_NOT_RUNTIME_PASS"
+    },
+    "SW": {
+      "frames": [
+        {
+          "index": 1,
+          "durationMs": 220,
+          "assets": {
+            "normal": {
+              "sha256": "af927b89ae3136b3c87bc7ad722332886eab972d5aee0558d044290e92ba973c",
+              "bytes": 638943,
+              "sourceKind": "new_generation",
+              "path": "SW/01/default.png",
+              "status": "REVIEW_CANDIDATE"
+            },
+            "pixel": {
+              "sha256": "5481f182696040d92b31dc0bc979d4c884e979fe758f992041c00941efc5eb22",
+              "bytes": 10944,
+              "sourceKind": "new_generation",
+              "path": "SW/01/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "parentNormalSha256": "af927b89ae3136b3c87bc7ad722332886eab972d5aee0558d044290e92ba973c"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "durationMs": 220,
+          "assets": {},
+          "missingAssets": [
+            "normal",
+            "pixel"
+          ]
+        },
+        {
+          "index": 3,
+          "durationMs": 220,
+          "assets": {},
+          "missingAssets": [
+            "normal",
+            "pixel"
+          ]
+        },
+        {
+          "index": 4,
+          "durationMs": 220,
+          "assets": {},
+          "missingAssets": [
+            "normal",
+            "pixel"
+          ]
+        }
+      ],
+      "reviewSlotCount": 2,
+      "status": "LIMITED_REVIEW_NOT_RUNTIME_PASS"
+    }
+  },
+  "status": "IN_PROGRESS_PARTIAL_REVIEW",
+  "reviewSummary": {
+    "status": "IN_PROGRESS_PARTIAL_REVIEW",
+    "planned": 64,
+    "next": "SW02normal",
+    "qualityHoldSlots": 0,
+    "caveats": [
+      "04 curl greater than02",
+      "pixel eye/wood pattern variation"
+    ],
+    "reviewImages": 10,
+    "missingImages": 54,
+    "continuousPlayback": "not_verified",
+    "inGameValidation": "not_run",
+    "finalUserAcceptance": "pending",
+    "crossDirectionSynchronization": "unverified",
+    "notes": [
+      "Existing originals retained. No game code changes.",
+      "Candidates have static visual and technical checks; scale/support/light texture caveats remain.",
+      "Direction-specific fixed wholecanvas normalization; no per-frame shape warping or bbox fit."
+    ]
+  }
+}
