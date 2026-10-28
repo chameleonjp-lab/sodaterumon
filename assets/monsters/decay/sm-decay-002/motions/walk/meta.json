@@ -121,47 +121,488 @@
         {
           "index": 2,
           "durationMs": 220,
-          "assets": {},
-          "missingAssets": [
-            "normal",
-            "pixel"
-          ]
+          "assets": {
+            "normal": {
+              "sha256": "4e8cf47301c1b6795e22e70030c6a50d746372b09eedc589497254953ca402ee",
+              "bytes": 608155,
+              "sourceKind": "new_generation",
+              "path": "SW/02/default.png",
+              "status": "REVIEW_CANDIDATE",
+              "technicalQA": {
+                "dimensions": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGBA",
+                "alphaBBox": [
+                  77,
+                  211,
+                  947,
+                  813
+                ],
+                "margins": [
+                  77,
+                  211,
+                  77,
+                  211
+                ],
+                "decode": "passed"
+              },
+              "provenance": {
+                "tool": "Built-in image_gen.imagegen",
+                "generationObservedAt": "2026-10-28T00:12:29Z",
+                "rawSha256": "530a027670643f639473d1bcbdc78ca408f4594d13dff1d54369c52d253a9831",
+                "referenceSha256": [
+                  "af927b89ae3136b3c87bc7ad722332886eab972d5aee0558d044290e92ba973c",
+                  "cce5d2c884cf0312ce196032bbfd41835a0faf61cfda1263e22cb8ab9e60be1f"
+                ],
+                "artPromptSha256": "0f271dd1f7d54cdf79d43397f3f9f3a5b4967e7ad31c374d73938537c1462bcb",
+                "expandedArtPrompt": "Use case: precise-object-edit / identity-preserve.\nAsset type: one normal illustrated walk-animation frame, sm-decay-002 (original game creature), SW direction, frame 02 of a 4 x 220 ms cycle.\nInput image 1 is the EDIT TARGET: exact SW walk frame 01, full 1024 by 1024 transparent canvas. Input image 2 is supporting identity/camera reference, the SW neutral original.\nPrimary request: Preserve this exact creature and exact southwest/front-left facing camera. Make ONLY the small leg-pose change needed for walk phase 02: keep the currently supporting diagonal feet firmly at their identical canvas contact points; swing the other diagonal feet forward toward the snout (image-left), slightly lifted and naturally bent.\nLeg identification from image 1: the large near FRONT root foot at bottom-center (roughly x395 y785) and the small far REAR root foot under the middle-right body (roughly x515 y680) are the planted supporting diagonal; keep both feet and their ground contact locations unchanged. The far FRONT foot under the snout (roughly x220 y730) and the large near REAR foot at image-right (roughly x770 y690) are the moving diagonal; send these two feet forward toward image-left while lifted, without adding legs.\nLocked design: one horizontal hollow-log quadruped made of three short wood tube segments, exactly FOUR bent woody legs with branching root feet, exactly TWO olive eyes at the front opening, ZERO wings, ONE broad rounded bark-paddle tail, ONE central sprout with exactly TWO leaves. Keep head, tube torso, fungal lattice bands, bark details, moss patches, eye shape, upper-thick opening rim, sprout, tail silhouette and texture at their same positions and scale as target. The sprout stays fixed. Tail remains almost rigid with only negligible trailing motion. No teeth, red interior, extra horns, bones, added feet, branches or leaves.\nCanvas/framing: output one 1024x1024 RGBA image with genuine transparent background. EXACT same full-canvas registration, body scale, camera and framing as target; do not crop, recenter, zoom, rotate, mirror, bbox-fit or stretch the creature. Keep all empty transparent margins. Only the intended swing limbs change; preserve other image content.\nStyle: same cohesive hand-drawn painterly 2D game illustration and brown bark/ivory fungus/olive palette; same soft upper-left illumination. Transparent background, no floor or cast shadow, no text, grid, labels, outlines drawn around the canvas, or sprite sheet.",
+                "processing": [
+                  {
+                    "method": "Fixed proportional full-canvas LANCZOS normalization; no crop, bbox-fit, rotation, translation or local warp.",
+                    "inputDimensions": [
+                      1254,
+                      1254
+                    ],
+                    "outputDimensions": [
+                      1024,
+                      1024
+                    ],
+                    "scale": 0.8165869218500797,
+                    "offset": [
+                      0,
+                      0
+                    ],
+                    "inputSha256": "530a027670643f639473d1bcbdc78ca408f4594d13dff1d54369c52d253a9831",
+                    "outputSha256": "840869e070e9b19ebe441727874cd2fac089e5bcaa3b50c6468abd722252b867"
+                  },
+                  {
+                    "method": "Deterministic alpha-byte cleanup on a separate copy: only alpha exactly 1 changed to 0. RGB and every other alpha byte are unchanged. No shape or visible-mask edit.",
+                    "inputSha256": "840869e070e9b19ebe441727874cd2fac089e5bcaa3b50c6468abd722252b867",
+                    "outputSha256": "4e8cf47301c1b6795e22e70030c6a50d746372b09eedc589497254953ca402ee",
+                    "changedAlpha1Pixels": 4947,
+                    "rgbExactUnchanged": true,
+                    "otherAlphaExactUnchanged": true,
+                    "alphaGE2MaskExactUnchanged": true,
+                    "alphaGE128MaskExactUnchanged": true
+                  }
+                ],
+                "originalsRetained": true
+              }
+            },
+            "pixel": {
+              "sha256": "22ec05b704500d5826f8e88b2b7c199b860742bf9112cd504e498b9bf3700f5b",
+              "bytes": 10750,
+              "sourceKind": "manual_fixed_grid_edit",
+              "path": "SW/02/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "technicalQA": {
+                "dimensions": [
+                  128,
+                  128
+                ],
+                "mode": "RGBA",
+                "alphaBBox": [
+                  9,
+                  26,
+                  119,
+                  104
+                ],
+                "margins": [
+                  9,
+                  26,
+                  9,
+                  24
+                ],
+                "decode": "passed"
+              },
+              "parentNormalSha256": "af927b89ae3136b3c87bc7ad722332886eab972d5aee0558d044290e92ba973c",
+              "pairedNormalSha256": "4e8cf47301c1b6795e22e70030c6a50d746372b09eedc589497254953ca402ee",
+              "provenance": {
+                "method": "Deterministic native 128-grid leg-region edits on a separate copy of an existing independently produced pixel image. Reuses source pixel colors; no normal-image conversion, interpolation, crop, recentering or whole-sprite transform.",
+                "sourcePath": "assets/monsters/decay/sm-decay-002/motions/walk/SW/01/pixel.png",
+                "sourceSha256": "5481f182696040d92b31dc0bc979d4c884e979fe758f992041c00941efc5eb22",
+                "sourcePixelSha256": "5481f182696040d92b31dc0bc979d4c884e979fe758f992041c00941efc5eb22",
+                "sourceCommit": "0ca261284f3386befd329cb8d9b8fbd2cb9d8d4b",
+                "sourcePixelParentNormalSha256": "af927b89ae3136b3c87bc7ad722332886eab972d5aee0558d044290e92ba973c",
+                "pairingNote": "parentNormalSha256 retains the original pixel-source lineage; pairedNormalSha256 identifies the current static-review normal counterpart, not a new generation reference.",
+                "movingLegs": [
+                  "far_front_swing",
+                  "near_hind_swing"
+                ],
+                "allowedPolygons": [
+                  [
+                    [
+                      18,
+                      83
+                    ],
+                    [
+                      40,
+                      83
+                    ],
+                    [
+                      40,
+                      96
+                    ],
+                    [
+                      18,
+                      96
+                    ]
+                  ],
+                  [
+                    [
+                      83,
+                      76
+                    ],
+                    [
+                      107,
+                      76
+                    ],
+                    [
+                      107,
+                      95
+                    ],
+                    [
+                      78,
+                      95
+                    ],
+                    [
+                      78,
+                      81
+                    ],
+                    [
+                      81,
+                      79
+                    ],
+                    [
+                      83,
+                      78
+                    ]
+                  ]
+                ],
+                "protectedRectanglesHalfOpen": [
+                  [
+                    0,
+                    0,
+                    128,
+                    76
+                  ],
+                  [
+                    0,
+                    76,
+                    78,
+                    83
+                  ],
+                  [
+                    40,
+                    83,
+                    74,
+                    105
+                  ]
+                ],
+                "changedPixels": 378,
+                "outsideAllowedChangedPixels": 0,
+                "protectedChangedPixels": 0,
+                "visibleColors": 32,
+                "paletteSubsetOfSource": true,
+                "originalsRetained": true,
+                "editDiffSha256": "753425c272b206924d56c25e4ba9cfca14a751984058b716b845c13eaf060b0d"
+              }
+            }
+          },
+          "missingAssets": []
         },
         {
           "index": 3,
           "durationMs": 220,
-          "assets": {},
-          "missingAssets": [
-            "normal",
-            "pixel"
-          ]
+          "assets": {
+            "normal": {
+              "sha256": "cce5d2c884cf0312ce196032bbfd41835a0faf61cfda1263e22cb8ab9e60be1f",
+              "bytes": 656508,
+              "sourceKind": "verified_reuse",
+              "path": "SW/03/default.png",
+              "status": "REVIEW_CANDIDATE",
+              "technicalQA": {
+                "dimensions": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGBA",
+                "alphaBBox": [
+                  80,
+                  214,
+                  944,
+                  809
+                ],
+                "margins": [
+                  80,
+                  214,
+                  80,
+                  215
+                ],
+                "decode": "passed"
+              },
+              "provenance": {
+                "method": "Exact byte reuse of the existing SW direction image; no image processing.",
+                "sourcePath": "assets/monsters/decay/sm-decay-002/directions/SW/default.png",
+                "sourceSha256": "cce5d2c884cf0312ce196032bbfd41835a0faf61cfda1263e22cb8ab9e60be1f",
+                "sourceGitBlob": "cee9ee16f0e03d9038cef646338b6b0aa7bdceb8",
+                "sourceCommit": "0ca261284f3386befd329cb8d9b8fbd2cb9d8d4b"
+              }
+            },
+            "pixel": {
+              "sha256": "ddbf65b0ea5c5f6460f396ab6436e630e0e540b6235e1544d7500014943f2b10",
+              "bytes": 11016,
+              "sourceKind": "verified_reuse",
+              "path": "SW/03/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "technicalQA": {
+                "dimensions": [
+                  128,
+                  128
+                ],
+                "mode": "RGBA",
+                "alphaBBox": [
+                  10,
+                  25,
+                  118,
+                  103
+                ],
+                "margins": [
+                  10,
+                  25,
+                  10,
+                  25
+                ],
+                "decode": "passed"
+              },
+              "provenance": {
+                "method": "Exact byte reuse of the existing SW direction image; no image processing.",
+                "sourcePath": "assets/monsters/decay/sm-decay-002/directions/SW/pixel.png",
+                "sourceSha256": "ddbf65b0ea5c5f6460f396ab6436e630e0e540b6235e1544d7500014943f2b10",
+                "sourceGitBlob": "b367716f7fb54dc281f6ca9fd442e629f0513e3a",
+                "sourceCommit": "0ca261284f3386befd329cb8d9b8fbd2cb9d8d4b"
+              },
+              "parentNormalSha256": "cce5d2c884cf0312ce196032bbfd41835a0faf61cfda1263e22cb8ab9e60be1f",
+              "pairedNormalSha256": "cce5d2c884cf0312ce196032bbfd41835a0faf61cfda1263e22cb8ab9e60be1f"
+            }
+          },
+          "missingAssets": []
         },
         {
           "index": 4,
           "durationMs": 220,
-          "assets": {},
-          "missingAssets": [
-            "normal",
-            "pixel"
-          ]
+          "assets": {
+            "normal": {
+              "sha256": "a4dfb67c05933057e1a86de702adc51dc65394b59f05daf07939abcef839e6b6",
+              "bytes": 602984,
+              "sourceKind": "new_generation",
+              "path": "SW/04/default.png",
+              "status": "REVIEW_CANDIDATE",
+              "technicalQA": {
+                "dimensions": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGBA",
+                "alphaBBox": [
+                  77,
+                  212,
+                  947,
+                  766
+                ],
+                "margins": [
+                  77,
+                  212,
+                  77,
+                  258
+                ],
+                "decode": "passed"
+              },
+              "provenance": {
+                "tool": "Built-in image_gen.imagegen",
+                "generationObservedAt": "2026-10-28T00:18:38Z",
+                "rawSha256": "f27cce21a296748e8bd5edf5b6983847058d5c537abe80349d03cd9dbde310f0",
+                "referenceSha256": [
+                  "cce5d2c884cf0312ce196032bbfd41835a0faf61cfda1263e22cb8ab9e60be1f",
+                  "af927b89ae3136b3c87bc7ad722332886eab972d5aee0558d044290e92ba973c"
+                ],
+                "artPromptSha256": "b61c5d6eeb6bb85861fad141586de77d4e22475477502b67922d48770deed2e8",
+                "expandedArtPrompt": "Use case: precise-object-edit / identity-preserve.\nAsset type: one normal illustrated walk-animation frame, original creature sm-decay-002, SW direction, frame04 of4, each220ms.\nImage1 is EDIT TARGET, the SW phase03 planted reference. Image2 is phase01 for continuity. Preserve the exact camera, southwest/front-left direction and full-canvas registration.\nWalk phase04: transfer support to the feet that came forward in phase03 (the far FRONT root foot under the snout at about x165 y738 and the large near REAR root foot at image-right about x700 y707). Keep BOTH these planted feet and their contact positions exactly unchanged. Recover ONLY the opposite diagonal that previously supported phase01/02: lift the large near FRONT foot at bottom-center (about x395 y785) and the small far REAR foot under the middle body (about x515 y680), bending and moving them mildly forward toward the snout/image-left. Four legs only. A restrained walking motion, not jumping or leaping; phase04 should flow back into image2 phase01 without head/body/camera jump. Show lifted root toes compactly and naturally, without exaggerated clenched curls.\nLocked identity and all other content: horizontal torso of THREE short hollow wooden tube segments, FOUR bent woody root-foot legs, exactly TWO olive eyes flanking the front opening, ZERO wings, ONE broad rounded bark-paddle tail, ONE central sprout with exactly TWO leaves. Keep head and mouth aperture, eye placement, body scale, torso, fungal lattice bands, bark texture, moss patches, sprout and tail silhouette at same canvas positions and size as target. Sprout fixed; tail almost rigid with only negligible trailing motion. No teeth, red interior, horns, bones, added roots/feet/leaves/branches.\nComposition: one 1024x1024 transparent RGBA sprite. Same complete canvas, framing, margins, center and whole-body scale. NO crop, bbox-fit, translation, mirroring, rotation, zoom, local warp or redesign. Body and the newly planted supporting feet remain fixed; only named recovery legs move.\nStyle: exact original brown bark / ivory fungus / olive palette, painterly hand-drawn2D game illustration, same soft upper-left lighting. Transparent background, exactly alpha0 empty margins with no disconnected speckles or stray low-alpha noise; no cast shadow/floor/glow, text, grid, sheet, labels or watermark.",
+                "processing": [
+                  {
+                    "method": "Fixed proportional full-canvas LANCZOS normalization; no crop, bbox-fit, rotation, translation or local warp.",
+                    "inputDimensions": [
+                      1254,
+                      1254
+                    ],
+                    "outputDimensions": [
+                      1024,
+                      1024
+                    ],
+                    "scale": 0.8165869218500797,
+                    "offset": [
+                      0,
+                      0
+                    ],
+                    "inputSha256": "f27cce21a296748e8bd5edf5b6983847058d5c537abe80349d03cd9dbde310f0",
+                    "outputSha256": "512d465370e19a2ab54ab4b3e79a6c09b1769ee632bffb20e437566b2fd28652"
+                  },
+                  {
+                    "method": "Deterministic alpha-byte cleanup on a separate copy: only alpha exactly 1 changed to 0. RGB and every other alpha byte are unchanged. No shape or visible-mask edit.",
+                    "inputSha256": "512d465370e19a2ab54ab4b3e79a6c09b1769ee632bffb20e437566b2fd28652",
+                    "outputSha256": "a4dfb67c05933057e1a86de702adc51dc65394b59f05daf07939abcef839e6b6",
+                    "changedAlpha1Pixels": 4071,
+                    "rgbExactUnchanged": true,
+                    "otherAlphaExactUnchanged": true,
+                    "alphaGE2MaskExactUnchanged": true,
+                    "alphaGE128MaskExactUnchanged": true
+                  }
+                ],
+                "originalsRetained": true
+              }
+            },
+            "pixel": {
+              "sha256": "20d859fb0ef35deabb5cf52615c5a12d97612279bbf3fd1d13ba643aadd3862c",
+              "bytes": 10632,
+              "sourceKind": "manual_fixed_grid_edit",
+              "path": "SW/04/pixel.png",
+              "status": "REVIEW_CANDIDATE",
+              "technicalQA": {
+                "dimensions": [
+                  128,
+                  128
+                ],
+                "mode": "RGBA",
+                "alphaBBox": [
+                  10,
+                  25,
+                  118,
+                  97
+                ],
+                "margins": [
+                  10,
+                  25,
+                  10,
+                  31
+                ],
+                "decode": "passed"
+              },
+              "parentNormalSha256": "cce5d2c884cf0312ce196032bbfd41835a0faf61cfda1263e22cb8ab9e60be1f",
+              "pairedNormalSha256": "a4dfb67c05933057e1a86de702adc51dc65394b59f05daf07939abcef839e6b6",
+              "provenance": {
+                "method": "Deterministic native 128-grid leg-region edits on a separate copy of an existing independently produced pixel image. Reuses source pixel colors; no normal-image conversion, interpolation, crop, recentering or whole-sprite transform.",
+                "sourcePath": "assets/monsters/decay/sm-decay-002/directions/SW/pixel.png",
+                "sourceSha256": "ddbf65b0ea5c5f6460f396ab6436e630e0e540b6235e1544d7500014943f2b10",
+                "sourcePixelSha256": "ddbf65b0ea5c5f6460f396ab6436e630e0e540b6235e1544d7500014943f2b10",
+                "sourceCommit": "0ca261284f3386befd329cb8d9b8fbd2cb9d8d4b",
+                "sourcePixelParentNormalSha256": "cce5d2c884cf0312ce196032bbfd41835a0faf61cfda1263e22cb8ab9e60be1f",
+                "pairingNote": "parentNormalSha256 retains the original pixel-source lineage; pairedNormalSha256 identifies the current static-review normal counterpart, not a new generation reference.",
+                "movingLegs": [
+                  "near_front_recovery",
+                  "far_hind_recovery"
+                ],
+                "allowedPolygons": [
+                  [
+                    [
+                      40,
+                      82
+                    ],
+                    [
+                      61,
+                      82
+                    ],
+                    [
+                      61,
+                      104
+                    ],
+                    [
+                      40,
+                      104
+                    ]
+                  ],
+                  [
+                    [
+                      58,
+                      82
+                    ],
+                    [
+                      75,
+                      82
+                    ],
+                    [
+                      75,
+                      92
+                    ],
+                    [
+                      58,
+                      92
+                    ]
+                  ]
+                ],
+                "protectedRectanglesHalfOpen": [
+                  [
+                    0,
+                    0,
+                    128,
+                    82
+                  ],
+                  [
+                    0,
+                    82,
+                    40,
+                    105
+                  ],
+                  [
+                    76,
+                    82,
+                    128,
+                    105
+                  ]
+                ],
+                "changedPixels": 341,
+                "outsideAllowedChangedPixels": 0,
+                "protectedChangedPixels": 0,
+                "visibleColors": 30,
+                "paletteSubsetOfSource": true,
+                "originalsRetained": true,
+                "editDiffSha256": "e71db9426977a9bac0af22ec9dba83f551306307e9b9002c140f1d2fdec99349"
+              }
+            }
+          },
+          "missingAssets": []
         }
       ],
-      "reviewSlotCount": 2,
-      "status": "LIMITED_REVIEW_NOT_RUNTIME_PASS"
+      "reviewSlotCount": 8,
+      "status": "LIMITED_REVIEW_NOT_RUNTIME_PASS",
+      "staticReview": {
+        "status": "REVIEW_CANDIDATE",
+        "scope": "Static per-frame technical, direction, anatomy, foot-connection, support-registration and pose checks only; not continuous animation acceptance.",
+        "continuousPlayback": "not_verified",
+        "loop04To01": "not_verified",
+        "iPhoneDeviceValidation": "not_run",
+        "inGameValidation": "not_run",
+        "finalUserAcceptance": "pending",
+        "independentEvidenceSha256": "4438b72aa181b6ec32d8cd788f8bec60a40f715c36ce4a3006a8b634376eb813",
+        "independentVerdict": "INDEPENDENT_STATIC_REVIEW_CANDIDATE_PASS_NOT_RUNTIME_ACCEPTANCE"
+      }
     }
   },
   "status": "IN_PROGRESS_PARTIAL_REVIEW",
   "reviewSummary": {
     "status": "IN_PROGRESS_PARTIAL_REVIEW",
     "planned": 64,
-    "next": "SW02normal",
+    "next": "SW_continuous_playback_and_device_review",
     "qualityHoldSlots": 0,
     "caveats": [
       "04 curl greater than02",
-      "pixel eye/wood pattern variation"
+      "pixel eye/wood pattern variation",
+      "SW01-versus-SW03 pixel eye/face and wood-pattern variation already exists in the unchanged source pair and remains visible in the cycle.",
+      "Manual pixel row edits leave slightly angular or flattened toe articulation. Static readability does not establish continuous-playback smoothness; the 04-to-01 seam remains unverified."
     ],
-    "reviewImages": 10,
-    "missingImages": 54,
+    "reviewImages": 16,
+    "missingImages": 48,
     "continuousPlayback": "not_verified",
     "inGameValidation": "not_run",
     "finalUserAcceptance": "pending",
@@ -169,7 +610,338 @@
     "notes": [
       "Existing originals retained. No game code changes.",
       "Candidates have static visual and technical checks; scale/support/light texture caveats remain.",
-      "Direction-specific fixed wholecanvas normalization; no per-frame shape warping or bbox fit."
+      "Direction-specific fixed wholecanvas normalization; no per-frame shape warping or bbox fit.",
+      "SW02/03/04 normal and pixel assets are static REVIEW_CANDIDATE additions, not runtime or final acceptance.",
+      "SW02/04 normal alpha=1-only cleanup preserves RGB and alpha>=2 content; selected pixel variants use fixed-grid leg edits with unchanged protected body/support pixels.",
+      "Prior generated pixel attempts remain HOLD and are excluded from the selected review-image count; their raw hashes and failure reasons remain in productionHistory.",
+      "The 16/64 count includes the existing 10 review images and six new candidates; it is not a completion count."
     ]
-  }
+  },
+  "metadataHistory": [
+    {
+      "recordedOn": "2026-10-28",
+      "reason": "Preserve the complete prior metadata before adding six SW static candidates.",
+      "baseCommit": "0ca261284f3386befd329cb8d9b8fbd2cb9d8d4b",
+      "previousMetaGitBlob": "d63f477e8fcc687a731a92a135c3b7424a81f8d0",
+      "snapshot": {
+        "schemaVersion": 1,
+        "monsterId": "sm-decay-002",
+        "motionId": "walk",
+        "framesPerDirection": 4,
+        "cycleMs": 880,
+        "directions": {
+          "S": {
+            "frames": [
+              {
+                "index": 1,
+                "durationMs": 220,
+                "assets": {
+                  "normal": {
+                    "sha256": "58d26ddcaf5ecadd5302ddbb54d9d144a7e5911b6dbcd16a0d34a06e26425904",
+                    "bytes": 705236,
+                    "sourceKind": "new_generation",
+                    "path": "S/01/default.png",
+                    "status": "REVIEW_CANDIDATE"
+                  },
+                  "pixel": {
+                    "sha256": "d65fb9bb00ece7d2ae09074693b11086c30db22fe70ea30fa9bc380edde342ed",
+                    "bytes": 12041,
+                    "sourceKind": "new_generation",
+                    "path": "S/01/pixel.png",
+                    "status": "REVIEW_CANDIDATE",
+                    "parentNormalSha256": "58d26ddcaf5ecadd5302ddbb54d9d144a7e5911b6dbcd16a0d34a06e26425904"
+                  }
+                }
+              },
+              {
+                "index": 2,
+                "durationMs": 220,
+                "assets": {
+                  "normal": {
+                    "sha256": "7c229581cf7076bd38b2f64439ef7d1d74465dbb62e443e650f60edadc805ebf",
+                    "bytes": 736892,
+                    "sourceKind": "new_generation",
+                    "path": "S/02/default.png",
+                    "status": "REVIEW_CANDIDATE"
+                  },
+                  "pixel": {
+                    "sha256": "dfabfa23cefb65aa76c777e1694d71ec94dc70ea1e1777f75ee65a6c6d328f2f",
+                    "bytes": 12307,
+                    "sourceKind": "new_generation",
+                    "path": "S/02/pixel.png",
+                    "status": "REVIEW_CANDIDATE",
+                    "parentNormalSha256": "7c229581cf7076bd38b2f64439ef7d1d74465dbb62e443e650f60edadc805ebf"
+                  }
+                }
+              },
+              {
+                "index": 3,
+                "durationMs": 220,
+                "assets": {
+                  "normal": {
+                    "sha256": "b12971b55f83f2a740eb57d12fa10a32d29ec429bbfe13fba6c963f0c62d28a3",
+                    "bytes": 738321,
+                    "sourceKind": "verified_reuse",
+                    "path": "S/03/default.png",
+                    "status": "REVIEW_CANDIDATE"
+                  },
+                  "pixel": {
+                    "sha256": "4ad78ccd44fb0b2ef51d812ccc6289267461a5275cd247ad9eadbd6b0447afc0",
+                    "bytes": 12109,
+                    "sourceKind": "new_generation",
+                    "path": "S/03/pixel.png",
+                    "status": "REVIEW_CANDIDATE",
+                    "parentNormalSha256": "b12971b55f83f2a740eb57d12fa10a32d29ec429bbfe13fba6c963f0c62d28a3"
+                  }
+                }
+              },
+              {
+                "index": 4,
+                "durationMs": 220,
+                "assets": {
+                  "normal": {
+                    "sha256": "cd22d626a2b96b843c5359b0c6669c279ea2d1749ee5b351bb0ef100a80ddf46",
+                    "bytes": 736746,
+                    "sourceKind": "new_generation",
+                    "path": "S/04/default.png",
+                    "status": "REVIEW_CANDIDATE"
+                  },
+                  "pixel": {
+                    "sha256": "4c32f11390d96f5f976c6e415c2583c2cc26c2f6ae2ac8ccc44da1b681683126",
+                    "bytes": 12059,
+                    "sourceKind": "new_generation",
+                    "path": "S/04/pixel.png",
+                    "status": "REVIEW_CANDIDATE",
+                    "parentNormalSha256": "cd22d626a2b96b843c5359b0c6669c279ea2d1749ee5b351bb0ef100a80ddf46"
+                  }
+                }
+              }
+            ],
+            "reviewSlotCount": 8,
+            "status": "LIMITED_REVIEW_NOT_RUNTIME_PASS"
+          },
+          "SW": {
+            "frames": [
+              {
+                "index": 1,
+                "durationMs": 220,
+                "assets": {
+                  "normal": {
+                    "sha256": "af927b89ae3136b3c87bc7ad722332886eab972d5aee0558d044290e92ba973c",
+                    "bytes": 638943,
+                    "sourceKind": "new_generation",
+                    "path": "SW/01/default.png",
+                    "status": "REVIEW_CANDIDATE"
+                  },
+                  "pixel": {
+                    "sha256": "5481f182696040d92b31dc0bc979d4c884e979fe758f992041c00941efc5eb22",
+                    "bytes": 10944,
+                    "sourceKind": "new_generation",
+                    "path": "SW/01/pixel.png",
+                    "status": "REVIEW_CANDIDATE",
+                    "parentNormalSha256": "af927b89ae3136b3c87bc7ad722332886eab972d5aee0558d044290e92ba973c"
+                  }
+                }
+              },
+              {
+                "index": 2,
+                "durationMs": 220,
+                "assets": {},
+                "missingAssets": [
+                  "normal",
+                  "pixel"
+                ]
+              },
+              {
+                "index": 3,
+                "durationMs": 220,
+                "assets": {},
+                "missingAssets": [
+                  "normal",
+                  "pixel"
+                ]
+              },
+              {
+                "index": 4,
+                "durationMs": 220,
+                "assets": {},
+                "missingAssets": [
+                  "normal",
+                  "pixel"
+                ]
+              }
+            ],
+            "reviewSlotCount": 2,
+            "status": "LIMITED_REVIEW_NOT_RUNTIME_PASS"
+          }
+        },
+        "status": "IN_PROGRESS_PARTIAL_REVIEW",
+        "reviewSummary": {
+          "status": "IN_PROGRESS_PARTIAL_REVIEW",
+          "planned": 64,
+          "next": "SW02normal",
+          "qualityHoldSlots": 0,
+          "caveats": [
+            "04 curl greater than02",
+            "pixel eye/wood pattern variation"
+          ],
+          "reviewImages": 10,
+          "missingImages": 54,
+          "continuousPlayback": "not_verified",
+          "inGameValidation": "not_run",
+          "finalUserAcceptance": "pending",
+          "crossDirectionSynchronization": "unverified",
+          "notes": [
+            "Existing originals retained. No game code changes.",
+            "Candidates have static visual and technical checks; scale/support/light texture caveats remain.",
+            "Direction-specific fixed wholecanvas normalization; no per-frame shape warping or bbox fit."
+          ]
+        }
+      }
+    }
+  ],
+  "productionHistory": [
+    {
+      "direction": "SW",
+      "frame": "02",
+      "variant": "normal",
+      "attempt": 1,
+      "tool": "Built-in image_gen.imagegen",
+      "observedAt": "2026-10-28T00:12:29Z",
+      "rawSha256": "530a027670643f639473d1bcbdc78ca408f4594d13dff1d54369c52d253a9831",
+      "processedSha256": "840869e070e9b19ebe441727874cd2fac089e5bcaa3b50c6468abd722252b867",
+      "referenceSha256": [
+        "af927b89ae3136b3c87bc7ad722332886eab972d5aee0558d044290e92ba973c",
+        "cce5d2c884cf0312ce196032bbfd41835a0faf61cfda1263e22cb8ab9e60be1f"
+      ],
+      "artPromptSha256": "0f271dd1f7d54cdf79d43397f3f9f3a5b4967e7ad31c374d73938537c1462bcb",
+      "recordedStatus": "SELECTED_STATIC_POSE_CANDIDATE_ALPHA_HOLD",
+      "currentDisposition": "Input retained; alpha hold resolved only in the separate selected alpha=1-cleaned derivative.",
+      "reason": "Low-alpha background speckles in the retained pre-cleanup candidate.",
+      "originalsRetained": true
+    },
+    {
+      "direction": "SW",
+      "frame": "02",
+      "variant": "normal",
+      "attempt": 2,
+      "tool": "Built-in image_gen.imagegen",
+      "observedAt": "2026-10-28T00:15:34Z",
+      "rawSha256": "41e20a20eec5ceb82158c2138ab6a88106bdd62a26b6e4b6854585480e53e549",
+      "processedSha256": "5d660f3804944e58d16e698da4151afd7e7c7cb03c2fcb48b9db301ac7dcd8f1",
+      "referenceSha256": [
+        "840869e070e9b19ebe441727874cd2fac089e5bcaa3b50c6468abd722252b867"
+      ],
+      "artPromptSha256": "4a6fd938c68de7fd27cb43fbcdebc6b0ca86b8888941631d9aaf79a794c8da0d",
+      "recordedStatus": "NOT_SELECTED_RETAINED",
+      "currentDisposition": "Not selected; retained unchanged.",
+      "reason": "Requested built-in cleanup did not eliminate low-alpha background speckles and slightly changed tail. No further cleanup retries.",
+      "originalsRetained": true
+    },
+    {
+      "direction": "SW",
+      "frame": "04",
+      "variant": "normal",
+      "attempt": 1,
+      "tool": "Built-in image_gen.imagegen",
+      "observedAt": "2026-10-28T00:18:38Z",
+      "rawSha256": "f27cce21a296748e8bd5edf5b6983847058d5c537abe80349d03cd9dbde310f0",
+      "processedSha256": "512d465370e19a2ab54ab4b3e79a6c09b1769ee632bffb20e437566b2fd28652",
+      "referenceSha256": [
+        "cce5d2c884cf0312ce196032bbfd41835a0faf61cfda1263e22cb8ab9e60be1f",
+        "af927b89ae3136b3c87bc7ad722332886eab972d5aee0558d044290e92ba973c"
+      ],
+      "artPromptSha256": "b61c5d6eeb6bb85861fad141586de77d4e22475477502b67922d48770deed2e8",
+      "recordedStatus": "SELECTED_STATIC_POSE_CANDIDATE_ALPHA_HOLD",
+      "currentDisposition": "Input retained; alpha hold resolved only in the separate selected alpha=1-cleaned derivative.",
+      "reason": "Low-alpha background speckles in the retained pre-cleanup candidate.",
+      "originalsRetained": true
+    },
+    {
+      "direction": "SW",
+      "frame": "02",
+      "variant": "pixel",
+      "attempt": 1,
+      "tool": "Built-in image_gen.imagegen",
+      "rawSha256": "af3f175eeb506a8078a2553f5764662c4762fcabb366eae756ac199cc7db3374",
+      "processedSha256": "ef1e13a0e69909bf1d9112cc1cff6b1f290511588acb9094689062ea5000f7b9",
+      "referenceSha256": [
+        "840869e070e9b19ebe441727874cd2fac089e5bcaa3b50c6468abd722252b867",
+        "5481f182696040d92b31dc0bc979d4c884e979fe758f992041c00941efc5eb22"
+      ],
+      "artPromptSha256": "a5994344054da59776a56b35dfff1223297b28074e9e279fec92fdc909f9d03b",
+      "processing": "Independent pixel generation; full-canvas NEAREST 128-grid restoration, alpha threshold 128, median-cut 24 colors without dithering. No crop or recenter.",
+      "status": "HOLD",
+      "reasons": [
+        "Right transparent margin6px<8; near-front supporting foot drifts approximately(+2.57,+1.80)logicalpx and bottom104->107; near-hind swing does not reproduce normal02 forward step."
+      ],
+      "selected": false,
+      "originalsRetained": true
+    },
+    {
+      "direction": "SW",
+      "frame": "02",
+      "variant": "pixel",
+      "attempt": 2,
+      "tool": "Built-in image_gen.imagegen",
+      "rawSha256": "7b5da126642f94e538d46cd202c152ed2f926edbe1f65518f6070ac3fef555a6",
+      "processedSha256": "d28e6104a3cb2e86a6120a760a1e47338d2040c5266209c868fefcd959a4ebe2",
+      "referenceSha256": [
+        "5481f182696040d92b31dc0bc979d4c884e979fe758f992041c00941efc5eb22",
+        "840869e070e9b19ebe441727874cd2fac089e5bcaa3b50c6468abd722252b867"
+      ],
+      "artPromptSha256": "d9cab34939a19dae84a4770a2d68a22c3dbe9441736ac13eaa5ee52bfd5ed9a9",
+      "processing": "Independent pixel generation; full-canvas NEAREST 128-grid restoration, alpha threshold 128, median-cut 24 colors without dithering. No crop or recenter.",
+      "status": "HOLD",
+      "reasons": [
+        "Right transparent margin7px<8; support foot bottom104->101; near-hind swing improved but body/contact registration still differs."
+      ],
+      "selected": false,
+      "originalsRetained": true
+    },
+    {
+      "direction": "SW",
+      "frame": "04",
+      "variant": "pixel",
+      "attempt": 1,
+      "tool": "Built-in image_gen.imagegen",
+      "rawSha256": "31637626b65b2474033795e5a1b4b1e03e4968ff1902b8863fe2e1254b81b236",
+      "processedSha256": "9b0fe83dd1f2c3fc05bf1eaf3b863f28d16e728cdc3fa95614e3b2b7fe3283b7",
+      "referenceSha256": [
+        "ddbf65b0ea5c5f6460f396ab6436e630e0e540b6235e1544d7500014943f2b10",
+        "512d465370e19a2ab54ab4b3e79a6c09b1769ee632bffb20e437566b2fd28652"
+      ],
+      "artPromptSha256": "06ae8fa81c612d8e601c502af4ce353d35cfaef9f67dffb9b845afffd8cdfb1d",
+      "processing": "Independent pixel generation; full-canvas NEAREST 128-grid restoration, alpha threshold 128, median-cut 24 colors without dithering. No crop or recenter.",
+      "status": "HOLD",
+      "reasons": [
+        "Technical128x128, alpha0/255, visible23 colors and padding pass.",
+        "Wrong support registration relative to03: far-front centroid(+1.98,+0.54)logicalpx, near-hind(-1.22,+2.08)logicalpx; footmask IoU0.587/0.465. Face box shifts right2/down4, sprout shrinks/moves down. Correct moving-leg pair but not same fixed registration."
+      ],
+      "selected": false,
+      "originalsRetained": true
+    },
+    {
+      "direction": "SW",
+      "frame": "04",
+      "variant": "pixel",
+      "attempt": 2,
+      "tool": "Built-in image_gen.imagegen",
+      "rawSha256": "ed2484a70f97c5caa6cc4b7650b44d86b7eb62e2942e7f0698e338052b57c402",
+      "processedSha256": "4e49bd380635d70a25748f3b2818ef35ec518e1b956ea4bd8b2f7a35f3e8c5c7",
+      "referenceSha256": [
+        "ddbf65b0ea5c5f6460f396ab6436e630e0e540b6235e1544d7500014943f2b10",
+        "512d465370e19a2ab54ab4b3e79a6c09b1769ee632bffb20e437566b2fd28652"
+      ],
+      "artPromptSha256": "7b3a6e231fc42c3c506f517115d2299cc428cda108f1169b0910b3558fe41b36",
+      "processing": "Independent pixel generation; full-canvas NEAREST 128-grid restoration, alpha threshold 128, median-cut 24 colors without dithering. No crop or recenter.",
+      "status": "HOLD",
+      "reasons": [
+        "Final bounded retry: explicit native128 coordinate/region locks still not preserved. Right margin3px<8 and extent117>112; whole sprite enlarged.",
+        "Not selected as held comparison representative;04v1 remains the less-bad held candidate."
+      ],
+      "selected": false,
+      "originalsRetained": true
+    }
+  ]
 }
